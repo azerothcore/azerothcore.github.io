@@ -1,8 +1,9 @@
 var a25926 =
 [
-    [ "HandleDummy", "d8/d3b/a25926.html#ae396c96647e36da357bdc70e11e3145f", null ],
-    [ "Load", "d8/d3b/a25926.html#a2b4811bf7e60361e13bc382e62173cee", null ],
-    [ "PrepareSpellScript", "d8/d3b/a25926.html#ac97d07fb0d964bf3fb29d8bee57fc8e7", null ],
-    [ "Register", "d8/d3b/a25926.html#a7c6aa891b012a0e1820fbe67976d68fd", null ],
-    [ "count", "d8/d3b/a25926.html#a73358b2272ad12faef006b1ef633cac0", null ]
+    [ "HandleAfterCast", "d8/d3b/a25926.html#ac08e632064c407346649f525d030d335", null ],
+    [ "HandleDummy", "d8/d3b/a25926.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
+    [ "Load", "d8/d3b/a25926.html#a177525c755b036a79263c0fa6fa4082e", null ],
+    [ "PrepareSpellScript", "d8/d3b/a25926.html#aed99b07a53068b19bddb4daff3449a52", null ],
+    [ "Register", "d8/d3b/a25926.html#a946e56a325d83656d9b43af80d065e45", null ],
+    [ "_triggerSpellId", "d8/d3b/a25926.html#a6697a22b684784853cb1999d41fcaaa7", null ]
 ];

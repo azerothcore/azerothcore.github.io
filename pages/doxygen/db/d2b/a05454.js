@@ -29,6 +29,7 @@ var a05454 =
     [ "Dispatch", "db/d2b/a05454.html#a1a4145dfbe6e4914a05ddfe6895a2272", null ],
     [ "EmptyCallback", "db/d2b/a05454.html#afa0f29cd0a38f5af81b8cd2888c81fa1", null ],
     [ "EmptyValidator", "db/d2b/a05454.html#aeabbb2b8f0438a81f10bf650d5c8a7ee", null ],
+    [ "GetNextGroupOcurrence", "db/d2b/a05454.html#ac7d32b064bf3da08af43a63398895dcb", null ],
     [ "InsertTask", "db/d2b/a05454.html#ab507424a3a38170bb67f1a44d52d5e04", null ],
     [ "IsGroupScheduled", "db/d2b/a05454.html#a34a5818482e3b5c4dd804c559badc988", null ],
     [ "operator=", "db/d2b/a05454.html#a9d138ac49b394ad151661465e4180de6", null ],

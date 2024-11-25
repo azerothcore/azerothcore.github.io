@@ -1,9 +1,7 @@
 var a17118 =
 [
-    [ "npc_stinky_iccAI", "d0/d5a/a17118.html#a545356eb2b77cfae7af3d470e95ea2d6", null ],
-    [ "JustDied", "d0/d5a/a17118.html#a7fa392980e2d30c935b79377df8dc694", null ],
-    [ "JustEngagedWith", "d0/d5a/a17118.html#afd1cd4fc387ff7cdad58c9db60841c7a", null ],
-    [ "Reset", "d0/d5a/a17118.html#ac66e3398598576fdc889a7b56646eecf", null ],
-    [ "UpdateAI", "d0/d5a/a17118.html#af6e04824ea1682c529e8579a306d34ca", null ],
-    [ "events", "d0/d5a/a17118.html#a3ab7ae11b7f5ef5877febbd384014ce2", null ]
+    [ "HandleScript", "d0/d5a/a17118.html#a101e5e995dd27dcc6b6a4b475eed0989", null ],
+    [ "PrepareSpellScript", "d0/d5a/a17118.html#a8f668b88a41585cabeace574b30b4f85", null ],
+    [ "Register", "d0/d5a/a17118.html#a8fae161a91fae297b99079bde218ced8", null ],
+    [ "Validate", "d0/d5a/a17118.html#a4d1a8c28eefff22afdbf15ab57a6a7fd", null ]
 ];

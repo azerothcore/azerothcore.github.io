@@ -1,6 +1,11 @@
 var a17654 =
 [
-    [ "FilterTargets", "d9/ddb/a17654.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
-    [ "PrepareSpellScript", "d9/ddb/a17654.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
-    [ "Register", "d9/ddb/a17654.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
+    [ "npc_ice_tombAI", "d9/ddb/a17654.html#ab2cd26a6f50f42f2773f8a7b522289ec", null ],
+    [ "DamageTaken", "d9/ddb/a17654.html#aa1451254b5eaa1332b87f2d817e1f3a7", null ],
+    [ "JustDied", "d9/ddb/a17654.html#a237f27260aaa9176d81b67b11d063660", null ],
+    [ "SetGUID", "d9/ddb/a17654.html#a629acf2cc7530c2b82bb37a129d4431a", null ],
+    [ "UpdateAI", "d9/ddb/a17654.html#a2f613f1f4fd51dac767b97fd9b96af44", null ],
+    [ "_asphyxiationTimer", "d9/ddb/a17654.html#a6790d9c852279624a549f60bf26e1eb2", null ],
+    [ "_existenceCheckTimer", "d9/ddb/a17654.html#ab3dbf40235549be89e42951d93593ea2", null ],
+    [ "_trappedPlayerGUID", "d9/ddb/a17654.html#a8a7666594e59bdac449f2284387b8e2c", null ]
 ];

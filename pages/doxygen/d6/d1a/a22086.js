@@ -1,6 +1,6 @@
 var a22086 =
 [
-    [ "npc_overlord_drakuru_betrayalAI", "db/d79/a22090.html", "db/d79/a22090" ],
-    [ "npc_overlord_drakuru_betrayal", "d6/d1a/a22086.html#af4092356ea86c25d91c73af1310c2eb0", null ],
-    [ "GetAI", "d6/d1a/a22086.html#a3bd893f08212dc94a321beb7a95eea08", null ]
+    [ "npc_captured_rageclawAI", "db/d79/a22090.html", "db/d79/a22090" ],
+    [ "npc_captured_rageclaw", "d6/d1a/a22086.html#ad49176279e9d16a6a24c0649c576c0be", null ],
+    [ "GetAI", "d6/d1a/a22086.html#aa39b6c518fe22d91b8673cfd576866a4", null ]
 ];

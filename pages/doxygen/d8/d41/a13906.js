@@ -1,12 +1,11 @@
 var a13906 =
 [
-    [ "npc_alexstraza_the_lifebinder", "d8/d41/a13906.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "d8/d41/a13906.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "d8/d41/a13906.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "d8/d41/a13906.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "d8/d41/a13906.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "d8/d41/a13906.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "d8/d41/a13906.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "d8/d41/a13906.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "d8/d41/a13906.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "npc_high_oracle_soo_roo", "d8/d41/a13906.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
+    [ "MoveInLineOfSight", "d8/d41/a13906.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
+    [ "Reset", "d8/d41/a13906.html#a89a60a83a46e0095045b2353e50483ed", null ],
+    [ "UpdateAI", "d8/d41/a13906.html#ac22cfa519e478da643a51ae887f306fd", null ],
+    [ "orphanGUID", "d8/d41/a13906.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
+    [ "phase", "d8/d41/a13906.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
+    [ "playerGUID", "d8/d41/a13906.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
+    [ "timer", "d8/d41/a13906.html#aa5238d3ee361374681947de874391a1f", null ]
 ];

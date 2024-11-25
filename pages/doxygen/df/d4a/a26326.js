@@ -1,7 +1,8 @@
 var a26326 =
 [
-    [ "HandleDispel", "df/d4a/a26326.html#aeab02cfd37c20aaf57e70aca62c82d99", null ],
-    [ "PrepareAuraScript", "df/d4a/a26326.html#a9dc5d5dc34bc9aed6094c0c55533ad5e", null ],
-    [ "Register", "df/d4a/a26326.html#a9cfb0fe1465c55b97032ae528ce00bcb", null ],
-    [ "Validate", "df/d4a/a26326.html#ad29fdb4b99e9782cf8bace07384fa87c", null ]
+    [ "ApplyDebuff", "df/d4a/a26326.html#a76ecb96d27c54b18f3628476dae4cc73", null ],
+    [ "PrepareSpellScript", "df/d4a/a26326.html#aeff4dce89b0d893b90571e0ff63e1aaa", null ],
+    [ "Register", "df/d4a/a26326.html#ae53dfd7f60a1c4132c441f7cd1595b95", null ],
+    [ "RemoveInvalidTargets", "df/d4a/a26326.html#a1374c764b20b95febbca44c593bde218", null ],
+    [ "Validate", "df/d4a/a26326.html#a2eb14ea281b41b08acd4514c01aa938f", null ]
 ];

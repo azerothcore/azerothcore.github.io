@@ -1,14 +1,10 @@
 var a12870 =
 [
-    [ "boss_jarien", "d6/dbb/a12870.html#a19e07a3da93e487b5984a8de0c7f26c9", null ],
-    [ "DoAction", "d6/dbb/a12870.html#a8b9f1f2e7e45adf8df436b5c71555272", null ],
-    [ "IsSummonedBy", "d6/dbb/a12870.html#a2e54c5ae404be944eeff3a57c96aa8ca", null ],
-    [ "JustDied", "d6/dbb/a12870.html#a418380b56f3432b5aec84737012f4693", null ],
-    [ "JustEngagedWith", "d6/dbb/a12870.html#ab6590cf6626a12e804520b2cde84a93e", null ],
-    [ "Reset", "d6/dbb/a12870.html#ac85ca96b42aa5115500bd24454f84209", null ],
-    [ "UpdateAI", "d6/dbb/a12870.html#acf7157ec7af7356beddc8a2429177b95", null ],
-    [ "_phase", "d6/dbb/a12870.html#aa88435f313dc2b7880bca8f4cdb7a537", null ],
-    [ "_scheduler", "d6/dbb/a12870.html#abce9540798dbae1026d1c74bfeb111a6", null ],
-    [ "_sothosDied", "d6/dbb/a12870.html#a06b02c7f7dff885a86609e0116f2fd96", null ],
-    [ "_talked", "d6/dbb/a12870.html#ae0c943c970990b055ebc8c31d81a7198", null ]
+    [ "HandleDummyTick", "d6/dbb/a12870.html#a036291aee8b08212ecead4afce01adf4", null ],
+    [ "Load", "d6/dbb/a12870.html#aaecea41af42790dfe9aeba3c56480668", null ],
+    [ "OnApply", "d6/dbb/a12870.html#a37b425f877e7415b245c119c29521c4b", null ],
+    [ "PrepareAuraScript", "d6/dbb/a12870.html#ade7bfbc3400fb620956d1e8dff7d4a8a", null ],
+    [ "Register", "d6/dbb/a12870.html#a9b32995b6e324a6c779bbd742de6cce2", null ],
+    [ "Validate", "d6/dbb/a12870.html#a72595ee3cd995d7bed2bcf8c9f5199fb", null ],
+    [ "_forsakenSpell", "d6/dbb/a12870.html#ae2aee05482e4854120fc581ecec41f95", null ]
 ];

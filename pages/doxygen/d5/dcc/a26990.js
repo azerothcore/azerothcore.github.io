@@ -1,5 +1,5 @@
 var a26990 =
 [
-    [ "go_hive_pod", "d5/dcc/a26990.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
-    [ "OnGossipHello", "d5/dcc/a26990.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
+    [ "go_veil_skith_cage", "d5/dcc/a26990.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
+    [ "OnGossipHello", "d5/dcc/a26990.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
 ];

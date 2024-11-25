@@ -1,6 +1,7 @@
 var a22638 =
 [
-    [ "npc_supremus_punch_invisible_stalker", "db/d4b/a22638.html#add7d0e711ef02a16ef58d90cfc8ee733", null ],
-    [ "IsSummonedBy", "db/d4b/a22638.html#a467d5a43bb6d2349ad859a0ef7de4c00", null ],
-    [ "UpdateAI", "db/d4b/a22638.html#a90ecfe4257ef77a6d6a200a2f017c51a", null ]
+    [ "Absorb", "db/d4b/a22638.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
+    [ "HandleEffectRemove", "db/d4b/a22638.html#a3d4026e5208acb948c089a4bedba0de8", null ],
+    [ "PrepareAuraScript", "db/d4b/a22638.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
+    [ "Register", "db/d4b/a22638.html#a983cf678001efcbccc4b34a9ad919881", null ]
 ];

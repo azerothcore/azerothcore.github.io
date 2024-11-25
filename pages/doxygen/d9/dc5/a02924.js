@@ -2,12 +2,12 @@ var a02924 =
 [
     [ "WayPoint", "d0/d64/a06166.html", "d0/d64/a06166" ],
     [ "SmartEvent", "d4/de0/a06170.html", "d4/de0/a06170" ],
-    [ "SmartAction", "db/d59/a06346.html", "db/d59/a06346" ],
-    [ "SmartTarget", "d6/df9/a06826.html", "d6/df9/a06826" ],
-    [ "SmartScriptHolder", "d7/db6/a06930.html", "d7/db6/a06930" ],
-    [ "ObjectGuidVector", "d9/dbb/a06934.html", "d9/dbb/a06934" ],
-    [ "SmartWaypointMgr", "d6/d02/a06938.html", "d6/d02/a06938" ],
-    [ "SmartAIMgr", "d5/deb/a06942.html", "d5/deb/a06942" ],
+    [ "SmartAction", "dc/d1c/a06350.html", "dc/d1c/a06350" ],
+    [ "SmartTarget", "dc/d31/a06830.html", "dc/d31/a06830" ],
+    [ "SmartScriptHolder", "d9/dbb/a06934.html", "d9/dbb/a06934" ],
+    [ "ObjectGuidVector", "d6/d02/a06938.html", "d6/d02/a06938" ],
+    [ "SmartWaypointMgr", "d5/deb/a06942.html", "d5/deb/a06942" ],
+    [ "SmartAIMgr", "d0/d21/a06946.html", "d0/d21/a06946" ],
     [ "sSmartScriptMgr", "d9/dc5/a02924.html#a6fcbfe722a7e6345cf5c655c860d9ad3", null ],
     [ "sSmartWaypointMgr", "d9/dc5/a02924.html#a2f98805bdaae76c9a1c2b6ce9e815d84", null ],
     [ "ObjectVector", "d9/dc5/a02924.html#a3d080db7fa99da7af5bcaa7720f359d1", null ],
@@ -298,6 +298,7 @@ var a02924 =
       [ "SMART_EVENT_SUMMONED_UNIT_EVADE", "d9/dc5/a02924.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a9e1c657a6474a7d937ff806d5aaf0510", null ],
       [ "SMART_EVENT_WAYPOINT_DATA_REACHED", "d9/dc5/a02924.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a72bd028c5616c67049af2cea004f5b49", null ],
       [ "SMART_EVENT_WAYPOINT_DATA_ENDED", "d9/dc5/a02924.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a67bb3ac273003bcb87d7ec485b7d4ca1", null ],
+      [ "SMART_EVENT_IS_IN_MELEE_RANGE", "d9/dc5/a02924.html#a8e5d5aa0dedbff31bb70e7955ad5bf97a8058bc5bff88173fb390153df062fe21", null ],
       [ "SMART_EVENT_AC_END", "d9/dc5/a02924.html#a8e5d5aa0dedbff31bb70e7955ad5bf97ab6c11427824eb38875d928153b8c4762", null ]
     ] ],
     [ "SMART_EVENT_PHASE", "d9/dc5/a02924.html#acd26a1a0a2488cd1cfa946dab6ed4b8c", [

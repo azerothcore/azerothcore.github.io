@@ -1,12 +1,6 @@
 var a17366 =
 [
-    [ "npc_darnavanAI", "db/ded/a17366.html#ae06019c24910c873877398f29f5a1737", null ],
-    [ "JustDied", "db/ded/a17366.html#a49250dcdaed6de534de7a1fe3c5aa72c", null ],
-    [ "JustEngagedWith", "db/ded/a17366.html#acbaedacea5ad19d82002c25b68623a27", null ],
-    [ "MovementInform", "db/ded/a17366.html#afcd3bfd190fcb99e38f32129fb2ce861", null ],
-    [ "Reset", "db/ded/a17366.html#a926c39a6e30507d9f9927f4f142e5a45", null ],
-    [ "UpdateAI", "db/ded/a17366.html#a2b3b5e168989db21fc047acaf01413d9", null ],
-    [ "_canCharge", "db/ded/a17366.html#ac37dc2ddc1787b7bd83b7e64ccdc6af8", null ],
-    [ "_canShatter", "db/ded/a17366.html#aa7750edc8051c8ee453143491dccf122", null ],
-    [ "events", "db/ded/a17366.html#aa8a022ccb1367432480f72d305c752ac", null ]
+    [ "npc_vengeful_shadeAI", "de/d5f/a17370.html", "de/d5f/a17370" ],
+    [ "npc_vengeful_shade", "db/ded/a17366.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "db/ded/a17366.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

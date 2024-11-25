@@ -1,8 +1,6 @@
 var a22542 =
 [
-    [ "FilterTargets", "de/dcc/a22542.html#a0ee5b216f8e713a5c632d0f456fd2b72", null ],
-    [ "HandleDummy", "de/dcc/a22542.html#ab89ab441f022ee017548ba49d128b92e", null ],
-    [ "PrepareSpellScript", "de/dcc/a22542.html#aa8578390d7d9379328c02ceb209e94ed", null ],
-    [ "Register", "de/dcc/a22542.html#a486387d707b7ad66ecb443ab2bb60778", null ],
-    [ "Validate", "de/dcc/a22542.html#ad5d695978794d796eb7139fce1530d57", null ]
+    [ "boss_essence_of_sufferingAI", "de/d5a/a22546.html", "de/d5a/a22546" ],
+    [ "boss_essence_of_suffering", "de/dcc/a22542.html#a1237f428657f0e9a0218695264358384", null ],
+    [ "GetAI", "de/dcc/a22542.html#adb54519bdf220cb3e30c81627c1ba11a", null ]
 ];

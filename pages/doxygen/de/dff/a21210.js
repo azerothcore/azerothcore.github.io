@@ -1,10 +1,9 @@
 var a21210 =
 [
-    [ "npc_imprisoned_beryl_sorcererAI", "de/dff/a21210.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
-    [ "GotStinged", "de/dff/a21210.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
-    [ "JustEngagedWith", "de/dff/a21210.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
-    [ "Reset", "de/dff/a21210.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
-    [ "SpellHit", "de/dff/a21210.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
-    [ "UpdateAI", "de/dff/a21210.html#a21def23073eeec051c1c97a813e0ea84", null ],
-    [ "rebuff", "de/dff/a21210.html#ac83c25091fdd3c7876a88927b758261f", null ]
+    [ "npc_bonker_togglevoltAI", "de/dff/a21210.html#adfd43a6a804a35e235262e55f0155ffe", null ],
+    [ "JustDied", "de/dff/a21210.html#a5ac6e89ad9ad3d3d69a87f7b9dc4026f", null ],
+    [ "Reset", "de/dff/a21210.html#a13efa2a2a0c5c796b3fd9f36a54ce523", null ],
+    [ "UpdateEscortAI", "de/dff/a21210.html#a9bf17d7ec59d800955c131dbe14a31d8", null ],
+    [ "WaypointReached", "de/dff/a21210.html#a06dc6c018d52f1cd1b2c7f76dbda3a2d", null ],
+    [ "Bonker_agro", "de/dff/a21210.html#a395e6e14f03cb0ecfe70348cc148d7ef", null ]
 ];

@@ -1,6 +1,5 @@
 var a27002 =
 [
-    [ "go_bellsAI", "d5/da3/a27006.html", "d5/da3/a27006" ],
-    [ "go_bells", "d4/d96/a27002.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
-    [ "GetAI", "d4/d96/a27002.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
+    [ "go_duskwither_spire_power_source", "d4/d96/a27002.html#aab69de16e8b744af2671e2ed882ee94a", null ],
+    [ "OnGossipHello", "d4/d96/a27002.html#a2c7fd017e7985b99bff187119157a041", null ]
 ];

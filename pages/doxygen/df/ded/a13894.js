@@ -1,11 +1,11 @@
 var a13894 =
 [
-    [ "npc_high_oracle_soo_roo", "df/ded/a13894.html#a86f5f3c3869e9fa7afcfc9425dfdfdde", null ],
-    [ "MoveInLineOfSight", "df/ded/a13894.html#ae3b4da2d6b888cf6325bb93b3fdbde7f", null ],
-    [ "Reset", "df/ded/a13894.html#a89a60a83a46e0095045b2353e50483ed", null ],
-    [ "UpdateAI", "df/ded/a13894.html#ac22cfa519e478da643a51ae887f306fd", null ],
-    [ "orphanGUID", "df/ded/a13894.html#acd6636eb290a2fe4470b04d467ff7fa1", null ],
-    [ "phase", "df/ded/a13894.html#abeec923d25d21773f9d8f8ba1deb0148", null ],
-    [ "playerGUID", "df/ded/a13894.html#a329832491f86c6fcc9ccc4c98b19991e", null ],
-    [ "timer", "df/ded/a13894.html#aa5238d3ee361374681947de874391a1f", null ]
+    [ "npc_winterfin_playmate", "df/ded/a13894.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
+    [ "MoveInLineOfSight", "df/ded/a13894.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
+    [ "Reset", "df/ded/a13894.html#aae6b51c22dc0448608c1cf9412565e25", null ],
+    [ "UpdateAI", "df/ded/a13894.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
+    [ "orphanGUID", "df/ded/a13894.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
+    [ "phase", "df/ded/a13894.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
+    [ "playerGUID", "df/ded/a13894.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
+    [ "timer", "df/ded/a13894.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
 ];

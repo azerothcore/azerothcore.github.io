@@ -1,7 +1,6 @@
 var a13286 =
 [
-    [ "npc_deathstalker_erlandAI", "d5/ddb/a13286.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
-    [ "JustEngagedWith", "d5/ddb/a13286.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
-    [ "Reset", "d5/ddb/a13286.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
-    [ "WaypointReached", "d5/ddb/a13286.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
+    [ "npc_corporal_keeshanAI", "dd/d6c/a13290.html", "dd/d6c/a13290" ],
+    [ "npc_corporal_keeshan", "d5/ddb/a13286.html#a0ca9459a7f283e040f14e0052762f587", null ],
+    [ "GetAI", "d5/ddb/a13286.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
 ];

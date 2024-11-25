@@ -1,8 +1,6 @@
 var a21634 =
 [
-    [ "HandleEffectApply", "d4/dff/a21634.html#a8ebf9488a7eed99c3651424754cc95c5", null ],
-    [ "HandleEffectPeriodic", "d4/dff/a21634.html#a183976530ebf604656db12e41449427e", null ],
-    [ "PrepareAuraScript", "d4/dff/a21634.html#a03faa2eda84ac74dcff9a7a6a4e57440", null ],
-    [ "Register", "d4/dff/a21634.html#a76be53d506933d4b3c758578b7c33d5f", null ],
-    [ "_posZ", "d4/dff/a21634.html#a488ded8ff40240fe8fbef1567eb091b9", null ]
+    [ "npc_attracted_reef_bullAI", "d4/dff/a21634.html#aa8917a912fb31a5987332e53e8d268e7", null ],
+    [ "MovementInform", "d4/dff/a21634.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
+    [ "SpellHit", "d4/dff/a21634.html#ab06ee7ef84d881262ae682b69fae3135", null ]
 ];

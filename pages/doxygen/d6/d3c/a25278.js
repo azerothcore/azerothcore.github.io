@@ -1,6 +1,7 @@
 var a25278 =
 [
-    [ "HandleOnEffectHit", "d6/d3c/a25278.html#a07157e7255d52acf6eb5d5e5c17e2190", null ],
-    [ "PrepareSpellScript", "d6/d3c/a25278.html#a0b2fd34dda3b23b574f6a5a0c4435006", null ],
-    [ "Register", "d6/d3c/a25278.html#a59c6a1618faa5a44e1c37337b39a3cba", null ]
+    [ "HandleProc", "d6/d3c/a25278.html#a9d23a4c0986f56e08c5e687ddae621f9", null ],
+    [ "PrepareAuraScript", "d6/d3c/a25278.html#a37d8d2e9c4618ecbbf314b98286e28b9", null ],
+    [ "Register", "d6/d3c/a25278.html#a2e1b7aed322de7023075fdd69660f2f6", null ],
+    [ "Validate", "d6/d3c/a25278.html#a6e807b19f98f8237e5d6f254cb0987a6", null ]
 ];

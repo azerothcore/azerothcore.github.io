@@ -1,6 +1,7 @@
 var a13234 =
 [
-    [ "x", "d5/d8c/a13234.html#afeb59642abc7d5114668b2c27e315228", null ],
-    [ "y", "d5/d8c/a13234.html#a3e2454dd579de689289003a343e7f29c", null ],
-    [ "z", "d5/d8c/a13234.html#a4fbcf991d732545b4f9c19689ff9d805", null ]
+    [ "npc_ranger_lilatha", "d5/d8c/a13234.html#abd13a89b41a289edefb9bc21588f8d29", null ],
+    [ "Reset", "d5/d8c/a13234.html#a3e804e483b51961193ee1079caba40be", null ],
+    [ "sQuestAccept", "d5/d8c/a13234.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
+    [ "WaypointReached", "d5/d8c/a13234.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
 ];

@@ -1,10 +1,8 @@
 var a09698 =
 [
-    [ "DistractMovementGenerator", "d5/d58/a09698.html#a55879290b06f4fc86a1da791c07b7afb", null ],
-    [ "Finalize", "d5/d58/a09698.html#aa4a2b943ecde8750bd764290d65872df", null ],
-    [ "GetMovementGeneratorType", "d5/d58/a09698.html#a0b30745bf1cd7b5a264e970273595592", null ],
-    [ "Initialize", "d5/d58/a09698.html#a71410ddbda2be6b34bb2276a83fea5c9", null ],
-    [ "Reset", "d5/d58/a09698.html#ad544709b2873b63b28d27ab414c280ba", null ],
-    [ "Update", "d5/d58/a09698.html#ad5a15c1507b8ab315b658351077629b3", null ],
-    [ "m_timer", "d5/d58/a09698.html#a8b520d8e97704ac39ce28c2256557b42", null ]
+    [ "TimedFleeingMovementGenerator", "d5/d58/a09698.html#ae3eed5f4b5a8d11ad4eed67ce5329742", null ],
+    [ "Finalize", "d5/d58/a09698.html#a1a18f033663fa93ef0b9885aae21f766", null ],
+    [ "GetMovementGeneratorType", "d5/d58/a09698.html#a1533d13f4e786e498353805a2a2daf85", null ],
+    [ "Update", "d5/d58/a09698.html#a53688aae55bfdd3a33eb24484fcc157e", null ],
+    [ "i_totalFleeTime", "d5/d58/a09698.html#a2858047459ff675383e7b86805702369", null ]
 ];

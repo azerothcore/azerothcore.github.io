@@ -1,8 +1,6 @@
 var a13146 =
 [
-    [ "HandleEffectApply", "d3/d6e/a13146.html#afd47748c7db2e0a5b7da2e18dc7b53ec", null ],
-    [ "HandleEffectRemove", "d3/d6e/a13146.html#a87a0061366829cbc6f856cc1f7ea1105", null ],
-    [ "Load", "d3/d6e/a13146.html#a2e3b53977f188ed28d9deedbcbc03e6b", null ],
-    [ "PrepareAuraScript", "d3/d6e/a13146.html#a99b97b2ed12d73e417af0b970c2a9645", null ],
-    [ "Register", "d3/d6e/a13146.html#a6a90296c9903ce65913f3bba29dea176", null ]
+    [ "instance_uldaman_InstanceMapScript", "da/d57/a13150.html", "da/d57/a13150" ],
+    [ "instance_uldaman", "d3/d6e/a13146.html#a854807db729d15aa4a09aad051fe3bda", null ],
+    [ "GetInstanceScript", "d3/d6e/a13146.html#a672bb8b5a16d29d25a191ab90d8007b4", null ]
 ];

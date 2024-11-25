@@ -1,6 +1,6 @@
 var a15790 =
 [
-    [ "boss_saviana_ragefireAI", "d6/d09/a15794.html", "d6/d09/a15794" ],
-    [ "boss_saviana_ragefire", "de/da2/a15790.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
-    [ "GetAI", "de/da2/a15790.html#a0a0073d8710af066d9711636f4d5b01e", null ]
+    [ "HandleHealPct", "de/da2/a15790.html#ad13b3924815ac3da7902c8292a760943", null ],
+    [ "PrepareSpellScript", "de/da2/a15790.html#aeea718bce7dd5aa4ac33bbd1a95a65c0", null ],
+    [ "Register", "de/da2/a15790.html#a3016c31c072d6417bbe47c2891059718", null ]
 ];

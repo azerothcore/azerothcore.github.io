@@ -1,11 +1,8 @@
 var a23154 =
 [
-    [ "boss_kiggler_the_crazed", "df/d74/a23154.html#a6f6cd74a8d2b12809f2710f784340fda", null ],
-    [ "AttackStart", "df/d74/a23154.html#a47c18487637dcb911852573e3aec85a2", null ],
-    [ "JustDied", "df/d74/a23154.html#acf82f68ccfeabd33bc387dbe7ea0e997", null ],
-    [ "JustEngagedWith", "df/d74/a23154.html#acd10951a5b148579d0bd4196cc2e686e", null ],
-    [ "Reset", "df/d74/a23154.html#a3bd8ca2488b2db298a198038a849189e", null ],
-    [ "UpdateAI", "df/d74/a23154.html#a16e2b767ca4b05eba79726ccb6e11204", null ],
-    [ "_scheduler", "df/d74/a23154.html#af041c254910df663a03fcc815db635da", null ],
-    [ "instance", "df/d74/a23154.html#aa78db443f19814c66b977fe008de74fa", null ]
+    [ "instance_gruuls_lair_InstanceMapScript", "df/d74/a23154.html#a1ad656ccd4d41c756c4f525d079fd9b6", null ],
+    [ "GetData", "df/d74/a23154.html#a410630dbbe00acf0b69603cfc357d503", null ],
+    [ "SetBossState", "df/d74/a23154.html#a9f0752eb0ec1d9ca0681ddc5fc8d3752", null ],
+    [ "SetData", "df/d74/a23154.html#a4cbe09489797fa0076d976f9a717a2bd", null ],
+    [ "_addsKilled", "df/d74/a23154.html#a7a003811fcf620f3c2d11ff3498cb298", null ]
 ];

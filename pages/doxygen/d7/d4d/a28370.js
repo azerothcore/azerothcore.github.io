@@ -1,10 +1,8 @@
 var a28370 =
 [
-    [ "WDTFile", "d7/d4d/a28370.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
-    [ "~WDTFile", "d7/d4d/a28370.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
-    [ "GetMap", "d7/d4d/a28370.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
-    [ "init", "d7/d4d/a28370.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
-    [ "_file", "d7/d4d/a28370.html#a54ab64288144b9cf4904e67bb359e524", null ],
-    [ "_wmoNames", "d7/d4d/a28370.html#a6ec4f95ff866585403670b620a42a857", null ],
-    [ "filename", "d7/d4d/a28370.html#ab3dac8623598bac1152a514a00126bf6", null ]
+    [ "Color", "d7/d4d/a28370.html#a379e4cf61345dbb4d93da5a8603138c0", null ],
+    [ "NameIndex", "d7/d4d/a28370.html#add893e045d13a3633fd7346457a10477", null ],
+    [ "Position", "d7/d4d/a28370.html#afae9056582e71160c151de2c172bc60a", null ],
+    [ "Rotation", "d7/d4d/a28370.html#a48d372bc1371fa5f94db9aa39669942a", null ],
+    [ "Scale", "d7/d4d/a28370.html#aefacaaf0be0745c95ffc53f410da6e8d", null ]
 ];

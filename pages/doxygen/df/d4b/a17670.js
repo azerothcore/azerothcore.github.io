@@ -1,6 +1,6 @@
 var a17670 =
 [
-    [ "HandleSpecial", "df/d4b/a17670.html#afa540e8c748ca3083667528e2449bc65", null ],
-    [ "PrepareSpellScript", "df/d4b/a17670.html#a9472211ffdaa33802099b22b2a721645", null ],
-    [ "Register", "df/d4b/a17670.html#ab868b10372ff2ef401d19b126acf00c6", null ]
+    [ "CheckProc", "df/d4b/a17670.html#ad701d353f03eb5a1ccca28a6530555db", null ],
+    [ "PrepareAuraScript", "df/d4b/a17670.html#a51794aa0a42180d9a0f4e9f6d5febca4", null ],
+    [ "Register", "df/d4b/a17670.html#a4f787e29064c15f4dad9047ff618982a", null ]
 ];

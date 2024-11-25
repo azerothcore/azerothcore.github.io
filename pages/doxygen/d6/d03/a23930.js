@@ -1,6 +1,6 @@
 var a23930 =
 [
-    [ "npc_zephyr", "d6/d03/a23930.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
-    [ "OnGossipHello", "d6/d03/a23930.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
-    [ "OnGossipSelect", "d6/d03/a23930.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
+    [ "PrepareSpellScript", "d6/d03/a23930.html#a6b5c1227e2d12ee5f2040dc6dacd60ac", null ],
+    [ "Register", "d6/d03/a23930.html#ac57aee08a131bcf7db11bc105f32242c", null ],
+    [ "SetDest", "d6/d03/a23930.html#a26362c4873890bb60c2526bf07058746", null ]
 ];

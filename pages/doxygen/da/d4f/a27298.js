@@ -1,6 +1,7 @@
 var a27298 =
 [
-    [ "npc_venomhide_hatchlingAI", "da/d4f/a27298.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
-    [ "IsSummonedBy", "da/d4f/a27298.html#a6e1b76f43217f1eb855b50d58a069518", null ],
-    [ "SpellHit", "da/d4f/a27298.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
+    [ "npc_crashin_thrashin_robot", "da/d4f/a27298.html#ad21336d212498b1c9ef5d46979d147ab", null ],
+    [ "IsSummonedBy", "da/d4f/a27298.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
+    [ "UpdateAI", "da/d4f/a27298.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
+    [ "_scheduler", "da/d4f/a27298.html#a55778501d154d0a9e77f76054e926f85", null ]
 ];

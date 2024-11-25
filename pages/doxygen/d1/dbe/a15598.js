@@ -1,10 +1,9 @@
 var a15598 =
 [
-    [ "HandleDummy", "d1/dbe/a15598.html#aebbcaa1df9a6379998bb2069089f45bd", null ],
-    [ "HandleSchoolDamage", "d1/dbe/a15598.html#a8372b7d176c94689b1b7fe99add7812e", null ],
-    [ "Load", "d1/dbe/a15598.html#ae47e8a9c4223fd65b81c842687e19f44", null ],
-    [ "PrepareSpellScript", "d1/dbe/a15598.html#a3fd71e2a93f99f19443640a2147b1663", null ],
-    [ "Register", "d1/dbe/a15598.html#a8278d362a4354ccf81665ce0067c9a06", null ],
-    [ "Validate", "d1/dbe/a15598.html#a414b1e1396910b87a671305ce9dcab09", null ],
-    [ "_spawned", "d1/dbe/a15598.html#aa657a9869f04a1d1d2ce71f6d8464b17", null ]
+    [ "boss_sartharion_vesperonAI", "d1/dbe/a15598.html#afd67bf2c7a479771976673b05b0fc29e", null ],
+    [ "ClearInstance", "d1/dbe/a15598.html#aad9556374e26cbea7641461510fef9ba", null ],
+    [ "ExecuteEvent", "d1/dbe/a15598.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
+    [ "HandleExtraEvent", "d1/dbe/a15598.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
+    [ "Reset", "d1/dbe/a15598.html#aacf26c52f77ef4eb084814934f00aab1", null ],
+    [ "SummonedCreatureDies", "d1/dbe/a15598.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
 ];

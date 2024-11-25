@@ -1,7 +1,8 @@
 var a12838 =
 [
-    [ "OnPeriodic", "df/d72/a12838.html#aa48b6f35302a8857465c6567f811dec6", null ],
-    [ "PrepareAuraScript", "df/d72/a12838.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
-    [ "Register", "df/d72/a12838.html#aa7708067531131738b86077638eda7ac", null ],
-    [ "Validate", "df/d72/a12838.html#a665698b54201184185d96bd33f53e584", null ]
+    [ "FilterTargets", "df/d72/a12838.html#a4c7627dc20c4dafcee4d6faf97d3914e", null ],
+    [ "HandleScript", "df/d72/a12838.html#aecb62c147905d0a4fe60086b8028df0b", null ],
+    [ "PrepareSpellScript", "df/d72/a12838.html#a84ed93d5235781d9d53a47fff39d3ad2", null ],
+    [ "Register", "df/d72/a12838.html#a2832f131d99608923ade8070e17da86d", null ],
+    [ "Validate", "df/d72/a12838.html#a1a510f9cf49df69c5904cb79c8cdc860", null ]
 ];

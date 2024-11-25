@@ -1,5 +1,6 @@
 var a19918 =
 [
-    [ "achievement_staying_buffed_all_winter_10", "dd/de5/a19918.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
-    [ "OnCheck", "dd/de5/a19918.html#a67587b1659a8d026e73b42311148541a", null ]
+    [ "boss_ignisAI", "d9/d18/a19922.html", "d9/d18/a19922" ],
+    [ "boss_ignis", "dd/de5/a19918.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
+    [ "GetAI", "dd/de5/a19918.html#ac11ff148e9cbc985875f859268a3de01", null ]
 ];

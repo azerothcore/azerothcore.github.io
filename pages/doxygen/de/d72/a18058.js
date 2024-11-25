@@ -1,23 +1,7 @@
 var a18058 =
 [
-    [ "boss_valithria_dreamwalkerAI", "de/d72/a18058.html#ac3637feea95738fdd9b34ee3b5a8dea4", null ],
-    [ "AttackStart", "de/d72/a18058.html#a180eb28e16672082503fa91f37dd720a", null ],
-    [ "DamageTaken", "de/d72/a18058.html#ac70447a7f7a0ac3628c0e2db11ce766d", null ],
-    [ "DoAction", "de/d72/a18058.html#a20aa23a4492739b4f171b1361a2ba53b", null ],
-    [ "GetData", "de/d72/a18058.html#a13843cdca5d222073894827db9402035", null ],
-    [ "HealReceived", "de/d72/a18058.html#a348be00901f9e6daea7868e4f9a97fda", null ],
-    [ "JustSummoned", "de/d72/a18058.html#a23f0fb75f652704a79c2530252138abb", null ],
-    [ "MoveInLineOfSight", "de/d72/a18058.html#a9dc0074d598b5432fbdc94b9bb8e012e", null ],
-    [ "Reset", "de/d72/a18058.html#a154123dc3f5463ace6d1b96a9b20576e", null ],
-    [ "SpellHit", "de/d72/a18058.html#a03d407ea24e851a95835ac92c40fa780", null ],
-    [ "SummonedCreatureDespawn", "de/d72/a18058.html#adde5d9c1a18f8dfe836925d9cb8391be", null ],
-    [ "UpdateAI", "de/d72/a18058.html#aacd9b128f978fe9c8a996cf725f05359", null ],
-    [ "_done", "de/d72/a18058.html#a4ab3dc211231f94ca371a089b9ab9461", null ],
-    [ "_events", "de/d72/a18058.html#a1a9dc9fe2969c963636d1dcd68ce2afc", null ],
-    [ "_instance", "de/d72/a18058.html#a45973c4d4e3eceda259dce148d1c9f5d", null ],
-    [ "_justDied", "de/d72/a18058.html#a10764f3e70ec8286e8af17d9b680de8b", null ],
-    [ "_missedPortals", "de/d72/a18058.html#a2a1d3d5a2662afa5826e3bc19e279c06", null ],
-    [ "_over75PercentTalkDone", "de/d72/a18058.html#a2ab09cd0b6c4c92b86314d3b324eee96", null ],
-    [ "_portalCount", "de/d72/a18058.html#ab5f5b6eec491cc063ed131bbd8bf2c3c", null ],
-    [ "_under25PercentTalkDone", "de/d72/a18058.html#a288c98af035d55bef4322f7fe91d26b9", null ]
+    [ "AuraRemoveEvent", "de/d72/a18058.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "de/d72/a18058.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "de/d72/a18058.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "de/d72/a18058.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

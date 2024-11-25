@@ -1,5 +1,5 @@
 var a02753 =
 [
-    [ "DBCStorageBase", "da/dc9/a27346.html", "da/dc9/a27346" ],
-    [ "DBCStorage< T >", "d4/d7c/a27350.html", "d4/d7c/a27350" ]
+    [ "DBCStorageBase", "d3/dc5/a27338.html", "d3/dc5/a27338" ],
+    [ "DBCStorage< T >", "d1/d27/a27342.html", "d1/d27/a27342" ]
 ];

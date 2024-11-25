@@ -1,16 +1,17 @@
 var a09226 =
 [
-    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#ae00a8b8f227d7afdcf08847e3787ee0d", null ],
-    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#af5f0087090a7145a22baa1396822318b", null ],
-    [ "GuildBankRightsAndSlots", "d1/deb/a09226.html#a4bdf40d99704211b9e80b554ebade54f", null ],
-    [ "GetRights", "d1/deb/a09226.html#a19b76bebdb62434191189ba789c2810f", null ],
-    [ "GetSlots", "d1/deb/a09226.html#a51780060b5699bed6b78cc9ba4e95371", null ],
-    [ "GetTabId", "d1/deb/a09226.html#a6ba7c49480a1c5325d3702fb61d397cc", null ],
-    [ "SetGuildMasterValues", "d1/deb/a09226.html#a1399f191b3b0a44dc1e76fc49adc1412", null ],
-    [ "SetRights", "d1/deb/a09226.html#abf4e1f1556554e7f756dc566fbdd7f40", null ],
-    [ "SetSlots", "d1/deb/a09226.html#a8ed33a4e1d2a957d61c5f7556533f225", null ],
-    [ "SetTabId", "d1/deb/a09226.html#abe84f6bcdfd48d70b894470d025f3aae", null ],
-    [ "rights", "d1/deb/a09226.html#a2a8f5acf21828bfa15d0b3dd6874b5cb", null ],
-    [ "slots", "d1/deb/a09226.html#a5a327399d94704bc290199baa21ff8d7", null ],
-    [ "tabId", "d1/deb/a09226.html#ab09825a02a7a21a4915595230d2a5839", null ]
+    [ "EmblemInfo", "d1/deb/a09226.html#a8d053ab27856955bf6013ef4c61ed33f", null ],
+    [ "GetBackgroundColor", "d1/deb/a09226.html#a66da2cd78cee9e929ff0f2439caed0e5", null ],
+    [ "GetBorderColor", "d1/deb/a09226.html#ac5ea55d7fd129524630dd0d486b457a7", null ],
+    [ "GetBorderStyle", "d1/deb/a09226.html#a7a791a3f467e72a3e8e941e3179d7709", null ],
+    [ "GetColor", "d1/deb/a09226.html#a15108f3a2a93ebbc01111672dd238d63", null ],
+    [ "GetStyle", "d1/deb/a09226.html#a0e6d684542535d537bdeba4104b7a18d", null ],
+    [ "LoadFromDB", "d1/deb/a09226.html#a17de371e72a2b29a7f249dbe912636bc", null ],
+    [ "ReadPacket", "d1/deb/a09226.html#abd73ea3db00fa900d7b3a8eeffa8b1bf", null ],
+    [ "SaveToDB", "d1/deb/a09226.html#aea1326261d893ef3beff026402bf8272", null ],
+    [ "m_backgroundColor", "d1/deb/a09226.html#a0bc92e459910ab6aad3ac35c8b613a5f", null ],
+    [ "m_borderColor", "d1/deb/a09226.html#a5aff1dcb9db9bc1477f2f37ac5b2c6cf", null ],
+    [ "m_borderStyle", "d1/deb/a09226.html#aa3e49b5f76fdb4e2139aeccb79c19390", null ],
+    [ "m_color", "d1/deb/a09226.html#ace48f189e9a1ae685dfbe97f35f49ec5", null ],
+    [ "m_style", "d1/deb/a09226.html#a08191c3c9cc48bde61ef0de81be34c90", null ]
 ];

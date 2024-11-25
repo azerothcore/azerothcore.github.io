@@ -1,7 +1,7 @@
 var a15278 =
 [
-    [ "npc_paoka_swiftmountainAI", "d6/d65/a15278.html#a92a229f76de3bc46ae14910439db0004", null ],
-    [ "DoSpawnWyvern", "d6/d65/a15278.html#a7997a3d398db82c205e3a8af77ac1684", null ],
-    [ "Reset", "d6/d65/a15278.html#acae0427957aba04a54e6001823bc7eb4", null ],
-    [ "WaypointReached", "d6/d65/a15278.html#a262781c90fe1b5a5af2c6f94e4cc52e2", null ]
+    [ "npc_lakota_windsongAI", "d6/d26/a15282.html", "d6/d26/a15282" ],
+    [ "npc_lakota_windsong", "d6/d65/a15278.html#a08a585ac36189ec23354c7acb26d223d", null ],
+    [ "GetAI", "d6/d65/a15278.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
+    [ "OnQuestAccept", "d6/d65/a15278.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
 ];

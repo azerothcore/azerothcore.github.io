@@ -1,6 +1,6 @@
 var a01382 =
 [
-    [ "bg_commandscript", "d0/d74/a11294.html", "d0/d74/a11294" ],
+    [ "bg_commandscript", "d5/d6a/a11298.html", "d5/d6a/a11298" ],
     [ "AddSC_bag_commandscript", "de/d9d/a01382.html#a8fa1e803122341d611168b2b62fde4e5", null ],
     [ "itemQualityToString", "de/d9d/a01382.html#af266597924b9d3f439ffc9908001d2cb", null ]
 ];

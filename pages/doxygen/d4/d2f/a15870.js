@@ -1,6 +1,7 @@
 var a15870 =
 [
-    [ "npc_black_knight_skeletal_gryphonAI", "dd/dd6/a15874.html", "dd/dd6/a15874" ],
-    [ "npc_black_knight_skeletal_gryphon", "d4/d2f/a15870.html#a5dc83a92fbe2eb4d6faa30f23a9ac777", null ],
-    [ "GetAI", "d4/d2f/a15870.html#aad244f95877a208b56a2b6544984d724", null ]
+    [ "HandleAfterEffectAbsorb", "d4/d2f/a15870.html#ab3d9f3679931b4b3b29713602d08701d", null ],
+    [ "PrepareAuraScript", "d4/d2f/a15870.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
+    [ "Register", "d4/d2f/a15870.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
+    [ "Validate", "d4/d2f/a15870.html#a87750183d2b2d6adb67bba4a1f767029", null ]
 ];

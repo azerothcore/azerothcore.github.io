@@ -1,7 +1,5 @@
 var a26694 =
 [
-    [ "CharacterDeleteActionIpLogger", "da/de0/a26694.html#a37481de65409cf375dcff45615463949", null ],
-    [ "DeleteIPLogAction", "da/de0/a26694.html#a73a5ddacd8892d2300be313cfc12f534", null ],
-    [ "OnDelete", "da/de0/a26694.html#a35ea1362df09fccf0c4cee2e9ef6deb9", null ],
-    [ "OnFailedDelete", "da/de0/a26694.html#a34efd44289746078fdcfae63641b5580", null ]
+    [ "AreaTrigger_at_coilfang_waterfall", "da/de0/a26694.html#aa2e9a01adad7e195860bbc6c55131024", null ],
+    [ "OnTrigger", "da/de0/a26694.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
 ];

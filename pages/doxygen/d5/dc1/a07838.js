@@ -1,11 +1,9 @@
 var a07838 =
 [
-    [ "AddItem", "d5/dc1/a07838.html#a46f6533323fd15632c3f9a8b96ef6f3f", null ],
-    [ "Clear", "d5/dc1/a07838.html#a70c7400c4bc60923fd538890774445de", null ],
-    [ "Empty", "d5/dc1/a07838.html#ab55fa73ab327294de2c5f6906fc1fbdb", null ],
-    [ "FindItemCostPair", "d5/dc1/a07838.html#a61dc4394afdd3a360559ffec1655c343", null ],
-    [ "GetItem", "d5/dc1/a07838.html#aa764da5b4647c84813e3aa6b46de7593", null ],
-    [ "GetItemCount", "d5/dc1/a07838.html#ae80634592ce705c77c5aa53960f89c24", null ],
-    [ "RemoveItem", "d5/dc1/a07838.html#a974925f2979910348a0af795893b310b", null ],
-    [ "m_items", "d5/dc1/a07838.html#aa16668e54fce8fffe8651644cdef4335", null ]
+    [ "VendorItem", "d5/dc1/a07838.html#ae79c26c304bee575a722f8a82fc79fd2", null ],
+    [ "IsGoldRequired", "d5/dc1/a07838.html#a5f335ffdb5d82418cdb4eb7a606692c1", null ],
+    [ "ExtendedCost", "d5/dc1/a07838.html#a18234f38ff242b8687265f9acf70dbe0", null ],
+    [ "incrtime", "d5/dc1/a07838.html#afe3bb3324faf1beae6ee17c223678e9b", null ],
+    [ "item", "d5/dc1/a07838.html#a6b26a96440c885684c173ee17d788896", null ],
+    [ "maxcount", "d5/dc1/a07838.html#a98be1e0499d9ae9cfb176063991f72ee", null ]
 ];

@@ -1,6 +1,7 @@
 var a16362 =
 [
-    [ "npc_fos_corrupted_soul_fragmentAI", "d6/d10/a16366.html", "d6/d10/a16366" ],
-    [ "npc_fos_corrupted_soul_fragment", "da/d34/a16362.html#a4caefccfdfee2e906eb94e34bceb064c", null ],
-    [ "GetAI", "da/d34/a16362.html#aed663e0a313223fcaa988b89b1b02df3", null ]
+    [ "HandleScriptEffect", "da/d34/a16362.html#a667e50b01f431dba025f692484f6e7ba", null ],
+    [ "PrepareSpellScript", "da/d34/a16362.html#a9a5ffd28102a519c06f3715d7f2b1039", null ],
+    [ "Register", "da/d34/a16362.html#a7ffa6eb498e9ec06d5cb4f81cff44389", null ],
+    [ "Validate", "da/d34/a16362.html#a0ab270193a95f9043afd40c9ffd2a46b", null ]
 ];

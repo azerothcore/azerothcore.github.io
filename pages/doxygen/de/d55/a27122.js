@@ -1,13 +1,11 @@
 var a27122 =
 [
-    [ "npc_nelsonAI", "de/d55/a27122.html#af6aada5c34048ce6bda6d5c1541e0bf3", null ],
-    [ "DoAction", "de/d55/a27122.html#a13ec2adee9d671f949139dbf94c75cc3", null ],
-    [ "JustEngagedWith", "de/d55/a27122.html#accb9aeb3b3f3fc2233598b7fef40c3ec", null ],
-    [ "JustSummoned", "de/d55/a27122.html#a31d622d73a2540e159720d4c8ddc7d00", null ],
-    [ "Reset", "de/d55/a27122.html#a05fcb98153f0a24f50004f465d8f3c72", null ],
-    [ "SpellHit", "de/d55/a27122.html#afab81d8a6077c755c186bb619944d78d", null ],
-    [ "SummonedCreatureDies", "de/d55/a27122.html#ab3753c9b6848c1567ac596a5f6b498a1", null ],
-    [ "UpdateAI", "de/d55/a27122.html#ac68749942f37de5f9105556fe7b904b7", null ],
-    [ "events", "de/d55/a27122.html#a25eb289b79de306bbdc0dd099b23a2a0", null ],
-    [ "shouldDespawn", "de/d55/a27122.html#a09a68f903854fcedd8a4b2ee4c2597e2", null ]
+    [ "npc_franklinAI", "de/d55/a27122.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
+    [ "DamageTaken", "de/d55/a27122.html#afa494098126ce3291e234cfc2b36336f", null ],
+    [ "JustEngagedWith", "de/d55/a27122.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
+    [ "Reset", "de/d55/a27122.html#a51a260460facf06ec6bb1486f434d885", null ],
+    [ "ScheduleEncounterStart", "de/d55/a27122.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
+    [ "SpellHit", "de/d55/a27122.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
+    [ "UpdateAI", "de/d55/a27122.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
+    [ "events", "de/d55/a27122.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
 ];

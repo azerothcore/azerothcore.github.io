@@ -1,6 +1,5 @@
 var a15666 =
 [
-    [ "npc_onyx_flamecallerAI", "d0/de6/a15670.html", "d0/de6/a15670" ],
-    [ "npc_onyx_flamecaller", "d6/d94/a15666.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "d6/d94/a15666.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "at_baltharus_plateau", "d6/d94/a15666.html#ac7acc8816b298446ac9bb8d6b82f27b6", null ],
+    [ "OnTrigger", "d6/d94/a15666.html#aea08e30eb57d5d84b78b8891c4a45afb", null ]
 ];

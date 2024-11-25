@@ -1,6 +1,6 @@
 var a16966 =
 [
-    [ "boss_blood_queen_lana_thelAI", "d6/d1c/a16970.html", "d6/d1c/a16970" ],
-    [ "boss_blood_queen_lana_thel", "d6/def/a16966.html#a9f8fa906f01082caacd106abc2707b07", null ],
-    [ "GetAI", "d6/def/a16966.html#a7873efd945bdb24228866f639e32879b", null ]
+    [ "KnockIntoAir", "d6/def/a16966.html#a1f9fb1f258613ca6657abba26969961f", null ],
+    [ "PrepareSpellScript", "d6/def/a16966.html#acf66a4b14ffce76b6c8dc7cc5906f229", null ],
+    [ "Register", "d6/def/a16966.html#a35a7758630c1769228fedff84ad929e8", null ]
 ];

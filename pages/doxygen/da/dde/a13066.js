@@ -1,8 +1,7 @@
 var a13066 =
 [
-    [ "HandleApply", "da/dde/a13066.html#a2c64240e8675fc76598600ae2632570f", null ],
-    [ "HandleRemove", "da/dde/a13066.html#a2a6e32bbc9b722ad7e872c6a26daa6bb", null ],
-    [ "PrepareAuraScript", "da/dde/a13066.html#a6ff74fbaf3a6ef84024d55528fd6f8e2", null ],
-    [ "Register", "da/dde/a13066.html#aebfb4b20a9b0ebefff652a0ae1727994", null ],
-    [ "Validate", "da/dde/a13066.html#abdad49fe5e0a72799847fdfcfe22eec0", null ]
+    [ "HandleSchoolDamage", "da/dde/a13066.html#a4fee3e37f347d1dcfa84c1dc0454c9fa", null ],
+    [ "PrepareSpellScript", "da/dde/a13066.html#a8063f3d669e07dc0768607feb9a2f763", null ],
+    [ "Register", "da/dde/a13066.html#a83aad24c7111d1f68196fcb9765dcd97", null ],
+    [ "Validate", "da/dde/a13066.html#af90ae09274b0082bd8bd674ca43596f6", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: LootGroupInvalidSelector Struct Reference</title>
+<title>AzerothCore: LootItemStorage Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,47 +106,54 @@ $(document).ready(function(){initNavTree('dd/d62/a09374.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/d65/a09371.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">LootGroupInvalidSelector Struct Reference</div></div>
+  <div class="headertitle"><div class="title">LootItemStorage Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for LootGroupInvalidSelector:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../dd/d62/a09374.png" usemap="#LootGroupInvalidSelector_map" alt=""/>
-  <map id="LootGroupInvalidSelector_map" name="LootGroupInvalidSelector_map">
-<area href="../../de/dda/a05042.html" alt="Acore::unary_function&lt; LootStoreItem *, bool &gt;" shape="rect" coords="0,0,283,24"/>
-  </map>
-</div></div>
+
+<p><code>#include &quot;<a class="el" href="../../">LootItemStorage.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abea815e8ee0d31cc64b3fd7f46033cca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#abea815e8ee0d31cc64b3fd7f46033cca">LootGroupInvalidSelector</a> (<a class="el" href="../../d0/dc8/a09410.html">Loot</a> const &amp;loot, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> lootMode)</td></tr>
-<tr class="separator:abea815e8ee0d31cc64b3fd7f46033cca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ea426fdeced03324c4a63184c2c1fc4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a2ea426fdeced03324c4a63184c2c1fc4">operator()</a> (<a class="el" href="../../d0/dbe/a09382.html">LootStoreItem</a> *item) const</td></tr>
-<tr class="separator:a2ea426fdeced03324c4a63184c2c1fc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a377c75f9d06eb246072b29d19baf2b62"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a377c75f9d06eb246072b29d19baf2b62">LoadStorageFromDB</a> ()</td></tr>
+<tr class="separator:a377c75f9d06eb246072b29d19baf2b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ab68725c0525d162d325a2131db4c49"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a8ab68725c0525d162d325a2131db4c49">RemoveEntryFromDB</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> containerGUID, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemIndex)</td></tr>
+<tr class="separator:a8ab68725c0525d162d325a2131db4c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c463773b50ae1b312865fbf72dfed18"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a4c463773b50ae1b312865fbf72dfed18">AddNewStoredLoot</a> (<a class="el" href="../../d8/d10/a09414.html">Loot</a> *loot, <a class="el" href="../../db/dff/a08390.html">Player</a> *player)</td></tr>
+<tr class="separator:a4c463773b50ae1b312865fbf72dfed18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9804f564302d6ea4db4b84a6cbb093b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#ad9804f564302d6ea4db4b84a6cbb093b">LoadStoredLoot</a> (<a class="el" href="../../d1/d6d/a08102.html">Item</a> *item, <a class="el" href="../../db/dff/a08390.html">Player</a> *player)</td></tr>
+<tr class="separator:ad9804f564302d6ea4db4b84a6cbb093b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fd3f2ac820784ba51413b3781df3bcc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a6fd3f2ac820784ba51413b3781df3bcc">RemoveStoredLootItem</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> containerGUID, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count, <a class="el" href="../../d8/d10/a09414.html">Loot</a> *loot, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemIndex)</td></tr>
+<tr class="separator:a6fd3f2ac820784ba51413b3781df3bcc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab22d267a6701fedf824f801e4b703f70"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#ab22d267a6701fedf824f801e4b703f70">RemoveStoredLootMoney</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> containerGUID, <a class="el" href="../../d8/d10/a09414.html">Loot</a> *loot)</td></tr>
+<tr class="separator:ab22d267a6701fedf824f801e4b703f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414dee93f9852a64f01f9d9bf8dc8b40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a414dee93f9852a64f01f9d9bf8dc8b40">RemoveStoredLoot</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> containerGUID)</td></tr>
+<tr class="separator:a414dee93f9852a64f01f9d9bf8dc8b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a58d6dc6afa42364ca1dd6cbdcfb55b2b"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/d62/a09374.html">LootItemStorage</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">instance</a> ()</td></tr>
+<tr class="separator:a58d6dc6afa42364ca1dd6cbdcfb55b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa6ece474f05744f2ce24a9fef42734af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#aa6ece474f05744f2ce24a9fef42734af">LootItemStorage</a> ()</td></tr>
+<tr class="separator:aa6ece474f05744f2ce24a9fef42734af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36faeed6ef556fd13118c4ad34e38548"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a36faeed6ef556fd13118c4ad34e38548">~LootItemStorage</a> ()</td></tr>
+<tr class="separator:a36faeed6ef556fd13118c4ad34e38548"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a67b9d223426512af79bbf5b035c18a6d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc8/a09410.html">Loot</a> const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a></td></tr>
-<tr class="separator:a67b9d223426512af79bbf5b035c18a6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a10e307846a0731aa812388c29c0d4bc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a10e307846a0731aa812388c29c0d4bc8">_lootMode</a></td></tr>
-<tr class="separator:a10e307846a0731aa812388c29c0d4bc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pub_types_a05042"><td colspan="2" onclick="javascript:toggleInherit('pub_types_a05042')"><img src="../../closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="../../de/dda/a05042.html">Acore::unary_function&lt; LootStoreItem *, bool &gt;</a></td></tr>
-<tr class="memitem:ad0011a133ce27e947c35917314e60693 inherit pub_types_a05042"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d0/dbe/a09382.html">LootStoreItem</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#ad0011a133ce27e947c35917314e60693">argument_type</a></td></tr>
-<tr class="separator:ad0011a133ce27e947c35917314e60693 inherit pub_types_a05042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_a05042"><td class="memItemLeft" align="right" valign="top">typedef bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/dda/a05042.html#a6dcbf6789c1565b95f16de3d580118a9">result_type</a></td></tr>
-<tr class="separator:a6dcbf6789c1565b95f16de3d580118a9 inherit pub_types_a05042"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58ae52b9812e5752ba00d00a58eb56b0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d65/a03578.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a></td></tr>
+<tr class="separator:a58ae52b9812e5752ba00d00a58eb56b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="abea815e8ee0d31cc64b3fd7f46033cca" name="abea815e8ee0d31cc64b3fd7f46033cca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abea815e8ee0d31cc64b3fd7f46033cca">&#9670;&#160;</a></span>LootGroupInvalidSelector()</h2>
+<a id="aa6ece474f05744f2ce24a9fef42734af" name="aa6ece474f05744f2ce24a9fef42734af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6ece474f05744f2ce24a9fef42734af">&#9670;&#160;</a></span>LootItemStorage()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -155,16 +162,68 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">LootGroupInvalidSelector::LootGroupInvalidSelector </td>
+          <td class="memname">LootItemStorage::LootItemStorage </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/dc8/a09410.html">Loot</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a36faeed6ef556fd13118c4ad34e38548" name="a36faeed6ef556fd13118c4ad34e38548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36faeed6ef556fd13118c4ad34e38548">&#9670;&#160;</a></span>~LootItemStorage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">LootItemStorage::~LootItemStorage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{</div>
+<div class="line"><span class="lineno">   30</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4c463773b50ae1b312865fbf72dfed18" name="a4c463773b50ae1b312865fbf72dfed18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c463773b50ae1b312865fbf72dfed18">&#9670;&#160;</a></span>AddNewStoredLoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::AddNewStoredLoot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d8/d10/a09414.html">Loot</a> *&#160;</td>
           <td class="paramname"><em>loot</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>lootMode</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -172,21 +231,112 @@ Additional Inherited Members</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   61</span>: <a class="code hl_variable" href="../../dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>(loot), <a class="code hl_variable" href="../../dd/d62/a09374.html#a10e307846a0731aa812388c29c0d4bc8">_lootMode</a>(lootMode) { }</div>
-<div class="ttc" id="aa09374_html_a10e307846a0731aa812388c29c0d4bc8"><div class="ttname"><a href="../../dd/d62/a09374.html#a10e307846a0731aa812388c29c0d4bc8">LootGroupInvalidSelector::_lootMode</a></div><div class="ttdeci">uint16 _lootMode</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:91</div></div>
-<div class="ttc" id="aa09374_html_a67b9d223426512af79bbf5b035c18a6d"><div class="ttname"><a href="../../dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d">LootGroupInvalidSelector::_loot</a></div><div class="ttdeci">Loot const  &amp; _loot</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:90</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   83</span>{</div>
+<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.find(loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>) != <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.end())</div>
+<div class="line"><span class="lineno">   85</span>    {</div>
+<div class="line"><span class="lineno">   86</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;misc&quot;</span>, <span class="stringliteral">&quot;LootItemStorage::AddNewStoredLoot (A1) - {}!&quot;</span>, loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">   87</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   88</span>    }</div>
+<div class="line"><span class="lineno">   89</span> </div>
+<div class="line"><span class="lineno">   90</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">   91</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   92</span> </div>
+<div class="line"><span class="lineno">   93</span>    <a class="code hl_typedef" href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&amp; itemList = <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>[loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>];</div>
+<div class="line"><span class="lineno">   94</span> </div>
+<div class="line"><span class="lineno">   95</span>    <span class="comment">// Gold at first</span></div>
+<div class="line"><span class="lineno">   96</span>    <span class="keywordflow">if</span> (loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a8a079b186937e50d51fc4636f8deb698">gold</a>)</div>
+<div class="line"><span class="lineno">   97</span>    {</div>
+<div class="line"><span class="lineno">   98</span>        itemList.emplace_back(0, 0, loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a8a079b186937e50d51fc4636f8deb698">gold</a>, 0, 0, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, <span class="keyword">false</span>, 0);</div>
+<div class="line"><span class="lineno">   99</span> </div>
+<div class="line"><span class="lineno">  100</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index = 0;</div>
+<div class="line"><span class="lineno">  101</span>        stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a47aa65fcb0be12846beb1d53f31e0afb">CHAR_INS_ITEMCONTAINER_SINGLE_ITEM</a>);</div>
+<div class="line"><span class="lineno">  102</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  103</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, 0);</div>
+<div class="line"><span class="lineno">  104</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, 0);</div>
+<div class="line"><span class="lineno">  105</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a8a079b186937e50d51fc4636f8deb698">gold</a>);</div>
+<div class="line"><span class="lineno">  106</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, 0);</div>
+<div class="line"><span class="lineno">  107</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, 0);</div>
+<div class="line"><span class="lineno">  108</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  109</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  110</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  111</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  112</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  113</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  114</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, 0);</div>
+<div class="line"><span class="lineno">  115</span>        trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>    <span class="comment">// And normal items</span></div>
+<div class="line"><span class="lineno">  119</span>    <span class="keywordflow">if</span> (!loot-&gt;<a class="code hl_function" href="../../d8/d10/a09414.html#a306b206993cd60f1b413487feb5f97ac">isLooted</a>())</div>
+<div class="line"><span class="lineno">  120</span>        <span class="keywordflow">for</span> (LootItemList::const_iterator li = loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.begin(); li != loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.end(); li++)</div>
+<div class="line"><span class="lineno">  121</span>        {</div>
+<div class="line"><span class="lineno">  122</span>            <span class="comment">// Even if an item is not available for a specific player, it doesn&#39;t mean that</span></div>
+<div class="line"><span class="lineno">  123</span>            <span class="comment">// we are not able to trade this container to another player that is able to loot that item</span></div>
+<div class="line"><span class="lineno">  124</span>            <span class="comment">// if we don&#39;t save it then the item will be lost at player re-login.</span></div>
+<div class="line"><span class="lineno">  125</span>            <span class="comment">//if (!li-&gt;AllowedForPlayer(player))</span></div>
+<div class="line"><span class="lineno">  126</span>            <span class="comment">//    continue;</span></div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>            <a class="code hl_struct" href="../../df/d48/a08126.html">ItemTemplate</a> <span class="keyword">const</span>* itemTemplate = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(li-&gt;itemid);</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">if</span> (!itemTemplate || itemTemplate-&gt;<a class="code hl_function" href="../../df/d48/a08126.html#a42069b477ed74c043460bf09ff8c2641">IsCurrencyToken</a>())</div>
+<div class="line"><span class="lineno">  130</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  131</span> </div>
+<div class="line"><span class="lineno">  132</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> conditionLootId = 0;</div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">if</span> (!li-&gt;conditions.empty())</div>
+<div class="line"><span class="lineno">  134</span>            {</div>
+<div class="line"><span class="lineno">  135</span>                conditionLootId = li-&gt;conditions.front()-&gt;SourceGroup;</div>
+<div class="line"><span class="lineno">  136</span>            }</div>
+<div class="line"><span class="lineno">  137</span> </div>
+<div class="line"><span class="lineno">  138</span>            itemList.emplace_back(li-&gt;itemid, li-&gt;itemIndex, li-&gt;count, li-&gt;randomPropertyId, li-&gt;randomSuffix, li-&gt;follow_loot_rules, li-&gt;freeforall, li-&gt;is_blocked, li-&gt;is_counted,</div>
+<div class="line"><span class="lineno">  139</span>                li-&gt;is_underthreshold, li-&gt;needs_quest, conditionLootId);</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> index = 0;</div>
+<div class="line"><span class="lineno">  142</span>            stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a47aa65fcb0be12846beb1d53f31e0afb">CHAR_INS_ITEMCONTAINER_SINGLE_ITEM</a>);</div>
+<div class="line"><span class="lineno">  143</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  144</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;itemid);</div>
+<div class="line"><span class="lineno">  145</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;itemIndex);</div>
+<div class="line"><span class="lineno">  146</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;count);</div>
+<div class="line"><span class="lineno">  147</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (index++, li-&gt;randomPropertyId);</div>
+<div class="line"><span class="lineno">  148</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;randomSuffix);</div>
+<div class="line"><span class="lineno">  149</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;follow_loot_rules);</div>
+<div class="line"><span class="lineno">  150</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;freeforall);</div>
+<div class="line"><span class="lineno">  151</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;is_blocked);</div>
+<div class="line"><span class="lineno">  152</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;is_counted);</div>
+<div class="line"><span class="lineno">  153</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;is_underthreshold);</div>
+<div class="line"><span class="lineno">  154</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, li-&gt;needs_quest);</div>
+<div class="line"><span class="lineno">  155</span>            stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(index++, conditionLootId);</div>
+<div class="line"><span class="lineno">  156</span> </div>
+<div class="line"><span class="lineno">  157</span>            trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">  158</span>        }</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">  161</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
+<div class="ttc" id="aa03578_html_aa16defe92374d7db2d28958ee8fce21d"><div class="ttname"><a href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a></div><div class="ttdeci">std::list&lt; StoredLootItem &gt; StoredLootItemList</div><div class="ttdef"><b>Definition:</b> LootItemStorage.h:47</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a47aa65fcb0be12846beb1d53f31e0afb"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a47aa65fcb0be12846beb1d53f31e0afb">CHAR_INS_ITEMCONTAINER_SINGLE_ITEM</a></div><div class="ttdeci">@ CHAR_INS_ITEMCONTAINER_SINGLE_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:490</div></div>
+<div class="ttc" id="aa04589_html_a96bac9a371212c6bab7a9448214666c0"><div class="ttname"><a href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a></div><div class="ttdeci">SQLTransaction&lt; CharacterDatabaseConnection &gt; CharacterDatabaseTransaction</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:69</div></div>
+<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa05590_html"><div class="ttname"><a href="../../de/dd0/a05590.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:157</div></div>
+<div class="ttc" id="aa05722_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:77</div></div>
+<div class="ttc" id="aa08126_html"><div class="ttname"><a href="../../df/d48/a08126.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08126_html_a42069b477ed74c043460bf09ff8c2641"><div class="ttname"><a href="../../df/d48/a08126.html#a42069b477ed74c043460bf09ff8c2641">ItemTemplate::IsCurrencyToken</a></div><div class="ttdeci">bool IsCurrencyToken() const</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:727</div></div>
+<div class="ttc" id="aa08194_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:145</div></div>
+<div class="ttc" id="aa08194_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aa09374_html_a58ae52b9812e5752ba00d00a58eb56b0"><div class="ttname"><a href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">LootItemStorage::lootItemStore</a></div><div class="ttdeci">LootItemContainer lootItemStore</div><div class="ttdef"><b>Definition:</b> LootItemStorage.h:70</div></div>
+<div class="ttc" id="aa09414_html_a1b549de55c06b66b4b8faa81d3020bff"><div class="ttname"><a href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">Loot::containerGUID</a></div><div class="ttdeci">ObjectGuid containerGUID</div><div class="ttdef"><b>Definition:</b> LootMgr.h:328</div></div>
+<div class="ttc" id="aa09414_html_a306b206993cd60f1b413487feb5f97ac"><div class="ttname"><a href="../../d8/d10/a09414.html#a306b206993cd60f1b413487feb5f97ac">Loot::isLooted</a></div><div class="ttdeci">bool isLooted() const</div><div class="ttdef"><b>Definition:</b> LootMgr.h:367</div></div>
+<div class="ttc" id="aa09414_html_a8a079b186937e50d51fc4636f8deb698"><div class="ttname"><a href="../../d8/d10/a09414.html#a8a079b186937e50d51fc4636f8deb698">Loot::gold</a></div><div class="ttdeci">uint32 gold</div><div class="ttdef"><b>Definition:</b> LootMgr.h:321</div></div>
+<div class="ttc" id="aa09414_html_ab9d61ed7d2aacadda6b4a648ab8c41b3"><div class="ttname"><a href="../../d8/d10/a09414.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">Loot::items</a></div><div class="ttdeci">std::vector&lt; LootItem &gt; items</div><div class="ttdef"><b>Definition:</b> LootMgr.h:319</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00490">CHAR_INS_ITEMCONTAINER_SINGLE_ITEM</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00328">Loot::containerGUID</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00321">Loot::gold</a>, <a class="el" href="../../#l00727">ItemTemplate::IsCurrencyToken()</a>, <a class="el" href="../../#l00367">Loot::isLooted()</a>, <a class="el" href="../../#l00319">Loot::items</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00070">lootItemStore</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2ea426fdeced03324c4a63184c2c1fc4" name="a2ea426fdeced03324c4a63184c2c1fc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ea426fdeced03324c4a63184c2c1fc4">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a58d6dc6afa42364ca1dd6cbdcfb55b2b" name="a58d6dc6afa42364ca1dd6cbdcfb55b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58d6dc6afa42364ca1dd6cbdcfb55b2b">&#9670;&#160;</a></span>instance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -195,61 +345,422 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool LootGroupInvalidSelector::operator() </td>
+          <td class="memname"><a class="el" href="../../dd/d62/a09374.html">LootItemStorage</a> * LootItemStorage::instance </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/dbe/a09382.html">LootStoreItem</a> *&#160;</td>
-          <td class="paramname"><em>item</em></td><td>)</td>
-          <td> const</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   64</span>    {</div>
-<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">if</span> (!(item-&gt;<a class="code hl_variable" href="../../d0/dbe/a09382.html#ab5f7b258bd5cfe4263acd9e0b253b166">lootmode</a> &amp; <a class="code hl_variable" href="../../dd/d62/a09374.html#a10e307846a0731aa812388c29c0d4bc8">_lootMode</a>))</div>
-<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">if</span> (!item-&gt;<a class="code hl_variable" href="../../d0/dbe/a09382.html#a374a94e34095a1beb38abca43069d0b6">reference</a>)</div>
-<div class="line"><span class="lineno">   69</span>        {</div>
-<div class="line"><span class="lineno">   70</span>            <a class="code hl_struct" href="../../d8/dc8/a08122.html">ItemTemplate</a> <span class="keyword">const</span>* _proto = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(item-&gt;<a class="code hl_variable" href="../../d0/dbe/a09382.html#a5df1d4fde5f3358470bd16f7ad9154c1">itemid</a>);</div>
-<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">if</span> (!_proto)</div>
-<div class="line"><span class="lineno">   72</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> foundDuplicates = 0;</div>
-<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">for</span> (std::vector&lt;LootItem&gt;::const_iterator itr = <a class="code hl_variable" href="../../dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>.<a class="code hl_variable" href="../../d0/dc8/a09410.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.begin(); itr != <a class="code hl_variable" href="../../dd/d62/a09374.html#a67b9d223426512af79bbf5b035c18a6d">_loot</a>.<a class="code hl_variable" href="../../d0/dc8/a09410.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.end(); ++itr)</div>
-<div class="line"><span class="lineno">   76</span>                <span class="keywordflow">if</span> (itr-&gt;itemid == item-&gt;<a class="code hl_variable" href="../../d0/dbe/a09382.html#a5df1d4fde5f3358470bd16f7ad9154c1">itemid</a> &amp;&amp; itr-&gt;groupid == item-&gt;<a class="code hl_variable" href="../../d0/dbe/a09382.html#abc6df381782d25490dff0e54bec63b3a">groupid</a>)</div>
-<div class="line"><span class="lineno">   77</span>                {</div>
-<div class="line"><span class="lineno">   78</span>                    ++foundDuplicates;</div>
-<div class="line"><span class="lineno">   79</span>                    <span class="keywordflow">if</span> (_proto-&gt;<a class="code hl_variable" href="../../d8/dc8/a08122.html#ac47429e999906b62258c7ade930efcbf">InventoryType</a> == 0 &amp;&amp; foundDuplicates == 3 &amp;&amp; _proto-&gt;<a class="code hl_variable" href="../../d8/dc8/a08122.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a> != 47242 <span class="comment">/*Trophy of the Crusade*/</span>) <span class="comment">// Non-equippable items are limited to 3 drops</span></div>
-<div class="line"><span class="lineno">   80</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   81</span>                    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (_proto-&gt;<a class="code hl_variable" href="../../d8/dc8/a08122.html#ac47429e999906b62258c7ade930efcbf">InventoryType</a> != 0 &amp;&amp; foundDuplicates == 1) <span class="comment">// Equippable item are limited to 1 drop</span></div>
-<div class="line"><span class="lineno">   82</span>                        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   83</span>                }</div>
-<div class="line"><span class="lineno">   84</span>        }</div>
-<div class="line"><span class="lineno">   85</span> </div>
-<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   87</span>    }</div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1634</div></div>
-<div class="ttc" id="aa08122_html"><div class="ttname"><a href="../../d8/dc8/a08122.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
-<div class="ttc" id="aa08122_html_ac47429e999906b62258c7ade930efcbf"><div class="ttname"><a href="../../d8/dc8/a08122.html#ac47429e999906b62258c7ade930efcbf">ItemTemplate::InventoryType</a></div><div class="ttdeci">uint32 InventoryType</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:632</div></div>
-<div class="ttc" id="aa08122_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../d8/dc8/a08122.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:620</div></div>
-<div class="ttc" id="aa09382_html_a374a94e34095a1beb38abca43069d0b6"><div class="ttname"><a href="../../d0/dbe/a09382.html#a374a94e34095a1beb38abca43069d0b6">LootStoreItem::reference</a></div><div class="ttdeci">int32 reference</div><div class="ttdef"><b>Definition:</b> LootMgr.h:130</div></div>
-<div class="ttc" id="aa09382_html_a5df1d4fde5f3358470bd16f7ad9154c1"><div class="ttname"><a href="../../d0/dbe/a09382.html#a5df1d4fde5f3358470bd16f7ad9154c1">LootStoreItem::itemid</a></div><div class="ttdeci">uint32 itemid</div><div class="ttdef"><b>Definition:</b> LootMgr.h:129</div></div>
-<div class="ttc" id="aa09382_html_ab5f7b258bd5cfe4263acd9e0b253b166"><div class="ttname"><a href="../../d0/dbe/a09382.html#ab5f7b258bd5cfe4263acd9e0b253b166">LootStoreItem::lootmode</a></div><div class="ttdeci">uint16 lootmode</div><div class="ttdef"><b>Definition:</b> LootMgr.h:133</div></div>
-<div class="ttc" id="aa09382_html_abc6df381782d25490dff0e54bec63b3a"><div class="ttname"><a href="../../d0/dbe/a09382.html#abc6df381782d25490dff0e54bec63b3a">LootStoreItem::groupid</a></div><div class="ttdeci">uint8 groupid</div><div class="ttdef"><b>Definition:</b> LootMgr.h:134</div></div>
-<div class="ttc" id="aa09410_html_ab9d61ed7d2aacadda6b4a648ab8c41b3"><div class="ttname"><a href="../../d0/dc8/a09410.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">Loot::items</a></div><div class="ttdeci">std::vector&lt; LootItem &gt; items</div><div class="ttdef"><b>Definition:</b> LootMgr.h:319</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   33</span>{</div>
+<div class="line"><span class="lineno">   34</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../dd/d62/a09374.html">LootItemStorage</a> <a class="code hl_function" href="../../dd/d62/a09374.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">instance</a>;</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../dd/d62/a09374.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">instance</a>;</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+<div class="ttc" id="aa09374_html"><div class="ttname"><a href="../../dd/d62/a09374.html">LootItemStorage</a></div><div class="ttdef"><b>Definition:</b> LootItemStorage.h:51</div></div>
+<div class="ttc" id="aa09374_html_a58d6dc6afa42364ca1dd6cbdcfb55b2b"><div class="ttname"><a href="../../dd/d62/a09374.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b">LootItemStorage::instance</a></div><div class="ttdeci">static LootItemStorage * instance()</div><div class="ttdef"><b>Definition:</b> LootItemStorage.cpp:32</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00090">_loot</a>, <a class="el" href="../../#l00091">_lootMode</a>, <a class="el" href="../../#l00134">LootStoreItem::groupid</a>, <a class="el" href="../../#l00632">ItemTemplate::InventoryType</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l00129">LootStoreItem::itemid</a>, <a class="el" href="../../#l00319">Loot::items</a>, <a class="el" href="../../#l00133">LootStoreItem::lootmode</a>, <a class="el" href="../../#l00130">LootStoreItem::reference</a>, and <a class="el" href="../../#l01634">sObjectMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00032">instance()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00032">instance()</a>.</p>
+
+</div>
+</div>
+<a id="a377c75f9d06eb246072b29d19baf2b62" name="a377c75f9d06eb246072b29d19baf2b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a377c75f9d06eb246072b29d19baf2b62">&#9670;&#160;</a></span>LoadStorageFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::LoadStorageFromDB </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.clear();</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a3d2a28376ed9a72595063335ad56f35b">CHAR_SEL_ITEMCONTAINER_ITEMS</a>);</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(stmt);</div>
+<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 stored items!&quot;</span>);</div>
+<div class="line"><span class="lineno">   48</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   50</span>    }</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   54</span>    {</div>
+<div class="line"><span class="lineno">   55</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>        <a class="code hl_typedef" href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&amp; itemList = <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>[ObjectGuid::Create&lt;HighGuid::Item&gt;(fields[0].Get&lt;uint32&gt;())];</div>
+<div class="line"><span class="lineno">   58</span>        itemList.emplace_back(fields[1].Get&lt;uint32&gt;(), fields[2].Get&lt;uint32&gt;(), fields[3].Get&lt;uint32&gt;(), fields[4].Get&lt;int32&gt;(), fields[5].Get&lt;uint32&gt;(), fields[6].Get&lt;bool&gt;(),</div>
+<div class="line"><span class="lineno">   59</span>            fields[7].Get&lt;bool&gt;(), fields[8].Get&lt;bool&gt;(), fields[9].Get&lt;bool&gt;(), fields[10].Get&lt;bool&gt;(), fields[11].Get&lt;bool&gt;(), fields[12].Get&lt;uint32&gt;());</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        ++count;</div>
+<div class="line"><span class="lineno">   62</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} stored items in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   65</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   66</span>}</div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a3d2a28376ed9a72595063335ad56f35b"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a3d2a28376ed9a72595063335ad56f35b">CHAR_SEL_ITEMCONTAINER_ITEMS</a></div><div class="ttdeci">@ CHAR_SEL_ITEMCONTAINER_ITEMS</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:488</div></div>
+<div class="ttc" id="aa04589_html_ac6110b8d867b5f84f677555d07037acb"><div class="ttname"><a href="../../d3/d24/a04589.html#ac6110b8d867b5f84f677555d07037acb">PreparedQueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; PreparedResultSet &gt; PreparedQueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:45</div></div>
+<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00488">CHAR_SEL_ITEMCONTAINER_ITEMS</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, and <a class="el" href="../../#l00070">lootItemStore</a>.</p>
+
+</div>
+</div>
+<a id="ad9804f564302d6ea4db4b84a6cbb093b" name="ad9804f564302d6ea4db4b84a6cbb093b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9804f564302d6ea4db4b84a6cbb093b">&#9670;&#160;</a></span>LoadStoredLoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool LootItemStorage::LoadStoredLoot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d6d/a08102.html">Item</a> *&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  164</span>{</div>
+<div class="line"><span class="lineno">  165</span>    <a class="code hl_struct" href="../../df/d48/a08126.html">ItemTemplate</a> <span class="keyword">const</span>* proto = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(item-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
+<div class="line"><span class="lineno">  166</span>    <span class="keywordflow">if</span> (!proto)</div>
+<div class="line"><span class="lineno">  167</span>    {</div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  169</span>    }</div>
+<div class="line"><span class="lineno">  170</span> </div>
+<div class="line"><span class="lineno">  171</span>    <a class="code hl_struct" href="../../d8/d10/a09414.html">Loot</a>* loot = &amp;item-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#ad4f0dcde43e0c8924de208d4b8977bbb">loot</a>;</div>
+<div class="line"><span class="lineno">  172</span>    LootItemContainer::iterator itr = <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.find(loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a1b549de55c06b66b4b8faa81d3020bff">containerGUID</a>);</div>
+<div class="line"><span class="lineno">  173</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.end())</div>
+<div class="line"><span class="lineno">  174</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>    <a class="code hl_typedef" href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&amp; itemList = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  177</span>    <span class="keywordflow">for</span> (StoredLootItemList::iterator it2 = itemList.begin(); it2 != itemList.end(); ++it2)</div>
+<div class="line"><span class="lineno">  178</span>    {</div>
+<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">if</span> (it2-&gt;itemid == 0)</div>
+<div class="line"><span class="lineno">  180</span>        {</div>
+<div class="line"><span class="lineno">  181</span>            loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a8a079b186937e50d51fc4636f8deb698">gold</a> = it2-&gt;count;</div>
+<div class="line"><span class="lineno">  182</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  183</span>        }</div>
+<div class="line"><span class="lineno">  184</span> </div>
+<div class="line"><span class="lineno">  185</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/d4b/a09402.html">LootTemplate</a> <span class="keyword">const</span>* lt = <a class="code hl_variable" href="../../da/d3e/a03581.html#a3148b185e4fb344eaa918ccc37ff8e84">LootTemplates_Item</a>.<a class="code hl_function" href="../../dd/d93/a09398.html#a541edad9042f950ba2545c6e1126c419">GetLootFor</a>(item-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>()))</div>
+<div class="line"><span class="lineno">  186</span>        {</div>
+<div class="line"><span class="lineno">  187</span>            <a class="code hl_struct" href="../../da/d2f/a09390.html">LootItem</a> li;</div>
+<div class="line"><span class="lineno">  188</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a03aad2576badecebacfb0f4658fdbf4c">itemid</a> = it2-&gt;itemid;</div>
+<div class="line"><span class="lineno">  189</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a688e1b5f1a3ae5b4215b330bc2969777">itemIndex</a> = it2-&gt;itemIndex;</div>
+<div class="line"><span class="lineno">  190</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a8b08275cd4e1ebabc389fc2e933b1be5">count</a> = it2-&gt;count;</div>
+<div class="line"><span class="lineno">  191</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a3dfa14b4a36b8750892b9cf6f3814ec9">follow_loot_rules</a> = it2-&gt;follow_loot_rules;</div>
+<div class="line"><span class="lineno">  192</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#ae9f49e27fd81c235fdc2c754918f55c4">freeforall</a> = it2-&gt;freeforall;</div>
+<div class="line"><span class="lineno">  193</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a0e1dbe84cef1c5f3111b08f25dbb859d">is_blocked</a> = it2-&gt;is_blocked;</div>
+<div class="line"><span class="lineno">  194</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#af50758cf8e8ad77e42197b13d849ae08">is_counted</a> = it2-&gt;is_counted;</div>
+<div class="line"><span class="lineno">  195</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a4d18c53f68ff454b7521e8afcab85b24">is_underthreshold</a> = it2-&gt;is_underthreshold;</div>
+<div class="line"><span class="lineno">  196</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a9021fa353f7538706349702498a4e778">is_looted</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  197</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a37ee3823a2144ed57f754d826fcbc093">needs_quest</a> = it2-&gt;needs_quest;</div>
+<div class="line"><span class="lineno">  198</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a665a75643f49ee93f469b7b7bc52a928">randomPropertyId</a> = it2-&gt;randomPropertyId;</div>
+<div class="line"><span class="lineno">  199</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#aec6043508b50b16f04e9b4fbf8742677">randomSuffix</a> = it2-&gt;randomSuffix;</div>
+<div class="line"><span class="lineno">  200</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a2d10d36b949b8adc0c463912b3f04768">rollWinnerGUID</a> = <a class="code hl_variable" href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
+<div class="line"><span class="lineno">  201</span>            li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a25903e281fe742404fd8ddef6c3c53bd">groupid</a> = 0;</div>
+<div class="line"><span class="lineno">  202</span> </div>
+<div class="line"><span class="lineno">  203</span>            <span class="comment">// Copy the extra loot conditions from the item in the loot template</span></div>
+<div class="line"><span class="lineno">  204</span>            lt-&gt;CopyConditions(&amp;li, it2-&gt;conditionLootId);</div>
+<div class="line"><span class="lineno">  205</span> </div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">if</span> (li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a37ee3823a2144ed57f754d826fcbc093">needs_quest</a>)</div>
+<div class="line"><span class="lineno">  207</span>            {</div>
+<div class="line"><span class="lineno">  208</span>                loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#afa9a10adf695d6591d45a3afd74e0825">quest_items</a>.push_back(li);</div>
+<div class="line"><span class="lineno">  209</span>            }</div>
+<div class="line"><span class="lineno">  210</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  211</span>            {</div>
+<div class="line"><span class="lineno">  212</span>                loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#ab9d61ed7d2aacadda6b4a648ab8c41b3">items</a>.push_back(li);</div>
+<div class="line"><span class="lineno">  213</span>            }</div>
+<div class="line"><span class="lineno">  214</span> </div>
+<div class="line"><span class="lineno">  215</span>            <span class="comment">// non-conditional one-player only items are counted here,</span></div>
+<div class="line"><span class="lineno">  216</span>            <span class="comment">// free for all items are counted in FillFFALoot(),</span></div>
+<div class="line"><span class="lineno">  217</span>            <span class="comment">// non-ffa conditionals are counted in FillNonQuestNonFFAConditionalLoot()</span></div>
+<div class="line"><span class="lineno">  218</span>            <span class="keywordflow">if</span> ((!li.<a class="code hl_variable" href="../../da/d2f/a09390.html#a37ee3823a2144ed57f754d826fcbc093">needs_quest</a> &amp;&amp; li.<a class="code hl_variable" href="../../da/d2f/a09390.html#ac89b265105cce50b87fae1e75cf23b4f">conditions</a>.empty() &amp;&amp; !proto-&gt;<a class="code hl_function" href="../../df/d48/a08126.html#aa1ae3db197ca23fdd00f2f056bea12f7">HasFlag</a>(<a class="code hl_enumvalue" href="../../da/dfd/a03401.html#a40a08686fc4f70e1f190b17397f25571adba86ceaeb379ef8f38f945b42bd38a0">ITEM_FLAG_MULTI_DROP</a>)) || li.<a class="code hl_variable" href="../../da/d2f/a09390.html#af50758cf8e8ad77e42197b13d849ae08">is_counted</a>)</div>
+<div class="line"><span class="lineno">  219</span>            {</div>
+<div class="line"><span class="lineno">  220</span>                ++loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a5c05488f85ce24fc40f70edade4e48d1">unlootedCount</a>;</div>
+<div class="line"><span class="lineno">  221</span>            }</div>
+<div class="line"><span class="lineno">  222</span>        }</div>
+<div class="line"><span class="lineno">  223</span>    }</div>
+<div class="line"><span class="lineno">  224</span> </div>
+<div class="line"><span class="lineno">  225</span>    <span class="keywordflow">if</span> (loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a5c05488f85ce24fc40f70edade4e48d1">unlootedCount</a>)</div>
+<div class="line"><span class="lineno">  226</span>    {</div>
+<div class="line"><span class="lineno">  227</span>        loot-&gt;<a class="code hl_function" href="../../d8/d10/a09414.html#a14f72bbfbb5a3434a75157d9a14cd6c1">FillNotNormalLootFor</a>(player);</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
+<div class="line"><span class="lineno">  229</span> </div>
+<div class="line"><span class="lineno">  230</span>    <span class="comment">// Mark the item if it has loot so it won&#39;t be generated again on open</span></div>
+<div class="line"><span class="lineno">  231</span>    item-&gt;<a class="code hl_variable" href="../../d1/d6d/a08102.html#acf64de3e7484114cf83ba5fb432c9d60">m_lootGenerated</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  232</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  233</span>}</div>
+<div class="ttc" id="aa03401_html_a40a08686fc4f70e1f190b17397f25571adba86ceaeb379ef8f38f945b42bd38a0"><div class="ttname"><a href="../../da/dfd/a03401.html#a40a08686fc4f70e1f190b17397f25571adba86ceaeb379ef8f38f945b42bd38a0">ITEM_FLAG_MULTI_DROP</a></div><div class="ttdeci">@ ITEM_FLAG_MULTI_DROP</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:158</div></div>
+<div class="ttc" id="aa03581_html_a3148b185e4fb344eaa918ccc37ff8e84"><div class="ttname"><a href="../../da/d3e/a03581.html#a3148b185e4fb344eaa918ccc37ff8e84">LootTemplates_Item</a></div><div class="ttdeci">LootStore LootTemplates_Item(&quot;item_loot_template&quot;, &quot;item entry&quot;, true)</div></div>
+<div class="ttc" id="aa08102_html_acf64de3e7484114cf83ba5fb432c9d60"><div class="ttname"><a href="../../d1/d6d/a08102.html#acf64de3e7484114cf83ba5fb432c9d60">Item::m_lootGenerated</a></div><div class="ttdeci">bool m_lootGenerated</div><div class="ttdef"><b>Definition:</b> Item.h:321</div></div>
+<div class="ttc" id="aa08102_html_ad4f0dcde43e0c8924de208d4b8977bbb"><div class="ttname"><a href="../../d1/d6d/a08102.html#ad4f0dcde43e0c8924de208d4b8977bbb">Item::loot</a></div><div class="ttdeci">Loot loot</div><div class="ttdef"><b>Definition:</b> Item.h:320</div></div>
+<div class="ttc" id="aa08126_html_aa1ae3db197ca23fdd00f2f056bea12f7"><div class="ttname"><a href="../../df/d48/a08126.html#aa1ae3db197ca23fdd00f2f056bea12f7">ItemTemplate::HasFlag</a></div><div class="ttdeci">bool HasFlag(ItemFlags flag) const</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:827</div></div>
+<div class="ttc" id="aa08146_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d7/d40/a08146.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
+<div class="ttc" id="aa08194_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aa09390_html"><div class="ttname"><a href="../../da/d2f/a09390.html">LootItem</a></div><div class="ttdef"><b>Definition:</b> LootMgr.h:154</div></div>
+<div class="ttc" id="aa09390_html_a03aad2576badecebacfb0f4658fdbf4c"><div class="ttname"><a href="../../da/d2f/a09390.html#a03aad2576badecebacfb0f4658fdbf4c">LootItem::itemid</a></div><div class="ttdeci">uint32 itemid</div><div class="ttdef"><b>Definition:</b> LootMgr.h:155</div></div>
+<div class="ttc" id="aa09390_html_a0e1dbe84cef1c5f3111b08f25dbb859d"><div class="ttname"><a href="../../da/d2f/a09390.html#a0e1dbe84cef1c5f3111b08f25dbb859d">LootItem::is_blocked</a></div><div class="ttdeci">bool is_blocked</div><div class="ttdef"><b>Definition:</b> LootMgr.h:164</div></div>
+<div class="ttc" id="aa09390_html_a25903e281fe742404fd8ddef6c3c53bd"><div class="ttname"><a href="../../da/d2f/a09390.html#a25903e281fe742404fd8ddef6c3c53bd">LootItem::groupid</a></div><div class="ttdeci">uint8 groupid</div><div class="ttdef"><b>Definition:</b> LootMgr.h:170</div></div>
+<div class="ttc" id="aa09390_html_a2d10d36b949b8adc0c463912b3f04768"><div class="ttname"><a href="../../da/d2f/a09390.html#a2d10d36b949b8adc0c463912b3f04768">LootItem::rollWinnerGUID</a></div><div class="ttdeci">ObjectGuid rollWinnerGUID</div><div class="ttdef"><b>Definition:</b> LootMgr.h:161</div></div>
+<div class="ttc" id="aa09390_html_a37ee3823a2144ed57f754d826fcbc093"><div class="ttname"><a href="../../da/d2f/a09390.html#a37ee3823a2144ed57f754d826fcbc093">LootItem::needs_quest</a></div><div class="ttdeci">bool needs_quest</div><div class="ttdef"><b>Definition:</b> LootMgr.h:168</div></div>
+<div class="ttc" id="aa09390_html_a3dfa14b4a36b8750892b9cf6f3814ec9"><div class="ttname"><a href="../../da/d2f/a09390.html#a3dfa14b4a36b8750892b9cf6f3814ec9">LootItem::follow_loot_rules</a></div><div class="ttdeci">bool follow_loot_rules</div><div class="ttdef"><b>Definition:</b> LootMgr.h:169</div></div>
+<div class="ttc" id="aa09390_html_a4d18c53f68ff454b7521e8afcab85b24"><div class="ttname"><a href="../../da/d2f/a09390.html#a4d18c53f68ff454b7521e8afcab85b24">LootItem::is_underthreshold</a></div><div class="ttdeci">bool is_underthreshold</div><div class="ttdef"><b>Definition:</b> LootMgr.h:166</div></div>
+<div class="ttc" id="aa09390_html_a665a75643f49ee93f469b7b7bc52a928"><div class="ttname"><a href="../../da/d2f/a09390.html#a665a75643f49ee93f469b7b7bc52a928">LootItem::randomPropertyId</a></div><div class="ttdeci">int32 randomPropertyId</div><div class="ttdef"><b>Definition:</b> LootMgr.h:158</div></div>
+<div class="ttc" id="aa09390_html_a688e1b5f1a3ae5b4215b330bc2969777"><div class="ttname"><a href="../../da/d2f/a09390.html#a688e1b5f1a3ae5b4215b330bc2969777">LootItem::itemIndex</a></div><div class="ttdeci">uint32 itemIndex</div><div class="ttdef"><b>Definition:</b> LootMgr.h:156</div></div>
+<div class="ttc" id="aa09390_html_a8b08275cd4e1ebabc389fc2e933b1be5"><div class="ttname"><a href="../../da/d2f/a09390.html#a8b08275cd4e1ebabc389fc2e933b1be5">LootItem::count</a></div><div class="ttdeci">uint8 count</div><div class="ttdef"><b>Definition:</b> LootMgr.h:162</div></div>
+<div class="ttc" id="aa09390_html_a9021fa353f7538706349702498a4e778"><div class="ttname"><a href="../../da/d2f/a09390.html#a9021fa353f7538706349702498a4e778">LootItem::is_looted</a></div><div class="ttdeci">bool is_looted</div><div class="ttdef"><b>Definition:</b> LootMgr.h:163</div></div>
+<div class="ttc" id="aa09390_html_ac89b265105cce50b87fae1e75cf23b4f"><div class="ttname"><a href="../../da/d2f/a09390.html#ac89b265105cce50b87fae1e75cf23b4f">LootItem::conditions</a></div><div class="ttdeci">ConditionList conditions</div><div class="ttdef"><b>Definition:</b> LootMgr.h:159</div></div>
+<div class="ttc" id="aa09390_html_ae9f49e27fd81c235fdc2c754918f55c4"><div class="ttname"><a href="../../da/d2f/a09390.html#ae9f49e27fd81c235fdc2c754918f55c4">LootItem::freeforall</a></div><div class="ttdeci">bool freeforall</div><div class="ttdef"><b>Definition:</b> LootMgr.h:165</div></div>
+<div class="ttc" id="aa09390_html_aec6043508b50b16f04e9b4fbf8742677"><div class="ttname"><a href="../../da/d2f/a09390.html#aec6043508b50b16f04e9b4fbf8742677">LootItem::randomSuffix</a></div><div class="ttdeci">uint32 randomSuffix</div><div class="ttdef"><b>Definition:</b> LootMgr.h:157</div></div>
+<div class="ttc" id="aa09390_html_af50758cf8e8ad77e42197b13d849ae08"><div class="ttname"><a href="../../da/d2f/a09390.html#af50758cf8e8ad77e42197b13d849ae08">LootItem::is_counted</a></div><div class="ttdeci">bool is_counted</div><div class="ttdef"><b>Definition:</b> LootMgr.h:167</div></div>
+<div class="ttc" id="aa09398_html_a541edad9042f950ba2545c6e1126c419"><div class="ttname"><a href="../../dd/d93/a09398.html#a541edad9042f950ba2545c6e1126c419">LootStore::GetLootFor</a></div><div class="ttdeci">LootTemplate const * GetLootFor(uint32 loot_id) const</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:247</div></div>
+<div class="ttc" id="aa09402_html"><div class="ttname"><a href="../../d8/d4b/a09402.html">LootTemplate</a></div><div class="ttdef"><b>Definition:</b> LootMgr.h:244</div></div>
+<div class="ttc" id="aa09414_html"><div class="ttname"><a href="../../d8/d10/a09414.html">Loot</a></div><div class="ttdef"><b>Definition:</b> LootMgr.h:312</div></div>
+<div class="ttc" id="aa09414_html_a14f72bbfbb5a3434a75157d9a14cd6c1"><div class="ttname"><a href="../../d8/d10/a09414.html#a14f72bbfbb5a3434a75157d9a14cd6c1">Loot::FillNotNormalLootFor</a></div><div class="ttdeci">void FillNotNormalLootFor(Player *player)</div><div class="ttdef"><b>Definition:</b> LootMgr.cpp:621</div></div>
+<div class="ttc" id="aa09414_html_a5c05488f85ce24fc40f70edade4e48d1"><div class="ttname"><a href="../../d8/d10/a09414.html#a5c05488f85ce24fc40f70edade4e48d1">Loot::unlootedCount</a></div><div class="ttdeci">uint8 unlootedCount</div><div class="ttdef"><b>Definition:</b> LootMgr.h:322</div></div>
+<div class="ttc" id="aa09414_html_afa9a10adf695d6591d45a3afd74e0825"><div class="ttname"><a href="../../d8/d10/a09414.html#afa9a10adf695d6591d45a3afd74e0825">Loot::quest_items</a></div><div class="ttdeci">std::vector&lt; LootItem &gt; quest_items</div><div class="ttdef"><b>Definition:</b> LootMgr.h:320</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00159">LootItem::conditions</a>, <a class="el" href="../../#l00328">Loot::containerGUID</a>, <a class="el" href="../../#l00162">LootItem::count</a>, <a class="el" href="../../#l00120">ObjectGuid::Empty</a>, <a class="el" href="../../#l00621">Loot::FillNotNormalLootFor()</a>, <a class="el" href="../../#l00169">LootItem::follow_loot_rules</a>, <a class="el" href="../../#l00165">LootItem::freeforall</a>, <a class="el" href="../../#l00112">Object::GetEntry()</a>, <a class="el" href="../../#l00247">LootStore::GetLootFor()</a>, <a class="el" href="../../#l00321">Loot::gold</a>, <a class="el" href="../../#l00170">LootItem::groupid</a>, <a class="el" href="../../#l00827">ItemTemplate::HasFlag()</a>, <a class="el" href="../../#l00164">LootItem::is_blocked</a>, <a class="el" href="../../#l00167">LootItem::is_counted</a>, <a class="el" href="../../#l00163">LootItem::is_looted</a>, <a class="el" href="../../#l00166">LootItem::is_underthreshold</a>, <a class="el" href="../../#l00158">ITEM_FLAG_MULTI_DROP</a>, <a class="el" href="../../#l00155">LootItem::itemid</a>, <a class="el" href="../../#l00156">LootItem::itemIndex</a>, <a class="el" href="../../#l00319">Loot::items</a>, <a class="el" href="../../#l00320">Item::loot</a>, <a class="el" href="../../#l00070">lootItemStore</a>, <a class="el" href="../../da/d3e/a03581.html#a3148b185e4fb344eaa918ccc37ff8e84">LootTemplates_Item</a>, <a class="el" href="../../#l00321">Item::m_lootGenerated</a>, <a class="el" href="../../#l00168">LootItem::needs_quest</a>, <a class="el" href="../../#l00320">Loot::quest_items</a>, <a class="el" href="../../#l00158">LootItem::randomPropertyId</a>, <a class="el" href="../../#l00157">LootItem::randomSuffix</a>, <a class="el" href="../../#l00161">LootItem::rollWinnerGUID</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, and <a class="el" href="../../#l00322">Loot::unlootedCount</a>.</p>
+
+</div>
+</div>
+<a id="a8ab68725c0525d162d325a2131db4c49" name="a8ab68725c0525d162d325a2131db4c49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ab68725c0525d162d325a2131db4c49">&#9670;&#160;</a></span>RemoveEntryFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::RemoveEntryFromDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>containerGUID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>itemid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>itemIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   69</span>{</div>
+<div class="line"><span class="lineno">   70</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7ac27439a595288a896646e53bad2a901a">CHAR_DEL_ITEMCONTAINER_SINGLE_ITEM</a>);</div>
+<div class="line"><span class="lineno">   73</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, containerGUID.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">   74</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, itemid);</div>
+<div class="line"><span class="lineno">   75</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, count);</div>
+<div class="line"><span class="lineno">   76</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, itemIndex);</div>
+<div class="line"><span class="lineno">   77</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">   80</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7ac27439a595288a896646e53bad2a901a"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7ac27439a595288a896646e53bad2a901a">CHAR_DEL_ITEMCONTAINER_SINGLE_ITEM</a></div><div class="ttdeci">@ CHAR_DEL_ITEMCONTAINER_SINGLE_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:489</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00489">CHAR_DEL_ITEMCONTAINER_SINGLE_ITEM</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00235">RemoveStoredLootItem()</a>, and <a class="el" href="../../#l00256">RemoveStoredLootMoney()</a>.</p>
+
+</div>
+</div>
+<a id="a414dee93f9852a64f01f9d9bf8dc8b40" name="a414dee93f9852a64f01f9d9bf8dc8b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414dee93f9852a64f01f9d9bf8dc8b40">&#9670;&#160;</a></span>RemoveStoredLoot()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::RemoveStoredLoot </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>containerGUID</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  278</span>{</div>
+<div class="line"><span class="lineno">  279</span>    <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.erase(containerGUID);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.BeginTransaction();</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a1f88f04d8177667a14509003941c7cf2">CHAR_DEL_ITEMCONTAINER_CONTAINER</a>);</div>
+<div class="line"><span class="lineno">  284</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, containerGUID.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  285</span>    trans-&gt;Append(stmt);</div>
+<div class="line"><span class="lineno">  286</span> </div>
+<div class="line"><span class="lineno">  287</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.CommitTransaction(trans);</div>
+<div class="line"><span class="lineno">  288</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a1f88f04d8177667a14509003941c7cf2"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a1f88f04d8177667a14509003941c7cf2">CHAR_DEL_ITEMCONTAINER_CONTAINER</a></div><div class="ttdeci">@ CHAR_DEL_ITEMCONTAINER_CONTAINER</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:491</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00491">CHAR_DEL_ITEMCONTAINER_CONTAINER</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00070">lootItemStore</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+</div>
+</div>
+<a id="a6fd3f2ac820784ba51413b3781df3bcc" name="a6fd3f2ac820784ba51413b3781df3bcc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fd3f2ac820784ba51413b3781df3bcc">&#9670;&#160;</a></span>RemoveStoredLootItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::RemoveStoredLootItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>containerGUID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>itemid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d10/a09414.html">Loot</a> *&#160;</td>
+          <td class="paramname"><em>loot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>itemIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
+<div class="line"><span class="lineno">  237</span>    LootItemContainer::iterator itr = <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.find(containerGUID);</div>
+<div class="line"><span class="lineno">  238</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.end())</div>
+<div class="line"><span class="lineno">  239</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  240</span> </div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_typedef" href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&amp; itemList = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">for</span> (StoredLootItemList::iterator it2 = itemList.begin(); it2 != itemList.end(); ++it2)</div>
+<div class="line"><span class="lineno">  243</span>        <span class="keywordflow">if</span> (it2-&gt;itemid == itemid &amp;&amp; it2-&gt;count == count)</div>
+<div class="line"><span class="lineno">  244</span>        {</div>
+<div class="line"><span class="lineno">  245</span>            <a class="code hl_function" href="../../dd/d62/a09374.html#a8ab68725c0525d162d325a2131db4c49">RemoveEntryFromDB</a>(containerGUID, itemid, count, itemIndex);</div>
+<div class="line"><span class="lineno">  246</span>            itemList.erase(it2);</div>
+<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  248</span>        }</div>
+<div class="line"><span class="lineno">  249</span> </div>
+<div class="line"><span class="lineno">  250</span>    <span class="comment">// loot with empty itemList but unlootedCount &gt; 0</span></div>
+<div class="line"><span class="lineno">  251</span>    <span class="comment">// must be deleted manually by the player or traded</span></div>
+<div class="line"><span class="lineno">  252</span>    <span class="keywordflow">if</span> (!loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a5c05488f85ce24fc40f70edade4e48d1">unlootedCount</a>)</div>
+<div class="line"><span class="lineno">  253</span>        <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  254</span>}</div>
+<div class="ttc" id="aa09374_html_a8ab68725c0525d162d325a2131db4c49"><div class="ttname"><a href="../../dd/d62/a09374.html#a8ab68725c0525d162d325a2131db4c49">LootItemStorage::RemoveEntryFromDB</a></div><div class="ttdeci">void RemoveEntryFromDB(ObjectGuid containerGUID, uint32 itemid, uint32 count, uint32 itemIndex)</div><div class="ttdef"><b>Definition:</b> LootItemStorage.cpp:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">lootItemStore</a>, <a class="el" href="../../#l00068">RemoveEntryFromDB()</a>, and <a class="el" href="../../#l00322">Loot::unlootedCount</a>.</p>
+
+</div>
+</div>
+<a id="ab22d267a6701fedf824f801e4b703f70" name="ab22d267a6701fedf824f801e4b703f70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab22d267a6701fedf824f801e4b703f70">&#9670;&#160;</a></span>RemoveStoredLootMoney()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void LootItemStorage::RemoveStoredLootMoney </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>containerGUID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d10/a09414.html">Loot</a> *&#160;</td>
+          <td class="paramname"><em>loot</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  257</span>{</div>
+<div class="line"><span class="lineno">  258</span>    LootItemContainer::iterator itr = <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.find(containerGUID);</div>
+<div class="line"><span class="lineno">  259</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.end())</div>
+<div class="line"><span class="lineno">  260</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  261</span> </div>
+<div class="line"><span class="lineno">  262</span>    <a class="code hl_typedef" href="../../d9/d65/a03578.html#aa16defe92374d7db2d28958ee8fce21d">StoredLootItemList</a>&amp; itemList = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">for</span> (StoredLootItemList::iterator it2 = itemList.begin(); it2 != itemList.end(); ++it2)</div>
+<div class="line"><span class="lineno">  264</span>        <span class="keywordflow">if</span> (it2-&gt;itemid == 0)</div>
+<div class="line"><span class="lineno">  265</span>        {</div>
+<div class="line"><span class="lineno">  266</span>            <a class="code hl_function" href="../../dd/d62/a09374.html#a8ab68725c0525d162d325a2131db4c49">RemoveEntryFromDB</a>(containerGUID, 0, it2-&gt;count, 0);</div>
+<div class="line"><span class="lineno">  267</span>            itemList.erase(it2);</div>
+<div class="line"><span class="lineno">  268</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  269</span>        }</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>    <span class="comment">// loot with empty itemList but unlootedCount &gt; 0</span></div>
+<div class="line"><span class="lineno">  272</span>    <span class="comment">// must be deleted manually by the player or traded</span></div>
+<div class="line"><span class="lineno">  273</span>    <span class="keywordflow">if</span> (!loot-&gt;<a class="code hl_variable" href="../../d8/d10/a09414.html#a5c05488f85ce24fc40f70edade4e48d1">unlootedCount</a>)</div>
+<div class="line"><span class="lineno">  274</span>        <a class="code hl_variable" href="../../dd/d62/a09374.html#a58ae52b9812e5752ba00d00a58eb56b0">lootItemStore</a>.erase(itr);</div>
+<div class="line"><span class="lineno">  275</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">lootItemStore</a>, <a class="el" href="../../#l00068">RemoveEntryFromDB()</a>, and <a class="el" href="../../#l00322">Loot::unlootedCount</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a67b9d223426512af79bbf5b035c18a6d" name="a67b9d223426512af79bbf5b035c18a6d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67b9d223426512af79bbf5b035c18a6d">&#9670;&#160;</a></span>_loot</h2>
+<a id="a58ae52b9812e5752ba00d00a58eb56b0" name="a58ae52b9812e5752ba00d00a58eb56b0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58ae52b9812e5752ba00d00a58eb56b0">&#9670;&#160;</a></span>lootItemStore</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,7 +769,7 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/dc8/a09410.html">Loot</a> const&amp; LootGroupInvalidSelector::_loot</td>
+          <td class="memname"><a class="el" href="../../d9/d65/a03578.html#a06cc23df363d1d767959d7ab5ec29ad5">LootItemContainer</a> LootItemStorage::lootItemStore</td>
         </tr>
       </table>
   </td>
@@ -268,31 +779,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00063">operator()()</a>.</p>
-
-</div>
-</div>
-<a id="a10e307846a0731aa812388c29c0d4bc8" name="a10e307846a0731aa812388c29c0d4bc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a10e307846a0731aa812388c29c0d4bc8">&#9670;&#160;</a></span>_lootMode</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> LootGroupInvalidSelector::_lootMode</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00063">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00082">AddNewStoredLoot()</a>, <a class="el" href="../../#l00038">LoadStorageFromDB()</a>, <a class="el" href="../../#l00163">LoadStoredLoot()</a>, <a class="el" href="../../#l00277">RemoveStoredLoot()</a>, <a class="el" href="../../#l00235">RemoveStoredLootItem()</a>, and <a class="el" href="../../#l00256">RemoveStoredLootMoney()</a>.</p>
 
 </div>
 </div>
@@ -301,8 +788,8 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d62/a09374.html">LootGroupInvalidSelector</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:58 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dd/d62/a09374.html">LootItemStorage</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

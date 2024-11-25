@@ -1,8 +1,10 @@
 var a24070 =
 [
-    [ "npc_pet_gen_valkyr_guardian", "da/dc3/a24070.html#a546f0b0b4273de8216e9f688c2d68209", null ],
-    [ "InitializeAI", "da/dc3/a24070.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
-    [ "OwnerAttacked", "da/dc3/a24070.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
-    [ "UpdateAI", "da/dc3/a24070.html#a9a5a233763365c6cca5618459a23a816", null ],
-    [ "targetCheck", "da/dc3/a24070.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
+    [ "npc_pet_gen_plump_turkey", "da/dc3/a24070.html#acd5a9cb122cbf5a773461ce1027f28a1", null ],
+    [ "MovementInform", "da/dc3/a24070.html#af27c91388891add6d00e251bf3187743", null ],
+    [ "UpdateAI", "da/dc3/a24070.html#a93d2719bcc6a657a9a32cce06f566b19", null ],
+    [ "checkTimer", "da/dc3/a24070.html#af9e7339416ada0c3bb9829cbd8e1f5d3", null ],
+    [ "goGUID", "da/dc3/a24070.html#a5fa88e045430adea9e72a3744bf72780", null ],
+    [ "jumping", "da/dc3/a24070.html#a8486512b7594f2ce759fcb580f1baf34", null ],
+    [ "jumpTimer", "da/dc3/a24070.html#ad53a9abad41ab6a792a55b854155135d", null ]
 ];

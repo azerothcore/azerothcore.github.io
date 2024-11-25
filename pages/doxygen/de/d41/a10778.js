@@ -1,8 +1,8 @@
 var a10778 =
 [
-    [ "SkillExtraItemEntry", "de/d41/a10778.html#a3f7a8bc0b81407e7d5567c7da3e65ec5", null ],
-    [ "SkillExtraItemEntry", "de/d41/a10778.html#a39a44cb09912cb0a15a5dd3b18787d16", null ],
-    [ "additionalCreateChance", "de/d41/a10778.html#a299d886468e9caf22f9d6ce80a64c247", null ],
-    [ "newMaxOrEntry", "de/d41/a10778.html#adfda967d36154b039495f0b289a5c9d1", null ],
-    [ "requiredSpecialization", "de/d41/a10778.html#a0ba0ba6f012a10b717ca4e6c2f46cf26", null ]
+    [ "SkillPerfectItemEntry", "de/d41/a10778.html#a683f3c6f5e9c5ef2a0f0fa09d546d2a3", null ],
+    [ "SkillPerfectItemEntry", "de/d41/a10778.html#a678f9908440187faad38c0e1ffaf82de", null ],
+    [ "perfectCreateChance", "de/d41/a10778.html#a750d5ab6bc3df0026e640f1c84de8547", null ],
+    [ "perfectItemType", "de/d41/a10778.html#a057605f8867d4df5cb290318598a2908", null ],
+    [ "requiredSpecialization", "de/d41/a10778.html#aa7ad968ab1b8804ee8f0f8f40bc6f762", null ]
 ];

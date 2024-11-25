@@ -1,6 +1,6 @@
 var a27750 =
 [
-    [ "color", "df/d69/a27750.html#a2e4ee1d687af07445684907d1bcec4f4", null ],
-    [ "ID", "df/d69/a27750.html#ac125147c2dc5546a0116f48e08f36e59", null ],
-    [ "spellitemenchantement", "df/d69/a27750.html#a3a6329c8f5caa3cd6e61138339f37f4d", null ]
+    [ "Id", "df/d69/a27750.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
+    [ "Order", "df/d69/a27750.html#a16fca42d9a0a98e034a93984c4362b53", null ],
+    [ "TypeFlags", "df/d69/a27750.html#ac7246adc7c6c3217de8ac093983b7553", null ]
 ];

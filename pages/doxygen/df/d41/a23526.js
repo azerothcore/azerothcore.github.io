@@ -1,6 +1,9 @@
 var a23526 =
 [
-    [ "HandleScriptEffect", "df/d41/a23526.html#a724e857ad8604ef4546c8823bb7bd632", null ],
-    [ "PrepareSpellScript", "df/d41/a23526.html#a7a67cdf9c3c8017fd065549a499831fc", null ],
-    [ "Register", "df/d41/a23526.html#aadbf9ca8c4b5fa0f72b967f059ee22ab", null ]
+    [ "boss_void_reaver", "df/d41/a23526.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
+    [ "JustDied", "df/d41/a23526.html#a49e6f52b11177bdac07adff92c2675f5", null ],
+    [ "JustEngagedWith", "df/d41/a23526.html#a9260d05e11f4dec6fc25432a0524706b", null ],
+    [ "KilledUnit", "df/d41/a23526.html#adc234fc43308771a42d99049876cad1b", null ],
+    [ "Reset", "df/d41/a23526.html#a02c36ea960de24991f879943991a93c6", null ],
+    [ "_recentlySpoken", "df/d41/a23526.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
 ];

@@ -1,6 +1,6 @@
 var a15818 =
 [
-    [ "boss_eadricAI", "d3/d5f/a15822.html", "d3/d5f/a15822" ],
-    [ "boss_eadric", "db/dd6/a15818.html#ad32a08ec9fc2a31b5bcdcff67d0127d2", null ],
-    [ "GetAI", "db/dd6/a15818.html#a15235e86d0bdff0bd3fef5dbff3abb27", null ]
+    [ "instance_ruby_sanctum_InstanceMapScript", "d3/d5f/a15822.html", "d3/d5f/a15822" ],
+    [ "instance_ruby_sanctum", "db/dd6/a15818.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
+    [ "GetInstanceScript", "db/dd6/a15818.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
 ];

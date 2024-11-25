@@ -1,7 +1,12 @@
 var a13222 =
 [
-    [ "npc_ranger_lilatha", "dc/dc4/a13222.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "dc/dc4/a13222.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "dc/dc4/a13222.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "dc/dc4/a13222.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_eastvale_peasent", "dc/dc4/a13222.html#a5282dac41228569d4431d84c1f160f05", null ],
+    [ "Initialize", "dc/dc4/a13222.html#a8b73aa30b0b4a984d8644e6d9541461d", null ],
+    [ "PathEndReached", "dc/dc4/a13222.html#a002ec21e0715b020aa19cd0839408033", null ],
+    [ "Reset", "dc/dc4/a13222.html#a7eb6cf174a46fd31c8c5241649fcebdc", null ],
+    [ "SetData", "dc/dc4/a13222.html#add14d9505880727e208e7ef9428f5acd", null ],
+    [ "UpdateAI", "dc/dc4/a13222.html#a868eb38757bf7bc02d5b3ffa66feb375", null ],
+    [ "_events", "dc/dc4/a13222.html#a1b310b07481366042dc45f7a27ce6408", null ],
+    [ "_path", "dc/dc4/a13222.html#a907db8e6148947248b5bcfdb35023e16", null ],
+    [ "_realenGUID", "dc/dc4/a13222.html#aad06364be8698b5ba69cd229e2a5085b", null ]
 ];

@@ -1,6 +1,6 @@
 var a17438 =
 [
-    [ "boss_professor_putricideAI", "d7/d47/a17442.html", "d7/d47/a17442" ],
-    [ "boss_professor_putricide", "d4/dbf/a17438.html#a80776dad5c0205aa6a98752f43e85e32", null ],
-    [ "GetAI", "d4/dbf/a17438.html#a7c84089d24bb0c77a5203884254e0925", null ]
+    [ "AbominationDespawner", "d4/dbf/a17438.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
+    [ "operator()", "d4/dbf/a17438.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
+    [ "_owner", "d4/dbf/a17438.html#af9089e566905b885887a5714ad5b0741", null ]
 ];

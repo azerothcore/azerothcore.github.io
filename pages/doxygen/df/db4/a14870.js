@@ -1,6 +1,8 @@
 var a14870 =
 [
-    [ "HandleApply", "df/db4/a14870.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "df/db4/a14870.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "df/db4/a14870.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "npc_obsidian_nullifier", "df/db4/a14870.html#a9dbb6d681e348057564750fcd7e8050a", null ],
+    [ "JustEngagedWith", "df/db4/a14870.html#ad3e30a214a9bcb6ea13d3a78716b5cb1", null ],
+    [ "Reset", "df/db4/a14870.html#a9897eab3b71dd0a6a2ea598951b095cd", null ],
+    [ "UpdateAI", "df/db4/a14870.html#a37cf1d335dd3735b262e82828c4f904a", null ],
+    [ "_targetGUIDs", "df/db4/a14870.html#aaf125742bf9d17ec0b605b78dee39c7c", null ]
 ];

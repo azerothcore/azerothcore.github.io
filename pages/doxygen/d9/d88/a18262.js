@@ -1,6 +1,6 @@
 var a18262 =
 [
-    [ "npc_frostwing_vrykulAI", "d8/d59/a18266.html", "d8/d59/a18266" ],
-    [ "npc_frostwing_vrykul", "d9/d88/a18262.html#ab915aa094ddebd9201a1c626e6427409", null ],
-    [ "GetAI", "d9/d88/a18262.html#a11678e59b6db9a41c7b6a575339995fd", null ]
+    [ "npc_captain_grondelAI", "d9/d88/a18262.html#afbc971fc03584b87229318309d51a2f5", null ],
+    [ "Reset", "d9/d88/a18262.html#a7d3878822e77fba66891e87e23bd3740", null ],
+    [ "UpdateAI", "d9/d88/a18262.html#a4af8548092b49653805224bd4c0ac0a2", null ]
 ];

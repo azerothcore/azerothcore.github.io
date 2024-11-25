@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: lfg::RBEntryInfo Struct Reference</title>
+<title>AzerothCore: lfg::LfgGroupData Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,57 +106,531 @@ $(document).ready(function(){initNavTree('d2/d33/a07690.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../de/d11/a07687.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">lfg::RBEntryInfo Struct Reference</div></div>
+  <div class="headertitle"><div class="title">lfg::LfgGroupData Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">LFGGroupData.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa720dd6cae9ee7163bb9b84918249644"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#aa720dd6cae9ee7163bb9b84918249644">RBEntryInfo</a> ()=default</td></tr>
-<tr class="separator:aa720dd6cae9ee7163bb9b84918249644"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3df17ed1c70ed9b755843308d5ff6336"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a3df17ed1c70ed9b755843308d5ff6336">RBEntryInfo</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _roles, std::string _comment)</td></tr>
-<tr class="separator:a3df17ed1c70ed9b755843308d5ff6336"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab081bd042f880ff9e1b5f7fcbc80db74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#ab081bd042f880ff9e1b5f7fcbc80db74">LfgGroupData</a> ()</td></tr>
+<tr class="separator:ab081bd042f880ff9e1b5f7fcbc80db74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a472237dc72536de9b1f0b6dc36c52285"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a472237dc72536de9b1f0b6dc36c52285">~LfgGroupData</a> ()</td></tr>
+<tr class="separator:a472237dc72536de9b1f0b6dc36c52285"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39d4b9904d783f85b861f18e08a94526"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a39d4b9904d783f85b861f18e08a94526">IsLfgGroup</a> ()</td></tr>
+<tr class="separator:a39d4b9904d783f85b861f18e08a94526"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e7dd73c28e1dace3a96da551ab01378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a9e7dd73c28e1dace3a96da551ab01378">SetState</a> (<a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> state)</td></tr>
+<tr class="separator:a9e7dd73c28e1dace3a96da551ab01378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b879db5cc148f96678fe765e42a8f5c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a8b879db5cc148f96678fe765e42a8f5c">RestoreState</a> ()</td></tr>
+<tr class="separator:a8b879db5cc148f96678fe765e42a8f5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b55dde22dda026859e9a2e25aee39a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a6b55dde22dda026859e9a2e25aee39a6">AddPlayer</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid)</td></tr>
+<tr class="separator:a6b55dde22dda026859e9a2e25aee39a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a443fe6dc1a2569a5bad41e905c98fdc5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a443fe6dc1a2569a5bad41e905c98fdc5">RemovePlayer</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid)</td></tr>
+<tr class="separator:a443fe6dc1a2569a5bad41e905c98fdc5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0354922226bb3916310f7276e2191fb6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a0354922226bb3916310f7276e2191fb6">RemoveAllPlayers</a> ()</td></tr>
+<tr class="separator:a0354922226bb3916310f7276e2191fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ae808d3a58fb0c0f529873ee082fa11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a8ae808d3a58fb0c0f529873ee082fa11">SetLeader</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid)</td></tr>
+<tr class="separator:a8ae808d3a58fb0c0f529873ee082fa11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d855e64a9aaf284a67c32b27a135d15"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a7d855e64a9aaf284a67c32b27a135d15">SetDungeon</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> dungeon)</td></tr>
+<tr class="separator:a7d855e64a9aaf284a67c32b27a135d15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a2f71fce87432f13cc372cae89aa6e2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a5a2f71fce87432f13cc372cae89aa6e2">DecreaseKicksLeft</a> ()</td></tr>
+<tr class="separator:a5a2f71fce87432f13cc372cae89aa6e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a645e2fd76111f49ccf80e11bd1e05fd1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a645e2fd76111f49ccf80e11bd1e05fd1">GetState</a> () const</td></tr>
+<tr class="separator:a645e2fd76111f49ccf80e11bd1e05fd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5017bc3db5c00dc67ca970a501a1549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#af5017bc3db5c00dc67ca970a501a1549">GetOldState</a> () const</td></tr>
+<tr class="separator:af5017bc3db5c00dc67ca970a501a1549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9b5c97aea6548afde1db00af16dcf7d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a028c02c49f9146ef7d35fc893ac3c561">LfgGuidSet</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#ad9b5c97aea6548afde1db00af16dcf7d">GetPlayers</a> () const</td></tr>
+<tr class="separator:ad9b5c97aea6548afde1db00af16dcf7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d8e902e911cc889b7c2e820e509cd52"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a9d8e902e911cc889b7c2e820e509cd52">GetPlayerCount</a> () const</td></tr>
+<tr class="separator:a9d8e902e911cc889b7c2e820e509cd52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab54de77d96e5a9c5445916ee253dfed7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#ab54de77d96e5a9c5445916ee253dfed7">GetLeader</a> () const</td></tr>
+<tr class="separator:ab54de77d96e5a9c5445916ee253dfed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fb4ba9cde3601fda2717615034707fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a0fb4ba9cde3601fda2717615034707fb">GetDungeon</a> (bool asId=true) const</td></tr>
+<tr class="separator:a0fb4ba9cde3601fda2717615034707fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa272606655d08afc1763caf9311035c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#aa272606655d08afc1763caf9311035c3">GetKicksLeft</a> () const</td></tr>
+<tr class="separator:aa272606655d08afc1763caf9311035c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab891dec65b0070ede1233080eadd0190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#ab891dec65b0070ede1233080eadd0190">roles</a></td></tr>
-<tr class="separator:ab891dec65b0070ede1233080eadd0190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7284eac7208dba21a52b79257aad7dbc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a7284eac7208dba21a52b79257aad7dbc">comment</a></td></tr>
-<tr class="separator:a7284eac7208dba21a52b79257aad7dbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9216815fd208442e4358811810149851"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">m_State</a></td></tr>
+<tr class="memdesc:a9216815fd208442e4358811810149851"><td class="mdescLeft">&#160;</td><td class="mdescRight">State if group in LFG.  <a href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">More...</a><br /></td></tr>
+<tr class="separator:a9216815fd208442e4358811810149851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc19767f6135bf567f0df6dc4bd5f6ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">m_OldState</a></td></tr>
+<tr class="memdesc:afc19767f6135bf567f0df6dc4bd5f6ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Old State.  <a href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">More...</a><br /></td></tr>
+<tr class="separator:afc19767f6135bf567f0df6dc4bd5f6ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89a70ef6e1daae615b46cb457e648400"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a89a70ef6e1daae615b46cb457e648400">m_Leader</a></td></tr>
+<tr class="memdesc:a89a70ef6e1daae615b46cb457e648400"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leader GUID.  <a href="../../d2/d33/a07690.html#a89a70ef6e1daae615b46cb457e648400">More...</a><br /></td></tr>
+<tr class="separator:a89a70ef6e1daae615b46cb457e648400"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac29414393890237f16203443190c72b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a028c02c49f9146ef7d35fc893ac3c561">LfgGuidSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a></td></tr>
+<tr class="memdesc:aac29414393890237f16203443190c72b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Players in group.  <a href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">More...</a><br /></td></tr>
+<tr class="separator:aac29414393890237f16203443190c72b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a77bb4f006c53bac1d457dd21dc8c54d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a></td></tr>
+<tr class="memdesc:a77bb4f006c53bac1d457dd21dc8c54d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dungeon entry.  <a href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">More...</a><br /></td></tr>
+<tr class="separator:a77bb4f006c53bac1d457dd21dc8c54d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fa7cde38f9e3b2dcea18b0be1d13005"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">_isLFGGroup</a></td></tr>
+<tr class="separator:a6fa7cde38f9e3b2dcea18b0be1d13005"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fdd12c20063ae39debb33b5a7a04384"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a></td></tr>
+<tr class="memdesc:a0fdd12c20063ae39debb33b5a7a04384"><td class="mdescLeft">&#160;</td><td class="mdescRight">Number of kicks left.  <a href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">More...</a><br /></td></tr>
+<tr class="separator:a0fdd12c20063ae39debb33b5a7a04384"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa720dd6cae9ee7163bb9b84918249644" name="aa720dd6cae9ee7163bb9b84918249644"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa720dd6cae9ee7163bb9b84918249644">&#9670;&#160;</a></span>RBEntryInfo() <span class="overload">[1/2]</span></h2>
+<div class="textblock"><p >Stores all lfg data needed about a group. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ab081bd042f880ff9e1b5f7fcbc80db74" name="ab081bd042f880ff9e1b5f7fcbc80db74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab081bd042f880ff9e1b5f7fcbc80db74">&#9670;&#160;</a></span>LfgGroupData()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">lfg::RBEntryInfo::RBEntryInfo </td>
+          <td class="memname">lfg::LfgGroupData::LfgGroupData </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   24</span>                              : <a class="code hl_variable" href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">m_State</a>(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdacfbad3fe693a63f528f32509a78c79f0">LFG_STATE_NONE</a>), <a class="code hl_variable" href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">m_OldState</a>(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdacfbad3fe693a63f528f32509a78c79f0">LFG_STATE_NONE</a>),</div>
+<div class="line"><span class="lineno">   25</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a>(0), <a class="code hl_variable" href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">_isLFGGroup</a>(<span class="keyword">false</span>), <a class="code hl_variable" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a>(<a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41ae6d10771624fbced6223220fac34b302">CONFIG_LFG_MAX_KICK_COUNT</a>))</div>
+<div class="line"><span class="lineno">   26</span>    { }</div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41ae6d10771624fbced6223220fac34b302"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41ae6d10771624fbced6223220fac34b302">CONFIG_LFG_MAX_KICK_COUNT</a></div><div class="ttdeci">@ CONFIG_LFG_MAX_KICK_COUNT</div><div class="ttdef"><b>Definition:</b> IWorld.h:416</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
+<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bdacfbad3fe693a63f528f32509a78c79f0"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdacfbad3fe693a63f528f32509a78c79f0">lfg::LFG_STATE_NONE</a></div><div class="ttdeci">@ LFG_STATE_NONE</div><div class="ttdef"><b>Definition:</b> LFG.h:68</div></div>
+<div class="ttc" id="aa07690_html_a0fdd12c20063ae39debb33b5a7a04384"><div class="ttname"><a href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">lfg::LfgGroupData::m_KicksLeft</a></div><div class="ttdeci">uint8 m_KicksLeft</div><div class="ttdoc">Number of kicks left.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:73</div></div>
+<div class="ttc" id="aa07690_html_a6fa7cde38f9e3b2dcea18b0be1d13005"><div class="ttname"><a href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">lfg::LfgGroupData::_isLFGGroup</a></div><div class="ttdeci">bool _isLFGGroup</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:71</div></div>
+<div class="ttc" id="aa07690_html_a77bb4f006c53bac1d457dd21dc8c54d9"><div class="ttname"><a href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">lfg::LfgGroupData::m_Dungeon</a></div><div class="ttdeci">uint32 m_Dungeon</div><div class="ttdoc">Dungeon entry.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:70</div></div>
+<div class="ttc" id="aa07690_html_a9216815fd208442e4358811810149851"><div class="ttname"><a href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">lfg::LfgGroupData::m_State</a></div><div class="ttdeci">LfgState m_State</div><div class="ttdoc">State if group in LFG.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:65</div></div>
+<div class="ttc" id="aa07690_html_afc19767f6135bf567f0df6dc4bd5f6ca"><div class="ttname"><a href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">lfg::LfgGroupData::m_OldState</a></div><div class="ttdeci">LfgState m_OldState</div><div class="ttdoc">Old State.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:66</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a472237dc72536de9b1f0b6dc36c52285" name="a472237dc72536de9b1f0b6dc36c52285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a472237dc72536de9b1f0b6dc36c52285">&#9670;&#160;</a></span>~LfgGroupData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">lfg::LfgGroupData::~LfgGroupData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   29</span>    { }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6b55dde22dda026859e9a2e25aee39a6" name="a6b55dde22dda026859e9a2e25aee39a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b55dde22dda026859e9a2e25aee39a6">&#9670;&#160;</a></span>AddPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::AddPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   71</span>    {</div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.insert(guid);</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="ttc" id="aa07690_html_aac29414393890237f16203443190c72b"><div class="ttname"><a href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">lfg::LfgGroupData::m_Players</a></div><div class="ttdeci">LfgGuidSet m_Players</div><div class="ttdoc">Players in group.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">m_Players</a>.</p>
 
 </div>
 </div>
-<a id="a3df17ed1c70ed9b755843308d5ff6336" name="a3df17ed1c70ed9b755843308d5ff6336"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3df17ed1c70ed9b755843308d5ff6336">&#9670;&#160;</a></span>RBEntryInfo() <span class="overload">[2/2]</span></h2>
+<a id="a5a2f71fce87432f13cc372cae89aa6e2" name="a5a2f71fce87432f13cc372cae89aa6e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a2f71fce87432f13cc372cae89aa6e2">&#9670;&#160;</a></span>DecreaseKicksLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::DecreaseKicksLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   99</span>    {</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a>)</div>
+<div class="line"><span class="lineno">  101</span>            --<a class="code hl_variable" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a>;</div>
+<div class="line"><span class="lineno">  102</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00073">m_KicksLeft</a>.</p>
+
+</div>
+</div>
+<a id="a0fb4ba9cde3601fda2717615034707fb" name="a0fb4ba9cde3601fda2717615034707fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fb4ba9cde3601fda2717615034707fb">&#9670;&#160;</a></span>GetDungeon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::LfgGroupData::GetDungeon </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>asId</em> = <code>true</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  130</span>    {</div>
+<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">if</span> (asId)</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a> &amp; 0x00FFFFFF);</div>
+<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a>;</div>
+<div class="line"><span class="lineno">  135</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">m_Dungeon</a>.</p>
+
+</div>
+</div>
+<a id="aa272606655d08afc1763caf9311035c3" name="aa272606655d08afc1763caf9311035c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa272606655d08afc1763caf9311035c3">&#9670;&#160;</a></span>GetKicksLeft()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::LfgGroupData::GetKicksLeft </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  138</span>    {</div>
+<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a>;</div>
+<div class="line"><span class="lineno">  140</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00073">m_KicksLeft</a>.</p>
+
+</div>
+</div>
+<a id="ab54de77d96e5a9c5445916ee253dfed7" name="ab54de77d96e5a9c5445916ee253dfed7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab54de77d96e5a9c5445916ee253dfed7">&#9670;&#160;</a></span>GetLeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> lfg::LfgGroupData::GetLeader </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  125</span>    {</div>
+<div class="line"><span class="lineno">  126</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#a89a70ef6e1daae615b46cb457e648400">m_Leader</a>;</div>
+<div class="line"><span class="lineno">  127</span>    }</div>
+<div class="ttc" id="aa07690_html_a89a70ef6e1daae615b46cb457e648400"><div class="ttname"><a href="../../d2/d33/a07690.html#a89a70ef6e1daae615b46cb457e648400">lfg::LfgGroupData::m_Leader</a></div><div class="ttdeci">ObjectGuid m_Leader</div><div class="ttdoc">Leader GUID.</div><div class="ttdef"><b>Definition:</b> LFGGroupData.h:67</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00067">m_Leader</a>.</p>
+
+</div>
+</div>
+<a id="af5017bc3db5c00dc67ca970a501a1549" name="af5017bc3db5c00dc67ca970a501a1549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5017bc3db5c00dc67ca970a501a1549">&#9670;&#160;</a></span>GetOldState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> lfg::LfgGroupData::GetOldState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  110</span>    {</div>
+<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">m_OldState</a>;</div>
+<div class="line"><span class="lineno">  112</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00066">m_OldState</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02461">lfg::LFGMgr::SetState()</a>.</p>
+
+</div>
+</div>
+<a id="a9d8e902e911cc889b7c2e820e509cd52" name="a9d8e902e911cc889b7c2e820e509cd52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d8e902e911cc889b7c2e820e509cd52">&#9670;&#160;</a></span>GetPlayerCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::LfgGroupData::GetPlayerCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  120</span>    {</div>
+<div class="line"><span class="lineno">  121</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.size();</div>
+<div class="line"><span class="lineno">  122</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">m_Players</a>.</p>
+
+</div>
+</div>
+<a id="ad9b5c97aea6548afde1db00af16dcf7d" name="ad9b5c97aea6548afde1db00af16dcf7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9b5c97aea6548afde1db00af16dcf7d">&#9670;&#160;</a></span>GetPlayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a028c02c49f9146ef7d35fc893ac3c561">LfgGuidSet</a> const  &amp; lfg::LfgGroupData::GetPlayers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
+<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>;</div>
+<div class="line"><span class="lineno">  117</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">m_Players</a>.</p>
+
+</div>
+</div>
+<a id="a645e2fd76111f49ccf80e11bd1e05fd1" name="a645e2fd76111f49ccf80e11bd1e05fd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a645e2fd76111f49ccf80e11bd1e05fd1">&#9670;&#160;</a></span>GetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> lfg::LfgGroupData::GetState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  105</span>    {</div>
+<div class="line"><span class="lineno">  106</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">m_State</a>;</div>
+<div class="line"><span class="lineno">  107</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">m_State</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02461">lfg::LFGMgr::SetState()</a>.</p>
+
+</div>
+</div>
+<a id="a39d4b9904d783f85b861f18e08a94526" name="a39d4b9904d783f85b861f18e08a94526"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39d4b9904d783f85b861f18e08a94526">&#9670;&#160;</a></span>IsLfgGroup()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lfg::LfgGroupData::IsLfgGroup </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">_isLFGGroup</a>;</div>
+<div class="line"><span class="lineno">   34</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">_isLFGGroup</a>.</p>
+
+</div>
+</div>
+<a id="a0354922226bb3916310f7276e2191fb6" name="a0354922226bb3916310f7276e2191fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0354922226bb3916310f7276e2191fb6">&#9670;&#160;</a></span>RemoveAllPlayers()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::RemoveAllPlayers </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   84</span>    {</div>
+<div class="line"><span class="lineno">   85</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.clear();</div>
+<div class="line"><span class="lineno">   86</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">m_Players</a>.</p>
+
+</div>
+</div>
+<a id="a443fe6dc1a2569a5bad41e905c98fdc5" name="a443fe6dc1a2569a5bad41e905c98fdc5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a443fe6dc1a2569a5bad41e905c98fdc5">&#9670;&#160;</a></span>RemovePlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::LfgGroupData::RemovePlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   76</span>    {</div>
+<div class="line"><span class="lineno">   77</span>        LfgGuidSet::iterator it = <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.find(guid);</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">if</span> (it != <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.end())</div>
+<div class="line"><span class="lineno">   79</span>            <a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.erase(it);</div>
+<div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(<a class="code hl_variable" href="../../d2/d33/a07690.html#aac29414393890237f16203443190c72b">m_Players</a>.size());</div>
+<div class="line"><span class="lineno">   81</span>    }</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">m_Players</a>.</p>
+
+</div>
+</div>
+<a id="a8b879db5cc148f96678fe765e42a8f5c" name="a8b879db5cc148f96678fe765e42a8f5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b879db5cc148f96678fe765e42a8f5c">&#9670;&#160;</a></span>RestoreState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::RestoreState </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">m_State</a> = <a class="code hl_variable" href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">m_OldState</a>;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00066">m_OldState</a>, and <a class="el" href="../../#l00065">m_State</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02432">lfg::LFGMgr::RestoreState()</a>.</p>
+
+</div>
+</div>
+<a id="a7d855e64a9aaf284a67c32b27a135d15" name="a7d855e64a9aaf284a67c32b27a135d15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d855e64a9aaf284a67c32b27a135d15">&#9670;&#160;</a></span>SetDungeon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::SetDungeon </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>dungeon</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a> = dungeon;</div>
+<div class="line"><span class="lineno">   96</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">m_Dungeon</a>.</p>
+
+</div>
+</div>
+<a id="a8ae808d3a58fb0c0f529873ee082fa11" name="a8ae808d3a58fb0c0f529873ee082fa11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ae808d3a58fb0c0f529873ee082fa11">&#9670;&#160;</a></span>SetLeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::SetLeader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   89</span>    {</div>
+<div class="line"><span class="lineno">   90</span>        <a class="code hl_variable" href="../../d2/d33/a07690.html#a89a70ef6e1daae615b46cb457e648400">m_Leader</a> = guid;</div>
+<div class="line"><span class="lineno">   91</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00067">m_Leader</a>.</p>
+
+</div>
+</div>
+<a id="a9e7dd73c28e1dace3a96da551ab01378" name="a9e7dd73c28e1dace3a96da551ab01378"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e7dd73c28e1dace3a96da551ab01378">&#9670;&#160;</a></span>SetState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::LfgGroupData::SetState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a>&#160;</td>
+          <td class="paramname"><em>state</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">switch</span> (state)</div>
+<div class="line"><span class="lineno">   39</span>        {</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6e3997033ed801ae9e367d9e213ca2fb">LFG_STATE_DUNGEON</a>:</div>
+<div class="line"><span class="lineno">   41</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">_isLFGGroup</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   42</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">LFG_STATE_FINISHED_DUNGEON</a>:</div>
+<div class="line"><span class="lineno">   44</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#a6fa7cde38f9e3b2dcea18b0be1d13005">_isLFGGroup</a> = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   47</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">   48</span>        }</div>
+<div class="line"><span class="lineno">   49</span> </div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">switch</span> (state)</div>
+<div class="line"><span class="lineno">   51</span>        {</div>
+<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdacfbad3fe693a63f528f32509a78c79f0">LFG_STATE_NONE</a>:</div>
+<div class="line"><span class="lineno">   53</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#a77bb4f006c53bac1d457dd21dc8c54d9">m_Dungeon</a> = 0;</div>
+<div class="line"><span class="lineno">   54</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#a0fdd12c20063ae39debb33b5a7a04384">m_KicksLeft</a> = <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41ae6d10771624fbced6223220fac34b302">CONFIG_LFG_MAX_KICK_COUNT</a>);</div>
+<div class="line"><span class="lineno">   55</span>                [[fallthrough]];</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">LFG_STATE_FINISHED_DUNGEON</a>:</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6e3997033ed801ae9e367d9e213ca2fb">LFG_STATE_DUNGEON</a>:</div>
+<div class="line"><span class="lineno">   58</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#afc19767f6135bf567f0df6dc4bd5f6ca">m_OldState</a> = state;</div>
+<div class="line"><span class="lineno">   59</span>                [[fallthrough]];</div>
+<div class="line"><span class="lineno">   60</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   61</span>                <a class="code hl_variable" href="../../d2/d33/a07690.html#a9216815fd208442e4358811810149851">m_State</a> = state;</div>
+<div class="line"><span class="lineno">   62</span>        }</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">lfg::LFG_STATE_FINISHED_DUNGEON</a></div><div class="ttdeci">@ LFG_STATE_FINISHED_DUNGEON</div><div class="ttdef"><b>Definition:</b> LFG.h:74</div></div>
+<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bda6e3997033ed801ae9e367d9e213ca2fb"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6e3997033ed801ae9e367d9e213ca2fb">lfg::LFG_STATE_DUNGEON</a></div><div class="ttdeci">@ LFG_STATE_DUNGEON</div><div class="ttdef"><b>Definition:</b> LFG.h:73</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">_isLFGGroup</a>, <a class="el" href="../../#l00416">CONFIG_LFG_MAX_KICK_COUNT</a>, <a class="el" href="../../#l00073">lfg::LFG_STATE_DUNGEON</a>, <a class="el" href="../../#l00074">lfg::LFG_STATE_FINISHED_DUNGEON</a>, <a class="el" href="../../#l00068">lfg::LFG_STATE_NONE</a>, <a class="el" href="../../#l00070">m_Dungeon</a>, <a class="el" href="../../#l00073">m_KicksLeft</a>, <a class="el" href="../../#l00066">m_OldState</a>, <a class="el" href="../../#l00065">m_State</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02461">lfg::LFGMgr::SetState()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6fa7cde38f9e3b2dcea18b0be1d13005" name="a6fa7cde38f9e3b2dcea18b0be1d13005"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fa7cde38f9e3b2dcea18b0be1d13005">&#9670;&#160;</a></span>_isLFGGroup</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,61 +639,173 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">lfg::RBEntryInfo::RBEntryInfo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>_roles</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>_comment</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">bool lfg::LfgGroupData::_isLFGGroup</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  157</span>: <a class="code hl_variable" href="../../d2/d33/a07690.html#ab891dec65b0070ede1233080eadd0190">roles</a>(_roles), <a class="code hl_variable" href="../../d2/d33/a07690.html#a7284eac7208dba21a52b79257aad7dbc">comment</a>(std::move(_comment)) {}</div>
-<div class="ttc" id="aa07690_html_a7284eac7208dba21a52b79257aad7dbc"><div class="ttname"><a href="../../d2/d33/a07690.html#a7284eac7208dba21a52b79257aad7dbc">lfg::RBEntryInfo::comment</a></div><div class="ttdeci">std::string comment</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:159</div></div>
-<div class="ttc" id="aa07690_html_ab891dec65b0070ede1233080eadd0190"><div class="ttname"><a href="../../d2/d33/a07690.html#ab891dec65b0070ede1233080eadd0190">lfg::RBEntryInfo::roles</a></div><div class="ttdeci">uint8 roles</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:158</div></div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00031">IsLfgGroup()</a>, and <a class="el" href="../../#l00036">SetState()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a7284eac7208dba21a52b79257aad7dbc" name="a7284eac7208dba21a52b79257aad7dbc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7284eac7208dba21a52b79257aad7dbc">&#9670;&#160;</a></span>comment</h2>
+<a id="a77bb4f006c53bac1d457dd21dc8c54d9" name="a77bb4f006c53bac1d457dd21dc8c54d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a77bb4f006c53bac1d457dd21dc8c54d9">&#9670;&#160;</a></span>m_Dungeon</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string lfg::RBEntryInfo::comment</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::LfgGroupData::m_Dungeon</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Dungeon entry. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00129">GetDungeon()</a>, <a class="el" href="../../#l00093">SetDungeon()</a>, and <a class="el" href="../../#l00036">SetState()</a>.</p>
 
 </div>
 </div>
-<a id="ab891dec65b0070ede1233080eadd0190" name="ab891dec65b0070ede1233080eadd0190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab891dec65b0070ede1233080eadd0190">&#9670;&#160;</a></span>roles</h2>
+<a id="a0fdd12c20063ae39debb33b5a7a04384" name="a0fdd12c20063ae39debb33b5a7a04384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fdd12c20063ae39debb33b5a7a04384">&#9670;&#160;</a></span>m_KicksLeft</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBEntryInfo::roles</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::LfgGroupData::m_KicksLeft</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Number of kicks left. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00098">DecreaseKicksLeft()</a>, <a class="el" href="../../#l00137">GetKicksLeft()</a>, and <a class="el" href="../../#l00036">SetState()</a>.</p>
+
+</div>
+</div>
+<a id="a89a70ef6e1daae615b46cb457e648400" name="a89a70ef6e1daae615b46cb457e648400"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89a70ef6e1daae615b46cb457e648400">&#9670;&#160;</a></span>m_Leader</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> lfg::LfgGroupData::m_Leader</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Leader GUID. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00124">GetLeader()</a>, and <a class="el" href="../../#l00088">SetLeader()</a>.</p>
+
+</div>
+</div>
+<a id="afc19767f6135bf567f0df6dc4bd5f6ca" name="afc19767f6135bf567f0df6dc4bd5f6ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc19767f6135bf567f0df6dc4bd5f6ca">&#9670;&#160;</a></span>m_OldState</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> lfg::LfgGroupData::m_OldState</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Old State. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00109">GetOldState()</a>, <a class="el" href="../../#l00065">RestoreState()</a>, and <a class="el" href="../../#l00036">SetState()</a>.</p>
+
+</div>
+</div>
+<a id="aac29414393890237f16203443190c72b" name="aac29414393890237f16203443190c72b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac29414393890237f16203443190c72b">&#9670;&#160;</a></span>m_Players</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a028c02c49f9146ef7d35fc893ac3c561">LfgGuidSet</a> lfg::LfgGroupData::m_Players</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Players in group. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00070">AddPlayer()</a>, <a class="el" href="../../#l00119">GetPlayerCount()</a>, <a class="el" href="../../#l00114">GetPlayers()</a>, <a class="el" href="../../#l00083">RemoveAllPlayers()</a>, and <a class="el" href="../../#l00075">RemovePlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a9216815fd208442e4358811810149851" name="a9216815fd208442e4358811810149851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9216815fd208442e4358811810149851">&#9670;&#160;</a></span>m_State</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> lfg::LfgGroupData::m_State</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>State if group in LFG. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00104">GetState()</a>, <a class="el" href="../../#l00065">RestoreState()</a>, and <a class="el" href="../../#l00036">SetState()</a>.</p>
 
 </div>
 </div>
@@ -228,8 +814,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d6b/a04731.html">lfg</a></li><li class="navelem"><a class="el" href="../../d2/d33/a07690.html">RBEntryInfo</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dc/d6b/a04731.html">lfg</a></li><li class="navelem"><a class="el" href="../../d2/d33/a07690.html">LfgGroupData</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

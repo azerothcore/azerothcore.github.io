@@ -1,15 +1,14 @@
 var a13538 =
 [
-    [ "boss_arlokkAI", "d1/d68/a13538.html#adb598bf47620cd077fb689fb8f9a4ad8", null ],
-    [ "EnterEvadeMode", "d1/d68/a13538.html#a8553c4d173e7c39315f022f69587c6c0", null ],
-    [ "JustDied", "d1/d68/a13538.html#ac03a6599a5b41e01bd4ed9ebd55cc0ba", null ],
-    [ "JustEngagedWith", "d1/d68/a13538.html#ac4ee55299a9389c4fee1ad96140b00d0", null ],
-    [ "JustReachedHome", "d1/d68/a13538.html#ab0499a80ea8406457e6bfaac96eae975", null ],
-    [ "Reset", "d1/d68/a13538.html#a3ea2c720ac5c4b1fa6ea4d2eb8bf163f", null ],
-    [ "SetData", "d1/d68/a13538.html#a7eedf1d1b55740698c314d4afbb2b0b2", null ],
-    [ "UpdateAI", "d1/d68/a13538.html#a3a2d07d42be88244c0c72b998792dd28", null ],
-    [ "_summonCountA", "d1/d68/a13538.html#a77f83909fca59d1c5d72dc583d7ec22e", null ],
-    [ "_summonCountB", "d1/d68/a13538.html#a7e7d091ea00fb42e7f97cb79168e0dc3", null ],
-    [ "_triggersSideAGUID", "d1/d68/a13538.html#aedc8dda728ed849f33dc83396da51bce", null ],
-    [ "_triggersSideBGUID", "d1/d68/a13538.html#a0fc797fd56c4f12272b647087492670a", null ]
+    [ "npc_harrison_jones", "d1/d68/a13538.html#ae408c9533166f8919c121053a3efff6c", null ],
+    [ "DoAction", "d1/d68/a13538.html#a2ecf8a9f807e879530ee6a094475e67b", null ],
+    [ "JustEngagedWith", "d1/d68/a13538.html#a884e5973ed597eeeb606f5b8a2b1c028", null ],
+    [ "MovementInform", "d1/d68/a13538.html#a5ee27ccc1aea33ecc8aee5b703e05174", null ],
+    [ "OpenMassiveGateAndCallGuards", "d1/d68/a13538.html#a8f15098ad66e2d13ddfababc2ad2e33b", null ],
+    [ "Reset", "d1/d68/a13538.html#a11b1b2da283ddaa475f3f42534702f5b", null ],
+    [ "sGossipSelect", "d1/d68/a13538.html#ae56b80041fa198063a9ce87729142420", null ],
+    [ "SpellHit", "d1/d68/a13538.html#ad3ead59986b9340529bb6c6f42dbc137", null ],
+    [ "UpdateAI", "d1/d68/a13538.html#a0c64f294257e98522e0f32171aee6080", null ],
+    [ "_instance", "d1/d68/a13538.html#adb995a4b18607a5bd7555ce6989c2525", null ],
+    [ "_phase", "d1/d68/a13538.html#a1620b4f7407aa49c3e16876148c49ba7", null ]
 ];

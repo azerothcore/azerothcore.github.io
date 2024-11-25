@@ -1,6 +1,6 @@
 var a21098 =
 [
-    [ "npc_azure_stalkerAI", "d2/d14/a21102.html", "d2/d14/a21102" ],
-    [ "npc_azure_stalker", "d2/d6c/a21098.html#ad069edc43b4f489e0b2c7aa4952eeb63", null ],
-    [ "GetAI", "d2/d6c/a21098.html#a1c067809f98a4d7845d2fb4269742274", null ]
+    [ "npc_azure_captainAI", "d2/d14/a21102.html", "d2/d14/a21102" ],
+    [ "npc_azure_captain", "d2/d6c/a21098.html#aeced2dbbfb23c161fd2bbc22859886a4", null ],
+    [ "GetAI", "d2/d6c/a21098.html#a0d1bd80fc38c61e05d3f31ffe587350f", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Guild::MoveItemData Class Reference</title>
+<title>AzerothCore: Guild::BankTab Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,86 +106,58 @@ $(document).ready(function(){initNavTree('d7/d42/a09262.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/d61/a09259.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Guild::MoveItemData Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Guild::BankTab Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Guild::MoveItemData:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d7/d42/a09262.png" usemap="#Guild::MoveItemData_map" alt=""/>
-  <map id="Guild::MoveItemData_map" name="Guild::MoveItemData_map">
-<area href="../../d9/d08/a09270.html" alt="Guild::BankMoveItemData" shape="rect" coords="0,56,164,80"/>
-<area href="../../de/d2b/a09266.html" alt="Guild::PlayerMoveItemData" shape="rect" coords="174,56,338,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a175034d78526f6fe0db2011839cffe67"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a175034d78526f6fe0db2011839cffe67">MoveItemData</a> (<a class="el" href="../../dd/d07/a09230.html">Guild</a> *guild, <a class="el" href="../../d0/dc6/a08386.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> container, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId)</td></tr>
-<tr class="separator:a175034d78526f6fe0db2011839cffe67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37136a6cc61c9b4dcd577c5339ff3e68"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a37136a6cc61c9b4dcd577c5339ff3e68">~MoveItemData</a> ()</td></tr>
-<tr class="separator:a37136a6cc61c9b4dcd577c5339ff3e68"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd5b03ccd86cd16b477f9df7afde1c08"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#acd5b03ccd86cd16b477f9df7afde1c08">IsBank</a> () const =0</td></tr>
-<tr class="separator:acd5b03ccd86cd16b477f9df7afde1c08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae07f5a2a435dca9c762690b7a55da740"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#ae07f5a2a435dca9c762690b7a55da740">InitItem</a> ()=0</td></tr>
-<tr class="separator:ae07f5a2a435dca9c762690b7a55da740"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a920092a4e0d79f84055841ac9ea606de"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a920092a4e0d79f84055841ac9ea606de">CheckItem</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;splitedAmount)</td></tr>
-<tr class="separator:a920092a4e0d79f84055841ac9ea606de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9af6bf223fa440f138308200707a88fb"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a9af6bf223fa440f138308200707a88fb">HasStoreRights</a> (<a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *) const</td></tr>
-<tr class="separator:a9af6bf223fa440f138308200707a88fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a3a415b8449669b8b738bed068997a2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a9a3a415b8449669b8b738bed068997a2">HasWithdrawRights</a> (<a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *) const</td></tr>
-<tr class="separator:a9a3a415b8449669b8b738bed068997a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afd90cf06d58b78ae1a5635871f3ff3a4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#afd90cf06d58b78ae1a5635871f3ff3a4">CanStore</a> (<a class="el" href="../../db/d24/a08098.html">Item</a> *pItem, bool swap, bool sendError)</td></tr>
-<tr class="separator:afd90cf06d58b78ae1a5635871f3ff3a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4c8450b5230d3758358d05b35c633ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#ad4c8450b5230d3758358d05b35c633ac">CloneItem</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count)</td></tr>
-<tr class="separator:ad4c8450b5230d3758358d05b35c633ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afc8beaaaea26c3439364c083d3907b84"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#afc8beaaaea26c3439364c083d3907b84">RemoveItem</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, <a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *pOther, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> splitedAmount=0)=0</td></tr>
-<tr class="separator:afc8beaaaea26c3439364c083d3907b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3f69885a4d24609848f904092d5e9399"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a3f69885a4d24609848f904092d5e9399">StoreItem</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, <a class="el" href="../../db/d24/a08098.html">Item</a> *pItem)=0</td></tr>
-<tr class="separator:a3f69885a4d24609848f904092d5e9399"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a767910636c7de4a536d1eb54e1967c1a"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a767910636c7de4a536d1eb54e1967c1a">LogBankEvent</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, <a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *pFrom, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count) const =0</td></tr>
-<tr class="separator:a767910636c7de4a536d1eb54e1967c1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bf71e11d661dafa38e0a0d590fb1df0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a3bf71e11d661dafa38e0a0d590fb1df0">LogAction</a> (<a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *pFrom) const</td></tr>
-<tr class="separator:a3bf71e11d661dafa38e0a0d590fb1df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abd84ed9a9b8761efda729820a63d6e96"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#abd84ed9a9b8761efda729820a63d6e96">CopySlots</a> (<a class="el" href="../../d7/d93/a02981.html#a5d929929b4339d57ad74b13b2b96d940">SlotIds</a> &amp;ids) const</td></tr>
-<tr class="separator:abd84ed9a9b8761efda729820a63d6e96"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6fd3bdcac70ba672607b089de53e1a58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a6fd3bdcac70ba672607b089de53e1a58">GetItem</a> (bool isCloned=false) const</td></tr>
-<tr class="separator:a6fd3bdcac70ba672607b089de53e1a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8517355a3d243b4afd3826d093ddb7a3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a8517355a3d243b4afd3826d093ddb7a3">GetContainer</a> () const</td></tr>
-<tr class="separator:a8517355a3d243b4afd3826d093ddb7a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8242dcd304dbd50d2fa6e2d3712a5a58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a8242dcd304dbd50d2fa6e2d3712a5a58">GetSlotId</a> () const</td></tr>
-<tr class="separator:a8242dcd304dbd50d2fa6e2d3712a5a58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4cc137e35b63b86c5d436e6bc15ad590"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a4cc137e35b63b86c5d436e6bc15ad590">BankTab</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tabId)</td></tr>
+<tr class="separator:a4cc137e35b63b86c5d436e6bc15ad590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a016c23dc9710058e969ccfc51501afd6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a016c23dc9710058e969ccfc51501afd6">LoadFromDB</a> (<a class="el" href="../../d4/dc8/a05622.html">Field</a> *fields)</td></tr>
+<tr class="separator:a016c23dc9710058e969ccfc51501afd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7bd9e67c6685878fa7bf158c09fae51"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#aa7bd9e67c6685878fa7bf158c09fae51">LoadItemFromDB</a> (<a class="el" href="../../d4/dc8/a05622.html">Field</a> *fields)</td></tr>
+<tr class="separator:aa7bd9e67c6685878fa7bf158c09fae51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a834715b072cf26a56933a971de7bdde4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a834715b072cf26a56933a971de7bdde4">Delete</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, bool removeItemsFromDB=false)</td></tr>
+<tr class="separator:a834715b072cf26a56933a971de7bdde4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb645aa2e4219558eb2f493782804657"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#afb645aa2e4219558eb2f493782804657">SetInfo</a> (std::string_view name, std::string_view icon)</td></tr>
+<tr class="separator:afb645aa2e4219558eb2f493782804657"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5945b66216eebcb4ac68a6e429c15972"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a5945b66216eebcb4ac68a6e429c15972">SetText</a> (std::string_view text)</td></tr>
+<tr class="separator:a5945b66216eebcb4ac68a6e429c15972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3ca58dcc1997788226c6fe0d5b690c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#ac3ca58dcc1997788226c6fe0d5b690c7">SendText</a> (const <a class="el" href="../../db/d44/a09234.html">Guild</a> *guild, <a class="el" href="../../d2/d13/a10746.html">WorldSession</a> *session) const</td></tr>
+<tr class="separator:ac3ca58dcc1997788226c6fe0d5b690c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0360f82663e5f9e073bcb28affcdf0b3"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a0360f82663e5f9e073bcb28affcdf0b3">GetName</a> () const</td></tr>
+<tr class="separator:a0360f82663e5f9e073bcb28affcdf0b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2406a477fff518690b1a9656d0c2129b"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a2406a477fff518690b1a9656d0c2129b">GetIcon</a> () const</td></tr>
+<tr class="separator:a2406a477fff518690b1a9656d0c2129b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace1887dd0ef166be4fc6f8cb894d80b3"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#ace1887dd0ef166be4fc6f8cb894d80b3">GetText</a> () const</td></tr>
+<tr class="separator:ace1887dd0ef166be4fc6f8cb894d80b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5baa8eb92520b73c646488e3b38caa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d6d/a08102.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a9c5baa8eb92520b73c646488e3b38caa">GetItem</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId) const</td></tr>
+<tr class="separator:a9c5baa8eb92520b73c646488e3b38caa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3013ae191efb43063162f4cbb5508392"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a3013ae191efb43063162f4cbb5508392">SetItem</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId, <a class="el" href="../../d1/d6d/a08102.html">Item</a> *pItem)</td></tr>
+<tr class="separator:a3013ae191efb43063162f4cbb5508392"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a5a25c36d2d40db0468eaa58fbd9144c2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20fa">InventoryResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a5a25c36d2d40db0468eaa58fbd9144c2">CanStore</a> (<a class="el" href="../../db/d24/a08098.html">Item</a> *pItem, bool swap)=0</td></tr>
-<tr class="separator:a5a25c36d2d40db0468eaa58fbd9144c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a7e8085f102e8217d015a10c3f1b05316"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d07/a09230.html">Guild</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a7e8085f102e8217d015a10c3f1b05316">m_pGuild</a></td></tr>
-<tr class="separator:a7e8085f102e8217d015a10c3f1b05316"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1914b960d8990c651e46a50951f5ab42"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">m_pPlayer</a></td></tr>
-<tr class="separator:a1914b960d8990c651e46a50951f5ab42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add3ef514f68db7f0c93e6a07a95b0340"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#add3ef514f68db7f0c93e6a07a95b0340">m_container</a></td></tr>
-<tr class="separator:add3ef514f68db7f0c93e6a07a95b0340"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5b77825a637d5c9476239fc19c12f0cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a5b77825a637d5c9476239fc19c12f0cc">m_slotId</a></td></tr>
-<tr class="separator:a5b77825a637d5c9476239fc19c12f0cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a860f0cd1743a014450a82821d7cd737d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a></td></tr>
-<tr class="separator:a860f0cd1743a014450a82821d7cd737d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1107940e15604337a2a7bc3a839c1e58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">m_pClonedItem</a></td></tr>
-<tr class="separator:a1107940e15604337a2a7bc3a839c1e58"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a190c6110c353bbe91b9b407c59478967"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d13/a03365.html#a06f492a0a20f5264c8395684220fec84">ItemPosCountVec</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a190c6110c353bbe91b9b407c59478967">m_vec</a></td></tr>
-<tr class="separator:a190c6110c353bbe91b9b407c59478967"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:abc272a367b69a90207dbf10580a55038"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a></td></tr>
+<tr class="separator:abc272a367b69a90207dbf10580a55038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab055a2b7500c83c96a78c396dc60588a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a></td></tr>
+<tr class="separator:ab055a2b7500c83c96a78c396dc60588a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80cc2a64638722401276263d01e5ee27"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d1/d6d/a08102.html">Item</a> *, <a class="el" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">m_items</a> = {}</td></tr>
+<tr class="separator:a80cc2a64638722401276263d01e5ee27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5555e808bc4597ad9a74e69b95e56149"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a></td></tr>
+<tr class="separator:a5555e808bc4597ad9a74e69b95e56149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25217a0d4f9dc91c853f7007f63f140b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a></td></tr>
+<tr class="separator:a25217a0d4f9dc91c853f7007f63f140b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc7ac5ed7c4c2d79170548fe061917eb"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a></td></tr>
+<tr class="separator:afc7ac5ed7c4c2d79170548fe061917eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a175034d78526f6fe0db2011839cffe67" name="a175034d78526f6fe0db2011839cffe67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a175034d78526f6fe0db2011839cffe67">&#9670;&#160;</a></span>MoveItemData()</h2>
+<a id="a4cc137e35b63b86c5d436e6bc15ad590" name="a4cc137e35b63b86c5d436e6bc15ad590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4cc137e35b63b86c5d436e6bc15ad590">&#9670;&#160;</a></span>BankTab()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -194,28 +166,16 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Guild::MoveItemData::MoveItemData </td>
+          <td class="memname">Guild::BankTab::BankTab </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/d07/a09230.html">Guild</a> *&#160;</td>
-          <td class="paramname"><em>guild</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dc6/a08386.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>guildId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>slotId</em>&#160;</td>
+          <td class="paramname"><em>tabId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -229,504 +189,23 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  592</span>                                                                                  : <a class="code hl_variable" href="../../d7/d42/a09262.html#a7e8085f102e8217d015a10c3f1b05316">m_pGuild</a>(guild), <a class="code hl_variable" href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">m_pPlayer</a>(player),</div>
-<div class="line"><span class="lineno">  593</span>            <a class="code hl_variable" href="../../d7/d42/a09262.html#add3ef514f68db7f0c93e6a07a95b0340">m_container</a>(container), <a class="code hl_variable" href="../../d7/d42/a09262.html#a5b77825a637d5c9476239fc19c12f0cc">m_slotId</a>(slotId), <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">m_pClonedItem</a>(<span class="keyword">nullptr</span>) { }</div>
-<div class="ttc" id="aa09262_html_a1107940e15604337a2a7bc3a839c1e58"><div class="ttname"><a href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">Guild::MoveItemData::m_pClonedItem</a></div><div class="ttdeci">Item * m_pClonedItem</div><div class="ttdef"><b>Definition:</b> Guild.h:632</div></div>
-<div class="ttc" id="aa09262_html_a1914b960d8990c651e46a50951f5ab42"><div class="ttname"><a href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">Guild::MoveItemData::m_pPlayer</a></div><div class="ttdeci">Player * m_pPlayer</div><div class="ttdef"><b>Definition:</b> Guild.h:628</div></div>
-<div class="ttc" id="aa09262_html_a5b77825a637d5c9476239fc19c12f0cc"><div class="ttname"><a href="../../d7/d42/a09262.html#a5b77825a637d5c9476239fc19c12f0cc">Guild::MoveItemData::m_slotId</a></div><div class="ttdeci">uint8 m_slotId</div><div class="ttdef"><b>Definition:</b> Guild.h:630</div></div>
-<div class="ttc" id="aa09262_html_a7e8085f102e8217d015a10c3f1b05316"><div class="ttname"><a href="../../d7/d42/a09262.html#a7e8085f102e8217d015a10c3f1b05316">Guild::MoveItemData::m_pGuild</a></div><div class="ttdeci">Guild * m_pGuild</div><div class="ttdef"><b>Definition:</b> Guild.h:627</div></div>
-<div class="ttc" id="aa09262_html_a860f0cd1743a014450a82821d7cd737d"><div class="ttname"><a href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">Guild::MoveItemData::m_pItem</a></div><div class="ttdeci">Item * m_pItem</div><div class="ttdef"><b>Definition:</b> Guild.h:631</div></div>
-<div class="ttc" id="aa09262_html_add3ef514f68db7f0c93e6a07a95b0340"><div class="ttname"><a href="../../d7/d42/a09262.html#add3ef514f68db7f0c93e6a07a95b0340">Guild::MoveItemData::m_container</a></div><div class="ttdeci">uint8 m_container</div><div class="ttdef"><b>Definition:</b> Guild.h:629</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a37136a6cc61c9b4dcd577c5339ff3e68" name="a37136a6cc61c9b4dcd577c5339ff3e68"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37136a6cc61c9b4dcd577c5339ff3e68">&#9670;&#160;</a></span>~MoveItemData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual Guild::MoveItemData::~MoveItemData </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  594</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">  559</span>                                             : <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>(guildId), <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>(tabId)</div>
+<div class="line"><span class="lineno">  560</span>        {</div>
+<div class="line"><span class="lineno">  561</span>        }</div>
+<div class="ttc" id="aa09262_html_ab055a2b7500c83c96a78c396dc60588a"><div class="ttname"><a href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">Guild::BankTab::m_tabId</a></div><div class="ttdeci">uint8 m_tabId</div><div class="ttdef"><b>Definition:</b> Guild.h:580</div></div>
+<div class="ttc" id="aa09262_html_abc272a367b69a90207dbf10580a55038"><div class="ttname"><a href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">Guild::BankTab::m_guildId</a></div><div class="ttdeci">uint32 m_guildId</div><div class="ttdef"><b>Definition:</b> Guild.h:579</div></div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a5a25c36d2d40db0468eaa58fbd9144c2" name="a5a25c36d2d40db0468eaa58fbd9144c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a25c36d2d40db0468eaa58fbd9144c2">&#9670;&#160;</a></span>CanStore() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20fa">InventoryResult</a> Guild::MoveItemData::CanStore </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td>
-          <td class="paramname"><em>pItem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>swap</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../de/d2b/a09266.html#a00680db86d45ad8e8652218fce05139d">Guild::PlayerMoveItemData</a>, and <a class="el" href="../../d9/d08/a09270.html#ade47c73460329ca1af752921173ca75e">Guild::BankMoveItemData</a>.</p>
-
-</div>
-</div>
-<a id="afd90cf06d58b78ae1a5635871f3ff3a4" name="afd90cf06d58b78ae1a5635871f3ff3a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd90cf06d58b78ae1a5635871f3ff3a4">&#9670;&#160;</a></span>CanStore() <span class="overload">[2/2]</span></h2>
+<a id="a834715b072cf26a56933a971de7bdde4" name="a834715b072cf26a56933a971de7bdde4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a834715b072cf26a56933a971de7bdde4">&#9670;&#160;</a></span>Delete()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Guild::MoveItemData::CanStore </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td>
-          <td class="paramname"><em>pItem</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>swap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>sendError</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  725</span>{</div>
-<div class="line"><span class="lineno">  726</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a190c6110c353bbe91b9b407c59478967">m_vec</a>.clear();</div>
-<div class="line"><span class="lineno">  727</span>    <a class="code hl_enumeration" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20fa">InventoryResult</a> msg = <a class="code hl_function" href="../../d7/d42/a09262.html#afd90cf06d58b78ae1a5635871f3ff3a4">CanStore</a>(pItem, swap);</div>
-<div class="line"><span class="lineno">  728</span>    <span class="keywordflow">if</span> (sendError &amp;&amp; msg != <a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20faa939b6661cd19d6c18274906abb28021c">EQUIP_ERR_OK</a>)</div>
-<div class="line"><span class="lineno">  729</span>        <a class="code hl_variable" href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">m_pPlayer</a>-&gt;<a class="code hl_function" href="../../d0/dc6/a08386.html#ade216a89981dfce501f02f38cec9ad3f">SendEquipError</a>(msg, pItem);</div>
-<div class="line"><span class="lineno">  730</span>    <span class="keywordflow">return</span> (msg == <a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20faa939b6661cd19d6c18274906abb28021c">EQUIP_ERR_OK</a>);</div>
-<div class="line"><span class="lineno">  731</span>}</div>
-<div class="ttc" id="aa03395_html_a240a18445bd2335a1829e130126f20fa"><div class="ttname"><a href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20fa">InventoryResult</a></div><div class="ttdeci">InventoryResult</div><div class="ttdef"><b>Definition:</b> Item.h:46</div></div>
-<div class="ttc" id="aa03395_html_a240a18445bd2335a1829e130126f20faa939b6661cd19d6c18274906abb28021c"><div class="ttname"><a href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20faa939b6661cd19d6c18274906abb28021c">EQUIP_ERR_OK</a></div><div class="ttdeci">@ EQUIP_ERR_OK</div><div class="ttdef"><b>Definition:</b> Item.h:47</div></div>
-<div class="ttc" id="aa08386_html_ade216a89981dfce501f02f38cec9ad3f"><div class="ttname"><a href="../../d0/dc6/a08386.html#ade216a89981dfce501f02f38cec9ad3f">Player::SendEquipError</a></div><div class="ttdeci">void SendEquipError(InventoryResult msg, Item *pItem, Item *pItem2=nullptr, uint32 itemid=0)</div><div class="ttdef"><b>Definition:</b> PlayerStorage.cpp:4021</div></div>
-<div class="ttc" id="aa09262_html_a190c6110c353bbe91b9b407c59478967"><div class="ttname"><a href="../../d7/d42/a09262.html#a190c6110c353bbe91b9b407c59478967">Guild::MoveItemData::m_vec</a></div><div class="ttdeci">ItemPosCountVec m_vec</div><div class="ttdef"><b>Definition:</b> Guild.h:633</div></div>
-<div class="ttc" id="aa09262_html_afd90cf06d58b78ae1a5635871f3ff3a4"><div class="ttname"><a href="../../d7/d42/a09262.html#afd90cf06d58b78ae1a5635871f3ff3a4">Guild::MoveItemData::CanStore</a></div><div class="ttdeci">bool CanStore(Item *pItem, bool swap, bool sendError)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:724</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00047">EQUIP_ERR_OK</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>.</p>
-
-</div>
-</div>
-<a id="a920092a4e0d79f84055841ac9ea606de" name="a920092a4e0d79f84055841ac9ea606de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a920092a4e0d79f84055841ac9ea606de">&#9670;&#160;</a></span>CheckItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Guild::MoveItemData::CheckItem </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
-          <td class="paramname"><em>splitedAmount</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  715</span>{</div>
-<div class="line"><span class="lineno">  716</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>);</div>
-<div class="line"><span class="lineno">  717</span>    <span class="keywordflow">if</span> (splitedAmount &gt; <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>-&gt;<a class="code hl_function" href="../../db/d24/a08098.html#acfce1d883f464dc73696f17c62d5ba5c">GetCount</a>())</div>
-<div class="line"><span class="lineno">  718</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  719</span>    <span class="keywordflow">if</span> (splitedAmount == <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>-&gt;<a class="code hl_function" href="../../db/d24/a08098.html#acfce1d883f464dc73696f17c62d5ba5c">GetCount</a>())</div>
-<div class="line"><span class="lineno">  720</span>        splitedAmount = 0;</div>
-<div class="line"><span class="lineno">  721</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  722</span>}</div>
-<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa08098_html_acfce1d883f464dc73696f17c62d5ba5c"><div class="ttname"><a href="../../db/d24/a08098.html#acfce1d883f464dc73696f17c62d5ba5c">Item::GetCount</a></div><div class="ttdeci">uint32 GetCount() const</div><div class="ttdef"><b>Definition:</b> Item.h:272</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02651">Guild::_MoveItems()</a>.</p>
-
-</div>
-</div>
-<a id="ad4c8450b5230d3758358d05b35c633ac" name="ad4c8450b5230d3758358d05b35c633ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4c8450b5230d3758358d05b35c633ac">&#9670;&#160;</a></span>CloneItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Guild::MoveItemData::CloneItem </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>count</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  734</span>{</div>
-<div class="line"><span class="lineno">  735</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>);</div>
-<div class="line"><span class="lineno">  736</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">m_pClonedItem</a> = <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>-&gt;<a class="code hl_function" href="../../db/d24/a08098.html#a39a8a22a675450493c7798786ed456ae">CloneItem</a>(count);</div>
-<div class="line"><span class="lineno">  737</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">m_pClonedItem</a>)</div>
-<div class="line"><span class="lineno">  738</span>    {</div>
-<div class="line"><span class="lineno">  739</span>        <a class="code hl_variable" href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">m_pPlayer</a>-&gt;<a class="code hl_function" href="../../d0/dc6/a08386.html#ade216a89981dfce501f02f38cec9ad3f">SendEquipError</a>(<a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20faa8b1b5966ea1ccbf5ee6d1d4a244b272e">EQUIP_ERR_ITEM_NOT_FOUND</a>, <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>);</div>
-<div class="line"><span class="lineno">  740</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  741</span>    }</div>
-<div class="line"><span class="lineno">  742</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  743</span>}</div>
-<div class="ttc" id="aa03395_html_a240a18445bd2335a1829e130126f20faa8b1b5966ea1ccbf5ee6d1d4a244b272e"><div class="ttname"><a href="../../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20faa8b1b5966ea1ccbf5ee6d1d4a244b272e">EQUIP_ERR_ITEM_NOT_FOUND</a></div><div class="ttdeci">@ EQUIP_ERR_ITEM_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> Item.h:70</div></div>
-<div class="ttc" id="aa08098_html_a39a8a22a675450493c7798786ed456ae"><div class="ttname"><a href="../../db/d24/a08098.html#a39a8a22a675450493c7798786ed456ae">Item::CloneItem</a></div><div class="ttdeci">Item * CloneItem(uint32 count, Player const *player=nullptr) const</div><div class="ttdef"><b>Definition:</b> Item.cpp:1118</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00070">EQUIP_ERR_ITEM_NOT_FOUND</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02651">Guild::_MoveItems()</a>.</p>
-
-</div>
-</div>
-<a id="abd84ed9a9b8761efda729820a63d6e96" name="abd84ed9a9b8761efda729820a63d6e96"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abd84ed9a9b8761efda729820a63d6e96">&#9670;&#160;</a></span>CopySlots()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Guild::MoveItemData::CopySlots </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d93/a02981.html#a5d929929b4339d57ad74b13b2b96d940">SlotIds</a> &amp;&#160;</td>
-          <td class="paramname"><em>ids</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  755</span>{</div>
-<div class="line"><span class="lineno">  756</span>    <span class="keywordflow">for</span> (ItemPosCountVec::const_iterator itr = <a class="code hl_variable" href="../../d7/d42/a09262.html#a190c6110c353bbe91b9b407c59478967">m_vec</a>.begin(); itr != <a class="code hl_variable" href="../../d7/d42/a09262.html#a190c6110c353bbe91b9b407c59478967">m_vec</a>.end(); ++itr)</div>
-<div class="line"><span class="lineno">  757</span>        ids.insert(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(itr-&gt;pos));</div>
-<div class="line"><span class="lineno">  758</span>}</div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02762">Guild::_SendBankContentUpdate()</a>.</p>
-
-</div>
-</div>
-<a id="a8517355a3d243b4afd3826d093ddb7a3" name="a8517355a3d243b4afd3826d093ddb7a3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8517355a3d243b4afd3826d093ddb7a3">&#9670;&#160;</a></span>GetContainer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::MoveItemData::GetContainer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  621</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d42/a09262.html#add3ef514f68db7f0c93e6a07a95b0340">m_container</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00629">m_container</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02762">Guild::_SendBankContentUpdate()</a>, <a class="el" href="../../#l00826">Guild::BankMoveItemData::HasStoreRights()</a>, <a class="el" href="../../#l00835">Guild::BankMoveItemData::HasWithdrawRights()</a>, <a class="el" href="../../#l00745">LogAction()</a>, <a class="el" href="../../#l00806">Guild::PlayerMoveItemData::LogBankEvent()</a>, <a class="el" href="../../#l00890">Guild::BankMoveItemData::LogBankEvent()</a>, and <a class="el" href="../../#l00849">Guild::BankMoveItemData::RemoveItem()</a>.</p>
-
-</div>
-</div>
-<a id="a6fd3bdcac70ba672607b089de53e1a58" name="a6fd3bdcac70ba672607b089de53e1a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fd3bdcac70ba672607b089de53e1a58">&#9670;&#160;</a></span>GetItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d24/a08098.html">Item</a> * Guild::MoveItemData::GetItem </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isCloned</em> = <code>false</code></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  620</span>{ <span class="keywordflow">return</span> isCloned ? <a class="code hl_variable" href="../../d7/d42/a09262.html#a1107940e15604337a2a7bc3a839c1e58">m_pClonedItem</a> : <a class="code hl_variable" href="../../d7/d42/a09262.html#a860f0cd1743a014450a82821d7cd737d">m_pItem</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00632">m_pClonedItem</a>, and <a class="el" href="../../#l00631">m_pItem</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>, <a class="el" href="../../#l00745">LogAction()</a>, <a class="el" href="../../#l00806">Guild::PlayerMoveItemData::LogBankEvent()</a>, and <a class="el" href="../../#l00890">Guild::BankMoveItemData::LogBankEvent()</a>.</p>
-
-</div>
-</div>
-<a id="a8242dcd304dbd50d2fa6e2d3712a5a58" name="a8242dcd304dbd50d2fa6e2d3712a5a58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8242dcd304dbd50d2fa6e2d3712a5a58">&#9670;&#160;</a></span>GetSlotId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::MoveItemData::GetSlotId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  622</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d42/a09262.html#a5b77825a637d5c9476239fc19c12f0cc">m_slotId</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00630">m_slotId</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02762">Guild::_SendBankContentUpdate()</a>, and <a class="el" href="../../#l00745">LogAction()</a>.</p>
-
-</div>
-</div>
-<a id="a9af6bf223fa440f138308200707a88fb" name="a9af6bf223fa440f138308200707a88fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9af6bf223fa440f138308200707a88fb">&#9670;&#160;</a></span>HasStoreRights()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Guild::MoveItemData::HasStoreRights </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d9/d08/a09270.html#acd684824cab9ccb4d8fd9cbb1f1782e1">Guild::BankMoveItemData</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  602</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02651">Guild::_MoveItems()</a>.</p>
-
-</div>
-</div>
-<a id="a9a3a415b8449669b8b738bed068997a2" name="a9a3a415b8449669b8b738bed068997a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a3a415b8449669b8b738bed068997a2">&#9670;&#160;</a></span>HasWithdrawRights()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Guild::MoveItemData::HasWithdrawRights </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d9/d08/a09270.html#ae9d8f497b4459c982ac73ee8b5742aad">Guild::BankMoveItemData</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  604</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02651">Guild::_MoveItems()</a>.</p>
-
-</div>
-</div>
-<a id="ae07f5a2a435dca9c762690b7a55da740" name="ae07f5a2a435dca9c762690b7a55da740"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae07f5a2a435dca9c762690b7a55da740">&#9670;&#160;</a></span>InitItem()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Guild::MoveItemData::InitItem </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../de/d2b/a09266.html#a34298fd6ac20ab0e02c6350dcc5a4d33">Guild::PlayerMoveItemData</a>, and <a class="el" href="../../d9/d08/a09270.html#a69d6b28ccdda7790f821f5181da0db96">Guild::BankMoveItemData</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02651">Guild::_MoveItems()</a>.</p>
-
-</div>
-</div>
-<a id="acd5b03ccd86cd16b477f9df7afde1c08" name="acd5b03ccd86cd16b477f9df7afde1c08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd5b03ccd86cd16b477f9df7afde1c08">&#9670;&#160;</a></span>IsBank()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool Guild::MoveItemData::IsBank </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../de/d2b/a09266.html#ae4d45104dccf78581b4228a31fe192ad">Guild::PlayerMoveItemData</a>, and <a class="el" href="../../d9/d08/a09270.html#a6f1787e15918092ba000ee8bd0852b09">Guild::BankMoveItemData</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02762">Guild::_SendBankContentUpdate()</a>, <a class="el" href="../../#l00826">Guild::BankMoveItemData::HasStoreRights()</a>, <a class="el" href="../../#l00835">Guild::BankMoveItemData::HasWithdrawRights()</a>, <a class="el" href="../../#l00745">LogAction()</a>, <a class="el" href="../../#l00890">Guild::BankMoveItemData::LogBankEvent()</a>, and <a class="el" href="../../#l00849">Guild::BankMoveItemData::RemoveItem()</a>.</p>
-
-</div>
-</div>
-<a id="a3bf71e11d661dafa38e0a0d590fb1df0" name="a3bf71e11d661dafa38e0a0d590fb1df0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bf71e11d661dafa38e0a0d590fb1df0">&#9670;&#160;</a></span>LogAction()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Guild::MoveItemData::LogAction </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *&#160;</td>
-          <td class="paramname"><em>pFrom</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d9/d08/a09270.html#a4f23cdffba39ffa78c38851ff7aa7d0c">Guild::BankMoveItemData</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  746</span>{</div>
-<div class="line"><span class="lineno">  747</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(pFrom-&gt;GetItem());</div>
-<div class="line"><span class="lineno">  748</span> </div>
-<div class="line"><span class="lineno">  749</span>    <a class="code hl_define" href="../../d1/d8f/a04202.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a>-&gt;OnGuildItemMove(<a class="code hl_variable" href="../../d7/d42/a09262.html#a7e8085f102e8217d015a10c3f1b05316">m_pGuild</a>, <a class="code hl_variable" href="../../d7/d42/a09262.html#a1914b960d8990c651e46a50951f5ab42">m_pPlayer</a>, pFrom-&gt;GetItem(),</div>
-<div class="line"><span class="lineno">  750</span>                                pFrom-&gt;IsBank(), pFrom-&gt;GetContainer(), pFrom-&gt;GetSlotId(),</div>
-<div class="line"><span class="lineno">  751</span>                                <a class="code hl_function" href="../../d7/d42/a09262.html#acd5b03ccd86cd16b477f9df7afde1c08">IsBank</a>(), <a class="code hl_function" href="../../d7/d42/a09262.html#a8517355a3d243b4afd3826d093ddb7a3">GetContainer</a>(), <a class="code hl_function" href="../../d7/d42/a09262.html#a8242dcd304dbd50d2fa6e2d3712a5a58">GetSlotId</a>());</div>
-<div class="line"><span class="lineno">  752</span>}</div>
-<div class="ttc" id="aa04202_html_ae8161e629869974bc49b1cbfc73c1087"><div class="ttname"><a href="../../d1/d8f/a04202.html#ae8161e629869974bc49b1cbfc73c1087">sScriptMgr</a></div><div class="ttdeci">#define sScriptMgr</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:709</div></div>
-<div class="ttc" id="aa09262_html_a8242dcd304dbd50d2fa6e2d3712a5a58"><div class="ttname"><a href="../../d7/d42/a09262.html#a8242dcd304dbd50d2fa6e2d3712a5a58">Guild::MoveItemData::GetSlotId</a></div><div class="ttdeci">uint8 GetSlotId() const</div><div class="ttdef"><b>Definition:</b> Guild.h:622</div></div>
-<div class="ttc" id="aa09262_html_a8517355a3d243b4afd3826d093ddb7a3"><div class="ttname"><a href="../../d7/d42/a09262.html#a8517355a3d243b4afd3826d093ddb7a3">Guild::MoveItemData::GetContainer</a></div><div class="ttdeci">uint8 GetContainer() const</div><div class="ttdef"><b>Definition:</b> Guild.h:621</div></div>
-<div class="ttc" id="aa09262_html_acd5b03ccd86cd16b477f9df7afde1c08"><div class="ttname"><a href="../../d7/d42/a09262.html#acd5b03ccd86cd16b477f9df7afde1c08">Guild::MoveItemData::IsBank</a></div><div class="ttdeci">virtual bool IsBank() const =0</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00621">GetContainer()</a>, <a class="el" href="../../#l00620">GetItem()</a>, <a class="el" href="../../#l00622">GetSlotId()</a>, <a class="el" href="../../d7/d42/a09262.html#acd5b03ccd86cd16b477f9df7afde1c08">IsBank()</a>, and <a class="el" href="../../#l00709">sScriptMgr</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>, and <a class="el" href="../../#l00903">Guild::BankMoveItemData::LogAction()</a>.</p>
-
-</div>
-</div>
-<a id="a767910636c7de4a536d1eb54e1967c1a" name="a767910636c7de4a536d1eb54e1967c1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a767910636c7de4a536d1eb54e1967c1a">&#9670;&#160;</a></span>LogBankEvent()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void Guild::MoveItemData::LogBankEvent </td>
+          <td class="memname">void Guild::BankTab::Delete </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a>&#160;</td>
           <td class="paramname"><em>trans</em>, </td>
@@ -734,14 +213,270 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *&#160;</td>
-          <td class="paramname"><em>pFrom</em>, </td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>removeItemsFromDB</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  427</span>{</div>
+<div class="line"><span class="lineno">  428</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId = 0; slotId &lt; <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>; ++slotId)</div>
+<div class="line"><span class="lineno">  429</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d1/d6d/a08102.html">Item</a>* pItem = <a class="code hl_variable" href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId])</div>
+<div class="line"><span class="lineno">  430</span>        {</div>
+<div class="line"><span class="lineno">  431</span>            pItem-&gt;RemoveFromWorld();</div>
+<div class="line"><span class="lineno">  432</span>            <span class="keywordflow">if</span> (removeItemsFromDB)</div>
+<div class="line"><span class="lineno">  433</span>                pItem-&gt;DeleteFromDB(trans);</div>
+<div class="line"><span class="lineno">  434</span>            <span class="keyword">delete</span> pItem;</div>
+<div class="line"><span class="lineno">  435</span>            pItem = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  436</span>        }</div>
+<div class="line"><span class="lineno">  437</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa02981_html_a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba"><div class="ttname"><a href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a></div><div class="ttdeci">@ GUILD_BANK_MAX_SLOTS</div><div class="ttdef"><b>Definition:</b> Guild.h:43</div></div>
+<div class="ttc" id="aa08102_html"><div class="ttname"><a href="../../d1/d6d/a08102.html">Item</a></div><div class="ttdef"><b>Definition:</b> Item.h:220</div></div>
+<div class="ttc" id="aa09262_html_a80cc2a64638722401276263d01e5ee27"><div class="ttname"><a href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">Guild::BankTab::m_items</a></div><div class="ttdeci">std::array&lt; Item *, GUILD_BANK_MAX_SLOTS &gt; m_items</div><div class="ttdef"><b>Definition:</b> Guild.h:582</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00043">GUILD_BANK_MAX_SLOTS</a>.</p>
+
+</div>
+</div>
+<a id="a2406a477fff518690b1a9656d0c2129b" name="a2406a477fff518690b1a9656d0c2129b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2406a477fff518690b1a9656d0c2129b">&#9670;&#160;</a></span>GetIcon()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; Guild::BankTab::GetIcon </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  572</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a>; }</div>
+<div class="ttc" id="aa09262_html_a25217a0d4f9dc91c853f7007f63f140b"><div class="ttname"><a href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">Guild::BankTab::m_icon</a></div><div class="ttdeci">std::string m_icon</div><div class="ttdef"><b>Definition:</b> Guild.h:584</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00584">m_icon</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01353">Guild::HandleSetBankTabInfo()</a>.</p>
+
+</div>
+</div>
+<a id="a9c5baa8eb92520b73c646488e3b38caa" name="a9c5baa8eb92520b73c646488e3b38caa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5baa8eb92520b73c646488e3b38caa">&#9670;&#160;</a></span>GetItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d1/d6d/a08102.html">Item</a> * Guild::BankTab::GetItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>slotId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  575</span>{ <span class="keywordflow">return</span> slotId &lt; <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a> ?  <a class="code hl_variable" href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] : <span class="keyword">nullptr</span>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00043">GUILD_BANK_MAX_SLOTS</a>, and <a class="el" href="../../#l00582">m_items</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00908">Guild::BankMoveItemData::_StoreItem()</a>.</p>
+
+</div>
+</div>
+<a id="a0360f82663e5f9e073bcb28affcdf0b3" name="a0360f82663e5f9e073bcb28affcdf0b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0360f82663e5f9e073bcb28affcdf0b3">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; Guild::BankTab::GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  571</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a>; }</div>
+<div class="ttc" id="aa09262_html_a5555e808bc4597ad9a74e69b95e56149"><div class="ttname"><a href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">Guild::BankTab::m_name</a></div><div class="ttdeci">std::string m_name</div><div class="ttdef"><b>Definition:</b> Guild.h:583</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00583">m_name</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01353">Guild::HandleSetBankTabInfo()</a>.</p>
+
+</div>
+</div>
+<a id="ace1887dd0ef166be4fc6f8cb894d80b3" name="ace1887dd0ef166be4fc6f8cb894d80b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace1887dd0ef166be4fc6f8cb894d80b3">&#9670;&#160;</a></span>GetText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; Guild::BankTab::GetText </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  573</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>; }</div>
+<div class="ttc" id="aa09262_html_afc7ac5ed7c4c2d79170548fe061917eb"><div class="ttname"><a href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">Guild::BankTab::m_text</a></div><div class="ttdeci">std::string m_text</div><div class="ttdef"><b>Definition:</b> Guild.h:585</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00585">m_text</a>.</p>
+
+</div>
+</div>
+<a id="a016c23dc9710058e969ccfc51501afd6" name="a016c23dc9710058e969ccfc51501afd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a016c23dc9710058e969ccfc51501afd6">&#9670;&#160;</a></span>LoadFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::BankTab::LoadFromDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc8/a05622.html">Field</a> *&#160;</td>
+          <td class="paramname"><em>fields</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  381</span>{</div>
+<div class="line"><span class="lineno">  382</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> = fields[2].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  383</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> = fields[3].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  384</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> = fields[4].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  385</span>}</div>
+<div class="ttc" id="aa05622_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:112</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00112">Field::Get()</a>, and <a class="el" href="../../#l00784">Guild::m_name</a>.</p>
+
+</div>
+</div>
+<a id="aa7bd9e67c6685878fa7bf158c09fae51" name="aa7bd9e67c6685878fa7bf158c09fae51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7bd9e67c6685878fa7bf158c09fae51">&#9670;&#160;</a></span>LoadItemFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::BankTab::LoadItemFromDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc8/a05622.html">Field</a> *&#160;</td>
+          <td class="paramname"><em>fields</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  388</span>{</div>
+<div class="line"><span class="lineno">  389</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slotId = fields[13].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;();</div>
+<div class="line"><span class="lineno">  390</span>    <a class="code hl_typedef" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> itemGuid = fields[14].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  391</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemEntry = fields[15].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  392</span>    <span class="keywordflow">if</span> (slotId &gt;= <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>)</div>
+<div class="line"><span class="lineno">  393</span>    {</div>
+<div class="line"><span class="lineno">  394</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Invalid slot for item (GUID: {}, id: {}) in guild bank, skipped.&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  395</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  396</span>    }</div>
+<div class="line"><span class="lineno">  397</span> </div>
+<div class="line"><span class="lineno">  398</span>    <a class="code hl_struct" href="../../df/d48/a08126.html">ItemTemplate</a> <span class="keyword">const</span>* proto = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(itemEntry);</div>
+<div class="line"><span class="lineno">  399</span>    <span class="keywordflow">if</span> (!proto)</div>
+<div class="line"><span class="lineno">  400</span>    {</div>
+<div class="line"><span class="lineno">  401</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Unknown item (GUID: {}, id: {}) in guild bank, skipped.&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  402</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  403</span>    }</div>
+<div class="line"><span class="lineno">  404</span> </div>
+<div class="line"><span class="lineno">  405</span>    <a class="code hl_class" href="../../d1/d6d/a08102.html">Item</a>* pItem = <a class="code hl_function" href="../../df/de2/a03410.html#a6b74a54b7de3ced0e27f4128f0d95c64">NewItemOrBag</a>(proto);</div>
+<div class="line"><span class="lineno">  406</span>    <span class="keywordflow">if</span> (!pItem-&gt;<a class="code hl_function" href="../../d1/d6d/a08102.html#a1cff18f16e42238b2d161716ee98cefd">LoadFromDB</a>(itemGuid, <a class="code hl_variable" href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>, fields, itemEntry))</div>
+<div class="line"><span class="lineno">  407</span>    {</div>
+<div class="line"><span class="lineno">  408</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Item (GUID {}, id: {}) not found in item_instance, deleting from guild bank!&quot;</span>, itemGuid, itemEntry);</div>
+<div class="line"><span class="lineno">  409</span> </div>
+<div class="line"><span class="lineno">  410</span>        <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8">CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  411</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  412</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  413</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  414</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  415</span> </div>
+<div class="line"><span class="lineno">  416</span>        <span class="keyword">delete</span> pItem;</div>
+<div class="line"><span class="lineno">  417</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  418</span>    }</div>
+<div class="line"><span class="lineno">  419</span> </div>
+<div class="line"><span class="lineno">  420</span>    pItem-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">AddToWorld</a>();</div>
+<div class="line"><span class="lineno">  421</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] = pItem;</div>
+<div class="line"><span class="lineno">  422</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  423</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
+<div class="ttc" id="aa03410_html_a6b74a54b7de3ced0e27f4128f0d95c64"><div class="ttname"><a href="../../df/de2/a03410.html#a6b74a54b7de3ced0e27f4128f0d95c64">NewItemOrBag</a></div><div class="ttdeci">Item * NewItemOrBag(ItemTemplate const *proto)</div><div class="ttdef"><b>Definition:</b> Bag.h:67</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a573d0a2c13ca1ca1073a477c51c480b8">CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:33</div></div>
+<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa05590_html"><div class="ttname"><a href="../../de/dd0/a05590.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:157</div></div>
+<div class="ttc" id="aa05722_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:77</div></div>
+<div class="ttc" id="aa08102_html_a1cff18f16e42238b2d161716ee98cefd"><div class="ttname"><a href="../../d1/d6d/a08102.html#a1cff18f16e42238b2d161716ee98cefd">Item::LoadFromDB</a></div><div class="ttdeci">virtual bool LoadFromDB(ObjectGuid::LowType guid, ObjectGuid owner_guid, Field *fields, uint32 entry)</div><div class="ttdef"><b>Definition:</b> Item.cpp:419</div></div>
+<div class="ttc" id="aa08126_html"><div class="ttname"><a href="../../df/d48/a08126.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08146_html_acd880d19bc0c5c1ee3e6139bdb0cb07a"><div class="ttname"><a href="../../d7/d40/a08146.html#acd880d19bc0c5c1ee3e6139bdb0cb07a">Object::AddToWorld</a></div><div class="ttdeci">virtual void AddToWorld()</div><div class="ttdef"><b>Definition:</b> Object.cpp:152</div></div>
+<div class="ttc" id="aa08194_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
+<div class="ttc" id="aa08194_html_aa278d50613c05dc1333df5185a6993eb"><div class="ttname"><a href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a></div><div class="ttdeci">uint32 LowType</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00152">Object::AddToWorld()</a>, <a class="el" href="../../#l00033">CHAR_DEL_NONEXISTENT_GUILD_BANK_ITEM</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00120">ObjectGuid::Empty</a>, <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l00043">GUILD_BANK_MAX_SLOTS</a>, <a class="el" href="../../#l00419">Item::LoadFromDB()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00067">NewItemOrBag()</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, and <a class="el" href="../../#l01635">sObjectMgr</a>.</p>
+
+</div>
+</div>
+<a id="ac3ca58dcc1997788226c6fe0d5b690c7" name="ac3ca58dcc1997788226c6fe0d5b690c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3ca58dcc1997788226c6fe0d5b690c7">&#9670;&#160;</a></span>SendText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::BankTab::SendText </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../db/d44/a09234.html">Guild</a> *&#160;</td>
+          <td class="paramname"><em>guild</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>count</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d2/d13/a10746.html">WorldSession</a> *&#160;</td>
+          <td class="paramname"><em>session</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -749,45 +484,54 @@ Protected Attributes</h2></td></tr>
           <td></td><td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../de/d2b/a09266.html#a36516c5ca1aaa13afa9e61831a175068">Guild::PlayerMoveItemData</a>, and <a class="el" href="../../d9/d08/a09270.html#a054ca0f7eecfd404651c11b886d106bf">Guild::BankMoveItemData</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  503</span>{</div>
+<div class="line"><span class="lineno">  504</span>    <a class="code hl_class" href="../../d1/d4e/a10466.html">WorldPackets::Guild::GuildBankTextQueryResult</a> textQuery;</div>
+<div class="line"><span class="lineno">  505</span>    textQuery.<a class="code hl_variable" href="../../d1/d4e/a10466.html#abfc5522a0f94086474493db85ed1ef73">Tab</a> = <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>;</div>
+<div class="line"><span class="lineno">  506</span>    textQuery.<a class="code hl_variable" href="../../d1/d4e/a10466.html#ae78c1d1b802e12efd058987117158ec3">Text</a> = <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>;</div>
+<div class="line"><span class="lineno">  507</span> </div>
+<div class="line"><span class="lineno">  508</span>    <span class="keywordflow">if</span> (session)</div>
+<div class="line"><span class="lineno">  509</span>    {</div>
+<div class="line"><span class="lineno">  510</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;MSG_QUERY_GUILD_BANK_TEXT [{}]: Tabid: {}, Text: {}&quot;</span></div>
+<div class="line"><span class="lineno">  511</span>                       , session-&gt;<a class="code hl_function" href="../../d2/d13/a10746.html#a5850670ad0e6b6a81abf41246bd92523">GetPlayerInfo</a>(), <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>, <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  512</span>        session-&gt;<a class="code hl_function" href="../../d2/d13/a10746.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(textQuery.<a class="code hl_function" href="../../d1/d4e/a10466.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">Write</a>());</div>
+<div class="line"><span class="lineno">  513</span>    }</div>
+<div class="line"><span class="lineno">  514</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  515</span>    {</div>
+<div class="line"><span class="lineno">  516</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;MSG_QUERY_GUILD_BANK_TEXT [Broadcast]: Tabid: {}, Text: {}&quot;</span>, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>, <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  517</span>        guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a16a63bd6373e87c43bf74572f5c4f0ca">BroadcastPacket</a>(textQuery.<a class="code hl_function" href="../../d1/d4e/a10466.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">Write</a>());</div>
+<div class="line"><span class="lineno">  518</span>    }</div>
+<div class="line"><span class="lineno">  519</span>}</div>
+<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
+<div class="ttc" id="aa09234_html_a16a63bd6373e87c43bf74572f5c4f0ca"><div class="ttname"><a href="../../db/d44/a09234.html#a16a63bd6373e87c43bf74572f5c4f0ca">Guild::BroadcastPacket</a></div><div class="ttdeci">void BroadcastPacket(WorldPacket const *packet) const</div><div class="ttdef"><b>Definition:</b> Guild.cpp:2135</div></div>
+<div class="ttc" id="aa10466_html"><div class="ttname"><a href="../../d1/d4e/a10466.html">WorldPackets::Guild::GuildBankTextQueryResult</a></div><div class="ttdef"><b>Definition:</b> GuildPackets.h:567</div></div>
+<div class="ttc" id="aa10466_html_abfc5522a0f94086474493db85ed1ef73"><div class="ttname"><a href="../../d1/d4e/a10466.html#abfc5522a0f94086474493db85ed1ef73">WorldPackets::Guild::GuildBankTextQueryResult::Tab</a></div><div class="ttdeci">uint8 Tab</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:573</div></div>
+<div class="ttc" id="aa10466_html_acb6b28dcf56b821e3c0d5b58f6baa2dd"><div class="ttname"><a href="../../d1/d4e/a10466.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">WorldPackets::Guild::GuildBankTextQueryResult::Write</a></div><div class="ttdeci">WorldPacket const * Write() override</div><div class="ttdef"><b>Definition:</b> GuildPackets.cpp:424</div></div>
+<div class="ttc" id="aa10466_html_ae78c1d1b802e12efd058987117158ec3"><div class="ttname"><a href="../../d1/d4e/a10466.html#ae78c1d1b802e12efd058987117158ec3">WorldPackets::Guild::GuildBankTextQueryResult::Text</a></div><div class="ttdeci">std::string Text</div><div class="ttdef"><b>Definition:</b> GuildPackets.h:574</div></div>
+<div class="ttc" id="aa10746_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d2/d13/a10746.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:214</div></div>
+<div class="ttc" id="aa10746_html_a5850670ad0e6b6a81abf41246bd92523"><div class="ttname"><a href="../../d2/d13/a10746.html#a5850670ad0e6b6a81abf41246bd92523">WorldSession::GetPlayerInfo</a></div><div class="ttdeci">std::string GetPlayerInfo() const</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:191</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l02135">Guild::BroadcastPacket()</a>, <a class="el" href="../../#l00191">WorldSession::GetPlayerInfo()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00573">WorldPackets::Guild::GuildBankTextQueryResult::Tab</a>, <a class="el" href="../../#l00574">WorldPackets::Guild::GuildBankTextQueryResult::Text</a>, and <a class="el" href="../../#l00424">WorldPackets::Guild::GuildBankTextQueryResult::Write()</a>.</p>
 
 </div>
 </div>
-<a id="afc8beaaaea26c3439364c083d3907b84" name="afc8beaaaea26c3439364c083d3907b84"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc8beaaaea26c3439364c083d3907b84">&#9670;&#160;</a></span>RemoveItem()</h2>
+<a id="afb645aa2e4219558eb2f493782804657" name="afb645aa2e4219558eb2f493782804657"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb645aa2e4219558eb2f493782804657">&#9670;&#160;</a></span>SetInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Guild::MoveItemData::RemoveItem </td>
+          <td class="memname">void Guild::BankTab::SetInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a>&#160;</td>
-          <td class="paramname"><em>trans</em>, </td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a> *&#160;</td>
-          <td class="paramname"><em>pOther</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>splitedAmount</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>icon</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -795,30 +539,37 @@ Protected Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  440</span>{</div>
+<div class="line"><span class="lineno">  441</span>    <span class="keywordflow">if</span> ((<a class="code hl_variable" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> == name) &amp;&amp; (<a class="code hl_variable" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> == icon))</div>
+<div class="line"><span class="lineno">  442</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  443</span> </div>
+<div class="line"><span class="lineno">  444</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a> = name;</div>
+<div class="line"><span class="lineno">  445</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a> = icon;</div>
+<div class="line"><span class="lineno">  446</span> </div>
+<div class="line"><span class="lineno">  447</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2">CHAR_UPD_GUILD_BANK_TAB_INFO</a>);</div>
+<div class="line"><span class="lineno">  448</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../d7/d42/a09262.html#a5555e808bc4597ad9a74e69b95e56149">m_name</a>);</div>
+<div class="line"><span class="lineno">  449</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../d7/d42/a09262.html#a25217a0d4f9dc91c853f7007f63f140b">m_icon</a>);</div>
+<div class="line"><span class="lineno">  450</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(2, <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  451</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (3, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  452</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  453</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7af169bbfa184ce43d4393a5a1597310b2">CHAR_UPD_GUILD_BANK_TAB_INFO</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_BANK_TAB_INFO</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:174</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00174">CHAR_UPD_GUILD_BANK_TAB_INFO</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00784">Guild::m_name</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
 
-<p>Implemented in <a class="el" href="../../d9/d08/a09270.html#abd15e25136ec2a00bcddbc0e81978a78">Guild::BankMoveItemData</a>, and <a class="el" href="../../de/d2b/a09266.html#a482460f04b20349e909bac36f893a35a">Guild::PlayerMoveItemData</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01353">Guild::HandleSetBankTabInfo()</a>.</p>
 
 </div>
 </div>
-<a id="a3f69885a4d24609848f904092d5e9399" name="a3f69885a4d24609848f904092d5e9399"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3f69885a4d24609848f904092d5e9399">&#9670;&#160;</a></span>StoreItem()</h2>
+<a id="a3013ae191efb43063162f4cbb5508392" name="a3013ae191efb43063162f4cbb5508392"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3013ae191efb43063162f4cbb5508392">&#9670;&#160;</a></span>SetItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual <a class="el" href="../../db/d24/a08098.html">Item</a> * Guild::MoveItemData::StoreItem </td>
+          <td class="memname">bool Guild::BankTab::SetItem </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a>&#160;</td>
           <td class="paramname"><em>trans</em>, </td>
@@ -826,7 +577,13 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d24/a08098.html">Item</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>slotId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d6d/a08102.html">Item</a> *&#160;</td>
           <td class="paramname"><em>pItem</em>&#160;</td>
         </tr>
         <tr>
@@ -835,22 +592,86 @@ Protected Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  473</span>{</div>
+<div class="line"><span class="lineno">  474</span>    <span class="keywordflow">if</span> (slotId &gt;= <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>)</div>
+<div class="line"><span class="lineno">  475</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  476</span> </div>
+<div class="line"><span class="lineno">  477</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#a80cc2a64638722401276263d01e5ee27">m_items</a>[slotId] = item;</div>
+<div class="line"><span class="lineno">  478</span> </div>
+<div class="line"><span class="lineno">  479</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648">CHAR_DEL_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  480</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  481</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  482</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  483</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  484</span> </div>
+<div class="line"><span class="lineno">  485</span>    <span class="keywordflow">if</span> (item)</div>
+<div class="line"><span class="lineno">  486</span>    {</div>
+<div class="line"><span class="lineno">  487</span>        stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8">CHAR_INS_GUILD_BANK_ITEM</a>);</div>
+<div class="line"><span class="lineno">  488</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  489</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (1, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  490</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, slotId);</div>
+<div class="line"><span class="lineno">  491</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, item-&gt;GetGUID().GetCounter());</div>
+<div class="line"><span class="lineno">  492</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  493</span> </div>
+<div class="line"><span class="lineno">  494</span>        item-&gt;SetGuidValue(<a class="code hl_enumvalue" href="../../dc/d14/a03479.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a>, <a class="code hl_variable" href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  495</span>        item-&gt;SetGuidValue(<a class="code hl_enumvalue" href="../../dc/d14/a03479.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a>, <a class="code hl_variable" href="../../d7/d5b/a08194.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
+<div class="line"><span class="lineno">  496</span>        item-&gt;FSetState(<a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0">ITEM_NEW</a>);</div>
+<div class="line"><span class="lineno">  497</span>        item-&gt;SaveToDB(trans);                                 <span class="comment">// Not in inventory and can be saved standalone</span></div>
+<div class="line"><span class="lineno">  498</span>    }</div>
+<div class="line"><span class="lineno">  499</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  500</span>}</div>
+<div class="ttc" id="aa03395_html_a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0"><div class="ttname"><a href="../../d6/d0e/a03395.html#a744ce838494e4dc6eb5f123b9a38bd04a6ea900210f326657f7565454c52c0bb0">ITEM_NEW</a></div><div class="ttdeci">@ ITEM_NEW</div><div class="ttdef"><b>Definition:</b> Item.h:211</div></div>
+<div class="ttc" id="aa03479_html_a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4"><div class="ttname"><a href="../../dc/d14/a03479.html#a529e4bfaaee7e3c2dc52aaa447287cfba881d0b16fa30b247b069fc55a19795a4">ITEM_FIELD_OWNER</a></div><div class="ttdeci">@ ITEM_FIELD_OWNER</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:35</div></div>
+<div class="ttc" id="aa03479_html_a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d"><div class="ttname"><a href="../../dc/d14/a03479.html#a529e4bfaaee7e3c2dc52aaa447287cfbad33f08fc535881147ce66f205ec1490d">ITEM_FIELD_CONTAINED</a></div><div class="ttdeci">@ ITEM_FIELD_CONTAINED</div><div class="ttdef"><b>Definition:</b> UpdateFields.h:36</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7abd15298cc081163de6dce676ddc57648">CHAR_DEL_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_DEL_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:154</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7aeb79c63c3f2ee28f0d6471f86d14f3b8">CHAR_INS_GUILD_BANK_ITEM</a></div><div class="ttdeci">@ CHAR_INS_GUILD_BANK_ITEM</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:153</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00154">CHAR_DEL_GUILD_BANK_ITEM</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00043">GUILD_BANK_MAX_SLOTS</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
 
-<p>Implemented in <a class="el" href="../../de/d2b/a09266.html#a017e3bd414548e66f980587e81e598e5">Guild::PlayerMoveItemData</a>, and <a class="el" href="../../d9/d08/a09270.html#a9367b938768eefcaf5bb88e74dde9aa3">Guild::BankMoveItemData</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00908">Guild::BankMoveItemData::_StoreItem()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02704">Guild::_DoItemsMove()</a>.</p>
+</div>
+</div>
+<a id="a5945b66216eebcb4ac68a6e429c15972" name="a5945b66216eebcb4ac68a6e429c15972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5945b66216eebcb4ac68a6e429c15972">&#9670;&#160;</a></span>SetText()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::BankTab::SetText </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  456</span>{</div>
+<div class="line"><span class="lineno">  457</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> == text)</div>
+<div class="line"><span class="lineno">  458</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  459</span> </div>
+<div class="line"><span class="lineno">  460</span>    <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a> = text;</div>
+<div class="line"><span class="lineno">  461</span>    <a class="code hl_function" href="../../da/dee/a00383.html#ad881ed438a9a0c698d3c9860d78d4a2b">utf8truncate</a>(<a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>, <a class="code hl_define" href="../../d1/d24/a02975.html#a458eaf87a56d0ac3d92187c55b14f437">MAX_GUILD_BANK_TAB_TEXT_LEN</a>);          <span class="comment">// DB and client size limitation</span></div>
+<div class="line"><span class="lineno">  462</span> </div>
+<div class="line"><span class="lineno">  463</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499">CHAR_UPD_GUILD_BANK_TAB_TEXT</a>);</div>
+<div class="line"><span class="lineno">  464</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../d7/d42/a09262.html#afc7ac5ed7c4c2d79170548fe061917eb">m_text</a>);</div>
+<div class="line"><span class="lineno">  465</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../d7/d42/a09262.html#abc272a367b69a90207dbf10580a55038">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  466</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, <a class="code hl_variable" href="../../d7/d42/a09262.html#ab055a2b7500c83c96a78c396dc60588a">m_tabId</a>);</div>
+<div class="line"><span class="lineno">  467</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  468</span>}</div>
+<div class="ttc" id="aa00383_html_ad881ed438a9a0c698d3c9860d78d4a2b"><div class="ttname"><a href="../../da/dee/a00383.html#ad881ed438a9a0c698d3c9860d78d4a2b">utf8truncate</a></div><div class="ttdeci">void utf8truncate(std::string &amp;utf8str, std::size_t len)</div><div class="ttdef"><b>Definition:</b> Util.cpp:258</div></div>
+<div class="ttc" id="aa02975_html_a458eaf87a56d0ac3d92187c55b14f437"><div class="ttname"><a href="../../d1/d24/a02975.html#a458eaf87a56d0ac3d92187c55b14f437">MAX_GUILD_BANK_TAB_TEXT_LEN</a></div><div class="ttdeci">#define MAX_GUILD_BANK_TAB_TEXT_LEN</div><div class="ttdef"><b>Definition:</b> Guild.cpp:40</div></div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a16d7cb171116f15bfa23ce53682a4499">CHAR_UPD_GUILD_BANK_TAB_TEXT</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_BANK_TAB_TEXT</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:178</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00178">CHAR_UPD_GUILD_BANK_TAB_TEXT</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00040">MAX_GUILD_BANK_TAB_TEXT_LEN</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, and <a class="el" href="../../#l00258">utf8truncate()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="add3ef514f68db7f0c93e6a07a95b0340" name="add3ef514f68db7f0c93e6a07a95b0340"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add3ef514f68db7f0c93e6a07a95b0340">&#9670;&#160;</a></span>m_container</h2>
+<a id="abc272a367b69a90207dbf10580a55038" name="abc272a367b69a90207dbf10580a55038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc272a367b69a90207dbf10580a55038">&#9670;&#160;</a></span>m_guildId</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -859,22 +680,20 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::MoveItemData::m_container</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::BankTab::m_guildId</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00621">GetContainer()</a>.</p>
-
 </div>
 </div>
-<a id="a1107940e15604337a2a7bc3a839c1e58" name="a1107940e15604337a2a7bc3a839c1e58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1107940e15604337a2a7bc3a839c1e58">&#9670;&#160;</a></span>m_pClonedItem</h2>
+<a id="a25217a0d4f9dc91c853f7007f63f140b" name="a25217a0d4f9dc91c853f7007f63f140b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25217a0d4f9dc91c853f7007f63f140b">&#9670;&#160;</a></span>m_icon</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -883,22 +702,22 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d24/a08098.html">Item</a>* Guild::MoveItemData::m_pClonedItem</td>
+          <td class="memname">std::string Guild::BankTab::m_icon</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00620">GetItem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00572">GetIcon()</a>.</p>
 
 </div>
 </div>
-<a id="a7e8085f102e8217d015a10c3f1b05316" name="a7e8085f102e8217d015a10c3f1b05316"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e8085f102e8217d015a10c3f1b05316">&#9670;&#160;</a></span>m_pGuild</h2>
+<a id="a80cc2a64638722401276263d01e5ee27" name="a80cc2a64638722401276263d01e5ee27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80cc2a64638722401276263d01e5ee27">&#9670;&#160;</a></span>m_items</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -907,20 +726,22 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d07/a09230.html">Guild</a>* Guild::MoveItemData::m_pGuild</td>
+          <td class="memname">std::array&lt;<a class="el" href="../../d1/d6d/a08102.html">Item</a>*, <a class="el" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaab16b15ec75f4e5d66f25c472aa3e8bba">GUILD_BANK_MAX_SLOTS</a>&gt; Guild::BankTab::m_items = {}</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p class="reference">Referenced by <a class="el" href="../../#l00575">GetItem()</a>.</p>
+
 </div>
 </div>
-<a id="a860f0cd1743a014450a82821d7cd737d" name="a860f0cd1743a014450a82821d7cd737d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a860f0cd1743a014450a82821d7cd737d">&#9670;&#160;</a></span>m_pItem</h2>
+<a id="a5555e808bc4597ad9a74e69b95e56149" name="a5555e808bc4597ad9a74e69b95e56149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5555e808bc4597ad9a74e69b95e56149">&#9670;&#160;</a></span>m_name</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -929,22 +750,22 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d24/a08098.html">Item</a>* Guild::MoveItemData::m_pItem</td>
+          <td class="memname">std::string Guild::BankTab::m_name</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00620">GetItem()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00571">GetName()</a>.</p>
 
 </div>
 </div>
-<a id="a1914b960d8990c651e46a50951f5ab42" name="a1914b960d8990c651e46a50951f5ab42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1914b960d8990c651e46a50951f5ab42">&#9670;&#160;</a></span>m_pPlayer</h2>
+<a id="ab055a2b7500c83c96a78c396dc60588a" name="ab055a2b7500c83c96a78c396dc60588a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab055a2b7500c83c96a78c396dc60588a">&#9670;&#160;</a></span>m_tabId</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -953,20 +774,20 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/dc6/a08386.html">Player</a>* Guild::MoveItemData::m_pPlayer</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::BankTab::m_tabId</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a5b77825a637d5c9476239fc19c12f0cc" name="a5b77825a637d5c9476239fc19c12f0cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5b77825a637d5c9476239fc19c12f0cc">&#9670;&#160;</a></span>m_slotId</h2>
+<a id="afc7ac5ed7c4c2d79170548fe061917eb" name="afc7ac5ed7c4c2d79170548fe061917eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc7ac5ed7c4c2d79170548fe061917eb">&#9670;&#160;</a></span>m_text</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -975,39 +796,17 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::MoveItemData::m_slotId</td>
+          <td class="memname">std::string Guild::BankTab::m_text</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00622">GetSlotId()</a>.</p>
-
-</div>
-</div>
-<a id="a190c6110c353bbe91b9b407c59478967" name="a190c6110c353bbe91b9b407c59478967"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a190c6110c353bbe91b9b407c59478967">&#9670;&#160;</a></span>m_vec</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/d13/a03365.html#a06f492a0a20f5264c8395684220fec84">ItemPosCountVec</a> Guild::MoveItemData::m_vec</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00573">GetText()</a>.</p>
 
 </div>
 </div>
@@ -1016,8 +815,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d07/a09230.html">Guild</a></li><li class="navelem"><a class="el" href="../../d7/d42/a09262.html">MoveItemData</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/d44/a09234.html">Guild</a></li><li class="navelem"><a class="el" href="../../d7/d42/a09262.html">BankTab</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

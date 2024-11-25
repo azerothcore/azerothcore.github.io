@@ -1,6 +1,7 @@
 var a16958 =
 [
-    [ "PrepareSpellScript", "dc/d71/a16958.html#a37899f12707930d038de38bae92c9aff", null ],
-    [ "Register", "dc/d71/a16958.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
-    [ "SelectDest", "dc/d71/a16958.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
+    [ "HandleDummyTick", "dc/d71/a16958.html#a9aa9a7a6c2e09c840cfca3253c2ac7c0", null ],
+    [ "PrepareAuraScript", "dc/d71/a16958.html#a577523701b5a4ea2def4999e634c8862", null ],
+    [ "Register", "dc/d71/a16958.html#aaad9185c62333de4d6704b22780edd28", null ],
+    [ "Validate", "dc/d71/a16958.html#a9cfabcbbb9805a902fdd2d1b327dc4c7", null ]
 ];

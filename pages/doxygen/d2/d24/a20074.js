@@ -1,8 +1,9 @@
 var a20074 =
 [
-    [ "npc_ulduar_magnetic_coreAI", "d2/d24/a20074.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
-    [ "SetData", "d2/d24/a20074.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
-    [ "UpdateAI", "d2/d24/a20074.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
-    [ "despawnTimer", "d2/d24/a20074.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
-    [ "pInstance", "d2/d24/a20074.html#a3e01c612a689d89bdbe3529c429a413d", null ]
+    [ "HandleEffectPeriodic", "d2/d24/a20074.html#ae3cb0f7a3da5a72eaa59350d7df13ffc", null ],
+    [ "Load", "d2/d24/a20074.html#a60deabce505dd3993dca0e71402dc190", null ],
+    [ "PrepareAuraScript", "d2/d24/a20074.html#a9a2fae625718f854ec5d2587a01a2da7", null ],
+    [ "Register", "d2/d24/a20074.html#a524c071390365b7dab59bc7a79b50f15", null ],
+    [ "_lastMSTime", "d2/d24/a20074.html#a013e9e0eef93583722f7d347c2ebbc49", null ],
+    [ "_lastOrientation", "d2/d24/a20074.html#a2537b325ff57b867092f3d9a1bd0fa8b", null ]
 ];

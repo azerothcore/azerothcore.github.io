@@ -1,6 +1,6 @@
 var a12914 =
 [
-    [ "HandleActivateObject", "db/d73/a12914.html#afd73a7f5ec26c9ecb0424ee09ce638fe", null ],
-    [ "PrepareSpellScript", "db/d73/a12914.html#ad55914fdc6771e09a508572d59ad30ed", null ],
-    [ "Register", "db/d73/a12914.html#a6a0fe507ca7a382122d55e04d3c021d9", null ]
+    [ "HandleSendEvent", "db/d73/a12914.html#ad245a7dcf129774b8ef3e3653b3e3026", null ],
+    [ "PrepareSpellScript", "db/d73/a12914.html#ad9dfe5b2702540eb119ec86cfbd0ff30", null ],
+    [ "Register", "db/d73/a12914.html#a0b5ac8cfc4eb4adadb653a81a59a8287", null ]
 ];

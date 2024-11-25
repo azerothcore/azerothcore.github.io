@@ -1,5 +1,6 @@
 var a09334 =
 [
-    [ "bossId", "db/d42/a09334.html#af9fc7d02d16d4fb3547273428553cf05", null ],
-    [ "boundary", "db/d42/a09334.html#a7b474c6b9225102ba08864256d07d9e6", null ]
+    [ "bossId", "db/d42/a09334.html#ac7ce1fcc568ad1fe6bc8a20957357ed8", null ],
+    [ "entry", "db/d42/a09334.html#a1a199d022692efe54e29a7cb90e73dee", null ],
+    [ "type", "db/d42/a09334.html#ab5654860b5c27654fa0346e9e92a71fc", null ]
 ];

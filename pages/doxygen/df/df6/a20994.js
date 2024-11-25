@@ -1,6 +1,6 @@
 var a20994 =
 [
-    [ "boss_lavanthorAI", "d1/d55/a20998.html", "d1/d55/a20998" ],
-    [ "boss_lavanthor", "df/df6/a20994.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "df/df6/a20994.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "HandleEffectPeriodic", "df/df6/a20994.html#a508ff9e362d586497839aa29ceae1227", null ],
+    [ "PrepareAuraScript", "df/df6/a20994.html#a4e7d5317d28207136b1fd3477a51ae06", null ],
+    [ "Register", "df/df6/a20994.html#a4b08cefe7d334635b70d389cc9df4901", null ]
 ];

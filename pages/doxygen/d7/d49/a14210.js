@@ -1,9 +1,7 @@
 var a14210 =
 [
-    [ "npc_ancient_wisp", "d7/d49/a14210.html#a70e45e500b3490a034b058ca2ec16d39", null ],
-    [ "DamageTaken", "d7/d49/a14210.html#ad7d96e6b54cdc23a5101338474125e71", null ],
-    [ "JustEngagedWith", "d7/d49/a14210.html#a755ed852b3149ada65c5750410776fc8", null ],
-    [ "Reset", "d7/d49/a14210.html#a1c33cc47d7f60b2b3eb60852f1c36820", null ],
-    [ "UpdateAI", "d7/d49/a14210.html#a51ca214de826d7126f32e49f6852bca3", null ],
-    [ "_instance", "d7/d49/a14210.html#a5e5e51944d49cc52bed4ff4953513f1f", null ]
+    [ "HandleOnHit", "d7/d49/a14210.html#a9f1d78b4a98bc76877903b79923c1634", null ],
+    [ "PrepareSpellScript", "d7/d49/a14210.html#afb0a8a16850da30b0fbdb3d10a935f21", null ],
+    [ "Register", "d7/d49/a14210.html#ab923488eb891e1f9b1f5cb8ed61f3865", null ],
+    [ "Validate", "d7/d49/a14210.html#a57d85b1702e5c89d72972505121180ed", null ]
 ];

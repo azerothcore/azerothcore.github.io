@@ -1,15 +1,6 @@
 var a21058 =
 [
-    [ "npc_vh_teleportation_portalAI", "dd/d61/a21058.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
-    [ "JustDied", "dd/d61/a21058.html#aab2cc259d78492c54e21b4279697f909", null ],
-    [ "JustSummoned", "dd/d61/a21058.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
-    [ "SummonedMobDied", "dd/d61/a21058.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
-    [ "UpdateAI", "dd/d61/a21058.html#a812e330e20924cc34262363ecc0a3fc1", null ],
-    [ "addValue", "dd/d61/a21058.html#aa52f29a41d12320516737b437af62fc3", null ],
-    [ "bKorG", "dd/d61/a21058.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
-    [ "events", "dd/d61/a21058.html#a329635246e80e7264cad6749ee70be40", null ],
-    [ "listOfMobs", "dd/d61/a21058.html#a470a61cf7d424711b07770fd56c74b29", null ],
-    [ "pInstance", "dd/d61/a21058.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
-    [ "spawned", "dd/d61/a21058.html#a8921c314c2f4b958e11136504971f427", null ],
-    [ "wave", "dd/d61/a21058.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
+    [ "npc_azure_binderAI", "da/db3/a21062.html", "da/db3/a21062" ],
+    [ "npc_azure_binder", "dd/d61/a21058.html#a25b8b19b6ccdae92418c47fe68537c42", null ],
+    [ "GetAI", "dd/d61/a21058.html#aad091206a8bd06a1064b68b81510eb56", null ]
 ];

@@ -1,6 +1,5 @@
 var a16754 =
 [
-    [ "boss_drakkari_colossusAI", "db/dfc/a16758.html", "db/dfc/a16758" ],
-    [ "boss_drakkari_colossus", "d1/dd8/a16754.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
-    [ "GetAI", "d1/dd8/a16754.html#a75c6c9c56fe11342dd8aece031059e77", null ]
+    [ "endPosition", "d1/dd8/a16754.html#a8a88b0191d28ef6af8f41db627552602", null ],
+    [ "entry", "d1/dd8/a16754.html#ac4e55af666e269440953ced038c1a8de", null ]
 ];

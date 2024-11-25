@@ -1,6 +1,6 @@
 var a20682 =
 [
-    [ "boss_ingvar_the_plundererAI", "dd/da4/a20686.html", "dd/da4/a20686" ],
-    [ "boss_ingvar_the_plunderer", "de/df0/a20682.html#a9e3612be4a81159dee2b883d434d811d", null ],
-    [ "GetAI", "de/df0/a20682.html#aa0411c10b875bd1a804a7679f27dbf92", null ]
+    [ "boss_kelesethAI", "dd/da4/a20686.html", "dd/da4/a20686" ],
+    [ "boss_keleseth", "de/df0/a20682.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
+    [ "GetAI", "de/df0/a20682.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
 ];

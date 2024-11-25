@@ -1,6 +1,8 @@
 var a18958 =
 [
-    [ "boss_ormorokAI", "d0/d85/a18962.html", "d0/d85/a18962" ],
-    [ "boss_ormorok", "de/d27/a18958.html#a0999bd2d1bcd5b27c6cba6293b48e7b3", null ],
-    [ "GetAI", "de/d27/a18958.html#a1e3c4a03a2d44d085010da8f1621e2fb", null ]
+    [ "npc_crystal_spike", "de/d27/a18958.html#aa6a6e12aba63c589e71b5ca28b924fd4", null ],
+    [ "Reset", "de/d27/a18958.html#a8cdca606ce482147d87ad5248665099e", null ],
+    [ "UpdateAI", "de/d27/a18958.html#abc04c8fba427c12630b4faf1d39bdb32", null ],
+    [ "_damageTimer", "de/d27/a18958.html#a36c70729a0c0281d467f870bfcde80ae", null ],
+    [ "_gameObjectGUID", "de/d27/a18958.html#a0c0e9a1883cee51201b039947b5bacf3", null ]
 ];

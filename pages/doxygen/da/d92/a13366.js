@@ -1,6 +1,7 @@
 var a13366 =
 [
-    [ "npc_jaina_proudmoore_bfuAI", "d9/d0d/a13370.html", "d9/d0d/a13370" ],
-    [ "npc_jaina_proudmoore_bfu", "da/d92/a13366.html#af96c4fac318f44cf6e70817b6960999f", null ],
-    [ "GetAI", "da/d92/a13366.html#a4ed6349a5ebdd90053f9d67d24ab6991", null ]
+    [ "o", "da/d92/a13366.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
+    [ "x", "da/d92/a13366.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
+    [ "y", "da/d92/a13366.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
+    [ "z", "da/d92/a13366.html#abf42d988d416ebe409100c4b860d26db", null ]
 ];

@@ -1,6 +1,6 @@
 var a02225 =
 [
-    [ "boss_balinda", "de/d9f/a11498.html", "de/d9f/a11498" ],
+    [ "boss_balinda", "dc/d77/a11502.html", "dc/d77/a11502" ],
     [ "Creatures", "d4/dc0/a02225.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],
@@ -979,14 +979,16 @@ var a02225 =
       [ "SPELL_FRENZY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cab54f261ba282273bed875abe6642a293", null ],
       [ "SPELL_FLAMESHOCK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cacd0b7af74e1993f64e7d1ae4c9f3d6eb", null ],
       [ "SPELL_EARTHSHOCK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cabbc328dc23ba382bcb705252cb0c21ae", null ],
-      [ "SPELL_TRANSFORM_SPLIT", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca4a394075b79a66388200f975793a51e9", null ],
-      [ "SPELL_TRANSFORM_SPLIT2", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca340f74adab8a418ec35836e204f28aba", null ],
-      [ "SPELL_TRANSFORM_MERGE", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca7cab536a90d6984e570d0ee17d444748", null ],
       [ "SPELL_SUMMON_LYNX", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca8074f8e348e7c38104f47b24c30f3f47", null ],
       [ "SPELL_SUMMON_TOTEM", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca76e66ff693fd054826b94edc82953bc1", null ],
       [ "SPELL_BERSERK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
       [ "SPELL_LYNX_FRENZY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca631a0aa7d71f4f76e0eb2210ce031199", null ],
       [ "SPELL_SHRED_ARMOR", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca678c11570ad3144955c816375dbc9099", null ],
+      [ "SPELL_TRANSFORM_DUMMY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca64a770431f15c8291caefec7d794435c", null ],
+      [ "SPELL_TRANSFIGURE", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca103266fa67b05f293bd1d96e8bfa88c6", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_75", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298caacf4357658bdc3322da05c02fc8b7c91", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_50", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca16a49d9ec462e668652651f7d5cde31b", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_25", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca4d92b91cd7589492e3361259ec8db5dc", null ],
       [ "SPELL_SPIRIT_BOLTS", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca1b7ddd9be5786e146935c79b0da8840e", null ],
       [ "SPELL_DRAIN_POWER", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca7f81baf6969513eaac167c67c10ded6c", null ],
       [ "SPELL_SIPHON_SOUL", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca4976268b7c24a0e4a7e36336477fa27a", null ],

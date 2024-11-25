@@ -1,8 +1,9 @@
 var a09454 =
 [
-    [ "CircleBoundary", "d1/d2d/a09454.html#a1f58f718ac4e4f6de029a0d46954012e", null ],
-    [ "CircleBoundary", "d1/d2d/a09454.html#a10387b9a70013ecc15ae4f31dd1f21f3", null ],
-    [ "IsWithinBoundaryArea", "d1/d2d/a09454.html#ad8eef3c2c98ee71a7d28d1e5d93ee508", null ],
-    [ "_center", "d1/d2d/a09454.html#a65edd0aef7b73b176e5e311bb0d63738", null ],
-    [ "_radiusSq", "d1/d2d/a09454.html#acbb3cc0c546f0e557a48a45425355950", null ]
+    [ "RectangleBoundary", "d1/d2d/a09454.html#af401f84700a15fa1d4fcf78358a74735", null ],
+    [ "IsWithinBoundaryArea", "d1/d2d/a09454.html#a2d6c735d080382263a401d91da37b934", null ],
+    [ "_maxX", "d1/d2d/a09454.html#a3eff421dfe942634814e7526334f1c07", null ],
+    [ "_maxY", "d1/d2d/a09454.html#a9ec96dfb6b1ee804cceaae2f2dce6a22", null ],
+    [ "_minX", "d1/d2d/a09454.html#a77db64ebe7e7f5e9621bbbd6e38837e1", null ],
+    [ "_minY", "d1/d2d/a09454.html#af5a7e35d5d9ff23c722643141f01a916", null ]
 ];

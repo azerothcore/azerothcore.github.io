@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: DBCFile::Exception Class Reference</title>
+<title>AzerothCore: DBCFile::Record Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,49 +106,66 @@ $(document).ready(function(){initNavTree('df/d25/a28226.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d2/d3e/a28223.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DBCFile::Exception Class Reference</div></div>
+  <div class="headertitle"><div class="title">DBCFile::Record Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">dbcfile.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for DBCFile::Exception:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../df/d25/a28226.png" usemap="#DBCFile::Exception_map" alt=""/>
-  <map id="DBCFile::Exception_map" name="DBCFile::Exception_map">
-<area href="../../d0/d12/a28230.html" alt="DBCFile::NotFound" shape="rect" coords="0,56,120,80"/>
-<area href="../../d0/d12/a28230.html" alt="DBCFile::NotFound" shape="rect" coords="130,56,250,80"/>
-  </map>
-</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a414c3d1a58dc27f84f70db7372c71394"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a414c3d1a58dc27f84f70db7372c71394">Exception</a> (std::string <a class="el" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>)</td></tr>
-<tr class="separator:a414c3d1a58dc27f84f70db7372c71394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af5fa940a44522664bf8032b0ec164a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a1af5fa940a44522664bf8032b0ec164a">~Exception</a> ()=default</td></tr>
-<tr class="separator:a1af5fa940a44522664bf8032b0ec164a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9bfdfbfe28783d5ad6f7b08cb845c75"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#af9bfdfbfe28783d5ad6f7b08cb845c75">getMessage</a> ()</td></tr>
-<tr class="separator:af9bfdfbfe28783d5ad6f7b08cb845c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a414c3d1a58dc27f84f70db7372c71394"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a414c3d1a58dc27f84f70db7372c71394">Exception</a> (std::string <a class="el" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>)</td></tr>
-<tr class="separator:a414c3d1a58dc27f84f70db7372c71394"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1af5fa940a44522664bf8032b0ec164a"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a1af5fa940a44522664bf8032b0ec164a">~Exception</a> ()=default</td></tr>
-<tr class="separator:a1af5fa940a44522664bf8032b0ec164a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af9bfdfbfe28783d5ad6f7b08cb845c75"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#af9bfdfbfe28783d5ad6f7b08cb845c75">getMessage</a> ()</td></tr>
-<tr class="separator:af9bfdfbfe28783d5ad6f7b08cb845c75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6402dcebb5adc1becccdc2bbf39758"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a3e6402dcebb5adc1becccdc2bbf39758">getFloat</a> (std::size_t field) const</td></tr>
+<tr class="separator:a3e6402dcebb5adc1becccdc2bbf39758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0215b88ffbaf83c69a82cde51cd45f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#ace0215b88ffbaf83c69a82cde51cd45f">getUInt</a> (std::size_t field) const</td></tr>
+<tr class="separator:ace0215b88ffbaf83c69a82cde51cd45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4d8d3ae4a5a42ed1dc9a9edcd6747"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747">getInt</a> (std::size_t field) const</td></tr>
+<tr class="separator:a80c4d8d3ae4a5a42ed1dc9a9edcd6747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e330e9888e740bc16d4ba173c90c8d9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a3e330e9888e740bc16d4ba173c90c8d9">getString</a> (std::size_t field) const</td></tr>
+<tr class="separator:a3e330e9888e740bc16d4ba173c90c8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a25c6e7d3b28aade82eb52d41515f0427"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d25/a28226.html">Record</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a25c6e7d3b28aade82eb52d41515f0427">operator=</a> (const <a class="el" href="../../df/d25/a28226.html">Record</a> &amp;r)</td></tr>
+<tr class="separator:a25c6e7d3b28aade82eb52d41515f0427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e6402dcebb5adc1becccdc2bbf39758"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a3e6402dcebb5adc1becccdc2bbf39758">getFloat</a> (std::size_t field) const</td></tr>
+<tr class="separator:a3e6402dcebb5adc1becccdc2bbf39758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0215b88ffbaf83c69a82cde51cd45f"><td class="memItemLeft" align="right" valign="top">unsigned int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#ace0215b88ffbaf83c69a82cde51cd45f">getUInt</a> (std::size_t field) const</td></tr>
+<tr class="separator:ace0215b88ffbaf83c69a82cde51cd45f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c4d8d3ae4a5a42ed1dc9a9edcd6747"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a80c4d8d3ae4a5a42ed1dc9a9edcd6747">getInt</a> (std::size_t field) const</td></tr>
+<tr class="separator:a80c4d8d3ae4a5a42ed1dc9a9edcd6747"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1897952fa01e930caffa262519645c5"><td class="memItemLeft" align="right" valign="top">unsigned char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#ab1897952fa01e930caffa262519645c5">getByte</a> (std::size_t ofs) const</td></tr>
+<tr class="separator:ab1897952fa01e930caffa262519645c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e330e9888e740bc16d4ba173c90c8d9"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a3e330e9888e740bc16d4ba173c90c8d9">getString</a> (std::size_t field) const</td></tr>
+<tr class="separator:a3e330e9888e740bc16d4ba173c90c8d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a51a9cc006bb8530fe76452c1bbe7985c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a51a9cc006bb8530fe76452c1bbe7985c">Record</a> (<a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp;<a class="el" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>, unsigned char *<a class="el" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>)</td></tr>
+<tr class="separator:a51a9cc006bb8530fe76452c1bbe7985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51a9cc006bb8530fe76452c1bbe7985c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a51a9cc006bb8530fe76452c1bbe7985c">Record</a> (<a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp;<a class="el" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>, unsigned char *<a class="el" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>)</td></tr>
+<tr class="separator:a51a9cc006bb8530fe76452c1bbe7985c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:aeb732542a0ba63cde3d9b3bff93f4eda"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a></td></tr>
-<tr class="separator:aeb732542a0ba63cde3d9b3bff93f4eda"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adffc3b9545883356dd9bed0a0613a1fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a></td></tr>
+<tr class="separator:adffc3b9545883356dd9bed0a0613a1fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae76eb8b329fb6d580aa42484de46c95e"><td class="memItemLeft" align="right" valign="top">unsigned char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a></td></tr>
+<tr class="separator:ae76eb8b329fb6d580aa42484de46c95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a6c4f02b14caa99337bbe77b30e5615ab"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a6c4f02b14caa99337bbe77b30e5615ab">DBCFile</a></td></tr>
+<tr class="separator:a6c4f02b14caa99337bbe77b30e5615ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56d48f82a62e25038bf9cf339e608083"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a56d48f82a62e25038bf9cf339e608083">DBCFile::Iterator</a></td></tr>
+<tr class="separator:a56d48f82a62e25038bf9cf339e608083"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9830fc407400559db7e7783cc10a9394"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d25/a28226.html#a9830fc407400559db7e7783cc10a9394">Iterator</a></td></tr>
+<tr class="separator:a9830fc407400559db7e7783cc10a9394"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000265">Todo:</a></b></dt><dd>: Add a close function? </dd></dl>
-</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a414c3d1a58dc27f84f70db7372c71394" name="a414c3d1a58dc27f84f70db7372c71394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414c3d1a58dc27f84f70db7372c71394">&#9670;&#160;</a></span>Exception() <span class="overload">[1/2]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a51a9cc006bb8530fe76452c1bbe7985c" name="a51a9cc006bb8530fe76452c1bbe7985c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a9cc006bb8530fe76452c1bbe7985c">&#9670;&#160;</a></span>Record() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -157,27 +174,37 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">DBCFile::Exception::Exception </td>
+          <td class="memname">DBCFile::Record::Record </td>
           <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>                                     : <a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>(std::move(<a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>))</div>
-<div class="line"><span class="lineno">   38</span>        { }</div>
-<div class="ttc" id="aa28226_html_aeb732542a0ba63cde3d9b3bff93f4eda"><div class="ttname"><a href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">DBCFile::Exception::message</a></div><div class="ttdeci">std::string message</div><div class="ttdef"><b>Definition:</b> dbcfile.h:42</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   78</span>: <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>(<a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>), <a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>) {}</div>
+<div class="ttc" id="aa28226_html_adffc3b9545883356dd9bed0a0613a1fe"><div class="ttname"><a href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">DBCFile::Record::file</a></div><div class="ttdeci">DBCFile &amp; file</div><div class="ttdef"><b>Definition:</b> dbcfile.h:79</div></div>
+<div class="ttc" id="aa28226_html_ae76eb8b329fb6d580aa42484de46c95e"><div class="ttname"><a href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">DBCFile::Record::offset</a></div><div class="ttdeci">unsigned char * offset</div><div class="ttdef"><b>Definition:</b> dbcfile.h:80</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a1af5fa940a44522664bf8032b0ec164a" name="a1af5fa940a44522664bf8032b0ec164a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af5fa940a44522664bf8032b0ec164a">&#9670;&#160;</a></span>~Exception() <span class="overload">[1/2]</span></h2>
+<a id="a51a9cc006bb8530fe76452c1bbe7985c" name="a51a9cc006bb8530fe76452c1bbe7985c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51a9cc006bb8530fe76452c1bbe7985c">&#9670;&#160;</a></span>Record() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -186,77 +213,36 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual DBCFile::Exception::~Exception </td>
+          <td class="memname">DBCFile::Record::Record </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a414c3d1a58dc27f84f70db7372c71394" name="a414c3d1a58dc27f84f70db7372c71394"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a414c3d1a58dc27f84f70db7372c71394">&#9670;&#160;</a></span>Exception() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">DBCFile::Exception::Exception </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname"><em>message</em></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">unsigned char *&#160;</td>
+          <td class="paramname"><em>offset</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>                                     : <a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>(std::move(<a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>))</div>
-<div class="line"><span class="lineno">   40</span>        { }</div>
+<div class="fragment"><div class="line"><span class="lineno">   96</span>: <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>(<a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>), <a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a>) {}</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a1af5fa940a44522664bf8032b0ec164a" name="a1af5fa940a44522664bf8032b0ec164a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1af5fa940a44522664bf8032b0ec164a">&#9670;&#160;</a></span>~Exception() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual DBCFile::Exception::~Exception </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="af9bfdfbfe28783d5ad6f7b08cb845c75" name="af9bfdfbfe28783d5ad6f7b08cb845c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9bfdfbfe28783d5ad6f7b08cb845c75">&#9670;&#160;</a></span>getMessage() <span class="overload">[1/2]</span></h2>
+<a id="ab1897952fa01e930caffa262519645c5" name="ab1897952fa01e930caffa262519645c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1897952fa01e930caffa262519645c5">&#9670;&#160;</a></span>getByte()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -265,9 +251,313 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; DBCFile::Exception::getMessage </td>
+          <td class="memname">unsigned char DBCFile::Record::getByte </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>ofs</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            assert(ofs &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a612b41c93f0acc15638ff9874f260799">recordSize</a>);</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + ofs);</div>
+<div class="line"><span class="lineno">   85</span>        }</div>
+<div class="ttc" id="aa28214_html_a612b41c93f0acc15638ff9874f260799"><div class="ttname"><a href="../../d6/d5b/a28214.html#a612b41c93f0acc15638ff9874f260799">DBCFile::recordSize</a></div><div class="ttdeci">std::size_t recordSize</div><div class="ttdef"><b>Definition:</b> dbcfile.h:129</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00079">file</a>, <a class="el" href="../../#l00080">offset</a>, and <a class="el" href="../../#l00129">DBCFile::recordSize</a>.</p>
+
+</div>
+</div>
+<a id="a3e6402dcebb5adc1becccdc2bbf39758" name="a3e6402dcebb5adc1becccdc2bbf39758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6402dcebb5adc1becccdc2bbf39758">&#9670;&#160;</a></span>getFloat() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DBCFile::Record::getFloat </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   56</span>        {</div>
+<div class="line"><span class="lineno">   57</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">float</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + field * 4);</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="ttc" id="aa28214_html_a5bad58543d306efba432f49474861c78"><div class="ttname"><a href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">DBCFile::fieldCount</a></div><div class="ttdeci">std::size_t fieldCount</div><div class="ttdef"><b>Definition:</b> dbcfile.h:131</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+</div>
+</div>
+<a id="a3e6402dcebb5adc1becccdc2bbf39758" name="a3e6402dcebb5adc1becccdc2bbf39758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e6402dcebb5adc1becccdc2bbf39758">&#9670;&#160;</a></span>getFloat() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">float DBCFile::Record::getFloat </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   67</span>        {</div>
+<div class="line"><span class="lineno">   68</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   69</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">float</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + field * 4);</div>
+<div class="line"><span class="lineno">   70</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+</div>
+</div>
+<a id="a80c4d8d3ae4a5a42ed1dc9a9edcd6747" name="a80c4d8d3ae4a5a42ed1dc9a9edcd6747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c4d8d3ae4a5a42ed1dc9a9edcd6747">&#9670;&#160;</a></span>getInt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DBCFile::Record::getInt </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>        {</div>
+<div class="line"><span class="lineno">   67</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   68</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">int</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + field * 4);</div>
+<div class="line"><span class="lineno">   69</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+</div>
+</div>
+<a id="a80c4d8d3ae4a5a42ed1dc9a9edcd6747" name="a80c4d8d3ae4a5a42ed1dc9a9edcd6747"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c4d8d3ae4a5a42ed1dc9a9edcd6747">&#9670;&#160;</a></span>getInt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int DBCFile::Record::getInt </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   77</span>        {</div>
+<div class="line"><span class="lineno">   78</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">int</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + field * 4);</div>
+<div class="line"><span class="lineno">   80</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+</div>
+</div>
+<a id="a3e330e9888e740bc16d4ba173c90c8d9" name="a3e330e9888e740bc16d4ba173c90c8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e330e9888e740bc16d4ba173c90c8d9">&#9670;&#160;</a></span>getString() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * DBCFile::Record::getString </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   71</span>        {</div>
+<div class="line"><span class="lineno">   72</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   73</span>            std::size_t stringOffset = <a class="code hl_function" href="../../df/d25/a28226.html#ace0215b88ffbaf83c69a82cde51cd45f">getUInt</a>(field);</div>
+<div class="line"><span class="lineno">   74</span>            assert(stringOffset &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a294ac17f748f5db90e9795b0d35a4dbf">stringSize</a>);</div>
+<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#ae6c0a134786acbe1ef184d053efc2b00">stringTable</a> + stringOffset);</div>
+<div class="line"><span class="lineno">   76</span>        }</div>
+<div class="ttc" id="aa28214_html_a294ac17f748f5db90e9795b0d35a4dbf"><div class="ttname"><a href="../../d6/d5b/a28214.html#a294ac17f748f5db90e9795b0d35a4dbf">DBCFile::stringSize</a></div><div class="ttdeci">std::size_t stringSize</div><div class="ttdef"><b>Definition:</b> dbcfile.h:132</div></div>
+<div class="ttc" id="aa28214_html_ae6c0a134786acbe1ef184d053efc2b00"><div class="ttname"><a href="../../d6/d5b/a28214.html#ae6c0a134786acbe1ef184d053efc2b00">DBCFile::stringTable</a></div><div class="ttdeci">unsigned char * stringTable</div><div class="ttdef"><b>Definition:</b> dbcfile.h:134</div></div>
+<div class="ttc" id="aa28226_html_ace0215b88ffbaf83c69a82cde51cd45f"><div class="ttname"><a href="../../df/d25/a28226.html#ace0215b88ffbaf83c69a82cde51cd45f">DBCFile::Record::getUInt</a></div><div class="ttdeci">unsigned int getUInt(std::size_t field) const</div><div class="ttdef"><b>Definition:</b> dbcfile.h:60</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, <a class="el" href="../../#l00060">getUInt()</a>, <a class="el" href="../../#l00132">DBCFile::stringSize</a>, and <a class="el" href="../../#l00134">DBCFile::stringTable</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01084">ExtractCameraFiles()</a>, <a class="el" href="../../#l00420">main()</a>, and <a class="el" href="../../#l00269">ReadMapDBC()</a>.</p>
+
+</div>
+</div>
+<a id="a3e330e9888e740bc16d4ba173c90c8d9" name="a3e330e9888e740bc16d4ba173c90c8d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e330e9888e740bc16d4ba173c90c8d9">&#9670;&#160;</a></span>getString() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char * DBCFile::Record::getString </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>        {</div>
+<div class="line"><span class="lineno">   88</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   89</span>            std::size_t stringOffset = <a class="code hl_function" href="../../df/d25/a28226.html#ace0215b88ffbaf83c69a82cde51cd45f">getUInt</a>(field);</div>
+<div class="line"><span class="lineno">   90</span>            assert(stringOffset &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a294ac17f748f5db90e9795b0d35a4dbf">stringSize</a>);</div>
+<div class="line"><span class="lineno">   91</span>            <span class="comment">//char * tmp = (char*)file.stringTable + stringOffset;</span></div>
+<div class="line"><span class="lineno">   92</span>            <span class="comment">//unsigned char * tmp2 = file.stringTable + stringOffset;</span></div>
+<div class="line"><span class="lineno">   93</span>            <span class="keywordflow">return</span> <span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">char</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#ae6c0a134786acbe1ef184d053efc2b00">stringTable</a> + stringOffset);</div>
+<div class="line"><span class="lineno">   94</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, <a class="el" href="../../#l00060">getUInt()</a>, <a class="el" href="../../#l00132">DBCFile::stringSize</a>, and <a class="el" href="../../#l00134">DBCFile::stringTable</a>.</p>
+
+</div>
+</div>
+<a id="ace0215b88ffbaf83c69a82cde51cd45f" name="ace0215b88ffbaf83c69a82cde51cd45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0215b88ffbaf83c69a82cde51cd45f">&#9670;&#160;</a></span>getUInt() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int DBCFile::Record::getUInt </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   61</span>        {</div>
+<div class="line"><span class="lineno">   62</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + field * 4);</div>
+<div class="line"><span class="lineno">   64</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00077">DBCFile::getMaxId()</a>, <a class="el" href="../../#l00070">getString()</a>, <a class="el" href="../../#l00420">main()</a>, <a class="el" href="../../#l00291">ReadLiquidTypeTableDBC()</a>, and <a class="el" href="../../#l00269">ReadMapDBC()</a>.</p>
+
+</div>
+</div>
+<a id="ace0215b88ffbaf83c69a82cde51cd45f" name="ace0215b88ffbaf83c69a82cde51cd45f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0215b88ffbaf83c69a82cde51cd45f">&#9670;&#160;</a></span>getUInt() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int DBCFile::Record::getUInt </td>
+          <td>(</td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   72</span>        {</div>
+<div class="line"><span class="lineno">   73</span>            assert(field &lt; <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a>.<a class="code hl_variable" href="../../d6/d5b/a28214.html#a5bad58543d306efba432f49474861c78">fieldCount</a>);</div>
+<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">return</span> *<span class="keyword">reinterpret_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span>*<span class="keyword">&gt;</span>(<a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> + (field * 4));</div>
+<div class="line"><span class="lineno">   75</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00131">DBCFile::fieldCount</a>, <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
+
+</div>
+</div>
+<a id="a25c6e7d3b28aade82eb52d41515f0427" name="a25c6e7d3b28aade82eb52d41515f0427"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a25c6e7d3b28aade82eb52d41515f0427">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d25/a28226.html">Record</a> &amp; DBCFile::Record::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../df/d25/a28226.html">Record</a> &amp;&#160;</td>
+          <td class="paramname"><em>r</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -277,14 +567,19 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{<span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>;}</div>
+<div class="fragment"><div class="line"><span class="lineno">   61</span>        {</div>
+<div class="line"><span class="lineno">   62</span>            <a class="code hl_variable" href="../../df/d25/a28226.html#adffc3b9545883356dd9bed0a0613a1fe">file</a> = r.file;</div>
+<div class="line"><span class="lineno">   63</span>            <a class="code hl_variable" href="../../df/d25/a28226.html#ae76eb8b329fb6d580aa42484de46c95e">offset</a> = r.offset;</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   65</span>        }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00042">message</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00079">file</a>, and <a class="el" href="../../#l00080">offset</a>.</p>
 
 </div>
 </div>
-<a id="af9bfdfbfe28783d5ad6f7b08cb845c75" name="af9bfdfbfe28783d5ad6f7b08cb845c75"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af9bfdfbfe28783d5ad6f7b08cb845c75">&#9670;&#160;</a></span>getMessage() <span class="overload">[2/2]</span></h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a6c4f02b14caa99337bbe77b30e5615ab" name="a6c4f02b14caa99337bbe77b30e5615ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c4f02b14caa99337bbe77b30e5615ab">&#9670;&#160;</a></span>DBCFile</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,27 +588,65 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const std::string &amp; DBCFile::Exception::getMessage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   42</span>{<span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d25/a28226.html#aeb732542a0ba63cde3d9b3bff93f4eda">message</a>;}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00042">message</a>.</p>
+
+</div>
+</div>
+<a id="a56d48f82a62e25038bf9cf339e608083" name="a56d48f82a62e25038bf9cf339e608083"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56d48f82a62e25038bf9cf339e608083">&#9670;&#160;</a></span>DBCFile::Iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d0/d12/a28230.html">DBCFile::Iterator</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9830fc407400559db7e7783cc10a9394" name="a9830fc407400559db7e7783cc10a9394"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9830fc407400559db7e7783cc10a9394">&#9670;&#160;</a></span>Iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../d0/d12/a28230.html">Iterator</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="aeb732542a0ba63cde3d9b3bff93f4eda" name="aeb732542a0ba63cde3d9b3bff93f4eda"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aeb732542a0ba63cde3d9b3bff93f4eda">&#9670;&#160;</a></span>message</h2>
+<a id="adffc3b9545883356dd9bed0a0613a1fe" name="adffc3b9545883356dd9bed0a0613a1fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adffc3b9545883356dd9bed0a0613a1fe">&#9670;&#160;</a></span>file</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -322,7 +655,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string DBCFile::Exception::message</td>
+          <td class="memname"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a> &amp; DBCFile::Record::file</td>
         </tr>
       </table>
   </td>
@@ -332,7 +665,31 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00040">getMessage()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00081">getByte()</a>, <a class="el" href="../../#l00055">getFloat()</a>, <a class="el" href="../../#l00065">getInt()</a>, <a class="el" href="../../#l00070">getString()</a>, <a class="el" href="../../#l00060">getUInt()</a>, <a class="el" href="../../#l00093">DBCFile::Iterator::operator++()</a>, and <a class="el" href="../../#l00060">operator=()</a>.</p>
+
+</div>
+</div>
+<a id="ae76eb8b329fb6d580aa42484de46c95e" name="ae76eb8b329fb6d580aa42484de46c95e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae76eb8b329fb6d580aa42484de46c95e">&#9670;&#160;</a></span>offset</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned char * DBCFile::Record::offset</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00081">getByte()</a>, <a class="el" href="../../#l00055">getFloat()</a>, <a class="el" href="../../#l00065">getInt()</a>, <a class="el" href="../../#l00060">getUInt()</a>, <a class="el" href="../../#l00109">DBCFile::Iterator::operator!=()</a>, <a class="el" href="../../#l00093">DBCFile::Iterator::operator++()</a>, <a class="el" href="../../#l00060">operator=()</a>, and <a class="el" href="../../#l00105">DBCFile::Iterator::operator==()</a>.</p>
 
 </div>
 </div>
@@ -341,8 +698,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d9b/a28222.html">DBCFile</a></li><li class="navelem"><a class="el" href="../../df/d25/a28226.html">Exception</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/d5b/a28214.html">DBCFile</a></li><li class="navelem"><a class="el" href="../../df/d25/a28226.html">Record</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:50 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

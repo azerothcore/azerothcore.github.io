@@ -13,7 +13,7 @@ var a01094 =
       [ "ACTION_START_INTRO", "db/df5/a02534.html#a250372292659bed7ae290d8621f88ccfa662074617cb51c00a6119b2d0197ee66", null ],
       [ "ACTION_PARTNER_DEAD", "d8/d1e/a02210.html#a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd", null ],
       [ "ACTION_MERGE", "d3/d90/a02177.html#a250372292659bed7ae290d8621f88ccfa63fd17f849c7bec9e7834eb6c7ba1ffd", null ],
-      [ "ACTION_COMPLETE_EVENT_3", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccfaa7f6aa06106a78ebeb0f26d82d89d454", null ],
+      [ "ACTION_COMPLETE_GONG_RITUAL", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccfa0fd6958fdb6b383ab8afdd359422f564", null ],
       [ "ACTION_RESSURRECT", "d4/db0/a02540.html#a250372292659bed7ae290d8621f88ccfae3bff20470d6c07bfd26f3d4fa8faf97", null ],
       [ "ACTION_START_EVENT", "d6/dea/a01094.html#a250372292659bed7ae290d8621f88ccfa5a9d00590152ece2beb2305c6f271dd9", null ],
       [ "ACTION_START_CITY", "d6/dea/a01094.html#a250372292659bed7ae290d8621f88ccfa180e6a8f7bf3103300afc4e9b89b5cac", null ],

@@ -1,6 +1,6 @@
 var a24914 =
 [
-    [ "HandleCast", "d7/de0/a24914.html#ac6f7b9650d0a55834dafb09555692243", null ],
-    [ "PrepareSpellScript", "d7/de0/a24914.html#ab3dc21aa63f0fb9202233603106eef87", null ],
-    [ "Register", "d7/de0/a24914.html#ad6c2dc91d0973c0b8d57151dff3d9499", null ]
+    [ "CheckRequirement", "d7/de0/a24914.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
+    [ "PrepareSpellScript", "d7/de0/a24914.html#aebb88f5ea803a590a099e4e6427d8276", null ],
+    [ "Register", "d7/de0/a24914.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
 ];

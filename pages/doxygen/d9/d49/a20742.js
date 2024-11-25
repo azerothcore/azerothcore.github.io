@@ -1,6 +1,7 @@
 var a20742 =
 [
-    [ "npc_dragonflayer_forge_masterAI", "dc/d7e/a20746.html", "dc/d7e/a20746" ],
-    [ "npc_dragonflayer_forge_master", "d9/d49/a20742.html#a920e50234a4a473b28c312c29fb4835a", null ],
-    [ "GetAI", "d9/d49/a20742.html#ac84dc301cf764c27ccf63bf02a53023c", null ]
+    [ "HandleOnEffectRemove", "d9/d49/a20742.html#acccd790c53f567f93e64afa7b7d1fe6f", null ],
+    [ "PrepareAuraScript", "d9/d49/a20742.html#a72e6468602d40eb479a80c611d60eb2e", null ],
+    [ "Register", "d9/d49/a20742.html#a213b50ebb7ce248a36dd78167d1190bb", null ],
+    [ "Validate", "d9/d49/a20742.html#a8f3ec40c0c2e38dc32db30ce36129684", null ]
 ];

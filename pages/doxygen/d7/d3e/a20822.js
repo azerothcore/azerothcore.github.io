@@ -1,5 +1,5 @@
 var a20822 =
 [
-    [ "go_harpoon_canon", "d7/d3e/a20822.html#aa7651e111cade00bbbdb9d0feced03e6", null ],
-    [ "OnGossipHello", "d7/d3e/a20822.html#ad0098bafd1233636bde181312126e65f", null ]
+    [ "npc_ritual_channelerAI", "d7/d3e/a20822.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
+    [ "AttackStart", "d7/d3e/a20822.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
 ];

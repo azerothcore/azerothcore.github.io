@@ -1,5 +1,7 @@
 var a20678 =
 [
-    [ "npc_salvaged_siege_engine", "d8/d1e/a20678.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
-    [ "BeforeSpellClick", "d8/d1e/a20678.html#aed2500b2315b5e508ea3d06a2355d023", null ]
+    [ "npc_frost_tombAI", "d8/d1e/a20678.html#a950f7f77bdbc7ba1db0911641f2fadcf", null ],
+    [ "JustDied", "d8/d1e/a20678.html#aeda420de208505fa93fc548693a1ff74", null ],
+    [ "UpdateAI", "d8/d1e/a20678.html#a8f323275af4ecafd1978c465e75978e0", null ],
+    [ "PrisonerGUID", "d8/d1e/a20678.html#ae1e3af77879f98a77186ec77c31da7a8", null ]
 ];

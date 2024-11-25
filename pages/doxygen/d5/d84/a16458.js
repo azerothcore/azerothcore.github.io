@@ -1,6 +1,7 @@
 var a16458 =
 [
-    [ "npc_ghostly_priestAI", "d6/d10/a16462.html", "d6/d10/a16462" ],
-    [ "npc_ghostly_priest", "d5/d84/a16458.html#a7c03bb327cfc65f4df515969da482ddb", null ],
-    [ "GetAI", "d5/d84/a16458.html#a0fab76345c5459efcedff02123e4fc8d", null ]
+    [ "OnRemove", "d5/d84/a16458.html#a4b95717cb19116b81f3eec798089abad", null ],
+    [ "PrepareAuraScript", "d5/d84/a16458.html#a581645fa151531aaf7b562a8739d5616", null ],
+    [ "Register", "d5/d84/a16458.html#a01304c556d79001e290707551bee7622", null ],
+    [ "Validate", "d5/d84/a16458.html#a96e4b9cae1f016bf87c9a09ceb6da561", null ]
 ];

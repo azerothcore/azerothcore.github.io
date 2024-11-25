@@ -1,10 +1,9 @@
 var a28106 =
 [
-    [ "BugfixVersion", "d8/dd2/a28106.html#a461f8c749a874405584dc1fd3fe1d805", null ],
-    [ "Build", "d8/dd2/a28106.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
-    [ "HotfixVersion", "d8/dd2/a28106.html#a0df61c036a57b8a3efde5d180dc38131", null ],
-    [ "MacHash", "d8/dd2/a28106.html#ad59772e86371318fe975760e303fa7d9", null ],
-    [ "MajorVersion", "d8/dd2/a28106.html#a0eb78564680f771e325536a0ab77382a", null ],
-    [ "MinorVersion", "d8/dd2/a28106.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
-    [ "WindowsHash", "d8/dd2/a28106.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
+    [ "flags", "d8/dd2/a28106.html#a064de2e88c563121bbb78549a7bab868", null ],
+    [ "_flags", "d8/dd2/a28106.html#a16f1b30a57eb6703e8073ef55d988391", null ],
+    [ "bits", "d8/dd2/a28106.html#a529f1856635132646457c57f3546f4ec", null ],
+    [ "configKey", "d8/dd2/a28106.html#af14d118016b9e01612769c00f13aa2d6", null ],
+    [ "oldKey", "d8/dd2/a28106.html#a29605b536523f6d022bbac0e12d1d8dc", null ],
+    [ "owner", "d8/dd2/a28106.html#a24aaa1c473c3932c83dd49aad84f8361", null ]
 ];

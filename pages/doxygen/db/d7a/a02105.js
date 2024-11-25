@@ -1,9 +1,9 @@
 var a02105 =
 [
-    [ "boss_skarvald_the_constructor", "d0/ddb/a20718.html", "d0/ddb/a20718" ],
-    [ "boss_skarvald_the_constructor::boss_skarvald_the_constructorAI", "d7/dcd/a20722.html", "d7/dcd/a20722" ],
-    [ "boss_dalronn_the_controller", "d0/d0a/a20726.html", "d0/d0a/a20726" ],
-    [ "boss_dalronn_the_controller::boss_dalronn_the_controllerAI", "de/d3a/a20730.html", "de/d3a/a20730" ],
+    [ "boss_skarvald_the_constructor", "d1/d64/a20702.html", "d1/d64/a20702" ],
+    [ "boss_skarvald_the_constructor::boss_skarvald_the_constructorAI", "d1/d27/a20706.html", "d1/d27/a20706" ],
+    [ "boss_dalronn_the_controller", "dd/dac/a20710.html", "dd/dac/a20710" ],
+    [ "boss_dalronn_the_controller::boss_dalronn_the_controllerAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
     [ "eEvents", "db/d7a/a02105.html#a1d3512b0adb171bd0db6aad2c9e70516", [
       [ "EVENT_NULL", "d4/d9b/a02039.html#a1d3512b0adb171bd0db6aad2c9e70516afc8e2e36b7d0f732f5f52e0a94155c7a", null ],
       [ "EVENT_CHECK_PLAYERS", "d4/d9b/a02039.html#a1d3512b0adb171bd0db6aad2c9e70516a6c1847babeb1b838631eee5b2af3dc2b", null ],

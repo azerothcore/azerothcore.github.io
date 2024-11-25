@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SpellScript::ObjectAreaTargetSelectHandler Class Reference</title>
+<title>AzerothCore: SpellScript::TargetHook Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,133 +106,93 @@ $(document).ready(function(){initNavTree('d4/d49/a11002.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d5/dc6/a10999.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SpellScript::ObjectAreaTargetSelectHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">SpellScript::TargetHook Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for SpellScript::ObjectAreaTargetSelectHandler:</div>
+Inheritance diagram for SpellScript::TargetHook:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d4/d49/a11002.png" usemap="#SpellScript::ObjectAreaTargetSelectHandler_map" alt=""/>
-  <map id="SpellScript::ObjectAreaTargetSelectHandler_map" name="SpellScript::ObjectAreaTargetSelectHandler_map">
-<area href="../../d3/d24/a10998.html" alt="SpellScript::TargetHook" shape="rect" coords="0,56,260,80"/>
-<area href="../../d4/d62/a10962.html" alt="_SpellScript::EffectHook" shape="rect" coords="0,0,260,24"/>
+  <img src="../../d4/d49/a11002.png" usemap="#SpellScript::TargetHook_map" alt=""/>
+  <map id="SpellScript::TargetHook_map" name="SpellScript::TargetHook_map">
+<area href="../../d5/d44/a10966.html" alt="_SpellScript::EffectHook" shape="rect" coords="270,0,530,24"/>
+<area href="../../df/d55/a11014.html" alt="SpellScript::DestinationTargetSelectHandler" shape="rect" coords="0,112,260,136"/>
+<area href="../../d7/d4e/a11006.html" alt="SpellScript::ObjectAreaTargetSelectHandler" shape="rect" coords="270,112,530,136"/>
+<area href="../../dc/d38/a11010.html" alt="SpellScript::ObjectTargetSelectHandler" shape="rect" coords="540,112,800,136"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89b86436bb1de38223165e7ef60f2b61"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a89b86436bb1de38223165e7ef60f2b61">ObjectAreaTargetSelectHandler</a> (SpellObjectAreaTargetSelectFnType _pObjectAreaTargetSelectHandlerScript, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _targetType)</td></tr>
-<tr class="separator:a89b86436bb1de38223165e7ef60f2b61"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11d2070610d178006231bac274d1f311"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a11d2070610d178006231bac274d1f311">Call</a> (<a class="el" href="../../d9/d49/a10974.html">SpellScript</a> *spellScript, std::list&lt; <a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> * &gt; &amp;targets)</td></tr>
-<tr class="separator:a11d2070610d178006231bac274d1f311"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10998"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10998')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d24/a10998.html">SpellScript::TargetHook</a></td></tr>
-<tr class="memitem:afcada203ddd8752107c74bbf0e7c24eb inherit pub_methods_a10998"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#afcada203ddd8752107c74bbf0e7c24eb">TargetHook</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effectIndex, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _targetType, bool _area, bool _dest)</td></tr>
-<tr class="separator:afcada203ddd8752107c74bbf0e7c24eb inherit pub_methods_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af02ad1f1fb914aac52095d7e41f12c94 inherit pub_methods_a10998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#af02ad1f1fb914aac52095d7e41f12c94">CheckEffect</a> (<a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d4/d62/a10962.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>) override</td></tr>
-<tr class="separator:af02ad1f1fb914aac52095d7e41f12c94 inherit pub_methods_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a424e03e457dc15a2689f344e614a882f inherit pub_methods_a10998"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#a424e03e457dc15a2689f344e614a882f">ToString</a> ()</td></tr>
-<tr class="separator:a424e03e457dc15a2689f344e614a882f inherit pub_methods_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a238979ffaaa644bd65ffd4e7cb20d797 inherit pub_methods_a10998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#a238979ffaaa644bd65ffd4e7cb20d797">GetTarget</a> () const</td></tr>
-<tr class="separator:a238979ffaaa644bd65ffd4e7cb20d797 inherit pub_methods_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10962"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10962')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d4/d62/a10962.html">_SpellScript::EffectHook</a></td></tr>
-<tr class="memitem:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#a4a197e061d918dfba2bc486f3393b00d">EffectHook</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex)</td></tr>
-<tr class="separator:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#aa234f63b530764d12064acbe3f5c9299">~EffectHook</a> ()</td></tr>
-<tr class="separator:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#a31faa86590e22f5ab3ca518f4df02840">GetAffectedEffectsMask</a> (<a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spellInfo)</td></tr>
-<tr class="separator:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#a697041ffa562bb6fff792beb159c7af2">IsEffectAffected</a> (<a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d4/d62/a10962.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)</td></tr>
-<tr class="separator:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#ae8823c5d649d182f572818bf3db72902">CheckEffect</a> (<a class="el" href="../../d2/db6/a10898.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d4/d62/a10962.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)=0</td></tr>
-<tr class="separator:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a10962"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a> ()</td></tr>
-<tr class="separator:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcada203ddd8752107c74bbf0e7c24eb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#afcada203ddd8752107c74bbf0e7c24eb">TargetHook</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effectIndex, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _targetType, bool _area, bool _dest)</td></tr>
+<tr class="separator:afcada203ddd8752107c74bbf0e7c24eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af02ad1f1fb914aac52095d7e41f12c94"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#af02ad1f1fb914aac52095d7e41f12c94">CheckEffect</a> (<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>) override</td></tr>
+<tr class="separator:af02ad1f1fb914aac52095d7e41f12c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424e03e457dc15a2689f344e614a882f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a424e03e457dc15a2689f344e614a882f">ToString</a> ()</td></tr>
+<tr class="separator:a424e03e457dc15a2689f344e614a882f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a238979ffaaa644bd65ffd4e7cb20d797"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a238979ffaaa644bd65ffd4e7cb20d797">GetTarget</a> () const</td></tr>
+<tr class="separator:a238979ffaaa644bd65ffd4e7cb20d797"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a10966"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10966')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d44/a10966.html">_SpellScript::EffectHook</a></td></tr>
+<tr class="memitem:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#a4a197e061d918dfba2bc486f3393b00d">EffectHook</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex)</td></tr>
+<tr class="separator:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#aa234f63b530764d12064acbe3f5c9299">~EffectHook</a> ()</td></tr>
+<tr class="separator:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#a31faa86590e22f5ab3ca518f4df02840">GetAffectedEffectsMask</a> (<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *spellInfo)</td></tr>
+<tr class="separator:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#a697041ffa562bb6fff792beb159c7af2">IsEffectAffected</a> (<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)</td></tr>
+<tr class="separator:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#ae8823c5d649d182f572818bf3db72902">CheckEffect</a> (<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)=0</td></tr>
+<tr class="separator:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a10966"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a> ()</td></tr>
+<tr class="separator:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a118ca963c6319802806913762c4d1fec"><td class="memItemLeft" align="right" valign="top">SpellObjectAreaTargetSelectFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a118ca963c6319802806913762c4d1fec">pObjectAreaTargetSelectHandlerScript</a></td></tr>
-<tr class="separator:a118ca963c6319802806913762c4d1fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_attribs_a10998"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a10998')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/d24/a10998.html">SpellScript::TargetHook</a></td></tr>
-<tr class="memitem:aed2e0e651bdd5453d716db464ac0ab55 inherit pro_attribs_a10998"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a></td></tr>
-<tr class="separator:aed2e0e651bdd5453d716db464ac0ab55 inherit pro_attribs_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aceec6f0ea91d45a11233122c3bc843ed inherit pro_attribs_a10998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#aceec6f0ea91d45a11233122c3bc843ed">area</a></td></tr>
-<tr class="separator:aceec6f0ea91d45a11233122c3bc843ed inherit pro_attribs_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28f2f6f3338a2c261ee754508ee48e60 inherit pro_attribs_a10998"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d24/a10998.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a></td></tr>
-<tr class="separator:a28f2f6f3338a2c261ee754508ee48e60 inherit pro_attribs_a10998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_attribs_a10962"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a10962')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d4/d62/a10962.html">_SpellScript::EffectHook</a></td></tr>
-<tr class="memitem:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a10962"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d62/a10962.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td></tr>
-<tr class="separator:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a10962"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:aed2e0e651bdd5453d716db464ac0ab55"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a></td></tr>
+<tr class="separator:aed2e0e651bdd5453d716db464ac0ab55"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aceec6f0ea91d45a11233122c3bc843ed"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">area</a></td></tr>
+<tr class="separator:aceec6f0ea91d45a11233122c3bc843ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28f2f6f3338a2c261ee754508ee48e60"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a></td></tr>
+<tr class="separator:a28f2f6f3338a2c261ee754508ee48e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_attribs_a10966"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a10966')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d5/d44/a10966.html">_SpellScript::EffectHook</a></td></tr>
+<tr class="memitem:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a10966"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td></tr>
+<tr class="separator:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a10966"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a89b86436bb1de38223165e7ef60f2b61" name="a89b86436bb1de38223165e7ef60f2b61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89b86436bb1de38223165e7ef60f2b61">&#9670;&#160;</a></span>ObjectAreaTargetSelectHandler()</h2>
+<a id="afcada203ddd8752107c74bbf0e7c24eb" name="afcada203ddd8752107c74bbf0e7c24eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afcada203ddd8752107c74bbf0e7c24eb">&#9670;&#160;</a></span>TargetHook()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SpellScript::ObjectAreaTargetSelectHandler::ObjectAreaTargetSelectHandler </td>
+          <td class="memname">SpellScript::TargetHook::TargetHook </td>
           <td>(</td>
-          <td class="paramtype">SpellObjectAreaTargetSelectFnType&#160;</td>
-          <td class="paramname"><em>_pObjectAreaTargetSelectHandlerScript</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>_effIndex</em>, </td>
+          <td class="paramname"><em>_effectIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>_targetType</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  284</span>    : <a class="code hl_function" href="../../d3/d24/a10998.html#afcada203ddd8752107c74bbf0e7c24eb">TargetHook</a>(_effIndex, _targetType, <span class="keyword">true</span>, <span class="keyword">false</span>)</div>
-<div class="line"><span class="lineno">  285</span>{</div>
-<div class="line"><span class="lineno">  286</span>    <a class="code hl_variable" href="../../d4/d49/a11002.html#a118ca963c6319802806913762c4d1fec">pObjectAreaTargetSelectHandlerScript</a> = _pObjectAreaTargetSelectHandlerScript;</div>
-<div class="line"><span class="lineno">  287</span>}</div>
-<div class="ttc" id="aa10998_html_afcada203ddd8752107c74bbf0e7c24eb"><div class="ttname"><a href="../../d3/d24/a10998.html#afcada203ddd8752107c74bbf0e7c24eb">SpellScript::TargetHook::TargetHook</a></div><div class="ttdeci">TargetHook(uint8 _effectIndex, uint16 _targetType, bool _area, bool _dest)</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:227</div></div>
-<div class="ttc" id="aa11002_html_a118ca963c6319802806913762c4d1fec"><div class="ttname"><a href="../../d4/d49/a11002.html#a118ca963c6319802806913762c4d1fec">SpellScript::ObjectAreaTargetSelectHandler::pObjectAreaTargetSelectHandlerScript</a></div><div class="ttdeci">SpellObjectAreaTargetSelectFnType pObjectAreaTargetSelectHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:265</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00265">pObjectAreaTargetSelectHandlerScript</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a11d2070610d178006231bac274d1f311" name="a11d2070610d178006231bac274d1f311"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11d2070610d178006231bac274d1f311">&#9670;&#160;</a></span>Call()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SpellScript::ObjectAreaTargetSelectHandler::Call </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d49/a10974.html">SpellScript</a> *&#160;</td>
-          <td class="paramname"><em>spellScript</em>, </td>
+          <td class="paramname"><em>_targetType</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::list&lt; <a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> * &gt; &amp;&#160;</td>
-          <td class="paramname"><em>targets</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>_dest</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -241,15 +201,17 @@ Additional Inherited Members</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  290</span>{</div>
-<div class="line"><span class="lineno">  291</span>    (spellScript-&gt;*<a class="code hl_variable" href="../../d4/d49/a11002.html#a118ca963c6319802806913762c4d1fec">pObjectAreaTargetSelectHandlerScript</a>)(targets);</div>
-<div class="line"><span class="lineno">  292</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  228</span>    : <a class="code hl_class" href="../../d5/d44/a10966.html">_SpellScript::EffectHook</a>(_effectIndex), <a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>(_targetType), <a class="code hl_variable" href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>(_area), <a class="code hl_variable" href="../../d4/d49/a11002.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a>(_dest) { }</div>
+<div class="ttc" id="aa10966_html"><div class="ttname"><a href="../../d5/d44/a10966.html">_SpellScript::EffectHook</a></div><div class="ttdef"><b>Definition:</b> SpellScript.h:72</div></div>
+<div class="ttc" id="aa11002_html_a28f2f6f3338a2c261ee754508ee48e60"><div class="ttname"><a href="../../d4/d49/a11002.html#a28f2f6f3338a2c261ee754508ee48e60">SpellScript::TargetHook::dest</a></div><div class="ttdeci">bool dest</div><div class="ttdef"><b>Definition:</b> SpellScript.h:256</div></div>
+<div class="ttc" id="aa11002_html_aceec6f0ea91d45a11233122c3bc843ed"><div class="ttname"><a href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">SpellScript::TargetHook::area</a></div><div class="ttdeci">bool area</div><div class="ttdef"><b>Definition:</b> SpellScript.h:255</div></div>
+<div class="ttc" id="aa11002_html_aed2e0e651bdd5453d716db464ac0ab55"><div class="ttname"><a href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">SpellScript::TargetHook::targetType</a></div><div class="ttdeci">uint16 targetType</div><div class="ttdef"><b>Definition:</b> SpellScript.h:254</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a118ca963c6319802806913762c4d1fec" name="a118ca963c6319802806913762c4d1fec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a118ca963c6319802806913762c4d1fec">&#9670;&#160;</a></span>pObjectAreaTargetSelectHandlerScript</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af02ad1f1fb914aac52095d7e41f12c94" name="af02ad1f1fb914aac52095d7e41f12c94"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af02ad1f1fb914aac52095d7e41f12c94">&#9670;&#160;</a></span>CheckEffect()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -258,17 +220,208 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellObjectAreaTargetSelectFnType SpellScript::ObjectAreaTargetSelectHandler::pObjectAreaTargetSelectHandlerScript</td>
+          <td class="memname">bool SpellScript::TargetHook::CheckEffect </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname"><em>spellInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>effIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00283">ObjectAreaTargetSelectHandler()</a>.</p>
+<p>Implements <a class="el" href="../../d5/d44/a10966.html#ae8823c5d649d182f572818bf3db72902">_SpellScript::EffectHook</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  238</span>{</div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>)</div>
+<div class="line"><span class="lineno">  240</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  241</span> </div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">if</span> (spellInfo-&gt;Effects[<a class="code hl_variable" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>].TargetA.GetTarget() != <a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a> &amp;&amp;</div>
+<div class="line"><span class="lineno">  243</span>            spellInfo-&gt;Effects[<a class="code hl_variable" href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>].TargetB.GetTarget() != <a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>)</div>
+<div class="line"><span class="lineno">  244</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  245</span> </div>
+<div class="line"><span class="lineno">  246</span>    <a class="code hl_class" href="../../d2/d3a/a10886.html">SpellImplicitTargetInfo</a> targetInfo(<a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>);</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">switch</span> (targetInfo.GetSelectionCategory())</div>
+<div class="line"><span class="lineno">  248</span>    {</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a>: <span class="comment">// SINGLE</span></div>
+<div class="line"><span class="lineno">  250</span>            <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  251</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a>: <span class="comment">// BOTH</span></div>
+<div class="line"><span class="lineno">  252</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  253</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a>: <span class="comment">// AREA</span></div>
+<div class="line"><span class="lineno">  254</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a>: <span class="comment">// AREA</span></div>
+<div class="line"><span class="lineno">  255</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  256</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a>:</div>
+<div class="line"><span class="lineno">  257</span>            <span class="keywordflow">switch</span> (targetInfo.GetObjectType())</div>
+<div class="line"><span class="lineno">  258</span>            {</div>
+<div class="line"><span class="lineno">  259</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a>: <span class="comment">// EMPTY</span></div>
+<div class="line"><span class="lineno">  260</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  261</span>                <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a>: <span class="comment">// DEST</span></div>
+<div class="line"><span class="lineno">  262</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d49/a11002.html#a28f2f6f3338a2c261ee754508ee48e60">dest</a>;</div>
+<div class="line"><span class="lineno">  263</span>                <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  264</span>                    <span class="keywordflow">switch</span> (targetInfo.GetReferenceType())</div>
+<div class="line"><span class="lineno">  265</span>                    {</div>
+<div class="line"><span class="lineno">  266</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a>: <span class="comment">// SINGLE</span></div>
+<div class="line"><span class="lineno">  267</span>                            <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d4/d49/a11002.html#aceec6f0ea91d45a11233122c3bc843ed">area</a>;</div>
+<div class="line"><span class="lineno">  268</span>                        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a>: <span class="comment">// BOTH</span></div>
+<div class="line"><span class="lineno">  269</span>                            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  270</span>                        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  271</span>                            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  272</span>                    }</div>
+<div class="line"><span class="lineno">  273</span>                    <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  274</span>            }</div>
+<div class="line"><span class="lineno">  275</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  277</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  278</span>    }</div>
+<div class="line"><span class="lineno">  279</span> </div>
+<div class="line"><span class="lineno">  280</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  281</span>}</div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a1f88db49aeb89b11c7cabba4080903d2">TARGET_SELECT_CATEGORY_CONE</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CONE</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:81</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a33f431bb237477f3653cc4db15d3cdf2">TARGET_SELECT_CATEGORY_AREA</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_AREA</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:82</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a475b21339389f50a94233789b5352f97">TARGET_SELECT_CATEGORY_DEFAULT</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_DEFAULT</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:78</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213a636fd6cfcc1d0311082f09207564554d">TARGET_SELECT_CATEGORY_NEARBY</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_NEARBY</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:80</div></div>
+<div class="ttc" id="aa03065_html_a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699"><div class="ttname"><a href="../../d4/d44/a03065.html#a1552887f0f9abf22f5e7af1064b8c213afd05dcc79a05b4acc26f4e5fcfab3699">TARGET_SELECT_CATEGORY_CHANNEL</a></div><div class="ttdeci">@ TARGET_SELECT_CATEGORY_CHANNEL</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:79</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aa64ac37e702bffc0ec975dbf66daefe06">TARGET_OBJECT_TYPE_DEST</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_DEST</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:100</div></div>
+<div class="ttc" id="aa03065_html_abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51"><div class="ttname"><a href="../../d4/d44/a03065.html#abd452c9e8451ab6d47620dbda77f087aac72748d4f14d4084a7c612af3f08da51">TARGET_OBJECT_TYPE_SRC</a></div><div class="ttdeci">@ TARGET_OBJECT_TYPE_SRC</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:99</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987a3f2d34d5c6b2cc3fa0354ec9c5d72094">TARGET_REFERENCE_TYPE_TARGET</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_TARGET</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:90</div></div>
+<div class="ttc" id="aa03065_html_ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5"><div class="ttname"><a href="../../d4/d44/a03065.html#ae160272dac6c37cf297c68db99d9c987aba1fa2b8ede36a4ce60ee903eb8eeda5">TARGET_REFERENCE_TYPE_CASTER</a></div><div class="ttdeci">@ TARGET_REFERENCE_TYPE_CASTER</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:89</div></div>
+<div class="ttc" id="aa10886_html"><div class="ttname"><a href="../../d2/d3a/a10886.html">SpellImplicitTargetInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:217</div></div>
+<div class="ttc" id="aa10966_html_ab5eb48ef7ac903938f92db0e856e0295"><div class="ttname"><a href="../../d5/d44/a10966.html#ab5eb48ef7ac903938f92db0e856e0295">_SpellScript::EffectHook::effIndex</a></div><div class="ttdeci">uint8 effIndex</div><div class="ttdef"><b>Definition:</b> SpellScript.h:82</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00393">SpellInfo::Effects</a>, <a class="el" href="../../#l00080">SpellImplicitTargetInfo::GetObjectType()</a>, <a class="el" href="../../#l00075">SpellImplicitTargetInfo::GetReferenceType()</a>, <a class="el" href="../../#l00070">SpellImplicitTargetInfo::GetSelectionCategory()</a>, <a class="el" href="../../#l00100">TARGET_OBJECT_TYPE_DEST</a>, <a class="el" href="../../#l00099">TARGET_OBJECT_TYPE_SRC</a>, <a class="el" href="../../#l00089">TARGET_REFERENCE_TYPE_CASTER</a>, <a class="el" href="../../#l00090">TARGET_REFERENCE_TYPE_TARGET</a>, <a class="el" href="../../#l00082">TARGET_SELECT_CATEGORY_AREA</a>, <a class="el" href="../../#l00079">TARGET_SELECT_CATEGORY_CHANNEL</a>, <a class="el" href="../../#l00081">TARGET_SELECT_CATEGORY_CONE</a>, <a class="el" href="../../#l00078">TARGET_SELECT_CATEGORY_DEFAULT</a>, and <a class="el" href="../../#l00080">TARGET_SELECT_CATEGORY_NEARBY</a>.</p>
+
+</div>
+</div>
+<a id="a238979ffaaa644bd65ffd4e7cb20d797" name="a238979ffaaa644bd65ffd4e7cb20d797"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a238979ffaaa644bd65ffd4e7cb20d797">&#9670;&#160;</a></span>GetTarget()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> SpellScript::TargetHook::GetTarget </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  252</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00254">targetType</a>.</p>
+
+</div>
+</div>
+<a id="a424e03e457dc15a2689f344e614a882f" name="a424e03e457dc15a2689f344e614a882f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424e03e457dc15a2689f344e614a882f">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string SpellScript::TargetHook::ToString </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  231</span>{</div>
+<div class="line"><span class="lineno">  232</span>    std::ostringstream oss;</div>
+<div class="line"><span class="lineno">  233</span>    oss &lt;&lt; <span class="stringliteral">&quot;Index: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d5/d44/a10966.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a>() &lt;&lt; <span class="stringliteral">&quot; Target: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d4/d49/a11002.html#aed2e0e651bdd5453d716db464ac0ab55">targetType</a>;</div>
+<div class="line"><span class="lineno">  234</span>    <span class="keywordflow">return</span> oss.str();</div>
+<div class="line"><span class="lineno">  235</span>}</div>
+<div class="ttc" id="aa10966_html_ab818ed274cfd66ecc565b8535b751517"><div class="ttname"><a href="../../d5/d44/a10966.html#ab818ed274cfd66ecc565b8535b751517">_SpellScript::EffectHook::EffIndexToString</a></div><div class="ttdeci">std::string EffIndexToString()</div><div class="ttdef"><b>Definition:</b> SpellScript.cpp:104</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="aceec6f0ea91d45a11233122c3bc843ed" name="aceec6f0ea91d45a11233122c3bc843ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aceec6f0ea91d45a11233122c3bc843ed">&#9670;&#160;</a></span>area</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SpellScript::TargetHook::area</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28f2f6f3338a2c261ee754508ee48e60" name="a28f2f6f3338a2c261ee754508ee48e60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28f2f6f3338a2c261ee754508ee48e60">&#9670;&#160;</a></span>dest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SpellScript::TargetHook::dest</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aed2e0e651bdd5453d716db464ac0ab55" name="aed2e0e651bdd5453d716db464ac0ab55"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed2e0e651bdd5453d716db464ac0ab55">&#9670;&#160;</a></span>targetType</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> SpellScript::TargetHook::targetType</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00252">GetTarget()</a>.</p>
 
 </div>
 </div>
@@ -277,8 +430,8 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/d49/a10974.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d4/d49/a11002.html">ObjectAreaTargetSelectHandler</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d17/a10978.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d4/d49/a11002.html">TargetHook</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

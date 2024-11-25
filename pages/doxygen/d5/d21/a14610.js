@@ -1,18 +1,10 @@
 var a14610 =
 [
-    [ "boss_ossirian", "d5/d21/a14610.html#ab03a53ee2c0dc70ab86328e9a7ad1495", null ],
-    [ "InitializeAI", "d5/d21/a14610.html#a76731e2594cfadf5305d8abc502f665a", null ],
-    [ "JustEngagedWith", "d5/d21/a14610.html#a78616bb875bd51d5727e85d0b65d1a73", null ],
-    [ "JustSummoned", "d5/d21/a14610.html#ad462996cd1b12395f6cdaa33a7b876f1", null ],
-    [ "KilledUnit", "d5/d21/a14610.html#a716acecfc8e38eb663557fafb56719fd", null ],
-    [ "MoveInLineOfSight", "d5/d21/a14610.html#a16aa4ac59c1c8f6f844c311745b6e969", null ],
-    [ "Reset", "d5/d21/a14610.html#a17a31cf7827cdb904efa64d954b19c4a", null ],
-    [ "SetGUID", "d5/d21/a14610.html#a20dcef7e211a7aecbf46ecf6ba3d3fed", null ],
-    [ "SpawnNextCrystal", "d5/d21/a14610.html#a2a95c315af6a9e2bcedc8a9c9a9d9789", null ],
-    [ "SpellHit", "d5/d21/a14610.html#a0b5b92a9bce9a5dd0054cb833a56d32f", null ],
-    [ "SummonedCreatureDespawn", "d5/d21/a14610.html#a5c3ac7bddf52e2390f91599bb3ce3a64", null ],
-    [ "UpdateAI", "d5/d21/a14610.html#a8f3822d1cc3354efa5292d88fedd4087", null ],
-    [ "_crystalIterator", "d5/d21/a14610.html#adc049248fa851c954d5fcbf643d47c16", null ],
-    [ "_firstCrystalGUID", "d5/d21/a14610.html#a498d562d4ceeaecc6a01047bc4559235", null ],
-    [ "_saidIntro", "d5/d21/a14610.html#a5a9b0b7ae7421a4554f4c4abc8850220", null ]
+    [ "boss_moam", "d5/d21/a14610.html#a9a7a9f410efc5a05e46fd05f331e96c9", null ],
+    [ "InitializeAI", "d5/d21/a14610.html#a2c8bde24fb3811e29c91a57258a243e5", null ],
+    [ "JustDied", "d5/d21/a14610.html#a06b843bddd8f2759fa733c5169e0a5e6", null ],
+    [ "JustEngagedWith", "d5/d21/a14610.html#ad33ba2f2cf9c83f37856aa6f2212637b", null ],
+    [ "Reset", "d5/d21/a14610.html#a4112940fbe1f8be8e7adee7dbc48a9ae", null ],
+    [ "SummonedCreatureDies", "d5/d21/a14610.html#a8401c5e2bd216deee197617b78d85222", null ],
+    [ "UpdateAI", "d5/d21/a14610.html#aadd8320c6194923b113967d3d6c49a5e", null ]
 ];

@@ -1,6 +1,6 @@
 var a10194 =
 [
-    [ "BuyBankSlotResult", "dd/de9/a10194.html#a93b60814becc451c38f06f9702a9e027", null ],
-    [ "Write", "dd/de9/a10194.html#a55a6609863b0d3ef966f222526268acb", null ],
-    [ "Result", "dd/de9/a10194.html#ad7bf499ad8d5f0a7e1a580dd02b84c68", null ]
+    [ "BuyBankSlot", "dd/de9/a10194.html#a0bc11087e9359c6ac762f915b11287d8", null ],
+    [ "Read", "dd/de9/a10194.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb", null ],
+    [ "Banker", "dd/de9/a10194.html#aa9ae5777ab337f37b1c372d39a8474bf", null ]
 ];

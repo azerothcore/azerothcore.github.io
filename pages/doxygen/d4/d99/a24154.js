@@ -1,6 +1,6 @@
 var a24154 =
 [
-    [ "HandlePeriodic", "d4/d99/a24154.html#a9d94b55656848d5b9f943b9b3bbfd889", null ],
-    [ "PrepareAuraScript", "d4/d99/a24154.html#a6b76add02d3a1eeddd845c4f97d0632a", null ],
-    [ "Register", "d4/d99/a24154.html#aa8c6fc66e1483370681ae6f7fdf5b676", null ]
+    [ "HandleSummon", "d4/d99/a24154.html#a00e265d830ea3e8a0a1952984c438071", null ],
+    [ "PrepareSpellScript", "d4/d99/a24154.html#a96df13b19964b6e89babb312465b90bc", null ],
+    [ "Register", "d4/d99/a24154.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WorldPackets::Packet Class Reference</title>
+<title>AzerothCore: SystemMgr Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,167 +105,72 @@ $(document).ready(function(){initNavTree('d2/d10/a10170.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d3/d24/a10167.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::Packet Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">SystemMgr Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Packet.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for WorldPackets::Packet:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d2/d10/a10170.png" usemap="#WorldPackets::Packet_map" alt=""/>
-  <map id="WorldPackets::Packet_map" name="WorldPackets::Packet_map">
-<area href="../../d0/d6f/a10178.html" alt="WorldPackets::ClientPacket" shape="rect" coords="0,56,372,80"/>
-<area href="../../d1/d32/a10174.html" alt="WorldPackets::ServerPacket" shape="rect" coords="764,56,1136,80"/>
-<area href="../../db/d9b/a10182.html" alt="WorldPackets::Bank::AutoBankItem" shape="rect" coords="382,112,754,136"/>
-<area href="../../dd/d91/a10186.html" alt="WorldPackets::Bank::AutoStoreBankItem" shape="rect" coords="382,168,754,192"/>
-<area href="../../dc/d84/a10190.html" alt="WorldPackets::Bank::BuyBankSlot" shape="rect" coords="382,224,754,248"/>
-<area href="../../d3/d57/a10222.html" alt="WorldPackets::Character::LogoutCancel" shape="rect" coords="382,280,754,304"/>
-<area href="../../da/d7f/a10210.html" alt="WorldPackets::Character::LogoutRequest" shape="rect" coords="382,336,754,360"/>
-<area href="../../d4/df3/a10234.html" alt="WorldPackets::Character::PlayedTimeClient" shape="rect" coords="382,392,754,416"/>
-<area href="../../d4/d7b/a10230.html" alt="WorldPackets::Character::PlayerLogout" shape="rect" coords="382,448,754,472"/>
-<area href="../../d4/d86/a10202.html" alt="WorldPackets::Character::ShowingCloak" shape="rect" coords="382,504,754,528"/>
-<area href="../../db/d6a/a10206.html" alt="WorldPackets::Character::ShowingHelm" shape="rect" coords="382,560,754,584"/>
-<area href="../../db/d0e/a10246.html" alt="WorldPackets::Chat::EmoteClient" shape="rect" coords="382,616,754,640"/>
-<area href="../../d9/dbb/a10258.html" alt="WorldPackets::Combat::SetSheathed" shape="rect" coords="382,672,754,696"/>
-<area href="../../d5/dea/a10310.html" alt="WorldPackets::Guild::AcceptGuildInvite" shape="rect" coords="382,728,754,752"/>
-<area href="../../d5/d3b/a10358.html" alt="WorldPackets::Guild::GuildAddRank" shape="rect" coords="382,784,754,808"/>
-<area href="../../dc/dc1/a10394.html" alt="WorldPackets::Guild::GuildBankActivate" shape="rect" coords="382,840,754,864"/>
-<area href="../../de/da5/a10398.html" alt="WorldPackets::Guild::GuildBankBuyTab" shape="rect" coords="382,896,754,920"/>
-<area href="../../d1/d7c/a10406.html" alt="WorldPackets::Guild::GuildBankDepositMoney" shape="rect" coords="382,952,754,976"/>
-<area href="../../d2/df6/a10446.html" alt="WorldPackets::Guild::GuildBankLogQuery" shape="rect" coords="382,1008,754,1032"/>
-<area href="../../d4/df6/a10410.html" alt="WorldPackets::Guild::GuildBankQueryTab" shape="rect" coords="382,1064,754,1088"/>
-<area href="../../dd/d33/a10414.html" alt="WorldPackets::Guild::GuildBankRemainingWithdrawMoneyQuery" shape="rect" coords="382,1120,754,1144"/>
-<area href="../../d1/d4e/a10466.html" alt="WorldPackets::Guild::GuildBankSetTabText" shape="rect" coords="382,1176,754,1200"/>
-<area href="../../d1/d9e/a10442.html" alt="WorldPackets::Guild::GuildBankSwapItems" shape="rect" coords="382,1232,754,1256"/>
-<area href="../../d6/d6e/a10458.html" alt="WorldPackets::Guild::GuildBankTextQuery" shape="rect" coords="382,1288,754,1312"/>
-<area href="../../d8/d99/a10402.html" alt="WorldPackets::Guild::GuildBankUpdateTab" shape="rect" coords="382,1344,754,1368"/>
-<area href="../../d5/d45/a10422.html" alt="WorldPackets::Guild::GuildBankWithdrawMoney" shape="rect" coords="382,1400,754,1424"/>
-<area href="../../d1/d6c/a10274.html" alt="WorldPackets::Guild::GuildCreate" shape="rect" coords="382,1456,754,1480"/>
-<area href="../../de/d84/a10314.html" alt="WorldPackets::Guild::GuildDeclineInvitation" shape="rect" coords="382,1512,754,1536"/>
-<area href="../../d8/dc3/a10374.html" alt="WorldPackets::Guild::GuildDelete" shape="rect" coords="382,1568,754,1592"/>
-<area href="../../d8/d78/a10362.html" alt="WorldPackets::Guild::GuildDeleteRank" shape="rect" coords="382,1624,754,1648"/>
-<area href="../../d8/d3d/a10378.html" alt="WorldPackets::Guild::GuildDemoteMember" shape="rect" coords="382,1680,754,1704"/>
-<area href="../../d9/d14/a10334.html" alt="WorldPackets::Guild::GuildEventLogQuery" shape="rect" coords="382,1736,754,1760"/>
-<area href="../../df/d88/a10278.html" alt="WorldPackets::Guild::GuildGetInfo" shape="rect" coords="382,1792,754,1816"/>
-<area href="../../da/d94/a10286.html" alt="WorldPackets::Guild::GuildGetRoster" shape="rect" coords="382,1848,754,1872"/>
-<area href="../../dc/d20/a10318.html" alt="WorldPackets::Guild::GuildInviteByName" shape="rect" coords="382,1904,754,1928"/>
-<area href="../../d6/d23/a10390.html" alt="WorldPackets::Guild::GuildLeave" shape="rect" coords="382,1960,754,1984"/>
-<area href="../../d7/d85/a10386.html" alt="WorldPackets::Guild::GuildOfficerRemoveMember" shape="rect" coords="382,2016,754,2040"/>
-<area href="../../d6/d4e/a10342.html" alt="WorldPackets::Guild::GuildPermissionsQuery" shape="rect" coords="382,2072,754,2096"/>
-<area href="../../dc/ddf/a10382.html" alt="WorldPackets::Guild::GuildPromoteMember" shape="rect" coords="382,2128,754,2152"/>
-<area href="../../da/d14/a10470.html" alt="WorldPackets::Guild::GuildSetGuildMaster" shape="rect" coords="382,2184,754,2208"/>
-<area href="../../d3/da0/a10370.html" alt="WorldPackets::Guild::GuildSetMemberNote" shape="rect" coords="382,2240,754,2264"/>
-<area href="../../d2/d1f/a10354.html" alt="WorldPackets::Guild::GuildSetRankPermissions" shape="rect" coords="382,2296,754,2320"/>
-<area href="../../db/da6/a10366.html" alt="WorldPackets::Guild::GuildUpdateInfoText" shape="rect" coords="382,2352,754,2376"/>
-<area href="../../d7/daa/a10302.html" alt="WorldPackets::Guild::GuildUpdateMotdText" shape="rect" coords="382,2408,754,2432"/>
-<area href="../../d0/d6c/a10262.html" alt="WorldPackets::Guild::QueryGuildInfo" shape="rect" coords="382,2464,754,2488"/>
-<area href="../../d1/df0/a10474.html" alt="WorldPackets::Guild::SaveGuildEmblem" shape="rect" coords="382,2520,754,2544"/>
-<area href="../../df/d55/a10482.html" alt="WorldPackets::LFG::LFGJoin" shape="rect" coords="382,2576,754,2600"/>
-<area href="../../dd/d95/a10486.html" alt="WorldPackets::LFG::LFGLeave" shape="rect" coords="382,2632,754,2656"/>
-<area href="../../dd/d31/a10510.html" alt="WorldPackets::Misc::RandomRollClient" shape="rect" coords="382,2688,754,2712"/>
-<area href="../../dc/d55/a10598.html" alt="WorldPackets::Pet::DismissCritter" shape="rect" coords="382,2744,754,2768"/>
-<area href="../../d2/d62/a10602.html" alt="WorldPackets::Pet::PetAbandon" shape="rect" coords="382,2800,754,2824"/>
-<area href="../../d6/d02/a10610.html" alt="WorldPackets::Pet::PetSpellAutocast" shape="rect" coords="382,2856,754,2880"/>
-<area href="../../de/d5d/a10606.html" alt="WorldPackets::Pet::PetStopAttack" shape="rect" coords="382,2912,754,2936"/>
-<area href="../../dc/d72/a10622.html" alt="WorldPackets::Pet::RequestPetInfo" shape="rect" coords="382,2968,754,2992"/>
-<area href="../../da/da2/a10626.html" alt="WorldPackets::Totem::TotemDestroyed" shape="rect" coords="382,3024,754,3048"/>
-<area href="../../dd/de9/a10194.html" alt="WorldPackets::Bank::BuyBankSlotResult" shape="rect" coords="1146,112,1518,136"/>
-<area href="../../d9/dd0/a10198.html" alt="WorldPackets::Bank::ShowBank" shape="rect" coords="1146,168,1518,192"/>
-<area href="../../d9/d95/a10226.html" alt="WorldPackets::Character::LogoutCancelAck" shape="rect" coords="1146,224,1518,248"/>
-<area href="../../d9/d16/a10218.html" alt="WorldPackets::Character::LogoutComplete" shape="rect" coords="1146,280,1518,304"/>
-<area href="../../d9/ddb/a10214.html" alt="WorldPackets::Character::LogoutResponse" shape="rect" coords="1146,336,1518,360"/>
-<area href="../../d4/dff/a10238.html" alt="WorldPackets::Character::PlayedTime" shape="rect" coords="1146,392,1518,416"/>
-<area href="../../d6/d7b/a10250.html" alt="WorldPackets::Chat::ChatServerMessage" shape="rect" coords="1146,448,1518,472"/>
-<area href="../../de/db2/a10242.html" alt="WorldPackets::Chat::Emote" shape="rect" coords="1146,504,1518,528"/>
-<area href="../../d9/d50/a10254.html" alt="WorldPackets::CombatLog::EnvironmentalDamageLog" shape="rect" coords="1146,560,1518,584"/>
-<area href="../../d9/d15/a10454.html" alt="WorldPackets::Guild::GuildBankLogQueryResults" shape="rect" coords="1146,616,1518,640"/>
-<area href="../../d2/dfb/a10438.html" alt="WorldPackets::Guild::GuildBankQueryResults" shape="rect" coords="1146,672,1518,696"/>
-<area href="../../d5/d43/a10418.html" alt="WorldPackets::Guild::GuildBankRemainingWithdrawMoney" shape="rect" coords="1146,728,1518,752"/>
-<area href="../../df/d0a/a10462.html" alt="WorldPackets::Guild::GuildBankTextQueryResult" shape="rect" coords="1146,784,1518,808"/>
-<area href="../../d5/dc2/a10306.html" alt="WorldPackets::Guild::GuildCommandResult" shape="rect" coords="1146,840,1518,864"/>
-<area href="../../df/d9f/a10326.html" alt="WorldPackets::Guild::GuildEvent" shape="rect" coords="1146,896,1518,920"/>
-<area href="../../d5/d54/a10338.html" alt="WorldPackets::Guild::GuildEventLogQueryResults" shape="rect" coords="1146,952,1518,976"/>
-<area href="../../d4/dc9/a10282.html" alt="WorldPackets::Guild::GuildInfoResponse" shape="rect" coords="1146,1008,1518,1032"/>
-<area href="../../d9/d3c/a10322.html" alt="WorldPackets::Guild::GuildInvite" shape="rect" coords="1146,1064,1518,1088"/>
-<area href="../../df/d9f/a10346.html" alt="WorldPackets::Guild::GuildPermissionsQueryResults" shape="rect" coords="1146,1120,1518,1144"/>
-<area href="../../d5/d5b/a10298.html" alt="WorldPackets::Guild::GuildRoster" shape="rect" coords="1146,1176,1518,1200"/>
-<area href="../../d0/dd2/a10478.html" alt="WorldPackets::Guild::PlayerSaveGuildEmblem" shape="rect" coords="1146,1232,1518,1256"/>
-<area href="../../d4/db5/a10270.html" alt="WorldPackets::Guild::QueryGuildInfoResponse" shape="rect" coords="1146,1288,1518,1312"/>
-<area href="../../d3/db2/a10534.html" alt="WorldPackets::Misc::CrossedInebriationThreshold" shape="rect" coords="1146,1344,1518,1368"/>
-<area href="../../da/d61/a10530.html" alt="WorldPackets::Misc::DurabilityDamageDeath" shape="rect" coords="1146,1400,1518,1424"/>
-<area href="../../de/da7/a10494.html" alt="WorldPackets::Misc::LevelUpInfo" shape="rect" coords="1146,1456,1518,1480"/>
-<area href="../../d5/dea/a10522.html" alt="WorldPackets::Misc::PauseMirrorTimer" shape="rect" coords="1146,1512,1518,1536"/>
-<area href="../../d2/d5f/a10498.html" alt="WorldPackets::Misc::PlayMusic" shape="rect" coords="1146,1568,1518,1592"/>
-<area href="../../dc/d63/a10502.html" alt="WorldPackets::Misc::PlayObjectSound" shape="rect" coords="1146,1624,1518,1648"/>
-<area href="../../dc/d06/a10506.html" alt="WorldPackets::Misc::Playsound" shape="rect" coords="1146,1680,1518,1704"/>
-<area href="../../db/ddb/a10514.html" alt="WorldPackets::Misc::RandomRoll" shape="rect" coords="1146,1736,1518,1760"/>
-<area href="../../db/dab/a10518.html" alt="WorldPackets::Misc::StartMirrorTimer" shape="rect" coords="1146,1792,1518,1816"/>
-<area href="../../d5/d6f/a10526.html" alt="WorldPackets::Misc::StopMirrorTimer" shape="rect" coords="1146,1848,1518,1872"/>
-<area href="../../d5/d4e/a10538.html" alt="WorldPackets::Misc::UITime" shape="rect" coords="1146,1904,1518,1928"/>
-<area href="../../d6/df4/a10490.html" alt="WorldPackets::Misc::Weather" shape="rect" coords="1146,1960,1518,1984"/>
-<area href="../../de/dbd/a10614.html" alt="WorldPackets::Pet::PetLearnedSpell" shape="rect" coords="1146,2016,1518,2040"/>
-<area href="../../da/d7f/a10618.html" alt="WorldPackets::Pet::PetUnlearnedSpell" shape="rect" coords="1146,2072,1518,2096"/>
-<area href="../../d8/d1e/a10630.html" alt="WorldPackets::Totem::TotemCreated" shape="rect" coords="1146,2128,1518,2152"/>
-<area href="../../db/d64/a10634.html" alt="WorldPackets::WorldState::InitWorldStates" shape="rect" coords="1146,2184,1518,2208"/>
-<area href="../../d7/d91/a10642.html" alt="WorldPackets::WorldState::UpdateWorldState" shape="rect" coords="1146,2240,1518,2264"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">ScriptSystem.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a777e97ebcf367638578d1c189480ad99"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a777e97ebcf367638578d1c189480ad99">PointMoveMap</a></td></tr>
+<tr class="separator:a777e97ebcf367638578d1c189480ad99"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a316af2b7ce1ac7189fb1e57f534bad11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a> (<a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;&amp;worldPacket)</td></tr>
-<tr class="separator:a316af2b7ce1ac7189fb1e57f534bad11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca1e6377bb2fb10bf042311e72eb5d4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a2ca1e6377bb2fb10bf042311e72eb5d4">~Packet</a> ()=default</td></tr>
-<tr class="separator:a2ca1e6377bb2fb10bf042311e72eb5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00213b64110a99004b3d9a6b38876cd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a00213b64110a99004b3d9a6b38876cd4">Packet</a> (<a class="el" href="../../d2/d10/a10170.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a00213b64110a99004b3d9a6b38876cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d2afd0d4b0d7daff11868854b7c4715"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/a10170.html">Packet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a6d2afd0d4b0d7daff11868854b7c4715">operator=</a> (<a class="el" href="../../d2/d10/a10170.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a6d2afd0d4b0d7daff11868854b7c4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c79156d7b6cfe3142fc530f9ed262a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#af7c79156d7b6cfe3142fc530f9ed262a">Write</a> ()=0</td></tr>
-<tr class="separator:af7c79156d7b6cfe3142fc530f9ed262a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94afc4d66c2b5bced3063bab5a666bfd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a94afc4d66c2b5bced3063bab5a666bfd">Read</a> ()=0</td></tr>
-<tr class="separator:a94afc4d66c2b5bced3063bab5a666bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8649e1b035fe7387dcee3e0b062a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a9d8649e1b035fe7387dcee3e0b062a5e">GetRawPacket</a> () const</td></tr>
-<tr class="separator:a9d8649e1b035fe7387dcee3e0b062a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08eb4c40f49c0d4e7f17a6dc1df2fe6a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a08eb4c40f49c0d4e7f17a6dc1df2fe6a">GetSize</a> () const</td></tr>
-<tr class="separator:a08eb4c40f49c0d4e7f17a6dc1df2fe6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af8097171a2ffc49600397c6a519dddc3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#af8097171a2ffc49600397c6a519dddc3">LoadScriptWaypoints</a> ()</td></tr>
+<tr class="separator:af8097171a2ffc49600397c6a519dddc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9f998f9778cebce3edb39b7296994d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#af9f998f9778cebce3edb39b7296994d5">GetPointMoveList</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> creatureEntry) const</td></tr>
+<tr class="separator:af9f998f9778cebce3edb39b7296994d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a71b78a44a3656802d55211d68fb19e12"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d10/a10170.html">SystemMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a71b78a44a3656802d55211d68fb19e12">instance</a> ()</td></tr>
+<tr class="separator:a71b78a44a3656802d55211d68fb19e12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr class="memitem:ab85f1c9f20117bc5015180165c7b458a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
-<tr class="separator:ab85f1c9f20117bc5015180165c7b458a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3603d019adf647df9f314a7ca61a25dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d10/a10170.html#a777e97ebcf367638578d1c189480ad99">PointMoveMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">m_mPointMoveMap</a></td></tr>
+<tr class="separator:a3603d019adf647df9f314a7ca61a25dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ac7fd54676b46afcbc520e4c58fcdce75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#ac7fd54676b46afcbc520e4c58fcdce75">SystemMgr</a> ()</td></tr>
+<tr class="separator:ac7fd54676b46afcbc520e4c58fcdce75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab192b30aa7ff1edd27bb23e87a7ac4c5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#ab192b30aa7ff1edd27bb23e87a7ac4c5">~SystemMgr</a> ()</td></tr>
+<tr class="separator:ab192b30aa7ff1edd27bb23e87a7ac4c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a4c90cb038afeb09c107979348bd3ca01"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d10/a10170.html#a4c90cb038afeb09c107979348bd3ca01">_empty</a></td></tr>
+<tr class="separator:a4c90cb038afeb09c107979348bd3ca01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a316af2b7ce1ac7189fb1e57f534bad11" name="a316af2b7ce1ac7189fb1e57f534bad11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a316af2b7ce1ac7189fb1e57f534bad11">&#9670;&#160;</a></span>Packet() <span class="overload">[1/2]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a777e97ebcf367638578d1c189480ad99" name="a777e97ebcf367638578d1c189480ad99"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a777e97ebcf367638578d1c189480ad99">&#9670;&#160;</a></span>PointMoveMap</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">WorldPackets::Packet::Packet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>worldPacket</em></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a>&gt; <a class="el" href="../../d2/d10/a10170.html#a777e97ebcf367638578d1c189480ad99">SystemMgr::PointMoveMap</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   21</span>                                                    : <a class="code hl_variable" href="../../d2/d10/a10170.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>(std::move(worldPacket))</div>
-<div class="line"><span class="lineno">   22</span>{</div>
-<div class="line"><span class="lineno">   23</span>}</div>
-<div class="ttc" id="aa10170_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../d2/d10/a10170.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<a id="a2ca1e6377bb2fb10bf042311e72eb5d4" name="a2ca1e6377bb2fb10bf042311e72eb5d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca1e6377bb2fb10bf042311e72eb5d4">&#9670;&#160;</a></span>~Packet()</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ac7fd54676b46afcbc520e4c58fcdce75" name="ac7fd54676b46afcbc520e4c58fcdce75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7fd54676b46afcbc520e4c58fcdce75">&#9670;&#160;</a></span>SystemMgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -274,7 +179,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual WorldPackets::Packet::~Packet </td>
+          <td class="memname">SystemMgr::SystemMgr </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -282,15 +187,16 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a00213b64110a99004b3d9a6b38876cd4" name="a00213b64110a99004b3d9a6b38876cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00213b64110a99004b3d9a6b38876cd4">&#9670;&#160;</a></span>Packet() <span class="overload">[2/2]</span></h2>
+<a id="ab192b30aa7ff1edd27bb23e87a7ac4c5" name="ab192b30aa7ff1edd27bb23e87a7ac4c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab192b30aa7ff1edd27bb23e87a7ac4c5">&#9670;&#160;</a></span>~SystemMgr()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -299,25 +205,25 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WorldPackets::Packet::Packet </td>
+          <td class="memname">SystemMgr::~SystemMgr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d10/a10170.html">Packet</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   64</span>{}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9d8649e1b035fe7387dcee3e0b062a5e" name="a9d8649e1b035fe7387dcee3e0b062a5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d8649e1b035fe7387dcee3e0b062a5e">&#9670;&#160;</a></span>GetRawPacket()</h2>
+<a id="af9f998f9778cebce3edb39b7296994d5" name="af9f998f9778cebce3edb39b7296994d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9f998f9778cebce3edb39b7296994d5">&#9670;&#160;</a></span>GetPointMoveList()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -326,9 +232,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> const  * WorldPackets::Packet::GetRawPacket </td>
+          <td class="memname"><a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a> const  &amp; SystemMgr::GetPointMoveList </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>creatureEntry</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -338,14 +245,23 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../d2/d10/a10170.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   75</span>    {</div>
+<div class="line"><span class="lineno">   76</span>        PointMoveMap::const_iterator itr = <a class="code hl_variable" href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">m_mPointMoveMap</a>.find(creatureEntry);</div>
+<div class="line"><span class="lineno">   77</span> </div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">m_mPointMoveMap</a>.end())</div>
+<div class="line"><span class="lineno">   79</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d10/a10170.html#a4c90cb038afeb09c107979348bd3ca01">_empty</a>;</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
+<div class="ttc" id="aa10170_html_a3603d019adf647df9f314a7ca61a25dd"><div class="ttname"><a href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">SystemMgr::m_mPointMoveMap</a></div><div class="ttdeci">PointMoveMap m_mPointMoveMap</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:85</div></div>
+<div class="ttc" id="aa10170_html_a4c90cb038afeb09c107979348bd3ca01"><div class="ttname"><a href="../../d2/d10/a10170.html#a4c90cb038afeb09c107979348bd3ca01">SystemMgr::_empty</a></div><div class="ttdeci">static ScriptPointVector const _empty</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:88</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02823">Guild::_SendBankList()</a>, and <a class="el" href="../../#l03762">Map::SetZoneMusic()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00088">_empty</a>, and <a class="el" href="../../#l00085">m_mPointMoveMap</a>.</p>
 
 </div>
 </div>
-<a id="a08eb4c40f49c0d4e7f17a6dc1df2fe6a" name="a08eb4c40f49c0d4e7f17a6dc1df2fe6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08eb4c40f49c0d4e7f17a6dc1df2fe6a">&#9670;&#160;</a></span>GetSize()</h2>
+<a id="a71b78a44a3656802d55211d68fb19e12" name="a71b78a44a3656802d55211d68fb19e12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a71b78a44a3656802d55211d68fb19e12">&#9670;&#160;</a></span>instance()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -354,106 +270,130 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::size_t WorldPackets::Packet::GetSize </td>
+          <td class="memname"><a class="el" href="../../d2/d10/a10170.html">SystemMgr</a> * SystemMgr::instance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d10/a10170.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>(); }</div>
-<div class="ttc" id="aa28094_html_a0be375370879a95ef6ec68cc8916ab61"><div class="ttname"><a href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">ByteBuffer::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:444</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d2/d10/a10170.html">SystemMgr</a> <a class="code hl_function" href="../../d2/d10/a10170.html#a71b78a44a3656802d55211d68fb19e12">instance</a>;</div>
+<div class="line"><span class="lineno">   27</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d2/d10/a10170.html#a71b78a44a3656802d55211d68fb19e12">instance</a>;</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aa10170_html"><div class="ttname"><a href="../../d2/d10/a10170.html">SystemMgr</a></div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:62</div></div>
+<div class="ttc" id="aa10170_html_a71b78a44a3656802d55211d68fb19e12"><div class="ttname"><a href="../../d2/d10/a10170.html#a71b78a44a3656802d55211d68fb19e12">SystemMgr::instance</a></div><div class="ttdeci">static SystemMgr * instance()</div><div class="ttdef"><b>Definition:</b> ScriptSystem.cpp:24</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00024">instance()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00024">instance()</a>.</p>
+
 </div>
 </div>
-<a id="a6d2afd0d4b0d7daff11868854b7c4715" name="a6d2afd0d4b0d7daff11868854b7c4715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d2afd0d4b0d7daff11868854b7c4715">&#9670;&#160;</a></span>operator=()</h2>
+<a id="af8097171a2ffc49600397c6a519dddc3" name="af8097171a2ffc49600397c6a519dddc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af8097171a2ffc49600397c6a519dddc3">&#9670;&#160;</a></span>LoadScriptWaypoints()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d10/a10170.html">Packet</a> &amp; WorldPackets::Packet::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d10/a10170.html">Packet</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94afc4d66c2b5bced3063bab5a666bfd" name="a94afc4d66c2b5bced3063bab5a666bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94afc4d66c2b5bced3063bab5a666bfd">&#9670;&#160;</a></span>Read()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void WorldPackets::Packet::Read </td>
+          <td class="memname">void SystemMgr::LoadScriptWaypoints </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../d1/d32/a10174.html#ae49aa7bce566d9f0ea3c7bbb487a119d">WorldPackets::ServerPacket</a>, <a class="el" href="../../db/d9b/a10182.html#a8651192c6040cdf5d257c134dde1208c">WorldPackets::Bank::AutoBankItem</a>, <a class="el" href="../../dd/d91/a10186.html#a2a482b716f537866a815085ead9cfd38">WorldPackets::Bank::AutoStoreBankItem</a>, <a class="el" href="../../dc/d84/a10190.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb">WorldPackets::Bank::BuyBankSlot</a>, <a class="el" href="../../d4/d86/a10202.html#ad72ae43efc070655aa078d9985369442">WorldPackets::Character::ShowingCloak</a>, <a class="el" href="../../db/d6a/a10206.html#a9e6d525a7104f2a8f81564d3796c6211">WorldPackets::Character::ShowingHelm</a>, <a class="el" href="../../da/d7f/a10210.html#a84701a16603f8b0f1e8dda1020ec1161">WorldPackets::Character::LogoutRequest</a>, <a class="el" href="../../d3/d57/a10222.html#a9ed27bc4472b7e4e225793b4f2e5a34d">WorldPackets::Character::LogoutCancel</a>, <a class="el" href="../../d4/d7b/a10230.html#accbe1ced6a10ea2fa699df5e74575795">WorldPackets::Character::PlayerLogout</a>, <a class="el" href="../../d4/df3/a10234.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3">WorldPackets::Character::PlayedTimeClient</a>, <a class="el" href="../../db/d0e/a10246.html#abad5fca865b7b99e595ce95137e8105c">WorldPackets::Chat::EmoteClient</a>, <a class="el" href="../../d9/dbb/a10258.html#ae2158689450e3a9207b6992ea5223106">WorldPackets::Combat::SetSheathed</a>, <a class="el" href="../../d0/d6c/a10262.html#a0396a58ca114706f7de91f51c5ab949d">WorldPackets::Guild::QueryGuildInfo</a>, <a class="el" href="../../d1/d6c/a10274.html#a7d4573196f53d1f068c43b4e7e466fce">WorldPackets::Guild::GuildCreate</a>, <a class="el" href="../../df/d88/a10278.html#aa2b107f35fcf348fb7f84c2971c5fa00">WorldPackets::Guild::GuildGetInfo</a>, <a class="el" href="../../da/d94/a10286.html#af795ad992ec1b55d741227bd2d4a62d1">WorldPackets::Guild::GuildGetRoster</a>, <a class="el" href="../../d7/daa/a10302.html#a55cfd6f4797e61ca01ee7aa5c65d9a69">WorldPackets::Guild::GuildUpdateMotdText</a>, <a class="el" href="../../d5/dea/a10310.html#a3d39b917ca2650f645ccce12cdc1a1e0">WorldPackets::Guild::AcceptGuildInvite</a>, <a class="el" href="../../de/d84/a10314.html#ad034438e18a7feddbac376a599c1e01a">WorldPackets::Guild::GuildDeclineInvitation</a>, <a class="el" href="../../dc/d20/a10318.html#a91f3fba33e265cbb119f1d3e69d4a8ca">WorldPackets::Guild::GuildInviteByName</a>, <a class="el" href="../../d9/d14/a10334.html#a48881f116070d5a7c03e7cace86656f6">WorldPackets::Guild::GuildEventLogQuery</a>, <a class="el" href="../../d6/d4e/a10342.html#aec20af8c3c8236627353287fe2eaa0a7">WorldPackets::Guild::GuildPermissionsQuery</a>, <a class="el" href="../../d2/d1f/a10354.html#a534550862a3c634697e8277f31ad4c25">WorldPackets::Guild::GuildSetRankPermissions</a>, <a class="el" href="../../d5/d3b/a10358.html#a23636e4b8bd37ea85a282fb1630a969e">WorldPackets::Guild::GuildAddRank</a>, <a class="el" href="../../d8/d78/a10362.html#a91a7883299fe09e08c247c96987a8333">WorldPackets::Guild::GuildDeleteRank</a>, <a class="el" href="../../db/da6/a10366.html#a7019344fef99c5479602d7bc1176e9ee">WorldPackets::Guild::GuildUpdateInfoText</a>, <a class="el" href="../../d3/da0/a10370.html#a3d90b6ce26d55a55bac1d953dd39b049">WorldPackets::Guild::GuildSetMemberNote</a>, <a class="el" href="../../d8/dc3/a10374.html#ae5ca379b187902323638f4c10be0a4d0">WorldPackets::Guild::GuildDelete</a>, <a class="el" href="../../d8/d3d/a10378.html#aca46670c89e3d15df6a3f6694ab3dcb6">WorldPackets::Guild::GuildDemoteMember</a>, <a class="el" href="../../dc/ddf/a10382.html#a3350c1a8c81aa1368a254288849b462b">WorldPackets::Guild::GuildPromoteMember</a>, <a class="el" href="../../d7/d85/a10386.html#aa0c3cd629b73cb079cc3cf90bf6f8067">WorldPackets::Guild::GuildOfficerRemoveMember</a>, <a class="el" href="../../d6/d23/a10390.html#a0ea07ca846a92b5357276b5868d98e5f">WorldPackets::Guild::GuildLeave</a>, <a class="el" href="../../dc/dc1/a10394.html#a8dbde75aaa3102024aa0ff3a8f3625da">WorldPackets::Guild::GuildBankActivate</a>, <a class="el" href="../../de/da5/a10398.html#a502153232a314d099ed43e1101bdfc1f">WorldPackets::Guild::GuildBankBuyTab</a>, <a class="el" href="../../d8/d99/a10402.html#ac261ff0102489efb4d69bd866ffc9283">WorldPackets::Guild::GuildBankUpdateTab</a>, <a class="el" href="../../d1/d7c/a10406.html#aa1d4274b057cc4ecec6b078ac4925a94">WorldPackets::Guild::GuildBankDepositMoney</a>, <a class="el" href="../../d4/df6/a10410.html#ab4e17c592b05ce041f5f52f2bc711d41">WorldPackets::Guild::GuildBankQueryTab</a>, <a class="el" href="../../dd/d33/a10414.html#a3e03f6f23a989d6f105c397f8ecfeb87">WorldPackets::Guild::GuildBankRemainingWithdrawMoneyQuery</a>, <a class="el" href="../../d5/d45/a10422.html#a420aac24befdc5ac26171faa15c3c350">WorldPackets::Guild::GuildBankWithdrawMoney</a>, <a class="el" href="../../d1/d9e/a10442.html#a3f64634235beeabb9cee055926e6260a">WorldPackets::Guild::GuildBankSwapItems</a>, <a class="el" href="../../d2/df6/a10446.html#a5eed269e9285a33ffc61fcfa7d639083">WorldPackets::Guild::GuildBankLogQuery</a>, <a class="el" href="../../d6/d6e/a10458.html#af20bd5c8e58b891028613625fb14807d">WorldPackets::Guild::GuildBankTextQuery</a>, <a class="el" href="../../d1/d4e/a10466.html#a24f580f6addcd08945c05016b3f0e544">WorldPackets::Guild::GuildBankSetTabText</a>, <a class="el" href="../../da/d14/a10470.html#a94f16e55a840c7cba991a119af5d8263">WorldPackets::Guild::GuildSetGuildMaster</a>, <a class="el" href="../../d1/df0/a10474.html#aeea281ed99165947de4b5d1b4449ea5d">WorldPackets::Guild::SaveGuildEmblem</a>, <a class="el" href="../../df/d55/a10482.html#a5eca5c5a528cf00f1e6aad99ce5386ed">WorldPackets::LFG::LFGJoin</a>, <a class="el" href="../../dd/d95/a10486.html#abae9c55efce73edf5edf1940cb8b61eb">WorldPackets::LFG::LFGLeave</a>, <a class="el" href="../../dd/d31/a10510.html#ab682763f35a40f776b1742927df0a336">WorldPackets::Misc::RandomRollClient</a>, <a class="el" href="../../dc/d55/a10598.html#a411b65505e8a332ecf9291a670dc38c4">WorldPackets::Pet::DismissCritter</a>, <a class="el" href="../../d2/d62/a10602.html#a58ebb244de4bd65a85f75dcc24250883">WorldPackets::Pet::PetAbandon</a>, <a class="el" href="../../de/d5d/a10606.html#a22dd8d9fcbadbec5ba046812f5cdac51">WorldPackets::Pet::PetStopAttack</a>, <a class="el" href="../../d6/d02/a10610.html#a5c94e7acc04efbb2a50695ed4fdf7036">WorldPackets::Pet::PetSpellAutocast</a>, <a class="el" href="../../dc/d72/a10622.html#a5cc9bb57bce7dc7f24243fdc63e17870">WorldPackets::Pet::RequestPetInfo</a>, and <a class="el" href="../../da/da2/a10626.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2">WorldPackets::Totem::TotemDestroyed</a>.</p>
-
-</div>
-</div>
-<a id="af7c79156d7b6cfe3142fc530f9ed262a" name="af7c79156d7b6cfe3142fc530f9ed262a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c79156d7b6cfe3142fc530f9ed262a">&#9670;&#160;</a></span>Write()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> const  * WorldPackets::Packet::Write </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../d0/d6f/a10178.html#a16e5b9fa05e35fa1e32e33bef2688487">WorldPackets::ClientPacket</a>, <a class="el" href="../../dd/de9/a10194.html#a55a6609863b0d3ef966f222526268acb">WorldPackets::Bank::BuyBankSlotResult</a>, <a class="el" href="../../d9/dd0/a10198.html#a39e1b86a7d4d6163ab504797be1af505">WorldPackets::Bank::ShowBank</a>, <a class="el" href="../../d9/ddb/a10214.html#a0b08225b6ac303afd20ec213aafe4bcb">WorldPackets::Character::LogoutResponse</a>, <a class="el" href="../../d9/d16/a10218.html#a0d958bc07b674ed3339833351fec7d3a">WorldPackets::Character::LogoutComplete</a>, <a class="el" href="../../d9/d95/a10226.html#a12f9e56c2ee59f5a084e8aef3fdfad97">WorldPackets::Character::LogoutCancelAck</a>, <a class="el" href="../../d4/dff/a10238.html#a147071f2545cd91213d6c92dab7438c7">WorldPackets::Character::PlayedTime</a>, <a class="el" href="../../de/db2/a10242.html#a3f5532f40b59f47423d2b4e3749da88e">WorldPackets::Chat::Emote</a>, <a class="el" href="../../d6/d7b/a10250.html#af8bad4d39693290674bda2e2ad8685bf">WorldPackets::Chat::ChatServerMessage</a>, <a class="el" href="../../d9/d50/a10254.html#af7d49b8d57100cf2c3048d5415a4edc7">WorldPackets::CombatLog::EnvironmentalDamageLog</a>, <a class="el" href="../../d4/db5/a10270.html#abda9452eba38e76c460f910eb3aad5fa">WorldPackets::Guild::QueryGuildInfoResponse</a>, <a class="el" href="../../d4/dc9/a10282.html#a3222d0018c9593400d3d01258b82371e">WorldPackets::Guild::GuildInfoResponse</a>, <a class="el" href="../../d5/d5b/a10298.html#a544a539999827d4eb8923cbbcdf42bac">WorldPackets::Guild::GuildRoster</a>, <a class="el" href="../../d5/dc2/a10306.html#a621e211342b3bf9b5de01a9a3b66291b">WorldPackets::Guild::GuildCommandResult</a>, <a class="el" href="../../d9/d3c/a10322.html#a4ed1c240a53fa6268eb07b3c77d68757">WorldPackets::Guild::GuildInvite</a>, <a class="el" href="../../df/d9f/a10326.html#a4ae1c0daaec964981ad982b97c1b0408">WorldPackets::Guild::GuildEvent</a>, <a class="el" href="../../d5/d54/a10338.html#aa24738cdd040a883782b50189abdf240">WorldPackets::Guild::GuildEventLogQueryResults</a>, <a class="el" href="../../df/d9f/a10346.html#a4a5937a8daab44b5000a5308ed0be06a">WorldPackets::Guild::GuildPermissionsQueryResults</a>, <a class="el" href="../../d5/d43/a10418.html#aecc28f8734a66c562c7baa1575b07ff9">WorldPackets::Guild::GuildBankRemainingWithdrawMoney</a>, <a class="el" href="../../d2/dfb/a10438.html#a4598c0c9d1f94c5aa0671f210e1597d4">WorldPackets::Guild::GuildBankQueryResults</a>, <a class="el" href="../../d9/d15/a10454.html#aafdb5114c7d0e8a2d18a848f3c94aa38">WorldPackets::Guild::GuildBankLogQueryResults</a>, <a class="el" href="../../df/d0a/a10462.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">WorldPackets::Guild::GuildBankTextQueryResult</a>, <a class="el" href="../../d0/dd2/a10478.html#a0427be2f46cba4ff6b2ca072924bca7b">WorldPackets::Guild::PlayerSaveGuildEmblem</a>, <a class="el" href="../../d6/df4/a10490.html#a641c7de3e527dcdff07b3f602880b5c8">WorldPackets::Misc::Weather</a>, <a class="el" href="../../de/da7/a10494.html#af09dd1c6470516ea9422d22ed22e6d10">WorldPackets::Misc::LevelUpInfo</a>, <a class="el" href="../../d2/d5f/a10498.html#ad01a67d76fe9dff269eac9108a27c75a">WorldPackets::Misc::PlayMusic</a>, <a class="el" href="../../dc/d63/a10502.html#a1162715dd557a9f7b7c25a0331bc3b74">WorldPackets::Misc::PlayObjectSound</a>, <a class="el" href="../../dc/d06/a10506.html#acb4bdd9a1613a158832115e4c18bfcd9">WorldPackets::Misc::Playsound</a>, <a class="el" href="../../db/ddb/a10514.html#aab5879874745603dd448a7f5084d60d4">WorldPackets::Misc::RandomRoll</a>, <a class="el" href="../../db/dab/a10518.html#afa6cc6032804e3d8f3f7797b2231847f">WorldPackets::Misc::StartMirrorTimer</a>, <a class="el" href="../../d5/dea/a10522.html#aea61f9e668173b65eac3b9f42ddd68a1">WorldPackets::Misc::PauseMirrorTimer</a>, <a class="el" href="../../d5/d6f/a10526.html#ae99dab4406316eac99a6e0e0146d879e">WorldPackets::Misc::StopMirrorTimer</a>, <a class="el" href="../../da/d61/a10530.html#a35a93d9abeeb029f3da080487423f495">WorldPackets::Misc::DurabilityDamageDeath</a>, <a class="el" href="../../d3/db2/a10534.html#a127dcfcc7e960d24e56d1b17bf9be992">WorldPackets::Misc::CrossedInebriationThreshold</a>, <a class="el" href="../../d5/d4e/a10538.html#ab24cdd76abd5914c3a30ee42c7681855">WorldPackets::Misc::UITime</a>, <a class="el" href="../../de/dbd/a10614.html#a6fd7d4bc907b0bb78c438e6a9159dc69">WorldPackets::Pet::PetLearnedSpell</a>, <a class="el" href="../../da/d7f/a10618.html#a11cf7780eba530026a0898bfafd27109">WorldPackets::Pet::PetUnlearnedSpell</a>, <a class="el" href="../../d8/d1e/a10630.html#a554900ae7442f00a63c983ea7ea74510">WorldPackets::Totem::TotemCreated</a>, <a class="el" href="../../db/d64/a10634.html#ad40588a16c7430a633c0537c82ea3a5b">WorldPackets::WorldState::InitWorldStates</a>, and <a class="el" href="../../d7/d91/a10642.html#a76a4c5d6a06ce8d86a2d3f04f68e838d">WorldPackets::WorldState::UpdateWorldState</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   33</span> </div>
+<div class="line"><span class="lineno">   34</span>    <span class="comment">// Drop Existing Waypoint list</span></div>
+<div class="line"><span class="lineno">   35</span>    <a class="code hl_variable" href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">m_mPointMoveMap</a>.clear();</div>
+<div class="line"><span class="lineno">   36</span> </div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> uiCreatureCount = 0;</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    <span class="comment">// Load Waypoints</span></div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT COUNT(entry) FROM script_waypoint GROUP BY entry&quot;</span>);</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">   42</span>        uiCreatureCount = result-&gt;GetRowCount();</div>
+<div class="line"><span class="lineno">   43</span> </div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Script Waypoints For {} Creature(s)...&quot;</span>, uiCreatureCount);</div>
+<div class="line"><span class="lineno">   45</span> </div>
+<div class="line"><span class="lineno">   46</span>    <span class="comment">//                                     0       1         2           3           4           5</span></div>
+<div class="line"><span class="lineno">   47</span>    result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a>.Query(<span class="stringliteral">&quot;SELECT entry, pointid, location_x, location_y, location_z, waittime FROM script_waypoint ORDER BY pointid&quot;</span>);</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">   50</span>    {</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 Script Waypoints. DB table `script_waypoint` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">   52</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   54</span>    }</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">   59</span>    {</div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* pFields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_struct" href="../../d0/d2b/a10166.html">ScriptPointMove</a> temp;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">uiCreatureEntry</a>   = pFields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> uiEntry          = temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">uiCreatureEntry</a>;</div>
+<div class="line"><span class="lineno">   65</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#acb4d9697a24d5c29deacdefe8eb0e267">uiPointId</a>         = pFields[1].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   66</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5">fX</a>                = pFields[2].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   67</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#a9b158e247014eec0d35e465ab9469ac7">fY</a>                = pFields[3].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   68</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#a2e02f9738393aeb8cd62ac26dda8fc10">fZ</a>                = pFields[4].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<span class="keywordtype">float</span>&gt;();</div>
+<div class="line"><span class="lineno">   69</span>        temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#a305620aad71152c1139a88dea05a1887">uiWaitTime</a>        = pFields[5].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">   70</span> </div>
+<div class="line"><span class="lineno">   71</span>        <a class="code hl_struct" href="../../d6/d28/a07802.html">CreatureTemplate</a> <span class="keyword">const</span>* pCInfo = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetCreatureTemplate(temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">uiCreatureEntry</a>);</div>
+<div class="line"><span class="lineno">   72</span> </div>
+<div class="line"><span class="lineno">   73</span>        <span class="keywordflow">if</span> (!pCInfo)</div>
+<div class="line"><span class="lineno">   74</span>        {</div>
+<div class="line"><span class="lineno">   75</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;DB table script_waypoint has waypoint for non-existant creature entry {}&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">uiCreatureEntry</a>);</div>
+<div class="line"><span class="lineno">   76</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">   77</span>        }</div>
+<div class="line"><span class="lineno">   78</span> </div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">if</span> (!pCInfo-&gt;ScriptID)</div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;DB table script_waypoint has waypoint for creature entry {}, but creature does not have ScriptName defined and then useless.&quot;</span>, temp.<a class="code hl_variable" href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">uiCreatureEntry</a>);</div>
+<div class="line"><span class="lineno">   81</span> </div>
+<div class="line"><span class="lineno">   82</span>        <a class="code hl_variable" href="../../d2/d10/a10170.html#a3603d019adf647df9f314a7ca61a25dd">m_mPointMoveMap</a>[uiEntry].push_back(temp);</div>
+<div class="line"><span class="lineno">   83</span>        ++count;</div>
+<div class="line"><span class="lineno">   84</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} Script Waypoint nodes in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">   87</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa00497_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
+<div class="ttc" id="aa04589_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
+<div class="ttc" id="aa04601_html_afa9a6509f9913c9c7dd3081523badd7c"><div class="ttname"><a href="../../d8/d7c/a04601.html#afa9a6509f9913c9c7dd3081523badd7c">WorldDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; WorldDatabaseConnection &gt; WorldDatabase</div><div class="ttdoc">Accessor to the world database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:20</div></div>
+<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
+<div class="ttc" id="aa05622_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:112</div></div>
+<div class="ttc" id="aa07802_html"><div class="ttname"><a href="../../d6/d28/a07802.html">CreatureTemplate</a></div><div class="ttdef"><b>Definition:</b> CreatureData.h:186</div></div>
+<div class="ttc" id="aa10166_html"><div class="ttname"><a href="../../d0/d2b/a10166.html">ScriptPointMove</a></div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:50</div></div>
+<div class="ttc" id="aa10166_html_a2e02f9738393aeb8cd62ac26dda8fc10"><div class="ttname"><a href="../../d0/d2b/a10166.html#a2e02f9738393aeb8cd62ac26dda8fc10">ScriptPointMove::fZ</a></div><div class="ttdeci">float fZ</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:55</div></div>
+<div class="ttc" id="aa10166_html_a305620aad71152c1139a88dea05a1887"><div class="ttname"><a href="../../d0/d2b/a10166.html#a305620aad71152c1139a88dea05a1887">ScriptPointMove::uiWaitTime</a></div><div class="ttdeci">uint32 uiWaitTime</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:56</div></div>
+<div class="ttc" id="aa10166_html_a53aeb6e82eea1dc4a4e5d8e99dfd3fc5"><div class="ttname"><a href="../../d0/d2b/a10166.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5">ScriptPointMove::fX</a></div><div class="ttdeci">float fX</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:53</div></div>
+<div class="ttc" id="aa10166_html_a9b158e247014eec0d35e465ab9469ac7"><div class="ttname"><a href="../../d0/d2b/a10166.html#a9b158e247014eec0d35e465ab9469ac7">ScriptPointMove::fY</a></div><div class="ttdeci">float fY</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:54</div></div>
+<div class="ttc" id="aa10166_html_ac31436c40bd0bf375635e2ea604fbf61"><div class="ttname"><a href="../../d0/d2b/a10166.html#ac31436c40bd0bf375635e2ea604fbf61">ScriptPointMove::uiCreatureEntry</a></div><div class="ttdeci">uint32 uiCreatureEntry</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:51</div></div>
+<div class="ttc" id="aa10166_html_acb4d9697a24d5c29deacdefe8eb0e267"><div class="ttname"><a href="../../d0/d2b/a10166.html#acb4d9697a24d5c29deacdefe8eb0e267">ScriptPointMove::uiPointId</a></div><div class="ttdeci">uint32 uiPointId</div><div class="ttdef"><b>Definition:</b> ScriptSystem.h:52</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00053">ScriptPointMove::fX</a>, <a class="el" href="../../#l00054">ScriptPointMove::fY</a>, <a class="el" href="../../#l00055">ScriptPointMove::fZ</a>, <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00085">m_mPointMoveMap</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, <a class="el" href="../../#l00051">ScriptPointMove::uiCreatureEntry</a>, <a class="el" href="../../#l00052">ScriptPointMove::uiPointId</a>, <a class="el" href="../../#l00056">ScriptPointMove::uiWaitTime</a>, and <a class="el" href="../../#l00020">WorldDatabase</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab85f1c9f20117bc5015180165c7b458a" name="ab85f1c9f20117bc5015180165c7b458a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab85f1c9f20117bc5015180165c7b458a">&#9670;&#160;</a></span>_worldPacket</h2>
+<a id="a4c90cb038afeb09c107979348bd3ca01" name="a4c90cb038afeb09c107979348bd3ca01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c90cb038afeb09c107979348bd3ca01">&#9670;&#160;</a></span>_empty</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -462,7 +402,31 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> WorldPackets::Packet::_worldPacket</td>
+          <td class="memname"><a class="el" href="../../d7/dca/a04205.html#aab50bb2bd1f4c2c015d1ed573408733a">ScriptPointVector</a> const SystemMgr::_empty</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00074">GetPointMoveList()</a>.</p>
+
+</div>
+</div>
+<a id="a3603d019adf647df9f314a7ca61a25dd" name="a3603d019adf647df9f314a7ca61a25dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3603d019adf647df9f314a7ca61a25dd">&#9670;&#160;</a></span>m_mPointMoveMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d10/a10170.html#a777e97ebcf367638578d1c189480ad99">PointMoveMap</a> SystemMgr::m_mPointMoveMap</td>
         </tr>
       </table>
   </td>
@@ -472,7 +436,7 @@ Protected Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00020">WorldPackets::Bank::AutoBankItem::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Character::ShowingCloak::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Combat::SetSheathed::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Guild::QueryGuildInfo::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::LFG::LFGJoin::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Pet::DismissCritter::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Totem::TotemDestroyed::Read()</a>, <a class="el" href="../../#l00071">WorldPackets::Character::LogoutComplete::Write()</a>, <a class="el" href="../../#l00087">WorldPackets::Character::LogoutCancelAck::Write()</a>, <a class="el" href="../../#l00020">WorldPackets::Chat::Emote::Write()</a>, <a class="el" href="../../#l00020">WorldPackets::CombatLog::EnvironmentalDamageLog::Write()</a>, and <a class="el" href="../../#l00165">WorldPackets::Misc::DurabilityDamageDeath::Write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00074">GetPointMoveList()</a>, and <a class="el" href="../../#l00030">LoadScriptWaypoints()</a>.</p>
 
 </div>
 </div>
@@ -481,8 +445,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d2/d10/a10170.html">Packet</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/d10/a10170.html">SystemMgr</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

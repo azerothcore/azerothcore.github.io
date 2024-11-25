@@ -1,7 +1,6 @@
 var a12770 =
 [
-    [ "HandleScript", "df/d3f/a12770.html#a6ce169d6c1b106195f787b52ea433311", null ],
-    [ "PrepareSpellScript", "df/d3f/a12770.html#a4f71583df2193274365944e6d228247c", null ],
-    [ "Register", "df/d3f/a12770.html#aad8978dc0505d1fb80e2416f5525cbc7", null ],
-    [ "Validate", "df/d3f/a12770.html#a51025308f88001f1f66d7f68f174f325", null ]
+    [ "boss_kirtonos_the_heraldAI", "df/d72/a12774.html", "df/d72/a12774" ],
+    [ "boss_kirtonos_the_herald", "df/d3f/a12770.html#a0e81153a0da7910cda4c9b6d32544318", null ],
+    [ "GetAI", "df/d3f/a12770.html#aa5e0fe2386aae52fd53ff309282db652", null ]
 ];

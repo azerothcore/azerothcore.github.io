@@ -1,5 +1,5 @@
 var a28082 =
 [
-    [ "ByteBufferPositionException", "da/d35/a28082.html#a6c2e31012a8ccf20d52c6431e024a576", null ],
-    [ "~ByteBufferPositionException", "da/d35/a28082.html#aba8b7764a5517fa3e4a26d7ced1ad38f", null ]
+    [ "ByteBufferInvalidValueException", "da/d35/a28082.html#a6ee22161167faf11555c6e6b15422cd8", null ],
+    [ "~ByteBufferInvalidValueException", "da/d35/a28082.html#a30cc1225522916e05abf95e14805d7a3", null ]
 ];

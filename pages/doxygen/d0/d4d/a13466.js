@@ -1,7 +1,6 @@
 var a13466 =
 [
-    [ "HandleDispel", "d0/d4d/a13466.html#a415977576283972ce4a1050c70826d7c", null ],
-    [ "PrepareAuraScript", "d0/d4d/a13466.html#a95dfbfe631e8ec9213a32c6f52d3feb1", null ],
-    [ "Register", "d0/d4d/a13466.html#a1bbb71eeb2273c2ecd0eb774b68735dc", null ],
-    [ "Validate", "d0/d4d/a13466.html#ac496e7bef875ca46660217e74fc3bc74", null ]
+    [ "cooldown", "d0/d4d/a13466.html#aaf4772a0ac55280355e61d8c50198b3f", null ],
+    [ "spell", "d0/d4d/a13466.html#a00ee3238030686e1cc66562f7cefb27a", null ],
+    [ "target", "d0/d4d/a13466.html#a16e54dbd059baac1b6e7229621339d83", null ]
 ];

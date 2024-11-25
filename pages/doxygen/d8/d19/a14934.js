@@ -1,5 +1,8 @@
 var a14934 =
 [
-    [ "go_ravager_cage", "d8/d19/a14934.html#a632c767a4ab0075ee40d40e977fe7c18", null ],
-    [ "OnGossipHello", "d8/d19/a14934.html#a83c9086cefea0d6d11a5de7a781d84db", null ]
+    [ "npc_injured_draeneiAI", "d8/d19/a14934.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "d8/d19/a14934.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "d8/d19/a14934.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "d8/d19/a14934.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "d8/d19/a14934.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

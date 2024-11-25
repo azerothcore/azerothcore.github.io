@@ -1,5 +1,9 @@
 var a10286 =
 [
-    [ "GuildGetRoster", "da/d94/a10286.html#a9beccc6ee2416633c57d2da31fdc021a", null ],
-    [ "Read", "da/d94/a10286.html#af795ad992ec1b55d741227bd2d4a62d1", null ]
+    [ "GuildInfoResponse", "da/d94/a10286.html#a256cb81ad2e08050be99c9e1061c2009", null ],
+    [ "Write", "da/d94/a10286.html#a3222d0018c9593400d3d01258b82371e", null ],
+    [ "CreateDate", "da/d94/a10286.html#a1a0acf334d88751e94257ff76c9e3fd8", null ],
+    [ "GuildName", "da/d94/a10286.html#ad8efc926197e955ed0cf8df6a74b41e8", null ],
+    [ "NumAccounts", "da/d94/a10286.html#a21b42f1654aa10f7872d87635fea66ac", null ],
+    [ "NumMembers", "da/d94/a10286.html#a7e748a70029e867ba8c90eaba85bf8c9", null ]
 ];

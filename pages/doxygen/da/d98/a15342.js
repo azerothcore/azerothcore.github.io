@@ -1,6 +1,7 @@
 var a15342 =
 [
-    [ "creatureID", "da/d98/a15342.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
-    [ "pos", "da/d98/a15342.html#a9705a858cc2c3867e104514d3a0a1866", null ],
-    [ "waveID", "da/d98/a15342.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
+    [ "npc_ranshallaAI", "df/d05/a15346.html", "df/d05/a15346" ],
+    [ "npc_ranshalla", "da/d98/a15342.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "da/d98/a15342.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "da/d98/a15342.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

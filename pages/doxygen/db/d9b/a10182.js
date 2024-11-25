@@ -1,7 +1,7 @@
 var a10182 =
 [
-    [ "AutoBankItem", "db/d9b/a10182.html#a02d39ddc9eda90be709b2fa9c1f6023d", null ],
-    [ "Read", "db/d9b/a10182.html#a8651192c6040cdf5d257c134dde1208c", null ],
-    [ "Bag", "db/d9b/a10182.html#a69f9b65ecb778c94c6e9278e5f98d31b", null ],
-    [ "Slot", "db/d9b/a10182.html#a970f2ca85a76de1a25ad40a9ebf0029f", null ]
+    [ "ClientPacket", "db/d9b/a10182.html#aa1d1946c07e248bae5927e83fdad9500", null ],
+    [ "ClientPacket", "db/d9b/a10182.html#a1cdaaacca2695c4366647c7611073ff0", null ],
+    [ "GetOpcode", "db/d9b/a10182.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
+    [ "Write", "db/d9b/a10182.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
 ];

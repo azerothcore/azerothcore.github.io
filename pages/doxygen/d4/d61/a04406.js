@@ -1,6 +1,6 @@
 var a04406 =
 [
-    [ "PetScript", "d6/d08/a10094.html", "d6/d08/a10094" ],
+    [ "PetScript", "d9/dbb/a10098.html", "d9/dbb/a10098" ],
     [ "PetHook", "d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404", [
       [ "PETHOOK_ON_INIT_STATS_FOR_LEVEL", "d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404a1aa219c404710f806516a47fb4a2c421", null ],
       [ "PETHOOK_ON_CALCULATE_MAX_TALENT_POINTS_FOR_LEVEL", "d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404af4173fac4396520c8d5f664cb15cd09a", null ],

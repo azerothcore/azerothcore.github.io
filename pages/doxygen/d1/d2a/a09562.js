@@ -1,15 +1,12 @@
 var a09562 =
 [
-    [ "const_iterator", "d1/d2a/a09562.html#a78bdb53e78488faa65effb2706140558", null ],
-    [ "iterator", "d1/d2a/a09562.html#aff8f555370355b24f386c86d2f900bc3", null ],
-    [ "begin", "d1/d2a/a09562.html#a6774b551f0d64628e33594c7b486a872", null ],
-    [ "begin", "d1/d2a/a09562.html#a3ba9493437881e83c07f07cc992c274a", null ],
-    [ "end", "d1/d2a/a09562.html#af488c0096775085791b5fbc89e5851a0", null ],
-    [ "end", "d1/d2a/a09562.html#acb8ebd37d1458773b65311060e844e4b", null ],
-    [ "getFirst", "d1/d2a/a09562.html#a2981143744c8e08a42104a5d08659be4", null ],
-    [ "getFirst", "d1/d2a/a09562.html#a4d5eb2b65f0a586a3e809acb2c26f6cb", null ],
-    [ "getLast", "d1/d2a/a09562.html#ab9c66d320815602126292a14cae69872", null ],
-    [ "getLast", "d1/d2a/a09562.html#a6f7379252f5907d9240e3d364d3a8c02", null ],
-    [ "rbegin", "d1/d2a/a09562.html#a147b3fe09037c1b80bb122c627000b0a", null ],
-    [ "rend", "d1/d2a/a09562.html#afb985b9c750f3ff01cb1adaa6f86c78f", null ]
+    [ "MapReference", "d1/d2a/a09562.html#abfbeb2ab5831f1f2a52bcb506318d85e", null ],
+    [ "~MapReference", "d1/d2a/a09562.html#a1e93b44871737991140718322fd1cd69", null ],
+    [ "next", "d1/d2a/a09562.html#a352ef695a8968a17e921861b7d6242c1", null ],
+    [ "next", "d1/d2a/a09562.html#ae0383c7748749a344bb2395fd6e8baa4", null ],
+    [ "nocheck_prev", "d1/d2a/a09562.html#a6cfff18295cf049ff554b0f140680890", null ],
+    [ "nockeck_prev", "d1/d2a/a09562.html#adcb903a8a67951fe3da8e99e270b5c91", null ],
+    [ "sourceObjectDestroyLink", "d1/d2a/a09562.html#ade5aa7b9b67ab49e523e4885460c3917", null ],
+    [ "targetObjectBuildLink", "d1/d2a/a09562.html#acc64fa182a97583a2d9b78d54ec07ca0", null ],
+    [ "targetObjectDestroyLink", "d1/d2a/a09562.html#aaa51bc8d8b47e0bbe5cfa828e4ae6604", null ]
 ];

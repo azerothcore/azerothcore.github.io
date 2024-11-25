@@ -1,5 +1,5 @@
 var a10226 =
 [
-    [ "LogoutCancelAck", "d9/d95/a10226.html#a2c261c1cdd4c29658c5160e8fe44ac58", null ],
-    [ "Write", "d9/d95/a10226.html#a12f9e56c2ee59f5a084e8aef3fdfad97", null ]
+    [ "LogoutCancel", "d9/d95/a10226.html#a179fccf74fa969e6a32492f35d6f28c8", null ],
+    [ "Read", "d9/d95/a10226.html#a9ed27bc4472b7e4e225793b4f2e5a34d", null ]
 ];

@@ -1,5 +1,5 @@
 var a26658 =
 [
-    [ "achievement_everything_counts", "d3/d73/a26658.html#af18e6b3128a9d722c98f33f7ec6430b3", null ],
-    [ "OnCheck", "d3/d73/a26658.html#a81741a8df4d10b37314ec8ef09eb888b", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d3/d73/a26658.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d3/d73/a26658.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

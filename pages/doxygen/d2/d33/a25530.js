@@ -1,6 +1,6 @@
 var a25530 =
 [
-    [ "PrepareSpellScript", "d2/d33/a25530.html#a738e105a48f6c603f3d9a690f44b8745", null ],
-    [ "Register", "d2/d33/a25530.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
-    [ "SetDest", "d2/d33/a25530.html#a59641895cead08de4a4503262505ee73", null ]
+    [ "CheckCast", "d2/d33/a25530.html#a14bd28450fb989b1deb1854e2118cb6b", null ],
+    [ "PrepareSpellScript", "d2/d33/a25530.html#a2a53af0cc911e1a68b365d692df1f0af", null ],
+    [ "Register", "d2/d33/a25530.html#a67c43c4dabfb72ca54c160228b4b21c0", null ]
 ];

@@ -1,9 +1,6 @@
 var a20710 =
 [
-    [ "npc_vrykul_skeletonAI", "dd/dac/a20710.html#a06b3f450485e9e90c91b1e9f5c41a2bd", null ],
-    [ "DamageTaken", "dd/dac/a20710.html#aeed85c443bd29c74aeb768e1f93b7006", null ],
-    [ "Reset", "dd/dac/a20710.html#a30a56c6c5e8509f692100aa02c691481", null ],
-    [ "UpdateAI", "dd/dac/a20710.html#ab8c18176fbe84f12ca5a63f99d66d394", null ],
-    [ "events", "dd/dac/a20710.html#aa797776c850ef3480f30a1551cdb878b", null ],
-    [ "pInstance", "dd/dac/a20710.html#a87c7c6a427a21c745fcfd3ff804f38d6", null ]
+    [ "boss_dalronn_the_controllerAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
+    [ "boss_dalronn_the_controller", "dd/dac/a20710.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
+    [ "GetAI", "dd/dac/a20710.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
 ];

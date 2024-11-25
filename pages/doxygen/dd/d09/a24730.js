@@ -1,8 +1,8 @@
 var a24730 =
 [
-    [ "CheckRequirement", "dd/d09/a24730.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
-    [ "HandleScript", "dd/d09/a24730.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
-    [ "Load", "dd/d09/a24730.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
-    [ "PrepareSpellScript", "dd/d09/a24730.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
-    [ "Register", "dd/d09/a24730.html#a89d053e0ee793017c74188aac32d99d5", null ]
+    [ "AchievementCredit", "dd/d09/a24730.html#ab0ec836feb53875de355330e05367fe8", null ],
+    [ "Load", "dd/d09/a24730.html#ae48c67f363e399f076122cb6eee10ffb", null ],
+    [ "PrepareSpellScript", "dd/d09/a24730.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
+    [ "Register", "dd/d09/a24730.html#a793921687c96a39f7dd872b9721096ca", null ],
+    [ "Validate", "dd/d09/a24730.html#a5be222c322714ec62f8beaf69faab257", null ]
 ];

@@ -1,7 +1,8 @@
 var a13014 =
 [
-    [ "OnRemove", "df/d75/a13014.html#a2438d8c85ff2a446572286b0d058ecf1", null ],
-    [ "PrepareAuraScript", "df/d75/a13014.html#ade353aafb960cabdb615718f41f485e8", null ],
-    [ "Register", "df/d75/a13014.html#af1c312778a13f7fe8d174247f69258ac", null ],
-    [ "Validate", "df/d75/a13014.html#afd75cdeb9430833fa6a59d7913c86a97", null ]
+    [ "FilterTargets", "df/d75/a13014.html#a3aac5e364d04a4a086aaa911051417d5", null ],
+    [ "HandleDummy", "df/d75/a13014.html#aa0705dee3edeca7b61f82581f367e94a", null ],
+    [ "PrepareSpellScript", "df/d75/a13014.html#a1efa036eac25d789850849dc1b209379", null ],
+    [ "Register", "df/d75/a13014.html#a656b512d5bef657004a72acbf7875760", null ],
+    [ "Validate", "df/d75/a13014.html#a33534d9fd70af99bbde1e4a908d22084", null ]
 ];

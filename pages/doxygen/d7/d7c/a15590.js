@@ -1,6 +1,8 @@
 var a15590 =
 [
-    [ "npc_twilight_summonAI", "d2/d38/a15594.html", "d2/d38/a15594" ],
-    [ "npc_twilight_summon", "d7/d7c/a15590.html#a2406ee3b02d9f1b1ebef54623d9a3c11", null ],
-    [ "GetAI", "d7/d7c/a15590.html#a98bf5ce96c25bc252acd46163644bf33", null ]
+    [ "boss_sartharion_shadronAI", "d7/d7c/a15590.html#a02e2e657ac74ab37a4568589511de664", null ],
+    [ "ExecuteEvent", "d7/d7c/a15590.html#a6a26f1f777988be6eaf8b1a675bbbabb", null ],
+    [ "HandleExtraEvent", "d7/d7c/a15590.html#a3db5e816f6253f9c4251690bfbbe1912", null ],
+    [ "Reset", "d7/d7c/a15590.html#a7054cde1de2166c2b06489187115cb3f", null ],
+    [ "SummonedCreatureDies", "d7/d7c/a15590.html#a8b70b3b7287108ad13caeb85a83cf26f", null ]
 ];

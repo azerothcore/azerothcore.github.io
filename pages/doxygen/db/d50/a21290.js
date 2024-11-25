@@ -1,6 +1,6 @@
 var a21290 =
 [
-    [ "npc_counselor_talbotAI", "d6/d56/a21294.html", "d6/d56/a21294" ],
-    [ "npc_counselor_talbot", "db/d50/a21290.html#a9223380bb78afeda617482bea0a3110c", null ],
-    [ "GetAI", "db/d50/a21290.html#a3debd13352146a247d635042ecbfa155", null ]
+    [ "npc_steam_powered_auctioneerAI", "d6/d56/a21294.html", "d6/d56/a21294" ],
+    [ "npc_steam_powered_auctioneer", "db/d50/a21290.html#ae8c918c639ce0c3ddc14b8cf7f0ef855", null ],
+    [ "GetAI", "db/d50/a21290.html#a39a2f0c187078c759bc4a391e0a81068", null ]
 ];

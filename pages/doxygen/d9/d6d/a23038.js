@@ -1,5 +1,5 @@
 var a23038 =
 [
-    [ "go_main_chambers_access_panel", "d9/d6d/a23038.html#a30c3c20be1892b5107ef53683d593b75", null ],
-    [ "OnGossipHello", "d9/d6d/a23038.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
+    [ "at_underbog_ghazan", "d9/d6d/a23038.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
+    [ "_OnTrigger", "d9/d6d/a23038.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
 ];

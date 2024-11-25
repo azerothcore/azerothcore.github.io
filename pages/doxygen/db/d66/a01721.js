@@ -1,16 +1,16 @@
 var a01721 =
 [
-    [ "npc_ulduar_keeper", "d5/dc2/a20638.html", "d5/dc2/a20638" ],
-    [ "npc_ulduar_keeper::npc_ulduar_keeperAI", "d4/deb/a20642.html", "d4/deb/a20642" ],
-    [ "spell_ulduar_energy_sap_aura", "d5/d16/a20646.html", "d5/d16/a20646" ],
-    [ "npc_ulduar_snow_mound", "d0/df7/a20650.html", "d0/df7/a20650" ],
-    [ "npc_ulduar_storm_tempered_keeper", "db/dd2/a20654.html", "db/dd2/a20654" ],
-    [ "npc_ulduar_storm_tempered_keeper::npc_ulduar_storm_tempered_keeperAI", "df/da7/a20658.html", "df/da7/a20658" ],
-    [ "npc_ulduar_arachnopod_destroyer", "d9/d2b/a20662.html", "d9/d2b/a20662" ],
-    [ "npc_ulduar_arachnopod_destroyer::npc_ulduar_arachnopod_destroyerAI", "dd/ded/a20666.html", "dd/ded/a20666" ],
-    [ "spell_ulduar_arachnopod_damaged_aura", "dd/dab/a20670.html", "dd/dab/a20670" ],
-    [ "AreaTrigger_at_celestial_planetarium_enterance", "dd/d35/a20674.html", "dd/d35/a20674" ],
-    [ "npc_salvaged_siege_engine", "d8/d1e/a20678.html", "d8/d1e/a20678" ],
+    [ "npc_ulduar_keeper", "df/d8e/a20622.html", "df/d8e/a20622" ],
+    [ "npc_ulduar_keeper::npc_ulduar_keeperAI", "d8/d3a/a20626.html", "d8/d3a/a20626" ],
+    [ "spell_ulduar_energy_sap_aura", "d4/dbd/a20630.html", "d4/dbd/a20630" ],
+    [ "npc_ulduar_snow_mound", "d8/df4/a20634.html", "d8/df4/a20634" ],
+    [ "npc_ulduar_storm_tempered_keeper", "d5/dc2/a20638.html", "d5/dc2/a20638" ],
+    [ "npc_ulduar_storm_tempered_keeper::npc_ulduar_storm_tempered_keeperAI", "d4/deb/a20642.html", "d4/deb/a20642" ],
+    [ "npc_ulduar_arachnopod_destroyer", "d5/d16/a20646.html", "d5/d16/a20646" ],
+    [ "npc_ulduar_arachnopod_destroyer::npc_ulduar_arachnopod_destroyerAI", "d0/df7/a20650.html", "d0/df7/a20650" ],
+    [ "spell_ulduar_arachnopod_damaged_aura", "db/dd2/a20654.html", "db/dd2/a20654" ],
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "df/da7/a20658.html", "df/da7/a20658" ],
+    [ "npc_salvaged_siege_engine", "d9/d2b/a20662.html", "d9/d2b/a20662" ],
     [ "EnergySap", "db/d66/a01721.html#acd2ead68f64ce23404d27b404679d93d", [
       [ "SPELL_ENERGY_SAP_DAMAGE_1", "db/d66/a01721.html#acd2ead68f64ce23404d27b404679d93da5efbbf6eb2348bbf207329be3daa22ab", null ],
       [ "SPELL_ENERGY_SAP_DAMAGE_2", "db/d66/a01721.html#acd2ead68f64ce23404d27b404679d93dad68983f43f8b3b69e6106291177d645d", null ]

@@ -1,6 +1,6 @@
 var a23590 =
 [
-    [ "HandlePeriodic", "d5/db7/a23590.html#a0838d4449351f46a1f9f485abaf35c2b", null ],
-    [ "PrepareAuraScript", "d5/db7/a23590.html#a438425f3002028a0978e0dbab580ca03", null ],
-    [ "Register", "d5/db7/a23590.html#af4b26607e8838b7bbbe8777f57601341", null ]
+    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "dc/d59/a23594.html", "dc/d59/a23594" ],
+    [ "npc_deaths_door_fell_cannon_target_bunny", "d5/db7/a23590.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
+    [ "GetAI", "d5/db7/a23590.html#a250707096229da28024960beeb7725bf", null ]
 ];

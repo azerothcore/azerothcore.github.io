@@ -1,16 +1,20 @@
 var a28102 =
 [
-    [ "GetAddressForClient", "d0/db7/a28102.html#a2a3f3db57bb7e6f69ca4f030b65c7331", null ],
-    [ "AllowedSecurityLevel", "d0/db7/a28102.html#a25e953d80aa3c80e068afe6b57f67d99", null ],
-    [ "Build", "d0/db7/a28102.html#a64533e919d8c3a37bd5668af77d09166", null ],
-    [ "ExternalAddress", "d0/db7/a28102.html#a703504aaf54f1ecf934b9184e9737367", null ],
-    [ "Flags", "d0/db7/a28102.html#a1984cc9564b01b6456f31f77fd65a6d6", null ],
-    [ "Id", "d0/db7/a28102.html#ab0ccda7e7a58eee0965261767f3ee2ee", null ],
-    [ "LocalAddress", "d0/db7/a28102.html#a61f429ddc92895e66dff2808e17cc322", null ],
-    [ "LocalSubnetMask", "d0/db7/a28102.html#a52a4b2704e7f76d8ea296148cefb9482", null ],
-    [ "Name", "d0/db7/a28102.html#a9381717fdc924158ecd61a8f00488fc0", null ],
-    [ "PopulationLevel", "d0/db7/a28102.html#a63cdbd47c50f368974b43c3db2f32cee", null ],
-    [ "Port", "d0/db7/a28102.html#a0131d758f10cbae0c610c2c088299feb", null ],
-    [ "Timezone", "d0/db7/a28102.html#a377055c4729f21beecb8601cd79017db", null ],
-    [ "Type", "d0/db7/a28102.html#af77452a4cf7f632d692079615af4737c", null ]
+    [ "RealmMap", "d0/db7/a28102.html#a6031c19ec935fbe535f60a1014483dbd", null ],
+    [ "RealmList", "d0/db7/a28102.html#abe7dfad5160a08a5852cb1436a06eaa9", null ],
+    [ "~RealmList", "d0/db7/a28102.html#a64bea5f38384143cc960840a8e84ef00", null ],
+    [ "Close", "d0/db7/a28102.html#a14a4d9b5383da24bc1ad9754cdfa2183", null ],
+    [ "GetBuildInfo", "d0/db7/a28102.html#a0f7136cb280d2461b1ec0d080645c6e0", null ],
+    [ "GetRealm", "d0/db7/a28102.html#a3e25e63168bcff88d021294559ccf0c5", null ],
+    [ "GetRealms", "d0/db7/a28102.html#afc2cbe2a4ee4d9870821dbe8d96e8fa4", null ],
+    [ "Initialize", "d0/db7/a28102.html#a70954d518dc4559e0aca0388f13db411", null ],
+    [ "Instance", "d0/db7/a28102.html#aea053134fe293fbd4a8801b25fbb44ca", null ],
+    [ "LoadBuildInfo", "d0/db7/a28102.html#a1f8866e57557beb7d69037a63e34428d", null ],
+    [ "UpdateRealm", "d0/db7/a28102.html#ae15cf59b00e8e8e561f266d5dd3e11ae", null ],
+    [ "UpdateRealms", "d0/db7/a28102.html#a0b4559e5538a02ccf5247839005d602e", null ],
+    [ "_builds", "d0/db7/a28102.html#a7c38c3c8b4fe6554c66dbc5ada26a3e0", null ],
+    [ "_realms", "d0/db7/a28102.html#a41693a01cd88ea99b54dd9ca8fe6b445", null ],
+    [ "_resolver", "d0/db7/a28102.html#a1beee0fdd1a9e61f68db925f53d373a9", null ],
+    [ "_updateInterval", "d0/db7/a28102.html#ac07fe3cd4fc18169af4f63b207902e95", null ],
+    [ "_updateTimer", "d0/db7/a28102.html#af040673a6ea6ac35dd67da3d218b5c9b", null ]
 ];

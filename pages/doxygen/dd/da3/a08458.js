@@ -1,6 +1,6 @@
 var a08458 =
 [
-    [ "spellIdImmunityPredicate", "dd/da3/a08458.html#a04893e34d418a0649d51dfa82b559d9c", null ],
-    [ "operator()", "dd/da3/a08458.html#ae97afff7a6b3ea5dca917d3dbb9ef818", null ],
-    [ "_type", "dd/da3/a08458.html#a125dfe727d668b5b9820adf1f7f0e0a8", null ]
+    [ "SplineHandler", "dd/da3/a08458.html#a7c5aac2d12e13bad1c38c4e8860ed27f", null ],
+    [ "operator()", "dd/da3/a08458.html#aa5d1bddc2435eee76f493229740ecf9e", null ],
+    [ "_unit", "dd/da3/a08458.html#aaafb07271736d8bc89d07aafbbae7f25", null ]
 ];

@@ -1,6 +1,9 @@
 var a19290 =
 [
-    [ "CosmicSmashDamageEvent", "dd/da3/a19290.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "dd/da3/a19290.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "dd/da3/a19290.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "npc_brann_bronzebeard_algalonAI", "dd/da3/a19290.html#a5ab0ff088866cf9d6af99ee3f42e897a", null ],
+    [ "DoAction", "dd/da3/a19290.html#a9de9e9b19b8a635ec4bc0a4f8c8d13c6", null ],
+    [ "MovementInform", "dd/da3/a19290.html#a7f8d3efed49f0d43a5e9e73ee8bd36e0", null ],
+    [ "UpdateAI", "dd/da3/a19290.html#a16e3fcd7f082e04f648d2341a7e83cba", null ],
+    [ "_currentPoint", "dd/da3/a19290.html#ae9da41b5b4cae16e1ed4709ab41b8964", null ],
+    [ "events", "dd/da3/a19290.html#ab71b71ac63517349cb8702bb29d76334", null ]
 ];

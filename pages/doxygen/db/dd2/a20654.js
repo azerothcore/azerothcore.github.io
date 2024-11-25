@@ -1,6 +1,6 @@
 var a20654 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "df/da7/a20658.html", "df/da7/a20658" ],
-    [ "npc_ulduar_storm_tempered_keeper", "db/dd2/a20654.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
-    [ "GetAI", "db/dd2/a20654.html#aa0860236d2abedba1e521ee1610c89e8", null ]
+    [ "HandleEffectPeriodic", "db/dd2/a20654.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
+    [ "PrepareAuraScript", "db/dd2/a20654.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
+    [ "Register", "db/dd2/a20654.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
 ];

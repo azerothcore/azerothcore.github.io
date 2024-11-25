@@ -1,6 +1,6 @@
 var a16938 =
 [
-    [ "ModAuraStack", "dc/d7d/a16938.html#a7535ef148e047e32a5f7a1944585e396", null ],
-    [ "PrepareSpellScript", "dc/d7d/a16938.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
-    [ "Register", "dc/d7d/a16938.html#ab44b362197e74b98b3ffeb98eff52742", null ]
+    [ "AddExtraDamage", "dc/d7d/a16938.html#adeedfdd7555dfd009c99db6f002f7488", null ],
+    [ "PrepareSpellScript", "dc/d7d/a16938.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
+    [ "Register", "dc/d7d/a16938.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
 ];

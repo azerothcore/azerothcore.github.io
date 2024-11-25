@@ -1,6 +1,6 @@
 var a24306 =
 [
-    [ "CheckTargets", "d6/d35/a24306.html#abb6ffb41731b05b868f82498b373d8b9", null ],
-    [ "PrepareSpellScript", "d6/d35/a24306.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
-    [ "Register", "d6/d35/a24306.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
+    [ "CalculateAmount", "d6/d35/a24306.html#ada4514ba7769ebceeed1e0ab1c3a33e8", null ],
+    [ "PrepareAuraScript", "d6/d35/a24306.html#a1faa084b17776e826242293e2aaef2f4", null ],
+    [ "Register", "d6/d35/a24306.html#a94b21c91954385201d4bad6aff2205fc", null ]
 ];

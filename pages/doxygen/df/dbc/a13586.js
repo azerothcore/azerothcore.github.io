@@ -1,5 +1,6 @@
 var a13586 =
 [
-    [ "at_zulgurub_bridge_speech", "df/dbc/a13586.html#a0ef9d44dc98ddee8fe5133862339808d", null ],
-    [ "_OnTrigger", "df/dbc/a13586.html#a67234a1f4c77888a8535d0ea52e16ba9", null ]
+    [ "boss_hakkarAI", "db/da1/a13590.html", "db/da1/a13590" ],
+    [ "boss_hakkar", "df/dbc/a13586.html#a834bd1f223154fbf1be94bf43136da28", null ],
+    [ "GetAI", "df/dbc/a13586.html#aff3a089e30dcddfde4db372104153723", null ]
 ];

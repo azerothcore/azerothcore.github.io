@@ -1,9 +1,25 @@
 var a09754 =
 [
-    [ "PathMovementBase", "db/df4/a09754.html#a6b76e1527ed69ff631d7a72c309f264a", null ],
-    [ "PathMovementBase", "db/df4/a09754.html#a953fcda0cf7764f659fc5a4a19408550", null ],
-    [ "~PathMovementBase", "db/df4/a09754.html#a33b2b53993fe897712a196bc4ad86bd1", null ],
-    [ "GetCurrentNode", "db/df4/a09754.html#a7ceb52928f2198392980c3926516fd82", null ],
-    [ "i_currentNode", "db/df4/a09754.html#a5420aef90d3529881ef41362ebb29934", null ],
-    [ "i_path", "db/df4/a09754.html#a3dbc5e41e0c6245f369afc7a24081c83", null ]
+    [ "FollowMovementGenerator", "db/df4/a09754.html#a54cd020fc83846f23206053c5d7415ff", null ],
+    [ "~FollowMovementGenerator", "db/df4/a09754.html#ada41372b5aaf8f87eb4efde96285421c", null ],
+    [ "_addUnitStateMove", "db/df4/a09754.html#a4680693a31c182e3972146f8818cc8dd", null ],
+    [ "_clearUnitStateMove", "db/df4/a09754.html#af0502f1e5b249aa20df98f4bb3b2e101", null ],
+    [ "DoFinalize", "db/df4/a09754.html#ac19610399e3ee4d581b1439956d928e7", null ],
+    [ "DoInitialize", "db/df4/a09754.html#ae5c336754ea7dd54a828760f5032bb98", null ],
+    [ "DoReset", "db/df4/a09754.html#a54bd9ddddcd7c3496d2d644407bc3ef9", null ],
+    [ "DoUpdate", "db/df4/a09754.html#acc35c63291f2d84051ac69bb5d32effb", null ],
+    [ "GetFollowRange", "db/df4/a09754.html#a5f9146811663795288ae52f05018384d", null ],
+    [ "GetMovementGeneratorType", "db/df4/a09754.html#aaf0860a5a14b59e8b45f9cfa29f34387", null ],
+    [ "GetTarget", "db/df4/a09754.html#a5f6f17ce892636cdaa652b0bebc42760", null ],
+    [ "MovementInform", "db/df4/a09754.html#af25ca8590054d8e69f2aaf65cd388606", null ],
+    [ "PositionOkay", "db/df4/a09754.html#a1ee2956b66e3f6bda623e60a54fa0594", null ],
+    [ "unitSpeedChanged", "db/df4/a09754.html#af28a24a9ee622dbc42a9705b9e44d172", null ],
+    [ "_angle", "db/df4/a09754.html#aba650091163aa7a072af72aa59ea9a2e", null ],
+    [ "_inheritWalkState", "db/df4/a09754.html#a54eb84d8f0c696db3cc7941c8ef9807b", null ],
+    [ "_lastPredictedPosition", "db/df4/a09754.html#afa5e1acb94fb1e3ce7854533f6e3d2ac", null ],
+    [ "_lastTargetPosition", "db/df4/a09754.html#a8f73424b130a8d99a15b276f23af9211", null ],
+    [ "_range", "db/df4/a09754.html#a18250f2a1915424157693be6ac1047e3", null ],
+    [ "i_path", "db/df4/a09754.html#a7b835c0ee56046fc28c3664f22a32dd8", null ],
+    [ "i_recheckPredictedDistance", "db/df4/a09754.html#ab48307cc97a09d8aed0ecaeab95f6bf6", null ],
+    [ "i_recheckPredictedDistanceTimer", "db/df4/a09754.html#ae38b7818fd26d19cf01ef74866b29a01", null ]
 ];

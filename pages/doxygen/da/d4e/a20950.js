@@ -1,22 +1,14 @@
 var a20950 =
 [
-    [ "instance_vault_of_archavon_InstanceMapScript", "da/d4e/a20950.html#ab0f9e62a516c2a572d438ee6b33ffe89", null ],
-    [ "CheckAchievementCriteriaMeet", "da/d4e/a20950.html#afafb4c0c0e79b58094ea09068ebdf724", null ],
-    [ "GetData", "da/d4e/a20950.html#aa3f41b9c79c7bcdd9ad330fa58376799", null ],
-    [ "GetGuidData", "da/d4e/a20950.html#a371a688192e9c7c239fc4c1de8e45877", null ],
-    [ "Initialize", "da/d4e/a20950.html#acc0816a05728b59ddf7aeb4077a7329d", null ],
-    [ "IsEncounterInProgress", "da/d4e/a20950.html#ae2607badcd241cf6b0d4b3a224acc802", null ],
-    [ "OnCreatureCreate", "da/d4e/a20950.html#ae16d97e5a2cfe7fce6ede12874cb9243", null ],
-    [ "OnPlayerEnter", "da/d4e/a20950.html#a82fdae36261fa7d845e8d7fdf2428637", null ],
-    [ "ReadSaveDataMore", "da/d4e/a20950.html#a07a9861d018a35cd295f65b7e68a5bd1", null ],
-    [ "SetData", "da/d4e/a20950.html#a336bd80e5118d6b5cfa0f76f5d207fc5", null ],
-    [ "Update", "da/d4e/a20950.html#ac22e9b215c1351f543289af2875491b4", null ],
-    [ "WriteSaveDataMore", "da/d4e/a20950.html#a22e3c4bb29159588a96f13644218c427", null ],
-    [ "ArchavonDeath", "da/d4e/a20950.html#a1259cf1ed03095fb3e93f6aab203aa99", null ],
-    [ "bossGUIDs", "da/d4e/a20950.html#a6dc53f3e4385f09869d91f59520b79d4", null ],
-    [ "checkTimer", "da/d4e/a20950.html#aabf39e7d3cef7951c861c194dfff9ecd", null ],
-    [ "EmalonDeath", "da/d4e/a20950.html#ac9235ec40c6648bb2a7d252b0053bc47", null ],
-    [ "KoralonDeath", "da/d4e/a20950.html#a544c022446c0ddb39797417271ec1259", null ],
-    [ "m_auiEncounter", "da/d4e/a20950.html#a708d88ed26d8c00cd9fc8f1601c9358e", null ],
-    [ "stoned", "da/d4e/a20950.html#acde4794f2e980d523e873c0e610f726a", null ]
+    [ "boss_erekemAI", "da/d4e/a20950.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
+    [ "EnterEvadeMode", "da/d4e/a20950.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
+    [ "GetChainHealTargetGUID", "da/d4e/a20950.html#aa346cbaded883bbb3806acf9cb32579a", null ],
+    [ "JustDied", "da/d4e/a20950.html#a12e7fb5389977dcacb4e1eadda771467", null ],
+    [ "JustEngagedWith", "da/d4e/a20950.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
+    [ "KilledUnit", "da/d4e/a20950.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
+    [ "MoveInLineOfSight", "da/d4e/a20950.html#a5905809cba20d426c4d222b1e91055bc", null ],
+    [ "Reset", "da/d4e/a20950.html#a338bbc123b1d3adef4f014c3302c4590", null ],
+    [ "UpdateAI", "da/d4e/a20950.html#a234ae447260ae30a137a53fb986e5dc4", null ],
+    [ "events", "da/d4e/a20950.html#a8d4445b6d35f534061818f7708f39f7e", null ],
+    [ "pInstance", "da/d4e/a20950.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
 ];

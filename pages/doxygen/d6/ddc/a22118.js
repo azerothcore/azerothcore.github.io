@@ -1,6 +1,7 @@
 var a22118 =
 [
-    [ "npc_crusade_recruitAI", "db/d17/a22122.html", "db/d17/a22122" ],
-    [ "npc_crusade_recruit", "d6/ddc/a22118.html#a6e130f153c506255ef5ece1baf006028", null ],
-    [ "GetAI", "d6/ddc/a22118.html#a412f0d153676758fda8c1f7f1e9dda44", null ]
+    [ "npc_storm_cloudAI", "d6/ddc/a22118.html#aa4dd9409cd74f3c2c878974715e43394", null ],
+    [ "JustRespawned", "d6/ddc/a22118.html#ad0f99362f7ab506b322b6d75890881c1", null ],
+    [ "Reset", "d6/ddc/a22118.html#a99654ac86502e3ac2f899082269ccb01", null ],
+    [ "SpellHit", "d6/ddc/a22118.html#ac51313cec4d76216f3c716d988fc4857", null ]
 ];

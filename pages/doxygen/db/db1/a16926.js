@@ -1,6 +1,6 @@
 var a16926 =
 [
-    [ "AddExtraDamage", "db/db1/a16926.html#adeedfdd7555dfd009c99db6f002f7488", null ],
-    [ "PrepareSpellScript", "db/db1/a16926.html#a5d5c32f102c525f6c25d12281a58f5f4", null ],
-    [ "Register", "db/db1/a16926.html#affe1d9a5e9c4776d1651fdb95283caf4", null ]
+    [ "npc_kinetic_bombAI", "d6/d32/a16930.html", "d6/d32/a16930" ],
+    [ "npc_kinetic_bomb", "db/db1/a16926.html#abca5a72d3ac0d50a27e604e8e1491957", null ],
+    [ "GetAI", "db/db1/a16926.html#ae00630d96dc7a93ea13841c1f9e9be3b", null ]
 ];

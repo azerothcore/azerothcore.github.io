@@ -1,5 +1,6 @@
 var a27290 =
 [
-    [ "npc_stable_masterAI", "d6/d2d/a27290.html#a5c6f9bca1004af163ddb074b606330be", null ],
-    [ "sGossipSelect", "d6/d2d/a27290.html#a09205661674dd011ffe425deaadde053", null ]
+    [ "npc_venomhide_hatchlingAI", "d6/d2d/a27290.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
+    [ "IsSummonedBy", "d6/d2d/a27290.html#a6e1b76f43217f1eb855b50d58a069518", null ],
+    [ "SpellHit", "d6/d2d/a27290.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
 ];

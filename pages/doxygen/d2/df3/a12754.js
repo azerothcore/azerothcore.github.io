@@ -1,9 +1,6 @@
 var a12754 =
 [
-    [ "npc_risen_guardianAI", "d2/df3/a12754.html#a50eb3de52205fc1bbc6936f0708c68a6", null ],
-    [ "IsSummonedBy", "d2/df3/a12754.html#ad9f45b9007c1ff74d0f725fbf7f00abe", null ],
-    [ "KilledUnit", "d2/df3/a12754.html#abc7afaa685a436b34ff76edcc6c25e54", null ],
-    [ "Gandling", "d2/df3/a12754.html#a93013b905260aa51341b22d1627cc986", null ],
-    [ "instance", "d2/df3/a12754.html#a96f1835989f646c708b8ef0cc9999e63", null ],
-    [ "room", "d2/df3/a12754.html#a5862a184b6daa92da133cc6c360a993d", null ]
+    [ "boss_darkmaster_gandlingAI", "d7/de3/a12758.html", "d7/de3/a12758" ],
+    [ "boss_darkmaster_gandling", "d2/df3/a12754.html#a6db73fa3c8324f6bfdcb1ae6a72ee39b", null ],
+    [ "GetAI", "d2/df3/a12754.html#a21ea53862614303af31a517a53d1fbf6", null ]
 ];

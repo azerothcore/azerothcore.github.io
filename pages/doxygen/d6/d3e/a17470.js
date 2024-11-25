@@ -1,6 +1,6 @@
 var a17470 =
 [
-    [ "PrepareSpellScript", "d6/d3e/a17470.html#a16eadb50b6038f16ea28464d00df3381", null ],
-    [ "Register", "d6/d3e/a17470.html#ac6e304d391011863b8eff8105fab5191", null ],
-    [ "SelectDest", "d6/d3e/a17470.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
+    [ "npc_gas_cloudAI", "d9/d78/a17474.html", "d9/d78/a17474" ],
+    [ "npc_gas_cloud", "d6/d3e/a17470.html#a99c887cb8a5cc87bbfca026447368b8e", null ],
+    [ "GetAI", "d6/d3e/a17470.html#a1c76a148f9c1acec473f102b6a24e3bb", null ]
 ];

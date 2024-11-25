@@ -1,8 +1,8 @@
 var a02240 =
 [
-    [ "instance_sunwell_plateau", "de/d72/a13114.html", "de/d72/a13114" ],
-    [ "instance_sunwell_plateau::instance_sunwell_plateau_InstanceMapScript", "de/dfc/a13118.html", "de/dfc/a13118" ],
-    [ "spell_cataclysm_breath", "d2/dd9/a13122.html", "d2/dd9/a13122" ],
+    [ "instance_sunwell_plateau", "d3/d1e/a13126.html", "d3/d1e/a13126" ],
+    [ "instance_sunwell_plateau::instance_sunwell_plateau_InstanceMapScript", "d9/d61/a13130.html", "d9/d61/a13130" ],
+    [ "spell_cataclysm_breath", "d6/d2d/a13134.html", "d6/d2d/a13134" ],
     [ "cataclysmBreath", "dc/d35/a02240.html#a6a5181bd462eed11e28ffb04c14a901c", [
       [ "SPELL_CORROSIVE_POISON", "dc/d35/a02240.html#a6a5181bd462eed11e28ffb04c14a901ca818edbfea0cf0c02ff4960dc3223a5f3", null ],
       [ "SPELL_FEVERED_FATIGUE", "dc/d35/a02240.html#a6a5181bd462eed11e28ffb04c14a901ca998a1e2cfc29e3344feb12041284e222", null ],

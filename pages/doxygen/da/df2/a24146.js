@@ -1,6 +1,6 @@
 var a24146 =
 [
-    [ "FilterTargets", "da/df2/a24146.html#a991a944f31680e4d53cc2a46d8c8b8bf", null ],
-    [ "PrepareSpellScript", "da/df2/a24146.html#aea49df3f6b93223ed72c3a9875232b74", null ],
-    [ "Register", "da/df2/a24146.html#a8f0e0b6363303def780d35415c88b4d6", null ]
+    [ "HandleAfterCast", "da/df2/a24146.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "da/df2/a24146.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "da/df2/a24146.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

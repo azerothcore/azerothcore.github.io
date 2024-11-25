@@ -1,6 +1,5 @@
 var a22042 =
 [
-    [ "CheckCast", "dd/d1b/a22042.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
-    [ "PrepareSpellScript", "dd/d1b/a22042.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
-    [ "Register", "dd/d1b/a22042.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
+    [ "achievement_wg_vehicular_gnomeslaughter", "dd/d1b/a22042.html#a441b8db113ef4843f433c1ea3f3052b5", null ],
+    [ "OnCheck", "dd/d1b/a22042.html#ab23a2d90e536a3a9ecbb3b64c5b0e18f", null ]
 ];

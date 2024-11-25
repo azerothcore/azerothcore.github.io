@@ -1,11 +1,7 @@
 var a14102 =
 [
-    [ "HandleFinish", "dd/d45/a14102.html#ace3a2ad0cf8ac31f7ef5345f1dbbf6e7", null ],
-    [ "HandleScript", "dd/d45/a14102.html#a2a2f005c29f0381c3c45d04a75ccc378", null ],
-    [ "Load", "dd/d45/a14102.html#a177ea78202f4d5b4c381f1712b01fe43", null ],
-    [ "PrepareSpellScript", "dd/d45/a14102.html#a9714f48de3982feb245f78efb8008f1b", null ],
-    [ "Register", "dd/d45/a14102.html#ad24c159a0dcfb86eb35a4286f606a3ab", null ],
-    [ "ThrowNextTorch", "dd/d45/a14102.html#a6ea11852ede397c1ede1ebaabb906c35", null ],
-    [ "Validate", "dd/d45/a14102.html#a026fbf7123f6780459c19ff04b370b08", null ],
-    [ "handled", "dd/d45/a14102.html#a869fde9e5d0756d3c68a8db3e10ad50d", null ]
+    [ "HandleEffectApply", "dd/d45/a14102.html#a404f2134734e1d21201033b3f26e611e", null ],
+    [ "HandleEffectPeriodic", "dd/d45/a14102.html#a8ce6799e01cf8b7849386fbdd2edddb8", null ],
+    [ "PrepareAuraScript", "dd/d45/a14102.html#a1707f92d77a3ed7beefd499adc7f4a95", null ],
+    [ "Register", "dd/d45/a14102.html#ad239472c15ca0c73b053d112f538ecff", null ]
 ];

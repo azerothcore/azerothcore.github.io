@@ -1,9 +1,6 @@
 var a15214 =
 [
-    [ "npc_custodian_of_timeAI", "d5/deb/a15214.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
-    [ "JustEngagedWith", "d5/deb/a15214.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
-    [ "MoveInLineOfSight", "d5/deb/a15214.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
-    [ "Reset", "d5/deb/a15214.html#a56bcc694ac286488ed4b3f2328c30573", null ],
-    [ "UpdateAI", "d5/deb/a15214.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
-    [ "WaypointReached", "d5/deb/a15214.html#a963736e62fbd0caea631ee3fb69fca46", null ]
+    [ "npc_aquementasAI", "d4/d27/a15218.html", "d4/d27/a15218" ],
+    [ "npc_aquementas", "d5/deb/a15214.html#a81d0b010c2aef0ea329ff7656b76cbe5", null ],
+    [ "GetAI", "d5/deb/a15214.html#a8a071b3073d69306feb84aca347a22c8", null ]
 ];

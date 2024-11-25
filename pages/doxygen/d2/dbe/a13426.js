@@ -1,6 +1,5 @@
 var a13426 =
 [
-    [ "npc_tapoke_slim_jahnAI", "df/d01/a13430.html", "df/d01/a13430" ],
-    [ "npc_tapoke_slim_jahn", "d2/dbe/a13426.html#a61e36b57f8ba78c371d454efb1512579", null ],
-    [ "GetAI", "d2/dbe/a13426.html#a397629742eace1b96dfd9d4a2e55cc32", null ]
+    [ "npc_andorhal_towerAI", "d2/dbe/a13426.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
+    [ "MoveInLineOfSight", "d2/dbe/a13426.html#a1165ee0e066dcaeb300096e55758389b", null ]
 ];

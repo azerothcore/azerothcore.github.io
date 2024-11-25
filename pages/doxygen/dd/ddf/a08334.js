@@ -1,10 +1,10 @@
 var a08334 =
 [
-    [ "DuelInfo", "dd/ddf/a08334.html#a183f336e52fe7cdaa34dbb43991d0c39", null ],
-    [ "Initiator", "dd/ddf/a08334.html#ae1a6667f934c88ad8f0b160e6a8b1190", null ],
-    [ "IsMounted", "dd/ddf/a08334.html#ad80e3507a7bdfc8f7dbebd07697c464f", null ],
-    [ "Opponent", "dd/ddf/a08334.html#a2765770367c839ad28f804e2df3205cb", null ],
-    [ "OutOfBoundsTime", "dd/ddf/a08334.html#a8ff9ae1c990674b6ac0cd929f5114f23", null ],
-    [ "StartTime", "dd/ddf/a08334.html#a1b8b4c373b2e4243f8e33a391821528f", null ],
-    [ "State", "dd/ddf/a08334.html#ae8492a9857d819fcec56a10cfd5051e2", null ]
+    [ "PvPInfo", "dd/ddf/a08334.html#ad956667bc89b49e5a520ee5a4f19f22e", null ],
+    [ "EndTimer", "dd/ddf/a08334.html#ae06b5030552c02f30fe8386633a753df", null ],
+    [ "FFAPvPEndTimer", "dd/ddf/a08334.html#a739dfc63dfe39429a44ea682d9120522", null ],
+    [ "IsHostile", "dd/ddf/a08334.html#a22a1c8f0e8c51f4a27cb8ab362028d61", null ],
+    [ "IsInFFAPvPArea", "dd/ddf/a08334.html#a8a654926248b3974587af1eb9c064d15", null ],
+    [ "IsInHostileArea", "dd/ddf/a08334.html#a92d3c8991f7e3c5d683b414d18cbbd64", null ],
+    [ "IsInNoPvPArea", "dd/ddf/a08334.html#a6858b8db9a441bf950f7d9fdca1587b5", null ]
 ];

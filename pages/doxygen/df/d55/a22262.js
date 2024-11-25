@@ -1,8 +1,8 @@
 var a22262 =
 [
-    [ "CalcPeriodic", "df/d55/a22262.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
-    [ "OnRemove", "df/d55/a22262.html#af120bb9d6a0c3d338706613540849412", null ],
-    [ "PrepareAuraScript", "df/d55/a22262.html#ad413f14193013058e1775f80b457a81d", null ],
-    [ "Register", "df/d55/a22262.html#aa35fc5865f108712e450661e67c384ce", null ],
-    [ "Update", "df/d55/a22262.html#aebc61b57ed8038488ec06c14483b2099", null ]
+    [ "npc_yor", "df/d55/a22262.html#a43ed8720d06c035085d481dbe6539dca", null ],
+    [ "JustEngagedWith", "df/d55/a22262.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
+    [ "Reset", "df/d55/a22262.html#aa698540b646fd870b33afbaf19ddbe07", null ],
+    [ "UpdateAI", "df/d55/a22262.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
+    [ "_scheduler", "df/d55/a22262.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
 ];

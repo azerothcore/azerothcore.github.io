@@ -1,6 +1,6 @@
 var a15770 =
 [
-    [ "OnSummon", "d8/d3c/a15770.html#ae2766d12fb686356b46126848f356c5a", null ],
-    [ "PrepareSpellScript", "d8/d3c/a15770.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
-    [ "Register", "d8/d3c/a15770.html#a717394bfbea621ae637f9e87efddda62", null ]
+    [ "HandlePeriodic", "d8/d3c/a15770.html#a7753587518171689f86f3f76269c1b8a", null ],
+    [ "PrepareAuraScript", "d8/d3c/a15770.html#aa73351e7200bee94b0068fb8dabfada5", null ],
+    [ "Register", "d8/d3c/a15770.html#ab126fe8d4387609e8834898c3b3a67ea", null ]
 ];

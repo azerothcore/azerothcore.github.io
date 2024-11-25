@@ -1,7 +1,9 @@
 var a12550 =
 [
-    [ "HandleScriptEffect", "de/d7d/a12550.html#a1b196f3817c16fac48392981b58c1a05", null ],
-    [ "PrepareSpellScript", "de/d7d/a12550.html#ad44566ff9a44057679e7ce8e1959776d", null ],
-    [ "Register", "de/d7d/a12550.html#aef3bfdaff9f0b5080d83805a1a962a79", null ],
-    [ "Validate", "de/d7d/a12550.html#a70a1f0d2666921ccbad62c1fd06fe4b6", null ]
+    [ "npc_eye_of_acherus", "de/d7d/a12550.html#a1e0ed0eb0e32cb2e8a5d86869359db6c", null ],
+    [ "InitializeAI", "de/d7d/a12550.html#aea655b94bcd590835882793d916d7865", null ],
+    [ "MovementInform", "de/d7d/a12550.html#a5e0a360015fdfb1c6a277ba13583a584", null ],
+    [ "OnCharmed", "de/d7d/a12550.html#a9a9d274a503ebe06fa503f433f53b0e6", null ],
+    [ "UpdateAI", "de/d7d/a12550.html#a092592d0c9ec0f5a95fe550bed559f0e", null ],
+    [ "_events", "de/d7d/a12550.html#a08b2eb3aff837408decaa5fa087f5054", null ]
 ];

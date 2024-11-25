@@ -1,6 +1,6 @@
 var a00668 =
 [
-    [ "boss_void_reaver", "d5/d48/a23542.html", "d5/d48/a23542" ],
+    [ "boss_void_reaver", "df/d41/a23526.html", "df/d41/a23526" ],
     [ "Groups", "d0/d5c/a00668.html#aab072245ab577ff0e12efe20a536b99a", [
       [ "GROUP_PRECOMBAT_TALK", "d1/df7/a02501.html#aab072245ab577ff0e12efe20a536b99aa3e7953992f23b2eba8d8498bfc66e01d", null ],
       [ "PORTAL_PHASE", "dc/de1/a02513.html#aab072245ab577ff0e12efe20a536b99aa8f7d8b62b79ce76fc356b355521db829", null ],
@@ -12,6 +12,7 @@ var a00668 =
       [ "GROUP_LYNX", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aaff89ad484a46d0b7b06edeacb6a01395", null ],
       [ "GROUP_HUMAN", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aa796793e979d08c776caffceafb33aa85", null ],
       [ "GROUP_MERGE", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aac01236358f92d366822edd70b15d96e6", null ],
+      [ "GROUP_SPLIT", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aa24fb50270283b82bb36d8edf229a98c8", null ],
       [ "GROUP_VOID_BLAST", "d9/daf/a00830.html#aab072245ab577ff0e12efe20a536b99aa42a5b582d3481d3a6c19206d7d5089c2", null ],
       [ "GROUP_COMBAT", "d4/dfa/a00746.html#aab072245ab577ff0e12efe20a536b99aa8a276adfb1bc4c990d9fcd7622ee8b44", null ],
       [ "GROUP_DEMON", "d4/dfa/a00746.html#aab072245ab577ff0e12efe20a536b99aa9ec61b4a64bb040b8e116599fa55c192", null ],

@@ -1,6 +1,6 @@
 var a21494 =
 [
-    [ "npc_q24545_vegardAI", "d3/d0f/a21498.html", "d3/d0f/a21498" ],
-    [ "npc_q24545_vegard", "d6/dca/a21494.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "d6/dca/a21494.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "npc_commander_eligor_dawnbringerAI", "d3/d0f/a21498.html", "d3/d0f/a21498" ],
+    [ "npc_commander_eligor_dawnbringer", "d6/dca/a21494.html#a71d919af98464d6d63f948507f3ff08c", null ],
+    [ "GetAI", "d6/dca/a21494.html#a759b9b1aeb8cce983fe8b6d2f3d9c33d", null ]
 ];

@@ -1,6 +1,6 @@
 var a21122 =
 [
-    [ "npc_azure_sorcerorAI", "d9/daa/a21126.html", "d9/daa/a21126" ],
-    [ "npc_azure_sorceror", "de/def/a21122.html#ab81ec144680a37312b0a5e0110365a1a", null ],
-    [ "GetAI", "de/def/a21122.html#a647ac2853586e380fdf0e0ffa43abaca", null ]
+    [ "HandleEffectPeriodic", "de/def/a21122.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
+    [ "PrepareAuraScript", "de/def/a21122.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
+    [ "Register", "de/def/a21122.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
 ];

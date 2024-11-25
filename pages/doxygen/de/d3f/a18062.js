@@ -1,6 +1,7 @@
 var a18062 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "de/dca/a18066.html", "de/dca/a18066" ],
-    [ "npc_green_dragon_combat_trigger", "de/d3f/a18062.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "de/d3f/a18062.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "ValithriaDespawner", "de/d3f/a18062.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
+    [ "Execute", "de/d3f/a18062.html#a4f8c63f52996da14078a7196cae3a00d", null ],
+    [ "operator()", "de/d3f/a18062.html#a05bae39d642f294f2ef98151d66ba382", null ],
+    [ "_creature", "de/d3f/a18062.html#a64bf6181ad867efd987edec141ca3bf0", null ]
 ];

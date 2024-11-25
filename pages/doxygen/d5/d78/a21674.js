@@ -1,6 +1,7 @@
 var a21674 =
 [
-    [ "npc_plaguehound_trackerAI", "d5/d78/a21674.html#a7530f500b42ad9bb38593193d3113da8", null ],
-    [ "Reset", "d5/d78/a21674.html#a05c351ab3aca0cd18209405075bb0f47", null ],
-    [ "WaypointReached", "d5/d78/a21674.html#a67c345f49572cde76d9109a1baff6788", null ]
+    [ "npc_battle_at_valhalasAI", "d7/dd5/a21678.html", "d7/dd5/a21678" ],
+    [ "npc_battle_at_valhalas", "d5/d78/a21674.html#aacec717b5b91ae55307c9642779c15ec", null ],
+    [ "GetAI", "d5/d78/a21674.html#a3660ba847b3b40c2d358d63c63517a5e", null ],
+    [ "OnQuestAccept", "d5/d78/a21674.html#addd76fd9f4b4f8ce706693614b80966b", null ]
 ];

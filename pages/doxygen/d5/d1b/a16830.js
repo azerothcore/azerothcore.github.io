@@ -1,5 +1,6 @@
 var a16830 =
 [
-    [ "achievement_less_rabi", "d5/d1b/a16830.html#aee43dd7623f7fecc20a0acb15f342a99", null ],
-    [ "OnCheck", "d5/d1b/a16830.html#a16b200bf93fa2571c8b31359ad7ca151", null ]
+    [ "boss_moorabiAI", "de/d65/a16834.html", "de/d65/a16834" ],
+    [ "boss_moorabi", "d5/d1b/a16830.html#a94e14b2a9b06143985f785e781d1c302", null ],
+    [ "GetAI", "d5/d1b/a16830.html#ae90c7dd46fb1335a525c3c3e27040420", null ]
 ];

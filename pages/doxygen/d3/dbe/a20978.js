@@ -1,6 +1,6 @@
 var a20978 =
 [
-    [ "boss_ichoronAI", "d3/de6/a20982.html", "d3/de6/a20982" ],
-    [ "boss_ichoron", "d3/dbe/a20978.html#ad4390da77a130edaf050d0bef3926882", null ],
-    [ "GetAI", "d3/dbe/a20978.html#a68051088dc2d2c738b042e2df0436b28", null ]
+    [ "boss_lavanthorAI", "d3/de6/a20982.html", "d3/de6/a20982" ],
+    [ "boss_lavanthor", "d3/dbe/a20978.html#aa935ffe07f59db59b9b8484f22927026", null ],
+    [ "GetAI", "d3/dbe/a20978.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
 ];

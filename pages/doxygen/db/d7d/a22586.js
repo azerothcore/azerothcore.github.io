@@ -1,6 +1,7 @@
 var a22586 =
 [
-    [ "FilterTargets", "db/d7d/a22586.html#a04973145ed594b88afe2acc0cacb10c6", null ],
-    [ "PrepareSpellScript", "db/d7d/a22586.html#a90c0513a6dba2f2e6619dd8c77544991", null ],
-    [ "Register", "db/d7d/a22586.html#a7c8ca525cd6822d21551331ce37ce5dd", null ]
+    [ "HandleEffectRemove", "db/d7d/a22586.html#a6adc572bb13dde9b83a44a1c27833019", null ],
+    [ "PrepareAuraScript", "db/d7d/a22586.html#a877c26735531508d1806273117f3e8bc", null ],
+    [ "Register", "db/d7d/a22586.html#a1b3e9eb2f6979ac2f17ac47eb38c8bb5", null ],
+    [ "Validate", "db/d7d/a22586.html#a8c45ba806d865f7b9d56950013bdd81c", null ]
 ];

@@ -1,8 +1,8 @@
 var a24714 =
 [
-    [ "HandleScript", "d6/d8f/a24714.html#a2376d12f379f75f5decfdc133c18403e", null ],
-    [ "Load", "d6/d8f/a24714.html#aa70bfd2e614f9bf68ad2972990f0f7f5", null ],
-    [ "PrepareSpellScript", "d6/d8f/a24714.html#ae4ce8cf3670a85bbaedbfcdc6cacd5b1", null ],
-    [ "Register", "d6/d8f/a24714.html#a0b32bf9d565d7d6f606150f70fc244a0", null ],
-    [ "Validate", "d6/d8f/a24714.html#a1aee8ca0cc33f949371fa5cbb4745ccd", null ]
+    [ "CheckRequirement", "d6/d8f/a24714.html#ad967ae7e2affa312fa4adbca6e86dd7c", null ],
+    [ "HandleScript", "d6/d8f/a24714.html#aa89b60b2d757ef1ceacebae38aa5d9d9", null ],
+    [ "Load", "d6/d8f/a24714.html#a9dfb5501ad6324a25966af44f233b5fb", null ],
+    [ "PrepareSpellScript", "d6/d8f/a24714.html#ace75db8a6e5628df6e2edba91cd2852f", null ],
+    [ "Register", "d6/d8f/a24714.html#a89d053e0ee793017c74188aac32d99d5", null ]
 ];

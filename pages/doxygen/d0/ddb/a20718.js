@@ -1,6 +1,6 @@
 var a20718 =
 [
-    [ "boss_skarvald_the_constructorAI", "d7/dcd/a20722.html", "d7/dcd/a20722" ],
-    [ "boss_skarvald_the_constructor", "d0/ddb/a20718.html#ae96b7ee4ddcf7956141b85c4c4d4129c", null ],
-    [ "GetAI", "d0/ddb/a20718.html#a979e3699d9c87cf4207b70026fb49180", null ]
+    [ "instance_utgarde_keep_InstanceMapScript", "d7/dcd/a20722.html", "d7/dcd/a20722" ],
+    [ "instance_utgarde_keep", "d0/ddb/a20718.html#abe013e4f086f63722a6398b2b7928c80", null ],
+    [ "GetInstanceScript", "d0/ddb/a20718.html#a9a42e0dde1c7598eb2ef665f11e25e92", null ]
 ];

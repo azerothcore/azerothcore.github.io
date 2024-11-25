@@ -1,6 +1,6 @@
 var a21638 =
 [
-    [ "HandleOnEffectRemove", "d0/d79/a21638.html#a5aeae7d8fc2fb8c8a1ce446ba1887c51", null ],
-    [ "PrepareAuraScript", "d0/d79/a21638.html#af415e4d7ea0b4b881af94eb7ea0c3f4c", null ],
-    [ "Register", "d0/d79/a21638.html#a242faa8822f9cdb7762d8ec3b6245b30", null ]
+    [ "npc_your_inner_turmoilAI", "d5/d2b/a21642.html", "d5/d2b/a21642" ],
+    [ "npc_your_inner_turmoil", "d0/d79/a21638.html#a72856ef469bb8f6ff4a89a16159479af", null ],
+    [ "GetAI", "d0/d79/a21638.html#a29c8f76b072e891face1225770688ca6", null ]
 ];

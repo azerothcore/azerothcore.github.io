@@ -1,7 +1,14 @@
 var a24854 =
 [
-    [ "HandleEffectApply", "d2/d50/a24854.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
-    [ "OnRemove", "d2/d50/a24854.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
-    [ "PrepareAuraScript", "d2/d50/a24854.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
-    [ "Register", "d2/d50/a24854.html#a473189971d0a03e7305b7b9e41dc5207", null ]
+    [ "spell_gen_mount", "d2/d50/a24854.html#aae8c5c328dda0668bf8cdabc2c9cd29f", null ],
+    [ "HandleMount", "d2/d50/a24854.html#a81085b5efd8d9bd7c82ebb1cf6604793", null ],
+    [ "PrepareSpellScript", "d2/d50/a24854.html#a49e2046d30352a6e22dab2530e909fa7", null ],
+    [ "Register", "d2/d50/a24854.html#a8175ecc0c407d5c4646f038d7b62e92b", null ],
+    [ "Validate", "d2/d50/a24854.html#accef27fc13ff34af52860ad6ac62e7f3", null ],
+    [ "_mount0", "d2/d50/a24854.html#abd6347074186b7c47ac5a2c760f4db33", null ],
+    [ "_mount100", "d2/d50/a24854.html#a5e56853140f188ff1babc61c507f8300", null ],
+    [ "_mount150", "d2/d50/a24854.html#a1237697623e4831c25efcde1ab370031", null ],
+    [ "_mount280", "d2/d50/a24854.html#aa9d0a936795d06dd78ef3c4d5aaf0320", null ],
+    [ "_mount310", "d2/d50/a24854.html#ac06b80d14cc106281c3e6bf3f6a5c727", null ],
+    [ "_mount60", "d2/d50/a24854.html#a53ce7d1b5a39cce2bede77aad647dc7e", null ]
 ];

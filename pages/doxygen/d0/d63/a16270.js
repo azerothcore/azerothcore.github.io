@@ -1,6 +1,6 @@
 var a16270 =
 [
-    [ "boss_novosAI", "d6/db4/a16274.html", "d6/db4/a16274" ],
-    [ "boss_novos", "d0/d63/a16270.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
-    [ "GetAI", "d0/d63/a16270.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
+    [ "OnPeriodic", "d0/d63/a16270.html#a6f2e191d76f894517aed395866b7e508", null ],
+    [ "PrepareAuraScript", "d0/d63/a16270.html#a571ee1c735b6095408973bfe5f91bcf7", null ],
+    [ "Register", "d0/d63/a16270.html#a6094dc303c034e49fb4e543874db080b", null ]
 ];

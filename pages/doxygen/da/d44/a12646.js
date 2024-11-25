@@ -1,7 +1,8 @@
 var a12646 =
 [
-    [ "npc_koltira_deathweaverAI", "d7/ded/a12650.html", "d7/ded/a12650" ],
-    [ "npc_koltira_deathweaver", "da/d44/a12646.html#a5e9fdbc8dc70ce3480906b86aed381a3", null ],
-    [ "GetAI", "da/d44/a12646.html#afddc561b88679f3dd6ca8b374807b0f0", null ],
-    [ "OnQuestAccept", "da/d44/a12646.html#a745d0d384c465b26716429df48885d02", null ]
+    [ "HandleDummy", "da/d44/a12646.html#a3533f1e0daea7bf0e0e2a5830380159a", null ],
+    [ "HandleScript", "da/d44/a12646.html#a528ce741ebde0fb6b796431da800e439", null ],
+    [ "PrepareSpellScript", "da/d44/a12646.html#aa64f2238cdf8bf733c7e99db5d076c81", null ],
+    [ "Register", "da/d44/a12646.html#a8dea4b47777324b88c7e022f11741b25", null ],
+    [ "Validate", "da/d44/a12646.html#a6f49345b2beea56b4eaad390a6062118", null ]
 ];

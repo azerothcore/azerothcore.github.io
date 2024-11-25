@@ -1,6 +1,6 @@
 var a21150 =
 [
-    [ "npc_sinkhole_kill_creditAI", "d2/d89/a21154.html", "d2/d89/a21154" ],
-    [ "npc_sinkhole_kill_credit", "d6/d07/a21150.html#a627d01aaaa3408986f2b4d171624e680", null ],
-    [ "GetAI", "d6/d07/a21150.html#a4d734432f132bea2c4525d049fbcfa67", null ]
+    [ "npc_iruk", "d6/d07/a21150.html#a721aeefd23371cc6bc16738a797bf50a", null ],
+    [ "OnGossipHello", "d6/d07/a21150.html#a774669099330c75ab5e0bea8d460f517", null ],
+    [ "OnGossipSelect", "d6/d07/a21150.html#ae6f7d54d224488a9e29c59c560eba471", null ]
 ];

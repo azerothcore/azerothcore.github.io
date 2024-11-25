@@ -1,9 +1,9 @@
 var a08938 =
 [
-    [ "CreatureSearcher", "df/d6e/a08938.html#ac6fc899c41c2a93f530fa53c693f0df8", null ],
-    [ "Visit", "df/d6e/a08938.html#a50630891bfb459c6c526b3e4e7e29136", null ],
-    [ "Visit", "df/d6e/a08938.html#a503aab809be6f5d60c020e89c64dce7b", null ],
-    [ "i_check", "df/d6e/a08938.html#abc72e56d9453d798fcb457aff023d3ac", null ],
-    [ "i_object", "df/d6e/a08938.html#af31c7a1cf3f03a42d7fe66836e306b85", null ],
-    [ "i_phaseMask", "df/d6e/a08938.html#a5fa5777da405c57700a7e1ea7d5f94cf", null ]
+    [ "UnitListSearcher", "df/d6e/a08938.html#a24c0de32dc3baa927962626421a343ae", null ],
+    [ "Visit", "df/d6e/a08938.html#a83d86364ef2f9f9ed55b9bf9aa9bea0d", null ],
+    [ "Visit", "df/d6e/a08938.html#a92f9b0407e609b6c61f10d93aa49912f", null ],
+    [ "Visit", "df/d6e/a08938.html#a5fddd281a9f9cd10cf3948d4bf7b626f", null ],
+    [ "i_check", "df/d6e/a08938.html#a508a47e6261e7ae6e5669aee853ff99e", null ],
+    [ "i_phaseMask", "df/d6e/a08938.html#a43c863350bea423cf4a720c4c680fd4c", null ]
 ];

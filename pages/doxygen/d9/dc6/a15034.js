@@ -1,6 +1,7 @@
 var a15034 =
 [
-    [ "npc_tiger_matriarchAI", "d6/dec/a15038.html", "d6/dec/a15038" ],
-    [ "npc_tiger_matriarch", "d9/dc6/a15034.html#a05a08bfa64c428213a4b534a982afb71", null ],
-    [ "GetAI", "d9/dc6/a15034.html#a6d5664ca125a775c2d71f322f5a57655", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d9/dc6/a15034.html#aaed19d0c915891d8afecda7df75a8a75", null ],
+    [ "JustRespawned", "d9/dc6/a15034.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
+    [ "MoveInLineOfSight", "d9/dc6/a15034.html#a295d4bef97b97c7deb31a81274f0818d", null ],
+    [ "SpellHit", "d9/dc6/a15034.html#a021b82aa6bd2e118fe810f18349fda42", null ]
 ];

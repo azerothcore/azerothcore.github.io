@@ -1,7 +1,6 @@
 var a22534 =
 [
-    [ "CheckProc", "da/de5/a22534.html#a0968b7b32f2d2bef6035e030f544088a", null ],
-    [ "PrepareAuraScript", "da/de5/a22534.html#ac424e41948196a6e60b790ebcf40783f", null ],
-    [ "Register", "da/de5/a22534.html#a06bdac68e36b43ee534e937ffd974086", null ],
-    [ "Update", "da/de5/a22534.html#af6c228840f6af96e353ba964fdd01e54", null ]
+    [ "boss_reliquary_of_soulsAI", "d6/d1d/a22538.html", "d6/d1d/a22538" ],
+    [ "boss_reliquary_of_souls", "da/de5/a22534.html#a0c73fc6221da0b19903e534932ca6406", null ],
+    [ "GetAI", "da/de5/a22534.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
 ];

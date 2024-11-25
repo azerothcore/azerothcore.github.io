@@ -1,6 +1,5 @@
 var a26918 =
 [
-    [ "go_gilded_brazierAI", "d3/dc4/a26922.html", "d3/dc4/a26922" ],
-    [ "go_gilded_brazier", "dd/d2f/a26918.html#a778c753a8432131601371da8849ef004", null ],
-    [ "GetAI", "dd/d2f/a26918.html#a2c8ced3e29c05c9d55745c4f10c9202d", null ]
+    [ "go_tablet_of_the_seven", "dd/d2f/a26918.html#aa5bcd36c6d0250571f6721f71864ab59", null ],
+    [ "OnGossipHello", "dd/d2f/a26918.html#a54d27dc2a52d69d8fd9605c358a855fc", null ]
 ];

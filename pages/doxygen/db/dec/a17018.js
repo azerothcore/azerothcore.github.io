@@ -1,6 +1,6 @@
 var a17018 =
 [
-    [ "boss_deathbringer_saurfangAI", "df/d1d/a17022.html", "df/d1d/a17022" ],
-    [ "boss_deathbringer_saurfang", "db/dec/a17018.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "db/dec/a17018.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "FilterTargets", "db/dec/a17018.html#a59255a2cee0f9d8a75ca183647851779", null ],
+    [ "PrepareSpellScript", "db/dec/a17018.html#af8d1cc9c709aeb3a68d1f452bb605c71", null ],
+    [ "Register", "db/dec/a17018.html#a6b6dbeaa8feb8eac4441a87cdf371a36", null ]
 ];

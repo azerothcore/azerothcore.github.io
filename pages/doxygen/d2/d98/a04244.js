@@ -1,6 +1,6 @@
 var a04244 =
 [
-    [ "WorldObjectScript", "d0/daa/a10134.html", "d0/daa/a10134" ],
+    [ "WorldObjectScript", "d4/d2d/a10138.html", "d4/d2d/a10138" ],
     [ "WorldObjectHook", "d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1c", [
       [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_DESTROY", "d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1ca19911e8e8d81b83808647214673201ce", null ],
       [ "WORLDOBJECTHOOK_ON_WORLD_OBJECT_CREATE", "d2/d98/a04244.html#ab8a14556853bd2637a19973d68ba6d1caa4f7a14c3e5de3e6ace4c9a4bacc656c", null ],

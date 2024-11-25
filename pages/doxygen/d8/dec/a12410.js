@@ -1,13 +1,15 @@
 var a12410 =
 [
-    [ "boss_crone", "d8/dec/a12410.html#a710bdf6fac05be54cf10e40cd661c837", null ],
-    [ "EnterEvadeMode", "d8/dec/a12410.html#a4dcdde0b699f445cfa6be7e0c7dbb8d0", null ],
-    [ "JustDied", "d8/dec/a12410.html#a545de2a25b48590d11896c41b6e94df0", null ],
-    [ "JustEngagedWith", "d8/dec/a12410.html#a9801cd39667d1a08770820bd17beac00", null ],
-    [ "JustReachedHome", "d8/dec/a12410.html#a59d40cda923cb8b72413b9d5f267f52a", null ],
-    [ "KilledUnit", "d8/dec/a12410.html#ae4d343636955589d740d1df4e21fba99", null ],
-    [ "Reset", "d8/dec/a12410.html#a247db7fc1329ef00e48fd9bd09fb27a1", null ],
-    [ "UpdateAI", "d8/dec/a12410.html#a8bd505acd55ca5292d29c96916a461e5", null ],
-    [ "_scheduler", "d8/dec/a12410.html#a7f9e2e45c0bbb60fc19dd54bc380f814", null ],
-    [ "instance", "d8/dec/a12410.html#a3795fe3185005693ed9bba49177bb35a", null ]
+    [ "boss_tinhead", "d8/dec/a12410.html#aa56375e9b031db15bee833375b7a4405", null ],
+    [ "DoAction", "d8/dec/a12410.html#ab27d93fd2b58e3f1c9e14d5bc6c788ff", null ],
+    [ "EnterEvadeMode", "d8/dec/a12410.html#ae83464d571103a67980b413325988921", null ],
+    [ "JustDied", "d8/dec/a12410.html#a5a641c0e96f271540e4642b5bb4e4c9e", null ],
+    [ "JustEngagedWith", "d8/dec/a12410.html#a74f51f155fdfb9ecc70245380b740d9c", null ],
+    [ "JustReachedHome", "d8/dec/a12410.html#a6c930c6cb2116cf16f3e4002e333f585", null ],
+    [ "KilledUnit", "d8/dec/a12410.html#ac0f281f1e4b985174f4c5c9b7fcf278d", null ],
+    [ "Reset", "d8/dec/a12410.html#ac22d86f58d59c81429e45fba9393fd37", null ],
+    [ "UpdateAI", "d8/dec/a12410.html#aec0d558cf82eb6bbf0d5626126b10233", null ],
+    [ "_rustCount", "d8/dec/a12410.html#a48901503085fd3d4ee5624626a526ce2", null ],
+    [ "_scheduler", "d8/dec/a12410.html#ababc9f32611a9ea35ef41725bce22df5", null ],
+    [ "instance", "d8/dec/a12410.html#a00b2ebbb009c700e38bbffbb035b4bfa", null ]
 ];

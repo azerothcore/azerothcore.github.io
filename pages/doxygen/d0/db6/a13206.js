@@ -1,11 +1,11 @@
 var a13206 =
 [
-    [ "npc_supervisor_raelen", "d0/db6/a13206.html#a2059d41f6df3a44406ab69a0dca501a4", null ],
-    [ "CallPeasent", "d0/db6/a13206.html#a0b8d661a86ec334adeb502d6936135ee", null ],
-    [ "Reset", "d0/db6/a13206.html#a656029c56da84d2d3cee7380d6032e3d", null ],
-    [ "SetData", "d0/db6/a13206.html#ab709a5a975c22556dfe71dce52a3ec2c", null ],
-    [ "UpdateAI", "d0/db6/a13206.html#a623a95d4f3ca483d1bf3dff5e06c1958", null ],
-    [ "_events", "d0/db6/a13206.html#a1ed36b07ff83a6a8a202f4a451d90190", null ],
-    [ "_PeasentId", "d0/db6/a13206.html#ae3e44b8f29f05c771137c5b9afd5da56", null ],
-    [ "peasentGUIDs", "d0/db6/a13206.html#a6e290a29c8205b22bd668f0516e8904a", null ]
+    [ "npc_balance_of_light_and_shadowAI", "d0/db6/a13206.html#a00cc1f78fa8fe26bf472d99a490d05ad", null ],
+    [ "CanBeSeen", "d0/db6/a13206.html#af336c2afbf6c2850679fd7d8d1f0d5e9", null ],
+    [ "JustDied", "d0/db6/a13206.html#ae862f8763614a98dae6b982414caf30a", null ],
+    [ "MovementInform", "d0/db6/a13206.html#ad426816ae3c4d5a95587787d28f57ed8", null ],
+    [ "SpellHit", "d0/db6/a13206.html#abfddfff72b63fd05673584915d647958", null ],
+    [ "UpdateAI", "d0/db6/a13206.html#a540e3c28cc36917cde0153dd372d0287", null ],
+    [ "_targetGUID", "d0/db6/a13206.html#adaf2340aa5fe7b96c8f5cacc1c8d5545", null ],
+    [ "timer", "d0/db6/a13206.html#a204e0a809e9c392f20ec900e9a90a075", null ]
 ];

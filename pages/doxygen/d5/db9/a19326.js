@@ -1,6 +1,8 @@
 var a19326 =
 [
-    [ "npc_algalon_worm_holeAI", "d4/dd9/a19330.html", "d4/dd9/a19330" ],
-    [ "npc_algalon_worm_hole", "d5/db9/a19326.html#a72516a4824fa61a331caff46d2784c64", null ],
-    [ "GetAI", "d5/db9/a19326.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
+    [ "HandlePeriodic", "d5/db9/a19326.html#a2724a85983561a14db8b06ae492ead55", null ],
+    [ "OnRemove", "d5/db9/a19326.html#a6d0f941f30d8c850e48396fffd13768d", null ],
+    [ "PrepareAuraScript", "d5/db9/a19326.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
+    [ "Register", "d5/db9/a19326.html#a85270947972be9c299a642b31969ef68", null ],
+    [ "Validate", "d5/db9/a19326.html#a91ebb4e69d02deb5129965f543c474d1", null ]
 ];

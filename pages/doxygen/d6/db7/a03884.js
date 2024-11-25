@@ -1,8 +1,8 @@
 var a03884 =
 [
-    [ "Movement::TransportPathTransform", "d5/d32/a09802.html", "d5/d32/a09802" ],
-    [ "Movement::HoverMovementTransform", "d8/daf/a09806.html", "d8/daf/a09806" ],
-    [ "Movement::MoveSplineInit", "df/dee/a09810.html", "df/dee/a09810" ],
+    [ "Movement::TransportPathTransform", "d8/daf/a09806.html", "d8/daf/a09806" ],
+    [ "Movement::HoverMovementTransform", "df/dee/a09810.html", "df/dee/a09810" ],
+    [ "Movement::MoveSplineInit", "d6/d8e/a09814.html", "d6/d8e/a09814" ],
     [ "AnimType", "d6/db7/a03884.html#ab518009ca4123b1c5dce0ffe108b78fb", [
       [ "ToGround", "d6/db7/a03884.html#ab518009ca4123b1c5dce0ffe108b78fba41889d3628918ee702ad48c7d2689f31", null ],
       [ "FlyToFly", "d6/db7/a03884.html#ab518009ca4123b1c5dce0ffe108b78fba547b00b126d19fb188c747f076bf9d2c", null ],

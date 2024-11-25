@@ -1,7 +1,7 @@
 var a25026 =
 [
-    [ "HandleOnEffectApply", "df/d39/a25026.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
-    [ "HandleOnEffectRemove", "df/d39/a25026.html#a094d788d157474a9683387d5c340538f", null ],
-    [ "PrepareAuraScript", "df/d39/a25026.html#aad378b8c45f11af51faf9128878c01df", null ],
-    [ "Register", "df/d39/a25026.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
+    [ "HandleScriptEffect", "df/d39/a25026.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "df/d39/a25026.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "df/d39/a25026.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "df/d39/a25026.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

@@ -1,16 +1,9 @@
 var a23350 =
 [
-    [ "npc_millhouse_manastormAI", "d5/dd0/a23350.html#ac86df4d5887c4c1b719ce47f00b32995", null ],
-    [ "AttackStart", "d5/dd0/a23350.html#a032cc1ad7a07ead4ced3afe99601d94f", null ],
-    [ "DamageTaken", "d5/dd0/a23350.html#a30ed336d552596211b3bfc316d223968", null ],
-    [ "InitializeAI", "d5/dd0/a23350.html#a7e8f7483b7cf4ba5d87386940e632339", null ],
-    [ "JustDied", "d5/dd0/a23350.html#aaa22ed7812600c1670d12d6887d316d6", null ],
-    [ "JustEngagedWith", "d5/dd0/a23350.html#a5e643192572f29f954a31b7b949f6525", null ],
-    [ "KilledUnit", "d5/dd0/a23350.html#ac3ba302f496d03c171d1d3f4dbf175da", null ],
-    [ "Reset", "d5/dd0/a23350.html#a74076048ea382816fa9c98a0d759af46", null ],
-    [ "UpdateAI", "d5/dd0/a23350.html#a7dad659c4ba1db0460c23a3dc573eff2", null ],
-    [ "_usedIceblock", "d5/dd0/a23350.html#af0ce341df018dafdce89f75fcb9f0063", null ],
-    [ "events", "d5/dd0/a23350.html#aa9aadd461e32cf8a65b185d77f62d838", null ],
-    [ "events2", "d5/dd0/a23350.html#ac762ce5981457cbcf6ec73236bab2486", null ],
-    [ "instance", "d5/dd0/a23350.html#aff28c68ed9575440f5732df855ab4372", null ]
+    [ "boss_dalliah_the_doomsayer", "d5/dd0/a23350.html#ad6edf9623942297b28bc7420ec0cc733", null ],
+    [ "InitializeAI", "d5/dd0/a23350.html#a85342ef80a64ce05f87cf7d90a8bfe79", null ],
+    [ "JustDied", "d5/dd0/a23350.html#a431edc9c25fb125d7d267073eb1c1423", null ],
+    [ "JustEngagedWith", "d5/dd0/a23350.html#a6d3d8d027ddb08417dd11f1606a1418f", null ],
+    [ "KilledUnit", "d5/dd0/a23350.html#af28bfc1166ad45bf7bc046f5906a8b11", null ],
+    [ "Reset", "d5/dd0/a23350.html#a5b4f186225a55afdf1de80b7126d10eb", null ]
 ];

@@ -1,6 +1,6 @@
 var a23626 =
 [
-    [ "npc_nether_drakeAI", "da/d01/a23630.html", "da/d01/a23630" ],
-    [ "npc_nether_drake", "de/dad/a23626.html#a253ec3c91857b899ea9e2c824870b760", null ],
-    [ "GetAI", "de/dad/a23626.html#a58d269e2c73cae07bb507162b742fe8f", null ]
+    [ "npc_simon_bunnyAI", "da/d01/a23630.html", "da/d01/a23630" ],
+    [ "npc_simon_bunny", "de/dad/a23626.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
+    [ "GetAI", "de/dad/a23626.html#ac0c97609916321a1599c0722803a050f", null ]
 ];

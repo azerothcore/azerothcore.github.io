@@ -1,6 +1,7 @@
 var a11630 =
 [
-    [ "boss_grizzleAI", "d5/def/a11634.html", "d5/def/a11634" ],
-    [ "boss_grizzle", "df/db1/a11630.html#a6c9913cec9503a86e2f5358f65b97b26", null ],
-    [ "GetAI", "df/db1/a11630.html#aa0bf6c89f13fbd20695ebb7ce965b0f5", null ]
+    [ "boss_gorosh_the_dervishAI", "df/db1/a11630.html#adac003c51a2d1d0a8daa6ba552114c25", null ],
+    [ "JustEngagedWith", "df/db1/a11630.html#a52bc5f76baff626b8834aa604fdd8e6a", null ],
+    [ "UpdateAI", "df/db1/a11630.html#aa17e26419a8e3f7cd99c5e9b44be8ed8", null ],
+    [ "nextWhirlwindTime", "df/db1/a11630.html#a07f1af63bc54d1b4c8d8e1cd87a787a1", null ]
 ];

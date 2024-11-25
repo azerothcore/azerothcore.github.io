@@ -1,6 +1,6 @@
 var a18006 =
 [
-    [ "npc_lk_spirit_bombAI", "de/d29/a18010.html", "de/d29/a18010" ],
-    [ "npc_lk_spirit_bomb", "de/d33/a18006.html#acc08d41aa1761c450de782e92307ad7c", null ],
-    [ "GetAI", "de/d33/a18006.html#ade74c00beb2da69dafb0ae93d771c430", null ]
+    [ "npc_icc_lk_checktargetAI", "de/d29/a18010.html", "de/d29/a18010" ],
+    [ "npc_icc_lk_checktarget", "de/d33/a18006.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "de/d33/a18006.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

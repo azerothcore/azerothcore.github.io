@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Guild::LogEntry Class Reference</title>
+<title>AzerothCore: Guild::Member Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,84 +106,130 @@ $(document).ready(function(){initNavTree('de/ded/a09238.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../de/dd7/a09235.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Guild::LogEntry Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Guild::Member Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="dynheader">
-Inheritance diagram for Guild::LogEntry:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../de/ded/a09238.png" usemap="#Guild::LogEntry_map" alt=""/>
-  <map id="Guild::LogEntry_map" name="Guild::LogEntry_map">
-<area href="../../df/dc1/a09246.html" alt="Guild::BankEventLogEntry" shape="rect" coords="0,56,158,80"/>
-<area href="../../dd/dca/a09242.html" alt="Guild::EventLogEntry" shape="rect" coords="168,56,326,80"/>
-  </map>
-</div></div>
+
+<p><code>#include &quot;<a class="el" href="../../">Guild.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af61604a7dc0cc4da315a09fa5b207f37"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#af61604a7dc0cc4da315a09fa5b207f37">LogEntry</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId, <a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid)</td></tr>
-<tr class="separator:af61604a7dc0cc4da315a09fa5b207f37"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba3f6f501c59e356166abe71082c421b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#aba3f6f501c59e356166abe71082c421b">LogEntry</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId, <a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid, time_t timestamp)</td></tr>
-<tr class="separator:aba3f6f501c59e356166abe71082c421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c66b8a7be1800c5a9e1dc15aab6d3e9"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a3c66b8a7be1800c5a9e1dc15aab6d3e9">~LogEntry</a> ()</td></tr>
-<tr class="separator:a3c66b8a7be1800c5a9e1dc15aab6d3e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7af4eac577f8da07540f81e185b2ad49"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a7af4eac577f8da07540f81e185b2ad49">GetGUID</a> () const</td></tr>
-<tr class="separator:a7af4eac577f8da07540f81e185b2ad49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a643c92439463707671bb08b72bf3a447"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a643c92439463707671bb08b72bf3a447">GetTimestamp</a> () const</td></tr>
-<tr class="separator:a643c92439463707671bb08b72bf3a447"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1c00aa88973423a1c112c2776a14e78f"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a1c00aa88973423a1c112c2776a14e78f">SaveToDB</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans) const =0</td></tr>
-<tr class="separator:a1c00aa88973423a1c112c2776a14e78f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adfd41abf4c7853b10d5faf69164b3149"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#adfd41abf4c7853b10d5faf69164b3149">Member</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId, <a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rankId)</td></tr>
+<tr class="separator:adfd41abf4c7853b10d5faf69164b3149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa43b716e30e66244db9b5be04a7bc95"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#afa43b716e30e66244db9b5be04a7bc95">SetStats</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player)</td></tr>
+<tr class="separator:afa43b716e30e66244db9b5be04a7bc95"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2cae93898b49ce236226dd39a4937c71"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a2cae93898b49ce236226dd39a4937c71">SetStats</a> (std::string_view name, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> level, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _class, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> gender, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneId, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
+<tr class="separator:a2cae93898b49ce236226dd39a4937c71"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a801d78a7a584fb3ee8c862b3aa5b4a4c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a801d78a7a584fb3ee8c862b3aa5b4a4c">CheckStats</a> () const</td></tr>
+<tr class="separator:a801d78a7a584fb3ee8c862b3aa5b4a4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a358debd5881d7c513f7dd51f19eaa401"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a358debd5881d7c513f7dd51f19eaa401">SetPublicNote</a> (std::string_view publicNote)</td></tr>
+<tr class="separator:a358debd5881d7c513f7dd51f19eaa401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55942b73baacc1fdf1f9c6465e894117"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a55942b73baacc1fdf1f9c6465e894117">SetOfficerNote</a> (std::string_view officerNote)</td></tr>
+<tr class="separator:a55942b73baacc1fdf1f9c6465e894117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a667017449cd63e97c3115ea2dfc12dd8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a667017449cd63e97c3115ea2dfc12dd8">SetZoneID</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id)</td></tr>
+<tr class="separator:a667017449cd63e97c3115ea2dfc12dd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92aca42547d84388d6a0815a2c9584a6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a92aca42547d84388d6a0815a2c9584a6">SetLevel</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> var)</td></tr>
+<tr class="separator:a92aca42547d84388d6a0815a2c9584a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8efa359ba98c8df180926061d086be40"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a8efa359ba98c8df180926061d086be40">AddFlag</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> var)</td></tr>
+<tr class="separator:a8efa359ba98c8df180926061d086be40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fbd4ef00371f0fbce152a16e662da77"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a0fbd4ef00371f0fbce152a16e662da77">RemFlag</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> var)</td></tr>
+<tr class="separator:a0fbd4ef00371f0fbce152a16e662da77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa049019e50eb53bf4dc3b227ce45c113"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#aa049019e50eb53bf4dc3b227ce45c113">ResetFlags</a> ()</td></tr>
+<tr class="separator:aa049019e50eb53bf4dc3b227ce45c113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b6e514edb19461b00340df621d4545"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a72b6e514edb19461b00340df621d4545">LoadFromDB</a> (<a class="el" href="../../d4/dc8/a05622.html">Field</a> *fields)</td></tr>
+<tr class="separator:a72b6e514edb19461b00340df621d4545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc261eeb304cfdcbf7ab6b732e27af12"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#adc261eeb304cfdcbf7ab6b732e27af12">SaveToDB</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans) const</td></tr>
+<tr class="separator:adc261eeb304cfdcbf7ab6b732e27af12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acde82e20be9ea4f53c89f0cd9724e2fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#acde82e20be9ea4f53c89f0cd9724e2fe">GetGUID</a> () const</td></tr>
+<tr class="separator:acde82e20be9ea4f53c89f0cd9724e2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07f6c4228d1f264c8b58b719dcd11c62"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a07f6c4228d1f264c8b58b719dcd11c62">GetName</a> () const</td></tr>
+<tr class="separator:a07f6c4228d1f264c8b58b719dcd11c62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4590b5708be228a703a012a3da490bae"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a4590b5708be228a703a012a3da490bae">GetAccountId</a> () const</td></tr>
+<tr class="separator:a4590b5708be228a703a012a3da490bae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2c5726e2716941bc5e09a1b35b79c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#abb2c5726e2716941bc5e09a1b35b79c6">GetRankId</a> () const</td></tr>
+<tr class="separator:abb2c5726e2716941bc5e09a1b35b79c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae875e07f72a78934302eda4d16981c5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ae875e07f72a78934302eda4d16981c5b">GetLogoutTime</a> () const</td></tr>
+<tr class="separator:ae875e07f72a78934302eda4d16981c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e5cd24ebd2adc7209e746e53a8d5eb7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a4e5cd24ebd2adc7209e746e53a8d5eb7">GetPublicNote</a> () const</td></tr>
+<tr class="separator:a4e5cd24ebd2adc7209e746e53a8d5eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01a8ddb5c500012a0274ef0cf8e8f777"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a01a8ddb5c500012a0274ef0cf8e8f777">GetOfficerNote</a> () const</td></tr>
+<tr class="separator:a01a8ddb5c500012a0274ef0cf8e8f777"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4069ca28ef3b5cf38eba7f14d6ae50ca"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a4069ca28ef3b5cf38eba7f14d6ae50ca">GetClass</a> () const</td></tr>
+<tr class="separator:a4069ca28ef3b5cf38eba7f14d6ae50ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b7a32ad9402be44ebadb133e063451b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a6b7a32ad9402be44ebadb133e063451b">GetLevel</a> () const</td></tr>
+<tr class="separator:a6b7a32ad9402be44ebadb133e063451b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e402f04396da71138df354aeaf18eb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a9e402f04396da71138df354aeaf18eb7">GetGender</a> () const</td></tr>
+<tr class="separator:a9e402f04396da71138df354aeaf18eb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4193f7442a2d3bd5a3ec6b651f37b5c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a4193f7442a2d3bd5a3ec6b651f37b5c3">GetFlags</a> () const</td></tr>
+<tr class="separator:a4193f7442a2d3bd5a3ec6b651f37b5c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9709c46216985dc71ccf766b96ee2c09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a9709c46216985dc71ccf766b96ee2c09">GetZoneId</a> () const</td></tr>
+<tr class="separator:a9709c46216985dc71ccf766b96ee2c09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7ba863b97b2d255fb572913cb3f8640"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ac7ba863b97b2d255fb572913cb3f8640">IsOnline</a> ()</td></tr>
+<tr class="separator:ac7ba863b97b2d255fb572913cb3f8640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3928d5341bfa0154a3ea0f695a73c090"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a3928d5341bfa0154a3ea0f695a73c090">ChangeRank</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> newRank)</td></tr>
+<tr class="separator:a3928d5341bfa0154a3ea0f695a73c090"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38920a6026acaef4b85163b96d07be9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a38920a6026acaef4b85163b96d07be9e">UpdateLogoutTime</a> ()</td></tr>
+<tr class="separator:a38920a6026acaef4b85163b96d07be9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e30d7a341a7817b4b1e64f77b489035"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a2e30d7a341a7817b4b1e64f77b489035">IsRank</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rankId) const</td></tr>
+<tr class="separator:a2e30d7a341a7817b4b1e64f77b489035"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a44f0685f55cfcec2ea2246d546968a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a1a44f0685f55cfcec2ea2246d546968a">IsRankNotLower</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> rankId) const</td></tr>
+<tr class="separator:a1a44f0685f55cfcec2ea2246d546968a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aeb1fb3a806c4d645891c92c2b8e658"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a2aeb1fb3a806c4d645891c92c2b8e658">IsSamePlayer</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid) const</td></tr>
+<tr class="separator:a2aeb1fb3a806c4d645891c92c2b8e658"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14f60bb7c1ee48893a4b0499c9365d27"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a14f60bb7c1ee48893a4b0499c9365d27">UpdateBankWithdrawValue</a> (<a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a> trans, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tabId, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
+<tr class="separator:a14f60bb7c1ee48893a4b0499c9365d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4761fde932239892b499f94864ef2554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a4761fde932239892b499f94864ef2554">GetBankWithdrawValue</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tabId) const</td></tr>
+<tr class="separator:a4761fde932239892b499f94864ef2554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51f47ff61bf0702c28c1b92ceaec6217"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a51f47ff61bf0702c28c1b92ceaec6217">ResetValues</a> ()</td></tr>
+<tr class="separator:a51f47ff61bf0702c28c1b92ceaec6217"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae77d3b6c0880703bc3fa490648b74cb7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ae77d3b6c0880703bc3fa490648b74cb7">FindPlayer</a> () const</td></tr>
+<tr class="separator:ae77d3b6c0880703bc3fa490648b74cb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32fece03d281f7c800a458492d07357b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a32fece03d281f7c800a458492d07357b">SubscribeToGuildBankUpdatePackets</a> ()</td></tr>
+<tr class="separator:a32fece03d281f7c800a458492d07357b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49537bff681581b0a453362fbf8bef35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a49537bff681581b0a453362fbf8bef35">UnsubscribeFromGuildBankUpdatePackets</a> ()</td></tr>
+<tr class="separator:a49537bff681581b0a453362fbf8bef35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abeaeae143562dc88987f54a5619ba0a6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#abeaeae143562dc88987f54a5619ba0a6">ShouldReceiveBankPartialUpdatePackets</a> () const</td></tr>
+<tr class="separator:abeaeae143562dc88987f54a5619ba0a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a89e0192732a43dc44aff3730bc5ad445"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a89e0192732a43dc44aff3730bc5ad445">m_guildId</a></td></tr>
-<tr class="separator:a89e0192732a43dc44aff3730bc5ad445"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75754f42f8a202a9a319c86515a3f0dd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a75754f42f8a202a9a319c86515a3f0dd">m_guid</a></td></tr>
-<tr class="separator:a75754f42f8a202a9a319c86515a3f0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad19e7364e1beba61c9b7a4383b6d42c6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ad19e7364e1beba61c9b7a4383b6d42c6">m_timestamp</a></td></tr>
-<tr class="separator:ad19e7364e1beba61c9b7a4383b6d42c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a09bb57164773287470cbf23eb20dc837"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a09bb57164773287470cbf23eb20dc837">m_guildId</a></td></tr>
+<tr class="separator:a09bb57164773287470cbf23eb20dc837"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a2739ceeaa9e2b90ba3ad5f8a0643c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a></td></tr>
+<tr class="separator:a1a2739ceeaa9e2b90ba3ad5f8a0643c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42ea619dbe068118fef5fe0f8df59b5d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a42ea619dbe068118fef5fe0f8df59b5d">m_name</a></td></tr>
+<tr class="separator:a42ea619dbe068118fef5fe0f8df59b5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4c9b49d59572784376580a298e3683e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a></td></tr>
+<tr class="separator:ab4c9b49d59572784376580a298e3683e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad46839ef22978a08fbc1fa29a094ce3a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a></td></tr>
+<tr class="separator:ad46839ef22978a08fbc1fa29a094ce3a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6956718526576c94e2dcbd1f1df1ca22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">m_class</a></td></tr>
+<tr class="separator:a6956718526576c94e2dcbd1f1df1ca22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1293b721c1fc8408156405c7c7453211"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a1293b721c1fc8408156405c7c7453211">m_gender</a></td></tr>
+<tr class="separator:a1293b721c1fc8408156405c7c7453211"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae471b2f41b3c8918f71749e1582fc1af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a></td></tr>
+<tr class="separator:ae471b2f41b3c8918f71749e1582fc1af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a669e4b38f59430c01e2e9f863e71df48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a669e4b38f59430c01e2e9f863e71df48">m_logoutTime</a></td></tr>
+<tr class="separator:a669e4b38f59430c01e2e9f863e71df48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23c1ce0e3b108c60f764e55e85b74b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">m_accountId</a></td></tr>
+<tr class="separator:ac23c1ce0e3b108c60f764e55e85b74b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5a6573242b89378e2d9d17e60117ae9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a></td></tr>
+<tr class="separator:ab5a6573242b89378e2d9d17e60117ae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8e19b9b410815c25532611e12b9f66d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a></td></tr>
+<tr class="separator:ad8e19b9b410815c25532611e12b9f66d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad860941d562d49583ce4d4ca62dcfbcf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a></td></tr>
+<tr class="separator:ad860941d562d49583ce4d4ca62dcfbcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e506b4596877e49a16d9d65f24a2a2a"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>, <a class="el" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>+1 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a> = {}</td></tr>
+<tr class="separator:a6e506b4596877e49a16d9d65f24a2a2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad930604159d11017a8183eceb1c73916"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">receiveGuildBankUpdatePackets</a></td></tr>
+<tr class="separator:ad930604159d11017a8183eceb1c73916"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af61604a7dc0cc4da315a09fa5b207f37" name="af61604a7dc0cc4da315a09fa5b207f37"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af61604a7dc0cc4da315a09fa5b207f37">&#9670;&#160;</a></span>LogEntry() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Guild::LogEntry::LogEntry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>guildId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  175</span>                                                              :</div>
-<div class="line"><span class="lineno">  176</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a89e0192732a43dc44aff3730bc5ad445">m_guildId</a>(guildId), <a class="code hl_variable" href="../../de/ded/a09238.html#a75754f42f8a202a9a319c86515a3f0dd">m_guid</a>(guid), <a class="code hl_variable" href="../../de/ded/a09238.html#ad19e7364e1beba61c9b7a4383b6d42c6">m_timestamp</a>(<a class="code hl_function" href="../../de/df1/a04758.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count()) { }</div>
-<div class="ttc" id="aa04758_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../de/df1/a04758.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
-<div class="ttc" id="aa09238_html_a75754f42f8a202a9a319c86515a3f0dd"><div class="ttname"><a href="../../de/ded/a09238.html#a75754f42f8a202a9a319c86515a3f0dd">Guild::LogEntry::m_guid</a></div><div class="ttdeci">ObjectGuid::LowType m_guid</div><div class="ttdef"><b>Definition:</b> Guild.h:416</div></div>
-<div class="ttc" id="aa09238_html_a89e0192732a43dc44aff3730bc5ad445"><div class="ttname"><a href="../../de/ded/a09238.html#a89e0192732a43dc44aff3730bc5ad445">Guild::LogEntry::m_guildId</a></div><div class="ttdeci">uint32 m_guildId</div><div class="ttdef"><b>Definition:</b> Guild.h:415</div></div>
-<div class="ttc" id="aa09238_html_ad19e7364e1beba61c9b7a4383b6d42c6"><div class="ttname"><a href="../../de/ded/a09238.html#ad19e7364e1beba61c9b7a4383b6d42c6">Guild::LogEntry::m_timestamp</a></div><div class="ttdeci">uint64 m_timestamp</div><div class="ttdef"><b>Definition:</b> Guild.h:417</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aba3f6f501c59e356166abe71082c421b" name="aba3f6f501c59e356166abe71082c421b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba3f6f501c59e356166abe71082c421b">&#9670;&#160;</a></span>LogEntry() <span class="overload">[2/2]</span></h2>
+<a id="adfd41abf4c7853b10d5faf69164b3149" name="adfd41abf4c7853b10d5faf69164b3149"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adfd41abf4c7853b10d5faf69164b3149">&#9670;&#160;</a></span>Member()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -192,7 +238,7 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Guild::LogEntry::LogEntry </td>
+          <td class="memname">Guild::Member::Member </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
           <td class="paramname"><em>guildId</em>, </td>
@@ -200,14 +246,14 @@ Protected Attributes</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
           <td class="paramname"><em>guid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">time_t&#160;</td>
-          <td class="paramname"><em>timestamp</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>rankId</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -221,12 +267,34 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  406</span>: <a class="code hl_variable" href="../../de/ded/a09238.html#a89e0192732a43dc44aff3730bc5ad445">m_guildId</a>(guildId), <a class="code hl_variable" href="../../de/ded/a09238.html#a75754f42f8a202a9a319c86515a3f0dd">m_guid</a>(guid), <a class="code hl_variable" href="../../de/ded/a09238.html#ad19e7364e1beba61c9b7a4383b6d42c6">m_timestamp</a>(timestamp) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">  298</span>                                                             :</div>
+<div class="line"><span class="lineno">  299</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#a09bb57164773287470cbf23eb20dc837">m_guildId</a>(guildId),</div>
+<div class="line"><span class="lineno">  300</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>(guid),</div>
+<div class="line"><span class="lineno">  301</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a>(0),</div>
+<div class="line"><span class="lineno">  302</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a>(0),</div>
+<div class="line"><span class="lineno">  303</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">m_class</a>(0),</div>
+<div class="line"><span class="lineno">  304</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a>(<a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a123851062f168b4f6f203a4db8279667a27eb32373627b4d85388957c19e139e9">GUILDMEMBER_STATUS_NONE</a>),</div>
+<div class="line"><span class="lineno">  305</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">m_accountId</a>(0),</div>
+<div class="line"><span class="lineno">  306</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a>(rankId),</div>
+<div class="line"><span class="lineno">  307</span>            <a class="code hl_variable" href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">receiveGuildBankUpdatePackets</a>(<span class="keyword">false</span>)</div>
+<div class="line"><span class="lineno">  308</span>        {</div>
+<div class="line"><span class="lineno">  309</span>        }</div>
+<div class="ttc" id="aa02981_html_a123851062f168b4f6f203a4db8279667a27eb32373627b4d85388957c19e139e9"><div class="ttname"><a href="../../d7/d93/a02981.html#a123851062f168b4f6f203a4db8279667a27eb32373627b4d85388957c19e139e9">GUILDMEMBER_STATUS_NONE</a></div><div class="ttdeci">@ GUILDMEMBER_STATUS_NONE</div><div class="ttdef"><b>Definition:</b> Guild.h:230</div></div>
+<div class="ttc" id="aa09238_html_a09bb57164773287470cbf23eb20dc837"><div class="ttname"><a href="../../de/ded/a09238.html#a09bb57164773287470cbf23eb20dc837">Guild::Member::m_guildId</a></div><div class="ttdeci">uint32 m_guildId</div><div class="ttdef"><b>Definition:</b> Guild.h:359</div></div>
+<div class="ttc" id="aa09238_html_a1a2739ceeaa9e2b90ba3ad5f8a0643c0"><div class="ttname"><a href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">Guild::Member::m_guid</a></div><div class="ttdeci">ObjectGuid m_guid</div><div class="ttdef"><b>Definition:</b> Guild.h:361</div></div>
+<div class="ttc" id="aa09238_html_a6956718526576c94e2dcbd1f1df1ca22"><div class="ttname"><a href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">Guild::Member::m_class</a></div><div class="ttdeci">uint8 m_class</div><div class="ttdef"><b>Definition:</b> Guild.h:365</div></div>
+<div class="ttc" id="aa09238_html_ab4c9b49d59572784376580a298e3683e"><div class="ttname"><a href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">Guild::Member::m_zoneId</a></div><div class="ttdeci">uint32 m_zoneId</div><div class="ttdef"><b>Definition:</b> Guild.h:363</div></div>
+<div class="ttc" id="aa09238_html_ab5a6573242b89378e2d9d17e60117ae9"><div class="ttname"><a href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">Guild::Member::m_rankId</a></div><div class="ttdeci">uint8 m_rankId</div><div class="ttdef"><b>Definition:</b> Guild.h:371</div></div>
+<div class="ttc" id="aa09238_html_ac23c1ce0e3b108c60f764e55e85b74b6"><div class="ttname"><a href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">Guild::Member::m_accountId</a></div><div class="ttdeci">uint32 m_accountId</div><div class="ttdef"><b>Definition:</b> Guild.h:369</div></div>
+<div class="ttc" id="aa09238_html_ad46839ef22978a08fbc1fa29a094ce3a"><div class="ttname"><a href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">Guild::Member::m_level</a></div><div class="ttdeci">uint8 m_level</div><div class="ttdef"><b>Definition:</b> Guild.h:364</div></div>
+<div class="ttc" id="aa09238_html_ad930604159d11017a8183eceb1c73916"><div class="ttname"><a href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">Guild::Member::receiveGuildBankUpdatePackets</a></div><div class="ttdeci">bool receiveGuildBankUpdatePackets</div><div class="ttdef"><b>Definition:</b> Guild.h:377</div></div>
+<div class="ttc" id="aa09238_html_ae471b2f41b3c8918f71749e1582fc1af"><div class="ttname"><a href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">Guild::Member::m_flags</a></div><div class="ttdeci">uint8 m_flags</div><div class="ttdef"><b>Definition:</b> Guild.h:367</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<a id="a3c66b8a7be1800c5a9e1dc15aab6d3e9" name="a3c66b8a7be1800c5a9e1dc15aab6d3e9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c66b8a7be1800c5a9e1dc15aab6d3e9">&#9670;&#160;</a></span>~LogEntry()</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8efa359ba98c8df180926061d086be40" name="a8efa359ba98c8df180926061d086be40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8efa359ba98c8df180926061d086be40">&#9670;&#160;</a></span>AddFlag()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -235,7 +303,528 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual Guild::LogEntry::~LogEntry </td>
+          <td class="memname">void Guild::Member::AddFlag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  320</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a> |= var; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00367">m_flags</a>.</p>
+
+</div>
+</div>
+<a id="a3928d5341bfa0154a3ea0f695a73c090" name="a3928d5341bfa0154a3ea0f695a73c090"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3928d5341bfa0154a3ea0f695a73c090">&#9670;&#160;</a></span>ChangeRank()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::ChangeRank </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>newRank</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  569</span>{</div>
+<div class="line"><span class="lineno">  570</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a> = newRank;</div>
+<div class="line"><span class="lineno">  571</span> </div>
+<div class="line"><span class="lineno">  572</span>    <span class="comment">// Update rank information in player&#39;s field, if he is online.</span></div>
+<div class="line"><span class="lineno">  573</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* player = <a class="code hl_function" href="../../de/ded/a09238.html#ae77d3b6c0880703bc3fa490648b74cb7">FindPlayer</a>())</div>
+<div class="line"><span class="lineno">  574</span>        player-&gt;SetRank(newRank);</div>
+<div class="line"><span class="lineno">  575</span> </div>
+<div class="line"><span class="lineno">  576</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a6808afaad287dbf093c158873fa65ee2">CHAR_UPD_GUILD_MEMBER_RANK</a>);</div>
+<div class="line"><span class="lineno">  577</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (0, newRank);</div>
+<div class="line"><span class="lineno">  578</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  579</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  580</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a6808afaad287dbf093c158873fa65ee2"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a6808afaad287dbf093c158873fa65ee2">CHAR_UPD_GUILD_MEMBER_RANK</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_MEMBER_RANK</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:167</div></div>
+<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa05590_html"><div class="ttname"><a href="../../de/dd0/a05590.html">PreparedStatement</a></div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:157</div></div>
+<div class="ttc" id="aa05722_html_a52fc2e65042c1db51f0923725a0f0ed0"><div class="ttname"><a href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">PreparedStatementBase::SetData</a></div><div class="ttdeci">Acore::Types::is_default&lt; T &gt; SetData(const uint8 index, T value)</div><div class="ttdef"><b>Definition:</b> PreparedStatement.h:77</div></div>
+<div class="ttc" id="aa08194_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:145</div></div>
+<div class="ttc" id="aa08390_html"><div class="ttname"><a href="../../db/dff/a08390.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa09238_html_ae77d3b6c0880703bc3fa490648b74cb7"><div class="ttname"><a href="../../de/ded/a09238.html#ae77d3b6c0880703bc3fa490648b74cb7">Guild::Member::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer() const</div><div class="ttdef"><b>Definition:</b> Guild.h:352</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00167">CHAR_UPD_GUILD_MEMBER_RANK</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02492">Guild::_SetLeaderGUID()</a>.</p>
+
+</div>
+</div>
+<a id="a801d78a7a584fb3ee8c862b3aa5b4a4c" name="a801d78a7a584fb3ee8c862b3aa5b4a4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a801d78a7a584fb3ee8c862b3aa5b4a4c">&#9670;&#160;</a></span>CheckStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::Member::CheckStats </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  631</span>{</div>
+<div class="line"><span class="lineno">  632</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a> &lt; 1)</div>
+<div class="line"><span class="lineno">  633</span>    {</div>
+<div class="line"><span class="lineno">  634</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Player ({}) has a broken data in field `characters`.`level`, deleting him from guild!&quot;</span>, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">  635</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  636</span>    }</div>
+<div class="line"><span class="lineno">  637</span> </div>
+<div class="line"><span class="lineno">  638</span>    <span class="keywordflow">if</span> (m_class &lt; CLASS_WARRIOR || m_class &gt;= <a class="code hl_define" href="../../d0/dbd/a02771.html#aa322a61b17e1d56852d53d5ef6a728c6">MAX_CLASSES</a>)</div>
+<div class="line"><span class="lineno">  639</span>    {</div>
+<div class="line"><span class="lineno">  640</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Player ({}) has a broken data in field `characters`.`class`, deleting him from guild!&quot;</span>, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">  641</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  642</span>    }</div>
+<div class="line"><span class="lineno">  643</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  644</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa02771_html_aa322a61b17e1d56852d53d5ef6a728c6"><div class="ttname"><a href="../../d0/dbd/a02771.html#aa322a61b17e1d56852d53d5ef6a728c6">MAX_CLASSES</a></div><div class="ttdeci">#define MAX_CLASSES</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:155</div></div>
+<div class="ttc" id="aa08194_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00155">MAX_CLASSES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02175">Guild::AddMember()</a>.</p>
+
+</div>
+</div>
+<a id="ae77d3b6c0880703bc3fa490648b74cb7" name="ae77d3b6c0880703bc3fa490648b74cb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae77d3b6c0880703bc3fa490648b74cb7">&#9670;&#160;</a></span>FindPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/dff/a08390.html">Player</a> * Guild::Member::FindPlayer </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  352</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(<a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>); }</div>
+<div class="ttc" id="aa04735_html_a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><div class="ttname"><a href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a></div><div class="ttdeci">Player * FindConnectedPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:257</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00257">ObjectAccessor::FindConnectedPlayer()</a>, and <a class="el" href="../../#l00361">m_guid</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02259">Guild::DeleteMember()</a>.</p>
+
+</div>
+</div>
+<a id="a4590b5708be228a703a012a3da490bae" name="a4590b5708be228a703a012a3da490bae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4590b5708be228a703a012a3da490bae">&#9670;&#160;</a></span>GetAccountId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::Member::GetAccountId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  329</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">m_accountId</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00369">m_accountId</a>.</p>
+
+</div>
+</div>
+<a id="a4761fde932239892b499f94864ef2554" name="a4761fde932239892b499f94864ef2554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4761fde932239892b499f94864ef2554">&#9670;&#160;</a></span>GetBankWithdrawValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Guild::Member::GetBankWithdrawValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>tabId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  674</span>{</div>
+<div class="line"><span class="lineno">  675</span>    <span class="comment">// Guild master has unlimited amount.</span></div>
+<div class="line"><span class="lineno">  676</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../de/ded/a09238.html#a2e30d7a341a7817b4b1e64f77b489035">IsRank</a>(<a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a6534fcf172d7fbe4a762e0479601acd4a349203b98139f80965ab3d7e3379c36d">GR_GUILDMASTER</a>))</div>
+<div class="line"><span class="lineno">  677</span>        <span class="keywordflow">return</span> tabId == <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a> ? <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaa970809f1c7ca4e40033d20bd598adaa1">GUILD_WITHDRAW_MONEY_UNLIMITED</a> : <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaa571aa585445117cda99224482dd773c3">GUILD_WITHDRAW_SLOT_UNLIMITED</a>;</div>
+<div class="line"><span class="lineno">  678</span> </div>
+<div class="line"><span class="lineno">  679</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a>[tabId];</div>
+<div class="line"><span class="lineno">  680</span>}</div>
+<div class="ttc" id="aa02981_html_a06a462b77a279ae7e2e901b2a8b42fbaa571aa585445117cda99224482dd773c3"><div class="ttname"><a href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaa571aa585445117cda99224482dd773c3">GUILD_WITHDRAW_SLOT_UNLIMITED</a></div><div class="ttdeci">@ GUILD_WITHDRAW_SLOT_UNLIMITED</div><div class="ttdef"><b>Definition:</b> Guild.h:49</div></div>
+<div class="ttc" id="aa02981_html_a06a462b77a279ae7e2e901b2a8b42fbaa970809f1c7ca4e40033d20bd598adaa1"><div class="ttname"><a href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaa970809f1c7ca4e40033d20bd598adaa1">GUILD_WITHDRAW_MONEY_UNLIMITED</a></div><div class="ttdeci">@ GUILD_WITHDRAW_MONEY_UNLIMITED</div><div class="ttdef"><b>Definition:</b> Guild.h:48</div></div>
+<div class="ttc" id="aa02981_html_a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7"><div class="ttname"><a href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a></div><div class="ttdeci">@ GUILD_BANK_MAX_TABS</div><div class="ttdef"><b>Definition:</b> Guild.h:42</div></div>
+<div class="ttc" id="aa02981_html_a6534fcf172d7fbe4a762e0479601acd4a349203b98139f80965ab3d7e3379c36d"><div class="ttname"><a href="../../d7/d93/a02981.html#a6534fcf172d7fbe4a762e0479601acd4a349203b98139f80965ab3d7e3379c36d">GR_GUILDMASTER</a></div><div class="ttdeci">@ GR_GUILDMASTER</div><div class="ttdef"><b>Definition:</b> Guild.h:65</div></div>
+<div class="ttc" id="aa09238_html_a2e30d7a341a7817b4b1e64f77b489035"><div class="ttname"><a href="../../de/ded/a09238.html#a2e30d7a341a7817b4b1e64f77b489035">Guild::Member::IsRank</a></div><div class="ttdeci">bool IsRank(uint8 rankId) const</div><div class="ttdef"><b>Definition:</b> Guild.h:344</div></div>
+<div class="ttc" id="aa09238_html_a6e506b4596877e49a16d9d65f24a2a2a"><div class="ttname"><a href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">Guild::Member::m_bankWithdraw</a></div><div class="ttdeci">std::array&lt; int32, GUILD_BANK_MAX_TABS+1 &gt; m_bankWithdraw</div><div class="ttdef"><b>Definition:</b> Guild.h:375</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">GR_GUILDMASTER</a>, <a class="el" href="../../#l00042">GUILD_BANK_MAX_TABS</a>, <a class="el" href="../../#l00048">GUILD_WITHDRAW_MONEY_UNLIMITED</a>, and <a class="el" href="../../#l00049">GUILD_WITHDRAW_SLOT_UNLIMITED</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02568">Guild::_GetMemberRemainingMoney()</a>, and <a class="el" href="../../#l02554">Guild::_GetMemberRemainingSlots()</a>.</p>
+
+</div>
+</div>
+<a id="a4069ca28ef3b5cf38eba7f14d6ae50ca" name="a4069ca28ef3b5cf38eba7f14d6ae50ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4069ca28ef3b5cf38eba7f14d6ae50ca">&#9670;&#160;</a></span>GetClass()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::GetClass </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  334</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">m_class</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00365">m_class</a>.</p>
+
+</div>
+</div>
+<a id="a4193f7442a2d3bd5a3ec6b651f37b5c3" name="a4193f7442a2d3bd5a3ec6b651f37b5c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4193f7442a2d3bd5a3ec6b651f37b5c3">&#9670;&#160;</a></span>GetFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::GetFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  337</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00367">m_flags</a>.</p>
+
+</div>
+</div>
+<a id="a9e402f04396da71138df354aeaf18eb7" name="a9e402f04396da71138df354aeaf18eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9e402f04396da71138df354aeaf18eb7">&#9670;&#160;</a></span>GetGender()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::GetGender </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  336</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a1293b721c1fc8408156405c7c7453211">m_gender</a>; }</div>
+<div class="ttc" id="aa09238_html_a1293b721c1fc8408156405c7c7453211"><div class="ttname"><a href="../../de/ded/a09238.html#a1293b721c1fc8408156405c7c7453211">Guild::Member::m_gender</a></div><div class="ttdeci">uint8 m_gender</div><div class="ttdef"><b>Definition:</b> Guild.h:366</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00366">m_gender</a>.</p>
+
+</div>
+</div>
+<a id="acde82e20be9ea4f53c89f0cd9724e2fe" name="acde82e20be9ea4f53c89f0cd9724e2fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acde82e20be9ea4f53c89f0cd9724e2fe">&#9670;&#160;</a></span>GetGUID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> Guild::Member::GetGUID </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  327</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00361">m_guid</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02492">Guild::_SetLeaderGUID()</a>.</p>
+
+</div>
+</div>
+<a id="a6b7a32ad9402be44ebadb133e063451b" name="a6b7a32ad9402be44ebadb133e063451b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b7a32ad9402be44ebadb133e063451b">&#9670;&#160;</a></span>GetLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::GetLevel </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  335</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00364">m_level</a>.</p>
+
+</div>
+</div>
+<a id="ae875e07f72a78934302eda4d16981c5b" name="ae875e07f72a78934302eda4d16981c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae875e07f72a78934302eda4d16981c5b">&#9670;&#160;</a></span>GetLogoutTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Guild::Member::GetLogoutTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  331</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a669e4b38f59430c01e2e9f863e71df48">m_logoutTime</a>; }</div>
+<div class="ttc" id="aa09238_html_a669e4b38f59430c01e2e9f863e71df48"><div class="ttname"><a href="../../de/ded/a09238.html#a669e4b38f59430c01e2e9f863e71df48">Guild::Member::m_logoutTime</a></div><div class="ttdeci">uint64 m_logoutTime</div><div class="ttdef"><b>Definition:</b> Guild.h:368</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00368">m_logoutTime</a>.</p>
+
+</div>
+</div>
+<a id="a07f6c4228d1f264c8b58b719dcd11c62" name="a07f6c4228d1f264c8b58b719dcd11c62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07f6c4228d1f264c8b58b719dcd11c62">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; Guild::Member::GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  328</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a42ea619dbe068118fef5fe0f8df59b5d">m_name</a>; }</div>
+<div class="ttc" id="aa09238_html_a42ea619dbe068118fef5fe0f8df59b5d"><div class="ttname"><a href="../../de/ded/a09238.html#a42ea619dbe068118fef5fe0f8df59b5d">Guild::Member::m_name</a></div><div class="ttdeci">std::string m_name</div><div class="ttdef"><b>Definition:</b> Guild.h:362</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00362">m_name</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02259">Guild::DeleteMember()</a>.</p>
+
+</div>
+</div>
+<a id="a01a8ddb5c500012a0274ef0cf8e8f777" name="a01a8ddb5c500012a0274ef0cf8e8f777"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01a8ddb5c500012a0274ef0cf8e8f777">&#9670;&#160;</a></span>GetOfficerNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Guild::Member::GetOfficerNote </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  333</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a>; }</div>
+<div class="ttc" id="aa09238_html_ad860941d562d49583ce4d4ca62dcfbcf"><div class="ttname"><a href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">Guild::Member::m_officerNote</a></div><div class="ttdeci">std::string m_officerNote</div><div class="ttdef"><b>Definition:</b> Guild.h:373</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00373">m_officerNote</a>.</p>
+
+</div>
+</div>
+<a id="a4e5cd24ebd2adc7209e746e53a8d5eb7" name="a4e5cd24ebd2adc7209e746e53a8d5eb7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e5cd24ebd2adc7209e746e53a8d5eb7">&#9670;&#160;</a></span>GetPublicNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Guild::Member::GetPublicNote </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  332</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a>; }</div>
+<div class="ttc" id="aa09238_html_ad8e19b9b410815c25532611e12b9f66d"><div class="ttname"><a href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">Guild::Member::m_publicNote</a></div><div class="ttdeci">std::string m_publicNote</div><div class="ttdef"><b>Definition:</b> Guild.h:372</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00372">m_publicNote</a>.</p>
+
+</div>
+</div>
+<a id="abb2c5726e2716941bc5e09a1b35b79c6" name="abb2c5726e2716941bc5e09a1b35b79c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2c5726e2716941bc5e09a1b35b79c6">&#9670;&#160;</a></span>GetRankId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::GetRankId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  330</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00371">m_rankId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02568">Guild::_GetMemberRemainingMoney()</a>, <a class="el" href="../../#l02554">Guild::_GetMemberRemainingSlots()</a>, <a class="el" href="../../#l02259">Guild::DeleteMember()</a>, <a class="el" href="../../#l01691">Guild::HandleMemberWithdrawMoney()</a>, <a class="el" href="../../#l00793">WorldSession::HandlePlayerLoginFromDB()</a>, <a class="el" href="../../#l01540">Guild::HandleRemoveMember()</a>, <a class="el" href="../../#l01569">Guild::HandleUpdateMemberRank()</a>, and <a class="el" href="../../#l01834">Guild::SendPermissions()</a>.</p>
+
+</div>
+</div>
+<a id="a9709c46216985dc71ccf766b96ee2c09" name="a9709c46216985dc71ccf766b96ee2c09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9709c46216985dc71ccf766b96ee2c09">&#9670;&#160;</a></span>GetZoneId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::Member::GetZoneId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  338</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00363">m_zoneId</a>.</p>
+
+</div>
+</div>
+<a id="ac7ba863b97b2d255fb572913cb3f8640" name="ac7ba863b97b2d255fb572913cb3f8640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7ba863b97b2d255fb572913cb3f8640">&#9670;&#160;</a></span>IsOnline()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::Member::IsOnline </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -243,17 +832,19 @@ Protected Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  407</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">  339</span>{ <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a> &amp; <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a123851062f168b4f6f203a4db8279667a82ef49b228d254523c3585bb42547d66">GUILDMEMBER_STATUS_ONLINE</a>); }</div>
+<div class="ttc" id="aa02981_html_a123851062f168b4f6f203a4db8279667a82ef49b228d254523c3585bb42547d66"><div class="ttname"><a href="../../d7/d93/a02981.html#a123851062f168b4f6f203a4db8279667a82ef49b228d254523c3585bb42547d66">GUILDMEMBER_STATUS_ONLINE</a></div><div class="ttdeci">@ GUILDMEMBER_STATUS_ONLINE</div><div class="ttdef"><b>Definition:</b> Guild.h:231</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00231">GUILDMEMBER_STATUS_ONLINE</a>, and <a class="el" href="../../#l00367">m_flags</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7af4eac577f8da07540f81e185b2ad49" name="a7af4eac577f8da07540f81e185b2ad49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7af4eac577f8da07540f81e185b2ad49">&#9670;&#160;</a></span>GetGUID()</h2>
+<a id="a2e30d7a341a7817b4b1e64f77b489035" name="a2e30d7a341a7817b4b1e64f77b489035"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e30d7a341a7817b4b1e64f77b489035">&#9670;&#160;</a></span>IsRank()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -262,9 +853,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> Guild::LogEntry::GetGUID </td>
+          <td class="memname">bool Guild::Member::IsRank </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>rankId</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -274,14 +866,16 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  409</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a75754f42f8a202a9a319c86515a3f0dd">m_guid</a>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  344</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a> == rankId; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00416">m_guid</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00371">m_rankId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02042">Guild::Validate()</a>.</p>
 
 </div>
 </div>
-<a id="a643c92439463707671bb08b72bf3a447" name="a643c92439463707671bb08b72bf3a447"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a643c92439463707671bb08b72bf3a447">&#9670;&#160;</a></span>GetTimestamp()</h2>
+<a id="a1a44f0685f55cfcec2ea2246d546968a" name="a1a44f0685f55cfcec2ea2246d546968a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a44f0685f55cfcec2ea2246d546968a">&#9670;&#160;</a></span>IsRankNotLower()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,9 +884,10 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Guild::LogEntry::GetTimestamp </td>
+          <td class="memname">bool Guild::Member::IsRankNotLower </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>rankId</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -302,14 +897,16 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  410</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ad19e7364e1beba61c9b7a4383b6d42c6">m_timestamp</a>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">  345</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a> &lt;= rankId; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00417">m_timestamp</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00371">m_rankId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01540">Guild::HandleRemoveMember()</a>.</p>
 
 </div>
 </div>
-<a id="a1c00aa88973423a1c112c2776a14e78f" name="a1c00aa88973423a1c112c2776a14e78f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c00aa88973423a1c112c2776a14e78f">&#9670;&#160;</a></span>SaveToDB()</h2>
+<a id="a2aeb1fb3a806c4d645891c92c2b8e658" name="a2aeb1fb3a806c4d645891c92c2b8e658"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aeb1fb3a806c4d645891c92c2b8e658">&#9670;&#160;</a></span>IsSamePlayer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,27 +915,581 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void Guild::LogEntry::SaveToDB </td>
+          <td class="memname">bool Guild::Member::IsSamePlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  346</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a> == guid; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00361">m_guid</a>.</p>
+
+</div>
+</div>
+<a id="a72b6e514edb19461b00340df621d4545" name="a72b6e514edb19461b00340df621d4545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b6e514edb19461b00340df621d4545">&#9670;&#160;</a></span>LoadFromDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::Member::LoadFromDB </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/dc8/a05622.html">Field</a> *&#160;</td>
+          <td class="paramname"><em>fields</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  602</span>{</div>
+<div class="line"><span class="lineno">  603</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a>  = fields[3].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  604</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a> = fields[4].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;std::string&gt;();</div>
+<div class="line"><span class="lineno">  605</span> </div>
+<div class="line"><span class="lineno">  606</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt;= <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>; ++i)</div>
+<div class="line"><span class="lineno">  607</span>        <a class="code hl_variable" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a>[i] = fields[5 + i].Get&lt;uint32&gt;();</div>
+<div class="line"><span class="lineno">  608</span> </div>
+<div class="line"><span class="lineno">  609</span>    <a class="code hl_function" href="../../de/ded/a09238.html#afa43b716e30e66244db9b5be04a7bc95">SetStats</a>(fields[12].Get&lt;std::string&gt;(),</div>
+<div class="line"><span class="lineno">  610</span>             fields[13].Get&lt;uint8&gt;(),                         <span class="comment">// characters.level</span></div>
+<div class="line"><span class="lineno">  611</span>             fields[14].Get&lt;uint8&gt;(),                         <span class="comment">// characters.class</span></div>
+<div class="line"><span class="lineno">  612</span>             fields[15].Get&lt;uint8&gt;(),                         <span class="comment">// characters.gender</span></div>
+<div class="line"><span class="lineno">  613</span>             fields[16].Get&lt;uint16&gt;(),                        <span class="comment">// characters.zone</span></div>
+<div class="line"><span class="lineno">  614</span>             fields[17].Get&lt;uint32&gt;());                       <span class="comment">// characters.account</span></div>
+<div class="line"><span class="lineno">  615</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a669e4b38f59430c01e2e9f863e71df48">m_logoutTime</a> = fields[18].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();                  <span class="comment">// characters.logout_time</span></div>
+<div class="line"><span class="lineno">  616</span> </div>
+<div class="line"><span class="lineno">  617</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../de/ded/a09238.html#a801d78a7a584fb3ee8c862b3aa5b4a4c">CheckStats</a>())</div>
+<div class="line"><span class="lineno">  618</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  619</span> </div>
+<div class="line"><span class="lineno">  620</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a>)</div>
+<div class="line"><span class="lineno">  621</span>    {</div>
+<div class="line"><span class="lineno">  622</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;guild&quot;</span>, <span class="stringliteral">&quot;Player ({}) has broken zone-data&quot;</span>, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
+<div class="line"><span class="lineno">  623</span>        <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a> = <a class="code hl_function" href="../../db/dff/a08390.html#a1fa024819c672e171ac55acda8085594">Player::GetZoneIdFromDB</a>(<a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>);</div>
+<div class="line"><span class="lineno">  624</span>    }</div>
+<div class="line"><span class="lineno">  625</span>    <a class="code hl_function" href="../../de/ded/a09238.html#aa049019e50eb53bf4dc3b227ce45c113">ResetFlags</a>();</div>
+<div class="line"><span class="lineno">  626</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  627</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa05622_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:112</div></div>
+<div class="ttc" id="aa08390_html_a1fa024819c672e171ac55acda8085594"><div class="ttname"><a href="../../db/dff/a08390.html#a1fa024819c672e171ac55acda8085594">Player::GetZoneIdFromDB</a></div><div class="ttdeci">static uint32 GetZoneIdFromDB(ObjectGuid guid)</div><div class="ttdef"><b>Definition:</b> Player.cpp:6325</div></div>
+<div class="ttc" id="aa09238_html_a801d78a7a584fb3ee8c862b3aa5b4a4c"><div class="ttname"><a href="../../de/ded/a09238.html#a801d78a7a584fb3ee8c862b3aa5b4a4c">Guild::Member::CheckStats</a></div><div class="ttdeci">bool CheckStats() const</div><div class="ttdef"><b>Definition:</b> Guild.cpp:630</div></div>
+<div class="ttc" id="aa09238_html_aa049019e50eb53bf4dc3b227ce45c113"><div class="ttname"><a href="../../de/ded/a09238.html#aa049019e50eb53bf4dc3b227ce45c113">Guild::Member::ResetFlags</a></div><div class="ttdeci">void ResetFlags()</div><div class="ttdef"><b>Definition:</b> Guild.h:322</div></div>
+<div class="ttc" id="aa09238_html_afa43b716e30e66244db9b5be04a7bc95"><div class="ttname"><a href="../../de/ded/a09238.html#afa43b716e30e66244db9b5be04a7bc95">Guild::Member::SetStats</a></div><div class="ttdeci">void SetStats(Player *player)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:522</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l06325">Player::GetZoneIdFromDB()</a>, <a class="el" href="../../#l00042">GUILD_BANK_MAX_TABS</a>, and <a class="el" href="../../#l00157">LOG_ERROR</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01931">Guild::LoadMemberFromDB()</a>.</p>
+
+</div>
+</div>
+<a id="a0fbd4ef00371f0fbce152a16e662da77" name="a0fbd4ef00371f0fbce152a16e662da77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fbd4ef00371f0fbce152a16e662da77">&#9670;&#160;</a></span>RemFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::RemFlag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  321</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a> &amp;= ~var; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00367">m_flags</a>.</p>
+
+</div>
+</div>
+<a id="aa049019e50eb53bf4dc3b227ce45c113" name="aa049019e50eb53bf4dc3b227ce45c113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa049019e50eb53bf4dc3b227ce45c113">&#9670;&#160;</a></span>ResetFlags()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::ResetFlags </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  322</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ae471b2f41b3c8918f71749e1582fc1af">m_flags</a> = <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a123851062f168b4f6f203a4db8279667a27eb32373627b4d85388957c19e139e9">GUILDMEMBER_STATUS_NONE</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00230">GUILDMEMBER_STATUS_NONE</a>, and <a class="el" href="../../#l00367">m_flags</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02175">Guild::AddMember()</a>.</p>
+
+</div>
+</div>
+<a id="a51f47ff61bf0702c28c1b92ceaec6217" name="a51f47ff61bf0702c28c1b92ceaec6217"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51f47ff61bf0702c28c1b92ceaec6217">&#9670;&#160;</a></span>ResetValues()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::ResetValues </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  665</span>{</div>
+<div class="line"><span class="lineno">  666</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> tabId = 0; tabId &lt;= <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>; ++tabId)</div>
+<div class="line"><span class="lineno">  667</span>        <a class="code hl_variable" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a>[tabId] = 0;</div>
+<div class="line"><span class="lineno">  668</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00042">GUILD_BANK_MAX_TABS</a>.</p>
+
+</div>
+</div>
+<a id="adc261eeb304cfdcbf7ab6b732e27af12" name="adc261eeb304cfdcbf7ab6b732e27af12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc261eeb304cfdcbf7ab6b732e27af12">&#9670;&#160;</a></span>SaveToDB()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SaveToDB </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a>&#160;</td>
           <td class="paramname"><em>trans</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  588</span>{</div>
+<div class="line"><span class="lineno">  589</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a06daee42b7c2a3859725d756bd3ce9d5">CHAR_INS_GUILD_MEMBER</a>);</div>
+<div class="line"><span class="lineno">  590</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../de/ded/a09238.html#a09bb57164773287470cbf23eb20dc837">m_guildId</a>);</div>
+<div class="line"><span class="lineno">  591</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  592</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a> (2, <a class="code hl_variable" href="../../de/ded/a09238.html#ab5a6573242b89378e2d9d17e60117ae9">m_rankId</a>);</div>
+<div class="line"><span class="lineno">  593</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(3, <a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a>);</div>
+<div class="line"><span class="lineno">  594</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(4, <a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a>);</div>
+<div class="line"><span class="lineno">  595</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  596</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a06daee42b7c2a3859725d756bd3ce9d5"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a06daee42b7c2a3859725d756bd3ce9d5">CHAR_INS_GUILD_MEMBER</a></div><div class="ttdeci">@ CHAR_INS_GUILD_MEMBER</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:143</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00143">CHAR_INS_GUILD_MEMBER</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02175">Guild::AddMember()</a>.</p>
+
+</div>
+</div>
+<a id="a92aca42547d84388d6a0815a2c9584a6" name="a92aca42547d84388d6a0815a2c9584a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92aca42547d84388d6a0815a2c9584a6">&#9670;&#160;</a></span>SetLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>var</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  318</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a> = var; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00364">m_level</a>.</p>
 
-<p>Implemented in <a class="el" href="../../dd/dca/a09242.html#a2ca71e291a44f95bb42d51083aa84985">Guild::EventLogEntry</a>, and <a class="el" href="../../df/dc1/a09246.html#a9010bb7bd849aa6ba25b31596ac30831">Guild::BankEventLogEntry</a>.</p>
+</div>
+</div>
+<a id="a55942b73baacc1fdf1f9c6465e894117" name="a55942b73baacc1fdf1f9c6465e894117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55942b73baacc1fdf1f9c6465e894117">&#9670;&#160;</a></span>SetOfficerNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetOfficerNote </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>officerNote</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  556</span>{</div>
+<div class="line"><span class="lineno">  557</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a> == officerNote)</div>
+<div class="line"><span class="lineno">  558</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  559</span> </div>
+<div class="line"><span class="lineno">  560</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a> = officerNote;</div>
+<div class="line"><span class="lineno">  561</span> </div>
+<div class="line"><span class="lineno">  562</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7aad37c8a6e460478ecba68d1ce0e163f4">CHAR_UPD_GUILD_MEMBER_OFFNOTE</a>);</div>
+<div class="line"><span class="lineno">  563</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../de/ded/a09238.html#ad860941d562d49583ce4d4ca62dcfbcf">m_officerNote</a>);</div>
+<div class="line"><span class="lineno">  564</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  565</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  566</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7aad37c8a6e460478ecba68d1ce0e163f4"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7aad37c8a6e460478ecba68d1ce0e163f4">CHAR_UPD_GUILD_MEMBER_OFFNOTE</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_MEMBER_OFFNOTE</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:166</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00166">CHAR_UPD_GUILD_MEMBER_OFFNOTE</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+</div>
+</div>
+<a id="a358debd5881d7c513f7dd51f19eaa401" name="a358debd5881d7c513f7dd51f19eaa401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a358debd5881d7c513f7dd51f19eaa401">&#9670;&#160;</a></span>SetPublicNote()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetPublicNote </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>publicNote</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  543</span>{</div>
+<div class="line"><span class="lineno">  544</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a> == publicNote)</div>
+<div class="line"><span class="lineno">  545</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  546</span> </div>
+<div class="line"><span class="lineno">  547</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a> = publicNote;</div>
+<div class="line"><span class="lineno">  548</span> </div>
+<div class="line"><span class="lineno">  549</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a89ec4d0e8e79bcfa4b33ed7151cd368e">CHAR_UPD_GUILD_MEMBER_PNOTE</a>);</div>
+<div class="line"><span class="lineno">  550</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../de/ded/a09238.html#ad8e19b9b410815c25532611e12b9f66d">m_publicNote</a>);</div>
+<div class="line"><span class="lineno">  551</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(1, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  552</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Execute(stmt);</div>
+<div class="line"><span class="lineno">  553</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7a89ec4d0e8e79bcfa4b33ed7151cd368e"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a89ec4d0e8e79bcfa4b33ed7151cd368e">CHAR_UPD_GUILD_MEMBER_PNOTE</a></div><div class="ttdeci">@ CHAR_UPD_GUILD_MEMBER_PNOTE</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:165</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00165">CHAR_UPD_GUILD_MEMBER_PNOTE</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+</div>
+</div>
+<a id="afa43b716e30e66244db9b5be04a7bc95" name="afa43b716e30e66244db9b5be04a7bc95"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa43b716e30e66244db9b5be04a7bc95">&#9670;&#160;</a></span>SetStats() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetStats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  523</span>{</div>
+<div class="line"><span class="lineno">  524</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a42ea619dbe068118fef5fe0f8df59b5d">m_name</a>      = player-&gt;<a class="code hl_function" href="../../de/d75/a08178.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>();</div>
+<div class="line"><span class="lineno">  525</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a>     = player-&gt;<a class="code hl_function" href="../../d0/d32/a08522.html#af4767dc4f1480f7c0527db4efe2643d9">GetLevel</a>();</div>
+<div class="line"><span class="lineno">  526</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">m_class</a>     = player-&gt;<a class="code hl_function" href="../../d0/d32/a08522.html#a58a507ebe628930b8a506144b364d84b">getClass</a>();</div>
+<div class="line"><span class="lineno">  527</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a1293b721c1fc8408156405c7c7453211">m_gender</a>    = player-&gt;<a class="code hl_function" href="../../d0/d32/a08522.html#a0d13935c40d0392f7f7b5a34540461b2">getGender</a>();</div>
+<div class="line"><span class="lineno">  528</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a>    = player-&gt;<a class="code hl_function" href="../../de/d75/a08178.html#ad498d690fbe69bb99a8a2ffdcb2f5169">GetZoneId</a>();</div>
+<div class="line"><span class="lineno">  529</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">m_accountId</a> = player-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d2/d13/a10746.html#a9fa5510daf576fe281d1961430902dd9">GetAccountId</a>();</div>
+<div class="line"><span class="lineno">  530</span>}</div>
+<div class="ttc" id="aa08178_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../de/d75/a08178.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:458</div></div>
+<div class="ttc" id="aa08178_html_ad498d690fbe69bb99a8a2ffdcb2f5169"><div class="ttname"><a href="../../de/d75/a08178.html#ad498d690fbe69bb99a8a2ffdcb2f5169">WorldObject::GetZoneId</a></div><div class="ttdeci">uint32 GetZoneId() const</div><div class="ttdef"><b>Definition:</b> Object.cpp:3146</div></div>
+<div class="ttc" id="aa08390_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1981</div></div>
+<div class="ttc" id="aa08522_html_a0d13935c40d0392f7f7b5a34540461b2"><div class="ttname"><a href="../../d0/d32/a08522.html#a0d13935c40d0392f7f7b5a34540461b2">Unit::getGender</a></div><div class="ttdeci">uint8 getGender() const</div><div class="ttdef"><b>Definition:</b> Unit.h:805</div></div>
+<div class="ttc" id="aa08522_html_a58a507ebe628930b8a506144b364d84b"><div class="ttname"><a href="../../d0/d32/a08522.html#a58a507ebe628930b8a506144b364d84b">Unit::getClass</a></div><div class="ttdeci">uint8 getClass() const</div><div class="ttdef"><b>Definition:</b> Unit.h:800</div></div>
+<div class="ttc" id="aa08522_html_af4767dc4f1480f7c0527db4efe2643d9"><div class="ttname"><a href="../../d0/d32/a08522.html#af4767dc4f1480f7c0527db4efe2643d9">Unit::GetLevel</a></div><div class="ttdeci">uint8 GetLevel() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1024</div></div>
+<div class="ttc" id="aa10746_html_a9fa5510daf576fe281d1961430902dd9"><div class="ttname"><a href="../../d2/d13/a10746.html#a9fa5510daf576fe281d1961430902dd9">WorldSession::GetAccountId</a></div><div class="ttdeci">uint32 GetAccountId() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:361</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00361">WorldSession::GetAccountId()</a>, <a class="el" href="../../#l00800">Unit::getClass()</a>, <a class="el" href="../../#l00805">Unit::getGender()</a>, <a class="el" href="../../#l01024">Unit::GetLevel()</a>, <a class="el" href="../../#l00458">WorldObject::GetName()</a>, <a class="el" href="../../#l01981">Player::GetSession()</a>, <a class="el" href="../../#l03146">WorldObject::GetZoneId()</a>, and <a class="el" href="../../#l00784">Guild::m_name</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02175">Guild::AddMember()</a>.</p>
+
+</div>
+</div>
+<a id="a2cae93898b49ce236226dd39a4937c71" name="a2cae93898b49ce236226dd39a4937c71"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2cae93898b49ce236226dd39a4937c71">&#9670;&#160;</a></span>SetStats() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetStats </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>gender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zoneId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>accountId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  533</span>{</div>
+<div class="line"><span class="lineno">  534</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a42ea619dbe068118fef5fe0f8df59b5d">m_name</a>      = name;</div>
+<div class="line"><span class="lineno">  535</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ad46839ef22978a08fbc1fa29a094ce3a">m_level</a>     = level;</div>
+<div class="line"><span class="lineno">  536</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a6956718526576c94e2dcbd1f1df1ca22">m_class</a>     = _class;</div>
+<div class="line"><span class="lineno">  537</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a1293b721c1fc8408156405c7c7453211">m_gender</a>    = gender;</div>
+<div class="line"><span class="lineno">  538</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a>    = zoneId;</div>
+<div class="line"><span class="lineno">  539</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#ac23c1ce0e3b108c60f764e55e85b74b6">m_accountId</a> = accountId;</div>
+<div class="line"><span class="lineno">  540</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00784">Guild::m_name</a>.</p>
+
+</div>
+</div>
+<a id="a667017449cd63e97c3115ea2dfc12dd8" name="a667017449cd63e97c3115ea2dfc12dd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667017449cd63e97c3115ea2dfc12dd8">&#9670;&#160;</a></span>SetZoneID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SetZoneID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  317</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ab4c9b49d59572784376580a298e3683e">m_zoneId</a> = id; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00363">m_zoneId</a>.</p>
+
+</div>
+</div>
+<a id="abeaeae143562dc88987f54a5619ba0a6" name="abeaeae143562dc88987f54a5619ba0a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abeaeae143562dc88987f54a5619ba0a6">&#9670;&#160;</a></span>ShouldReceiveBankPartialUpdatePackets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::Member::ShouldReceiveBankPartialUpdatePackets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  356</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">receiveGuildBankUpdatePackets</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">receiveGuildBankUpdatePackets</a>.</p>
+
+</div>
+</div>
+<a id="a32fece03d281f7c800a458492d07357b" name="a32fece03d281f7c800a458492d07357b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32fece03d281f7c800a458492d07357b">&#9670;&#160;</a></span>SubscribeToGuildBankUpdatePackets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::SubscribeToGuildBankUpdatePackets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  354</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">receiveGuildBankUpdatePackets</a> = <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">receiveGuildBankUpdatePackets</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01817">Guild::SendBankTabsInfo()</a>.</p>
+
+</div>
+</div>
+<a id="a49537bff681581b0a453362fbf8bef35" name="a49537bff681581b0a453362fbf8bef35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49537bff681581b0a453362fbf8bef35">&#9670;&#160;</a></span>UnsubscribeFromGuildBankUpdatePackets()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::UnsubscribeFromGuildBankUpdatePackets </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  355</span>{ <a class="code hl_variable" href="../../de/ded/a09238.html#ad930604159d11017a8183eceb1c73916">receiveGuildBankUpdatePackets</a> = <span class="keyword">false</span>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00377">receiveGuildBankUpdatePackets</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01834">Guild::SendPermissions()</a>.</p>
+
+</div>
+</div>
+<a id="a14f60bb7c1ee48893a4b0499c9365d27" name="a14f60bb7c1ee48893a4b0499c9365d27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14f60bb7c1ee48893a4b0499c9365d27">&#9670;&#160;</a></span>UpdateBankWithdrawValue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::UpdateBankWithdrawValue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d24/a04589.html#a96bac9a371212c6bab7a9448214666c0">CharacterDatabaseTransaction</a>&#160;</td>
+          <td class="paramname"><em>trans</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>tabId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>amount</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  650</span>{</div>
+<div class="line"><span class="lineno">  651</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a>[tabId] += amount;</div>
+<div class="line"><span class="lineno">  652</span> </div>
+<div class="line"><span class="lineno">  653</span>    <a class="code hl_class" href="../../de/dd0/a05590.html">CharacterDatabasePreparedStatement</a>* stmt = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.GetPreparedStatement(<a class="code hl_enumvalue" href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7af1ab5463e71ef54c08efa64d11bead18">CHAR_INS_GUILD_MEMBER_WITHDRAW</a>);</div>
+<div class="line"><span class="lineno">  654</span>    stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(0, <a class="code hl_variable" href="../../de/ded/a09238.html#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">m_guid</a>.<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  655</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt;= <a class="code hl_enumvalue" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a>;)</div>
+<div class="line"><span class="lineno">  656</span>    {</div>
+<div class="line"><span class="lineno">  657</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> withdraw = <a class="code hl_variable" href="../../de/ded/a09238.html#a6e506b4596877e49a16d9d65f24a2a2a">m_bankWithdraw</a>[i++];</div>
+<div class="line"><span class="lineno">  658</span>        stmt-&gt;<a class="code hl_function" href="../../d6/dcf/a05722.html#a52fc2e65042c1db51f0923725a0f0ed0">SetData</a>(i, withdraw);</div>
+<div class="line"><span class="lineno">  659</span>    }</div>
+<div class="line"><span class="lineno">  660</span> </div>
+<div class="line"><span class="lineno">  661</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.ExecuteOrAppend(trans, stmt);</div>
+<div class="line"><span class="lineno">  662</span>}</div>
+<div class="ttc" id="aa04547_html_a76116b4fa282d8e35bf8f8e940b5cba7af1ab5463e71ef54c08efa64d11bead18"><div class="ttname"><a href="../../d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7af1ab5463e71ef54c08efa64d11bead18">CHAR_INS_GUILD_MEMBER_WITHDRAW</a></div><div class="ttdeci">@ CHAR_INS_GUILD_MEMBER_WITHDRAW</div><div class="ttdef"><b>Definition:</b> CharacterDatabase.h:179</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00179">CHAR_INS_GUILD_MEMBER_WITHDRAW</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00042">GUILD_BANK_MAX_TABS</a>, and <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01691">Guild::HandleMemberWithdrawMoney()</a>.</p>
+
+</div>
+</div>
+<a id="a38920a6026acaef4b85163b96d07be9e" name="a38920a6026acaef4b85163b96d07be9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38920a6026acaef4b85163b96d07be9e">&#9670;&#160;</a></span>UpdateLogoutTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Guild::Member::UpdateLogoutTime </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  583</span>{</div>
+<div class="line"><span class="lineno">  584</span>    <a class="code hl_variable" href="../../de/ded/a09238.html#a669e4b38f59430c01e2e9f863e71df48">m_logoutTime</a> = <a class="code hl_function" href="../../de/df1/a04758.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count();</div>
+<div class="line"><span class="lineno">  585</span>}</div>
+<div class="ttc" id="aa04758_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../de/df1/a04758.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00038">GameTime::GetGameTime()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a75754f42f8a202a9a319c86515a3f0dd" name="a75754f42f8a202a9a319c86515a3f0dd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75754f42f8a202a9a319c86515a3f0dd">&#9670;&#160;</a></span>m_guid</h2>
+<a id="ac23c1ce0e3b108c60f764e55e85b74b6" name="ac23c1ce0e3b108c60f764e55e85b74b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23c1ce0e3b108c60f764e55e85b74b6">&#9670;&#160;</a></span>m_accountId</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -347,22 +1498,22 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> Guild::LogEntry::m_guid</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::Member::m_accountId</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00409">GetGUID()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00329">GetAccountId()</a>.</p>
 
 </div>
 </div>
-<a id="a89e0192732a43dc44aff3730bc5ad445" name="a89e0192732a43dc44aff3730bc5ad445"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89e0192732a43dc44aff3730bc5ad445">&#9670;&#160;</a></span>m_guildId</h2>
+<a id="a6e506b4596877e49a16d9d65f24a2a2a" name="a6e506b4596877e49a16d9d65f24a2a2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e506b4596877e49a16d9d65f24a2a2a">&#9670;&#160;</a></span>m_bankWithdraw</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -371,20 +1522,20 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::LogEntry::m_guildId</td>
+          <td class="memname">std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>, <a class="el" href="../../d7/d93/a02981.html#a06a462b77a279ae7e2e901b2a8b42fbaadf100aec6c7a6f10b7af8629930feff7">GUILD_BANK_MAX_TABS</a> + 1&gt; Guild::Member::m_bankWithdraw = {}</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad19e7364e1beba61c9b7a4383b6d42c6" name="ad19e7364e1beba61c9b7a4383b6d42c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad19e7364e1beba61c9b7a4383b6d42c6">&#9670;&#160;</a></span>m_timestamp</h2>
+<a id="a6956718526576c94e2dcbd1f1df1ca22" name="a6956718526576c94e2dcbd1f1df1ca22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6956718526576c94e2dcbd1f1df1ca22">&#9670;&#160;</a></span>m_class</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -393,17 +1544,303 @@ Protected Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Guild::LogEntry::m_timestamp</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::m_class</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00410">GetTimestamp()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00334">GetClass()</a>.</p>
+
+</div>
+</div>
+<a id="ae471b2f41b3c8918f71749e1582fc1af" name="ae471b2f41b3c8918f71749e1582fc1af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae471b2f41b3c8918f71749e1582fc1af">&#9670;&#160;</a></span>m_flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::m_flags</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00320">AddFlag()</a>, <a class="el" href="../../#l00337">GetFlags()</a>, <a class="el" href="../../#l00339">IsOnline()</a>, <a class="el" href="../../#l00321">RemFlag()</a>, and <a class="el" href="../../#l00322">ResetFlags()</a>.</p>
+
+</div>
+</div>
+<a id="a1293b721c1fc8408156405c7c7453211" name="a1293b721c1fc8408156405c7c7453211"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1293b721c1fc8408156405c7c7453211">&#9670;&#160;</a></span>m_gender</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::m_gender</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00336">GetGender()</a>.</p>
+
+</div>
+</div>
+<a id="a1a2739ceeaa9e2b90ba3ad5f8a0643c0" name="a1a2739ceeaa9e2b90ba3ad5f8a0643c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a2739ceeaa9e2b90ba3ad5f8a0643c0">&#9670;&#160;</a></span>m_guid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> Guild::Member::m_guid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00352">FindPlayer()</a>, <a class="el" href="../../#l00327">GetGUID()</a>, and <a class="el" href="../../#l00346">IsSamePlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a09bb57164773287470cbf23eb20dc837" name="a09bb57164773287470cbf23eb20dc837"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09bb57164773287470cbf23eb20dc837">&#9670;&#160;</a></span>m_guildId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::Member::m_guildId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad46839ef22978a08fbc1fa29a094ce3a" name="ad46839ef22978a08fbc1fa29a094ce3a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad46839ef22978a08fbc1fa29a094ce3a">&#9670;&#160;</a></span>m_level</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::m_level</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00335">GetLevel()</a>, and <a class="el" href="../../#l00318">SetLevel()</a>.</p>
+
+</div>
+</div>
+<a id="a669e4b38f59430c01e2e9f863e71df48" name="a669e4b38f59430c01e2e9f863e71df48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a669e4b38f59430c01e2e9f863e71df48">&#9670;&#160;</a></span>m_logoutTime</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> Guild::Member::m_logoutTime</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00331">GetLogoutTime()</a>.</p>
+
+</div>
+</div>
+<a id="a42ea619dbe068118fef5fe0f8df59b5d" name="a42ea619dbe068118fef5fe0f8df59b5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42ea619dbe068118fef5fe0f8df59b5d">&#9670;&#160;</a></span>m_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Guild::Member::m_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00328">GetName()</a>.</p>
+
+</div>
+</div>
+<a id="ad860941d562d49583ce4d4ca62dcfbcf" name="ad860941d562d49583ce4d4ca62dcfbcf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad860941d562d49583ce4d4ca62dcfbcf">&#9670;&#160;</a></span>m_officerNote</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Guild::Member::m_officerNote</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00333">GetOfficerNote()</a>.</p>
+
+</div>
+</div>
+<a id="ad8e19b9b410815c25532611e12b9f66d" name="ad8e19b9b410815c25532611e12b9f66d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8e19b9b410815c25532611e12b9f66d">&#9670;&#160;</a></span>m_publicNote</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Guild::Member::m_publicNote</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00332">GetPublicNote()</a>.</p>
+
+</div>
+</div>
+<a id="ab5a6573242b89378e2d9d17e60117ae9" name="ab5a6573242b89378e2d9d17e60117ae9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5a6573242b89378e2d9d17e60117ae9">&#9670;&#160;</a></span>m_rankId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Guild::Member::m_rankId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00330">GetRankId()</a>, <a class="el" href="../../#l00344">IsRank()</a>, and <a class="el" href="../../#l00345">IsRankNotLower()</a>.</p>
+
+</div>
+</div>
+<a id="ab4c9b49d59572784376580a298e3683e" name="ab4c9b49d59572784376580a298e3683e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4c9b49d59572784376580a298e3683e">&#9670;&#160;</a></span>m_zoneId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Guild::Member::m_zoneId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00338">GetZoneId()</a>, and <a class="el" href="../../#l00317">SetZoneID()</a>.</p>
+
+</div>
+</div>
+<a id="ad930604159d11017a8183eceb1c73916" name="ad930604159d11017a8183eceb1c73916"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad930604159d11017a8183eceb1c73916">&#9670;&#160;</a></span>receiveGuildBankUpdatePackets</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Guild::Member::receiveGuildBankUpdatePackets</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00356">ShouldReceiveBankPartialUpdatePackets()</a>, <a class="el" href="../../#l00354">SubscribeToGuildBankUpdatePackets()</a>, and <a class="el" href="../../#l00355">UnsubscribeFromGuildBankUpdatePackets()</a>.</p>
 
 </div>
 </div>
@@ -412,8 +1849,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d07/a09230.html">Guild</a></li><li class="navelem"><a class="el" href="../../de/ded/a09238.html">LogEntry</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/d44/a09234.html">Guild</a></li><li class="navelem"><a class="el" href="../../de/ded/a09238.html">Member</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

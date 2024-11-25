@@ -1,6 +1,7 @@
 var a13874 =
 [
-    [ "PeriodicTick", "d6/dae/a13874.html#a0832c36a9497674374b2998398bfc3a4", null ],
-    [ "PrepareAuraScript", "d6/dae/a13874.html#a89acb64235da1ff59da90a509fbeec9d", null ],
-    [ "Register", "d6/dae/a13874.html#aab689a2cb84dcd064736171035640584", null ]
+    [ "FilterTargets", "d6/dae/a13874.html#af3954bbcbce6de5d4ddadd2af0ecac91", null ],
+    [ "HandleDummy", "d6/dae/a13874.html#ad3688071ca786bbb4c27d5632d1a1e56", null ],
+    [ "PrepareSpellScript", "d6/dae/a13874.html#a6ac4db072beae6ae7a700774667da613", null ],
+    [ "Register", "d6/dae/a13874.html#ae981ec2b7e097ad0fe924df7738da5b7", null ]
 ];

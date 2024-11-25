@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: UpdatableScript&lt; TObject &gt; Class Template Reference</title>
+<title>AzerothCore: ScriptObject Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,164 +107,124 @@ $(document).ready(function(){initNavTree('df/d8b/a10154.html','../../'); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d9/d28/a10151.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">UpdatableScript&lt; TObject &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">ScriptObject Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for UpdatableScript&lt; TObject &gt;:</div>
+Inheritance diagram for ScriptObject:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../df/d8b/a10154.png" usemap="#UpdatableScript_3C_20TObject_20_3E_map" alt=""/>
-  <map id="UpdatableScript_3C_20TObject_20_3E_map" name="UpdatableScript_3C_20TObject_20_3E_map">
-<area href="../../d7/d7a/a10158.html" alt="MapScript&lt; BattlegroundMap &gt;" shape="rect" coords="0,56,190,80"/>
-<area href="../../d7/d7a/a10158.html" alt="MapScript&lt; InstanceMap &gt;" shape="rect" coords="200,56,390,80"/>
-<area href="../../d7/d7a/a10158.html" alt="MapScript&lt; Map &gt;" shape="rect" coords="400,56,590,80"/>
-<area href="../../d2/d97/a09990.html" alt="BattlegroundMapScript" shape="rect" coords="0,112,190,136"/>
-<area href="../../d0/d65/a10062.html" alt="InstanceMapScript" shape="rect" coords="200,112,390,136"/>
-<area href="../../d8/d8e/a10130.html" alt="WorldMapScript" shape="rect" coords="400,112,590,136"/>
-<area href="../../d7/d5a/a15466.html" alt="instance_ahnkahet" shape="rect" coords="400,168,590,192"/>
-<area href="../../d6/d49/a23382.html" alt="instance_arcatraz" shape="rect" coords="400,224,590,248"/>
-<area href="../../dc/db6/a22266.html" alt="instance_auchenai_crypts" shape="rect" coords="400,280,590,304"/>
-<area href="../../d4/d0b/a15538.html" alt="instance_azjol_nerub" shape="rect" coords="400,336,590,360"/>
-<area href="../../d4/df1/a22690.html" alt="instance_black_temple" shape="rect" coords="400,392,590,416"/>
-<area href="../../d7/d1e/a14178.html" alt="instance_blackfathom_deeps" shape="rect" coords="400,448,590,472"/>
-<area href="../../d4/de1/a11702.html" alt="instance_blackrock_depths" shape="rect" coords="400,504,590,528"/>
-<area href="../../d7/d90/a11850.html" alt="instance_blackrock_spire" shape="rect" coords="400,560,590,584"/>
-<area href="../../dc/d09/a12038.html" alt="instance_blackwing_lair" shape="rect" coords="400,616,590,640"/>
-<area href="../../da/db1/a23194.html" alt="instance_blood_furnace" shape="rect" coords="400,672,590,696"/>
-<area href="../../d8/de8/a14382.html" alt="instance_culling_of_stratholme" shape="rect" coords="400,728,590,752"/>
-<area href="../../d4/d18/a12242.html" alt="instance_deadmines" shape="rect" coords="400,784,590,808"/>
-<area href="../../d7/d74/a14470.html" alt="instance_dire_maul" shape="rect" coords="400,840,590,864"/>
-<area href="../../d2/d8c/a16338.html" alt="instance_drak_tharon_keep" shape="rect" coords="400,896,590,920"/>
-<area href="../../d5/dc7/a18894.html" alt="instance_eye_of_eternity" shape="rect" coords="400,952,590,976"/>
-<area href="../../d6/d8e/a16422.html" alt="instance_forge_of_souls" shape="rect" coords="400,1008,590,1032"/>
-<area href="../../d5/d45/a12250.html" alt="instance_gnomeregan" shape="rect" coords="400,1064,590,1088"/>
-<area href="../../da/d9e/a23166.html" alt="instance_gruuls_lair" shape="rect" coords="400,1120,590,1144"/>
-<area href="../../da/d72/a16850.html" alt="instance_gundrak" shape="rect" coords="400,1176,590,1200"/>
-<area href="../../d7/de0/a19178.html" alt="instance_halls_of_lightning" shape="rect" coords="400,1232,590,1256"/>
-<area href="../../d4/d4a/a16582.html" alt="instance_halls_of_reflection" shape="rect" coords="400,1288,590,1312"/>
-<area href="../../d6/d68/a19282.html" alt="instance_halls_of_stone" shape="rect" coords="400,1344,590,1368"/>
-<area href="../../df/dab/a23234.html" alt="instance_hellfire_ramparts" shape="rect" coords="400,1400,590,1424"/>
-<area href="../../d2/dea/a14298.html" alt="instance_hyjal" shape="rect" coords="400,1456,590,1480"/>
-<area href="../../d5/d0b/a18498.html" alt="instance_icecrown_citadel" shape="rect" coords="400,1512,590,1536"/>
-<area href="../../d0/d73/a12434.html" alt="instance_karazhan" shape="rect" coords="400,1568,590,1592"/>
-<area href="../../d5/dcb/a12538.html" alt="instance_magisters_terrace" shape="rect" coords="400,1624,590,1648"/>
-<area href="../../d5/d83/a23274.html" alt="instance_magtheridons_lair" shape="rect" coords="400,1680,590,1704"/>
-<area href="../../db/d97/a22290.html" alt="instance_mana_tombs" shape="rect" coords="400,1736,590,1760"/>
-<area href="../../d2/d14/a14478.html" alt="instance_maraudon" shape="rect" coords="400,1792,590,1816"/>
-<area href="../../da/d98/a23598.html" alt="instance_mechanar" shape="rect" coords="400,1848,590,1872"/>
-<area href="../../d9/dfa/a12210.html" alt="instance_molten_core" shape="rect" coords="400,1904,590,1928"/>
-<area href="../../d9/d5d/a18798.html" alt="instance_naxxramas" shape="rect" coords="400,1960,590,1984"/>
-<area href="../../dc/d84/a18974.html" alt="instance_nexus" shape="rect" coords="400,2016,590,2040"/>
-<area href="../../dc/d91/a15610.html" alt="instance_obsidian_sanctum" shape="rect" coords="400,2072,590,2096"/>
-<area href="../../da/dc9/a19030.html" alt="instance_oculus" shape="rect" coords="400,2128,590,2152"/>
-<area href="../../df/d82/a14402.html" alt="instance_old_hillsbrad" shape="rect" coords="400,2184,590,2208"/>
-<area href="../../db/d46/a14498.html" alt="instance_onyxias_lair" shape="rect" coords="400,2240,590,2264"/>
-<area href="../../d3/d8c/a16634.html" alt="instance_pit_of_saron" shape="rect" coords="400,2296,590,2320"/>
-<area href="../../d1/d89/a14506.html" alt="instance_ragefire_chasm" shape="rect" coords="400,2352,590,2376"/>
-<area href="../../df/d96/a14514.html" alt="instance_razorfen_downs" shape="rect" coords="400,2408,590,2432"/>
-<area href="../../d2/dd0/a14538.html" alt="instance_razorfen_kraul" shape="rect" coords="400,2464,590,2488"/>
-<area href="../../dc/dd5/a15806.html" alt="instance_ruby_sanctum" shape="rect" coords="400,2520,590,2544"/>
-<area href="../../df/ded/a14646.html" alt="instance_ruins_of_ahnqiraj" shape="rect" coords="400,2576,590,2600"/>
-<area href="../../de/d2e/a12710.html" alt="instance_scarlet_monastery" shape="rect" coords="400,2632,590,2656"/>
-<area href="../../d8/d02/a12778.html" alt="instance_scholomance" shape="rect" coords="400,2688,590,2712"/>
-<area href="../../da/de7/a22898.html" alt="instance_serpent_shrine" shape="rect" coords="400,2744,590,2768"/>
-<area href="../../d0/d8c/a22318.html" alt="instance_sethekk_halls" shape="rect" coords="400,2800,590,2824"/>
-<area href="../../d1/d36/a22358.html" alt="instance_shadow_labyrinth" shape="rect" coords="400,2856,590,2880"/>
-<area href="../../d9/de7/a12846.html" alt="instance_shadowfang_keep" shape="rect" coords="400,2912,590,2936"/>
-<area href="../../d8/dbc/a23334.html" alt="instance_shattered_halls" shape="rect" coords="400,2968,590,2992"/>
-<area href="../../d1/de6/a23042.html" alt="instance_steam_vault" shape="rect" coords="400,3024,590,3048"/>
-<area href="../../d9/db6/a12878.html" alt="instance_stratholme" shape="rect" coords="400,3080,590,3104"/>
-<area href="../../dc/dc1/a12886.html" alt="instance_sunken_temple" shape="rect" coords="400,3136,590,3160"/>
-<area href="../../de/d72/a13114.html" alt="instance_sunwell_plateau" shape="rect" coords="400,3192,590,3216"/>
-<area href="../../df/d58/a14818.html" alt="instance_temple_of_ahnqiraj" shape="rect" coords="400,3248,590,3272"/>
-<area href="../../d4/d9d/a14438.html" alt="instance_the_black_morass" shape="rect" coords="400,3304,590,3328"/>
-<area href="../../d5/d77/a23422.html" alt="instance_the_botanica" shape="rect" coords="400,3360,590,3384"/>
-<area href="../../dd/d8e/a23546.html" alt="instance_the_eye" shape="rect" coords="400,3416,590,3440"/>
-<area href="../../dc/dc6/a23010.html" alt="instance_the_slave_pens" shape="rect" coords="400,3472,590,3496"/>
-<area href="../../d3/d1e/a13126.html" alt="instance_the_stockade" shape="rect" coords="400,3528,590,3552"/>
-<area href="../../dd/d93/a23098.html" alt="instance_the_underbog" shape="rect" coords="400,3584,590,3608"/>
-<area href="../../d0/d49/a15910.html" alt="instance_trial_of_the_champion" shape="rect" coords="400,3640,590,3664"/>
-<area href="../../d4/d67/a16238.html" alt="instance_trial_of_the_crusader" shape="rect" coords="400,3696,590,3720"/>
-<area href="../../d6/d2d/a13134.html" alt="instance_uldaman" shape="rect" coords="400,3752,590,3776"/>
-<area href="../../d4/dbd/a20630.html" alt="instance_ulduar" shape="rect" coords="400,3808,590,3832"/>
-<area href="../../d2/d38/a20734.html" alt="instance_utgarde_keep" shape="rect" coords="400,3864,590,3888"/>
-<area href="../../dd/d3f/a20862.html" alt="instance_utgarde_pinnacle" shape="rect" coords="400,3920,590,3944"/>
-<area href="../../dd/df0/a20946.html" alt="instance_vault_of_archavon" shape="rect" coords="400,3976,590,4000"/>
-<area href="../../d0/df1/a21038.html" alt="instance_violet_hold" shape="rect" coords="400,4032,590,4056"/>
-<area href="../../db/dcf/a14878.html" alt="instance_wailing_caverns" shape="rect" coords="400,4088,590,4112"/>
-<area href="../../dd/d57/a13506.html" alt="instance_zulaman" shape="rect" coords="400,4144,590,4168"/>
-<area href="../../df/d05/a15346.html" alt="instance_zulfarrak" shape="rect" coords="400,4200,590,4224"/>
-<area href="../../d9/dc7/a13746.html" alt="instance_zulgurub" shape="rect" coords="400,4256,590,4280"/>
+  <img src="../../df/d8b/a10154.png" usemap="#ScriptObject_map" alt=""/>
+  <map id="ScriptObject_map" name="ScriptObject_map">
+<area href="../../d9/d8b/a09934.html" alt="AccountScript" shape="rect" coords="170,56,330,80"/>
+<area href="../../d1/d49/a09938.html" alt="AchievementCriteriaScript" shape="rect" coords="170,112,330,136"/>
+<area href="../../d7/d6a/a09942.html" alt="AchievementScript" shape="rect" coords="170,168,330,192"/>
+<area href="../../db/d43/a09946.html" alt="AllBattlegroundScript" shape="rect" coords="170,224,330,248"/>
+<area href="../../db/da4/a09950.html" alt="AllCommandScript" shape="rect" coords="170,280,330,304"/>
+<area href="../../da/d73/a09954.html" alt="AllCreatureScript" shape="rect" coords="170,336,330,360"/>
+<area href="../../dd/dbc/a09958.html" alt="AllGameObjectScript" shape="rect" coords="170,392,330,416"/>
+<area href="../../d2/d5e/a09962.html" alt="AllItemScript" shape="rect" coords="170,448,330,472"/>
+<area href="../../df/d5b/a09966.html" alt="AllMapScript" shape="rect" coords="170,504,330,528"/>
+<area href="../../d6/d21/a09970.html" alt="AllSpellScript" shape="rect" coords="170,560,330,584"/>
+<area href="../../d9/da8/a09974.html" alt="AreaTriggerScript" shape="rect" coords="170,616,330,640"/>
+<area href="../../d1/d52/a09982.html" alt="ArenaScript" shape="rect" coords="170,672,330,696"/>
+<area href="../../d4/de7/a09986.html" alt="ArenaTeamScript" shape="rect" coords="170,728,330,752"/>
+<area href="../../d2/d97/a09990.html" alt="AuctionHouseScript" shape="rect" coords="170,784,330,808"/>
+<area href="../../de/dad/a09994.html" alt="BattlegroundMapScript" shape="rect" coords="170,840,330,864"/>
+<area href="../../d8/dd6/a09998.html" alt="BattlegroundScript" shape="rect" coords="170,896,330,920"/>
+<area href="../../dd/daa/a10002.html" alt="CommandScript" shape="rect" coords="170,952,330,976"/>
+<area href="../../dd/d45/a10006.html" alt="ConditionScript" shape="rect" coords="170,1008,330,1032"/>
+<area href="../../d9/db8/a10010.html" alt="CreatureScript" shape="rect" coords="170,1064,330,1088"/>
+<area href="../../d3/d59/a10022.html" alt="DatabaseScript" shape="rect" coords="170,1120,330,1144"/>
+<area href="../../da/d24/a10026.html" alt="DynamicObjectScript" shape="rect" coords="170,1176,330,1200"/>
+<area href="../../d8/d23/a10030.html" alt="ElunaScript" shape="rect" coords="170,1232,330,1256"/>
+<area href="../../de/d67/a10034.html" alt="FormulaScript" shape="rect" coords="170,1288,330,1312"/>
+<area href="../../da/d8a/a10038.html" alt="GameEventScript" shape="rect" coords="170,1344,330,1368"/>
+<area href="../../df/d1c/a10042.html" alt="GameObjectScript" shape="rect" coords="170,1400,330,1424"/>
+<area href="../../df/d38/a10054.html" alt="GlobalScript" shape="rect" coords="170,1456,330,1480"/>
+<area href="../../d4/d9c/a10058.html" alt="GroupScript" shape="rect" coords="170,1512,330,1536"/>
+<area href="../../d0/d65/a10062.html" alt="GuildScript" shape="rect" coords="170,1568,330,1592"/>
+<area href="../../d8/d5b/a10066.html" alt="InstanceMapScript" shape="rect" coords="170,1624,330,1648"/>
+<area href="../../df/d2c/a10070.html" alt="ItemScript" shape="rect" coords="170,1680,330,1704"/>
+<area href="../../de/df4/a10074.html" alt="LootScript" shape="rect" coords="170,1736,330,1760"/>
+<area href="../../d6/dd8/a10078.html" alt="MailScript" shape="rect" coords="170,1792,330,1816"/>
+<area href="../../d2/d7a/a10082.html" alt="MiscScript" shape="rect" coords="170,1848,330,1872"/>
+<area href="../../d7/de1/a10086.html" alt="ModuleScript" shape="rect" coords="170,1904,330,1928"/>
+<area href="../../d2/dc1/a10090.html" alt="MovementHandlerScript" shape="rect" coords="170,1960,330,1984"/>
+<area href="../../d6/d08/a10094.html" alt="OutdoorPvPScript" shape="rect" coords="170,2016,330,2040"/>
+<area href="../../d9/dbb/a10098.html" alt="PetScript" shape="rect" coords="170,2072,330,2096"/>
+<area href="../../dc/d01/a10102.html" alt="PlayerScript" shape="rect" coords="170,2128,330,2152"/>
+<area href="../../d7/d08/a10106.html" alt="ServerScript" shape="rect" coords="170,2184,330,2208"/>
+<area href="../../d9/d77/a10110.html" alt="SpellScriptLoader" shape="rect" coords="170,2240,330,2264"/>
+<area href="../../d6/d82/a10118.html" alt="TransportScript" shape="rect" coords="170,2296,330,2320"/>
+<area href="../../d7/dfe/a10122.html" alt="UnitScript" shape="rect" coords="170,2352,330,2376"/>
+<area href="../../d1/dab/a10126.html" alt="VehicleScript" shape="rect" coords="170,2408,330,2432"/>
+<area href="../../d8/d8e/a10130.html" alt="WeatherScript" shape="rect" coords="170,2464,330,2488"/>
+<area href="../../d0/daa/a10134.html" alt="WorldMapScript" shape="rect" coords="170,2520,330,2544"/>
+<area href="../../d4/d2d/a10138.html" alt="WorldObjectScript" shape="rect" coords="170,2576,330,2600"/>
+<area href="../../d6/dd4/a10142.html" alt="WorldScript" shape="rect" coords="170,2632,330,2656"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:abf328325e08aa0d6adf36e6f70b02328"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#abf328325e08aa0d6adf36e6f70b02328">OnUpdate</a> (TObject *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
-<tr class="separator:abf328325e08aa0d6adf36e6f70b02328"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
+<tr class="separator:a37da453729d5c8fbe2d06f905563f47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
+<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
+<tr class="separator:a585e75e34aed7aa32205daad85f8fe08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79588d839860d2f5caab60c5f1368f10"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
+<tr class="separator:a79588d839860d2f5caab60c5f1368f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ee35ec7d54226264efef558022c1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
+<tr class="separator:a69ee35ec7d54226264efef558022c1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a2d6cf85d1eb98438b5022804296eff11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
-<tr class="separator:a2d6cf85d1eb98438b5022804296eff11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
+<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c704c939f54eee6655d68509598c42"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
+<tr class="separator:a80c704c939f54eee6655d68509598c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a90b63e382cac17922ae57fe22b84718c"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a90b63e382cac17922ae57fe22b84718c">_name</a></td></tr>
+<tr class="separator:a90b63e382cac17922ae57fe22b84718c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab9ecac7620b4319c634d7e5f30c30f49"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a></td></tr>
+<tr class="separator:ab9ecac7620b4319c634d7e5f30c30f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a7a753f61d57353451e90f3f23fec4851"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d8b/a10154.html#a7a753f61d57353451e90f3f23fec4851">ScriptMgr</a></td></tr>
+<tr class="separator:a7a753f61d57353451e90f3f23fec4851"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class TObject&gt;<br />
-class UpdatableScript&lt; TObject &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2d6cf85d1eb98438b5022804296eff11" name="a2d6cf85d1eb98438b5022804296eff11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d6cf85d1eb98438b5022804296eff11">&#9670;&#160;</a></span>UpdatableScript()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae4ca97cf587379c94354e4889ff8c0c2" name="ae4ca97cf587379c94354e4889ff8c0c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4ca97cf587379c94354e4889ff8c0c2">&#9670;&#160;</a></span>ScriptObject()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class TObject &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d8b/a10154.html">UpdatableScript</a>&lt; TObject &gt;<a class="el" href="../../df/d8b/a10154.html">::UpdatableScript</a> </td>
+          <td class="memname">ScriptObject::ScriptObject </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="abf328325e08aa0d6adf36e6f70b02328" name="abf328325e08aa0d6adf36e6f70b02328"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf328325e08aa0d6adf36e6f70b02328">&#9670;&#160;</a></span>OnUpdate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TObject &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void <a class="el" href="../../df/d8b/a10154.html">UpdatableScript</a>&lt; TObject &gt;::OnUpdate </td>
-          <td>(</td>
-          <td class="paramtype">TObject *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname">&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>totalAvailableHooks</em> = <code>0</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -274,14 +234,261 @@ template&lt;class TObject &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   58</span>                                                                   : <a class="code hl_variable" href="../../df/d8b/a10154.html#a90b63e382cac17922ae57fe22b84718c">_name</a>(std::string(name)), <a class="code hl_variable" href="../../df/d8b/a10154.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a>(totalAvailableHooks)</div>
+<div class="line"><span class="lineno">   59</span>    {</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="ttc" id="aa10154_html_a90b63e382cac17922ae57fe22b84718c"><div class="ttname"><a href="../../df/d8b/a10154.html#a90b63e382cac17922ae57fe22b84718c">ScriptObject::_name</a></div><div class="ttdeci">const std::string _name</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:65</div></div>
+<div class="ttc" id="aa10154_html_ab9ecac7620b4319c634d7e5f30c30f49"><div class="ttname"><a href="../../df/d8b/a10154.html#ab9ecac7620b4319c634d7e5f30c30f49">ScriptObject::_totalAvailableHooks</a></div><div class="ttdeci">const uint16 _totalAvailableHooks</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:66</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a80c704c939f54eee6655d68509598c42" name="a80c704c939f54eee6655d68509598c42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a80c704c939f54eee6655d68509598c42">&#9670;&#160;</a></span>~ScriptObject()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual ScriptObject::~ScriptObject </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a585e75e34aed7aa32205daad85f8fe08" name="a585e75e34aed7aa32205daad85f8fe08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a585e75e34aed7aa32205daad85f8fe08">&#9670;&#160;</a></span>checkValidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void ScriptObject::checkValidity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../d7/d7a/a10158.html#a4e447511780a0c561e16b9e118361f63">MapScript&lt; TMap &gt;</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   76</span>{ }</div>
+<p>Reimplemented in <a class="el" href="../../de/dad/a09994.html#a90584770132eb71cffc6e25a674750ad">BattlegroundMapScript</a>, <a class="el" href="../../d8/d5b/a10066.html#a221dd91e2d2f761e66d990a6cae42306">InstanceMapScript</a>, and <a class="el" href="../../d0/daa/a10134.html#aa212e582764d2cfbc5e7e600a54f2cb4">WorldMapScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ }</div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a79588d839860d2f5caab60c5f1368f10" name="a79588d839860d2f5caab60c5f1368f10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79588d839860d2f5caab60c5f1368f10">&#9670;&#160;</a></span>GetName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string &amp; ScriptObject::GetName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d8b/a10154.html#a90b63e382cac17922ae57fe22b84718c">_name</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">_name</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00043">ScriptMgr::CreateAuraScripts()</a>, and <a class="el" href="../../#l00022">ScriptMgr::CreateSpellScripts()</a>.</p>
+
+</div>
+</div>
+<a id="a69ee35ec7d54226264efef558022c1c0" name="a69ee35ec7d54226264efef558022c1c0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69ee35ec7d54226264efef558022c1c0">&#9670;&#160;</a></span>GetTotalAvailableHooks()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> ScriptObject::GetTotalAvailableHooks </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d8b/a10154.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00066">_totalAvailableHooks</a>.</p>
+
+</div>
+</div>
+<a id="a2f66339b1cdf1fde795c61cd24c8b0a2" name="a2f66339b1cdf1fde795c61cd24c8b0a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f66339b1cdf1fde795c61cd24c8b0a2">&#9670;&#160;</a></span>isAfterLoadScript()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ScriptObject::isAfterLoadScript </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../de/dad/a09994.html#a0148a79556f82c990fe0fc494d03c7ab">BattlegroundMapScript</a>, and <a class="el" href="../../d0/daa/a10134.html#a6aeda6e4c8328d7334527cbe69311ddc">WorldMapScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d8b/a10154.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a>(); }</div>
+<div class="ttc" id="aa10154_html_a37da453729d5c8fbe2d06f905563f47c"><div class="ttname"><a href="../../df/d8b/a10154.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject::IsDatabaseBound</a></div><div class="ttdeci">virtual bool IsDatabaseBound() const</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:49</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">IsDatabaseBound()</a>.</p>
+
+</div>
+</div>
+<a id="a37da453729d5c8fbe2d06f905563f47c" name="a37da453729d5c8fbe2d06f905563f47c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37da453729d5c8fbe2d06f905563f47c">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool ScriptObject::IsDatabaseBound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d1/d49/a09938.html#a2fe9a4224304d62c5c4920dbf09aab52">AchievementCriteriaScript</a>, <a class="el" href="../../d7/d6a/a09942.html#a9ea2ed91c281e881404c31a948de0fc9">AchievementScript</a>, <a class="el" href="../../db/d43/a09946.html#a91c57b646aae6467e06b4cc13b89cfb4">AllBattlegroundScript</a>, <a class="el" href="../../db/da4/a09950.html#a89430678d5c88c562f1b0ac2b294fea4">AllCommandScript</a>, <a class="el" href="../../d6/d21/a09970.html#a0854a57b62e310575a3e5cd8d35e8532">AllSpellScript</a>, <a class="el" href="../../d9/da8/a09974.html#ac5234a2cd020cd8f90b6d19c28ad46ae">AreaTriggerScript</a>, <a class="el" href="../../d1/d52/a09982.html#ab6c90bb55c238fada3e9ddc993333d0d">ArenaScript</a>, <a class="el" href="../../d4/de7/a09986.html#a4d30f94084ae63eadd952c05b13f3ff4">ArenaTeamScript</a>, <a class="el" href="../../d8/dd6/a09998.html#a35b571d570c85a861af6f949b51453cb">BattlegroundScript</a>, <a class="el" href="../../dd/d45/a10006.html#ac4f8325e3fa1e11437056818a0267342">ConditionScript</a>, <a class="el" href="../../d9/db8/a10010.html#af19c64d23391f8b835f79bc6cf315caa">CreatureScript</a>, <a class="el" href="../../d3/d59/a10022.html#af4321bb95ed9bb3bb0e5a8a93c89c235">DatabaseScript</a>, <a class="el" href="../../df/d1c/a10042.html#a020e07dfd6e99b55bf5c8e56cfdd3948">GameObjectScript</a>, <a class="el" href="../../d4/d9c/a10058.html#acb561e8a2d5b3542e228a7beb8122fbf">GroupScript</a>, <a class="el" href="../../d0/d65/a10062.html#aae0601f04ec90533bb7699c68f68fe8f">GuildScript</a>, <a class="el" href="../../d8/d5b/a10066.html#ab77651bb427813a7e119057c3dc53ca8">InstanceMapScript</a>, <a class="el" href="../../df/d2c/a10070.html#ae0ae6754a17b88deaf3648b74a58bb9d">ItemScript</a>, <a class="el" href="../../de/df4/a10074.html#ad60b605eac89be48efd339127e9cb9cd">LootScript</a>, <a class="el" href="../../d2/d7a/a10082.html#a6eb3eb8a451ddc1abdf4a238b4e08253">MiscScript</a>, <a class="el" href="../../d6/d08/a10094.html#ac22c6a9945738270452848f997d2818f">OutdoorPvPScript</a>, <a class="el" href="../../d9/dbb/a10098.html#a16fae7cdf068c6e3d9e46882548d4c20">PetScript</a>, <a class="el" href="../../d9/d77/a10110.html#ae60bf9957b950c7f5c9927f71510dc06">SpellScriptLoader</a>, <a class="el" href="../../d6/d82/a10118.html#a956f0d757e5d974566fa8fac0df731e5">TransportScript</a>, <a class="el" href="../../d8/d8e/a10130.html#a2547902149ce080711ccacb709b10e8a">WeatherScript</a>, and <a class="el" href="../../d4/d2d/a10138.html#a48f037dd6152ff68ebef672de68df45e">WorldObjectScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00050">isAfterLoadScript()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a7a753f61d57353451e90f3f23fec4851" name="a7a753f61d57353451e90f3f23fec4851"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a753f61d57353451e90f3f23fec4851">&#9670;&#160;</a></span>ScriptMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../db/d3e/a10146.html">ScriptMgr</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a90b63e382cac17922ae57fe22b84718c" name="a90b63e382cac17922ae57fe22b84718c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b63e382cac17922ae57fe22b84718c">&#9670;&#160;</a></span>_name</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string ScriptObject::_name</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00053">GetName()</a>.</p>
+
+</div>
+</div>
+<a id="ab9ecac7620b4319c634d7e5f30c30f49" name="ab9ecac7620b4319c634d7e5f30c30f49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ecac7620b4319c634d7e5f30c30f49">&#9670;&#160;</a></span>_totalAvailableHooks</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> ScriptObject::_totalAvailableHooks</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00055">GetTotalAvailableHooks()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -289,8 +496,8 @@ template&lt;class TObject &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d8b/a10154.html">UpdatableScript</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:48 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d8b/a10154.html">ScriptObject</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

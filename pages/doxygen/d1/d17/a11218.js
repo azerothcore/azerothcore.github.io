@@ -1,19 +1,16 @@
 var a11218 =
 [
-    [ "WardenPayloadMgr", "d1/d17/a11218.html#a0a90c3e8ab6d5b5698f330b997efed27", null ],
-    [ "ClearQueuedPayloads", "d1/d17/a11218.html#ade67b783b6e6c7421b0d86a9143d60d9", null ],
-    [ "DequeuePayload", "d1/d17/a11218.html#a0fb196873e89729eb5c3ad3238e75a6a", null ],
-    [ "GetFreePayloadId", "d1/d17/a11218.html#a698b2ab4709a495f299be18b053e4014", null ],
-    [ "GetPayloadById", "d1/d17/a11218.html#a9f7d7ab2c529b74b67fb363a063ffa27", null ],
-    [ "GetPayloadCountInQueue", "d1/d17/a11218.html#ae3878c7264337d646f7a5d503907d7aa", null ],
-    [ "GetPayloadsInQueue", "d1/d17/a11218.html#a6b8ed858cc20f8acc0266edbe84b3dfd", null ],
-    [ "QueuePayload", "d1/d17/a11218.html#a36f9cf58fa5c9d34fdac860c3ae692d1", null ],
-    [ "RegisterPayload", "d1/d17/a11218.html#ab3b7d9cbbb94eab430a0caff00448a4a", null ],
-    [ "RegisterPayload", "d1/d17/a11218.html#ae2e7a14fe433ed45e94d3e74ba43f579", null ],
-    [ "UnregisterPayload", "d1/d17/a11218.html#a97d5b53d0e1fd42663ad673b31fe4fab", null ],
-    [ "CachedChecks", "d1/d17/a11218.html#a65c6878274bc49b921714278d77eed56", null ],
-    [ "QueuedPayloads", "d1/d17/a11218.html#a0d473fcc12806a29a6cf191ebd1ec9ff", null ],
-    [ "WardenPayloadCheckType", "d1/d17/a11218.html#a5d6853734e30d11fce42dfeeb3a06c22", null ],
-    [ "WardenPayloadOffsetMax", "d1/d17/a11218.html#a0a6537e719e9f8f4c371340d0d1b4db7", null ],
-    [ "WardenPayloadOffsetMin", "d1/d17/a11218.html#a9f7e5a100c56a6ee9a6bd39a792b9e44", null ]
+    [ "CheckContainer", "d1/d17/a11218.html#a08e083224760d2bca1996da9cd9cb014", null ],
+    [ "CheckResultContainer", "d1/d17/a11218.html#a6ce6feb03f6e0250bc03fea4612098df", null ],
+    [ "WardenCheckMgr", "d1/d17/a11218.html#a2de08c0613dd688f4bbbb4cc572f3d72", null ],
+    [ "~WardenCheckMgr", "d1/d17/a11218.html#a0d89190f580435337c328da4bf2497b8", null ],
+    [ "GetMaxValidCheckId", "d1/d17/a11218.html#a79926d8228c3252fc0eabe295f6e78a8", null ],
+    [ "GetWardenDataById", "d1/d17/a11218.html#a290e74857c1b1a50ced0a46b7477fa4c", null ],
+    [ "GetWardenResultById", "d1/d17/a11218.html#a8c06b4f57a84a8229ad1674a5048ced9", null ],
+    [ "instance", "d1/d17/a11218.html#aba9de1e123070338dc0049db8d8f0663", null ],
+    [ "LoadWardenChecks", "d1/d17/a11218.html#ad02847547a06d98c582d09992dce9d11", null ],
+    [ "LoadWardenOverrides", "d1/d17/a11218.html#a0a82e118a8f8236fecf1b00de0e2071c", null ],
+    [ "CheckIdPool", "d1/d17/a11218.html#ac1d20dec3028cdff0f475c4aff8af928", null ],
+    [ "CheckResultStore", "d1/d17/a11218.html#a4f0224b8377827aced304b28fdefbda7", null ],
+    [ "CheckStore", "d1/d17/a11218.html#aac59e154d81b838f27c577af87b86bd1", null ]
 ];

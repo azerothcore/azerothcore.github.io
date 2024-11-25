@@ -1,8 +1,8 @@
 var a24638 =
 [
-    [ "Absorb", "dd/db9/a24638.html#aecfcbafe098adddba0a73965c447558c", null ],
-    [ "Load", "dd/db9/a24638.html#a1883cb4c86478359dd1ff8df25e2ec65", null ],
-    [ "PrepareAuraScript", "dd/db9/a24638.html#a3a65787dd5b7c1c796b98ce79f180d4d", null ],
-    [ "Register", "dd/db9/a24638.html#ab6bea7d62539841fa21fa8f3c8122707", null ],
-    [ "_limit", "dd/db9/a24638.html#a5985a97749e318e3ccba4c96724d8704", null ]
+    [ "CheckIfCorpseNear", "dd/db9/a24638.html#afdf1bca2e23057d99962fb1000e9245e", null ],
+    [ "HandleDummy", "dd/db9/a24638.html#a9e1bf4884a32e515d8e6b3edf7f5d462", null ],
+    [ "PrepareSpellScript", "dd/db9/a24638.html#af4a1aa22ed9ccf4df29d05d3f7fb0214", null ],
+    [ "Register", "dd/db9/a24638.html#a22f4c5321769384b2b708f19edea1a66", null ],
+    [ "Validate", "dd/db9/a24638.html#a855fdba79c4fa087253505ed419b9966", null ]
 ];

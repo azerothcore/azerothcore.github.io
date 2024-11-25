@@ -1,6 +1,6 @@
 var a22358 =
 [
-    [ "instance_shadow_labyrinth_InstanceMapScript", "dd/dac/a22362.html", "dd/dac/a22362" ],
-    [ "instance_shadow_labyrinth", "d1/d36/a22358.html#a16a3acdfd9b1053374dfa5f27e5f3c19", null ],
-    [ "GetInstanceScript", "d1/d36/a22358.html#af9edf624413593a5cdf025dd9a1c3631", null ]
+    [ "FilterTargets", "d1/d36/a22358.html#abd3fafc2120b7069790dd9822cd62adc", null ],
+    [ "PrepareSpellScript", "d1/d36/a22358.html#aebc0441481a2c458fc904175df931a9e", null ],
+    [ "Register", "d1/d36/a22358.html#af1173988538ad44c27ea2ed9d49fe06d", null ]
 ];

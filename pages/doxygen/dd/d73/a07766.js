@@ -1,26 +1,9 @@
 var a07766 =
 [
-    [ "Corpse", "dd/d73/a07766.html#a2f7783ce9a9be85c3212fe86a349766d", null ],
-    [ "~Corpse", "dd/d73/a07766.html#a38729445517f20d2427c115364da045f", null ],
-    [ "AddToWorld", "dd/d73/a07766.html#a8c5111652979636e59e655eedf47f978", null ],
-    [ "BuildValuesUpdate", "dd/d73/a07766.html#ab30d247f740518529f51dc8bccdd8a75", null ],
-    [ "Create", "dd/d73/a07766.html#a34e2fc9d1f64dedd9da4428b532f145c", null ],
-    [ "Create", "dd/d73/a07766.html#a0f709c964269b438fcc2562868e72834", null ],
-    [ "DeleteFromDB", "dd/d73/a07766.html#af1d47fcea8651554eb239bb7d9816491", null ],
-    [ "DeleteFromDB", "dd/d73/a07766.html#ad94f5d1a37d734eda3ea92a315b2b5b3", null ],
-    [ "GetCellCoord", "dd/d73/a07766.html#a9345be6ba96317ba7efc9ef1bbbf9b44", null ],
-    [ "GetGhostTime", "dd/d73/a07766.html#a92e3fd5bebe85204829e5ff97bd3c44f", null ],
-    [ "GetOwnerGUID", "dd/d73/a07766.html#a50a75a8cf344fdb395d456d5cc947489", null ],
-    [ "GetType", "dd/d73/a07766.html#ade09571ad69b115ad968e11fd85c480c", null ],
-    [ "IsExpired", "dd/d73/a07766.html#a025404f6d3fcd7392960b48d636236d4", null ],
-    [ "LoadCorpseFromDB", "dd/d73/a07766.html#ab2a0905d1f24692065227e7bbfe4e5c4", null ],
-    [ "RemoveFromWorld", "dd/d73/a07766.html#a659f796ae11a5872226a6aa64323be59", null ],
-    [ "ResetGhostTime", "dd/d73/a07766.html#a28d222b38b604d2ecc566ef78b4eb8f9", null ],
-    [ "SaveToDB", "dd/d73/a07766.html#a10bff6f7d0e2597ef9db67aafd8249ea", null ],
-    [ "SetCellCoord", "dd/d73/a07766.html#abc0a2bc92c1344f9af6b53e8ecdf70f1", null ],
-    [ "_cellCoord", "dd/d73/a07766.html#a0196d9ba2d908262a65ff8fa8f34b76b", null ],
-    [ "loot", "dd/d73/a07766.html#a7f839a667b4a10014760a0f4451298b1", null ],
-    [ "lootRecipient", "dd/d73/a07766.html#a57a9b6a244d82265bd625bb465e6cc9d", null ],
-    [ "m_time", "dd/d73/a07766.html#a97122518c52f502e7c38753805d76472", null ],
-    [ "m_type", "dd/d73/a07766.html#a6017c84645e7e633871c92786ed25838", null ]
+    [ "LFGGroupScript", "dd/d73/a07766.html#adb7730ba67910121a255a6da535d2fc2", null ],
+    [ "OnAddMember", "dd/d73/a07766.html#a43c29f1c4b0f78b203a8798e34e9bc4c", null ],
+    [ "OnChangeLeader", "dd/d73/a07766.html#a3616c537eb39fe130c8fb24d93a0ead9", null ],
+    [ "OnDisband", "dd/d73/a07766.html#a7d8d28f1919e407ed93474d970733d86", null ],
+    [ "OnInviteMember", "dd/d73/a07766.html#a25add922fa708babe08c3bdaaa0c0d92", null ],
+    [ "OnRemoveMember", "dd/d73/a07766.html#a1385adec817221a83653a6fa03e57858", null ]
 ];

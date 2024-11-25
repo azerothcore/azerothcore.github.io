@@ -1,10 +1,6 @@
 var a16518 =
 [
-    [ "npc_hor_spiritual_reflectionAI", "d6/dff/a16518.html#aac0a916bfa325284b354e7241fe857ab", null ],
-    [ "EnterEvadeMode", "d6/dff/a16518.html#a49f1c93206bfff53090c138a3dbf79e5", null ],
-    [ "JustDied", "d6/dff/a16518.html#a72073c44f881d4a78552de4119a716d7", null ],
-    [ "JustEngagedWith", "d6/dff/a16518.html#ac35e648b93bb39ca831390bf88f6a3e7", null ],
-    [ "Reset", "d6/dff/a16518.html#ad1f523fad45c34077e6d6ce7b9a4aefd", null ],
-    [ "UpdateAI", "d6/dff/a16518.html#af9613e9309b85317bc6e3a84013dcf89", null ],
-    [ "events", "d6/dff/a16518.html#a89a466917aa5634c4c86ecbce21280b7", null ]
+    [ "boss_frostsworn_generalAI", "d7/de7/a16522.html", "d7/de7/a16522" ],
+    [ "boss_frostsworn_general", "d6/dff/a16518.html#a33023712cf056eedfed1cb38e18af5dd", null ],
+    [ "GetAI", "d6/dff/a16518.html#a8e958e13999f23a81a7230fa9ece276b", null ]
 ];

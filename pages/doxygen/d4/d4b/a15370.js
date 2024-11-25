@@ -1,6 +1,6 @@
 var a15370 =
 [
-    [ "go_troll_cageAI", "d5/d36/a15374.html", "d5/d36/a15374" ],
-    [ "go_troll_cage", "d4/d4b/a15370.html#ac571df719edabd9e9ecf5c8bb0e153c2", null ],
-    [ "GetAI", "d4/d4b/a15370.html#a807f526225dc9a6b27ac64a7f4a3d9b8", null ]
+    [ "HandleOpenLock", "d4/d4b/a15370.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
+    [ "PrepareSpellScript", "d4/d4b/a15370.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
+    [ "Register", "d4/d4b/a15370.html#a5dcac6f609ec93074ec3ce195101f592", null ]
 ];

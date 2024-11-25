@@ -1,19 +1,16 @@
 var a09274 =
 [
-    [ "GuildContainer", "de/d9e/a09274.html#aa9afb05ecb2eb6ee427503a4ea76f7ca", null ],
-    [ "GuildMgr", "de/d9e/a09274.html#a0d4a44461eb4c54ddb6646dfd1c11a68", null ],
-    [ "~GuildMgr", "de/d9e/a09274.html#ae90afb785961e122afc419a61dfb20c1", null ],
-    [ "AddGuild", "de/d9e/a09274.html#a5b63dae4f2252c452c797b83477d2280", null ],
-    [ "GenerateGuildId", "de/d9e/a09274.html#a8ad7c4fc3e292e6cecd4964ad22cd135", null ],
-    [ "GetGuildById", "de/d9e/a09274.html#a04f4586ea6461c6f7165efba2bf666a1", null ],
-    [ "GetGuildByLeader", "de/d9e/a09274.html#a5198534a243b70104ce17a7871fcfb27", null ],
-    [ "GetGuildByName", "de/d9e/a09274.html#af9ff736e84a18d8dfce3826c9459df37", null ],
-    [ "GetGuildNameById", "de/d9e/a09274.html#ad32af675831da389755da5f3e4e47361", null ],
-    [ "instance", "de/d9e/a09274.html#aef69fd59528ec594c76ae390a4ba05bd", null ],
-    [ "LoadGuilds", "de/d9e/a09274.html#ac1eb56686e276e11838e9150696b5045", null ],
-    [ "RemoveGuild", "de/d9e/a09274.html#a51728f1c2780cdb105cb35947739cbd7", null ],
-    [ "ResetTimes", "de/d9e/a09274.html#ad2670ee42ff5252a879ccc5cbb730833", null ],
-    [ "SetNextGuildId", "de/d9e/a09274.html#ae1ae88575b7fcb37d4ee1d76f79c0c45", null ],
-    [ "GuildStore", "de/d9e/a09274.html#a174158d11bf6102462a094ff4a8fa402", null ],
-    [ "NextGuildId", "de/d9e/a09274.html#a75e150f66ebccfc05824a4f7b66a9210", null ]
+    [ "BankMoveItemData", "de/d9e/a09274.html#a9edb987f4866e8bc473fe853597bebae", null ],
+    [ "_ReserveSpace", "de/d9e/a09274.html#a109e8d55108b005426110626815ba866", null ],
+    [ "_StoreItem", "de/d9e/a09274.html#aa11267f5d6202753310da567c0be0e57", null ],
+    [ "CanStore", "de/d9e/a09274.html#ade47c73460329ca1af752921173ca75e", null ],
+    [ "CanStoreItemInTab", "de/d9e/a09274.html#a5ca7975887e5583466d066c86b3a205f", null ],
+    [ "HasStoreRights", "de/d9e/a09274.html#acd684824cab9ccb4d8fd9cbb1f1782e1", null ],
+    [ "HasWithdrawRights", "de/d9e/a09274.html#ae9d8f497b4459c982ac73ee8b5742aad", null ],
+    [ "InitItem", "de/d9e/a09274.html#a69d6b28ccdda7790f821f5181da0db96", null ],
+    [ "IsBank", "de/d9e/a09274.html#a6f1787e15918092ba000ee8bd0852b09", null ],
+    [ "LogAction", "de/d9e/a09274.html#a4f23cdffba39ffa78c38851ff7aa7d0c", null ],
+    [ "LogBankEvent", "de/d9e/a09274.html#a054ca0f7eecfd404651c11b886d106bf", null ],
+    [ "RemoveItem", "de/d9e/a09274.html#abd15e25136ec2a00bcddbc0e81978a78", null ],
+    [ "StoreItem", "de/d9e/a09274.html#a9367b938768eefcaf5bb88e74dde9aa3", null ]
 ];

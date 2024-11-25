@@ -1,8 +1,7 @@
 var a12910 =
 [
-    [ "npc_madrigosa", "d2/d3f/a12910.html#a7624e25e00c1e7505ba171d0be40beb3", null ],
-    [ "DoAction", "d2/d3f/a12910.html#aaf481ec840e679a9633bd3ecdb4eb3df", null ],
-    [ "UpdateAI", "d2/d3f/a12910.html#a3431d13ea4ebd97d3fc6e542f89e033d", null ],
-    [ "events", "d2/d3f/a12910.html#a5859e4c8454371eb71740616d4763c0e", null ],
-    [ "instance", "d2/d3f/a12910.html#a09525d3bb35d1da4246bd84bbadea304", null ]
+    [ "OnRemove", "d2/d3f/a12910.html#a55460c6393c165e3096c967c81136032", null ],
+    [ "PrepareAuraScript", "d2/d3f/a12910.html#afd4e4483f704169e6d213ced134d4c62", null ],
+    [ "Register", "d2/d3f/a12910.html#a8458f77fde6eaddc273b3fe5f4e49ae0", null ],
+    [ "Validate", "d2/d3f/a12910.html#af580258d287f5db6103b89d3085669bc", null ]
 ];

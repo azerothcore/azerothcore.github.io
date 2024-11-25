@@ -1,6 +1,5 @@
 var a12518 =
 [
-    [ "boss_garaxxas", "d8/d01/a12518.html#af34e3ef5dac400fb7c217f46345ee9bb", null ],
-    [ "JustEngagedWith", "d8/d01/a12518.html#aebfd7b63d714468ed69e920fb89c345d", null ],
-    [ "Reset", "d8/d01/a12518.html#a56e6489ce49971cb066444888355626e", null ]
+    [ "boss_warlord_salaris", "d8/d01/a12518.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
+    [ "JustEngagedWith", "d8/d01/a12518.html#a77b3b531466810ee17f9fd6eadf5872a", null ]
 ];

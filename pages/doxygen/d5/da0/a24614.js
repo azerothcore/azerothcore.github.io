@@ -1,6 +1,6 @@
 var a24614 =
 [
-    [ "HandleDummy", "d5/da0/a24614.html#a9f9c27bdfed0a457f7e851c8598f3625", null ],
-    [ "PrepareSpellScript", "d5/da0/a24614.html#ab666b72cd7cb0ef92ba6c417be5ac7cc", null ],
-    [ "Register", "d5/da0/a24614.html#a7b78161fda34b3dc3c844c392ce7e30e", null ]
+    [ "HandleOnEffectHit", "d5/da0/a24614.html#a07b15e180ee79149cad15b32b3c94359", null ],
+    [ "PrepareSpellScript", "d5/da0/a24614.html#afbea54d2dad7a969d7e7558d43ecbc95", null ],
+    [ "Register", "d5/da0/a24614.html#ad2426cf9076d3fe4f33984ab28df11f6", null ]
 ];

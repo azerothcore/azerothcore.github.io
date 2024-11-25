@@ -1,6 +1,6 @@
 var a25406 =
 [
-    [ "CalculateAmount", "da/d07/a25406.html#a6faee23ed5947a904e58bfb38cf01d05", null ],
-    [ "PrepareAuraScript", "da/d07/a25406.html#a5e7d089dd117b6b3a605ea2e8aea0b04", null ],
-    [ "Register", "da/d07/a25406.html#a37e277143b2ae6cd88260776941b59bf", null ]
+    [ "CheckSinkholes", "da/d07/a25406.html#a5c363144cde9e809d97730f54873fe85", null ],
+    [ "PrepareSpellScript", "da/d07/a25406.html#a0cd1fc05ee319b04299fcebe3a405bb4", null ],
+    [ "Register", "da/d07/a25406.html#a6694fbf58b776b74df0a54cd96141688", null ]
 ];

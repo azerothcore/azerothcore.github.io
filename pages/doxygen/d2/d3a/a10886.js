@@ -1,8 +1,17 @@
 var a10886 =
 [
-    [ "DirectionType", "d2/d3a/a10886.html#a8491033c0286895c2d4d3280cfd529f0", null ],
-    [ "ObjectType", "d2/d3a/a10886.html#a20c29be1005aa52993d4ec0a13c36f4d", null ],
-    [ "ReferenceType", "d2/d3a/a10886.html#a44e310a789c4c5a288f07c9254ad389a", null ],
-    [ "SelectionCategory", "d2/d3a/a10886.html#a4a42ef329b6cfcfcd7fd4ce59e8f597c", null ],
-    [ "SelectionCheckType", "d2/d3a/a10886.html#a35c8d221b47de13408a0256598fa9d63", null ]
+    [ "StaticData", "d9/d36/a10890.html", "d9/d36/a10890" ],
+    [ "SpellImplicitTargetInfo", "d2/d3a/a10886.html#a6eadac193f40d3a14db74d6e07552bdb", null ],
+    [ "SpellImplicitTargetInfo", "d2/d3a/a10886.html#a8e746c8dd4956a1bedc78c932740dfca", null ],
+    [ "CalcDirectionAngle", "d2/d3a/a10886.html#ac726d7df6103bc991e650c5d221ec4cc", null ],
+    [ "GetCheckType", "d2/d3a/a10886.html#a1822c2908aff0701ab6e56ccf1c83a83", null ],
+    [ "GetDirectionType", "d2/d3a/a10886.html#a094f5c6bc82196355aeded09cb469b7c", null ],
+    [ "GetExplicitTargetMask", "d2/d3a/a10886.html#ad368870f99d85f27ae2a15ee75b4b5dd", null ],
+    [ "GetObjectType", "d2/d3a/a10886.html#a964c185b1d3ed3563c6efa68e8bf9f42", null ],
+    [ "GetReferenceType", "d2/d3a/a10886.html#a59769a12291673682e1b5c3650e8aff7", null ],
+    [ "GetSelectionCategory", "d2/d3a/a10886.html#a5dd39484ccfed1e34b27d957614b45e6", null ],
+    [ "GetTarget", "d2/d3a/a10886.html#ae5a138c973300efce4744ea260108097", null ],
+    [ "IsArea", "d2/d3a/a10886.html#a263a4660dfdf8b77f69e5475048b414b", null ],
+    [ "_data", "d2/d3a/a10886.html#a1a05bbd8400ec4451ca34b2754e056e9", null ],
+    [ "_target", "d2/d3a/a10886.html#ab2cec29c53f0b9bc6a016ce177f97c1d", null ]
 ];

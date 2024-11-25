@@ -1,8 +1,7 @@
 var a26222 =
 [
-    [ "HandleDummy", "d9/def/a26222.html#a308880cf9c61c76de0fdee05fff2b463", null ],
-    [ "Load", "d9/def/a26222.html#acafb9d6ac4fde694dc44cbf13b7f97ad", null ],
-    [ "PrepareSpellScript", "d9/def/a26222.html#a3a2672c39f36229c0dd6cdea0fad3299", null ],
-    [ "Register", "d9/def/a26222.html#a1857b342ae34a57f079f45019645c688", null ],
-    [ "Validate", "d9/def/a26222.html#a121c30045281eab5fee4f65d38d1dfc3", null ]
+    [ "CalculateAmount", "d9/def/a26222.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
+    [ "Load", "d9/def/a26222.html#ae2ef0eae77137c120ec61af8698677db", null ],
+    [ "PrepareAuraScript", "d9/def/a26222.html#acaecc78c031aa436f432fd7145478de4", null ],
+    [ "Register", "d9/def/a26222.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
 ];

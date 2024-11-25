@@ -1,7 +1,7 @@
 var a12822 =
 [
-    [ "HandleAfterCast", "d0/d70/a12822.html#afa662fbe1b777047259ac6212961f7a5", null ],
-    [ "HandleScript", "d0/d70/a12822.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
-    [ "PrepareSpellScript", "d0/d70/a12822.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
-    [ "Register", "d0/d70/a12822.html#a4a898b0b096583af33f1f691a252b2ed", null ]
+    [ "npc_apothecary_genericAI", "d0/d70/a12822.html#afb2b04b51e28d0795e7781effa68dffd", null ],
+    [ "DoAction", "d0/d70/a12822.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
+    [ "MovementInform", "d0/d70/a12822.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
+    [ "_movePos", "d0/d70/a12822.html#a53d10ab64df212b043cc21e054f6528c", null ]
 ];

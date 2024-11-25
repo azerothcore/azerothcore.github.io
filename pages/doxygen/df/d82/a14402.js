@@ -1,6 +1,14 @@
 var a14402 =
 [
-    [ "instance_old_hillsbrad_InstanceMapScript", "db/d30/a14406.html", "db/d30/a14406" ],
-    [ "instance_old_hillsbrad", "df/d82/a14402.html#a1ba2d39ae8f9209055de4b944cc535d8", null ],
-    [ "GetInstanceScript", "df/d82/a14402.html#a1929c38b1c745b2df1ccaf462113e220", null ]
+    [ "boss_captain_skarloc", "df/d82/a14402.html#a196477160ab6d07dc644ddadf756a1e0", null ],
+    [ "InitializeAI", "df/d82/a14402.html#a1c67fb99984f666b63f8f79c6783341d", null ],
+    [ "JustDied", "df/d82/a14402.html#aca0d536010a53efdf9270146f15f9058", null ],
+    [ "JustEngagedWith", "df/d82/a14402.html#aaa516f26cdc0ccd88f5c529a0a4252d4", null ],
+    [ "JustSummoned", "df/d82/a14402.html#a5f5f08ab00d18bece28dde7490e52af8", null ],
+    [ "KilledUnit", "df/d82/a14402.html#a1ead95b7cf3c4fb5b36be083e852aa21", null ],
+    [ "MovementInform", "df/d82/a14402.html#a8e16d85ca8e41bc1cb7ac749dfaea075", null ],
+    [ "Reset", "df/d82/a14402.html#a73b728cd24c8cb124f93c0e637bc8a11", null ],
+    [ "UpdateAI", "df/d82/a14402.html#aa1a9d9e781f1bc2394e2ebf879fdf196", null ],
+    [ "_spawnedAdds", "df/d82/a14402.html#ad69432da4a5beb5fcc8bbac155608a87", null ],
+    [ "summons", "df/d82/a14402.html#a83a9e5971411de1c136cbad91f73f487", null ]
 ];

@@ -15,6 +15,7 @@ var a05470 =
     [ "DelayGroup", "da/d10/a05470.html#ab51c9108135f18eda88250cbdc1d4c9e", null ],
     [ "DelayGroup", "da/d10/a05470.html#a701e13bfc09a6c1fc6e372c5310e2d80", null ],
     [ "Dispatch", "da/d10/a05470.html#a5c5bc5a317527f3dbc496e6e5a873505", null ],
+    [ "GetNextOcurrence", "da/d10/a05470.html#a331ec9a799ece90f84cfbd92c700e548", null ],
     [ "GetRepeatCounter", "da/d10/a05470.html#aab7910aa171d409afa3f074858eacd0e", null ],
     [ "Invoke", "da/d10/a05470.html#a47b03e1428d2b3df88a0664b93b0debc", null ],
     [ "IsExpired", "da/d10/a05470.html#af1d32693e6df24d76a82b1a367eacbe5", null ],

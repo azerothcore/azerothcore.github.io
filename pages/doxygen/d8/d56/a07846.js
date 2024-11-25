@@ -1,12 +1,7 @@
 var a07846 =
 [
-    [ "TrainerSpell", "d8/d56/a07846.html#a87a098774b32babfcf2000e3330a25b9", null ],
-    [ "IsCastable", "d8/d56/a07846.html#a2f638f0e068623d38f0dab7c346ac8ed", null ],
-    [ "learnedSpell", "d8/d56/a07846.html#a2396712a58fa61f340632de48dac9b78", null ],
-    [ "reqLevel", "d8/d56/a07846.html#ac71afa7c180905ae4247011b2f40f929", null ],
-    [ "reqSkill", "d8/d56/a07846.html#ac0a74c104994e36ba95703689ed92964", null ],
-    [ "reqSkillValue", "d8/d56/a07846.html#a1187d182a512ae0f40af6ea36a4911db", null ],
-    [ "reqSpell", "d8/d56/a07846.html#a6f2d3fa6a5f4403822b924f64e796deb", null ],
-    [ "spell", "d8/d56/a07846.html#af7649fcfa5e6ca77c7d0aa9ef474b44c", null ],
-    [ "spellCost", "d8/d56/a07846.html#a9adb80199e22a0db5d4eb262d9edbfe8", null ]
+    [ "VendorItemCount", "d8/d56/a07846.html#abdf2d2900f75bb2b8d9727bab8fcbbc3", null ],
+    [ "count", "d8/d56/a07846.html#aff4c062138792ffb37dadb19b725c87c", null ],
+    [ "itemId", "d8/d56/a07846.html#a225158bbb56d6666ba4918155f08f993", null ],
+    [ "lastIncrementTime", "d8/d56/a07846.html#a0b88ba4ea590abbdc9234ff4a2a335fa", null ]
 ];

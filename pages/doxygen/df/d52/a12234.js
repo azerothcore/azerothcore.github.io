@@ -1,6 +1,8 @@
 var a12234 =
 [
-    [ "boss_mr_smiteAI", "d2/db7/a12238.html", "d2/db7/a12238" ],
-    [ "boss_mr_smite", "df/d52/a12234.html#a011d41112ef7376b71d2959f806be262", null ],
-    [ "GetAI", "df/d52/a12234.html#a619ca0aede1eb33f992328048319c4f0", null ]
+    [ "npc_lava_spawn", "df/d52/a12234.html#aff97441b2cfbcd68e0788be022ee6236", null ],
+    [ "JustEngagedWith", "df/d52/a12234.html#a3b93df8de3c0f8a50768b860cfa11b72", null ],
+    [ "Reset", "df/d52/a12234.html#ab774d354991c90b1421e6783c0513e59", null ],
+    [ "UpdateAI", "df/d52/a12234.html#a6a17c8c40b0110b688ff5faef5585185", null ],
+    [ "_scheduler", "df/d52/a12234.html#ab7a6b2beec095f3f903ad4443813cfce", null ]
 ];

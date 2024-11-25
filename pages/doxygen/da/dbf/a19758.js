@@ -1,8 +1,7 @@
 var a19758 =
 [
-    [ "OnApply", "da/dbf/a19758.html#a101aab87e9f45ebab1cbe77ecca65c5a", null ],
-    [ "OnRemove", "da/dbf/a19758.html#a4709f570f9014eb36bc8c65269470373", null ],
-    [ "PrepareAuraScript", "da/dbf/a19758.html#a6ac96ce73f9983915a05686eb5d411e7", null ],
-    [ "Register", "da/dbf/a19758.html#a7b4f44d86df652df78a10466bf64a2cf", null ],
-    [ "Validate", "da/dbf/a19758.html#a3b98409fa1ed8d4e53e526686bc25987", null ]
+    [ "HandleAfterHit", "da/dbf/a19758.html#a75953cbb3a288fd373e602ed07d84441", null ],
+    [ "PrepareSpellScript", "da/dbf/a19758.html#a55c604f072fd0bbdcb886635fb53eaa8", null ],
+    [ "Register", "da/dbf/a19758.html#af963f0dcdf2a1bc040a597c06983f0a7", null ],
+    [ "Validate", "da/dbf/a19758.html#aea2b951dd2353800958f654df58d8fd8", null ]
 ];

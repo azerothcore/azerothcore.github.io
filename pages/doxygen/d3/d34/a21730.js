@@ -1,7 +1,6 @@
 var a21730 =
 [
-    [ "GetSeatNumber", "d3/d34/a21730.html#a8e18a10196667fd3dfba58d16fa281b9", null ],
-    [ "HandleDummy", "d3/d34/a21730.html#ac5945381452559e1d5655f5345bdeff3", null ],
-    [ "PrepareSpellScript", "d3/d34/a21730.html#aad375c0d3d1f0352cbda6a23cfb61272", null ],
-    [ "Register", "d3/d34/a21730.html#aad1cb82fdcd170f5a43f5007ebaadf2e", null ]
+    [ "HandleDummy", "d3/d34/a21730.html#a05a38c1b8e3b674f3c6e79c59c7caddd", null ],
+    [ "PrepareSpellScript", "d3/d34/a21730.html#a0bfebaf099ef573b51bec0a511ceeb39", null ],
+    [ "Register", "d3/d34/a21730.html#a9c71b084ce6b86ccaeb9a94d1f8de2b1", null ]
 ];

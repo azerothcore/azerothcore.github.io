@@ -1,5 +1,7 @@
 var a17110 =
 [
-    [ "achievement_flu_shot_shortage", "de/d71/a17110.html#af448c773bcdf31cec7ae9d7c85e9e595", null ],
-    [ "OnCheck", "de/d71/a17110.html#a3195af1d4504ffc200c99bef84eaaa5a", null ]
+    [ "HandleScript", "de/d71/a17110.html#a5fe0b684473bd5dd1ff9b12432ff3de8", null ],
+    [ "Load", "de/d71/a17110.html#ab1d81386ae3ccd332c01864d7f456017", null ],
+    [ "PrepareSpellScript", "de/d71/a17110.html#ae3ef753ff4c99aa8bed20ce3369a7e0f", null ],
+    [ "Register", "de/d71/a17110.html#a7edb44f70501c2e760d29c8f78a4e087", null ]
 ];

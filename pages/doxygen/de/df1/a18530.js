@@ -1,6 +1,6 @@
 var a18530 =
 [
-    [ "boss_isle_of_conquestAI", "df/d79/a18534.html", "df/d79/a18534" ],
-    [ "boss_isle_of_conquest", "de/df1/a18530.html#ad4052d1b6865585d32016e1240449659", null ],
-    [ "GetAI", "de/df1/a18530.html#ae14201c4f8654bf2c0cd9ac8a82f3800", null ]
+    [ "npc_four_car_garageAI", "de/df1/a18530.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
+    [ "JustDied", "de/df1/a18530.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
+    [ "PassengerBoarded", "de/df1/a18530.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
 ];

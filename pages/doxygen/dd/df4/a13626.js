@@ -1,10 +1,9 @@
 var a13626 =
 [
-    [ "npc_batrider", "dd/df4/a13626.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "DamageTaken", "dd/df4/a13626.html#ad4818b1363082a91223526908c38777c", null ],
-    [ "JustEngagedWith", "dd/df4/a13626.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
-    [ "Reset", "dd/df4/a13626.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "dd/df4/a13626.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
-    [ "_mode", "dd/df4/a13626.html#acd53ec78a754219511af1ad2f11422a9", null ],
-    [ "_scheduler", "dd/df4/a13626.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "boss_hazzarah", "dd/df4/a13626.html#a73ba49b91addc9c03e1692587fe66a52", null ],
+    [ "CanAIAttack", "dd/df4/a13626.html#a9038a5b4276fda8a6865217a7c494eec", null ],
+    [ "JustEngagedWith", "dd/df4/a13626.html#a18e382c03ff923bb851a9cd8e2541788", null ],
+    [ "JustSummoned", "dd/df4/a13626.html#a1c3969fbc027f054598ec4123abd6fa4", null ],
+    [ "SummonedCreatureDies", "dd/df4/a13626.html#aac0c990013edf1968d33aeb59d4f05b0", null ],
+    [ "UpdateAI", "dd/df4/a13626.html#a61d92f1650a84ed9684d33879e54bd09", null ]
 ];

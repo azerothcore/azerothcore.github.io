@@ -1,11 +1,10 @@
 var a20522 =
 [
-    [ "boss_yoggsaron_llaneAI", "dc/dc5/a20522.html#a8524834b7dff49844d96b7dc49fd265d", null ],
-    [ "NextStep", "dc/dc5/a20522.html#a6587e7873455950bda97b2a7d78e6fc5", null ],
-    [ "Reset", "dc/dc5/a20522.html#a86f9d594562f842d478b63de18e52455", null ],
-    [ "Say", "dc/dc5/a20522.html#ab619684f15f5325383a413dced7c930e", null ],
-    [ "UpdateAI", "dc/dc5/a20522.html#a545378189f85968ac925baa06ad608b5", null ],
-    [ "_checkTimer", "dc/dc5/a20522.html#aa4956f6943adce94a9ed4fec951317d6", null ],
-    [ "_running", "dc/dc5/a20522.html#a6d6d186febc408ecb830bf7eea3c72bd", null ],
-    [ "_step", "dc/dc5/a20522.html#a718c0bf307934b9ee9cbb933899c6324", null ]
+    [ "boss_yoggsaron_voiceAI", "dc/dc5/a20522.html#ac78b27f8d4df433e1fad2ae550a4da44", null ],
+    [ "Reset", "dc/dc5/a20522.html#ae5561244ad7387a3614bb6f1e23a7001", null ],
+    [ "SpellHitTarget", "dc/dc5/a20522.html#a0cc39577b4b70eb1be16f9c8b5cb5c72", null ],
+    [ "UpdateAI", "dc/dc5/a20522.html#a3c8458c25f7389f5fb5218177590a4c6", null ],
+    [ "_current", "dc/dc5/a20522.html#ad94ddde194a32b380ba1d309f1ece14a", null ],
+    [ "_targets", "dc/dc5/a20522.html#ab6132214a2249fbb5de8a5115b114381", null ],
+    [ "events", "dc/dc5/a20522.html#ac0c6aa9efe9d9e80b29fae8c190962dc", null ]
 ];

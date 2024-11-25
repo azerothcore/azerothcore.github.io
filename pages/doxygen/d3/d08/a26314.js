@@ -1,6 +1,8 @@
 var a26314 =
 [
-    [ "FilterTargets", "d3/d08/a26314.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
-    [ "PrepareSpellScript", "d3/d08/a26314.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
-    [ "Register", "d3/d08/a26314.html#abe63ec69fe15fd8924fb63235489e088", null ]
+    [ "CheckFireTotem", "d3/d08/a26314.html#a9d6b4368f5c72b95c25415ea87575fce", null ],
+    [ "HandleDummy", "d3/d08/a26314.html#a179d07e7090cec396a7845754e545e8e", null ],
+    [ "PrepareSpellScript", "d3/d08/a26314.html#a8311cc106da26267e90acd98698cb737", null ],
+    [ "Register", "d3/d08/a26314.html#abae5a4961888e6ba2d876e450307e362", null ],
+    [ "Validate", "d3/d08/a26314.html#a2048b0e43dbe2df6e4dfc42d912a74a7", null ]
 ];

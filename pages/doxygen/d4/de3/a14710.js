@@ -1,13 +1,13 @@
 var a14710 =
 [
-    [ "npc_giant_claw_tentacle", "d4/de3/a14710.html#aa50511886122a337fc59585fba03b590", null ],
-    [ "Emerge", "d4/de3/a14710.html#ad5fd7a9246c9c7aba0fa71d331e1f512", null ],
-    [ "JustDied", "d4/de3/a14710.html#aaaed0a9fb39d30f5c9c7381e923a3d1e", null ],
-    [ "JustEngagedWith", "d4/de3/a14710.html#ad4dceaafa3bb12b2e5cb7d9530c59d31", null ],
-    [ "Reset", "d4/de3/a14710.html#a8da9c7e164bc7d7bc6e70a784420c3bc", null ],
-    [ "ScheduleTasks", "d4/de3/a14710.html#af62d155ec2cf4f56c956869aed8fa1f9", null ],
-    [ "Submerge", "d4/de3/a14710.html#ac4fedda976b2de295350363e9fef86ec", null ],
-    [ "UpdateAI", "d4/de3/a14710.html#aa3cc1eac6fe92e4325ec0b5a4f7a2604", null ],
-    [ "_canAttack", "d4/de3/a14710.html#a62be930ba345b1d2e0df832e72570752", null ],
-    [ "_portalGUID", "d4/de3/a14710.html#a175bd11b9d5651d44cc0dd213b2c4ef5", null ]
+    [ "boss_cthun", "d4/de3/a14710.html#a287ee7b65708971e4fdfa7b814486935", null ],
+    [ "DoAction", "d4/de3/a14710.html#a04ae38b67d358f1d34820b855aab3869", null ],
+    [ "JustDied", "d4/de3/a14710.html#a3c6478e7de0e5a6f20f693a788bf8c86", null ],
+    [ "JustEngagedWith", "d4/de3/a14710.html#a56fe3347ac41b67fb6912f372a5879ba", null ],
+    [ "Reset", "d4/de3/a14710.html#a05bab8427cd4b4bfa50aee450e423f98", null ],
+    [ "ScheduleTasks", "d4/de3/a14710.html#a5a0514e56217bb3b30b22b2681542adb", null ],
+    [ "SummonedCreatureDies", "d4/de3/a14710.html#a49d76bb4cf30ee66fae6114313394961", null ],
+    [ "UpdateAI", "d4/de3/a14710.html#a7d2685597f1eec2459fe509e5b97681f", null ],
+    [ "_fleshTentaclesKilled", "d4/de3/a14710.html#a139de83ae488c40d40a4587509cd197d", null ],
+    [ "WisperTimer", "d4/de3/a14710.html#abad23f1df9c6989e7a6d3d62143adb05", null ]
 ];

@@ -1,7 +1,6 @@
 var a16322 =
 [
-    [ "HandleScriptEffect", "d3/df2/a16322.html#a62cef31900cd61167823f3e66aa2d64b", null ],
-    [ "PrepareSpellScript", "d3/df2/a16322.html#aff3fc5d7d6185bcb09d14f1408a67aad", null ],
-    [ "Register", "d3/df2/a16322.html#ac73b3f568ce54f9b59b2b23f069da3c1", null ],
-    [ "Validate", "d3/df2/a16322.html#aab4d84e896c8225d8d131558aaa71dbe", null ]
+    [ "HandleScript", "d3/df2/a16322.html#a4786e0c38f03f7e671174d0641526681", null ],
+    [ "PrepareSpellScript", "d3/df2/a16322.html#a7d260468f409a7fb41a39f80db5f9d63", null ],
+    [ "Register", "d3/df2/a16322.html#a943117bfb56b846e99d04bd9a348af8d", null ]
 ];

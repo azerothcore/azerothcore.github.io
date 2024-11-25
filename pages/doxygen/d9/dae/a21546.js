@@ -1,6 +1,7 @@
 var a21546 =
 [
-    [ "npc_mrfloppyAI", "de/d03/a21550.html", "de/d03/a21550" ],
-    [ "npc_mrfloppy", "d9/dae/a21546.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
-    [ "GetAI", "d9/dae/a21546.html#a88590566309f3fc155eb6dc26055a161", null ]
+    [ "HandleScriptEffect", "d9/dae/a21546.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
+    [ "PrepareSpellScript", "d9/dae/a21546.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
+    [ "Register", "d9/dae/a21546.html#a278206630f9f45f2dba50b259a6115c1", null ],
+    [ "Validate", "d9/dae/a21546.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
 ];

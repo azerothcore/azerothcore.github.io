@@ -1,9 +1,6 @@
 var a17234 =
 [
-    [ "CheckAreaTarget", "d2/d96/a17234.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
-    [ "HandleApply", "d2/d96/a17234.html#a9ce86d32957af07313af379b4176d0b3", null ],
-    [ "HandleRemove", "d2/d96/a17234.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
-    [ "Load", "d2/d96/a17234.html#aa10821981f3e80262850e5c46449d5d0", null ],
-    [ "PrepareAuraScript", "d2/d96/a17234.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
-    [ "Register", "d2/d96/a17234.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
+    [ "npc_gunship_rocketeerAI", "d4/db5/a17238.html", "d4/db5/a17238" ],
+    [ "npc_gunship_rocketeer", "d2/d96/a17234.html#a7ed2cf258269f239bb73f2f06411db07", null ],
+    [ "GetAI", "d2/d96/a17234.html#a4f9c1b09e9e5b9dd337fe9210ab7038c", null ]
 ];

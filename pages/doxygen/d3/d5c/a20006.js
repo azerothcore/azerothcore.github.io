@@ -1,6 +1,6 @@
 var a20006 =
 [
-    [ "OnPeriodic", "d3/d5c/a20006.html#a8a12342f694499043e8ed4446fd92d36", null ],
-    [ "PrepareAuraScript", "d3/d5c/a20006.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
-    [ "Register", "d3/d5c/a20006.html#a381709d53101832de6b2161c4a33a0d4", null ]
+    [ "boss_mimironAI", "db/dcd/a20010.html", "db/dcd/a20010" ],
+    [ "boss_mimiron", "d3/d5c/a20006.html#a72904837bd85e9f711fcf3da04c459c3", null ],
+    [ "GetAI", "d3/d5c/a20006.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
 ];

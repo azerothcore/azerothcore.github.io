@@ -1,6 +1,7 @@
 var a18662 =
 [
-    [ "boss_kelthuzadAI", "d3/d54/a18666.html", "d3/d54/a18666" ],
-    [ "boss_kelthuzad", "d3/dff/a18662.html#a52b0988d0ee9e41c8a7911f2d2460442", null ],
-    [ "GetAI", "d3/dff/a18662.html#acf19b29d6c1eb0052baa7ff491f6a050", null ]
+    [ "HandleRemove", "d3/dff/a18662.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
+    [ "PrepareAuraScript", "d3/dff/a18662.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
+    [ "Register", "d3/dff/a18662.html#ad7ba015a7878adad0820cf378d2632ca", null ],
+    [ "Validate", "d3/dff/a18662.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
 ];

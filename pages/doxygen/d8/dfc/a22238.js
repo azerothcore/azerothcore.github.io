@@ -1,12 +1,9 @@
 var a22238 =
 [
-    [ "OPvPCapturePointZM_Beacon", "d8/dfc/a22238.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
-    [ "ChangeState", "d8/dfc/a22238.html#a5bbe87c18c814358596a9648fd92b129", null ],
-    [ "FillInitialWorldStates", "d8/dfc/a22238.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
-    [ "HandlePlayerEnter", "d8/dfc/a22238.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
-    [ "HandlePlayerLeave", "d8/dfc/a22238.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
-    [ "SendChangePhase", "d8/dfc/a22238.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
-    [ "UpdateTowerState", "d8/dfc/a22238.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
-    [ "m_TowerState", "d8/dfc/a22238.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
-    [ "m_TowerType", "d8/dfc/a22238.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
+    [ "npc_stolen_soul", "d8/dfc/a22238.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "d8/dfc/a22238.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "d8/dfc/a22238.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "d8/dfc/a22238.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "d8/dfc/a22238.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "d8/dfc/a22238.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

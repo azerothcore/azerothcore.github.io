@@ -1,7 +1,6 @@
 var a16810 =
 [
-    [ "HandleScriptEffect", "d6/d63/a16810.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
-    [ "PrepareSpellScript", "d6/d63/a16810.html#aac410690d906867216b40a49d8f15318", null ],
-    [ "Register", "d6/d63/a16810.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
-    [ "Validate", "d6/d63/a16810.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
+    [ "boss_gal_darahAI", "df/d64/a16814.html", "df/d64/a16814" ],
+    [ "boss_gal_darah", "d6/d63/a16810.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
+    [ "GetAI", "d6/d63/a16810.html#a8f709568f5a06265056571061ff3a26b", null ]
 ];

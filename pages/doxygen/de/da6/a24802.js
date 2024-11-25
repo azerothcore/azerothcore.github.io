@@ -1,6 +1,7 @@
 var a24802 =
 [
-    [ "HandleScriptEffect", "de/da6/a24802.html#a884d0f5f8bf0f3515b4fedd54dd20ebf", null ],
-    [ "PrepareSpellScript", "de/da6/a24802.html#a45151bb2eacdd642e8f11564d4ef0d65", null ],
-    [ "Register", "de/da6/a24802.html#ae01695fd336fca36a7d2569ca741fba5", null ]
+    [ "HandleScriptEffect", "de/da6/a24802.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
+    [ "PrepareSpellScript", "de/da6/a24802.html#af4320dd6567d8c9cb2a1492095a98459", null ],
+    [ "Register", "de/da6/a24802.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
+    [ "Validate", "de/da6/a24802.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
 ];

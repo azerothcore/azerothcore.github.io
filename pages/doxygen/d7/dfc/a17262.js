@@ -1,6 +1,8 @@
 var a17262 =
 [
-    [ "IgbTeleportOnVictoryCheck", "d7/dfc/a17262.html#a29ee8cac93b9920e598da9205406e608", null ],
-    [ "operator()", "d7/dfc/a17262.html#acf85943e238179e911434358f1593be2", null ],
-    [ "_inst", "d7/dfc/a17262.html#a015353ecb66da16c697152b7ad3c527e", null ]
+    [ "Load", "d7/dfc/a17262.html#ad1105149d5e42318382af6c07149d522", null ],
+    [ "PeriodicTick", "d7/dfc/a17262.html#a8e675178256746d08af50a6b75ec582e", null ],
+    [ "PrepareAuraScript", "d7/dfc/a17262.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
+    [ "Register", "d7/dfc/a17262.html#a0fa7d86214827711edd019dd3b40c667", null ],
+    [ "_tickNo", "d7/dfc/a17262.html#a418212d2daa873d69a83b4c1341a8903", null ]
 ];

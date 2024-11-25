@@ -1,6 +1,5 @@
 var a26974 =
 [
-    [ "go_soulwellAI", "d8/dc5/a26978.html", "d8/dc5/a26978" ],
-    [ "go_soulwell", "d2/d10/a26974.html#a3747499bd05326ef6f7024c0ee91a4ce", null ],
-    [ "GetAI", "d2/d10/a26974.html#a0c8b8cf09c26ad08c1c6dbb1a0c57861", null ]
+    [ "go_dragonflayer_cage", "d2/d10/a26974.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
+    [ "OnGossipHello", "d2/d10/a26974.html#a542530a0b84879b21a4b9982cf4300d0", null ]
 ];

@@ -1,9 +1,10 @@
 var a08338 =
 [
-    [ "areaFlag", "de/d8f/a08338.html#ac6244004ed093c1a3d83749cbc20bfe9", null ],
-    [ "areaID", "de/d8f/a08338.html#a455a890a1d82d31873873ac497cb83b7", null ],
-    [ "x1", "de/d8f/a08338.html#a7624a89c7eac16955dbebb47f0c721d6", null ],
-    [ "x2", "de/d8f/a08338.html#aebdb021c0b9c40d624d5115b24616a12", null ],
-    [ "y1", "de/d8f/a08338.html#a04a84fe41ba2bc9996eb0bd70248222a", null ],
-    [ "y2", "de/d8f/a08338.html#a84f612cf6d1905e948c7c9a6cb870e31", null ]
+    [ "DuelInfo", "de/d8f/a08338.html#a183f336e52fe7cdaa34dbb43991d0c39", null ],
+    [ "Initiator", "de/d8f/a08338.html#ae1a6667f934c88ad8f0b160e6a8b1190", null ],
+    [ "IsMounted", "de/d8f/a08338.html#ad80e3507a7bdfc8f7dbebd07697c464f", null ],
+    [ "Opponent", "de/d8f/a08338.html#a2765770367c839ad28f804e2df3205cb", null ],
+    [ "OutOfBoundsTime", "de/d8f/a08338.html#a8ff9ae1c990674b6ac0cd929f5114f23", null ],
+    [ "StartTime", "de/d8f/a08338.html#a1b8b4c373b2e4243f8e33a391821528f", null ],
+    [ "State", "de/d8f/a08338.html#ae8492a9857d819fcec56a10cfd5051e2", null ]
 ];

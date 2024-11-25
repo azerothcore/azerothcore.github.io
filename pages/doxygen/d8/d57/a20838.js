@@ -1,5 +1,6 @@
 var a20838 =
 [
-    [ "npc_ritual_channelerAI", "d8/d57/a20838.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d8/d57/a20838.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "boss_ymironAI", "df/d5c/a20842.html", "df/d5c/a20842" ],
+    [ "boss_ymiron", "d8/d57/a20838.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
+    [ "GetAI", "d8/d57/a20838.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
 ];

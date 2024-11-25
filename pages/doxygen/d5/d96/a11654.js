@@ -1,6 +1,11 @@
 var a11654 =
 [
-    [ "boss_magmusAI", "da/dec/a11658.html", "da/dec/a11658" ],
-    [ "boss_magmus", "d5/d96/a11654.html#a97747c0d7e1fd33204033d6061d6d570", null ],
-    [ "GetAI", "d5/d96/a11654.html#a171bc08a8dd9fa502f3b2b6cf736fd52", null ]
+    [ "boss_high_interrogator_gerstahnAI", "d5/d96/a11654.html#a557fda67d1d1de268ba661350ba915dc", null ],
+    [ "JustEngagedWith", "d5/d96/a11654.html#a80e01faa471f9e83e85c3c47fd815dea", null ],
+    [ "Reset", "d5/d96/a11654.html#ab63099f83037b3716d1e2b9c21d7d607", null ],
+    [ "UpdateAI", "d5/d96/a11654.html#a67b34f7cf4c62a57bc9fb556f5fb0b81", null ],
+    [ "ManaBurn_Timer", "d5/d96/a11654.html#aede307f972942c15c4b2bfa90e75856d", null ],
+    [ "PsychicScream_Timer", "d5/d96/a11654.html#a291f3484e4d125fefe437d96b12153f1", null ],
+    [ "ShadowShield_Timer", "d5/d96/a11654.html#a7ba151c46b097825dca9b8e3ac2cdee9", null ],
+    [ "ShadowWordPain_Timer", "d5/d96/a11654.html#aec0eab93e8494bc1abc87d81460fac31", null ]
 ];

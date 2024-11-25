@@ -1,6 +1,12 @@
 var a22754 =
 [
-    [ "boss_doomlordkazzakAI", "d4/d19/a22758.html", "d4/d19/a22758" ],
-    [ "boss_doomlord_kazzak", "d8/d51/a22754.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
-    [ "GetAI", "d8/d51/a22754.html#a460a32ce37aae852b48f1990406da9a4", null ]
+    [ "boss_fathomlord_karathress", "d8/d51/a22754.html#a05c483ea61011926c260b43f6c01cac3", null ],
+    [ "DoAction", "d8/d51/a22754.html#adc5685244341e353c6dac67b0191d877", null ],
+    [ "JustDied", "d8/d51/a22754.html#a4c356359be50b626a28fab4a803386f8", null ],
+    [ "JustEngagedWith", "d8/d51/a22754.html#ae221d994f2ebb0a298288233727ea1ba", null ],
+    [ "JustReachedHome", "d8/d51/a22754.html#a1e03da049ad75a464de5dd15ac5e6d88", null ],
+    [ "JustSummoned", "d8/d51/a22754.html#a3a692ef94d555e991a7cd34dee9812d9", null ],
+    [ "KilledUnit", "d8/d51/a22754.html#a02812a3cc7de22348058dedd107bb6d0", null ],
+    [ "Reset", "d8/d51/a22754.html#a52f76cb43a32c5f59cbc7476f0df8646", null ],
+    [ "_recentlySpoken", "d8/d51/a22754.html#a81f52ead90284ca3598cd64eb9fb88ee", null ]
 ];

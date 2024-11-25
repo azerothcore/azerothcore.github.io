@@ -1,5 +1,6 @@
 var a23018 =
 [
-    [ "at_quagmirran_lair", "d8/de4/a23018.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
-    [ "OnTrigger", "d8/de4/a23018.html#aa0aab42516efaf842923b8a820942ac4", null ]
+    [ "HandleAfterRemove", "d8/de4/a23018.html#a74610b06095572aa2c898cd84e0fb229", null ],
+    [ "PrepareAuraScript", "d8/de4/a23018.html#ac0d686490ff37810e0116dea4d0b6077", null ],
+    [ "Register", "d8/de4/a23018.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
 ];

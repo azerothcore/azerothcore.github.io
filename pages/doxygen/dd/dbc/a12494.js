@@ -1,17 +1,14 @@
 var a12494 =
 [
-    [ "boss_priestess_lackey_commonAI", "dd/dbc/a12494.html#acf122076823631cef5d66e03a9f607aa", null ],
-    [ "AttackStart", "dd/dbc/a12494.html#a6056ef3425f39208e5731b25fc94a335", null ],
-    [ "EnterEvadeMode", "dd/dbc/a12494.html#a6935410d7a4ce8e9dec9feed9f5351d7", null ],
-    [ "GetThreatMod", "dd/dbc/a12494.html#a2e0e387ae4645c9bbd4625d1469403a8", null ],
-    [ "JustDied", "dd/dbc/a12494.html#a8b06ee0a3e22d495a41ccf4c7009ad2d", null ],
-    [ "JustEngagedWith", "dd/dbc/a12494.html#a4d47aacc653ab0e4b74fa3bcbcfdbbc7", null ],
-    [ "JustSummoned", "dd/dbc/a12494.html#a9a7bcf641bae31827872faf7666635d5", null ],
-    [ "KilledUnit", "dd/dbc/a12494.html#a23aaa0a619470898dd617a18130ca17b", null ],
-    [ "RecalculateThreat", "dd/dbc/a12494.html#a7daa8f2b2ddfbbd0d0f267dac7e0c2c2", null ],
-    [ "Reset", "dd/dbc/a12494.html#aa2ef03d73c43668c97205fa72414e71b", null ],
-    [ "UpdateAI", "dd/dbc/a12494.html#adf87bd797da345e49700265319d808cc", null ],
-    [ "aiType", "dd/dbc/a12494.html#a2b7ccbf195658e402ba6f276b18e3551", null ],
-    [ "instance", "dd/dbc/a12494.html#ac71aa86c97fe11d934f09d62c4ed8eab", null ],
-    [ "summons", "dd/dbc/a12494.html#a498ef73fcc7995113318c5f0b6efa23e", null ]
+    [ "boss_priestess_delrissa", "dd/dbc/a12494.html#afcbf1aa400ec44b709fd194daab91d3d", null ],
+    [ "CheckInRoom", "dd/dbc/a12494.html#afa963761e44412915a6d89f097f33b5d", null ],
+    [ "InitializeAI", "dd/dbc/a12494.html#ae5105868d704b6ca91b27dcfbeaef3a9", null ],
+    [ "JustDied", "dd/dbc/a12494.html#a82d8c198f38c2aa881386e739dea6a08", null ],
+    [ "JustEngagedWith", "dd/dbc/a12494.html#a40c9852f9a1ea24b61edf0f7c00193a6", null ],
+    [ "JustSummoned", "dd/dbc/a12494.html#ac0a2c4346c6222380d7bda9a274f78e0", null ],
+    [ "KilledUnit", "dd/dbc/a12494.html#af0b41306f53c42745cce39069f446704", null ],
+    [ "Reset", "dd/dbc/a12494.html#a60e39157aa3043284b2e1e032c0d9241", null ],
+    [ "SummonedCreatureDies", "dd/dbc/a12494.html#a14757692ab4af5c1b5b311f059be9091", null ],
+    [ "HelpersKilled", "dd/dbc/a12494.html#a26764cdd42721c9276ccecaa97fc9a6e", null ],
+    [ "PlayersKilled", "dd/dbc/a12494.html#a9bde16a69ed9e950ce0dfb91805280cc", null ]
 ];

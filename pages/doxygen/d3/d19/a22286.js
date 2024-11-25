@@ -1,8 +1,8 @@
 var a22286 =
 [
-    [ "boss_tavarok", "d3/d19/a22286.html#acf2e3ec6c28a59b205442c6ed07623af", null ],
-    [ "JustDied", "d3/d19/a22286.html#a937fc1864eab7fdf23e1be1464d9666d", null ],
-    [ "JustEngagedWith", "d3/d19/a22286.html#a64cae2439cd6e4334ced5d4ef01ef942", null ],
-    [ "KilledUnit", "d3/d19/a22286.html#a2c99df9457c548ee562fde920592ea88", null ],
-    [ "Reset", "d3/d19/a22286.html#a0bea2cc724d92616056b7c5ca2dd03c1", null ]
+    [ "npc_anzu_spirit", "d3/d19/a22286.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
+    [ "IsSummonedBy", "d3/d19/a22286.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
+    [ "Reset", "d3/d19/a22286.html#acef3f7093f93b6c227d145523cdc487a", null ],
+    [ "UpdateAI", "d3/d19/a22286.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
+    [ "_scheduler", "d3/d19/a22286.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
 ];

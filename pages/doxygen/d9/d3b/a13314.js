@@ -1,6 +1,13 @@
 var a13314 =
 [
-    [ "npc_marzon_silent_bladeAI", "da/d9b/a13318.html", "da/d9b/a13318" ],
-    [ "npc_marzon_silent_blade", "d9/d3b/a13314.html#a8fa1c0e11555df45005f37fd9de7f3a8", null ],
-    [ "GetAI", "d9/d3b/a13314.html#aadde9b84b46c594e41ae8ca3ae0265a1", null ]
+    [ "npc_ravenclaw_apparitionAI", "d9/d3b/a13314.html#a2a8a6cdb3d74e55cc3d6786ebcfb5328", null ],
+    [ "EmoteCrowd", "d9/d3b/a13314.html#a7a407c9b00bb24c4c3d057ec2a4b0fdc", null ],
+    [ "JustDied", "d9/d3b/a13314.html#a88f9d4e72273f8f835e809b27d5b52d8", null ],
+    [ "JustSummoned", "d9/d3b/a13314.html#a1ab2f2a6b0514d192a7962cf8315ee16", null ],
+    [ "SummonCrowd", "d9/d3b/a13314.html#af3f6ea6094b82e06ce7ef2d4432bd88a", null ],
+    [ "UpdateAI", "d9/d3b/a13314.html#ab3c6c27a31f12443efcad314cbfa1129", null ],
+    [ "events", "d9/d3b/a13314.html#a27522107b5e1f54909294f800f26663f", null ],
+    [ "HasEnded", "d9/d3b/a13314.html#a1b7a57b7204f51304ef05ee3d2265774", null ],
+    [ "summons", "d9/d3b/a13314.html#a85cde0a9d4903c89b29f68318730ab7f", null ],
+    [ "TalkRNG", "d9/d3b/a13314.html#a4b41f348e6756298d6a13b09fbf13fd0", null ]
 ];

@@ -1,7 +1,5 @@
 var a16226 =
 [
-    [ "HandleAfterEffectAbsorb", "d5/dd5/a16226.html#a6999f9cade8d00da15073c1e1b37d07b", null ],
-    [ "PrepareAuraScript", "d5/dd5/a16226.html#a2374af6552e5aca9dd01681d5ad06a83", null ],
-    [ "Register", "d5/dd5/a16226.html#a7478b0448cafc10d2b2498d2fdbd5afc", null ],
-    [ "Validate", "d5/dd5/a16226.html#a52154be21f31d69e7e9b10e57f8eeb05", null ]
+    [ "npc_essence_of_twin", "d5/dd5/a16226.html#a019de64e5e01e611acfda5db4c279b19", null ],
+    [ "OnGossipHello", "d5/dd5/a16226.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
 ];

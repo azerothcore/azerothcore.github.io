@@ -1,6 +1,6 @@
 var a23902 =
 [
-    [ "npc_shadowmoon_tuber_nodeAI", "db/dbb/a23906.html", "db/dbb/a23906" ],
-    [ "npc_shadowmoon_tuber_node", "d8/d38/a23902.html#a98e8c7a84789457900fa342cca209d41", null ],
-    [ "GetAI", "d8/d38/a23902.html#a5f641af77e2fd78fe67b34fa18bf6b73", null ]
+    [ "CheckRequirement", "d8/d38/a23902.html#aa53bdc1b4b57150dbebce61ac87d2b88", null ],
+    [ "PrepareSpellScript", "d8/d38/a23902.html#a8e3d6659174d4c920e65f85afb9308b1", null ],
+    [ "Register", "d8/d38/a23902.html#aa4f62292b32347179a5534e4bc0417f8", null ]
 ];

@@ -1,6 +1,6 @@
 var a03347 =
 [
-    [ "PlayerSetting", "d9/d86/a08398.html", "d9/d86/a08398" ],
+    [ "PlayerSetting", "d7/df7/a08402.html", "d7/df7/a08402" ],
     [ "PlayerSettingMap", "d9/dc9/a03347.html#a03676554928fdf5649c8c7f77a128d04", null ],
     [ "PlayerSettingVector", "d9/dc9/a03347.html#a5c88535ec12f87cc432b1c594bf05326", null ],
     [ "AnnouncerFlags", "d9/dc9/a03347.html#a32dfba2d10d91879403874fc75b928fd", [

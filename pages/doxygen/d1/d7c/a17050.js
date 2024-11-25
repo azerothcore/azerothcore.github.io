@@ -1,9 +1,12 @@
 var a17050 =
 [
-    [ "CheckProc", "d1/d7c/a17050.html#a13426f7a45e9434f980b42f174b22da8", null ],
-    [ "HandlePeriodicTick", "d1/d7c/a17050.html#a6380b4d03e4c48cd1a1f89227a1ebae8", null ],
-    [ "HandleProc", "d1/d7c/a17050.html#abf744d64dae5835bff3877eeaa919af3", null ],
-    [ "PrepareAuraScript", "d1/d7c/a17050.html#a5836fb240ae612d36a9e80c88bebdc48", null ],
-    [ "Register", "d1/d7c/a17050.html#a1b72c10256365de71b8f9fadf5886338", null ],
-    [ "Validate", "d1/d7c/a17050.html#acc3a0e0ae60291646514c1ae6f41f421", null ]
+    [ "npc_muradin_bronzebeard_iccAI", "d1/d7c/a17050.html#a4313164857ebd174fe33a9a16340b332", null ],
+    [ "DoAction", "d1/d7c/a17050.html#a16eeb7d0ed6c943c088285462131cd51", null ],
+    [ "MovementInform", "d1/d7c/a17050.html#a9a2e367f30ee16ca55e634de8e22551e", null ],
+    [ "Reset", "d1/d7c/a17050.html#ad5d5a9de05e472d24fe399b4de79a3d0", null ],
+    [ "SpellHit", "d1/d7c/a17050.html#a19b42ca678e7bf93c86891b4ea0a2dce", null ],
+    [ "UpdateAI", "d1/d7c/a17050.html#a1ae2393871e0f4ebeb86521f06959a7a", null ],
+    [ "_events", "d1/d7c/a17050.html#ae7079b335373cc06a040756328e7f714", null ],
+    [ "_guardList", "d1/d7c/a17050.html#a1cbd87af34584979b37dfff8b29f9623", null ],
+    [ "_instance", "d1/d7c/a17050.html#af1d8694678b10e5393c658ba0b20f47a", null ]
 ];

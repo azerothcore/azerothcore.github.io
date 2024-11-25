@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: CharacterCache Class Reference</title>
+<title>AzerothCore: CharacterCacheEntry Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,1162 +105,214 @@ $(document).ready(function(){initNavTree('d1/ddc/a07238.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../db/d34/a07235.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CharacterCache Class Reference</div></div>
+  <div class="headertitle"><div class="title">CharacterCacheEntry Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">CharacterCache.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a68546dd65d19046fe46400dc8f3ea10e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a68546dd65d19046fe46400dc8f3ea10e">CharacterCache</a> () noexcept=default</td></tr>
-<tr class="separator:a68546dd65d19046fe46400dc8f3ea10e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d62e03bbf3c9b916a9f405bffcfdafb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a6d62e03bbf3c9b916a9f405bffcfdafb">~CharacterCache</a> () noexcept=default</td></tr>
-<tr class="separator:a6d62e03bbf3c9b916a9f405bffcfdafb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c07b0f89d63fe7b2299f662047746d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#ab2c07b0f89d63fe7b2299f662047746d">LoadCharacterCacheStorage</a> ()</td></tr>
-<tr class="memdesc:ab2c07b0f89d63fe7b2299f662047746d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Loads several pieces of information on server startup with the GUID There is no further database query necessary. These are a number of methods that work into the calling function.  <a href="../../d1/ddc/a07238.html#ab2c07b0f89d63fe7b2299f662047746d">More...</a><br /></td></tr>
-<tr class="separator:ab2c07b0f89d63fe7b2299f662047746d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad647d2194545d5dff7b64b0689d7f396"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#ad647d2194545d5dff7b64b0689d7f396">RefreshCacheEntry</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lowGuid)</td></tr>
-<tr class="separator:ad647d2194545d5dff7b64b0689d7f396"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24f9466108c718e1a5b13868d2a18945"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a24f9466108c718e1a5b13868d2a18945">AddCharacterCacheEntry</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId, std::string const &amp;name, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> gender, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> race, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> playerClass, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> level)</td></tr>
-<tr class="separator:a24f9466108c718e1a5b13868d2a18945"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a60c8192630f00a0deafa03660e80b28f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a60c8192630f00a0deafa03660e80b28f">DeleteCharacterCacheEntry</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, std::string const &amp;name)</td></tr>
-<tr class="separator:a60c8192630f00a0deafa03660e80b28f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a500447fdfdce25af8c7e23099613f0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a6a500447fdfdce25af8c7e23099613f0">UpdateCharacterData</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, std::string const &amp;name, <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; gender={}, <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; race={})</td></tr>
-<tr class="separator:a6a500447fdfdce25af8c7e23099613f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a8cd9d82dcde82353b1b956a01789d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#aa8a8cd9d82dcde82353b1b956a01789d">UpdateCharacterLevel</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> level)</td></tr>
-<tr class="separator:aa8a8cd9d82dcde82353b1b956a01789d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32f75f25d684f979275dc6cf9d0760c2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a32f75f25d684f979275dc6cf9d0760c2">UpdateCharacterAccountId</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> accountId)</td></tr>
-<tr class="separator:a32f75f25d684f979275dc6cf9d0760c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acac49f94f842a1cf958893e74f09892c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#acac49f94f842a1cf958893e74f09892c">UpdateCharacterGuildId</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guildId)</td></tr>
-<tr class="separator:acac49f94f842a1cf958893e74f09892c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:accaa1a6c032060efdde68d260f081998"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#accaa1a6c032060efdde68d260f081998">UpdateCharacterArenaTeamId</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> slot, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> arenaTeamId)</td></tr>
-<tr class="separator:accaa1a6c032060efdde68d260f081998"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71f60cf47d60d67a517f300757a91e98"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">UpdateCharacterMailCount</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> count, bool update=false)</td></tr>
-<tr class="separator:a71f60cf47d60d67a517f300757a91e98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a345884534d93291e97a9338427ab8277"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a345884534d93291e97a9338427ab8277">DecreaseCharacterMailCount</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid)</td></tr>
-<tr class="separator:a345884534d93291e97a9338427ab8277"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2167efa02b0e7a89835a4ca864f5cd5f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a2167efa02b0e7a89835a4ca864f5cd5f">IncreaseCharacterMailCount</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid)</td></tr>
-<tr class="separator:a2167efa02b0e7a89835a4ca864f5cd5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a35c040ce87b2cfd92cd05de0452354d0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a35c040ce87b2cfd92cd05de0452354d0">HasCharacterCacheEntry</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid) const</td></tr>
-<tr class="separator:a35c040ce87b2cfd92cd05de0452354d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab72f8a0080c90a91b24d69d5bf5ba83c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#ab72f8a0080c90a91b24d69d5bf5ba83c">GetCharacterCacheByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid) const</td></tr>
-<tr class="separator:ab72f8a0080c90a91b24d69d5bf5ba83c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a44f03f22b247d76f83294260e5df1976"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a44f03f22b247d76f83294260e5df1976">GetCharacterCacheByName</a> (std::string const &amp;name) const</td></tr>
-<tr class="separator:a44f03f22b247d76f83294260e5df1976"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d75ec8ca02a957e2e4885e53f0ac776"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a7d75ec8ca02a957e2e4885e53f0ac776">UpdateCharacterGroup</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid, <a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> groupGUID)</td></tr>
-<tr class="separator:a7d75ec8ca02a957e2e4885e53f0ac776"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a5a7283818f46ed2ae6fff133f632ca"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a2a5a7283818f46ed2ae6fff133f632ca">ClearCharacterGroup</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;guid)</td></tr>
-<tr class="separator:a2a5a7283818f46ed2ae6fff133f632ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1dc8aebdaecb5a0bfa84a364161dc260"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a1dc8aebdaecb5a0bfa84a364161dc260">GetCharacterGuidByName</a> (std::string const &amp;name) const</td></tr>
-<tr class="separator:a1dc8aebdaecb5a0bfa84a364161dc260"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebd1785e1a7682c0f7755a8b0a28d5c9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#aebd1785e1a7682c0f7755a8b0a28d5c9">GetCharacterNameByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid, std::string &amp;name) const</td></tr>
-<tr class="separator:aebd1785e1a7682c0f7755a8b0a28d5c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a194ba3a3ffa63f545f3642c3ed6f1f5b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a194ba3a3ffa63f545f3642c3ed6f1f5b">GetCharacterTeamByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid) const</td></tr>
-<tr class="separator:a194ba3a3ffa63f545f3642c3ed6f1f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a19c5b6e8d1d54e7f90cee7e2b60554"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a6a19c5b6e8d1d54e7f90cee7e2b60554">GetCharacterAccountIdByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid) const</td></tr>
-<tr class="separator:a6a19c5b6e8d1d54e7f90cee7e2b60554"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9dd1667d7268b0177e64d10436c5dea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#aa9dd1667d7268b0177e64d10436c5dea">GetCharacterAccountIdByName</a> (std::string const &amp;name) const</td></tr>
-<tr class="separator:aa9dd1667d7268b0177e64d10436c5dea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21ae289deb5aa47fc4e5d05d7465d780"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a21ae289deb5aa47fc4e5d05d7465d780">GetCharacterLevelByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid) const</td></tr>
-<tr class="separator:a21ae289deb5aa47fc4e5d05d7465d780"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe69170731917c6a14637f66fb16000b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#abe69170731917c6a14637f66fb16000b">GetCharacterGuildIdByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid) const</td></tr>
-<tr class="separator:abe69170731917c6a14637f66fb16000b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8abf63da5342e25b45f2d9fe14dc24fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a8abf63da5342e25b45f2d9fe14dc24fb">GetCharacterArenaTeamIdByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> type) const</td></tr>
-<tr class="separator:a8abf63da5342e25b45f2d9fe14dc24fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2804405d09ccea573a90636668d9d132"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a2804405d09ccea573a90636668d9d132">GetCharacterGroupGuidByGuid</a> (<a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> guid) const</td></tr>
-<tr class="separator:a2804405d09ccea573a90636668d9d132"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d7b41878ea4085e99b1445f27c0cdf3"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d1/ddc/a07238.html">CharacterCache</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a4d7b41878ea4085e99b1445f27c0cdf3">instance</a> ()</td></tr>
-<tr class="separator:a4d7b41878ea4085e99b1445f27c0cdf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae0d1c9151ec4f2401b2d9fdd1c1d1532"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#ae0d1c9151ec4f2401b2d9fdd1c1d1532">Guid</a></td></tr>
+<tr class="separator:ae0d1c9151ec4f2401b2d9fdd1c1d1532"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2bae6994c96b2b2ac2eefbab4b8f8b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a7d2bae6994c96b2b2ac2eefbab4b8f8b">Name</a></td></tr>
+<tr class="separator:a7d2bae6994c96b2b2ac2eefbab4b8f8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1921d1e949cec70ebbd52779b775df6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#ae1921d1e949cec70ebbd52779b775df6">AccountId</a></td></tr>
+<tr class="separator:ae1921d1e949cec70ebbd52779b775df6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19dbbbdce9dbf9993d57edbebeeaf425"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a19dbbbdce9dbf9993d57edbebeeaf425">Class</a></td></tr>
+<tr class="separator:a19dbbbdce9dbf9993d57edbebeeaf425"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57c5abbbd7218d26e4156b310229766"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#aa57c5abbbd7218d26e4156b310229766">Race</a></td></tr>
+<tr class="separator:aa57c5abbbd7218d26e4156b310229766"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c17eef26be0a18823a9834853c296a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a91c17eef26be0a18823a9834853c296a">Sex</a></td></tr>
+<tr class="separator:a91c17eef26be0a18823a9834853c296a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ea77c9e690336b709259bfccbd939f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a41ea77c9e690336b709259bfccbd939f">Level</a></td></tr>
+<tr class="separator:a41ea77c9e690336b709259bfccbd939f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a74e276dec82ac3f2950b8637ed9213"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a8a74e276dec82ac3f2950b8637ed9213">MailCount</a></td></tr>
+<tr class="separator:a8a74e276dec82ac3f2950b8637ed9213"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fba749bb66642a1601c5cb37c756222"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a4fba749bb66642a1601c5cb37c756222">GuildId</a></td></tr>
+<tr class="separator:a4fba749bb66642a1601c5cb37c756222"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d094e514af9970b0239cc8e27da06bc"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d2/db0/a03827.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a1d094e514af9970b0239cc8e27da06bc">ArenaTeamId</a></td></tr>
+<tr class="separator:a1d094e514af9970b0239cc8e27da06bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b6f5540de2e47959a053696698e8e05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/ddc/a07238.html#a4b6f5540de2e47959a053696698e8e05">GroupGuid</a></td></tr>
+<tr class="separator:a4b6f5540de2e47959a053696698e8e05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a68546dd65d19046fe46400dc8f3ea10e" name="a68546dd65d19046fe46400dc8f3ea10e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68546dd65d19046fe46400dc8f3ea10e">&#9670;&#160;</a></span>CharacterCache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">CharacterCache::CharacterCache </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a6d62e03bbf3c9b916a9f405bffcfdafb" name="a6d62e03bbf3c9b916a9f405bffcfdafb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d62e03bbf3c9b916a9f405bffcfdafb">&#9670;&#160;</a></span>~CharacterCache()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">CharacterCache::~CharacterCache </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a24f9466108c718e1a5b13868d2a18945" name="a24f9466108c718e1a5b13868d2a18945"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24f9466108c718e1a5b13868d2a18945">&#9670;&#160;</a></span>AddCharacterCacheEntry()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="ae1921d1e949cec70ebbd52779b775df6" name="ae1921d1e949cec70ebbd52779b775df6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1921d1e949cec70ebbd52779b775df6">&#9670;&#160;</a></span>AccountId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CharacterCache::AddCharacterCacheEntry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>accountId</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>gender</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>race</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>playerClass</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CharacterCacheEntry::AccountId</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  123</span>{</div>
-<div class="line"><span class="lineno">  124</span>    <a class="code hl_struct" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a>&amp; data = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>[guid];</div>
-<div class="line"><span class="lineno">  125</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#ae0d1c9151ec4f2401b2d9fdd1c1d1532">Guid</a> = guid;</div>
-<div class="line"><span class="lineno">  126</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a7d2bae6994c96b2b2ac2eefbab4b8f8b">Name</a> = name;</div>
-<div class="line"><span class="lineno">  127</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#ae1921d1e949cec70ebbd52779b775df6">AccountId</a> = accountId;</div>
-<div class="line"><span class="lineno">  128</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#aa57c5abbbd7218d26e4156b310229766">Race</a> = race;</div>
-<div class="line"><span class="lineno">  129</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a91c17eef26be0a18823a9834853c296a">Sex</a> = gender;</div>
-<div class="line"><span class="lineno">  130</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a19dbbbdce9dbf9993d57edbebeeaf425">Class</a> = playerClass;</div>
-<div class="line"><span class="lineno">  131</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a41ea77c9e690336b709259bfccbd939f">Level</a> = level;</div>
-<div class="line"><span class="lineno">  132</span>    data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a4fba749bb66642a1601c5cb37c756222">GuildId</a> = 0;                           <span class="comment">// Will be set in guild loading or guild setting</span></div>
-<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d2/db0/a03827.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a>; ++i)</div>
-<div class="line"><span class="lineno">  134</span>    {</div>
-<div class="line"><span class="lineno">  135</span>        data.<a class="code hl_variable" href="../../d4/d8c/a07234.html#a1d094e514af9970b0239cc8e27da06bc">ArenaTeamId</a>[i] = 0; <span class="comment">// Will be set in arena teams loading</span></div>
-<div class="line"><span class="lineno">  136</span>    }</div>
-<div class="line"><span class="lineno">  137</span> </div>
-<div class="line"><span class="lineno">  138</span>    <span class="comment">// Fill Name to Guid Store</span></div>
-<div class="line"><span class="lineno">  139</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>[name] = &amp;data;</div>
-<div class="line"><span class="lineno">  140</span>}</div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa03827_html_a3ed680b9b5f263a9c57435bf412b89f6"><div class="ttname"><a href="../../d2/db0/a03827.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a></div><div class="ttdeci">#define MAX_ARENA_SLOT</div><div class="ttdef"><b>Definition:</b> ArenaTeam.h:134</div></div>
-<div class="ttc" id="aa04724_html_a2a209686002fed926e50d55f7c7ca795"><div class="ttname"><a href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">anonymous_namespace{CharacterCache.cpp}::_characterCacheStore</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid, CharacterCacheEntry &gt; _characterCacheStore</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:29</div></div>
-<div class="ttc" id="aa04724_html_a409431c82eb6a62b40d55a773cdb02c6"><div class="ttname"><a href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">anonymous_namespace{CharacterCache.cpp}::_characterCacheByNameStore</a></div><div class="ttdeci">std::unordered_map&lt; std::string, CharacterCacheEntry * &gt; _characterCacheByNameStore</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:30</div></div>
-<div class="ttc" id="aa07234_html"><div class="ttname"><a href="../../d4/d8c/a07234.html">CharacterCacheEntry</a></div><div class="ttdef"><b>Definition:</b> CharacterCache.h:28</div></div>
-<div class="ttc" id="aa07234_html_a19dbbbdce9dbf9993d57edbebeeaf425"><div class="ttname"><a href="../../d4/d8c/a07234.html#a19dbbbdce9dbf9993d57edbebeeaf425">CharacterCacheEntry::Class</a></div><div class="ttdeci">uint8 Class</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:32</div></div>
-<div class="ttc" id="aa07234_html_a1d094e514af9970b0239cc8e27da06bc"><div class="ttname"><a href="../../d4/d8c/a07234.html#a1d094e514af9970b0239cc8e27da06bc">CharacterCacheEntry::ArenaTeamId</a></div><div class="ttdeci">std::array&lt; uint32, MAX_ARENA_SLOT &gt; ArenaTeamId</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:38</div></div>
-<div class="ttc" id="aa07234_html_a41ea77c9e690336b709259bfccbd939f"><div class="ttname"><a href="../../d4/d8c/a07234.html#a41ea77c9e690336b709259bfccbd939f">CharacterCacheEntry::Level</a></div><div class="ttdeci">uint8 Level</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:35</div></div>
-<div class="ttc" id="aa07234_html_a4fba749bb66642a1601c5cb37c756222"><div class="ttname"><a href="../../d4/d8c/a07234.html#a4fba749bb66642a1601c5cb37c756222">CharacterCacheEntry::GuildId</a></div><div class="ttdeci">ObjectGuid::LowType GuildId</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:37</div></div>
-<div class="ttc" id="aa07234_html_a7d2bae6994c96b2b2ac2eefbab4b8f8b"><div class="ttname"><a href="../../d4/d8c/a07234.html#a7d2bae6994c96b2b2ac2eefbab4b8f8b">CharacterCacheEntry::Name</a></div><div class="ttdeci">std::string Name</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:30</div></div>
-<div class="ttc" id="aa07234_html_a91c17eef26be0a18823a9834853c296a"><div class="ttname"><a href="../../d4/d8c/a07234.html#a91c17eef26be0a18823a9834853c296a">CharacterCacheEntry::Sex</a></div><div class="ttdeci">uint8 Sex</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:34</div></div>
-<div class="ttc" id="aa07234_html_aa57c5abbbd7218d26e4156b310229766"><div class="ttname"><a href="../../d4/d8c/a07234.html#aa57c5abbbd7218d26e4156b310229766">CharacterCacheEntry::Race</a></div><div class="ttdeci">uint8 Race</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:33</div></div>
-<div class="ttc" id="aa07234_html_ae0d1c9151ec4f2401b2d9fdd1c1d1532"><div class="ttname"><a href="../../d4/d8c/a07234.html#ae0d1c9151ec4f2401b2d9fdd1c1d1532">CharacterCacheEntry::Guid</a></div><div class="ttdeci">ObjectGuid Guid</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:29</div></div>
-<div class="ttc" id="aa07234_html_ae1921d1e949cec70ebbd52779b775df6"><div class="ttname"><a href="../../d4/d8c/a07234.html#ae1921d1e949cec70ebbd52779b775df6">CharacterCacheEntry::AccountId</a></div><div class="ttdeci">uint32 AccountId</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:31</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">CharacterCacheEntry::AccountId</a>, <a class="el" href="../../#l00038">CharacterCacheEntry::ArenaTeamId</a>, <a class="el" href="../../#l00032">CharacterCacheEntry::Class</a>, <a class="el" href="../../#l00029">CharacterCacheEntry::Guid</a>, <a class="el" href="../../#l00037">CharacterCacheEntry::GuildId</a>, <a class="el" href="../../#l00035">CharacterCacheEntry::Level</a>, <a class="el" href="../../#l00134">MAX_ARENA_SLOT</a>, <a class="el" href="../../#l00030">CharacterCacheEntry::Name</a>, <a class="el" href="../../#l00033">CharacterCacheEntry::Race</a>, and <a class="el" href="../../#l00034">CharacterCacheEntry::Sex</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00060">LoadCharacterCacheStorage()</a>, and <a class="el" href="../../#l00093">RefreshCacheEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00037">WorldSession::HandleAddFriendOpcode()</a>, and <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>.</p>
 
 </div>
 </div>
-<a id="a2a5a7283818f46ed2ae6fff133f632ca" name="a2a5a7283818f46ed2ae6fff133f632ca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a5a7283818f46ed2ae6fff133f632ca">&#9670;&#160;</a></span>ClearCharacterGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::ClearCharacterGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <a class="code hl_function" href="../../d1/ddc/a07238.html#a7d75ec8ca02a957e2e4885e53f0ac776">UpdateCharacterGroup</a>(guid, <a class="code hl_variable" href="../../db/d40/a08190.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>); };</div>
-<div class="ttc" id="aa07238_html_a7d75ec8ca02a957e2e4885e53f0ac776"><div class="ttname"><a href="../../d1/ddc/a07238.html#a7d75ec8ca02a957e2e4885e53f0ac776">CharacterCache::UpdateCharacterGroup</a></div><div class="ttdeci">void UpdateCharacterGroup(ObjectGuid const &amp;guid, ObjectGuid groupGUID)</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:242</div></div>
-<div class="ttc" id="aa08190_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../db/d40/a08190.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00120">ObjectGuid::Empty</a>.</p>
-
-</div>
-</div>
-<a id="a345884534d93291e97a9338427ab8277" name="a345884534d93291e97a9338427ab8277"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a345884534d93291e97a9338427ab8277">&#9670;&#160;</a></span>DecreaseCharacterMailCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::DecreaseCharacterMailCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   62</span>{ <a class="code hl_function" href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">UpdateCharacterMailCount</a>(guid, -1); };</div>
-<div class="ttc" id="aa07238_html_a71f60cf47d60d67a517f300757a91e98"><div class="ttname"><a href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">CharacterCache::UpdateCharacterMailCount</a></div><div class="ttdeci">void UpdateCharacterMailCount(ObjectGuid const &amp;guid, int8 count, bool update=false)</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:219</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a60c8192630f00a0deafa03660e80b28f" name="a60c8192630f00a0deafa03660e80b28f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60c8192630f00a0deafa03660e80b28f">&#9670;&#160;</a></span>DeleteCharacterCacheEntry()</h2>
+<a id="a1d094e514af9970b0239cc8e27da06bc" name="a1d094e514af9970b0239cc8e27da06bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d094e514af9970b0239cc8e27da06bc">&#9670;&#160;</a></span>ArenaTeamId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void CharacterCache::DeleteCharacterCacheEntry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname">std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d2/db0/a03827.html#a3ed680b9b5f263a9c57435bf412b89f6">MAX_ARENA_SLOT</a>&gt; CharacterCacheEntry::ArenaTeamId</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  143</span>{</div>
-<div class="line"><span class="lineno">  144</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.erase(guid);</div>
-<div class="line"><span class="lineno">  145</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.erase(name);</div>
-<div class="line"><span class="lineno">  146</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00093">RefreshCacheEntry()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, and <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>.</p>
 
 </div>
 </div>
-<a id="a6a19c5b6e8d1d54e7f90cee7e2b60554" name="a6a19c5b6e8d1d54e7f90cee7e2b60554"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a19c5b6e8d1d54e7f90cee7e2b60554">&#9670;&#160;</a></span>GetCharacterAccountIdByGuid()</h2>
+<a id="a19dbbbdce9dbf9993d57edbebeeaf425" name="a19dbbbdce9dbf9993d57edbebeeaf425"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19dbbbdce9dbf9993d57edbebeeaf425">&#9670;&#160;</a></span>Class</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CharacterCache::GetCharacterAccountIdByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCacheEntry::Class</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  318</span>{</div>
-<div class="line"><span class="lineno">  319</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  320</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  321</span>    {</div>
-<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  323</span>    }</div>
-<div class="line"><span class="lineno">  324</span> </div>
-<div class="line"><span class="lineno">  325</span>    <span class="keywordflow">return</span> itr-&gt;second.AccountId;</div>
-<div class="line"><span class="lineno">  326</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00089">ArenaTeam::AddMember()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>, and <a class="el" href="../../#l00031">WorldSession::SendNameQueryOpcode()</a>.</p>
+
 </div>
 </div>
-<a id="aa9dd1667d7268b0177e64d10436c5dea" name="aa9dd1667d7268b0177e64d10436c5dea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa9dd1667d7268b0177e64d10436c5dea">&#9670;&#160;</a></span>GetCharacterAccountIdByName()</h2>
+<a id="a4b6f5540de2e47959a053696698e8e05" name="a4b6f5540de2e47959a053696698e8e05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b6f5540de2e47959a053696698e8e05">&#9670;&#160;</a></span>GroupGuid</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CharacterCache::GetCharacterAccountIdByName </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> CharacterCacheEntry::GroupGuid</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  329</span>{</div>
-<div class="line"><span class="lineno">  330</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.find(name);</div>
-<div class="line"><span class="lineno">  331</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.end())</div>
-<div class="line"><span class="lineno">  332</span>    {</div>
-<div class="line"><span class="lineno">  333</span>        <span class="keywordflow">return</span> itr-&gt;second-&gt;AccountId;</div>
-<div class="line"><span class="lineno">  334</span>    }</div>
-<div class="line"><span class="lineno">  335</span> </div>
-<div class="line"><span class="lineno">  336</span>    <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  337</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>.</p>
+
 </div>
 </div>
-<a id="a8abf63da5342e25b45f2d9fe14dc24fb" name="a8abf63da5342e25b45f2d9fe14dc24fb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8abf63da5342e25b45f2d9fe14dc24fb">&#9670;&#160;</a></span>GetCharacterArenaTeamIdByGuid()</h2>
+<a id="ae0d1c9151ec4f2401b2d9fdd1c1d1532" name="ae0d1c9151ec4f2401b2d9fdd1c1d1532"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d1c9151ec4f2401b2d9fdd1c1d1532">&#9670;&#160;</a></span>Guid</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CharacterCache::GetCharacterArenaTeamIdByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>type</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> CharacterCacheEntry::Guid</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  362</span>{</div>
-<div class="line"><span class="lineno">  363</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  364</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  365</span>    {</div>
-<div class="line"><span class="lineno">  366</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  367</span>    }</div>
-<div class="line"><span class="lineno">  368</span> </div>
-<div class="line"><span class="lineno">  369</span>    <span class="keywordflow">return</span> itr-&gt;second.ArenaTeamId[type];</div>
-<div class="line"><span class="lineno">  370</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, and <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>.</p>
+
 </div>
 </div>
-<a id="ab72f8a0080c90a91b24d69d5bf5ba83c" name="ab72f8a0080c90a91b24d69d5bf5ba83c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab72f8a0080c90a91b24d69d5bf5ba83c">&#9670;&#160;</a></span>GetCharacterCacheByGuid()</h2>
+<a id="a4fba749bb66642a1601c5cb37c756222" name="a4fba749bb66642a1601c5cb37c756222"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fba749bb66642a1601c5cb37c756222">&#9670;&#160;</a></span>GuildId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a> const  * CharacterCache::GetCharacterCacheByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> CharacterCacheEntry::GuildId</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  262</span>{</div>
-<div class="line"><span class="lineno">  263</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  264</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  265</span>    {</div>
-<div class="line"><span class="lineno">  266</span>        <span class="keywordflow">return</span> &amp;itr-&gt;second;</div>
-<div class="line"><span class="lineno">  267</span>    }</div>
-<div class="line"><span class="lineno">  268</span> </div>
-<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  270</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, and <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>.</p>
+
 </div>
 </div>
-<a id="a44f03f22b247d76f83294260e5df1976" name="a44f03f22b247d76f83294260e5df1976"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44f03f22b247d76f83294260e5df1976">&#9670;&#160;</a></span>GetCharacterCacheByName()</h2>
+<a id="a41ea77c9e690336b709259bfccbd939f" name="a41ea77c9e690336b709259bfccbd939f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ea77c9e690336b709259bfccbd939f">&#9670;&#160;</a></span>Level</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a> const  * CharacterCache::GetCharacterCacheByName </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCacheEntry::Level</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  273</span>{</div>
-<div class="line"><span class="lineno">  274</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.find(name);</div>
-<div class="line"><span class="lineno">  275</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.end())</div>
-<div class="line"><span class="lineno">  276</span>    {</div>
-<div class="line"><span class="lineno">  277</span>        <span class="keywordflow">return</span> itr-&gt;second;</div>
-<div class="line"><span class="lineno">  278</span>    }</div>
-<div class="line"><span class="lineno">  279</span> </div>
-<div class="line"><span class="lineno">  280</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">  281</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, and <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>.</p>
+
 </div>
 </div>
-<a id="a2804405d09ccea573a90636668d9d132" name="a2804405d09ccea573a90636668d9d132"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2804405d09ccea573a90636668d9d132">&#9670;&#160;</a></span>GetCharacterGroupGuidByGuid()</h2>
+<a id="a8a74e276dec82ac3f2950b8637ed9213" name="a8a74e276dec82ac3f2950b8637ed9213"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a74e276dec82ac3f2950b8637ed9213">&#9670;&#160;</a></span>MailCount</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> CharacterCache::GetCharacterGroupGuidByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCacheEntry::MailCount</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  373</span>{</div>
-<div class="line"><span class="lineno">  374</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  375</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  376</span>    {</div>
-<div class="line"><span class="lineno">  377</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d40/a08190.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
-<div class="line"><span class="lineno">  378</span>    }</div>
-<div class="line"><span class="lineno">  379</span> </div>
-<div class="line"><span class="lineno">  380</span>    <span class="keywordflow">return</span> itr-&gt;second.GroupGuid;</div>
-<div class="line"><span class="lineno">  381</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00120">ObjectGuid::Empty</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, and <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>.</p>
 
 </div>
 </div>
-<a id="a1dc8aebdaecb5a0bfa84a364161dc260" name="a1dc8aebdaecb5a0bfa84a364161dc260"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1dc8aebdaecb5a0bfa84a364161dc260">&#9670;&#160;</a></span>GetCharacterGuidByName()</h2>
+<a id="a7d2bae6994c96b2b2ac2eefbab4b8f8b" name="a7d2bae6994c96b2b2ac2eefbab4b8f8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2bae6994c96b2b2ac2eefbab4b8f8b">&#9670;&#160;</a></span>Name</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> CharacterCache::GetCharacterGuidByName </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname">std::string CharacterCacheEntry::Name</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  284</span>{</div>
-<div class="line"><span class="lineno">  285</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.find(name);</div>
-<div class="line"><span class="lineno">  286</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.end())</div>
-<div class="line"><span class="lineno">  287</span>    {</div>
-<div class="line"><span class="lineno">  288</span>        <span class="keywordflow">return</span> itr-&gt;second-&gt;Guid;</div>
-<div class="line"><span class="lineno">  289</span>    }</div>
-<div class="line"><span class="lineno">  290</span> </div>
-<div class="line"><span class="lineno">  291</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d40/a08190.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>;</div>
-<div class="line"><span class="lineno">  292</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00120">ObjectGuid::Empty</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00089">ArenaTeam::AddMember()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>, and <a class="el" href="../../#l00031">WorldSession::SendNameQueryOpcode()</a>.</p>
 
 </div>
 </div>
-<a id="abe69170731917c6a14637f66fb16000b" name="abe69170731917c6a14637f66fb16000b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe69170731917c6a14637f66fb16000b">&#9670;&#160;</a></span>GetCharacterGuildIdByGuid()</h2>
+<a id="aa57c5abbbd7218d26e4156b310229766" name="aa57c5abbbd7218d26e4156b310229766"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57c5abbbd7218d26e4156b310229766">&#9670;&#160;</a></span>Race</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> CharacterCache::GetCharacterGuildIdByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCacheEntry::Race</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  351</span>{</div>
-<div class="line"><span class="lineno">  352</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  353</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  354</span>    {</div>
-<div class="line"><span class="lineno">  355</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  356</span>    }</div>
-<div class="line"><span class="lineno">  357</span> </div>
-<div class="line"><span class="lineno">  358</span>    <span class="keywordflow">return</span> itr-&gt;second.GuildId;</div>
-<div class="line"><span class="lineno">  359</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00037">WorldSession::HandleAddFriendOpcode()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, <a class="el" href="../../#l01946">WorldSession::HandleCharFactionOrRaceChangeCallback()</a>, and <a class="el" href="../../#l00031">WorldSession::SendNameQueryOpcode()</a>.</p>
+
 </div>
 </div>
-<a id="a21ae289deb5aa47fc4e5d05d7465d780" name="a21ae289deb5aa47fc4e5d05d7465d780"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a21ae289deb5aa47fc4e5d05d7465d780">&#9670;&#160;</a></span>GetCharacterLevelByGuid()</h2>
+<a id="a91c17eef26be0a18823a9834853c296a" name="a91c17eef26be0a18823a9834853c296a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c17eef26be0a18823a9834853c296a">&#9670;&#160;</a></span>Sex</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCache::GetCharacterLevelByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  340</span>{</div>
-<div class="line"><span class="lineno">  341</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  342</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  343</span>    {</div>
-<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  345</span>    }</div>
-<div class="line"><span class="lineno">  346</span> </div>
-<div class="line"><span class="lineno">  347</span>    <span class="keywordflow">return</span> itr-&gt;second.Level;</div>
-<div class="line"><span class="lineno">  348</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aebd1785e1a7682c0f7755a8b0a28d5c9" name="aebd1785e1a7682c0f7755a8b0a28d5c9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aebd1785e1a7682c0f7755a8b0a28d5c9">&#9670;&#160;</a></span>GetCharacterNameByGuid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CharacterCache::GetCharacterNameByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  295</span>{</div>
-<div class="line"><span class="lineno">  296</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  297</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  298</span>    {</div>
-<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  300</span>    }</div>
-<div class="line"><span class="lineno">  301</span> </div>
-<div class="line"><span class="lineno">  302</span>    name = itr-&gt;second.Name;</div>
-<div class="line"><span class="lineno">  303</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  304</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a194ba3a3ffa63f545f3642c3ed6f1f5b" name="a194ba3a3ffa63f545f3642c3ed6f1f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a194ba3a3ffa63f545f3642c3ed6f1f5b">&#9670;&#160;</a></span>GetCharacterTeamByGuid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CharacterCache::GetCharacterTeamByGuid </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  307</span>{</div>
-<div class="line"><span class="lineno">  308</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  309</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  310</span>    {</div>
-<div class="line"><span class="lineno">  311</span>        <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  312</span>    }</div>
-<div class="line"><span class="lineno">  313</span> </div>
-<div class="line"><span class="lineno">  314</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/dc6/a08386.html#a076fb952331e730a803764e116a8a03a">Player::TeamIdForRace</a>(itr-&gt;second.Race);</div>
-<div class="line"><span class="lineno">  315</span>}</div>
-<div class="ttc" id="aa08386_html_a076fb952331e730a803764e116a8a03a"><div class="ttname"><a href="../../d0/dc6/a08386.html#a076fb952331e730a803764e116a8a03a">Player::TeamIdForRace</a></div><div class="ttdeci">static TeamId TeamIdForRace(uint8 race)</div><div class="ttdef"><b>Definition:</b> Player.cpp:5838</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l05838">Player::TeamIdForRace()</a>.</p>
-
-</div>
-</div>
-<a id="a35c040ce87b2cfd92cd05de0452354d0" name="a35c040ce87b2cfd92cd05de0452354d0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a35c040ce87b2cfd92cd05de0452354d0">&#9670;&#160;</a></span>HasCharacterCacheEntry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool CharacterCache::HasCharacterCacheEntry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  257</span>{</div>
-<div class="line"><span class="lineno">  258</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid) != <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end();</div>
-<div class="line"><span class="lineno">  259</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2167efa02b0e7a89835a4ca864f5cd5f" name="a2167efa02b0e7a89835a4ca864f5cd5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2167efa02b0e7a89835a4ca864f5cd5f">&#9670;&#160;</a></span>IncreaseCharacterMailCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::IncreaseCharacterMailCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <a class="code hl_function" href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">UpdateCharacterMailCount</a>(guid, 1); };</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a4d7b41878ea4085e99b1445f27c0cdf3" name="a4d7b41878ea4085e99b1445f27c0cdf3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d7b41878ea4085e99b1445f27c0cdf3">&#9670;&#160;</a></span>instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/ddc/a07238.html">CharacterCache</a> * CharacterCache::instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
-<div class="line"><span class="lineno">   35</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d1/ddc/a07238.html">CharacterCache</a> <a class="code hl_function" href="../../d1/ddc/a07238.html#a4d7b41878ea4085e99b1445f27c0cdf3">instance</a>;</div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d1/ddc/a07238.html#a4d7b41878ea4085e99b1445f27c0cdf3">instance</a>;</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa07238_html"><div class="ttname"><a href="../../d1/ddc/a07238.html">CharacterCache</a></div><div class="ttdef"><b>Definition:</b> CharacterCache.h:43</div></div>
-<div class="ttc" id="aa07238_html_a4d7b41878ea4085e99b1445f27c0cdf3"><div class="ttname"><a href="../../d1/ddc/a07238.html#a4d7b41878ea4085e99b1445f27c0cdf3">CharacterCache::instance</a></div><div class="ttdeci">static CharacterCache * instance()</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:33</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00033">instance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00033">instance()</a>.</p>
-
-</div>
-</div>
-<a id="ab2c07b0f89d63fe7b2299f662047746d" name="ab2c07b0f89d63fe7b2299f662047746d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2c07b0f89d63fe7b2299f662047746d">&#9670;&#160;</a></span>LoadCharacterCacheStorage()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::LoadCharacterCacheStorage </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> CharacterCacheEntry::Sex</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Loads several pieces of information on server startup with the GUID There is no further database query necessary. These are a number of methods that work into the calling function. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">guid</td><td>Requires a guid to call </td></tr>
-  </table>
-  </dd>
-</dl>
-<dl class="section return"><dt>Returns</dt><dd>Name, Gender, Race, Class and Level of player character Example Usage: <div class="fragment"><div class="line"><a class="code hl_struct" href="../../d4/d8c/a07234.html">CharacterCacheEntry</a> <span class="keyword">const</span>* characterInfo = <a class="code hl_define" href="../../d4/d7f/a04124.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a>-&gt;GetCharacterCacheByGuid(GUID);</div>
-<div class="line"><span class="keywordflow">if</span> (!characterInfo)</div>
-<div class="line">    <span class="keywordflow">return</span>;</div>
-<div class="line"> </div>
-<div class="line">std::string playerName = characterInfo-&gt;<a class="code hl_variable" href="../../d4/d8c/a07234.html#a7d2bae6994c96b2b2ac2eefbab4b8f8b">Name</a>;</div>
-<div class="line"><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> playerGender = characterInfo-&gt;<a class="code hl_variable" href="../../d4/d8c/a07234.html#a91c17eef26be0a18823a9834853c296a">Sex</a>;</div>
-<div class="line"><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> playerRace = characterInfo-&gt;<a class="code hl_variable" href="../../d4/d8c/a07234.html#aa57c5abbbd7218d26e4156b310229766">Race</a>;</div>
-<div class="line"><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> playerClass = characterInfo-&gt;<a class="code hl_variable" href="../../d4/d8c/a07234.html#a19dbbbdce9dbf9993d57edbebeeaf425">Class</a>;</div>
-<div class="line"><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> playerLevel = characterInfo-&gt;<a class="code hl_variable" href="../../d4/d8c/a07234.html#a41ea77c9e690336b709259bfccbd939f">Level</a>;</div>
-<div class="ttc" id="aa04124_html_a7a32c898b33d6163d83a32f46d58517c"><div class="ttname"><a href="../../d4/d7f/a04124.html#a7a32c898b33d6163d83a32f46d58517c">sCharacterCache</a></div><div class="ttdeci">#define sCharacterCache</div><div class="ttdef"><b>Definition:</b> CharacterCache.h:83</div></div>
-</div><!-- fragment --> </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">   61</span>{</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.clear();</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guid, name, account, race, gender, class, level FROM characters&quot;</span>);</div>
-<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">   67</span>    {</div>
-<div class="line"><span class="lineno">   68</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;No character name data loaded, empty query!&quot;</span>);</div>
-<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   70</span>    }</div>
-<div class="line"><span class="lineno">   71</span> </div>
-<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">   73</span>    {</div>
-<div class="line"><span class="lineno">   74</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
-<div class="line"><span class="lineno">   75</span>        <a class="code hl_function" href="../../d1/ddc/a07238.html#a24f9466108c718e1a5b13868d2a18945">AddCharacterCacheEntry</a>(ObjectGuid::Create&lt;HighGuid::Player&gt;(fields[0].Get&lt;uint32&gt;()) <span class="comment">/*guid*/</span>, fields[2].Get&lt;uint32&gt;() <span class="comment">/*account*/</span>, fields[1].Get&lt;std::string&gt;() <span class="comment">/*name*/</span>,</div>
-<div class="line"><span class="lineno">   76</span>            fields[4].Get&lt;uint8&gt;() <span class="comment">/*gender*/</span>, fields[3].Get&lt;uint8&gt;() <span class="comment">/*race*/</span>, fields[5].Get&lt;uint8&gt;() <span class="comment">/*class*/</span>, fields[6].Get&lt;uint8&gt;() <span class="comment">/*level*/</span>);</div>
-<div class="line"><span class="lineno">   77</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
-<div class="line"><span class="lineno">   78</span> </div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> mailCountResult = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT receiver, COUNT(receiver) FROM mail GROUP BY receiver&quot;</span>);</div>
-<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">if</span> (mailCountResult)</div>
-<div class="line"><span class="lineno">   81</span>    {</div>
-<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">   83</span>        {</div>
-<div class="line"><span class="lineno">   84</span>            <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = mailCountResult-&gt;Fetch();</div>
-<div class="line"><span class="lineno">   85</span>            <a class="code hl_function" href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">UpdateCharacterMailCount</a>(<a class="code hl_class" href="../../db/d40/a08190.html">ObjectGuid</a>(HighGuid::Player, fields[0].Get&lt;uint32&gt;()), <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a><span class="keyword">&gt;</span>(fields[1].Get&lt;uint64&gt;()), <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   86</span>        } <span class="keywordflow">while</span> (mailCountResult-&gt;NextRow());</div>
-<div class="line"><span class="lineno">   87</span>    }</div>
-<div class="line"><span class="lineno">   88</span> </div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded Character Infos For {} Characters in {} ms&quot;</span>, <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.size(), <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">   91</span>}</div>
-<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
-<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
-<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa00497_html_a3bb8a71f4ae9af551f71e9eb2c9c3325"><div class="ttname"><a href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a></div><div class="ttdeci">std::int8_t int8</div><div class="ttdef"><b>Definition:</b> Define.h:105</div></div>
-<div class="ttc" id="aa04589_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
-<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
-<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
-<div class="ttc" id="aa07238_html_a24f9466108c718e1a5b13868d2a18945"><div class="ttname"><a href="../../d1/ddc/a07238.html#a24f9466108c718e1a5b13868d2a18945">CharacterCache::AddCharacterCacheEntry</a></div><div class="ttdeci">void AddCharacterCacheEntry(ObjectGuid const &amp;guid, uint32 accountId, std::string const &amp;name, uint8 gender, uint8 race, uint8 playerClass, uint8 level)</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:122</div></div>
-<div class="ttc" id="aa08190_html"><div class="ttname"><a href="../../db/d40/a08190.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:118</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, and <a class="el" href="../../#l00219">UpdateCharacterMailCount()</a>.</p>
-
-</div>
-</div>
-<a id="ad647d2194545d5dff7b64b0689d7f396" name="ad647d2194545d5dff7b64b0689d7f396"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad647d2194545d5dff7b64b0689d7f396">&#9670;&#160;</a></span>RefreshCacheEntry()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::RefreshCacheEntry </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>lowGuid</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
-<div class="line"><span class="lineno">   95</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guid, name, account, race, gender, class, level FROM characters WHERE guid = {}&quot;</span>, lowGuid);</div>
-<div class="line"><span class="lineno">   96</span>    <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">   97</span>    {</div>
-<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   99</span>    }</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>    <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  102</span>    {</div>
-<div class="line"><span class="lineno">  103</span>        <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
-<div class="line"><span class="lineno">  104</span>        <a class="code hl_function" href="../../d1/ddc/a07238.html#a60c8192630f00a0deafa03660e80b28f">DeleteCharacterCacheEntry</a>(ObjectGuid::Create&lt;HighGuid::Player&gt;(lowGuid), fields[1].Get&lt;std::string&gt;());</div>
-<div class="line"><span class="lineno">  105</span>        <a class="code hl_function" href="../../d1/ddc/a07238.html#a24f9466108c718e1a5b13868d2a18945">AddCharacterCacheEntry</a>(ObjectGuid::Create&lt;HighGuid::Player&gt;(fields[0].Get&lt;uint32&gt;()) <span class="comment">/*guid*/</span>, fields[2].Get&lt;uint32&gt;() <span class="comment">/*account*/</span>, fields[1].Get&lt;std::string&gt;() <span class="comment">/*name*/</span>, fields[4].Get&lt;uint8&gt;() <span class="comment">/*gender*/</span>, fields[3].Get&lt;uint8&gt;() <span class="comment">/*race*/</span>, fields[5].Get&lt;uint8&gt;() <span class="comment">/*class*/</span>, fields[6].Get&lt;uint8&gt;() <span class="comment">/*level*/</span>);</div>
-<div class="line"><span class="lineno">  106</span>    } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
-<div class="line"><span class="lineno">  107</span> </div>
-<div class="line"><span class="lineno">  108</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> mailCountResult = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT receiver, COUNT(receiver) FROM mail WHERE receiver = {} GROUP BY receiver&quot;</span>, lowGuid);</div>
-<div class="line"><span class="lineno">  109</span>    <span class="keywordflow">if</span> (mailCountResult)</div>
-<div class="line"><span class="lineno">  110</span>    {</div>
-<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  112</span>        {</div>
-<div class="line"><span class="lineno">  113</span>            <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = mailCountResult-&gt;Fetch();</div>
-<div class="line"><span class="lineno">  114</span>            <a class="code hl_function" href="../../d1/ddc/a07238.html#a71f60cf47d60d67a517f300757a91e98">UpdateCharacterMailCount</a>(<a class="code hl_class" href="../../db/d40/a08190.html">ObjectGuid</a>(HighGuid::Player, fields[0].Get&lt;uint32&gt;()), <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a><span class="keyword">&gt;</span>(fields[1].Get&lt;uint64&gt;()), <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  115</span>        } <span class="keywordflow">while</span> (mailCountResult-&gt;NextRow());</div>
-<div class="line"><span class="lineno">  116</span>    }</div>
-<div class="line"><span class="lineno">  117</span>}</div>
-<div class="ttc" id="aa07238_html_a60c8192630f00a0deafa03660e80b28f"><div class="ttname"><a href="../../d1/ddc/a07238.html#a60c8192630f00a0deafa03660e80b28f">CharacterCache::DeleteCharacterCacheEntry</a></div><div class="ttdeci">void DeleteCharacterCacheEntry(ObjectGuid const &amp;guid, std::string const &amp;name)</div><div class="ttdef"><b>Definition:</b> CharacterCache.cpp:142</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00122">AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00142">DeleteCharacterCacheEntry()</a>, and <a class="el" href="../../#l00219">UpdateCharacterMailCount()</a>.</p>
-
-</div>
-</div>
-<a id="a32f75f25d684f979275dc6cf9d0760c2" name="a32f75f25d684f979275dc6cf9d0760c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32f75f25d684f979275dc6cf9d0760c2">&#9670;&#160;</a></span>UpdateCharacterAccountId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterAccountId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>accountId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  187</span>{</div>
-<div class="line"><span class="lineno">  188</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  189</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  190</span>    {</div>
-<div class="line"><span class="lineno">  191</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  192</span>    }</div>
-<div class="line"><span class="lineno">  193</span> </div>
-<div class="line"><span class="lineno">  194</span>    itr-&gt;second.AccountId = accountId;</div>
-<div class="line"><span class="lineno">  195</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="accaa1a6c032060efdde68d260f081998" name="accaa1a6c032060efdde68d260f081998"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#accaa1a6c032060efdde68d260f081998">&#9670;&#160;</a></span>UpdateCharacterArenaTeamId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterArenaTeamId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>slot</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>arenaTeamId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  209</span>{</div>
-<div class="line"><span class="lineno">  210</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  211</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  212</span>    {</div>
-<div class="line"><span class="lineno">  213</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  214</span>    }</div>
-<div class="line"><span class="lineno">  215</span> </div>
-<div class="line"><span class="lineno">  216</span>    itr-&gt;second.ArenaTeamId[slot] = arenaTeamId;</div>
-<div class="line"><span class="lineno">  217</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6a500447fdfdce25af8c7e23099613f0" name="a6a500447fdfdce25af8c7e23099613f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a500447fdfdce25af8c7e23099613f0">&#9670;&#160;</a></span>UpdateCharacterData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterData </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td>
-          <td class="paramname"><em>gender</em> = <code>{}</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td>
-          <td class="paramname"><em>race</em> = <code>{}</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  149</span>{</div>
-<div class="line"><span class="lineno">  150</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  153</span> </div>
-<div class="line"><span class="lineno">  154</span>    std::string oldName = itr-&gt;second.Name;</div>
-<div class="line"><span class="lineno">  155</span>    itr-&gt;second.Name = name;</div>
-<div class="line"><span class="lineno">  156</span> </div>
-<div class="line"><span class="lineno">  157</span>    <span class="keywordflow">if</span> (gender)</div>
-<div class="line"><span class="lineno">  158</span>    {</div>
-<div class="line"><span class="lineno">  159</span>        itr-&gt;second.Sex = *gender;</div>
-<div class="line"><span class="lineno">  160</span>    }</div>
-<div class="line"><span class="lineno">  161</span> </div>
-<div class="line"><span class="lineno">  162</span>    <span class="keywordflow">if</span> (race)</div>
-<div class="line"><span class="lineno">  163</span>    {</div>
-<div class="line"><span class="lineno">  164</span>        itr-&gt;second.Race = *race;</div>
-<div class="line"><span class="lineno">  165</span>    }</div>
-<div class="line"><span class="lineno">  166</span> </div>
-<div class="line"><span class="lineno">  167</span>    <span class="comment">//WorldPackets::Misc::InvalidatePlayer packet(guid);</span></div>
-<div class="line"><span class="lineno">  168</span>    <span class="comment">//sWorld-&gt;SendGlobalMessage(packet.Write());</span></div>
-<div class="line"><span class="lineno">  169</span> </div>
-<div class="line"><span class="lineno">  170</span>    <span class="comment">// Correct name -&gt; pointer storage</span></div>
-<div class="line"><span class="lineno">  171</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>.erase(oldName);</div>
-<div class="line"><span class="lineno">  172</span>    <a class="code hl_variable" href="../../d2/dd5/a04724.html#a409431c82eb6a62b40d55a773cdb02c6">_characterCacheByNameStore</a>[name] = &amp;itr-&gt;second;</div>
-<div class="line"><span class="lineno">  173</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7d75ec8ca02a957e2e4885e53f0ac776" name="a7d75ec8ca02a957e2e4885e53f0ac776"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d75ec8ca02a957e2e4885e53f0ac776">&#9670;&#160;</a></span>UpdateCharacterGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>groupGUID</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  243</span>{</div>
-<div class="line"><span class="lineno">  244</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  245</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  246</span>    {</div>
-<div class="line"><span class="lineno">  247</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  248</span>    }</div>
-<div class="line"><span class="lineno">  249</span> </div>
-<div class="line"><span class="lineno">  250</span>    itr-&gt;second.GroupGuid = groupGUID;</div>
-<div class="line"><span class="lineno">  251</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acac49f94f842a1cf958893e74f09892c" name="acac49f94f842a1cf958893e74f09892c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acac49f94f842a1cf958893e74f09892c">&#9670;&#160;</a></span>UpdateCharacterGuildId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterGuildId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guildId</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  198</span>{</div>
-<div class="line"><span class="lineno">  199</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  200</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  201</span>    {</div>
-<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  203</span>    }</div>
-<div class="line"><span class="lineno">  204</span> </div>
-<div class="line"><span class="lineno">  205</span>    itr-&gt;second.GuildId = guildId;</div>
-<div class="line"><span class="lineno">  206</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aa8a8cd9d82dcde82353b1b956a01789d" name="aa8a8cd9d82dcde82353b1b956a01789d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a8cd9d82dcde82353b1b956a01789d">&#9670;&#160;</a></span>UpdateCharacterLevel()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterLevel </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
-          <td class="paramname"><em>level</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  176</span>{</div>
-<div class="line"><span class="lineno">  177</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  178</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  179</span>    {</div>
-<div class="line"><span class="lineno">  180</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  181</span>    }</div>
-<div class="line"><span class="lineno">  182</span> </div>
-<div class="line"><span class="lineno">  183</span>    itr-&gt;second.Level = level;</div>
-<div class="line"><span class="lineno">  184</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a71f60cf47d60d67a517f300757a91e98" name="a71f60cf47d60d67a517f300757a91e98"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71f60cf47d60d67a517f300757a91e98">&#9670;&#160;</a></span>UpdateCharacterMailCount()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void CharacterCache::UpdateCharacterMailCount </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html">ObjectGuid</a> const &amp;&#160;</td>
-          <td class="paramname"><em>guid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a>&#160;</td>
-          <td class="paramname"><em>count</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>update</em> = <code>false</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  220</span>{</div>
-<div class="line"><span class="lineno">  221</span>    <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.find(guid);</div>
-<div class="line"><span class="lineno">  222</span>    <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d2/dd5/a04724.html#a2a209686002fed926e50d55f7c7ca795">_characterCacheStore</a>.end())</div>
-<div class="line"><span class="lineno">  223</span>    {</div>
-<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  225</span>    }</div>
-<div class="line"><span class="lineno">  226</span> </div>
-<div class="line"><span class="lineno">  227</span>    <span class="keywordflow">if</span> (update)</div>
-<div class="line"><span class="lineno">  228</span>    {</div>
-<div class="line"><span class="lineno">  229</span>        itr-&gt;second.MailCount = count;</div>
-<div class="line"><span class="lineno">  230</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  231</span>    }</div>
-<div class="line"><span class="lineno">  232</span> </div>
-<div class="line"><span class="lineno">  233</span>    <span class="comment">// Let&#39;s be safe and prevent overflow</span></div>
-<div class="line"><span class="lineno">  234</span>    <span class="keywordflow">if</span> (!itr-&gt;second.MailCount &amp;&amp; count &lt; 0)</div>
-<div class="line"><span class="lineno">  235</span>    {</div>
-<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  237</span>    }</div>
-<div class="line"><span class="lineno">  238</span> </div>
-<div class="line"><span class="lineno">  239</span>    itr-&gt;second.MailCount += count;</div>
-<div class="line"><span class="lineno">  240</span>}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00060">LoadCharacterCacheStorage()</a>, and <a class="el" href="../../#l00093">RefreshCacheEntry()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00122">CharacterCache::AddCharacterCacheEntry()</a>, <a class="el" href="../../#l00047">cache_commandscript::HandleCacheInfoCommand()</a>, and <a class="el" href="../../#l00031">WorldSession::SendNameQueryOpcode()</a>.</p>
 
 </div>
 </div>
@@ -1269,8 +321,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/ddc/a07238.html">CharacterCache</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d1/ddc/a07238.html">CharacterCacheEntry</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:47 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

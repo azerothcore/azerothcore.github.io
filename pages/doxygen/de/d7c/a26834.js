@@ -1,5 +1,5 @@
 var a26834 =
 [
-    [ "go_ethereum_prison", "de/d7c/a26834.html#a1872dab11a8470194ab35f87e217aa8a", null ],
-    [ "OnGossipHello", "de/d7c/a26834.html#a73479b0512ea778336fad4bd5cd9b909", null ]
+    [ "go_resonite_cask", "de/d7c/a26834.html#a5a89aa97a4cd31d7ae183649ee750b74", null ],
+    [ "OnGossipHello", "de/d7c/a26834.html#aae8591d53a6983886b52d404acdba293", null ]
 ];

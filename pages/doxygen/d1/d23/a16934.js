@@ -1,7 +1,7 @@
 var a16934 =
 [
-    [ "HandleScript", "d1/d23/a16934.html#a4b1e392acea30a9259e65a75667704c5", null ],
-    [ "Load", "d1/d23/a16934.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
-    [ "PrepareSpellScript", "d1/d23/a16934.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
-    [ "Register", "d1/d23/a16934.html#a77632d11a172e5552c0c49de830a1639", null ]
+    [ "HandleDummyTick", "d1/d23/a16934.html#ac0aba414bc0f9f947b7bba9bd41f47b8", null ],
+    [ "PrepareAuraScript", "d1/d23/a16934.html#a0e61ac6aa03aaad08d91883e587f1c40", null ],
+    [ "Register", "d1/d23/a16934.html#a626900d1d0c8a471f4d100b2c2883a52", null ],
+    [ "Validate", "d1/d23/a16934.html#aa6ea31d8757b42bdea42d30b758a9c6d", null ]
 ];

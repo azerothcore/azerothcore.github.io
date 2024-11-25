@@ -1,6 +1,6 @@
 var a23482 =
 [
-    [ "npc_capernian", "d1/d95/a23482.html#a0acb568664c777797eeb7104f454699d", null ],
-    [ "AttackStart", "d1/d95/a23482.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
-    [ "ScheduleEvents", "d1/d95/a23482.html#a6bd26f5584a1c960b84b574abd723ad1", null ]
+    [ "HandleScriptEffect", "d1/d95/a23482.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
+    [ "PrepareSpellScript", "d1/d95/a23482.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
+    [ "Register", "d1/d95/a23482.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
 ];

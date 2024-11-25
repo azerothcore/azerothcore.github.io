@@ -1,7 +1,8 @@
 var a09134 =
 [
-    [ "PlayerAtMinimumRangeAway", "d4/d26/a09134.html#a12eb5ff486232f88c7303741ebd8e65e", null ],
-    [ "operator()", "d4/d26/a09134.html#a1cfda97a0590e033f9b6043c8de2d0a0", null ],
-    [ "fRange", "d4/d26/a09134.html#a0c58929de429694f24877525287f15a6", null ],
-    [ "unit", "d4/d26/a09134.html#a4ea0f83c3287079cff40fac15272fa94", null ]
+    [ "AllDeadCreaturesInRange", "d4/d26/a09134.html#a31b4976c3ea6203b9a1e7f7970a97977", null ],
+    [ "operator()", "d4/d26/a09134.html#a3638a8d3c5791b590ec717e4f1ba9cef", null ],
+    [ "_obj", "d4/d26/a09134.html#a4ca7fcf9945e698a790d01d3fadae98e", null ],
+    [ "_range", "d4/d26/a09134.html#a431ada86a2b864d53773a85b05d8da4f", null ],
+    [ "_reqAlive", "d4/d26/a09134.html#aefd0d77b69b5df9b99c148e0254fda09", null ]
 ];

@@ -1,7 +1,10 @@
 var a14854 =
 [
-    [ "npc_anubisath_warder", "d5/d25/a14854.html#aebe14673e5c31000a9626e39d87c6775", null ],
-    [ "JustEngagedWith", "d5/d25/a14854.html#a579318fa519eb669573b2cea78c2fee3", null ],
-    [ "Reset", "d5/d25/a14854.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
-    [ "UpdateAI", "d5/d25/a14854.html#aba428f1f1a016191aa4f168c616c3a29", null ]
+    [ "npc_anubisath_defender", "d5/d25/a14854.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
+    [ "DamageTaken", "d5/d25/a14854.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
+    [ "JustDied", "d5/d25/a14854.html#a225ca1b3144953bcc5890caf0d32b606", null ],
+    [ "JustEngagedWith", "d5/d25/a14854.html#a6505fcae0e99cae44750f16daddc3309", null ],
+    [ "Reset", "d5/d25/a14854.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
+    [ "UpdateAI", "d5/d25/a14854.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
+    [ "_enraged", "d5/d25/a14854.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ]
 ];

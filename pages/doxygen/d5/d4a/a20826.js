@@ -1,6 +1,6 @@
 var a20826 =
 [
-    [ "boss_svalaAI", "df/d65/a20830.html", "df/d65/a20830" ],
-    [ "boss_svala", "d5/d4a/a20826.html#a7ac5866eb6a013cb03f3d459b13b4a62", null ],
-    [ "GetAI", "d5/d4a/a20826.html#a0c3b94635eca667a28496cf799efad25", null ]
+    [ "HandleDummyEffect", "d5/d4a/a20826.html#a25bc99811aa2c7bf4bfbf8ad628a2771", null ],
+    [ "PrepareSpellScript", "d5/d4a/a20826.html#a07376c95cb2ec41d86a24be59094d207", null ],
+    [ "Register", "d5/d4a/a20826.html#aaa02dab30b29e6f646db52468fc35eb2", null ]
 ];

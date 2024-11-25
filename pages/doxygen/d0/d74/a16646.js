@@ -1,15 +1,6 @@
 var a16646 =
 [
-    [ "npc_pos_leaderAI", "d0/d74/a16646.html#a21973bccde394785f8619df7cae5270b", null ],
-    [ "AttackStart", "d0/d74/a16646.html#a6dc4161441752b8ea9baab642d6a0684", null ],
-    [ "JustSummoned", "d0/d74/a16646.html#a03bfcd0ea38073ff8481188d1b570553", null ],
-    [ "MoveInLineOfSight", "d0/d74/a16646.html#ad28f607b313f7729649261969912eba5", null ],
-    [ "Reset", "d0/d74/a16646.html#aee23a2835b84ac060a29b41c10116904", null ],
-    [ "SetData", "d0/d74/a16646.html#a2b49d5045e0d1e25e7a05b1e3ce65b4f", null ],
-    [ "SummonedCreatureDespawn", "d0/d74/a16646.html#a9a35459cf7b83c9f0afc557d1b0b40e7", null ],
-    [ "UpdateAI", "d0/d74/a16646.html#a1507ab4bdade501cf92f843cec20842d", null ],
-    [ "counter", "d0/d74/a16646.html#a7012a08c6409a40646dcd91a47eb6886", null ],
-    [ "events", "d0/d74/a16646.html#a7ea570e98c7a70ae604861c2166eb429", null ],
-    [ "pInstance", "d0/d74/a16646.html#a1ba3692738d6bd474d54fe8910a7f316", null ],
-    [ "summons", "d0/d74/a16646.html#a44b5ee694d96644da91167c7d793eeb3", null ]
+    [ "instance_pit_of_saron_InstanceScript", "d2/deb/a16650.html", "d2/deb/a16650" ],
+    [ "instance_pit_of_saron", "d0/d74/a16646.html#a84526dbb5ac7eb6ff5ebe24ed339826b", null ],
+    [ "GetInstanceScript", "d0/d74/a16646.html#a2a1bc125bfe653a1da8b8c36b86aae67", null ]
 ];

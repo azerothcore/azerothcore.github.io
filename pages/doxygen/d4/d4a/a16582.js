@@ -1,6 +1,5 @@
 var a16582 =
 [
-    [ "instance_halls_of_reflection_InstanceMapScript", "d5/dfa/a16586.html", "d5/dfa/a16586" ],
-    [ "instance_halls_of_reflection", "d4/d4a/a16582.html#a8872b51ceec25dbf4831f45b27206ed1", null ],
-    [ "GetInstanceScript", "d4/d4a/a16582.html#aca27a4f654f41fe6f238c905b48285b7", null ]
+    [ "at_hor_battered_hilt_start", "d4/d4a/a16582.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
+    [ "OnTrigger", "d4/d4a/a16582.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
 ];

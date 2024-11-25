@@ -1,6 +1,6 @@
 var a13950 =
 [
-    [ "HandleScript", "d1/ddf/a13950.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
-    [ "PrepareSpellScript", "d1/ddf/a13950.html#a26b296c1c4d9f5193dc3773509267284", null ],
-    [ "Register", "d1/ddf/a13950.html#aad66e4079ea9404b9057546d8959a395", null ]
+    [ "gameobjectId", "d1/ddf/a13950.html#a5cebf652fccc66cb5f98968036405d14", null ],
+    [ "spawnIndex", "d1/ddf/a13950.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
+    [ "timestamp", "d1/ddf/a13950.html#a0c49f62b35e906637890fee896c74951", null ]
 ];

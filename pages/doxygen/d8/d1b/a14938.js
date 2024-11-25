@@ -1,6 +1,6 @@
 var a14938 =
 [
-    [ "npc_death_ravagerAI", "dc/d73/a14942.html", "dc/d73/a14942" ],
-    [ "npc_death_ravager", "d8/d1b/a14938.html#a6aa04a28ce5aa0e467e638c8ffe11657", null ],
-    [ "GetAI", "d8/d1b/a14938.html#a284d0b8ccf902d3f03ddfc6750fe0f1c", null ]
+    [ "npc_magwinAI", "dc/d73/a14942.html", "dc/d73/a14942" ],
+    [ "npc_magwin", "d8/d1b/a14938.html#a1a45602fd312a4c436b09fb7b90ac1d4", null ],
+    [ "GetAI", "d8/d1b/a14938.html#a83bee0fd5c1494f2bb732fe9e0ed1594", null ]
 ];

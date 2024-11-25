@@ -1,13 +1,14 @@
 var a08542 =
 [
-    [ "BuildValuesCachePosPointers", "d3/d31/a08542.html#ae84124e042e8ba50d755ccef3c02fdd8", null ],
-    [ "ApplyOffset", "d3/d31/a08542.html#a31a13ea07b3eb9e3d045996e8a6074b2", null ],
-    [ "other", "d3/d31/a08542.html#ad56ddc5f2d7ea4937b49a61d80b8b138", null ],
-    [ "UnitDynamicFlagsPos", "d3/d31/a08542.html#a230385a8646ebce01faaadce648b1a61", null ],
-    [ "UnitFieldAuraStatePos", "d3/d31/a08542.html#a69592cf42c5f6663c8ada3468fcbe658", null ],
-    [ "UnitFieldBytes2Pos", "d3/d31/a08542.html#aa1df8492f0a3c576b067469ee3552796", null ],
-    [ "UnitFieldDisplayPos", "d3/d31/a08542.html#a1058d1650d656498f7dcd5139363a315", null ],
-    [ "UnitFieldFactionTemplatePos", "d3/d31/a08542.html#a9b8eae9da685231956dca3e92b845cbb", null ],
-    [ "UnitFieldFlagsPos", "d3/d31/a08542.html#a04e607123d1d1dde24611b573d25fedb", null ],
-    [ "UnitNPCFlagsPos", "d3/d31/a08542.html#aa9412413e1a867d1f3857d18f4d52906", null ]
+    [ "SafeUnitPointer", "d3/d31/a08542.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
+    [ "SafeUnitPointer", "d3/d31/a08542.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
+    [ "~SafeUnitPointer", "d3/d31/a08542.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
+    [ "Initialize", "d3/d31/a08542.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
+    [ "operator Unit *", "d3/d31/a08542.html#afee1d290f436472dd719ff83f41721f5", null ],
+    [ "operator->", "d3/d31/a08542.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
+    [ "operator=", "d3/d31/a08542.html#a44f522d9c22861f853df0286a3764d3e", null ],
+    [ "SetPointedTo", "d3/d31/a08542.html#a6603c67b736224a8e6559340afa8b275", null ],
+    [ "UnitDeleted", "d3/d31/a08542.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
+    [ "defaultValue", "d3/d31/a08542.html#a38dce117cb135c9b84918a9bbc884f28", null ],
+    [ "ptr", "d3/d31/a08542.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
 ];

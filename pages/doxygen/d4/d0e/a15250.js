@@ -1,6 +1,7 @@
 var a15250 =
 [
-    [ "npc_twiggy_flatheadAI", "db/d8c/a15254.html", "db/d8c/a15254" ],
-    [ "npc_twiggy_flathead", "d4/d0e/a15250.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
-    [ "GetAI", "d4/d0e/a15250.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
+    [ "npc_giltharesAI", "d4/d0e/a15250.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d4/d0e/a15250.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d4/d0e/a15250.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d4/d0e/a15250.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

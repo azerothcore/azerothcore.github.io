@@ -1,7 +1,8 @@
 var a08162 =
 [
-    [ "AddToGrid", "d4/d0a/a08162.html#a178e3cc30d983d739e1f3f98d9eefbf0", null ],
-    [ "IsInGrid", "d4/d0a/a08162.html#a996724d21d62e478f50031faa7637cd5", null ],
-    [ "RemoveFromGrid", "d4/d0a/a08162.html#a29740a98fea7db66cdffd824940a2ec2", null ],
-    [ "_gridRef", "d4/d0a/a08162.html#aa44ba47734267ac07b733f218623f3c5", null ]
+    [ "Reset", "d4/d0a/a08162.html#a28a5bd110553457c86d7f77e78041713", null ],
+    [ "cosAngle", "d4/d0a/a08162.html#a37f49fc816f37dff8c1947f4de7f04d5", null ],
+    [ "sinAngle", "d4/d0a/a08162.html#af2a184b7c8e7f324607a0b7468bcb8f6", null ],
+    [ "xyspeed", "d4/d0a/a08162.html#a6fada60d677d89580c3a718d42a75d17", null ],
+    [ "zspeed", "d4/d0a/a08162.html#ad0a5a36aeabc9b8d8ea27cecae30ae31", null ]
 ];

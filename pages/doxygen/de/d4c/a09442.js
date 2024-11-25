@@ -1,10 +1,16 @@
 var a09442 =
 [
-    [ "DoublePosition", "dd/d67/a09446.html", "dd/d67/a09446" ],
-    [ "~AreaBoundary", "de/d4c/a09442.html#a6050e91b3d485e75186a2df9a56e8d38", null ],
-    [ "AreaBoundary", "de/d4c/a09442.html#adf670910c492c08d3384c2dd1824e7ce", null ],
-    [ "IsWithinBoundary", "de/d4c/a09442.html#aac0ce1e801f3de8f3bb83b98ecd6e5c1", null ],
-    [ "IsWithinBoundary", "de/d4c/a09442.html#a1d407f77ce0388263fc0ee6224734213", null ],
-    [ "IsWithinBoundaryArea", "de/d4c/a09442.html#ae5580b0044dba24d100831fe51ee1abc", null ],
-    [ "_isInvertedBoundary", "de/d4c/a09442.html#ad416f29594688ce670549d6fdcce4314", null ]
+    [ "ServerMail", "de/d4c/a09442.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
+    [ "active", "de/d4c/a09442.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
+    [ "body", "de/d4c/a09442.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
+    [ "id", "de/d4c/a09442.html#a6b47994eff9201a6a75f8c621b64716c", null ],
+    [ "itemA", "de/d4c/a09442.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
+    [ "itemCountA", "de/d4c/a09442.html#abb24673f0b21f715f3e112e232cec35b", null ],
+    [ "itemCountH", "de/d4c/a09442.html#ac9b6e655136616b040788c55d80706da", null ],
+    [ "itemH", "de/d4c/a09442.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
+    [ "moneyA", "de/d4c/a09442.html#a6a84ca583beef891422f67bef7919c47", null ],
+    [ "moneyH", "de/d4c/a09442.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
+    [ "reqLevel", "de/d4c/a09442.html#a494ce9c800d1545b023b9ff526f8b994", null ],
+    [ "reqPlayTime", "de/d4c/a09442.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
+    [ "subject", "de/d4c/a09442.html#a246e499c69c57a436aac4c039ea37d31", null ]
 ];

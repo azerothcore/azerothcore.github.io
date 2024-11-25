@@ -1,7 +1,6 @@
 var a13062 =
 [
-    [ "HandleScriptEffect", "d2/deb/a13062.html#ae631c634c77cc207338e3549a664969b", null ],
-    [ "PrepareSpellScript", "d2/deb/a13062.html#ac9f825f10512be5849c46460e9cdbec8", null ],
-    [ "Register", "d2/deb/a13062.html#ac8a4d26de8c78942efc5cfbf78c64633", null ],
-    [ "Validate", "d2/deb/a13062.html#ab05236bc29c00cfc7a5dfb88a8c2ee98", null ]
+    [ "FilterTargets", "d2/deb/a13062.html#aa6c8db9ae3ffd14e0841c98633115a9b", null ],
+    [ "PrepareSpellScript", "d2/deb/a13062.html#a502f57c8567bc7ed15035d89ea26f4a6", null ],
+    [ "Register", "d2/deb/a13062.html#aa3f50e9c6d430d3a1bc83c382c08b189", null ]
 ];

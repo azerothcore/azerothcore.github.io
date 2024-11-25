@@ -1,5 +1,7 @@
 var a19874 =
 [
-    [ "FlashFreezeCheck", "d6/da2/a19874.html#a47d07a686a7c74dc8914a98762b16fe3", null ],
-    [ "operator()", "d6/da2/a19874.html#a87475dc9e2f1b0eb508e9f56aa5c1e2f", null ]
+    [ "HandleEffectPeriodic", "d6/da2/a19874.html#ae22cd3b6f7cf515e80dd1125349dd152", null ],
+    [ "PrepareAuraScript", "d6/da2/a19874.html#a4cc9b379480c50e1116e3dab03afeaad", null ],
+    [ "Register", "d6/da2/a19874.html#ac82d5a47f5eca266eed99ab65f9eb5bf", null ],
+    [ "Validate", "d6/da2/a19874.html#a2bb4fe398e6b225dd14bdb51e3f01522", null ]
 ];

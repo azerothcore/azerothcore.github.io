@@ -1,6 +1,6 @@
 var a02177 =
 [
-    [ "boss_halazzi", "d3/d9e/a13450.html", "d3/d9e/a13450" ],
+    [ "boss_halazzi", "d4/df0/a13462.html", "d4/df0/a13462" ],
     [ "Actions", "d3/d90/a02177.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],
@@ -12,7 +12,7 @@ var a02177 =
       [ "ACTION_START_INTRO", "db/df5/a02534.html#a250372292659bed7ae290d8621f88ccfa662074617cb51c00a6119b2d0197ee66", null ],
       [ "ACTION_PARTNER_DEAD", "d8/d1e/a02210.html#a250372292659bed7ae290d8621f88ccfa9596c5f6c482ca54060d713f650093cd", null ],
       [ "ACTION_MERGE", "d3/d90/a02177.html#a250372292659bed7ae290d8621f88ccfa63fd17f849c7bec9e7834eb6c7ba1ffd", null ],
-      [ "ACTION_COMPLETE_EVENT_3", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccfaa7f6aa06106a78ebeb0f26d82d89d454", null ],
+      [ "ACTION_COMPLETE_GONG_RITUAL", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccfa0fd6958fdb6b383ab8afdd359422f564", null ],
       [ "ACTION_RESSURRECT", "d4/db0/a02540.html#a250372292659bed7ae290d8621f88ccfae3bff20470d6c07bfd26f3d4fa8faf97", null ],
       [ "ACTION_START_EVENT", "d6/dea/a01094.html#a250372292659bed7ae290d8621f88ccfa5a9d00590152ece2beb2305c6f271dd9", null ],
       [ "ACTION_START_CITY", "d6/dea/a01094.html#a250372292659bed7ae290d8621f88ccfa180e6a8f7bf3103300afc4e9b89b5cac", null ],
@@ -96,6 +96,7 @@ var a02177 =
       [ "GROUP_LYNX", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aaff89ad484a46d0b7b06edeacb6a01395", null ],
       [ "GROUP_HUMAN", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aa796793e979d08c776caffceafb33aa85", null ],
       [ "GROUP_MERGE", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aac01236358f92d366822edd70b15d96e6", null ],
+      [ "GROUP_SPLIT", "d3/d90/a02177.html#aab072245ab577ff0e12efe20a536b99aa24fb50270283b82bb36d8edf229a98c8", null ],
       [ "GROUP_VOID_BLAST", "d9/daf/a00830.html#aab072245ab577ff0e12efe20a536b99aa42a5b582d3481d3a6c19206d7d5089c2", null ],
       [ "GROUP_COMBAT", "d4/dfa/a00746.html#aab072245ab577ff0e12efe20a536b99aa8a276adfb1bc4c990d9fcd7622ee8b44", null ],
       [ "GROUP_DEMON", "d4/dfa/a00746.html#aab072245ab577ff0e12efe20a536b99aa9ec61b4a64bb040b8e116599fa55c192", null ],
@@ -106,6 +107,7 @@ var a02177 =
       [ "GROUP_ARCANE_ORB", "d0/d5c/a00668.html#aab072245ab577ff0e12efe20a536b99aaf9e798664ee1611674a83cdc2f6aac67", null ]
     ] ],
     [ "Hal_CreatureIds", "d3/d90/a02177.html#ac90421cd4206eda5129bd1e1e42a3ba8", [
+      [ "NPC_HALAZZI_TROLL", "d3/d90/a02177.html#ac90421cd4206eda5129bd1e1e42a3ba8ad90073fb2d46ae92672bc6498f12a29e", null ],
       [ "NPC_TOTEM", "d3/d90/a02177.html#ac90421cd4206eda5129bd1e1e42a3ba8a76871419e416cabd16418062e27e10c2", null ]
     ] ],
     [ "PhaseHalazzi", "d3/d90/a02177.html#ae9d84216082b1306e6ff4b17c27b3696", [
@@ -856,14 +858,16 @@ var a02177 =
       [ "SPELL_FRENZY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cab54f261ba282273bed875abe6642a293", null ],
       [ "SPELL_FLAMESHOCK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cacd0b7af74e1993f64e7d1ae4c9f3d6eb", null ],
       [ "SPELL_EARTHSHOCK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cabbc328dc23ba382bcb705252cb0c21ae", null ],
-      [ "SPELL_TRANSFORM_SPLIT", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca4a394075b79a66388200f975793a51e9", null ],
-      [ "SPELL_TRANSFORM_SPLIT2", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca340f74adab8a418ec35836e204f28aba", null ],
-      [ "SPELL_TRANSFORM_MERGE", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca7cab536a90d6984e570d0ee17d444748", null ],
       [ "SPELL_SUMMON_LYNX", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca8074f8e348e7c38104f47b24c30f3f47", null ],
       [ "SPELL_SUMMON_TOTEM", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca76e66ff693fd054826b94edc82953bc1", null ],
       [ "SPELL_BERSERK", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298cad7b3e50b45f9949cd0e4030ca19a6b4f", null ],
       [ "SPELL_LYNX_FRENZY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca631a0aa7d71f4f76e0eb2210ce031199", null ],
       [ "SPELL_SHRED_ARMOR", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca678c11570ad3144955c816375dbc9099", null ],
+      [ "SPELL_TRANSFORM_DUMMY", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca64a770431f15c8291caefec7d794435c", null ],
+      [ "SPELL_TRANSFIGURE", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca103266fa67b05f293bd1d96e8bfa88c6", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_75", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298caacf4357658bdc3322da05c02fc8b7c91", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_50", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca16a49d9ec462e668652651f7d5cde31b", null ],
+      [ "SPELL_TRANSFORM_TO_LYNX_25", "d3/d90/a02177.html#a5bd342133be8c2137b831460acc9298ca4d92b91cd7589492e3361259ec8db5dc", null ],
       [ "SPELL_SPIRIT_BOLTS", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca1b7ddd9be5786e146935c79b0da8840e", null ],
       [ "SPELL_DRAIN_POWER", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca7f81baf6969513eaac167c67c10ded6c", null ],
       [ "SPELL_SIPHON_SOUL", "d6/d1e/a02171.html#a5bd342133be8c2137b831460acc9298ca4976268b7c24a0e4a7e36336477fa27a", null ],

@@ -1,8 +1,6 @@
 var a13046 =
 [
-    [ "FilterTargets", "d0/dba/a13046.html#a3282eb4c27b4256705bba47f4934c9b8", null ],
-    [ "HandleScriptEffect", "d0/dba/a13046.html#a8622351d9984d2de69ccd67d37fd52b9", null ],
-    [ "PrepareSpellScript", "d0/dba/a13046.html#a6083e35b4289b8a960dd6b223e1d02b5", null ],
-    [ "Register", "d0/dba/a13046.html#a57b42bf7b94ef5b23092ed097ce016e8", null ],
-    [ "Validate", "d0/dba/a13046.html#a5493864b068de82015bc157f3d0899b3", null ]
+    [ "FixOrientation", "d0/dba/a13046.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
+    [ "Execute", "d0/dba/a13046.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
+    [ "_owner", "d0/dba/a13046.html#a5f12db3774bdeef25a300780c00db1fb", null ]
 ];

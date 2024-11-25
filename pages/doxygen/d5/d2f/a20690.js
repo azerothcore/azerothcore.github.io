@@ -1,6 +1,6 @@
 var a20690 =
 [
-    [ "npc_frost_tombAI", "d1/d02/a20694.html", "d1/d02/a20694" ],
-    [ "npc_frost_tomb", "d5/d2f/a20690.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
-    [ "GetAI", "d5/d2f/a20690.html#a6d913e6cf9138de60556ec381354e614", null ]
+    [ "npc_vrykul_skeletonAI", "d1/d02/a20694.html", "d1/d02/a20694" ],
+    [ "npc_vrykul_skeleton", "d5/d2f/a20690.html#a08b79a9baba3cd05768d13ff36b6ed42", null ],
+    [ "GetAI", "d5/d2f/a20690.html#a74292cbb6f83ef9b6b90febda02570a5", null ]
 ];

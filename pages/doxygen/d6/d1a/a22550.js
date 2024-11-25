@@ -1,6 +1,6 @@
 var a22550 =
 [
-    [ "boss_reliquary_of_soulsAI", "d6/d8c/a22554.html", "d6/d8c/a22554" ],
-    [ "boss_reliquary_of_souls", "d6/d1a/a22550.html#a0c73fc6221da0b19903e534932ca6406", null ],
-    [ "GetAI", "d6/d1a/a22550.html#a55b717fe2b1bfdda84fec6c63852ae7c", null ]
+    [ "boss_essence_of_desireAI", "d6/d8c/a22554.html", "d6/d8c/a22554" ],
+    [ "boss_essence_of_desire", "d6/d1a/a22550.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
+    [ "GetAI", "d6/d1a/a22550.html#a14b66470c508fa24e214062aeec0aae6", null ]
 ];

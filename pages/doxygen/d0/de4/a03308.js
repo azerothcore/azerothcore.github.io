@@ -1,11 +1,11 @@
 var a03308 =
 [
-    [ "GameEventFinishCondition", "da/d14/a08582.html", "da/d14/a08582" ],
-    [ "GameEventQuestToEventConditionNum", "d1/dfe/a08586.html", "d1/dfe/a08586" ],
-    [ "GameEventData", "d2/d80/a08590.html", "d2/d80/a08590" ],
-    [ "ModelEquip", "d8/dc2/a08594.html", "d8/dc2/a08594" ],
-    [ "NPCVendorEntry", "d4/d46/a08598.html", "d4/d46/a08598" ],
-    [ "GameEventMgr", "d1/dab/a08602.html", "d1/dab/a08602" ],
+    [ "GameEventFinishCondition", "d1/dfe/a08586.html", "d1/dfe/a08586" ],
+    [ "GameEventQuestToEventConditionNum", "d2/d80/a08590.html", "d2/d80/a08590" ],
+    [ "GameEventData", "d8/dc2/a08594.html", "d8/dc2/a08594" ],
+    [ "ModelEquip", "d4/d46/a08598.html", "d4/d46/a08598" ],
+    [ "NPCVendorEntry", "d1/dab/a08602.html", "d1/dab/a08602" ],
+    [ "GameEventMgr", "dc/dd9/a08606.html", "dc/dd9/a08606" ],
     [ "max_ge_check_delay", "d0/de4/a03308.html#adaa73d920934a951856f7ce003ce2342", null ],
     [ "sGameEventMgr", "d0/de4/a03308.html#a3c1c916d94272dfe845b9cc5e8fc292a", null ],
     [ "GameEventConditionMap", "d0/de4/a03308.html#ac4262be385ac879bb433e00533d835c0", null ],

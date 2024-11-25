@@ -1,6 +1,6 @@
 var a15042 =
 [
-    [ "npc_troll_volunteerAI", "de/da5/a15046.html", "de/da5/a15046" ],
-    [ "npc_troll_volunteer", "db/dbf/a15042.html#a3c5eb7108dc0480e07b77eceb01cd18a", null ],
-    [ "GetAI", "db/dbf/a15042.html#aba0208b0910ace75686941c462ecca56", null ]
+    [ "npc_tiger_matriarch_creditAI", "db/dbf/a15042.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
+    [ "UpdateAI", "db/dbf/a15042.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
+    [ "events", "db/dbf/a15042.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
 ];

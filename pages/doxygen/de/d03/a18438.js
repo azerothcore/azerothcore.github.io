@@ -1,6 +1,6 @@
 var a18438 =
 [
-    [ "npc_icc_nerubar_broodkeeperAI", "dc/d40/a18442.html", "dc/d40/a18442" ],
-    [ "npc_icc_nerubar_broodkeeper", "de/d03/a18438.html#adf9c3bfb444fed50420c2e780b373f34", null ],
-    [ "GetAI", "de/d03/a18438.html#ad12186da36f7bbf99275a746bc874bfc", null ]
+    [ "npc_icc_vengeful_fleshreaperAI", "dc/d40/a18442.html", "dc/d40/a18442" ],
+    [ "npc_icc_vengeful_fleshreaper", "de/d03/a18438.html#aa95ec1e021f3d123e5a95c356765ac36", null ],
+    [ "GetAI", "de/d03/a18438.html#abf1903616dbf52718313c8b404b504a5", null ]
 ];

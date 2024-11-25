@@ -1,8 +1,8 @@
 var a25398 =
 [
-    [ "OnRemove", "d1/d3e/a25398.html#a645e869079e711a87f1a957b42a35e98", null ],
-    [ "OnStackChange", "d1/d3e/a25398.html#adea8a4a7140e2f9fd4a44ef2a7b4d85b", null ],
-    [ "PrepareAuraScript", "d1/d3e/a25398.html#a5f9e9d07879705917e1cd261808f0a8f", null ],
-    [ "Register", "d1/d3e/a25398.html#ac86068a892255e38244c487a7456cd9f", null ],
-    [ "Validate", "d1/d3e/a25398.html#a74cb62725d939000a1c4ab32b4f4335f", null ]
+    [ "HandleDummy", "d1/d3e/a25398.html#a3db6982f1162ac6b03771a0e7e432e6d", null ],
+    [ "Load", "d1/d3e/a25398.html#a9671be7920dfd3bde2033f0ae43259b0", null ],
+    [ "PrepareSpellScript", "d1/d3e/a25398.html#ad50c9141d40b7089fd24a8657d496a8d", null ],
+    [ "Register", "d1/d3e/a25398.html#a249a857b1cf5b0c3be6018cb233c75d1", null ],
+    [ "Validate", "d1/d3e/a25398.html#ac209048bd5688417c391c2c9b8a72d8b", null ]
 ];

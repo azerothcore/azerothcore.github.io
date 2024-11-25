@@ -1,9 +1,6 @@
 var a13318 =
 [
-    [ "npc_marzon_silent_bladeAI", "da/d9b/a13318.html#a9f29c3b56e26421dabc2c95b8cd0407e", null ],
-    [ "EnterEvadeMode", "da/d9b/a13318.html#a0b42596550d045f5ca0096ceee80c0ac", null ],
-    [ "JustEngagedWith", "da/d9b/a13318.html#a116b3458f342811e378713e6a67f76a6", null ],
-    [ "MovementInform", "da/d9b/a13318.html#a32201d45f0c19212becb6319a48366f8", null ],
-    [ "Reset", "da/d9b/a13318.html#a51c2b16c767ce2922564dc9e4048e089", null ],
-    [ "UpdateAI", "da/d9b/a13318.html#aa6686399b41d32429d530dcc2ec41185", null ]
+    [ "npc_lord_gregor_lescovarAI", "d5/dac/a13322.html", "d5/dac/a13322" ],
+    [ "npc_lord_gregor_lescovar", "da/d9b/a13318.html#a6164425b7bb6bc8aa95a6665b7d1c55c", null ],
+    [ "GetAI", "da/d9b/a13318.html#a4cf39729bb687c7db3538575a799283e", null ]
 ];

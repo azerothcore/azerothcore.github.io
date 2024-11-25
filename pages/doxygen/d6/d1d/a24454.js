@@ -1,6 +1,6 @@
 var a24454 =
 [
-    [ "HandleKnockBack", "d6/d1d/a24454.html#ae50d143953074b83183482770046e131", null ],
-    [ "PrepareSpellScript", "d6/d1d/a24454.html#a73666b297ef8bbfd490fee6075b06b3a", null ],
-    [ "Register", "d6/d1d/a24454.html#a035df6b2e29aa0d2b5558e1cfef96ead", null ]
+    [ "CheckProc", "d6/d1d/a24454.html#a67f31710f6a3e843b9d3539710100898", null ],
+    [ "PrepareAuraScript", "d6/d1d/a24454.html#ad59ef816bd24f6215cc853386859dbb4", null ],
+    [ "Register", "d6/d1d/a24454.html#af499437b1af535488792f44c18ad9bf7", null ]
 ];

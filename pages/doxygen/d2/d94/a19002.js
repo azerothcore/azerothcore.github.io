@@ -1,13 +1,23 @@
 var a19002 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d2/d94/a19002.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "d2/d94/a19002.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "d2/d94/a19002.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "d2/d94/a19002.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "d2/d94/a19002.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "d2/d94/a19002.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "d2/d94/a19002.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "d2/d94/a19002.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "d2/d94/a19002.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "d2/d94/a19002.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "boss_uromAI", "d2/d94/a19002.html#abeb96b1a52d3daf6d8df91a4ce96dfa8", null ],
+    [ "AttackStart", "d2/d94/a19002.html#ab9f197acf29e3616ef121d6c06573ccd", null ],
+    [ "EnterEvadeMode", "d2/d94/a19002.html#aaf668ef4af475ec259e909567fda5d66", null ],
+    [ "GetPhaseByCurrentPosition", "d2/d94/a19002.html#ab389d9d13a4a2fcca0498b1313093c17", null ],
+    [ "JustDied", "d2/d94/a19002.html#a2e675e9df2dbe084b27ee81a8e33ee70", null ],
+    [ "JustEngagedWith", "d2/d94/a19002.html#a02dbc09934058463d93b88268c70ca7c", null ],
+    [ "JustSummoned", "d2/d94/a19002.html#ad298bdd2619770af73265b10e77f1190", null ],
+    [ "KilledUnit", "d2/d94/a19002.html#abb34f62f4e4a7f88909b1293163b8c8e", null ],
+    [ "LeaveCombat", "d2/d94/a19002.html#adbc7a01adc7dd95894f3d175677353e3", null ],
+    [ "MoveInLineOfSight", "d2/d94/a19002.html#ad195384e0216075b7cae67875a0d7284", null ],
+    [ "Reset", "d2/d94/a19002.html#a6b8817aec3aacbedbb290c178f5b9eb0", null ],
+    [ "SpellHit", "d2/d94/a19002.html#a669ede4aef5ca1da7bcca867d7231c35", null ],
+    [ "UpdateAI", "d2/d94/a19002.html#a037de8c5598890701fcef021abd14c71", null ],
+    [ "events", "d2/d94/a19002.html#a97732ed404611bee7168e1f04722426c", null ],
+    [ "lock", "d2/d94/a19002.html#a9f8635cb44dd5ac3b148c69890cfb38f", null ],
+    [ "pInstance", "d2/d94/a19002.html#ab4ef43ca30ccf83c81245db164288794", null ],
+    [ "releaseLockTimer", "d2/d94/a19002.html#ab96273a14e3cec773d8fe79ca774ec52", null ],
+    [ "x", "d2/d94/a19002.html#a8993238ebdb4b2cc2cb92e75f705d465", null ],
+    [ "y", "d2/d94/a19002.html#ae4948d320ec32a56f514f8f01061c524", null ],
+    [ "z", "d2/d94/a19002.html#a7bd99156fdc38c22d43e46da8509e8c7", null ]
 ];

@@ -1,12 +1,8 @@
 var a22298 =
 [
-    [ "boss_anzu", "da/d26/a22298.html#aef8c5c57afa95936d8c2809fa1257799", null ],
-    [ "JustEngagedWith", "da/d26/a22298.html#a2384a1ea128ad5a43d3b8fb36fe39aba", null ],
-    [ "Reset", "da/d26/a22298.html#a61c75d6d96aa5cfb41e87faa74ec2fa5", null ],
-    [ "SummonBroods", "da/d26/a22298.html#a7f3f8868a5648bdeccd03d08203e4cf1", null ],
-    [ "SummonedCreatureDies", "da/d26/a22298.html#a2e35df609db069c8d31afffabcfead34", null ],
-    [ "SummonSpirits", "da/d26/a22298.html#a23e03d1718fba49a3bd57609abb77c6a", null ],
-    [ "UpdateAI", "da/d26/a22298.html#a06373460d454bfaf8db793e591cc0abd", null ],
-    [ "AnzuSpiritPos", "da/d26/a22298.html#a64e42ce8856b9d10c7f24fefc0c1e0b2", null ],
-    [ "talkTimer", "da/d26/a22298.html#a2afae53534d9e777c90d09456f834b5d", null ]
+    [ "FilterTargets", "da/d26/a22298.html#a9e0a72530a8dc764269e8df6d9d1ed3d", null ],
+    [ "HandleDummyHitTarget", "da/d26/a22298.html#ae892090a9bd48aa447224c9f96801d37", null ],
+    [ "PrepareSpellScript", "da/d26/a22298.html#af08ab4fcc3705b07e89ed222794e70e9", null ],
+    [ "Register", "da/d26/a22298.html#aeb1aad59b6b4767a63660c5fe0277392", null ],
+    [ "Validate", "da/d26/a22298.html#a5a87a7c18a55caf5288b8ca8bbd2f361", null ]
 ];

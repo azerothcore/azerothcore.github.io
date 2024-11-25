@@ -1,8 +1,6 @@
 var a26250 =
 [
-    [ "HandleRootRemove", "df/d51/a26250.html#a9678ce2254825b67eb7a16312e960ba9", null ],
-    [ "HandleSnareRemove", "df/d51/a26250.html#a6a0716f500b3926e66c62a038a1e03d3", null ],
-    [ "PrepareSpellScript", "df/d51/a26250.html#ab9dc5e2516e269b968cb995040bc00a0", null ],
-    [ "Register", "df/d51/a26250.html#a119675dccea898932ca090577022b6ba", null ],
-    [ "Validate", "df/d51/a26250.html#a1a90cf531ba1131952161ff9d10b2cb7", null ]
+    [ "HandleAfterCast", "df/d51/a26250.html#a6f21938e84e45848fad74a16f1f52c48", null ],
+    [ "PrepareSpellScript", "df/d51/a26250.html#ac7abeee05c117595696faf1ec55e11bd", null ],
+    [ "Register", "df/d51/a26250.html#a9e90a6fa037627ac682f4ea050f557de", null ]
 ];

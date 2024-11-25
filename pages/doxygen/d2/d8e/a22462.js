@@ -1,7 +1,10 @@
 var a22462 =
 [
-    [ "OnPeriodic", "d2/d8e/a22462.html#a165d47b116b0a53e37b05f664960e6ec", null ],
-    [ "PrepareAuraScript", "d2/d8e/a22462.html#ac46af3566c5c03622f8146f1bb6f0ac7", null ],
-    [ "Register", "d2/d8e/a22462.html#a1ac8741542c921f5e4c42b0a9a02ed3c", null ],
-    [ "Validate", "d2/d8e/a22462.html#adf76f9183dd9c5e0f00c2115aaafb119", null ]
+    [ "boss_gathios_the_shatterer", "d2/d8e/a22462.html#a34708f52c610e567c5acf62962e90d4e", null ],
+    [ "JustEngagedWith", "d2/d8e/a22462.html#a98ad625cf2ac9b1d8d9b41001ba4fb34", null ],
+    [ "SelectCouncilMember", "d2/d8e/a22462.html#a3d33c1a29b7ba2feb22ea9d3941b39ed", null ],
+    [ "UpdateAI", "d2/d8e/a22462.html#a1541f1efd3978a4c91b80e411aec6442", null ],
+    [ "_toggleAura", "d2/d8e/a22462.html#aa983e2d9018a9e53ee29840781f47c33", null ],
+    [ "_toggleBlessing", "d2/d8e/a22462.html#a52e9b7d3b1af46d3ecb6ca9432ee3957", null ],
+    [ "_toggleSeal", "d2/d8e/a22462.html#ad7e6f9e03968e2abac570d0c7a5de9e2", null ]
 ];

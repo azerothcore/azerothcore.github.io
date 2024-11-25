@@ -161,7 +161,7 @@ Functions</h2></td></tr>
 <tr class="separator:a95d9a0c5ba0d54645670ba51c16ed33c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d6d/a06086.html">AISpellInfoType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1d/a02906.html#a1ed41ad074263f6c0c63f38b7f51414b">GetAISpellInfo</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i)</td></tr>
 <tr class="separator:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aad76768c8aee9ce3ac24657437adb0de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1d/a02906.html#aad76768c8aee9ce3ac24657437adb0de">InstanceHasScript</a> (<a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const *obj, char const *scriptName)</td></tr>
+<tr class="memitem:aad76768c8aee9ce3ac24657437adb0de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d1d/a02906.html#aad76768c8aee9ce3ac24657437adb0de">InstanceHasScript</a> (<a class="el" href="../../de/d75/a08178.html">WorldObject</a> const *obj, char const *scriptName)</td></tr>
 <tr class="separator:aad76768c8aee9ce3ac24657437adb0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6650ccba23715eea545340cd3e712233"><td class="memTemplParams" colspan="2">template&lt;class AI , class T &gt; </td></tr>
 <tr class="memitem:a6650ccba23715eea545340cd3e712233"><td class="memTemplItemLeft" align="right" valign="top">AI *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d6/d1d/a02906.html#a6650ccba23715eea545340cd3e712233">GetInstanceAI</a> (T *obj, char const *scriptName)</td></tr>
@@ -324,7 +324,7 @@ template&lt;class AI , class T &gt; </div>
         <tr>
           <td class="memname">bool InstanceHasScript </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/d4c/a08174.html">WorldObject</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d75/a08178.html">WorldObject</a> const *&#160;</td>
           <td class="paramname"><em>obj</em>, </td>
         </tr>
         <tr>
@@ -341,15 +341,15 @@ template&lt;class AI , class T &gt; </div>
       </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  843</span>{</div>
-<div class="line"><span class="lineno">  844</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../df/d53/a09542.html">InstanceMap</a>* instance = obj-&gt;GetMap()-&gt;<a class="code hl_function" href="../../d7/dc0/a09538.html#aca5af60e4ebade05b3673dd341eafd4f">ToInstanceMap</a>())</div>
+<div class="line"><span class="lineno">  844</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/d08/a09546.html">InstanceMap</a>* instance = obj-&gt;GetMap()-&gt;<a class="code hl_function" href="../../df/d53/a09542.html#aca5af60e4ebade05b3673dd341eafd4f">ToInstanceMap</a>())</div>
 <div class="line"><span class="lineno">  845</span>    {</div>
 <div class="line"><span class="lineno">  846</span>        <span class="keywordflow">return</span> instance-&gt;GetScriptName() == scriptName;</div>
 <div class="line"><span class="lineno">  847</span>    }</div>
 <div class="line"><span class="lineno">  848</span> </div>
 <div class="line"><span class="lineno">  849</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  850</span>}</div>
-<div class="ttc" id="aa09538_html_aca5af60e4ebade05b3673dd341eafd4f"><div class="ttname"><a href="../../d7/dc0/a09538.html#aca5af60e4ebade05b3673dd341eafd4f">Map::ToInstanceMap</a></div><div class="ttdeci">InstanceMap * ToInstanceMap()</div><div class="ttdef"><b>Definition:</b> Map.h:544</div></div>
-<div class="ttc" id="aa09542_html"><div class="ttname"><a href="../../df/d53/a09542.html">InstanceMap</a></div><div class="ttdef"><b>Definition:</b> Map.h:817</div></div>
+<div class="ttc" id="aa09542_html_aca5af60e4ebade05b3673dd341eafd4f"><div class="ttname"><a href="../../df/d53/a09542.html#aca5af60e4ebade05b3673dd341eafd4f">Map::ToInstanceMap</a></div><div class="ttdeci">InstanceMap * ToInstanceMap()</div><div class="ttdef"><b>Definition:</b> Map.h:544</div></div>
+<div class="ttc" id="aa09546_html"><div class="ttname"><a href="../../d4/d08/a09546.html">InstanceMap</a></div><div class="ttdef"><b>Definition:</b> Map.h:817</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00531">WorldObject::GetMap()</a>, and <a class="el" href="../../#l00544">Map::ToInstanceMap()</a>.</p>
 
@@ -416,7 +416,7 @@ template&lt;typename First , typename Second , typename... Rest&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../d6/d1d/a02906.html">CreatureAIImpl.h</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:40:37 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:41:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

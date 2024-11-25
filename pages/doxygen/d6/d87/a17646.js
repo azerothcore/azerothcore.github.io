@@ -1,10 +1,25 @@
 var a17646 =
 [
-    [ "CountTargets", "d6/d87/a17646.html#a042c3f2ee73533b397a2d697d1da6563", null ],
-    [ "HandleDummy", "d6/d87/a17646.html#ab314680d5349c0c3e449694b92ab7311", null ],
-    [ "Load", "d6/d87/a17646.html#a534e9f5ee9aa29603cfc205c2c2d580f", null ],
-    [ "PrepareSpellScript", "d6/d87/a17646.html#a8b831c01cd9fd997279f6a81170786de", null ],
-    [ "Register", "d6/d87/a17646.html#ab0d87ba23eb252075cb0779b06813a31", null ],
-    [ "SelectDest", "d6/d87/a17646.html#a6061486d0067af51c8ef079224ea63f1", null ],
-    [ "_targetCount", "d6/d87/a17646.html#a58f839370a885c450e6742cbb3116784", null ]
+    [ "boss_sindragosaAI", "d6/d87/a17646.html#ab02e42a863496b27a8f2b745085e30ea", null ],
+    [ "CanAIAttack", "d6/d87/a17646.html#aea65b981e8b9461750a53fca3919c27f", null ],
+    [ "DamageTaken", "d6/d87/a17646.html#ab4bc9869ad6074a1671b0b18f681a913", null ],
+    [ "DoAction", "d6/d87/a17646.html#a93859d74931e5b810e3c48e492103919", null ],
+    [ "EnterEvadeMode", "d6/d87/a17646.html#acb1e677b2347e0464df832e1d86cd3b5", null ],
+    [ "GetData", "d6/d87/a17646.html#abbdaf0b2fe76e6f79126d15a1cecca2a", null ],
+    [ "JustDied", "d6/d87/a17646.html#a0a41a38ba0577f9b4f10bd1143a1e615", null ],
+    [ "JustEngagedWith", "d6/d87/a17646.html#af0151f1cb6776a3a180b4e24332c8489", null ],
+    [ "JustSummoned", "d6/d87/a17646.html#ac3d9b66097202719781ede743fabc1ea", null ],
+    [ "KilledUnit", "d6/d87/a17646.html#a27f5953a9cf68ec10a63622cf0f33d9b", null ],
+    [ "MoveInLineOfSight", "d6/d87/a17646.html#a17d93e98d5c8f91e8009674a4117bd39", null ],
+    [ "MovementInform", "d6/d87/a17646.html#abff1b505e9d2d6c826f814b2d43409af", null ],
+    [ "Reset", "d6/d87/a17646.html#a5350ca3791fb777959de068933d121ba", null ],
+    [ "SpellHitTarget", "d6/d87/a17646.html#ad2d10d5aeebea48809a61eee293ff9da", null ],
+    [ "SummonedCreatureDespawn", "d6/d87/a17646.html#a5245dbb8a3065f2da4815be744dce357", null ],
+    [ "UpdateAI", "d6/d87/a17646.html#a0e92f831d702eda65309787c651f221b", null ],
+    [ "_bombCount", "d6/d87/a17646.html#a8ef89884c8d1b272d28dd7a6d2048964", null ],
+    [ "_isBelow20Pct", "d6/d87/a17646.html#a87663e3f6d1c87c9def8eb1852adc029", null ],
+    [ "_isInAirPhase", "d6/d87/a17646.html#addc25d8f87dd9fd627c0bde5944c037a", null ],
+    [ "_isLanding", "d6/d87/a17646.html#a3de52bd0571eab9df13809ff5a4b891c", null ],
+    [ "_isThirdPhase", "d6/d87/a17646.html#a741a811fd9832fb4275c51d2272d98f0", null ],
+    [ "_mysticBuffetStack", "d6/d87/a17646.html#a9cfaa3b61da9a7aad88c2d2a537f0821", null ]
 ];

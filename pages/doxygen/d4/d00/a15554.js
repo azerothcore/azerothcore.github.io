@@ -1,6 +1,7 @@
 var a15554 =
 [
-    [ "boss_sartharionAI", "d8/d80/a15558.html", "d8/d80/a15558" ],
-    [ "boss_sartharion", "d4/d00/a15554.html#a6605aee69372d08fba8f4b4523896588", null ],
-    [ "GetAI", "d4/d00/a15554.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
+    [ "instance_azjol_nerub_InstanceScript", "d4/d00/a15554.html#a886ed4c1485fdedcc176341210eee31a", null ],
+    [ "OnCreatureCreate", "d4/d00/a15554.html#a7a99d985a4b465ae87c04211a7a83a77", null ],
+    [ "OnGameObjectCreate", "d4/d00/a15554.html#a1ef3dc88400345998d03f3c993b9a181", null ],
+    [ "OnGameObjectRemove", "d4/d00/a15554.html#a3a2776b83272d81de9ddcb0c90ac881c", null ]
 ];

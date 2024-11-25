@@ -1,6 +1,6 @@
 var a16950 =
 [
-    [ "OnAbsorb", "d1/da4/a16950.html#aa6582457cd0502ca263433d04b40b64f", null ],
-    [ "PrepareAuraScript", "d1/da4/a16950.html#a0b6916dd3f6172e59edf477f203c85b1", null ],
-    [ "Register", "d1/da4/a16950.html#a945ec4037120992e8a2986e7fd2e2c96", null ]
+    [ "ModAuraStack", "d1/da4/a16950.html#a7535ef148e047e32a5f7a1944585e396", null ],
+    [ "PrepareSpellScript", "d1/da4/a16950.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
+    [ "Register", "d1/da4/a16950.html#ab44b362197e74b98b3ffeb98eff52742", null ]
 ];

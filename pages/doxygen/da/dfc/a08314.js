@@ -1,5 +1,5 @@
 var a08314 =
 [
-    [ "PlayerLevelInfo", "da/dfc/a08314.html#af0d716577a3645fe1cef95968382ec80", null ],
-    [ "stats", "da/dfc/a08314.html#a796af7d07604474adebf5a6f3518ca30", null ]
+    [ "PlayerClassInfo", "da/dfc/a08314.html#a6a0a6db24e144593356e0505946e8f06", null ],
+    [ "levelInfo", "da/dfc/a08314.html#aa234b353361ef0017ec974ca4c8e86f1", null ]
 ];

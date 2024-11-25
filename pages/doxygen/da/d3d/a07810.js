@@ -1,5 +1,5 @@
 var a07810 =
 [
-    [ "BoxText", "da/d3d/a07810.html#a00882f98df67222d396ae9992084a1cd", null ],
-    [ "OptionText", "da/d3d/a07810.html#ab69f2dac8061cf8f6762a683243934fa", null ]
+    [ "Name", "da/d3d/a07810.html#aa971d38e5169f2b7b610cf6cf0aec928", null ],
+    [ "Title", "da/d3d/a07810.html#a344cbaef4846d4c9c76e1d783dd2b4fc", null ]
 ];

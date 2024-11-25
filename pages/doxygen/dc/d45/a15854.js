@@ -1,6 +1,6 @@
 var a15854 =
 [
-    [ "FilterTargets", "dc/d45/a15854.html#a40c4d2b624fe87e21263d1b137994cc3", null ],
-    [ "PrepareSpellScript", "dc/d45/a15854.html#a697a52cbc50eafd2b0377621afb01557", null ],
-    [ "Register", "dc/d45/a15854.html#a3d523f92cb8123f30cb068cbac39a9c3", null ]
+    [ "npc_argent_soldierAI", "d3/d01/a15858.html", "d3/d01/a15858" ],
+    [ "npc_argent_soldier", "dc/d45/a15854.html#aa308b4cf1df6edf0666d06e0ddab0797", null ],
+    [ "GetAI", "dc/d45/a15854.html#adfeed3d533104b9617dfbb06925a3d44", null ]
 ];

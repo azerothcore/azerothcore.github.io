@@ -1,8 +1,6 @@
 var a13102 =
 [
-    [ "HandleApply", "dc/d4a/a13102.html#a717e3428afd59fa3a5e9916887d88273", null ],
-    [ "HandleRemove", "dc/d4a/a13102.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
-    [ "PrepareAuraScript", "dc/d4a/a13102.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
-    [ "Register", "dc/d4a/a13102.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
-    [ "Validate", "dc/d4a/a13102.html#a393a46618a4e1928b8149e04b4823726", null ]
+    [ "npc_singularity", "dc/d4a/a13102.html#a4ed61ec65ed94d8d5e42ae7ff9ecd41d", null ],
+    [ "Reset", "dc/d4a/a13102.html#ae81c2e5865beb00df8683fa0fb6e7872", null ],
+    [ "UpdateAI", "dc/d4a/a13102.html#ad019d234ca9ee719612d59e5bb0b53ea", null ]
 ];

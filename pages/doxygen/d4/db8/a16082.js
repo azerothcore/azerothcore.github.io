@@ -1,6 +1,7 @@
 var a16082 =
 [
-    [ "npc_toc_enh_shamanAI", "de/db7/a16086.html", "de/db7/a16086" ],
-    [ "npc_toc_enh_shaman", "d4/db8/a16082.html#ac328b63a988d2cd8640237b250c338a8", null ],
-    [ "GetAI", "d4/db8/a16082.html#a4501c9289a06750d8f153f89565b12f3", null ]
+    [ "npc_toc_dkAI", "d4/db8/a16082.html#aa01bf528b10ed7bbdfe9b03694e51845", null ],
+    [ "myCanCast", "d4/db8/a16082.html#a54dee5d9b0f17bad21e8c1e275f0b222", null ],
+    [ "UpdateAI", "d4/db8/a16082.html#ab4f4b11e2b250fb24de6c069c5e38208", null ],
+    [ "events", "d4/db8/a16082.html#a293d5fca2940432c4eea57c5de5a1fdc", null ]
 ];

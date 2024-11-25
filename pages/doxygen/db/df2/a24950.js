@@ -1,7 +1,7 @@
 var a24950 =
 [
-    [ "HandleDamage", "db/df2/a24950.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
-    [ "PrepareSpellScript", "db/df2/a24950.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
-    [ "Register", "db/df2/a24950.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
-    [ "Validate", "db/df2/a24950.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
+    [ "HandleScript", "db/df2/a24950.html#a1097b1548b2785ac7ffd916ee5531fe9", null ],
+    [ "PrepareSpellScript", "db/df2/a24950.html#a47dc9761bf10b1290963ff7eebe0121a", null ],
+    [ "Register", "db/df2/a24950.html#a984b2af5268fbf294a0292502b8ddb44", null ],
+    [ "Validate", "db/df2/a24950.html#a0cfbc2dcb836e7c37dd03cb3d0728621", null ]
 ];

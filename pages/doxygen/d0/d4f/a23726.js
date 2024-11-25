@@ -1,14 +1,15 @@
 var a23726 =
 [
-    [ "npc_maghar_captiveAI", "d0/d4f/a23726.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
-    [ "JustDied", "d0/d4f/a23726.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
-    [ "JustEngagedWith", "d0/d4f/a23726.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
-    [ "JustSummoned", "d0/d4f/a23726.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
-    [ "Reset", "d0/d4f/a23726.html#abebcdcb102f8d338ae0b792708940cd7", null ],
-    [ "SpellHitTarget", "d0/d4f/a23726.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
-    [ "UpdateAI", "d0/d4f/a23726.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
-    [ "WaypointReached", "d0/d4f/a23726.html#abfbba8942df57e974ab24ad693c16e70", null ],
-    [ "ChainLightningTimer", "d0/d4f/a23726.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
-    [ "FrostShockTimer", "d0/d4f/a23726.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
-    [ "HealTimer", "d0/d4f/a23726.html#a31613adba706f3b5f948f2f7c4222038", null ]
+    [ "npc_kurenai_captiveAI", "d0/d4f/a23726.html#ab8771e4c2cefe3d5dc3e07df2eeb7b96", null ],
+    [ "JustDied", "d0/d4f/a23726.html#a0778846d7d67f5d29ed3f7ef02f912f4", null ],
+    [ "JustEngagedWith", "d0/d4f/a23726.html#a9e36749629568d7917353bee51be08b8", null ],
+    [ "JustSummoned", "d0/d4f/a23726.html#a19a5190b72f78ee698d5fa2df6ac9b4b", null ],
+    [ "Reset", "d0/d4f/a23726.html#aea5af2579f9be13620f15b82b5cc8436", null ],
+    [ "SetGUID", "d0/d4f/a23726.html#a20edaf98031d7683d07b325c0b89ff69", null ],
+    [ "SpellHitTarget", "d0/d4f/a23726.html#a1f0cb1afc62b1b29a71cc04a21c456f0", null ],
+    [ "UpdateEscortAI", "d0/d4f/a23726.html#a3d0dfb0df190fe1b32cacb039e611dc3", null ],
+    [ "WaypointReached", "d0/d4f/a23726.html#a584bfc3a62f9d856e6d918d8f8694b3e", null ],
+    [ "ChainLightningTimer", "d0/d4f/a23726.html#a9aede5daebe0cf90ca2091a052c34282", null ],
+    [ "FrostShockTimer", "d0/d4f/a23726.html#a224c2df273f8d032e4302958879ce4d5", null ],
+    [ "HealTimer", "d0/d4f/a23726.html#a5a8d15bf6d2fd7a04818ba4535195922", null ]
 ];

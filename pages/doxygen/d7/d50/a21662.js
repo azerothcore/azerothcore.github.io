@@ -1,7 +1,6 @@
 var a21662 =
 [
-    [ "npc_Apothecary_HanesAI", "d0/de0/a21666.html", "d0/de0/a21666" ],
-    [ "npc_apothecary_hanes", "d7/d50/a21662.html#a90480bee491e8fe1c9e7b2c71aac28c8", null ],
-    [ "GetAI", "d7/d50/a21662.html#a7f3f86efb9a6146b86aa5d882b751e1f", null ],
-    [ "OnQuestAccept", "d7/d50/a21662.html#ae116e49b0e8865f9b5735e72c8c850fd", null ]
+    [ "npc_razael_and_lyana", "d7/d50/a21662.html#aec7257a1136a3580e2b4542e032429d6", null ],
+    [ "OnGossipHello", "d7/d50/a21662.html#a9c9085db92853d5275c12e804a68b0fc", null ],
+    [ "OnGossipSelect", "d7/d50/a21662.html#a407d8344280e8e38efb3991fda1d52cd", null ]
 ];

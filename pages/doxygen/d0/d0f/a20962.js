@@ -1,6 +1,6 @@
 var a20962 =
 [
-    [ "boss_erekemAI", "de/dbb/a20966.html", "de/dbb/a20966" ],
-    [ "boss_erekem", "d0/d0f/a20962.html#ab618380bd8f8c199ca85f1fe8a67db4d", null ],
-    [ "GetAI", "d0/d0f/a20962.html#aa472a21bf4a855ba75bc7de05cce494c", null ]
+    [ "boss_ichoronAI", "de/dbb/a20966.html", "de/dbb/a20966" ],
+    [ "boss_ichoron", "d0/d0f/a20962.html#ad4390da77a130edaf050d0bef3926882", null ],
+    [ "GetAI", "d0/d0f/a20962.html#a68051088dc2d2c738b042e2df0436b28", null ]
 ];

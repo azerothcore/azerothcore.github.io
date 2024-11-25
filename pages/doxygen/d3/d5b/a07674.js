@@ -1,7 +1,5 @@
 var a07674 =
 [
-    [ "global_sequence", "d3/d5b/a07674.html#afbd5f7baa1b1daf4dda4fe0cf503a97b", null ],
-    [ "interpolation_type", "d3/d5b/a07674.html#ac3315ce2b2261a6fd23b0c72ea34aa5e", null ],
-    [ "timestamps", "d3/d5b/a07674.html#a8bf7fdd2652275ae553b921196e68d1c", null ],
-    [ "values", "d3/d5b/a07674.html#a9d4ea5dfc36b34541e5ba7350df645e1", null ]
+    [ "number", "d3/d5b/a07674.html#af111e542d7a276e27d2b14757293bc42", null ],
+    [ "offset_elements", "d3/d5b/a07674.html#ad633b2e9afc82762c6b43675844f8fea", null ]
 ];

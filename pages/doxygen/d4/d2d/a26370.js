@@ -1,6 +1,7 @@
 var a26370 =
 [
-    [ "HandleKnockBack", "d4/d2d/a26370.html#abad9f9293260a3e99be98b43aabb321b", null ],
-    [ "PrepareSpellScript", "d4/d2d/a26370.html#a65787b78165631898458264e6ee310f4", null ],
-    [ "Register", "d4/d2d/a26370.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
+    [ "HandleProc", "d4/d2d/a26370.html#a85df8d4086a980d2b0a441097a909143", null ],
+    [ "PrepareAuraScript", "d4/d2d/a26370.html#a4576f3d5af2d9265fa173f66d68ed512", null ],
+    [ "Register", "d4/d2d/a26370.html#ab5308a36bc3b878a2913a89a84051ad7", null ],
+    [ "Validate", "d4/d2d/a26370.html#a760a018b8410233e09065d94abeeb1ff", null ]
 ];

@@ -1,7 +1,7 @@
 var a15774 =
 [
-    [ "HandleDummy", "d5/d81/a15774.html#a96b430cb0546fb599da22cd675660187", null ],
-    [ "PrepareSpellScript", "d5/d81/a15774.html#ad0330cb78a330f05c18f33375f231fbc", null ],
-    [ "Register", "d5/d81/a15774.html#a70a36683a235dec6044a8a32f20c606c", null ],
-    [ "Validate", "d5/d81/a15774.html#affa7ccf869e98eacd3a153cc645d704e", null ]
+    [ "TwilightCutterSelector", "d5/d81/a15774.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
+    [ "operator()", "d5/d81/a15774.html#a6374425df156bdf202d53a2c73ef784c", null ],
+    [ "_caster", "d5/d81/a15774.html#a784c95ef6472e711f4200f194222d179", null ],
+    [ "_cutterCaster", "d5/d81/a15774.html#a7f713777a36a8d127c2865e4610b1288", null ]
 ];

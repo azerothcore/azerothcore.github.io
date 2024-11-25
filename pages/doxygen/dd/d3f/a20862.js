@@ -1,6 +1,11 @@
 var a20862 =
 [
-    [ "instance_utgarde_pinnacle_InstanceMapScript", "da/d1f/a20866.html", "da/d1f/a20866" ],
-    [ "instance_utgarde_pinnacle", "dd/d3f/a20862.html#a70c1528c9c1b0d830cc7af7debd5721b", null ],
-    [ "GetInstanceScript", "dd/d3f/a20862.html#a41bd06d5f42b09193c5f1b2bbb2323ac", null ]
+    [ "boss_archavonAI", "dd/d3f/a20862.html#a101518193c0fb6bbd6892362a6f09b9c", null ],
+    [ "AttackStart", "dd/d3f/a20862.html#ac9f82f61ee7fe945cb3fba23a69e704c", null ],
+    [ "JustDied", "dd/d3f/a20862.html#a3974065a80dedf3e673452e7f6f8e449", null ],
+    [ "JustEngagedWith", "dd/d3f/a20862.html#ace4a10f62eaa21ecd997ad1dbe15f3c8", null ],
+    [ "Reset", "dd/d3f/a20862.html#a7d101626f39947dd54b574491a5e6d72", null ],
+    [ "UpdateAI", "dd/d3f/a20862.html#a5abb4c2b4149172d2e7bf0d539237323", null ],
+    [ "events", "dd/d3f/a20862.html#a8d7fef6dfcdc5be20f0531c34b09fc13", null ],
+    [ "pInstance", "dd/d3f/a20862.html#ab51f09b76054d8bdb13f3c27396db87e", null ]
 ];

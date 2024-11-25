@@ -1,6 +1,7 @@
 var a20698 =
 [
-    [ "boss_kelesethAI", "d1/d64/a20702.html", "d1/d64/a20702" ],
-    [ "boss_keleseth", "df/d9d/a20698.html#aa80ba121af9092f3a7c2d24e3018d27f", null ],
-    [ "GetAI", "df/d9d/a20698.html#ac80a19a56a921e3be04a3bad1cb12912", null ]
+    [ "HandleEffectPeriodic", "df/d9d/a20698.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
+    [ "PrepareAuraScript", "df/d9d/a20698.html#a748cd347867557b5048d9ba0c112cd80", null ],
+    [ "Register", "df/d9d/a20698.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
+    [ "Validate", "df/d9d/a20698.html#afa86789ef14b1d06094705ba6cfb9205", null ]
 ];

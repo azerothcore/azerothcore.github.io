@@ -2,6 +2,7 @@ var a01823 =
 [
     [ "DataHeader", "d9/d88/a01823.html#a042491ef36459046f3866e90f15aae0d", null ],
     [ "NexusScriptName", "d9/d88/a01823.html#afdcad7f9a20767953bc82e6b885d1bee", null ],
+    [ "RegisterNexusCreatureAI", "d9/d88/a01823.html#a7a1a43e9bc07e3f45013d8f2eb42e72f", null ],
     [ "eTypes", "d9/d88/a01823.html#a31365a35c315c6cb485bcd31f5ba77fd", [
       [ "DATA_MAGUS_TELESTRA_EVENT", "d9/d88/a01823.html#a31365a35c315c6cb485bcd31f5ba77fda097adced7c95a2c9718c2c785bee7f83", null ],
       [ "DATA_ANOMALUS_EVENT", "d9/d88/a01823.html#a31365a35c315c6cb485bcd31f5ba77fdaaf86ee46d11b318ef5caffe5d123342a", null ],

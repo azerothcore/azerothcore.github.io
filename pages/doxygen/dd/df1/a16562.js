@@ -1,9 +1,6 @@
 var a16562 =
 [
-    [ "npc_hor_lumbering_abominationAI", "dd/df1/a16562.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "dd/df1/a16562.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "dd/df1/a16562.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "dd/df1/a16562.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "dd/df1/a16562.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "dd/df1/a16562.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "npc_hor_risen_witch_doctorAI", "dc/d05/a16566.html", "dc/d05/a16566" ],
+    [ "npc_hor_risen_witch_doctor", "dd/df1/a16562.html#add06a10c9b4342b136b5cab49338b095", null ],
+    [ "GetAI", "dd/df1/a16562.html#a055a8d29d8e6a58b92968ed1c39c1b1d", null ]
 ];

@@ -1,6 +1,8 @@
 var a13106 =
 [
-    [ "HandlePull", "d8/d6d/a13106.html#a5a43bb53d3c534054498f8366d617e5a", null ],
-    [ "PrepareSpellScript", "d8/d6d/a13106.html#aec00f82a35c8154e7d4c1f47c52d486f", null ],
-    [ "Register", "d8/d6d/a13106.html#a6da76afd5feaa0d60be70ff8469d78bc", null ]
+    [ "HandleApply", "d8/d6d/a13106.html#a9dce02909356193476e66586aee87f1d", null ],
+    [ "OnPeriodic", "d8/d6d/a13106.html#add4f000f81d5d4112719c6dd7464163c", null ],
+    [ "PrepareAuraScript", "d8/d6d/a13106.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
+    [ "Register", "d8/d6d/a13106.html#abc349f12f375b1f284eb78a363e8172a", null ],
+    [ "Validate", "d8/d6d/a13106.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
 ];

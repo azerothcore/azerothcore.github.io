@@ -1,6 +1,5 @@
 var a12634 =
 [
-    [ "HandleScriptEffect", "da/d0e/a12634.html#a430d6f41e8533cbade64ea46aaa9ec2e", null ],
-    [ "PrepareSpellScript", "da/d0e/a12634.html#ad110e0dba330acde845c47501256cf5d", null ],
-    [ "Register", "da/d0e/a12634.html#ab6971aa466055a1280cd258e26645157", null ]
+    [ "go_inconspicuous_mine_car", "da/d0e/a12634.html#a34e941a813079b55f66bea15cffe8f42", null ],
+    [ "OnGossipHello", "da/d0e/a12634.html#a256a8f766dd045613c0c7159db9f74e0", null ]
 ];

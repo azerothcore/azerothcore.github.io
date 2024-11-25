@@ -1,8 +1,22 @@
 var a15918 =
 [
-    [ "npc_announcer_toc5AI", "d3/d87/a15922.html", "d3/d87/a15922" ],
-    [ "npc_announcer_toc5", "d3/d6c/a15918.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
-    [ "GetAI", "d3/d6c/a15918.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
-    [ "OnGossipHello", "d3/d6c/a15918.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
-    [ "OnGossipSelect", "d3/d6c/a15918.html#a9017488c652fd75882db75914f4a2db2", null ]
+    [ "boss_grand_championAI", "d3/d6c/a15918.html#ab834a151bd87f60b3b3e15e4d96e033d", null ],
+    [ "AddCreatureAddonAuras", "d3/d6c/a15918.html#a9db34f31183caaeb4e64688256de5843", null ],
+    [ "DamageTaken", "d3/d6c/a15918.html#afdb1642dbeb250e897e2f9954e0fc810", null ],
+    [ "DoAction", "d3/d6c/a15918.html#a1bba80af4c24dc0fada7adbf640204d0", null ],
+    [ "EnterEvadeMode", "d3/d6c/a15918.html#af09ee00c4d023c61b6801daa44ae9f1c", null ],
+    [ "JustEngagedWith", "d3/d6c/a15918.html#a273b248eb7b8ffab709d393670cb8f72", null ],
+    [ "MovementInform", "d3/d6c/a15918.html#a228c0e4867afde4008cf7e12158b7e28", null ],
+    [ "Reset", "d3/d6c/a15918.html#a1a8d1674250a7fe75b418b812bc6dd93", null ],
+    [ "ScheduleAbilitiesEvents", "d3/d6c/a15918.html#a84dd10a0922577986ea0680c9bde9d41", null ],
+    [ "SetData", "d3/d6c/a15918.html#a33eb1620bc4b3b289706357d786fa56e", null ],
+    [ "SpellHit", "d3/d6c/a15918.html#a0a3eb3835e3997689cd40568b85bcae4", null ],
+    [ "UpdateAI", "d3/d6c/a15918.html#a9217801f076974ee5da5af19c43097b3", null ],
+    [ "WaypointReached", "d3/d6c/a15918.html#a6240088bec30b62a8ae223e0236959c7", null ],
+    [ "BossOrder", "d3/d6c/a15918.html#a4c6a17931fbfbab3609d70da53662676", null ],
+    [ "events", "d3/d6c/a15918.html#a786bfc8397062beb22412b0873dcb1f0", null ],
+    [ "MountPhase", "d3/d6c/a15918.html#a2a03cc604720f4952a11d72a54bd4437", null ],
+    [ "NewMountGUID", "d3/d6c/a15918.html#a06e384e12f998cd1165255199dec6371", null ],
+    [ "pInstance", "d3/d6c/a15918.html#ab5ec22b52675d28c18ffefe01295d57b", null ],
+    [ "UnitTargetGUID", "d3/d6c/a15918.html#a8cf4c40c8b991990fd77f0c36764d6d0", null ]
 ];

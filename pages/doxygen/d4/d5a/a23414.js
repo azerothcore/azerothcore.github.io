@@ -1,10 +1,9 @@
 var a23414 =
 [
-    [ "boss_thorngrin_the_tender", "d4/d5a/a23414.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "d4/d5a/a23414.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "d4/d5a/a23414.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "d4/d5a/a23414.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "d4/d5a/a23414.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "d4/d5a/a23414.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "d4/d5a/a23414.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "HandleEffectApply", "d4/d5a/a23414.html#ac9e030810cc1ffb3927943353bcbb764", null ],
+    [ "HandleEffectRemove", "d4/d5a/a23414.html#a2524bb4614fa62fb703a3d3cf0c25da0", null ],
+    [ "Load", "d4/d5a/a23414.html#a60f41c19f5104eef82048fd1e3416abd", null ],
+    [ "PrepareAuraScript", "d4/d5a/a23414.html#a277d9865108acafac4b1a42bc5b5714b", null ],
+    [ "Register", "d4/d5a/a23414.html#a5ffe5a8b3422382482f713ff6d8514b2", null ],
+    [ "_falconSet", "d4/d5a/a23414.html#a1a20f75d251936bff7a0777831d79140", null ]
 ];

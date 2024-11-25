@@ -1,6 +1,5 @@
 var a18894 =
 [
-    [ "instance_eye_of_eternity_InstanceMapScript", "db/dc5/a18898.html", "db/dc5/a18898" ],
-    [ "instance_eye_of_eternity", "d5/dc7/a18894.html#afcab4ba969d0423871a4e398627a323d", null ],
-    [ "GetInstanceScript", "d5/dc7/a18894.html#af51319609d355fe87a77a87eb697f434", null ]
+    [ "go_the_focusing_iris", "d5/dc7/a18894.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
+    [ "OnGossipHello", "d5/dc7/a18894.html#a7f3f1170713d63f912ca5732453a7e33", null ]
 ];

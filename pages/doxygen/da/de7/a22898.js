@@ -1,6 +1,6 @@
 var a22898 =
 [
-    [ "instance_serpentshrine_cavern_InstanceMapScript", "d5/dae/a22902.html", "d5/dae/a22902" ],
-    [ "instance_serpent_shrine", "da/de7/a22898.html#aac4fc7113307805138ba4ce4a9adff09", null ],
-    [ "GetInstanceScript", "da/de7/a22898.html#aa81add2f4aeb8b2084bcc81c05b606c7", null ]
+    [ "HandleApplyAura", "da/de7/a22898.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "da/de7/a22898.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "da/de7/a22898.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

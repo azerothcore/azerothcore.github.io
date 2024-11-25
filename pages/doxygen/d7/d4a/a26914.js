@@ -1,6 +1,9 @@
 var a26914 =
 [
-    [ "go_midsummer_musicAI", "d7/d4a/a26914.html#a8cbadc16a9588c469ff48dbaf51ac71c", null ],
-    [ "UpdateAI", "d7/d4a/a26914.html#adf185ee702e9e74f65204b90786f9eb4", null ],
-    [ "_events", "d7/d4a/a26914.html#a31e45a754930cdc3206fe2b7f754d234", null ]
+    [ "go_gilded_brazierAI", "d7/d4a/a26914.html#aaacf408b0f42b593a8a2897cb27886fb", null ],
+    [ "GossipHello", "d7/d4a/a26914.html#afac9e217c294e72ff5f2526422e6321e", null ],
+    [ "Initialize", "d7/d4a/a26914.html#a72d2dd8f7ecdf173e5a3847c94255786", null ],
+    [ "UpdateAI", "d7/d4a/a26914.html#a0965f0a6f3f1c75e85f184319a1f9cef", null ],
+    [ "_events", "d7/d4a/a26914.html#a35e62a272b790d6e858cc48c92e55b7b", null ],
+    [ "_playerGUID", "d7/d4a/a26914.html#a506eccb2c3ebcc126d486638fb07ae3c", null ]
 ];

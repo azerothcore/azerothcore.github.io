@@ -1,5 +1,6 @@
 var a18026 =
 [
-    [ "achievement_been_waiting_long_time", "da/dd5/a18026.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
-    [ "OnCheck", "da/dd5/a18026.html#a5e72304220d3a649d2182cb287215da6", null ]
+    [ "ActivateSpirit", "da/dd5/a18026.html#ae5c9f8e693a98c828e0e922870552952", null ],
+    [ "PrepareSpellScript", "da/dd5/a18026.html#aa55f0fe4e27520b8a7ae1bb0f810838d", null ],
+    [ "Register", "da/dd5/a18026.html#a2b1d27e93a879681098a83d17c4d686a", null ]
 ];

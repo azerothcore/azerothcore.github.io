@@ -1,6 +1,6 @@
 var a23790 =
 [
-    [ "HandleEffectRemove", "db/dbd/a23790.html#a2e73fd55dd7e6e658bc6c6623b650732", null ],
-    [ "PrepareAuraScript", "db/dbd/a23790.html#a9aabae3a6c57be9b17394d4a39fe24ec", null ],
-    [ "Register", "db/dbd/a23790.html#ac02217c103db141d75377e233e1e4242", null ]
+    [ "npc_invis_infernal_casterAI", "dd/dd4/a23794.html", "dd/dd4/a23794" ],
+    [ "npc_invis_infernal_caster", "db/dbd/a23790.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "db/dbd/a23790.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

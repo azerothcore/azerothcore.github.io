@@ -1,6 +1,6 @@
 var a25258 =
 [
-    [ "HandleSummon", "d2/d8f/a25258.html#aadfea4a2238754473a8abbc487fd7f7b", null ],
-    [ "PrepareSpellScript", "d2/d8f/a25258.html#a4974a3687df394d51db322210ebb5ddb", null ],
-    [ "Register", "d2/d8f/a25258.html#a89146ab41d1408c18ce2bff403ae8e4e", null ]
+    [ "HandlePeriodicTick", "d2/d8f/a25258.html#a058eeb1e0489340763a58d92d4bed832", null ],
+    [ "PrepareAuraScript", "d2/d8f/a25258.html#a3d71859b7e7f914a395f131dd4a6b4ab", null ],
+    [ "Register", "d2/d8f/a25258.html#ae5a8adc3fe7cc5c5d7dd715449d3442f", null ]
 ];

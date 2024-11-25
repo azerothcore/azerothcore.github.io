@@ -1,7 +1,7 @@
 var a12090 =
 [
-    [ "HandleHit", "d8/d75/a12090.html#a18f86449945ade16140ee934a7d8703e", null ],
-    [ "PrepareSpellScript", "d8/d75/a12090.html#abaf09043858db27b05fbe544d7a15a8f", null ],
-    [ "Register", "d8/d75/a12090.html#abe0733be2e32ff616c48acaeeb1d39e9", null ],
-    [ "Validate", "d8/d75/a12090.html#abc970a8b4a8f27f81f392cebf81dc574", null ]
+    [ "HandlePeriodic", "d8/d75/a12090.html#a758b588fb02e9cdf2544dd52ceee1055", null ],
+    [ "PrepareAuraScript", "d8/d75/a12090.html#aae9d31049889eea5c5f09dd5437de950", null ],
+    [ "Register", "d8/d75/a12090.html#a5de6428e3359c4498f5630f85ae3fcc8", null ],
+    [ "Validate", "d8/d75/a12090.html#a462b882e41932f99e3501f32368cf4de", null ]
 ];

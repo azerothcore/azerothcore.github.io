@@ -1,7 +1,6 @@
 var a19278 =
 [
-    [ "HandleEffectRemove", "d8/dad/a19278.html#ae380a5bb6f17fa476e6c1ca9ca9b96fe", null ],
-    [ "PrepareAuraScript", "d8/dad/a19278.html#ad9b9d6e2c98fa6943e65e5d239f81948", null ],
-    [ "Register", "d8/dad/a19278.html#ae8d6057df54728e063c13cc45e3d7664", null ],
-    [ "Validate", "d8/dad/a19278.html#af3d738aad41fe7022f60180f8c2cd1be", null ]
+    [ "boss_algalon_the_observerAI", "d6/d68/a19282.html", "d6/d68/a19282" ],
+    [ "boss_algalon_the_observer", "d8/dad/a19278.html#a0691b47a116401da58b246203ecba2cb", null ],
+    [ "GetAI", "d8/dad/a19278.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
 ];

@@ -1,7 +1,6 @@
 var a13334 =
 [
-    [ "npc_lady_sylvanas_windrunnerAI", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
-    [ "npc_lady_sylvanas_windrunner", "df/d68/a13334.html#ab3da21f58b68003f50cf0c3d5ce22028", null ],
-    [ "GetAI", "df/d68/a13334.html#abc382c04be0a8ed46299d1c4b2d008dc", null ],
-    [ "OnQuestReward", "df/d68/a13334.html#ae0031c5305a03a376dd84e950eb4a23b", null ]
+    [ "npc_tyrion_spybotAI", "d2/dc0/a13338.html", "d2/dc0/a13338" ],
+    [ "npc_tyrion_spybot", "df/d68/a13334.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
+    [ "GetAI", "df/d68/a13334.html#af81b70437703edc8d99fe24249891dd6", null ]
 ];

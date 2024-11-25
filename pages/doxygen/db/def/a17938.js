@@ -1,6 +1,6 @@
 var a17938 =
 [
-    [ "ModDestHeight", "db/def/a17938.html#aafab48e58a2eb18c286f71fa907e9bc8", null ],
-    [ "PrepareSpellScript", "db/def/a17938.html#a3c84b7044f448a5596e18f72e7b2f11a", null ],
-    [ "Register", "db/def/a17938.html#ad3900c969dfb05a61ebc750eb3425bc0", null ]
+    [ "HandleScript", "db/def/a17938.html#a9489c3454830d3826cb077c95947bf2d", null ],
+    [ "PrepareSpellScript", "db/def/a17938.html#a19492e616ac6e69187bca4499175071e", null ],
+    [ "Register", "db/def/a17938.html#a3446174d3308f535c27581b63ade9e8a", null ]
 ];

@@ -1,7 +1,7 @@
 var a22414 =
 [
-    [ "HandleEffectRemove", "da/dd7/a22414.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
-    [ "PrepareAuraScript", "da/dd7/a22414.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
-    [ "Register", "da/dd7/a22414.html#a9ee8e71020c17f593472de5a9c130753", null ],
-    [ "Validate", "da/dd7/a22414.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
+    [ "OnPeriodic", "da/dd7/a22414.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
+    [ "PrepareAuraScript", "da/dd7/a22414.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
+    [ "Register", "da/dd7/a22414.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
+    [ "Validate", "da/dd7/a22414.html#a006d67e9e82cce68930b90b00d3555a4", null ]
 ];

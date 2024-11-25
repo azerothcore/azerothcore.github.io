@@ -1,10 +1,12 @@
 var a13214 =
 [
-    [ "npc_partygoer_pather", "d2/d65/a13214.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
-    [ "Initialize", "d2/d65/a13214.html#afb114b0587c550e39c41e131364da663", null ],
-    [ "PathEndReached", "d2/d65/a13214.html#a55833d306716ba411f96ecd024cc7c72", null ],
-    [ "Reset", "d2/d65/a13214.html#ade2cc36ff49001138eee5b607ec83b12", null ],
-    [ "UpdateAI", "d2/d65/a13214.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
-    [ "_events", "d2/d65/a13214.html#ac210dc0286ded980e78743237a08bb23", null ],
-    [ "_path", "d2/d65/a13214.html#a4da184c44858e99eca2b07193fd48f13", null ]
+    [ "npc_cameron", "d2/d65/a13214.html#a45e47ec5c9dadc6f0899e83ac2e19cff", null ],
+    [ "MoveTheChildren", "d2/d65/a13214.html#a85ae436f19f69ffb853330f01ee152a0", null ],
+    [ "PathEndReached", "d2/d65/a13214.html#a0bf53f40eeb4fe3ed7d62988bee0a912", null ],
+    [ "sOnGameEvent", "d2/d65/a13214.html#ab22841871cfcdc926b28296a5b4e440c", null ],
+    [ "SoundPicker", "d2/d65/a13214.html#a2ad97aaac0bd759921e0b75cfc88d07d", null ],
+    [ "UpdateAI", "d2/d65/a13214.html#a32a2dd2be2c06700fb81f4072a364ce2", null ],
+    [ "_childrenGUIDs", "d2/d65/a13214.html#ad260466902e8fb1a2e02998cc4549695", null ],
+    [ "_events", "d2/d65/a13214.html#ad6c58f433520c4ed55f43ef3604dde28", null ],
+    [ "_started", "d2/d65/a13214.html#a985d0590eedde340a3923e299d4dffd8", null ]
 ];

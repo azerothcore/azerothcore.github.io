@@ -1,5 +1,7 @@
 var a28090 =
 [
-    [ "ByteBufferInvalidValueException", "d1/d77/a28090.html#a6ee22161167faf11555c6e6b15422cd8", null ],
-    [ "~ByteBufferInvalidValueException", "d1/d77/a28090.html#a30cc1225522916e05abf95e14805d7a3", null ]
+    [ "RealmHandle", "d1/d77/a28090.html#a120fb45f2301188a843ab2e712f768e4", null ],
+    [ "RealmHandle", "d1/d77/a28090.html#ac3e04e9790e1ae75b9701f1a84b9f6e2", null ],
+    [ "operator<", "d1/d77/a28090.html#ad414bab23a3ecfb3cabb146d5f43bf3e", null ],
+    [ "Realm", "d1/d77/a28090.html#a31af0d9064a295b1579fce3c80217bfd", null ]
 ];

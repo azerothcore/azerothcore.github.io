@@ -1,5 +1,6 @@
 var a14534 =
 [
-    [ "npc_idol_room_spawnerAI", "d0/d1f/a14534.html#a77c4aa88d213271166158c8e75d41a69", null ],
-    [ "SetData", "d0/d1f/a14534.html#aa0626c837086b4a275f4d51d1659a242", null ]
+    [ "npc_belnistraszAI", "d2/dd0/a14538.html", "d2/dd0/a14538" ],
+    [ "npc_belnistrasz", "d0/d1f/a14534.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
+    [ "GetAI", "d0/d1f/a14534.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
 ];

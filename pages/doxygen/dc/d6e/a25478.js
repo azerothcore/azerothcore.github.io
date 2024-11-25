@@ -1,8 +1,7 @@
 var a25478 =
 [
-    [ "HandleDummy", "dc/d6e/a25478.html#ae73e0d900e5b33f47bf2ba45d8ab26ce", null ],
-    [ "Load", "dc/d6e/a25478.html#a5c0e5de94faca0c2841153f7a099d2eb", null ],
-    [ "PrepareSpellScript", "dc/d6e/a25478.html#af89de259afbab436326a67b9eb7833ad", null ],
-    [ "Register", "dc/d6e/a25478.html#a78ffb20ccc10c3c632934af862273716", null ],
-    [ "Validate", "dc/d6e/a25478.html#ace6bdf4755f1d1c95011bb782cb2e59e", null ]
+    [ "HandleEnergize", "dc/d6e/a25478.html#a283e713252166a863aa96530d6e7608b", null ],
+    [ "Load", "dc/d6e/a25478.html#a89847e0e9435a708c5722ff928f7033f", null ],
+    [ "PrepareSpellScript", "dc/d6e/a25478.html#a8847e05e6eeafd801fca5423d0689432", null ],
+    [ "Register", "dc/d6e/a25478.html#ae0778ffd8cf203e22510ee91b0394303", null ]
 ];

@@ -1,7 +1,13 @@
 var a11174 =
 [
-    [ "PlayerDumpReader", "d7/dc2/a11174.html#ad630b61e298fb1ddf165481c9a14e077", null ],
-    [ "LoadDump", "d7/dc2/a11174.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
-    [ "LoadDumpFromFile", "d7/dc2/a11174.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
-    [ "LoadDumpFromString", "d7/dc2/a11174.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
+    [ "PlayerDumpWriter", "d7/dc2/a11174.html#a060152c060b37c4bf1208a99edc4a840", null ],
+    [ "AppendTable", "d7/dc2/a11174.html#a7f285fddf6d33dd1664b5af801f110e9", null ],
+    [ "GetDump", "d7/dc2/a11174.html#a17457008e1262c0aed284469e55841c6", null ],
+    [ "PopulateGuids", "d7/dc2/a11174.html#aab122c84eefe801ac23211ec5a41e888", null ],
+    [ "WriteDumpToFile", "d7/dc2/a11174.html#a81612bfc0d161595f4de1a6133d5c46d", null ],
+    [ "WriteDumpToString", "d7/dc2/a11174.html#a43d30815c9b3b2608e0fecad7bba7254", null ],
+    [ "_items", "d7/dc2/a11174.html#a5da825b82a09809ded2ce2c88458cc26", null ],
+    [ "_itemSets", "d7/dc2/a11174.html#a33ff3a269064d883eff84ec83c394e92", null ],
+    [ "_mails", "d7/dc2/a11174.html#a2863e88ee13debe77e4b1d3d0960d18a", null ],
+    [ "_pets", "d7/dc2/a11174.html#a33325b0514324020bba98364a7f59de5", null ]
 ];

@@ -1,12 +1,8 @@
 var a17038 =
 [
-    [ "npc_muradin_bronzebeard_iccAI", "db/d54/a17038.html#a4313164857ebd174fe33a9a16340b332", null ],
-    [ "DoAction", "db/d54/a17038.html#a16eeb7d0ed6c943c088285462131cd51", null ],
-    [ "MovementInform", "db/d54/a17038.html#a9a2e367f30ee16ca55e634de8e22551e", null ],
-    [ "Reset", "db/d54/a17038.html#ad5d5a9de05e472d24fe399b4de79a3d0", null ],
-    [ "SpellHit", "db/d54/a17038.html#a19b42ca678e7bf93c86891b4ea0a2dce", null ],
-    [ "UpdateAI", "db/d54/a17038.html#a1ae2393871e0f4ebeb86521f06959a7a", null ],
-    [ "_events", "db/d54/a17038.html#ae7079b335373cc06a040756328e7f714", null ],
-    [ "_guardList", "db/d54/a17038.html#a1cbd87af34584979b37dfff8b29f9623", null ],
-    [ "_instance", "db/d54/a17038.html#af1d8694678b10e5393c658ba0b20f47a", null ]
+    [ "npc_high_overlord_saurfangAI", "d3/d91/a17042.html", "d3/d91/a17042" ],
+    [ "npc_high_overlord_saurfang_icc", "db/d54/a17038.html#ac02fe80550572e142406c2d80c0392df", null ],
+    [ "GetAI", "db/d54/a17038.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
+    [ "OnGossipHello", "db/d54/a17038.html#a515a87f751527412222cfdd968febe7c", null ],
+    [ "OnGossipSelect", "db/d54/a17038.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
 ];

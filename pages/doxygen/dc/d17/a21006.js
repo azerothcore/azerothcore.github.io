@@ -1,12 +1,6 @@
 var a21006 =
 [
-    [ "boss_moraggAI", "dc/d17/a21006.html#a3ae881c9adca20a2cb894af85297d53e", null ],
-    [ "EnterEvadeMode", "dc/d17/a21006.html#a4e70e42407f452c4685c732949fd2b52", null ],
-    [ "JustDied", "dc/d17/a21006.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
-    [ "JustEngagedWith", "dc/d17/a21006.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
-    [ "MoveInLineOfSight", "dc/d17/a21006.html#a52a99d72dfa017baacb76717e6db931b", null ],
-    [ "Reset", "dc/d17/a21006.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
-    [ "UpdateAI", "dc/d17/a21006.html#aec7645eaae190d1e7982aae181ff9224", null ],
-    [ "events", "dc/d17/a21006.html#acd021e4216e3920f0534da95d69ba5eb", null ],
-    [ "pInstance", "dc/d17/a21006.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
+    [ "boss_zuramatAI", "db/de9/a21010.html", "db/de9/a21010" ],
+    [ "boss_zuramat", "dc/d17/a21006.html#a1d169e786dcf846026b48d9be389f9ab", null ],
+    [ "GetAI", "dc/d17/a21006.html#a1008c053a2c9ad14cf9ce994db931670", null ]
 ];

@@ -1,6 +1,6 @@
 var a21886 =
 [
-    [ "HandleScript", "dd/d61/a21886.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "dd/d61/a21886.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "dd/d61/a21886.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "npc_iron_watcherAI", "dd/da0/a21890.html", "dd/da0/a21890" ],
+    [ "npc_iron_watcher", "dd/d61/a21886.html#a174e19241ca6cd1619fbae074d11c8ba", null ],
+    [ "GetAI", "dd/d61/a21886.html#af3b80b838e192737762ceed599b0be9a", null ]
 ];

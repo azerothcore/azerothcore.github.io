@@ -1,7 +1,8 @@
 var a23310 =
 [
-    [ "FilterTargets", "de/d5b/a23310.html#a834163302ff10875227806d7d4945988", null ],
-    [ "HandleScriptEffect", "de/d5b/a23310.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
-    [ "PrepareSpellScript", "de/d5b/a23310.html#a079e72d57550e03956088b4be1d11422", null ],
-    [ "Register", "de/d5b/a23310.html#abd4e0f268652652d3828ba8d350de849", null ]
+    [ "npc_warchief_portal", "de/d5b/a23310.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "de/d5b/a23310.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "de/d5b/a23310.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "de/d5b/a23310.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "de/d5b/a23310.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

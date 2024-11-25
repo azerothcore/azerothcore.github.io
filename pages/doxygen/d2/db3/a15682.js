@@ -1,17 +1,14 @@
 var a15682 =
 [
-    [ "boss_halionAI", "d2/db3/a15682.html#a24d41b904ec24029887869622fbce0eb", null ],
-    [ "AttackStart", "d2/db3/a15682.html#acad91c2b1e7e02f9662cc3342f272ae7", null ],
-    [ "CanAIAttack", "d2/db3/a15682.html#ad15cd8d44cd1779f45cacb38caa08fe2", null ],
-    [ "DamageTaken", "d2/db3/a15682.html#a911c636113639690bb6304e2f6d55499", null ],
-    [ "EnterEvadeMode", "d2/db3/a15682.html#a20e451a26914adcee83e5fb77155c59d", null ],
-    [ "IsAnyPlayerValid", "d2/db3/a15682.html#a6681f94156a46c75960038ed1ed80543", null ],
-    [ "JustDied", "d2/db3/a15682.html#a483fbaf88780d0714ffaa47bea00cc5f", null ],
-    [ "JustEngagedWith", "d2/db3/a15682.html#a16f121b5c7f3f924dc0c11adb53ff79a", null ],
-    [ "JustSummoned", "d2/db3/a15682.html#a4fdf03de55fdd35ff849a82704ce7a3c", null ],
-    [ "KilledUnit", "d2/db3/a15682.html#ac45ac7ceb0b761e90deeffcea364ceea", null ],
-    [ "Reset", "d2/db3/a15682.html#aa8c06f8a1642534efb14941d9c0d9f14", null ],
-    [ "UpdateAI", "d2/db3/a15682.html#abe0faa976bb1b14102b940fac9526e5b", null ],
-    [ "_events2", "d2/db3/a15682.html#a677448e015db869b718e15b6809586cc", null ],
-    [ "_livingEmberCount", "d2/db3/a15682.html#af6af6482467f3a08fbe1c65f3b2b1552", null ]
+    [ "npc_onyx_flamecallerAI", "d2/db3/a15682.html#aa0633855e57f6681cfc68a8dfee9a733", null ],
+    [ "AddWaypoints", "d2/db3/a15682.html#a308b99ee4d07ed1de0cabd94dafd5dd8", null ],
+    [ "EnterEvadeMode", "d2/db3/a15682.html#ac29163e2e69cffbf21249eb3828b5b72", null ],
+    [ "IsSummonedBy", "d2/db3/a15682.html#afc6c4faffd83b2fa4ddbb4ae78b622d9", null ],
+    [ "JustEngagedWith", "d2/db3/a15682.html#a3cba2cd9a920816bee993ae2986639a0", null ],
+    [ "Reset", "d2/db3/a15682.html#a756a44feb79eb56f443ee16995a2566d", null ],
+    [ "UpdateEscortAI", "d2/db3/a15682.html#aab57193b332fdde2dd237a9cb15a06c1", null ],
+    [ "WaypointReached", "d2/db3/a15682.html#a8b510bce47929e85741f5debd857de8d", null ],
+    [ "_events", "d2/db3/a15682.html#a9280b604135308078860c20667da9819", null ],
+    [ "_instance", "d2/db3/a15682.html#a3fb01e6a8df3b8205f494f03faf8ace8", null ],
+    [ "_lavaGoutCount", "d2/db3/a15682.html#a1f46c988316c1870f506a66f2390e79b", null ]
 ];

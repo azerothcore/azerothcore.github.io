@@ -1,8 +1,7 @@
 var a27846 =
 [
-    [ "Id", "da/d0a/a27846.html#a6943bf760d15b3f8af4109d131652d72", null ],
-    [ "MapId", "da/d0a/a27846.html#ab0cccd760636a3b42af693d6c483bed9", null ],
-    [ "X", "da/d0a/a27846.html#a91183890254546efeb3162173cc60dad", null ],
-    [ "Y", "da/d0a/a27846.html#a19ab4d026b45d74f006479641afbc4d3", null ],
-    [ "Z", "da/d0a/a27846.html#aaa23c59f20fc96aec148b82516f30036", null ]
+    [ "ID", "da/d0a/a27846.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "da/d0a/a27846.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "da/d0a/a27846.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "da/d0a/a27846.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

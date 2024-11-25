@@ -1,7 +1,7 @@
 var a01217 =
 [
-    [ "instance_ruins_of_ahnqiraj", "df/ded/a14646.html", "df/ded/a14646" ],
-    [ "instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript", "d8/de4/a14650.html", "d8/de4/a14650" ],
+    [ "instance_ruins_of_ahnqiraj", "da/d7f/a14658.html", "da/d7f/a14658" ],
+    [ "instance_ruins_of_ahnqiraj::instance_ruins_of_ahnqiraj_InstanceMapScript", "df/d21/a14662.html", "df/d21/a14662" ],
     [ "RajaxxWaveEvent", "da/d19/a01217.html#a4be5bd3adfc6d188ef97fd3885ddbeb8", [
       [ "SAY_WAVE3", "da/d19/a01217.html#a4be5bd3adfc6d188ef97fd3885ddbeb8a2c4234c075da474e1859f08d620f20d3", null ],
       [ "SAY_WAVE4", "da/d19/a01217.html#a4be5bd3adfc6d188ef97fd3885ddbeb8af13e872cbd347b8a5bc80c2e8666381d", null ],

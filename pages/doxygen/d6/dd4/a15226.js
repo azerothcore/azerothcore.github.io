@@ -1,7 +1,9 @@
 var a15226 =
 [
-    [ "npc_toogaAI", "dc/d61/a15230.html", "dc/d61/a15230" ],
-    [ "npc_tooga", "d6/dd4/a15226.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "d6/dd4/a15226.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "d6/dd4/a15226.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "npc_custodian_of_timeAI", "d6/dd4/a15226.html#a2434afcda3bc5681a124bdb1a2c8d56f", null ],
+    [ "JustEngagedWith", "d6/dd4/a15226.html#a3b12c06566b0c1d567b6edd8b57b8332", null ],
+    [ "MoveInLineOfSight", "d6/dd4/a15226.html#a97b21c4ecc89e4ddd5aef4dab30a7ecf", null ],
+    [ "Reset", "d6/dd4/a15226.html#a56bcc694ac286488ed4b3f2328c30573", null ],
+    [ "UpdateAI", "d6/dd4/a15226.html#a4b43c5f6eaf70fc93dcb18c183e456dc", null ],
+    [ "WaypointReached", "d6/dd4/a15226.html#a963736e62fbd0caea631ee3fb69fca46", null ]
 ];

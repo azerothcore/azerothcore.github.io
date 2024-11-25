@@ -1,6 +1,6 @@
 var a20390 =
 [
-    [ "PrepareSpellScript", "d4/dd6/a20390.html#ac84dedbb3343c15e32ae3c57d80a4561", null ],
-    [ "Register", "d4/dd6/a20390.html#a27c5665b64c50df5d9c67d5136ab7567", null ],
-    [ "SelectTarget", "d4/dd6/a20390.html#a0f9c85168ad0c0fda61f4bb1e97bd518", null ]
+    [ "x", "d4/dd6/a20390.html#ae4223168378b602a0a96dbb424a22be4", null ],
+    [ "y", "d4/dd6/a20390.html#a30f361d8104e4de44541d75945105963", null ],
+    [ "z", "d4/dd6/a20390.html#ae68a79519c35302b89976ac29bb77e26", null ]
 ];

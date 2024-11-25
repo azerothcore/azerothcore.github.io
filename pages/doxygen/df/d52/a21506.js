@@ -1,6 +1,6 @@
 var a21506 =
 [
-    [ "npc_spiritual_insightAI", "df/d52/a21506.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
-    [ "GetSpeachId", "df/d52/a21506.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
-    [ "IsSummonedBy", "df/d52/a21506.html#ab6b39190d1195915ea0b4b191d864da6", null ]
+    [ "HandleDummy", "df/d52/a21506.html#afe86744c6ab901750731fca486ff2e6c", null ],
+    [ "PrepareSpellScript", "df/d52/a21506.html#a47e8a3187fa523c61842885f1cbd041d", null ],
+    [ "Register", "df/d52/a21506.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
 ];

@@ -1,6 +1,6 @@
 var a26742 =
 [
-    [ "npc_dream_fogAI", "dd/df0/a26746.html", "dd/df0/a26746" ],
-    [ "npc_dream_fog", "d5/d3f/a26742.html#ae50306be88f15c9dfc4d0f12c63c68e6", null ],
-    [ "GetAI", "d5/d3f/a26742.html#a48c45fec086e3a50462deed44734ba38", null ]
+    [ "boss_ysondreAI", "dd/df0/a26746.html", "dd/df0/a26746" ],
+    [ "boss_ysondre", "d5/d3f/a26742.html#ad12dbb728f4f0cdf2f4c0ba9cd2a167d", null ],
+    [ "GetAI", "d5/d3f/a26742.html#a0da215d7bc8ee86216887e682b9335c3", null ]
 ];

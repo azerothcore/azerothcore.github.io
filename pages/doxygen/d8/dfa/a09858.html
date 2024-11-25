@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: OutdoorPvPData Struct Reference</title>
+<title>AzerothCore: OutdoorPvP Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,50 +105,1868 @@ $(document).ready(function(){initNavTree('d8/dfa/a09858.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../d7/d84/a09855.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">OutdoorPvPData Struct Reference</div></div>
+  <div class="headertitle"><div class="title">OutdoorPvP Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">OutdoorPvPMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">OutdoorPvP.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for OutdoorPvP:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d8/dfa/a09858.png" usemap="#OutdoorPvP_map" alt=""/>
+  <map id="OutdoorPvP_map" name="OutdoorPvP_map">
+<area href="../../db/d36/a09606.html" alt="ZoneScript" shape="rect" coords="333,0,434,24"/>
+<area href="../../d8/d2b/a22142.html" alt="OutdoorPvPEP" shape="rect" coords="0,112,101,136"/>
+<area href="../../d2/d82/a22150.html" alt="OutdoorPvPGH" shape="rect" coords="111,112,212,136"/>
+<area href="../../da/dde/a22166.html" alt="OutdoorPvPHP" shape="rect" coords="222,112,323,136"/>
+<area href="../../d0/dfc/a22186.html" alt="OutdoorPvPNA" shape="rect" coords="333,112,434,136"/>
+<area href="../../da/dbe/a22194.html" alt="OutdoorPvPSI" shape="rect" coords="444,112,545,136"/>
+<area href="../../d3/d7e/a22210.html" alt="OutdoorPvPTF" shape="rect" coords="555,112,656,136"/>
+<area href="../../de/da4/a22230.html" alt="OutdoorPvPZM" shape="rect" coords="666,112,767,136"/>
+  </map>
+</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aaddf1f172211966f5d727e6238889223"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/df9/a04517.html#a56e7764289940901c2a230103f78adee">OutdoorPvPTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aaddf1f172211966f5d727e6238889223">TypeId</a></td></tr>
-<tr class="separator:aaddf1f172211966f5d727e6238889223"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6b17e959f80e7b3f2f3352a345eebcf9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a6b17e959f80e7b3f2f3352a345eebcf9">ScriptId</a></td></tr>
-<tr class="separator:a6b17e959f80e7b3f2f3352a345eebcf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a3181c871a9c02ffdcce2fdc579481038"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a3181c871a9c02ffdcce2fdc579481038">OPvPCapturePointMap</a></td></tr>
+<tr class="separator:a3181c871a9c02ffdcce2fdc579481038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8351fe5ddc285f8d71f9b978d11ab2a"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/dc8/a07950.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ad8351fe5ddc285f8d71f9b978d11ab2a">GoScriptPair</a></td></tr>
+<tr class="separator:ad8351fe5ddc285f8d71f9b978d11ab2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a423e1fa89555e7133f5596b9add9c7d8"><td class="memItemLeft" align="right" valign="top">typedef std::pair&lt; <a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d4/d1e/a07774.html">Creature</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a423e1fa89555e7133f5596b9add9c7d8">CreatureScriptPair</a></td></tr>
+<tr class="separator:a423e1fa89555e7133f5596b9add9c7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:aaefdfe0906b9f68ae59ffdb0e3512c15"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aaefdfe0906b9f68ae59ffdb0e3512c15">OutdoorPvP</a> ()=default</td></tr>
+<tr class="separator:aaefdfe0906b9f68ae59ffdb0e3512c15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bad4c8ea73facbfdc4a829f178e02df"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a6bad4c8ea73facbfdc4a829f178e02df">~OutdoorPvP</a> () override</td></tr>
+<tr class="separator:a6bad4c8ea73facbfdc4a829f178e02df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a529ad9f8016c1be0b444dce0ee041625"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a529ad9f8016c1be0b444dce0ee041625">DeleteSpawns</a> ()</td></tr>
+<tr class="separator:a529ad9f8016c1be0b444dce0ee041625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7633a64657de911ffcdc7ee410bf51fb"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a7633a64657de911ffcdc7ee410bf51fb">FillInitialWorldStates</a> (<a class="el" href="../../d3/d32/a10702.html">WorldPacket</a> &amp;)</td></tr>
+<tr class="separator:a7633a64657de911ffcdc7ee410bf51fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a255e6a773a2427a219ec410d6d044765"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a255e6a773a2427a219ec410d6d044765">HandleAreaTrigger</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> trigger)</td></tr>
+<tr class="separator:a255e6a773a2427a219ec410d6d044765"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7653e4116a493dd0508c8f3c536a75bc"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a7653e4116a493dd0508c8f3c536a75bc">HandleCustomSpell</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId, <a class="el" href="../../da/dc8/a07950.html">GameObject</a> *go)</td></tr>
+<tr class="separator:a7653e4116a493dd0508c8f3c536a75bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be276336a495a1dc01745012829a753"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a9be276336a495a1dc01745012829a753">HandleOpenGo</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../da/dc8/a07950.html">GameObject</a> *go)</td></tr>
+<tr class="separator:a9be276336a495a1dc01745012829a753"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa924cc1d9448fd7607e671d8a06f9497"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aa924cc1d9448fd7607e671d8a06f9497">SetupOutdoorPvP</a> ()</td></tr>
+<tr class="separator:aa924cc1d9448fd7607e671d8a06f9497"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a452f641672e9d30074f7dd76494d7742"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a452f641672e9d30074f7dd76494d7742">OnGameObjectCreate</a> (<a class="el" href="../../da/dc8/a07950.html">GameObject</a> *go) override</td></tr>
+<tr class="separator:a452f641672e9d30074f7dd76494d7742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6d0996b115463e69a015a2c96e660d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a3a6d0996b115463e69a015a2c96e660d">OnGameObjectRemove</a> (<a class="el" href="../../da/dc8/a07950.html">GameObject</a> *go) override</td></tr>
+<tr class="separator:a3a6d0996b115463e69a015a2c96e660d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af20e003de861bb9f9589b26fbad77cf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#af20e003de861bb9f9589b26fbad77cf8">OnCreatureCreate</a> (<a class="el" href="../../d4/d1e/a07774.html">Creature</a> *creature) override</td></tr>
+<tr class="separator:af20e003de861bb9f9589b26fbad77cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb567943f2fe32edac014f7dc52e24f2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#acb567943f2fe32edac014f7dc52e24f2">OnCreatureRemove</a> (<a class="el" href="../../d4/d1e/a07774.html">Creature</a> *creature) override</td></tr>
+<tr class="separator:acb567943f2fe32edac014f7dc52e24f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab332e2eafab4a8ab3f0f19ba7fce4ad4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ab332e2eafab4a8ab3f0f19ba7fce4ad4">SendUpdateWorldState</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> field, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> value)</td></tr>
+<tr class="separator:ab332e2eafab4a8ab3f0f19ba7fce4ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e4aff4223404eb8947c509750e7aa7d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a2e4aff4223404eb8947c509750e7aa7d">Update</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff)</td></tr>
+<tr class="separator:a2e4aff4223404eb8947c509750e7aa7d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb8ce2be078f2ce067bc7f90a879e4cf"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aeb8ce2be078f2ce067bc7f90a879e4cf">HandleKill</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *killer, <a class="el" href="../../d0/d32/a08522.html">Unit</a> *killed)</td></tr>
+<tr class="separator:aeb8ce2be078f2ce067bc7f90a879e4cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfdaf4cac3355a9580175f7b4af92d8b"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#acfdaf4cac3355a9580175f7b4af92d8b">HandleKillImpl</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *, <a class="el" href="../../d0/d32/a08522.html">Unit</a> *)</td></tr>
+<tr class="separator:acfdaf4cac3355a9580175f7b4af92d8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac35a40b9adccca2273abd651150a9af3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ac35a40b9adccca2273abd651150a9af3">IsInsideObjective</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player) const</td></tr>
+<tr class="separator:ac35a40b9adccca2273abd651150a9af3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac28f4897e959d6e32010c79fadf252ea"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ac28f4897e959d6e32010c79fadf252ea">AwardKillBonus</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *)</td></tr>
+<tr class="separator:ac28f4897e959d6e32010c79fadf252ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff00edc6783bc27182eb3f6b605ab2fe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aff00edc6783bc27182eb3f6b605ab2fe">GetTypeId</a> () const</td></tr>
+<tr class="separator:aff00edc6783bc27182eb3f6b605ab2fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec47df6fa8d91ae78d0f2184a3fbf780"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aec47df6fa8d91ae78d0f2184a3fbf780">HandleDropFlag</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId)</td></tr>
+<tr class="separator:aec47df6fa8d91ae78d0f2184a3fbf780"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8761a78ff0a1882a6886fe328c9f26d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aa8761a78ff0a1882a6886fe328c9f26d">HandleGossipOption</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a07774.html">Creature</a> *creature, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> gossipId)</td></tr>
+<tr class="separator:aa8761a78ff0a1882a6886fe328c9f26d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abfcc1955c4cd7d9458912ceeb4b08e04"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#abfcc1955c4cd7d9458912ceeb4b08e04">CanTalkTo</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a07774.html">Creature</a> *c, <a class="el" href="../../d0/d1a/a08790.html">GossipMenuItems</a> const &amp;gso)</td></tr>
+<tr class="separator:abfcc1955c4cd7d9458912ceeb4b08e04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d888967c6b1d370e1bbf82c08d94a07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a2d888967c6b1d370e1bbf82c08d94a07">TeamApplyBuff</a> (<a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> teamId, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId2=0, <a class="el" href="../../db/dff/a08390.html">Player</a> *sameMapPlr=nullptr)</td></tr>
+<tr class="separator:a2d888967c6b1d370e1bbf82c08d94a07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab6b1bcfcef2a332c5c58e778a4106a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d53/a09542.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#aab6b1bcfcef2a332c5c58e778a4106a2">GetMap</a> () const</td></tr>
+<tr class="separator:aab6b1bcfcef2a332c5c58e778a4106a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a09606"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a09606')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../db/d36/a09606.html">ZoneScript</a></td></tr>
+<tr class="memitem:a3519b281545e348167893060c2aa352c inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a3519b281545e348167893060c2aa352c">ZoneScript</a> ()</td></tr>
+<tr class="separator:a3519b281545e348167893060c2aa352c inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4aa4d8f6b48d7d63fb6daa85d50c756 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#af4aa4d8f6b48d7d63fb6daa85d50c756">~ZoneScript</a> ()</td></tr>
+<tr class="separator:af4aa4d8f6b48d7d63fb6daa85d50c756 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cabd274bffe18004c3fced46ae325b0 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a8cabd274bffe18004c3fced46ae325b0">GetCreatureEntry</a> (<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d5/d6c/a07826.html">CreatureData</a> const *data)</td></tr>
+<tr class="separator:a8cabd274bffe18004c3fced46ae325b0 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3101d469bb171957177011fc0a76999b inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a3101d469bb171957177011fc0a76999b">GetGameObjectEntry</a> (<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry)</td></tr>
+<tr class="separator:a3101d469bb171957177011fc0a76999b inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae61020e57e9ca8ae0d42a51e39b1fee0 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#ae61020e57e9ca8ae0d42a51e39b1fee0">OnCreatureCreate</a> (<a class="el" href="../../d4/d1e/a07774.html">Creature</a> *)</td></tr>
+<tr class="separator:ae61020e57e9ca8ae0d42a51e39b1fee0 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf80a1b08c7ab4451cd6967138727b56 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#adf80a1b08c7ab4451cd6967138727b56">OnCreatureRemove</a> (<a class="el" href="../../d4/d1e/a07774.html">Creature</a> *)</td></tr>
+<tr class="separator:adf80a1b08c7ab4451cd6967138727b56 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa02089edff085ecd4eb7178b94ffe26 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#afa02089edff085ecd4eb7178b94ffe26">OnGameObjectCreate</a> (<a class="el" href="../../da/dc8/a07950.html">GameObject</a> *)</td></tr>
+<tr class="separator:afa02089edff085ecd4eb7178b94ffe26 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61c1ab81f65b4bfdf638eec002cb498c inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a61c1ab81f65b4bfdf638eec002cb498c">OnGameObjectRemove</a> (<a class="el" href="../../da/dc8/a07950.html">GameObject</a> *)</td></tr>
+<tr class="separator:a61c1ab81f65b4bfdf638eec002cb498c inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afaf1aecaaaac82508b8f1c50712b8204 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#afaf1aecaaaac82508b8f1c50712b8204">OnUnitDeath</a> (<a class="el" href="../../d0/d32/a08522.html">Unit</a> *)</td></tr>
+<tr class="separator:afaf1aecaaaac82508b8f1c50712b8204 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8113c8738b772b740dbc7a2352637669 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a8113c8738b772b740dbc7a2352637669">OnCreatureEvade</a> (<a class="el" href="../../d4/d1e/a07774.html">Creature</a> *)</td></tr>
+<tr class="separator:a8113c8738b772b740dbc7a2352637669 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1483a9ca7f97cef589dd141d669cc46 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#aa1483a9ca7f97cef589dd141d669cc46">GetGuidData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) const</td></tr>
+<tr class="separator:aa1483a9ca7f97cef589dd141d669cc46 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac465d5e7d00a7e3b935942f1627763f4 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#ac465d5e7d00a7e3b935942f1627763f4">SetGuidData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>)</td></tr>
+<tr class="separator:ac465d5e7d00a7e3b935942f1627763f4 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7aecf55fb84288840465dd69eacc8eb inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#ab7aecf55fb84288840465dd69eacc8eb">GetData64</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) const</td></tr>
+<tr class="separator:ab7aecf55fb84288840465dd69eacc8eb inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a321c2fc00f1d3d261a4887a1e74f4244 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a321c2fc00f1d3d261a4887a1e74f4244">SetData64</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>)</td></tr>
+<tr class="separator:a321c2fc00f1d3d261a4887a1e74f4244 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8997612fdbdacbf5e28e4de60d03e805 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a8997612fdbdacbf5e28e4de60d03e805">GetData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) const</td></tr>
+<tr class="separator:a8997612fdbdacbf5e28e4de60d03e805 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a949e67ea24c7e4b70a20806952735576 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#a949e67ea24c7e4b70a20806952735576">SetData</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a949e67ea24c7e4b70a20806952735576 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab32f7102df50af48e43f544bd107f964 inherit pub_methods_a09606"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d36/a09606.html#ab32f7102df50af48e43f544bd107f964">ProcessEvent</a> (<a class="el" href="../../de/d75/a08178.html">WorldObject</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:ab32f7102df50af48e43f544bd107f964 inherit pub_methods_a09606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ae34ffe3b531f8689d186610b4a06d093"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ae34ffe3b531f8689d186610b4a06d093">BroadcastPacket</a> (<a class="el" href="../../d3/d32/a10702.html">WorldPacket</a> &amp;data) const</td></tr>
+<tr class="separator:ae34ffe3b531f8689d186610b4a06d093"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a552057a07ed4804930abfd7daf8d5431"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a552057a07ed4804930abfd7daf8d5431">SendRemoveWorldStates</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *)</td></tr>
+<tr class="separator:a552057a07ed4804930abfd7daf8d5431"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a039f908a83ffc3ec948ddc20b1b19c6c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a039f908a83ffc3ec948ddc20b1b19c6c">HandlePlayerEnterZone</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone)</td></tr>
+<tr class="separator:a039f908a83ffc3ec948ddc20b1b19c6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8cb50fd8f92ea14fdbcfd1d9ded30ebe"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a8cb50fd8f92ea14fdbcfd1d9ded30ebe">HandlePlayerLeaveZone</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone)</td></tr>
+<tr class="separator:a8cb50fd8f92ea14fdbcfd1d9ded30ebe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab271cade81e21da482e57f3ddffd5c65"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ab271cade81e21da482e57f3ddffd5c65">HandlePlayerResurrects</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone)</td></tr>
+<tr class="separator:ab271cade81e21da482e57f3ddffd5c65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af29db712d138f6c37113153a59913bc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#af29db712d138f6c37113153a59913bc1">AddCapturePoint</a> (<a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a> *cp)</td></tr>
+<tr class="separator:af29db712d138f6c37113153a59913bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b505bc0acb28e5ed2124678a1cf569f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a1b505bc0acb28e5ed2124678a1cf569f">GetCapturePoint</a> (<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> spawnId) const</td></tr>
+<tr class="separator:a1b505bc0acb28e5ed2124678a1cf569f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a539169858316925b827a056d9ab2e0d1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a539169858316925b827a056d9ab2e0d1">RegisterZone</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneid)</td></tr>
+<tr class="separator:a539169858316925b827a056d9ab2e0d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e8eeaf176fb3326110b65e4e709b9d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a13e8eeaf176fb3326110b65e4e709b9d">HasPlayer</a> (<a class="el" href="../../db/dff/a08390.html">Player</a> const *player) const</td></tr>
+<tr class="separator:a13e8eeaf176fb3326110b65e4e709b9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a4050c8f0413c3fd829ad7d4c9cdb6b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">TeamCastSpell</a> (<a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> team, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> spellId, <a class="el" href="../../db/dff/a08390.html">Player</a> *sameMapPlr=nullptr)</td></tr>
+<tr class="separator:a7a4050c8f0413c3fd829ad7d4c9cdb6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad321bced2cc1af3cf50b55a659f1d317"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ad321bced2cc1af3cf50b55a659f1d317">SetMapFromZone</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zone)</td></tr>
+<tr class="separator:ad321bced2cc1af3cf50b55a659f1d317"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:ab6e8b36ff0b2814c55bf7aae17ae76f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/dfa/a09858.html#a3181c871a9c02ffdcce2fdc579481038">OPvPCapturePointMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a></td></tr>
+<tr class="separator:ab6e8b36ff0b2814c55bf7aae17ae76f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d4bc806fdfe3032fc2937d34c222466"><td class="memItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d8/df9/a04517.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a>, 2 &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a></td></tr>
+<tr class="separator:a6d4bc806fdfe3032fc2937d34c222466"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdeebabdbc76c568343e5b3afdf65dcb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#acdeebabdbc76c568343e5b3afdf65dcb">_typeId</a> {}</td></tr>
+<tr class="separator:acdeebabdbc76c568343e5b3afdf65dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7618fecc9cabd1b1662ff7fb69eaa384"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a7618fecc9cabd1b1662ff7fb69eaa384">_sendUpdate</a> { true }</td></tr>
+<tr class="separator:a7618fecc9cabd1b1662ff7fb69eaa384"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a73862168f52d9bc8881e18e6a8f9ba3f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d53/a09542.html">Map</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a73862168f52d9bc8881e18e6a8f9ba3f">_map</a> {}</td></tr>
+<tr class="separator:a73862168f52d9bc8881e18e6a8f9ba3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6613f7d2a606cc81fd57cce25d4157ac"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/dc8/a07950.html">GameObject</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">_goScriptStore</a></td></tr>
+<tr class="separator:a6613f7d2a606cc81fd57cce25d4157ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b295c65350a1fac988ebe2e9937ec86"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; <a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d4/d1e/a07774.html">Creature</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">_creatureScriptStore</a></td></tr>
+<tr class="separator:a4b295c65350a1fac988ebe2e9937ec86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a346efe38ed68708e66bc606619bd30ef"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/dfa/a09858.html#a346efe38ed68708e66bc606619bd30ef">OutdoorPvPMgr</a></td></tr>
+<tr class="separator:a346efe38ed68708e66bc606619bd30ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6b17e959f80e7b3f2f3352a345eebcf9" name="a6b17e959f80e7b3f2f3352a345eebcf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6b17e959f80e7b3f2f3352a345eebcf9">&#9670;&#160;</a></span>ScriptId</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a423e1fa89555e7133f5596b9add9c7d8" name="a423e1fa89555e7133f5596b9add9c7d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a423e1fa89555e7133f5596b9add9c7d8">&#9670;&#160;</a></span>CreatureScriptPair</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvPData::ScriptId</td>
+          <td class="memname">typedef std::pair&lt;<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d4/d1e/a07774.html">Creature</a>*&gt; <a class="el" href="../../d8/dfa/a09858.html#a423e1fa89555e7133f5596b9add9c7d8">OutdoorPvP::CreatureScriptPair</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00022">ScriptMgr::CreateOutdoorPvP()</a>.</p>
-
 </div>
 </div>
-<a id="aaddf1f172211966f5d727e6238889223" name="aaddf1f172211966f5d727e6238889223"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaddf1f172211966f5d727e6238889223">&#9670;&#160;</a></span>TypeId</h2>
+<a id="ad8351fe5ddc285f8d71f9b978d11ab2a" name="ad8351fe5ddc285f8d71f9b978d11ab2a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad8351fe5ddc285f8d71f9b978d11ab2a">&#9670;&#160;</a></span>GoScriptPair</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d8/df9/a04517.html#a56e7764289940901c2a230103f78adee">OutdoorPvPTypes</a> OutdoorPvPData::TypeId</td>
+          <td class="memname">typedef std::pair&lt;<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/dc8/a07950.html">GameObject</a>*&gt; <a class="el" href="../../d8/dfa/a09858.html#ad8351fe5ddc285f8d71f9b978d11ab2a">OutdoorPvP::GoScriptPair</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3181c871a9c02ffdcce2fdc579481038" name="a3181c871a9c02ffdcce2fdc579481038"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3181c871a9c02ffdcce2fdc579481038">&#9670;&#160;</a></span>OPvPCapturePointMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::map&lt;<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a>*&gt; <a class="el" href="../../d8/dfa/a09858.html#a3181c871a9c02ffdcce2fdc579481038">OutdoorPvP::OPvPCapturePointMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aaefdfe0906b9f68ae59ffdb0e3512c15" name="aaefdfe0906b9f68ae59ffdb0e3512c15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaefdfe0906b9f68ae59ffdb0e3512c15">&#9670;&#160;</a></span>OutdoorPvP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OutdoorPvP::OutdoorPvP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6bad4c8ea73facbfdc4a829f178e02df" name="a6bad4c8ea73facbfdc4a829f178e02df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bad4c8ea73facbfdc4a829f178e02df">&#9670;&#160;</a></span>~OutdoorPvP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">OutdoorPvP::~OutdoorPvP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  273</span>{</div>
+<div class="line"><span class="lineno">  274</span>    <a class="code hl_function" href="../../d8/dfa/a09858.html#a529ad9f8016c1be0b444dce0ee041625">DeleteSpawns</a>();</div>
+<div class="line"><span class="lineno">  275</span>}</div>
+<div class="ttc" id="aa09858_html_a529ad9f8016c1be0b444dce0ee041625"><div class="ttname"><a href="../../d8/dfa/a09858.html#a529ad9f8016c1be0b444dce0ee041625">OutdoorPvP::DeleteSpawns</a></div><div class="ttdeci">void DeleteSpawns()</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:244</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00244">DeleteSpawns()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="af29db712d138f6c37113153a59913bc1" name="af29db712d138f6c37113153a59913bc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af29db712d138f6c37113153a59913bc1">&#9670;&#160;</a></span>AddCapturePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::AddCapturePoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a> *&#160;</td>
+          <td class="paramname"><em>cp</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  254</span>    {</div>
+<div class="line"><span class="lineno">  255</span>        <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>[cp-&gt;<a class="code hl_variable" href="../../da/d98/a09854.html#a9af622a7653d0782c27fff686e3ad7a0">m_capturePointSpawnId</a>] = cp;</div>
+<div class="line"><span class="lineno">  256</span>    }</div>
+<div class="ttc" id="aa09854_html_a9af622a7653d0782c27fff686e3ad7a0"><div class="ttname"><a href="../../da/d98/a09854.html#a9af622a7653d0782c27fff686e3ad7a0">OPvPCapturePoint::m_capturePointSpawnId</a></div><div class="ttdeci">ObjectGuid::LowType m_capturePointSpawnId</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:124</div></div>
+<div class="ttc" id="aa09858_html_ab6e8b36ff0b2814c55bf7aae17ae76f0"><div class="ttname"><a href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">OutdoorPvP::_capturePoints</a></div><div class="ttdeci">OPvPCapturePointMap _capturePoints</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:267</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>, and <a class="el" href="../../#l00124">OPvPCapturePoint::m_capturePointSpawnId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00617">OutdoorPvPEP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00031">OutdoorPvPGH::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00070">OutdoorPvPHP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00266">OutdoorPvPNA::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>, and <a class="el" href="../../#l00181">OutdoorPvPZM::SetupOutdoorPvP()</a>.</p>
+
+</div>
+</div>
+<a id="ac28f4897e959d6e32010c79fadf252ea" name="ac28f4897e959d6e32010c79fadf252ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac28f4897e959d6e32010c79fadf252ea">&#9670;&#160;</a></span>AwardKillBonus()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void OutdoorPvP::AwardKillBonus </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  235</span>{}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae34ffe3b531f8689d186610b4a06d093" name="ae34ffe3b531f8689d186610b4a06d093"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae34ffe3b531f8689d186610b4a06d093">&#9670;&#160;</a></span>BroadcastPacket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::BroadcastPacket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d32/a10702.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  633</span>{</div>
+<div class="line"><span class="lineno">  634</span>    <span class="comment">// This is faster than sWorld-&gt;SendZoneMessage</span></div>
+<div class="line"><span class="lineno">  635</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; playerSet : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>)</div>
+<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr : playerSet)</div>
+<div class="line"><span class="lineno">  637</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* <span class="keyword">const</span> player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(itr))</div>
+<div class="line"><span class="lineno">  638</span>                player-&gt;GetSession()-&gt;SendPacket(&amp;data);</div>
+<div class="line"><span class="lineno">  639</span>}</div>
+<div class="ttc" id="aa04735_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:245</div></div>
+<div class="ttc" id="aa08390_html"><div class="ttname"><a href="../../db/dff/a08390.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa09858_html_a6d4bc806fdfe3032fc2937d34c222466"><div class="ttname"><a href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">OutdoorPvP::_players</a></div><div class="ttdeci">std::array&lt; PlayerSet, 2 &gt; _players</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:268</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00268">_players</a>, and <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="abfcc1955c4cd7d9458912ceeb4b08e04" name="abfcc1955c4cd7d9458912ceeb4b08e04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abfcc1955c4cd7d9458912ceeb4b08e04">&#9670;&#160;</a></span>CanTalkTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::CanTalkTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a07774.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d1a/a08790.html">GossipMenuItems</a> const &amp;&#160;</td>
+          <td class="paramname"><em>gso</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  579</span>{</div>
+<div class="line"><span class="lineno">  580</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  581</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;CanTalkTo(player, c, gso))</div>
+<div class="line"><span class="lineno">  582</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  583</span> </div>
+<div class="line"><span class="lineno">  584</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  585</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+</div>
+</div>
+<a id="a529ad9f8016c1be0b444dce0ee041625" name="a529ad9f8016c1be0b444dce0ee041625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a529ad9f8016c1be0b444dce0ee041625">&#9670;&#160;</a></span>DeleteSpawns()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::DeleteSpawns </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  245</span>{</div>
+<div class="line"><span class="lineno">  246</span>    <span class="comment">// Remove script from any registered gameobjects/creatures</span></div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; itr : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">_goScriptStore</a>)</div>
+<div class="line"><span class="lineno">  248</span>    {</div>
+<div class="line"><span class="lineno">  249</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/dc8/a07950.html">GameObject</a>* go = itr.second)</div>
+<div class="line"><span class="lineno">  250</span>            go-&gt;ClearZoneScript();</div>
+<div class="line"><span class="lineno">  251</span>    }</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">_goScriptStore</a>.clear();</div>
+<div class="line"><span class="lineno">  254</span> </div>
+<div class="line"><span class="lineno">  255</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; itr : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">_creatureScriptStore</a>)</div>
+<div class="line"><span class="lineno">  256</span>    {</div>
+<div class="line"><span class="lineno">  257</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d4/d1e/a07774.html">Creature</a>* creature = itr.second)</div>
+<div class="line"><span class="lineno">  258</span>            creature-&gt;ClearZoneScript();</div>
+<div class="line"><span class="lineno">  259</span>    }</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">_creatureScriptStore</a>.clear();</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  264</span>    {</div>
+<div class="line"><span class="lineno">  265</span>        capturePoint.second-&gt;DeleteSpawns();</div>
+<div class="line"><span class="lineno">  266</span>        <span class="keyword">delete</span> capturePoint.second;</div>
+<div class="line"><span class="lineno">  267</span>    }</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>.clear();</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="aa07774_html"><div class="ttname"><a href="../../d4/d1e/a07774.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:43</div></div>
+<div class="ttc" id="aa07950_html"><div class="ttname"><a href="../../da/dc8/a07950.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:120</div></div>
+<div class="ttc" id="aa09858_html_a4b295c65350a1fac988ebe2e9937ec86"><div class="ttname"><a href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">OutdoorPvP::_creatureScriptStore</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid::LowType, Creature * &gt; _creatureScriptStore</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:273</div></div>
+<div class="ttc" id="aa09858_html_a6613f7d2a606cc81fd57cce25d4157ac"><div class="ttname"><a href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">OutdoorPvP::_goScriptStore</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid::LowType, GameObject * &gt; _goScriptStore</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:272</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>, <a class="el" href="../../#l00273">_creatureScriptStore</a>, and <a class="el" href="../../#l00272">_goScriptStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00272">~OutdoorPvP()</a>.</p>
+
+</div>
+</div>
+<a id="a7633a64657de911ffcdc7ee410bf51fb" name="a7633a64657de911ffcdc7ee410bf51fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7633a64657de911ffcdc7ee410bf51fb">&#9670;&#160;</a></span>FillInitialWorldStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void OutdoorPvP::FillInitialWorldStates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d3/d32/a10702.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#a3e9ca34d696c3d644fdb7f495e11270c">OutdoorPvPEP</a>, <a class="el" href="../../da/dde/a22166.html#adf60b6367470edb799b18e70f705a757">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#ac4eaab1f8d69ac45f168899267801198">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#a0bf1688569e00431dcb128113b35d0f5">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#a4e08c8c885565901f9bd2ada8ec3ca3e">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#a25624d1acd33ea71007aa8073e01a132">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  202</span>{}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l08196">Player::SendInitWorldStates()</a>.</p>
+
+</div>
+</div>
+<a id="a1b505bc0acb28e5ed2124678a1cf569f" name="a1b505bc0acb28e5ed2124678a1cf569f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b505bc0acb28e5ed2124678a1cf569f">&#9670;&#160;</a></span>GetCapturePoint()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../da/d98/a09854.html">OPvPCapturePoint</a> * OutdoorPvP::GetCapturePoint </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
+          <td class="paramname"><em>spawnId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  729</span>{</div>
+<div class="line"><span class="lineno">  730</span>    <span class="keyword">auto</span> <span class="keyword">const</span> itr = <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>.find(spawnId);</div>
+<div class="line"><span class="lineno">  731</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>.end())</div>
+<div class="line"><span class="lineno">  732</span>    {</div>
+<div class="line"><span class="lineno">  733</span>        <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">  734</span>    }</div>
+<div class="line"><span class="lineno">  735</span> </div>
+<div class="line"><span class="lineno">  736</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  737</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00676">OnGameObjectCreate()</a>, and <a class="el" href="../../#l00692">OnGameObjectRemove()</a>.</p>
+
+</div>
+</div>
+<a id="aab6b1bcfcef2a332c5c58e778a4106a2" name="aab6b1bcfcef2a332c5c58e778a4106a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab6b1bcfcef2a332c5c58e778a4106a2">&#9670;&#160;</a></span>GetMap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d53/a09542.html">Map</a> * OutdoorPvP::GetMap </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  243</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/dfa/a09858.html#a73862168f52d9bc8881e18e6a8f9ba3f">_map</a>; }</div>
+<div class="ttc" id="aa09858_html_a73862168f52d9bc8881e18e6a8f9ba3f"><div class="ttname"><a href="../../d8/dfa/a09858.html#a73862168f52d9bc8881e18e6a8f9ba3f">OutdoorPvP::_map</a></div><div class="ttdeci">Map * _map</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:271</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00271">_map</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00151">OPvPCapturePoint::DelCreature()</a>, <a class="el" href="../../#l00193">OPvPCapturePoint::DelObject()</a>, <a class="el" href="../../#l00121">OPvPCapturePointNA::DespawnCreatures()</a>, <a class="el" href="../../#l00103">OPvPCapturePointNA::GetAliveGuardsCount()</a>, and <a class="el" href="../../#l00144">OPvPCapturePointNA::SpawnNPCsForTeam()</a>.</p>
+
+</div>
+</div>
+<a id="aff00edc6783bc27182eb3f6b605ab2fe" name="aff00edc6783bc27182eb3f6b605ab2fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff00edc6783bc27182eb3f6b605ab2fe">&#9670;&#160;</a></span>GetTypeId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvP::GetTypeId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  237</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/dfa/a09858.html#acdeebabdbc76c568343e5b3afdf65dcb">_typeId</a>; }</div>
+<div class="ttc" id="aa09858_html_acdeebabdbc76c568343e5b3afdf65dcb"><div class="ttname"><a href="../../d8/dfa/a09858.html#acdeebabdbc76c568343e5b3afdf65dcb">OutdoorPvP::_typeId</a></div><div class="ttdeci">uint32 _typeId</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:269</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00269">_typeId</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l08196">Player::SendInitWorldStates()</a>.</p>
+
+</div>
+</div>
+<a id="a255e6a773a2427a219ec410d6d044765" name="a255e6a773a2427a219ec410d6d044765"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a255e6a773a2427a219ec410d6d044765">&#9670;&#160;</a></span>HandleAreaTrigger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HandleAreaTrigger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>trigger</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../da/dbe/a22194.html#a7c6d70d7a611752456c55d13420ff840">OutdoorPvPSI</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  628</span>{</div>
+<div class="line"><span class="lineno">  629</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  630</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7653e4116a493dd0508c8f3c536a75bc" name="a7653e4116a493dd0508c8f3c536a75bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7653e4116a493dd0508c8f3c536a75bc">&#9670;&#160;</a></span>HandleCustomSpell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HandleCustomSpell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc8/a07950.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>go</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../da/dbe/a22194.html#a10853a2f5766b6fc75044a20b281a198">OutdoorPvPSI</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  547</span>{</div>
+<div class="line"><span class="lineno">  548</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  549</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;HandleCustomSpell(player, spellId, go))</div>
+<div class="line"><span class="lineno">  550</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  551</span> </div>
+<div class="line"><span class="lineno">  552</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  553</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+</div>
+</div>
+<a id="aec47df6fa8d91ae78d0f2184a3fbf780" name="aec47df6fa8d91ae78d0f2184a3fbf780"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec47df6fa8d91ae78d0f2184a3fbf780">&#9670;&#160;</a></span>HandleDropFlag()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HandleDropFlag </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../da/dbe/a22194.html#a9238a5007253d84d66192bd340d8311a">OutdoorPvPSI</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  588</span>{</div>
+<div class="line"><span class="lineno">  589</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  590</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;HandleDropFlag(player, <span class="keywordtype">id</span>))</div>
+<div class="line"><span class="lineno">  591</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  592</span> </div>
+<div class="line"><span class="lineno">  593</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  594</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+</div>
+</div>
+<a id="aa8761a78ff0a1882a6886fe328c9f26d" name="aa8761a78ff0a1882a6886fe328c9f26d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8761a78ff0a1882a6886fe328c9f26d">&#9670;&#160;</a></span>HandleGossipOption()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HandleGossipOption </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a07774.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>creature</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>gossipId</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  570</span>{</div>
+<div class="line"><span class="lineno">  571</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  572</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;HandleGossipOption(player, creature, <span class="keywordtype">id</span>))</div>
+<div class="line"><span class="lineno">  573</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  574</span> </div>
+<div class="line"><span class="lineno">  575</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  576</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+</div>
+</div>
+<a id="aeb8ce2be078f2ce067bc7f90a879e4cf" name="aeb8ce2be078f2ce067bc7f90a879e4cf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb8ce2be078f2ce067bc7f90a879e4cf">&#9670;&#160;</a></span>HandleKill()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::HandleKill </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>killer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>killed</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d0/dfc/a22186.html#ab55683b771104878c69239314a9782f4">OutdoorPvPNA</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  498</span>{</div>
+<div class="line"><span class="lineno">  499</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(killer);</div>
+<div class="line"><span class="lineno">  500</span> </div>
+<div class="line"><span class="lineno">  501</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/d49/a09206.html">Group</a>* group = killer-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a99fc00f9ac903dbe9adcadc5f7415abb">GetGroup</a>())</div>
+<div class="line"><span class="lineno">  502</span>    {</div>
+<div class="line"><span class="lineno">  503</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d5/d09/a09218.html">GroupReference</a>* itr = group-&gt;GetFirstMember(); itr != <span class="keyword">nullptr</span>; itr = itr-&gt;<a class="code hl_function" href="../../d5/d09/a09218.html#a6f8f406f1209dd7060904d40f5424b41">next</a>())</div>
+<div class="line"><span class="lineno">  504</span>        {</div>
+<div class="line"><span class="lineno">  505</span>            <a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* groupGuy = itr-&gt;GetSource();</div>
+<div class="line"><span class="lineno">  506</span>            <span class="keywordflow">if</span> (!groupGuy)</div>
+<div class="line"><span class="lineno">  507</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  508</span> </div>
+<div class="line"><span class="lineno">  509</span>            <span class="comment">// skip if too far away</span></div>
+<div class="line"><span class="lineno">  510</span>            <span class="keywordflow">if</span> (!groupGuy-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a60c16e65f7375a886b133d5e8738c798">IsAtGroupRewardDistance</a>(killed) &amp;&amp; killer != groupGuy)</div>
+<div class="line"><span class="lineno">  511</span>                <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  512</span> </div>
+<div class="line"><span class="lineno">  513</span>            <span class="comment">// creature kills must be notified, even if not inside objective / not outdoor pvp active</span></div>
+<div class="line"><span class="lineno">  514</span>            <span class="comment">// player kills only count if active and inside objective</span></div>
+<div class="line"><span class="lineno">  515</span>            <span class="keywordflow">if</span> ((groupGuy-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#aea0c70b5c5cda555beded20e3b3ee670">IsOutdoorPvPActive</a>() &amp;&amp; <a class="code hl_function" href="../../d8/dfa/a09858.html#ac35a40b9adccca2273abd651150a9af3">IsInsideObjective</a>(groupGuy)) || killed-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#aacc8ee332f66effdc0d77c126dae1961">IsCreature</a>())</div>
+<div class="line"><span class="lineno">  516</span>            {</div>
+<div class="line"><span class="lineno">  517</span>                <a class="code hl_function" href="../../d8/dfa/a09858.html#acfdaf4cac3355a9580175f7b4af92d8b">HandleKillImpl</a>(groupGuy, killed);</div>
+<div class="line"><span class="lineno">  518</span>            }</div>
+<div class="line"><span class="lineno">  519</span>        }</div>
+<div class="line"><span class="lineno">  520</span>    }</div>
+<div class="line"><span class="lineno">  521</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  522</span>    {</div>
+<div class="line"><span class="lineno">  523</span>        <span class="comment">// creature kills must be notified, even if not inside objective / not outdoor pvp active</span></div>
+<div class="line"><span class="lineno">  524</span>        <span class="keywordflow">if</span> ((killer-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#aea0c70b5c5cda555beded20e3b3ee670">IsOutdoorPvPActive</a>() &amp;&amp; <a class="code hl_function" href="../../d8/dfa/a09858.html#ac35a40b9adccca2273abd651150a9af3">IsInsideObjective</a>(killer)) || killed-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#aacc8ee332f66effdc0d77c126dae1961">IsCreature</a>())</div>
+<div class="line"><span class="lineno">  525</span>        {</div>
+<div class="line"><span class="lineno">  526</span>            <a class="code hl_function" href="../../d8/dfa/a09858.html#acfdaf4cac3355a9580175f7b4af92d8b">HandleKillImpl</a>(killer, killed);</div>
+<div class="line"><span class="lineno">  527</span>        }</div>
+<div class="line"><span class="lineno">  528</span>    }</div>
+<div class="line"><span class="lineno">  529</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa08146_html_aacc8ee332f66effdc0d77c126dae1961"><div class="ttname"><a href="../../d7/d40/a08146.html#aacc8ee332f66effdc0d77c126dae1961">Object::IsCreature</a></div><div class="ttdeci">bool IsCreature() const</div><div class="ttdef"><b>Definition:</b> Object.h:201</div></div>
+<div class="ttc" id="aa08390_html_a60c16e65f7375a886b133d5e8738c798"><div class="ttname"><a href="../../db/dff/a08390.html#a60c16e65f7375a886b133d5e8738c798">Player::IsAtGroupRewardDistance</a></div><div class="ttdeci">bool IsAtGroupRewardDistance(WorldObject const *pRewardSource) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:12772</div></div>
+<div class="ttc" id="aa08390_html_a99fc00f9ac903dbe9adcadc5f7415abb"><div class="ttname"><a href="../../db/dff/a08390.html#a99fc00f9ac903dbe9adcadc5f7415abb">Player::GetGroup</a></div><div class="ttdeci">Group * GetGroup()</div><div class="ttdef"><b>Definition:</b> Player.h:2451</div></div>
+<div class="ttc" id="aa08390_html_aea0c70b5c5cda555beded20e3b3ee670"><div class="ttname"><a href="../../db/dff/a08390.html#aea0c70b5c5cda555beded20e3b3ee670">Player::IsOutdoorPvPActive</a></div><div class="ttdeci">bool IsOutdoorPvPActive()</div><div class="ttdef"><b>Definition:</b> Player.cpp:6413</div></div>
+<div class="ttc" id="aa09206_html"><div class="ttname"><a href="../../dd/d49/a09206.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:169</div></div>
+<div class="ttc" id="aa09218_html"><div class="ttname"><a href="../../d5/d09/a09218.html">GroupReference</a></div><div class="ttdef"><b>Definition:</b> GroupReference.h:27</div></div>
+<div class="ttc" id="aa09218_html_a6f8f406f1209dd7060904d40f5424b41"><div class="ttname"><a href="../../d5/d09/a09218.html#a6f8f406f1209dd7060904d40f5424b41">GroupReference::next</a></div><div class="ttdeci">GroupReference * next()</div><div class="ttdef"><b>Definition:</b> GroupReference.h:36</div></div>
+<div class="ttc" id="aa09858_html_ac35a40b9adccca2273abd651150a9af3"><div class="ttname"><a href="../../d8/dfa/a09858.html#ac35a40b9adccca2273abd651150a9af3">OutdoorPvP::IsInsideObjective</a></div><div class="ttdeci">bool IsInsideObjective(Player *player) const</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:531</div></div>
+<div class="ttc" id="aa09858_html_acfdaf4cac3355a9580175f7b4af92d8b"><div class="ttname"><a href="../../d8/dfa/a09858.html#acfdaf4cac3355a9580175f7b4af92d8b">OutdoorPvP::HandleKillImpl</a></div><div class="ttdeci">virtual void HandleKillImpl(Player *, Unit *)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:229</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l02451">Player::GetGroup()</a>, <a class="el" href="../../#l00229">HandleKillImpl()</a>, <a class="el" href="../../#l12772">Player::IsAtGroupRewardDistance()</a>, <a class="el" href="../../#l00201">Object::IsCreature()</a>, <a class="el" href="../../#l00531">IsInsideObjective()</a>, <a class="el" href="../../#l06413">Player::IsOutdoorPvPActive()</a>, and <a class="el" href="../../#l00036">GroupReference::next()</a>.</p>
+
+</div>
+</div>
+<a id="acfdaf4cac3355a9580175f7b4af92d8b" name="acfdaf4cac3355a9580175f7b4af92d8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfdaf4cac3355a9580175f7b4af92d8b">&#9670;&#160;</a></span>HandleKillImpl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void OutdoorPvP::HandleKillImpl </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../da/dde/a22166.html#aad7804f10c42f6643397d673ba4e9bee">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#a2ede6e7dc54424d9729a094557b14792">OutdoorPvPNA</a>, and <a class="el" href="../../de/da4/a22230.html#a6cd61b99305a2838261e36652fda42b1">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  229</span>{}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00497">HandleKill()</a>.</p>
+
+</div>
+</div>
+<a id="a9be276336a495a1dc01745012829a753" name="a9be276336a495a1dc01745012829a753"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be276336a495a1dc01745012829a753">&#9670;&#160;</a></span>HandleOpenGo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HandleOpenGo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/dc8/a07950.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>go</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  561</span>{</div>
+<div class="line"><span class="lineno">  562</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  563</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;HandleOpenGo(player, go) &gt;= 0)</div>
+<div class="line"><span class="lineno">  564</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  565</span> </div>
+<div class="line"><span class="lineno">  566</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  567</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+</div>
+</div>
+<a id="a039f908a83ffc3ec948ddc20b1b19c6c" name="a039f908a83ffc3ec948ddc20b1b19c6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a039f908a83ffc3ec948ddc20b1b19c6c">&#9670;&#160;</a></span>HandlePlayerEnterZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::HandlePlayerEnterZone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#a9e7404160b1220dc3cc2766a07f42ad2">OutdoorPvPEP</a>, <a class="el" href="../../da/dde/a22166.html#a117149e3db7fa02fdcfab05a6ff6de18">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#a312c5f2aaa35a9f83740c1bdd9772b9e">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#ad2cabd461406a61e40411850b3d31c0c">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#a23ef36361746c9fae0a14b1094914d22">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#a8c0eb1c295f389273cf2b2c7b35c9538">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  278</span>{</div>
+<div class="line"><span class="lineno">  279</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>[player-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].insert(player-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  280</span>}</div>
+<div class="ttc" id="aa08146_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:109</div></div>
+<div class="ttc" id="aa08390_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../db/dff/a08390.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2091</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00268">_players</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l02091">Player::GetTeamId()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00653">OutdoorPvPEP::HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00089">OutdoorPvPHP::HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00286">OutdoorPvPNA::HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00076">OutdoorPvPSI::HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00284">OutdoorPvPTF::HandlePlayerEnterZone()</a>, and <a class="el" href="../../#l00148">OutdoorPvPZM::HandlePlayerEnterZone()</a>.</p>
+
+</div>
+</div>
+<a id="a8cb50fd8f92ea14fdbcfd1d9ded30ebe" name="a8cb50fd8f92ea14fdbcfd1d9ded30ebe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cb50fd8f92ea14fdbcfd1d9ded30ebe">&#9670;&#160;</a></span>HandlePlayerLeaveZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::HandlePlayerLeaveZone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#a251b154abfaec9cbfb1a56e657ac5214">OutdoorPvPEP</a>, <a class="el" href="../../da/dde/a22166.html#abf21499824ad64aa7a26a4b33090783e">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#ae7dd540746946513cd7bf8e29296c068">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#aa06088b1d80072577e6fc7653a214512">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#a6ff61d4338983b61f653d6780c96c8d0">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#a93105e3229db7798ad882fc7e538b250">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  283</span>{</div>
+<div class="line"><span class="lineno">  284</span>    <span class="comment">// inform the objectives of the leaving</span></div>
+<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; _capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  286</span>    {</div>
+<div class="line"><span class="lineno">  287</span>        _capturePoint.second-&gt;HandlePlayerLeave(player);</div>
+<div class="line"><span class="lineno">  288</span>    }</div>
+<div class="line"><span class="lineno">  289</span> </div>
+<div class="line"><span class="lineno">  290</span>    <span class="comment">// remove the world state information from the player (we can&#39;t keep everyone up to date, so leave out those who are not in the concerning zones)</span></div>
+<div class="line"><span class="lineno">  291</span>    <span class="keywordflow">if</span> (!player-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d2/d13/a10746.html#a4daee2a43a82b4b9bb6d30a6fba54616">PlayerLogout</a>())</div>
+<div class="line"><span class="lineno">  292</span>    {</div>
+<div class="line"><span class="lineno">  293</span>        <a class="code hl_function" href="../../d8/dfa/a09858.html#a552057a07ed4804930abfd7daf8d5431">SendRemoveWorldStates</a>(player);</div>
+<div class="line"><span class="lineno">  294</span>    }</div>
+<div class="line"><span class="lineno">  295</span> </div>
+<div class="line"><span class="lineno">  296</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>[player-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].erase(player-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
+<div class="line"><span class="lineno">  297</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;outdoorpvp&quot;</span>, <span class="stringliteral">&quot;OutdoorPvP: Player {} left an outdoorpvp zone&quot;</span>, player-&gt;<a class="code hl_function" href="../../de/d75/a08178.html#a7e67658eb5aa058bc7f46bf6b11a797c">GetName</a>());</div>
+<div class="line"><span class="lineno">  298</span>}</div>
+<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
+<div class="ttc" id="aa08178_html_a7e67658eb5aa058bc7f46bf6b11a797c"><div class="ttname"><a href="../../de/d75/a08178.html#a7e67658eb5aa058bc7f46bf6b11a797c">WorldObject::GetName</a></div><div class="ttdeci">std::string const &amp; GetName() const</div><div class="ttdef"><b>Definition:</b> Object.h:458</div></div>
+<div class="ttc" id="aa08390_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1981</div></div>
+<div class="ttc" id="aa09858_html_a552057a07ed4804930abfd7daf8d5431"><div class="ttname"><a href="../../d8/dfa/a09858.html#a552057a07ed4804930abfd7daf8d5431">OutdoorPvP::SendRemoveWorldStates</a></div><div class="ttdeci">virtual void SendRemoveWorldStates(Player *)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:248</div></div>
+<div class="ttc" id="aa10746_html_a4daee2a43a82b4b9bb6d30a6fba54616"><div class="ttname"><a href="../../d2/d13/a10746.html#a4daee2a43a82b4b9bb6d30a6fba54616">WorldSession::PlayerLogout</a></div><div class="ttdeci">bool PlayerLogout() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:338</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>, <a class="el" href="../../#l00268">_players</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, <a class="el" href="../../#l00458">WorldObject::GetName()</a>, <a class="el" href="../../#l01981">Player::GetSession()</a>, <a class="el" href="../../#l02091">Player::GetTeamId()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00338">WorldSession::PlayerLogout()</a>, and <a class="el" href="../../#l00248">SendRemoveWorldStates()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00669">OutdoorPvPEP::HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00105">OutdoorPvPHP::HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00294">OutdoorPvPNA::HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00083">OutdoorPvPSI::HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00299">OutdoorPvPTF::HandlePlayerLeaveZone()</a>, and <a class="el" href="../../#l00163">OutdoorPvPZM::HandlePlayerLeaveZone()</a>.</p>
+
+</div>
+</div>
+<a id="ab271cade81e21da482e57f3ddffd5c65" name="ab271cade81e21da482e57f3ddffd5c65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab271cade81e21da482e57f3ddffd5c65">&#9670;&#160;</a></span>HandlePlayerResurrects()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::HandlePlayerResurrects </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zone</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  301</span>{</div>
+<div class="line"><span class="lineno">  302</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a13e8eeaf176fb3326110b65e4e709b9d" name="a13e8eeaf176fb3326110b65e4e709b9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13e8eeaf176fb3326110b65e4e709b9d">&#9670;&#160;</a></span>HasPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::HasPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> const *&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  647</span>{</div>
+<div class="line"><span class="lineno">  648</span>    <a class="code hl_typedef" href="../../d8/df9/a04517.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a> <span class="keyword">const</span>&amp; plSet = <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>[player-&gt;GetTeamId()];</div>
+<div class="line"><span class="lineno">  649</span>    <span class="keywordflow">return</span> plSet.find(player-&gt;GetGUID()) != plSet.end();</div>
+<div class="line"><span class="lineno">  650</span>}</div>
+<div class="ttc" id="aa04517_html_a080aeb08f4e15904e94076846a03e927"><div class="ttname"><a href="../../d8/df9/a04517.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a></div><div class="ttdeci">GuidSet PlayerSet</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:87</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00268">_players</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l02091">Player::GetTeamId()</a>.</p>
+
+</div>
+</div>
+<a id="ac35a40b9adccca2273abd651150a9af3" name="ac35a40b9adccca2273abd651150a9af3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac35a40b9adccca2273abd651150a9af3">&#9670;&#160;</a></span>IsInsideObjective()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::IsInsideObjective </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>player</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  532</span>{</div>
+<div class="line"><span class="lineno">  533</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  534</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;IsInsideObjective(player))</div>
+<div class="line"><span class="lineno">  535</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  536</span> </div>
+<div class="line"><span class="lineno">  537</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  538</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00497">HandleKill()</a>.</p>
+
+</div>
+</div>
+<a id="af20e003de861bb9f9589b26fbad77cf8" name="af20e003de861bb9f9589b26fbad77cf8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af20e003de861bb9f9589b26fbad77cf8">&#9670;&#160;</a></span>OnCreatureCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::OnCreatureCreate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a07774.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>creature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../db/d36/a09606.html#ae61020e57e9ca8ae0d42a51e39b1fee0">ZoneScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  708</span>{</div>
+<div class="line"><span class="lineno">  709</span>    <a class="code hl_typedef" href="../../d8/dfa/a09858.html#a423e1fa89555e7133f5596b9add9c7d8">CreatureScriptPair</a> sp(creature-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>(), creature);</div>
+<div class="line"><span class="lineno">  710</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">_creatureScriptStore</a>.insert(sp);</div>
+<div class="line"><span class="lineno">  711</span>}</div>
+<div class="ttc" id="aa08194_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:145</div></div>
+<div class="ttc" id="aa09858_html_a423e1fa89555e7133f5596b9add9c7d8"><div class="ttname"><a href="../../d8/dfa/a09858.html#a423e1fa89555e7133f5596b9add9c7d8">OutdoorPvP::CreatureScriptPair</a></div><div class="ttdeci">std::pair&lt; ObjectGuid::LowType, Creature * &gt; CreatureScriptPair</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:200</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00273">_creatureScriptStore</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, and <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
+
+</div>
+</div>
+<a id="acb567943f2fe32edac014f7dc52e24f2" name="acb567943f2fe32edac014f7dc52e24f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb567943f2fe32edac014f7dc52e24f2">&#9670;&#160;</a></span>OnCreatureRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::OnCreatureRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a07774.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>creature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../db/d36/a09606.html#adf80a1b08c7ab4451cd6967138727b56">ZoneScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  714</span>{</div>
+<div class="line"><span class="lineno">  715</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a4b295c65350a1fac988ebe2e9937ec86">_creatureScriptStore</a>.erase(creature-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  716</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00273">_creatureScriptStore</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, and <a class="el" href="../../#l00109">Object::GetGUID()</a>.</p>
+
+</div>
+</div>
+<a id="a452f641672e9d30074f7dd76494d7742" name="a452f641672e9d30074f7dd76494d7742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a452f641672e9d30074f7dd76494d7742">&#9670;&#160;</a></span>OnGameObjectCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::OnGameObjectCreate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc8/a07950.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>go</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../db/d36/a09606.html#afa02089edff085ecd4eb7178b94ffe26">ZoneScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  677</span>{</div>
+<div class="line"><span class="lineno">  678</span>    <a class="code hl_typedef" href="../../d8/dfa/a09858.html#ad8351fe5ddc285f8d71f9b978d11ab2a">GoScriptPair</a> sp(go-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>(), go);</div>
+<div class="line"><span class="lineno">  679</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">_goScriptStore</a>.insert(sp);</div>
+<div class="line"><span class="lineno">  680</span> </div>
+<div class="line"><span class="lineno">  681</span>    <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../da/dc8/a07950.html#a7a8cef98e188ac088c48db167d1f46ac">GetGoType</a>() != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a>)</div>
+<div class="line"><span class="lineno">  682</span>    {</div>
+<div class="line"><span class="lineno">  683</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  684</span>    }</div>
+<div class="line"><span class="lineno">  685</span> </div>
+<div class="line"><span class="lineno">  686</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d98/a09854.html">OPvPCapturePoint</a>* cp = <a class="code hl_function" href="../../d8/dfa/a09858.html#a1b505bc0acb28e5ed2124678a1cf569f">GetCapturePoint</a>(go-&gt;<a class="code hl_function" href="../../da/dc8/a07950.html#a8c289dddc67ceaeb458a4418e4929f2f">GetSpawnId</a>()))</div>
+<div class="line"><span class="lineno">  687</span>    {</div>
+<div class="line"><span class="lineno">  688</span>        cp-&gt;_capturePoint = go;</div>
+<div class="line"><span class="lineno">  689</span>    }</div>
+<div class="line"><span class="lineno">  690</span>}</div>
+<div class="ttc" id="aa02771_html_a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3"><div class="ttname"><a href="../../d0/dbd/a02771.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_CAPTURE_POINT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1589</div></div>
+<div class="ttc" id="aa07950_html_a7a8cef98e188ac088c48db167d1f46ac"><div class="ttname"><a href="../../da/dc8/a07950.html#a7a8cef98e188ac088c48db167d1f46ac">GameObject::GetGoType</a></div><div class="ttdeci">GameobjectTypes GetGoType() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:203</div></div>
+<div class="ttc" id="aa07950_html_a8c289dddc67ceaeb458a4418e4929f2f"><div class="ttname"><a href="../../da/dc8/a07950.html#a8c289dddc67ceaeb458a4418e4929f2f">GameObject::GetSpawnId</a></div><div class="ttdeci">ObjectGuid::LowType GetSpawnId() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:144</div></div>
+<div class="ttc" id="aa09854_html"><div class="ttname"><a href="../../da/d98/a09854.html">OPvPCapturePoint</a></div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:90</div></div>
+<div class="ttc" id="aa09858_html_a1b505bc0acb28e5ed2124678a1cf569f"><div class="ttname"><a href="../../d8/dfa/a09858.html#a1b505bc0acb28e5ed2124678a1cf569f">OutdoorPvP::GetCapturePoint</a></div><div class="ttdeci">OPvPCapturePoint * GetCapturePoint(ObjectGuid::LowType spawnId) const</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:728</div></div>
+<div class="ttc" id="aa09858_html_ad8351fe5ddc285f8d71f9b978d11ab2a"><div class="ttname"><a href="../../d8/dfa/a09858.html#ad8351fe5ddc285f8d71f9b978d11ab2a">OutdoorPvP::GoScriptPair</a></div><div class="ttdeci">std::pair&lt; ObjectGuid::LowType, GameObject * &gt; GoScriptPair</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:199</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00272">_goScriptStore</a>, <a class="el" href="../../#l01589">GAMEOBJECT_TYPE_CAPTURE_POINT</a>, <a class="el" href="../../#l00728">GetCapturePoint()</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00203">GameObject::GetGoType()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l00144">GameObject::GetSpawnId()</a>.</p>
+
+</div>
+</div>
+<a id="a3a6d0996b115463e69a015a2c96e660d" name="a3a6d0996b115463e69a015a2c96e660d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6d0996b115463e69a015a2c96e660d">&#9670;&#160;</a></span>OnGameObjectRemove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::OnGameObjectRemove </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../da/dc8/a07950.html">GameObject</a> *&#160;</td>
+          <td class="paramname"><em>go</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../db/d36/a09606.html#a61c1ab81f65b4bfdf638eec002cb498c">ZoneScript</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  693</span>{</div>
+<div class="line"><span class="lineno">  694</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6613f7d2a606cc81fd57cce25d4157ac">_goScriptStore</a>.erase(go-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d7/d5b/a08194.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
+<div class="line"><span class="lineno">  695</span> </div>
+<div class="line"><span class="lineno">  696</span>    <span class="keywordflow">if</span> (go-&gt;<a class="code hl_function" href="../../da/dc8/a07950.html#a7a8cef98e188ac088c48db167d1f46ac">GetGoType</a>() != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a>)</div>
+<div class="line"><span class="lineno">  697</span>    {</div>
+<div class="line"><span class="lineno">  698</span>        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  699</span>    }</div>
+<div class="line"><span class="lineno">  700</span> </div>
+<div class="line"><span class="lineno">  701</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/d98/a09854.html">OPvPCapturePoint</a>* cp = <a class="code hl_function" href="../../d8/dfa/a09858.html#a1b505bc0acb28e5ed2124678a1cf569f">GetCapturePoint</a>(go-&gt;<a class="code hl_function" href="../../da/dc8/a07950.html#a8c289dddc67ceaeb458a4418e4929f2f">GetSpawnId</a>()))</div>
+<div class="line"><span class="lineno">  702</span>    {</div>
+<div class="line"><span class="lineno">  703</span>        cp-&gt;_capturePoint = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  704</span>    }</div>
+<div class="line"><span class="lineno">  705</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00272">_goScriptStore</a>, <a class="el" href="../../#l01589">GAMEOBJECT_TYPE_CAPTURE_POINT</a>, <a class="el" href="../../#l00728">GetCapturePoint()</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00203">GameObject::GetGoType()</a>, <a class="el" href="../../#l00109">Object::GetGUID()</a>, and <a class="el" href="../../#l00144">GameObject::GetSpawnId()</a>.</p>
+
+</div>
+</div>
+<a id="a539169858316925b827a056d9ab2e0d1" name="a539169858316925b827a056d9ab2e0d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a539169858316925b827a056d9ab2e0d1">&#9670;&#160;</a></span>RegisterZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::RegisterZone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zoneid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  642</span>{</div>
+<div class="line"><span class="lineno">  643</span>    <a class="code hl_define" href="../../dd/d8c/a04508.html#a7f16e829e6dd717c8a6a20fd1aa783cc">sOutdoorPvPMgr</a>-&gt;AddZone(zoneId, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  644</span>}</div>
+<div class="ttc" id="aa04508_html_a7f16e829e6dd717c8a6a20fd1aa783cc"><div class="ttname"><a href="../../dd/d8c/a04508.html#a7f16e829e6dd717c8a6a20fd1aa783cc">sOutdoorPvPMgr</a></div><div class="ttdeci">#define sOutdoorPvPMgr</div><div class="ttdef"><b>Definition:</b> OutdoorPvPMgr.h:102</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00102">sOutdoorPvPMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00617">OutdoorPvPEP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00031">OutdoorPvPGH::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00070">OutdoorPvPHP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00266">OutdoorPvPNA::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00061">OutdoorPvPSI::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>, and <a class="el" href="../../#l00181">OutdoorPvPZM::SetupOutdoorPvP()</a>.</p>
+
+</div>
+</div>
+<a id="a552057a07ed4804930abfd7daf8d5431" name="a552057a07ed4804930abfd7daf8d5431"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a552057a07ed4804930abfd7daf8d5431">&#9670;&#160;</a></span>SendRemoveWorldStates()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void OutdoorPvP::SendRemoveWorldStates </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#afad47628bb4cfcc6060ce35396e33d9d">OutdoorPvPEP</a>, <a class="el" href="../../d2/d82/a22150.html#a92c7e489717072ddc34f707fbe462cb2">OutdoorPvPGH</a>, <a class="el" href="../../da/dde/a22166.html#ac94c44783b2141c751d5c16a24bce8d4">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#ae9a93ddac1ca439f0f269d7ac7597593">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#aae7deda0662b28f6fc0e16115a65304b">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#a2c79f67ee87306c7944c86e745e1bfc9">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#aba24e6285ac45dd0594f557d5830ba7c">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  248</span>{} <span class="comment">// world state stuff</span></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00282">HandlePlayerLeaveZone()</a>.</p>
+
+</div>
+</div>
+<a id="ab332e2eafab4a8ab3f0f19ba7fce4ad4" name="ab332e2eafab4a8ab3f0f19ba7fce4ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab332e2eafab4a8ab3f0f19ba7fce4ad4">&#9670;&#160;</a></span>SendUpdateWorldState()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::SendUpdateWorldState </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  457</span>{</div>
+<div class="line"><span class="lineno">  458</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d8/dfa/a09858.html#a7618fecc9cabd1b1662ff7fb69eaa384">_sendUpdate</a>)</div>
+<div class="line"><span class="lineno">  459</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; _player : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>)</div>
+<div class="line"><span class="lineno">  460</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr : _player)</div>
+<div class="line"><span class="lineno">  461</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* <span class="keyword">const</span> player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(itr))</div>
+<div class="line"><span class="lineno">  462</span>                    player-&gt;SendUpdateWorldState(field, value);</div>
+<div class="line"><span class="lineno">  463</span>}</div>
+<div class="ttc" id="aa09858_html_a7618fecc9cabd1b1662ff7fb69eaa384"><div class="ttname"><a href="../../d8/dfa/a09858.html#a7618fecc9cabd1b1662ff7fb69eaa384">OutdoorPvP::_sendUpdate</a></div><div class="ttdeci">bool _sendUpdate</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.h:270</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00268">_players</a>, <a class="el" href="../../#l00270">_sendUpdate</a>, and <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00171">OPvPCapturePointHP::ChangeState()</a>, <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00122">OutdoorPvPTF::ResetZoneToTeamControlled()</a>, <a class="el" href="../../#l00632">OutdoorPvPEP::Update()</a>, <a class="el" href="../../#l00119">OutdoorPvPHP::Update()</a>, <a class="el" href="../../#l00601">OPvPCapturePointNA::Update()</a>, <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>, <a class="el" href="../../#l00837">OPvPCapturePointNA::UpdateHalaaWorldState()</a>, <a class="el" href="../../#l00119">OPvPCapturePointEP_EWT::UpdateTowerState()</a>, <a class="el" href="../../#l00261">OPvPCapturePointEP_NPT::UpdateTowerState()</a>, <a class="el" href="../../#l00393">OPvPCapturePointEP_CGT::UpdateTowerState()</a>, <a class="el" href="../../#l00530">OPvPCapturePointEP_PWT::UpdateTowerState()</a>, <a class="el" href="../../#l00175">OPvPCapturePointTF::UpdateTowerState()</a>, <a class="el" href="../../#l00045">OPvPCapturePointZM_Beacon::UpdateTowerState()</a>, <a class="el" href="../../#l00267">OPvPCapturePointZM_GraveYard::UpdateTowerState()</a>, <a class="el" href="../../#l00054">OutdoorPvPSI::UpdateWorldState()</a>, and <a class="el" href="../../#l00846">OPvPCapturePointNA::UpdateWyvernRoostWorldState()</a>.</p>
+
+</div>
+</div>
+<a id="ad321bced2cc1af3cf50b55a659f1d317" name="ad321bced2cc1af3cf50b55a659f1d317"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad321bced2cc1af3cf50b55a659f1d317">&#9670;&#160;</a></span>SetMapFromZone()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::SetMapFromZone </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zone</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  719</span>{</div>
+<div class="line"><span class="lineno">  720</span>    <a class="code hl_struct" href="../../d4/dec/a27618.html">AreaTableEntry</a> <span class="keyword">const</span>* areaTable = <a class="code hl_variable" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>.LookupEntry(zone);</div>
+<div class="line"><span class="lineno">  721</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(areaTable);</div>
+<div class="line"><span class="lineno">  722</span> </div>
+<div class="line"><span class="lineno">  723</span>    <a class="code hl_class" href="../../df/d53/a09542.html">Map</a>* map = <a class="code hl_define" href="../../d9/daf/a02807.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a>-&gt;CreateBaseMap(areaTable-&gt;<a class="code hl_variable" href="../../d4/dec/a27618.html#a048ac249318efd9aa35bb705bfb92dc8">mapid</a>);</div>
+<div class="line"><span class="lineno">  724</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!map-&gt;<a class="code hl_function" href="../../df/d53/a09542.html#aae3a929aefb05046ef304ffba10aae71">Instanceable</a>());</div>
+<div class="line"><span class="lineno">  725</span>    <a class="code hl_variable" href="../../d8/dfa/a09858.html#a73862168f52d9bc8881e18e6a8f9ba3f">_map</a> = map;</div>
+<div class="line"><span class="lineno">  726</span>}</div>
+<div class="ttc" id="aa02807_html_a9132749f8376c48b0ca7212eb3293905"><div class="ttname"><a href="../../d9/daf/a02807.html#a9132749f8376c48b0ca7212eb3293905">sMapMgr</a></div><div class="ttdeci">#define sMapMgr</div><div class="ttdef"><b>Definition:</b> MapMgr.h:219</div></div>
+<div class="ttc" id="aa03704_html_aedcdbef7c215330459e17b2f224ff0e3"><div class="ttname"><a href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a></div><div class="ttdeci">DBCStorage&lt; AreaTableEntry &gt; sAreaTableStore(AreaTableEntryfmt)</div></div>
+<div class="ttc" id="aa09542_html"><div class="ttname"><a href="../../df/d53/a09542.html">Map</a></div><div class="ttdef"><b>Definition:</b> Map.h:311</div></div>
+<div class="ttc" id="aa09542_html_aae3a929aefb05046ef304ffba10aae71"><div class="ttname"><a href="../../df/d53/a09542.html#aae3a929aefb05046ef304ffba10aae71">Map::Instanceable</a></div><div class="ttdeci">bool Instanceable() const</div><div class="ttdef"><b>Definition:</b> Map.h:445</div></div>
+<div class="ttc" id="aa27618_html"><div class="ttname"><a href="../../d4/dec/a27618.html">AreaTableEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:518</div></div>
+<div class="ttc" id="aa27618_html_a048ac249318efd9aa35bb705bfb92dc8"><div class="ttname"><a href="../../d4/dec/a27618.html#a048ac249318efd9aa35bb705bfb92dc8">AreaTableEntry::mapid</a></div><div class="ttdeci">uint32 mapid</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:520</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00271">_map</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00445">Map::Instanceable()</a>, <a class="el" href="../../#l00520">AreaTableEntry::mapid</a>, <a class="el" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>, and <a class="el" href="../../#l00219">sMapMgr</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00617">OutdoorPvPEP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00031">OutdoorPvPGH::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00070">OutdoorPvPHP::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00266">OutdoorPvPNA::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00061">OutdoorPvPSI::SetupOutdoorPvP()</a>, <a class="el" href="../../#l00331">OutdoorPvPTF::SetupOutdoorPvP()</a>, and <a class="el" href="../../#l00181">OutdoorPvPZM::SetupOutdoorPvP()</a>.</p>
+
+</div>
+</div>
+<a id="aa924cc1d9448fd7607e671d8a06f9497" name="aa924cc1d9448fd7607e671d8a06f9497"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa924cc1d9448fd7607e671d8a06f9497">&#9670;&#160;</a></span>SetupOutdoorPvP()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool OutdoorPvP::SetupOutdoorPvP </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#acecc8126180c027cb3d685231e55d873">OutdoorPvPEP</a>, <a class="el" href="../../d2/d82/a22150.html#a3d62cb27cfa415c9ba7fe5c18384a75d">OutdoorPvPGH</a>, <a class="el" href="../../da/dde/a22166.html#aee60f1d1da4d6eecd0e66cf975272979">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#a09369a62ec5584dd6ce5eddf7b2bb80f">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#a401da5bef2350c4eb21b249b4f8b3e40">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#a993b5e28423be75745c13d3514defe15">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#a7e71d2c2480da1a2d155981999201b99">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  214</span>{<span class="keywordflow">return</span> <span class="keyword">true</span>;}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2d888967c6b1d370e1bbf82c08d94a07" name="a2d888967c6b1d370e1bbf82c08d94a07"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d888967c6b1d370e1bbf82c08d94a07">&#9670;&#160;</a></span>TeamApplyBuff()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::TeamApplyBuff </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>teamId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>spellId2</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>sameMapPlr</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  671</span>{</div>
+<div class="line"><span class="lineno">  672</span>    <a class="code hl_function" href="../../d8/dfa/a09858.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">TeamCastSpell</a>(teamId, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>)spellId, sameMapPlr);</div>
+<div class="line"><span class="lineno">  673</span>    <a class="code hl_function" href="../../d8/dfa/a09858.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">TeamCastSpell</a>(teamId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> : <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>, spellId2 ? -(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>)spellId2 : -(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>)spellId, sameMapPlr);</div>
+<div class="line"><span class="lineno">  674</span>}</div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:760</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:761</div></div>
+<div class="ttc" id="aa09858_html_a7a4050c8f0413c3fd829ad7d4c9cdb6b"><div class="ttname"><a href="../../d8/dfa/a09858.html#a7a4050c8f0413c3fd829ad7d4c9cdb6b">OutdoorPvP::TeamCastSpell</a></div><div class="ttdeci">void TeamCastSpell(TeamId team, int32 spellId, Player *sameMapPlr=nullptr)</div><div class="ttdef"><b>Definition:</b> OutdoorPvP.cpp:652</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00761">TEAM_HORDE</a>, and <a class="el" href="../../#l00652">TeamCastSpell()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00190">OPvPCapturePointNA::FactionTakeOver()</a>, <a class="el" href="../../#l00090">OutdoorPvPSI::HandleAreaTrigger()</a>, <a class="el" href="../../#l00218">OPvPCapturePointZM_GraveYard::HandleOpenGo()</a>, <a class="el" href="../../#l00119">OutdoorPvPHP::Update()</a>, and <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>.</p>
+
+</div>
+</div>
+<a id="a7a4050c8f0413c3fd829ad7d4c9cdb6b" name="a7a4050c8f0413c3fd829ad7d4c9cdb6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a4050c8f0413c3fd829ad7d4c9cdb6b">&#9670;&#160;</a></span>TeamCastSpell()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void OutdoorPvP::TeamCastSpell </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>team</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>spellId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/dff/a08390.html">Player</a> *&#160;</td>
+          <td class="paramname"><em>sameMapPlr</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  653</span>{</div>
+<div class="line"><span class="lineno">  654</span>    <span class="keywordflow">if</span> (spellId &gt; 0)</div>
+<div class="line"><span class="lineno">  655</span>    {</div>
+<div class="line"><span class="lineno">  656</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>[team])</div>
+<div class="line"><span class="lineno">  657</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* <span class="keyword">const</span> player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(itr))</div>
+<div class="line"><span class="lineno">  658</span>                <span class="keywordflow">if</span> (!sameMapPlr || sameMapPlr-&gt;<a class="code hl_function" href="../../de/d75/a08178.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>() == player-&gt;FindMap())</div>
+<div class="line"><span class="lineno">  659</span>                    player-&gt;CastSpell(player, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)spellId, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  660</span>    }</div>
+<div class="line"><span class="lineno">  661</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  662</span>    {</div>
+<div class="line"><span class="lineno">  663</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr : <a class="code hl_variable" href="../../d8/dfa/a09858.html#a6d4bc806fdfe3032fc2937d34c222466">_players</a>[team])</div>
+<div class="line"><span class="lineno">  664</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* <span class="keyword">const</span> player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(itr))</div>
+<div class="line"><span class="lineno">  665</span>                <span class="keywordflow">if</span> (!sameMapPlr || sameMapPlr-&gt;<a class="code hl_function" href="../../de/d75/a08178.html#a1e43fee59e696ae47ed06191ae3b1b82">FindMap</a>() == player-&gt;FindMap())</div>
+<div class="line"><span class="lineno">  666</span>                    player-&gt;RemoveAura((<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) - spellId); <span class="comment">// by stack?</span></div>
+<div class="line"><span class="lineno">  667</span>    }</div>
+<div class="line"><span class="lineno">  668</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa08178_html_a1e43fee59e696ae47ed06191ae3b1b82"><div class="ttname"><a href="../../de/d75/a08178.html#a1e43fee59e696ae47ed06191ae3b1b82">WorldObject::FindMap</a></div><div class="ttdeci">Map * FindMap() const</div><div class="ttdef"><b>Definition:</b> Object.h:532</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00268">_players</a>, <a class="el" href="../../#l00532">WorldObject::FindMap()</a>, and <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00670">TeamApplyBuff()</a>, <a class="el" href="../../#l00119">OutdoorPvPHP::Update()</a>, and <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>.</p>
+
+</div>
+</div>
+<a id="a2e4aff4223404eb8947c509750e7aa7d" name="a2e4aff4223404eb8947c509750e7aa7d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e4aff4223404eb8947c509750e7aa7d">&#9670;&#160;</a></span>Update()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::Update </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>diff</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented in <a class="el" href="../../d8/d2b/a22142.html#a974910b2f7f2d8cfaf43b6694bf4c2c7">OutdoorPvPEP</a>, <a class="el" href="../../da/dde/a22166.html#aeec44f41e6d6fe7c768bb738a3eafb47">OutdoorPvPHP</a>, <a class="el" href="../../d0/dfc/a22186.html#a4074a96974fe1b5e6d9149c8eee36e71">OutdoorPvPNA</a>, <a class="el" href="../../da/dbe/a22194.html#a56bda08a795a4b0cd1c52ec448920fac">OutdoorPvPSI</a>, <a class="el" href="../../d3/d7e/a22210.html#abc72dff4380cfef895c0cd535e69d5c3">OutdoorPvPTF</a>, and <a class="el" href="../../de/da4/a22230.html#acd93bd13cf330ec86dde30ff9c6306de">OutdoorPvPZM</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  305</span>{</div>
+<div class="line"><span class="lineno">  306</span>    <span class="keywordtype">bool</span> objective_changed = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  307</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; capturePoint : <a class="code hl_variable" href="../../d8/dfa/a09858.html#ab6e8b36ff0b2814c55bf7aae17ae76f0">_capturePoints</a>)</div>
+<div class="line"><span class="lineno">  308</span>    {</div>
+<div class="line"><span class="lineno">  309</span>        <span class="keywordflow">if</span> (capturePoint.second-&gt;Update(diff))</div>
+<div class="line"><span class="lineno">  310</span>            objective_changed = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  311</span>    }</div>
+<div class="line"><span class="lineno">  312</span> </div>
+<div class="line"><span class="lineno">  313</span>    <span class="keywordflow">return</span> objective_changed;</div>
+<div class="line"><span class="lineno">  314</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00267">_capturePoints</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00632">OutdoorPvPEP::Update()</a>, <a class="el" href="../../#l00119">OutdoorPvPHP::Update()</a>, <a class="el" href="../../#l00201">OutdoorPvPTF::Update()</a>, and <a class="el" href="../../#l00133">OutdoorPvPZM::Update()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a346efe38ed68708e66bc606619bd30ef" name="a346efe38ed68708e66bc606619bd30ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a346efe38ed68708e66bc606619bd30ef">&#9670;&#160;</a></span>OutdoorPvPMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">friend class <a class="el" href="../../dd/d94/a09866.html">OutdoorPvPMgr</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab6e8b36ff0b2814c55bf7aae17ae76f0" name="ab6e8b36ff0b2814c55bf7aae17ae76f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e8b36ff0b2814c55bf7aae17ae76f0">&#9670;&#160;</a></span>_capturePoints</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d8/dfa/a09858.html#a3181c871a9c02ffdcce2fdc579481038">OPvPCapturePointMap</a> OutdoorPvP::_capturePoints</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00253">AddCapturePoint()</a>, <a class="el" href="../../#l00578">CanTalkTo()</a>, <a class="el" href="../../#l00244">DeleteSpawns()</a>, <a class="el" href="../../#l00714">OutdoorPvPEP::FillInitialWorldStates()</a>, <a class="el" href="../../#l00156">OutdoorPvPHP::FillInitialWorldStates()</a>, <a class="el" href="../../#l00060">OutdoorPvPTF::FillInitialWorldStates()</a>, <a class="el" href="../../#l00416">OutdoorPvPZM::FillInitialWorldStates()</a>, <a class="el" href="../../#l00728">GetCapturePoint()</a>, <a class="el" href="../../#l00546">HandleCustomSpell()</a>, <a class="el" href="../../#l00587">HandleDropFlag()</a>, <a class="el" href="../../#l00569">HandleGossipOption()</a>, <a class="el" href="../../#l00560">HandleOpenGo()</a>, <a class="el" href="../../#l00282">HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00531">IsInsideObjective()</a>, <a class="el" href="../../#l00122">OutdoorPvPTF::ResetZoneToTeamControlled()</a>, and <a class="el" href="../../#l00304">Update()</a>.</p>
+
+</div>
+</div>
+<a id="a4b295c65350a1fac988ebe2e9937ec86" name="a4b295c65350a1fac988ebe2e9937ec86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b295c65350a1fac988ebe2e9937ec86">&#9670;&#160;</a></span>_creatureScriptStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../d4/d1e/a07774.html">Creature</a>*&gt; OutdoorPvP::_creatureScriptStore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00244">DeleteSpawns()</a>, <a class="el" href="../../#l00707">OnCreatureCreate()</a>, and <a class="el" href="../../#l00713">OnCreatureRemove()</a>.</p>
+
+</div>
+</div>
+<a id="a6613f7d2a606cc81fd57cce25d4157ac" name="a6613f7d2a606cc81fd57cce25d4157ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6613f7d2a606cc81fd57cce25d4157ac">&#9670;&#160;</a></span>_goScriptStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::unordered_map&lt;<a class="el" href="../../d7/d5b/a08194.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>, <a class="el" href="../../da/dc8/a07950.html">GameObject</a>*&gt; OutdoorPvP::_goScriptStore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00244">DeleteSpawns()</a>, <a class="el" href="../../#l00676">OnGameObjectCreate()</a>, and <a class="el" href="../../#l00692">OnGameObjectRemove()</a>.</p>
+
+</div>
+</div>
+<a id="a73862168f52d9bc8881e18e6a8f9ba3f" name="a73862168f52d9bc8881e18e6a8f9ba3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a73862168f52d9bc8881e18e6a8f9ba3f">&#9670;&#160;</a></span>_map</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d53/a09542.html">Map</a>* OutdoorPvP::_map {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00243">GetMap()</a>, and <a class="el" href="../../#l00718">SetMapFromZone()</a>.</p>
+
+</div>
+</div>
+<a id="a6d4bc806fdfe3032fc2937d34c222466" name="a6d4bc806fdfe3032fc2937d34c222466"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d4bc806fdfe3032fc2937d34c222466">&#9670;&#160;</a></span>_players</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt;<a class="el" href="../../d8/df9/a04517.html#a080aeb08f4e15904e94076846a03e927">PlayerSet</a>, 2&gt; OutdoorPvP::_players</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00632">BroadcastPacket()</a>, <a class="el" href="../../#l00685">OutdoorPvPEP::BuffTeams()</a>, <a class="el" href="../../#l00277">HandlePlayerEnterZone()</a>, <a class="el" href="../../#l00282">HandlePlayerLeaveZone()</a>, <a class="el" href="../../#l00646">HasPlayer()</a>, <a class="el" href="../../#l00456">SendUpdateWorldState()</a>, and <a class="el" href="../../#l00652">TeamCastSpell()</a>.</p>
+
+</div>
+</div>
+<a id="a7618fecc9cabd1b1662ff7fb69eaa384" name="a7618fecc9cabd1b1662ff7fb69eaa384"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7618fecc9cabd1b1662ff7fb69eaa384">&#9670;&#160;</a></span>_sendUpdate</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool OutdoorPvP::_sendUpdate { true }</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00456">SendUpdateWorldState()</a>.</p>
+
+</div>
+</div>
+<a id="acdeebabdbc76c568343e5b3afdf65dcb" name="acdeebabdbc76c568343e5b3afdf65dcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdeebabdbc76c568343e5b3afdf65dcb">&#9670;&#160;</a></span>_typeId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> OutdoorPvP::_typeId {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00237">GetTypeId()</a>, <a class="el" href="../../#l00609">OutdoorPvPEP::OutdoorPvPEP()</a>, <a class="el" href="../../#l00026">OutdoorPvPGH::OutdoorPvPGH()</a>, <a class="el" href="../../#l00063">OutdoorPvPHP::OutdoorPvPHP()</a>, <a class="el" href="../../#l00032">OutdoorPvPNA::OutdoorPvPNA()</a>, <a class="el" href="../../#l00032">OutdoorPvPSI::OutdoorPvPSI()</a>, <a class="el" href="../../#l00030">OutdoorPvPTF::OutdoorPvPTF()</a>, and <a class="el" href="../../#l00173">OutdoorPvPZM::OutdoorPvPZM()</a>.</p>
 
 </div>
 </div>
@@ -157,8 +1975,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/dfa/a09858.html">OutdoorPvPData</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/dfa/a09858.html">OutdoorPvP</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

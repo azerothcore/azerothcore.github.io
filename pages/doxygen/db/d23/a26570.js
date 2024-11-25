@@ -1,6 +1,6 @@
 var a26570 =
 [
-    [ "HandleDummy", "db/d23/a26570.html#a68a86f7f86324336dc837622e01fa6af", null ],
-    [ "PrepareSpellScript", "db/d23/a26570.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
-    [ "Register", "db/d23/a26570.html#ad168c9164d1edd23abfbf05141b96de4", null ]
+    [ "HandleHeal", "db/d23/a26570.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "db/d23/a26570.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "db/d23/a26570.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

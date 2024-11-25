@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AddonHandler Class Reference</title>
+<title>AzerothCore: GuildMgr Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,222 +107,67 @@ $(document).ready(function(){initNavTree('dd/dc7/a09278.html','../../'); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pro-types">Protected Types</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d4/d3b/a09275.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AddonHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">GuildMgr Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">AddonHandler.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">GuildMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3e52b0fc5ca99a3f5d83ee6d34e16520"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a3e52b0fc5ca99a3f5d83ee6d34e16520">AddonHandler</a> ()</td></tr>
-<tr class="separator:a3e52b0fc5ca99a3f5d83ee6d34e16520"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e4fc7c1cae505850a907e70a9febbf0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a8e4fc7c1cae505850a907e70a9febbf0">~AddonHandler</a> ()</td></tr>
-<tr class="separator:a8e4fc7c1cae505850a907e70a9febbf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca92dc80033c299daf8e3b42dd24ffea"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#aca92dc80033c299daf8e3b42dd24ffea">BuildAddonPacket</a> (<a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> *Source, <a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> *Target)</td></tr>
-<tr class="separator:aca92dc80033c299daf8e3b42dd24ffea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5198534a243b70104ce17a7871fcfb27"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d44/a09234.html">Guild</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a5198534a243b70104ce17a7871fcfb27">GetGuildByLeader</a> (<a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> guid) const</td></tr>
+<tr class="separator:a5198534a243b70104ce17a7871fcfb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f4586ea6461c6f7165efba2bf666a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d44/a09234.html">Guild</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId) const</td></tr>
+<tr class="separator:a04f4586ea6461c6f7165efba2bf666a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9ff736e84a18d8dfce3826c9459df37"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d44/a09234.html">Guild</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#af9ff736e84a18d8dfce3826c9459df37">GetGuildByName</a> (std::string_view guildName) const</td></tr>
+<tr class="separator:af9ff736e84a18d8dfce3826c9459df37"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad32af675831da389755da5f3e4e47361"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#ad32af675831da389755da5f3e4e47361">GetGuildNameById</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId) const</td></tr>
+<tr class="separator:ad32af675831da389755da5f3e4e47361"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1eb56686e276e11838e9150696b5045"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#ac1eb56686e276e11838e9150696b5045">LoadGuilds</a> ()</td></tr>
+<tr class="separator:ac1eb56686e276e11838e9150696b5045"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b63dae4f2252c452c797b83477d2280"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a5b63dae4f2252c452c797b83477d2280">AddGuild</a> (<a class="el" href="../../db/d44/a09234.html">Guild</a> *guild)</td></tr>
+<tr class="separator:a5b63dae4f2252c452c797b83477d2280"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51728f1c2780cdb105cb35947739cbd7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a51728f1c2780cdb105cb35947739cbd7">RemoveGuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId)</td></tr>
+<tr class="separator:a51728f1c2780cdb105cb35947739cbd7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ad7c4fc3e292e6cecd4964ad22cd135"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a8ad7c4fc3e292e6cecd4964ad22cd135">GenerateGuildId</a> ()</td></tr>
+<tr class="separator:a8ad7c4fc3e292e6cecd4964ad22cd135"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ae88575b7fcb37d4ee1d76f79c0c45"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#ae1ae88575b7fcb37d4ee1d76f79c0c45">SetNextGuildId</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Id)</td></tr>
+<tr class="separator:ae1ae88575b7fcb37d4ee1d76f79c0c45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2670ee42ff5252a879ccc5cbb730833"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#ad2670ee42ff5252a879ccc5cbb730833">ResetTimes</a> ()</td></tr>
+<tr class="separator:ad2670ee42ff5252a879ccc5cbb730833"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2925b829b803dd07e96685086357ef85"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/dc7/a09278.html">AddonHandler</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a2925b829b803dd07e96685086357ef85">instance</a> ()</td></tr>
-<tr class="separator:a2925b829b803dd07e96685086357ef85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef69fd59528ec594c76ae390a4ba05bd"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/dc7/a09278.html">GuildMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#aef69fd59528ec594c76ae390a4ba05bd">instance</a> ()</td></tr>
+<tr class="separator:aef69fd59528ec594c76ae390a4ba05bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
+Protected Types</h2></td></tr>
+<tr class="memitem:aa9afb05ecb2eb6ee427503a4ea76f7ca"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../db/d44/a09234.html">Guild</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#aa9afb05ecb2eb6ee427503a4ea76f7ca">GuildContainer</a></td></tr>
+<tr class="separator:aa9afb05ecb2eb6ee427503a4ea76f7ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a75e150f66ebccfc05824a4f7b66a9210"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">NextGuildId</a></td></tr>
+<tr class="separator:a75e150f66ebccfc05824a4f7b66a9210"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174158d11bf6102462a094ff4a8fa402"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dc7/a09278.html#aa9afb05ecb2eb6ee427503a4ea76f7ca">GuildContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a></td></tr>
+<tr class="separator:a174158d11bf6102462a094ff4a8fa402"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a0d4a44461eb4c54ddb6646dfd1c11a68"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#a0d4a44461eb4c54ddb6646dfd1c11a68">GuildMgr</a> ()</td></tr>
+<tr class="separator:a0d4a44461eb4c54ddb6646dfd1c11a68"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae90afb785961e122afc419a61dfb20c1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dc7/a09278.html#ae90afb785961e122afc419a61dfb20c1">~GuildMgr</a> ()</td></tr>
+<tr class="separator:ae90afb785961e122afc419a61dfb20c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a3e52b0fc5ca99a3f5d83ee6d34e16520" name="a3e52b0fc5ca99a3f5d83ee6d34e16520"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3e52b0fc5ca99a3f5d83ee6d34e16520">&#9670;&#160;</a></span>AddonHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">AddonHandler::AddonHandler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a8e4fc7c1cae505850a907e70a9febbf0" name="a8e4fc7c1cae505850a907e70a9febbf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e4fc7c1cae505850a907e70a9febbf0">&#9670;&#160;</a></span>~AddonHandler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">AddonHandler::~AddonHandler </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   28</span>{</div>
-<div class="line"><span class="lineno">   29</span>}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aca92dc80033c299daf8e3b42dd24ffea" name="aca92dc80033c299daf8e3b42dd24ffea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca92dc80033c299daf8e3b42dd24ffea">&#9670;&#160;</a></span>BuildAddonPacket()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool AddonHandler::BuildAddonPacket </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> *&#160;</td>
-          <td class="paramname"><em>Source</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d90/a10698.html">WorldPacket</a> *&#160;</td>
-          <td class="paramname"><em>Target</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_class" href="../../d5/d2c/a28094.html">ByteBuffer</a> AddOnPacked;</div>
-<div class="line"><span class="lineno">   40</span>    uLongf AddonRealSize;</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> CurrentPosition;</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> TempValue;</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="comment">// broken addon packet, can&#39;t be received from real client</span></div>
-<div class="line"><span class="lineno">   45</span>    <span class="keywordflow">if</span> (Source-&gt;<a class="code hl_function" href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">rpos</a>() + 4 &gt; Source-&gt;<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>())</div>
-<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>    *Source &gt;&gt; TempValue;                                   <span class="comment">// get real size of the packed structure</span></div>
-<div class="line"><span class="lineno">   49</span> </div>
-<div class="line"><span class="lineno">   50</span>    <span class="comment">// empty addon packet, nothing process, can&#39;t be received from real client</span></div>
-<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">if</span> (!TempValue)</div>
-<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   53</span> </div>
-<div class="line"><span class="lineno">   54</span>    AddonRealSize = TempValue;                              <span class="comment">// temp value because ZLIB only excepts uLongf</span></div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>    CurrentPosition = Source-&gt;<a class="code hl_function" href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">rpos</a>();                       <span class="comment">// get the position of the pointer in the structure</span></div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>    AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#ac7b8a563946443354563733ffbcc7bf5">resize</a>(AddonRealSize);                      <span class="comment">// resize target for zlib action</span></div>
-<div class="line"><span class="lineno">   59</span> </div>
-<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (uncompress(<span class="keyword">const_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*<span class="keyword">&gt;</span>(AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#af0e8fd90f17049711204ae51a4ac86e4">contents</a>()), &amp;AddonRealSize, <span class="keyword">const_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>*<span class="keyword">&gt;</span>((*Source).contents() + CurrentPosition), (*Source).size() - CurrentPosition) == Z_OK)</div>
-<div class="line"><span class="lineno">   61</span>    {</div>
-<div class="line"><span class="lineno">   62</span>        Target-&gt;<a class="code hl_function" href="../../d0/d90/a10698.html#a6b7d58fb0230383629fa888d3aa9dbd8">Initialize</a>(<a class="code hl_enumvalue" href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba0c9f404b0b551c6bda8a96ab259c25a2">SMSG_ADDON_INFO</a>);</div>
-<div class="line"><span class="lineno">   63</span> </div>
-<div class="line"><span class="lineno">   64</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> addonsCount;</div>
-<div class="line"><span class="lineno">   65</span>        AddOnPacked &gt;&gt; addonsCount;                         <span class="comment">// addons count?</span></div>
-<div class="line"><span class="lineno">   66</span> </div>
-<div class="line"><span class="lineno">   67</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; addonsCount; ++i)</div>
-<div class="line"><span class="lineno">   68</span>        {</div>
-<div class="line"><span class="lineno">   69</span>            std::string addonName;</div>
-<div class="line"><span class="lineno">   70</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> enabled;</div>
-<div class="line"><span class="lineno">   71</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> crc, unk2;</div>
-<div class="line"><span class="lineno">   72</span> </div>
-<div class="line"><span class="lineno">   73</span>            <span class="comment">// check next addon data format correctness</span></div>
-<div class="line"><span class="lineno">   74</span>            <span class="keywordflow">if</span> (AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">rpos</a>() + 1 &gt; AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>())</div>
-<div class="line"><span class="lineno">   75</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   76</span> </div>
-<div class="line"><span class="lineno">   77</span>            AddOnPacked &gt;&gt; addonName;</div>
-<div class="line"><span class="lineno">   78</span> </div>
-<div class="line"><span class="lineno">   79</span>            <span class="comment">// recheck next addon data format correctness</span></div>
-<div class="line"><span class="lineno">   80</span>            <span class="keywordflow">if</span> (AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">rpos</a>() + 1 + 4 + 4 &gt; AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>())</div>
-<div class="line"><span class="lineno">   81</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   82</span> </div>
-<div class="line"><span class="lineno">   83</span>            AddOnPacked &gt;&gt; enabled &gt;&gt; crc &gt;&gt; unk2;</div>
-<div class="line"><span class="lineno">   84</span> </div>
-<div class="line"><span class="lineno">   85</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;ADDON: Name: {}, Enabled: 0x{:x}, CRC: 0x{:x}, Unknown2: 0x{:x}&quot;</span>, addonName, enabled, crc, unk2);</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> state = (enabled ? 2 : 1);</div>
-<div class="line"><span class="lineno">   88</span>            *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(state);</div>
-<div class="line"><span class="lineno">   89</span> </div>
-<div class="line"><span class="lineno">   90</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> unk1 = (enabled ? 1 : 0);</div>
-<div class="line"><span class="lineno">   91</span>            *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(unk1);</div>
-<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">if</span> (unk1)</div>
-<div class="line"><span class="lineno">   93</span>            {</div>
-<div class="line"><span class="lineno">   94</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> unk = (crc != 0x4c1c776d);           <span class="comment">// If addon is Standard addon CRC</span></div>
-<div class="line"><span class="lineno">   95</span>                *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(unk);</div>
-<div class="line"><span class="lineno">   96</span>                <span class="keywordflow">if</span> (unk)</div>
-<div class="line"><span class="lineno">   97</span>                {</div>
-<div class="line"><span class="lineno">   98</span>                    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> tdata[256] =</div>
-<div class="line"><span class="lineno">   99</span>                    {</div>
-<div class="line"><span class="lineno">  100</span>                        0xC3, 0x5B, 0x50, 0x84, 0xB9, 0x3E, 0x32, 0x42, 0x8C, 0xD0, 0xC7, 0x48, 0xFA, 0x0E, 0x5D, 0x54,</div>
-<div class="line"><span class="lineno">  101</span>                        0x5A, 0xA3, 0x0E, 0x14, 0xBA, 0x9E, 0x0D, 0xB9, 0x5D, 0x8B, 0xEE, 0xB6, 0x84, 0x93, 0x45, 0x75,</div>
-<div class="line"><span class="lineno">  102</span>                        0xFF, 0x31, 0xFE, 0x2F, 0x64, 0x3F, 0x3D, 0x6D, 0x07, 0xD9, 0x44, 0x9B, 0x40, 0x85, 0x59, 0x34,</div>
-<div class="line"><span class="lineno">  103</span>                        0x4E, 0x10, 0xE1, 0xE7, 0x43, 0x69, 0xEF, 0x7C, 0x16, 0xFC, 0xB4, 0xED, 0x1B, 0x95, 0x28, 0xA8,</div>
-<div class="line"><span class="lineno">  104</span>                        0x23, 0x76, 0x51, 0x31, 0x57, 0x30, 0x2B, 0x79, 0x08, 0x50, 0x10, 0x1C, 0x4A, 0x1A, 0x2C, 0xC8,</div>
-<div class="line"><span class="lineno">  105</span>                        0x8B, 0x8F, 0x05, 0x2D, 0x22, 0x3D, 0xDB, 0x5A, 0x24, 0x7A, 0x0F, 0x13, 0x50, 0x37, 0x8F, 0x5A,</div>
-<div class="line"><span class="lineno">  106</span>                        0xCC, 0x9E, 0x04, 0x44, 0x0E, 0x87, 0x01, 0xD4, 0xA3, 0x15, 0x94, 0x16, 0x34, 0xC6, 0xC2, 0xC3,</div>
-<div class="line"><span class="lineno">  107</span>                        0xFB, 0x49, 0xFE, 0xE1, 0xF9, 0xDA, 0x8C, 0x50, 0x3C, 0xBE, 0x2C, 0xBB, 0x57, 0xED, 0x46, 0xB9,</div>
-<div class="line"><span class="lineno">  108</span>                        0xAD, 0x8B, 0xC6, 0xDF, 0x0E, 0xD6, 0x0F, 0xBE, 0x80, 0xB3, 0x8B, 0x1E, 0x77, 0xCF, 0xAD, 0x22,</div>
-<div class="line"><span class="lineno">  109</span>                        0xCF, 0xB7, 0x4B, 0xCF, 0xFB, 0xF0, 0x6B, 0x11, 0x45, 0x2D, 0x7A, 0x81, 0x18, 0xF2, 0x92, 0x7E,</div>
-<div class="line"><span class="lineno">  110</span>                        0x98, 0x56, 0x5D, 0x5E, 0x69, 0x72, 0x0A, 0x0D, 0x03, 0x0A, 0x85, 0xA2, 0x85, 0x9C, 0xCB, 0xFB,</div>
-<div class="line"><span class="lineno">  111</span>                        0x56, 0x6E, 0x8F, 0x44, 0xBB, 0x8F, 0x02, 0x22, 0x68, 0x63, 0x97, 0xBC, 0x85, 0xBA, 0xA8, 0xF7,</div>
-<div class="line"><span class="lineno">  112</span>                        0xB5, 0x40, 0x68, 0x3C, 0x77, 0x86, 0x6F, 0x4B, 0xD7, 0x88, 0xCA, 0x8A, 0xD7, 0xCE, 0x36, 0xF0,</div>
-<div class="line"><span class="lineno">  113</span>                        0x45, 0x6E, 0xD5, 0x64, 0x79, 0x0F, 0x17, 0xFC, 0x64, 0xDD, 0x10, 0x6F, 0xF3, 0xF5, 0xE0, 0xA6,</div>
-<div class="line"><span class="lineno">  114</span>                        0xC3, 0xFB, 0x1B, 0x8C, 0x29, 0xEF, 0x8E, 0xE5, 0x34, 0xCB, 0xD1, 0x2A, 0xCE, 0x79, 0xC3, 0x9A,</div>
-<div class="line"><span class="lineno">  115</span>                        0x0D, 0x36, 0xEA, 0x01, 0xE0, 0xAA, 0x91, 0x20, 0x54, 0xF0, 0x72, 0xD8, 0x1E, 0xC7, 0x89, 0xD2</div>
-<div class="line"><span class="lineno">  116</span>                    };</div>
-<div class="line"><span class="lineno">  117</span>                    Target-&gt;<a class="code hl_function" href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(tdata, <span class="keyword">sizeof</span>(tdata));</div>
-<div class="line"><span class="lineno">  118</span>                }</div>
-<div class="line"><span class="lineno">  119</span> </div>
-<div class="line"><span class="lineno">  120</span>                *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);</div>
-<div class="line"><span class="lineno">  121</span>            }</div>
-<div class="line"><span class="lineno">  122</span> </div>
-<div class="line"><span class="lineno">  123</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> unk3 = (enabled ? 0 : 1);</div>
-<div class="line"><span class="lineno">  124</span>            *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(unk3);</div>
-<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">if</span> (unk3)</div>
-<div class="line"><span class="lineno">  126</span>            {</div>
-<div class="line"><span class="lineno">  127</span>                <span class="comment">// String, 256 (null terminated?)</span></div>
-<div class="line"><span class="lineno">  128</span>                *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(0);</div>
-<div class="line"><span class="lineno">  129</span>            }</div>
-<div class="line"><span class="lineno">  130</span>        }</div>
-<div class="line"><span class="lineno">  131</span> </div>
-<div class="line"><span class="lineno">  132</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> unk4;</div>
-<div class="line"><span class="lineno">  133</span>        AddOnPacked &gt;&gt; unk4;</div>
-<div class="line"><span class="lineno">  134</span> </div>
-<div class="line"><span class="lineno">  135</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
-<div class="line"><span class="lineno">  136</span>        *Target &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(count);</div>
-<div class="line"><span class="lineno">  137</span> </div>
-<div class="line"><span class="lineno">  138</span>        <span class="keywordflow">if</span> (AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">rpos</a>() != AddOnPacked.<a class="code hl_function" href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">size</a>())</div>
-<div class="line"><span class="lineno">  139</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;packet under read!&quot;</span>);</div>
-<div class="line"><span class="lineno">  140</span>    }</div>
-<div class="line"><span class="lineno">  141</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  142</span>    {</div>
-<div class="line"><span class="lineno">  143</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;network&quot;</span>, <span class="stringliteral">&quot;Addon packet uncompress error :(&quot;</span>);</div>
-<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  145</span>    }</div>
-<div class="line"><span class="lineno">  146</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  147</span>}</div>
-<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
-<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa04680_html_gga1073b6abb3a749f18bf1633020879e9ba0c9f404b0b551c6bda8a96ab259c25a2"><div class="ttname"><a href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba0c9f404b0b551c6bda8a96ab259c25a2">SMSG_ADDON_INFO</a></div><div class="ttdeci">@ SMSG_ADDON_INFO</div><div class="ttdef"><b>Definition:</b> Opcodes.h:781</div></div>
-<div class="ttc" id="aa10698_html_a6b7d58fb0230383629fa888d3aa9dbd8"><div class="ttname"><a href="../../d0/d90/a10698.html#a6b7d58fb0230383629fa888d3aa9dbd8">WorldPacket::Initialize</a></div><div class="ttdeci">void Initialize(uint16 opcode, std::size_t newres=200)</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:68</div></div>
-<div class="ttc" id="aa28094_html"><div class="ttname"><a href="../../d5/d2c/a28094.html">ByteBuffer</a></div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:70</div></div>
-<div class="ttc" id="aa28094_html_a0be375370879a95ef6ec68cc8916ab61"><div class="ttname"><a href="../../d5/d2c/a28094.html#a0be375370879a95ef6ec68cc8916ab61">ByteBuffer::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:444</div></div>
-<div class="ttc" id="aa28094_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../d5/d2c/a28094.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
-<div class="ttc" id="aa28094_html_a7077cbe8c1b3983a4f3faa4b1f61af29"><div class="ttname"><a href="../../d5/d2c/a28094.html#a7077cbe8c1b3983a4f3faa4b1f61af29">ByteBuffer::rpos</a></div><div class="ttdeci">std::size_t rpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:317</div></div>
-<div class="ttc" id="aa28094_html_ac7b8a563946443354563733ffbcc7bf5"><div class="ttname"><a href="../../d5/d2c/a28094.html#ac7b8a563946443354563733ffbcc7bf5">ByteBuffer::resize</a></div><div class="ttdeci">void resize(std::size_t newsize)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:447</div></div>
-<div class="ttc" id="aa28094_html_af0e8fd90f17049711204ae51a4ac86e4"><div class="ttname"><a href="../../d5/d2c/a28094.html#af0e8fd90f17049711204ae51a4ac86e4">ByteBuffer::contents</a></div><div class="ttdeci">uint8 * contents()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:424</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00424">ByteBuffer::contents()</a>, <a class="el" href="../../#l00068">WorldPacket::Initialize()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00447">ByteBuffer::resize()</a>, <a class="el" href="../../#l00317">ByteBuffer::rpos()</a>, <a class="el" href="../../#l00444">ByteBuffer::size()</a>, and <a class="el" href="../../#l00781">SMSG_ADDON_INFO</a>.</p>
-
-</div>
-</div>
-<a id="a2925b829b803dd07e96685086357ef85" name="a2925b829b803dd07e96685086357ef85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2925b829b803dd07e96685086357ef85">&#9670;&#160;</a></span>instance()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="aa9afb05ecb2eb6ee427503a4ea76f7ca" name="aa9afb05ecb2eb6ee427503a4ea76f7ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9afb05ecb2eb6ee427503a4ea76f7ca">&#9670;&#160;</a></span>GuildContainer</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,7 +176,259 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dc7/a09278.html">AddonHandler</a> * AddonHandler::instance </td>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../db/d44/a09234.html">Guild</a>*&gt; <a class="el" href="../../dd/dc7/a09278.html#aa9afb05ecb2eb6ee427503a4ea76f7ca">GuildMgr::GuildContainer</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0d4a44461eb4c54ddb6646dfd1c11a68" name="a0d4a44461eb4c54ddb6646dfd1c11a68"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d4a44461eb4c54ddb6646dfd1c11a68">&#9670;&#160;</a></span>GuildMgr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GuildMgr::GuildMgr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   21</span>                   : <a class="code hl_variable" href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">NextGuildId</a>(1)</div>
+<div class="line"><span class="lineno">   22</span>{ }</div>
+<div class="ttc" id="aa09278_html_a75e150f66ebccfc05824a4f7b66a9210"><div class="ttname"><a href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">GuildMgr::NextGuildId</a></div><div class="ttdeci">uint32 NextGuildId</div><div class="ttdef"><b>Definition:</b> GuildMgr.h:47</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae90afb785961e122afc419a61dfb20c1" name="ae90afb785961e122afc419a61dfb20c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae90afb785961e122afc419a61dfb20c1">&#9670;&#160;</a></span>~GuildMgr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GuildMgr::~GuildMgr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
+<div class="line"><span class="lineno">   26</span>    <span class="keywordflow">for</span> (GuildContainer::iterator itr = <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.begin(); itr != <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">   27</span>        <span class="keyword">delete</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">   28</span>}</div>
+<div class="ttc" id="aa09278_html_a174158d11bf6102462a094ff4a8fa402"><div class="ttname"><a href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildMgr::GuildStore</a></div><div class="ttdeci">GuildContainer GuildStore</div><div class="ttdef"><b>Definition:</b> GuildMgr.h:48</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5b63dae4f2252c452c797b83477d2280" name="a5b63dae4f2252c452c797b83477d2280"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b63dae4f2252c452c797b83477d2280">&#9670;&#160;</a></span>AddGuild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuildMgr::AddGuild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d44/a09234.html">Guild</a> *&#160;</td>
+          <td class="paramname"><em>guild</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>[guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a66dfb8bfc30bb82d9d4361467ef8b8d5">GetId</a>()] = guild;</div>
+<div class="line"><span class="lineno">   39</span>}</div>
+<div class="ttc" id="aa09234_html_a66dfb8bfc30bb82d9d4361467ef8b8d5"><div class="ttname"><a href="../../db/d44/a09234.html#a66dfb8bfc30bb82d9d4361467ef8b8d5">Guild::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> Guild.h:686</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00686">Guild::GetId()</a>, and <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00092">LoadGuilds()</a>.</p>
+
+</div>
+</div>
+<a id="a8ad7c4fc3e292e6cecd4964ad22cd135" name="a8ad7c4fc3e292e6cecd4964ad22cd135"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ad7c4fc3e292e6cecd4964ad22cd135">&#9670;&#160;</a></span>GenerateGuildId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GuildMgr::GenerateGuildId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{</div>
+<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">NextGuildId</a> &gt;= 0xFFFFFFFE)</div>
+<div class="line"><span class="lineno">   49</span>    {</div>
+<div class="line"><span class="lineno">   50</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.worldserver&quot;</span>, <span class="stringliteral">&quot;Guild ids overflow!! Can&#39;t continue, shutting down server.&quot;</span>);</div>
+<div class="line"><span class="lineno">   51</span>        <a class="code hl_function" href="../../db/d2f/a11278.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a>(<a class="code hl_enumvalue" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a>);</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">NextGuildId</a>++;</div>
+<div class="line"><span class="lineno">   54</span>}</div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa04681_html_gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08"><div class="ttname"><a href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a></div><div class="ttdeci">@ ERROR_EXIT_CODE</div><div class="ttdef"><b>Definition:</b> World.h:54</div></div>
+<div class="ttc" id="aa11278_html_ab0c53f76dd85fb0f2dcfc29b33291d9d"><div class="ttname"><a href="../../db/d2f/a11278.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a></div><div class="ttdeci">static void StopNow(uint8 exitcode)</div><div class="ttdef"><b>Definition:</b> World.h:253</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00054">ERROR_EXIT_CODE</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00047">NextGuildId</a>, and <a class="el" href="../../#l00253">World::StopNow()</a>.</p>
+
+</div>
+</div>
+<a id="a04f4586ea6461c6f7165efba2bf666a1" name="a04f4586ea6461c6f7165efba2bf666a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f4586ea6461c6f7165efba2bf666a1">&#9670;&#160;</a></span>GetGuildById()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d44/a09234.html">Guild</a> * GuildMgr::GetGuildById </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>guildId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    GuildContainer::const_iterator itr = <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.find(guildId);</div>
+<div class="line"><span class="lineno">   60</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.end())</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">   62</span> </div>
+<div class="line"><span class="lineno">   63</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   64</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00075">GetGuildNameById()</a>, and <a class="el" href="../../#l00092">LoadGuilds()</a>.</p>
+
+</div>
+</div>
+<a id="a5198534a243b70104ce17a7871fcfb27" name="a5198534a243b70104ce17a7871fcfb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5198534a243b70104ce17a7871fcfb27">&#9670;&#160;</a></span>GetGuildByLeader()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d44/a09234.html">Guild</a> * GuildMgr::GetGuildByLeader </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{</div>
+<div class="line"><span class="lineno">   85</span>    <span class="keywordflow">for</span> (GuildContainer::const_iterator itr = <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.begin(); itr != <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">   86</span>        <span class="keywordflow">if</span> (itr-&gt;second-&gt;GetLeaderGUID() == guid)</div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">return</span> itr-&gt;second;</div>
+<div class="line"><span class="lineno">   88</span> </div>
+<div class="line"><span class="lineno">   89</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   90</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+</div>
+</div>
+<a id="af9ff736e84a18d8dfce3826c9459df37" name="af9ff736e84a18d8dfce3826c9459df37"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9ff736e84a18d8dfce3826c9459df37">&#9670;&#160;</a></span>GetGuildByName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../db/d44/a09234.html">Guild</a> * GuildMgr::GetGuildByName </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>guildName</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [<span class="keywordtype">id</span>, guild] : <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>)</div>
+<div class="line"><span class="lineno">   69</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/dee/a00383.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(guild-&gt;GetName(), guildName))</div>
+<div class="line"><span class="lineno">   70</span>            <span class="keywordflow">return</span> guild;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+<div class="ttc" id="aa00383_html_a131b997858d0d4c6825222d64948db73"><div class="ttname"><a href="../../da/dee/a00383.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a></div><div class="ttdeci">bool StringEqualI(std::string_view a, std::string_view b)</div><div class="ttdef"><b>Definition:</b> Util.cpp:592</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">GuildStore</a>, and <a class="el" href="../../#l00592">StringEqualI()</a>.</p>
+
+</div>
+</div>
+<a id="ad32af675831da389755da5f3e4e47361" name="ad32af675831da389755da5f3e4e47361"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad32af675831da389755da5f3e4e47361">&#9670;&#160;</a></span>GetGuildNameById()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string GuildMgr::GetGuildNameById </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>guildId</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   76</span>{</div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> guild-&gt;GetName();</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;&quot;</span>;</div>
+<div class="line"><span class="lineno">   81</span>}</div>
+<div class="ttc" id="aa09234_html"><div class="ttname"><a href="../../db/d44/a09234.html">Guild</a></div><div class="ttdef"><b>Definition:</b> Guild.h:292</div></div>
+<div class="ttc" id="aa09278_html_a04f4586ea6461c6f7165efba2bf666a1"><div class="ttname"><a href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GuildMgr::GetGuildById</a></div><div class="ttdeci">Guild * GetGuildById(uint32 guildId) const</div><div class="ttdef"><b>Definition:</b> GuildMgr.cpp:57</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00057">GetGuildById()</a>.</p>
+
+</div>
+</div>
+<a id="aef69fd59528ec594c76ae390a4ba05bd" name="aef69fd59528ec594c76ae390a4ba05bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef69fd59528ec594c76ae390a4ba05bd">&#9670;&#160;</a></span>instance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc7/a09278.html">GuildMgr</a> * GuildMgr::instance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -343,16 +440,497 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../dd/dc7/a09278.html">AddonHandler</a> <a class="code hl_function" href="../../dd/dc7/a09278.html#a2925b829b803dd07e96685086357ef85">instance</a>;</div>
-<div class="line"><span class="lineno">   34</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../dd/dc7/a09278.html#a2925b829b803dd07e96685086357ef85">instance</a>;</div>
-<div class="line"><span class="lineno">   35</span>}</div>
-<div class="ttc" id="aa09278_html"><div class="ttname"><a href="../../dd/dc7/a09278.html">AddonHandler</a></div><div class="ttdef"><b>Definition:</b> AddonHandler.h:24</div></div>
-<div class="ttc" id="aa09278_html_a2925b829b803dd07e96685086357ef85"><div class="ttname"><a href="../../dd/dc7/a09278.html#a2925b829b803dd07e96685086357ef85">AddonHandler::instance</a></div><div class="ttdeci">static AddonHandler * instance()</div><div class="ttdef"><b>Definition:</b> AddonHandler.cpp:31</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../dd/dc7/a09278.html">GuildMgr</a> <a class="code hl_function" href="../../dd/dc7/a09278.html#aef69fd59528ec594c76ae390a4ba05bd">instance</a>;</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../dd/dc7/a09278.html#aef69fd59528ec594c76ae390a4ba05bd">instance</a>;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+<div class="ttc" id="aa09278_html"><div class="ttname"><a href="../../dd/dc7/a09278.html">GuildMgr</a></div><div class="ttdef"><b>Definition:</b> GuildMgr.h:24</div></div>
+<div class="ttc" id="aa09278_html_aef69fd59528ec594c76ae390a4ba05bd"><div class="ttname"><a href="../../dd/dc7/a09278.html#aef69fd59528ec594c76ae390a4ba05bd">GuildMgr::instance</a></div><div class="ttdeci">static GuildMgr * instance()</div><div class="ttdef"><b>Definition:</b> GuildMgr.cpp:30</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">instance()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00030">instance()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00031">instance()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00030">instance()</a>.</p>
+
+</div>
+</div>
+<a id="ac1eb56686e276e11838e9150696b5045" name="ac1eb56686e276e11838e9150696b5045"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1eb56686e276e11838e9150696b5045">&#9670;&#160;</a></span>LoadGuilds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuildMgr::LoadGuilds </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   93</span>{</div>
+<div class="line"><span class="lineno">   94</span>    <span class="comment">// 1. Load all guilds</span></div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guilds Definitions...&quot;</span>);</div>
+<div class="line"><span class="lineno">   96</span>    {</div>
+<div class="line"><span class="lineno">   97</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">   98</span> </div>
+<div class="line"><span class="lineno">   99</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE g FROM guild g LEFT JOIN guild_member gm ON g.guildid = gm.guildid WHERE gm.guildid IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>        <span class="comment">//          0          1       2             3              4              5              6</span></div>
+<div class="line"><span class="lineno">  102</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT g.guildid, g.name, g.leaderguid, g.EmblemStyle, g.EmblemColor, g.BorderStyle, g.BorderColor, &quot;</span></div>
+<div class="line"><span class="lineno">  103</span>                             <span class="comment">//   7                  8       9       10            11           12</span></div>
+<div class="line"><span class="lineno">  104</span>                             <span class="stringliteral">&quot;g.BackgroundColor, g.info, g.motd, g.createdate, g.BankMoney, COUNT(gbt.guildid) &quot;</span></div>
+<div class="line"><span class="lineno">  105</span>                             <span class="stringliteral">&quot;FROM guild g LEFT JOIN guild_bank_tab gbt ON g.guildid = gbt.guildid GROUP BY g.guildid ORDER BY g.guildid ASC&quot;</span>);</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild definitions. DB table `guild` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  110</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  111</span>        }</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  113</span>        {</div>
+<div class="line"><span class="lineno">  114</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  115</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  116</span>            {</div>
+<div class="line"><span class="lineno">  117</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  118</span>                <a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <span class="keyword">new</span> <a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>();</div>
+<div class="line"><span class="lineno">  119</span> </div>
+<div class="line"><span class="lineno">  120</span>                <span class="keywordflow">if</span> (!guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a65d2171d25a676929402a800eb7a3e6a">LoadFromDB</a>(fields))</div>
+<div class="line"><span class="lineno">  121</span>                {</div>
+<div class="line"><span class="lineno">  122</span>                    <span class="keyword">delete</span> guild;</div>
+<div class="line"><span class="lineno">  123</span>                    <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  124</span>                }</div>
+<div class="line"><span class="lineno">  125</span> </div>
+<div class="line"><span class="lineno">  126</span>                <a class="code hl_function" href="../../dd/dc7/a09278.html#a5b63dae4f2252c452c797b83477d2280">AddGuild</a>(guild);</div>
+<div class="line"><span class="lineno">  127</span> </div>
+<div class="line"><span class="lineno">  128</span>                ++count;</div>
+<div class="line"><span class="lineno">  129</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  130</span> </div>
+<div class="line"><span class="lineno">  131</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild definitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  132</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  133</span>        }</div>
+<div class="line"><span class="lineno">  134</span>    }</div>
+<div class="line"><span class="lineno">  135</span> </div>
+<div class="line"><span class="lineno">  136</span>    <span class="comment">// 2. Load all guild ranks</span></div>
+<div class="line"><span class="lineno">  137</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guild Ranks...&quot;</span>);</div>
+<div class="line"><span class="lineno">  138</span>    {</div>
+<div class="line"><span class="lineno">  139</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  140</span> </div>
+<div class="line"><span class="lineno">  141</span>        <span class="comment">// Delete orphaned guild rank entries before loading the valid ones</span></div>
+<div class="line"><span class="lineno">  142</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gr FROM guild_rank gr LEFT JOIN guild g ON gr.guildId = g.guildId WHERE g.guildId IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  143</span> </div>
+<div class="line"><span class="lineno">  144</span>        <span class="comment">//                                                         0    1      2       3                4</span></div>
+<div class="line"><span class="lineno">  145</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, rid, rname, rights, BankMoneyPerDay FROM guild_rank ORDER BY guildid ASC, rid ASC&quot;</span>);</div>
+<div class="line"><span class="lineno">  146</span> </div>
+<div class="line"><span class="lineno">  147</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  148</span>        {</div>
+<div class="line"><span class="lineno">  149</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild ranks. DB table `guild_rank` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  150</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  151</span>        }</div>
+<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  153</span>        {</div>
+<div class="line"><span class="lineno">  154</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  156</span>            {</div>
+<div class="line"><span class="lineno">  157</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  158</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  161</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#af805b19f736df4c51bacbf96a8e5d38c">LoadRankFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>                ++count;</div>
+<div class="line"><span class="lineno">  164</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  165</span> </div>
+<div class="line"><span class="lineno">  166</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild ranks in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  167</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  168</span>        }</div>
+<div class="line"><span class="lineno">  169</span>    }</div>
+<div class="line"><span class="lineno">  170</span> </div>
+<div class="line"><span class="lineno">  171</span>    <span class="comment">// 3. Load all guild members</span></div>
+<div class="line"><span class="lineno">  172</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guild Members...&quot;</span>);</div>
+<div class="line"><span class="lineno">  173</span>    {</div>
+<div class="line"><span class="lineno">  174</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  175</span> </div>
+<div class="line"><span class="lineno">  176</span>        <span class="comment">// Delete orphaned guild member entries before loading the valid ones</span></div>
+<div class="line"><span class="lineno">  177</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gm FROM guild_member gm LEFT JOIN guild g ON gm.guildId = g.guildId WHERE g.guildId IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gm FROM guild_member_withdraw gm LEFT JOIN guild_member g ON gm.guid = g.guid WHERE g.guid IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  179</span> </div>
+<div class="line"><span class="lineno">  180</span>        <span class="comment">//           0        1         2     3      4        5       6       7       8       9       10</span></div>
+<div class="line"><span class="lineno">  181</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, gm.guid, `rank`, pnote, offnote, w.tab0, w.tab1, w.tab2, w.tab3, w.tab4, w.tab5, &quot;</span></div>
+<div class="line"><span class="lineno">  182</span>                          <span class="comment">// 11        12      13       14       15        16      17         18</span></div>
+<div class="line"><span class="lineno">  183</span>                             <span class="stringliteral">&quot;w.money, c.name, c.level, c.class, c.gender, c.zone, c.account, c.logout_time &quot;</span></div>
+<div class="line"><span class="lineno">  184</span>                             <span class="stringliteral">&quot;FROM guild_member gm &quot;</span></div>
+<div class="line"><span class="lineno">  185</span>                             <span class="stringliteral">&quot;LEFT JOIN guild_member_withdraw w ON gm.guid = w.guid &quot;</span></div>
+<div class="line"><span class="lineno">  186</span>                             <span class="stringliteral">&quot;LEFT JOIN characters c ON c.guid = gm.guid ORDER BY guildid ASC&quot;</span>);</div>
+<div class="line"><span class="lineno">  187</span> </div>
+<div class="line"><span class="lineno">  188</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  189</span>        {</div>
+<div class="line"><span class="lineno">  190</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild members. DB table `guild_member` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  191</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  192</span>        }</div>
+<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  194</span>        {</div>
+<div class="line"><span class="lineno">  195</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  196</span> </div>
+<div class="line"><span class="lineno">  197</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  198</span>            {</div>
+<div class="line"><span class="lineno">  199</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  200</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  201</span> </div>
+<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  203</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a36f774ba251d421ed0a6050b51babbb0">LoadMemberFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  204</span> </div>
+<div class="line"><span class="lineno">  205</span>                ++count;</div>
+<div class="line"><span class="lineno">  206</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  207</span> </div>
+<div class="line"><span class="lineno">  208</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild members int {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  209</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  210</span>        }</div>
+<div class="line"><span class="lineno">  211</span>    }</div>
+<div class="line"><span class="lineno">  212</span> </div>
+<div class="line"><span class="lineno">  213</span>    <span class="comment">// 4. Load all guild bank tab rights</span></div>
+<div class="line"><span class="lineno">  214</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Bank Tab Rights...&quot;</span>);</div>
+<div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  217</span> </div>
+<div class="line"><span class="lineno">  218</span>        <span class="comment">// Delete orphaned guild bank right entries before loading the valid ones</span></div>
+<div class="line"><span class="lineno">  219</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gbr FROM guild_bank_right gbr LEFT JOIN guild g ON gbr.guildId = g.guildId WHERE g.guildId IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  220</span> </div>
+<div class="line"><span class="lineno">  221</span>        <span class="comment">//      0        1      2    3        4</span></div>
+<div class="line"><span class="lineno">  222</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, TabId, rid, gbright, SlotPerDay FROM guild_bank_right ORDER BY guildid ASC, TabId ASC&quot;</span>);</div>
+<div class="line"><span class="lineno">  223</span> </div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  225</span>        {</div>
+<div class="line"><span class="lineno">  226</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild bank tab rights. DB table `guild_bank_right` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  227</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  228</span>        }</div>
+<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  230</span>        {</div>
+<div class="line"><span class="lineno">  231</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  232</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  233</span>            {</div>
+<div class="line"><span class="lineno">  234</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  235</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  236</span> </div>
+<div class="line"><span class="lineno">  237</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  238</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a2083addbe913158d6e369d72c1f4444a">LoadBankRightFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>                ++count;</div>
+<div class="line"><span class="lineno">  241</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  242</span> </div>
+<div class="line"><span class="lineno">  243</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} bank tab rights in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  244</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  245</span>        }</div>
+<div class="line"><span class="lineno">  246</span>    }</div>
+<div class="line"><span class="lineno">  247</span> </div>
+<div class="line"><span class="lineno">  248</span>    <span class="comment">// 5. Load all event logs</span></div>
+<div class="line"><span class="lineno">  249</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guild Event Logs...&quot;</span>);</div>
+<div class="line"><span class="lineno">  250</span>    {</div>
+<div class="line"><span class="lineno">  251</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  252</span> </div>
+<div class="line"><span class="lineno">  253</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM guild_eventlog WHERE LogGuid &gt; {}&quot;</span>, <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a0c5487ab169b56e43bfbd93857d79e68">CONFIG_GUILD_EVENT_LOG_COUNT</a>));</div>
+<div class="line"><span class="lineno">  254</span> </div>
+<div class="line"><span class="lineno">  255</span>        <span class="comment">//          0        1        2          3            4            5        6</span></div>
+<div class="line"><span class="lineno">  256</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, LogGuid, EventType, PlayerGuid1, PlayerGuid2, NewRank, TimeStamp FROM guild_eventlog ORDER BY TimeStamp DESC, LogGuid DESC&quot;</span>);</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  259</span>        {</div>
+<div class="line"><span class="lineno">  260</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild event logs. DB table `guild_eventlog` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  261</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  262</span>        }</div>
+<div class="line"><span class="lineno">  263</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  264</span>        {</div>
+<div class="line"><span class="lineno">  265</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  266</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  267</span>            {</div>
+<div class="line"><span class="lineno">  268</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  269</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  272</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a98b993986266e2944c2f931c80ca5c60">LoadEventLogFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  273</span> </div>
+<div class="line"><span class="lineno">  274</span>                ++count;</div>
+<div class="line"><span class="lineno">  275</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  276</span> </div>
+<div class="line"><span class="lineno">  277</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild event logs in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  278</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  279</span>        }</div>
+<div class="line"><span class="lineno">  280</span>    }</div>
+<div class="line"><span class="lineno">  281</span> </div>
+<div class="line"><span class="lineno">  282</span>    <span class="comment">// 6. Load all bank event logs</span></div>
+<div class="line"><span class="lineno">  283</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guild Bank Event Logs...&quot;</span>);</div>
+<div class="line"><span class="lineno">  284</span>    {</div>
+<div class="line"><span class="lineno">  285</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  286</span> </div>
+<div class="line"><span class="lineno">  287</span>        <span class="comment">// Remove log entries that exceed the number of allowed entries per guild</span></div>
+<div class="line"><span class="lineno">  288</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM guild_bank_eventlog WHERE LogGuid &gt; {}&quot;</span>, <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a8012124d7e890ca232aa229dba9d19dc">CONFIG_GUILD_BANK_EVENT_LOG_COUNT</a>));</div>
+<div class="line"><span class="lineno">  289</span> </div>
+<div class="line"><span class="lineno">  290</span>        <span class="comment">//          0        1      2        3          4           5            6               7          8</span></div>
+<div class="line"><span class="lineno">  291</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, TabId, LogGuid, EventType, PlayerGuid, ItemOrMoney, ItemStackCount, DestTabId, TimeStamp FROM guild_bank_eventlog ORDER BY TimeStamp DESC, LogGuid DESC&quot;</span>);</div>
+<div class="line"><span class="lineno">  292</span> </div>
+<div class="line"><span class="lineno">  293</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  294</span>        {</div>
+<div class="line"><span class="lineno">  295</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild bank event logs. DB table `guild_bank_eventlog` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  296</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  297</span>        }</div>
+<div class="line"><span class="lineno">  298</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  299</span>        {</div>
+<div class="line"><span class="lineno">  300</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  301</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  302</span>            {</div>
+<div class="line"><span class="lineno">  303</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  304</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  305</span> </div>
+<div class="line"><span class="lineno">  306</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  307</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#ab3284a1160d2e339cbdccc8bc5c659eb">LoadBankEventLogFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>                ++count;</div>
+<div class="line"><span class="lineno">  310</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  311</span> </div>
+<div class="line"><span class="lineno">  312</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild bank event logs in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  313</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  314</span>        }</div>
+<div class="line"><span class="lineno">  315</span>    }</div>
+<div class="line"><span class="lineno">  316</span> </div>
+<div class="line"><span class="lineno">  317</span>    <span class="comment">// 7. Load all guild bank tabs</span></div>
+<div class="line"><span class="lineno">  318</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Guild Bank Tabs...&quot;</span>);</div>
+<div class="line"><span class="lineno">  319</span>    {</div>
+<div class="line"><span class="lineno">  320</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  321</span> </div>
+<div class="line"><span class="lineno">  322</span>        <span class="comment">// Delete orphaned guild bank tab entries before loading the valid ones</span></div>
+<div class="line"><span class="lineno">  323</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gbt FROM guild_bank_tab gbt LEFT JOIN guild g ON gbt.guildId = g.guildId WHERE g.guildId IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  324</span> </div>
+<div class="line"><span class="lineno">  325</span>        <span class="comment">//         0        1      2        3        4</span></div>
+<div class="line"><span class="lineno">  326</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guildid, TabId, TabName, TabIcon, TabText FROM guild_bank_tab ORDER BY guildid ASC, TabId ASC&quot;</span>);</div>
+<div class="line"><span class="lineno">  327</span> </div>
+<div class="line"><span class="lineno">  328</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  329</span>        {</div>
+<div class="line"><span class="lineno">  330</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild bank tabs. DB table `guild_bank_tab` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  331</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  332</span>        }</div>
+<div class="line"><span class="lineno">  333</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  334</span>        {</div>
+<div class="line"><span class="lineno">  335</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  336</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  337</span>            {</div>
+<div class="line"><span class="lineno">  338</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  339</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[0].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  340</span> </div>
+<div class="line"><span class="lineno">  341</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  342</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#aeb5fdb4b19981409ded323470c120170">LoadBankTabFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  343</span> </div>
+<div class="line"><span class="lineno">  344</span>                ++count;</div>
+<div class="line"><span class="lineno">  345</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  346</span> </div>
+<div class="line"><span class="lineno">  347</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild bank tabs in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  348</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  349</span>        }</div>
+<div class="line"><span class="lineno">  350</span>    }</div>
+<div class="line"><span class="lineno">  351</span> </div>
+<div class="line"><span class="lineno">  352</span>    <span class="comment">// 8. Fill all guild bank tabs</span></div>
+<div class="line"><span class="lineno">  353</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Filling bank tabs with items...&quot;</span>);</div>
+<div class="line"><span class="lineno">  354</span>    {</div>
+<div class="line"><span class="lineno">  355</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  356</span> </div>
+<div class="line"><span class="lineno">  357</span>        <span class="comment">// Delete orphan guild bank items</span></div>
+<div class="line"><span class="lineno">  358</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE gbi FROM guild_bank_item gbi LEFT JOIN guild g ON gbi.guildId = g.guildId WHERE g.guildId IS NULL&quot;</span>);</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>        <span class="comment">//          0            1                2      3         4        5      6             7                 8           9           10</span></div>
+<div class="line"><span class="lineno">  361</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT creatorGuid, giftCreatorGuid, count, duration, charges, flags, enchantments, randomPropertyId, durability, playedTime, text, &quot;</span></div>
+<div class="line"><span class="lineno">  362</span>                             <span class="comment">//   11       12     13      14         15</span></div>
+<div class="line"><span class="lineno">  363</span>                             <span class="stringliteral">&quot;guildid, TabId, SlotId, item_guid, itemEntry FROM guild_bank_item gbi INNER JOIN item_instance ii ON gbi.item_guid = ii.guid&quot;</span>);</div>
+<div class="line"><span class="lineno">  364</span> </div>
+<div class="line"><span class="lineno">  365</span>        <span class="keywordflow">if</span> (!result)</div>
+<div class="line"><span class="lineno">  366</span>        {</div>
+<div class="line"><span class="lineno">  367</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 guild bank tab items. DB table `guild_bank_item` or `item_instance` is empty.&quot;</span>);</div>
+<div class="line"><span class="lineno">  368</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  369</span>        }</div>
+<div class="line"><span class="lineno">  370</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  371</span>        {</div>
+<div class="line"><span class="lineno">  372</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">  373</span>            <span class="keywordflow">do</span></div>
+<div class="line"><span class="lineno">  374</span>            {</div>
+<div class="line"><span class="lineno">  375</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
+<div class="line"><span class="lineno">  376</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> guildId = fields[11].<a class="code hl_function" href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Get</a>&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
+<div class="line"><span class="lineno">  377</span> </div>
+<div class="line"><span class="lineno">  378</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = <a class="code hl_function" href="../../dd/dc7/a09278.html#a04f4586ea6461c6f7165efba2bf666a1">GetGuildById</a>(guildId))</div>
+<div class="line"><span class="lineno">  379</span>                    guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#a5a5267e926e1ab8bc67ff7a7f54401b7">LoadBankItemFromDB</a>(fields);</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>                ++count;</div>
+<div class="line"><span class="lineno">  382</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
+<div class="line"><span class="lineno">  383</span> </div>
+<div class="line"><span class="lineno">  384</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} guild bank tab items in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  385</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  386</span>        }</div>
+<div class="line"><span class="lineno">  387</span>    }</div>
+<div class="line"><span class="lineno">  388</span> </div>
+<div class="line"><span class="lineno">  389</span>    <span class="comment">// 9. Validate loaded guild data</span></div>
+<div class="line"><span class="lineno">  390</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Validating data of loaded guilds...&quot;</span>);</div>
+<div class="line"><span class="lineno">  391</span>    {</div>
+<div class="line"><span class="lineno">  392</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  393</span> </div>
+<div class="line"><span class="lineno">  394</span>        <span class="keywordflow">for</span> (GuildContainer::iterator itr = <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.begin(); itr != <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.end();)</div>
+<div class="line"><span class="lineno">  395</span>        {</div>
+<div class="line"><span class="lineno">  396</span>            <a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = itr-&gt;second;</div>
+<div class="line"><span class="lineno">  397</span>            ++itr;</div>
+<div class="line"><span class="lineno">  398</span>            <span class="keywordflow">if</span> (guild &amp;&amp; !guild-&gt;<a class="code hl_function" href="../../db/d44/a09234.html#aedeba5c8ed6e8ad422562be594bd46d4">Validate</a>())</div>
+<div class="line"><span class="lineno">  399</span>                <span class="keyword">delete</span> guild;</div>
+<div class="line"><span class="lineno">  400</span>        }</div>
+<div class="line"><span class="lineno">  401</span> </div>
+<div class="line"><span class="lineno">  402</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Validated data of loaded guilds in {} ms&quot;</span>, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
+<div class="line"><span class="lineno">  403</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
+<div class="line"><span class="lineno">  404</span>    }</div>
+<div class="line"><span class="lineno">  405</span>}</div>
+<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41a0c5487ab169b56e43bfbd93857d79e68"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a0c5487ab169b56e43bfbd93857d79e68">CONFIG_GUILD_EVENT_LOG_COUNT</a></div><div class="ttdeci">@ CONFIG_GUILD_EVENT_LOG_COUNT</div><div class="ttdef"><b>Definition:</b> IWorld.h:346</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41a8012124d7e890ca232aa229dba9d19dc"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a8012124d7e890ca232aa229dba9d19dc">CONFIG_GUILD_BANK_EVENT_LOG_COUNT</a></div><div class="ttdeci">@ CONFIG_GUILD_BANK_EVENT_LOG_COUNT</div><div class="ttdef"><b>Definition:</b> IWorld.h:347</div></div>
+<div class="ttc" id="aa04589_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
+<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
+<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
+<div class="ttc" id="aa05622_html_aae507d21d3570ffdaf1643ba02946f01"><div class="ttname"><a href="../../d4/dc8/a05622.html#aae507d21d3570ffdaf1643ba02946f01">Field::Get</a></div><div class="ttdeci">std::enable_if_t&lt; std::is_arithmetic_v&lt; T &gt;, T &gt; Get() const</div><div class="ttdef"><b>Definition:</b> Field.h:112</div></div>
+<div class="ttc" id="aa09234_html_a2083addbe913158d6e369d72c1f4444a"><div class="ttname"><a href="../../db/d44/a09234.html#a2083addbe913158d6e369d72c1f4444a">Guild::LoadBankRightFromDB</a></div><div class="ttdeci">void LoadBankRightFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1955</div></div>
+<div class="ttc" id="aa09234_html_a36f774ba251d421ed0a6050b51babbb0"><div class="ttname"><a href="../../db/d44/a09234.html#a36f774ba251d421ed0a6050b51babbb0">Guild::LoadMemberFromDB</a></div><div class="ttdeci">bool LoadMemberFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1931</div></div>
+<div class="ttc" id="aa09234_html_a5a5267e926e1ab8bc67ff7a7f54401b7"><div class="ttname"><a href="../../db/d44/a09234.html#a5a5267e926e1ab8bc67ff7a7f54401b7">Guild::LoadBankItemFromDB</a></div><div class="ttdeci">bool LoadBankItemFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:2029</div></div>
+<div class="ttc" id="aa09234_html_a65d2171d25a676929402a800eb7a3e6a"><div class="ttname"><a href="../../db/d44/a09234.html#a65d2171d25a676929402a800eb7a3e6a">Guild::LoadFromDB</a></div><div class="ttdeci">bool LoadFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1900</div></div>
+<div class="ttc" id="aa09234_html_a98b993986266e2944c2f931c80ca5c60"><div class="ttname"><a href="../../db/d44/a09234.html#a98b993986266e2944c2f931c80ca5c60">Guild::LoadEventLogFromDB</a></div><div class="ttdeci">bool LoadEventLogFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1963</div></div>
+<div class="ttc" id="aa09234_html_ab3284a1160d2e339cbdccc8bc5c659eb"><div class="ttname"><a href="../../db/d44/a09234.html#ab3284a1160d2e339cbdccc8bc5c659eb">Guild::LoadBankEventLogFromDB</a></div><div class="ttdeci">bool LoadBankEventLogFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1980</div></div>
+<div class="ttc" id="aa09234_html_aeb5fdb4b19981409ded323470c120170"><div class="ttname"><a href="../../db/d44/a09234.html#aeb5fdb4b19981409ded323470c120170">Guild::LoadBankTabFromDB</a></div><div class="ttdeci">void LoadBankTabFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:2020</div></div>
+<div class="ttc" id="aa09234_html_aedeba5c8ed6e8ad422562be594bd46d4"><div class="ttname"><a href="../../db/d44/a09234.html#aedeba5c8ed6e8ad422562be594bd46d4">Guild::Validate</a></div><div class="ttdeci">bool Validate()</div><div class="ttdef"><b>Definition:</b> Guild.cpp:2042</div></div>
+<div class="ttc" id="aa09234_html_af805b19f736df4c51bacbf96a8e5d38c"><div class="ttname"><a href="../../db/d44/a09234.html#af805b19f736df4c51bacbf96a8e5d38c">Guild::LoadRankFromDB</a></div><div class="ttdeci">void LoadRankFromDB(Field *fields)</div><div class="ttdef"><b>Definition:</b> Guild.cpp:1922</div></div>
+<div class="ttc" id="aa09278_html_a5b63dae4f2252c452c797b83477d2280"><div class="ttname"><a href="../../dd/dc7/a09278.html#a5b63dae4f2252c452c797b83477d2280">GuildMgr::AddGuild</a></div><div class="ttdeci">void AddGuild(Guild *guild)</div><div class="ttdef"><b>Definition:</b> GuildMgr.cpp:36</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00036">AddGuild()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00347">CONFIG_GUILD_BANK_EVENT_LOG_COUNT</a>, <a class="el" href="../../#l00346">CONFIG_GUILD_EVENT_LOG_COUNT</a>, <a class="el" href="../../#l00112">Field::Get()</a>, <a class="el" href="../../#l00057">GetGuildById()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00048">GuildStore</a>, <a class="el" href="../../#l01900">Guild::LoadFromDB()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00443">sWorld</a>, and <a class="el" href="../../#l02042">Guild::Validate()</a>.</p>
+
+</div>
+</div>
+<a id="a51728f1c2780cdb105cb35947739cbd7" name="a51728f1c2780cdb105cb35947739cbd7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51728f1c2780cdb105cb35947739cbd7">&#9670;&#160;</a></span>RemoveGuild()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuildMgr::RemoveGuild </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>guildId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.erase(guildId);</div>
+<div class="line"><span class="lineno">   44</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+</div>
+</div>
+<a id="ad2670ee42ff5252a879ccc5cbb730833" name="ad2670ee42ff5252a879ccc5cbb730833"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2670ee42ff5252a879ccc5cbb730833">&#9670;&#160;</a></span>ResetTimes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuildMgr::ResetTimes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  408</span>{</div>
+<div class="line"><span class="lineno">  409</span>    <span class="keywordflow">for</span> (GuildContainer::const_iterator itr = <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.begin(); itr != <a class="code hl_variable" href="../../dd/dc7/a09278.html#a174158d11bf6102462a094ff4a8fa402">GuildStore</a>.end(); ++itr)</div>
+<div class="line"><span class="lineno">  410</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../db/d44/a09234.html">Guild</a>* guild = itr-&gt;second)</div>
+<div class="line"><span class="lineno">  411</span>            guild-&gt;ResetTimes();</div>
+<div class="line"><span class="lineno">  412</span> </div>
+<div class="line"><span class="lineno">  413</span>    <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;TRUNCATE guild_member_withdraw&quot;</span>);</div>
+<div class="line"><span class="lineno">  414</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00021">CharacterDatabase</a>, and <a class="el" href="../../#l00048">GuildStore</a>.</p>
+
+</div>
+</div>
+<a id="ae1ae88575b7fcb37d4ee1d76f79c0c45" name="ae1ae88575b7fcb37d4ee1d76f79c0c45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ae88575b7fcb37d4ee1d76f79c0c45">&#9670;&#160;</a></span>SetNextGuildId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void GuildMgr::SetNextGuildId </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>Id</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ <a class="code hl_variable" href="../../dd/dc7/a09278.html#a75e150f66ebccfc05824a4f7b66a9210">NextGuildId</a> = Id; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00047">NextGuildId</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a174158d11bf6102462a094ff4a8fa402" name="a174158d11bf6102462a094ff4a8fa402"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174158d11bf6102462a094ff4a8fa402">&#9670;&#160;</a></span>GuildStore</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dc7/a09278.html#aa9afb05ecb2eb6ee427503a4ea76f7ca">GuildContainer</a> GuildMgr::GuildStore</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">AddGuild()</a>, <a class="el" href="../../#l00057">GetGuildById()</a>, <a class="el" href="../../#l00083">GetGuildByLeader()</a>, <a class="el" href="../../#l00066">GetGuildByName()</a>, <a class="el" href="../../#l00092">LoadGuilds()</a>, <a class="el" href="../../#l00041">RemoveGuild()</a>, <a class="el" href="../../#l00407">ResetTimes()</a>, and <a class="el" href="../../#l00024">~GuildMgr()</a>.</p>
+
+</div>
+</div>
+<a id="a75e150f66ebccfc05824a4f7b66a9210" name="a75e150f66ebccfc05824a4f7b66a9210"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e150f66ebccfc05824a4f7b66a9210">&#9670;&#160;</a></span>NextGuildId</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GuildMgr::NextGuildId</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00046">GenerateGuildId()</a>, and <a class="el" href="../../#l00042">SetNextGuildId()</a>.</p>
 
 </div>
 </div>
@@ -361,8 +939,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/dc7/a09278.html">AddonHandler</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:31 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dd/dc7/a09278.html">GuildMgr</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,8 @@
 var a27666 =
 [
-    [ "CinematicSequence", "d1/dcb/a27666.html#a7a0a35bbb69320565d991f4a349dc01b", null ],
-    [ "ClassID", "d1/dcb/a27666.html#a9da8d8d20126e9dc161b1dd64a19fe59", null ],
-    [ "expansion", "d1/dcb/a27666.html#a7c57eabd8d94849cd8536b013a8d4138", null ],
-    [ "name", "d1/dcb/a27666.html#a2d0b7155b03af29bd982f31eba26ec24", null ],
-    [ "powerType", "d1/dcb/a27666.html#a74aec35dc161a7e830453b9365a6f107", null ],
-    [ "spellfamily", "d1/dcb/a27666.html#a43fbe48c99e297ea09e9e1f2edd6a4ea", null ]
+    [ "ID", "d1/dcb/a27666.html#a36958c346c8554d9ab1cfb73ac583818", null ],
+    [ "Model", "d1/dcb/a27666.html#a8877a066a16c8c246a2d5a24a3661e56", null ],
+    [ "Origin", "d1/dcb/a27666.html#a684c69add50ee545ee606ae456a93336", null ],
+    [ "OriginFacing", "d1/dcb/a27666.html#a460723250353c7720cd87677991283cf", null ],
+    [ "SoundID", "d1/dcb/a27666.html#aa56be05c7ab4015738e049d75ff365c6", null ]
 ];

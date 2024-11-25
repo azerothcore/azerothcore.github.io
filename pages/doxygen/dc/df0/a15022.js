@@ -1,7 +1,7 @@
 var a15022 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "dc/df0/a15022.html#aaed19d0c915891d8afecda7df75a8a75", null ],
-    [ "JustRespawned", "dc/df0/a15022.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
-    [ "MoveInLineOfSight", "dc/df0/a15022.html#a295d4bef97b97c7deb31a81274f0818d", null ],
-    [ "SpellHit", "dc/df0/a15022.html#a021b82aa6bd2e118fe810f18349fda42", null ]
+    [ "npc_cork_gizeltonAI", "d8/d53/a15026.html", "d8/d53/a15026" ],
+    [ "npc_cork_gizelton", "dc/df0/a15022.html#a915aa2abc18109e7d0197863f59536f2", null ],
+    [ "GetAI", "dc/df0/a15022.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
+    [ "OnQuestAccept", "dc/df0/a15022.html#a11dc1fea0a24add451272b537298fc13", null ]
 ];

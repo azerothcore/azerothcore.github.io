@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: GroupMgr Class Reference</title>
+<title>AzerothCore: Group::MemberSlot Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,573 +105,106 @@ $(document).ready(function(){initNavTree('d7/dd6/a09210.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-types">Protected Types</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d9/da8/a09207.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">GroupMgr Class Reference</div></div>
+  <div class="headertitle"><div class="title">Group::MemberSlot Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">GroupMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a417c5798d50cac5c1bc5b0eae13945cc"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d3/dd0/a09202.html">Group</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a417c5798d50cac5c1bc5b0eae13945cc">GroupContainer</a></td></tr>
-<tr class="separator:a417c5798d50cac5c1bc5b0eae13945cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a2af93882e217f762df95ba21af191c89"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d3/dd0/a09202.html">Group</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a2af93882e217f762df95ba21af191c89">GetGroupByGUID</a> (<a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> guid) const</td></tr>
-<tr class="separator:a2af93882e217f762df95ba21af191c89"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6881453ec34dc2d9416069a87b1a3234"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a6881453ec34dc2d9416069a87b1a3234">InitGroupIds</a> ()</td></tr>
-<tr class="separator:a6881453ec34dc2d9416069a87b1a3234"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8bface2b6600801ebcd1cbb9070ec3ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a8bface2b6600801ebcd1cbb9070ec3ef">RegisterGroupId</a> (<a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> groupId)</td></tr>
-<tr class="separator:a8bface2b6600801ebcd1cbb9070ec3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad881433a3836a70e44734bde5a1afc6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ad881433a3836a70e44734bde5a1afc6f">GenerateGroupId</a> ()</td></tr>
-<tr class="separator:ad881433a3836a70e44734bde5a1afc6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8548ce88b015ae3040cd5f2cd7b1990"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ab8548ce88b015ae3040cd5f2cd7b1990">LoadGroups</a> ()</td></tr>
-<tr class="separator:ab8548ce88b015ae3040cd5f2cd7b1990"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb97c613417573dc4cafa117065e7cf8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#abb97c613417573dc4cafa117065e7cf8">AddGroup</a> (<a class="el" href="../../d3/dd0/a09202.html">Group</a> *group)</td></tr>
-<tr class="separator:abb97c613417573dc4cafa117065e7cf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a654b7c795c9c3d77a7a39bce58dec2c7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a654b7c795c9c3d77a7a39bce58dec2c7">RemoveGroup</a> (<a class="el" href="../../d3/dd0/a09202.html">Group</a> *group)</td></tr>
-<tr class="separator:a654b7c795c9c3d77a7a39bce58dec2c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1b7275cfd70d46216df8c353e70d64c8"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d7/dd6/a09210.html">GroupMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a1b7275cfd70d46216df8c353e70d64c8">instance</a> ()</td></tr>
-<tr class="separator:a1b7275cfd70d46216df8c353e70d64c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-types" name="pro-types"></a>
-Protected Types</h2></td></tr>
-<tr class="memitem:ad3a9005c50a5957d3f47adf60624b9aa"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ad3a9005c50a5957d3f47adf60624b9aa">GroupIds</a></td></tr>
-<tr class="separator:ad3a9005c50a5957d3f47adf60624b9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:af260c73ba61242f741103bdfe6d6fb9e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dd6/a09210.html#ad3a9005c50a5957d3f47adf60624b9aa">GroupIds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">_groupIds</a></td></tr>
-<tr class="separator:af260c73ba61242f741103bdfe6d6fb9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e41d7444f8b7d3dbb54569be80b65f9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a></td></tr>
-<tr class="separator:a4e41d7444f8b7d3dbb54569be80b65f9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae897c661dd4b185d205c3a12d17ccb2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/dd6/a09210.html#a417c5798d50cac5c1bc5b0eae13945cc">GroupContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a></td></tr>
-<tr class="separator:ae897c661dd4b185d205c3a12d17ccb2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a663dbeb2e20161d8d6cf72f322c05f0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a663dbeb2e20161d8d6cf72f322c05f0e">GroupMgr</a> ()</td></tr>
-<tr class="separator:a663dbeb2e20161d8d6cf72f322c05f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad5a5efeed7f78146983611c2349c111f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ad5a5efeed7f78146983611c2349c111f">~GroupMgr</a> ()</td></tr>
-<tr class="separator:ad5a5efeed7f78146983611c2349c111f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a97a20b4ccf1978165a5f5c7ff4ffb2b4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a97a20b4ccf1978165a5f5c7ff4ffb2b4">guid</a></td></tr>
+<tr class="separator:a97a20b4ccf1978165a5f5c7ff4ffb2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0719bb9805048b58a3e4c75e09d1ee7"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#ab0719bb9805048b58a3e4c75e09d1ee7">name</a></td></tr>
+<tr class="separator:ab0719bb9805048b58a3e4c75e09d1ee7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0902606d44c8baa1a20b5b2cdd9b4787"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a0902606d44c8baa1a20b5b2cdd9b4787">group</a></td></tr>
+<tr class="separator:a0902606d44c8baa1a20b5b2cdd9b4787"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ecce103d428ed7f91aa12fa5547561c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a7ecce103d428ed7f91aa12fa5547561c">flags</a></td></tr>
+<tr class="separator:a7ecce103d428ed7f91aa12fa5547561c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2109aae0b3ebf74b065b97cc929c2954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html#a2109aae0b3ebf74b065b97cc929c2954">roles</a></td></tr>
+<tr class="separator:a2109aae0b3ebf74b065b97cc929c2954"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a417c5798d50cac5c1bc5b0eae13945cc" name="a417c5798d50cac5c1bc5b0eae13945cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a417c5798d50cac5c1bc5b0eae13945cc">&#9670;&#160;</a></span>GroupContainer</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a7ecce103d428ed7f91aa12fa5547561c" name="a7ecce103d428ed7f91aa12fa5547561c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ecce103d428ed7f91aa12fa5547561c">&#9670;&#160;</a></span>flags</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d3/dd0/a09202.html">Group</a>*&gt; <a class="el" href="../../d7/dd6/a09210.html#a417c5798d50cac5c1bc5b0eae13945cc">GroupMgr::GroupContainer</a></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Group::MemberSlot::flags</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="ad3a9005c50a5957d3f47adf60624b9aa" name="ad3a9005c50a5957d3f47adf60624b9aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3a9005c50a5957d3f47adf60624b9aa">&#9670;&#160;</a></span>GroupIds</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::vector&lt;bool&gt; <a class="el" href="../../d7/dd6/a09210.html#ad3a9005c50a5957d3f47adf60624b9aa">GroupMgr::GroupIds</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>, and <a class="el" href="../../#l01667">Group::SendUpdateToPlayer()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a663dbeb2e20161d8d6cf72f322c05f0e" name="a663dbeb2e20161d8d6cf72f322c05f0e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a663dbeb2e20161d8d6cf72f322c05f0e">&#9670;&#160;</a></span>GroupMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GroupMgr::GroupMgr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   26</span>{</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> = 0;</div>
-<div class="line"><span class="lineno">   28</span>}</div>
-<div class="ttc" id="aa09210_html_a4e41d7444f8b7d3dbb54569be80b65f9"><div class="ttname"><a href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">GroupMgr::_nextGroupId</a></div><div class="ttdeci">ObjectGuid::LowType _nextGroupId</div><div class="ttdef"><b>Definition:</b> GroupMgr.h:47</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00047">_nextGroupId</a>.</p>
-
-</div>
-</div>
-<a id="ad5a5efeed7f78146983611c2349c111f" name="ad5a5efeed7f78146983611c2349c111f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5a5efeed7f78146983611c2349c111f">&#9670;&#160;</a></span>~GroupMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GroupMgr::~GroupMgr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <span class="keywordflow">for</span> (GroupContainer::iterator itr = <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>.begin(); itr != <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>.end(); ++itr)</div>
-<div class="line"><span class="lineno">   33</span>        <span class="keyword">delete</span> itr-&gt;second;</div>
-<div class="line"><span class="lineno">   34</span>}</div>
-<div class="ttc" id="aa09210_html_ae897c661dd4b185d205c3a12d17ccb2b"><div class="ttname"><a href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupMgr::GroupStore</a></div><div class="ttdeci">GroupContainer GroupStore</div><div class="ttdef"><b>Definition:</b> GroupMgr.h:48</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">GroupStore</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="abb97c613417573dc4cafa117065e7cf8" name="abb97c613417573dc4cafa117065e7cf8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb97c613417573dc4cafa117065e7cf8">&#9670;&#160;</a></span>AddGroup()</h2>
+<a id="a0902606d44c8baa1a20b5b2cdd9b4787" name="a0902606d44c8baa1a20b5b2cdd9b4787"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0902606d44c8baa1a20b5b2cdd9b4787">&#9670;&#160;</a></span>group</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void GroupMgr::AddGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd0/a09202.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Group::MemberSlot::group</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   91</span>{</div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>[group-&gt;<a class="code hl_function" href="../../d3/dd0/a09202.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>().<a class="code hl_function" href="../../db/d40/a08190.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>()] = group;</div>
-<div class="line"><span class="lineno">   93</span>}</div>
-<div class="ttc" id="aa08190_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../db/d40/a08190.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:145</div></div>
-<div class="ttc" id="aa09202_html_a68c38a89619391cc85eeac2bf2b96ac4"><div class="ttname"><a href="../../d3/dd0/a09202.html#a68c38a89619391cc85eeac2bf2b96ac4">Group::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2302</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l02302">Group::GetGUID()</a>, and <a class="el" href="../../#l00048">GroupStore</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00100">LoadGroups()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>, <a class="el" href="../../#l02367">Group::SameSubGroup()</a>, and <a class="el" href="../../#l01667">Group::SendUpdateToPlayer()</a>.</p>
 
 </div>
 </div>
-<a id="ad881433a3836a70e44734bde5a1afc6f" name="ad881433a3836a70e44734bde5a1afc6f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad881433a3836a70e44734bde5a1afc6f">&#9670;&#160;</a></span>GenerateGroupId()</h2>
+<a id="a97a20b4ccf1978165a5f5c7ff4ffb2b4" name="a97a20b4ccf1978165a5f5c7ff4ffb2b4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97a20b4ccf1978165a5f5c7ff4ffb2b4">&#9670;&#160;</a></span>guid</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> GroupMgr::GenerateGroupId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> Group::MemberSlot::guid</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_typedef" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> newGroupId = <a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a>;</div>
-<div class="line"><span class="lineno">   68</span> </div>
-<div class="line"><span class="lineno">   69</span>    <span class="comment">// find the lowest available id starting from the current _nextGroupId</span></div>
-<div class="line"><span class="lineno">   70</span>    <span class="keywordflow">while</span> (<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> &lt; 0xFFFFFFFF &amp;&amp; ++<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> &lt; <a class="code hl_variable" href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">_groupIds</a>.size() &amp;&amp; <a class="code hl_variable" href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">_groupIds</a>[<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a>]);</div>
-<div class="line"><span class="lineno">   71</span> </div>
-<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> == 0xFFFFFFFF)</div>
-<div class="line"><span class="lineno">   73</span>    {</div>
-<div class="line"><span class="lineno">   74</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;server.worldserver&quot;</span>, <span class="stringliteral">&quot;Group ID overflow!! Can&#39;t continue, shutting down server.&quot;</span>);</div>
-<div class="line"><span class="lineno">   75</span>        <a class="code hl_function" href="../../d8/dc5/a11274.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a>(<a class="code hl_enumvalue" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a>);</div>
-<div class="line"><span class="lineno">   76</span>    }</div>
-<div class="line"><span class="lineno">   77</span> </div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">return</span> newGroupId;</div>
-<div class="line"><span class="lineno">   79</span>}</div>
-<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
-<div class="ttc" id="aa04681_html_gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08"><div class="ttname"><a href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a></div><div class="ttdeci">@ ERROR_EXIT_CODE</div><div class="ttdef"><b>Definition:</b> World.h:54</div></div>
-<div class="ttc" id="aa08190_html_aa278d50613c05dc1333df5185a6993eb"><div class="ttname"><a href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a></div><div class="ttdeci">uint32 LowType</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:122</div></div>
-<div class="ttc" id="aa09210_html_af260c73ba61242f741103bdfe6d6fb9e"><div class="ttname"><a href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">GroupMgr::_groupIds</a></div><div class="ttdeci">GroupIds _groupIds</div><div class="ttdef"><b>Definition:</b> GroupMgr.h:46</div></div>
-<div class="ttc" id="aa11274_html_ab0c53f76dd85fb0f2dcfc29b33291d9d"><div class="ttname"><a href="../../d8/dc5/a11274.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a></div><div class="ttdeci">static void StopNow(uint8 exitcode)</div><div class="ttdef"><b>Definition:</b> World.h:253</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">_groupIds</a>, <a class="el" href="../../#l00047">_nextGroupId</a>, <a class="el" href="../../#l00054">ERROR_EXIT_CODE</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00253">World::StopNow()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>, and <a class="el" href="../../#l01667">Group::SendUpdateToPlayer()</a>.</p>
 
 </div>
 </div>
-<a id="a2af93882e217f762df95ba21af191c89" name="a2af93882e217f762df95ba21af191c89"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2af93882e217f762df95ba21af191c89">&#9670;&#160;</a></span>GetGroupByGUID()</h2>
+<a id="ab0719bb9805048b58a3e4c75e09d1ee7" name="ab0719bb9805048b58a3e4c75e09d1ee7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0719bb9805048b58a3e4c75e09d1ee7">&#9670;&#160;</a></span>name</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/dd0/a09202.html">Group</a> * GroupMgr::GetGroupByGUID </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>guid</em></td><td>)</td>
-          <td> const</td>
+          <td class="memname">std::string Group::MemberSlot::name</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{</div>
-<div class="line"><span class="lineno">   83</span>    GroupContainer::const_iterator itr = <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>.find(groupId);</div>
-<div class="line"><span class="lineno">   84</span>    <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>.end())</div>
-<div class="line"><span class="lineno">   85</span>        <span class="keywordflow">return</span> itr-&gt;second;</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>    <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   88</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">GroupStore</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00100">LoadGroups()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, and <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>.</p>
 
 </div>
 </div>
-<a id="a6881453ec34dc2d9416069a87b1a3234" name="a6881453ec34dc2d9416069a87b1a3234"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6881453ec34dc2d9416069a87b1a3234">&#9670;&#160;</a></span>InitGroupIds()</h2>
+<a id="a2109aae0b3ebf74b065b97cc929c2954" name="a2109aae0b3ebf74b065b97cc929c2954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2109aae0b3ebf74b065b97cc929c2954">&#9670;&#160;</a></span>roles</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void GroupMgr::InitGroupIds </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Group::MemberSlot::roles</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> = 1;</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT MAX(guid) FROM `groups`&quot;</span>);</div>
-<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">if</span> (result)</div>
-<div class="line"><span class="lineno">   48</span>    {</div>
-<div class="line"><span class="lineno">   49</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> maxId = (*result)[0].Get&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;();</div>
-<div class="line"><span class="lineno">   50</span>        <a class="code hl_variable" href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">_groupIds</a>.resize(maxId + 1);</div>
-<div class="line"><span class="lineno">   51</span>    }</div>
-<div class="line"><span class="lineno">   52</span>}</div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa04589_html_ab0c9feeec448a181290fcb39565b8253"><div class="ttname"><a href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a></div><div class="ttdeci">std::shared_ptr&lt; ResultSet &gt; QueryResult</div><div class="ttdef"><b>Definition:</b> DatabaseEnvFwd.h:27</div></div>
-<div class="ttc" id="aa04601_html_a7e7534bc66d79434bd280b77cb124eec"><div class="ttname"><a href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a></div><div class="ttdeci">DatabaseWorkerPool&lt; CharacterDatabaseConnection &gt; CharacterDatabase</div><div class="ttdoc">Accessor to the character database.</div><div class="ttdef"><b>Definition:</b> DatabaseEnv.cpp:21</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">_groupIds</a>, <a class="el" href="../../#l00047">_nextGroupId</a>, and <a class="el" href="../../#l00021">CharacterDatabase</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00100">LoadGroups()</a>.</p>
-
-</div>
-</div>
-<a id="a1b7275cfd70d46216df8c353e70d64c8" name="a1b7275cfd70d46216df8c353e70d64c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b7275cfd70d46216df8c353e70d64c8">&#9670;&#160;</a></span>instance()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/dd6/a09210.html">GroupMgr</a> * GroupMgr::instance </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../d7/dd6/a09210.html">GroupMgr</a> <a class="code hl_function" href="../../d7/dd6/a09210.html#a1b7275cfd70d46216df8c353e70d64c8">instance</a>;</div>
-<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../d7/dd6/a09210.html#a1b7275cfd70d46216df8c353e70d64c8">instance</a>;</div>
-<div class="line"><span class="lineno">   40</span>}</div>
-<div class="ttc" id="aa09210_html"><div class="ttname"><a href="../../d7/dd6/a09210.html">GroupMgr</a></div><div class="ttdef"><b>Definition:</b> GroupMgr.h:24</div></div>
-<div class="ttc" id="aa09210_html_a1b7275cfd70d46216df8c353e70d64c8"><div class="ttname"><a href="../../d7/dd6/a09210.html#a1b7275cfd70d46216df8c353e70d64c8">GroupMgr::instance</a></div><div class="ttdeci">static GroupMgr * instance()</div><div class="ttdef"><b>Definition:</b> GroupMgr.cpp:36</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00036">instance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00036">instance()</a>.</p>
-
-</div>
-</div>
-<a id="ab8548ce88b015ae3040cd5f2cd7b1990" name="ab8548ce88b015ae3040cd5f2cd7b1990"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8548ce88b015ae3040cd5f2cd7b1990">&#9670;&#160;</a></span>LoadGroups()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GroupMgr::LoadGroups </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  101</span>{</div>
-<div class="line"><span class="lineno">  102</span>    {</div>
-<div class="line"><span class="lineno">  103</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>        <span class="comment">// Delete all groups whose leader does not exist</span></div>
-<div class="line"><span class="lineno">  106</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM `groups` WHERE leaderGuid NOT IN (SELECT guid FROM characters)&quot;</span>);</div>
-<div class="line"><span class="lineno">  107</span> </div>
-<div class="line"><span class="lineno">  108</span>        <span class="comment">// Delete all groups with less than 2 members</span></div>
-<div class="line"><span class="lineno">  109</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM `groups` WHERE guid NOT IN (SELECT guid FROM group_member GROUP BY guid HAVING COUNT(guid) &gt; 1)&quot;</span>);</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>        <span class="comment">// Delete invalid lfg_data</span></div>
-<div class="line"><span class="lineno">  112</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE lfg_data FROM lfg_data LEFT JOIN `groups` ON lfg_data.guid = groups.guid WHERE groups.guid IS NULL OR groups.groupType &lt;&gt; 12&quot;</span>);</div>
-<div class="line"><span class="lineno">  113</span>        <span class="comment">// CharacterDatabase.DirectExecute(&quot;DELETE `groups` FROM `groups` LEFT JOIN lfg_data ON groups.guid = lfg_data.guid WHERE groups.groupType=12 AND lfg_data.guid IS NULL&quot;); // group should be left so binds are cleared when disbanded</span></div>
-<div class="line"><span class="lineno">  114</span> </div>
-<div class="line"><span class="lineno">  115</span>        <a class="code hl_function" href="../../d7/dd6/a09210.html#a6881453ec34dc2d9416069a87b1a3234">InitGroupIds</a>();</div>
-<div class="line"><span class="lineno">  116</span> </div>
-<div class="line"><span class="lineno">  117</span>        <span class="comment">//                                                        0              1           2             3                 4      5          6      7         8       9</span></div>
-<div class="line"><span class="lineno">  118</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT g.leaderGuid, g.lootMethod, g.looterGuid, g.lootThreshold, g.icon1, g.icon2, g.icon3, g.icon4, g.icon5, g.icon6&quot;</span></div>
-<div class="line"><span class="lineno">  119</span>                             <span class="comment">//  10         11          12         13              14                  15            16        17          18</span></div>
-<div class="line"><span class="lineno">  120</span>                             <span class="stringliteral">&quot;, g.icon7, g.icon8, g.groupType, g.difficulty, g.raidDifficulty, g.masterLooterGuid, g.guid, lfg.dungeon, lfg.state FROM `groups` g LEFT JOIN lfg_data lfg ON lfg.guid = g.guid ORDER BY g.guid ASC&quot;</span>);</div>
-<div class="line"><span class="lineno">  121</span> </div>
-<div class="line"><span class="lineno">  122</span>        <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">  123</span>        {</div>
-<div class="line"><span class="lineno">  124</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 group definitions. DB table `groups` is empty!&quot;</span>);</div>
-<div class="line"><span class="lineno">  125</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  126</span>        }</div>
-<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  128</span>        {</div>
-<div class="line"><span class="lineno">  129</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
-<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  131</span>            {</div>
-<div class="line"><span class="lineno">  132</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
-<div class="line"><span class="lineno">  133</span>                <a class="code hl_class" href="../../d3/dd0/a09202.html">Group</a>* group = <span class="keyword">new</span> <a class="code hl_class" href="../../d3/dd0/a09202.html">Group</a>;</div>
-<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">if</span> (!group-&gt;<a class="code hl_function" href="../../d3/dd0/a09202.html#af7d56d93449ead0315be8602c7112f96">LoadGroupFromDB</a>(fields))</div>
-<div class="line"><span class="lineno">  135</span>                {</div>
-<div class="line"><span class="lineno">  136</span>                    <span class="keyword">delete</span> group;</div>
-<div class="line"><span class="lineno">  137</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">  138</span>                }</div>
-<div class="line"><span class="lineno">  139</span>                <a class="code hl_function" href="../../d7/dd6/a09210.html#abb97c613417573dc4cafa117065e7cf8">AddGroup</a>(group);</div>
-<div class="line"><span class="lineno">  140</span> </div>
-<div class="line"><span class="lineno">  141</span>                <a class="code hl_function" href="../../d7/dd6/a09210.html#a8bface2b6600801ebcd1cbb9070ec3ef">RegisterGroupId</a>(group-&gt;<a class="code hl_function" href="../../d3/dd0/a09202.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>().<a class="code hl_function" href="../../db/d40/a08190.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
-<div class="line"><span class="lineno">  142</span> </div>
-<div class="line"><span class="lineno">  143</span>                ++count;</div>
-<div class="line"><span class="lineno">  144</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
-<div class="line"><span class="lineno">  145</span> </div>
-<div class="line"><span class="lineno">  146</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} group definitions in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
-<div class="line"><span class="lineno">  147</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  148</span>        }</div>
-<div class="line"><span class="lineno">  149</span>    }</div>
-<div class="line"><span class="lineno">  150</span> </div>
-<div class="line"><span class="lineno">  151</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;Loading Group Members...&quot;</span>);</div>
-<div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> oldMSTime = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
-<div class="line"><span class="lineno">  154</span> </div>
-<div class="line"><span class="lineno">  155</span>        <span class="comment">// Delete all rows from group_member with no group</span></div>
-<div class="line"><span class="lineno">  156</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM group_member WHERE guid NOT IN (SELECT guid FROM `groups`)&quot;</span>);</div>
-<div class="line"><span class="lineno">  157</span>        <span class="comment">// Delete all members that does not exist</span></div>
-<div class="line"><span class="lineno">  158</span>        <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.DirectExecute(<span class="stringliteral">&quot;DELETE FROM group_member WHERE memberGuid NOT IN (SELECT guid FROM characters)&quot;</span>);</div>
-<div class="line"><span class="lineno">  159</span> </div>
-<div class="line"><span class="lineno">  160</span>        <span class="comment">//                                                    0        1           2            3       4</span></div>
-<div class="line"><span class="lineno">  161</span>        <a class="code hl_typedef" href="../../d3/d24/a04589.html#ab0c9feeec448a181290fcb39565b8253">QueryResult</a> result = <a class="code hl_variable" href="../../d8/d7c/a04601.html#a7e7534bc66d79434bd280b77cb124eec">CharacterDatabase</a>.Query(<span class="stringliteral">&quot;SELECT guid, memberGuid, memberFlags, subgroup, roles FROM group_member ORDER BY guid&quot;</span>);</div>
-<div class="line"><span class="lineno">  162</span>        <span class="keywordflow">if</span> (!result)</div>
-<div class="line"><span class="lineno">  163</span>        {</div>
-<div class="line"><span class="lineno">  164</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded 0 group members. DB table `group_member` is empty!&quot;</span>);</div>
-<div class="line"><span class="lineno">  165</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  166</span>        }</div>
-<div class="line"><span class="lineno">  167</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  168</span>        {</div>
-<div class="line"><span class="lineno">  169</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
-<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  171</span>            {</div>
-<div class="line"><span class="lineno">  172</span>                <a class="code hl_class" href="../../d4/dc8/a05622.html">Field</a>* fields = result-&gt;Fetch();</div>
-<div class="line"><span class="lineno">  173</span>                <a class="code hl_class" href="../../d3/dd0/a09202.html">Group</a>* group = <a class="code hl_function" href="../../d7/dd6/a09210.html#a2af93882e217f762df95ba21af191c89">GetGroupByGUID</a>(fields[0].Get&lt;uint32&gt;());</div>
-<div class="line"><span class="lineno">  174</span> </div>
-<div class="line"><span class="lineno">  175</span>                <span class="keywordflow">if</span> (group)</div>
-<div class="line"><span class="lineno">  176</span>                    group-&gt;<a class="code hl_function" href="../../d3/dd0/a09202.html#ab55738e3f596e337883fc86f590eb1ab">LoadMemberFromDB</a>(fields[1].Get&lt;uint32&gt;(), fields[2].Get&lt;uint8&gt;(), fields[3].Get&lt;uint8&gt;(), fields[4].Get&lt;uint8&gt;());</div>
-<div class="line"><span class="lineno">  177</span> </div>
-<div class="line"><span class="lineno">  178</span>                ++count;</div>
-<div class="line"><span class="lineno">  179</span>            } <span class="keywordflow">while</span> (result-&gt;NextRow());</div>
-<div class="line"><span class="lineno">  180</span> </div>
-<div class="line"><span class="lineno">  181</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt;&gt; Loaded {} group members in {} ms&quot;</span>, count, <a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(oldMSTime));</div>
-<div class="line"><span class="lineno">  182</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot; &quot;</span>);</div>
-<div class="line"><span class="lineno">  183</span>        }</div>
-<div class="line"><span class="lineno">  184</span>    }</div>
-<div class="line"><span class="lineno">  185</span>}</div>
-<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
-<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
-<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
-<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
-<div class="ttc" id="aa05622_html"><div class="ttname"><a href="../../d4/dc8/a05622.html">Field</a></div><div class="ttdoc">Class used to access individual fields of database query result.</div><div class="ttdef"><b>Definition:</b> Field.h:98</div></div>
-<div class="ttc" id="aa09202_html"><div class="ttname"><a href="../../d3/dd0/a09202.html">Group</a></div><div class="ttdef"><b>Definition:</b> Group.h:169</div></div>
-<div class="ttc" id="aa09202_html_ab55738e3f596e337883fc86f590eb1ab"><div class="ttname"><a href="../../d3/dd0/a09202.html#ab55738e3f596e337883fc86f590eb1ab">Group::LoadMemberFromDB</a></div><div class="ttdeci">void LoadMemberFromDB(ObjectGuid::LowType guidLow, uint8 memberFlags, uint8 subgroup, uint8 roles)</div><div class="ttdef"><b>Definition:</b> Group.cpp:227</div></div>
-<div class="ttc" id="aa09202_html_af7d56d93449ead0315be8602c7112f96"><div class="ttname"><a href="../../d3/dd0/a09202.html#af7d56d93449ead0315be8602c7112f96">Group::LoadGroupFromDB</a></div><div class="ttdeci">bool LoadGroupFromDB(Field *field)</div><div class="ttdef"><b>Definition:</b> Group.cpp:172</div></div>
-<div class="ttc" id="aa09210_html_a2af93882e217f762df95ba21af191c89"><div class="ttname"><a href="../../d7/dd6/a09210.html#a2af93882e217f762df95ba21af191c89">GroupMgr::GetGroupByGUID</a></div><div class="ttdeci">Group * GetGroupByGUID(ObjectGuid::LowType guid) const</div><div class="ttdef"><b>Definition:</b> GroupMgr.cpp:81</div></div>
-<div class="ttc" id="aa09210_html_a6881453ec34dc2d9416069a87b1a3234"><div class="ttname"><a href="../../d7/dd6/a09210.html#a6881453ec34dc2d9416069a87b1a3234">GroupMgr::InitGroupIds</a></div><div class="ttdeci">void InitGroupIds()</div><div class="ttdef"><b>Definition:</b> GroupMgr.cpp:42</div></div>
-<div class="ttc" id="aa09210_html_a8bface2b6600801ebcd1cbb9070ec3ef"><div class="ttname"><a href="../../d7/dd6/a09210.html#a8bface2b6600801ebcd1cbb9070ec3ef">GroupMgr::RegisterGroupId</a></div><div class="ttdeci">void RegisterGroupId(ObjectGuid::LowType groupId)</div><div class="ttdef"><b>Definition:</b> GroupMgr.cpp:54</div></div>
-<div class="ttc" id="aa09210_html_abb97c613417573dc4cafa117065e7cf8"><div class="ttname"><a href="../../d7/dd6/a09210.html#abb97c613417573dc4cafa117065e7cf8">GroupMgr::AddGroup</a></div><div class="ttdeci">void AddGroup(Group *group)</div><div class="ttdef"><b>Definition:</b> GroupMgr.cpp:90</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00090">AddGroup()</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00081">GetGroupByGUID()</a>, <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00042">InitGroupIds()</a>, <a class="el" href="../../#l00172">Group::LoadGroupFromDB()</a>, <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, and <a class="el" href="../../#l00054">RegisterGroupId()</a>.</p>
-
-</div>
-</div>
-<a id="a8bface2b6600801ebcd1cbb9070ec3ef" name="a8bface2b6600801ebcd1cbb9070ec3ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8bface2b6600801ebcd1cbb9070ec3ef">&#9670;&#160;</a></span>RegisterGroupId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GroupMgr::RegisterGroupId </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td>
-          <td class="paramname"><em>groupId</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
-<div class="line"><span class="lineno">   56</span>    <span class="comment">// Allocation was done in InitGroupIds()</span></div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_variable" href="../../d7/dd6/a09210.html#af260c73ba61242f741103bdfe6d6fb9e">_groupIds</a>[groupId] = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   58</span> </div>
-<div class="line"><span class="lineno">   59</span>    <span class="comment">// Groups are pulled in ascending order from db and _nextGroupId is initialized with 1,</span></div>
-<div class="line"><span class="lineno">   60</span>    <span class="comment">// so if the instance id is used, increment</span></div>
-<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a> == groupId)</div>
-<div class="line"><span class="lineno">   62</span>        ++<a class="code hl_variable" href="../../d7/dd6/a09210.html#a4e41d7444f8b7d3dbb54569be80b65f9">_nextGroupId</a>;</div>
-<div class="line"><span class="lineno">   63</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00046">_groupIds</a>, and <a class="el" href="../../#l00047">_nextGroupId</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00100">LoadGroups()</a>.</p>
-
-</div>
-</div>
-<a id="a654b7c795c9c3d77a7a39bce58dec2c7" name="a654b7c795c9c3d77a7a39bce58dec2c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a654b7c795c9c3d77a7a39bce58dec2c7">&#9670;&#160;</a></span>RemoveGroup()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void GroupMgr::RemoveGroup </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d3/dd0/a09202.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   96</span>{</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_variable" href="../../d7/dd6/a09210.html#ae897c661dd4b185d205c3a12d17ccb2b">GroupStore</a>.erase(group-&gt;<a class="code hl_function" href="../../d3/dd0/a09202.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>().<a class="code hl_function" href="../../db/d40/a08190.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>());</div>
-<div class="line"><span class="lineno">   98</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l02302">Group::GetGUID()</a>, and <a class="el" href="../../#l00048">GroupStore</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="af260c73ba61242f741103bdfe6d6fb9e" name="af260c73ba61242f741103bdfe6d6fb9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af260c73ba61242f741103bdfe6d6fb9e">&#9670;&#160;</a></span>_groupIds</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/dd6/a09210.html#ad3a9005c50a5957d3f47adf60624b9aa">GroupIds</a> GroupMgr::_groupIds</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00065">GenerateGroupId()</a>, <a class="el" href="../../#l00042">InitGroupIds()</a>, and <a class="el" href="../../#l00054">RegisterGroupId()</a>.</p>
-
-</div>
-</div>
-<a id="a4e41d7444f8b7d3dbb54569be80b65f9" name="a4e41d7444f8b7d3dbb54569be80b65f9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e41d7444f8b7d3dbb54569be80b65f9">&#9670;&#160;</a></span>_nextGroupId</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d40/a08190.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> GroupMgr::_nextGroupId</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00065">GenerateGroupId()</a>, <a class="el" href="../../#l00025">GroupMgr()</a>, <a class="el" href="../../#l00042">InitGroupIds()</a>, and <a class="el" href="../../#l00054">RegisterGroupId()</a>.</p>
-
-</div>
-</div>
-<a id="ae897c661dd4b185d205c3a12d17ccb2b" name="ae897c661dd4b185d205c3a12d17ccb2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae897c661dd4b185d205c3a12d17ccb2b">&#9670;&#160;</a></span>GroupStore</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d7/dd6/a09210.html#a417c5798d50cac5c1bc5b0eae13945cc">GroupContainer</a> GroupMgr::GroupStore</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00090">AddGroup()</a>, <a class="el" href="../../#l00081">GetGroupByGUID()</a>, <a class="el" href="../../#l00095">RemoveGroup()</a>, and <a class="el" href="../../#l00030">~GroupMgr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00227">Group::LoadMemberFromDB()</a>, and <a class="el" href="../../#l01667">Group::SendUpdateToPlayer()</a>.</p>
 
 </div>
 </div>
@@ -680,8 +213,8 @@ Private Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d7/dd6/a09210.html">GroupMgr</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dd/d49/a09206.html">Group</a></li><li class="navelem"><a class="el" href="../../d7/dd6/a09210.html">MemberSlot</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

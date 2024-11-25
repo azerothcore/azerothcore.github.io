@@ -1,10 +1,6 @@
 var a12858 =
 [
-    [ "HandleDummyTick", "d2/d64/a12858.html#a036291aee8b08212ecead4afce01adf4", null ],
-    [ "Load", "d2/d64/a12858.html#aaecea41af42790dfe9aeba3c56480668", null ],
-    [ "OnApply", "d2/d64/a12858.html#a37b425f877e7415b245c119c29521c4b", null ],
-    [ "PrepareAuraScript", "d2/d64/a12858.html#ade7bfbc3400fb620956d1e8dff7d4a8a", null ],
-    [ "Register", "d2/d64/a12858.html#a9b32995b6e324a6c779bbd742de6cce2", null ],
-    [ "Validate", "d2/d64/a12858.html#a72595ee3cd995d7bed2bcf8c9f5199fb", null ],
-    [ "_forsakenSpell", "d2/d64/a12858.html#ae2aee05482e4854120fc581ecec41f95", null ]
+    [ "instance_shadowfang_keep_InstanceMapScript", "d2/d0d/a12862.html", "d2/d0d/a12862" ],
+    [ "instance_shadowfang_keep", "d2/d64/a12858.html#aa6817df7270fbf9397c6b66b28d0f6f8", null ],
+    [ "GetInstanceScript", "d2/d64/a12858.html#a5c076ed86470247de5b4e3733b70fa25", null ]
 ];

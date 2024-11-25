@@ -1,8 +1,7 @@
 var a12138 =
 [
-    [ "MajordomoAddData", "df/d7b/a12138.html#aa068ada34e1275cbf97b21f74dfd2881", null ],
-    [ "MajordomoAddData", "df/d7b/a12138.html#a9b8cc2b43ffbf268e470169e00e66671", null ],
-    [ "creatureEntry", "df/d7b/a12138.html#ae3a0444e88158123f4d6359328e89a1d", null ],
-    [ "guid", "df/d7b/a12138.html#a2f2b0aaace557361a21d1072f36933dc", null ],
-    [ "spawnPos", "df/d7b/a12138.html#a31f8d24efb19c2d0e697f35b911e3237", null ]
+    [ "HandleDummy", "df/d7b/a12138.html#acbf0fa3d73de0cec47928fc0dda0c724", null ],
+    [ "PrepareSpellScript", "df/d7b/a12138.html#a76d395449ed9fb26914aa9ff0488f1be", null ],
+    [ "Register", "df/d7b/a12138.html#a7d094ce258e3dc28cc30d5fb644d5a1e", null ],
+    [ "Validate", "df/d7b/a12138.html#a24447c4367d8e8713ba7d05ea53681ee", null ]
 ];

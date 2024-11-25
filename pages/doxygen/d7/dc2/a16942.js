@@ -1,6 +1,6 @@
 var a16942 =
 [
-    [ "ChangeSummonPos", "d7/dc2/a16942.html#a2c3d69419762c7f78688a22017a8c535", null ],
-    [ "PrepareSpellScript", "d7/dc2/a16942.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
-    [ "Register", "d7/dc2/a16942.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
+    [ "HandleScript", "d7/dc2/a16942.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "d7/dc2/a16942.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "d7/dc2/a16942.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

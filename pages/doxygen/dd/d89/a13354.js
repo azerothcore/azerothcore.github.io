@@ -1,7 +1,6 @@
 var a13354 =
 [
-    [ "o", "dd/d89/a13354.html#a455ab33d372dd2aeac9d591f3cce1013", null ],
-    [ "x", "dd/d89/a13354.html#a49ad07d6ecb902ae4818923a6414f3c1", null ],
-    [ "y", "dd/d89/a13354.html#a45ec9c234e9d909eb8fcc0db6e0d641e", null ],
-    [ "z", "dd/d89/a13354.html#abf42d988d416ebe409100c4b860d26db", null ]
+    [ "npc_highborne_lamenterAI", "db/d2a/a13358.html", "db/d2a/a13358" ],
+    [ "npc_highborne_lamenter", "dd/d89/a13354.html#a40316cf73a688e34e95dd41feef8612a", null ],
+    [ "GetAI", "dd/d89/a13354.html#aad8ccb43b325b797f60a16e338458a1e", null ]
 ];

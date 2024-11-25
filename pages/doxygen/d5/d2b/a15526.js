@@ -1,6 +1,11 @@
 var a15526 =
 [
-    [ "boss_krik_thirAI", "d4/d4b/a15530.html", "d4/d4b/a15530" ],
-    [ "boss_krik_thir", "d5/d2b/a15526.html#ab7001cd05e8e5e371cbd6ee2b25f3522", null ],
-    [ "GetAI", "d5/d2b/a15526.html#a10e582440092d5c6558c2a11d60907aa", null ]
+    [ "spell_hadronox_summon_periodic_aura", "d5/d2b/a15526.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
+    [ "HandlePeriodic", "d5/d2b/a15526.html#a048695baf71d307e5aaa00e54586c9f7", null ],
+    [ "OnApply", "d5/d2b/a15526.html#a4466547bc1a5259a33354f2008d6cce7", null ],
+    [ "PrepareAuraScript", "d5/d2b/a15526.html#a4205560054e5baed86aecba3b98fc202", null ],
+    [ "Register", "d5/d2b/a15526.html#a09efdcddaed4af2833139ca20ef94376", null ],
+    [ "Validate", "d5/d2b/a15526.html#a20827683249c17625242e205bb51f9e8", null ],
+    [ "_delay", "d5/d2b/a15526.html#a191d7eec948e0753835bd41eef66f1ec", null ],
+    [ "_spellEntry", "d5/d2b/a15526.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
 ];

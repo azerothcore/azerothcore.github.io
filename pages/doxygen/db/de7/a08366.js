@@ -1,6 +1,7 @@
 var a08366 =
 [
-    [ "SavedItem", "db/de7/a08366.html#a7261d44eefdbd56df651a57a71f5af6e", null ],
-    [ "dstpos", "db/de7/a08366.html#af844c8b955858b1ead94798c6326fa03", null ],
-    [ "item", "db/de7/a08366.html#afaa651441e306c13acc3cd1aa3084170", null ]
+    [ "ItemPosCount", "db/de7/a08366.html#a43458da1fc31d827b6de726754f7901e", null ],
+    [ "isContainedIn", "db/de7/a08366.html#a6977c544a2d39ca5872b75f27517974f", null ],
+    [ "count", "db/de7/a08366.html#a4e09f94aa0808f76b2d5ff23691abb27", null ],
+    [ "pos", "db/de7/a08366.html#ad8954f1a6323316510cfe0f332ee495f", null ]
 ];

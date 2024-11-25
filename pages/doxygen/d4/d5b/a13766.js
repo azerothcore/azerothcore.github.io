@@ -1,6 +1,5 @@
 var a13766 =
 [
-    [ "npc_brewfest_keg_reciver", "d4/d5b/a13766.html#af12e7608f3f715650e6c265ac18920e4", null ],
-    [ "MoveInLineOfSight", "d4/d5b/a13766.html#ae719a770598c6347d4ee6b9e77d30eae", null ],
-    [ "sGossipSelect", "d4/d5b/a13766.html#ad56ba9921e94cbd4ba1d6c1ddd1efe24", null ]
+    [ "go_brazier_of_madness", "d4/d5b/a13766.html#aeb900e575be02244e62c6e5e4153c855", null ],
+    [ "GossipHello", "d4/d5b/a13766.html#aba3af326b01cd045523434aec189fd47", null ]
 ];

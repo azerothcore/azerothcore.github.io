@@ -1,7 +1,7 @@
 var a21426 =
 [
-    [ "CheckRequirement", "d3/dd6/a21426.html#a41beb2c890137328734d6adb14e08302", null ],
-    [ "PrepareSpellScript", "d3/dd6/a21426.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
-    [ "Register", "d3/dd6/a21426.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
-    [ "SetDest", "d3/dd6/a21426.html#a431a556ab73f91ed63f5983e537834a5", null ]
+    [ "HandleApplyEffect", "d3/dd6/a21426.html#aab7bd30368c51a6a209f6cad5a93ba79", null ],
+    [ "HandleRemoveEffect", "d3/dd6/a21426.html#a243933fec9ccd650303ea5badbea725b", null ],
+    [ "PrepareAuraScript", "d3/dd6/a21426.html#ac0e1fc0694dd51e245340d3658592447", null ],
+    [ "Register", "d3/dd6/a21426.html#a0f6e6c6892d56a6fceb927f68c734bde", null ]
 ];

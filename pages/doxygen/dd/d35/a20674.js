@@ -1,5 +1,6 @@
 var a20674 =
 [
-    [ "AreaTrigger_at_celestial_planetarium_enterance", "dd/d35/a20674.html#ae1503a754a05a77991d9955a2fb74265", null ],
-    [ "OnTrigger", "dd/d35/a20674.html#aa7aa93e00170313de251af4e562c422c", null ]
+    [ "npc_frost_tombAI", "d8/d1e/a20678.html", "d8/d1e/a20678" ],
+    [ "npc_frost_tomb", "dd/d35/a20674.html#aa3449f956a9399fc24a709c4c8485bd2", null ],
+    [ "GetAI", "dd/d35/a20674.html#a6d913e6cf9138de60556ec381354e614", null ]
 ];

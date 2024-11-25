@@ -1,12 +1,12 @@
 var a07106 =
 [
-    [ "BGQueueRemoveEvent", "dc/da2/a07106.html#ab751b728f64b2928eefb21f756539d81", null ],
-    [ "~BGQueueRemoveEvent", "dc/da2/a07106.html#aab9ea24041888975439aafb246c571c3", null ],
-    [ "Abort", "dc/da2/a07106.html#a7d1dc829e56398ad421cb53dd51e952e", null ],
-    [ "Execute", "dc/da2/a07106.html#a42482ff784da4b23b568888a74a0b531", null ],
-    [ "m_BgInstanceGUID", "dc/da2/a07106.html#a4732918e6d7c42dd068f5cb147a188fc", null ],
-    [ "m_BgQueueTypeId", "dc/da2/a07106.html#ac059a823ae49bd0250eec15845bf153b", null ],
-    [ "m_BgTypeId", "dc/da2/a07106.html#a8bc484087ef76d627d5ae912bc5de22c", null ],
-    [ "m_PlayerGuid", "dc/da2/a07106.html#a9a1e2c09896b4d7521954d810e7193cc", null ],
-    [ "m_RemoveTime", "dc/da2/a07106.html#a0c40a46749bff9caaf1a462d7bef701e", null ]
+    [ "BGQueueInviteEvent", "dc/da2/a07106.html#acee27900339fdcebbfd21bb0e602654d", null ],
+    [ "~BGQueueInviteEvent", "dc/da2/a07106.html#a09f9f27ecbc273b25e5941966a4fa925", null ],
+    [ "Abort", "dc/da2/a07106.html#a07f5520ab61cdfd4eadc5d0815067135", null ],
+    [ "Execute", "dc/da2/a07106.html#a444aceb1c29c951271bab5186a7f3064", null ],
+    [ "m_ArenaType", "dc/da2/a07106.html#a1b7d1161d46578606396efd515ab1739", null ],
+    [ "m_BgInstanceGUID", "dc/da2/a07106.html#ad9adc44cc1cde3b0b820740852bdb3ce", null ],
+    [ "m_BgTypeId", "dc/da2/a07106.html#a608c24288f24bc4da77124257320c741", null ],
+    [ "m_PlayerGuid", "dc/da2/a07106.html#a200b4bcd336846df60ec11de8d829d7d", null ],
+    [ "m_RemoveTime", "dc/da2/a07106.html#a4c78e5a74eaf859db40772008557201f", null ]
 ];

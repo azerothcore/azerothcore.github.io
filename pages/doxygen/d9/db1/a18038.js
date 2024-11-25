@@ -1,6 +1,5 @@
 var a18038 =
 [
-    [ "ManaVoidSelector", "d9/db1/a18038.html#aa57a0960e7ce90b8de23f01ae72a1fff", null ],
-    [ "operator()", "d9/db1/a18038.html#a464d63f2cf8cfe7d0c6bb5293e788a28", null ],
-    [ "_source", "d9/db1/a18038.html#ae45c999db51bc153bba7f2fdfb99f6ba", null ]
+    [ "achievement_been_waiting_long_time", "d9/db1/a18038.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
+    [ "OnCheck", "d9/db1/a18038.html#a5e72304220d3a649d2182cb287215da6", null ]
 ];

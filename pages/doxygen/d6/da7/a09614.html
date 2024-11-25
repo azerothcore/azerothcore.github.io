@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AsyncAuctionListingMgr Class Reference</title>
+<title>AzerothCore: AuctionListItemsDelayEvent Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,45 +105,57 @@ $(document).ready(function(){initNavTree('d6/da7/a09614.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dc/db8/a09611.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AsyncAuctionListingMgr Class Reference</div></div>
+  <div class="headertitle"><div class="title">AuctionListItemsDelayEvent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">AsyncAuctionListing.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a0b141afeaf6ee0c3354d759b9cb77cfd"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a0b141afeaf6ee0c3354d759b9cb77cfd">Update</a> (<a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> diff)</td></tr>
-<tr class="separator:a0b141afeaf6ee0c3354d759b9cb77cfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7964d45d3289b982e8a2d1e30fb8a4e6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a7964d45d3289b982e8a2d1e30fb8a4e6">GetDiff</a> ()</td></tr>
-<tr class="separator:a7964d45d3289b982e8a2d1e30fb8a4e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3fd3b60d639b28b5e89a8e6a48598b6b"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a3fd3b60d639b28b5e89a8e6a48598b6b">ResetDiff</a> ()</td></tr>
-<tr class="separator:a3fd3b60d639b28b5e89a8e6a48598b6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac795cff0a8ff6aac53ef6c5aef1a6d32"><td class="memItemLeft" align="right" valign="top">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#ac795cff0a8ff6aac53ef6c5aef1a6d32">GetList</a> ()</td></tr>
-<tr class="separator:ac795cff0a8ff6aac53ef6c5aef1a6d32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac39c84b0e6d8d048363898de9b000ce3"><td class="memItemLeft" align="right" valign="top">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#ac39c84b0e6d8d048363898de9b000ce3">GetTempList</a> ()</td></tr>
-<tr class="separator:ac39c84b0e6d8d048363898de9b000ce3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1de4c44c1cf2af6e517197a9b6fd9e0d"><td class="memItemLeft" align="right" valign="top">static std::mutex &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a1de4c44c1cf2af6e517197a9b6fd9e0d">GetTempLock</a> ()</td></tr>
-<tr class="separator:a1de4c44c1cf2af6e517197a9b6fd9e0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:ae495f47cdcf2db992d6f5c599c969274"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#ae495f47cdcf2db992d6f5c599c969274">AuctionListItemsDelayEvent</a> (<a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> pickupTimer, <a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> playerguid, <a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> creatureguid, std::string searchedname, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> listfrom, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> levelmin, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> levelmax, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> usable, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> auctionSlotID, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> auctionMainCategory, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> auctionSubCategory, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quality, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> getAll, <a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> sortOrder)</td></tr>
+<tr class="separator:ae495f47cdcf2db992d6f5c599c969274"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac14c369351fe9cd6dcb063d7b8fd6448"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#ac14c369351fe9cd6dcb063d7b8fd6448">Execute</a> ()</td></tr>
+<tr class="separator:ac14c369351fe9cd6dcb063d7b8fd6448"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:a0bde4fa09977c0d4a9f0cade5e11efaf"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a0bde4fa09977c0d4a9f0cade5e11efaf">auctionListingDiff</a> = Milliseconds::zero()</td></tr>
-<tr class="separator:a0bde4fa09977c0d4a9f0cade5e11efaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9665932deb7777789f862755eb32b1e"><td class="memItemLeft" align="right" valign="top">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#ad9665932deb7777789f862755eb32b1e">auctionListingList</a></td></tr>
-<tr class="separator:ad9665932deb7777789f862755eb32b1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a807c7bd712bfc72a647c6cd9356c7007"><td class="memItemLeft" align="right" valign="top">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a807c7bd712bfc72a647c6cd9356c7007">auctionListingListTemp</a></td></tr>
-<tr class="separator:a807c7bd712bfc72a647c6cd9356c7007"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f12f53958ae9176cb5a01f56d846cc7"><td class="memItemLeft" align="right" valign="top">static std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a6f12f53958ae9176cb5a01f56d846cc7">auctionListingTempLock</a></td></tr>
-<tr class="separator:a6f12f53958ae9176cb5a01f56d846cc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a5f3d52f0afb2e277dd3fb03e9f32103f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a5f3d52f0afb2e277dd3fb03e9f32103f">_pickupTimer</a></td></tr>
+<tr class="separator:a5f3d52f0afb2e277dd3fb03e9f32103f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eaa2f344de186e746908627c9523b4a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a3eaa2f344de186e746908627c9523b4a">_playerguid</a></td></tr>
+<tr class="separator:a3eaa2f344de186e746908627c9523b4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5280785705b920d5a4592b11675d4da1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a5280785705b920d5a4592b11675d4da1">_creatureguid</a></td></tr>
+<tr class="separator:a5280785705b920d5a4592b11675d4da1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59ad8e5c53e85faec91d9bda903aad47"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a59ad8e5c53e85faec91d9bda903aad47">_searchedname</a></td></tr>
+<tr class="separator:a59ad8e5c53e85faec91d9bda903aad47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01813c762107e6e0e43a53f7ffade16b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a01813c762107e6e0e43a53f7ffade16b">_listfrom</a></td></tr>
+<tr class="separator:a01813c762107e6e0e43a53f7ffade16b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a787db3b49334d2efb6b7f812bf6ad954"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a787db3b49334d2efb6b7f812bf6ad954">_levelmin</a></td></tr>
+<tr class="separator:a787db3b49334d2efb6b7f812bf6ad954"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ca2d402112451de3c09f559954f5ff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a3ca2d402112451de3c09f559954f5ff6">_levelmax</a></td></tr>
+<tr class="separator:a3ca2d402112451de3c09f559954f5ff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fa068377683cb71807bfa700b8c688d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a0fa068377683cb71807bfa700b8c688d">_usable</a></td></tr>
+<tr class="separator:a0fa068377683cb71807bfa700b8c688d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64c54082878561e1587715396953fd75"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a64c54082878561e1587715396953fd75">_auctionSlotID</a></td></tr>
+<tr class="separator:a64c54082878561e1587715396953fd75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a828416051f1e84bef716afb20f3d1e60"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a828416051f1e84bef716afb20f3d1e60">_auctionMainCategory</a></td></tr>
+<tr class="separator:a828416051f1e84bef716afb20f3d1e60"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76028f94d492f2508d755e74810ac90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#aa76028f94d492f2508d755e74810ac90">_auctionSubCategory</a></td></tr>
+<tr class="separator:aa76028f94d492f2508d755e74810ac90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b71f78b81c11f1a9ebbe58f17aeedde"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a5b71f78b81c11f1a9ebbe58f17aeedde">_quality</a></td></tr>
+<tr class="separator:a5b71f78b81c11f1a9ebbe58f17aeedde"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accbc5a8c1e0c1de696b0884d22eebeb8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#accbc5a8c1e0c1de696b0884d22eebeb8">_getAll</a></td></tr>
+<tr class="separator:accbc5a8c1e0c1de696b0884d22eebeb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87c6f59bdf36fb858aa3a56af87f69d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/da7/a09614.html#a87c6f59bdf36fb858aa3a56af87f69d8">_sortOrder</a></td></tr>
+<tr class="separator:a87c6f59bdf36fb858aa3a56af87f69d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7964d45d3289b982e8a2d1e30fb8a4e6" name="a7964d45d3289b982e8a2d1e30fb8a4e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7964d45d3289b982e8a2d1e30fb8a4e6">&#9670;&#160;</a></span>GetDiff()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ae495f47cdcf2db992d6f5c599c969274" name="ae495f47cdcf2db992d6f5c599c969274"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae495f47cdcf2db992d6f5c599c969274">&#9670;&#160;</a></span>AuctionListItemsDelayEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -152,275 +164,423 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> AsyncAuctionListingMgr::GetDiff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/da7/a09614.html#a0bde4fa09977c0d4a9f0cade5e11efaf">auctionListingDiff</a>; }</div>
-<div class="ttc" id="aa09614_html_a0bde4fa09977c0d4a9f0cade5e11efaf"><div class="ttname"><a href="../../d6/da7/a09614.html#a0bde4fa09977c0d4a9f0cade5e11efaf">AsyncAuctionListingMgr::auctionListingDiff</a></div><div class="ttdeci">static Milliseconds auctionListingDiff</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:74</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00074">auctionListingDiff</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00713">AuctionListingRunnable()</a>.</p>
-
-</div>
-</div>
-<a id="ac795cff0a8ff6aac53ef6c5aef1a6d32" name="ac795cff0a8ff6aac53ef6c5aef1a6d32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac795cff0a8ff6aac53ef6c5aef1a6d32">&#9670;&#160;</a></span>GetList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; &amp; AsyncAuctionListingMgr::GetList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   69</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/da7/a09614.html#ad9665932deb7777789f862755eb32b1e">auctionListingList</a>; }</div>
-<div class="ttc" id="aa09614_html_ad9665932deb7777789f862755eb32b1e"><div class="ttname"><a href="../../d6/da7/a09614.html#ad9665932deb7777789f862755eb32b1e">AsyncAuctionListingMgr::auctionListingList</a></div><div class="ttdeci">static std::list&lt; AuctionListItemsDelayEvent &gt; auctionListingList</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:75</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00075">auctionListingList</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00713">AuctionListingRunnable()</a>.</p>
-
-</div>
-</div>
-<a id="ac39c84b0e6d8d048363898de9b000ce3" name="ac39c84b0e6d8d048363898de9b000ce3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac39c84b0e6d8d048363898de9b000ce3">&#9670;&#160;</a></span>GetTempList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; &amp; AsyncAuctionListingMgr::GetTempList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/da7/a09614.html#a807c7bd712bfc72a647c6cd9356c7007">auctionListingListTemp</a>; }</div>
-<div class="ttc" id="aa09614_html_a807c7bd712bfc72a647c6cd9356c7007"><div class="ttname"><a href="../../d6/da7/a09614.html#a807c7bd712bfc72a647c6cd9356c7007">AsyncAuctionListingMgr::auctionListingListTemp</a></div><div class="ttdeci">static std::list&lt; AuctionListItemsDelayEvent &gt; auctionListingListTemp</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:76</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00076">auctionListingListTemp</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00713">AuctionListingRunnable()</a>, and <a class="el" href="../../#l00704">WorldSession::HandleAuctionListItems()</a>.</p>
-
-</div>
-</div>
-<a id="a1de4c44c1cf2af6e517197a9b6fd9e0d" name="a1de4c44c1cf2af6e517197a9b6fd9e0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1de4c44c1cf2af6e517197a9b6fd9e0d">&#9670;&#160;</a></span>GetTempLock()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static std::mutex &amp; AsyncAuctionListingMgr::GetTempLock </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   71</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/da7/a09614.html#a6f12f53958ae9176cb5a01f56d846cc7">auctionListingTempLock</a>; }</div>
-<div class="ttc" id="aa09614_html_a6f12f53958ae9176cb5a01f56d846cc7"><div class="ttname"><a href="../../d6/da7/a09614.html#a6f12f53958ae9176cb5a01f56d846cc7">AsyncAuctionListingMgr::auctionListingTempLock</a></div><div class="ttdeci">static std::mutex auctionListingTempLock</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:77</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00077">auctionListingTempLock</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00713">AuctionListingRunnable()</a>, and <a class="el" href="../../#l00704">WorldSession::HandleAuctionListItems()</a>.</p>
-
-</div>
-</div>
-<a id="a3fd3b60d639b28b5e89a8e6a48598b6b" name="a3fd3b60d639b28b5e89a8e6a48598b6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3fd3b60d639b28b5e89a8e6a48598b6b">&#9670;&#160;</a></span>ResetDiff()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void AsyncAuctionListingMgr::ResetDiff </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{ <a class="code hl_variable" href="../../d6/da7/a09614.html#a0bde4fa09977c0d4a9f0cade5e11efaf">auctionListingDiff</a> = Milliseconds::zero(); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00074">auctionListingDiff</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00713">AuctionListingRunnable()</a>.</p>
-
-</div>
-</div>
-<a id="a0b141afeaf6ee0c3354d759b9cb77cfd" name="a0b141afeaf6ee0c3354d759b9cb77cfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b141afeaf6ee0c3354d759b9cb77cfd">&#9670;&#160;</a></span>Update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void AsyncAuctionListingMgr::Update </td>
+          <td class="memname">AuctionListItemsDelayEvent::AuctionListItemsDelayEvent </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td>
-          <td class="paramname"><em>diff</em></td><td>)</td>
+          <td class="paramname"><em>pickupTimer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>playerguid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>creatureguid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>searchedname</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>listfrom</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>levelmin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>levelmax</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>usable</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>auctionSlotID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>auctionMainCategory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>auctionSubCategory</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>quality</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>getAll</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a>&#160;</td>
+          <td class="paramname"><em>sortOrder</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   66</span>{ <a class="code hl_variable" href="../../d6/da7/a09614.html#a0bde4fa09977c0d4a9f0cade5e11efaf">auctionListingDiff</a> += diff; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>                                                                                                                                                                   :</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../d6/da7/a09614.html#a5f3d52f0afb2e277dd3fb03e9f32103f">_pickupTimer</a>(pickupTimer), <a class="code hl_variable" href="../../d6/da7/a09614.html#a3eaa2f344de186e746908627c9523b4a">_playerguid</a>(playerguid), <a class="code hl_variable" href="../../d6/da7/a09614.html#a5280785705b920d5a4592b11675d4da1">_creatureguid</a>(creatureguid), <a class="code hl_variable" href="../../d6/da7/a09614.html#a59ad8e5c53e85faec91d9bda903aad47">_searchedname</a>(searchedname), <a class="code hl_variable" href="../../d6/da7/a09614.html#a01813c762107e6e0e43a53f7ffade16b">_listfrom</a>(listfrom), <a class="code hl_variable" href="../../d6/da7/a09614.html#a787db3b49334d2efb6b7f812bf6ad954">_levelmin</a>(levelmin), <a class="code hl_variable" href="../../d6/da7/a09614.html#a3ca2d402112451de3c09f559954f5ff6">_levelmax</a>(levelmax),<a class="code hl_variable" href="../../d6/da7/a09614.html#a0fa068377683cb71807bfa700b8c688d">_usable</a>(usable),</div>
+<div class="line"><span class="lineno">   43</span>        <a class="code hl_variable" href="../../d6/da7/a09614.html#a64c54082878561e1587715396953fd75">_auctionSlotID</a>(auctionSlotID), <a class="code hl_variable" href="../../d6/da7/a09614.html#a828416051f1e84bef716afb20f3d1e60">_auctionMainCategory</a>(auctionMainCategory), <a class="code hl_variable" href="../../d6/da7/a09614.html#aa76028f94d492f2508d755e74810ac90">_auctionSubCategory</a>(auctionSubCategory), <a class="code hl_variable" href="../../d6/da7/a09614.html#a5b71f78b81c11f1a9ebbe58f17aeedde">_quality</a>(quality), <a class="code hl_variable" href="../../d6/da7/a09614.html#accbc5a8c1e0c1de696b0884d22eebeb8">_getAll</a>(getAll), <a class="code hl_variable" href="../../d6/da7/a09614.html#a87c6f59bdf36fb858aa3a56af87f69d8">_sortOrder</a>(sortOrder) { }</div>
+<div class="ttc" id="aa09614_html_a01813c762107e6e0e43a53f7ffade16b"><div class="ttname"><a href="../../d6/da7/a09614.html#a01813c762107e6e0e43a53f7ffade16b">AuctionListItemsDelayEvent::_listfrom</a></div><div class="ttdeci">uint32 _listfrom</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:51</div></div>
+<div class="ttc" id="aa09614_html_a0fa068377683cb71807bfa700b8c688d"><div class="ttname"><a href="../../d6/da7/a09614.html#a0fa068377683cb71807bfa700b8c688d">AuctionListItemsDelayEvent::_usable</a></div><div class="ttdeci">uint8 _usable</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:54</div></div>
+<div class="ttc" id="aa09614_html_a3ca2d402112451de3c09f559954f5ff6"><div class="ttname"><a href="../../d6/da7/a09614.html#a3ca2d402112451de3c09f559954f5ff6">AuctionListItemsDelayEvent::_levelmax</a></div><div class="ttdeci">uint8 _levelmax</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:53</div></div>
+<div class="ttc" id="aa09614_html_a3eaa2f344de186e746908627c9523b4a"><div class="ttname"><a href="../../d6/da7/a09614.html#a3eaa2f344de186e746908627c9523b4a">AuctionListItemsDelayEvent::_playerguid</a></div><div class="ttdeci">ObjectGuid _playerguid</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:48</div></div>
+<div class="ttc" id="aa09614_html_a5280785705b920d5a4592b11675d4da1"><div class="ttname"><a href="../../d6/da7/a09614.html#a5280785705b920d5a4592b11675d4da1">AuctionListItemsDelayEvent::_creatureguid</a></div><div class="ttdeci">ObjectGuid _creatureguid</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:49</div></div>
+<div class="ttc" id="aa09614_html_a59ad8e5c53e85faec91d9bda903aad47"><div class="ttname"><a href="../../d6/da7/a09614.html#a59ad8e5c53e85faec91d9bda903aad47">AuctionListItemsDelayEvent::_searchedname</a></div><div class="ttdeci">std::string _searchedname</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:50</div></div>
+<div class="ttc" id="aa09614_html_a5b71f78b81c11f1a9ebbe58f17aeedde"><div class="ttname"><a href="../../d6/da7/a09614.html#a5b71f78b81c11f1a9ebbe58f17aeedde">AuctionListItemsDelayEvent::_quality</a></div><div class="ttdeci">uint32 _quality</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:58</div></div>
+<div class="ttc" id="aa09614_html_a5f3d52f0afb2e277dd3fb03e9f32103f"><div class="ttname"><a href="../../d6/da7/a09614.html#a5f3d52f0afb2e277dd3fb03e9f32103f">AuctionListItemsDelayEvent::_pickupTimer</a></div><div class="ttdeci">Milliseconds _pickupTimer</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:47</div></div>
+<div class="ttc" id="aa09614_html_a64c54082878561e1587715396953fd75"><div class="ttname"><a href="../../d6/da7/a09614.html#a64c54082878561e1587715396953fd75">AuctionListItemsDelayEvent::_auctionSlotID</a></div><div class="ttdeci">uint32 _auctionSlotID</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:55</div></div>
+<div class="ttc" id="aa09614_html_a787db3b49334d2efb6b7f812bf6ad954"><div class="ttname"><a href="../../d6/da7/a09614.html#a787db3b49334d2efb6b7f812bf6ad954">AuctionListItemsDelayEvent::_levelmin</a></div><div class="ttdeci">uint8 _levelmin</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:52</div></div>
+<div class="ttc" id="aa09614_html_a828416051f1e84bef716afb20f3d1e60"><div class="ttname"><a href="../../d6/da7/a09614.html#a828416051f1e84bef716afb20f3d1e60">AuctionListItemsDelayEvent::_auctionMainCategory</a></div><div class="ttdeci">uint32 _auctionMainCategory</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:56</div></div>
+<div class="ttc" id="aa09614_html_a87c6f59bdf36fb858aa3a56af87f69d8"><div class="ttname"><a href="../../d6/da7/a09614.html#a87c6f59bdf36fb858aa3a56af87f69d8">AuctionListItemsDelayEvent::_sortOrder</a></div><div class="ttdeci">AuctionSortOrderVector _sortOrder</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:60</div></div>
+<div class="ttc" id="aa09614_html_aa76028f94d492f2508d755e74810ac90"><div class="ttname"><a href="../../d6/da7/a09614.html#aa76028f94d492f2508d755e74810ac90">AuctionListItemsDelayEvent::_auctionSubCategory</a></div><div class="ttdeci">uint32 _auctionSubCategory</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:57</div></div>
+<div class="ttc" id="aa09614_html_accbc5a8c1e0c1de696b0884d22eebeb8"><div class="ttname"><a href="../../d6/da7/a09614.html#accbc5a8c1e0c1de696b0884d22eebeb8">AuctionListItemsDelayEvent::_getAll</a></div><div class="ttdeci">uint8 _getAll</div><div class="ttdef"><b>Definition:</b> AsyncAuctionListing.h:59</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00074">auctionListingDiff</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac14c369351fe9cd6dcb063d7b8fd6448" name="ac14c369351fe9cd6dcb063d7b8fd6448"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac14c369351fe9cd6dcb063d7b8fd6448">&#9670;&#160;</a></span>Execute()</h2>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02257">World::Update()</a>.</p>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AuctionListItemsDelayEvent::Execute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_class" href="../../db/dff/a08390.html">Player</a>* plr = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(<a class="code hl_variable" href="../../d6/da7/a09614.html#a3eaa2f344de186e746908627c9523b4a">_playerguid</a>);</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">if</span> (!plr || !plr-&gt;<a class="code hl_function" href="../../d7/d40/a08146.html#a3aeab7def818ba6c50249f197ad2f9ca">IsInWorld</a>() || plr-&gt;<a class="code hl_function" href="../../d0/d32/a08522.html#a7b8654ccb16f3b1e7be4d93d74a304ba">IsDuringRemoveFromWorld</a>() || plr-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#af66560315fcbe492a24137bc8d96dd94">IsBeingTeleported</a>())</div>
+<div class="line"><span class="lineno">   41</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_class" href="../../d4/d1e/a07774.html">Creature</a>* creature = plr-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a989a0636ec71ce23efa1627584dcf0a6">GetNPCIfCanInteractWith</a>(<a class="code hl_variable" href="../../d6/da7/a09614.html#a5280785705b920d5a4592b11675d4da1">_creatureguid</a>, <a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a">UNIT_NPC_FLAG_AUCTIONEER</a>);</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (!creature)</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_class" href="../../db/dce/a06958.html">AuctionHouseObject</a>* auctionHouse = <a class="code hl_define" href="../../d6/d2a/a03062.html#ac3e168154709326e99ab24a7d1395906">sAuctionMgr</a>-&gt;GetAuctionsMap(creature-&gt;<a class="code hl_function" href="../../d0/d32/a08522.html#a6727f9ef69f7cefb909dfc5db05df155">GetFaction</a>());</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_class" href="../../d3/d32/a10702.html">WorldPacket</a> data(<a class="code hl_enumvalue" href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba88e4be7ec455f63618242c65cd3a2671">SMSG_AUCTION_LIST_RESULT</a>, (4 + 4 + 4) + 50 * ((16 + <a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0">MAX_INSPECTED_ENCHANTMENT_SLOT</a> * 3) * 4));</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 0;</div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> totalcount = 0;</div>
+<div class="line"><span class="lineno">   52</span>    data &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) 0;</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    <span class="comment">// converting string that we try to find to lower case</span></div>
+<div class="line"><span class="lineno">   55</span>    std::wstring wsearchedname;</div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(<a class="code hl_variable" href="../../d6/da7/a09614.html#a59ad8e5c53e85faec91d9bda903aad47">_searchedname</a>, wsearchedname))</div>
+<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(wsearchedname);</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> searchTimeout = <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a6237670e96195ac491898fa9df09e2f4">CONFIG_AUCTION_HOUSE_SEARCH_TIMEOUT</a>);</div>
+<div class="line"><span class="lineno">   62</span>    <span class="keywordtype">bool</span> result = auctionHouse-&gt;<a class="code hl_function" href="../../db/dce/a06958.html#afda97008c4ab61ef1c104aa6aab27042">BuildListAuctionItems</a>(data, plr,</div>
+<div class="line"><span class="lineno">   63</span>                  wsearchedname, <a class="code hl_variable" href="../../d6/da7/a09614.html#a01813c762107e6e0e43a53f7ffade16b">_listfrom</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a787db3b49334d2efb6b7f812bf6ad954">_levelmin</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a3ca2d402112451de3c09f559954f5ff6">_levelmax</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a0fa068377683cb71807bfa700b8c688d">_usable</a>,</div>
+<div class="line"><span class="lineno">   64</span>                  <a class="code hl_variable" href="../../d6/da7/a09614.html#a64c54082878561e1587715396953fd75">_auctionSlotID</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a828416051f1e84bef716afb20f3d1e60">_auctionMainCategory</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#aa76028f94d492f2508d755e74810ac90">_auctionSubCategory</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a5b71f78b81c11f1a9ebbe58f17aeedde">_quality</a>,</div>
+<div class="line"><span class="lineno">   65</span>                  count, totalcount, <a class="code hl_variable" href="../../d6/da7/a09614.html#accbc5a8c1e0c1de696b0884d22eebeb8">_getAll</a>, <a class="code hl_variable" href="../../d6/da7/a09614.html#a87c6f59bdf36fb858aa3a56af87f69d8">_sortOrder</a>, <a class="code hl_typedef" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>(searchTimeout));</div>
+<div class="line"><span class="lineno">   66</span> </div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordflow">if</span> (result)</div>
+<div class="line"><span class="lineno">   68</span>    {</div>
+<div class="line"><span class="lineno">   69</span>        data.put&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;(0, count);</div>
+<div class="line"><span class="lineno">   70</span>        data &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) totalcount;</div>
+<div class="line"><span class="lineno">   71</span>        data &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) 300; <span class="comment">// clientside search cooldown [ms] (gray search button)</span></div>
+<div class="line"><span class="lineno">   72</span>        plr-&gt;<a class="code hl_function" href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d2/d13/a10746.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno">   73</span>    }</div>
+<div class="line"><span class="lineno">   74</span> </div>
+<div class="line"><span class="lineno">   75</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   76</span>}</div>
+<div class="ttc" id="aa00338_html_a1c3834b9e3853535027d58bf21bec81f"><div class="ttname"><a href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a></div><div class="ttdeci">std::chrono::milliseconds Milliseconds</div><div class="ttdoc">Milliseconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:27</div></div>
+<div class="ttc" id="aa00383_html_a096388bd1034eb78e43e5d60cc4f657a"><div class="ttname"><a href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, std::size_t csize, wchar_t *wstr, std::size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:281</div></div>
+<div class="ttc" id="aa00383_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:382</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03062_html_ac3e168154709326e99ab24a7d1395906"><div class="ttname"><a href="../../d6/d2a/a03062.html#ac3e168154709326e99ab24a7d1395906">sAuctionMgr</a></div><div class="ttdeci">#define sAuctionMgr</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:227</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41a6237670e96195ac491898fa9df09e2f4"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a6237670e96195ac491898fa9df09e2f4">CONFIG_AUCTION_HOUSE_SEARCH_TIMEOUT</a></div><div class="ttdeci">@ CONFIG_AUCTION_HOUSE_SEARCH_TIMEOUT</div><div class="ttdef"><b>Definition:</b> IWorld.h:420</div></div>
+<div class="ttc" id="aa03395_html_af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0"><div class="ttname"><a href="../../d6/d0e/a03395.html#af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0">MAX_INSPECTED_ENCHANTMENT_SLOT</a></div><div class="ttdeci">@ MAX_INSPECTED_ENCHANTMENT_SLOT</div><div class="ttdef"><b>Definition:</b> Item.h:176</div></div>
+<div class="ttc" id="aa03521_html_ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a"><div class="ttname"><a href="../../d8/dbe/a03521.html#ab054baf099d873bce22a0e84ae1090e2a304c2b97e3e8fd1c42b4d999fa4b709a">UNIT_NPC_FLAG_AUCTIONEER</a></div><div class="ttdeci">@ UNIT_NPC_FLAG_AUCTIONEER</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:315</div></div>
+<div class="ttc" id="aa04680_html_gga1073b6abb3a749f18bf1633020879e9ba88e4be7ec455f63618242c65cd3a2671"><div class="ttname"><a href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba88e4be7ec455f63618242c65cd3a2671">SMSG_AUCTION_LIST_RESULT</a></div><div class="ttdeci">@ SMSG_AUCTION_LIST_RESULT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:634</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
+<div class="ttc" id="aa04735_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:245</div></div>
+<div class="ttc" id="aa06958_html"><div class="ttname"><a href="../../db/dce/a06958.html">AuctionHouseObject</a></div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:130</div></div>
+<div class="ttc" id="aa06958_html_afda97008c4ab61ef1c104aa6aab27042"><div class="ttname"><a href="../../db/dce/a06958.html#afda97008c4ab61ef1c104aa6aab27042">AuctionHouseObject::BuildListAuctionItems</a></div><div class="ttdeci">bool BuildListAuctionItems(WorldPacket &amp;data, Player *player, std::wstring const &amp;searchedname, uint32 listfrom, uint8 levelmin, uint8 levelmax, uint8 usable, uint32 inventoryType, uint32 itemClass, uint32 itemSubClass, uint32 quality, uint32 &amp;count, uint32 &amp;totalcount, uint8 getAll, AuctionSortOrderVector const &amp;sortOrder, Milliseconds searchTimeout)</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.cpp:733</div></div>
+<div class="ttc" id="aa07774_html"><div class="ttname"><a href="../../d4/d1e/a07774.html">Creature</a></div><div class="ttdef"><b>Definition:</b> Creature.h:43</div></div>
+<div class="ttc" id="aa08146_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d7/d40/a08146.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:104</div></div>
+<div class="ttc" id="aa08390_html"><div class="ttname"><a href="../../db/dff/a08390.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa08390_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../db/dff/a08390.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1981</div></div>
+<div class="ttc" id="aa08390_html_a989a0636ec71ce23efa1627584dcf0a6"><div class="ttname"><a href="../../db/dff/a08390.html#a989a0636ec71ce23efa1627584dcf0a6">Player::GetNPCIfCanInteractWith</a></div><div class="ttdeci">Creature * GetNPCIfCanInteractWith(ObjectGuid guid, uint32 npcflagmask)</div><div class="ttdef"><b>Definition:</b> Player.cpp:2077</div></div>
+<div class="ttc" id="aa08390_html_af66560315fcbe492a24137bc8d96dd94"><div class="ttname"><a href="../../db/dff/a08390.html#af66560315fcbe492a24137bc8d96dd94">Player::IsBeingTeleported</a></div><div class="ttdeci">bool IsBeingTeleported() const</div><div class="ttdef"><b>Definition:</b> Player.h:2073</div></div>
+<div class="ttc" id="aa08522_html_a6727f9ef69f7cefb909dfc5db05df155"><div class="ttname"><a href="../../d0/d32/a08522.html#a6727f9ef69f7cefb909dfc5db05df155">Unit::GetFaction</a></div><div class="ttdeci">uint32 GetFaction() const</div><div class="ttdef"><b>Definition:</b> Unit.h:808</div></div>
+<div class="ttc" id="aa08522_html_a7b8654ccb16f3b1e7be4d93d74a304ba"><div class="ttname"><a href="../../d0/d32/a08522.html#a7b8654ccb16f3b1e7be4d93d74a304ba">Unit::IsDuringRemoveFromWorld</a></div><div class="ttdeci">bool IsDuringRemoveFromWorld() const</div><div class="ttdef"><b>Definition:</b> Unit.h:668</div></div>
+<div class="ttc" id="aa10702_html"><div class="ttname"><a href="../../d3/d32/a10702.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:26</div></div>
+<div class="ttc" id="aa10746_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d2/d13/a10746.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:214</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00056">_auctionMainCategory</a>, <a class="el" href="../../#l00055">_auctionSlotID</a>, <a class="el" href="../../#l00057">_auctionSubCategory</a>, <a class="el" href="../../#l00049">_creatureguid</a>, <a class="el" href="../../#l00059">_getAll</a>, <a class="el" href="../../#l00053">_levelmax</a>, <a class="el" href="../../#l00052">_levelmin</a>, <a class="el" href="../../#l00051">_listfrom</a>, <a class="el" href="../../#l00048">_playerguid</a>, <a class="el" href="../../#l00058">_quality</a>, <a class="el" href="../../#l00050">_searchedname</a>, <a class="el" href="../../#l00060">_sortOrder</a>, <a class="el" href="../../#l00054">_usable</a>, <a class="el" href="../../#l00733">AuctionHouseObject::BuildListAuctionItems()</a>, <a class="el" href="../../#l00420">CONFIG_AUCTION_HOUSE_SEARCH_TIMEOUT</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00808">Unit::GetFaction()</a>, <a class="el" href="../../#l02077">Player::GetNPCIfCanInteractWith()</a>, <a class="el" href="../../#l01981">Player::GetSession()</a>, <a class="el" href="../../#l02073">Player::IsBeingTeleported()</a>, <a class="el" href="../../#l00668">Unit::IsDuringRemoveFromWorld()</a>, <a class="el" href="../../#l00104">Object::IsInWorld()</a>, <a class="el" href="../../#l00176">MAX_INSPECTED_ENCHANTMENT_SLOT</a>, <a class="el" href="../../#l00137">ByteBuffer::put()</a>, <a class="el" href="../../#l00227">sAuctionMgr</a>, <a class="el" href="../../#l00214">WorldSession::SendPacket()</a>, <a class="el" href="../../#l00634">SMSG_AUCTION_LIST_RESULT</a>, <a class="el" href="../../#l00443">sWorld</a>, <a class="el" href="../../#l00315">UNIT_NPC_FLAG_AUCTIONEER</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a0bde4fa09977c0d4a9f0cade5e11efaf" name="a0bde4fa09977c0d4a9f0cade5e11efaf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bde4fa09977c0d4a9f0cade5e11efaf">&#9670;&#160;</a></span>auctionListingDiff</h2>
+<a id="a828416051f1e84bef716afb20f3d1e60" name="a828416051f1e84bef716afb20f3d1e60"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a828416051f1e84bef716afb20f3d1e60">&#9670;&#160;</a></span>_auctionMainCategory</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> AsyncAuctionListingMgr::auctionListingDiff = Milliseconds::zero()</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuctionListItemsDelayEvent::_auctionMainCategory</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00067">GetDiff()</a>, <a class="el" href="../../#l00068">ResetDiff()</a>, and <a class="el" href="../../#l00066">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="ad9665932deb7777789f862755eb32b1e" name="ad9665932deb7777789f862755eb32b1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9665932deb7777789f862755eb32b1e">&#9670;&#160;</a></span>auctionListingList</h2>
+<a id="a64c54082878561e1587715396953fd75" name="a64c54082878561e1587715396953fd75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64c54082878561e1587715396953fd75">&#9670;&#160;</a></span>_auctionSlotID</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; AsyncAuctionListingMgr::auctionListingList</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuctionListItemsDelayEvent::_auctionSlotID</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00069">GetList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a807c7bd712bfc72a647c6cd9356c7007" name="a807c7bd712bfc72a647c6cd9356c7007"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a807c7bd712bfc72a647c6cd9356c7007">&#9670;&#160;</a></span>auctionListingListTemp</h2>
+<a id="aa76028f94d492f2508d755e74810ac90" name="aa76028f94d492f2508d755e74810ac90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76028f94d492f2508d755e74810ac90">&#9670;&#160;</a></span>_auctionSubCategory</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::list&lt; <a class="el" href="../../d1/d2e/a09610.html">AuctionListItemsDelayEvent</a> &gt; AsyncAuctionListingMgr::auctionListingListTemp</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuctionListItemsDelayEvent::_auctionSubCategory</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00070">GetTempList()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
 
 </div>
 </div>
-<a id="a6f12f53958ae9176cb5a01f56d846cc7" name="a6f12f53958ae9176cb5a01f56d846cc7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f12f53958ae9176cb5a01f56d846cc7">&#9670;&#160;</a></span>auctionListingTempLock</h2>
+<a id="a5280785705b920d5a4592b11675d4da1" name="a5280785705b920d5a4592b11675d4da1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5280785705b920d5a4592b11675d4da1">&#9670;&#160;</a></span>_creatureguid</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::mutex AsyncAuctionListingMgr::auctionListingTempLock</td>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> AuctionListItemsDelayEvent::_creatureguid</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00071">GetTempLock()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="accbc5a8c1e0c1de696b0884d22eebeb8" name="accbc5a8c1e0c1de696b0884d22eebeb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accbc5a8c1e0c1de696b0884d22eebeb8">&#9670;&#160;</a></span>_getAll</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AuctionListItemsDelayEvent::_getAll</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a3ca2d402112451de3c09f559954f5ff6" name="a3ca2d402112451de3c09f559954f5ff6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ca2d402112451de3c09f559954f5ff6">&#9670;&#160;</a></span>_levelmax</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AuctionListItemsDelayEvent::_levelmax</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a787db3b49334d2efb6b7f812bf6ad954" name="a787db3b49334d2efb6b7f812bf6ad954"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a787db3b49334d2efb6b7f812bf6ad954">&#9670;&#160;</a></span>_levelmin</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AuctionListItemsDelayEvent::_levelmin</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a01813c762107e6e0e43a53f7ffade16b" name="a01813c762107e6e0e43a53f7ffade16b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01813c762107e6e0e43a53f7ffade16b">&#9670;&#160;</a></span>_listfrom</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuctionListItemsDelayEvent::_listfrom</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a5f3d52f0afb2e277dd3fb03e9f32103f" name="a5f3d52f0afb2e277dd3fb03e9f32103f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5f3d52f0afb2e277dd3fb03e9f32103f">&#9670;&#160;</a></span>_pickupTimer</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> AuctionListItemsDelayEvent::_pickupTimer</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3eaa2f344de186e746908627c9523b4a" name="a3eaa2f344de186e746908627c9523b4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eaa2f344de186e746908627c9523b4a">&#9670;&#160;</a></span>_playerguid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> AuctionListItemsDelayEvent::_playerguid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a5b71f78b81c11f1a9ebbe58f17aeedde" name="a5b71f78b81c11f1a9ebbe58f17aeedde"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b71f78b81c11f1a9ebbe58f17aeedde">&#9670;&#160;</a></span>_quality</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuctionListItemsDelayEvent::_quality</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a59ad8e5c53e85faec91d9bda903aad47" name="a59ad8e5c53e85faec91d9bda903aad47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59ad8e5c53e85faec91d9bda903aad47">&#9670;&#160;</a></span>_searchedname</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string AuctionListItemsDelayEvent::_searchedname</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a87c6f59bdf36fb858aa3a56af87f69d8" name="a87c6f59bdf36fb858aa3a56af87f69d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87c6f59bdf36fb858aa3a56af87f69d8">&#9670;&#160;</a></span>_sortOrder</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a> AuctionListItemsDelayEvent::_sortOrder</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="a0fa068377683cb71807bfa700b8c688d" name="a0fa068377683cb71807bfa700b8c688d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fa068377683cb71807bfa700b8c688d">&#9670;&#160;</a></span>_usable</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> AuctionListItemsDelayEvent::_usable</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00037">Execute()</a>.</p>
 
 </div>
 </div>
@@ -429,8 +589,8 @@ Static Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/da7/a09614.html">AsyncAuctionListingMgr</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:41:32 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/da7/a09614.html">AuctionListItemsDelayEvent</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:42:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

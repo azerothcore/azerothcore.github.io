@@ -1,6 +1,7 @@
 var a17114 =
 [
-    [ "npc_stinky_iccAI", "d0/d5a/a17118.html", "d0/d5a/a17118" ],
-    [ "npc_stinky_icc", "d6/d5c/a17114.html#a8f6a3687d4b330f532a0d892dbf429a0", null ],
-    [ "GetAI", "d6/d5c/a17114.html#aaf6b7b1a7469d1e353617f63f11f7781", null ]
+    [ "ExtraEffect", "d6/d5c/a17114.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
+    [ "PrepareAuraScript", "d6/d5c/a17114.html#a53d6013e5ec473854e1537969cb31988", null ],
+    [ "Register", "d6/d5c/a17114.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
+    [ "Validate", "d6/d5c/a17114.html#ab14e7410cf542d9f4043800a3b86c664", null ]
 ];

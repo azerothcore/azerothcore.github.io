@@ -1,7 +1,6 @@
 var a19062 =
 [
-    [ "Apply", "d7/d3e/a19062.html#add8e95d38b0c437833c11cded72fe2a7", null ],
-    [ "PrepareAuraScript", "d7/d3e/a19062.html#ad2112b571d97e537983b4d11207015e6", null ],
-    [ "Register", "d7/d3e/a19062.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
-    [ "Validate", "d7/d3e/a19062.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
+    [ "HandleDamageCalc", "d7/d3e/a19062.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
+    [ "PrepareSpellScript", "d7/d3e/a19062.html#a754da297cd5801616e24bf2d802d0b38", null ],
+    [ "Register", "d7/d3e/a19062.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
 ];

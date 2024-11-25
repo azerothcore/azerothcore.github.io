@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt; Struct Template Reference</title>
+<title>AzerothCore: Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,20 +104,108 @@ $(document).ready(function(){initNavTree('db/d09/a07310.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt; Struct Template Reference</div></div>
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d0/d9c/a07307.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">ChatCommand.h</a>&quot;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0e6df60e4195364958e85632e43b4ad0"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/d89/a07446.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d09/a07310.html#a0e6df60e4195364958e85632e43b4ad0">TryConsumeTo</a> (Tuple &amp;tuple, <a class="el" href="../../db/d8a/a07290.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
+<tr class="separator:a0e6df60e4195364958e85632e43b4ad0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct Acore::Impl::ChatCommands::HandlerToTuple&lt; T &gt;</div></div></div><!-- contents -->
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename Tuple, typename NestedNextType, std::size_t offset&gt;<br />
+struct Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0e6df60e4195364958e85632e43b4ad0" name="a0e6df60e4195364958e85632e43b4ad0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e6df60e4195364958e85632e43b4ad0">&#9670;&#160;</a></span>TryConsumeTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tuple , typename NestedNextType , std::size_t offset&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d6/d89/a07446.html">ChatCommandResult</a> <a class="el" href="../../d0/d35/a07306.html">Acore::Impl::ChatCommands::MultiConsumer</a>&lt; Tuple, <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; NestedNextType &gt;, offset &gt;::TryConsumeTo </td>
+          <td>(</td>
+          <td class="paramtype">Tuple &amp;&#160;</td>
+          <td class="paramname"><em>tuple</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../db/d8a/a07290.html">ChatHandler</a> const *&#160;</td>
+          <td class="paramname"><em>handler</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   75</span>        {</div>
+<div class="line"><span class="lineno">   76</span>            <span class="comment">// try with the argument</span></div>
+<div class="line"><span class="lineno">   77</span>            <span class="keyword">auto</span>&amp; myArg = std::get&lt;offset&gt;(tuple);</div>
+<div class="line"><span class="lineno">   78</span>            myArg.emplace();</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>            <a class="code hl_struct" href="../../d6/d89/a07446.html">ChatCommandResult</a> result1 = ArgInfo&lt;NestedNextType&gt;::TryConsume(myArg.value(), handler, args);</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">if</span> (result1)</div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">if</span> ((result1 = ConsumeFromOffset&lt;Tuple, offset + 1&gt;(tuple, handler, *result1)))</div>
+<div class="line"><span class="lineno">   83</span>                    <span class="keywordflow">return</span> result1;</div>
+<div class="line"><span class="lineno">   84</span>            <span class="comment">// try again omitting the argument</span></div>
+<div class="line"><span class="lineno">   85</span>            myArg = std::nullopt;</div>
+<div class="line"><span class="lineno">   86</span>            <a class="code hl_struct" href="../../d6/d89/a07446.html">ChatCommandResult</a> result2 = ConsumeFromOffset&lt;Tuple, offset + 1&gt;(tuple, handler, args);</div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">if</span> (result2)</div>
+<div class="line"><span class="lineno">   88</span>                <span class="keywordflow">return</span> result2;</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">if</span> (result1.<a class="code hl_function" href="../../d6/d89/a07446.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>() &amp;&amp; result2.<a class="code hl_function" href="../../d6/d89/a07446.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
+<div class="line"><span class="lineno">   90</span>            {</div>
+<div class="line"><span class="lineno">   91</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../d8/d20/a04686.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a>(<span class="stringliteral">&quot;{} \&quot;{}\&quot;\n{} \&quot;{}\&quot;&quot;</span>,</div>
+<div class="line"><span class="lineno">   92</span>                    <a class="code hl_function" href="../../db/dfa/a04725.html#a671c2d8ee25e88cc8f58246b1486f1de">GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526">LANG_CMDPARSER_EITHER</a>), result2.<a class="code hl_function" href="../../d6/d89/a07446.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>(),</div>
+<div class="line"><span class="lineno">   93</span>                    <a class="code hl_function" href="../../db/dfa/a04725.html#a671c2d8ee25e88cc8f58246b1486f1de">GetAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06">LANG_CMDPARSER_OR</a>), result1.<a class="code hl_function" href="../../d6/d89/a07446.html#abb0aa9f55f86ab7d54b7b3a894dcd237">GetErrorMessage</a>());</div>
+<div class="line"><span class="lineno">   94</span>            }</div>
+<div class="line"><span class="lineno">   95</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (result1.<a class="code hl_function" href="../../d6/d89/a07446.html#a74f331d2e68ddf7cefc14b4c47369311">HasErrorMessage</a>())</div>
+<div class="line"><span class="lineno">   96</span>                <span class="keywordflow">return</span> result1;</div>
+<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   98</span>                <span class="keywordflow">return</span> result2;</div>
+<div class="line"><span class="lineno">   99</span>        }</div>
+<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa54ac08e38be856a546cd499ea59b4526">LANG_CMDPARSER_EITHER</a></div><div class="ttdeci">@ LANG_CMDPARSER_EITHER</div><div class="ttdef"><b>Definition:</b> Language.h:991</div></div>
+<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa757011eedeaae34319204ed6c68cfd06">LANG_CMDPARSER_OR</a></div><div class="ttdeci">@ LANG_CMDPARSER_OR</div><div class="ttdef"><b>Definition:</b> Language.h:992</div></div>
+<div class="ttc" id="aa04686_html_a868406b9609960d4ae0189588c8cbbf4"><div class="ttname"><a href="../../d8/d20/a04686.html#a868406b9609960d4ae0189588c8cbbf4">Acore::StringFormat</a></div><div class="ttdeci">std::string StringFormat(FormatString&lt; Args... &gt; fmt, Args &amp;&amp;... args)</div><div class="ttdoc">Default AC string format function.</div><div class="ttdef"><b>Definition:</b> StringFormat.h:34</div></div>
+<div class="ttc" id="aa04725_html_a671c2d8ee25e88cc8f58246b1486f1de"><div class="ttname"><a href="../../db/dfa/a04725.html#a671c2d8ee25e88cc8f58246b1486f1de">Acore::Impl::ChatCommands::GetAcoreString</a></div><div class="ttdeci">AC_GAME_API char const * GetAcoreString(ChatHandler const *handler, AcoreStrings which)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.cpp:27</div></div>
+<div class="ttc" id="aa07446_html"><div class="ttname"><a href="../../d6/d89/a07446.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:100</div></div>
+<div class="ttc" id="aa07446_html_a74f331d2e68ddf7cefc14b4c47369311"><div class="ttname"><a href="../../d6/d89/a07446.html#a74f331d2e68ddf7cefc14b4c47369311">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage</a></div><div class="ttdeci">bool HasErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:115</div></div>
+<div class="ttc" id="aa07446_html_abb0aa9f55f86ab7d54b7b3a894dcd237"><div class="ttname"><a href="../../d6/d89/a07446.html#abb0aa9f55f86ab7d54b7b3a894dcd237">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage</a></div><div class="ttdeci">std::string const &amp; GetErrorMessage() const</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:116</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00027">Acore::Impl::ChatCommands::GetAcoreString()</a>, <a class="el" href="../../#l00116">Acore::Impl::ChatCommands::ChatCommandResult::GetErrorMessage()</a>, <a class="el" href="../../#l00115">Acore::Impl::ChatCommands::ChatCommandResult::HasErrorMessage()</a>, <a class="el" href="../../#l00991">LANG_CMDPARSER_EITHER</a>, <a class="el" href="../../#l00992">LANG_CMDPARSER_OR</a>, and <a class="el" href="../../#l00034">Acore::StringFormat()</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../db/d09/a07310.html">HandlerToTuple</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../db/d09/a07310.html">MultiConsumer&lt; Tuple, Optional&lt; NestedNextType &gt;, offset &gt;</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

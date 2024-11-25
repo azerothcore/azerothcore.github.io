@@ -1,6 +1,6 @@
 var a18258 =
 [
-    [ "npc_captain_rupertAI", "df/da5/a18258.html#ae91de64c440e71e612f34e37b90076d5", null ],
-    [ "Reset", "df/da5/a18258.html#a8ebaca725aba2c3aed8856fb23228ae1", null ],
-    [ "UpdateAI", "df/da5/a18258.html#a2edf4e51c9a5bde61a1875c067e963f2", null ]
+    [ "npc_captain_grondelAI", "d9/d88/a18262.html", "d9/d88/a18262" ],
+    [ "npc_captain_grondel", "df/da5/a18258.html#a54a53f8e3cde87405219c815a56d523c", null ],
+    [ "GetAI", "df/da5/a18258.html#a2a7725e81294e80701b7742d2605ec00", null ]
 ];

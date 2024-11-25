@@ -1,6 +1,15 @@
 var a18938 =
 [
-    [ "boss_magus_telestraAI", "dd/d0d/a18942.html", "dd/d0d/a18942" ],
-    [ "boss_magus_telestra", "de/db7/a18938.html#a0e1adaf685c4d03cd0f688cb2b131525", null ],
-    [ "GetAI", "de/db7/a18938.html#acb56031f892034adfff7889982fb063e", null ]
+    [ "boss_magus_telestra", "de/db7/a18938.html#ac8ee0c8ac0bafa479ef6c3669c8aa430", null ],
+    [ "AttackStart", "de/db7/a18938.html#a9ef67f8a53c5dceaf74bc156e0c6edad", null ],
+    [ "GetData", "de/db7/a18938.html#a713f93edc709edabe003c305efdd709c", null ],
+    [ "JustDied", "de/db7/a18938.html#ac69759755637749a58f712b86d3bf9ac", null ],
+    [ "JustEngagedWith", "de/db7/a18938.html#a91b4569027b3414814bf1f2e86441fc6", null ],
+    [ "JustSummoned", "de/db7/a18938.html#a1fc0f30287916d6606829987d29d9387", null ],
+    [ "KilledUnit", "de/db7/a18938.html#a85b333905e5dcd34dbe001306924529a", null ],
+    [ "Reset", "de/db7/a18938.html#a82dd720fe591ac1e72ce302087ea64c7", null ],
+    [ "SpellHit", "de/db7/a18938.html#ac48bb325de6641a1f2f980f15b8e3eb4", null ],
+    [ "UpdateAI", "de/db7/a18938.html#acd365d6bcc1e526e59344c1a907d0eeb", null ],
+    [ "achievement", "de/db7/a18938.html#a00c4e862101679d5aa36b8e5dba4e5a2", null ],
+    [ "copiesDied", "de/db7/a18938.html#a5738bf62869f9958448213b28c1bf771", null ]
 ];

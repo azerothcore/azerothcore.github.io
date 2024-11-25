@@ -1,7 +1,7 @@
 var a12834 =
 [
-    [ "HandleScript", "d3/dd3/a12834.html#ab705220b48be16090107135f9e2272cf", null ],
-    [ "PrepareSpellScript", "d3/dd3/a12834.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
-    [ "Register", "d3/dd3/a12834.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
-    [ "Validate", "d3/dd3/a12834.html#ad1d90693a427a52fa728e5ae455932a3", null ]
+    [ "HandleAfterCast", "d3/dd3/a12834.html#afa662fbe1b777047259ac6212961f7a5", null ],
+    [ "HandleScript", "d3/dd3/a12834.html#acd21d059ce10a64a3fe648d104d75ec1", null ],
+    [ "PrepareSpellScript", "d3/dd3/a12834.html#aca33d0a7c792a6ac18deaaa945a28a26", null ],
+    [ "Register", "d3/dd3/a12834.html#a4a898b0b096583af33f1f691a252b2ed", null ]
 ];

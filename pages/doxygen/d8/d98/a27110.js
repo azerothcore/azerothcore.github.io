@@ -1,8 +1,8 @@
 var a27110 =
 [
-    [ "npc_simoneAI", "d8/d7a/a27114.html", "d8/d7a/a27114" ],
-    [ "npc_simone", "d8/d98/a27110.html#acf3e759dea12cc5fbe1376213bd3585c", null ],
-    [ "GetAI", "d8/d98/a27110.html#a36d94c5ab6c910cd3853e579d6a5ab5a", null ],
-    [ "OnGossipHello", "d8/d98/a27110.html#ae1a0cd1fbee6bee0a54a1a666c8367dd", null ],
-    [ "OnGossipSelect", "d8/d98/a27110.html#ae2b1a653be3767881769b54607219757", null ]
+    [ "npc_nelsonAI", "d8/d7a/a27114.html", "d8/d7a/a27114" ],
+    [ "npc_nelson", "d8/d98/a27110.html#ada597926a6db1aa7823ddabc19945b11", null ],
+    [ "GetAI", "d8/d98/a27110.html#a75fea281fb49249345c48236bf44b1c8", null ],
+    [ "OnGossipHello", "d8/d98/a27110.html#aa693b365a15d4617f214f9c3c229bf89", null ],
+    [ "OnGossipSelect", "d8/d98/a27110.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
 ];

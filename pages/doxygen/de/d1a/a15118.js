@@ -1,7 +1,6 @@
 var a15118 =
 [
-    [ "npc_giant_spotlightAI", "de/d1a/a15118.html#ae0f6686aaeacafce193e0d4590cf8c09", null ],
-    [ "Reset", "de/d1a/a15118.html#a79f6703107eed52a3aeae30393507c0f", null ],
-    [ "UpdateAI", "de/d1a/a15118.html#a8567f936dd15933300497d5abe80a272", null ],
-    [ "events", "de/d1a/a15118.html#a20d1087e59daae9189d78f04ea2b2d05", null ]
+    [ "npc_omenAI", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
+    [ "npc_omen", "de/d1a/a15118.html#aff955303a8b9741838779a59dd496f62", null ],
+    [ "GetAI", "de/d1a/a15118.html#a8023ad3298000d9819c46f46a93166d4", null ]
 ];

@@ -1,9 +1,5 @@
 var a18474 =
 [
-    [ "spell_trigger_spell_from_caster", "d6/d4c/a18474.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
-    [ "HandleTrigger", "d6/d4c/a18474.html#afc11c9408ea11cb04e476999a9bdf522", null ],
-    [ "PrepareSpellScript", "d6/d4c/a18474.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
-    [ "Register", "d6/d4c/a18474.html#ae44cc1a87267c1d08603d1aff2384957", null ],
-    [ "Validate", "d6/d4c/a18474.html#a3aace9a309bc848b887b03c949c921bd", null ],
-    [ "_triggerId", "d6/d4c/a18474.html#a29af52a9035f18936515a464889fefe5", null ]
+    [ "at_icc_gauntlet_event", "d6/d4c/a18474.html#ae8790bad655661aeda887f56b9393847", null ],
+    [ "OnTrigger", "d6/d4c/a18474.html#a9329ec078db088b1c13144ac7ed7a13a", null ]
 ];

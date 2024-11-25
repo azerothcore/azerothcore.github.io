@@ -1,7 +1,8 @@
 var a21846 =
 [
-    [ "npc_engineer_heliceAI", "d4/d85/a21850.html", "d4/d85/a21850" ],
-    [ "npc_engineer_helice", "d1/d47/a21846.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "d1/d47/a21846.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "d1/d47/a21846.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "npc_adventurous_dwarfAI", "d4/d85/a21850.html", "d4/d85/a21850" ],
+    [ "npc_adventurous_dwarf", "d1/d47/a21846.html#a15c39e217907189db9be7799e696f310", null ],
+    [ "GetAI", "d1/d47/a21846.html#ac3f124fab8520a16ccd73e058a0383b1", null ],
+    [ "OnGossipHello", "d1/d47/a21846.html#ab69e3e249f7075d5344ad79bf9c79b79", null ],
+    [ "OnGossipSelect", "d1/d47/a21846.html#aebb2cd209f71d8ab56a29e5bfd668def", null ]
 ];

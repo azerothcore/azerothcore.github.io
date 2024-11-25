@@ -1,7 +1,7 @@
 var a10858 =
 [
-    [ "WorldObjectSpellAreaTargetCheck", "de/de2/a10858.html#a2b017300220426ac42de18e3a8699219", null ],
-    [ "operator()", "de/de2/a10858.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4", null ],
-    [ "_position", "de/de2/a10858.html#a680c45dd148161657da011a1772375ca", null ],
-    [ "_range", "de/de2/a10858.html#a4ee3762b4a7f35d252cbb5337d61d92c", null ]
+    [ "WorldObjectSpellNearbyTargetCheck", "de/de2/a10858.html#afda548f6394c5d11a7ca229fe6b3d402", null ],
+    [ "operator()", "de/de2/a10858.html#a731ee07d028a5ee63ecd14321c83664d", null ],
+    [ "_position", "de/de2/a10858.html#a7b19899dd015a73bd1ae4c71fa9ae79d", null ],
+    [ "_range", "de/de2/a10858.html#abfec0df490876b2b83dcdee4da75a77f", null ]
 ];

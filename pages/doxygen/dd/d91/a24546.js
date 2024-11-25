@@ -1,9 +1,6 @@
 var a24546 =
 [
-    [ "spell_gen_select_target_count", "dd/d91/a24546.html#a65507c155a8746ff49c58c051b7868e4", null ],
-    [ "FilterTargets", "dd/d91/a24546.html#a5de89be9ce321a0f4ac49853a700b502", null ],
-    [ "PrepareSpellScript", "dd/d91/a24546.html#a42ddce15414dcdf495b572e0f75e9486", null ],
-    [ "Register", "dd/d91/a24546.html#a94f86992275123e2e3989655cf077efd", null ],
-    [ "_count", "dd/d91/a24546.html#acdf5daa848ae185b859c45a1271df68c", null ],
-    [ "_effTarget", "dd/d91/a24546.html#a9c54508790062277c8275d2466e93fb3", null ]
+    [ "CheckProc", "dd/d91/a24546.html#ad1678a96784add01965d67c3d86bcd77", null ],
+    [ "PrepareAuraScript", "dd/d91/a24546.html#a6e164a8e3482b566b776c5ffeeb1b6ac", null ],
+    [ "Register", "dd/d91/a24546.html#a148f3fe7ee4bdc8e148fe71100779e56", null ]
 ];

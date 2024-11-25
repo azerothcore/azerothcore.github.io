@@ -1,7 +1,8 @@
 var a18162 =
 [
-    [ "HandleForceCast", "df/dd3/a18162.html#accc757e0a23103242865f0ce3085f9d9", null ],
-    [ "Load", "df/dd3/a18162.html#a7206571378a0196a8648659628bdeece", null ],
-    [ "PrepareSpellScript", "df/dd3/a18162.html#a8bb6db3eaebab00d3166b24ad1e41158", null ],
-    [ "Register", "df/dd3/a18162.html#ace665321732f59f13b2ef831c71c2f18", null ]
+    [ "DecayPeriodicTimer", "df/dd3/a18162.html#a314ac33692cc352c490ec3d87177d67a", null ],
+    [ "Load", "df/dd3/a18162.html#af5a498253c4c382df3b2462a30448a64", null ],
+    [ "PrepareAuraScript", "df/dd3/a18162.html#ac5d4ee199b49e04499997355ac054554", null ],
+    [ "Register", "df/dd3/a18162.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
+    [ "_decayRate", "df/dd3/a18162.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
 ];

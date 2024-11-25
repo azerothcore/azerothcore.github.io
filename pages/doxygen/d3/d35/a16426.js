@@ -1,23 +1,10 @@
 var a16426 =
 [
-    [ "instance_forge_of_souls_InstanceScript", "d3/d35/a16426.html#ae39e116a01c17592037e12185a03201a", null ],
-    [ "CheckAchievementCriteriaMeet", "d3/d35/a16426.html#a534c7f97e7425160f9a2b1e555d0aa29", null ],
-    [ "GetGuidData", "d3/d35/a16426.html#aa2e295b46c826d701dafb2e6635ce723", null ],
-    [ "HandleOutro", "d3/d35/a16426.html#aadf4a99e89f354901ff63c600725b07f", null ],
-    [ "Initialize", "d3/d35/a16426.html#af0f6d3b0a9a5659affc9812de90fc8ae", null ],
-    [ "IsEncounterInProgress", "d3/d35/a16426.html#a698bfce6741edaccdbd32b1215def039", null ],
-    [ "OnCreatureCreate", "d3/d35/a16426.html#a7570ef3ca74178fec80c5018cbecf42a", null ],
-    [ "OnPlayerEnter", "d3/d35/a16426.html#a743f2f2accf6553353d85127260774f9", null ],
-    [ "ReadSaveDataMore", "d3/d35/a16426.html#a590164fab67dd90d63045671d22143c5", null ],
-    [ "SetData", "d3/d35/a16426.html#a7187a50cebadcf77d74c62b053830efb", null ],
-    [ "WriteSaveDataMore", "d3/d35/a16426.html#a1a3006add0aed0572d8b784a449fc75e", null ],
-    [ "m_auiEncounter", "d3/d35/a16426.html#ad5c847c647e45d23fa6df4ca66264c57", null ],
-    [ "NPC_BronjahmGUID", "d3/d35/a16426.html#affae42118c88fee6e7a300a45d74e63a", null ],
-    [ "NPC_DevourerGUID", "d3/d35/a16426.html#ae1da7da294210fd77199f98b23d3b665", null ],
-    [ "NPC_GuardFirstGUID", "d3/d35/a16426.html#acf04c40ff5c4b09fcafc5b5b8328eaab", null ],
-    [ "NPC_GuardSecondGUID", "d3/d35/a16426.html#aa2d81eabe8cf50f3c42b075581e4d6dd", null ],
-    [ "NPC_LeaderFirstGUID", "d3/d35/a16426.html#a10b3c39fb3c038932ddcff1ddfc4ab85", null ],
-    [ "NPC_LeaderSecondGUID", "d3/d35/a16426.html#a252639143b34c38ef106192cb2399b30", null ],
-    [ "str_data", "d3/d35/a16426.html#ad540fbbabef46015fb1730c5b6477b92", null ],
-    [ "teamIdInInstance", "d3/d35/a16426.html#aaba17e6fc33bcca175006486c5f21f81", null ]
+    [ "HandleAfterEffectAbsorb", "d3/d35/a16426.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
+    [ "Load", "d3/d35/a16426.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
+    [ "PrepareAuraScript", "d3/d35/a16426.html#a0856d66c801715f16cd251ddf9b25a59", null ],
+    [ "Register", "d3/d35/a16426.html#a69d8dfebb981b51592770b7b5807bc80", null ],
+    [ "Validate", "d3/d35/a16426.html#a55ec42ce316978220103a3a39f3939a3", null ],
+    [ "amount", "d3/d35/a16426.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
+    [ "fired", "d3/d35/a16426.html#a6a7afa99044644608b16e83328bfd5fa", null ]
 ];

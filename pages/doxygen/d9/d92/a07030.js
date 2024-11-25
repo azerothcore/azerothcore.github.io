@@ -1,12 +1,11 @@
 var a07030 =
 [
-    [ "Arena", "d9/d92/a07030.html#a74f105bc709d4728fb07f1984abfd345", null ],
-    [ "AddPlayer", "d9/d92/a07030.html#ae24fe304d35c0c09379203135e936450", null ],
-    [ "CheckWinConditions", "d9/d92/a07030.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
-    [ "EndBattleground", "d9/d92/a07030.html#a2be61602189b530a16a9ca954d180914", null ],
-    [ "FillInitialWorldStates", "d9/d92/a07030.html#a41e53f03488058fb635e42b525db5068", null ],
-    [ "HandleKillPlayer", "d9/d92/a07030.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
-    [ "RemovePlayer", "d9/d92/a07030.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
-    [ "RemovePlayerAtLeave", "d9/d92/a07030.html#acae21233e11b21b612e5c051bfa7720e", null ],
-    [ "UpdateArenaWorldState", "d9/d92/a07030.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
+    [ "WGWorkshop", "d9/d92/a07030.html#a2d2d7b24ec77275f24efa54d31e98bbb", null ],
+    [ "GiveControlTo", "d9/d92/a07030.html#a6b69312f4ffa562b0e8fdcf5da3568d3", null ],
+    [ "Save", "d9/d92/a07030.html#adede1c780178f20dc8339320a021e4b6", null ],
+    [ "UpdateGraveyardAndWorkshop", "d9/d92/a07030.html#a2ff11801fb50cd3a463c44fafbddaed4", null ],
+    [ "bf", "d9/d92/a07030.html#ae2b7e050289ad5922ddcd73c6da9f5a5", null ],
+    [ "state", "d9/d92/a07030.html#a279d47c85843e884edef1f82b9654cd8", null ],
+    [ "teamControl", "d9/d92/a07030.html#a196c8d0094a34c18835840e046fd39ef", null ],
+    [ "workshopId", "d9/d92/a07030.html#a42d7337c67e4f19886b0ec86f0e60596", null ]
 ];

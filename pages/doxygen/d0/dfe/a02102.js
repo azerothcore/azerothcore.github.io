@@ -1,12 +1,12 @@
 var a02102 =
 [
-    [ "npc_frost_tomb", "d5/d2f/a20690.html", "d5/d2f/a20690" ],
-    [ "npc_frost_tomb::npc_frost_tombAI", "d1/d02/a20694.html", "d1/d02/a20694" ],
-    [ "boss_keleseth", "df/d9d/a20698.html", "df/d9d/a20698" ],
-    [ "boss_keleseth::boss_kelesethAI", "d1/d64/a20702.html", "d1/d64/a20702" ],
-    [ "npc_vrykul_skeleton", "d1/d27/a20706.html", "d1/d27/a20706" ],
-    [ "npc_vrykul_skeleton::npc_vrykul_skeletonAI", "dd/dac/a20710.html", "dd/dac/a20710" ],
-    [ "spell_frost_tomb_aura", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
+    [ "npc_frost_tomb", "dd/d35/a20674.html", "dd/d35/a20674" ],
+    [ "npc_frost_tomb::npc_frost_tombAI", "d8/d1e/a20678.html", "d8/d1e/a20678" ],
+    [ "boss_keleseth", "de/df0/a20682.html", "de/df0/a20682" ],
+    [ "boss_keleseth::boss_kelesethAI", "dd/da4/a20686.html", "dd/da4/a20686" ],
+    [ "npc_vrykul_skeleton", "d5/d2f/a20690.html", "d5/d2f/a20690" ],
+    [ "npc_vrykul_skeleton::npc_vrykul_skeletonAI", "d1/d02/a20694.html", "d1/d02/a20694" ],
+    [ "spell_frost_tomb_aura", "df/d9d/a20698.html", "df/d9d/a20698" ],
     [ "SPELL_SHADOWBOLT", "d0/dfe/a02102.html#a2318d1791fdeb5d6835fba5923a390f6", null ],
     [ "eEvents", "d0/dfe/a02102.html#a1d3512b0adb171bd0db6aad2c9e70516", [
       [ "EVENT_NULL", "d4/d9b/a02039.html#a1d3512b0adb171bd0db6aad2c9e70516afc8e2e36b7d0f732f5f52e0a94155c7a", null ],

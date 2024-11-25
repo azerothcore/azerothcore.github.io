@@ -1,5 +1,5 @@
 var a02780 =
 [
-    [ "BattlefieldMgr", "d7/df3/a06978.html", "d7/df3/a06978" ],
+    [ "BattlefieldMgr", "dd/dde/a06982.html", "dd/dde/a06982" ],
     [ "sBattlefieldMgr", "df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48", null ]
 ];

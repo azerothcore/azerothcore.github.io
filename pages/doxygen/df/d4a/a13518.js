@@ -1,8 +1,6 @@
 var a13518 =
 [
-    [ "npc_zulaman_hostageAI", "d5/d29/a13522.html", "d5/d29/a13522" ],
-    [ "npc_zulaman_hostage", "df/d4a/a13518.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
-    [ "GetAI", "df/d4a/a13518.html#a0ae144dc154dd028b409c9d2393f890c", null ],
-    [ "OnGossipHello", "df/d4a/a13518.html#a89d68a976f916a4de2196b57ec0026b0", null ],
-    [ "OnGossipSelect", "df/d4a/a13518.html#a114f6fbfab90944fd49babcba4b48a11", null ]
+    [ "instance_zulaman_InstanceMapScript", "d5/d29/a13522.html", "d5/d29/a13522" ],
+    [ "instance_zulaman", "df/d4a/a13518.html#a5a81dddc07dea599e2a197737206427b", null ],
+    [ "GetInstanceScript", "df/d4a/a13518.html#a2144a517b22c5d6e7f6cc31d344669fc", null ]
 ];

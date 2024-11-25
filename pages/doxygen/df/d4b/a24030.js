@@ -1,6 +1,6 @@
 var a24030 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d1/d37/a24034.html", "d1/d37/a24034" ],
-    [ "npc_pet_dk_army_of_the_dead", "df/d4b/a24030.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "df/d4b/a24030.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "HandleDamageCalc", "df/d4b/a24030.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "df/d4b/a24030.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "df/d4b/a24030.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

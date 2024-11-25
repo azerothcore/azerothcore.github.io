@@ -1,6 +1,6 @@
 var a04379 =
 [
-    [ "AllSpellScript", "df/d5b/a09966.html", "df/d5b/a09966" ],
+    [ "AllSpellScript", "d6/d21/a09970.html", "d6/d21/a09970" ],
     [ "SpellSC", "d7/d62/a04379.html#a743e879dd1df387001a0db3b0bf31d0e", null ],
     [ "AllSpellHook", "d7/d62/a04379.html#afe0b21412f82a634ffd412b1aca51cbc", [
       [ "ALLSPELLHOOK_ON_CALC_MAX_DURATION", "d7/d62/a04379.html#afe0b21412f82a634ffd412b1aca51cbca003b0894329b4fa8a3e4ae168f133a97", null ],

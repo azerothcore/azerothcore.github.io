@@ -1,6 +1,11 @@
 var a12878 =
 [
-    [ "instance_stratholme_InstanceMapScript", "d5/d93/a12882.html", "d5/d93/a12882" ],
-    [ "instance_stratholme", "d9/db6/a12878.html#a42ac504b2790af8c37a44e87fbd9c6c1", null ],
-    [ "GetInstanceScript", "d9/db6/a12878.html#a3d3d2e773029dd1c4bc1a59a94c4e015", null ]
+    [ "boss_baroness_anastariAI", "d9/db6/a12878.html#acf180bbe881ba1f6e49c075254759c00", null ],
+    [ "JustDied", "d9/db6/a12878.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
+    [ "JustEngagedWith", "d9/db6/a12878.html#a7329455d99045e7002abffe09112a4ea", null ],
+    [ "Reset", "d9/db6/a12878.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
+    [ "SchedulePossession", "d9/db6/a12878.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
+    [ "UpdateAI", "d9/db6/a12878.html#a962e4e3091d126682825c326af5f6922", null ],
+    [ "_possessedTargetGuid", "d9/db6/a12878.html#a36e386b847c7032b5ce95a01070518ad", null ],
+    [ "_scheduler", "d9/db6/a12878.html#aa59518627a5e64e371dbbb45cfced75f", null ]
 ];

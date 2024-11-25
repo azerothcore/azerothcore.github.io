@@ -1,10 +1,6 @@
 var a19978 =
 [
-    [ "boss_kologarn_eyebeamAI", "de/d10/a19978.html#add083b2a9067753458de1eeb6bdca4c0", null ],
-    [ "DamageDealt", "de/d10/a19978.html#a94a9181da10ffe737611cb281d60a952", null ],
-    [ "UpdateAI", "de/d10/a19978.html#add60a709a1edf1684bd21358769590b4", null ],
-    [ "_damaged", "de/d10/a19978.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
-    [ "_timer", "de/d10/a19978.html#a766ad3e10016d97235499d1512c4da27", null ],
-    [ "justSpawned", "de/d10/a19978.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
-    [ "m_pInstance", "de/d10/a19978.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
+    [ "OnRemoveStun", "de/d10/a19978.html#a67aeca34d32c43ff647dc2dbe83cbb7f", null ],
+    [ "PrepareAuraScript", "de/d10/a19978.html#a0be1d9a7dcba0bff75d59aed926efe55", null ],
+    [ "Register", "de/d10/a19978.html#a3166cfcd2acdcd4460217503d4008367", null ]
 ];

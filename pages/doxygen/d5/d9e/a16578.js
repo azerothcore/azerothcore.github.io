@@ -1,7 +1,7 @@
 var a16578 =
 [
-    [ "UtherBatteredHiltEvent", "d5/d9e/a16578.html#a7bb34b75a3e371260a231aea72f75b40", null ],
-    [ "Execute", "d5/d9e/a16578.html#ad2eb37877155b6dbc9916338e30d0306", null ],
-    [ "_eventId", "d5/d9e/a16578.html#a5045e057b2c5d468aa579751d2c799b8", null ],
-    [ "_owner", "d5/d9e/a16578.html#a588974708f4a48f5a7b097a63a0c0899", null ]
+    [ "HandleEffectPeriodic", "d5/d9e/a16578.html#aaefcf8ace7c109648c9220fb0ff9d4de", null ],
+    [ "PrepareAuraScript", "d5/d9e/a16578.html#ae0ccb7d4566777e52b71e99a908d13fa", null ],
+    [ "Register", "d5/d9e/a16578.html#a73e8ef9dbd3dd3dc332d4b3a2eb2c5ea", null ],
+    [ "Validate", "d5/d9e/a16578.html#ab3fcbe5386e9529824228e8f3b6be797", null ]
 ];

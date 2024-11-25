@@ -1,6 +1,7 @@
 var a19926 =
 [
-    [ "npc_ulduar_iron_constructAI", "db/da7/a19930.html", "db/da7/a19930" ],
-    [ "npc_ulduar_iron_construct", "d0/d03/a19926.html#a56ddf4d4d290dbb15303419c1dab18da", null ],
-    [ "GetAI", "d0/d03/a19926.html#a7d46ba96b6f1968e35721d45c17b1a49", null ]
+    [ "HandleEffectPeriodic", "d0/d03/a19926.html#a8d2e75ee2869dc135fe83c782ec6e223", null ],
+    [ "PrepareAuraScript", "d0/d03/a19926.html#a0996c661dbc4e9a4bd35c1368247c7eb", null ],
+    [ "Register", "d0/d03/a19926.html#aed86a298340cc05fbe2a8a68396423bb", null ],
+    [ "Validate", "d0/d03/a19926.html#a1c3ecaebf11d1040fde4ce5cb80f315c", null ]
 ];

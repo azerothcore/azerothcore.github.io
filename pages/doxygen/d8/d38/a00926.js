@@ -1,7 +1,7 @@
 var a00926 =
 [
-    [ "instance_magtheridons_lair", "d5/d83/a23274.html", "d5/d83/a23274" ],
-    [ "instance_magtheridons_lair::instance_magtheridons_lair_InstanceMapScript", "d3/d91/a23278.html", "d3/d91/a23278" ],
+    [ "instance_magtheridons_lair", "df/dfc/a23258.html", "df/dfc/a23258" ],
+    [ "instance_magtheridons_lair::instance_magtheridons_lair_InstanceMapScript", "dc/df8/a23262.html", "dc/df8/a23262" ],
     [ "AddSC_instance_magtheridons_lair", "d8/d38/a00926.html#a77e256ce8ca932c8d162a30715dc7c6f", null ],
     [ "boundaries", "d8/d38/a00926.html#aa75d7d0ffe0cef214f982966c33db1c1", null ],
     [ "doorData", "d8/d38/a00926.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],

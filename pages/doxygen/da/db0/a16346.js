@@ -1,7 +1,5 @@
 var a16346 =
 [
-    [ "HandleEffectRemove", "da/db0/a16346.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
-    [ "Load", "da/db0/a16346.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
-    [ "PrepareAuraScript", "da/db0/a16346.html#a97411ddf89a10a962ba74d294eb653e7", null ],
-    [ "Register", "da/db0/a16346.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
+    [ "achievement_consumption_junction", "da/db0/a16346.html#aab08732c13f41e0e8d27e9f482bd7351", null ],
+    [ "OnCheck", "da/db0/a16346.html#a14dae1bf9d4d7c79f11de40b372f353e", null ]
 ];

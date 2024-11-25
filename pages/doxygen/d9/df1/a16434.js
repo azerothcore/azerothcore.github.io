@@ -1,15 +1,6 @@
 var a16434 =
 [
-    [ "boss_falricAI", "d9/df1/a16434.html#a8b333fe1571f98b4e9f44152d130a22d", null ],
-    [ "DoAction", "d9/df1/a16434.html#a2a7de8f939cd3cdc113c841da36e28c8", null ],
-    [ "EnterEvadeMode", "d9/df1/a16434.html#aacb6a3b13fe5ea08ab2ff0e77ff841a4", null ],
-    [ "JustDied", "d9/df1/a16434.html#a4ee3163afcda23102d639740fd628f39", null ],
-    [ "JustEngagedWith", "d9/df1/a16434.html#ae5a8b14e1984dbd2866af7c442c02df2", null ],
-    [ "KilledUnit", "d9/df1/a16434.html#a4a8b45eb85c1328af6beec69f2db1842", null ],
-    [ "Reset", "d9/df1/a16434.html#a0af8ef161bc2a37a5c7f7fa880194251", null ],
-    [ "UpdateAI", "d9/df1/a16434.html#a640036111dcd14e40016342ffdef7d63", null ],
-    [ "events", "d9/df1/a16434.html#aa94ca00db157378071b78142b213de23", null ],
-    [ "pInstance", "d9/df1/a16434.html#aebeae3541bbbf392c44fd52516bb2d98", null ],
-    [ "startFightTimer", "d9/df1/a16434.html#addd560074b840aed36f41883f893340e", null ],
-    [ "uiHopelessnessCount", "d9/df1/a16434.html#a0ad83fb57263116a59976834c6667ea9", null ]
+    [ "instance_forge_of_souls_InstanceScript", "d0/dfb/a16438.html", "d0/dfb/a16438" ],
+    [ "instance_forge_of_souls", "d9/df1/a16434.html#a504896f6e191c87ce77231c4ef267b27", null ],
+    [ "GetInstanceScript", "d9/df1/a16434.html#a64982b527cfa6057315b8e628549480b", null ]
 ];

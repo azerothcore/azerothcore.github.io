@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WorldPackets::Strings::Hyperlinks Struct Reference</title>
+<title>AzerothCore: WorldPackets::Strings::Utf8 Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('d5/df1/a10570.html','../../'); initRes
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d7/d07/a10567.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::Strings::Hyperlinks Struct Reference</div></div>
+  <div class="headertitle"><div class="title">WorldPackets::Strings::Utf8 Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,13 +115,13 @@ $(document).ready(function(){initNavTree('d5/df1/a10570.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a33ba7592ac6571144fc3a7385dbc49f0"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df1/a10570.html#a33ba7592ac6571144fc3a7385dbc49f0">Validate</a> (std::string const &amp;value)</td></tr>
-<tr class="separator:a33ba7592ac6571144fc3a7385dbc49f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0d4c07b4ce9903a913bdced5e05bbd6"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/df1/a10570.html#ab0d4c07b4ce9903a913bdced5e05bbd6">Validate</a> (std::string const &amp;value)</td></tr>
+<tr class="separator:ab0d4c07b4ce9903a913bdced5e05bbd6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a33ba7592ac6571144fc3a7385dbc49f0" name="a33ba7592ac6571144fc3a7385dbc49f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a33ba7592ac6571144fc3a7385dbc49f0">&#9670;&#160;</a></span>Validate()</h2>
+<a id="ab0d4c07b4ce9903a913bdced5e05bbd6" name="ab0d4c07b4ce9903a913bdced5e05bbd6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0d4c07b4ce9903a913bdced5e05bbd6">&#9670;&#160;</a></span>Validate()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -130,7 +130,7 @@ Static Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool WorldPackets::Strings::Hyperlinks::Validate </td>
+          <td class="memname">bool WorldPackets::Strings::Utf8::Validate </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
@@ -143,16 +143,13 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../dc/d43/a04727.html#a02761d9aa335689ff1b8dc1155b2a3c6">Acore::Hyperlinks::CheckAllLinks</a>(value))</div>
-<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">throw</span> InvalidHyperlinkException(value);</div>
-<div class="line"><span class="lineno">   48</span> </div>
-<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   50</span>}</div>
-<div class="ttc" id="aa04727_html_a02761d9aa335689ff1b8dc1155b2a3c6"><div class="ttname"><a href="../../dc/d43/a04727.html#a02761d9aa335689ff1b8dc1155b2a3c6">Acore::Hyperlinks::CheckAllLinks</a></div><div class="ttdeci">bool AC_GAME_API CheckAllLinks(std::string_view str)</div><div class="ttdef"><b>Definition:</b> Hyperlinks.cpp:378</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <span class="keywordflow">if</span> (!utf8::is_valid(value.begin(), value.end()))</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">throw</span> InvalidUtf8ValueException(value);</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   42</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00378">Acore::Hyperlinks::CheckAllLinks()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -160,8 +157,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d0/d84/a04753.html">Strings</a></li><li class="navelem"><a class="el" href="../../d5/df1/a10570.html">Hyperlinks</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d0/d84/a04753.html">Strings</a></li><li class="navelem"><a class="el" href="../../d5/df1/a10570.html">Utf8</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

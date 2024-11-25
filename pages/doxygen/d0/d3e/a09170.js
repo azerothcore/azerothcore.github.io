@@ -1,7 +1,7 @@
 var a09170 =
 [
-    [ "RaidCheck", "d0/d3e/a09170.html#ad8c3717b9a645c7806c8c027a8d90ef5", null ],
-    [ "operator()", "d0/d3e/a09170.html#a0c076b737e8e1eacb9aab0981ff66f51", null ],
-    [ "_compare", "d0/d3e/a09170.html#a5fffdd5901fb03c5e9a9adfb58e3d759", null ],
-    [ "_equals", "d0/d3e/a09170.html#a7d253c94403bd50012722a9a9b113c3a", null ]
+    [ "PowerCheck", "d0/d3e/a09170.html#abb2fc6c6e83e1097a6bb40512fb50dfc", null ],
+    [ "operator()", "d0/d3e/a09170.html#a16ad8e68d94742bc78b6f20734f58e99", null ],
+    [ "_equals", "d0/d3e/a09170.html#ae7758da7775ff778bc5cd96e9a15649b", null ],
+    [ "_power", "d0/d3e/a09170.html#a922a57b62b4289835b539a69b0f58fa1", null ]
 ];

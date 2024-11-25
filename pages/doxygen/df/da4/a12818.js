@@ -1,8 +1,14 @@
 var a12818 =
 [
-    [ "npc_apothecary_baxter", "df/da4/a12818.html#a4a41816ff4f857a15a4665b8da1aec99", null ],
-    [ "JustDied", "df/da4/a12818.html#a9bf2362ba1b1e3a290ca12f1ceb54ab9", null ],
-    [ "Reset", "df/da4/a12818.html#afee5103029bd761c48cbf6a11655c44a", null ],
-    [ "UpdateAI", "df/da4/a12818.html#ad06090f599d0fda3a88f3182c990a49f", null ],
-    [ "_scheduler", "df/da4/a12818.html#a6d813041e055f3c2b28be7cba3acde13", null ]
+    [ "boss_apothecary_hummelAI", "df/da4/a12818.html#a75796eb8dc83729f2f726ff51317bd66", null ],
+    [ "DamageTaken", "df/da4/a12818.html#a2af77fbe7f089b5da20d2ff693cfcedf", null ],
+    [ "DoAction", "df/da4/a12818.html#a03fb543ba20f92d5528bf4667c457631", null ],
+    [ "JustDied", "df/da4/a12818.html#a3c7bc5f9aa04f155debbdacafed6163d", null ],
+    [ "Reset", "df/da4/a12818.html#a31381343d2533af670941baf872b3635", null ],
+    [ "sGossipSelect", "df/da4/a12818.html#a1a9953c37286fd40c0aa0eebfec3eb86", null ],
+    [ "SummonedCreatureDies", "df/da4/a12818.html#a8947cbd1c2856334a0d6529bc664f71b", null ],
+    [ "UpdateAI", "df/da4/a12818.html#a61e4d85ecd592142ba07588512505990", null ],
+    [ "_deadCount", "df/da4/a12818.html#aaac2018e16b80997f884745732605559", null ],
+    [ "_isDead", "df/da4/a12818.html#aa3c37a38b95c6b3bec4e3b787d2155df", null ],
+    [ "_phase", "df/da4/a12818.html#a951d68d4e645860cdb5c5e348bf1fff4", null ]
 ];

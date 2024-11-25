@@ -1,6 +1,6 @@
 var a11818 =
 [
-    [ "boss_thebeastAI", "dc/d1a/a11822.html", "dc/d1a/a11822" ],
-    [ "boss_the_beast", "db/d60/a11818.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
-    [ "GetAI", "db/d60/a11818.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
+    [ "OrcDeathEvent", "db/d60/a11818.html#ae4088ee95c3c0de9ae524a82803b0ea2", null ],
+    [ "Execute", "db/d60/a11818.html#a293ec6667da669a27fe75965f919cd68", null ],
+    [ "_me", "db/d60/a11818.html#a56cdf23ed08cbb800ba6fe7fb5e284b7", null ]
 ];

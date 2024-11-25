@@ -1,6 +1,6 @@
 var a22494 =
 [
-    [ "CalculateAmount", "d9/d70/a22494.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
-    [ "PrepareAuraScript", "d9/d70/a22494.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
-    [ "Register", "d9/d70/a22494.html#a0d2e97463f268892965e307628aaa931", null ]
+    [ "HandleSharedRule", "d9/d70/a22494.html#a94b783490dafae872b65e0bbfed156b9", null ],
+    [ "PrepareSpellScript", "d9/d70/a22494.html#af59695af3afcc51a3c29fcc4053bbfee", null ],
+    [ "Register", "d9/d70/a22494.html#a31f2d90059e62da77a719a192d62328b", null ]
 ];

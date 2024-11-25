@@ -1,6 +1,6 @@
 var a23642 =
 [
-    [ "npc_simon_bunnyAI", "d1/d5d/a23646.html", "d1/d5d/a23646" ],
-    [ "npc_simon_bunny", "da/ddb/a23642.html#afd3f3a24450bc8b748c0ff5b05b10da1", null ],
-    [ "GetAI", "da/ddb/a23642.html#ac0c97609916321a1599c0722803a050f", null ]
+    [ "npc_oscillating_frequency_scanner_master_bunnyAI", "d1/d5d/a23646.html", "d1/d5d/a23646" ],
+    [ "npc_oscillating_frequency_scanner_master_bunny", "da/ddb/a23642.html#a8ae11cadbd5e883bf12f8f5201700b4e", null ],
+    [ "GetAI", "da/ddb/a23642.html#a60d55e2eda4484ceea4e475ac8653977", null ]
 ];

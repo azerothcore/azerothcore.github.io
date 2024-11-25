@@ -1,7 +1,7 @@
 var a13866 =
 [
-    [ "HandleScriptEffect", "db/d94/a13866.html#ae758c224878aebdde0124b5d4ec902a5", null ],
-    [ "PrepareSpellScript", "db/d94/a13866.html#ac3755ef09a905d90ce7df328b83d51aa", null ],
-    [ "Register", "db/d94/a13866.html#a051d0fe383e5675e39e4ac8ed7a6e329", null ],
-    [ "Validate", "db/d94/a13866.html#a56f71954e122f651c6e2ec68453e16cc", null ]
+    [ "go_direbrew_mole_machineAI", "db/d94/a13866.html#a4e667ad9e572e93c045ae01f63bea648", null ],
+    [ "Reset", "db/d94/a13866.html#a32dd801b5d898fd8634edcb6cae52bdf", null ],
+    [ "UpdateAI", "db/d94/a13866.html#a2eaa8a0ad0907e4aa497a7e1c3a31b29", null ],
+    [ "_scheduler", "db/d94/a13866.html#a5960ff83f21cf5964f422e3a7b297f22", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WaypointMovementGenerator&lt; T &gt; Class Template Reference</title>
+<title>AzerothCore: PathMovementBase&lt; T, P &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,18 +104,222 @@ $(document).ready(function(){initNavTree('df/d21/a09758.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">WaypointMovementGenerator&lt; T &gt; Class Template Reference</div></div>
+  <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="../../da/d7f/a09755.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">PathMovementBase&lt; T, P &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &quot;<a class="el" href="../../">WaypointMovementGenerator.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for PathMovementBase&lt; T, P &gt;:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../df/d21/a09758.png" usemap="#PathMovementBase_3C_20T_2C_20P_20_3E_map" alt=""/>
+  <map id="PathMovementBase_3C_20T_2C_20P_20_3E_map" name="PathMovementBase_3C_20T_2C_20P_20_3E_map">
+<area href="../../d7/d6a/a09766.html" alt="WaypointMovementGenerator&lt; Creature &gt;" shape="rect" coords="0,56,253,80"/>
+  </map>
+</div></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6b76e1527ed69ff631d7a72c309f264a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a6b76e1527ed69ff631d7a72c309f264a">PathMovementBase</a> ()</td></tr>
+<tr class="separator:a6b76e1527ed69ff631d7a72c309f264a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a953fcda0cf7764f659fc5a4a19408550"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a953fcda0cf7764f659fc5a4a19408550">PathMovementBase</a> (P path)</td></tr>
+<tr class="separator:a953fcda0cf7764f659fc5a4a19408550"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33b2b53993fe897712a196bc4ad86bd1"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a33b2b53993fe897712a196bc4ad86bd1">~PathMovementBase</a> ()</td></tr>
+<tr class="separator:a33b2b53993fe897712a196bc4ad86bd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ceb52928f2198392980c3926516fd82"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a7ceb52928f2198392980c3926516fd82">GetCurrentNode</a> () const</td></tr>
+<tr class="separator:a7ceb52928f2198392980c3926516fd82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a3dbc5e41e0c6245f369afc7a24081c83"><td class="memItemLeft" align="right" valign="top">P&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a></td></tr>
+<tr class="separator:a3dbc5e41e0c6245f369afc7a24081c83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5420aef90d3529881ef41362ebb29934"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d21/a09758.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a></td></tr>
+<tr class="separator:a5420aef90d3529881ef41362ebb29934"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
-class WaypointMovementGenerator&lt; T &gt;</div></div></div><!-- contents -->
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class P&gt;<br />
+class PathMovementBase&lt; T, P &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6b76e1527ed69ff631d7a72c309f264a" name="a6b76e1527ed69ff631d7a72c309f264a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b76e1527ed69ff631d7a72c309f264a">&#9670;&#160;</a></span>PathMovementBase() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;<a class="el" href="../../df/d21/a09758.html">::PathMovementBase</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   38</span>: <a class="code hl_variable" href="../../df/d21/a09758.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>(), <a class="code hl_variable" href="../../df/d21/a09758.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>(0) {}</div>
+<div class="ttc" id="aa09758_html_a3dbc5e41e0c6245f369afc7a24081c83"><div class="ttname"><a href="../../df/d21/a09758.html#a3dbc5e41e0c6245f369afc7a24081c83">PathMovementBase::i_path</a></div><div class="ttdeci">P i_path</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:45</div></div>
+<div class="ttc" id="aa09758_html_a5420aef90d3529881ef41362ebb29934"><div class="ttname"><a href="../../df/d21/a09758.html#a5420aef90d3529881ef41362ebb29934">PathMovementBase::i_currentNode</a></div><div class="ttdeci">uint32 i_currentNode</div><div class="ttdef"><b>Definition:</b> WaypointMovementGenerator.h:46</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a953fcda0cf7764f659fc5a4a19408550" name="a953fcda0cf7764f659fc5a4a19408550"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a953fcda0cf7764f659fc5a4a19408550">&#9670;&#160;</a></span>PathMovementBase() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;<a class="el" href="../../df/d21/a09758.html">::PathMovementBase</a> </td>
+          <td>(</td>
+          <td class="paramtype">P&#160;</td>
+          <td class="paramname"><em>path</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   39</span>: <a class="code hl_variable" href="../../df/d21/a09758.html#a3dbc5e41e0c6245f369afc7a24081c83">i_path</a>(path), <a class="code hl_variable" href="../../df/d21/a09758.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>(0) {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a33b2b53993fe897712a196bc4ad86bd1" name="a33b2b53993fe897712a196bc4ad86bd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33b2b53993fe897712a196bc4ad86bd1">&#9670;&#160;</a></span>~PathMovementBase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;::~<a class="el" href="../../df/d21/a09758.html">PathMovementBase</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   40</span>{};</div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7ceb52928f2198392980c3926516fd82" name="a7ceb52928f2198392980c3926516fd82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ceb52928f2198392980c3926516fd82">&#9670;&#160;</a></span>GetCurrentNode()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;::GetCurrentNode </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   42</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d21/a09758.html#a5420aef90d3529881ef41362ebb29934">i_currentNode</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00046">PathMovementBase&lt; T, P &gt;::i_currentNode</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5420aef90d3529881ef41362ebb29934" name="a5420aef90d3529881ef41362ebb29934"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5420aef90d3529881ef41362ebb29934">&#9670;&#160;</a></span>i_currentNode</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;::i_currentNode</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00042">PathMovementBase&lt; T, P &gt;::GetCurrentNode()</a>.</p>
+
+</div>
+</div>
+<a id="a3dbc5e41e0c6245f369afc7a24081c83" name="a3dbc5e41e0c6245f369afc7a24081c83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3dbc5e41e0c6245f369afc7a24081c83">&#9670;&#160;</a></span>i_path</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">P <a class="el" href="../../df/d21/a09758.html">PathMovementBase</a>&lt; T, P &gt;::i_path</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d21/a09758.html">WaypointMovementGenerator</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:42:49 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d21/a09758.html">PathMovementBase</a></li>
+    <li class="footer">Generated on Mon Nov 25 2024 20:43:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

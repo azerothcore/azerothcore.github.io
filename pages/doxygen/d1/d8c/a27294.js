@@ -1,7 +1,9 @@
 var a27294 =
 [
-    [ "npc_venomhide_hatchlingAI", "da/d4f/a27298.html", "da/d4f/a27298" ],
-    [ "npc_venomhide_hatchling", "d1/d8c/a27294.html#a4dc217dd5950db7b270b7cce3e594e4d", null ],
-    [ "GetAI", "d1/d8c/a27294.html#a96110b752965d751ab7b466c4f67e333", null ],
-    [ "OnGossipHello", "d1/d8c/a27294.html#a404d875592b847ddb9f3250c9d954bfc", null ]
+    [ "npc_arcanite_dragonling", "d1/d8c/a27294.html#a9b7e4cefa312a16c90018d655ad94758", null ],
+    [ "CanAIAttack", "d1/d8c/a27294.html#a374e127ef749dc72ec70137bcd13a0b9", null ],
+    [ "IsSummonedBy", "d1/d8c/a27294.html#a921b35a91c4f21258efdb41fd87413db", null ],
+    [ "JustEngagedWith", "d1/d8c/a27294.html#a65f6d779681861117f750b70154b3e0d", null ],
+    [ "Reset", "d1/d8c/a27294.html#a4468d91430add821bf7a7ab11d8063da", null ],
+    [ "UpdateAI", "d1/d8c/a27294.html#aebe430b9a3079a5ccbfd979a74e532f3", null ]
 ];

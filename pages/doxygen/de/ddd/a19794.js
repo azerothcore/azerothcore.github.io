@@ -1,6 +1,6 @@
 var a19794 =
 [
-    [ "boss_hodirAI", "d0/d0d/a19798.html", "d0/d0d/a19798" ],
-    [ "boss_hodir", "de/ddd/a19794.html#a5740f489f57380d2633a8ee5a18de339", null ],
-    [ "GetAI", "de/ddd/a19794.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
+    [ "npc_ulduar_flash_freezeAI", "d0/d0d/a19798.html", "d0/d0d/a19798" ],
+    [ "npc_ulduar_flash_freeze", "de/ddd/a19794.html#a0301ed1231d3b0d113e9fc9389e8f160", null ],
+    [ "GetAI", "de/ddd/a19794.html#a933f99c8d38ab98c8454919b6373bb41", null ]
 ];

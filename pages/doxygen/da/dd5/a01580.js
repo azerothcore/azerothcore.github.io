@@ -1,7 +1,7 @@
 var a01580 =
 [
-    [ "icecrown_citadel_teleport", "d6/db5/a18478.html", "d6/db5/a18478" ],
-    [ "at_frozen_throne_teleport", "d2/d0c/a18482.html", "d2/d0c/a18482" ],
+    [ "icecrown_citadel_teleport", "db/d13/a18490.html", "db/d13/a18490" ],
+    [ "at_frozen_throne_teleport", "da/d4f/a18494.html", "da/d4f/a18494" ],
     [ "GOSSIP_SENDER_ICC_PORT", "da/dd5/a01580.html#a6fba34564bcdeb5d7a73d3c21850f02a", null ],
     [ "ICCTeleportOption", "da/dd5/a01580.html#a6fd4f2624c3269860a58fdcfbb273928", [
       [ "ICC_TELEPORT_GOSSIP_OPT_LIGHTS_HAMMER", "da/dd5/a01580.html#a6fd4f2624c3269860a58fdcfbb273928a5d845311579fa05dd470ab95e3810591", null ],

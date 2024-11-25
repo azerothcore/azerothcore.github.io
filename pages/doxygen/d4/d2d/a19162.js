@@ -1,6 +1,6 @@
 var a19162 =
 [
-    [ "npc_molten_golemAI", "dd/d80/a19166.html", "dd/d80/a19166" ],
-    [ "npc_molten_golem", "d4/d2d/a19162.html#a63e16216a59b50524632b49599bd3bd1", null ],
-    [ "GetAI", "d4/d2d/a19162.html#a22a723039267cb0901b78c6064a88d0c", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "dd/d80/a19166.html", "dd/d80/a19166" ],
+    [ "instance_halls_of_lightning", "d4/d2d/a19162.html#a24395866efe2c7d1f7727be2557a8b46", null ],
+    [ "GetInstanceScript", "d4/d2d/a19162.html#a5ce157aeaf2ed78e98e864059a599b36", null ]
 ];

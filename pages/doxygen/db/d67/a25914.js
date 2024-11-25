@@ -1,6 +1,7 @@
 var a25914 =
 [
-    [ "HandleScriptEffect", "db/d67/a25914.html#a8b60ae77f13045a582548fe5d1186d54", null ],
-    [ "PrepareSpellScript", "db/d67/a25914.html#ad68619783c4a1aad5a24826bf5d89858", null ],
-    [ "Register", "db/d67/a25914.html#a929c49d6dd30b6a0dedfbc23c877eb36", null ]
+    [ "if", "db/d67/a25914.html#aefedb14e99d2e60abfd58f7778deb39b", null ],
+    [ "PrepareAuraScript", "db/d67/a25914.html#ad61e8c804e59ca0623748acde69aeddb", null ],
+    [ "Register", "db/d67/a25914.html#af917d32bc0d7f825a52c0a916a3a2357", null ],
+    [ "AuraEffectHandleModes", "db/d67/a25914.html#accfab0bada4faf21178e3f67a79c6dfe", null ]
 ];

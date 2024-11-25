@@ -1,6 +1,7 @@
 var a25226 =
 [
-    [ "HandleActivateObject", "da/d65/a25226.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
-    [ "PrepareSpellScript", "da/d65/a25226.html#a684079434128bacd3d8b8b71c14dc56a", null ],
-    [ "Register", "da/d65/a25226.html#a266301f59c809c03d0ccfc48a2ace302", null ]
+    [ "CheckProc", "da/d65/a25226.html#afbd6d4a64b7da0d0dc15c62eb81746c9", null ],
+    [ "HandleProc", "da/d65/a25226.html#a27569fe686e50246768fca4a7625fe0d", null ],
+    [ "PrepareAuraScript", "da/d65/a25226.html#a4f4eaa4aeeac9257804957671c16233f", null ],
+    [ "Register", "da/d65/a25226.html#ab9a662bebdb5e03c5c10a807b892a9bf", null ]
 ];

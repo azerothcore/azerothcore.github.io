@@ -1,8 +1,6 @@
 var a23602 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d6/d86/a23602.html#a728d427162c0f56e7d229c55ff88bfbd", null ],
-    [ "OnCreatureCreate", "d6/d86/a23602.html#aa0c6a84a6ace9299b18f0cc54263b398", null ],
-    [ "OnGameObjectCreate", "d6/d86/a23602.html#a236a8c67ca57ffc7d2161c00e8acbd64", null ],
-    [ "OnGameObjectRemove", "d6/d86/a23602.html#ac79c4f1dad7f2caf1278e242ec8fadc9", null ],
-    [ "_pathaleonGUID", "d6/d86/a23602.html#aaf5c80af5ba2ba46b3c53ccffaaa1d3b", null ]
+    [ "npc_deaths_fel_cannonAI", "d6/d86/a23602.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
+    [ "Reset", "d6/d86/a23602.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
+    [ "UpdateAI", "d6/d86/a23602.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
 ];

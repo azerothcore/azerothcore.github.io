@@ -1,7 +1,5 @@
 var a14802 =
 [
-    [ "boss_glob_of_viscidus", "d7/d48/a14802.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
-    [ "InitializeAI", "d7/d48/a14802.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
-    [ "MovementInform", "d7/d48/a14802.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
-    [ "UpdateAI", "d7/d48/a14802.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
+    [ "at_twin_emperors", "d7/d48/a14802.html#a343d482857fa0a45c42f593e591f7754", null ],
+    [ "_OnTrigger", "d7/d48/a14802.html#adf3120b7bf611e0246abb2970711ada3", null ]
 ];

@@ -1,6 +1,6 @@
 var a18194 =
 [
-    [ "npc_rotting_frost_giantAI", "dc/d56/a18198.html", "dc/d56/a18198" ],
-    [ "npc_rotting_frost_giant", "d9/d4b/a18194.html#ad4440216e11a00d97af43dc5f3957e95", null ],
-    [ "GetAI", "d9/d4b/a18194.html#aabc388b3690f2d03e903c7f480d52842", null ]
+    [ "CaptainSurviveTalk", "d9/d4b/a18194.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "d9/d4b/a18194.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "d9/d4b/a18194.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

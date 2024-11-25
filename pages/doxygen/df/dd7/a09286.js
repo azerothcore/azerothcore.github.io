@@ -1,9 +1,9 @@
 var a09286 =
 [
-    [ "EmoteChatBuilder", "df/dd7/a09286.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
-    [ "operator()", "df/dd7/a09286.html#a133a7bb35e86cf40425910c4f19a3337", null ],
-    [ "i_emote_num", "df/dd7/a09286.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
-    [ "i_player", "df/dd7/a09286.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
-    [ "i_target", "df/dd7/a09286.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
-    [ "i_text_emote", "df/dd7/a09286.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
+    [ "LoginQueryHolder", "df/dd7/a09286.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
+    [ "GetAccountId", "df/dd7/a09286.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
+    [ "GetGuid", "df/dd7/a09286.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
+    [ "Initialize", "df/dd7/a09286.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
+    [ "m_accountId", "df/dd7/a09286.html#abc8056182803af44a062fe6153fdd009", null ],
+    [ "m_guid", "df/dd7/a09286.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
 ];

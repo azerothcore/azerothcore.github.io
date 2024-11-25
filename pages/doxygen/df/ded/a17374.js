@@ -1,7 +1,6 @@
 var a17374 =
 [
-    [ "OnPeriodic", "df/ded/a17374.html#a402e6c1a23070e3cef9b66ca0992d1af", null ],
-    [ "PrepareAuraScript", "df/ded/a17374.html#a0e87dae1be4f69e6412129f14056eb79", null ],
-    [ "Register", "df/ded/a17374.html#a1b26d102252bf7e0fd480076820d343f", null ],
-    [ "Validate", "df/ded/a17374.html#a211d52aa385a874730abc43b083f2d22", null ]
+    [ "npc_darnavanAI", "d3/d42/a17378.html", "d3/d42/a17378" ],
+    [ "npc_darnavan", "df/ded/a17374.html#ac358ca123155165395fa5f7ec02c9dab", null ],
+    [ "GetAI", "df/ded/a17374.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
 ];

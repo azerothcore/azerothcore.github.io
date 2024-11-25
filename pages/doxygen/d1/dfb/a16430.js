@@ -1,6 +1,6 @@
 var a16430 =
 [
-    [ "boss_falricAI", "d9/df1/a16434.html", "d9/df1/a16434" ],
-    [ "boss_falric", "d1/dfb/a16430.html#aa64253f502f79db5947c09788fb66deb", null ],
-    [ "GetAI", "d1/dfb/a16430.html#a95249877208d19bb54edd8de18616158", null ]
+    [ "entry", "d1/dfb/a16430.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "d1/dfb/a16430.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "d1/dfb/a16430.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

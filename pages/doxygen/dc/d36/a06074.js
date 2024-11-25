@@ -25,6 +25,7 @@ var a06074 =
     [ "DoZoneInCombat", "dc/d36/a06074.html#afdeeccb48c5f74120d0fffe2a631a88a", null ],
     [ "EnterEvadeMode", "dc/d36/a06074.html#afe5dd68e11d20028510eca29d4184778", null ],
     [ "GetBoundary", "dc/d36/a06074.html#a4ab2493951d4eee8560c1415536f726e", null ],
+    [ "GetSummoner", "dc/d36/a06074.html#a64328d924deddb3b54b185448bd9793b", null ],
     [ "IsEscorted", "dc/d36/a06074.html#afe73fad7f8eeedeb636cb77790bffff4", null ],
     [ "IsInBoundary", "dc/d36/a06074.html#aded3c4896ed48811d276b356b9468b00", null ],
     [ "IsInBounds", "dc/d36/a06074.html#a39a72debf9a7ab05cd350c08eb463180", null ],

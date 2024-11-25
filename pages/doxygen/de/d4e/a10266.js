@@ -1,11 +1,6 @@
 var a10266 =
 [
-    [ "BackgroundColor", "de/d4e/a10266.html#abab86dd497de86088873178bf1d54b5b", null ],
-    [ "BorderColor", "de/d4e/a10266.html#abb2489b9be8a0d4a20d209d6293d7d46", null ],
-    [ "BorderStyle", "de/d4e/a10266.html#acd5105c31e0f56e680f3384e86186872", null ],
-    [ "EmblemColor", "de/d4e/a10266.html#a2e8a4768292d3566bb61009056a8a230", null ],
-    [ "EmblemStyle", "de/d4e/a10266.html#aa6309467f9f09725a8698de864b4e63c", null ],
-    [ "GuildName", "de/d4e/a10266.html#a74d4e1690c07a647c97ca2225e8488dd", null ],
-    [ "RankCount", "de/d4e/a10266.html#acddb77850a86348df197afc724c4eaa0", null ],
-    [ "Ranks", "de/d4e/a10266.html#aec9fd9a1a3bfa040375193027b32cf24", null ]
+    [ "QueryGuildInfo", "de/d4e/a10266.html#a34b129b3c9fef61aa4211a9bc2783aef", null ],
+    [ "Read", "de/d4e/a10266.html#a0396a58ca114706f7de91f51c5ab949d", null ],
+    [ "GuildId", "de/d4e/a10266.html#ad221eecdb16233251306fff3d9801f38", null ]
 ];

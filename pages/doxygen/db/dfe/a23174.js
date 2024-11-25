@@ -1,8 +1,9 @@
 var a23174 =
 [
-    [ "boss_broggok", "db/dfe/a23174.html#ae20c04793116d3e8eab62d2ee27010df", null ],
-    [ "DoAction", "db/dfe/a23174.html#af5de5a1747c502f72af015c09d050354", null ],
-    [ "JustEngagedWith", "db/dfe/a23174.html#a084e3c37a0218d47c8e39b196fc6746a", null ],
-    [ "JustSummoned", "db/dfe/a23174.html#a0bf2d75f7889542a9e48689b8d080a1e", null ],
-    [ "Reset", "db/dfe/a23174.html#af11b4dc2aee8064a1eaad334d93e6de0", null ]
+    [ "boss_the_maker", "db/dfe/a23174.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "db/dfe/a23174.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "db/dfe/a23174.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "db/dfe/a23174.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "db/dfe/a23174.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "db/dfe/a23174.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

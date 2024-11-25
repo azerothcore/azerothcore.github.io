@@ -1,13 +1,8 @@
 var a12986 =
 [
-    [ "boss_kalecgos", "d8/d05/a12986.html#a9a3eaee76ada967445cc0ed3d5ed21d2", null ],
-    [ "CanAIAttack", "d8/d05/a12986.html#aa810a7eae5a6b1102e2e96022eaf5085", null ],
-    [ "CheckInRoom", "d8/d05/a12986.html#a99cf385b11044c364b23fa8fc7e755ee", null ],
-    [ "ClearPlayerAuras", "d8/d05/a12986.html#a17ffb7ec1b591acb0e5c359cb73ed2f6", null ],
-    [ "DoAction", "d8/d05/a12986.html#aaccfa519a7290eb56990e43de4beea97", null ],
-    [ "JustEngagedWith", "d8/d05/a12986.html#ab4d440dd0b66002b840bc4b3d3a8f7ef", null ],
-    [ "JustReachedHome", "d8/d05/a12986.html#ad3890c81f73ee82c1b44cef5554210c9", null ],
-    [ "KilledUnit", "d8/d05/a12986.html#a9844d54a8334ae5d20689593cd8a5e1a", null ],
-    [ "Reset", "d8/d05/a12986.html#ad30cbd6d6fe343b9eb44fb96b0779551", null ],
-    [ "_sathBanished", "d8/d05/a12986.html#a595eb66eb6f820efa29fcc5d631fe159", null ]
+    [ "HandleApply", "d8/d05/a12986.html#a2e07ffc92d44757fe2b074244048dbf4", null ],
+    [ "HandleRemove", "d8/d05/a12986.html#ae0d8cb63cf62e5015daa56463524aa27", null ],
+    [ "PrepareAuraScript", "d8/d05/a12986.html#a4a59bd5c9ce7b74d29cdd6132f94c0bf", null ],
+    [ "Register", "d8/d05/a12986.html#a3b91d692ad34b7ce965887590780e146", null ],
+    [ "Validate", "d8/d05/a12986.html#aa3ee5b49e9e1009d5be34214eefd2a6d", null ]
 ];

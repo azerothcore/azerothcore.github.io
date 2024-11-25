@@ -1,7 +1,9 @@
 var a16142 =
 [
-    [ "HandleEffectPeriodic", "d8/dac/a16142.html#ae5749a43f37f0eb3f049d8804845f61e", null ],
-    [ "PrepareAuraScript", "d8/dac/a16142.html#a66dcb98f38ed6b040928543015f59c9b", null ],
-    [ "Register", "d8/dac/a16142.html#abbebe9c5ad44db61e80ce3707e744ab6", null ],
-    [ "Validate", "d8/dac/a16142.html#a1131f0014f298b87483412d960bc0221", null ]
+    [ "npc_fel_infernalAI", "d8/dac/a16142.html#a7f34b34facdfeea3fc3507ad3cf84dda", null ],
+    [ "EnterEvadeMode", "d8/dac/a16142.html#aedec8729b9be931a74fe00d1aa649848", null ],
+    [ "JustDied", "d8/dac/a16142.html#a599786069f98231eeb7f9ca809f8e671", null ],
+    [ "Reset", "d8/dac/a16142.html#a09f408c9250467228b91ef9f6c9544f4", null ],
+    [ "UpdateAI", "d8/dac/a16142.html#a45075fdaba6d7c04cb526420deb8a0ac", null ],
+    [ "events", "d8/dac/a16142.html#acf955037c246f7b5f12cc5338b300b63", null ]
 ];

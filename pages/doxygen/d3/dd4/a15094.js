@@ -1,6 +1,6 @@
 var a15094 =
 [
-    [ "npc_silva_filnaveth", "d3/dd4/a15094.html#a5998381865214a7b3af7823bd2557cb0", null ],
-    [ "OnGossipHello", "d3/dd4/a15094.html#a32019c17271a3f504d86cd694262fd53", null ],
-    [ "OnGossipSelect", "d3/dd4/a15094.html#a10f81dce3dbc3ef0a84c8c33c2cb2e29", null ]
+    [ "HandleDummy", "d3/dd4/a15094.html#af9c26a7e5f6cba4f1146cb626dbcf8ed", null ],
+    [ "PrepareSpellScript", "d3/dd4/a15094.html#adc581ed46587afcc8be3800ae79105f6", null ],
+    [ "Register", "d3/dd4/a15094.html#a7d09808ea2fdec450fcd129e996bd245", null ]
 ];

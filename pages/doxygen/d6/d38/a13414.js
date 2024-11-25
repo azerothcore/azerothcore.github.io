@@ -1,5 +1,6 @@
 var a13414 =
 [
-    [ "npc_andorhal_towerAI", "d6/d38/a13414.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
-    [ "MoveInLineOfSight", "d6/d38/a13414.html#a1165ee0e066dcaeb300096e55758389b", null ]
+    [ "npc_the_scourge_cauldronAI", "d2/dd1/a13418.html", "d2/dd1/a13418" ],
+    [ "npc_the_scourge_cauldron", "d6/d38/a13414.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
+    [ "GetAI", "d6/d38/a13414.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
 ];

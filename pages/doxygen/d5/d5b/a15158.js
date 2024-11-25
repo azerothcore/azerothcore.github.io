@@ -1,6 +1,6 @@
 var a15158 =
 [
-    [ "npc_qiraj_war_spawnAI", "dd/d7b/a15162.html", "dd/d7b/a15162" ],
-    [ "npc_qiraj_war_spawn", "d5/d5b/a15158.html#a2afba33e9fd879ac3fea206768b14334", null ],
-    [ "GetAI", "d5/d5b/a15158.html#a32339f20251c188b895c02b6cc9217e9", null ]
+    [ "SpellId", "d5/d5b/a15158.html#a2c430be201c1fd866ee96224f1803a20", null ],
+    [ "Timer1", "d5/d5b/a15158.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
+    [ "Timer2", "d5/d5b/a15158.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
 ];

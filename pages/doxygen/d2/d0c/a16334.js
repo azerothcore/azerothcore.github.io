@@ -1,5 +1,7 @@
 var a16334 =
 [
-    [ "achievement_consumption_junction", "d2/d0c/a16334.html#aab08732c13f41e0e8d27e9f482bd7351", null ],
-    [ "OnCheck", "d2/d0c/a16334.html#a14dae1bf9d4d7c79f11de40b372f353e", null ]
+    [ "HandleScriptEffect", "d2/d0c/a16334.html#a62cef31900cd61167823f3e66aa2d64b", null ],
+    [ "PrepareSpellScript", "d2/d0c/a16334.html#aff3fc5d7d6185bcb09d14f1408a67aad", null ],
+    [ "Register", "d2/d0c/a16334.html#ac73b3f568ce54f9b59b2b23f069da3c1", null ],
+    [ "Validate", "d2/d0c/a16334.html#aab4d84e896c8225d8d131558aaa71dbe", null ]
 ];

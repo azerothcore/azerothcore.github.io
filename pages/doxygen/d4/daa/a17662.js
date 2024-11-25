@@ -1,7 +1,6 @@
 var a17662 =
 [
-    [ "OnRemove", "d4/daa/a17662.html#aa096174465120bde1994c85f72682be1", null ],
-    [ "PrepareAuraScript", "d4/daa/a17662.html#a49ba4ed8ac0ee006c74a71e6779c1a3b", null ],
-    [ "Register", "d4/daa/a17662.html#a6e9c95b06f3ec9dc0739beaabc016d5f", null ],
-    [ "Validate", "d4/daa/a17662.html#a1b7ef2c14db8543a9128aa335548fa00", null ]
+    [ "UnchainedMagicTargetSelector", "d4/daa/a17662.html#ae412c72884e6cfb1ceef8ed9fb347fbf", null ],
+    [ "operator()", "d4/daa/a17662.html#af28ce8f46154ae6152e9025775a7f84f", null ],
+    [ "_removeHealers", "d4/daa/a17662.html#a35a7981ce5495cba8b3a5391e4031431", null ]
 ];

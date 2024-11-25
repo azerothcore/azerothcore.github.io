@@ -1,6 +1,7 @@
 var a12094 =
 [
-    [ "boss_gehennasAI", "d3/d2d/a12098.html", "d3/d2d/a12098" ],
-    [ "boss_gehennas", "df/dac/a12094.html#a380a24cbaad4e247c6c76fd63ac34f59", null ],
-    [ "GetAI", "df/dac/a12094.html#a92f9ff0e957da5331b4a3ecc48be0ffa", null ]
+    [ "HandleHit", "df/dac/a12094.html#a18f86449945ade16140ee934a7d8703e", null ],
+    [ "PrepareSpellScript", "df/dac/a12094.html#abaf09043858db27b05fbe544d7a15a8f", null ],
+    [ "Register", "df/dac/a12094.html#abe0733be2e32ff616c48acaeeb1d39e9", null ],
+    [ "Validate", "df/dac/a12094.html#abc970a8b4a8f27f81f392cebf81dc574", null ]
 ];

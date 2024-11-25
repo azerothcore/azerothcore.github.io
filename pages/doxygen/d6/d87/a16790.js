@@ -1,6 +1,7 @@
 var a16790 =
 [
-    [ "boss_eckAI", "d2/dc3/a16794.html", "d2/dc3/a16794" ],
-    [ "boss_eck", "d6/d87/a16790.html#aa445927936d7759a8c3289e2899181e5", null ],
-    [ "GetAI", "d6/d87/a16790.html#a335755ec7416d3e00a4070e03569293a", null ]
+    [ "HandleDummy", "d6/d87/a16790.html#ab614c27fbeb0fc6cac42c3e8f981e11d", null ],
+    [ "PrepareSpellScript", "d6/d87/a16790.html#a3ef0564565ea49265800422c835432b0", null ],
+    [ "Register", "d6/d87/a16790.html#a7b685926a8d511397889616e97bbd563", null ],
+    [ "Validate", "d6/d87/a16790.html#aecd40c136e44dfc9c5e4dd572d577578", null ]
 ];

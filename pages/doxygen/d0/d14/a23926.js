@@ -1,6 +1,5 @@
 var a23926 =
 [
-    [ "npc_shattrathflaskvendors", "d0/d14/a23926.html#ab74b234406c2022bf519242a7842458a", null ],
-    [ "OnGossipHello", "d0/d14/a23926.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
-    [ "OnGossipSelect", "d0/d14/a23926.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
+    [ "npc_shattrath_daily_quest", "d0/d14/a23926.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
+    [ "DoAction", "d0/d14/a23926.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
 ];

@@ -1,9 +1,9 @@
 var a10494 =
 [
-    [ "LevelUpInfo", "de/da7/a10494.html#ae856bb717d6ae4b03775b7bfb026850d", null ],
-    [ "Write", "de/da7/a10494.html#af09dd1c6470516ea9422d22ed22e6d10", null ],
-    [ "HealthDelta", "de/da7/a10494.html#ab654fc42947c0c783d3a26e6df32b29d", null ],
-    [ "Level", "de/da7/a10494.html#a1765f693918fdd1f51d7b8dc7b2494a2", null ],
-    [ "PowerDelta", "de/da7/a10494.html#a697da64ac234c24fe73e68d408697ee6", null ],
-    [ "StatDelta", "de/da7/a10494.html#a580e4a3cd77631e960b7753542375d6d", null ]
+    [ "Weather", "de/da7/a10494.html#aa404c94fec05b825454a7309827767c6", null ],
+    [ "Weather", "de/da7/a10494.html#a28f45d81441d2dde6917380978dfb4d0", null ],
+    [ "Write", "de/da7/a10494.html#a641c7de3e527dcdff07b3f602880b5c8", null ],
+    [ "Abrupt", "de/da7/a10494.html#a0abe1fcb36d21ac246174cdc98c0e261", null ],
+    [ "Intensity", "de/da7/a10494.html#ac37cee2364921a50e2b1ec1b19ed69b7", null ],
+    [ "WeatherID", "de/da7/a10494.html#a32e56458b1e562c124cfc0288a578134", null ]
 ];

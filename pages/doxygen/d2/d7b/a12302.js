@@ -1,14 +1,17 @@
 var a12302 =
 [
-    [ "boss_midnight", "d2/d7b/a12302.html#aacf45b21a30d671d5e9720a30336f72c", null ],
-    [ "CanMeleeHit", "d2/d7b/a12302.html#ad46a3726f398e5db56612d78d33fb13f", null ],
-    [ "DamageTaken", "d2/d7b/a12302.html#a47be6bc98217cf32a54dc522b7983bdb", null ],
-    [ "DoAction", "d2/d7b/a12302.html#a6831149d56f432aa3116d4172ef95a18", null ],
-    [ "EnterEvadeMode", "d2/d7b/a12302.html#a7ef9e935ac932f5a9e4fd435b8180783", null ],
-    [ "JustEngagedWith", "d2/d7b/a12302.html#afbb95384e6c747e73c87c5a5eb40843e", null ],
-    [ "JustSummoned", "d2/d7b/a12302.html#a2644deaf0a2970835b0cd508565e7279", null ],
-    [ "KilledUnit", "d2/d7b/a12302.html#a14dcbec9dc43cc12a124b6f140e0e8e6", null ],
-    [ "Reset", "d2/d7b/a12302.html#a4f9cb414779705c179bc5447975b35e9", null ],
-    [ "UpdateAI", "d2/d7b/a12302.html#a17c86571df6263fe1cc3657ca596e3ae", null ],
-    [ "_phase", "d2/d7b/a12302.html#ae5f3f452f5141cecab1b99616eb2bf74", null ]
+    [ "boss_attumen", "d2/d7b/a12302.html#a394925c2a44b0bfe8931ae88dd9868ae", null ],
+    [ "CanMeleeHit", "d2/d7b/a12302.html#ae685929086090928802854cc93f9934a", null ],
+    [ "DamageTaken", "d2/d7b/a12302.html#a0b426b760d9ace05211c3383e7628022", null ],
+    [ "EnterEvadeMode", "d2/d7b/a12302.html#af00f91294c04d0fe932c922fd270c5dc", null ],
+    [ "Initialize", "d2/d7b/a12302.html#ac89445e6a04c2d8cd04e53f4aea30c58", null ],
+    [ "IsSummonedBy", "d2/d7b/a12302.html#a1fa6827c323cbda15e2a438bc376e74c", null ],
+    [ "JustDied", "d2/d7b/a12302.html#a375a95d46f8db8a53ea6420dd557855e", null ],
+    [ "JustSummoned", "d2/d7b/a12302.html#af91018e54244864ca4cd1b9d40c569df", null ],
+    [ "KilledUnit", "d2/d7b/a12302.html#ad167a1ec5ff737ad77b0c492efc022f0", null ],
+    [ "Reset", "d2/d7b/a12302.html#ab8815ed9b1068e748e43346725cd9281", null ],
+    [ "ScheduleTasks", "d2/d7b/a12302.html#ae63d0a3c7ae4ad755f091f2d31342a57", null ],
+    [ "SpellHit", "d2/d7b/a12302.html#a1181ae1d50d6c52483b0d90423997c90", null ],
+    [ "UpdateAI", "d2/d7b/a12302.html#aac982f13b35e7c37b49a4e76ace5fccd", null ],
+    [ "_phase", "d2/d7b/a12302.html#a8a668537dc5b7c01e6d9d91c67d6da72", null ]
 ];

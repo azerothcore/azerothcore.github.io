@@ -1,6 +1,5 @@
 var a18826 =
 [
-    [ "npc_vortex_rideAI", "de/dd3/a18830.html", "de/dd3/a18830" ],
-    [ "npc_vortex_ride", "d9/d57/a18826.html#ad794cda407c9dfc35dd9bc2724f5014a", null ],
-    [ "GetAI", "d9/d57/a18826.html#a23ef53feb432127db2620810a55d02ff", null ]
+    [ "at_naxxramas_hub_portal", "d9/d57/a18826.html#a946086e8a4651240b84526a1b2d54065", null ],
+    [ "OnTrigger", "d9/d57/a18826.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
 ];

@@ -1,5 +1,6 @@
 var a21822 =
 [
-    [ "go_pressure_valve", "d5/d77/a21822.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
-    [ "OnGossipHello", "d5/d77/a21822.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
+    [ "npc_bushwhackerAI", "dd/dcb/a21826.html", "dd/dcb/a21826" ],
+    [ "npc_bushwhacker", "d5/d77/a21822.html#ad87a9fdec3d5dbaef429c88905a5f6e8", null ],
+    [ "GetAI", "d5/d77/a21822.html#ab3190b66069e820abf3637bb877066a0", null ]
 ];

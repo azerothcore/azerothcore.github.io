@@ -1,8 +1,7 @@
 var a26490 =
 [
-    [ "ApplyEffect", "da/d55/a26490.html#a0c303c58064236969e17d1f2df3e0556", null ],
-    [ "PrepareAuraScript", "da/d55/a26490.html#a716a483282946f840ac15d73c6e21a94", null ],
-    [ "Register", "da/d55/a26490.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
-    [ "RemoveEffect", "da/d55/a26490.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
-    [ "Validate", "da/d55/a26490.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
+    [ "HandleProc", "da/d55/a26490.html#a2a1d6c4a6fdcfbb0ab34769649dbe321", null ],
+    [ "PrepareAuraScript", "da/d55/a26490.html#afa1f4cba7a02cb4a92a67c6e41d3349c", null ],
+    [ "Register", "da/d55/a26490.html#ae3711d9dff0acd196b1fae8e2285fb2a", null ],
+    [ "Validate", "da/d55/a26490.html#a77b31ab1d2952c5d77e8a1ca9cf18405", null ]
 ];

@@ -1,7 +1,6 @@
 var a15374 =
 [
-    [ "go_troll_cageAI", "d5/d36/a15374.html#ae742afdb7a37d64bb852b7ecd076d007", null ],
-    [ "GossipHello", "d5/d36/a15374.html#a5c91cb491021b15ba70cc8ef5f07d037", null ],
-    [ "initBlyCrewMember", "d5/d36/a15374.html#a6bfb77ec97367d8704885acfef801b74", null ],
-    [ "instance", "d5/d36/a15374.html#ad5d736dd6cbe7a23d03f21004cae530d", null ]
+    [ "npc_sergeant_blyAI", "d4/ddf/a15378.html", "d4/ddf/a15378" ],
+    [ "npc_sergeant_bly", "d5/d36/a15374.html#afd5c6129098e4939e2b9f3d12b8c7058", null ],
+    [ "GetAI", "d5/d36/a15374.html#ad54ff5aabbc30de759c8f31b7ef9f46e", null ]
 ];

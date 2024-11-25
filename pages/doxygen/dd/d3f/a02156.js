@@ -1,7 +1,7 @@
 var a02156 =
 [
-    [ "npc_valkyr_battle_maiden", "d8/d4a/a12702.html", "d8/d4a/a12702" ],
-    [ "npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI", "d5/d92/a12706.html", "d5/d92/a12706" ],
+    [ "npc_valkyr_battle_maiden", "df/d93/a12714.html", "df/d93/a12714" ],
+    [ "npc_valkyr_battle_maiden::npc_valkyr_battle_maidenAI", "da/d4f/a12718.html", "da/d4f/a12718" ],
     [ "Says_VBM", "dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4", [
       [ "WHISPER_REVIVE", "dd/d3f/a02156.html#a1e8eb132ddeee98b584395e0a134c9e4ab9bb7fa81ba89129587c51969dd3b833", null ]
     ] ],

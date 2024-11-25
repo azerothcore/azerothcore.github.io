@@ -1,8 +1,5 @@
 var a23750 =
 [
-    [ "npc_captain_saeedAI", "d6/d28/a23754.html", "d6/d28/a23754" ],
-    [ "npc_captain_saeed", "db/d57/a23750.html#a8a5bee9f908b10451b8d4720dff85670", null ],
-    [ "GetAI", "db/d57/a23750.html#aa6a232f6c2dd39483273cac41af9a7d7", null ],
-    [ "OnGossipHello", "db/d57/a23750.html#a7db9b76578743d4ee96b2c4f11dc265c", null ],
-    [ "OnGossipSelect", "db/d57/a23750.html#a8ace4d924b6f33312d914fb6ce1e0ea6", null ]
+    [ "at_commander_dawnforge", "db/d57/a23750.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
+    [ "OnTrigger", "db/d57/a23750.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
 ];

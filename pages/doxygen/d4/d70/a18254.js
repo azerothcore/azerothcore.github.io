@@ -1,6 +1,6 @@
 var a18254 =
 [
-    [ "npc_captain_rupertAI", "df/da5/a18258.html", "df/da5/a18258" ],
-    [ "npc_captain_rupert", "d4/d70/a18254.html#a7a4535a6b784b460c79722e9a50c3ff6", null ],
-    [ "GetAI", "d4/d70/a18254.html#a20afc31fc1a8bb09692ab0cc47af3c1b", null ]
+    [ "npc_captain_brandonAI", "d4/d70/a18254.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d4/d70/a18254.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d4/d70/a18254.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

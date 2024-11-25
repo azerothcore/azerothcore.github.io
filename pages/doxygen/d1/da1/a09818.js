@@ -1,12 +1,12 @@
 var a09818 =
 [
-    [ "delay", "d1/da1/a09818.html#aa05ef99c3e04589501362a07d0dd032a", null ],
-    [ "event_chance", "d1/da1/a09818.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
-    [ "event_id", "d1/da1/a09818.html#a083020691278af836e48f0a0c2feff96", null ],
-    [ "id", "d1/da1/a09818.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
-    [ "move_type", "d1/da1/a09818.html#afb1a57b423a258e99c6921727a27e2e7", null ],
-    [ "orientation", "d1/da1/a09818.html#a971411811b0e60839538f82cd55dcfb7", null ],
-    [ "x", "d1/da1/a09818.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
-    [ "y", "d1/da1/a09818.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
-    [ "z", "d1/da1/a09818.html#a013fa650f43e790e652016fbce2e1bd5", null ]
+    [ "FacingInfo", "d1/da1/a09818.html#a1ac825c359704924c66e46eada64e34e", null ],
+    [ "FacingInfo", "d1/da1/a09818.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
+    [ "FacingInfo", "d1/da1/a09818.html#add6411db27c1d313d2f133adf0c35755", null ],
+    [ "angle", "d1/da1/a09818.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
+    [ "f", "d1/da1/a09818.html#a2ec440462f34b9990e6062f7078adb6e", null ],
+    [ "target", "d1/da1/a09818.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
+    [ "x", "d1/da1/a09818.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
+    [ "y", "d1/da1/a09818.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
+    [ "z", "d1/da1/a09818.html#a5ff017b732d47684f675041e44227754", null ]
 ];

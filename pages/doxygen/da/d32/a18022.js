@@ -1,8 +1,8 @@
 var a18022 =
 [
-    [ "npc_lk_wicked_spiritAI", "da/d32/a18022.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
-    [ "CanAIAttack", "da/d32/a18022.html#ae094420b1a6e134632baa0b086c806c6", null ],
-    [ "JustDied", "da/d32/a18022.html#adf153fab1c8639b2b5790ed418afb85d", null ],
-    [ "JustRespawned", "da/d32/a18022.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
-    [ "Reset", "da/d32/a18022.html#a8b15079251b6855679d738a342126006", null ]
+    [ "npc_lk_spirit_bombAI", "da/d32/a18022.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "da/d32/a18022.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "da/d32/a18022.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "da/d32/a18022.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "da/d32/a18022.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

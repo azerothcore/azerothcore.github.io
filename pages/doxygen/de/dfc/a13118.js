@@ -1,6 +1,6 @@
 var a13118 =
 [
-    [ "instance_sunwell_plateau_InstanceMapScript", "de/dfc/a13118.html#aae99b35ff990fd7486d5b70693b6729a", null ],
-    [ "OnCreatureCreate", "de/dfc/a13118.html#a7a81957fbb79b8ac77be7e9f1c5f8d00", null ],
-    [ "OnPlayerEnter", "de/dfc/a13118.html#ab45827eaa92aea4746378b3c11fda219", null ]
+    [ "HandlePull", "de/dfc/a13118.html#a5a43bb53d3c534054498f8366d617e5a", null ],
+    [ "PrepareSpellScript", "de/dfc/a13118.html#aec00f82a35c8154e7d4c1f47c52d486f", null ],
+    [ "Register", "de/dfc/a13118.html#a6da76afd5feaa0d60be70ff8469d78bc", null ]
 ];

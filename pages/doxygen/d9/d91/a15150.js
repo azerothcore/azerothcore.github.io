@@ -1,6 +1,6 @@
 var a15150 =
 [
-    [ "npc_anachronos_the_ancientAI", "da/d67/a15154.html", "da/d67/a15154" ],
-    [ "npc_anachronos_the_ancient", "d9/d91/a15150.html#a720884359886e6f881190471005f4cfc", null ],
-    [ "GetAI", "d9/d91/a15150.html#a345c801231907d98f2ab2425b1d35cbc", null ]
+    [ "Creature", "d9/d91/a15150.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "d9/d91/a15150.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "d9/d91/a15150.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

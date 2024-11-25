@@ -1,6 +1,6 @@
 var a11006 =
 [
-    [ "ObjectTargetSelectHandler", "d7/d4e/a11006.html#abe96c3e266375ab64f8dec54a047a5b8", null ],
-    [ "Call", "d7/d4e/a11006.html#a7e18103fb5c68b2cf85f54bf7caf4b3b", null ],
-    [ "pObjectTargetSelectHandlerScript", "d7/d4e/a11006.html#a6982985537c0ddb8dd79647766c9ae70", null ]
+    [ "ObjectAreaTargetSelectHandler", "d7/d4e/a11006.html#a89b86436bb1de38223165e7ef60f2b61", null ],
+    [ "Call", "d7/d4e/a11006.html#a11d2070610d178006231bac274d1f311", null ],
+    [ "pObjectAreaTargetSelectHandlerScript", "d7/d4e/a11006.html#a118ca963c6319802806913762c4d1fec", null ]
 ];

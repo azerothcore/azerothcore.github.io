@@ -1,9 +1,6 @@
 var a12966 =
 [
-    [ "npc_demonic_vapor_trail", "d7/d03/a12966.html#a5bd024ea050372e982a183da59b45904", null ],
-    [ "JustSummoned", "d7/d03/a12966.html#a2e18ab340bfcc5ae2f1c80b92b0b5d3d", null ],
-    [ "Reset", "d7/d03/a12966.html#a9da762ab640abfaf5092034f284239af", null ],
-    [ "SpellHitTarget", "d7/d03/a12966.html#a21e2223f58156da2fbe1803554623ecd", null ],
-    [ "UpdateAI", "d7/d03/a12966.html#a90810fcfc4f27a457917cb79f4320fe3", null ],
-    [ "timer", "d7/d03/a12966.html#ac73d55019f44f702843e22a442c2e432", null ]
+    [ "CorruptTriggers", "d7/d03/a12966.html#a5ec60254ee2ac299ce99164189087a1c", null ],
+    [ "Execute", "d7/d03/a12966.html#a9929f3518f307e0b753782967f06c6c1", null ],
+    [ "_caster", "d7/d03/a12966.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
 ];

@@ -1,6 +1,6 @@
 var a22990 =
 [
-    [ "HandleScript", "dc/d0a/a22990.html#a9451ed26358c77ab4d35781fd8fb4b55", null ],
-    [ "PrepareSpellScript", "dc/d0a/a22990.html#ad24e7fa45f35f2cd6071328c60cb2732", null ],
-    [ "Register", "dc/d0a/a22990.html#a1bd01e1103d4959a5b3116e178a16a8f", null ]
+    [ "boss_rokmar_the_crackler", "dc/d0a/a22990.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
+    [ "JustEngagedWith", "dc/d0a/a22990.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
+    [ "Reset", "dc/d0a/a22990.html#aed9cf4a866d5e70647125a08885fb809", null ]
 ];
