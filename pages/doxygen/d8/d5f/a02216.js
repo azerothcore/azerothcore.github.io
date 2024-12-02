@@ -1,8 +1,8 @@
 var a02216 =
 [
-    [ "SpellPair", "d6/d9d/a11490.html", "d6/d9d/a11490" ],
-    [ "npc_av_marshal_or_warmaster", "d5/df1/a11494.html", "d5/df1/a11494" ],
-    [ "npc_av_marshal_or_warmaster::npc_av_marshal_or_warmasterAI", "de/d9f/a11498.html", "de/d9f/a11498" ],
+    [ "SpellPair", "d5/df1/a11494.html", "d5/df1/a11494" ],
+    [ "npc_av_marshal_or_warmaster", "de/d9f/a11498.html", "de/d9f/a11498" ],
+    [ "npc_av_marshal_or_warmaster::npc_av_marshal_or_warmasterAI", "dc/d77/a11502.html", "dc/d77/a11502" ],
     [ "Creatures", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],
@@ -1259,11 +1259,6 @@ var a02216 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],

@@ -1,5 +1,8 @@
 var a25142 =
 [
-    [ "PrepareSpellScript", "db/d13/a25142.html#adaaa520c889970d91f3f38c958efdad4", null ],
-    [ "Register", "db/d13/a25142.html#a80fe694c669aa86494bd73bfa7b8ffc8", null ]
+    [ "OnApply", "db/d13/a25142.html#a75b45732648d5ba90b49725a48609a89", null ],
+    [ "OnBaseRemove", "db/d13/a25142.html#aa6d10399bba721ff7a3651508fcdf449", null ],
+    [ "OnRemove", "db/d13/a25142.html#a0331b3860691db793c5a7bcf53550c6f", null ],
+    [ "PrepareAuraScript", "db/d13/a25142.html#a34ad4890c7ce30427537e36980057e57", null ],
+    [ "Register", "db/d13/a25142.html#a713e694cad6f1cf533d45f5d633da36e", null ]
 ];

@@ -1,5 +1,6 @@
 var a15430 =
 [
-    [ "achievement_respect_your_elders", "d1/d3b/a15430.html#a2fd66ada0ff7482c00b2cb417a12e88e", null ],
-    [ "OnCheck", "d1/d3b/a15430.html#a770922be3ab19848f7a8f43a82d78b88", null ]
+    [ "HandleApply", "d1/d3b/a15430.html#aee4d5908035d06be2f1469a50db02e26", null ],
+    [ "PrepareAuraScript", "d1/d3b/a15430.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
+    [ "Register", "d1/d3b/a15430.html#ac83962bef84b68cef6d7937769730598", null ]
 ];

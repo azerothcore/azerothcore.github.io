@@ -1,8 +1,9 @@
 var a16626 =
 [
-    [ "boss_krickAI", "db/dd6/a16626.html#ac085bae551fd4d9e48b05481a86cca9f", null ],
-    [ "DoAction", "db/dd6/a16626.html#ace248881cb71c1e91f33ff93489b6f3f", null ],
-    [ "UpdateAI", "db/dd6/a16626.html#aea8dd89c8e4de1bebd94a26ead852119", null ],
-    [ "events", "db/dd6/a16626.html#a75349e2fc35832e7944fa4f772380baa", null ],
-    [ "pInstance", "db/dd6/a16626.html#aecc2cdee32c4e4fa14ecaeca9b3eb65f", null ]
+    [ "FilterTargets", "db/dd6/a16626.html#aefebf504286394cf3caffa566543e4a4", null ],
+    [ "FilterTargetsNext", "db/dd6/a16626.html#a356b6ace97d07df22a232d2287072b5e", null ],
+    [ "PrepareSpellScript", "db/dd6/a16626.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
+    [ "Register", "db/dd6/a16626.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
+    [ "Unload", "db/dd6/a16626.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
+    [ "targetList", "db/dd6/a16626.html#a3c839185938e0b67b97f652d1d15e213", null ]
 ];

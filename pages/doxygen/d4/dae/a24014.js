@@ -1,6 +1,6 @@
 var a24014 =
 [
-    [ "npc_pet_dk_army_of_the_deadAI", "d0/d03/a24018.html", "d0/d03/a24018" ],
-    [ "npc_pet_dk_army_of_the_dead", "d4/dae/a24014.html#a0029b9a6bf26ac3419e580d437a0139f", null ],
-    [ "GetAI", "d4/dae/a24014.html#a1883936b7f2905f67d3750faa8caf635", null ]
+    [ "HandleDamageCalc", "d4/dae/a24014.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "d4/dae/a24014.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "d4/dae/a24014.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

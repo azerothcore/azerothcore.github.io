@@ -1,6 +1,7 @@
 var a19986 =
 [
-    [ "FilterTargets", "d0/dde/a19986.html#ae8d940a89be9b63286911bd55dcd3844", null ],
-    [ "PrepareSpellScript", "d0/dde/a19986.html#a8f4b4d82e53c8f820b620896478681a9", null ],
-    [ "Register", "d0/dde/a19986.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
+    [ "StoneGripTargetSelector", "d0/dde/a19986.html#a74fc772e2bc0694dee05fe82de4463e2", null ],
+    [ "operator()", "d0/dde/a19986.html#ae40653def55e656f2347029a97605395", null ],
+    [ "_me", "d0/dde/a19986.html#ae5781d6b553491a1e3e8bfde2b965c3a", null ],
+    [ "_victim", "d0/dde/a19986.html#a09c3c6f832c20776f11b72a468a4b0bb", null ]
 ];

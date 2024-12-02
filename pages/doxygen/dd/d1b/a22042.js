@@ -1,5 +1,5 @@
 var a22042 =
 [
-    [ "achievement_wg_vehicular_gnomeslaughter", "dd/d1b/a22042.html#a441b8db113ef4843f433c1ea3f3052b5", null ],
-    [ "OnCheck", "dd/d1b/a22042.html#ab23a2d90e536a3a9ecbb3b64c5b0e18f", null ]
+    [ "go_finklestein_cauldron", "dd/d1b/a22042.html#a8aa352319c54526069588dacd75ab883", null ],
+    [ "OnGossipHello", "dd/d1b/a22042.html#aa04f55e8a6cc21cf4a1e4cdc35c6a1ae", null ]
 ];

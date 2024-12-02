@@ -1,9 +1,9 @@
 var a00866 =
 [
-    [ "boss_murmur", "d9/d66/a22326.html", "d9/d66/a22326" ],
-    [ "spell_murmur_thundering_storm", "da/d45/a22330.html", "da/d45/a22330" ],
-    [ "spell_shockwave_knockback", "d1/de6/a22334.html", "d1/de6/a22334" ],
-    [ "spell_murmur_sonic_boom_effect", "d3/d72/a22338.html", "d3/d72/a22338" ],
+    [ "boss_murmur", "db/d20/a22310.html", "db/d20/a22310" ],
+    [ "spell_murmur_thundering_storm", "d5/d7f/a22314.html", "d5/d7f/a22314" ],
+    [ "spell_shockwave_knockback", "d0/d8c/a22318.html", "d0/d8c/a22318" ],
+    [ "spell_murmur_sonic_boom_effect", "d5/d42/a22322.html", "d5/d42/a22322" ],
     [ "Misc", "dd/db2/a00866.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],
@@ -82,9 +82,11 @@ var a00866 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

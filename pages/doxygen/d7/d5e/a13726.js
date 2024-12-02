@@ -1,6 +1,8 @@
 var a13726 =
 [
-    [ "boss_renatakiAI", "d8/d17/a13730.html", "d8/d17/a13730" ],
-    [ "boss_renataki", "d7/d5e/a13726.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
-    [ "GetAI", "d7/d5e/a13726.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
+    [ "npc_spawn_of_marli", "d7/d5e/a13726.html#a1dcd5066de108203903f5767c4b375ea", null ],
+    [ "JustEngagedWith", "d7/d5e/a13726.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
+    [ "Reset", "d7/d5e/a13726.html#a79ef192d41af75e0dad0494776c75189", null ],
+    [ "UpdateAI", "d7/d5e/a13726.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
+    [ "_scheduler", "d7/d5e/a13726.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
 ];

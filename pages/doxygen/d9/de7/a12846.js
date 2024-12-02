@@ -1,7 +1,7 @@
 var a12846 =
 [
-    [ "HandleScript", "d9/de7/a12846.html#ab705220b48be16090107135f9e2272cf", null ],
-    [ "PrepareSpellScript", "d9/de7/a12846.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
-    [ "Register", "d9/de7/a12846.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
-    [ "Validate", "d9/de7/a12846.html#ad1d90693a427a52fa728e5ae455932a3", null ]
+    [ "HandleScript", "d9/de7/a12846.html#acbff60b24bd0239880378b48cb97b6a4", null ],
+    [ "PrepareSpellScript", "d9/de7/a12846.html#a2f72b76ced4443a8eb1dfcf7bf6a4ac5", null ],
+    [ "Register", "d9/de7/a12846.html#a132d35555f1d589caa65ecd3728976d5", null ],
+    [ "Validate", "d9/de7/a12846.html#a503ce41357f8195837c9b14f2468fb5b", null ]
 ];

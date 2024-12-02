@@ -1,13 +1,12 @@
 var a18470 =
 [
-    [ "npc_icc_putricades_trapAI", "df/dfd/a18470.html#a9252a83e3deee62d5796e9f283662771", null ],
-    [ "DoAction", "df/dfd/a18470.html#ac8a30d8eba315b967c4e0713b14dcba7", null ],
-    [ "JustReachedHome", "df/dfd/a18470.html#a98f908e89630b23584982e298193cc0e", null ],
-    [ "JustSummoned", "df/dfd/a18470.html#abc5776b08b4fd43a4bb430f160eb630a", null ],
-    [ "Reset", "df/dfd/a18470.html#a3430515c94fd419bd2c59113b3f4e625", null ],
-    [ "SummonedCreatureDies", "df/dfd/a18470.html#a2e49dc8924da5d5537c33f7306287963", null ],
-    [ "UpdateAI", "df/dfd/a18470.html#a724e133f2c4d8c9fe140b3b998c88f64", null ],
-    [ "events", "df/dfd/a18470.html#a3249114a5b208109ec2c2a23533ede82", null ],
-    [ "instance", "df/dfd/a18470.html#a9f6f342ffbf6a29c745de6ea6a5ec0dc", null ],
-    [ "summons", "df/dfd/a18470.html#aaa914f4c2b48bd24c2dd06bc3599f563", null ]
+    [ "npc_icc_nerubar_broodkeeperAI", "df/dfd/a18470.html#a2e3abb6f8889b8df818e8260e6428375", null ],
+    [ "InitializeAI", "df/dfd/a18470.html#ac39bb8074ebb7106b426f507b73b368e", null ],
+    [ "JustEngagedWith", "df/dfd/a18470.html#ae69a8fd357856d0ec6a944ca8c0007ca", null ],
+    [ "MoveInLineOfSight", "df/dfd/a18470.html#a846fe2784308eb694f5f482133a33a7f", null ],
+    [ "MovementInform", "df/dfd/a18470.html#a9a5584eea4bc08f55ddfd7efe23bce2e", null ],
+    [ "Reset", "df/dfd/a18470.html#afbb260e4968865e7c4141e73a050e663", null ],
+    [ "UpdateAI", "df/dfd/a18470.html#ad63d3a91bdd677a9cdd497198860cac6", null ],
+    [ "_didWebBeam", "df/dfd/a18470.html#a8772cf938d30ddcc439d3912db578dfa", null ],
+    [ "events", "df/dfd/a18470.html#ac1b5b05f9fbaf1879c95bc7127fcb6e9", null ]
 ];

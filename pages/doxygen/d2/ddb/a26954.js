@@ -1,5 +1,5 @@
 var a26954 =
 [
-    [ "go_arcane_prison", "d2/ddb/a26954.html#ad73ac33d843027de0e516de8f90c45a0", null ],
-    [ "OnGossipHello", "d2/ddb/a26954.html#a0f9d414ce1f3f3e734cb79a554f7523e", null ]
+    [ "go_soulwellAI", "d2/ddb/a26954.html#af8c28f9d3ddf5fa3591433268d14fc98", null ],
+    [ "GossipHello", "d2/ddb/a26954.html#a3df147478af8930d9b6108a183e9478f", null ]
 ];

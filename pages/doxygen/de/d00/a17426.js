@@ -1,6 +1,6 @@
 var a17426 =
 [
-    [ "HandleScriptEffect", "de/d00/a17426.html#ac6017cbe86b328aef00f707051c67e5f", null ],
-    [ "PrepareSpellScript", "de/d00/a17426.html#a3e21794652b0ffea67571f9b294b4961", null ],
-    [ "Register", "de/d00/a17426.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
+    [ "npc_bone_spikeAI", "d4/d6d/a17430.html", "d4/d6d/a17430" ],
+    [ "npc_bone_spike", "de/d00/a17426.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
+    [ "GetAI", "de/d00/a17426.html#a887a9156f550ca55047fa501e1709d95", null ]
 ];

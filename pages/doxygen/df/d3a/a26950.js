@@ -1,5 +1,6 @@
 var a26950 =
 [
-    [ "go_scourge_cage", "df/d3a/a26950.html#a76dfa458a52c950fbc0a86412e1ad490", null ],
-    [ "OnGossipHello", "df/d3a/a26950.html#ab4e97cd290342d623d212cc7cec227d5", null ]
+    [ "go_soulwellAI", "d2/ddb/a26954.html", "d2/ddb/a26954" ],
+    [ "go_soulwell", "df/d3a/a26950.html#a3747499bd05326ef6f7024c0ee91a4ce", null ],
+    [ "GetAI", "df/d3a/a26950.html#a0c8b8cf09c26ad08c1c6dbb1a0c57861", null ]
 ];

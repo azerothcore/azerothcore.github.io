@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: HealInfo Class Reference</title>
+<title>AzerothCore: DamageInfo Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,9 +106,10 @@ $(document).ready(function(){initNavTree('de/d75/a08490.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d0/d81/a08487.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">HealInfo Class Reference</div></div>
+  <div class="headertitle"><div class="title">DamageInfo Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,50 +117,79 @@ $(document).ready(function(){initNavTree('de/d75/a08490.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a25fe1984f6c3ef5eeb90049ef4749437"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a25fe1984f6c3ef5eeb90049ef4749437">HealInfo</a> (<a class="el" href="../../d0/d32/a08522.html">Unit</a> *_healer, <a class="el" href="../../d0/d32/a08522.html">Unit</a> *_target, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> _heal, <a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *_spellInfo, <a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> _schoolMask)</td></tr>
-<tr class="separator:a25fe1984f6c3ef5eeb90049ef4749437"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae656cf383df85bb88c6486e5aac1df5b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ae656cf383df85bb88c6486e5aac1df5b">AbsorbHeal</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:ae656cf383df85bb88c6486e5aac1df5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a622e0993c76b43f30d9cc774c70a92b0"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a622e0993c76b43f30d9cc774c70a92b0">SetHeal</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:a622e0993c76b43f30d9cc774c70a92b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3564eb034d66a0d0199e5412db82ba8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ac3564eb034d66a0d0199e5412db82ba8">SetEffectiveHeal</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
-<tr class="separator:ac3564eb034d66a0d0199e5412db82ba8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2139bd1efadb23063a67d3fef35b424d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a2139bd1efadb23063a67d3fef35b424d">GetHealer</a> () const</td></tr>
-<tr class="separator:a2139bd1efadb23063a67d3fef35b424d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae7a08b2e27a5ac316ed2d3bca7d2395d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ae7a08b2e27a5ac316ed2d3bca7d2395d">GetTarget</a> () const</td></tr>
-<tr class="separator:ae7a08b2e27a5ac316ed2d3bca7d2395d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af95a6d6c94a72874c150a3deabce20ee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#af95a6d6c94a72874c150a3deabce20ee">GetHeal</a> () const</td></tr>
-<tr class="separator:af95a6d6c94a72874c150a3deabce20ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d5391116c63cc0a3cacb2cab1512a01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a3d5391116c63cc0a3cacb2cab1512a01">GetEffectiveHeal</a> () const</td></tr>
-<tr class="separator:a3d5391116c63cc0a3cacb2cab1512a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a29dc8e520997a58c7da005945d96e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a3a29dc8e520997a58c7da005945d96e2">GetAbsorb</a> () const</td></tr>
-<tr class="separator:a3a29dc8e520997a58c7da005945d96e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53b73d5b297e341be237723269c7644d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a53b73d5b297e341be237723269c7644d">GetSpellInfo</a> () const</td></tr>
-<tr class="separator:a53b73d5b297e341be237723269c7644d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca2b1e31608a7c186a06e9bbe8977a9d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#aca2b1e31608a7c186a06e9bbe8977a9d">GetSchoolMask</a> () const</td></tr>
-<tr class="separator:aca2b1e31608a7c186a06e9bbe8977a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a522ba9b5e16d05ec7c2363ec06458e72"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a522ba9b5e16d05ec7c2363ec06458e72">DamageInfo</a> (<a class="el" href="../../d6/d15/a08526.html">Unit</a> *_attacker, <a class="el" href="../../d6/d15/a08526.html">Unit</a> *_victim, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> _damage, <a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const *_spellInfo, <a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> _schoolMask, <a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> _damageType, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cleanDamage=0)</td></tr>
+<tr class="separator:a522ba9b5e16d05ec7c2363ec06458e72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa241087126e9dd972944dee7225783a8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#aa241087126e9dd972944dee7225783a8">DamageInfo</a> (<a class="el" href="../../de/df3/a08502.html">CalcDamageInfo</a> const &amp;dmgInfo)</td></tr>
+<tr class="separator:aa241087126e9dd972944dee7225783a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4a230a99dcf5c039db683c842c5bf58"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ac4a230a99dcf5c039db683c842c5bf58">DamageInfo</a> (<a class="el" href="../../de/df3/a08502.html">CalcDamageInfo</a> const &amp;dmgInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> damageIndex)</td></tr>
+<tr class="separator:ac4a230a99dcf5c039db683c842c5bf58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab97add6c88a68afe5488eb2f450fb5e4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ab97add6c88a68afe5488eb2f450fb5e4">DamageInfo</a> (<a class="el" href="../../d1/d3b/a08510.html">SpellNonMeleeDamage</a> const &amp;spellNonMeleeDamage, <a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> damageType)</td></tr>
+<tr class="separator:ab97add6c88a68afe5488eb2f450fb5e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a68533422f69965d383fdb716387237"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a2a68533422f69965d383fdb716387237">ModifyDamage</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> amount)</td></tr>
+<tr class="separator:a2a68533422f69965d383fdb716387237"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a034eff0cc85283ccefe73918ade4d98a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a034eff0cc85283ccefe73918ade4d98a">AbsorbDamage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
+<tr class="separator:a034eff0cc85283ccefe73918ade4d98a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a02e857277fbc00370143180b4fb3daac"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a02e857277fbc00370143180b4fb3daac">ResistDamage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
+<tr class="separator:a02e857277fbc00370143180b4fb3daac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8388efed79477de77d78f3a3fff04b0b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a8388efed79477de77d78f3a3fff04b0b">BlockDamage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> amount)</td></tr>
+<tr class="separator:a8388efed79477de77d78f3a3fff04b0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a469a97425ae528b5f8580957035d0561"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a469a97425ae528b5f8580957035d0561">GetAttacker</a> () const</td></tr>
+<tr class="separator:a469a97425ae528b5f8580957035d0561"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a33a6f0e46fe0098a3b67dc5ea43733b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a33a6f0e46fe0098a3b67dc5ea43733b5">GetVictim</a> () const</td></tr>
+<tr class="separator:a33a6f0e46fe0098a3b67dc5ea43733b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7aaa8ac7e857b1d2a68cb6befaf9881a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a7aaa8ac7e857b1d2a68cb6befaf9881a">GetSpellInfo</a> () const</td></tr>
+<tr class="separator:a7aaa8ac7e857b1d2a68cb6befaf9881a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e8b4c4ca4ef62b353c5868d5954bfcd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a8e8b4c4ca4ef62b353c5868d5954bfcd">GetSchoolMask</a> () const</td></tr>
+<tr class="separator:a8e8b4c4ca4ef62b353c5868d5954bfcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a887202d1319dd2b13ff18cba470067cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a887202d1319dd2b13ff18cba470067cb">GetDamageType</a> () const</td></tr>
+<tr class="separator:a887202d1319dd2b13ff18cba470067cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8bf9edb2df92b0164ffc21a00c8925d6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a8bf9edb2df92b0164ffc21a00c8925d6">GetAttackType</a> () const</td></tr>
+<tr class="separator:a8bf9edb2df92b0164ffc21a00c8925d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcf0ecbcfa77654529e66df53ae828d4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a> () const</td></tr>
+<tr class="separator:adcf0ecbcfa77654529e66df53ae828d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af79a29980863abeecc47118a18e70f6b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#af79a29980863abeecc47118a18e70f6b">GetAbsorb</a> () const</td></tr>
+<tr class="separator:af79a29980863abeecc47118a18e70f6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d301dc3e6d21d7c1d73b6eaea38421b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a8d301dc3e6d21d7c1d73b6eaea38421b">GetResist</a> () const</td></tr>
+<tr class="separator:a8d301dc3e6d21d7c1d73b6eaea38421b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa739f7998796bd333ee95a8394b0cea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#aaa739f7998796bd333ee95a8394b0cea">GetBlock</a> () const</td></tr>
+<tr class="separator:aaa739f7998796bd333ee95a8394b0cea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a702f9a22aa05865c95e5eaf9640545"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a4a702f9a22aa05865c95e5eaf9640545">GetUnmitigatedDamage</a> () const</td></tr>
+<tr class="separator:a4a702f9a22aa05865c95e5eaf9640545"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad4ffdc052cbfc80ae5bfab749d995062"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ad4ffdc052cbfc80ae5bfab749d995062">DamageInfo</a> (<a class="el" href="../../de/d75/a08490.html">DamageInfo</a> const &amp;dmg1, <a class="el" href="../../de/d75/a08490.html">DamageInfo</a> const &amp;dmg2)</td></tr>
+<tr class="separator:ad4ffdc052cbfc80ae5bfab749d995062"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad291e8e65eb0a9a9054ac1827cf0d315"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ad291e8e65eb0a9a9054ac1827cf0d315">m_healer</a></td></tr>
-<tr class="separator:ad291e8e65eb0a9a9054ac1827cf0d315"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a13a815e870e6745888ed082e8498e8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a3a13a815e870e6745888ed082e8498e8">m_target</a></td></tr>
-<tr class="separator:a3a13a815e870e6745888ed082e8498e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0a2d7c40710cabbb88122de2650c705"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a></td></tr>
-<tr class="separator:af0a2d7c40710cabbb88122de2650c705"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0a00b20efbeb2e5bf515dc98e96aa12d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">m_effectiveHeal</a></td></tr>
-<tr class="separator:a0a00b20efbeb2e5bf515dc98e96aa12d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a383cc7bb4d30dd72cbfeaedd9b5d5042"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a></td></tr>
-<tr class="separator:a383cc7bb4d30dd72cbfeaedd9b5d5042"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a68d6d63fdd1efb458615e24f65e643be"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a68d6d63fdd1efb458615e24f65e643be">m_spellInfo</a></td></tr>
-<tr class="separator:a68d6d63fdd1efb458615e24f65e643be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2fd7934b1b1cd08dd4dcfeadc9c02df"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a></td></tr>
-<tr class="separator:af2fd7934b1b1cd08dd4dcfeadc9c02df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c199612aaff8c5b1b831cb2c681340d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a></td></tr>
+<tr class="separator:a1c199612aaff8c5b1b831cb2c681340d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae54a74b71d6ef3f9452b20d2e4aec4dc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a></td></tr>
+<tr class="separator:ae54a74b71d6ef3f9452b20d2e4aec4dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b39c211a157092dbd0111ac46bef8a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a></td></tr>
+<tr class="separator:a9b39c211a157092dbd0111ac46bef8a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a8ec67f5c136d0ae8822a6fa7766187"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const  *const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a></td></tr>
+<tr class="separator:a5a8ec67f5c136d0ae8822a6fa7766187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acda50525cdc0689191b74741331b6069"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a></td></tr>
+<tr class="separator:acda50525cdc0689191b74741331b6069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae302e0157ce87497f71293c8687bc7aa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a></td></tr>
+<tr class="separator:ae302e0157ce87497f71293c8687bc7aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31a2baa1c0e0f9bea6000375a5bbec48"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a></td></tr>
+<tr class="separator:a31a2baa1c0e0f9bea6000375a5bbec48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90be517686a8d78e0c585e1535e39567"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a></td></tr>
+<tr class="separator:a90be517686a8d78e0c585e1535e39567"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1289951cae687d55bab2f12a8b37d8c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a></td></tr>
+<tr class="separator:a1289951cae687d55bab2f12a8b37d8c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7d428dcbe124d6204d1520a4f205c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a></td></tr>
+<tr class="separator:a6c7d428dcbe124d6204d1520a4f205c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d500e09cf80873f1c9751841dede58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a></td></tr>
+<tr class="separator:a92d500e09cf80873f1c9751841dede58"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a25fe1984f6c3ef5eeb90049ef4749437" name="a25fe1984f6c3ef5eeb90049ef4749437"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25fe1984f6c3ef5eeb90049ef4749437">&#9670;&#160;</a></span>HealInfo()</h2>
+<a id="ad4ffdc052cbfc80ae5bfab749d995062" name="ad4ffdc052cbfc80ae5bfab749d995062"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4ffdc052cbfc80ae5bfab749d995062">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -168,34 +198,16 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">HealInfo::HealInfo </td>
+          <td class="memname">DamageInfo::DamageInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>_healer</em>, </td>
+          <td class="paramtype"><a class="el" href="../../de/d75/a08490.html">DamageInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>dmg1</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/d32/a08522.html">Unit</a> *&#160;</td>
-          <td class="paramname"><em>_target</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>_heal</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const *&#160;</td>
-          <td class="paramname"><em>_spellInfo</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td>
-          <td class="paramname"><em>_schoolMask</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../de/d75/a08490.html">DamageInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>dmg2</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -205,311 +217,260 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  384</span>        : <a class="code hl_variable" href="../../de/d75/a08490.html#ad291e8e65eb0a9a9054ac1827cf0d315">m_healer</a>(_healer), <a class="code hl_variable" href="../../de/d75/a08490.html#a3a13a815e870e6745888ed082e8498e8">m_target</a>(_target), <a class="code hl_variable" href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a>(_heal), <a class="code hl_variable" href="../../de/d75/a08490.html#a68d6d63fdd1efb458615e24f65e643be">m_spellInfo</a>(_spellInfo), <a class="code hl_variable" href="../../de/d75/a08490.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a>(_schoolMask)</div>
-<div class="line"><span class="lineno">  385</span>    {</div>
-<div class="line"><span class="lineno">  386</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a> = 0;</div>
-<div class="line"><span class="lineno">  387</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">m_effectiveHeal</a> = 0;</div>
-<div class="line"><span class="lineno">  388</span>    }</div>
-<div class="ttc" id="aa08490_html_a0a00b20efbeb2e5bf515dc98e96aa12d"><div class="ttname"><a href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">HealInfo::m_effectiveHeal</a></div><div class="ttdeci">uint32 m_effectiveHeal</div><div class="ttdef"><b>Definition:</b> Unit.h:378</div></div>
-<div class="ttc" id="aa08490_html_a383cc7bb4d30dd72cbfeaedd9b5d5042"><div class="ttname"><a href="../../de/d75/a08490.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">HealInfo::m_absorb</a></div><div class="ttdeci">uint32 m_absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:379</div></div>
-<div class="ttc" id="aa08490_html_a3a13a815e870e6745888ed082e8498e8"><div class="ttname"><a href="../../de/d75/a08490.html#a3a13a815e870e6745888ed082e8498e8">HealInfo::m_target</a></div><div class="ttdeci">Unit *const m_target</div><div class="ttdef"><b>Definition:</b> Unit.h:376</div></div>
-<div class="ttc" id="aa08490_html_a68d6d63fdd1efb458615e24f65e643be"><div class="ttname"><a href="../../de/d75/a08490.html#a68d6d63fdd1efb458615e24f65e643be">HealInfo::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:380</div></div>
-<div class="ttc" id="aa08490_html_ad291e8e65eb0a9a9054ac1827cf0d315"><div class="ttname"><a href="../../de/d75/a08490.html#ad291e8e65eb0a9a9054ac1827cf0d315">HealInfo::m_healer</a></div><div class="ttdeci">Unit *const m_healer</div><div class="ttdef"><b>Definition:</b> Unit.h:375</div></div>
-<div class="ttc" id="aa08490_html_af0a2d7c40710cabbb88122de2650c705"><div class="ttname"><a href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">HealInfo::m_heal</a></div><div class="ttdeci">uint32 m_heal</div><div class="ttdef"><b>Definition:</b> Unit.h:377</div></div>
-<div class="ttc" id="aa08490_html_af2fd7934b1b1cd08dd4dcfeadc9c02df"><div class="ttname"><a href="../../de/d75/a08490.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">HealInfo::m_schoolMask</a></div><div class="ttdeci">SpellSchoolMask const m_schoolMask</div><div class="ttdef"><b>Definition:</b> Unit.h:381</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  124</span>    : <a class="code hl_variable" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmg1.m_attacker), <a class="code hl_variable" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmg1.m_victim), <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmg1.m_damage + dmg2.m_damage), <a class="code hl_variable" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(dmg1.m_spellInfo), <a class="code hl_variable" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmg1.m_schoolMask | dmg2.m_schoolMask)),</div>
+<div class="line"><span class="lineno">  125</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(dmg1.m_damageType), <a class="code hl_variable" href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmg1.m_attackType), <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmg1.m_absorb + dmg2.m_absorb), <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmg1.m_resist + dmg2.m_resist), <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmg1.m_block),</div>
+<div class="line"><span class="lineno">  126</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmg1.m_cleanDamage + dmg1.m_cleanDamage)</div>
+<div class="line"><span class="lineno">  127</span>{</div>
+<div class="line"><span class="lineno">  128</span>}</div>
+<div class="ttc" id="aa02771_html_aff6913cfd69489c107a071be9ec2ec8f"><div class="ttname"><a href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a></div><div class="ttdeci">SpellSchoolMask</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:295</div></div>
+<div class="ttc" id="aa08490_html_a1289951cae687d55bab2f12a8b37d8c3"><div class="ttname"><a href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">DamageInfo::m_resist</a></div><div class="ttdeci">uint32 m_resist</div><div class="ttdef"><b>Definition:</b> Unit.h:340</div></div>
+<div class="ttc" id="aa08490_html_a1c199612aaff8c5b1b831cb2c681340d"><div class="ttname"><a href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">DamageInfo::m_attacker</a></div><div class="ttdeci">Unit *const m_attacker</div><div class="ttdef"><b>Definition:</b> Unit.h:332</div></div>
+<div class="ttc" id="aa08490_html_a31a2baa1c0e0f9bea6000375a5bbec48"><div class="ttname"><a href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">DamageInfo::m_attackType</a></div><div class="ttdeci">WeaponAttackType m_attackType</div><div class="ttdef"><b>Definition:</b> Unit.h:338</div></div>
+<div class="ttc" id="aa08490_html_a5a8ec67f5c136d0ae8822a6fa7766187"><div class="ttname"><a href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">DamageInfo::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Unit.h:335</div></div>
+<div class="ttc" id="aa08490_html_a6c7d428dcbe124d6204d1520a4f205c2"><div class="ttname"><a href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">DamageInfo::m_block</a></div><div class="ttdeci">uint32 m_block</div><div class="ttdef"><b>Definition:</b> Unit.h:341</div></div>
+<div class="ttc" id="aa08490_html_a90be517686a8d78e0c585e1535e39567"><div class="ttname"><a href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">DamageInfo::m_absorb</a></div><div class="ttdeci">uint32 m_absorb</div><div class="ttdef"><b>Definition:</b> Unit.h:339</div></div>
+<div class="ttc" id="aa08490_html_a92d500e09cf80873f1c9751841dede58"><div class="ttname"><a href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">DamageInfo::m_cleanDamage</a></div><div class="ttdeci">uint32 m_cleanDamage</div><div class="ttdef"><b>Definition:</b> Unit.h:342</div></div>
+<div class="ttc" id="aa08490_html_a9b39c211a157092dbd0111ac46bef8a4"><div class="ttname"><a href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">DamageInfo::m_damage</a></div><div class="ttdeci">uint32 m_damage</div><div class="ttdef"><b>Definition:</b> Unit.h:334</div></div>
+<div class="ttc" id="aa08490_html_acda50525cdc0689191b74741331b6069"><div class="ttname"><a href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">DamageInfo::m_schoolMask</a></div><div class="ttdeci">SpellSchoolMask const m_schoolMask</div><div class="ttdef"><b>Definition:</b> Unit.h:336</div></div>
+<div class="ttc" id="aa08490_html_ae302e0157ce87497f71293c8687bc7aa"><div class="ttname"><a href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">DamageInfo::m_damageType</a></div><div class="ttdeci">DamageEffectType const m_damageType</div><div class="ttdef"><b>Definition:</b> Unit.h:337</div></div>
+<div class="ttc" id="aa08490_html_ae54a74b71d6ef3f9452b20d2e4aec4dc"><div class="ttname"><a href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">DamageInfo::m_victim</a></div><div class="ttdeci">Unit *const m_victim</div><div class="ttdef"><b>Definition:</b> Unit.h:333</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00379">m_absorb</a>, and <a class="el" href="../../#l00378">m_effectiveHeal</a>.</p>
+</div>
+</div>
+<a id="a522ba9b5e16d05ec7c2363ec06458e72" name="a522ba9b5e16d05ec7c2363ec06458e72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a522ba9b5e16d05ec7c2363ec06458e72">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[2/5]</span></h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DamageInfo::DamageInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>_attacker</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d6/d15/a08526.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>_victim</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_damage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname"><em>_spellInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td>
+          <td class="paramname"><em>_schoolMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td>
+          <td class="paramname"><em>_damageType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>cleanDamage</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  111</span>    : <a class="code hl_variable" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(_attacker), <a class="code hl_variable" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(_victim), <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(_damage), <a class="code hl_variable" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(_spellInfo), <a class="code hl_variable" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(_schoolMask),</div>
+<div class="line"><span class="lineno">  112</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(_damageType), <a class="code hl_variable" href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(<a class="code hl_enumvalue" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>), <a class="code hl_variable" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(cleanDamage)</div>
+<div class="line"><span class="lineno">  113</span>{</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> = 0;</div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> = 0;</div>
+<div class="line"><span class="lineno">  116</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> = 0;</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+<div class="ttc" id="aa03515_html_a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:209</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>, <a class="el" href="../../#l00341">m_block</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
+
+</div>
+</div>
+<a id="aa241087126e9dd972944dee7225783a8" name="aa241087126e9dd972944dee7225783a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa241087126e9dd972944dee7225783a8">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DamageInfo::DamageInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/df3/a08502.html">CalcDamageInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>dmgInfo</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  119</span>                                                    : <a class="code hl_class" href="../../de/d75/a08490.html">DamageInfo</a>(<a class="code hl_class" href="../../de/d75/a08490.html">DamageInfo</a>(dmgInfo, 0), <a class="code hl_class" href="../../de/d75/a08490.html">DamageInfo</a>(dmgInfo, 1))</div>
+<div class="line"><span class="lineno">  120</span>{</div>
+<div class="line"><span class="lineno">  121</span>}</div>
+<div class="ttc" id="aa08490_html"><div class="ttname"><a href="../../de/d75/a08490.html">DamageInfo</a></div><div class="ttdef"><b>Definition:</b> Unit.h:330</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac4a230a99dcf5c039db683c842c5bf58" name="ac4a230a99dcf5c039db683c842c5bf58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4a230a99dcf5c039db683c842c5bf58">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DamageInfo::DamageInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/df3/a08502.html">CalcDamageInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>dmgInfo</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>damageIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  131</span>    : <a class="code hl_variable" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(dmgInfo.attacker), <a class="code hl_variable" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(dmgInfo.target), <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(dmgInfo.damages[damageIndex].damage), <a class="code hl_variable" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(dmgInfo.damages[damageIndex].damageSchoolMask)),</div>
+<div class="line"><span class="lineno">  132</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(<a class="code hl_enumvalue" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a>), <a class="code hl_variable" href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>(dmgInfo.attackType), <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(dmgInfo.damages[damageIndex].absorb), <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(dmgInfo.damages[damageIndex].resist), <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(dmgInfo.blocked_amount),</div>
+<div class="line"><span class="lineno">  133</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(dmgInfo.cleanDamage)</div>
+<div class="line"><span class="lineno">  134</span>{</div>
+<div class="line"><span class="lineno">  135</span>}</div>
+<div class="ttc" id="aa03515_html_ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336"><div class="ttname"><a href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1a471bd179f0ee161d55f1bb3dd5825336">DIRECT_DAMAGE</a></div><div class="ttdeci">@ DIRECT_DAMAGE</div><div class="ttdef"><b>Definition:</b> Unit.h:248</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab97add6c88a68afe5488eb2f450fb5e4" name="ab97add6c88a68afe5488eb2f450fb5e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab97add6c88a68afe5488eb2f450fb5e4">&#9670;&#160;</a></span>DamageInfo() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DamageInfo::DamageInfo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d3b/a08510.html">SpellNonMeleeDamage</a> const &amp;&#160;</td>
+          <td class="paramname"><em>spellNonMeleeDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>&#160;</td>
+          <td class="paramname"><em>damageType</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  138</span>    : <a class="code hl_variable" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>(spellNonMeleeDamage.attacker), <a class="code hl_variable" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>(spellNonMeleeDamage.target), <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>(spellNonMeleeDamage.damage),</div>
+<div class="line"><span class="lineno">  139</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>(spellNonMeleeDamage.spellInfo), <a class="code hl_variable" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>(<a class="code hl_enumeration" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>(spellNonMeleeDamage.schoolMask)), <a class="code hl_variable" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>(damageType),</div>
+<div class="line"><span class="lineno">  140</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>(spellNonMeleeDamage.absorb), <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>(spellNonMeleeDamage.resist), <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>(spellNonMeleeDamage.blocked),</div>
+<div class="line"><span class="lineno">  141</span>      <a class="code hl_variable" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a>(spellNonMeleeDamage.cleanDamage)</div>
+<div class="line"><span class="lineno">  142</span>{</div>
+<div class="line"><span class="lineno">  143</span>}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ae656cf383df85bb88c6486e5aac1df5b" name="ae656cf383df85bb88c6486e5aac1df5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae656cf383df85bb88c6486e5aac1df5b">&#9670;&#160;</a></span>AbsorbHeal()</h2>
+<a id="a034eff0cc85283ccefe73918ade4d98a" name="a034eff0cc85283ccefe73918ade4d98a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a034eff0cc85283ccefe73918ade4d98a">&#9670;&#160;</a></span>AbsorbDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HealInfo::AbsorbHeal </td>
+          <td class="memname">void DamageInfo::AbsorbDamage </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
           <td class="paramname"><em>amount</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  391</span>    {</div>
-<div class="line"><span class="lineno">  392</span>        amount = std::min(amount, <a class="code hl_function" href="../../de/d75/a08490.html#af95a6d6c94a72874c150a3deabce20ee">GetHeal</a>());</div>
-<div class="line"><span class="lineno">  393</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a> += amount;</div>
-<div class="line"><span class="lineno">  394</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a> -= amount;</div>
-<div class="line"><span class="lineno">  395</span> </div>
-<div class="line"><span class="lineno">  396</span>        amount = std::min(amount, <a class="code hl_function" href="../../de/d75/a08490.html#a3d5391116c63cc0a3cacb2cab1512a01">GetEffectiveHeal</a>());</div>
-<div class="line"><span class="lineno">  397</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">m_effectiveHeal</a> -= amount;</div>
-<div class="line"><span class="lineno">  398</span>    }</div>
-<div class="ttc" id="aa08490_html_a3d5391116c63cc0a3cacb2cab1512a01"><div class="ttname"><a href="../../de/d75/a08490.html#a3d5391116c63cc0a3cacb2cab1512a01">HealInfo::GetEffectiveHeal</a></div><div class="ttdeci">uint32 GetEffectiveHeal() const</div><div class="ttdef"><b>Definition:</b> Unit.h:413</div></div>
-<div class="ttc" id="aa08490_html_af95a6d6c94a72874c150a3deabce20ee"><div class="ttname"><a href="../../de/d75/a08490.html#af95a6d6c94a72874c150a3deabce20ee">HealInfo::GetHeal</a></div><div class="ttdeci">uint32 GetHeal() const</div><div class="ttdef"><b>Definition:</b> Unit.h:412</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  152</span>{</div>
+<div class="line"><span class="lineno">  153</span>    amount = std::min(amount, <a class="code hl_function" href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  154</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> += amount;</div>
+<div class="line"><span class="lineno">  155</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  156</span>}</div>
+<div class="ttc" id="aa08490_html_adcf0ecbcfa77654529e66df53ae828d4"><div class="ttname"><a href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">DamageInfo::GetDamage</a></div><div class="ttdeci">uint32 GetDamage() const</div><div class="ttdef"><b>Definition:</b> Unit.h:364</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00413">GetEffectiveHeal()</a>, <a class="el" href="../../#l00412">GetHeal()</a>, <a class="el" href="../../#l00379">m_absorb</a>, <a class="el" href="../../#l00378">m_effectiveHeal</a>, and <a class="el" href="../../#l00377">m_heal</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00339">m_absorb</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02502">Unit::CalcHealAbsorb()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, and <a class="el" href="../../#l01599">spell_valanar_kinetic_bomb_absorb_aura::OnAbsorb()</a>.</p>
 
 </div>
 </div>
-<a id="a3a29dc8e520997a58c7da005945d96e2" name="a3a29dc8e520997a58c7da005945d96e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a29dc8e520997a58c7da005945d96e2">&#9670;&#160;</a></span>GetAbsorb()</h2>
+<a id="a8388efed79477de77d78f3a3fff04b0b" name="a8388efed79477de77d78f3a3fff04b0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8388efed79477de77d78f3a3fff04b0b">&#9670;&#160;</a></span>BlockDamage()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::GetAbsorb </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  414</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a383cc7bb4d30dd72cbfeaedd9b5d5042">m_absorb</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00379">m_absorb</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l06878">AuraEffect::HandlePeriodicHealAurasTick()</a>, and <a class="el" href="../../#l11222">Unit::SendHealSpellLog()</a>.</p>
-
-</div>
-</div>
-<a id="a3d5391116c63cc0a3cacb2cab1512a01" name="a3d5391116c63cc0a3cacb2cab1512a01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d5391116c63cc0a3cacb2cab1512a01">&#9670;&#160;</a></span>GetEffectiveHeal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::GetEffectiveHeal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  413</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">m_effectiveHeal</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00378">m_effectiveHeal</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00390">AbsorbHeal()</a>, <a class="el" href="../../#l06589">Unit::HandleDummyAuraProc()</a>, <a class="el" href="../../#l06878">AuraEffect::HandlePeriodicHealAurasTick()</a>, and <a class="el" href="../../#l11222">Unit::SendHealSpellLog()</a>.</p>
-
-</div>
-</div>
-<a id="af95a6d6c94a72874c150a3deabce20ee" name="af95a6d6c94a72874c150a3deabce20ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af95a6d6c94a72874c150a3deabce20ee">&#9670;&#160;</a></span>GetHeal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::GetHeal </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  412</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00377">m_heal</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00390">AbsorbHeal()</a>, <a class="el" href="../../#l02502">Unit::CalcHealAbsorb()</a>, <a class="el" href="../../#l01411">spell_item_valanyr_hammer_of_ancient_kings::CheckProc()</a>, <a class="el" href="../../#l00235">spell_pal_sacred_shield_base::CheckProc()</a>, <a class="el" href="../../#l06878">AuraEffect::HandlePeriodicHealAurasTick()</a>, <a class="el" href="../../#l00645">spell_dru_living_seed::HandleProc()</a>, <a class="el" href="../../#l01463">spell_item_blessing_of_ancient_kings::HandleProc()</a>, <a class="el" href="../../#l00242">spell_pal_sacred_shield_base::HandleProc()</a>, <a class="el" href="../../#l00197">spell_pri_divine_aegis::HandleProc()</a>, <a class="el" href="../../#l00253">spell_pri_glyph_of_prayer_of_healing::HandleProc()</a>, <a class="el" href="../../#l00122">spell_sha_t10_restoration_4p_bonus::HandleProc()</a>, <a class="el" href="../../#l11239">Unit::HealBySpell()</a>, and <a class="el" href="../../#l11222">Unit::SendHealSpellLog()</a>.</p>
-
-</div>
-</div>
-<a id="a2139bd1efadb23063a67d3fef35b424d" name="a2139bd1efadb23063a67d3fef35b424d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2139bd1efadb23063a67d3fef35b424d">&#9670;&#160;</a></span>GetHealer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d32/a08522.html">Unit</a> * HealInfo::GetHealer </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  410</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#ad291e8e65eb0a9a9054ac1827cf0d315">m_healer</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00375">m_healer</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l11239">Unit::HealBySpell()</a>.</p>
-
-</div>
-</div>
-<a id="aca2b1e31608a7c186a06e9bbe8977a9d" name="aca2b1e31608a7c186a06e9bbe8977a9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca2b1e31608a7c186a06e9bbe8977a9d">&#9670;&#160;</a></span>GetSchoolMask()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> HealInfo::GetSchoolMask </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  416</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#af2fd7934b1b1cd08dd4dcfeadc9c02df">m_schoolMask</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00381">m_schoolMask</a>.</p>
-
-</div>
-</div>
-<a id="a53b73d5b297e341be237723269c7644d" name="a53b73d5b297e341be237723269c7644d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53b73d5b297e341be237723269c7644d">&#9670;&#160;</a></span>GetSpellInfo()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const  * HealInfo::GetSpellInfo </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  415</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a68d6d63fdd1efb458615e24f65e643be">m_spellInfo</a>; };</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00380">m_spellInfo</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02502">Unit::CalcHealAbsorb()</a>, <a class="el" href="../../#l00184">ProcEventInfo::GetSpellInfo()</a>, <a class="el" href="../../#l00242">spell_pal_sacred_shield_base::HandleProc()</a>, <a class="el" href="../../#l11239">Unit::HealBySpell()</a>, and <a class="el" href="../../#l11222">Unit::SendHealSpellLog()</a>.</p>
-
-</div>
-</div>
-<a id="ae7a08b2e27a5ac316ed2d3bca7d2395d" name="ae7a08b2e27a5ac316ed2d3bca7d2395d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae7a08b2e27a5ac316ed2d3bca7d2395d">&#9670;&#160;</a></span>GetTarget()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d32/a08522.html">Unit</a> * HealInfo::GetTarget </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  411</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a3a13a815e870e6745888ed082e8498e8">m_target</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00376">m_target</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l02502">Unit::CalcHealAbsorb()</a>, <a class="el" href="../../#l11239">Unit::HealBySpell()</a>, and <a class="el" href="../../#l11222">Unit::SendHealSpellLog()</a>.</p>
-
-</div>
-</div>
-<a id="ac3564eb034d66a0d0199e5412db82ba8" name="ac3564eb034d66a0d0199e5412db82ba8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3564eb034d66a0d0199e5412db82ba8">&#9670;&#160;</a></span>SetEffectiveHeal()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void HealInfo::SetEffectiveHeal </td>
+          <td class="memname">void DamageInfo::BlockDamage </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
           <td class="paramname"><em>amount</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  406</span>    {</div>
-<div class="line"><span class="lineno">  407</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#a0a00b20efbeb2e5bf515dc98e96aa12d">m_effectiveHeal</a> = amount;</div>
-<div class="line"><span class="lineno">  408</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  166</span>{</div>
+<div class="line"><span class="lineno">  167</span>    amount = std::min(amount, <a class="code hl_function" href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  168</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a> += amount;</div>
+<div class="line"><span class="lineno">  169</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  170</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00378">m_effectiveHeal</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l06878">AuraEffect::HandlePeriodicHealAurasTick()</a>, and <a class="el" href="../../#l11239">Unit::HealBySpell()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00341">m_block</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
 
 </div>
 </div>
-<a id="a622e0993c76b43f30d9cc774c70a92b0" name="a622e0993c76b43f30d9cc774c70a92b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a622e0993c76b43f30d9cc774c70a92b0">&#9670;&#160;</a></span>SetHeal()</h2>
+<a id="af79a29980863abeecc47118a18e70f6b" name="af79a29980863abeecc47118a18e70f6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af79a29980863abeecc47118a18e70f6b">&#9670;&#160;</a></span>GetAbsorb()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -518,11 +479,10 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void HealInfo::SetHeal </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetAbsorb </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>amount</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -531,19 +491,365 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  401</span>    {</div>
-<div class="line"><span class="lineno">  402</span>        <a class="code hl_variable" href="../../de/d75/a08490.html#af0a2d7c40710cabbb88122de2650c705">m_heal</a> = amount;</div>
-<div class="line"><span class="lineno">  403</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  365</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a>; };</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00377">m_heal</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l11239">Unit::HealBySpell()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l01829">Unit::DealMeleeDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00755">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, and <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
+
+</div>
+</div>
+<a id="a469a97425ae528b5f8580957035d0561" name="a469a97425ae528b5f8580957035d0561"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a469a97425ae528b5f8580957035d0561">&#9670;&#160;</a></span>GetAttacker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d15/a08526.html">Unit</a> * DamageInfo::GetAttacker </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  358</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a1c199612aaff8c5b1b831cb2c681340d">m_attacker</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00332">m_attacker</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l00799">spell_reflective_shield_aura::HandleAfterEffectAbsorb()</a>, <a class="el" href="../../#l02859">spell_yogg_saron_grim_reprisal_aura::HandleProc()</a>, <a class="el" href="../../#l00697">spell_illidari_council_reflective_shield_aura::ReflectDamage()</a>, and <a class="el" href="../../#l00677">spell_pri_power_word_shield_aura::ReflectDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a8bf9edb2df92b0164ffc21a00c8925d6" name="a8bf9edb2df92b0164ffc21a00c8925d6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8bf9edb2df92b0164ffc21a00c8925d6">&#9670;&#160;</a></span>GetAttackType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a> DamageInfo::GetAttackType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  363</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a31a2baa1c0e0f9bea6000375a5bbec48">m_attackType</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00338">m_attackType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02311">Aura::CalcProcChance()</a>, and <a class="el" href="../../#l00639">spell_dk_dancing_rune_weapon::HandleProc()</a>.</p>
+
+</div>
+</div>
+<a id="aaa739f7998796bd333ee95a8394b0cea" name="aaa739f7998796bd333ee95a8394b0cea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa739f7998796bd333ee95a8394b0cea">&#9670;&#160;</a></span>GetBlock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetBlock </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  367</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a6c7d428dcbe124d6204d1520a4f205c2">m_block</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00341">m_block</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="adcf0ecbcfa77654529e66df53ae828d4" name="adcf0ecbcfa77654529e66df53ae828d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcf0ecbcfa77654529e66df53ae828d4">&#9670;&#160;</a></span>GetDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetDamage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  364</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00334">m_damage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01909">spell_shield_generator_aura::Absorb()</a>, <a class="el" href="../../#l02529">spell_yogg_saron_protective_gaze_aura::Absorb()</a>, <a class="el" href="../../#l01148">spell_charge_shield_bomber_aura::Absorb()</a>, <a class="el" href="../../#l00376">spell_black_temple_spell_absorption_aura::Absorb()</a>, <a class="el" href="../../#l00886">spell_dk_anti_magic_shell_raid::Absorb()</a>, <a class="el" href="../../#l00921">spell_dk_anti_magic_shell_self::Absorb()</a>, <a class="el" href="../../#l00992">spell_dk_anti_magic_zone::Absorb()</a>, <a class="el" href="../../#l02115">spell_dk_spell_deflection::Absorb()</a>, <a class="el" href="../../#l02185">spell_dk_will_of_the_necropolis::Absorb()</a>, <a class="el" href="../../#l00705">spell_dru_moonkin_form_passive::Absorb()</a>, <a class="el" href="../../#l00772">spell_dru_primal_tenacity::Absorb()</a>, <a class="el" href="../../#l00298">spell_pri_guardian_spirit::Absorb()</a>, <a class="el" href="../../#l00168">spell_rog_cheat_death::Absorb()</a>, <a class="el" href="../../#l00420">spell_rog_nerves_of_steel::Absorb()</a>, <a class="el" href="../../#l00414">spell_sha_astral_shift::Absorb()</a>, <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l00341">spell_pal_ardent_defender::Absorb()</a>, <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l01063">spell_deathbringer_blood_link_aura::CheckProc()</a>, <a class="el" href="../../#l01111">spell_deathbringer_blood_link_blood_beast_aura::CheckProc()</a>, <a class="el" href="../../#l00464">spell_dk_improved_blood_presence_proc::CheckProc()</a>, <a class="el" href="../../#l00715">spell_dk_scent_of_blood_trigger::CheckProc()</a>, <a class="el" href="../../#l02375">spell_item_shadowmourne::CheckProc()</a>, <a class="el" href="../../#l00235">spell_pal_sacred_shield_base::CheckProc()</a>, <a class="el" href="../../#l01072">spell_pal_seal_of_righteousness::CheckProc()</a>, <a class="el" href="../../#l00864">spell_warl_siphon_life::CheckProc()</a>, <a class="el" href="../../#l01039">spell_warl_fel_synergy::CheckProc()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l01829">Unit::DealMeleeDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00755">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>, <a class="el" href="../../#l00646">spell_reliquary_of_souls_aura_of_desire_aura::HandleProc()</a>, <a class="el" href="../../#l00421">spell_black_temple_consuming_strikes_aura::HandleProc()</a>, <a class="el" href="../../#l01029">spell_item_blood_draining_enchant::HandleProc()</a>, <a class="el" href="../../#l00704">spell_mage_ignite::HandleProc()</a>, <a class="el" href="../../#l03328">spell_the_lich_king_dark_hunger_aura::HandleProc()</a>, <a class="el" href="../../#l00624">spell_oculus_temporal_rift_aura::HandleProc()</a>, <a class="el" href="../../#l02859">spell_yogg_saron_grim_reprisal_aura::HandleProc()</a>, <a class="el" href="../../#l00493">spell_dk_wandering_plague_aura::HandleProc()</a>, <a class="el" href="../../#l01059">spell_dk_blood_gorged::HandleProc()</a>, <a class="el" href="../../#l00120">spell_dru_t10_balance_4p_bonus::HandleProc()</a>, <a class="el" href="../../#l01955">spell_item_necrotic_touch::HandleProc()</a>, <a class="el" href="../../#l01118">spell_sha_t8_electrified::HandleProc()</a>, <a class="el" href="../../#l00744">spell_warl_seed_of_corruption_aura::HandleProc()</a>, <a class="el" href="../../#l00803">spell_warl_seed_of_corruption_generic_aura::HandleProc()</a>, <a class="el" href="../../#l00550">spell_dk_hungering_cold::HandleProc()</a>, <a class="el" href="../../#l00145">ModifyDamage()</a>, <a class="el" href="../../#l01599">spell_valanar_kinetic_bomb_absorb_aura::OnAbsorb()</a>, <a class="el" href="../../#l00768">spell_blood_queen_essence_of_the_blood_queen_aura::OnProc()</a>, <a class="el" href="../../#l00653">spell_pal_eye_for_an_eye::OnProc()</a>, <a class="el" href="../../#l00877">spell_warl_siphon_life::OnProc()</a>, <a class="el" href="../../#l01053">spell_warl_fel_synergy::OnProc()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a887202d1319dd2b13ff18cba470067cb" name="a887202d1319dd2b13ff18cba470067cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a887202d1319dd2b13ff18cba470067cb">&#9670;&#160;</a></span>GetDamageType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> DamageInfo::GetDamageType </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  362</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#ae302e0157ce87497f71293c8687bc7aa">m_damageType</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00337">m_damageType</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02115">spell_dk_spell_deflection::Absorb()</a>, and <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
+
+</div>
+</div>
+<a id="a8d301dc3e6d21d7c1d73b6eaea38421b" name="a8d301dc3e6d21d7c1d73b6eaea38421b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d301dc3e6d21d7c1d73b6eaea38421b">&#9670;&#160;</a></span>GetResist()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetResist </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  366</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00340">m_resist</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02565">Unit::AttackerStateUpdate()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l01295">Unit::CalculateSpellDamageTaken()</a>, <a class="el" href="../../#l00810">Unit::DealDamage()</a>, <a class="el" href="../../#l00298">Spell::EffectEnvironmentalDMG()</a>, <a class="el" href="../../#l00755">Player::EnvironmentalDamage()</a>, <a class="el" href="../../#l06589">AuraEffect::HandlePeriodicDamageAurasTick()</a>, and <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
+
+</div>
+</div>
+<a id="a8e8b4c4ca4ef62b353c5868d5954bfcd" name="a8e8b4c4ca4ef62b353c5868d5954bfcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e8b4c4ca4ef62b353c5868d5954bfcd">&#9670;&#160;</a></span>GetSchoolMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> DamageInfo::GetSchoolMask </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  361</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#acda50525cdc0689191b74741331b6069">m_schoolMask</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00336">m_schoolMask</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
+
+</div>
+</div>
+<a id="a7aaa8ac7e857b1d2a68cb6befaf9881a" name="a7aaa8ac7e857b1d2a68cb6befaf9881a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7aaa8ac7e857b1d2a68cb6befaf9881a">&#9670;&#160;</a></span>GetSpellInfo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const  * DamageInfo::GetSpellInfo </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  360</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a5a8ec67f5c136d0ae8822a6fa7766187">m_spellInfo</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00335">m_spellInfo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00517">spell_mage_fire_frost_ward::Absorb()</a>, <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>, <a class="el" href="../../#l00680">spell_mage_ignite::CheckProc()</a>, <a class="el" href="../../#l00184">ProcEventInfo::GetSpellInfo()</a>, and <a class="el" href="../../#l00677">spell_pri_power_word_shield_aura::ReflectDamage()</a>.</p>
+
+</div>
+</div>
+<a id="a4a702f9a22aa05865c95e5eaf9640545" name="a4a702f9a22aa05865c95e5eaf9640545"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a702f9a22aa05865c95e5eaf9640545">&#9670;&#160;</a></span>GetUnmitigatedDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::GetUnmitigatedDamage </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  173</span>{</div>
+<div class="line"><span class="lineno">  174</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> + <a class="code hl_variable" href="../../de/d75/a08490.html#a92d500e09cf80873f1c9751841dede58">m_cleanDamage</a> + <a class="code hl_variable" href="../../de/d75/a08490.html#a90be517686a8d78e0c585e1535e39567">m_absorb</a> + <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a>;</div>
+<div class="line"><span class="lineno">  175</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00339">m_absorb</a>, <a class="el" href="../../#l00342">m_cleanDamage</a>, <a class="el" href="../../#l00334">m_damage</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00116">spell_rog_blade_flurry::HandleProc()</a>.</p>
+
+</div>
+</div>
+<a id="a33a6f0e46fe0098a3b67dc5ea43733b5" name="a33a6f0e46fe0098a3b67dc5ea43733b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a33a6f0e46fe0098a3b67dc5ea43733b5">&#9670;&#160;</a></span>GetVictim()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d15/a08526.html">Unit</a> * DamageInfo::GetVictim </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  359</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../de/d75/a08490.html#ae54a74b71d6ef3f9452b20d2e4aec4dc">m_victim</a>; };</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00333">m_victim</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
+
+</div>
+</div>
+<a id="a2a68533422f69965d383fdb716387237" name="a2a68533422f69965d383fdb716387237"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a68533422f69965d383fdb716387237">&#9670;&#160;</a></span>ModifyDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DamageInfo::ModifyDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  146</span>{</div>
+<div class="line"><span class="lineno">  147</span>    amount = std::min(amount, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_function" href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>()));</div>
+<div class="line"><span class="lineno">  148</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> += amount;</div>
+<div class="line"><span class="lineno">  149</span>}</div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, and <a class="el" href="../../#l00334">m_damage</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l06743">AuraEffect::HandlePeriodicHealthLeechAuraTick()</a>.</p>
+
+</div>
+</div>
+<a id="a02e857277fbc00370143180b4fb3daac" name="a02e857277fbc00370143180b4fb3daac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a02e857277fbc00370143180b4fb3daac">&#9670;&#160;</a></span>ResistDamage()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DamageInfo::ResistDamage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>amount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  159</span>{</div>
+<div class="line"><span class="lineno">  160</span>    amount = std::min(amount, <a class="code hl_function" href="../../de/d75/a08490.html#adcf0ecbcfa77654529e66df53ae828d4">GetDamage</a>());</div>
+<div class="line"><span class="lineno">  161</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a1289951cae687d55bab2f12a8b37d8c3">m_resist</a> += amount;</div>
+<div class="line"><span class="lineno">  162</span>    <a class="code hl_variable" href="../../de/d75/a08490.html#a9b39c211a157092dbd0111ac46bef8a4">m_damage</a> -= amount;</div>
+<div class="line"><span class="lineno">  163</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00334">m_damage</a>, and <a class="el" href="../../#l00340">m_resist</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02147">Unit::CalcAbsorbResist()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a383cc7bb4d30dd72cbfeaedd9b5d5042" name="a383cc7bb4d30dd72cbfeaedd9b5d5042"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a383cc7bb4d30dd72cbfeaedd9b5d5042">&#9670;&#160;</a></span>m_absorb</h2>
+<a id="a90be517686a8d78e0c585e1535e39567" name="a90be517686a8d78e0c585e1535e39567"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90be517686a8d78e0c585e1535e39567">&#9670;&#160;</a></span>m_absorb</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -552,7 +858,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::m_absorb</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_absorb</td>
         </tr>
       </table>
   </td>
@@ -562,12 +868,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00390">AbsorbHeal()</a>, <a class="el" href="../../#l00414">GetAbsorb()</a>, and <a class="el" href="../../#l00383">HealInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l00110">DamageInfo()</a>, <a class="el" href="../../#l00365">GetAbsorb()</a>, and <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>.</p>
 
 </div>
 </div>
-<a id="a0a00b20efbeb2e5bf515dc98e96aa12d" name="a0a00b20efbeb2e5bf515dc98e96aa12d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a00b20efbeb2e5bf515dc98e96aa12d">&#9670;&#160;</a></span>m_effectiveHeal</h2>
+<a id="a1c199612aaff8c5b1b831cb2c681340d" name="a1c199612aaff8c5b1b831cb2c681340d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c199612aaff8c5b1b831cb2c681340d">&#9670;&#160;</a></span>m_attacker</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -576,7 +882,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::m_effectiveHeal</td>
+          <td class="memname"><a class="el" href="../../d6/d15/a08526.html">Unit</a>* const DamageInfo::m_attacker</td>
         </tr>
       </table>
   </td>
@@ -586,12 +892,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00390">AbsorbHeal()</a>, <a class="el" href="../../#l00413">GetEffectiveHeal()</a>, <a class="el" href="../../#l00383">HealInfo()</a>, and <a class="el" href="../../#l00405">SetEffectiveHeal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00358">GetAttacker()</a>.</p>
 
 </div>
 </div>
-<a id="af0a2d7c40710cabbb88122de2650c705" name="af0a2d7c40710cabbb88122de2650c705"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0a2d7c40710cabbb88122de2650c705">&#9670;&#160;</a></span>m_heal</h2>
+<a id="a31a2baa1c0e0f9bea6000375a5bbec48" name="a31a2baa1c0e0f9bea6000375a5bbec48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31a2baa1c0e0f9bea6000375a5bbec48">&#9670;&#160;</a></span>m_attackType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -600,7 +906,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> HealInfo::m_heal</td>
+          <td class="memname"><a class="el" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352">WeaponAttackType</a> DamageInfo::m_attackType</td>
         </tr>
       </table>
   </td>
@@ -610,12 +916,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00390">AbsorbHeal()</a>, <a class="el" href="../../#l00412">GetHeal()</a>, and <a class="el" href="../../#l00400">SetHeal()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00363">GetAttackType()</a>.</p>
 
 </div>
 </div>
-<a id="ad291e8e65eb0a9a9054ac1827cf0d315" name="ad291e8e65eb0a9a9054ac1827cf0d315"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad291e8e65eb0a9a9054ac1827cf0d315">&#9670;&#160;</a></span>m_healer</h2>
+<a id="a6c7d428dcbe124d6204d1520a4f205c2" name="a6c7d428dcbe124d6204d1520a4f205c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c7d428dcbe124d6204d1520a4f205c2">&#9670;&#160;</a></span>m_block</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -624,7 +930,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d32/a08522.html">Unit</a>* const HealInfo::m_healer</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_block</td>
         </tr>
       </table>
   </td>
@@ -634,12 +940,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00410">GetHealer()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l00110">DamageInfo()</a>, and <a class="el" href="../../#l00367">GetBlock()</a>.</p>
 
 </div>
 </div>
-<a id="af2fd7934b1b1cd08dd4dcfeadc9c02df" name="af2fd7934b1b1cd08dd4dcfeadc9c02df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2fd7934b1b1cd08dd4dcfeadc9c02df">&#9670;&#160;</a></span>m_schoolMask</h2>
+<a id="a92d500e09cf80873f1c9751841dede58" name="a92d500e09cf80873f1c9751841dede58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d500e09cf80873f1c9751841dede58">&#9670;&#160;</a></span>m_cleanDamage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -648,7 +954,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const HealInfo::m_schoolMask</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_cleanDamage</td>
         </tr>
       </table>
   </td>
@@ -658,12 +964,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00416">GetSchoolMask()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>.</p>
 
 </div>
 </div>
-<a id="a68d6d63fdd1efb458615e24f65e643be" name="a68d6d63fdd1efb458615e24f65e643be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a68d6d63fdd1efb458615e24f65e643be">&#9670;&#160;</a></span>m_spellInfo</h2>
+<a id="a9b39c211a157092dbd0111ac46bef8a4" name="a9b39c211a157092dbd0111ac46bef8a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b39c211a157092dbd0111ac46bef8a4">&#9670;&#160;</a></span>m_damage</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -672,7 +978,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> const* const HealInfo::m_spellInfo</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_damage</td>
         </tr>
       </table>
   </td>
@@ -682,12 +988,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00415">GetSpellInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00151">AbsorbDamage()</a>, <a class="el" href="../../#l00165">BlockDamage()</a>, <a class="el" href="../../#l00364">GetDamage()</a>, <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>, <a class="el" href="../../#l00145">ModifyDamage()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
 
 </div>
 </div>
-<a id="a3a13a815e870e6745888ed082e8498e8" name="a3a13a815e870e6745888ed082e8498e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a13a815e870e6745888ed082e8498e8">&#9670;&#160;</a></span>m_target</h2>
+<a id="ae302e0157ce87497f71293c8687bc7aa" name="ae302e0157ce87497f71293c8687bc7aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae302e0157ce87497f71293c8687bc7aa">&#9670;&#160;</a></span>m_damageType</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -696,7 +1002,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d32/a08522.html">Unit</a>* const HealInfo::m_target</td>
+          <td class="memname"><a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a> const DamageInfo::m_damageType</td>
         </tr>
       </table>
   </td>
@@ -706,7 +1012,103 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00411">GetTarget()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00362">GetDamageType()</a>.</p>
+
+</div>
+</div>
+<a id="a1289951cae687d55bab2f12a8b37d8c3" name="a1289951cae687d55bab2f12a8b37d8c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1289951cae687d55bab2f12a8b37d8c3">&#9670;&#160;</a></span>m_resist</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DamageInfo::m_resist</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00110">DamageInfo()</a>, <a class="el" href="../../#l00366">GetResist()</a>, <a class="el" href="../../#l00172">GetUnmitigatedDamage()</a>, and <a class="el" href="../../#l00158">ResistDamage()</a>.</p>
+
+</div>
+</div>
+<a id="acda50525cdc0689191b74741331b6069" name="acda50525cdc0689191b74741331b6069"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acda50525cdc0689191b74741331b6069">&#9670;&#160;</a></span>m_schoolMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> const DamageInfo::m_schoolMask</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00361">GetSchoolMask()</a>.</p>
+
+</div>
+</div>
+<a id="a5a8ec67f5c136d0ae8822a6fa7766187" name="a5a8ec67f5c136d0ae8822a6fa7766187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a8ec67f5c136d0ae8822a6fa7766187">&#9670;&#160;</a></span>m_spellInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> const* const DamageInfo::m_spellInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00360">GetSpellInfo()</a>.</p>
+
+</div>
+</div>
+<a id="ae54a74b71d6ef3f9452b20d2e4aec4dc" name="ae54a74b71d6ef3f9452b20d2e4aec4dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae54a74b71d6ef3f9452b20d2e4aec4dc">&#9670;&#160;</a></span>m_victim</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d15/a08526.html">Unit</a>* const DamageInfo::m_victim</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00359">GetVictim()</a>.</p>
 
 </div>
 </div>
@@ -715,8 +1117,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../de/d75/a08490.html">HealInfo</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:42:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/d75/a08490.html">DamageInfo</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:42:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

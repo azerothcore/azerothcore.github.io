@@ -1,9 +1,13 @@
 var a16566 =
 [
-    [ "npc_hor_risen_witch_doctorAI", "dc/d05/a16566.html#acd33d4811521f6d41bce21270198db45", null ],
-    [ "JustDied", "dc/d05/a16566.html#a49eb1c20ef810d0e4aeea8f99fcabebb", null ],
-    [ "JustEngagedWith", "dc/d05/a16566.html#a54378daf294fcbee4ba1abf14927cc52", null ],
-    [ "Reset", "dc/d05/a16566.html#a20742bb0fe610367283cd5dc7e8b36ff", null ],
-    [ "UpdateAI", "dc/d05/a16566.html#af9baaf71fa53a42ab5d1507fdd6aa9fd", null ],
-    [ "events", "dc/d05/a16566.html#abb39744cdcdc8e1fbf8fd06508af35f9", null ]
+    [ "npc_hor_leader_secondAI", "dc/d05/a16566.html#a54a5094dc533755efc249ebc96663b62", null ],
+    [ "DamageTaken", "dc/d05/a16566.html#ae534779315b04b3dde495b13a1cb28e4", null ],
+    [ "DoAction", "dc/d05/a16566.html#a4185259006017e85fade721796851dd0", null ],
+    [ "MovementInform", "dc/d05/a16566.html#afe93165a3e96496b52a2be8de5022164", null ],
+    [ "MoveToNextStopPoint", "dc/d05/a16566.html#a6d9f65386d6f40a5cf96b09ecaf54871", null ],
+    [ "Reset", "dc/d05/a16566.html#ae5d125deab31e6425e94b4523d8251eb", null ],
+    [ "UpdateAI", "dc/d05/a16566.html#ae991e18a6729a1b088c60060802c01c2", null ],
+    [ "currentStopPoint", "dc/d05/a16566.html#ae4bf31530e701f9e0aa4f253452f9881", null ],
+    [ "events", "dc/d05/a16566.html#a3510e246908f4e5b758e05ca06a29e47", null ],
+    [ "pInstance", "dc/d05/a16566.html#a32cebea12e13c87b45dd2a4c6cf495e5", null ]
 ];

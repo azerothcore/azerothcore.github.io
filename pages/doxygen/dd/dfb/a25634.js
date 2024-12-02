@@ -1,7 +1,7 @@
 var a25634 =
 [
-    [ "HandleKnockBack", "dd/dfb/a25634.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "dd/dfb/a25634.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "dd/dfb/a25634.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "dd/dfb/a25634.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "CalculateAmount", "dd/dfb/a25634.html#a0934aa8eaf442314aa6050d85304c15b", null ],
+    [ "CalculateSpellAmount", "dd/dfb/a25634.html#ab765b87350bd3e73ac43879abef72d98", null ],
+    [ "PrepareAuraScript", "dd/dfb/a25634.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
+    [ "Register", "dd/dfb/a25634.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
 ];

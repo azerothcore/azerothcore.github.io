@@ -1,7 +1,7 @@
 var a17422 =
 [
-    [ "HandleSpikes", "de/d44/a17422.html#a012d61aacf79b9b1f5b4b5c5c81b5ed4", null ],
-    [ "PrepareSpellScript", "de/d44/a17422.html#a6ffb6454eb4c58a1b66356814c13b659", null ],
-    [ "Register", "de/d44/a17422.html#a893345cf191d084a0f97a8464b7d381a", null ],
-    [ "Validate", "de/d44/a17422.html#aa6545760706d8695aefd4064c3c71c6b", null ]
+    [ "npc_coldflameAI", "de/d44/a17422.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "de/d44/a17422.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "de/d44/a17422.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "de/d44/a17422.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

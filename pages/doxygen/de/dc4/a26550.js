@@ -1,8 +1,8 @@
 var a26550 =
 [
-    [ "HandleDummy", "de/dc4/a26550.html#ad2eec86cff225cc0bd806e31596fb127", null ],
-    [ "PrepareSpellScript", "de/dc4/a26550.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
-    [ "Register", "de/dc4/a26550.html#a6c72b4c813368774283ae94036a43ee2", null ],
-    [ "SendMiss", "de/dc4/a26550.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
-    [ "Validate", "de/dc4/a26550.html#a9a5014de08f73ad5dad29354812030ac", null ]
+    [ "HandleDamage", "de/dc4/a26550.html#a371d3112e619453b7c92933a145bf4d2", null ],
+    [ "HandleDummy", "de/dc4/a26550.html#a051f68946f3c246b410bbaa2ac14e4b1", null ],
+    [ "PrepareSpellScript", "de/dc4/a26550.html#a41d69ed3f8372c4e157aefbec6ad525c", null ],
+    [ "Register", "de/dc4/a26550.html#aaa1e53f38a2ba835c12fa726c030ab08", null ],
+    [ "Validate", "de/dc4/a26550.html#a180ab99bc257b841e0bbbfc0ddb83814", null ]
 ];

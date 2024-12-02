@@ -1,5 +1,6 @@
 var a20078 =
 [
-    [ "go_ulduar_do_not_push_this_button", "d8/da5/a20078.html#aa204af213a643c001161e0c2f173ee6b", null ],
-    [ "OnGossipHello", "d8/da5/a20078.html#ae11efa54b496ab21600a9c62e50b5fbe", null ]
+    [ "npc_ulduar_bot_summon_triggerAI", "df/db3/a20082.html", "df/db3/a20082" ],
+    [ "npc_ulduar_bot_summon_trigger", "d8/da5/a20078.html#a7a369b4826c6c2a86704088f5dcf1ce7", null ],
+    [ "GetAI", "d8/da5/a20078.html#a0d7f74fc910c5adcaaa46a9d2ea10ea3", null ]
 ];

@@ -1,7 +1,8 @@
 var a18178 =
 [
-    [ "OnApply", "df/d3d/a18178.html#ac35f5d98980f54470a75a72b3578681f", null ],
-    [ "OnRemove", "df/d3d/a18178.html#a9844b3d82680bfc9756b141fcf29e1f9", null ],
-    [ "PrepareAuraScript", "df/d3d/a18178.html#a83c90d16fa151026a1e02927e31922ee", null ],
-    [ "Register", "df/d3d/a18178.html#a255e44ac6db7fd779d98fc3660ee91c6", null ]
+    [ "DecayPeriodicTimer", "df/d3d/a18178.html#a314ac33692cc352c490ec3d87177d67a", null ],
+    [ "Load", "df/d3d/a18178.html#af5a498253c4c382df3b2462a30448a64", null ],
+    [ "PrepareAuraScript", "df/d3d/a18178.html#ac5d4ee199b49e04499997355ac054554", null ],
+    [ "Register", "df/d3d/a18178.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
+    [ "_decayRate", "df/d3d/a18178.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
 ];

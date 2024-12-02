@@ -1,10 +1,12 @@
 var a27082 =
 [
-    [ "go_evil_book_for_dummies", "d2/d4a/a27082.html#a69f599910bce0070c6b1af547c459b72", null ],
-    [ "HasLeatherSpecialty", "d2/d4a/a27082.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
-    [ "OnGossipHello", "d2/d4a/a27082.html#aeb29351e2faf135298419488eb16cc7e", null ],
-    [ "OnGossipSelect", "d2/d4a/a27082.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
-    [ "SendActionMenu", "d2/d4a/a27082.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
-    [ "SendConfirmLearn", "d2/d4a/a27082.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
-    [ "SendConfirmUnlearn", "d2/d4a/a27082.html#af9c10b0423327d8644020e8f5e26a603", null ]
+    [ "npc_preciousAI", "d2/d4a/a27082.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
+    [ "FlagForDespawn", "d2/d4a/a27082.html#a934a5147c1cc9937189011fb061657da", null ],
+    [ "InitializeAI", "d2/d4a/a27082.html#aa15843c4029f2df2ee04d21b5157602a", null ],
+    [ "JustEngagedWith", "d2/d4a/a27082.html#a58bc4149111605850f070a77ee776313", null ],
+    [ "JustReachedHome", "d2/d4a/a27082.html#a31893e9441b24398554370a58ef8bd78", null ],
+    [ "Reset", "d2/d4a/a27082.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
+    [ "UpdateAI", "d2/d4a/a27082.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
+    [ "events", "d2/d4a/a27082.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
+    [ "flaggedForDespawn", "d2/d4a/a27082.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
 ];

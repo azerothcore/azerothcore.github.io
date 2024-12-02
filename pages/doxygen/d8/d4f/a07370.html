@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; std::string_view, void &gt; Struct Reference</title>
+<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('d8/d4f/a07370.html','../../'); initRes
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../dc/df9/a07367.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; std::string_view, void &gt; Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,31 +115,34 @@ $(document).ready(function(){initNavTree('d8/d4f/a07370.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a2b70efed48ab12a8924e4a815c7dbee6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d6/d89/a07446.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a2b70efed48ab12a8924e4a815c7dbee6">TryConsume</a> (std::string_view &amp;val, <a class="el" href="../../db/d8a/a07290.html">ChatHandler</a> const *, std::string_view args)</td></tr>
-<tr class="separator:a2b70efed48ab12a8924e4a815c7dbee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3868b3d4e55cdcd1c1591d8bd09bae5d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a3868b3d4e55cdcd1c1591d8bd09bae5d">TryConsume</a> (T &amp;val, <a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
+<tr class="separator:a3868b3d4e55cdcd1c1591d8bd09bae5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a2b70efed48ab12a8924e4a815c7dbee6" name="a2b70efed48ab12a8924e4a815c7dbee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2b70efed48ab12a8924e4a815c7dbee6">&#9670;&#160;</a></span>TryConsume()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a3868b3d4e55cdcd1c1591d8bd09bae5d" name="a3868b3d4e55cdcd1c1591d8bd09bae5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3868b3d4e55cdcd1c1591d8bd09bae5d">&#9670;&#160;</a></span>TryConsume()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../d6/d89/a07446.html">ChatCommandResult</a> <a class="el" href="../../d4/d99/a07362.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; std::string_view, void &gt;::TryConsume </td>
+          <td class="memname">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a> <a class="el" href="../../d2/d7a/a07366.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;::TryConsume </td>
           <td>(</td>
-          <td class="paramtype">std::string_view &amp;&#160;</td>
+          <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>val</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../db/d8a/a07290.html">ChatHandler</a> const *&#160;</td>
-          <td class="paramname">, </td>
+          <td class="paramtype"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *&#160;</td>
+          <td class="paramname"><em>handler</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -159,16 +162,30 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   81</span>        {</div>
-<div class="line"><span class="lineno">   82</span>            <span class="keyword">auto</span> [token, next] = <a class="code hl_function" href="../../db/dfa/a04725.html#aeca95018e8d551d917cf69e0764ccef7">tokenize</a>(args);</div>
-<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">if</span> (token.empty())</div>
-<div class="line"><span class="lineno">   84</span>                <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">   85</span>            val = token;</div>
-<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">return</span> next;</div>
-<div class="line"><span class="lineno">   87</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>        {</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keyword">auto</span> [token, tail] = <a class="code hl_function" href="../../db/dfa/a04725.html#aeca95018e8d551d917cf69e0764ccef7">tokenize</a>(args);</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">if</span> (token.empty())</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span> std::nullopt;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;T&gt;</a> v = StringTo&lt;T&gt;(token, 0))</div>
+<div class="line"><span class="lineno">   62</span>                val = *v;</div>
+<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, token, GetTypeName&lt;T&gt;());</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (std::is_floating_point_v&lt;T&gt;)</div>
+<div class="line"><span class="lineno">   67</span>            {</div>
+<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">if</span> (!std::isfinite(val))</div>
+<div class="line"><span class="lineno">   69</span>                    <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, token, GetTypeName&lt;T&gt;());</div>
+<div class="line"><span class="lineno">   70</span>            }</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">return</span> tail;</div>
+<div class="line"><span class="lineno">   73</span>        }</div>
+<div class="ttc" id="aa00314_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
+<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a></div><div class="ttdeci">@ LANG_CMDPARSER_STRING_VALUE_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:993</div></div>
+<div class="ttc" id="aa04725_html_a496bce28eb0bf0ac4b5e1c54c19193b7"><div class="ttname"><a href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">Acore::Impl::ChatCommands::FormatAcoreString</a></div><div class="ttdeci">std::string FormatAcoreString(ChatHandler const *handler, AcoreStrings which, Ts &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:125</div></div>
 <div class="ttc" id="aa04725_html_aeca95018e8d551d917cf69e0764ccef7"><div class="ttname"><a href="../../db/dfa/a04725.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a></div><div class="ttdeci">TokenizeResult tokenize(std::string_view args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:54</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00054">Acore::Impl::ChatCommands::tokenize()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00125">Acore::Impl::ChatCommands::FormatAcoreString()</a>, <a class="el" href="../../#l00993">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, and <a class="el" href="../../#l00054">Acore::Impl::ChatCommands::tokenize()</a>.</p>
 
 </div>
 </div>
@@ -177,8 +194,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d8/d4f/a07370.html">ArgInfo&lt; std::string_view, void &gt;</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:54 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d8/d4f/a07370.html">ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

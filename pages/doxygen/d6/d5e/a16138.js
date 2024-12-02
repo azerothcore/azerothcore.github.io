@@ -1,6 +1,8 @@
 var a16138 =
 [
-    [ "npc_fel_infernalAI", "d8/dac/a16142.html", "d8/dac/a16142" ],
-    [ "npc_fel_infernal", "d6/d5e/a16138.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
-    [ "GetAI", "d6/d5e/a16138.html#a768201a7516c9972800c941cf2079a11", null ]
+    [ "npc_toc_pet_hunterAI", "d6/d5e/a16138.html#a751e37388df10abf4bf9df5d3f373fa3", null ],
+    [ "EnterEvadeMode", "d6/d5e/a16138.html#a7f60ea2596fa4af2209333696dbe00e0", null ],
+    [ "myCanCast", "d6/d5e/a16138.html#aefaa41a92000d8915853988ce3fd5bc4", null ],
+    [ "UpdateAI", "d6/d5e/a16138.html#aec1d16cdcb7d86d7de4de10ca34f491d", null ],
+    [ "events", "d6/d5e/a16138.html#ade038312363f976b34868ed2cbebb58d", null ]
 ];

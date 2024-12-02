@@ -1,7 +1,11 @@
 var a14978 =
 [
-    [ "npc_webbed_creatureAI", "d9/d6e/a14978.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
-    [ "JustDied", "d9/d6e/a14978.html#a153d461124ec9266ffcac147a217f6d9", null ],
-    [ "JustEngagedWith", "d9/d6e/a14978.html#ac52ad6512bcaee35932f856abdac80d4", null ],
-    [ "Reset", "d9/d6e/a14978.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
+    [ "npc_stillpine_capitiveAI", "d9/d6e/a14978.html#a98560e7fc360dbfa3166805d9ab3feb4", null ],
+    [ "MovementInform", "d9/d6e/a14978.html#a1e930b49da85a64aa87ba79b5fe72391", null ],
+    [ "Reset", "d9/d6e/a14978.html#a9c884f892e64044057d477bdc0f89eed", null ],
+    [ "StartMoving", "d9/d6e/a14978.html#a2552a79cf384cca1203afa7f241c1cb9", null ],
+    [ "UpdateAI", "d9/d6e/a14978.html#a25dc06767382b5fee2a7098b58726fb2", null ],
+    [ "_events", "d9/d6e/a14978.html#a93dd55d392836d8d085e34293344b700", null ],
+    [ "_movementComplete", "d9/d6e/a14978.html#ae8e39ca782aee412e39d65a33d14014e", null ],
+    [ "_playerGUID", "d9/d6e/a14978.html#a3fe9a4f01aebb602095d60eb606ce763", null ]
 ];

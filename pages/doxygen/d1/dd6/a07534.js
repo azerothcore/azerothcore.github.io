@@ -1,5 +1,10 @@
 var a07534 =
 [
-    [ "Glyph", "d1/dd6/a07534.html#a99ef57f9c0bbab04953bd6edcf5b83f2", null ],
-    [ "Slot", "d1/dd6/a07534.html#acc79672f4bddb27eb980b6aac19f83ec", null ]
+    [ "Achievement", "d1/dd6/a07534.html#a03caf33cfc9f75dfdbba2dedc747e0ce", null ],
+    [ "CharacterId", "d1/dd6/a07534.html#a0ec541a4e11d9e19f7cced7e839b1ebb", null ],
+    [ "Criteria", "d1/dd6/a07534.html#a4eae1ba9b211d8c8307000ddae428348", null ],
+    [ "Day", "d1/dd6/a07534.html#a216aaf4eed90eeb05662631e8f89b4ab", null ],
+    [ "IsFinished", "d1/dd6/a07534.html#a1aff3d0a28a12f0e4ee10bca376f335c", null ],
+    [ "Month", "d1/dd6/a07534.html#a9be9cfb6a40c527e8f6b6ad381ed5b42", null ],
+    [ "Year", "d1/dd6/a07534.html#a85612eac22d3233e620eb11e6e1b48b0", null ]
 ];

@@ -1,6 +1,8 @@
 var a25318 =
 [
-    [ "FilterTargets", "d2/d1d/a25318.html#abe299fbad07f800e90b1614ec661c185", null ],
-    [ "PrepareSpellScript", "d2/d1d/a25318.html#a53bae2b6575436705adff74caf9225b7", null ],
-    [ "Register", "d2/d1d/a25318.html#a35fd5a1c8ab2400940da2d9f8f3ce9c2", null ]
+    [ "HandleDummy", "d2/d1d/a25318.html#ad303a5c1bbbab3766bd5e9ab753b2a01", null ],
+    [ "Load", "d2/d1d/a25318.html#a054d9083b24183f4427fc0cb4985ba62", null ],
+    [ "PrepareSpellScript", "d2/d1d/a25318.html#aa4904ed55b5e216e0af5e32508372d4e", null ],
+    [ "Register", "d2/d1d/a25318.html#a5679f34290f90dbcaf15f09eca0fb20f", null ],
+    [ "Validate", "d2/d1d/a25318.html#a0a01f5e290b91e58b4b0f8ba443eb7bf", null ]
 ];

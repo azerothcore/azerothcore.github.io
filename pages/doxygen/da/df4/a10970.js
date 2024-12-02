@@ -1,7 +1,10 @@
 var a10970 =
 [
-    [ "EffectNameCheck", "da/df4/a10970.html#aa82307388bdda7864bb085a349b63f29", null ],
-    [ "Check", "da/df4/a10970.html#a729d7f07669dedec50f009a87b8f32a4", null ],
-    [ "ToString", "da/df4/a10970.html#a31e545b0ae22cad4be815ea9e3b44377", null ],
-    [ "effName", "da/df4/a10970.html#a905224fb028ea0eab350773b7230f871", null ]
+    [ "EffectHook", "da/df4/a10970.html#a4a197e061d918dfba2bc486f3393b00d", null ],
+    [ "~EffectHook", "da/df4/a10970.html#aa234f63b530764d12064acbe3f5c9299", null ],
+    [ "CheckEffect", "da/df4/a10970.html#ae8823c5d649d182f572818bf3db72902", null ],
+    [ "EffIndexToString", "da/df4/a10970.html#ab818ed274cfd66ecc565b8535b751517", null ],
+    [ "GetAffectedEffectsMask", "da/df4/a10970.html#a31faa86590e22f5ab3ca518f4df02840", null ],
+    [ "IsEffectAffected", "da/df4/a10970.html#a697041ffa562bb6fff792beb159c7af2", null ],
+    [ "effIndex", "da/df4/a10970.html#ab5eb48ef7ac903938f92db0e856e0295", null ]
 ];

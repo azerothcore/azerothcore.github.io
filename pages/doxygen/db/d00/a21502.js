@@ -1,7 +1,8 @@
 var a21502 =
 [
-    [ "HandleDummy", "db/d00/a21502.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
-    [ "PrepareSpellScript", "db/d00/a21502.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
-    [ "Register", "db/d00/a21502.html#a45f80e0436f93a597deb4653852df6a1", null ],
-    [ "Validate", "db/d00/a21502.html#ad13fdade1fb7455485bfd68687de53c5", null ]
+    [ "AfterApply", "db/d00/a21502.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "db/d00/a21502.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "db/d00/a21502.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "db/d00/a21502.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "db/d00/a21502.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

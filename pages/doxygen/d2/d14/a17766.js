@@ -1,6 +1,15 @@
 var a17766 =
 [
-    [ "PeriodicTick", "d2/d14/a17766.html#af47c7ea07ee3dbe824b1c294024d0c29", null ],
-    [ "PrepareAuraScript", "d2/d14/a17766.html#aa2649c760e362cc7aa22cd770b15f7df", null ],
-    [ "Register", "d2/d14/a17766.html#ad4290158ee9af93df11d1a46a5bd26a2", null ]
+    [ "npc_sindragosa_trashAI", "d2/d14/a17766.html#a7401a422bc4c2140c631bc118f396f25", null ],
+    [ "GetData", "d2/d14/a17766.html#a701b8189869bf20d2b3da31b73aed9da", null ],
+    [ "InitializeAI", "d2/d14/a17766.html#a3a8b341c7304faa2c238305f9dde29b0", null ],
+    [ "JustEngagedWith", "d2/d14/a17766.html#a0a7a0012105dea55fe4c8b51d9df5fc7", null ],
+    [ "JustRespawned", "d2/d14/a17766.html#a6438b9f864f178dc4e35e24a48066980", null ],
+    [ "Reset", "d2/d14/a17766.html#a823df6bb8b36ab38aa059e6d1313f2c0", null ],
+    [ "SetData", "d2/d14/a17766.html#a4aaa7f3963b24ac03e2fb8aaea7b62b2", null ],
+    [ "UpdateAI", "d2/d14/a17766.html#a12b995cc8c836efbf0eecc6591c85ff4", null ],
+    [ "_events", "d2/d14/a17766.html#ab789c21e742fe261f9f8aa63509a7d45", null ],
+    [ "_frostwyrmId", "d2/d14/a17766.html#ac2853246532bd913211fc743f4723ce0", null ],
+    [ "_instance", "d2/d14/a17766.html#aa2199507fdabe850b6af9a5ae0283fdc", null ],
+    [ "_isTaunted", "d2/d14/a17766.html#a50632ee1a85936748aabc5fb10f5e982", null ]
 ];

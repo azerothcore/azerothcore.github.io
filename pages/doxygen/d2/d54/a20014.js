@@ -1,6 +1,5 @@
 var a20014 =
 [
-    [ "npc_ulduar_leviathan_mkiiAI", "d2/ddf/a20018.html", "d2/ddf/a20018" ],
-    [ "npc_ulduar_leviathan_mkii", "d2/d54/a20014.html#a9e4671adcb2409a7c83460d28d29f579", null ],
-    [ "GetAI", "d2/d54/a20014.html#afe438e97b6989a8899850619c87cd7e6", null ]
+    [ "achievement_kologarn_rubble_and_roll", "d2/d54/a20014.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
+    [ "OnCheck", "d2/d54/a20014.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
 ];

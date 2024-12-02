@@ -1,7 +1,7 @@
 var a02186 =
 [
-    [ "boss_janalai", "d2/d6f/a13482.html", "d2/d6f/a13482" ],
-    [ "npc_janalai_hatcher", "db/d87/a13486.html", "db/d87/a13486" ],
+    [ "boss_janalai", "db/d87/a13486.html", "db/d87/a13486" ],
+    [ "npc_janalai_hatcher", "d3/dae/a13490.html", "d3/dae/a13490" ],
     [ "Creatures", "d5/d4d/a02186.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],
@@ -322,9 +322,11 @@ var a02186 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

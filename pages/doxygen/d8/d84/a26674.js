@@ -1,5 +1,5 @@
 var a26674 =
 [
-    [ "achievement_flirt_with_disaster_perf_check", "d8/d84/a26674.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
-    [ "OnCheck", "d8/d84/a26674.html#a15e620be2f37f930477ba94293dbaf63", null ]
+    [ "AreaTrigger_at_voltarus_middle", "d8/d84/a26674.html#a45ca444350fe4cfde02ab33da4ce8466", null ],
+    [ "OnTrigger", "d8/d84/a26674.html#a296b300feb6cf999e9e2c2625a911e9b", null ]
 ];

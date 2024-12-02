@@ -1,6 +1,6 @@
 var a18906 =
 [
-    [ "instance_eye_of_eternity_InstanceMapScript", "df/d6f/a18910.html", "df/d6f/a18910" ],
-    [ "instance_eye_of_eternity", "df/df6/a18906.html#afcab4ba969d0423871a4e398627a323d", null ],
-    [ "GetInstanceScript", "df/df6/a18906.html#af51319609d355fe87a77a87eb697f434", null ]
+    [ "npc_eoe_wyrmrest_skytalonAI", "df/df6/a18906.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
+    [ "JustDied", "df/df6/a18906.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
+    [ "PassengerBoarded", "df/df6/a18906.html#aa3352276e87d805cc8722eb97d10ca46", null ]
 ];

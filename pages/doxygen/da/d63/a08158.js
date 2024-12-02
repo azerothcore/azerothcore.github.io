@@ -1,9 +1,26 @@
 var a08158 =
 [
-    [ "Reset", "da/d63/a08158.html#a9c210ff536b49481f71bc6c3f60ee864", null ],
-    [ "guid", "da/d63/a08158.html#ac115013e34f67bc1444fef4fc96c843e", null ],
-    [ "pos", "da/d63/a08158.html#adff317cbf0c2d159d8ffddf52b4751b3", null ],
-    [ "seat", "da/d63/a08158.html#ad57bea2ae3beb6a086a116989b0d528f", null ],
-    [ "time", "da/d63/a08158.html#acec3991f0d19fd9f72e9837eef516057", null ],
-    [ "time2", "da/d63/a08158.html#a426c651d2f359847b033a4d7f278a191", null ]
+    [ "JumpInfo", "dc/d06/a08166.html", "dc/d06/a08166" ],
+    [ "TransportInfo", "d4/d0a/a08162.html", "d4/d0a/a08162" ],
+    [ "MovementInfo", "da/d63/a08158.html#a809340998de55a9ffa895f7b27e1f2c3", null ],
+    [ "AddExtraMovementFlag", "da/d63/a08158.html#aff0e449eb1567041f1a44c34e5fa85bc", null ],
+    [ "AddMovementFlag", "da/d63/a08158.html#ae02908de40bf25e5d07d3bb248448a68", null ],
+    [ "GetExtraMovementFlags", "da/d63/a08158.html#a7a9353ff367c80cddeaddd63fcd32ddb", null ],
+    [ "GetMovementFlags", "da/d63/a08158.html#ade08354701baa32b9ff232d6b07e6097", null ],
+    [ "HasExtraMovementFlag", "da/d63/a08158.html#afad84c80474a806e8abb4626ccfbcfaf", null ],
+    [ "HasMovementFlag", "da/d63/a08158.html#ad9571cb899d58cc60fbe2412be79116e", null ],
+    [ "OutDebug", "da/d63/a08158.html#af8c4c6db42364ec712398b317238c90b", null ],
+    [ "RemoveMovementFlag", "da/d63/a08158.html#ab38114c14a8848a082b4f265eab11c72", null ],
+    [ "SetFallTime", "da/d63/a08158.html#a683565ad0865709083e81d07a8ce1395", null ],
+    [ "SetMovementFlags", "da/d63/a08158.html#ace324e7171c3520efdce76d2bbc75c67", null ],
+    [ "fallTime", "da/d63/a08158.html#abcf42fcf7d61044fd9fb5e6857e21ab5", null ],
+    [ "flags", "da/d63/a08158.html#ab64213c21ac3cdfd769a5acdc7fce200", null ],
+    [ "flags2", "da/d63/a08158.html#aa8dc40a9829334f2ca7fa4e7347f91a5", null ],
+    [ "guid", "da/d63/a08158.html#a10c1c9721558fd98d33bb43b3bfff837", null ],
+    [ "jump", "da/d63/a08158.html#a920a536b873fcc63dd6bb22882a7a8ea", null ],
+    [ "pitch", "da/d63/a08158.html#af2945943a91efc4cd5f2f9a0b86424cf", null ],
+    [ "pos", "da/d63/a08158.html#afc5605f3e357e6ca4f2c681329bb0302", null ],
+    [ "splineElevation", "da/d63/a08158.html#ac524b47fa52b05e7c6a6b7c577c9291f", null ],
+    [ "time", "da/d63/a08158.html#a90c332cb1b99ce1ac6eab39bc2a6e4b2", null ],
+    [ "transport", "da/d63/a08158.html#ac2b0f738ec695f4c9f032daad3e1f041", null ]
 ];

@@ -1,6 +1,6 @@
 var a00911 =
 [
-    [ "boss_kelidan_the_breaker", "d8/d44/a23170.html", "d8/d44/a23170" ],
+    [ "boss_kelidan_the_breaker", "df/d74/a23154.html", "df/d74/a23154" ],
     [ "Actions", "d7/d12/a00911.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],
@@ -163,9 +163,11 @@ var a00911 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

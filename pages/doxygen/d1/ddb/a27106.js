@@ -1,19 +1,11 @@
 var a27106 =
 [
-    [ "npc_simoneAI", "d1/ddb/a27106.html#ab33ec5a76f35bfd088a3d316df5c091c", null ],
-    [ "CorpseRemoved", "d1/ddb/a27106.html#a0bc792b39b9d17a71c86756d2c7b9af0", null ],
-    [ "HandlePetRespawn", "d1/ddb/a27106.html#a0d07b3f85a99ce3c0a1d4c482547113f", null ],
-    [ "JustDied", "d1/ddb/a27106.html#a1c275b32a6d4730657e26e5a9c305eb6", null ],
-    [ "JustEngagedWith", "d1/ddb/a27106.html#a17cad19f460d6cbfe2258ada48de46cd", null ],
-    [ "JustRespawned", "d1/ddb/a27106.html#af456d04fec4a22fa6662ab5a0ccb902b", null ],
-    [ "Precious", "d1/ddb/a27106.html#ad40c5f293558ca5a00614810a89d86c9", null ],
-    [ "PreciousAI", "d1/ddb/a27106.html#acbdf0e5404402edf28fecf8657303aba", null ],
-    [ "Reset", "d1/ddb/a27106.html#a1a62a843922448390151ed14e0ca2148", null ],
-    [ "RespawnPet", "d1/ddb/a27106.html#af6d0cad159d88862e915c9f9337a49e3", null ],
-    [ "ScheduleEncounterStart", "d1/ddb/a27106.html#ab879f0b452e511212be4df530b11d461", null ],
-    [ "SetPreciousGUID", "d1/ddb/a27106.html#a1b735e7c99ba743c74c10911ec08f12b", null ],
-    [ "SpellHit", "d1/ddb/a27106.html#ad50d1248c8a608c52d18ddb9d28168d9", null ],
-    [ "UpdateAI", "d1/ddb/a27106.html#ae20237221e1fb3699cfe723c48d5bbf7", null ],
-    [ "events", "d1/ddb/a27106.html#a1118fe0b8375db5327a9651a13832523", null ],
-    [ "preciousGUID", "d1/ddb/a27106.html#a698a3015b5ad25dfd9ec07dfbb991ea8", null ]
+    [ "npc_franklinAI", "d1/ddb/a27106.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
+    [ "DamageTaken", "d1/ddb/a27106.html#afa494098126ce3291e234cfc2b36336f", null ],
+    [ "JustEngagedWith", "d1/ddb/a27106.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
+    [ "Reset", "d1/ddb/a27106.html#a51a260460facf06ec6bb1486f434d885", null ],
+    [ "ScheduleEncounterStart", "d1/ddb/a27106.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
+    [ "SpellHit", "d1/ddb/a27106.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
+    [ "UpdateAI", "d1/ddb/a27106.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
+    [ "events", "d1/ddb/a27106.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
 ];

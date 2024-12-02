@@ -1,7 +1,13 @@
 var a27902 =
 [
-    [ "Id", "dc/dc9/a27902.html#a5e2447dd0f6b60e322105d8fcafd0010", null ],
-    [ "MaxLevel", "dc/dc9/a27902.html#a0392e52a26bb4e1d1927fa7f76c674b8", null ],
-    [ "Modifier", "dc/dc9/a27902.html#a5ce5b18749d3c75878b310bdc8427b1f", null ],
-    [ "StatMod", "dc/dc9/a27902.html#ab639dd94c53707ca160e13f71342730d", null ]
+    [ "AcquireMethod", "dc/dc9/a27902.html#a31a8f5d642b2826b58bc7dfaf5f26719", null ],
+    [ "ClassMask", "dc/dc9/a27902.html#a868a7a346c1da7fa74ed36f0bfb59e3e", null ],
+    [ "ID", "dc/dc9/a27902.html#a95cab9102e1dd6c4f449aba2ecf14372", null ],
+    [ "MinSkillLineRank", "dc/dc9/a27902.html#a2a6c4b50a288ea023099fb49aaca37e4", null ],
+    [ "RaceMask", "dc/dc9/a27902.html#acfd38780584b90ca40a1e1cd59605832", null ],
+    [ "SkillLine", "dc/dc9/a27902.html#a0050dcf5c82f785dfc93079debe54a13", null ],
+    [ "Spell", "dc/dc9/a27902.html#a19e1a55dadce68e6e9c1bd7bb2ca51dd", null ],
+    [ "SupercededBySpell", "dc/dc9/a27902.html#a0eabe8b18fa4bf67eaaaa56f2264ad5d", null ],
+    [ "TrivialSkillLineRankHigh", "dc/dc9/a27902.html#aa8f0c15da1d4d14853bd42e7e20bc963", null ],
+    [ "TrivialSkillLineRankLow", "dc/dc9/a27902.html#aca5e15003099e1fdbd2eaa701b96f162", null ]
 ];

@@ -1,6 +1,6 @@
 var a00803 =
 [
-    [ "boss_quagmirran", "de/d5d/a22986.html", "de/d5d/a22986" ],
+    [ "boss_quagmirran", "d5/dc3/a22970.html", "d5/dc3/a22970" ],
     [ "Spells", "d5/d72/a00803.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

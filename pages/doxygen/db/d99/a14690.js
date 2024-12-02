@@ -1,5 +1,6 @@
 var a14690 =
 [
-    [ "boss_yauj", "db/d99/a14690.html#a15ab7b6b35d29fb1552b11586163320e", null ],
-    [ "JustEngagedWith", "db/d99/a14690.html#a94a2fa960e6924bde9ba6934a56ed684", null ]
+    [ "HandleScript", "db/d99/a14690.html#a88551ffd3dbe4fb9cc122a68813234f0", null ],
+    [ "PrepareSpellScript", "db/d99/a14690.html#ae4d8cad1b5de248a30085142fcc2cc7b", null ],
+    [ "Register", "db/d99/a14690.html#a434f0aef7f32edb6990efb992e4d57af", null ]
 ];

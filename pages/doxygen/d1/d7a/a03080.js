@@ -1,7 +1,7 @@
 var a03080 =
 [
-    [ "CustomSpellValues", "db/d8b/a10878.html", "db/d8b/a10878" ],
-    [ "SpellImmune", "d2/df9/a10882.html", "d2/df9/a10882" ],
+    [ "CustomSpellValues", "d2/df9/a10882.html", "d2/df9/a10882" ],
+    [ "SpellImmune", "d2/d3a/a10886.html", "d2/d3a/a10886" ],
     [ "MAX_SPELLMOD", "d1/d7a/a03080.html#ae3264dd4fffa9d9f378061c12b25b991", null ],
     [ "CustomSpellValueMod", "d1/d7a/a03080.html#a9712a6b6a8f9f5f194085aed5e4ef7b4", null ],
     [ "SpellImmuneList", "d1/d7a/a03080.html#af3217da0ade707b636c550ca6a151251", null ],
@@ -93,7 +93,10 @@ var a03080 =
       [ "SPELLVALUE_MAX_TARGETS", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371baac4a68bd47fc6d4dd83453928def284b", null ],
       [ "SPELLVALUE_AURA_STACK", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371ba24a1c905a3bb7a0470efc8fe3d6a7951", null ],
       [ "SPELLVALUE_AURA_DURATION", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371ba37dc9131a728fa195552d0c78bf45881", null ],
-      [ "SPELLVALUE_FORCED_CRIT_RESULT", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371baddd96fbac2ae4165f8af8a3a8eb07bf7", null ]
+      [ "SPELLVALUE_FORCED_CRIT_RESULT", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371baddd96fbac2ae4165f8af8a3a8eb07bf7", null ],
+      [ "SPELLVALUE_MISCVALUE0", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371baf763a6a6ff08cc561806ae5babcbb487", null ],
+      [ "SPELLVALUE_MISCVALUE1", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371ba2f20f94eefe5d96e216781649c7ca260", null ],
+      [ "SPELLVALUE_MISCVALUE2", "d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371ba85d6e15228a07c9237eea01b2042e36c", null ]
     ] ],
     [ "TriggerCastFlags", "d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967", [
       [ "TRIGGERED_NONE", "d1/d7a/a03080.html#a9f3c49d8db7e142b86eba36bc8951967ad2e82d2342b545f831dfe79d922a3b20", null ],

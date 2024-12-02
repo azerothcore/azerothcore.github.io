@@ -1,6 +1,9 @@
 var a14218 =
 [
-    [ "FilterTargets", "d4/dbc/a14218.html#ae2d33bee9d8d8c29f07ed60bbaf3e7b0", null ],
-    [ "PrepareSpellScript", "d4/dbc/a14218.html#a2b7ec1db13418f2e369faab6ec8422b4", null ],
-    [ "Register", "d4/dbc/a14218.html#a6375482bd9d1fc6c6941607273c506dc", null ]
+    [ "boss_azuregosAI", "d4/dbc/a14218.html#a839ab1e096d30062d64c1c515a7462a4", null ],
+    [ "JustDied", "d4/dbc/a14218.html#aea4d204173b7882d2d9acf8204410947", null ],
+    [ "JustEngagedWith", "d4/dbc/a14218.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
+    [ "KilledUnit", "d4/dbc/a14218.html#aeefc791e17d2a687f8beae809c44d123", null ],
+    [ "Reset", "d4/dbc/a14218.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
+    [ "UpdateAI", "d4/dbc/a14218.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ]
 ];

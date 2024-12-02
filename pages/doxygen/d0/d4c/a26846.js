@@ -1,6 +1,6 @@
 var a26846 =
 [
-    [ "go_flamesAI", "d7/df5/a26850.html", "d7/df5/a26850" ],
-    [ "go_flames", "d0/d4c/a26846.html#a75d49202eaf2078b8276e59944d1ec89", null ],
-    [ "GetAI", "d0/d4c/a26846.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
+    [ "go_bear_trapAI", "d7/df5/a26850.html", "d7/df5/a26850" ],
+    [ "go_bear_trap", "d0/d4c/a26846.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "d0/d4c/a26846.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

@@ -1,7 +1,10 @@
 var a23554 =
 [
-    [ "HandleDamage", "d4/dcc/a23554.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d4/dcc/a23554.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d4/dcc/a23554.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d4/dcc/a23554.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "npc_raging_flames", "d4/dcc/a23554.html#aa2cc5c8af07c202a7f0fab1af259a0db", null ],
+    [ "EnterEvadeMode", "d4/dcc/a23554.html#a24a878560153dcf9cf5282c6d0a8f7f0", null ],
+    [ "FixateRandomTarget", "d4/dcc/a23554.html#a0e015aa73efdafb1bb9683b2f3c1ba34", null ],
+    [ "InitializeAI", "d4/dcc/a23554.html#a96d3a8ef364dc6bc3f15ffc82b14c4c0", null ],
+    [ "IsSummonedBy", "d4/dcc/a23554.html#ae42c4329be355807af92c1c803e61500", null ],
+    [ "Reset", "d4/dcc/a23554.html#a34ac2249e507784d81c4040e87a646e0", null ],
+    [ "UpdateAI", "d4/dcc/a23554.html#a3e4feafe10e59ad9cb1d2275dc7954b0", null ]
 ];

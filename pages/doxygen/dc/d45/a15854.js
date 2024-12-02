@@ -1,6 +1,6 @@
 var a15854 =
 [
-    [ "npc_argent_soldierAI", "d3/d01/a15858.html", "d3/d01/a15858" ],
-    [ "npc_argent_soldier", "dc/d45/a15854.html#aa308b4cf1df6edf0666d06e0ddab0797", null ],
-    [ "GetAI", "dc/d45/a15854.html#adfeed3d533104b9617dfbb06925a3d44", null ]
+    [ "boss_paletressAI", "d3/d01/a15858.html", "d3/d01/a15858" ],
+    [ "boss_paletress", "dc/d45/a15854.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
+    [ "GetAI", "dc/d45/a15854.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
 ];

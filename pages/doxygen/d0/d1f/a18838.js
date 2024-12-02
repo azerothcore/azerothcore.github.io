@@ -1,6 +1,7 @@
 var a18838 =
 [
-    [ "npc_vortex_rideAI", "dd/d87/a18842.html", "dd/d87/a18842" ],
-    [ "npc_vortex_ride", "d0/d1f/a18838.html#ad794cda407c9dfc35dd9bc2724f5014a", null ],
-    [ "GetAI", "d0/d1f/a18838.html#a23ef53feb432127db2620810a55d02ff", null ]
+    [ "boss_naxxramas_miscAI", "d0/d1f/a18838.html#affd990236c101d91b31f60eea7135cdf", null ],
+    [ "JustDied", "d0/d1f/a18838.html#aae92d4b538907ef829f5f534f16feef1", null ],
+    [ "UpdateAI", "d0/d1f/a18838.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
+    [ "timer", "d0/d1f/a18838.html#a39af06c7bc635bf85eebf4ed40798006", null ]
 ];

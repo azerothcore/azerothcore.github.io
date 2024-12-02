@@ -1,6 +1,6 @@
 var a15890 =
 [
-    [ "npc_black_knight_ghoulAI", "d2/dc0/a15894.html", "d2/dc0/a15894" ],
-    [ "npc_black_knight_ghoul", "d8/dad/a15890.html#a8e62b1070f0ed4e5b917fcaaeb2da8d0", null ],
-    [ "GetAI", "d8/dad/a15890.html#a52308f8d168e1ccea22de653813b7f6f", null ]
+    [ "boss_black_knightAI", "d2/dc0/a15894.html", "d2/dc0/a15894" ],
+    [ "boss_black_knight", "d8/dad/a15890.html#af55a307f282a68bc83e45c6de647ebf4", null ],
+    [ "GetAI", "d8/dad/a15890.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
 ];

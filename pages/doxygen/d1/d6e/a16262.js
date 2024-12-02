@@ -1,6 +1,7 @@
 var a16262 =
 [
-    [ "boss_dredAI", "d4/dbc/a16266.html", "d4/dbc/a16266" ],
-    [ "boss_dred", "d1/d6e/a16262.html#a60a913f53c63f95680c29c72f48f9a1a", null ],
-    [ "GetAI", "d1/d6e/a16262.html#ab8276b185f80a92a54327ea28b19c704", null ]
+    [ "HandleEffectPeriodic", "d1/d6e/a16262.html#ae8121dcb796f3ee496c24bbd46651f81", null ],
+    [ "PrepareAuraScript", "d1/d6e/a16262.html#af84222492b3209c97695895c4c991f4a", null ],
+    [ "Register", "d1/d6e/a16262.html#a4d1741913631bb649508ef238e25a6c8", null ],
+    [ "Validate", "d1/d6e/a16262.html#ac9b7fd3876620988cc74aa0a5202e599", null ]
 ];

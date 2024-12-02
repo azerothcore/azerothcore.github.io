@@ -1,7 +1,8 @@
 var a25626 =
 [
-    [ "OnRemove", "d8/d69/a25626.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
-    [ "PrepareAuraScript", "d8/d69/a25626.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
-    [ "Register", "d8/d69/a25626.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
-    [ "Validate", "d8/d69/a25626.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
+    [ "Absorb", "d8/d69/a25626.html#a9378cde1cc6daab0dc111b94aef4f6c8", null ],
+    [ "CalculateAmount", "d8/d69/a25626.html#a20d5b4776ebeb859b0641af640e41d80", null ],
+    [ "PrepareAuraScript", "d8/d69/a25626.html#ae1a70e11e89c4252e481ad737ad00ae0", null ],
+    [ "Register", "d8/d69/a25626.html#a8c5399ba68554f4c2e842c5492ad715c", null ],
+    [ "Validate", "d8/d69/a25626.html#aa6264e4dbff71b0d82e3403984c59c03", null ]
 ];

@@ -1,7 +1,8 @@
 var a24814 =
 [
-    [ "HandleApplyEffect", "d1/df7/a24814.html#a4e2f6d414aea8ed1339ef3caa24fc17b", null ],
-    [ "Load", "d1/df7/a24814.html#a47a4f15ab02ba3c6ac4dbfd7c4552900", null ],
-    [ "PrepareAuraScript", "d1/df7/a24814.html#a101d38f5ffb34f90ba9af4f787445f2e", null ],
-    [ "Register", "d1/df7/a24814.html#aed57fbbf473b8f15fa177261e4678e96", null ]
+    [ "CheckCast", "d1/df7/a24814.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
+    [ "HandleScript", "d1/df7/a24814.html#a2c1702398e4cbdcc106679d534a27743", null ],
+    [ "PrepareSpellScript", "d1/df7/a24814.html#a613bdf7841744632c1e6de147e0352b9", null ],
+    [ "Register", "d1/df7/a24814.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
+    [ "Validate", "d1/df7/a24814.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
 ];

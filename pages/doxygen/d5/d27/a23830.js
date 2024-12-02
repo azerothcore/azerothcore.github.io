@@ -1,6 +1,8 @@
 var a23830 =
 [
-    [ "npcs_flanis_swiftwing_and_kagrosh", "d5/d27/a23830.html#aa95eceea94521947bd443805c8ddb52d", null ],
-    [ "OnGossipHello", "d5/d27/a23830.html#a7f331c38ec82d2c69bce4b1f861527a0", null ],
-    [ "OnGossipSelect", "d5/d27/a23830.html#aff34165955ba93e1fcd2b9731894d871", null ]
+    [ "CreatureId", "d5/d27/a23830.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d5/d27/a23830.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d5/d27/a23830.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d5/d27/a23830.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d5/d27/a23830.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

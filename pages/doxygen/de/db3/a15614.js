@@ -1,7 +1,9 @@
 var a15614 =
 [
-    [ "HandleHit", "de/db3/a15614.html#abd59d91ab50eb8945a4a00157d9d5564", null ],
-    [ "PrepareSpellScript", "de/db3/a15614.html#a27549f3cacc1732bbc1e61209e0f4905", null ],
-    [ "Register", "de/db3/a15614.html#af132eee38064c5123f4e01d52efb9314", null ],
-    [ "Validate", "de/db3/a15614.html#accad8dfdf29a1475b6f272259f1ed9bf", null ]
+    [ "boss_sartharion_vesperonAI", "de/db3/a15614.html#afd67bf2c7a479771976673b05b0fc29e", null ],
+    [ "ClearInstance", "de/db3/a15614.html#aad9556374e26cbea7641461510fef9ba", null ],
+    [ "ExecuteEvent", "de/db3/a15614.html#aaf88a9e57c0d35f9e5d3fbcd4e2f5d09", null ],
+    [ "HandleExtraEvent", "de/db3/a15614.html#ab2080a14c105aeb6a9c155cf6f4ec17d", null ],
+    [ "Reset", "de/db3/a15614.html#aacf26c52f77ef4eb084814934f00aab1", null ],
+    [ "SummonedCreatureDies", "de/db3/a15614.html#a1e6fc9b1c734e73e5e27f6a17cf65d0b", null ]
 ];

@@ -1,11 +1,11 @@
 var a13914 =
 [
-    [ "npc_the_etymidian", "d2/d44/a13914.html#af491016ac89b67947650a5ca9c379875", null ],
-    [ "MoveInLineOfSight", "d2/d44/a13914.html#adde2d86e30442eb1b47219e934e24407", null ],
-    [ "Reset", "d2/d44/a13914.html#a714edf3ba5f7a6d59242c991764effc5", null ],
-    [ "UpdateAI", "d2/d44/a13914.html#a1f3cfddae43e443c5cd4a8a0f9f87a89", null ],
-    [ "orphanGUID", "d2/d44/a13914.html#a9ba2c34b08d0fe61e18037b02f352d08", null ],
-    [ "phase", "d2/d44/a13914.html#a7086e9a8a8a7287cf90688270e9933a7", null ],
-    [ "playerGUID", "d2/d44/a13914.html#a7371e361c018360315e20086b0b99079", null ],
-    [ "timer", "d2/d44/a13914.html#a8508a2c89eeeee2d235e1178ca77e895", null ]
+    [ "npc_snowfall_glade_playmate", "d2/d44/a13914.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
+    [ "MoveInLineOfSight", "d2/d44/a13914.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
+    [ "Reset", "d2/d44/a13914.html#a89040d9843852b01123e102b49509857", null ],
+    [ "UpdateAI", "d2/d44/a13914.html#a6dedc1cae1e568a792341842e8a922e8", null ],
+    [ "orphanGUID", "d2/d44/a13914.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
+    [ "phase", "d2/d44/a13914.html#a9a5b2348313063bc389b99158fc72e3f", null ],
+    [ "playerGUID", "d2/d44/a13914.html#a4ca4198fdbf3c98291255916ee53c637", null ],
+    [ "timer", "d2/d44/a13914.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
 ];

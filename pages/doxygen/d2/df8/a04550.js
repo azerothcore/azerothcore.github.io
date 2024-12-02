@@ -88,6 +88,7 @@ var a04550 =
       [ "LOGIN_DEL_SECRET_DIGEST", "d2/df8/a04550.html#a2bc6eef17d8ecd1b7027058f5fecc9fbaa928ac63a43cff9c58b1e57099832b0e", null ],
       [ "LOGIN_SEL_ACCOUNT_TOTP_SECRET", "d2/df8/a04550.html#a2bc6eef17d8ecd1b7027058f5fecc9fba893c6ff6135e9e2d0bc0ece21ab5234f", null ],
       [ "LOGIN_UPD_ACCOUNT_TOTP_SECRET", "d2/df8/a04550.html#a2bc6eef17d8ecd1b7027058f5fecc9fba4f6a2b080a418eb5b82581973b83964b", null ],
+      [ "LOGIN_INS_UPTIME", "d2/df8/a04550.html#a2bc6eef17d8ecd1b7027058f5fecc9fbafe38a012d9b99cd1261190afd3eafbc0", null ],
       [ "MAX_LOGINDATABASE_STATEMENTS", "d2/df8/a04550.html#a2bc6eef17d8ecd1b7027058f5fecc9fba4a7dcdba7c9e8aeda8e34fba9d1da0b8", null ]
     ] ]
 ];

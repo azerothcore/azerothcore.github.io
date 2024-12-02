@@ -1,10 +1,13 @@
 var a10834 =
 [
-    [ "TriggeredByAuraSpellData", "d3/dcf/a10834.html#a3f4704eed73af1e37a3d09434cfcddae", null ],
-    [ "Init", "d3/dcf/a10834.html#a782e0056967e006748318af3112c0e43", null ],
-    [ "operator bool", "d3/dcf/a10834.html#a85d4782b76b060c172aaa6f914d400da", null ],
-    [ "operator!", "d3/dcf/a10834.html#af7290a4c37b1829a98e436486fa8b6cd", null ],
-    [ "effectIndex", "d3/dcf/a10834.html#a9bbee8d48d4beb8a21721a10e0380c41", null ],
-    [ "spellInfo", "d3/dcf/a10834.html#af58f62fb168e9da7011f7b570f08e977", null ],
-    [ "tickNumber", "d3/dcf/a10834.html#afbb1ffd006dc6eb00ccd65add87b1b22", null ]
+    [ "alive", "d3/dcf/a10834.html#aebeb2f67bf8646770570e5564fb01d4d", null ],
+    [ "crit", "d3/dcf/a10834.html#a908278bd46f9be3e1191f4883f9eb32f", null ],
+    [ "damage", "d3/dcf/a10834.html#a5bdf23f41a4a748f96dd9fffa8e8a838", null ],
+    [ "effectMask", "d3/dcf/a10834.html#afb839b2b409a61e4d63de03dbce2abcb", null ],
+    [ "missCondition", "d3/dcf/a10834.html#a6c17740427f4f90c7c2e4fb4854ab4b3", null ],
+    [ "processed", "d3/dcf/a10834.html#a2de96d62297ff614fc3702bec035ce5b", null ],
+    [ "reflectResult", "d3/dcf/a10834.html#add2beb55eb3313e474d947fd3eb1fc65", null ],
+    [ "scaleAura", "d3/dcf/a10834.html#a89bba366b26686d41288e9b2e725eb75", null ],
+    [ "targetGUID", "d3/dcf/a10834.html#acf55c1dd6f00c94296c592d988f959cf", null ],
+    [ "timeDelay", "d3/dcf/a10834.html#abcf1acd0c3d50c2264253dc9c052795a", null ]
 ];

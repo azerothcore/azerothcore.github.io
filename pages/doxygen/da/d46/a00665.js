@@ -1,10 +1,10 @@
 var a00665 =
 [
-    [ "boss_alar", "d5/d77/a23422.html", "d5/d77/a23422" ],
-    [ "CastQuill", "dc/d70/a23426.html", "dc/d70/a23426" ],
-    [ "spell_alar_flame_quills", "dc/d5b/a23430.html", "dc/d5b/a23430" ],
-    [ "spell_alar_ember_blast", "d2/dff/a23434.html", "d2/dff/a23434" ],
-    [ "spell_alar_dive_bomb", "d1/d87/a23438.html", "d1/d87/a23438" ],
+    [ "boss_alar", "d1/d13/a23406.html", "d1/d13/a23406" ],
+    [ "CastQuill", "de/d80/a23410.html", "de/d80/a23410" ],
+    [ "spell_alar_flame_quills", "d4/d5a/a23414.html", "d4/d5a/a23414" ],
+    [ "spell_alar_ember_blast", "db/d80/a23418.html", "db/d80/a23418" ],
+    [ "spell_alar_dive_bomb", "d5/d77/a23422.html", "d5/d77/a23422" ],
     [ "GroupAlar", "da/d46/a00665.html#affdfad05d59fe2df3a25189df6c3bf7e", [
       [ "GROUP_FLAME_BUFFET", "da/d46/a00665.html#affdfad05d59fe2df3a25189df6c3bf7ea736f8214156adfa79b40871fd56adf53", null ]
     ] ],
@@ -86,9 +86,11 @@ var a00665 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

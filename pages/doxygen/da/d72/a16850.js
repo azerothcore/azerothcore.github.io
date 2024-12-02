@@ -1,13 +1,11 @@
 var a16850 =
 [
-    [ "boss_slad_ranAI", "da/d72/a16850.html#ad85e2fd51d67739026a96bc757bc7801", null ],
-    [ "GetData", "da/d72/a16850.html#a58e1188a418acdc1f327e7df90c5c122", null ],
-    [ "JustDied", "da/d72/a16850.html#a636ca76497c33a5175986e80bbcda44a", null ],
-    [ "JustEngagedWith", "da/d72/a16850.html#ac30b38805d0421b1be509c7d5609c648", null ],
-    [ "JustSummoned", "da/d72/a16850.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
-    [ "KilledUnit", "da/d72/a16850.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
-    [ "Reset", "da/d72/a16850.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
-    [ "SetData", "da/d72/a16850.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
-    [ "UpdateAI", "da/d72/a16850.html#a9eeb3281456779edd9570119ba8a2105", null ],
-    [ "_achievement", "da/d72/a16850.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
+    [ "boss_moorabiAI", "da/d72/a16850.html#a60a03c3840a3743719996929d2ca9e59", null ],
+    [ "JustDied", "da/d72/a16850.html#a6d866bf54dc06e4f20eb4d62ea97928a", null ],
+    [ "JustEngagedWith", "da/d72/a16850.html#a1fa46ac21b28ff49382c7389a46fad75", null ],
+    [ "KilledUnit", "da/d72/a16850.html#a265855d2972e534e927bfa609fbf2cf5", null ],
+    [ "Reset", "da/d72/a16850.html#a9daf89ed0f4e5795cafc63a6a81e5d1d", null ],
+    [ "SpellHitTarget", "da/d72/a16850.html#af1f30a0f3bf0f88725f8a146c528b77a", null ],
+    [ "UpdateAI", "da/d72/a16850.html#a9f9956aaaa60d5d0005a55a87d0424eb", null ],
+    [ "events2", "da/d72/a16850.html#a02a3bc20ca7b1b750bfd1bd29f093dd2", null ]
 ];

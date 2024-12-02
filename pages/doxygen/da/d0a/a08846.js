@@ -1,15 +1,11 @@
 var a08846 =
 [
-    [ "CoordPair", "da/d0a/a08846.html#a53b5f24cfdf13b246549a0c1543924c9", null ],
-    [ "CoordPair", "da/d0a/a08846.html#aab92ece0f01ebc00cdac4966e02fa8fd", null ],
-    [ "dec_x", "da/d0a/a08846.html#a69be5b72b710722120104f0c502fbb70", null ],
-    [ "dec_y", "da/d0a/a08846.html#aefa33f8766212bb71e5fd19a318142cc", null ],
-    [ "GetId", "da/d0a/a08846.html#ae4f7f304faf2c2363cffe2170b4c5c97", null ],
-    [ "inc_x", "da/d0a/a08846.html#aa6a4942253e87ae57e2d69a2563ddef1", null ],
-    [ "inc_y", "da/d0a/a08846.html#a120946c5a8c8b49bbdf9a1ee54ded9ec", null ],
-    [ "IsCoordValid", "da/d0a/a08846.html#a082960c54e2077df370f891c0534b44f", null ],
-    [ "normalize", "da/d0a/a08846.html#afac8086374bfc499e3a8d74d6afc58db", null ],
-    [ "operator=", "da/d0a/a08846.html#a27f81c359c4ae278d663e85eccbeebb9", null ],
-    [ "x_coord", "da/d0a/a08846.html#a101dd71af6a2cba18140aea2e502ef8b", null ],
-    [ "y_coord", "da/d0a/a08846.html#aacae12844cc0c0d70e26b137ad28f700", null ]
+    [ "~Grid", "da/d0a/a08846.html#a86be65dc86f104566acd41078429e4c4", null ],
+    [ "AddGridObject", "da/d0a/a08846.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
+    [ "AddWorldObject", "da/d0a/a08846.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
+    [ "Visit", "da/d0a/a08846.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
+    [ "Visit", "da/d0a/a08846.html#aebdcac90d763779775dbc0f0492e5279", null ],
+    [ "GridLoader", "da/d0a/a08846.html#a06e47216bdac43edea86c507c93a6ed4", null ],
+    [ "i_container", "da/d0a/a08846.html#a510723553d7206edb25792856c6c369b", null ],
+    [ "i_objects", "da/d0a/a08846.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
 ];

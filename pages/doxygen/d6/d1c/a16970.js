@@ -1,6 +1,6 @@
 var a16970 =
 [
-    [ "PrepareSpellScript", "d6/d1c/a16970.html#a37899f12707930d038de38bae92c9aff", null ],
-    [ "Register", "d6/d1c/a16970.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
-    [ "SelectDest", "d6/d1c/a16970.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
+    [ "ChangeSummonPos", "d6/d1c/a16970.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "d6/d1c/a16970.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "d6/d1c/a16970.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

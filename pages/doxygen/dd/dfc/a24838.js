@@ -1,7 +1,14 @@
 var a24838 =
 [
-    [ "HandleEffectApply", "dd/dfc/a24838.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
-    [ "OnRemove", "dd/dfc/a24838.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
-    [ "PrepareAuraScript", "dd/dfc/a24838.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
-    [ "Register", "dd/dfc/a24838.html#a473189971d0a03e7305b7b9e41dc5207", null ]
+    [ "spell_gen_mount", "dd/dfc/a24838.html#aae8c5c328dda0668bf8cdabc2c9cd29f", null ],
+    [ "HandleMount", "dd/dfc/a24838.html#a81085b5efd8d9bd7c82ebb1cf6604793", null ],
+    [ "PrepareSpellScript", "dd/dfc/a24838.html#a49e2046d30352a6e22dab2530e909fa7", null ],
+    [ "Register", "dd/dfc/a24838.html#a8175ecc0c407d5c4646f038d7b62e92b", null ],
+    [ "Validate", "dd/dfc/a24838.html#accef27fc13ff34af52860ad6ac62e7f3", null ],
+    [ "_mount0", "dd/dfc/a24838.html#abd6347074186b7c47ac5a2c760f4db33", null ],
+    [ "_mount100", "dd/dfc/a24838.html#a5e56853140f188ff1babc61c507f8300", null ],
+    [ "_mount150", "dd/dfc/a24838.html#a1237697623e4831c25efcde1ab370031", null ],
+    [ "_mount280", "dd/dfc/a24838.html#aa9d0a936795d06dd78ef3c4d5aaf0320", null ],
+    [ "_mount310", "dd/dfc/a24838.html#ac06b80d14cc106281c3e6bf3f6a5c727", null ],
+    [ "_mount60", "dd/dfc/a24838.html#a53ce7d1b5a39cce2bede77aad647dc7e", null ]
 ];

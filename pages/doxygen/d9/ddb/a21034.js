@@ -1,6 +1,6 @@
 var a21034 =
 [
-    [ "npc_vh_sinclari", "d9/ddb/a21034.html#ad0235f207a3031420532174c04e0c348", null ],
-    [ "OnGossipHello", "d9/ddb/a21034.html#a95f0d094d417d9d6ce99d7c8aa83496f", null ],
-    [ "OnGossipSelect", "d9/ddb/a21034.html#af0a260d7868f601ae239c226b10d4de3", null ]
+    [ "npc_azure_invaderAI", "d0/df1/a21038.html", "d0/df1/a21038" ],
+    [ "npc_azure_invader", "d9/ddb/a21034.html#ab318178a618f2bfdcd5ea3105c240d32", null ],
+    [ "GetAI", "d9/ddb/a21034.html#a19c000084ea74a401ece81ee0e20b65c", null ]
 ];

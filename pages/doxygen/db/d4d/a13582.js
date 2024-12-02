@@ -1,8 +1,6 @@
 var a13582 =
 [
-    [ "boss_grilekAI", "db/d4d/a13582.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
-    [ "JustEngagedWith", "db/d4d/a13582.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
-    [ "Reset", "db/d4d/a13582.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
-    [ "UpdateAI", "db/d4d/a13582.html#a19438103c9a582a7d36d805c80131e8c", null ],
-    [ "_pursuitTargetGUID", "db/d4d/a13582.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
+    [ "boss_gahzranka", "db/d4d/a13582.html#a82cc1a44a967f859039957e41f38dd77", null ],
+    [ "IsSummonedBy", "db/d4d/a13582.html#ad68be854f95c398dc5dd9e5b22f538a8", null ],
+    [ "JustEngagedWith", "db/d4d/a13582.html#ac1cc43194c00fda1729f8a068d4e8779", null ]
 ];

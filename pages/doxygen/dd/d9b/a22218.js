@@ -1,14 +1,12 @@
 var a22218 =
 [
-    [ "event_enter", "dd/d9b/a22218.html#ac80d575f14dca1c901be55e34cc690e1", null ],
-    [ "event_leave", "dd/d9b/a22218.html#a3dc0a11a5c06079026d27852e7561b74", null ],
-    [ "map_tower_a", "dd/d9b/a22218.html#a9a65209caac3791b835c1920f5a667cf", null ],
-    [ "map_tower_h", "dd/d9b/a22218.html#aa30ae484db7c69137abb13adb1b3c505", null ],
-    [ "map_tower_n", "dd/d9b/a22218.html#a0453edceab2132e900bec183e360e210", null ],
-    [ "slider_disp", "dd/d9b/a22218.html#aec3c8dde769675e3f436515c7a3bcf24", null ],
-    [ "slider_n", "dd/d9b/a22218.html#a65015a3a24a5554643ecb5da47e24eea", null ],
-    [ "slider_pos", "dd/d9b/a22218.html#acc63481f7613242ac06c6bee6c136a30", null ],
-    [ "ui_tower_a", "dd/d9b/a22218.html#a0107bfd3b1df99568e02d6ca80042c86", null ],
-    [ "ui_tower_h", "dd/d9b/a22218.html#a94a5fa0517fd0713b74f50a3d1d627cc", null ],
-    [ "ui_tower_n", "dd/d9b/a22218.html#ae0fd99db88e6c60b829a18ff8e4be9a0", null ]
+    [ "boss_exarch_maladaar", "dd/d9b/a22218.html#a5dac68e3dc6fc37736bf85b84eadd417", null ],
+    [ "JustDied", "dd/d9b/a22218.html#ab1179a19af8948d430559db4074c41ed", null ],
+    [ "JustEngagedWith", "dd/d9b/a22218.html#a69427e7a0ca70253ad8035b5e6b1e01e", null ],
+    [ "JustSummoned", "dd/d9b/a22218.html#a8f59e1b093af8c85da8c2fd38e01ca1b", null ],
+    [ "KilledUnit", "dd/d9b/a22218.html#adf35cb8b039676500d4040baa08b0d48", null ],
+    [ "MoveInLineOfSight", "dd/d9b/a22218.html#a14baacd30b9186c7492c981313421d5b", null ],
+    [ "Reset", "dd/d9b/a22218.html#accb21d3c4a6856d2de9641cf84c42ce9", null ],
+    [ "UpdateAI", "dd/d9b/a22218.html#a7646c4477135d3d3b8580432902babd4", null ],
+    [ "_talked", "dd/d9b/a22218.html#a15c4f122529b9f52823ea407c43433c5", null ]
 ];

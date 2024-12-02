@@ -1,6 +1,6 @@
 var a15906 =
 [
-    [ "npc_toc5_grand_champion_minionAI", "d0/d49/a15910.html", "d0/d49/a15910" ],
-    [ "npc_toc5_grand_champion_minion", "d5/d50/a15906.html#a5761757b3cbbbce8ada4770805eb8de5", null ],
-    [ "GetAI", "d5/d50/a15906.html#a55acf397b94ba63b1db626dc1041b28e", null ]
+    [ "npc_black_knight_ghoulAI", "d0/d49/a15910.html", "d0/d49/a15910" ],
+    [ "npc_black_knight_ghoul", "d5/d50/a15906.html#a8e62b1070f0ed4e5b917fcaaeb2da8d0", null ],
+    [ "GetAI", "d5/d50/a15906.html#a52308f8d168e1ccea22de653813b7f6f", null ]
 ];

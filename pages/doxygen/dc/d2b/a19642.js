@@ -1,28 +1,5 @@
 var a19642 =
 [
-    [ "boss_freyaAI", "dc/d2b/a19642.html#a0441cd3dc5902696823b992c340660e9", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "dc/d2b/a19642.html#a3696b798ea0c6c899263cd06e9eb467d", null ],
-    [ "DamageTaken", "dc/d2b/a19642.html#a3ecaa81b75770931d55938f8b36328f6", null ],
-    [ "DoAction", "dc/d2b/a19642.html#a607c12e1d6dcbdb7f45ccf7f7a0ab515", null ],
-    [ "GetData", "dc/d2b/a19642.html#ace4bd3a529e3a9b2d0bcb7babdd78b7d", null ],
-    [ "JustEngagedWith", "dc/d2b/a19642.html#a3fd5c4e8997e06afdd9c4a9f7003cb9b", null ],
-    [ "JustReachedHome", "dc/d2b/a19642.html#a90b5d1d5fb31de96b8fbd3a7e373fb3b", null ],
-    [ "JustSummoned", "dc/d2b/a19642.html#af904769f707ef1daa9a4ebbd21eee661", null ],
-    [ "KilledUnit", "dc/d2b/a19642.html#add2c5875d831e1e1b69285228329c5d1", null ],
-    [ "Reset", "dc/d2b/a19642.html#a7ce317e14696250ef282e6d97645bbcf", null ],
-    [ "SpawnWave", "dc/d2b/a19642.html#acc2b964411ba9334e87940ac85acd106", null ],
-    [ "SpellHit", "dc/d2b/a19642.html#a9830104d9f0fbd4a25e9ce425e57df4e", null ],
-    [ "SpellHitTarget", "dc/d2b/a19642.html#a4f14e1653a9925b92954fb8ff28e9bb0", null ],
-    [ "UpdateAI", "dc/d2b/a19642.html#af128b016426e5ea33ecc0bbee4a5fb14", null ],
-    [ "_backToNature", "dc/d2b/a19642.html#a0eabb4541faf52d22ed2d7b59edb7055", null ],
-    [ "_deforestation", "dc/d2b/a19642.html#afa6d2870adc9b550f3ca6c190bb61b4c", null ],
-    [ "_elderGUID", "dc/d2b/a19642.html#a562f34591c822cd957d9b970cfd5c05c", null ],
-    [ "_lumberjacked", "dc/d2b/a19642.html#a896ac0c1392fb119f5a5dadf6a29a3aa", null ],
-    [ "_respawningTrio", "dc/d2b/a19642.html#aa9686a1d02d9b33e6621a817a5a0a138", null ],
-    [ "_spawnedAmount", "dc/d2b/a19642.html#a45bdff52a8cd0d286070c22c2c42de77", null ],
-    [ "_trioKilled", "dc/d2b/a19642.html#a05ccafeffda3ba6bb0b1fac250c9aae4", null ],
-    [ "_waveNumber", "dc/d2b/a19642.html#aef672931b5f87a4f6c630f45393eb253", null ],
-    [ "events", "dc/d2b/a19642.html#ade3d910b3f1126d39fb3f01f37f2b4d8", null ],
-    [ "m_pInstance", "dc/d2b/a19642.html#aa82d03099910ad78a52b34bf4e971002", null ],
-    [ "summons", "dc/d2b/a19642.html#a79e0526f188c612af25c4c4393ce4107", null ]
+    [ "achievement_flame_leviathan_shutout", "dc/d2b/a19642.html#a555e0d206b7f730665d301c7e03b23e6", null ],
+    [ "OnCheck", "dc/d2b/a19642.html#af548232f563fd387bc8ee25b696a2f99", null ]
 ];

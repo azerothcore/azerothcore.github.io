@@ -1,6 +1,5 @@
 var a21654 =
 [
-    [ "npc_plaguehound_trackerAI", "d4/d6c/a21658.html", "d4/d6c/a21658" ],
-    [ "npc_plaguehound_tracker", "df/da4/a21654.html#a5c2803907cf06bc3e641bbb8171681d3", null ],
-    [ "GetAI", "df/da4/a21654.html#a1ec8f190139b35837a0ce6c4c2f08709", null ]
+    [ "npc_black_knight_graveyardAI", "df/da4/a21654.html#a908ccf6763240ba0c0ebdf2dec6e1b36", null ],
+    [ "MoveInLineOfSight", "df/da4/a21654.html#aa5c80b5759656e3865d6721161f9f005", null ]
 ];

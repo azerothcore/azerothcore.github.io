@@ -1,9 +1,9 @@
 var a21166 =
 [
-    [ "npc_lurgglbrAI", "d0/d28/a21166.html#a9239b85c65f9b405335d432f355637d5", null ],
-    [ "Reset", "d0/d28/a21166.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
-    [ "UpdateAI", "d0/d28/a21166.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
-    [ "WaypointReached", "d0/d28/a21166.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
-    [ "IntroPhase", "d0/d28/a21166.html#a57e2c42cccf91765365e0b046446637a", null ],
-    [ "IntroTimer", "d0/d28/a21166.html#ada9762806ae0132e37197e6fb1279866", null ]
+    [ "npc_captured_beryl_sorcererAI", "d0/d28/a21166.html#a3c3f47022aee418f228803a2504470a3", null ],
+    [ "Initialize", "d0/d28/a21166.html#a98b2ff2f0e152a41106eaace5273aa69", null ],
+    [ "MoveInLineOfSight", "d0/d28/a21166.html#a4f7edf7bc7480bf0c9f6aec113b2e058", null ],
+    [ "Reset", "d0/d28/a21166.html#ac96af1fd018e88950d1c58562dffdb83", null ],
+    [ "UpdateAI", "d0/d28/a21166.html#a1bbefa59abce0c7b3d7b343ddc467c98", null ],
+    [ "_events", "d0/d28/a21166.html#a0ba1f7ffa792c93ccd4df8ec2c80fb42", null ]
 ];

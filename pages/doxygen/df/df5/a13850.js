@@ -1,10 +1,9 @@
 var a13850 =
 [
-    [ "npc_coren_direbrew_sisters", "df/df5/a13850.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
-    [ "GetGUID", "df/df5/a13850.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
-    [ "JustEngagedWith", "df/df5/a13850.html#a34e0b6af032240c152c463c221d99335", null ],
-    [ "SetGUID", "df/df5/a13850.html#ada2e446a929bbba088d3c7e09d117f93", null ],
-    [ "UpdateAI", "df/df5/a13850.html#a7434b08d12d3f0902d1944b75323560c", null ],
-    [ "_scheduler", "df/df5/a13850.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
-    [ "_targetGUID", "df/df5/a13850.html#a801a6811124a7db3a31ec492ef954b20", null ]
+    [ "npc_brew_bubble", "df/df5/a13850.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
+    [ "DoAction", "df/df5/a13850.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
+    [ "MoveInLineOfSight", "df/df5/a13850.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
+    [ "Reset", "df/df5/a13850.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
+    [ "UpdateAI", "df/df5/a13850.html#a25018deaa206620f6e98ba722f689b8d", null ],
+    [ "timer", "df/df5/a13850.html#a4bee73add756ba4b3137818b2dacd27f", null ]
 ];

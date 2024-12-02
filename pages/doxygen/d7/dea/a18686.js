@@ -1,15 +1,16 @@
 var a18686 =
 [
-    [ "boss_kelthuzad_minionAI", "d7/dea/a18686.html#addeb3112e8b6da5713e6c25878c7e785", null ],
-    [ "AttackStart", "d7/dea/a18686.html#ae6e2b0dd529f819b5b62348059dacb02", null ],
-    [ "DoAction", "d7/dea/a18686.html#acd08aa78c1620f5552bbbc77c06b4344", null ],
-    [ "JustDied", "d7/dea/a18686.html#abc6db76c9dcdbdb1c51b7f67d4c39551", null ],
-    [ "JustEngagedWith", "d7/dea/a18686.html#a135dd028f95eeb34b2852e8dafebbe63", null ],
-    [ "JustReachedHome", "d7/dea/a18686.html#aedfaf037ddf66d0e3aa990b4ea5b171c", null ],
-    [ "KilledUnit", "d7/dea/a18686.html#ac8a2297a89310f4902fdc544ef71b673", null ],
-    [ "MoveInLineOfSight", "d7/dea/a18686.html#aee871ff356bcfd38162a5f6c9bd3c994", null ],
-    [ "Reset", "d7/dea/a18686.html#a01db0df4ec5f49d0915e90c418ebba75", null ],
-    [ "UpdateAI", "d7/dea/a18686.html#ad60ec485144e447fd9d43b0cd5d6c87c", null ],
-    [ "callHelp", "d7/dea/a18686.html#a6c6935e058bc18c013bc31f03f5a914b", null ],
-    [ "events", "d7/dea/a18686.html#a2885d65bfaf345e7c3dfa42d8c80a892", null ]
+    [ "boss_heiganAI", "d7/dea/a18686.html#a7aab8f8d2c3ccb434c2290362d03f89e", null ],
+    [ "IsInRoom", "d7/dea/a18686.html#a3aee27fdbb0ce9c60f2115b878112ea8", null ],
+    [ "JustDied", "d7/dea/a18686.html#a4a7389a2f81677fa5c0e871bc996fe26", null ],
+    [ "JustEngagedWith", "d7/dea/a18686.html#a72a2ae89b7abede9f8a4cb3ee9d76258", null ],
+    [ "KilledUnit", "d7/dea/a18686.html#a58160aefd36208ad7f0fec161a3f8b85", null ],
+    [ "Reset", "d7/dea/a18686.html#a515a86419bdd1f755943a371b3601795", null ],
+    [ "StartFightPhase", "d7/dea/a18686.html#a211387ae4f89d54a22a4f8515239d1c3", null ],
+    [ "UpdateAI", "d7/dea/a18686.html#a9009ae9392e183758a48ebe59b9c0cf0", null ],
+    [ "currentPhase", "d7/dea/a18686.html#a7b0a9b9f53cded3bc24ed22c1b643a30", null ],
+    [ "currentSection", "d7/dea/a18686.html#a848fbc5aa8a497ae01057c6f0ba59e7a", null ],
+    [ "events", "d7/dea/a18686.html#a7cc35d445aadf1eb252482522b8cc26d", null ],
+    [ "moveRight", "d7/dea/a18686.html#a12da8a2326f0ac72e6ee8733c55139c8", null ],
+    [ "pInstance", "d7/dea/a18686.html#a4b64769f2e10e7ba598fcc115b021fd4", null ]
 ];

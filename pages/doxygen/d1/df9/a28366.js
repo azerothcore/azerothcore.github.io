@@ -1,7 +1,11 @@
 var a28366 =
 [
-    [ "_pad", "d1/df9/a28366.html#ad6e8aff776dfb6fa95c30d0318b3af25", null ],
-    [ "Count", "d1/df9/a28366.html#ac90dd584efc679554d4cee31c988c7c8", null ],
-    [ "Name", "d1/df9/a28366.html#ae93b772cbbe91b9ed55c78e22317c8dd", null ],
-    [ "StartIndex", "d1/df9/a28366.html#a2ab3e4bac4c3b7e6b4ed7a72042d05fa", null ]
+    [ "material", "d1/df9/a28366.html#a7079e8817a9684602084eb224f2540fc", null ],
+    [ "pos_x", "d1/df9/a28366.html#ac4d971cc46506be14716124afbb5ad9c", null ],
+    [ "pos_y", "d1/df9/a28366.html#a6cd85f2a674d732e88371ffce5e46077", null ],
+    [ "pos_z", "d1/df9/a28366.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
+    [ "xtiles", "d1/df9/a28366.html#aca34dfa64624cfe04c314c13bbed0062", null ],
+    [ "xverts", "d1/df9/a28366.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
+    [ "ytiles", "d1/df9/a28366.html#a9901a7e9828ac840bc290b0768831d66", null ],
+    [ "yverts", "d1/df9/a28366.html#abf24042b85692cd0df05d65d734dd99e", null ]
 ];

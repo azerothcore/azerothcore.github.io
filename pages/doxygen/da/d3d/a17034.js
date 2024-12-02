@@ -1,25 +1,6 @@
 var a17034 =
 [
-    [ "boss_deathbringer_saurfangAI", "da/d3d/a17034.html#a78cf4803f0808b401a4afea460db3b14", null ],
-    [ "AttackStart", "da/d3d/a17034.html#a36f76d1ef31a57a0bf514fddf26915ae", null ],
-    [ "CanAIAttack", "da/d3d/a17034.html#a11de329657e95d2306ea5e46e3bb0a62", null ],
-    [ "DamageTaken", "da/d3d/a17034.html#a05a7e9991011be47b25e7b801546d1ae", null ],
-    [ "DoAction", "da/d3d/a17034.html#ae5615db7a2b5e62ae000c27ac72300de", null ],
-    [ "EnterEvadeMode", "da/d3d/a17034.html#a7a64e4cea46c418f5d5bdab375395619", null ],
-    [ "GetData", "da/d3d/a17034.html#ac18af44a38a78e43d9754495da21dd17", null ],
-    [ "JustDied", "da/d3d/a17034.html#a131b97a502d6b74f66eb84244bce30f6", null ],
-    [ "JustEngagedWith", "da/d3d/a17034.html#ab4aace4aa38d8675f7dc6d782831579a", null ],
-    [ "JustReachedHome", "da/d3d/a17034.html#a98ee80efda5186715d1a421706fd0cbe", null ],
-    [ "JustSummoned", "da/d3d/a17034.html#ac4a283227cba48181cb440b77ded253f", null ],
-    [ "KilledUnit", "da/d3d/a17034.html#a2caab02f8e131444887ce1870e995f55", null ],
-    [ "MoveInLineOfSight", "da/d3d/a17034.html#a4a4e0b30eccb55e6c3bd4995f5a2b046", null ],
-    [ "MovementInform", "da/d3d/a17034.html#a1c6e890d515f1e94b0f15201c507e1f5", null ],
-    [ "Reset", "da/d3d/a17034.html#a8d60450b2e58a1da1e7c77833df80c12", null ],
-    [ "SpellHitTarget", "da/d3d/a17034.html#a24c9f66fc424f16fb984a631c99a8096", null ],
-    [ "SummonedCreatureDespawn", "da/d3d/a17034.html#ac371fbdd47841f4247d7d1a082fea20c", null ],
-    [ "UpdateAI", "da/d3d/a17034.html#a8c97eac67a03f21c86e70ccd86d1cc9e", null ],
-    [ "_fallenChampionCastCount", "da/d3d/a17034.html#abb61bde3297dae343db32cd689decbcb", null ],
-    [ "_frenzied", "da/d3d/a17034.html#a947f97388142548dfa279218697d9347", null ],
-    [ "_introDone", "da/d3d/a17034.html#ac45f8f405a06a256dbf5194c601699d8", null ],
-    [ "_transportCheckTimer", "da/d3d/a17034.html#a83e7662a983666e77ab282a9ec96a93b", null ]
+    [ "FilterTargets", "da/d3d/a17034.html#a59255a2cee0f9d8a75ca183647851779", null ],
+    [ "PrepareSpellScript", "da/d3d/a17034.html#af8d1cc9c709aeb3a68d1f452bb605c71", null ],
+    [ "Register", "da/d3d/a17034.html#a6b6dbeaa8feb8eac4441a87cdf371a36", null ]
 ];

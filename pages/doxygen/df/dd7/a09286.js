@@ -1,9 +1,7 @@
 var a09286 =
 [
-    [ "LoginQueryHolder", "df/dd7/a09286.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
-    [ "GetAccountId", "df/dd7/a09286.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
-    [ "GetGuid", "df/dd7/a09286.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
-    [ "Initialize", "df/dd7/a09286.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
-    [ "m_accountId", "df/dd7/a09286.html#abc8056182803af44a062fe6153fdd009", null ],
-    [ "m_guid", "df/dd7/a09286.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
+    [ "AddonHandler", "df/dd7/a09286.html#a3e52b0fc5ca99a3f5d83ee6d34e16520", null ],
+    [ "~AddonHandler", "df/dd7/a09286.html#a8e4fc7c1cae505850a907e70a9febbf0", null ],
+    [ "BuildAddonPacket", "df/dd7/a09286.html#aca92dc80033c299daf8e3b42dd24ffea", null ],
+    [ "instance", "df/dd7/a09286.html#a2925b829b803dd07e96685086357ef85", null ]
 ];

@@ -1,5 +1,7 @@
 var a02096 =
 [
+    [ "DataHeader", "dd/d77/a02096.html#a042491ef36459046f3866e90f15aae0d", null ],
+    [ "RegisterUtgardeKeepCreatureAI", "dd/d77/a02096.html#a960a375dc6655df45bd889a1b1487dcc", null ],
     [ "UtgardeKeepScriptName", "dd/d77/a02096.html#aa55ba53746fd3f7441c2cfe321fbf05f", null ],
     [ "eCreatures", "dd/d77/a02096.html#a59602e8f26d052c0b6f6bdfe896510b8", [
       [ "NPC_ONYXIA", "dc/d19/a01190.html#a59602e8f26d052c0b6f6bdfe896510b8ac5297157e46436388d2a4e835c06de6e", null ],
@@ -65,5 +67,6 @@ var a02096 =
       [ "GO_GIANT_PORTCULLIS_1", "dd/d77/a02096.html#a6294cd8aa684acc2365fde03bde4f56ba0892492e251a03f74b2b3448c826b4fa", null ],
       [ "GO_GIANT_PORTCULLIS_2", "dd/d77/a02096.html#a6294cd8aa684acc2365fde03bde4f56ba8677ebe93c3f10b258510218c4ae0b31", null ]
     ] ],
-    [ "GetUtgardeKeepAI", "dd/d77/a02096.html#ae0ae037cccad7d1fe95c09509c7a2af9", null ]
+    [ "GetUtgardeKeepAI", "dd/d77/a02096.html#ae0ae037cccad7d1fe95c09509c7a2af9", null ],
+    [ "EncounterCount", "dd/d77/a02096.html#a31d630c40753c29f94ceac2db5e451a8", null ]
 ];

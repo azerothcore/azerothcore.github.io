@@ -1,8 +1,6 @@
 var a10242 =
 [
-    [ "PlayedTime", "de/db2/a10242.html#abc477d90a27dc41a7c643448302464cf", null ],
-    [ "Write", "de/db2/a10242.html#a147071f2545cd91213d6c92dab7438c7", null ],
-    [ "LevelTime", "de/db2/a10242.html#a2bf832827f9497a59bbfac714799b4b5", null ],
-    [ "TotalTime", "de/db2/a10242.html#ae762fe00339a8f4ca6f9e14bb8515251", null ],
-    [ "TriggerScriptEvent", "de/db2/a10242.html#a434b33c61ba5e2d91f084cbfe425c964", null ]
+    [ "PlayedTimeClient", "de/db2/a10242.html#a1c82d4d153606da9887d64599f319883", null ],
+    [ "Read", "de/db2/a10242.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3", null ],
+    [ "TriggerScriptEvent", "de/db2/a10242.html#a092b32f76df529a4f1284d7231b8fc6b", null ]
 ];

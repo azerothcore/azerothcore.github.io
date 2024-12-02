@@ -1,13 +1,21 @@
 var a13526 =
 [
-    [ "npc_forest_frog", "dd/de8/a13526.html#a6a5e24a11f8d2add6a3e9d71e2e647bb", null ],
-    [ "DoSpawnRandom", "dd/de8/a13526.html#aac140826b8c4b7ce55925b5abeee936e", null ],
-    [ "JustEngagedWith", "dd/de8/a13526.html#aa22c4eb7eb3a84db94ce8eb38afd18f5", null ],
-    [ "MovementInform", "dd/de8/a13526.html#a8260157062b3e4ef48ad47b4f9bf66ac", null ],
-    [ "SpellHit", "dd/de8/a13526.html#a9501955507e1f236bb48384928fd6a32", null ],
-    [ "UpdateAI", "dd/de8/a13526.html#a5e6785d71bfb7f1d7b915723898a99fc", null ],
-    [ "events", "dd/de8/a13526.html#a8ef7e1eb3d7196c070cc3b6618291dc0", null ],
-    [ "eventTimer", "dd/de8/a13526.html#ac6bf7433f79a9c2803072e7b5370a1c7", null ],
-    [ "instance", "dd/de8/a13526.html#a6294f89eccdb9e5f9edbe8bccb164690", null ],
-    [ "PlayerGUID", "dd/de8/a13526.html#a3544a83bb22e12d247e562ef32e378c0", null ]
+    [ "instance_zulaman_InstanceMapScript", "dd/de8/a13526.html#a55a0c486845dc63865cf557271304c20", null ],
+    [ "CheckInstanceStatus", "dd/de8/a13526.html#a7647cb64c36022d31c6d4c9112318a41", null ],
+    [ "DoAction", "dd/de8/a13526.html#ad5eed417fb2a38a1b02bc6275e9f229a", null ],
+    [ "GetData", "dd/de8/a13526.html#ad6c1123183e28dd91f78a993a79bf3e8", null ],
+    [ "Initialize", "dd/de8/a13526.html#a070925eb76b8af866819844411da1beb", null ],
+    [ "OnCreatureCreate", "dd/de8/a13526.html#a92d7ca86c2ecbad6a64a2bc7131b7260", null ],
+    [ "OnCreatureEvade", "dd/de8/a13526.html#a654947f2b1dce457f56327e7dff8ccf4", null ],
+    [ "OnGameObjectCreate", "dd/de8/a13526.html#a4545b6c8ff9e9908466ce105b484ef70", null ],
+    [ "OnPlayerEnter", "dd/de8/a13526.html#a1cf2834e928692c69fdfcf7ae8910745", null ],
+    [ "ResetAkilzonGauntlet", "dd/de8/a13526.html#a1623080f2466aeca03f048decc34bdb5", null ],
+    [ "SetBossState", "dd/de8/a13526.html#a79b3f358115fecb63e1cfb45801fdffb", null ],
+    [ "SetData", "dd/de8/a13526.html#a7381d84943028f66b339168724b467b8", null ],
+    [ "StartAkilzonGauntlet", "dd/de8/a13526.html#a16b67dce6407db52ec7571c9bbc9f8c5", null ],
+    [ "SummonHostage", "dd/de8/a13526.html#a907b3f4a59cbd366f702daeffe05d607", null ],
+    [ "Update", "dd/de8/a13526.html#a826800c63083d2af31847118c8b05e57", null ],
+    [ "_akilzonGauntlet", "dd/de8/a13526.html#a57cf874e315f0f9686b684151c37e740", null ],
+    [ "AkilzonTrash", "dd/de8/a13526.html#a9f2fc91191dfaac5218f95fed71e2bcf", null ],
+    [ "RandVendor", "dd/de8/a13526.html#ae1e7cad436566533b7673438884e6210", null ]
 ];

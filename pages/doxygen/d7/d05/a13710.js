@@ -1,8 +1,6 @@
 var a13710 =
 [
-    [ "npc_spawn_of_marli", "d7/d05/a13710.html#a1dcd5066de108203903f5767c4b375ea", null ],
-    [ "JustEngagedWith", "d7/d05/a13710.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
-    [ "Reset", "d7/d05/a13710.html#a79ef192d41af75e0dad0494776c75189", null ],
-    [ "UpdateAI", "d7/d05/a13710.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
-    [ "_scheduler", "d7/d05/a13710.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
+    [ "OnRemove", "d7/d05/a13710.html#a2a745fd8afa0d3d18684a9b8b091eb7e", null ],
+    [ "PrepareAuraScript", "d7/d05/a13710.html#a01eb4b37925b9c2fb8ce82d9808c270f", null ],
+    [ "Register", "d7/d05/a13710.html#ad2ae9bfa13c625608af9042584a9bfb8", null ]
 ];

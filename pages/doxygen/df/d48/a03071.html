@@ -119,7 +119,7 @@ $(document).ready(function(){initNavTree('df/d48/a03071.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab2692a866ddb9539875213c10f37b84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d48/a03071.html#ab2692a866ddb9539875213c10f37b84e">ApplySpellFix</a> (std::initializer_list&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; spellIds, void(*fix)(<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> *))</td></tr>
+<tr class="memitem:ab2692a866ddb9539875213c10f37b84e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d48/a03071.html#ab2692a866ddb9539875213c10f37b84e">ApplySpellFix</a> (std::initializer_list&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt; spellIds, void(*fix)(<a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> *))</td></tr>
 <tr class="separator:ab2692a866ddb9539875213c10f37b84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -141,7 +141,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">void(*)(<a class="el" href="../../dd/d6e/a10902.html">SpellInfo</a> *)&#160;</td>
+          <td class="paramtype">void(*)(<a class="el" href="../../d4/db9/a10906.html">SpellInfo</a> *)&#160;</td>
           <td class="paramname"><em>fix</em>&#160;</td>
         </tr>
         <tr>
@@ -159,20 +159,20 @@ Functions</h2></td></tr>
 <div class="fragment"><div class="line"><span class="lineno">   25</span>{</div>
 <div class="line"><span class="lineno">   26</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> spellId : spellIds)</div>
 <div class="line"><span class="lineno">   27</span>    {</div>
-<div class="line"><span class="lineno">   28</span>        <a class="code hl_class" href="../../dd/d6e/a10902.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../df/d64/a03110.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
+<div class="line"><span class="lineno">   28</span>        <a class="code hl_class" href="../../d4/db9/a10906.html">SpellInfo</a> <span class="keyword">const</span>* spellInfo = <a class="code hl_define" href="../../df/d64/a03110.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellInfo(spellId);</div>
 <div class="line"><span class="lineno">   29</span>        <span class="keywordflow">if</span> (!spellInfo)</div>
 <div class="line"><span class="lineno">   30</span>        {</div>
 <div class="line"><span class="lineno">   31</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;Spell info correction specified for non-existing spell {}&quot;</span>, spellId);</div>
 <div class="line"><span class="lineno">   32</span>            <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">   33</span>        }</div>
 <div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>        fix(<span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../dd/d6e/a10902.html">SpellInfo</a>*<span class="keyword">&gt;</span>(spellInfo));</div>
+<div class="line"><span class="lineno">   35</span>        fix(<span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../d4/db9/a10906.html">SpellInfo</a>*<span class="keyword">&gt;</span>(spellInfo));</div>
 <div class="line"><span class="lineno">   36</span>    }</div>
 <div class="line"><span class="lineno">   37</span>}</div>
 <div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
 <div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
 <div class="ttc" id="aa03110_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../df/d64/a03110.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:825</div></div>
-<div class="ttc" id="aa10902_html"><div class="ttname"><a href="../../dd/d6e/a10902.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:316</div></div>
+<div class="ttc" id="aa10906_html"><div class="ttname"><a href="../../d4/db9/a10906.html">SpellInfo</a></div><div class="ttdef"><b>Definition:</b> SpellInfo.h:316</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00157">LOG_ERROR</a>, and <a class="el" href="../../#l00825">sSpellMgr</a>.</p>
 
@@ -186,7 +186,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../df/d48/a03071.html">SpellInfoCorrections.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:41:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:41:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

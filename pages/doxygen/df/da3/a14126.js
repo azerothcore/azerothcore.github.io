@@ -1,6 +1,8 @@
 var a14126 =
 [
-    [ "HandleDummy", "df/da3/a14126.html#a5e0797e5af760b618b1498f405766de8", null ],
-    [ "PrepareSpellScript", "df/da3/a14126.html#a3be664b18a2474857e8a2b199ea93aaf", null ],
-    [ "Register", "df/da3/a14126.html#a2254e486bda73e07f8327c3412c7852b", null ]
+    [ "HandleEffectApply", "df/da3/a14126.html#a31d4e0da71893a8a673a2ac4f7c26c70", null ],
+    [ "HandleEffectRemove", "df/da3/a14126.html#af8661463589640c9550bc62e8f74afcd", null ],
+    [ "PrepareAuraScript", "df/da3/a14126.html#a2885eb37d4af8f1e90e2a4967f5acc75", null ],
+    [ "Register", "df/da3/a14126.html#ada4a148e0b50f5853eaf02c465f6e876", null ],
+    [ "torchGUID", "df/da3/a14126.html#a8ccf51241d3792c8c36d983bf471167e", null ]
 ];

@@ -1,6 +1,6 @@
 var a26750 =
 [
-    [ "boss_lethonAI", "d3/d7b/a26754.html", "d3/d7b/a26754" ],
-    [ "boss_lethon", "d9/d0a/a26750.html#a5d758979b061646830373de64b2b3af4", null ],
-    [ "GetAI", "d9/d0a/a26750.html#a493baf37aac400635dd0409e79375a1c", null ]
+    [ "boss_emerissAI", "d3/d7b/a26754.html", "d3/d7b/a26754" ],
+    [ "boss_emeriss", "d9/d0a/a26750.html#a2d373e5add3f007cf214ad9763039aa2", null ],
+    [ "GetAI", "d9/d0a/a26750.html#a88a0696a12f12e612cce53c14f6b1f92", null ]
 ];

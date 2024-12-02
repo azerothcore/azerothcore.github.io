@@ -1,12 +1,12 @@
 var a19174 =
 [
-    [ "boss_krystallusAI", "d0/d2e/a19174.html#adfa2ab8498279937bf497292d6e7cba5", null ],
-    [ "JustDied", "d0/d2e/a19174.html#a5b77186f7c0920142a64a03c508dcc3e", null ],
-    [ "JustEngagedWith", "d0/d2e/a19174.html#aaba17094bfe43c9ad63076f84d10a83a", null ],
-    [ "KilledUnit", "d0/d2e/a19174.html#acf9101c5b776820039fd80e5d6e0c138", null ],
-    [ "RemoveStonedEffect", "d0/d2e/a19174.html#ae8bdb2bca7c01c564adab93f1dd67720", null ],
-    [ "Reset", "d0/d2e/a19174.html#ae163fbd682f09f2a49fa71309284ed3b", null ],
-    [ "UpdateAI", "d0/d2e/a19174.html#a79095e25f1d9dac927f63cef67db60ec", null ],
-    [ "events", "d0/d2e/a19174.html#afcd06280f8c7640ff9a56223f5bf3555", null ],
-    [ "pInstance", "d0/d2e/a19174.html#aec9cf7053476298f72dccf3bd1579c63", null ]
+    [ "npc_hol_monumentAI", "d0/d2e/a19174.html#a4a59b95e32acf8920082e4159b7e384c", null ],
+    [ "AttackStart", "d0/d2e/a19174.html#a6db6528cf3d53bc6de9caf55fb18a28b", null ],
+    [ "JustEngagedWith", "d0/d2e/a19174.html#a105f8e66ba3cf752af455c787df7568e", null ],
+    [ "MoveInLineOfSight", "d0/d2e/a19174.html#ab37c5c22456c06f78b53505ae7973658", null ],
+    [ "Reset", "d0/d2e/a19174.html#a03dd56d6801194333288a2edc7ae4eaa", null ],
+    [ "UpdateAI", "d0/d2e/a19174.html#a7c911cf24b21c959ee5c62d664e1879a", null ],
+    [ "_attackGUID", "d0/d2e/a19174.html#a0421f258f2cd871ad1f87decf5e23bc8", null ],
+    [ "_isActive", "d0/d2e/a19174.html#a0993cfde30a492ae8dfeeda2e01a1124", null ],
+    [ "events", "d0/d2e/a19174.html#aeff0f7526f12f0e09e53c0e43a423799", null ]
 ];

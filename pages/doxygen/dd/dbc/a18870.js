@@ -1,6 +1,6 @@
 var a18870 =
 [
-    [ "npc_hover_diskAI", "dd/d10/a18874.html", "dd/d10/a18874" ],
-    [ "npc_hover_disk", "dd/dbc/a18870.html#af0ab534387a2af4e168915801ee855e5", null ],
-    [ "GetAI", "dd/dbc/a18870.html#adbe9285126089ca998e9b6360f42c553", null ]
+    [ "npc_nexus_lordAI", "dd/d10/a18874.html", "dd/d10/a18874" ],
+    [ "npc_nexus_lord", "dd/dbc/a18870.html#a6e58f0074451dfd04b95b3ecaa0201e3", null ],
+    [ "GetAI", "dd/dbc/a18870.html#a1cea0b189b2ef8e932b51caf3d70d6ba", null ]
 ];

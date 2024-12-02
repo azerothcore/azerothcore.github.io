@@ -1,8 +1,14 @@
 var a21102 =
 [
-    [ "npc_azure_captainAI", "d2/d14/a21102.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "d2/d14/a21102.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "d2/d14/a21102.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "d2/d14/a21102.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "d2/d14/a21102.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "npc_azure_saboteurAI", "d2/d14/a21102.html#a09fc1e8f171209471c5403af33b05a58", null ],
+    [ "FinishPointReached", "d2/d14/a21102.html#a322380edef5dbefe5ac4ab0040183010", null ],
+    [ "MoveInLineOfSight", "d2/d14/a21102.html#a21868549892cdd0e67d6403dece9efce", null ],
+    [ "UpdateAI", "d2/d14/a21102.html#a9ccbb54a41aef3a252a46545649c2c91", null ],
+    [ "WaypointReached", "d2/d14/a21102.html#ac17dc46bfe75582a789a2056978218fb", null ],
+    [ "bAddedWPs", "d2/d14/a21102.html#a9cabb9053b3c6b51be184b2144e5ec54", null ],
+    [ "bOpening", "d2/d14/a21102.html#a924ceb13552f0f01d55375af0324bf5a", null ],
+    [ "count", "d2/d14/a21102.html#a38bf10a96c8eae45b4aa0bd095924f85", null ],
+    [ "pInstance", "d2/d14/a21102.html#a1375420fe4bf16f122aa93f5c847a464", null ],
+    [ "timer", "d2/d14/a21102.html#a30745320b9cc64fb690fa7bd6d7525f2", null ],
+    [ "uiBoss", "d2/d14/a21102.html#a36f60e44bd8f1de85429a75f3e928d77", null ]
 ];

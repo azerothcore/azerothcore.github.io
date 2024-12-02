@@ -1,6 +1,6 @@
 var a22814 =
 [
-    [ "HandleScriptEffect", "de/dad/a22814.html#a766edc5924124c869b04ec82cd2bc693", null ],
-    [ "PrepareSpellScript", "de/dad/a22814.html#a1eac10c673b8f43ae08f8bbdf949f82f", null ],
-    [ "Register", "de/dad/a22814.html#a60d4e21bf31c997ef4105ad72c8b4e85", null ]
+    [ "HandleScriptEffect", "de/dad/a22814.html#a18fb2e73a00f1de7c62049eadfcbc658", null ],
+    [ "PrepareSpellScript", "de/dad/a22814.html#ae80b4ca96692035c399d1621b632fe66", null ],
+    [ "Register", "de/dad/a22814.html#ac655157c74104a51f045e114fc63a42d", null ]
 ];

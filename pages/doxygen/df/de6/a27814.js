@@ -1,10 +1,9 @@
 var a27814 =
 [
-    [ "ID", "df/de6/a27814.html#a906c42770a619884f08b67e2870bff93", null ],
-    [ "reqarenapoints", "df/de6/a27814.html#a5d45007a832d6120e29c7821c07646de", null ],
-    [ "reqarenaslot", "df/de6/a27814.html#ad1e4b8f94a743bac02bbadbc8d62ad0b", null ],
-    [ "reqhonorpoints", "df/de6/a27814.html#aca509fb7e234bc54632ff988bf37e6ad", null ],
-    [ "reqitem", "df/de6/a27814.html#a9cba8872c909260a55dcfdf7f4726899", null ],
-    [ "reqitemcount", "df/de6/a27814.html#a615c5fe0966b5054303ebe1290adc9b6", null ],
-    [ "reqpersonalarenarating", "df/de6/a27814.html#af4ff8d55234b03637e4b2fbd10778e97", null ]
+    [ "itemId", "df/de6/a27814.html#ae125712e5569c9699b4748b6a15fbc12", null ],
+    [ "items_to_triggerspell", "df/de6/a27814.html#a8496a2f3fa3e230def04b996fc585760", null ],
+    [ "name", "df/de6/a27814.html#a9b62f843833d524f200782d44151503d", null ],
+    [ "required_skill_id", "df/de6/a27814.html#ab3058ac725fb8f105b9359d5a5147942", null ],
+    [ "required_skill_value", "df/de6/a27814.html#a58d0997a73cf48061545edbc0201f544", null ],
+    [ "spells", "df/de6/a27814.html#a8aac032992efe1bfbba0e49693562c7f", null ]
 ];

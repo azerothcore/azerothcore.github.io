@@ -1,6 +1,6 @@
 var a21758 =
 [
-    [ "npc_tournament_training_dummyAI", "d7/d5f/a21762.html", "d7/d5f/a21762" ],
-    [ "npc_tournament_training_dummy", "dd/dcd/a21758.html#ab5308cfddfef00da9692dddd21ce4a14", null ],
-    [ "GetAI", "dd/dcd/a21758.html#a31257c155c3a49c69771156800cf6340", null ]
+    [ "npc_frostbrood_skytalonAI", "d7/d5f/a21762.html", "d7/d5f/a21762" ],
+    [ "npc_frostbrood_skytalon", "dd/dcd/a21758.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "dd/dcd/a21758.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

@@ -1,7 +1,6 @@
 var a25178 =
 [
-    [ "CalculateDamageAmount", "df/de9/a25178.html#a2f608e8391e61434ef1b164c023854fe", null ],
-    [ "CalculateManaLeechAmount", "df/de9/a25178.html#a8a4946d1718d8045a72c92355ff38ecb", null ],
-    [ "PrepareAuraScript", "df/de9/a25178.html#a63d24d3ca4b2de1aa7f67376ded7bc59", null ],
-    [ "Register", "df/de9/a25178.html#aa6e74e89930fd3cc564c3cba86e3687e", null ]
+    [ "HandleDummy", "df/de9/a25178.html#ad086618ff3caadcf5126e12a1359503f", null ],
+    [ "PrepareSpellScript", "df/de9/a25178.html#a4b3a79a9ba01226038a1da886f6a2f7c", null ],
+    [ "Register", "df/de9/a25178.html#a214526ddc986ee829daf9090678e3a7b", null ]
 ];

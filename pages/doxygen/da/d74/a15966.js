@@ -1,6 +1,6 @@
 var a15966 =
 [
-    [ "npc_nerubian_burrowerAI", "d4/dcd/a15970.html", "d4/dcd/a15970" ],
-    [ "npc_nerubian_burrower", "da/d74/a15966.html#a02c3eb1ed867738c705af8bf38a1aae5", null ],
-    [ "GetAI", "da/d74/a15966.html#a145ebac6f95f9190429b9bfa37e23312", null ]
+    [ "npc_swarm_scarabAI", "d4/dcd/a15970.html", "d4/dcd/a15970" ],
+    [ "npc_swarm_scarab", "da/d74/a15966.html#a1d0969526e57ca50c9a499c83f978fd2", null ],
+    [ "GetAI", "da/d74/a15966.html#ae12fe8a7c6ee09fc16bd152f59c2d936", null ]
 ];

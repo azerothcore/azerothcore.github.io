@@ -1,6 +1,6 @@
 var a22098 =
 [
-    [ "npc_released_offspring_harkoaAI", "d3/d5a/a22098.html#ab1002f002987b6ea2366129afd48d65c", null ],
-    [ "MovementInform", "d3/d5a/a22098.html#a56d52be3fdbc2e4176efe09ba58f55c7", null ],
-    [ "Reset", "d3/d5a/a22098.html#a3ddc30ce39acef3bb5e6f8400a084393", null ]
+    [ "npc_storm_cloudAI", "df/d1d/a22102.html", "df/d1d/a22102" ],
+    [ "npc_storm_cloud", "d3/d5a/a22098.html#a8403185cdf54b2924024ba1d1d44a06a", null ],
+    [ "GetAI", "d3/d5a/a22098.html#a952bd1cf5406b989182d8560d8b9e665", null ]
 ];

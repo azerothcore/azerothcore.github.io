@@ -1,8 +1,7 @@
 var a15442 =
 [
-    [ "HandleScriptEffect", "db/d8e/a15442.html#af3e18fa5befc7124f2a3dbcd36259e6b", null ],
-    [ "Load", "db/d8e/a15442.html#ab293f8b536957558fa8886e1f4a23e74", null ],
-    [ "PrepareSpellScript", "db/d8e/a15442.html#ae4a1abf2e39c6806d804dea9ce5808ef", null ],
-    [ "Register", "db/d8e/a15442.html#a9fb54f0662982dec90c2e6f8568421ed", null ],
-    [ "Validate", "db/d8e/a15442.html#a2bee81d684c4739bb6247bfbdb74a21b", null ]
+    [ "HandleDummy", "db/d8e/a15442.html#a5d619c13c620fedeea803a0802fd9ee6", null ],
+    [ "PrepareSpellScript", "db/d8e/a15442.html#a04ed0daa21e66b842b8443b5e102ec1d", null ],
+    [ "Register", "db/d8e/a15442.html#a4359ad73b513a368509a066a039ddf53", null ],
+    [ "_targetCount", "db/d8e/a15442.html#a3ba108d63ef38af0a8730c1bf1aa69e9", null ]
 ];

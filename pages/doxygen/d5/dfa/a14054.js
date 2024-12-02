@@ -1,7 +1,7 @@
 var a14054 =
 [
-    [ "HandleScript", "d5/dfa/a14054.html#a78899a874a645d531dd4d89f2bd5478a", null ],
-    [ "PrepareSpellScript", "d5/dfa/a14054.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
-    [ "Register", "d5/dfa/a14054.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
-    [ "Validate", "d5/dfa/a14054.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
+    [ "npc_love_in_air_supply_sentry", "d5/dfa/a14054.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
+    [ "MoveInLineOfSight", "d5/dfa/a14054.html#a9df110324c74277e07183c7db231bbda", null ],
+    [ "UpdateAI", "d5/dfa/a14054.html#aaa658222954f96d45b75daf83555f6f8", null ],
+    [ "lock", "d5/dfa/a14054.html#a59bf67b114014542538165c21aa109a6", null ]
 ];

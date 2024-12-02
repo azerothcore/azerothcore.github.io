@@ -1,7 +1,6 @@
 var a17206 =
 [
-    [ "npc_gunship_boarding_leaderAI", "d6/da0/a17206.html#ac20099905fd6fddda2561b88cf077b77", null ],
-    [ "JustEngagedWith", "d6/da0/a17206.html#a448ee30c01317a7e3c842a0043b15c2a", null ],
-    [ "UpdateAI", "d6/da0/a17206.html#ab7a105fbc49a365d609c7787b61fd75f", null ],
-    [ "_events", "d6/da0/a17206.html#affb899bbaa288e72a48d5518367b023d", null ]
+    [ "npc_igb_ship_crewAI", "d6/da0/a17206.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "d6/da0/a17206.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "d6/da0/a17206.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

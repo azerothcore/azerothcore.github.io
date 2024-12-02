@@ -1,10 +1,9 @@
 var a07138 =
 [
-    [ "OwnerId", "db/dcc/a07138.html#ae6203d7a867838b279825925841a99df", null ],
-    [ "PrevOwnerId", "db/dcc/a07138.html#a8357cc41fe125545d473c1f14c3ffa05", null ],
-    [ "PrevState", "db/dcc/a07138.html#ab97cde6dcd3c3e91bb94bf39d104bf77", null ],
-    [ "State", "db/dcc/a07138.html#a6e2b1f8c232c27ab24e3ca8bca8f6b03", null ],
-    [ "Timer", "db/dcc/a07138.html#a945afa538fc0dd1a4be11f5b5ac74bcb", null ],
-    [ "TotalOwnerId", "db/dcc/a07138.html#aec31f39eb98a3686ead3b1b99c7abfde", null ],
-    [ "Tower", "db/dcc/a07138.html#a222db96ad937e31986c0c39a5a371dd7", null ]
+    [ "CapturePointInfo", "db/dcc/a07138.html#a47ba3bbadd15909726e87dc5adc67686", null ],
+    [ "_captured", "db/dcc/a07138.html#aac26833d9951853183095b3985254e03", null ],
+    [ "_iconCapture", "db/dcc/a07138.html#a58adc22a7246dd7362efcf9d9a1891ad", null ],
+    [ "_iconNone", "db/dcc/a07138.html#a43228afe59b8fa004d2c740dd6262f8e", null ],
+    [ "_ownerTeamId", "db/dcc/a07138.html#aad378d1b07f1ef8c45b0bb1bcce7a028", null ],
+    [ "_state", "db/dcc/a07138.html#a98cb154218423e295b8007c62222831c", null ]
 ];

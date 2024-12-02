@@ -1,8 +1,10 @@
 var a26478 =
 [
-    [ "Load", "de/d82/a26478.html#af6c19828b80a6cc06e4c9c207e7c52b8", null ],
-    [ "OnRemove", "de/d82/a26478.html#a097cf2a2abecda1e89f85bc4bd4ec029", null ],
-    [ "PrepareAuraScript", "de/d82/a26478.html#a2161d27a90b3f87fd07f75723b6d9e13", null ],
-    [ "Register", "de/d82/a26478.html#a932760326c822f1b47df1afdec6bb9cb", null ],
-    [ "Validate", "de/d82/a26478.html#a69bcfedb7f566c572201aadc9e75df08", null ]
+    [ "CheckProc", "de/d82/a26478.html#a257202ac9b80a67ce58d9e3491164d22", null ],
+    [ "HandleProc", "de/d82/a26478.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
+    [ "HandleTick", "de/d82/a26478.html#a5e436c530e5ef70bc4de4305676ed196", null ],
+    [ "PrepareAuraScript", "de/d82/a26478.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
+    [ "Register", "de/d82/a26478.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
+    [ "RemoveEffect", "de/d82/a26478.html#a333ad80d8478f59713ee049f935d7885", null ],
+    [ "Validate", "de/d82/a26478.html#aed3cb37f0230463978b210add84bd31d", null ]
 ];

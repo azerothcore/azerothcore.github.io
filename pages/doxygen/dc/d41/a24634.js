@@ -1,6 +1,7 @@
 var a24634 =
 [
-    [ "HandleEffectPeriodicUpdate", "dc/d41/a24634.html#a554353fede78b89bf488230254d7892b", null ],
-    [ "PrepareAuraScript", "dc/d41/a24634.html#adf20aaafff83bae614ff3c614a08a54b", null ],
-    [ "Register", "dc/d41/a24634.html#a6ee55cc41f7b69fc12bb3dc6c7fcbaf5", null ]
+    [ "HandleProc", "dc/d41/a24634.html#af768269d315e998fc2042794c3a03b58", null ],
+    [ "PrepareAuraScript", "dc/d41/a24634.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
+    [ "Register", "dc/d41/a24634.html#a2df1cff47861cbf3198e573c6031b54e", null ],
+    [ "Validate", "dc/d41/a24634.html#a84f40eec148c55108085db5e7b05cb0e", null ]
 ];

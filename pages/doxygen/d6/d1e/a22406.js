@@ -1,7 +1,7 @@
 var a22406 =
 [
-    [ "HandleEffectRemove", "d6/d1e/a22406.html#a09124a4351930a35e33359e95ca88580", null ],
-    [ "PrepareAuraScript", "d6/d1e/a22406.html#a6ac4aa40f00e7ca03a3a5cf36d6e5d33", null ],
-    [ "Register", "d6/d1e/a22406.html#a8b59d3d74816b41a65f9c5bd07226c4e", null ],
-    [ "Validate", "d6/d1e/a22406.html#a5bf3ac4b8ff19bdbde604c4d8931d1bc", null ]
+    [ "HandleOnEffectApply", "d6/d1e/a22406.html#a01d6ca6f8ec21ad42445b5e581c0f79b", null ],
+    [ "HandleOnEffectRemove", "d6/d1e/a22406.html#a59952b33d7c4705a6bfe7f3443bbf005", null ],
+    [ "PrepareAuraScript", "d6/d1e/a22406.html#a45df29f911b1232e306e04a182648904", null ],
+    [ "Register", "d6/d1e/a22406.html#a71fbf189fc116eb7d14944ff4060a9a9", null ]
 ];

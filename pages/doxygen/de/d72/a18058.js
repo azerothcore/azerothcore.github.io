@@ -1,7 +1,5 @@
 var a18058 =
 [
-    [ "AuraRemoveEvent", "de/d72/a18058.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "de/d72/a18058.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "de/d72/a18058.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "de/d72/a18058.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "achievement_neck_deep_in_vile", "de/d72/a18058.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "de/d72/a18058.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

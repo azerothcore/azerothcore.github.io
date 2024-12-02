@@ -1,6 +1,6 @@
 var a23498 =
 [
-    [ "lapseTeleport", "d6/d5f/a23498.html#a55c4330397214bf3a43628b3067d4634", null ],
-    [ "Execute", "d6/d5f/a23498.html#a122023ed13fce2f5bb3721e459964443", null ],
-    [ "_owner", "d6/d5f/a23498.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
+    [ "FilterTargets", "d6/d5f/a23498.html#a0b0a4e033a1410a5b0def33cf87c853c", null ],
+    [ "PrepareSpellScript", "d6/d5f/a23498.html#afa186c0b0728e3462f8984189613f9a7", null ],
+    [ "Register", "d6/d5f/a23498.html#a14aafc65b554c0ada5684c46ae1f57c8", null ]
 ];

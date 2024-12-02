@@ -1,20 +1,12 @@
 var a12430 =
 [
-    [ "boss_julianne", "d8/d54/a12430.html#a6433d08be0d5562e876e00225ebf7398", null ],
-    [ "DamageTaken", "d8/d54/a12430.html#a8ff7675405322c2d55bd01cec340f6b8", null ],
-    [ "DoAction", "d8/d54/a12430.html#a985c9c1f77b2769461bf42ddaab302d3", null ],
-    [ "EnterEvadeMode", "d8/d54/a12430.html#af2499ba9d9c25555c82d8d7ae95c7249", null ],
-    [ "JustDied", "d8/d54/a12430.html#abdfaf6fa147c6b35bed28bb2e3ed3c14", null ],
-    [ "JustEngagedWith", "d8/d54/a12430.html#a6c5bd97ad402cc5f5dcda421c5d2bad1", null ],
-    [ "JustReachedHome", "d8/d54/a12430.html#a6bda02d5534b9087741ee7146ec314b5", null ],
-    [ "KilledUnit", "d8/d54/a12430.html#a7430fb4f315ee5dcf5f9c49b2daa66b0", null ],
-    [ "Reset", "d8/d54/a12430.html#a1047e28950098b35bd8a8fc5bec4ed26", null ],
-    [ "ScheduleCombat", "d8/d54/a12430.html#ab0939f8fe0fc34cafbe2dab4ef449895", null ],
-    [ "SpellHit", "d8/d54/a12430.html#a1e142c56a514640dab0d5d7711085f9d", null ],
-    [ "UpdateAI", "d8/d54/a12430.html#ad1e1d5bb27fed12a203c8b10f6ea92a6", null ],
-    [ "_scheduler", "d8/d54/a12430.html#aae4be9b1035626ecc9ad2f3e5b918cbe", null ],
-    [ "instance", "d8/d54/a12430.html#acdc787ba6908e716517683a8536ecf3e", null ],
-    [ "isFakingDeath", "d8/d54/a12430.html#a7a1b3b2ead47a49e80f9ba2b49144a91", null ],
-    [ "phase", "d8/d54/a12430.html#a5b0b680916cd38b2e20a6a1b1a530362", null ],
-    [ "summonedRomulo", "d8/d54/a12430.html#a6938adccd5c781df04dabe6d860f9357", null ]
+    [ "boss_bigbadwolf", "d8/d54/a12430.html#a1e4ad63c96d64f81e8b9ea82f118cdcc", null ],
+    [ "EnterEvadeMode", "d8/d54/a12430.html#a4f2d5307f5d05ed58bfc200f53bf2969", null ],
+    [ "JustDied", "d8/d54/a12430.html#a167083a43e00a60e9c3792cadaf6e80c", null ],
+    [ "JustEngagedWith", "d8/d54/a12430.html#a529fad938a0ef7261f1c2d589b6ff29c", null ],
+    [ "JustReachedHome", "d8/d54/a12430.html#a7755bf925d919c73075a41f8774280c0", null ],
+    [ "KilledUnit", "d8/d54/a12430.html#a8e004a1feac796ed467eba744f211827", null ],
+    [ "UpdateAI", "d8/d54/a12430.html#ab788a0155a3ffe6535d58263eea16dee", null ],
+    [ "_scheduler", "d8/d54/a12430.html#a661d9b619be30764ba5b89d71de870e9", null ],
+    [ "instance", "d8/d54/a12430.html#aed0e9edc52f13b7b0cfa5047849c26a9", null ]
 ];

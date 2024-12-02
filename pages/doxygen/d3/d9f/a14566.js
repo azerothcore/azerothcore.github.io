@@ -1,5 +1,6 @@
 var a14566 =
 [
-    [ "npc_hive_zara_swarmer", "d3/d9f/a14566.html#a374fa63e210e0be8a074af9199126a9e", null ],
-    [ "PathEndReached", "d3/d9f/a14566.html#a3b3510bd00853395b756e1d83d96a474", null ]
+    [ "instance_razorfen_kraul_InstanceMapScript", "d6/d71/a14570.html", "d6/d71/a14570" ],
+    [ "instance_razorfen_kraul", "d3/d9f/a14566.html#aedd65b901c8131a7ac21e8576734f76f", null ],
+    [ "GetInstanceScript", "d3/d9f/a14566.html#a78e77010ebb055b9530733ca25533110", null ]
 ];

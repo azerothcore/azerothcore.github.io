@@ -1,6 +1,6 @@
 var a25842 =
 [
-    [ "FilterTargets", "da/dc7/a25842.html#a23c7b977f7e213322b3702367d6a28c7", null ],
-    [ "PrepareSpellScript", "da/dc7/a25842.html#a7000b2fd940c914933c486e847932b62", null ],
-    [ "Register", "da/dc7/a25842.html#a870ee08d0341f6640710a87c97a6b98b", null ]
+    [ "CheckCast", "da/dc7/a25842.html#a2edd0bcaa3b026cc70f9f6b58f53f486", null ],
+    [ "PrepareSpellScript", "da/dc7/a25842.html#aaf1e16dbc8d33aadcbf74dc4cebe715b", null ],
+    [ "Register", "da/dc7/a25842.html#a32aaab12105c9b1c09edfa8a444ced9c", null ]
 ];

@@ -1,10 +1,9 @@
 var a26434 =
 [
-    [ "CalculateAmount", "d8/d59/a26434.html#a9e0e28d871f9d3c89cf2dc862971321d", null ],
-    [ "Detonate", "d8/d59/a26434.html#adc622aae157984546dfe3d8373c0c413", null ],
-    [ "HandleProc", "d8/d59/a26434.html#a3b5812649b67830d8dc6d10b5dd1c937", null ],
-    [ "OnRemove", "d8/d59/a26434.html#a5067cef0afc99d487f995f8d6edea21f", null ],
-    [ "PrepareAuraScript", "d8/d59/a26434.html#abc23ebb3761e3505486ac578bdeaeeed", null ],
-    [ "Register", "d8/d59/a26434.html#acc4819698e175889a0491d7f7cc680fd", null ],
-    [ "Validate", "d8/d59/a26434.html#a0649826ce0d66c9f21be8d47c76f4941", null ]
+    [ "CheckCast", "d8/d59/a26434.html#a846862b62f5750801cd804133f290d5d", null ],
+    [ "HandleDummy", "d8/d59/a26434.html#aa56609d3c75a69fb62e302622fd11c3c", null ],
+    [ "Load", "d8/d59/a26434.html#acec7437ba80e4ae491020448a36e4559", null ],
+    [ "PrepareSpellScript", "d8/d59/a26434.html#ab5e281028c009a4b317111de9a0a17e3", null ],
+    [ "Register", "d8/d59/a26434.html#a865fa526f2131703a668e113ba0d7849", null ],
+    [ "Validate", "d8/d59/a26434.html#a6c6dee3de2c54536765cfdd97f4fd0c0", null ]
 ];

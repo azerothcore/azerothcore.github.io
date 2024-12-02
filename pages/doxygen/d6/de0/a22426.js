@@ -1,8 +1,8 @@
 var a22426 =
 [
-    [ "Load", "d6/de0/a22426.html#a4ff26763f05b07d882cd8d209464910e", null ],
-    [ "OnPeriodic", "d6/de0/a22426.html#a3e3bb503a6b5f90741a4df668851accf", null ],
-    [ "PrepareAuraScript", "d6/de0/a22426.html#a4126d35669859963f10ed1425a054298", null ],
-    [ "Register", "d6/de0/a22426.html#adb6a44892d80aeaaf4c15c71a47f422e", null ],
-    [ "Validate", "d6/de0/a22426.html#a22d6c338ea1f2af9be0eb02aceba42bd", null ]
+    [ "HandleScriptEffect", "d6/de0/a22426.html#a8e5b81581fff787f691521d03fed66fc", null ],
+    [ "Load", "d6/de0/a22426.html#a8a74f3c6776f2613a6b2c63387d962e2", null ],
+    [ "PrepareSpellScript", "d6/de0/a22426.html#a5dfe415b9c990e83b9e6c1ee06a33692", null ],
+    [ "Register", "d6/de0/a22426.html#a5839b0e282fb2848c328cfaaca2c752f", null ],
+    [ "Validate", "d6/de0/a22426.html#a8c1ee55a1122c62056250b3fa09357a8", null ]
 ];

@@ -1,6 +1,7 @@
 var a18570 =
 [
-    [ "boss_anubrekhanAI", "df/dec/a18574.html", "df/dec/a18574" ],
-    [ "boss_anubrekhan", "dc/de7/a18570.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
-    [ "GetAI", "dc/de7/a18570.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
+    [ "HandleGameObjectDamage", "dc/de7/a18570.html#a811edfe01c1784664b5b4253d2305b4e", null ],
+    [ "PrepareSpellScript", "dc/de7/a18570.html#a0cfedeba2a747777de292b8f30b6752b", null ],
+    [ "Register", "dc/de7/a18570.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
+    [ "Validate", "dc/de7/a18570.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
 ];

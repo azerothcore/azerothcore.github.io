@@ -1,5 +1,5 @@
 var a11546 =
 [
-    [ "at_ring_of_law", "d1/d94/a11546.html#ad9bb44e898f90fb489b50cad0a711976", null ],
-    [ "OnTrigger", "d1/d94/a11546.html#a613471caae75ab3d82ce915101a20108", null ]
+    [ "amount", "d1/d94/a11546.html#a35b1ecbfecae77f1cb7a0a52eafc5f7b", null ],
+    [ "entry", "d1/d94/a11546.html#ac3d4d211ebb927b1b9a376ee956e1b26", null ]
 ];

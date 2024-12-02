@@ -1,6 +1,6 @@
 var a19842 =
 [
-    [ "DestroyWinterCache", "df/ddb/a19842.html#a4f4d8998d611354bce4f5531e6029d6b", null ],
-    [ "PrepareSpellScript", "df/ddb/a19842.html#a67e36939554e13ddb7fb7493968fbc3f", null ],
-    [ "Register", "df/ddb/a19842.html#a5ac6314b0a016adafd7c6e87289b5649", null ]
+    [ "npc_ulduar_hodir_shamanAI", "df/dcd/a19846.html", "df/dcd/a19846" ],
+    [ "npc_ulduar_hodir_shaman", "df/ddb/a19842.html#ae73a416c72441ab531d8a5db88183d47", null ],
+    [ "GetAI", "df/ddb/a19842.html#ab06a67b72a3954c65792a478ac90672c", null ]
 ];

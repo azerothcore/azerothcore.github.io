@@ -1,6 +1,7 @@
 var a23150 =
 [
-    [ "instance_gruuls_lair_InstanceMapScript", "df/d74/a23154.html", "df/d74/a23154" ],
-    [ "instance_gruuls_lair", "d0/daf/a23150.html#ae091404d09e614fe893c20e8ed90d2c4", null ],
-    [ "GetInstanceScript", "d0/daf/a23150.html#ab8b5b000f6099111244b4ea48f0ab029", null ]
+    [ "PeriodicTick", "d0/daf/a23150.html#a53541105e40202e4a73ecc38d84e9eca", null ],
+    [ "PrepareAuraScript", "d0/daf/a23150.html#a79c8829a86db535e254db009d5286430", null ],
+    [ "Register", "d0/daf/a23150.html#a58cd762eb10d224bb188aaf167c816b9", null ],
+    [ "Validate", "d0/daf/a23150.html#a0a4a1c0b460f7a0ade6ddbbedc893c6f", null ]
 ];

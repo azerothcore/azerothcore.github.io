@@ -1,17 +1,12 @@
 var a09822 =
 [
-    [ "MoveSplineInitArgs", "d6/da0/a09822.html#aa2b6c8940e7dc8bdd4ea6047a5ff1a68", null ],
-    [ "_checkPathBounds", "d6/da0/a09822.html#a984db18cdbd061605a9d486b061dc7c0", null ],
-    [ "Validate", "d6/da0/a09822.html#a17beca23a7a7eaa298debb5e9638daca", null ],
-    [ "facing", "d6/da0/a09822.html#a8800fca5b50ab5123e92b28e921ec8b0", null ],
-    [ "flags", "d6/da0/a09822.html#ac4271ed0434fc8e7f7a70e8869d81a0e", null ],
-    [ "HasVelocity", "d6/da0/a09822.html#acad05815ff039fe1fea3d7cf56afb4f2", null ],
-    [ "initialOrientation", "d6/da0/a09822.html#ab0b66cba791fc206be5b64310480cb88", null ],
-    [ "parabolic_amplitude", "d6/da0/a09822.html#a133d1d0172fde0564a58a004cb354ed0", null ],
-    [ "path", "d6/da0/a09822.html#a3857df1ab2d6dafef4a6d796e6593341", null ],
-    [ "path_Idx_offset", "d6/da0/a09822.html#a6b6aaf43685649798db46d7b409d3e32", null ],
-    [ "splineId", "d6/da0/a09822.html#ac8c84e828c23801a68524c9811f0336b", null ],
-    [ "time_perc", "d6/da0/a09822.html#afe51d24d71b71e87015eeb4851418503", null ],
-    [ "TransformForTransport", "d6/da0/a09822.html#ad9e8518e61b2f5f6ff8380518a6ad0cc", null ],
-    [ "velocity", "d6/da0/a09822.html#af042454593bfd4dc888c1700af437933", null ]
+    [ "FacingInfo", "d6/da0/a09822.html#a1ac825c359704924c66e46eada64e34e", null ],
+    [ "FacingInfo", "d6/da0/a09822.html#a7820b3ce134dcca05b9b15299eb3b33f", null ],
+    [ "FacingInfo", "d6/da0/a09822.html#add6411db27c1d313d2f133adf0c35755", null ],
+    [ "angle", "d6/da0/a09822.html#ac56b304c2c5df7ab72c6fcbd2f845b02", null ],
+    [ "f", "d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61", null ],
+    [ "target", "d6/da0/a09822.html#a064b5265b4bb2a0053908bf6031b8f65", null ],
+    [ "x", "d6/da0/a09822.html#ac08687158cc0bcfbc9814b1cbbe95684", null ],
+    [ "y", "d6/da0/a09822.html#ad7fcfb6b1c5402a0570748d343eadfcc", null ],
+    [ "z", "d6/da0/a09822.html#a5ff017b732d47684f675041e44227754", null ]
 ];

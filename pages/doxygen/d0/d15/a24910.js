@@ -1,7 +1,11 @@
 var a24910 =
 [
-    [ "PrepareAuraScript", "d0/d15/a24910.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
-    [ "Register", "d0/d15/a24910.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
-    [ "TriggerFoodBuff", "d0/d15/a24910.html#a5d125413491dd377d61b8e30c4979fdd", null ],
-    [ "Validate", "d0/d15/a24910.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
+    [ "spell_gen_apply_aura_after_expiration", "d0/d15/a24910.html#a391e5089eb034618c5e3edde26685a00", null ],
+    [ "AfterRemove", "d0/d15/a24910.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
+    [ "PrepareAuraScript", "d0/d15/a24910.html#a494123635eda4c43d92a08c9c8cd5627", null ],
+    [ "Register", "d0/d15/a24910.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
+    [ "Validate", "d0/d15/a24910.html#ad405128104d8a6528e8db96281ad0f0b", null ],
+    [ "_aura", "d0/d15/a24910.html#a8a79aef777e1397b031149c54ae9d81d", null ],
+    [ "_effect", "d0/d15/a24910.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
+    [ "_spellId", "d0/d15/a24910.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
 ];

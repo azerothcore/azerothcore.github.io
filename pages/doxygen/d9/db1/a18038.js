@@ -1,5 +1,8 @@
 var a18038 =
 [
-    [ "achievement_been_waiting_long_time", "d9/db1/a18038.html#a839ec8cb50512bbae7125ead3ed35aec", null ],
-    [ "OnCheck", "d9/db1/a18038.html#a5e72304220d3a649d2182cb287215da6", null ]
+    [ "npc_lk_spirit_bombAI", "d9/db1/a18038.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "d9/db1/a18038.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "d9/db1/a18038.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "d9/db1/a18038.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "d9/db1/a18038.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

@@ -1,6 +1,6 @@
 var a17722 =
 [
-    [ "npc_spinestalkerAI", "d4/d49/a17726.html", "d4/d49/a17726" ],
-    [ "npc_spinestalker", "dc/d2b/a17722.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
-    [ "GetAI", "dc/d2b/a17722.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
+    [ "MysticBuffetTargetFilter", "dc/d2b/a17722.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
+    [ "operator()", "dc/d2b/a17722.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
+    [ "_caster", "dc/d2b/a17722.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
 ];

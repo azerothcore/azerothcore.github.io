@@ -1,6 +1,5 @@
 var a14982 =
 [
-    [ "npc_murkdeepAI", "df/d23/a14986.html", "df/d23/a14986" ],
-    [ "npc_murkdeep", "dd/dd1/a14982.html#a72d44d786bcba4dea5ccedd33e7dbd3c", null ],
-    [ "GetAI", "dd/dd1/a14982.html#ab9f8faa3adaf1f251e1248fbe0f46468", null ]
+    [ "go_bristlelimb_cage", "dd/dd1/a14982.html#ab965b9c529577a5e58639285fa35d3d7", null ],
+    [ "OnGossipHello", "dd/dd1/a14982.html#a6f29e07550767c1c0610f46e4921503f", null ]
 ];

@@ -1,9 +1,8 @@
 var a20066 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "de/df4/a20066.html#a60e0706b9285cdf4b25b6f399cad18e9", null ],
-    [ "DoAction", "de/df4/a20066.html#ac5d0e28ee330741da3b287d965537f39", null ],
-    [ "Reset", "de/df4/a20066.html#a91207c04ecee6fc0e906133e054bf51b", null ],
-    [ "UpdateAI", "de/df4/a20066.html#aebec433e806d4f63f5593db0301612b4", null ],
-    [ "option", "de/df4/a20066.html#a98bb19fea19a05127b4b32df039acf05", null ],
-    [ "timer", "de/df4/a20066.html#a118d048557b0ed314180299c3cd2bcbc", null ]
+    [ "npc_ulduar_mimiron_rocketAI", "de/df4/a20066.html#ad758070aaeadc4d7b2b7ff4108b76c89", null ],
+    [ "InitializeAI", "de/df4/a20066.html#aba3bf48434dca79f56f4b9aac707d48c", null ],
+    [ "Reset", "de/df4/a20066.html#a60fbcbae9205bfd1c63b5bef7924b3ee", null ],
+    [ "SetData", "de/df4/a20066.html#a8e547ba872c9bc2ec95ae2f60b011fce", null ],
+    [ "UpdateAI", "de/df4/a20066.html#a28106e303d5e7c1bce9ceaa571129dca", null ]
 ];

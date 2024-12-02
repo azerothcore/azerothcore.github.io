@@ -1,6 +1,8 @@
 var a23026 =
 [
-    [ "instance_steam_vault_InstanceMapScript", "de/dbe/a23030.html", "de/dbe/a23030" ],
-    [ "instance_steam_vault", "d8/d51/a23026.html#aa3417083841ccb50c8a2f29ba343e115", null ],
-    [ "GetInstanceScript", "d8/d51/a23026.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
+    [ "boss_hungarfen", "d8/d51/a23026.html#a009b8d34731d2310a53195024b434935", null ],
+    [ "JustEngagedWith", "d8/d51/a23026.html#a3612bb373ecdba4245587fd94257ba62", null ],
+    [ "Reset", "d8/d51/a23026.html#a4b310eff8af9a33c50ae8f2035ba76ad", null ],
+    [ "UpdateAI", "d8/d51/a23026.html#a1765bd54c04a3479e837b3d0e241300e", null ],
+    [ "_scheduler", "d8/d51/a23026.html#a702185681abb6cfc4add7078ff5bbb52", null ]
 ];

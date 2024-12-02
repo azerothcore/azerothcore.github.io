@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: LinkValidator&lt; LinkTags::achievement &gt; Struct Reference</title>
+<title>AzerothCore: LinkValidator&lt; T &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,39 +107,42 @@ $(document).ready(function(){initNavTree('d1/dd7/a07498.html','../../'); initRes
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d1/d0c/a07495.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">LinkValidator&lt; LinkTags::achievement &gt; Struct Reference</div></div>
+  <div class="headertitle"><div class="title">LinkValidator&lt; T &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:ab9c8e4926f593058bf247f33b6089bc3"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd7/a07498.html#ab9c8e4926f593058bf247f33b6089bc3">IsTextValid</a> (<a class="el" href="../../d1/da9/a07530.html">AchievementLinkData</a> const &amp;data, std::string_view text)</td></tr>
-<tr class="separator:ab9c8e4926f593058bf247f33b6089bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab291dc8bdb852a8386c2a3d1bd18cfad"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd7/a07498.html#ab291dc8bdb852a8386c2a3d1bd18cfad">IsColorValid</a> (<a class="el" href="../../d1/da9/a07530.html">AchievementLinkData</a> const &amp;, <a class="el" href="../../d7/da3/a07590.html">HyperlinkColor</a> c)</td></tr>
-<tr class="separator:ab291dc8bdb852a8386c2a3d1bd18cfad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c9a027ff1f355b16fe629b7c4af7b98"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd7/a07498.html#a1c9a027ff1f355b16fe629b7c4af7b98">IsTextValid</a> (typename T::value_type, std::string_view)</td></tr>
+<tr class="separator:a1c9a027ff1f355b16fe629b7c4af7b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b13574c40a78f28d15e6b11bc7bd5bc"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/dd7/a07498.html#a5b13574c40a78f28d15e6b11bc7bd5bc">IsColorValid</a> (typename T::value_type, <a class="el" href="../../d0/db4/a07594.html">HyperlinkColor</a>)</td></tr>
+<tr class="separator:a5b13574c40a78f28d15e6b11bc7bd5bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab291dc8bdb852a8386c2a3d1bd18cfad" name="ab291dc8bdb852a8386c2a3d1bd18cfad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab291dc8bdb852a8386c2a3d1bd18cfad">&#9670;&#160;</a></span>IsColorValid()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct LinkValidator&lt; T &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a5b13574c40a78f28d15e6b11bc7bd5bc" name="a5b13574c40a78f28d15e6b11bc7bd5bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b13574c40a78f28d15e6b11bc7bd5bc">&#9670;&#160;</a></span>IsColorValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool <a class="el" href="../../df/dbf/a07494.html">LinkValidator</a>&lt; <a class="el" href="../../d9/d53/a07558.html">LinkTags::achievement</a> &gt;::IsColorValid </td>
+          <td class="memname">static bool <a class="el" href="../../d1/dd7/a07498.html">LinkValidator</a>&lt; T &gt;::IsColorValid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da9/a07530.html">AchievementLinkData</a> const &amp;&#160;</td>
+          <td class="paramtype">typename T::value_type&#160;</td>
           <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/da3/a07590.html">HyperlinkColor</a>&#160;</td>
-          <td class="paramname"><em>c</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d0/db4/a07594.html">HyperlinkColor</a>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -153,35 +156,32 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  127</span>    {</div>
-<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">return</span> c == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#aff4462a11392766622feb9f20463ffb6a5c47688297f4ea30606c8f24b1580ee5">CHAT_LINK_COLOR_ACHIEVEMENT</a>;</div>
-<div class="line"><span class="lineno">  129</span>    }</div>
-<div class="ttc" id="aa02771_html_aff4462a11392766622feb9f20463ffb6a5c47688297f4ea30606c8f24b1580ee5"><div class="ttname"><a href="../../d0/dbd/a02771.html#aff4462a11392766622feb9f20463ffb6a5c47688297f4ea30606c8f24b1580ee5">CHAT_LINK_COLOR_ACHIEVEMENT</a></div><div class="ttdeci">@ CHAT_LINK_COLOR_ACHIEVEMENT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3214</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  108</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l03214">CHAT_LINK_COLOR_ACHIEVEMENT</a>.</p>
-
 </div>
 </div>
-<a id="ab9c8e4926f593058bf247f33b6089bc3" name="ab9c8e4926f593058bf247f33b6089bc3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9c8e4926f593058bf247f33b6089bc3">&#9670;&#160;</a></span>IsTextValid()</h2>
+<a id="a1c9a027ff1f355b16fe629b7c4af7b98" name="a1c9a027ff1f355b16fe629b7c4af7b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c9a027ff1f355b16fe629b7c4af7b98">&#9670;&#160;</a></span>IsTextValid()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool <a class="el" href="../../df/dbf/a07494.html">LinkValidator</a>&lt; <a class="el" href="../../d9/d53/a07558.html">LinkTags::achievement</a> &gt;::IsTextValid </td>
+          <td class="memname">static bool <a class="el" href="../../d1/dd7/a07498.html">LinkValidator</a>&lt; T &gt;::IsTextValid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/da9/a07530.html">AchievementLinkData</a> const &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramtype">typename T::value_type&#160;</td>
+          <td class="paramname">, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>text</em>&#160;</td>
+          <td class="paramname">&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -195,20 +195,9 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  115</span>    {</div>
-<div class="line"><span class="lineno">  116</span>        <span class="keywordflow">if</span> (text.empty())</div>
-<div class="line"><span class="lineno">  117</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  118</span> </div>
-<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>; ++i)</div>
-<div class="line"><span class="lineno">  120</span>            <span class="keywordflow">if</span> (text == data.Achievement-&gt;name[i])</div>
-<div class="line"><span class="lineno">  121</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  122</span> </div>
-<div class="line"><span class="lineno">  123</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  124</span>    }</div>
-<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  107</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00041">Acore::Hyperlinks::AchievementLinkData::Achievement</a>, <a class="el" href="../../#l00044">AchievementEntry::name</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00277">LinkValidator&lt; LinkTags::glyph &gt;::IsTextValid()</a>, <a class="el" href="../../#l00294">LinkValidator&lt; LinkTags::talent &gt;::IsTextValid()</a>, and <a class="el" href="../../#l00315">LinkValidator&lt; LinkTags::trade &gt;::IsTextValid()</a>.</p>
 
 </div>
 </div>
@@ -217,8 +206,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d1/dd7/a07498.html">LinkValidator&lt; LinkTags::achievement &gt;</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:42:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d1/dd7/a07498.html">LinkValidator</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:42:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

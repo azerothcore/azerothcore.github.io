@@ -1,20 +1,15 @@
 var a28246 =
 [
-    [ "FileLoader", "dc/d64/a28246.html#a51313b536560d1d89d8350475d2bc749", null ],
-    [ "~FileLoader", "dc/d64/a28246.html#a0954776182dd01364bdb216539ce398b", null ],
-    [ "FileLoader", "dc/d64/a28246.html#a51313b536560d1d89d8350475d2bc749", null ],
-    [ "~FileLoader", "dc/d64/a28246.html#a0954776182dd01364bdb216539ce398b", null ],
-    [ "free", "dc/d64/a28246.html#a738aeb2ebe751c9fc75013dbce30dcc4", null ],
-    [ "free", "dc/d64/a28246.html#aef98564821c8e63b6d484179cda0b380", null ],
-    [ "GetData", "dc/d64/a28246.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
-    [ "GetData", "dc/d64/a28246.html#aed85cdbd6a4e52096292c6ed8578f7bd", null ],
-    [ "GetDataSize", "dc/d64/a28246.html#a2a07adb0692a51af06ccd31d449ae444", null ],
-    [ "GetDataSize", "dc/d64/a28246.html#a2a07adb0692a51af06ccd31d449ae444", null ],
-    [ "loadFile", "dc/d64/a28246.html#a11908109042f93ddde393e7a874683c9", null ],
-    [ "loadFile", "dc/d64/a28246.html#a11908109042f93ddde393e7a874683c9", null ],
-    [ "prepareLoadedData", "dc/d64/a28246.html#ab66347098d7c9ac470339c232f9b7588", null ],
-    [ "prepareLoadedData", "dc/d64/a28246.html#a498a33d80768843b4ab1ff2d5ffe68d9", null ],
-    [ "data", "dc/d64/a28246.html#aff1880ac2038f17f4d1f63bc9f7d9afd", null ],
-    [ "data_size", "dc/d64/a28246.html#a355891fc980538e74080b9b83a95dec8", null ],
-    [ "version", "dc/d64/a28246.html#a41cedec185e5909d83c8a185d1476dee", null ]
+    [ "prepareLoadedData", "dc/d64/a28246.html#ace847b2eee40844bb3fa880e3c1d1aa5", null ],
+    [ "data1", "dc/d64/a28246.html#a9e2886eb133eb0e0bc8fa21a5b166d20", null ],
+    [ "data2", "dc/d64/a28246.html#a53f0a49fd2de7f29032556fe3a4e9110", null ],
+    [ "data3", "dc/d64/a28246.html#a2092bb81ccdea07c4752a2df49cba4c2", null ],
+    [ "data4", "dc/d64/a28246.html#a2bfc7b7268caaa684c6fece0d0769b9e", null ],
+    [ "data5", "dc/d64/a28246.html#a9536fcb98293d1c09a1975b753f02ae8", null ],
+    [ "data6", "dc/d64/a28246.html#ad43914a6df430c32a0c2f56bb8f1f4d7", null ],
+    [ "data7", "dc/d64/a28246.html#a7508e9fa38ab965ecf8e21b1f859a918", null ],
+    [ "data8", "dc/d64/a28246.html#ae926543e029695e268ed950edf625bdb", null ],
+    [ "fcc", "dc/d64/a28246.html#aa0ccc34e7e7a2de4e9866819dbe0c72a", null ],
+    [ "fcc_txt", "dc/d64/a28246.html#aaa61a13b39e23a3efba960645e3e14a9", null ],
+    [ "size", "dc/d64/a28246.html#a1af89d5193eff2f32cf37d131f9ef7b8", null ]
 ];

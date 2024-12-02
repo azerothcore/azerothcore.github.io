@@ -1,8 +1,11 @@
 var a18126 =
 [
-    [ "npc_suppresserAI", "d5/dff/a18126.html#a5787ec6eadae1fc23b84129933ea14e8", null ],
-    [ "AttackStart", "d5/dff/a18126.html#ae36105de1df1dd9841332d9a8e7799be", null ],
-    [ "IsSummonedBy", "d5/dff/a18126.html#a35ec340b2d02a14707fc353428b1298d", null ],
-    [ "UpdateAI", "d5/dff/a18126.html#a1443e8311b6e2d61d6f9abd2e5f40793", null ],
-    [ "_instance", "d5/dff/a18126.html#a3e171216b2d53e00f8e504f47759d9a6", null ]
+    [ "npc_valithria_cloudAI", "d5/dff/a18126.html#a5b550d0154f302cecc509fbd868a53bb", null ],
+    [ "AttackStart", "d5/dff/a18126.html#a5835d5ba19e1480016e585c1e49489c9", null ],
+    [ "EnterEvadeMode", "d5/dff/a18126.html#a346fd998d41451d7d1e605afdb13b65c", null ],
+    [ "MoveInLineOfSight", "d5/dff/a18126.html#a8d4c8d082f12b96b2b77447d0b942c2c", null ],
+    [ "Reset", "d5/dff/a18126.html#abca34d7285ef23c062006df8f8ae6d53", null ],
+    [ "UpdateAI", "d5/dff/a18126.html#a6908f5731915bf7d15bb4921c960aa30", null ],
+    [ "_events", "d5/dff/a18126.html#afc5c9299d7f1f73c087a19dcfb19e096", null ],
+    [ "_instance", "d5/dff/a18126.html#a20cc2bba9d1005cc93b55dfba8bfbcf3", null ]
 ];

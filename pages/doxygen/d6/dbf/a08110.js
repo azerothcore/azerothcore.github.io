@@ -1,6 +1,7 @@
 var a08110 =
 [
-    [ "DamageMax", "d6/dbf/a08110.html#afc0bd7960848f6434c182a3fadc1e256", null ],
-    [ "DamageMin", "d6/dbf/a08110.html#acbab962cbc25ad032c97216feac281bb", null ],
-    [ "DamageType", "d6/dbf/a08110.html#aecdcc73f2cb30ef5cc149607e01bbe34", null ]
+    [ "EnchStoreItem", "d6/dbf/a08110.html#a89019e156774c5b978251479264e5463", null ],
+    [ "EnchStoreItem", "d6/dbf/a08110.html#aca83bb20eb6153faeaf599b07b97e357", null ],
+    [ "chance", "d6/dbf/a08110.html#a2d3d0cd28c79402b3625694d4676ed8b", null ],
+    [ "ench", "d6/dbf/a08110.html#ac2346b6c6c5c09bb63676d72c798d848", null ]
 ];

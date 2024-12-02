@@ -1,10 +1,10 @@
 var a08986 =
 [
-    [ "AnyDeadUnitSpellTargetInRangeCheck", "d2/dd5/a08986.html#a212c308a02716ff382e820e86e233ed3", null ],
-    [ "operator()", "d2/dd5/a08986.html#af328df880d17a62e2dbed0ff4231fc39", null ],
-    [ "operator()", "d2/dd5/a08986.html#adcc69b9ef03a68aa235e40449a80b701", null ],
-    [ "operator()", "d2/dd5/a08986.html#a2f2483cf7078681cb3acf28560e61184", null ],
-    [ "operator()", "d2/dd5/a08986.html#aba0bf4c320a684b68743a06e724a369e", null ],
-    [ "i_check", "d2/dd5/a08986.html#aa2223ad31acf47a1608ded6b5cbc2f03", null ],
-    [ "i_spellInfo", "d2/dd5/a08986.html#afeb889f6cee596b2c2229f86e0a8a3f1", null ]
+    [ "AnyDeadUnitObjectInRangeCheck", "d2/dd5/a08986.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
+    [ "operator()", "d2/dd5/a08986.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
+    [ "operator()", "d2/dd5/a08986.html#ae885f49537043421a92b44c201bec358", null ],
+    [ "operator()", "d2/dd5/a08986.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
+    [ "operator()", "d2/dd5/a08986.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
+    [ "i_range", "d2/dd5/a08986.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
+    [ "i_searchObj", "d2/dd5/a08986.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
 ];

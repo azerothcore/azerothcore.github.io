@@ -1,6 +1,7 @@
 var a17522 =
 [
-    [ "HandleScript", "d2/deb/a17522.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
-    [ "PrepareSpellScript", "d2/deb/a17522.html#a50560d754709e6b9ec6863142c1ffce3", null ],
-    [ "Register", "d2/deb/a17522.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
+    [ "HandleDummy", "d2/deb/a17522.html#aa61db53d7395fd45b8569e12978fed0b", null ],
+    [ "PrepareSpellScript", "d2/deb/a17522.html#ab63054debe6763027ab52ad122277719", null ],
+    [ "Register", "d2/deb/a17522.html#a6dee5fc9fafd7faa3eadbf9431568dcc", null ],
+    [ "Validate", "d2/deb/a17522.html#adb7e30d10c2071de5d5070b64a10af30", null ]
 ];

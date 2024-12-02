@@ -1,7 +1,13 @@
 var a20894 =
 [
-    [ "HandleDummy", "db/d0d/a20894.html#af524c771ef3a314f3c1dbaacae4f4538", null ],
-    [ "PrepareSpellScript", "db/d0d/a20894.html#a2ad8abf39847c79ac5bc53093c487fc0", null ],
-    [ "Register", "db/d0d/a20894.html#a45a33c0b51ed6c1dfed8d52d2f99e239", null ],
-    [ "Validate", "db/d0d/a20894.html#a92f99501ee1582873586d2405b224f4f", null ]
+    [ "boss_toravonAI", "db/d0d/a20894.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
+    [ "AttackStart", "db/d0d/a20894.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
+    [ "JustDied", "db/d0d/a20894.html#ad501bb34a0014be0abc965aae5383e21", null ],
+    [ "JustEngagedWith", "db/d0d/a20894.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
+    [ "JustSummoned", "db/d0d/a20894.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
+    [ "Reset", "db/d0d/a20894.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
+    [ "UpdateAI", "db/d0d/a20894.html#a97c16b1689cfdb7fa680381964cb272a", null ],
+    [ "events", "db/d0d/a20894.html#ae2a3b691f1580275228204ea8ccaf846", null ],
+    [ "pInstance", "db/d0d/a20894.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
+    [ "summons", "db/d0d/a20894.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
 ];

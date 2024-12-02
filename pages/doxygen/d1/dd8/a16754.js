@@ -1,5 +1,6 @@
 var a16754 =
 [
-    [ "endPosition", "d1/dd8/a16754.html#a8a88b0191d28ef6af8f41db627552602", null ],
-    [ "entry", "d1/dd8/a16754.html#ac4e55af666e269440953ced038c1a8de", null ]
+    [ "HandleDummy", "d1/dd8/a16754.html#a5b56eabdba4e6c9e23fe5a40b20417fe", null ],
+    [ "PrepareSpellScript", "d1/dd8/a16754.html#a6c53fed364a1a31cd170102d4d6878b1", null ],
+    [ "Register", "d1/dd8/a16754.html#ac49eaa96ebb95a38f54a9bb6321f5585", null ]
 ];

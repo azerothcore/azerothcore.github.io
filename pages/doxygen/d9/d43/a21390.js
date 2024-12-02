@@ -1,6 +1,6 @@
 var a21390 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d2/d1a/a21394.html", "d2/d1a/a21394" ],
-    [ "npc_injured_7th_legion_soldier", "d9/d43/a21390.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "d9/d43/a21390.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "CheckCast", "d9/d43/a21390.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
+    [ "PrepareSpellScript", "d9/d43/a21390.html#abff433d61c798d17882292b6b0956a58", null ],
+    [ "Register", "d9/d43/a21390.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
 ];

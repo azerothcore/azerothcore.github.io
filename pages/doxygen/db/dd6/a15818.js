@@ -1,6 +1,6 @@
 var a15818 =
 [
-    [ "instance_ruby_sanctum_InstanceMapScript", "d3/d5f/a15822.html", "d3/d5f/a15822" ],
-    [ "instance_ruby_sanctum", "db/dd6/a15818.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
-    [ "GetInstanceScript", "db/dd6/a15818.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
+    [ "boss_saviana_ragefireAI", "d3/d5f/a15822.html", "d3/d5f/a15822" ],
+    [ "boss_saviana_ragefire", "db/dd6/a15818.html#a5964bbc510355a8b1fd08bd5f9f5f8c0", null ],
+    [ "GetAI", "db/dd6/a15818.html#a0a0073d8710af066d9711636f4d5b01e", null ]
 ];

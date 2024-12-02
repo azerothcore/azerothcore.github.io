@@ -1,6 +1,4 @@
 var a27750 =
 [
-    [ "Id", "df/d69/a27750.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
-    [ "Order", "df/d69/a27750.html#a16fca42d9a0a98e034a93984c4362b53", null ],
-    [ "TypeFlags", "df/d69/a27750.html#ac7246adc7c6c3217de8ac093983b7553", null ]
+    [ "ratio", "df/d69/a27750.html#a4df2f98014dd653657b80b4d98e54896", null ]
 ];

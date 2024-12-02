@@ -1,6 +1,6 @@
 var a11030 =
 [
-    [ "EffectBase", "d3/dae/a11030.html#ab02f9f344e2f32ad59b35993d5c8f819", null ],
-    [ "CheckEffect", "d3/dae/a11030.html#a8c300ca68c3ff6f74b230835c566fd60", null ],
-    [ "ToString", "d3/dae/a11030.html#ab6f5b2a7ec1183206110eac9a21a7de5", null ]
+    [ "AuraDispelHandler", "d3/dae/a11030.html#ab6e675b4db931c601b3d6aef65ae0ff6", null ],
+    [ "Call", "d3/dae/a11030.html#a147d8a6d95f011f27600d052ef7b4000", null ],
+    [ "pHandlerScript", "d3/dae/a11030.html#ab7dd73a36aa517354a023deb7db0cf19", null ]
 ];

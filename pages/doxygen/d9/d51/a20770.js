@@ -1,6 +1,5 @@
 var a20770 =
 [
-    [ "npc_ravenous_furbolgAI", "d5/d0f/a20774.html", "d5/d0f/a20774" ],
-    [ "npc_ravenous_furbolg", "d9/d51/a20770.html#a1d7adf8eb055cb6ba82db2f173256fe9", null ],
-    [ "GetAI", "d9/d51/a20770.html#a284c366e6f5bd024d9627a83dd966669", null ]
+    [ "go_palehoof_sphere", "d9/d51/a20770.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
+    [ "OnGossipHello", "d9/d51/a20770.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
 ];

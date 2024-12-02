@@ -1,6 +1,12 @@
 var a23798 =
 [
-    [ "npc_infernal_attackerAI", "d8/d76/a23802.html", "d8/d76/a23802" ],
-    [ "npc_infernal_attacker", "dd/dc3/a23798.html#ac6fbfcf8fc918b48d6b9416a71cfe3fa", null ],
-    [ "GetAI", "dd/dc3/a23798.html#ad1d9186c186de36efbe102a07fe89de4", null ]
+    [ "npc_enslaved_netherwing_drake", "dd/dc3/a23798.html#a9f848fa3c68b8a269f0b6016058ec364", null ],
+    [ "_GetPlayer", "dd/dc3/a23798.html#af02a965e98f35134a3c40ed9cdfb723e", null ],
+    [ "JustDied", "dd/dc3/a23798.html#acde70c9d8c675a9a9dd14695dc752184", null ],
+    [ "MovementInform", "dd/dc3/a23798.html#afa030a380365daa33c156a0d6be6a6d9", null ],
+    [ "Reset", "dd/dc3/a23798.html#aec02b19d27a09f16ef06adb694c2e65e", null ],
+    [ "SpellHit", "dd/dc3/a23798.html#a195794e88870a0b1ca35473f5f0378a7", null ],
+    [ "UpdateAI", "dd/dc3/a23798.html#aa7ac2dd17bdf4939d74fe5af85c649b9", null ],
+    [ "_playerGUID", "dd/dc3/a23798.html#a2f9a6a6cbaa9cab0e6014f6fd1c54346", null ],
+    [ "_tapped", "dd/dc3/a23798.html#a9cbafd9536ff7eca33b0b44295aaec92", null ]
 ];

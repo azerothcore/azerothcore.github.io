@@ -1,6 +1,10 @@
 var a18982 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d3/d72/a18986.html", "d3/d72/a18986" ],
-    [ "npc_oculus_unstable_sphere", "d0/df8/a18982.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
-    [ "GetAI", "d0/df8/a18982.html#adda2a9e7eab03444742e85729673ab2f", null ]
+    [ "instance_nexus_InstanceMapScript", "d0/df8/a18982.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
+    [ "Initialize", "d0/df8/a18982.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
+    [ "OnCreatureCreate", "d0/df8/a18982.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
+    [ "OnGameObjectCreate", "d0/df8/a18982.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
+    [ "OnGameObjectRemove", "d0/df8/a18982.html#ac148c67823484eee38ab6646dfb68530", null ],
+    [ "SetBossState", "d0/df8/a18982.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
+    [ "SetData", "d0/df8/a18982.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
 ];

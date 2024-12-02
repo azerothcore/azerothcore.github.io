@@ -1,11 +1,8 @@
 var a08478 =
 [
-    [ "DispelInfo", "df/d29/a08478.html#ab6e88e6fc168d22a8b31754a9b1bf2e5", null ],
-    [ "GetDispeller", "df/d29/a08478.html#a1c6f02de66ffa847c09d19922b02bc20", null ],
-    [ "GetDispellerSpellId", "df/d29/a08478.html#a0d09f205ff9374fddc694a66ccf0c31d", null ],
-    [ "GetRemovedCharges", "df/d29/a08478.html#a9c0bd34ebe7d0a0839b7bdee31ef3f3d", null ],
-    [ "SetRemovedCharges", "df/d29/a08478.html#a3c249e2b70b9f4d8bb3bd9fed07a1bd7", null ],
-    [ "_chargesRemoved", "df/d29/a08478.html#a5b6105f37470acb57bbda3e14ee664be", null ],
-    [ "_dispellerSpell", "df/d29/a08478.html#a484e6d516c5de30413e97f2c4abb5515", null ],
-    [ "_dispellerUnit", "df/d29/a08478.html#ab14d6e0df8bbb89ef0d3550724209040", null ]
+    [ "DiminishingReturn", "df/d29/a08478.html#acd4828637710636d0164fced285c854d", null ],
+    [ "DRGroup", "df/d29/a08478.html#add3ab95d65e283a326e1922129941ae4", null ],
+    [ "hitCount", "df/d29/a08478.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
+    [ "hitTime", "df/d29/a08478.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
+    [ "stack", "df/d29/a08478.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
 ];

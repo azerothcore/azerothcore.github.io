@@ -1,11 +1,19 @@
 var a15410 =
 [
-    [ "npc_amanitar_mushrooms", "d4/dd7/a15410.html#ad5603426c71c107ff439cea2efeea3f9", null ],
-    [ "AttackStart", "d4/dd7/a15410.html#a0cc90c924a12a8be32c78e76ca798943", null ],
-    [ "DamageTaken", "d4/dd7/a15410.html#a4c21a448535e1fc0f0116257194b9732", null ],
-    [ "EnterEvadeMode", "d4/dd7/a15410.html#ae17ee367c9d206868c7dfc64d438806a", null ],
-    [ "JustEngagedWith", "d4/dd7/a15410.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
-    [ "Reset", "d4/dd7/a15410.html#ae597d5a64765f5304773f9a38e9c719a", null ],
-    [ "UpdateAI", "d4/dd7/a15410.html#ae71058353be43935aa45eb28eb41170f", null ],
-    [ "events", "d4/dd7/a15410.html#a0be93d15582a5511963721510652e76d", null ]
+    [ "npc_weegli_blastfuseAI", "d4/dd7/a15410.html#acde6b3e037d3c297e5d1beccdbe3d03a", null ],
+    [ "AttackStart", "d4/dd7/a15410.html#a5e9140b38021ed6a2808e026fd77f8f1", null ],
+    [ "DestroyDoor", "d4/dd7/a15410.html#a0cf76693b1af179c9857abdccc6931ee", null ],
+    [ "InitializeAI", "d4/dd7/a15410.html#a61490f8c63f8056ac9f145ed8dd789c7", null ],
+    [ "JustReachedHome", "d4/dd7/a15410.html#a4a88bc4bff8b5b2f75e3dd0c25927815", null ],
+    [ "MovementInform", "d4/dd7/a15410.html#a33470a45eba0cbb62b041010f6aed302", null ],
+    [ "Reset", "d4/dd7/a15410.html#abec9f353a1430afae12c21273bf32197", null ],
+    [ "sGossipHello", "d4/dd7/a15410.html#a3a8381fa5e5d4daf19f312166247bea5", null ],
+    [ "sGossipSelect", "d4/dd7/a15410.html#a0927116dcc55a1107dce7c65d1295e2a", null ],
+    [ "UpdateAI", "d4/dd7/a15410.html#a73e482ebbb1566738e6775a574500dc8", null ],
+    [ "Bomb_Timer", "d4/dd7/a15410.html#af6f68e291ce7d8cf25105ac64d7eebff", null ],
+    [ "destroyingDoor", "d4/dd7/a15410.html#a0c7f207666da8ad74ff9dc64b582a042", null ],
+    [ "instance", "d4/dd7/a15410.html#a609616e5136cf11bc16f9bb30ba92879", null ],
+    [ "LandMine_Timer", "d4/dd7/a15410.html#ad9bab1d2c7a2baf35f6f7fb2cb4a27c7", null ],
+    [ "outroStage", "d4/dd7/a15410.html#a30cdbce7bddb4d1d221925de86329a41", null ],
+    [ "outroTimer", "d4/dd7/a15410.html#a08ef419fbef2ec38b7bcd408f135cd29", null ]
 ];

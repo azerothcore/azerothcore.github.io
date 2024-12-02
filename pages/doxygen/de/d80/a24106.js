@@ -1,6 +1,7 @@
 var a24106 =
 [
-    [ "npc_pet_pri_shadowfiend", "de/d80/a24106.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "de/d80/a24106.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "de/d80/a24106.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "CheckCast", "de/d80/a24106.html#a0e4e62a9b1763619170b6da8487e7ee1", null ],
+    [ "HandleDummy", "de/d80/a24106.html#ac7084a563e98760d58dfbcafdd7cde11", null ],
+    [ "PrepareSpellScript", "de/d80/a24106.html#a465da282630352a289d5daae7ccb1d01", null ],
+    [ "Register", "de/d80/a24106.html#ae668f0c45a74d56d1be5be29309c9f6d", null ]
 ];

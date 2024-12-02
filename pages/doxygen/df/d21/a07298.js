@@ -1,17 +1,15 @@
 var a07298 =
 [
-    [ "ChatHandler", "df/d21/a07298.html#aae585fad45749fd46fa28d36fdad9760", null ],
-    [ "ChatHandler", "df/d21/a07298.html#a7ab2c0deb500bef6654274630815bb75", null ],
-    [ "IsHumanReadable", "df/d21/a07298.html#acd17995bc95b6e449d5e185bfe523b84", null ],
-    [ "ParseCommands", "df/d21/a07298.html#abd1bb7d3ca143479bd50d908dc1f4136", null ],
-    [ "Send", "df/d21/a07298.html#a2961b609065a68245d1556d3b32af013", null ],
-    [ "SendAck", "df/d21/a07298.html#a0e886c68796eb6a2a529186279dd778d", null ],
-    [ "SendFailed", "df/d21/a07298.html#aa3a06fffce2472b941163d062f1b3569", null ],
-    [ "SendOK", "df/d21/a07298.html#a8ece640cb81b50ed8e0b90c40ff71f47", null ],
-    [ "SendSysMessage", "df/d21/a07298.html#a289a9806b8a083e063b8c83ea7016718", null ],
-    [ "SendSysMessage", "df/d21/a07298.html#ac1ed346507097817b3f8e00f0ae657a0", null ],
-    [ "SendSysMessage", "df/d21/a07298.html#a1f915beeda589704808dc727c3edcb63", null ],
-    [ "echo", "df/d21/a07298.html#a9c87777b4249795b41163b2294f44746", null ],
-    [ "hadAck", "df/d21/a07298.html#a8262279e3e11d7abc952b2ab3b67a99f", null ],
-    [ "humanReadable", "df/d21/a07298.html#a85407d3478890e8f4c43377de7eb0993", null ]
+    [ "Print", "df/d21/a07298.html#a7a3f746595d9ca126747f5e0ba52c71b", null ],
+    [ "CliHandler", "df/d21/a07298.html#a6a7ba928db9d41743d7cebd1ad98b084", null ],
+    [ "GetAcoreString", "df/d21/a07298.html#a84a52cac4c1ac11e36e36c37f976af0e", null ],
+    [ "GetNameLink", "df/d21/a07298.html#ae879bbfa69992caa7a0b1b2b3c7d939c", null ],
+    [ "GetSessionDbcLocale", "df/d21/a07298.html#a610f7431dc7b064c964e0d446160d19f", null ],
+    [ "GetSessionDbLocaleIndex", "df/d21/a07298.html#a5a2118d9227aa53818d736e387d77dea", null ],
+    [ "HasSession", "df/d21/a07298.html#a1cd4aabe4c61e3899a1e6d6785742abe", null ],
+    [ "needReportToTarget", "df/d21/a07298.html#ad8c4ee6e45afff55d94dea9704bd2097", null ],
+    [ "ParseCommands", "df/d21/a07298.html#abbd02247d6094bf39b2791ba45e9942e", null ],
+    [ "SendSysMessage", "df/d21/a07298.html#a636be10a282a8d100b807dac119b3ff6", null ],
+    [ "m_callbackArg", "df/d21/a07298.html#aa1fafd68fca180506cc15680b695db9e", null ],
+    [ "m_print", "df/d21/a07298.html#aadeaa84ce5d26951f506a2656c1d64d2", null ]
 ];

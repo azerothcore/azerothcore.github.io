@@ -1,6 +1,5 @@
 var a20790 =
 [
-    [ "boss_skadiAI", "d5/d12/a20794.html", "d5/d12/a20794" ],
-    [ "boss_skadi", "dc/d32/a20790.html#a124c1c1de7ba232b3256a65547370464", null ],
-    [ "GetAI", "dc/d32/a20790.html#a4b66199169442af5ec6542be71c19033", null ]
+    [ "go_harpoon_canon", "dc/d32/a20790.html#aa7651e111cade00bbbdb9d0feced03e6", null ],
+    [ "OnGossipHello", "dc/d32/a20790.html#ad0098bafd1233636bde181312126e65f", null ]
 ];

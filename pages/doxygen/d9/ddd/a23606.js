@@ -1,7 +1,7 @@
 var a23606 =
 [
-    [ "OnPeriodic", "d9/ddd/a23606.html#a7ef787ac13b97aa225a5340f7bfcc4e3", null ],
-    [ "PrepareAuraScript", "d9/ddd/a23606.html#a6f7db06cc1ace68ee0076077773b1659", null ],
-    [ "Register", "d9/ddd/a23606.html#a559347bedad9fd8a0e6f4c5b14333c06", null ],
-    [ "Validate", "d9/ddd/a23606.html#aae1c2d5b8eb30341a67e261e69a4d294", null ]
+    [ "npc_daranelleAI", "d9/ddd/a23606.html#a49eeff6e0aea079a0375a92074227d12", null ],
+    [ "JustEngagedWith", "d9/ddd/a23606.html#aeff39dfd84986186057cdaf7632eed4f", null ],
+    [ "MoveInLineOfSight", "d9/ddd/a23606.html#a353e27c1485b88f0751a64260898d35b", null ],
+    [ "Reset", "d9/ddd/a23606.html#a33b2fbec775257e3ba0bebe37fb86349", null ]
 ];

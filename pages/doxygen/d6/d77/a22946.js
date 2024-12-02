@@ -1,6 +1,8 @@
 var a22946 =
 [
-    [ "HandleScript", "d6/d77/a22946.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "d6/d77/a22946.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "d6/d77/a22946.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "FilterTargets", "d6/d77/a22946.html#a8687ba9c22299e62e5911a3729fa4a0a", null ],
+    [ "HandleDummy", "d6/d77/a22946.html#addb3580259be74126b7de36d1b0a8a97", null ],
+    [ "PrepareSpellScript", "d6/d77/a22946.html#aba82de0886d03037de4564f9908b8c89", null ],
+    [ "Register", "d6/d77/a22946.html#a1650962493d48f5553a9e2771e594f1f", null ],
+    [ "Validate", "d6/d77/a22946.html#a0a29926e43bd5ff58ca7ad79df6f8cc1", null ]
 ];

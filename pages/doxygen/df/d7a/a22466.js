@@ -1,11 +1,9 @@
 var a22466 =
 [
-    [ "boss_high_nethermancer_zerevor", "df/d7a/a22466.html#a2d3ce1a6d972c0b58efe5aad31014c09", null ],
-    [ "AttackStart", "df/d7a/a22466.html#a270961bd3af6ce65eebc79130f4e3d47", null ],
-    [ "CastDampenMagicIfPossible", "df/d7a/a22466.html#ab0af23baf43d377935811c52a346c566", null ],
-    [ "JustEngagedWith", "df/d7a/a22466.html#a390f939ba01ee189fc55670eb4ff1a7e", null ],
-    [ "OnAuraRemove", "df/d7a/a22466.html#a7dd31808dbf00f77b59fce84249778fe", null ],
-    [ "Reset", "df/d7a/a22466.html#afd7a419de217b3d129f783ddc87780af", null ],
-    [ "UpdateAI", "df/d7a/a22466.html#ae1ec04a655525cbb2a6a3c7e382cf078", null ],
-    [ "_canCastDampenMagic", "df/d7a/a22466.html#a72c89454c2b0754690ae72fd7aacb0e8", null ]
+    [ "HandleAfterCast", "df/d7a/a22466.html#ae83f0cd423597b1c1e2bc1619d24fb1e", null ],
+    [ "HandleDummy", "df/d7a/a22466.html#ae94594e337c2e0e6864f3723df8349bf", null ],
+    [ "Load", "df/d7a/a22466.html#a301008eff6b13a43070b3916925391ae", null ],
+    [ "PrepareSpellScript", "df/d7a/a22466.html#a6068412ee3d78192cc0ff735fd4e93ed", null ],
+    [ "Register", "df/d7a/a22466.html#a253f9b428351519cbd4ee5c2341ea0c4", null ],
+    [ "_targetCount", "df/d7a/a22466.html#ac16cb2696c4e72195de7ebddd072b3c4", null ]
 ];

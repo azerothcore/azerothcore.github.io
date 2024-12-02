@@ -1,11 +1,7 @@
 var a24810 =
 [
-    [ "GetPennatSpellId", "dc/dcb/a24810.html#a1e327a79ce90cf7ebbec644ed15ff67f", null ],
-    [ "HandleApplyEffect", "dc/dcb/a24810.html#a396c05708a89758e4038b327e09c65e8", null ],
-    [ "HandleRemoveEffect", "dc/dcb/a24810.html#adf6fd3d2a36e1ff115b5c5109d37b7a4", null ],
-    [ "Load", "dc/dcb/a24810.html#afc83ecf02a1702d48fb39d60419bdbf1", null ],
-    [ "PrepareAuraScript", "dc/dcb/a24810.html#a0230d694e9325d7ac6ac6526ecb5a0e3", null ],
-    [ "Register", "dc/dcb/a24810.html#a46782a9dfb8ee2100be00afb6aa8b9a7", null ],
-    [ "Validate", "dc/dcb/a24810.html#a095b002671940f2b3504ae2646f76d5a", null ],
-    [ "_pennantSpellId", "dc/dcb/a24810.html#a092f0d88ede12dea699b39d5df04131c", null ]
+    [ "HandleDummy", "dc/dcb/a24810.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "dc/dcb/a24810.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "dc/dcb/a24810.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "dc/dcb/a24810.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

@@ -1,6 +1,6 @@
 var a14846 =
 [
-    [ "OnPeriodic", "dc/d7b/a14846.html#a5945e24db52c6bacae7221b085dc877b", null ],
-    [ "PrepareAuraScript", "dc/d7b/a14846.html#acc987aa864a8333de7bd0b770eb9018d", null ],
-    [ "Register", "dc/d7b/a14846.html#a3c5a192302ec6d531037f8b5da1565f2", null ]
+    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "d5/d3a/a14850.html", "d5/d3a/a14850" ],
+    [ "instance_temple_of_ahnqiraj", "dc/d7b/a14846.html#a316c5e2cac59f2ee2520fba1b97407e3", null ],
+    [ "GetInstanceScript", "dc/d7b/a14846.html#a9e3060d9f2188f410da8aa3e9526e79d", null ]
 ];

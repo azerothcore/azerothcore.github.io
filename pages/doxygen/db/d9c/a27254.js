@@ -1,6 +1,6 @@
 var a27254 =
 [
-    [ "npc_locksmith", "db/d9c/a27254.html#af959a6395ebc33109405f18f262e4ecb", null ],
-    [ "OnGossipHello", "db/d9c/a27254.html#aec977cf39f11a7bc2f13c2bde8e97351", null ],
-    [ "OnGossipSelect", "db/d9c/a27254.html#a62ec02e226255ff1f81895391a6494b8", null ]
+    [ "npc_spring_rabbitAI", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
+    [ "npc_spring_rabbit", "db/d9c/a27254.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
+    [ "GetAI", "db/d9c/a27254.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
 ];

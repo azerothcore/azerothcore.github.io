@@ -1,8 +1,7 @@
 var a14874 =
 [
-    [ "npc_ahnqiraji_critter", "d6/d92/a14874.html#a60e2dc1c52579a410d3435126bf39684", null ],
-    [ "JustDied", "d6/d92/a14874.html#a71d3d5262bde847a18932fea89cb6648", null ],
-    [ "JustEngagedWith", "d6/d92/a14874.html#aca1df706306f9181db26cd77e5b66452", null ],
-    [ "Reset", "d6/d92/a14874.html#a645e16e9da29f6579320394201d0ada7", null ],
-    [ "UpdateAI", "d6/d92/a14874.html#a68c5ded8563c2de9429a13cdb7d38f89", null ]
+    [ "npc_vekniss_stinger", "d6/d92/a14874.html#ad48098961715a924270cb8bbbe77e4b0", null ],
+    [ "JustEngagedWith", "d6/d92/a14874.html#ae7c758687c81cfb223066f0a9348eab8", null ],
+    [ "Reset", "d6/d92/a14874.html#a2a79f3775aad83410ff2670aa438e811", null ],
+    [ "UpdateAI", "d6/d92/a14874.html#a1ff479e8f45710f6aa36473933bb87e0", null ]
 ];

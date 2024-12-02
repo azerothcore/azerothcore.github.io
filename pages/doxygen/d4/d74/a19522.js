@@ -1,6 +1,6 @@
 var a19522 =
 [
-    [ "npc_pool_of_tarAI", "dd/db6/a19526.html", "dd/db6/a19526" ],
-    [ "npc_pool_of_tar", "d4/d74/a19522.html#a9c585318b4507babe77b3ba758b06a87", null ],
-    [ "GetAI", "d4/d74/a19522.html#ae77bf48a72ce49f821085f32127e91dc", null ]
+    [ "npc_mimirons_infernoAI", "dd/db6/a19526.html", "dd/db6/a19526" ],
+    [ "npc_mimirons_inferno", "d4/d74/a19522.html#a7a531a65a179b5d56c888c055b72d269", null ],
+    [ "GetAI", "d4/d74/a19522.html#a69294c5e8f50727e5f1a6586a8a3682b", null ]
 ];

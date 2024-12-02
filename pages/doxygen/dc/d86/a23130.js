@@ -1,11 +1,11 @@
 var a23130 =
 [
-    [ "boss_high_king_maulgar", "dc/d86/a23130.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
-    [ "DoAction", "dc/d86/a23130.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
-    [ "JustDied", "dc/d86/a23130.html#ad235febd755745313b72394c633c3723", null ],
-    [ "JustEngagedWith", "dc/d86/a23130.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
-    [ "KilledUnit", "dc/d86/a23130.html#a2059016597039929103c053d6524ebf7", null ],
-    [ "Reset", "dc/d86/a23130.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
-    [ "UpdateAI", "dc/d86/a23130.html#ae540909dbbb3cf93e37503cd755c3001", null ],
-    [ "_recentlySpoken", "dc/d86/a23130.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
+    [ "boss_krosh_firehand", "dc/d86/a23130.html#a1ef3618844f086de7875f26e7e6190f9", null ],
+    [ "AttackStart", "dc/d86/a23130.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
+    [ "JustDied", "dc/d86/a23130.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
+    [ "JustEngagedWith", "dc/d86/a23130.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
+    [ "Reset", "dc/d86/a23130.html#a989c4b762a7cdb228b245e91881d97a2", null ],
+    [ "UpdateAI", "dc/d86/a23130.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
+    [ "_scheduler", "dc/d86/a23130.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
+    [ "instance", "dc/d86/a23130.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
 ];

@@ -1,6 +1,6 @@
 var a17382 =
 [
-    [ "HandlePeriodicTick", "d8/df3/a17382.html#a29bf443cdb53b10032ba382b8ae44828", null ],
-    [ "PrepareAuraScript", "d8/df3/a17382.html#aa22f2997c77c25927f01d9fb1c6852b9", null ],
-    [ "Register", "d8/df3/a17382.html#a01e31df6c6ec9f6ae5bffb4b435caf8e", null ]
+    [ "npc_vengeful_shadeAI", "de/da3/a17386.html", "de/da3/a17386" ],
+    [ "npc_vengeful_shade", "d8/df3/a17382.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "d8/df3/a17382.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

@@ -1,11 +1,11 @@
 var a15910 =
 [
-    [ "npc_toc5_grand_champion_minionAI", "d0/d49/a15910.html#a06ff16fe0076de4e34ba20e0bbc49009", null ],
-    [ "JustDied", "d0/d49/a15910.html#a23e5001255c6d49a6b217b9606aa53c5", null ],
-    [ "JustEngagedWith", "d0/d49/a15910.html#a37a04ac2d6f30e415410f3806abaabb8", null ],
-    [ "Reset", "d0/d49/a15910.html#ad35a26c28485b1976c55d49fcd32fb19", null ],
-    [ "UpdateAI", "d0/d49/a15910.html#a2b9fdd3daa725921819ae2acee418d51", null ],
-    [ "events", "d0/d49/a15910.html#a1b405c2acd53a4e5f1179f52c8c2261b", null ],
-    [ "pInstance", "d0/d49/a15910.html#a6edd3dc8070edd031143e7a750f4d7a8", null ],
-    [ "ShieldTimer", "d0/d49/a15910.html#a080916d385f4157afbe4c455033b88ba", null ]
+    [ "npc_black_knight_ghoulAI", "d0/d49/a15910.html#a6e108052a7f9911dcd1b0ed13b2b8a0f", null ],
+    [ "JustEngagedWith", "d0/d49/a15910.html#a8353dea0de91017223c7624a5a96ebec", null ],
+    [ "Reset", "d0/d49/a15910.html#a8a33efa0719063a9565bc07143f8ad83", null ],
+    [ "SpellHit", "d0/d49/a15910.html#aa1b1fbb1a4633831774c7a7dd5cbb546", null ],
+    [ "SpellHitTarget", "d0/d49/a15910.html#a5f106a3b0edf353769db9021b9ca770d", null ],
+    [ "UpdateAI", "d0/d49/a15910.html#a6ccdb6a59b93999c01d434bcda593f25", null ],
+    [ "events", "d0/d49/a15910.html#acb56826a164e4d7da0a2f04c1efaf72b", null ],
+    [ "pInstance", "d0/d49/a15910.html#a35b8375f1b3407f5cee653ee118e0697", null ]
 ];

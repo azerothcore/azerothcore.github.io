@@ -1,6 +1,6 @@
 var a15798 =
 [
-    [ "npc_living_infernoAI", "d3/d8a/a15798.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "d3/d8a/a15798.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "d3/d8a/a15798.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "OnSummon", "d3/d8a/a15798.html#ae2766d12fb686356b46126848f356c5a", null ],
+    [ "PrepareSpellScript", "d3/d8a/a15798.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
+    [ "Register", "d3/d8a/a15798.html#a717394bfbea621ae637f9e87efddda62", null ]
 ];

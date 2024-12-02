@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/common/Configuration/Config.cpp File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/tools/mmaps_generator/PathGenerator.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,206 +105,105 @@ $(document).ready(function(){initNavTree('d5/d6b/a29188.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Config.cpp File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">PathGenerator.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">StringFormat.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">Tokenize.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">MapBuilder.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PathCommon.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Timer.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
-<code>#include &lt;cstdlib&gt;</code><br />
-<code>#include &lt;fstream&gt;</code><br />
-<code>#include &lt;mutex&gt;</code><br />
-<code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;boost/filesystem.hpp&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:de/db5/a04695"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html">anonymous_namespace{Config.cpp}</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a88481e3afc1a3d0cced9a0eb22ef52c4"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#a88481e3afc1a3d0cced9a0eb22ef52c4">TEMPLATE_CONFIG_OPTION</a>(__typename)&#160;&#160;&#160;    template __typename <a class="el" href="../../d8/d5f/a05046.html#a711be8eda4077d967a3677bd138998ac">ConfigMgr::GetOption</a>&lt;__typename&gt;(std::string const&amp; name, __typename const&amp; def, bool showLogs /*= true*/) const;</td></tr>
-<tr class="separator:a88481e3afc1a3d0cced9a0eb22ef52c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ac70d5ef108e0df78183c2c28431f34cc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#ac70d5ef108e0df78183c2c28431f34cc">anonymous_namespace{Config.cpp}::IsAppConfig</a> (std::string_view fileName)</td></tr>
-<tr class="separator:ac70d5ef108e0df78183c2c28431f34cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a874bf90eeee29a9e6e9348805c0b8ca8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a874bf90eeee29a9e6e9348805c0b8ca8">anonymous_namespace{Config.cpp}::IsLoggingSystemOptions</a> (std::string_view optionName)</td></tr>
-<tr class="separator:a874bf90eeee29a9e6e9348805c0b8ca8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31b53ef96726f745da939de555373737"><td class="memTemplParams" colspan="2">template&lt;typename Format , typename... Args&gt; </td></tr>
-<tr class="memitem:a31b53ef96726f745da939de555373737"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a31b53ef96726f745da939de555373737">anonymous_namespace{Config.cpp}::PrintError</a> (std::string_view filename, Format &amp;&amp;fmt, Args &amp;&amp;... args)</td></tr>
-<tr class="separator:a31b53ef96726f745da939de555373737"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab573c6a7facb635d7c4787e5b6f346fa"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#ab573c6a7facb635d7c4787e5b6f346fa">anonymous_namespace{Config.cpp}::AddKey</a> (std::string const &amp;optionName, std::string const &amp;optionKey, std::string_view fileName, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:ab573c6a7facb635d7c4787e5b6f346fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25d36c8039da7689a28ce9c1334b70f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#af25d36c8039da7689a28ce9c1334b70f">anonymous_namespace{Config.cpp}::ParseFile</a> (std::string const &amp;file, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:af25d36c8039da7689a28ce9c1334b70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a04d7cd62693d073b89d11aab4ba3342d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a04d7cd62693d073b89d11aab4ba3342d">anonymous_namespace{Config.cpp}::LoadFile</a> (std::string const &amp;file, bool isOptional, bool isReload)</td></tr>
-<tr class="separator:a04d7cd62693d073b89d11aab4ba3342d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab1ffb5b5ec6ef364da691218a1f840ed"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#ab1ffb5b5ec6ef364da691218a1f840ed">anonymous_namespace{Config.cpp}::IniKeyToEnvVarKey</a> (std::string const &amp;key)</td></tr>
-<tr class="separator:ab1ffb5b5ec6ef364da691218a1f840ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a037f48efd9ff4f980901dc23f9062cfe"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a> (std::string const &amp;configName)</td></tr>
-<tr class="separator:a037f48efd9ff4f980901dc23f9062cfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4b39ee4aeace82542c39141c4c052417"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a> (std::string const &amp;key)</td></tr>
-<tr class="separator:a4b39ee4aeace82542c39141c4c052417"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a> (std::string const &amp;configName, std::string const &amp;envVarName)</td></tr>
-<tr class="separator:aa22b6bcf6d5dd7e02cab1b0aea10bbee"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#a7096a6c65872ca33d8f44bdd841eaa31">ConfigMgr::GetValueDefault&lt; std::string &gt;</a> (std::string const &amp;name, std::string const &amp;def, bool showLogs) const</td></tr>
-<tr class="separator:a7096a6c65872ca33d8f44bdd841eaa31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a8bfa20db83fbdc4e649e394ea8d05d0d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></td></tr>
-<tr class="separator:a8bfa20db83fbdc4e649e394ea8d05d0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4608b63b3297653b81c9c4196c12141"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#ac4608b63b3297653b81c9c4196c12141">anonymous_namespace{Config.cpp}::_additonalFiles</a></td></tr>
-<tr class="separator:ac4608b63b3297653b81c9c4196c12141"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa324820f5ede7eec5a4d8eefc77298f4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#aa324820f5ede7eec5a4d8eefc77298f4">anonymous_namespace{Config.cpp}::_args</a></td></tr>
-<tr class="separator:aa324820f5ede7eec5a4d8eefc77298f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c4d5bd9313e617a40ed0f27d79dbae9"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></td></tr>
-<tr class="separator:a4c4d5bd9313e617a40ed0f27d79dbae9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e8b4d4501c2038b56b2692bbd6adb72"><td class="memItemLeft" align="right" valign="top">std::unordered_map&lt; std::string, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a4e8b4d4501c2038b56b2692bbd6adb72">anonymous_namespace{Config.cpp}::_envVarCache</a></td></tr>
-<tr class="separator:a4e8b4d4501c2038b56b2692bbd6adb72"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96e361ca2d2603bb0a5689262ac6787a"><td class="memItemLeft" align="right" valign="top">std::mutex&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a96e361ca2d2603bb0a5689262ac6787a">anonymous_namespace{Config.cpp}::_configLock</a></td></tr>
-<tr class="separator:a96e361ca2d2603bb0a5689262ac6787a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4222a9ebe6cae31f1a5ad0a4a44bee3f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/db5/a04695.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a></td></tr>
-<tr class="separator:a4222a9ebe6cae31f1a5ad0a4a44bee3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab24803c49e5019c665aa545cfd2d32dc"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#ab24803c49e5019c665aa545cfd2d32dc">checkDirectories</a> (bool debugOutput)</td></tr>
+<tr class="separator:ab24803c49e5019c665aa545cfd2d32dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9da584ba5e81bed140f90563dd648d38"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#a9da584ba5e81bed140f90563dd648d38">handleArgs</a> (int argc, char **argv, int &amp;mapnum, int &amp;tileX, int &amp;tileY, float &amp;maxAngle, bool &amp;skipLiquid, bool &amp;skipContinents, bool &amp;skipJunkMaps, bool &amp;skipBattlegrounds, bool &amp;debugOutput, bool &amp;silent, bool &amp;bigBaseUnit, char *&amp;offMeshInputPath, char *&amp;file, unsigned int &amp;threads)</td></tr>
+<tr class="separator:a9da584ba5e81bed140f90563dd648d38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32e7545f3a98690aeb284a4eb66f272d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#a32e7545f3a98690aeb284a4eb66f272d">finish</a> (const char *message, int returnValue)</td></tr>
+<tr class="separator:a32e7545f3a98690aeb284a4eb66f272d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6b/a29188.html#a3c04138a5bfe5d72780bb7e82a18e627">main</a> (int argc, char **argv)</td></tr>
+<tr class="separator:a3c04138a5bfe5d72780bb7e82a18e627"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a88481e3afc1a3d0cced9a0eb22ef52c4" name="a88481e3afc1a3d0cced9a0eb22ef52c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88481e3afc1a3d0cced9a0eb22ef52c4">&#9670;&#160;</a></span>TEMPLATE_CONFIG_OPTION</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TEMPLATE_CONFIG_OPTION</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">__typename</td><td>)</td>
-          <td>&#160;&#160;&#160;    template __typename <a class="el" href="../../d8/d5f/a05046.html#a711be8eda4077d967a3677bd138998ac">ConfigMgr::GetOption</a>&lt;__typename&gt;(std::string const&amp; name, __typename const&amp; def, bool showLogs /*= true*/) const;</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a7096a6c65872ca33d8f44bdd841eaa31" name="a7096a6c65872ca33d8f44bdd841eaa31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7096a6c65872ca33d8f44bdd841eaa31">&#9670;&#160;</a></span>ConfigMgr::GetValueDefault&lt; std::string &gt;()</h2>
+<a id="ab24803c49e5019c665aa545cfd2d32dc" name="ab24803c49e5019c665aa545cfd2d32dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab24803c49e5019c665aa545cfd2d32dc">&#9670;&#160;</a></span>checkDirectories()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">std::string <a class="el" href="../../d8/d5f/a05046.html#a4a122373714bb95f10e6532e30735e55">ConfigMgr::GetValueDefault</a>&lt; std::string &gt; </td>
+          <td class="memname">bool checkDirectories </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>def</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
           <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>showLogs</em>&#160;</td>
-        </tr>
-        <tr>
+          <td class="paramname"><em>debugOutput</em></td><td>)</td>
           <td></td>
-          <td>)</td>
-          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  442</span>{</div>
-<div class="line"><span class="lineno">  443</span>    <span class="keyword">auto</span> <span class="keyword">const</span>&amp; itr = <a class="code hl_variable" href="../../de/db5/a04695.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.find(name);</div>
-<div class="line"><span class="lineno">  444</span>    <span class="keywordtype">bool</span> fatalConfig = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  445</span>    <span class="keywordtype">bool</span> notFound = itr == <a class="code hl_variable" href="../../de/db5/a04695.html#a4c4d5bd9313e617a40ed0f27d79dbae9">_configOptions</a>.end();</div>
-<div class="line"><span class="lineno">  446</span>    <span class="keyword">auto</span> envVarName = <a class="code hl_function" href="../../de/db5/a04695.html#a037f48efd9ff4f980901dc23f9062cfe">GetEnvVarName</a>(name);</div>
-<div class="line"><span class="lineno">  447</span>    <a class="code hl_typedef" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> envVar = <a class="code hl_function" href="../../d5/d6b/a29188.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a>(name, envVarName);</div>
-<div class="line"><span class="lineno">  448</span>    <span class="keywordflow">if</span> (envVar)</div>
-<div class="line"><span class="lineno">  449</span>    {</div>
-<div class="line"><span class="lineno">  450</span>        <span class="comment">// If showLogs and this key/value pair wasn&#39;t found in the currently saved config</span></div>
-<div class="line"><span class="lineno">  451</span>        <span class="keywordflow">if</span> (showLogs &amp;&amp; (notFound || itr-&gt;second != envVar-&gt;c_str()))</div>
-<div class="line"><span class="lineno">  452</span>        {</div>
-<div class="line"><span class="lineno">  453</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Found config value &#39;{}&#39; from environment variable &#39;{}&#39;.&quot;</span>, name, envVarName);</div>
-<div class="line"><span class="lineno">  454</span>            <a class="code hl_function" href="../../de/db5/a04695.html#ab573c6a7facb635d7c4787e5b6f346fa">AddKey</a>(name, *envVar, <span class="stringliteral">&quot;ENVIRONMENT&quot;</span>, <span class="keyword">false</span>, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  455</span>        }</div>
-<div class="line"><span class="lineno">  456</span> </div>
-<div class="line"><span class="lineno">  457</span>        <span class="keywordflow">return</span> *envVar;</div>
-<div class="line"><span class="lineno">  458</span>    }</div>
-<div class="line"><span class="lineno">  459</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (notFound)</div>
-<div class="line"><span class="lineno">  460</span>    {</div>
-<div class="line"><span class="lineno">  461</span>        <span class="keywordflow">if</span> (showLogs)</div>
-<div class="line"><span class="lineno">  462</span>        {</div>
-<div class="line"><span class="lineno">  463</span>            <span class="keywordflow">for</span> (std::string s : <a class="code hl_variable" href="../../de/db5/a04695.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">_fatalConfigOptions</a>)</div>
-<div class="line"><span class="lineno">  464</span>                <span class="keywordflow">if</span> (s == name)</div>
-<div class="line"><span class="lineno">  465</span>                {</div>
-<div class="line"><span class="lineno">  466</span>                    fatalConfig = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  467</span>                    <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  468</span>                }</div>
-<div class="line"><span class="lineno">  469</span> </div>
-<div class="line"><span class="lineno">  470</span>            <span class="keywordflow">if</span> (fatalConfig)</div>
-<div class="line"><span class="lineno">  471</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config:\n\nFATAL ERROR: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.\n\nYour server cannot start without this option!&quot;</span>,</div>
-<div class="line"><span class="lineno">  472</span>                    name, <a class="code hl_variable" href="../../de/db5/a04695.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
-<div class="line"><span class="lineno">  473</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  474</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;server.loading&quot;</span>, <span class="stringliteral">&quot;&gt; Config: Missing property {} in config file {}, add \&quot;{} = {}\&quot; to this file or define &#39;{}&#39; as an environment variable.&quot;</span>,</div>
-<div class="line"><span class="lineno">  475</span>                    name, <a class="code hl_variable" href="../../de/db5/a04695.html#a8bfa20db83fbdc4e649e394ea8d05d0d">_filename</a>, name, def, envVarName);</div>
-<div class="line"><span class="lineno">  476</span>        }</div>
-<div class="line"><span class="lineno">  477</span> </div>
-<div class="line"><span class="lineno">  478</span>        <span class="keywordflow">return</span> def;</div>
-<div class="line"><span class="lineno">  479</span>    }</div>
-<div class="line"><span class="lineno">  480</span> </div>
-<div class="line"><span class="lineno">  481</span>    <span class="keywordflow">return</span> itr-&gt;second;</div>
-<div class="line"><span class="lineno">  482</span>}</div>
-<div class="ttc" id="aa00035_html_a0e09b50c268dc6897a1c70aa46de936e"><div class="ttname"><a href="../../d4/d8c/a00035.html#a0e09b50c268dc6897a1c70aa46de936e">LOG_FATAL</a></div><div class="ttdeci">#define LOG_FATAL(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:153</div></div>
-<div class="ttc" id="aa00035_html_a271e427d8e8481efd5cd5f537ec9e419"><div class="ttname"><a href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a></div><div class="ttdeci">#define LOG_INFO(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:165</div></div>
-<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
-<div class="ttc" id="aa00314_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa04695_html_a037f48efd9ff4f980901dc23f9062cfe"><div class="ttname"><a href="../../de/db5/a04695.html#a037f48efd9ff4f980901dc23f9062cfe">anonymous_namespace{Config.cpp}::GetEnvVarName</a></div><div class="ttdeci">std::string GetEnvVarName(std::string const &amp;configName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:281</div></div>
-<div class="ttc" id="aa04695_html_a4222a9ebe6cae31f1a5ad0a4a44bee3f"><div class="ttname"><a href="../../de/db5/a04695.html#a4222a9ebe6cae31f1a5ad0a4a44bee3f">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a></div><div class="ttdeci">std::vector&lt; std::string &gt; _fatalConfigOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:38</div></div>
-<div class="ttc" id="aa04695_html_a4c4d5bd9313e617a40ed0f27d79dbae9"><div class="ttname"><a href="../../de/db5/a04695.html#a4c4d5bd9313e617a40ed0f27d79dbae9">anonymous_namespace{Config.cpp}::_configOptions</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _configOptions</div><div class="ttdef"><b>Definition:</b> Config.cpp:34</div></div>
-<div class="ttc" id="aa04695_html_a8bfa20db83fbdc4e649e394ea8d05d0d"><div class="ttname"><a href="../../de/db5/a04695.html#a8bfa20db83fbdc4e649e394ea8d05d0d">anonymous_namespace{Config.cpp}::_filename</a></div><div class="ttdeci">std::string _filename</div><div class="ttdef"><b>Definition:</b> Config.cpp:31</div></div>
-<div class="ttc" id="aa04695_html_ab573c6a7facb635d7c4787e5b6f346fa"><div class="ttname"><a href="../../de/db5/a04695.html#ab573c6a7facb635d7c4787e5b6f346fa">anonymous_namespace{Config.cpp}::AddKey</a></div><div class="ttdeci">void AddKey(std::string const &amp;optionName, std::string const &amp;optionKey, std::string_view fileName, bool isOptional, bool isReload)</div><div class="ttdef"><b>Definition:</b> Config.cpp:80</div></div>
-<div class="ttc" id="aa29188_html_aa22b6bcf6d5dd7e02cab1b0aea10bbee"><div class="ttname"><a href="../../d5/d6b/a29188.html#aa22b6bcf6d5dd7e02cab1b0aea10bbee">GetEnvFromCache</a></div><div class="ttdeci">Optional&lt; std::string &gt; GetEnvFromCache(std::string const &amp;configName, std::string const &amp;envVarName)</div><div class="ttdef"><b>Definition:</b> Config.cpp:335</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    std::vector&lt;std::string&gt; dirFiles;</div>
+<div class="line"><span class="lineno">   29</span> </div>
+<div class="line"><span class="lineno">   30</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d45/a04693.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(dirFiles, <span class="stringliteral">&quot;maps&quot;</span>) == <a class="code hl_enumvalue" href="../../d9/d45/a04693.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">LISTFILE_DIRECTORY_NOT_FOUND</a> || dirFiles.empty())</div>
+<div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        printf(<span class="stringliteral">&quot;&#39;maps&#39; directory is empty or does not exist\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   33</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   34</span>    }</div>
+<div class="line"><span class="lineno">   35</span> </div>
+<div class="line"><span class="lineno">   36</span>    dirFiles.clear();</div>
+<div class="line"><span class="lineno">   37</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d45/a04693.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(dirFiles, <span class="stringliteral">&quot;vmaps&quot;</span>, <span class="stringliteral">&quot;*.vmtree&quot;</span>) == <a class="code hl_enumvalue" href="../../d9/d45/a04693.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">LISTFILE_DIRECTORY_NOT_FOUND</a> || dirFiles.empty())</div>
+<div class="line"><span class="lineno">   38</span>    {</div>
+<div class="line"><span class="lineno">   39</span>        printf(<span class="stringliteral">&quot;&#39;vmaps&#39; directory is empty or does not exist\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>    dirFiles.clear();</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d45/a04693.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(dirFiles, <span class="stringliteral">&quot;mmaps&quot;</span>) == <a class="code hl_enumvalue" href="../../d9/d45/a04693.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">LISTFILE_DIRECTORY_NOT_FOUND</a>)</div>
+<div class="line"><span class="lineno">   45</span>    {</div>
+<div class="line"><span class="lineno">   46</span>        <span class="keywordflow">return</span> boost::filesystem::create_directory(<span class="stringliteral">&quot;mmaps&quot;</span>);</div>
+<div class="line"><span class="lineno">   47</span>    }</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    dirFiles.clear();</div>
+<div class="line"><span class="lineno">   50</span>    <span class="keywordflow">if</span> (debugOutput)</div>
+<div class="line"><span class="lineno">   51</span>    {</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d45/a04693.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">getDirContents</a>(dirFiles, <span class="stringliteral">&quot;meshes&quot;</span>) == <a class="code hl_enumvalue" href="../../d9/d45/a04693.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">LISTFILE_DIRECTORY_NOT_FOUND</a>)</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            printf(<span class="stringliteral">&quot;&#39;meshes&#39; directory does not exist (no place to put debugOutput files)\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   56</span>        }</div>
+<div class="line"><span class="lineno">   57</span>    }</div>
+<div class="line"><span class="lineno">   58</span> </div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   60</span>}</div>
+<div class="ttc" id="aa04693_html_a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6"><div class="ttname"><a href="../../d9/d45/a04693.html#a030b28c9f552c0de4a4b4844fc5e6101a868c0f60f6afa222577730606ed493a6">MMAP::LISTFILE_DIRECTORY_NOT_FOUND</a></div><div class="ttdeci">@ LISTFILE_DIRECTORY_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> PathCommon.h:72</div></div>
+<div class="ttc" id="aa04693_html_a3620968f3c1f5c1a3bb0c809ab0eb4ab"><div class="ttname"><a href="../../d9/d45/a04693.html#a3620968f3c1f5c1a3bb0c809ab0eb4ab">MMAP::getDirContents</a></div><div class="ttdeci">ListFilesResult getDirContents(std::vector&lt; std::string &gt; &amp;fileList, std::string dirpath=&quot;.&quot;, std::string filter=&quot;*&quot;)</div><div class="ttdef"><b>Definition:</b> PathCommon.h:76</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00034">anonymous_namespace{Config.cpp}::_configOptions</a>, <a class="el" href="../../#l00038">anonymous_namespace{Config.cpp}::_fatalConfigOptions</a>, <a class="el" href="../../#l00031">anonymous_namespace{Config.cpp}::_filename</a>, <a class="el" href="../../#l00080">anonymous_namespace{Config.cpp}::AddKey()</a>, <a class="el" href="../../#l00335">GetEnvFromCache()</a>, <a class="el" href="../../#l00281">anonymous_namespace{Config.cpp}::GetEnvVarName()</a>, <a class="el" href="../../#l00153">LOG_FATAL</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, and <a class="el" href="../../#l00161">LOG_WARN</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00076">MMAP::getDirContents()</a>, and <a class="el" href="../../#l00072">MMAP::LISTFILE_DIRECTORY_NOT_FOUND</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00242">main()</a>.</p>
 
 </div>
 </div>
-<a id="aa22b6bcf6d5dd7e02cab1b0aea10bbee" name="aa22b6bcf6d5dd7e02cab1b0aea10bbee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa22b6bcf6d5dd7e02cab1b0aea10bbee">&#9670;&#160;</a></span>GetEnvFromCache()</h2>
+<a id="a32e7545f3a98690aeb284a4eb66f272d" name="a32e7545f3a98690aeb284a4eb66f272d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32e7545f3a98690aeb284a4eb66f272d">&#9670;&#160;</a></span>finish()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; std::string &gt; GetEnvFromCache </td>
+          <td class="memname">int finish </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>configName</em>, </td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>message</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>envVarName</em>&#160;</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>returnValue</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -313,31 +212,377 @@ template&lt;&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  336</span>{</div>
-<div class="line"><span class="lineno">  337</span>    <span class="keyword">auto</span> foundInCache = <a class="code hl_variable" href="../../de/db5/a04695.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.find(envVarName);</div>
-<div class="line"><span class="lineno">  338</span>    <a class="code hl_typedef" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;std::string&gt;</a> foundInEnv;</div>
-<div class="line"><span class="lineno">  339</span>    <span class="comment">// If it&#39;s not in the cache</span></div>
-<div class="line"><span class="lineno">  340</span>    <span class="keywordflow">if</span> (foundInCache == <a class="code hl_variable" href="../../de/db5/a04695.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.end())</div>
-<div class="line"><span class="lineno">  341</span>    {</div>
-<div class="line"><span class="lineno">  342</span>        <span class="comment">// Check the env itself</span></div>
-<div class="line"><span class="lineno">  343</span>        foundInEnv = <a class="code hl_function" href="../../de/db5/a04695.html#a4b39ee4aeace82542c39141c4c052417">EnvVarForIniKey</a>(configName);</div>
-<div class="line"><span class="lineno">  344</span>        <span class="keywordflow">if</span> (foundInEnv)</div>
-<div class="line"><span class="lineno">  345</span>        {</div>
-<div class="line"><span class="lineno">  346</span>            <span class="comment">// If it&#39;s found in the env, put it in the cache</span></div>
-<div class="line"><span class="lineno">  347</span>            <a class="code hl_variable" href="../../de/db5/a04695.html#a4e8b4d4501c2038b56b2692bbd6adb72">_envVarCache</a>.emplace(envVarName, *foundInEnv);</div>
-<div class="line"><span class="lineno">  348</span>        }</div>
-<div class="line"><span class="lineno">  349</span>        <span class="comment">// Return the result of checking env</span></div>
-<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">return</span> foundInEnv;</div>
-<div class="line"><span class="lineno">  351</span>    }</div>
-<div class="line"><span class="lineno">  352</span> </div>
-<div class="line"><span class="lineno">  353</span>    <span class="keywordflow">return</span> foundInCache-&gt;second;</div>
-<div class="line"><span class="lineno">  354</span>}</div>
-<div class="ttc" id="aa04695_html_a4b39ee4aeace82542c39141c4c052417"><div class="ttname"><a href="../../de/db5/a04695.html#a4b39ee4aeace82542c39141c4c052417">anonymous_namespace{Config.cpp}::EnvVarForIniKey</a></div><div class="ttdeci">Optional&lt; std::string &gt; EnvVarForIniKey(std::string const &amp;key)</div><div class="ttdef"><b>Definition:</b> Config.cpp:286</div></div>
-<div class="ttc" id="aa04695_html_a4e8b4d4501c2038b56b2692bbd6adb72"><div class="ttname"><a href="../../de/db5/a04695.html#a4e8b4d4501c2038b56b2692bbd6adb72">anonymous_namespace{Config.cpp}::_envVarCache</a></div><div class="ttdeci">std::unordered_map&lt; std::string, std::string &gt; _envVarCache</div><div class="ttdef"><b>Definition:</b> Config.cpp:35</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  236</span>{</div>
+<div class="line"><span class="lineno">  237</span>    printf(<span class="stringliteral">&quot;%s&quot;</span>, message);</div>
+<div class="line"><span class="lineno">  238</span>    getchar(); <span class="comment">// Wait for user input</span></div>
+<div class="line"><span class="lineno">  239</span>    <span class="keywordflow">return</span> returnValue;</div>
+<div class="line"><span class="lineno">  240</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00035">anonymous_namespace{Config.cpp}::_envVarCache</a>, and <a class="el" href="../../#l00286">anonymous_namespace{Config.cpp}::EnvVarForIniKey()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00242">main()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00441">ConfigMgr::GetValueDefault&lt; std::string &gt;()</a>, and <a class="el" href="../../#l00380">ConfigMgr::GetValueDefault()</a>.</p>
+</div>
+</div>
+<a id="a9da584ba5e81bed140f90563dd648d38" name="a9da584ba5e81bed140f90563dd648d38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9da584ba5e81bed140f90563dd648d38">&#9670;&#160;</a></span>handleArgs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool handleArgs </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>mapnum</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>tileX</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int &amp;&#160;</td>
+          <td class="paramname"><em>tileY</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>maxAngle</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>skipLiquid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>skipContinents</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>skipJunkMaps</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>skipBattlegrounds</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>debugOutput</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>silent</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool &amp;&#160;</td>
+          <td class="paramname"><em>bigBaseUnit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&amp;&#160;</td>
+          <td class="paramname"><em>offMeshInputPath</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *&amp;&#160;</td>
+          <td class="paramname"><em>file</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">unsigned int &amp;&#160;</td>
+          <td class="paramname"><em>threads</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordtype">char</span>* param = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   79</span>    <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 1; i &lt; argc; ++i)</div>
+<div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--maxAngle&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">   85</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>            <span class="keywordtype">float</span> maxangle = atof(param);</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">if</span> (maxangle &lt;= 90.f &amp;&amp; maxangle &gt;= 45.f)</div>
+<div class="line"><span class="lineno">   89</span>                maxAngle = maxangle;</div>
+<div class="line"><span class="lineno">   90</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   91</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--maxAngle&#39;, using default\n&quot;</span>);</div>
+<div class="line"><span class="lineno">   92</span>        }</div>
+<div class="line"><span class="lineno">   93</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--threads&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">   94</span>        {</div>
+<div class="line"><span class="lineno">   95</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   98</span>            threads = <span class="keyword">static_cast&lt;</span><span class="keywordtype">unsigned</span> <span class="keywordtype">int</span><span class="keyword">&gt;</span>(std::max(0, atoi(param)));</div>
+<div class="line"><span class="lineno">   99</span>        }</div>
+<div class="line"><span class="lineno">  100</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--file&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  101</span>        {</div>
+<div class="line"><span class="lineno">  102</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  104</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  105</span>            file = param;</div>
+<div class="line"><span class="lineno">  106</span>        }</div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--tile&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  108</span>        {</div>
+<div class="line"><span class="lineno">  109</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  111</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  112</span> </div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordtype">char</span>* stileX = strtok(param, <span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><span class="lineno">  114</span>            <span class="keywordtype">char</span>* stileY = strtok(<span class="keyword">nullptr</span>, <span class="stringliteral">&quot;,&quot;</span>);</div>
+<div class="line"><span class="lineno">  115</span>            <span class="keywordtype">int</span> tilex = atoi(stileX);</div>
+<div class="line"><span class="lineno">  116</span>            <span class="keywordtype">int</span> tiley = atoi(stileY);</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>            <span class="keywordflow">if</span> ((tilex &gt; 0 &amp;&amp; tilex &lt; 64) || (tilex == 0 &amp;&amp; strcmp(stileX, <span class="stringliteral">&quot;0&quot;</span>) == 0))</div>
+<div class="line"><span class="lineno">  119</span>                tileX = tilex;</div>
+<div class="line"><span class="lineno">  120</span>            <span class="keywordflow">if</span> ((tiley &gt; 0 &amp;&amp; tiley &lt; 64) || (tiley == 0 &amp;&amp; strcmp(stileY, <span class="stringliteral">&quot;0&quot;</span>) == 0))</div>
+<div class="line"><span class="lineno">  121</span>                tileY = tiley;</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>            <span class="keywordflow">if</span> (tileX &lt; 0 || tileY &lt; 0)</div>
+<div class="line"><span class="lineno">  124</span>            {</div>
+<div class="line"><span class="lineno">  125</span>                printf(<span class="stringliteral">&quot;invalid tile coords.\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  126</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  127</span>            }</div>
+<div class="line"><span class="lineno">  128</span>        }</div>
+<div class="line"><span class="lineno">  129</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--skipLiquid&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  130</span>        {</div>
+<div class="line"><span class="lineno">  131</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  134</span> </div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  136</span>                skipLiquid = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  138</span>                skipLiquid = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  140</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--skipLiquid&#39;, using default\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  141</span>        }</div>
+<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--skipContinents&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  143</span>        {</div>
+<div class="line"><span class="lineno">  144</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  146</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  147</span> </div>
+<div class="line"><span class="lineno">  148</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  149</span>                skipContinents = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  151</span>                skipContinents = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  152</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  153</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--skipContinents&#39;, using default\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  154</span>        }</div>
+<div class="line"><span class="lineno">  155</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--skipJunkMaps&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  156</span>        {</div>
+<div class="line"><span class="lineno">  157</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  159</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  160</span> </div>
+<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  162</span>                skipJunkMaps = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  164</span>                skipJunkMaps = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  166</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--skipJunkMaps&#39;, using default\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  167</span>        }</div>
+<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--skipBattlegrounds&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  169</span>        {</div>
+<div class="line"><span class="lineno">  170</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  172</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  175</span>                skipBattlegrounds = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  176</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  177</span>                skipBattlegrounds = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  179</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--skipBattlegrounds&#39;, using default\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  180</span>        }</div>
+<div class="line"><span class="lineno">  181</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--debugOutput&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  182</span>        {</div>
+<div class="line"><span class="lineno">  183</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  184</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  185</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  186</span> </div>
+<div class="line"><span class="lineno">  187</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  188</span>                debugOutput = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  190</span>                debugOutput = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  191</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  192</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--debugOutput&#39;, using default true\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  193</span>        }</div>
+<div class="line"><span class="lineno">  194</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--silent&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  195</span>        {</div>
+<div class="line"><span class="lineno">  196</span>            silent = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  197</span>        }</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--bigBaseUnit&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  199</span>        {</div>
+<div class="line"><span class="lineno">  200</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  201</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  202</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  203</span> </div>
+<div class="line"><span class="lineno">  204</span>            <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;true&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  205</span>                bigBaseUnit = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  206</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(param, <span class="stringliteral">&quot;false&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  207</span>                bigBaseUnit = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  208</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  209</span>                printf(<span class="stringliteral">&quot;invalid option for &#39;--bigBaseUnit&#39;, using default false\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  210</span>        }</div>
+<div class="line"><span class="lineno">  211</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (strcmp(argv[i], <span class="stringliteral">&quot;--offMeshInput&quot;</span>) == 0)</div>
+<div class="line"><span class="lineno">  212</span>        {</div>
+<div class="line"><span class="lineno">  213</span>            param = argv[++i];</div>
+<div class="line"><span class="lineno">  214</span>            <span class="keywordflow">if</span> (!param)</div>
+<div class="line"><span class="lineno">  215</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  216</span> </div>
+<div class="line"><span class="lineno">  217</span>            offMeshInputPath = param;</div>
+<div class="line"><span class="lineno">  218</span>        }</div>
+<div class="line"><span class="lineno">  219</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  220</span>        {</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keywordtype">int</span> map = atoi(argv[i]);</div>
+<div class="line"><span class="lineno">  222</span>            <span class="keywordflow">if</span> (map &gt; 0 || (map == 0 &amp;&amp; (strcmp(argv[i], <span class="stringliteral">&quot;0&quot;</span>) == 0)))</div>
+<div class="line"><span class="lineno">  223</span>                mapnum = map;</div>
+<div class="line"><span class="lineno">  224</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  225</span>            {</div>
+<div class="line"><span class="lineno">  226</span>                printf(<span class="stringliteral">&quot;invalid map id\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  227</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  228</span>            }</div>
+<div class="line"><span class="lineno">  229</span>        }</div>
+<div class="line"><span class="lineno">  230</span>    }</div>
+<div class="line"><span class="lineno">  231</span> </div>
+<div class="line"><span class="lineno">  232</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  233</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00242">main()</a>.</p>
+
+</div>
+</div>
+<a id="a3c04138a5bfe5d72780bb7e82a18e627" name="a3c04138a5bfe5d72780bb7e82a18e627"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c04138a5bfe5d72780bb7e82a18e627">&#9670;&#160;</a></span>main()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int main </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>argc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char **&#160;</td>
+          <td class="paramname"><em>argv</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  243</span>{</div>
+<div class="line"><span class="lineno">  244</span>    <span class="keywordtype">unsigned</span> <span class="keywordtype">int</span> threads = std::thread::hardware_concurrency();</div>
+<div class="line"><span class="lineno">  245</span>    <span class="keywordtype">int</span> mapnum = -1;</div>
+<div class="line"><span class="lineno">  246</span>    <span class="keywordtype">int</span> tileX = -1, tileY = -1;</div>
+<div class="line"><span class="lineno">  247</span>    <span class="keywordtype">float</span> maxAngle = 60.0f;</div>
+<div class="line"><span class="lineno">  248</span>    <span class="keywordtype">bool</span> skipLiquid = <span class="keyword">false</span>,</div>
+<div class="line"><span class="lineno">  249</span>         skipContinents = <span class="keyword">false</span>,</div>
+<div class="line"><span class="lineno">  250</span>         skipJunkMaps = <span class="keyword">true</span>,</div>
+<div class="line"><span class="lineno">  251</span>         skipBattlegrounds = <span class="keyword">false</span>,</div>
+<div class="line"><span class="lineno">  252</span>         debugOutput = <span class="keyword">false</span>,</div>
+<div class="line"><span class="lineno">  253</span>         silent = <span class="keyword">false</span>,</div>
+<div class="line"><span class="lineno">  254</span>         bigBaseUnit = <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  255</span>    <span class="keywordtype">char</span>* offMeshInputPath = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  256</span>    <span class="keywordtype">char</span>* file = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  257</span> </div>
+<div class="line"><span class="lineno">  258</span>    <span class="keywordtype">bool</span> validParam = <a class="code hl_function" href="../../d5/d6b/a29188.html#a9da584ba5e81bed140f90563dd648d38">handleArgs</a>(argc, argv, mapnum,</div>
+<div class="line"><span class="lineno">  259</span>                                 tileX, tileY, maxAngle,</div>
+<div class="line"><span class="lineno">  260</span>                                 skipLiquid, skipContinents, skipJunkMaps, skipBattlegrounds,</div>
+<div class="line"><span class="lineno">  261</span>                                 debugOutput, silent, bigBaseUnit, offMeshInputPath, file, threads);</div>
+<div class="line"><span class="lineno">  262</span> </div>
+<div class="line"><span class="lineno">  263</span>    <span class="keywordflow">if</span> (!validParam)</div>
+<div class="line"><span class="lineno">  264</span>        <span class="keywordflow">return</span> silent ? -1 : <a class="code hl_function" href="../../d5/d6b/a29188.html#a32e7545f3a98690aeb284a4eb66f272d">finish</a>(<span class="stringliteral">&quot;You have specified invalid parameters&quot;</span>, -1);</div>
+<div class="line"><span class="lineno">  265</span> </div>
+<div class="line"><span class="lineno">  266</span>    <span class="keywordflow">if</span> (mapnum == -1 &amp;&amp; debugOutput)</div>
+<div class="line"><span class="lineno">  267</span>    {</div>
+<div class="line"><span class="lineno">  268</span>        <span class="keywordflow">if</span> (silent)</div>
+<div class="line"><span class="lineno">  269</span>            <span class="keywordflow">return</span> -2;</div>
+<div class="line"><span class="lineno">  270</span> </div>
+<div class="line"><span class="lineno">  271</span>        printf(<span class="stringliteral">&quot;You have specifed debug output, but didn&#39;t specify a map to generate.\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  272</span>        printf(<span class="stringliteral">&quot;This will generate debug output for ALL maps.\n&quot;</span>);</div>
+<div class="line"><span class="lineno">  273</span>        printf(<span class="stringliteral">&quot;Are you sure you want to continue? (y/n) &quot;</span>);</div>
+<div class="line"><span class="lineno">  274</span>        <span class="keywordflow">if</span> (getchar() != <span class="charliteral">&#39;y&#39;</span>)</div>
+<div class="line"><span class="lineno">  275</span>            <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  276</span>    }</div>
+<div class="line"><span class="lineno">  277</span> </div>
+<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d5/d6b/a29188.html#ab24803c49e5019c665aa545cfd2d32dc">checkDirectories</a>(debugOutput))</div>
+<div class="line"><span class="lineno">  279</span>        <span class="keywordflow">return</span> silent ? -3 : <a class="code hl_function" href="../../d5/d6b/a29188.html#a32e7545f3a98690aeb284a4eb66f272d">finish</a>(<span class="stringliteral">&quot;Press ENTER to close...&quot;</span>, -3);</div>
+<div class="line"><span class="lineno">  280</span> </div>
+<div class="line"><span class="lineno">  281</span>    <a class="code hl_class" href="../../df/db6/a28294.html">MapBuilder</a> builder(maxAngle, skipLiquid, skipContinents, skipJunkMaps,</div>
+<div class="line"><span class="lineno">  282</span>                       skipBattlegrounds, debugOutput, bigBaseUnit, mapnum, offMeshInputPath, threads);</div>
+<div class="line"><span class="lineno">  283</span> </div>
+<div class="line"><span class="lineno">  284</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> start = <a class="code hl_function" href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a>();</div>
+<div class="line"><span class="lineno">  285</span>    <span class="keywordflow">if</span> (file)</div>
+<div class="line"><span class="lineno">  286</span>        builder.buildMeshFromFile(file);</div>
+<div class="line"><span class="lineno">  287</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (tileX &gt; -1 &amp;&amp; tileY &gt; -1 &amp;&amp; mapnum &gt;= 0)</div>
+<div class="line"><span class="lineno">  288</span>        builder.buildSingleTile(mapnum, tileX, tileY);</div>
+<div class="line"><span class="lineno">  289</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (mapnum &gt;= 0)</div>
+<div class="line"><span class="lineno">  290</span>        builder.buildMaps(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(mapnum));</div>
+<div class="line"><span class="lineno">  291</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  292</span>        builder.buildMaps({});</div>
+<div class="line"><span class="lineno">  293</span> </div>
+<div class="line"><span class="lineno">  294</span>    <span class="keywordflow">if</span> (!silent)</div>
+<div class="line"><span class="lineno">  295</span>        printf(<span class="stringliteral">&quot;Finished. MMAPS were built in %s\n&quot;</span>, <a class="code hl_function" href="../../da/dee/a00383.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a>(<a class="code hl_function" href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a>(start) / 1000).c_str());</div>
+<div class="line"><span class="lineno">  296</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  297</span>}</div>
+<div class="ttc" id="aa00311_html_a23a2c8663a05f2b03a6f85501972e8c0"><div class="ttname"><a href="../../d1/d5d/a00311.html#a23a2c8663a05f2b03a6f85501972e8c0">GetMSTimeDiffToNow</a></div><div class="ttdeci">uint32 GetMSTimeDiffToNow(uint32 oldMSTime)</div><div class="ttdef"><b>Definition:</b> Timer.h:131</div></div>
+<div class="ttc" id="aa00311_html_a4476c8e13ea790c3536f2749105f9cb9"><div class="ttname"><a href="../../d1/d5d/a00311.html#a4476c8e13ea790c3536f2749105f9cb9">getMSTime</a></div><div class="ttdeci">uint32 getMSTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:103</div></div>
+<div class="ttc" id="aa00383_html_a0b4910c611cea4a1b2812dac5456c5a8"><div class="ttname"><a href="../../da/dee/a00383.html#a0b4910c611cea4a1b2812dac5456c5a8">secsToTimeString</a></div><div class="ttdeci">std::string secsToTimeString(uint64 timeInSecs, bool shortText)</div><div class="ttdef"><b>Definition:</b> Util.cpp:73</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa28294_html"><div class="ttname"><a href="../../df/db6/a28294.html">MMAP::MapBuilder</a></div><div class="ttdef"><b>Definition:</b> MapBuilder.h:145</div></div>
+<div class="ttc" id="aa29188_html_a32e7545f3a98690aeb284a4eb66f272d"><div class="ttname"><a href="../../d5/d6b/a29188.html#a32e7545f3a98690aeb284a4eb66f272d">finish</a></div><div class="ttdeci">int finish(const char *message, int returnValue)</div><div class="ttdef"><b>Definition:</b> PathGenerator.cpp:235</div></div>
+<div class="ttc" id="aa29188_html_a9da584ba5e81bed140f90563dd648d38"><div class="ttname"><a href="../../d5/d6b/a29188.html#a9da584ba5e81bed140f90563dd648d38">handleArgs</a></div><div class="ttdeci">bool handleArgs(int argc, char **argv, int &amp;mapnum, int &amp;tileX, int &amp;tileY, float &amp;maxAngle, bool &amp;skipLiquid, bool &amp;skipContinents, bool &amp;skipJunkMaps, bool &amp;skipBattlegrounds, bool &amp;debugOutput, bool &amp;silent, bool &amp;bigBaseUnit, char *&amp;offMeshInputPath, char *&amp;file, unsigned int &amp;threads)</div><div class="ttdef"><b>Definition:</b> PathGenerator.cpp:62</div></div>
+<div class="ttc" id="aa29188_html_ab24803c49e5019c665aa545cfd2d32dc"><div class="ttname"><a href="../../d5/d6b/a29188.html#ab24803c49e5019c665aa545cfd2d32dc">checkDirectories</a></div><div class="ttdeci">bool checkDirectories(bool debugOutput)</div><div class="ttdef"><b>Definition:</b> PathGenerator.cpp:26</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00206">MMAP::MapBuilder::buildMaps()</a>, <a class="el" href="../../#l00289">MMAP::MapBuilder::buildMeshFromFile()</a>, <a class="el" href="../../#l00376">MMAP::MapBuilder::buildSingleTile()</a>, <a class="el" href="../../#l00026">checkDirectories()</a>, <a class="el" href="../../#l00235">finish()</a>, <a class="el" href="../../#l00103">getMSTime()</a>, <a class="el" href="../../#l00131">GetMSTimeDiffToNow()</a>, <a class="el" href="../../#l00062">handleArgs()</a>, and <a class="el" href="../../#l00073">secsToTimeString()</a>.</p>
 
 </div>
 </div>
@@ -346,8 +591,8 @@ template&lt;&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../dir_e8df728d6a6e829c2d0f8060a021b576.html">Configuration</a></li><li class="navelem"><a class="el" href="../../d5/d6b/a29188.html">Config.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 18 2024 20:40:36 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_ac5beb3152ba3ce8038adbba12e192c7.html">tools</a></li><li class="navelem"><a class="el" href="../../dir_d5b937f8e04412da4f4df9b7d3f28ed0.html">mmaps_generator</a></li><li class="navelem"><a class="el" href="../../d5/d6b/a29188.html">PathGenerator.cpp</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:41:57 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,7 @@
 var a18370 =
 [
-    [ "HandleEffectPeriodic", "de/d81/a18370.html#a57615f1d8b891ab5a5c01de1543235cb", null ],
-    [ "PrepareAuraScript", "de/d81/a18370.html#ae040da0db1147652266e1f373838df37", null ],
-    [ "Register", "de/d81/a18370.html#ab11b84522134ee4d13504df3c19f69b8", null ],
-    [ "Validate", "de/d81/a18370.html#af3c3c90256913ffe188c11a21fc2dcc8", null ]
+    [ "OnRemove", "de/d81/a18370.html#ac71e6f5a9e3a7c96b4e4bd1a296d0d8d", null ],
+    [ "PrepareAuraScript", "de/d81/a18370.html#acf654e563f47df9ad033d7080f47662b", null ],
+    [ "Register", "de/d81/a18370.html#aad4497ba7cad48b9547e8696714d8c23", null ],
+    [ "Validate", "de/d81/a18370.html#ae5e187cb481849343e777b0bf0ffdf24", null ]
 ];

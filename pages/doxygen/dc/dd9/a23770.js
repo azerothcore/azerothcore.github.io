@@ -1,6 +1,7 @@
 var a23770 =
 [
-    [ "CheckCast", "dc/dd9/a23770.html#ae13cc2d3da1c9911c88402d05679d447", null ],
-    [ "PrepareSpellScript", "dc/dd9/a23770.html#afbed81273aa23d355c64579c71e9761d", null ],
-    [ "Register", "dc/dd9/a23770.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
+    [ "HandleEffectApply", "dc/dd9/a23770.html#a362b5b818ab0029956fd22bd10b4b9ac", null ],
+    [ "HandleEffectRemove", "dc/dd9/a23770.html#a96769390468dc132df62b5a0ec3a2da4", null ],
+    [ "PrepareAuraScript", "dc/dd9/a23770.html#a7bad0d577281829e60c0fb577d6a7d6e", null ],
+    [ "Register", "dc/dd9/a23770.html#a95905ec163c42463314a5f5bb023b4d6", null ]
 ];

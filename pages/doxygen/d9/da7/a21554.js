@@ -1,6 +1,9 @@
 var a21554 =
 [
-    [ "npc_tallhorn_stagAI", "df/d6b/a21558.html", "df/d6b/a21558" ],
-    [ "npc_tallhorn_stag", "d9/da7/a21554.html#aff7f23376c27312894c9a042f6a0f848", null ],
-    [ "GetAI", "d9/da7/a21554.html#a3d993542271c80982adcee9a9d60e46b", null ]
+    [ "npc_wounded_skirmisher", "d9/da7/a21554.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
+    [ "Initialize", "d9/da7/a21554.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
+    [ "JustEngagedWith", "d9/da7/a21554.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
+    [ "Reset", "d9/da7/a21554.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
+    [ "SpellHit", "d9/da7/a21554.html#a891e879af5da1f181c94e528c59a81f1", null ],
+    [ "UpdateAI", "d9/da7/a21554.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
 ];

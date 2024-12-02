@@ -1,10 +1,10 @@
 var a00959 =
 [
-    [ "PeonRoleplay", "d8/d23/a23266.html", "d8/d23/a23266" ],
-    [ "boss_grand_warlock_nethekurse", "d2/d26/a23270.html", "d2/d26/a23270" ],
-    [ "spell_tsh_shadow_bolt", "d5/d83/a23274.html", "d5/d83/a23274" ],
-    [ "spell_target_fissures", "d3/d91/a23278.html", "d3/d91/a23278" ],
-    [ "at_rp_nethekurse", "dc/dad/a23282.html", "dc/dad/a23282" ],
+    [ "PeonRoleplay", "d3/dc5/a23250.html", "d3/dc5/a23250" ],
+    [ "boss_grand_warlock_nethekurse", "dd/ded/a23254.html", "dd/ded/a23254" ],
+    [ "spell_tsh_shadow_bolt", "df/dfc/a23258.html", "df/dfc/a23258" ],
+    [ "spell_target_fissures", "dc/df8/a23262.html", "dc/df8/a23262" ],
+    [ "at_rp_nethekurse", "d8/d23/a23266.html", "d8/d23/a23266" ],
     [ "Actions", "db/d40/a00959.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],
@@ -1481,11 +1481,6 @@ var a00959 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],

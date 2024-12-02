@@ -1,6 +1,6 @@
 var a17442 =
 [
-    [ "UnboundPlagueTargetSelector", "d7/d47/a17442.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
-    [ "operator()", "d7/d47/a17442.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
-    [ "_source", "d7/d47/a17442.html#a87eb77615e443ccec373d571708a156a", null ]
+    [ "HandleScriptEffect", "d7/d47/a17442.html#ac6017cbe86b328aef00f707051c67e5f", null ],
+    [ "PrepareSpellScript", "d7/d47/a17442.html#a3e21794652b0ffea67571f9b294b4961", null ],
+    [ "Register", "d7/d47/a17442.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
 ];

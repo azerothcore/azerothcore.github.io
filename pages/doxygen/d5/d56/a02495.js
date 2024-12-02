@@ -1,10 +1,10 @@
 var a02495 =
 [
-    [ "instance_karazhan", "de/daf/a12438.html", "de/daf/a12438" ],
-    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "df/d6c/a12442.html", "df/d6c/a12442" ],
-    [ "spell_karazhan_brittle_bones_aura", "dd/d2c/a12446.html", "dd/d2c/a12446" ],
-    [ "spell_karazhan_overload_aura", "d8/d48/a12450.html", "d8/d48/a12450" ],
-    [ "spell_karazhan_blink", "d3/dae/a12454.html", "d3/dae/a12454" ],
+    [ "instance_karazhan", "df/d6c/a12442.html", "df/d6c/a12442" ],
+    [ "instance_karazhan::instance_karazhan_InstanceMapScript", "dd/d2c/a12446.html", "dd/d2c/a12446" ],
+    [ "spell_karazhan_brittle_bones_aura", "d8/d48/a12450.html", "d8/d48/a12450" ],
+    [ "spell_karazhan_overload_aura", "d3/dae/a12454.html", "d3/dae/a12454" ],
+    [ "spell_karazhan_blink", "dc/d55/a12458.html", "dc/d55/a12458" ],
     [ "AddSC_instance_karazhan", "d5/d56/a02495.html#adc62e82adedf1c9e8d47332aaa7a4cf5", null ],
     [ "creatureData", "d5/d56/a02495.html#a412286b689bd324fedd65ddd8dde8afb", null ],
     [ "doorData", "d5/d56/a02495.html#a69c4a0ca4694d5ed1d42f0373dd5d80c", null ],

@@ -1,6 +1,7 @@
 var a15670 =
 [
-    [ "boss_general_zarithrianAI", "d2/d2f/a15674.html", "d2/d2f/a15674" ],
-    [ "boss_general_zarithrian", "d0/de6/a15670.html#a030c53b6ef1d75027ddfd298d49ab330", null ],
-    [ "GetAI", "d0/de6/a15670.html#a22ba4e0769dd9404ae043fb9c16233ff", null ]
+    [ "CheckDistance", "d0/de6/a15670.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
+    [ "PrepareSpellScript", "d0/de6/a15670.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
+    [ "Register", "d0/de6/a15670.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
+    [ "Validate", "d0/de6/a15670.html#aa5d7a420154b156ca24e73de2faf912a", null ]
 ];

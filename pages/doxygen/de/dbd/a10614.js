@@ -1,8 +1,6 @@
 var a10614 =
 [
-    [ "PetSpellAutocast", "de/dbd/a10614.html#ab858647d14031a2a6109d1e923402d08", null ],
-    [ "Read", "de/dbd/a10614.html#a5c94e7acc04efbb2a50695ed4fdf7036", null ],
-    [ "AutocastEnabled", "de/dbd/a10614.html#a3c04543dcd5382682654b3860b84c6a3", null ],
-    [ "PetGUID", "de/dbd/a10614.html#aeed828abebf683078ee61204c91e28c9", null ],
-    [ "SpellID", "de/dbd/a10614.html#a9afcd8b8bbd2e2fd07bc59219b1a80da", null ]
+    [ "PetStopAttack", "de/dbd/a10614.html#a4a68127f3290d4f2e288600757dd3282", null ],
+    [ "Read", "de/dbd/a10614.html#a22dd8d9fcbadbec5ba046812f5cdac51", null ],
+    [ "PetGUID", "de/dbd/a10614.html#af7b95e5b976af2fa7bb4c61319f7eb97", null ]
 ];

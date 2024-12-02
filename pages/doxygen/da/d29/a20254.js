@@ -1,6 +1,6 @@
 var a20254 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "de/d0e/a20258.html", "de/d0e/a20258" ],
-    [ "boss_thorim_gauntlet_npcs", "da/d29/a20254.html#abdf2e90c5b86d3724fac46bff5e15d97", null ],
-    [ "GetAI", "da/d29/a20254.html#a2a71153ed2a9091de6668ab0b6f7674f", null ]
+    [ "boss_thorim_pillarAI", "de/d0e/a20258.html", "de/d0e/a20258" ],
+    [ "boss_thorim_pillar", "da/d29/a20254.html#a7a2cbafc1d359d7b33bb735342cdfe2d", null ],
+    [ "GetAI", "da/d29/a20254.html#af95d5e819292af9b54a022674b74af70", null ]
 ];

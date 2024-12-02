@@ -1,16 +1,9 @@
 var a21678 =
 [
-    [ "npc_battle_at_valhalasAI", "d7/dd5/a21678.html#a2118bb3a502d2082297631e3dab298da", null ],
-    [ "CheckSummons", "d7/dd5/a21678.html#a6ec21ce185cba4756dc4a00d1f65140c", null ],
-    [ "JustSummoned", "d7/dd5/a21678.html#ac2c766dd298bf074f20968006a361036", null ],
-    [ "PrepareSummons", "d7/dd5/a21678.html#a80e97ceef22290d241fa3f5894331c08", null ],
-    [ "Reset", "d7/dd5/a21678.html#a303f268cbcc0e2c731c505c721c55da6", null ],
-    [ "ResetData", "d7/dd5/a21678.html#a3bc670704f0e235ae4022ba796a333b9", null ],
-    [ "StartBattle", "d7/dd5/a21678.html#a01dff1aba876527951d3c83ae8b240ff", null ],
-    [ "UpdateAI", "d7/dd5/a21678.html#a3294ef4eb601df5156db0ba416d3aabe", null ],
-    [ "currentQuest", "d7/dd5/a21678.html#a7c8a2c0710f68d617bd7edd71632c744", null ],
-    [ "events", "d7/dd5/a21678.html#a74ac913100bb6ecd904f0b2f0e590271", null ],
-    [ "playerGUID", "d7/dd5/a21678.html#aac5d72cbc9f07d43dc6d9b722d0626b8", null ],
-    [ "playerGUID2", "d7/dd5/a21678.html#af29a4ea9c3c9c62364eb997258e5fa70", null ],
-    [ "summons", "d7/dd5/a21678.html#a3e894857fd5e3f4ccc5fc40c47a8cabe", null ]
+    [ "npc_lord_areteAI", "d7/dd5/a21678.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
+    [ "InitializeAI", "d7/dd5/a21678.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
+    [ "UpdateAI", "d7/dd5/a21678.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
+    [ "_landgrenGUID", "d7/dd5/a21678.html#ac0e3753096dfe779024acc8400791171", null ],
+    [ "_landgrenSoulGUID", "d7/dd5/a21678.html#aaa28c67691610136f0b418b30892f3cd", null ],
+    [ "events", "d7/dd5/a21678.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
 ];

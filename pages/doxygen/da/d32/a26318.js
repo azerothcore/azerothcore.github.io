@@ -1,7 +1,7 @@
 var a26318 =
 [
-    [ "HandleDispel", "da/d32/a26318.html#aeab02cfd37c20aaf57e70aca62c82d99", null ],
-    [ "PrepareAuraScript", "da/d32/a26318.html#a9dc5d5dc34bc9aed6094c0c55533ad5e", null ],
-    [ "Register", "da/d32/a26318.html#a9cfb0fe1465c55b97032ae528ce00bcb", null ],
-    [ "Validate", "da/d32/a26318.html#ad29fdb4b99e9782cf8bace07384fa87c", null ]
+    [ "HandleProc", "da/d32/a26318.html#a7e358f231f3ee72fcb95432a4705312a", null ],
+    [ "PrepareAuraScript", "da/d32/a26318.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
+    [ "Register", "da/d32/a26318.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
+    [ "Validate", "da/d32/a26318.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
 ];

@@ -1,6 +1,6 @@
 var a21766 =
 [
-    [ "npc_blessed_bannerAI", "da/df4/a21770.html", "da/df4/a21770" ],
-    [ "npc_blessed_banner", "d4/d4f/a21766.html#a779a0c653088b2d206226e146a19101f", null ],
-    [ "GetAI", "d4/d4f/a21766.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
+    [ "HandleHealPct", "d4/d4f/a21766.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
+    [ "PrepareSpellScript", "d4/d4f/a21766.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
+    [ "Register", "d4/d4f/a21766.html#a52f253d2a3b9b3890020107b7722ad96", null ]
 ];

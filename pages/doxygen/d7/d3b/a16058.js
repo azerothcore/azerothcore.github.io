@@ -1,8 +1,8 @@
 var a16058 =
 [
-    [ "npc_toc_hunterAI", "d7/d3b/a16058.html#a80f80231bfe5b71bf415da3202c2e6fb", null ],
-    [ "JustSummoned", "d7/d3b/a16058.html#aa270248ad9e0c319234ff0741270b465", null ],
-    [ "myCanCast", "d7/d3b/a16058.html#a4e599ae2ee4e892795889bd57dd29e27", null ],
-    [ "UpdateAI", "d7/d3b/a16058.html#a81f384607ab7e8c4ed7385bdcddfd7a5", null ],
-    [ "events", "d7/d3b/a16058.html#a0cf5ecd9d7b3c92e2da836983323f378", null ]
+    [ "npc_toc_warlockAI", "d7/d3b/a16058.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "d7/d3b/a16058.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "d7/d3b/a16058.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "d7/d3b/a16058.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "d7/d3b/a16058.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

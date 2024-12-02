@@ -1,10 +1,15 @@
 var a16786 =
 [
-    [ "npc_living_mojoAI", "df/dd2/a16786.html#ab0e6dd5db0c358ff4fefc4797a622b8c", null ],
-    [ "AttackStart", "df/dd2/a16786.html#ad3f73a040176cd804f9715141063d176", null ],
-    [ "DoAction", "df/dd2/a16786.html#a9d942e99f358a7488d473969ab461d6f", null ],
-    [ "MoveInLineOfSight", "df/dd2/a16786.html#a7981568666269e25580ae839f1f97f09", null ],
-    [ "Reset", "df/dd2/a16786.html#a139df1207438dbd3793a2fbc58c2396c", null ],
-    [ "UpdateAI", "df/dd2/a16786.html#a418d7eee72f0a8506357eee3f1fbaf6c", null ],
-    [ "events", "df/dd2/a16786.html#acc7fd42cf4ea4b0203ad7ba4f775e3f2", null ]
+    [ "boss_drakkari_colossusAI", "df/dd2/a16786.html#a28594cf76c5b1977a4f70ba0c3811646", null ],
+    [ "DamageTaken", "df/dd2/a16786.html#ae31f77e5b63fee3d0745919ed737b599", null ],
+    [ "DoAction", "df/dd2/a16786.html#a8e72a38f6a605cafa2667ca585cf0761", null ],
+    [ "InitializeAI", "df/dd2/a16786.html#aa268314e8be79ce2500ab7bb96204766", null ],
+    [ "JustEngagedWith", "df/dd2/a16786.html#ae88b465b2136afd4f5cf7763e0069106", null ],
+    [ "JustReachedHome", "df/dd2/a16786.html#a93f73f204d07b4805f4a7dd240a96d13", null ],
+    [ "JustSummoned", "df/dd2/a16786.html#ab58d286bb6f0ea94c2eb70e52e513ad4", null ],
+    [ "MoveInLineOfSight", "df/dd2/a16786.html#ae1151f6fc9f9ca011a7d476f7d1c6927", null ],
+    [ "Reset", "df/dd2/a16786.html#a5e9c6da15df58a206533a7c718056c3e", null ],
+    [ "SummonedCreatureDespawn", "df/dd2/a16786.html#a58658947c4fc115ea9c1d6f1edd1332e", null ],
+    [ "SummonedCreatureDies", "df/dd2/a16786.html#a59f9efbc2964eec057606d69458b4402", null ],
+    [ "UpdateAI", "df/dd2/a16786.html#afc816b7d1c2705675560ddd13ecce22d", null ]
 ];

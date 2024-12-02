@@ -1,9 +1,12 @@
 var a23174 =
 [
-    [ "boss_the_maker", "db/dfe/a23174.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
-    [ "JustDied", "db/dfe/a23174.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
-    [ "JustEngagedWith", "db/dfe/a23174.html#a6b0a4442dbabde69ca9352017ee23675", null ],
-    [ "KilledUnit", "db/dfe/a23174.html#a40643ca00fe7d7029a291335e47c722a", null ],
-    [ "Reset", "db/dfe/a23174.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
-    [ "UpdateAI", "db/dfe/a23174.html#a24cd8e9a97410ab290592b586962fffd", null ]
+    [ "boss_vazruden_the_herald", "db/dfe/a23174.html#a97f761b2e3477a22cdc65c68700de72c", null ],
+    [ "AttackStart", "db/dfe/a23174.html#a190621f4130b913348a49d6dfe76b591", null ],
+    [ "JustSummoned", "db/dfe/a23174.html#a66d8c6252e6baf88144da3af57bf65a4", null ],
+    [ "MovementInform", "db/dfe/a23174.html#abd89aa3911c626864f8aada889ce99c9", null ],
+    [ "Reset", "db/dfe/a23174.html#a18076b0fd12bc9a002394d5fe3aa5f81", null ],
+    [ "SetData", "db/dfe/a23174.html#a7dcbec1c99fdf4f740656a8379a99080", null ],
+    [ "SummonedCreatureDespawn", "db/dfe/a23174.html#a7621077082a3b53d1d21265e6dd00dce", null ],
+    [ "SummonedCreatureDies", "db/dfe/a23174.html#a336feba0d88e4fccce28b2730a9aea9e", null ],
+    [ "UpdateAI", "db/dfe/a23174.html#adc98e358a751fd9881589aada4baf320", null ]
 ];

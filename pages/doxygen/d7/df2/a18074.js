@@ -1,6 +1,7 @@
 var a18074 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "d5/d4f/a18078.html", "d5/d4f/a18078" ],
-    [ "npc_green_dragon_combat_trigger", "d7/df2/a18074.html#acec675494f5e5e9609bf34b7f25cb569", null ],
-    [ "GetAI", "d7/df2/a18074.html#a945b7cd0084873c17d52b3c2cc3ede22", null ]
+    [ "AuraRemoveEvent", "d7/df2/a18074.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "d7/df2/a18074.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "d7/df2/a18074.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "d7/df2/a18074.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

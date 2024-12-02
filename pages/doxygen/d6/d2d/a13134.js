@@ -1,7 +1,6 @@
 var a13134 =
 [
-    [ "HandleAfterCast", "d6/d2d/a13134.html#a251ddadd9d26039da542c402e4ee254f", null ],
-    [ "PrepareSpellScript", "d6/d2d/a13134.html#a91114aeb4f917ec5138a0c7b20688174", null ],
-    [ "Register", "d6/d2d/a13134.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
-    [ "Validate", "d6/d2d/a13134.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
+    [ "instance_sunwell_plateau_InstanceMapScript", "d6/d2d/a13134.html#aae99b35ff990fd7486d5b70693b6729a", null ],
+    [ "OnCreatureCreate", "d6/d2d/a13134.html#a7a81957fbb79b8ac77be7e9f1c5f8d00", null ],
+    [ "OnPlayerEnter", "d6/d2d/a13134.html#ab45827eaa92aea4746378b3c11fda219", null ]
 ];

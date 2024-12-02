@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WhoListCacheMgr Class Reference</title>
+<title>AzerothCore: WhoListPlayerInfo Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,11 +106,9 @@ $(document).ready(function(){initNavTree('df/d87/a07250.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d8/d2e/a07247.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WhoListCacheMgr Class Reference</div></div>
+  <div class="headertitle"><div class="title">WhoListPlayerInfo Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -118,40 +116,68 @@ $(document).ready(function(){initNavTree('df/d87/a07250.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3db2ef832cf1413fb2e565ca0d922a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a3db2ef832cf1413fb2e565ca0d922a80">Update</a> ()</td></tr>
-<tr class="separator:a3db2ef832cf1413fb2e565ca0d922a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4dec6544342fdc5052b69dcc61148453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/ded/a04130.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a4dec6544342fdc5052b69dcc61148453">GetWhoList</a> () const</td></tr>
-<tr class="separator:a4dec6544342fdc5052b69dcc61148453"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18fcdffe693100aacbd345c32641fed"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#aa18fcdffe693100aacbd345c32641fed">WhoListPlayerInfo</a> (<a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> team, <a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a> security, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> level, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> clss, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> race, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> zoneid, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> gender, bool visible, std::wstring const &amp;widePlayerName, std::wstring const &amp;wideGuildName, std::string const &amp;playerName, std::string const &amp;guildName)</td></tr>
+<tr class="separator:aa18fcdffe693100aacbd345c32641fed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7a2520681c66632c0ae4cbeb8ddce64"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ac7a2520681c66632c0ae4cbeb8ddce64">GetGuid</a> () const</td></tr>
+<tr class="separator:ac7a2520681c66632c0ae4cbeb8ddce64"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a652eb07df8514353376e2870bfc7faa0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a652eb07df8514353376e2870bfc7faa0">GetTeamId</a> () const</td></tr>
+<tr class="separator:a652eb07df8514353376e2870bfc7faa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7dba32b335766acfccdecbd6a5833d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ad7dba32b335766acfccdecbd6a5833d8">GetSecurity</a> () const</td></tr>
+<tr class="separator:ad7dba32b335766acfccdecbd6a5833d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7d9dc1689f73d568f62e0ccbe578dc8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ac7d9dc1689f73d568f62e0ccbe578dc8">GetLevel</a> () const</td></tr>
+<tr class="separator:ac7d9dc1689f73d568f62e0ccbe578dc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1481e9d9a2e75b7d65ab138434d1586f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a1481e9d9a2e75b7d65ab138434d1586f">GetClass</a> () const</td></tr>
+<tr class="separator:a1481e9d9a2e75b7d65ab138434d1586f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4aafb1613b7228aa321855e4984a413"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#af4aafb1613b7228aa321855e4984a413">GetRace</a> () const</td></tr>
+<tr class="separator:af4aafb1613b7228aa321855e4984a413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a169818a5ecd988ddae3eb56f52bed701"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a169818a5ecd988ddae3eb56f52bed701">GetZoneId</a> () const</td></tr>
+<tr class="separator:a169818a5ecd988ddae3eb56f52bed701"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf1a4d5511681b40c35dfa4a5eca3e11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#aaf1a4d5511681b40c35dfa4a5eca3e11">GetGender</a> () const</td></tr>
+<tr class="separator:aaf1a4d5511681b40c35dfa4a5eca3e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e25cdf1d9049a84270f9ad5c6ce7107"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a7e25cdf1d9049a84270f9ad5c6ce7107">IsVisible</a> () const</td></tr>
+<tr class="separator:a7e25cdf1d9049a84270f9ad5c6ce7107"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a5ed821fde291ef6480e64b8755a04"><td class="memItemLeft" align="right" valign="top">std::wstring const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a39a5ed821fde291ef6480e64b8755a04">GetWidePlayerName</a> () const</td></tr>
+<tr class="separator:a39a5ed821fde291ef6480e64b8755a04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad28490bd0c8c378e72748038ee6668cc"><td class="memItemLeft" align="right" valign="top">std::wstring const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ad28490bd0c8c378e72748038ee6668cc">GetWideGuildName</a> () const</td></tr>
+<tr class="separator:ad28490bd0c8c378e72748038ee6668cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6aa45f6fa316ba650525d77704db53f7"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a6aa45f6fa316ba650525d77704db53f7">GetPlayerName</a> () const</td></tr>
+<tr class="separator:a6aa45f6fa316ba650525d77704db53f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a701cf843b5e6cea8385b172ca83e0e15"><td class="memItemLeft" align="right" valign="top">std::string const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a701cf843b5e6cea8385b172ca83e0e15">GetGuildName</a> () const</td></tr>
+<tr class="separator:a701cf843b5e6cea8385b172ca83e0e15"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a1e8ce970e3213cd0361af303df98b387"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a1e8ce970e3213cd0361af303df98b387">instance</a> ()</td></tr>
-<tr class="separator:a1e8ce970e3213cd0361af303df98b387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a75495cb910c6de65d60a5080248e1e25"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/ded/a04130.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a></td></tr>
-<tr class="separator:a75495cb910c6de65d60a5080248e1e25"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:a2190c113c3d38bd316b17a4400c113e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a2190c113c3d38bd316b17a4400c113e6">WhoListCacheMgr</a> ()=default</td></tr>
-<tr class="separator:a2190c113c3d38bd316b17a4400c113e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae32706d7786014e142dc1cb9ccd29d70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ae32706d7786014e142dc1cb9ccd29d70">~WhoListCacheMgr</a> ()=default</td></tr>
-<tr class="separator:ae32706d7786014e142dc1cb9ccd29d70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a366e452317179d647042c24c56faafa1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a366e452317179d647042c24c56faafa1">WhoListCacheMgr</a> (<a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> const &amp;)=delete</td></tr>
-<tr class="separator:a366e452317179d647042c24c56faafa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0358ae9260f929410f6518f89135161"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ae0358ae9260f929410f6518f89135161">WhoListCacheMgr</a> (<a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&amp;)=delete</td></tr>
-<tr class="separator:ae0358ae9260f929410f6518f89135161"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8aff37f9e66aef40ccb794928bc001c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ab8aff37f9e66aef40ccb794928bc001c">operator=</a> (<a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> const &amp;)=delete</td></tr>
-<tr class="separator:ab8aff37f9e66aef40ccb794928bc001c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80615aa0a66ac29765f27598e605c712"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a80615aa0a66ac29765f27598e605c712">operator=</a> (<a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&amp;)=delete</td></tr>
-<tr class="separator:a80615aa0a66ac29765f27598e605c712"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a1202a6f9ad207c7f1f3a58513278c58a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a1202a6f9ad207c7f1f3a58513278c58a">_guid</a></td></tr>
+<tr class="separator:a1202a6f9ad207c7f1f3a58513278c58a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d82352fc915903769f22532330861eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a8d82352fc915903769f22532330861eb">_team</a></td></tr>
+<tr class="separator:a8d82352fc915903769f22532330861eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad35b89e99f1b443a13a2f4ddfc3ea052"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ad35b89e99f1b443a13a2f4ddfc3ea052">_security</a></td></tr>
+<tr class="separator:ad35b89e99f1b443a13a2f4ddfc3ea052"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d87a4020272e3b4dce22c814c109edb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a1d87a4020272e3b4dce22c814c109edb">_level</a></td></tr>
+<tr class="separator:a1d87a4020272e3b4dce22c814c109edb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d213071630ef58d19a1c6044d9de58"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#ac4d213071630ef58d19a1c6044d9de58">_class</a></td></tr>
+<tr class="separator:ac4d213071630ef58d19a1c6044d9de58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2652ef655f60708295ba64a1f1e7eb1b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a2652ef655f60708295ba64a1f1e7eb1b">_race</a></td></tr>
+<tr class="separator:a2652ef655f60708295ba64a1f1e7eb1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68d1453d41fb26a42bf4239614a5b9e9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a68d1453d41fb26a42bf4239614a5b9e9">_zoneid</a></td></tr>
+<tr class="separator:a68d1453d41fb26a42bf4239614a5b9e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fdf1ed2c30f26c82b5f038c13bd902f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a3fdf1ed2c30f26c82b5f038c13bd902f">_gender</a></td></tr>
+<tr class="separator:a3fdf1ed2c30f26c82b5f038c13bd902f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e574ae52509f19b32c94d2dd9afca3f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a5e574ae52509f19b32c94d2dd9afca3f">_visible</a></td></tr>
+<tr class="separator:a5e574ae52509f19b32c94d2dd9afca3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5fca123daef2db04fcc1244df8e0a58f"><td class="memItemLeft" align="right" valign="top">std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a5fca123daef2db04fcc1244df8e0a58f">_widePlayerName</a></td></tr>
+<tr class="separator:a5fca123daef2db04fcc1244df8e0a58f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc57c7cbfab62a5ca76015f6934eeb12"><td class="memItemLeft" align="right" valign="top">std::wstring&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#afc57c7cbfab62a5ca76015f6934eeb12">_wideGuildName</a></td></tr>
+<tr class="separator:afc57c7cbfab62a5ca76015f6934eeb12"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58732659b8a4f7da7cb169f9e28081e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a58732659b8a4f7da7cb169f9e28081e5">_playerName</a></td></tr>
+<tr class="separator:a58732659b8a4f7da7cb169f9e28081e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ada6671a6d1d09e5a867e9b3b698b3d"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d87/a07250.html#a2ada6671a6d1d09e5a867e9b3b698b3d">_guildName</a></td></tr>
+<tr class="separator:a2ada6671a6d1d09e5a867e9b3b698b3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2190c113c3d38bd316b17a4400c113e6" name="a2190c113c3d38bd316b17a4400c113e6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2190c113c3d38bd316b17a4400c113e6">&#9670;&#160;</a></span>WhoListCacheMgr() <span class="overload">[1/3]</span></h2>
+<a id="aa18fcdffe693100aacbd345c32641fed" name="aa18fcdffe693100aacbd345c32641fed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18fcdffe693100aacbd345c32641fed">&#9670;&#160;</a></span>WhoListPlayerInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -160,101 +186,128 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WhoListCacheMgr::WhoListCacheMgr </td>
+          <td class="memname">WhoListPlayerInfo::WhoListPlayerInfo </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae32706d7786014e142dc1cb9ccd29d70" name="ae32706d7786014e142dc1cb9ccd29d70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae32706d7786014e142dc1cb9ccd29d70">&#9670;&#160;</a></span>~WhoListCacheMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">WhoListCacheMgr::~WhoListCacheMgr </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname"><em>team</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a366e452317179d647042c24c56faafa1" name="a366e452317179d647042c24c56faafa1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a366e452317179d647042c24c56faafa1">&#9670;&#160;</a></span>WhoListCacheMgr() <span class="overload">[2/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">WhoListCacheMgr::WhoListCacheMgr </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> const &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a>&#160;</td>
+          <td class="paramname"><em>security</em>, </td>
         </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae0358ae9260f929410f6518f89135161" name="ae0358ae9260f929410f6518f89135161"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0358ae9260f929410f6518f89135161">&#9670;&#160;</a></span>WhoListCacheMgr() <span class="overload">[3/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
         <tr>
-          <td class="memname">WhoListCacheMgr::WhoListCacheMgr </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>clss</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>race</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>zoneid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>gender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>visible</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::wstring const &amp;&#160;</td>
+          <td class="paramname"><em>widePlayerName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::wstring const &amp;&#160;</td>
+          <td class="paramname"><em>wideGuildName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>playerName</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>guildName</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   29</span>                                                                                                  :</div>
+<div class="line"><span class="lineno">   30</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a1202a6f9ad207c7f1f3a58513278c58a">_guid</a>(guid),</div>
+<div class="line"><span class="lineno">   31</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a8d82352fc915903769f22532330861eb">_team</a>(team),</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#ad35b89e99f1b443a13a2f4ddfc3ea052">_security</a>(security),</div>
+<div class="line"><span class="lineno">   33</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a1d87a4020272e3b4dce22c814c109edb">_level</a>(level),</div>
+<div class="line"><span class="lineno">   34</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#ac4d213071630ef58d19a1c6044d9de58">_class</a>(clss),</div>
+<div class="line"><span class="lineno">   35</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a2652ef655f60708295ba64a1f1e7eb1b">_race</a>(race),</div>
+<div class="line"><span class="lineno">   36</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a68d1453d41fb26a42bf4239614a5b9e9">_zoneid</a>(zoneid),</div>
+<div class="line"><span class="lineno">   37</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a3fdf1ed2c30f26c82b5f038c13bd902f">_gender</a>(gender),</div>
+<div class="line"><span class="lineno">   38</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a5e574ae52509f19b32c94d2dd9afca3f">_visible</a>(visible),</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a5fca123daef2db04fcc1244df8e0a58f">_widePlayerName</a>(widePlayerName),</div>
+<div class="line"><span class="lineno">   40</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#afc57c7cbfab62a5ca76015f6934eeb12">_wideGuildName</a>(wideGuildName),</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a58732659b8a4f7da7cb169f9e28081e5">_playerName</a>(playerName),</div>
+<div class="line"><span class="lineno">   42</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a2ada6671a6d1d09e5a867e9b3b698b3d">_guildName</a>(guildName) { }</div>
+<div class="ttc" id="aa07250_html_a1202a6f9ad207c7f1f3a58513278c58a"><div class="ttname"><a href="../../df/d87/a07250.html#a1202a6f9ad207c7f1f3a58513278c58a">WhoListPlayerInfo::_guid</a></div><div class="ttdeci">ObjectGuid _guid</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:59</div></div>
+<div class="ttc" id="aa07250_html_a1d87a4020272e3b4dce22c814c109edb"><div class="ttname"><a href="../../df/d87/a07250.html#a1d87a4020272e3b4dce22c814c109edb">WhoListPlayerInfo::_level</a></div><div class="ttdeci">uint8 _level</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:62</div></div>
+<div class="ttc" id="aa07250_html_a2652ef655f60708295ba64a1f1e7eb1b"><div class="ttname"><a href="../../df/d87/a07250.html#a2652ef655f60708295ba64a1f1e7eb1b">WhoListPlayerInfo::_race</a></div><div class="ttdeci">uint8 _race</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:64</div></div>
+<div class="ttc" id="aa07250_html_a2ada6671a6d1d09e5a867e9b3b698b3d"><div class="ttname"><a href="../../df/d87/a07250.html#a2ada6671a6d1d09e5a867e9b3b698b3d">WhoListPlayerInfo::_guildName</a></div><div class="ttdeci">std::string _guildName</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:71</div></div>
+<div class="ttc" id="aa07250_html_a3fdf1ed2c30f26c82b5f038c13bd902f"><div class="ttname"><a href="../../df/d87/a07250.html#a3fdf1ed2c30f26c82b5f038c13bd902f">WhoListPlayerInfo::_gender</a></div><div class="ttdeci">uint8 _gender</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:66</div></div>
+<div class="ttc" id="aa07250_html_a58732659b8a4f7da7cb169f9e28081e5"><div class="ttname"><a href="../../df/d87/a07250.html#a58732659b8a4f7da7cb169f9e28081e5">WhoListPlayerInfo::_playerName</a></div><div class="ttdeci">std::string _playerName</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:70</div></div>
+<div class="ttc" id="aa07250_html_a5e574ae52509f19b32c94d2dd9afca3f"><div class="ttname"><a href="../../df/d87/a07250.html#a5e574ae52509f19b32c94d2dd9afca3f">WhoListPlayerInfo::_visible</a></div><div class="ttdeci">bool _visible</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:67</div></div>
+<div class="ttc" id="aa07250_html_a5fca123daef2db04fcc1244df8e0a58f"><div class="ttname"><a href="../../df/d87/a07250.html#a5fca123daef2db04fcc1244df8e0a58f">WhoListPlayerInfo::_widePlayerName</a></div><div class="ttdeci">std::wstring _widePlayerName</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:68</div></div>
+<div class="ttc" id="aa07250_html_a68d1453d41fb26a42bf4239614a5b9e9"><div class="ttname"><a href="../../df/d87/a07250.html#a68d1453d41fb26a42bf4239614a5b9e9">WhoListPlayerInfo::_zoneid</a></div><div class="ttdeci">uint32 _zoneid</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:65</div></div>
+<div class="ttc" id="aa07250_html_a8d82352fc915903769f22532330861eb"><div class="ttname"><a href="../../df/d87/a07250.html#a8d82352fc915903769f22532330861eb">WhoListPlayerInfo::_team</a></div><div class="ttdeci">TeamId _team</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:60</div></div>
+<div class="ttc" id="aa07250_html_ac4d213071630ef58d19a1c6044d9de58"><div class="ttname"><a href="../../df/d87/a07250.html#ac4d213071630ef58d19a1c6044d9de58">WhoListPlayerInfo::_class</a></div><div class="ttdeci">uint8 _class</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:63</div></div>
+<div class="ttc" id="aa07250_html_ad35b89e99f1b443a13a2f4ddfc3ea052"><div class="ttname"><a href="../../df/d87/a07250.html#ad35b89e99f1b443a13a2f4ddfc3ea052">WhoListPlayerInfo::_security</a></div><div class="ttdeci">AccountTypes _security</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:61</div></div>
+<div class="ttc" id="aa07250_html_afc57c7cbfab62a5ca76015f6934eeb12"><div class="ttname"><a href="../../df/d87/a07250.html#afc57c7cbfab62a5ca76015f6934eeb12">WhoListPlayerInfo::_wideGuildName</a></div><div class="ttdeci">std::wstring _wideGuildName</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:69</div></div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4dec6544342fdc5052b69dcc61148453" name="a4dec6544342fdc5052b69dcc61148453"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4dec6544342fdc5052b69dcc61148453">&#9670;&#160;</a></span>GetWhoList()</h2>
+<a id="a1481e9d9a2e75b7d65ab138434d1586f" name="a1481e9d9a2e75b7d65ab138434d1586f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1481e9d9a2e75b7d65ab138434d1586f">&#9670;&#160;</a></span>GetClass()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -263,7 +316,7 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/ded/a04130.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a> const  &amp; WhoListCacheMgr::GetWhoList </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::GetClass </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -275,13 +328,14 @@ Private Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   90</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>; }</div>
-<div class="ttc" id="aa07250_html_a75495cb910c6de65d60a5080248e1e25"><div class="ttname"><a href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">WhoListCacheMgr::_whoListStorage</a></div><div class="ttdeci">WhoListInfoVector _whoListStorage</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:93</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#ac4d213071630ef58d19a1c6044d9de58">_class</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00063">_class</a>.</p>
+
 </div>
 </div>
-<a id="a1e8ce970e3213cd0361af303df98b387" name="a1e8ce970e3213cd0361af303df98b387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1e8ce970e3213cd0361af303df98b387">&#9670;&#160;</a></span>instance()</h2>
+<a id="aaf1a4d5511681b40c35dfa4a5eca3e11" name="aaf1a4d5511681b40c35dfa4a5eca3e11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf1a4d5511681b40c35dfa4a5eca3e11">&#9670;&#160;</a></span>GetGender()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -290,33 +344,26 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> * WhoListCacheMgr::instance </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::GetGender </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   24</span>{</div>
-<div class="line"><span class="lineno">   25</span>    <span class="keyword">static</span> <a class="code hl_class" href="../../df/d87/a07250.html">WhoListCacheMgr</a> <a class="code hl_function" href="../../df/d87/a07250.html#a1e8ce970e3213cd0361af303df98b387">instance</a>;</div>
-<div class="line"><span class="lineno">   26</span>    <span class="keywordflow">return</span> &amp;<a class="code hl_function" href="../../df/d87/a07250.html#a1e8ce970e3213cd0361af303df98b387">instance</a>;</div>
-<div class="line"><span class="lineno">   27</span>}</div>
-<div class="ttc" id="aa07250_html"><div class="ttname"><a href="../../df/d87/a07250.html">WhoListCacheMgr</a></div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.h:77</div></div>
-<div class="ttc" id="aa07250_html_a1e8ce970e3213cd0361af303df98b387"><div class="ttname"><a href="../../df/d87/a07250.html#a1e8ce970e3213cd0361af303df98b387">WhoListCacheMgr::instance</a></div><div class="ttdeci">static WhoListCacheMgr * instance()</div><div class="ttdef"><b>Definition:</b> WhoListCacheMgr.cpp:23</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a3fdf1ed2c30f26c82b5f038c13bd902f">_gender</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00023">instance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00023">instance()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00066">_gender</a>.</p>
 
 </div>
 </div>
-<a id="a80615aa0a66ac29765f27598e605c712" name="a80615aa0a66ac29765f27598e605c712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80615aa0a66ac29765f27598e605c712">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="ac7a2520681c66632c0ae4cbeb8ddce64" name="ac7a2520681c66632c0ae4cbeb8ddce64"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7a2520681c66632c0ae4cbeb8ddce64">&#9670;&#160;</a></span>GetGuid()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -325,24 +372,26 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp; WhoListCacheMgr::operator= </td>
+          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> WhoListPlayerInfo::GetGuid </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   44</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a1202a6f9ad207c7f1f3a58513278c58a">_guid</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00059">_guid</a>.</p>
 
 </div>
 </div>
-<a id="ab8aff37f9e66aef40ccb794928bc001c" name="ab8aff37f9e66aef40ccb794928bc001c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8aff37f9e66aef40ccb794928bc001c">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+<a id="a701cf843b5e6cea8385b172ca83e0e15" name="a701cf843b5e6cea8385b172ca83e0e15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a701cf843b5e6cea8385b172ca83e0e15">&#9670;&#160;</a></span>GetGuildName()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -351,81 +400,279 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> &amp; WhoListCacheMgr::operator= </td>
+          <td class="memname">std::string const  &amp; WhoListPlayerInfo::GetGuildName </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a> const &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a2ada6671a6d1d09e5a867e9b3b698b3d">_guildName</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00071">_guildName</a>.</p>
 
 </div>
 </div>
-<a id="a3db2ef832cf1413fb2e565ca0d922a80" name="a3db2ef832cf1413fb2e565ca0d922a80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3db2ef832cf1413fb2e565ca0d922a80">&#9670;&#160;</a></span>Update()</h2>
+<a id="ac7d9dc1689f73d568f62e0ccbe578dc8" name="ac7d9dc1689f73d568f62e0ccbe578dc8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7d9dc1689f73d568f62e0ccbe578dc8">&#9670;&#160;</a></span>GetLevel()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void WhoListCacheMgr::Update </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::GetLevel </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
-<div class="line"><span class="lineno">   31</span>    <span class="comment">// clear current list</span></div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.clear();</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.reserve(<a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetPlayerCount() + 1);</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; [guid, player] : <a class="code hl_function" href="../../d9/d06/a04735.html#a868ecab21b3e6e3ac68beed32f4ea793">ObjectAccessor::GetPlayers</a>())</div>
-<div class="line"><span class="lineno">   36</span>    {</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (!player-&gt;FindMap() || player-&gt;GetSession()-&gt;PlayerLoading())</div>
-<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   39</span> </div>
-<div class="line"><span class="lineno">   40</span>        std::string playerName = player-&gt;GetName();</div>
-<div class="line"><span class="lineno">   41</span>        std::wstring widePlayerName;</div>
-<div class="line"><span class="lineno">   42</span> </div>
-<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(playerName, widePlayerName))</div>
-<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>        <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(widePlayerName);</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>        std::string guildName = <a class="code hl_define" href="../../d0/daf/a02972.html#aef171903a38e30c347ff11360f682f81">sGuildMgr</a>-&gt;GetGuildNameById(player-&gt;GetGuildId());</div>
-<div class="line"><span class="lineno">   49</span>        std::wstring wideGuildName;</div>
-<div class="line"><span class="lineno">   50</span> </div>
-<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(guildName, wideGuildName))</div>
-<div class="line"><span class="lineno">   52</span>            <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno">   53</span> </div>
-<div class="line"><span class="lineno">   54</span>        <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(wideGuildName);</div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>        <a class="code hl_variable" href="../../df/d87/a07250.html#a75495cb910c6de65d60a5080248e1e25">_whoListStorage</a>.emplace_back(player-&gt;GetGUID(), player-&gt;GetTeamId(), player-&gt;GetSession()-&gt;GetSecurity(), player-&gt;GetLevel(),</div>
-<div class="line"><span class="lineno">   57</span>            player-&gt;getClass(), player-&gt;getRace(),</div>
-<div class="line"><span class="lineno">   58</span>            (player-&gt;IsSpectator() ? 4395 <span class="comment">/*Dalaran*/</span> : player-&gt;GetZoneId()), player-&gt;getGender(), player-&gt;IsVisible(),</div>
-<div class="line"><span class="lineno">   59</span>            widePlayerName, wideGuildName, playerName, guildName);</div>
-<div class="line"><span class="lineno">   60</span>    }</div>
-<div class="line"><span class="lineno">   61</span>}</div>
-<div class="ttc" id="aa00383_html_a096388bd1034eb78e43e5d60cc4f657a"><div class="ttname"><a href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, std::size_t csize, wchar_t *wstr, std::size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:281</div></div>
-<div class="ttc" id="aa00383_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:382</div></div>
-<div class="ttc" id="aa02972_html_aef171903a38e30c347ff11360f682f81"><div class="ttname"><a href="../../d0/daf/a02972.html#aef171903a38e30c347ff11360f682f81">sGuildMgr</a></div><div class="ttdeci">#define sGuildMgr</div><div class="ttdef"><b>Definition:</b> GuildMgr.h:51</div></div>
-<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-<div class="ttc" id="aa04735_html_a868ecab21b3e6e3ac68beed32f4ea793"><div class="ttname"><a href="../../d9/d06/a04735.html#a868ecab21b3e6e3ac68beed32f4ea793">ObjectAccessor::GetPlayers</a></div><div class="ttdeci">HashMapHolder&lt; Player &gt;::MapType const &amp; GetPlayers()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:75</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a1d87a4020272e3b4dce22c814c109edb">_level</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00093">_whoListStorage</a>, <a class="el" href="../../#l00075">ObjectAccessor::GetPlayers()</a>, <a class="el" href="../../#l00051">sGuildMgr</a>, <a class="el" href="../../#l00443">sWorld</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00062">_level</a>.</p>
+
+</div>
+</div>
+<a id="a6aa45f6fa316ba650525d77704db53f7" name="a6aa45f6fa316ba650525d77704db53f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6aa45f6fa316ba650525d77704db53f7">&#9670;&#160;</a></span>GetPlayerName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string const  &amp; WhoListPlayerInfo::GetPlayerName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a58732659b8a4f7da7cb169f9e28081e5">_playerName</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00070">_playerName</a>.</p>
+
+</div>
+</div>
+<a id="af4aafb1613b7228aa321855e4984a413" name="af4aafb1613b7228aa321855e4984a413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4aafb1613b7228aa321855e4984a413">&#9670;&#160;</a></span>GetRace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::GetRace </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a2652ef655f60708295ba64a1f1e7eb1b">_race</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">_race</a>.</p>
+
+</div>
+</div>
+<a id="ad7dba32b335766acfccdecbd6a5833d8" name="ad7dba32b335766acfccdecbd6a5833d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7dba32b335766acfccdecbd6a5833d8">&#9670;&#160;</a></span>GetSecurity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a> WhoListPlayerInfo::GetSecurity </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#ad35b89e99f1b443a13a2f4ddfc3ea052">_security</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">_security</a>.</p>
+
+</div>
+</div>
+<a id="a652eb07df8514353376e2870bfc7faa0" name="a652eb07df8514353376e2870bfc7faa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a652eb07df8514353376e2870bfc7faa0">&#9670;&#160;</a></span>GetTeamId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> WhoListPlayerInfo::GetTeamId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a8d82352fc915903769f22532330861eb">_team</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00060">_team</a>.</p>
+
+</div>
+</div>
+<a id="ad28490bd0c8c378e72748038ee6668cc" name="ad28490bd0c8c378e72748038ee6668cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad28490bd0c8c378e72748038ee6668cc">&#9670;&#160;</a></span>GetWideGuildName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring const  &amp; WhoListPlayerInfo::GetWideGuildName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#afc57c7cbfab62a5ca76015f6934eeb12">_wideGuildName</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00069">_wideGuildName</a>.</p>
+
+</div>
+</div>
+<a id="a39a5ed821fde291ef6480e64b8755a04" name="a39a5ed821fde291ef6480e64b8755a04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39a5ed821fde291ef6480e64b8755a04">&#9670;&#160;</a></span>GetWidePlayerName()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring const  &amp; WhoListPlayerInfo::GetWidePlayerName </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a5fca123daef2db04fcc1244df8e0a58f">_widePlayerName</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">_widePlayerName</a>.</p>
+
+</div>
+</div>
+<a id="a169818a5ecd988ddae3eb56f52bed701" name="a169818a5ecd988ddae3eb56f52bed701"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a169818a5ecd988ddae3eb56f52bed701">&#9670;&#160;</a></span>GetZoneId()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> WhoListPlayerInfo::GetZoneId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a68d1453d41fb26a42bf4239614a5b9e9">_zoneid</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">_zoneid</a>.</p>
+
+</div>
+</div>
+<a id="a7e25cdf1d9049a84270f9ad5c6ce7107" name="a7e25cdf1d9049a84270f9ad5c6ce7107"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e25cdf1d9049a84270f9ad5c6ce7107">&#9670;&#160;</a></span>IsVisible()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WhoListPlayerInfo::IsVisible </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   52</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d87/a07250.html#a5e574ae52509f19b32c94d2dd9afca3f">_visible</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00067">_visible</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a75495cb910c6de65d60a5080248e1e25" name="a75495cb910c6de65d60a5080248e1e25"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75495cb910c6de65d60a5080248e1e25">&#9670;&#160;</a></span>_whoListStorage</h2>
+<a id="ac4d213071630ef58d19a1c6044d9de58" name="ac4d213071630ef58d19a1c6044d9de58"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d213071630ef58d19a1c6044d9de58">&#9670;&#160;</a></span>_class</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -434,17 +681,305 @@ Private Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/ded/a04130.html#a88bd249c0903724edb2c2d5416962534">WhoListInfoVector</a> WhoListCacheMgr::_whoListStorage</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::_class</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00029">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00048">GetClass()</a>.</p>
+
+</div>
+</div>
+<a id="a3fdf1ed2c30f26c82b5f038c13bd902f" name="a3fdf1ed2c30f26c82b5f038c13bd902f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fdf1ed2c30f26c82b5f038c13bd902f">&#9670;&#160;</a></span>_gender</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::_gender</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00051">GetGender()</a>.</p>
+
+</div>
+</div>
+<a id="a1202a6f9ad207c7f1f3a58513278c58a" name="a1202a6f9ad207c7f1f3a58513278c58a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1202a6f9ad207c7f1f3a58513278c58a">&#9670;&#160;</a></span>_guid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> WhoListPlayerInfo::_guid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00044">GetGuid()</a>.</p>
+
+</div>
+</div>
+<a id="a2ada6671a6d1d09e5a867e9b3b698b3d" name="a2ada6671a6d1d09e5a867e9b3b698b3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ada6671a6d1d09e5a867e9b3b698b3d">&#9670;&#160;</a></span>_guildName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string WhoListPlayerInfo::_guildName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00056">GetGuildName()</a>.</p>
+
+</div>
+</div>
+<a id="a1d87a4020272e3b4dce22c814c109edb" name="a1d87a4020272e3b4dce22c814c109edb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d87a4020272e3b4dce22c814c109edb">&#9670;&#160;</a></span>_level</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::_level</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00047">GetLevel()</a>.</p>
+
+</div>
+</div>
+<a id="a58732659b8a4f7da7cb169f9e28081e5" name="a58732659b8a4f7da7cb169f9e28081e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a58732659b8a4f7da7cb169f9e28081e5">&#9670;&#160;</a></span>_playerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string WhoListPlayerInfo::_playerName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00055">GetPlayerName()</a>.</p>
+
+</div>
+</div>
+<a id="a2652ef655f60708295ba64a1f1e7eb1b" name="a2652ef655f60708295ba64a1f1e7eb1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2652ef655f60708295ba64a1f1e7eb1b">&#9670;&#160;</a></span>_race</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> WhoListPlayerInfo::_race</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00049">GetRace()</a>.</p>
+
+</div>
+</div>
+<a id="ad35b89e99f1b443a13a2f4ddfc3ea052" name="ad35b89e99f1b443a13a2f4ddfc3ea052"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad35b89e99f1b443a13a2f4ddfc3ea052">&#9670;&#160;</a></span>_security</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d51/a00017.html#adaa1cabfe05f8df3c272bdcfd89cdac7">AccountTypes</a> WhoListPlayerInfo::_security</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00046">GetSecurity()</a>.</p>
+
+</div>
+</div>
+<a id="a8d82352fc915903769f22532330861eb" name="a8d82352fc915903769f22532330861eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d82352fc915903769f22532330861eb">&#9670;&#160;</a></span>_team</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> WhoListPlayerInfo::_team</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00045">GetTeamId()</a>.</p>
+
+</div>
+</div>
+<a id="a5e574ae52509f19b32c94d2dd9afca3f" name="a5e574ae52509f19b32c94d2dd9afca3f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e574ae52509f19b32c94d2dd9afca3f">&#9670;&#160;</a></span>_visible</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool WhoListPlayerInfo::_visible</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00052">IsVisible()</a>.</p>
+
+</div>
+</div>
+<a id="afc57c7cbfab62a5ca76015f6934eeb12" name="afc57c7cbfab62a5ca76015f6934eeb12"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc57c7cbfab62a5ca76015f6934eeb12">&#9670;&#160;</a></span>_wideGuildName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring WhoListPlayerInfo::_wideGuildName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00054">GetWideGuildName()</a>.</p>
+
+</div>
+</div>
+<a id="a5fca123daef2db04fcc1244df8e0a58f" name="a5fca123daef2db04fcc1244df8e0a58f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5fca123daef2db04fcc1244df8e0a58f">&#9670;&#160;</a></span>_widePlayerName</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::wstring WhoListPlayerInfo::_widePlayerName</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00053">GetWidePlayerName()</a>.</p>
+
+</div>
+</div>
+<a id="a68d1453d41fb26a42bf4239614a5b9e9" name="a68d1453d41fb26a42bf4239614a5b9e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68d1453d41fb26a42bf4239614a5b9e9">&#9670;&#160;</a></span>_zoneid</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> WhoListPlayerInfo::_zoneid</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00050">GetZoneId()</a>.</p>
 
 </div>
 </div>
@@ -453,8 +988,8 @@ Private Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d87/a07250.html">WhoListCacheMgr</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:51 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d87/a07250.html">WhoListPlayerInfo</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

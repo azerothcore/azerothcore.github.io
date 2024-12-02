@@ -1,8 +1,7 @@
 var a25398 =
 [
-    [ "HandleDummy", "d1/d3e/a25398.html#a3db6982f1162ac6b03771a0e7e432e6d", null ],
-    [ "Load", "d1/d3e/a25398.html#a9671be7920dfd3bde2033f0ae43259b0", null ],
-    [ "PrepareSpellScript", "d1/d3e/a25398.html#ad50c9141d40b7089fd24a8657d496a8d", null ],
-    [ "Register", "d1/d3e/a25398.html#a249a857b1cf5b0c3be6018cb233c75d1", null ],
-    [ "Validate", "d1/d3e/a25398.html#ac209048bd5688417c391c2c9b8a72d8b", null ]
+    [ "Load", "d1/d3e/a25398.html#a8be944ae201f4f8406948aff78f982d9", null ],
+    [ "OnDummyEffect", "d1/d3e/a25398.html#adcb707400963e549a295e115d6f3583b", null ],
+    [ "PrepareSpellScript", "d1/d3e/a25398.html#a5b2175a933df10d775bc3381f515aa96", null ],
+    [ "Register", "d1/d3e/a25398.html#a6e41bf15401c540887dd321e4b2cc7d3", null ]
 ];

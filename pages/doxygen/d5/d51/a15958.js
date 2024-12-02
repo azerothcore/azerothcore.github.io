@@ -1,6 +1,6 @@
 var a15958 =
 [
-    [ "npc_frost_sphereAI", "d0/dfb/a15962.html", "d0/dfb/a15962" ],
-    [ "npc_frost_sphere", "d5/d51/a15958.html#a0256ba1c53853307f8b66e22b10bef24", null ],
-    [ "GetAI", "d5/d51/a15958.html#a3e6de3551306fb4c35aabbd4fc656ee6", null ]
+    [ "boss_anubarak_trialAI", "d0/dfb/a15962.html", "d0/dfb/a15962" ],
+    [ "boss_anubarak_trial", "d5/d51/a15958.html#a5204e33a412608b53cc155a043356d58", null ],
+    [ "GetAI", "d5/d51/a15958.html#a9b8fe9ed3370434612cbd46e7649213d", null ]
 ];

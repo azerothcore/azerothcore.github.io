@@ -1,12 +1,13 @@
 var a27098 =
 [
-    [ "npc_preciousAI", "d4/d23/a27098.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
-    [ "FlagForDespawn", "d4/d23/a27098.html#a934a5147c1cc9937189011fb061657da", null ],
-    [ "InitializeAI", "d4/d23/a27098.html#aa15843c4029f2df2ee04d21b5157602a", null ],
-    [ "JustEngagedWith", "d4/d23/a27098.html#a58bc4149111605850f070a77ee776313", null ],
-    [ "JustReachedHome", "d4/d23/a27098.html#a31893e9441b24398554370a58ef8bd78", null ],
-    [ "Reset", "d4/d23/a27098.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
-    [ "UpdateAI", "d4/d23/a27098.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
-    [ "events", "d4/d23/a27098.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
-    [ "flaggedForDespawn", "d4/d23/a27098.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
+    [ "npc_nelsonAI", "d4/d23/a27098.html#af6aada5c34048ce6bda6d5c1541e0bf3", null ],
+    [ "DoAction", "d4/d23/a27098.html#a13ec2adee9d671f949139dbf94c75cc3", null ],
+    [ "JustEngagedWith", "d4/d23/a27098.html#accb9aeb3b3f3fc2233598b7fef40c3ec", null ],
+    [ "JustSummoned", "d4/d23/a27098.html#a31d622d73a2540e159720d4c8ddc7d00", null ],
+    [ "Reset", "d4/d23/a27098.html#a05fcb98153f0a24f50004f465d8f3c72", null ],
+    [ "SpellHit", "d4/d23/a27098.html#afab81d8a6077c755c186bb619944d78d", null ],
+    [ "SummonedCreatureDies", "d4/d23/a27098.html#ab3753c9b6848c1567ac596a5f6b498a1", null ],
+    [ "UpdateAI", "d4/d23/a27098.html#ac68749942f37de5f9105556fe7b904b7", null ],
+    [ "events", "d4/d23/a27098.html#a25eb289b79de306bbdc0dd099b23a2a0", null ],
+    [ "shouldDespawn", "d4/d23/a27098.html#a09a68f903854fcedd8a4b2ee4c2597e2", null ]
 ];

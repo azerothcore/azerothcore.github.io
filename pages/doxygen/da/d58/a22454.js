@@ -1,10 +1,7 @@
 var a22454 =
 [
-    [ "boss_illidari_council", "da/d58/a22454.html#a078c36be39b377f6d1cdbf061d70270d", null ],
-    [ "AttackStart", "da/d58/a22454.html#a260b15ec58164f17543aa044a89875a8", null ],
-    [ "DamageTaken", "da/d58/a22454.html#af8e88c307efaba392cc2a1d2f3862078", null ],
-    [ "DoAction", "da/d58/a22454.html#a6c3c57523ed2775ba553af1171b46463", null ],
-    [ "EnterEvadeMode", "da/d58/a22454.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
-    [ "MoveInLineOfSight", "da/d58/a22454.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
-    [ "UpdateAI", "da/d58/a22454.html#a8b30df956aa4ce1727756f1d19e151be", null ]
+    [ "boss_lady_malande", "da/d58/a22454.html#a8cb693d203463dcba809e7ffc23c6868", null ],
+    [ "AttackStart", "da/d58/a22454.html#ad5cf6e7b0000c7f96d8606088fb13d31", null ],
+    [ "JustEngagedWith", "da/d58/a22454.html#af4b5f376e387851e15517de03636acde", null ],
+    [ "UpdateAI", "da/d58/a22454.html#a6d9d09a49fc87bbbda02387f78bb3739", null ]
 ];

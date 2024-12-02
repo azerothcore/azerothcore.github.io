@@ -1,6 +1,6 @@
 var a15938 =
 [
-    [ "HideNpcEvent", "d0/d29/a15938.html#ab454295aab0f5d4586740140232e96eb", null ],
-    [ "Execute", "d0/d29/a15938.html#aecfbbbcac3fd98675913a6381c891a59", null ],
-    [ "_owner", "d0/d29/a15938.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
+    [ "instance_trial_of_the_champion_InstanceMapScript", "db/d73/a15942.html", "db/d73/a15942" ],
+    [ "instance_trial_of_the_champion", "d0/d29/a15938.html#a7b97e3da119a7ad33a87c74647407bd8", null ],
+    [ "GetInstanceScript", "d0/d29/a15938.html#a9227119fc47f38cd82a1fc07c04b0c86", null ]
 ];

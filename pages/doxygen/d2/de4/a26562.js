@@ -1,6 +1,6 @@
 var a26562 =
 [
-    [ "HandleDummy", "d2/de4/a26562.html#a68a86f7f86324336dc837622e01fa6af", null ],
-    [ "PrepareSpellScript", "d2/de4/a26562.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
-    [ "Register", "d2/de4/a26562.html#ad168c9164d1edd23abfbf05141b96de4", null ]
+    [ "FilterTargets", "d2/de4/a26562.html#af85da0bcf8c311472e6a75667fa125d0", null ],
+    [ "PrepareSpellScript", "d2/de4/a26562.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
+    [ "Register", "d2/de4/a26562.html#a2fab1592d19331239b1ef63045389886", null ]
 ];

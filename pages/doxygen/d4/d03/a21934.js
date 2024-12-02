@@ -1,8 +1,8 @@
 var a21934 =
 [
-    [ "npc_freed_protodrakeAI", "d4/d03/a21934.html#a9e80808035be749c87a1170f37ac3daf", null ],
-    [ "MovementInform", "d4/d03/a21934.html#af056f3c12a314acd8a7e8c6c381b9436", null ],
-    [ "Reset", "d4/d03/a21934.html#ab5781438300442bb7bcb4510aec9d233", null ],
-    [ "UpdateAI", "d4/d03/a21934.html#a9e83b133444e977c35e90b700149472c", null ],
-    [ "events", "d4/d03/a21934.html#ac2e34b9a53ff55d177327ec95dca5466", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d4/d03/a21934.html#a30794392a32b1323fb0a86615b341741", null ],
+    [ "PassengerBoarded", "d4/d03/a21934.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
+    [ "UpdateAI", "d4/d03/a21934.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
+    [ "_accessoryRespawnTimer", "d4/d03/a21934.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
+    [ "_vehicleKit", "d4/d03/a21934.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
 ];

@@ -1,9 +1,7 @@
 var a14446 =
 [
-    [ "boss_temporus", "df/d5e/a14446.html#ab9f1495b18fe2c0ee33e9c238483ce0d", null ],
-    [ "JustDied", "df/d5e/a14446.html#a9186e51d240aff2ffaab99e3b423ded9", null ],
-    [ "JustEngagedWith", "df/d5e/a14446.html#abe7f18497c1c8b31693980e98b1d1859", null ],
-    [ "KilledUnit", "df/d5e/a14446.html#a89c2a229b56b3a7dcb9e5a495ac6dbd7", null ],
-    [ "MoveInLineOfSight", "df/d5e/a14446.html#a18a0279036324498a9daf8c7d0296ffc", null ],
-    [ "OwnTalk", "df/d5e/a14446.html#a99356589a048debbc308b8431259da5c", null ]
+    [ "npc_tarethaAI", "d0/df2/a14450.html", "d0/df2/a14450" ],
+    [ "npc_taretha", "df/d5e/a14446.html#a54379e06518ff972e91e25e295731f5a", null ],
+    [ "GetAI", "df/d5e/a14446.html#a5045bb7119b12800ee0053818fcae5fe", null ],
+    [ "OnGossipHello", "df/d5e/a14446.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
 ];

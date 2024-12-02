@@ -1,6 +1,6 @@
 var a24510 =
 [
-    [ "PrepareSpellScript", "dc/da0/a24510.html#acfa320b33c00883a78c3696bbbeb7eb0", null ],
-    [ "Register", "dc/da0/a24510.html#a6d251ba1e88d4349dcffa96978389a7f", null ],
-    [ "SelectTarget", "dc/da0/a24510.html#a0d95f8ad8d05d2c0b100dc10988d00c9", null ]
+    [ "CheckAreaTarget", "dc/da0/a24510.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
+    [ "PrepareAuraScript", "dc/da0/a24510.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
+    [ "Register", "dc/da0/a24510.html#a6647a8e35009cf8559e4957a666f037a", null ]
 ];

@@ -1,6 +1,6 @@
 var a17366 =
 [
-    [ "npc_vengeful_shadeAI", "de/d5f/a17370.html", "de/d5f/a17370" ],
-    [ "npc_vengeful_shade", "db/ded/a17366.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
-    [ "GetAI", "db/ded/a17366.html#afa2c672015b43d83bd55050ed020f7e5", null ]
+    [ "npc_cult_fanaticAI", "de/d5f/a17370.html", "de/d5f/a17370" ],
+    [ "npc_cult_fanatic", "db/ded/a17366.html#af29ab8f7628b96b0f192bccab74ca02e", null ],
+    [ "GetAI", "db/ded/a17366.html#ae4d22bac12d17d79669d3fccd4029952", null ]
 ];

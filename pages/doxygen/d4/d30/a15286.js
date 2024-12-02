@@ -1,7 +1,7 @@
 var a15286 =
 [
-    [ "npc_paoka_swiftmountainAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
-    [ "npc_paoka_swiftmountain", "d4/d30/a15286.html#abb3f6fab7cca158c2e139159430f880a", null ],
-    [ "GetAI", "d4/d30/a15286.html#a3f41d2caae5acb4b79bcc75780db03d2", null ],
-    [ "OnQuestAccept", "d4/d30/a15286.html#a5bd4442350daf5a19bee1037a1b4d7b3", null ]
+    [ "npc_wizzlecrank_shredderAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
+    [ "npc_wizzlecrank_shredder", "d4/d30/a15286.html#a56a29a61d6f1a5981019f6c059b4da64", null ],
+    [ "GetAI", "d4/d30/a15286.html#a5c42cc6d8cf2642333731138077af66e", null ],
+    [ "OnQuestAccept", "d4/d30/a15286.html#afcd5aaea5234b6510825d9ce5e809aa6", null ]
 ];

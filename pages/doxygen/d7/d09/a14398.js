@@ -1,29 +1,7 @@
 var a14398 =
 [
-    [ "instance_culling_of_stratholme_InstanceMapScript", "d7/d09/a14398.html#ab14fa9416d0971ed84d659cad15f7065", null ],
-    [ "ChromieWhisper", "d7/d09/a14398.html#ae97d05afd1cb4b8d665ad3361a517781", null ],
-    [ "EnsureGridLoaded", "d7/d09/a14398.html#aff696873e854d325e42b3fd7623128b3", null ],
-    [ "FillInitialWorldStates", "d7/d09/a14398.html#af437e1177fc9016c8824a26008953c7b", null ],
-    [ "GetData", "d7/d09/a14398.html#aaea6ab9b71d52377ddebd7b54b354c1e", null ],
-    [ "GetGuidData", "d7/d09/a14398.html#adc795bd78af72bd6bda8546a756a94e0", null ],
-    [ "GetSaveData", "d7/d09/a14398.html#ad0d4cd6646c52dba390193b38df00d6f", null ],
-    [ "IsEncounterInProgress", "d7/d09/a14398.html#ad64c44c62f429cbca6c2e720a35a7b41", null ],
-    [ "Load", "d7/d09/a14398.html#a7981d6fc2a4f4113d9844ffd9a917473", null ],
-    [ "OnCreatureCreate", "d7/d09/a14398.html#a160e3b02d40abecbc16533972433fe9b", null ],
-    [ "OnGameObjectCreate", "d7/d09/a14398.html#a6fe2831227ec9f43882cf19849689a45", null ],
-    [ "OnPlayerEnter", "d7/d09/a14398.html#a09088000395dbd2b1255c02b4867898d", null ],
-    [ "Reposition", "d7/d09/a14398.html#a32218976e637b9499bcbd8f1e4d9c8c8", null ],
-    [ "SetData", "d7/d09/a14398.html#a02fc56dddc6b300f06c7cc5f8fb3ded7", null ],
-    [ "Update", "d7/d09/a14398.html#a9e90b4dd34a8a81b499b1402fbbaf218", null ],
-    [ "UpdateEventState", "d7/d09/a14398.html#aff8e5df41dd304df32a6ad3ac185b672", null ],
-    [ "_arthasGUID", "d7/d09/a14398.html#a1047f207de079d1cad0fc6976ab2d3f9", null ],
-    [ "_crateCount", "d7/d09/a14398.html#a7cdab6cdc847b4b3c434ee42ff458dae", null ],
-    [ "_encounterState", "d7/d09/a14398.html#a0a5afd0104654aea57479fa3f4d1e36a", null ],
-    [ "_exitGateGUID", "d7/d09/a14398.html#ab671339f99ddc498950ef868042fd4a4", null ],
-    [ "_guardianTimer", "d7/d09/a14398.html#aaf1409ef7e2c3ef43d0704f586a75312", null ],
-    [ "_infiniteGUID", "d7/d09/a14398.html#a96d30d5f0dabb385f36e4b0a0762a16a", null ],
-    [ "_loadTimer", "d7/d09/a14398.html#a87002a39776087346791b9026c6e2e07", null ],
-    [ "_respawnAndReposition", "d7/d09/a14398.html#af768b50e85b799d35844b173d94e578d", null ],
-    [ "_shkafGateGUID", "d7/d09/a14398.html#a4a7fd8572c70c16853cf7cd410197e52", null ],
-    [ "_showCrateTimer", "d7/d09/a14398.html#ae6948cd547db988418c5d98f435ef2b8", null ]
+    [ "npc_cos_chromie_middle", "d7/d09/a14398.html#a1bb7229781c122d362e781d2737d0fd3", null ],
+    [ "OnGossipHello", "d7/d09/a14398.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
+    [ "OnGossipSelect", "d7/d09/a14398.html#a37ebdd257ef22554c81cf3c062856141", null ],
+    [ "OnQuestAccept", "d7/d09/a14398.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
 ];

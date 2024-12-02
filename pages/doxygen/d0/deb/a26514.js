@@ -1,6 +1,7 @@
 var a26514 =
 [
-    [ "HandleOnHit", "d0/deb/a26514.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
-    [ "PrepareSpellScript", "d0/deb/a26514.html#a999b019665dec9b0690a1019be428072", null ],
-    [ "Register", "d0/deb/a26514.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
+    [ "FilterTargets", "d0/deb/a26514.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
+    [ "PrepareSpellScript", "d0/deb/a26514.html#a954f00317eab544dd57e657368aab7fb", null ],
+    [ "Register", "d0/deb/a26514.html#a1804684c8685372faf2e88e56b48f5be", null ],
+    [ "Validate", "d0/deb/a26514.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
 ];

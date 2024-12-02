@@ -1,6 +1,6 @@
 var a24434 =
 [
-    [ "OnHit", "d4/da5/a24434.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "d4/da5/a24434.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "d4/da5/a24434.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "HandleAfterCast", "d4/da5/a24434.html#a39572ebbeee6fe39bc4454088c622bcd", null ],
+    [ "PrepareSpellScript", "d4/da5/a24434.html#a602d7c920aa73a9c3c69222854093036", null ],
+    [ "Register", "d4/da5/a24434.html#addbbf508a0e1074c23ebd325dd62bbe9", null ]
 ];

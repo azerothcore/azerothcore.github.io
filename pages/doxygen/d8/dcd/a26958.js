@@ -1,5 +1,5 @@
 var a26958 =
 [
-    [ "go_jotunheim_cage", "d8/dcd/a26958.html#a28c9312de97a822e34f05c7358b42df4", null ],
-    [ "OnGossipHello", "d8/dcd/a26958.html#a5598fcb4df9c7d0a610ea064af8095d3", null ]
+    [ "go_dragonflayer_cage", "d8/dcd/a26958.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
+    [ "OnGossipHello", "d8/dcd/a26958.html#a542530a0b84879b21a4b9982cf4300d0", null ]
 ];

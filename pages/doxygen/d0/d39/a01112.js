@@ -43,6 +43,7 @@ var a01112 =
       [ "SPELL_BARON_ULTIMATUM", "dd/d6f/a02207.html#a0b64fe674ad16039fc11cab49bc4ef87aeead4890a01a72d6b47d8a3b512cd3c7", null ],
       [ "DATA_TIMED_RUN", "d1/dce/a02168.html#a0b64fe674ad16039fc11cab49bc4ef87a8b0940fe883897da12f11a72f7722d85", null ],
       [ "ACTION_START_TIMED_RUN", "d1/dce/a02168.html#a0b64fe674ad16039fc11cab49bc4ef87a8e3160a5893fef5cf57380ff6cbcf1b6", null ],
+      [ "ACTION_START_AKILZON_GAUNTLET", "d1/dce/a02168.html#a0b64fe674ad16039fc11cab49bc4ef87a1e58053c43ea495ecd1bfad82b605375", null ],
       [ "GROUP_TIMED_RUN", "d1/dce/a02168.html#a0b64fe674ad16039fc11cab49bc4ef87ac01978c6fe524cb88c2f5933245ee834", null ],
       [ "WORLD_STATE_BARRELS_PLANTED", "d0/d39/a01112.html#a0b64fe674ad16039fc11cab49bc4ef87a31197dbd24ac768a1d3ceb4611b36db8", null ],
       [ "SKARLOC_MOUNT_MODEL", "d0/d39/a01112.html#a0b64fe674ad16039fc11cab49bc4ef87ac91467bd960d98d02e4bf47d21f7f1ff", null ],

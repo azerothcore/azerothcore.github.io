@@ -1,7 +1,6 @@
 var a24874 =
 [
-    [ "CalculateAmount", "db/d83/a24874.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
-    [ "Load", "db/d83/a24874.html#a777803a61286e0eba31246d4771630df", null ],
-    [ "PrepareAuraScript", "db/d83/a24874.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
-    [ "Register", "db/d83/a24874.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
+    [ "PrepareSpellScript", "db/d83/a24874.html#abb178100d4e5fa4032118f86aa34127d", null ],
+    [ "Register", "db/d83/a24874.html#a50e902cc281b909259097a8bed5651f2", null ],
+    [ "RemoveVehicleAuras", "db/d83/a24874.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
 ];

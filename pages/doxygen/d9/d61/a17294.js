@@ -1,9 +1,7 @@
 var a17294 =
 [
-    [ "CalculateDamage", "d9/d61/a17294.html#a6a9e90d9463825b38b69afc234b35b39", null ],
-    [ "PrepareSpellScript", "d9/d61/a17294.html#ae7a8d0cc36708b11f8eefebd5df0a980", null ],
-    [ "Register", "d9/d61/a17294.html#a2722814a55469e5bae572766ed36309b", null ],
-    [ "RemoveEnergy", "d9/d61/a17294.html#a0f16b4b35985d658dc185aa88ab099ed", null ],
-    [ "StoreEnergy", "d9/d61/a17294.html#aca3ecc5a6219cb3813f17be404142c6d", null ],
-    [ "_energyLeft", "d9/d61/a17294.html#af082a763f6524aeb5ae2eb3c82fd12e5", null ]
+    [ "FilterTargets", "d9/d61/a17294.html#a32b2fa87fb2eaca3db0801fbfe4b8aaa", null ],
+    [ "Load", "d9/d61/a17294.html#a39e8ec4726a1f6c2911c165c7187f291", null ],
+    [ "PrepareSpellScript", "d9/d61/a17294.html#a7526a6df4c25136f4be78e753c6abf62", null ],
+    [ "Register", "d9/d61/a17294.html#a0d01b8292c1c071a5c828a5a88617bd5", null ]
 ];

@@ -1,6 +1,8 @@
 var a19274 =
 [
-    [ "CosmicSmashDamageEvent", "da/db4/a19274.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "da/db4/a19274.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "da/db4/a19274.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "iron_golem_custodianAI", "da/db4/a19274.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "da/db4/a19274.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "da/db4/a19274.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "da/db4/a19274.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "da/db4/a19274.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

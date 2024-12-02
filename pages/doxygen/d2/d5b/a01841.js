@@ -1,7 +1,7 @@
 var a01841 =
 [
-    [ "boss_ormorok", "df/d3f/a18954.html", "df/d3f/a18954" ],
-    [ "npc_crystal_spike", "de/d27/a18958.html", "de/d27/a18958" ],
+    [ "boss_ormorok", "de/de7/a18970.html", "de/de7/a18970" ],
+    [ "npc_crystal_spike", "dc/d84/a18974.html", "dc/d84/a18974" ],
     [ "eEnums", "d2/d5b/a01841.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "dc/d06/a01832.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "dc/d06/a01832.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],
@@ -1054,11 +1054,6 @@ var a01841 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],
@@ -1370,9 +1365,11 @@ var a01841 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

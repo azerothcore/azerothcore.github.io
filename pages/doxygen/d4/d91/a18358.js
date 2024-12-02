@@ -1,7 +1,5 @@
 var a18358 =
 [
-    [ "OnPeriodic", "d4/d91/a18358.html#a32c4b856d6248062fbdc1dea13d876ac", null ],
-    [ "PrepareAuraScript", "d4/d91/a18358.html#a87260a1cd06190f5412f3cab0f448a01", null ],
-    [ "Register", "d4/d91/a18358.html#a00827210671b959a030655f6be5edac6", null ],
-    [ "Validate", "d4/d91/a18358.html#a7163fb09fd8568a7ef5a5c37147ed5b0", null ]
+    [ "at_icc_shutdown_traps", "d4/d91/a18358.html#aa13f5d78d3032e8114e9978f42468f64", null ],
+    [ "OnTrigger", "d4/d91/a18358.html#abb31b3f6d0b159b625d731ac47127005", null ]
 ];

@@ -1,10 +1,10 @@
 var a01814 =
 [
-    [ "boss_anub_arak", "d1/dbd/a15490.html", "d1/dbd/a15490" ],
-    [ "boss_anub_arak::boss_anub_arakAI", "d4/dfd/a15494.html", "d4/dfd/a15494" ],
-    [ "spell_azjol_nerub_carrion_beetels", "dc/d0f/a15498.html", "dc/d0f/a15498" ],
-    [ "spell_azjol_nerub_pound", "d4/dec/a15502.html", "d4/dec/a15502" ],
-    [ "spell_azjol_nerub_impale_summon", "d6/d5e/a15506.html", "d6/d5e/a15506" ],
+    [ "boss_anub_arak", "d6/d5e/a15506.html", "d6/d5e/a15506" ],
+    [ "boss_anub_arak::boss_anub_arakAI", "d2/d5a/a15510.html", "d2/d5a/a15510" ],
+    [ "spell_azjol_nerub_carrion_beetels", "d8/df0/a15514.html", "d8/df0/a15514" ],
+    [ "spell_azjol_nerub_pound", "d3/d56/a15518.html", "d3/d56/a15518" ],
+    [ "spell_azjol_nerub_impale_summon", "d4/d78/a15522.html", "d4/d78/a15522" ],
     [ "Misc", "d6/dfc/a01814.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],
@@ -83,9 +83,11 @@ var a01814 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

@@ -1,8 +1,7 @@
 var a19566 =
 [
-    [ "OnApply", "d6/df4/a19566.html#a3f2ef4882bcd52e091a0bcfabfc352cd", null ],
-    [ "OnRemove", "d6/df4/a19566.html#ab967233994aa3ff07b272f010b2c1545", null ],
-    [ "PrepareAuraScript", "d6/df4/a19566.html#a788480ec4aaa57e643f55daca17c6ded", null ],
-    [ "Register", "d6/df4/a19566.html#a63a3e30704b282a430dcdbb9073a66df", null ],
-    [ "Validate", "d6/df4/a19566.html#a6ccb698445ce30c5224dcacc3dc8136b", null ]
+    [ "boss_flame_leviathan_safety_containerAI", "d6/df4/a19566.html#ab9191e20df488df184c468ca1ac41084", null ],
+    [ "MovementInform", "d6/df4/a19566.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
+    [ "UpdateAI", "d6/df4/a19566.html#a77b3a493c5650d91c903879db324651d", null ],
+    [ "_allowTimer", "d6/df4/a19566.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
 ];

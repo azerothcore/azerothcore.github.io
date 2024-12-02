@@ -1,7 +1,7 @@
 var a12850 =
 [
-    [ "OnPeriodic", "d1/dc6/a12850.html#aa48b6f35302a8857465c6567f811dec6", null ],
-    [ "PrepareAuraScript", "d1/dc6/a12850.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
-    [ "Register", "d1/dc6/a12850.html#aa7708067531131738b86077638eda7ac", null ],
-    [ "Validate", "d1/dc6/a12850.html#a665698b54201184185d96bd33f53e584", null ]
+    [ "HandleScript", "d1/dc6/a12850.html#ab705220b48be16090107135f9e2272cf", null ],
+    [ "PrepareSpellScript", "d1/dc6/a12850.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
+    [ "Register", "d1/dc6/a12850.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
+    [ "Validate", "d1/dc6/a12850.html#ad1d90693a427a52fa728e5ae455932a3", null ]
 ];

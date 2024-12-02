@@ -1,6 +1,6 @@
 var a16398 =
 [
-    [ "boss_devourer_of_soulsAI", "d9/dee/a16402.html", "d9/dee/a16402" ],
-    [ "boss_devourer_of_souls", "d1/db3/a16398.html#a95b3a33be3b85a4c7ecfb4370a9ddc60", null ],
-    [ "GetAI", "d1/db3/a16398.html#a3de68fa630c5b74104c461f88edd1d36", null ]
+    [ "PrepareSpellScript", "d1/db3/a16398.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
+    [ "RecalculateDamage", "d1/db3/a16398.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
+    [ "Register", "d1/db3/a16398.html#a1a740e697fc84f5f035f2ec251872009", null ]
 ];

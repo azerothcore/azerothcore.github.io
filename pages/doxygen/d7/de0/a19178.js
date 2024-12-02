@@ -1,7 +1,6 @@
 var a19178 =
 [
-    [ "HandleScript", "d7/de0/a19178.html#a5d778f906e1ee820cc97b0b32839cc78", null ],
-    [ "PrepareSpellScript", "d7/de0/a19178.html#a34337690029eedb60a17572dbbf1e1f9", null ],
-    [ "Register", "d7/de0/a19178.html#ad554d79e1a98490085b22f5038d058da", null ],
-    [ "Validate", "d7/de0/a19178.html#a0932ccc5652bc4901aacbe2cf8d6c7d8", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "df/dd4/a19182.html", "df/dd4/a19182" ],
+    [ "instance_halls_of_lightning", "d7/de0/a19178.html#a24395866efe2c7d1f7727be2557a8b46", null ],
+    [ "GetInstanceScript", "d7/de0/a19178.html#a5ce157aeaf2ed78e98e864059a599b36", null ]
 ];

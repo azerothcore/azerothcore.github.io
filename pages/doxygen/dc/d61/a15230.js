@@ -1,7 +1,6 @@
 var a15230 =
 [
-    [ "npc_steward_of_time", "dc/d61/a15230.html#ad49973464c96f44506033b73a85f6360", null ],
-    [ "OnGossipHello", "dc/d61/a15230.html#a3b61038393c3addbbfa6643438164db3", null ],
-    [ "OnGossipSelect", "dc/d61/a15230.html#af4fe13e266a98129b92e5a25188d947c", null ],
-    [ "OnQuestAccept", "dc/d61/a15230.html#a53d552282da49e8246089b2799fff9ca", null ]
+    [ "npc_aquementasAI", "dc/d98/a15234.html", "dc/d98/a15234" ],
+    [ "npc_aquementas", "dc/d61/a15230.html#a81d0b010c2aef0ea329ff7656b76cbe5", null ],
+    [ "GetAI", "dc/d61/a15230.html#a8a071b3073d69306feb84aca347a22c8", null ]
 ];

@@ -1,6 +1,8 @@
 var a15622 =
 [
-    [ "instance_obsidian_sanctum_InstanceMapScript", "da/db2/a15626.html", "da/db2/a15626" ],
-    [ "instance_obsidian_sanctum", "d2/dde/a15622.html#a6cf2121c4167156f5748c144372b3c0b", null ],
-    [ "GetInstanceScript", "d2/dde/a15622.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
+    [ "npc_twilight_summonAI", "d2/dde/a15622.html#a8f5dfe54a5ac1d7a058c5efb9bead77a", null ],
+    [ "DoAction", "d2/dde/a15622.html#aac4c1e3bc635b30f1ceed8b25f2c7829", null ],
+    [ "Reset", "d2/dde/a15622.html#a1174c827aef1b05603214e4717c78f8a", null ],
+    [ "UpdateAI", "d2/dde/a15622.html#addb312c34c668b8189087de6cf89543b", null ],
+    [ "fadeArmorTimer", "d2/dde/a15622.html#ace4028c8f4d0240b4e2939481312d0d2", null ]
 ];

@@ -1,6 +1,6 @@
 var a15830 =
 [
-    [ "boss_eadricAI", "d9/da4/a15834.html", "d9/da4/a15834" ],
-    [ "boss_eadric", "d7/dfd/a15830.html#ad32a08ec9fc2a31b5bcdcff67d0127d2", null ],
-    [ "GetAI", "d7/dfd/a15830.html#a15235e86d0bdff0bd3fef5dbff3abb27", null ]
+    [ "HandleScript", "d7/dfd/a15830.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d7/dfd/a15830.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d7/dfd/a15830.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

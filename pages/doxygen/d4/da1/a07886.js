@@ -1,28 +1,5 @@
 var a07886 =
 [
-    [ "GossipMenu", "d4/da1/a07886.html#a57bbd11a89194b24566279bb846edd54", null ],
-    [ "~GossipMenu", "d4/da1/a07886.html#a4c72e949bfa5cff5bb2b4ecc5ea56f96", null ],
-    [ "AddGossipMenuItemData", "d4/da1/a07886.html#ac15f7a55f03d50cb50cb366150fb6fd8", null ],
-    [ "AddMenuItem", "d4/da1/a07886.html#a47c99098962324ba20efb029df24fd3e", null ],
-    [ "AddMenuItem", "d4/da1/a07886.html#a7d04c8b60bd9ec1ebec5537ef8233d0a", null ],
-    [ "ClearMenu", "d4/da1/a07886.html#ac6ce4a1565afa7c86eb93ab0c981b866", null ],
-    [ "Empty", "d4/da1/a07886.html#a02393cb3a0a3b9cf3ccfc788479bd1ca", null ],
-    [ "GetItem", "d4/da1/a07886.html#a61be1f9f0c25093a19d2a6b1c46bfd84", null ],
-    [ "GetItemData", "d4/da1/a07886.html#a8b58b8a09b1363e56eb5b8f623009597", null ],
-    [ "GetLocale", "d4/da1/a07886.html#a300a0ffdf513e3fc405028b72d9ad600", null ],
-    [ "GetMenuId", "d4/da1/a07886.html#a6bc424e3e19032ac7516a566412436d1", null ],
-    [ "GetMenuItemAction", "d4/da1/a07886.html#a46a06b2b50a50ad061a3e11b08f35153", null ],
-    [ "GetMenuItemCount", "d4/da1/a07886.html#a143ee125ba5709c1a3f5fb75fb9ade1c", null ],
-    [ "GetMenuItems", "d4/da1/a07886.html#a8fff76a2af9895fe41bc958712466191", null ],
-    [ "GetMenuItemSender", "d4/da1/a07886.html#a95b4a761301c7d76437a2dea0bcd304a", null ],
-    [ "GetSenderGUID", "d4/da1/a07886.html#a73d538927373b67ad66380e14a33d00e", null ],
-    [ "IsMenuItemCoded", "d4/da1/a07886.html#abbf16fa0780a4ce02f75e379bfefb2b9", null ],
-    [ "SetLocale", "d4/da1/a07886.html#a2a1a8781e502f814d7b5f8368c02030e", null ],
-    [ "SetMenuId", "d4/da1/a07886.html#a0dd173ce7a9995c9bac5080e53d78b07", null ],
-    [ "SetSenderGUID", "d4/da1/a07886.html#ac85ede62cc43925ba82a5c407e115243", null ],
-    [ "_locale", "d4/da1/a07886.html#a8fbffff023b7b3347e967d81cf801172", null ],
-    [ "_menuId", "d4/da1/a07886.html#abdcc39069ea7c750308292f28e7277fe", null ],
-    [ "_menuItemData", "d4/da1/a07886.html#a74963fbb82523fe99aced2bd8325e062", null ],
-    [ "_menuItems", "d4/da1/a07886.html#a258217dfb85114323231ded153b0099d", null ],
-    [ "_senderGUID", "d4/da1/a07886.html#affe2150aac16ac70c14a6f7161bc9085", null ]
+    [ "QuestIcon", "d4/da1/a07886.html#ad8bbfe08780eaa68a8205e2634d211b8", null ],
+    [ "QuestId", "d4/da1/a07886.html#a522a4fcb28daec3e1a620b6f02c3d8fe", null ]
 ];

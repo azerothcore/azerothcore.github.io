@@ -1,12 +1,9 @@
 var a17970 =
 [
-    [ "npc_strangulate_vehicleAI", "d5/dd4/a17970.html#a58e79834ed3f463ad51eca703d1c99ef", null ],
-    [ "DoAction", "d5/dd4/a17970.html#acf9d5a9e2f8b07f5ceb5ca75634e58fb", null ],
-    [ "IsHeroic", "d5/dd4/a17970.html#adb6ae2cefeec245196d21dc1112b2d5c", null ],
-    [ "IsSummonedBy", "d5/dd4/a17970.html#a381aec40cdcdf546d70b57a43978dbe9", null ],
-    [ "OnCharmed", "d5/dd4/a17970.html#a40e5537897c452d35093920ddd3669b0", null ],
-    [ "PassengerBoarded", "d5/dd4/a17970.html#a819746e13af95fa964c6da3d765a7c21", null ],
-    [ "UpdateAI", "d5/dd4/a17970.html#a53f567b77b7dfd0ccb5a0d98c0f5ef26", null ],
-    [ "_events", "d5/dd4/a17970.html#a19b493e994d246128f63d9109e87737a", null ],
-    [ "_instance", "d5/dd4/a17970.html#a7a16fbe4723a95293db01d3a2d80b569", null ]
+    [ "HandleScript", "d5/dd4/a17970.html#adaab7b03edc6ff147e856dc0cdfc5ad0", null ],
+    [ "Load", "d5/dd4/a17970.html#aa2a5488ff4706a44350bd969d57a99e1", null ],
+    [ "PrepareSpellScript", "d5/dd4/a17970.html#a73931c9434114749b9db648665153083", null ],
+    [ "Register", "d5/dd4/a17970.html#a16b01725a1b2a105df365e0b178a4f0f", null ],
+    [ "SelectTarget", "d5/dd4/a17970.html#a95be527c43ceeb4801f4e494753c1b59", null ],
+    [ "_target", "d5/dd4/a17970.html#a2e97dd4fd1fd2ea2ba8bf3d335711de8", null ]
 ];

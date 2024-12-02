@@ -1,6 +1,7 @@
 var a25210 =
 [
-    [ "OnRemove", "db/d75/a25210.html#adcdc87bcfb9aee5eaa227ba66ad5f010", null ],
-    [ "PrepareAuraScript", "db/d75/a25210.html#a9b3985c6f2b1b88ab86ec38c8508fc16", null ],
-    [ "Register", "db/d75/a25210.html#a0bc1dae33d0a780623f4551b1dfb1fbf", null ]
+    [ "CheckProc", "db/d75/a25210.html#afbd6d4a64b7da0d0dc15c62eb81746c9", null ],
+    [ "HandleProc", "db/d75/a25210.html#a27569fe686e50246768fca4a7625fe0d", null ],
+    [ "PrepareAuraScript", "db/d75/a25210.html#a4f4eaa4aeeac9257804957671c16233f", null ],
+    [ "Register", "db/d75/a25210.html#ab9a662bebdb5e03c5c10a807b892a9bf", null ]
 ];

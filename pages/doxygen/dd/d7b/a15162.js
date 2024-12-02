@@ -1,6 +1,10 @@
 var a15162 =
 [
-    [ "npc_anachronos_the_ancientAI", "da/dcc/a15166.html", "da/dcc/a15166" ],
-    [ "npc_anachronos_the_ancient", "dd/d7b/a15162.html#a720884359886e6f881190471005f4cfc", null ],
-    [ "GetAI", "dd/d7b/a15162.html#a345c801231907d98f2ab2425b1d35cbc", null ]
+    [ "npc_thrall_warchiefAI", "dd/d7b/a15162.html#ada9c79c1591a8bd28c66329dc7c5d3dc", null ],
+    [ "DoAction", "dd/d7b/a15162.html#a511da19703e30f6e82e59c5223bf2770", null ],
+    [ "JustEngagedWith", "dd/d7b/a15162.html#a994a9030e2d8c5afaa66c21897e54f82", null ],
+    [ "Reset", "dd/d7b/a15162.html#a920a29258228c9c2e7e0791d38b648e1", null ],
+    [ "UpdateAI", "dd/d7b/a15162.html#a537ed9f2d0a638d01e877d9ca1e7fdf0", null ],
+    [ "ChainLightningTimer", "dd/d7b/a15162.html#ab30df9277fc84f098e0bdd70a2ab3795", null ],
+    [ "ShockTimer", "dd/d7b/a15162.html#aa8609f8824f68ce7259465284c01dd35", null ]
 ];

@@ -1,7 +1,6 @@
 var a26290 =
 [
-    [ "HandleDummy", "da/d3a/a26290.html#a96c5064738653ce16f06634196218a88", null ],
-    [ "PrepareSpellScript", "da/d3a/a26290.html#a2fa51a29d2c8ce74c8a4351712ccdeb9", null ],
-    [ "Register", "da/d3a/a26290.html#a080969e035143ac8527443025dbacef2", null ],
-    [ "Validate", "da/d3a/a26290.html#a66fd30d7cffdc7307b4c9dc821ccdf92", null ]
+    [ "FilterTargets", "da/d3a/a26290.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
+    [ "PrepareSpellScript", "da/d3a/a26290.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
+    [ "Register", "da/d3a/a26290.html#abe63ec69fe15fd8924fb63235489e088", null ]
 ];

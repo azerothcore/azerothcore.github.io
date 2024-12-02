@@ -1,9 +1,7 @@
 var a24238 =
 [
-    [ "CheckCast", "dd/df6/a24238.html#ad68a099d3167534be3d9978d1fc2b4fe", null ],
-    [ "EntryCheck", "dd/df6/a24238.html#a8e8578447aafeea4a62e028dbe6c7419", null ],
-    [ "HandleBaseDummy", "dd/df6/a24238.html#a8534cc52f42f0598088bf8500dd5e0e5", null ],
-    [ "HandleDummy", "dd/df6/a24238.html#a34d9f5699f306b27830ced2129be506c", null ],
-    [ "PrepareSpellScript", "dd/df6/a24238.html#af7aff878540dd34138aa479f532611b6", null ],
-    [ "Register", "dd/df6/a24238.html#a78321d1589e8d7f7fe8957a4939b6197", null ]
+    [ "CalcDamage", "dd/df6/a24238.html#a5e06d1aa2864c296b2680a83a9f2187f", null ],
+    [ "PrepareSpellScript", "dd/df6/a24238.html#a80a748b6a18d26004b04a4486df1ebe3", null ],
+    [ "Register", "dd/df6/a24238.html#a857a010e6426e931ca872f66803b99b9", null ],
+    [ "Validate", "dd/df6/a24238.html#ab64625ce305efb9dc92780c945b4fd62", null ]
 ];

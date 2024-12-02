@@ -1,5 +1,5 @@
 var a26974 =
 [
-    [ "go_dragonflayer_cage", "d2/d10/a26974.html#a9f36ba678a1e3954f21b96b227fb999e", null ],
-    [ "OnGossipHello", "d2/d10/a26974.html#a542530a0b84879b21a4b9982cf4300d0", null ]
+    [ "go_veil_skith_cage", "d2/d10/a26974.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
+    [ "OnGossipHello", "d2/d10/a26974.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
 ];

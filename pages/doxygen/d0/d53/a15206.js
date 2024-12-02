@@ -1,7 +1,7 @@
 var a15206 =
 [
-    [ "npc_kaya_flathoofAI", "d8/df1/a15210.html", "d8/df1/a15210" ],
-    [ "npc_kaya_flathoof", "d0/d53/a15206.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
-    [ "GetAI", "d0/d53/a15206.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
-    [ "OnQuestAccept", "d0/d53/a15206.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
+    [ "DelayedWindstoneSummonEvent", "d0/d53/a15206.html#aa97daf8cf3479395ffd6558b6699436a", null ],
+    [ "Execute", "d0/d53/a15206.html#aa413bc8709bc543b89ffb3df42185475", null ],
+    [ "_playerGUID", "d0/d53/a15206.html#ad83bb6d87b569f59e99abcc16517745b", null ],
+    [ "_summon", "d0/d53/a15206.html#af9804d276da5daebab3a37f2c75301ea", null ]
 ];

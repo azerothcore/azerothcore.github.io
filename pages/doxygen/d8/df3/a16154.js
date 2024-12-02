@@ -1,7 +1,6 @@
 var a16154 =
 [
-    [ "HandleEffectPeriodic", "d8/df3/a16154.html#ae5749a43f37f0eb3f049d8804845f61e", null ],
-    [ "PrepareAuraScript", "d8/df3/a16154.html#a66dcb98f38ed6b040928543015f59c9b", null ],
-    [ "Register", "d8/df3/a16154.html#abbebe9c5ad44db61e80ce3707e744ab6", null ],
-    [ "Validate", "d8/df3/a16154.html#a1131f0014f298b87483412d960bc0221", null ]
+    [ "npc_fel_infernalAI", "df/d0b/a16158.html", "df/d0b/a16158" ],
+    [ "npc_fel_infernal", "d8/df3/a16154.html#a2d2ed8cf09c97d30b6c79dcdf9153ed9", null ],
+    [ "GetAI", "d8/df3/a16154.html#a768201a7516c9972800c941cf2079a11", null ]
 ];

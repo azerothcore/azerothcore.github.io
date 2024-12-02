@@ -1,6 +1,5 @@
 var a26642 =
 [
-    [ "achievement_arena_by_type", "d3/df8/a26642.html#a2042c808304e8ddf1849820491b9f1a3", null ],
-    [ "OnCheck", "d3/df8/a26642.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
-    [ "_arenaType", "d3/df8/a26642.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d3/df8/a26642.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d3/df8/a26642.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

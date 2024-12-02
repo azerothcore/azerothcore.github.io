@@ -1,8 +1,9 @@
 var a09518 =
 [
-    [ "PositionFullTerrainStatus", "d4/d61/a09518.html#ae0349ed89530b35af91b7b1862acaffe", null ],
-    [ "areaId", "d4/d61/a09518.html#ac04966fa31b30f341a937906223463d4", null ],
-    [ "floorZ", "d4/d61/a09518.html#abbd186ca681e532d567b5a221a62c02b", null ],
-    [ "liquidInfo", "d4/d61/a09518.html#ac96230ad8521342ec97cf4f94013d0b4", null ],
-    [ "outdoors", "d4/d61/a09518.html#ae531eb0a4abc029f82d699c98d6aa565", null ]
+    [ "LiquidData", "d4/d61/a09518.html#ac2435178323f480d2dae449b49b39146", null ],
+    [ "DepthLevel", "d4/d61/a09518.html#ad84c7763a6253db7ae6117ecc7144f1d", null ],
+    [ "Entry", "d4/d61/a09518.html#abfed22cb0e920067c0f86a0083ef4ab6", null ],
+    [ "Flags", "d4/d61/a09518.html#aa0903ec4233bcfa34494cea5068cd19c", null ],
+    [ "Level", "d4/d61/a09518.html#a7c596e921e383bbdbdacbcd4307fe380", null ],
+    [ "Status", "d4/d61/a09518.html#acb79cdfb4221f158ce9b29127591a8a9", null ]
 ];

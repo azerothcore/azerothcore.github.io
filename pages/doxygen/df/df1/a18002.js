@@ -1,7 +1,9 @@
 var a18002 =
 [
-    [ "OnPeriodic", "df/df1/a18002.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
-    [ "PrepareAuraScript", "df/df1/a18002.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
-    [ "Register", "df/df1/a18002.html#a0fc7ca43a0d82058fc04277742231388", null ],
-    [ "Validate", "df/df1/a18002.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
+    [ "FilterTargets", "df/df1/a18002.html#a2b669cd93ed96417e4a0a6d83e4095cd", null ],
+    [ "Load", "df/df1/a18002.html#aaec66c1d360ffa4e25d86f331f3521dd", null ],
+    [ "PrepareSpellScript", "df/df1/a18002.html#a34d702b1299e2ee27eb1c27bc49be9dc", null ],
+    [ "Register", "df/df1/a18002.html#afad887fba0d97512a7a13a31977cf42d", null ],
+    [ "Validate", "df/df1/a18002.html#a2ff2dcfa096bf237c9c4c442ec13fa4d", null ],
+    [ "_instance", "df/df1/a18002.html#a96dde7a1b30682c6bb04c1ae5449bd7c", null ]
 ];

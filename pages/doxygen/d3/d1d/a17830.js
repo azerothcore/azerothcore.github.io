@@ -1,15 +1,8 @@
 var a17830 =
 [
-    [ "npc_tirion_fordringAI", "d3/d1d/a17830.html#aa0f94cef85e96cda4a2e280eaa7110de", null ],
-    [ "CanAIAttack", "d3/d1d/a17830.html#a1bdef323e9c7364fab789abc39ef00a0", null ],
-    [ "DoAction", "d3/d1d/a17830.html#a5fd5b3fde84ed04c794546d11fe946d7", null ],
-    [ "EnterEvadeMode", "d3/d1d/a17830.html#a1275cee8f49c67920041ad8d50c62aa4", null ],
-    [ "JustReachedHome", "d3/d1d/a17830.html#a6e6c7c2f4f8e60126fd4adc42fe3b4f4", null ],
-    [ "MovementInform", "d3/d1d/a17830.html#a7284240c4eafbc80748d5e2867a64a9f", null ],
-    [ "Reset", "d3/d1d/a17830.html#ac41e569535322bb5907fa4116bbac739", null ],
-    [ "sGossipSelect", "d3/d1d/a17830.html#a56599a97f019121160b2f6ac43019772", null ],
-    [ "SpellHit", "d3/d1d/a17830.html#ae68b900f87c646cfb3ece5518b59e687", null ],
-    [ "UpdateAI", "d3/d1d/a17830.html#a3f729624820266f1cf1e5577c5047c3b", null ],
-    [ "_events", "d3/d1d/a17830.html#a7bb0d243cc9b3e836dd99864f2a5e669", null ],
-    [ "_instance", "d3/d1d/a17830.html#a223a7f09ae03971487bb55e770503f7e", null ]
+    [ "HeightDifferenceCheck", "d3/d1d/a17830.html#aa8b61811e435cce456e5cb1d798be66e", null ],
+    [ "operator()", "d3/d1d/a17830.html#a1db203642683f85176f2a35eb3d10c34", null ],
+    [ "_baseObject", "d3/d1d/a17830.html#a7c274be02ca58429dffaee2ea34153c6", null ],
+    [ "_difference", "d3/d1d/a17830.html#af95e2bf67c8316dda982896978c45a68", null ],
+    [ "_reverse", "d3/d1d/a17830.html#a89074844d5fd8b02ed99c09ac4cc5b85", null ]
 ];

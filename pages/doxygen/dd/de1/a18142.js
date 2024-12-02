@@ -1,9 +1,8 @@
 var a18142 =
 [
-    [ "npc_gluttonous_abominationAI", "dd/de1/a18142.html#a8b9b632e2e26ef8d0e8c122d28530e81", null ],
-    [ "JustDied", "dd/de1/a18142.html#abc0dd71bbaf85786f34367acc3a849e9", null ],
-    [ "JustSummoned", "dd/de1/a18142.html#a49ff3db7845167b9e98feab2a01b1ed1", null ],
-    [ "Reset", "dd/de1/a18142.html#a45588181429a74ac024e0390c76fa57a", null ],
-    [ "UpdateAI", "dd/de1/a18142.html#a33ef03a9f005ff187493275a9c2683a7", null ],
-    [ "_events", "dd/de1/a18142.html#a4a841c7d2565f4797bc893a9c1ee7acd", null ]
+    [ "npc_suppresserAI", "dd/de1/a18142.html#a5787ec6eadae1fc23b84129933ea14e8", null ],
+    [ "AttackStart", "dd/de1/a18142.html#ae36105de1df1dd9841332d9a8e7799be", null ],
+    [ "IsSummonedBy", "dd/de1/a18142.html#a35ec340b2d02a14707fc353428b1298d", null ],
+    [ "UpdateAI", "dd/de1/a18142.html#a1443e8311b6e2d61d6f9abd2e5f40793", null ],
+    [ "_instance", "dd/de1/a18142.html#a3e171216b2d53e00f8e504f47759d9a6", null ]
 ];

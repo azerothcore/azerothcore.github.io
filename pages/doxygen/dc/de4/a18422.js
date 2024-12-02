@@ -1,8 +1,6 @@
 var a18422 =
 [
-    [ "Class", "dc/de4/a18422.html#a095390e9023609f5836c4481ed79e1af", null ],
-    [ "cooldown_ms", "dc/de4/a18422.html#a6f1fdab250e8557d16066c03a54fb2a4", null ],
-    [ "id", "dc/de4/a18422.html#ae9fdf89271339b93f306c4aa0871f844", null ],
-    [ "range", "dc/de4/a18422.html#aad126da206abceb6a66dcda1cbd3b28b", null ],
-    [ "targetType", "dc/de4/a18422.html#ae5fc8cb423536f631591d3b72bfd06dd", null ]
+    [ "npc_icc_skybreaker_luminaryAI", "de/d9a/a18426.html", "de/d9a/a18426" ],
+    [ "npc_icc_skybreaker_luminary", "dc/de4/a18422.html#aff97d0425cf86a8b411ef3e2bd0cc054", null ],
+    [ "GetAI", "dc/de4/a18422.html#ad1378aaa7438758f8a796d8e74ae0ce8", null ]
 ];

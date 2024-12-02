@@ -1,9 +1,11 @@
 var a17994 =
 [
-    [ "npc_spirit_wardenAI", "df/dcf/a17994.html#a3391168478345d8b5c1fee151f6e9f04", null ],
-    [ "JustDied", "df/dcf/a17994.html#aa762c0bea6361107312e8231508dc655", null ],
-    [ "Reset", "df/dcf/a17994.html#ad6076663f65f43874feb0ecfc57718a4", null ],
-    [ "UpdateAI", "df/dcf/a17994.html#af845e3e2c38af5baa84c94f6074c0caf", null ],
-    [ "_events", "df/dcf/a17994.html#a1bc5cfdee62efdd622e0fe1aa503c260", null ],
-    [ "_instance", "df/dcf/a17994.html#a58ebb8e42e77add79fc888248013eb24", null ]
+    [ "npc_terenas_menethilAI", "df/dcf/a17994.html#aa2e95b96928b033ef374843ad1fb9f3c", null ],
+    [ "CanAIAttack", "df/dcf/a17994.html#a1414da7f20e0f93486eb77c9b9450fa9", null ],
+    [ "DamageTaken", "df/dcf/a17994.html#ae62a6f965ffb11d633190f1ca4122bc9", null ],
+    [ "DoAction", "df/dcf/a17994.html#a4f261b19a7a8676dfd6d76d428a4f1b1", null ],
+    [ "EnterEvadeMode", "df/dcf/a17994.html#ada5313b34e8c20c82ac97396e54e27df", null ],
+    [ "UpdateAI", "df/dcf/a17994.html#a6210ca6e5e954d5c66d2108359efc888", null ],
+    [ "_events", "df/dcf/a17994.html#ae61e4919b99a2b9195a389992947a125", null ],
+    [ "_instance", "df/dcf/a17994.html#a60aae54e5e54526ba12a9468a3f45c88", null ]
 ];

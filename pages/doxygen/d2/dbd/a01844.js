@@ -1,9 +1,9 @@
 var a01844 =
 [
-    [ "boss_drakos", "dc/d84/a18974.html", "dc/d84/a18974" ],
-    [ "boss_drakos::boss_drakosAI", "dc/d75/a18978.html", "dc/d75/a18978" ],
-    [ "npc_oculus_unstable_sphere", "d0/df8/a18982.html", "d0/df8/a18982" ],
-    [ "npc_oculus_unstable_sphere::npc_oculus_unstable_sphereAI", "d3/d72/a18986.html", "d3/d72/a18986" ],
+    [ "boss_drakos", "d9/d53/a18990.html", "d9/d53/a18990" ],
+    [ "boss_drakos::boss_drakosAI", "dd/d36/a18994.html", "dd/d36/a18994" ],
+    [ "npc_oculus_unstable_sphere", "df/d54/a18998.html", "df/d54/a18998" ],
+    [ "npc_oculus_unstable_sphere::npc_oculus_unstable_sphereAI", "d2/d94/a19002.html", "d2/d94/a19002" ],
     [ "SPELL_THUNDERING_STOMP", "d2/dbd/a01844.html#a49700fd50259585cfac2c788de5e00a8", null ],
     [ "DrakosNPCs", "d2/dbd/a01844.html#a9b6e942098b05e96df3467d6c45f057c", [
       [ "NPC_UNSTABLE_SPHERE", "d2/dbd/a01844.html#a9b6e942098b05e96df3467d6c45f057ca6fbda431676e3cb2a0fe335145f2d815", null ]
@@ -1026,11 +1026,6 @@ var a01844 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],

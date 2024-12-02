@@ -1,7 +1,6 @@
 var a21558 =
 [
-    [ "npc_tallhorn_stagAI", "df/d6b/a21558.html#a50947c450eece979193b45728e5e1f82", null ],
-    [ "Reset", "df/d6b/a21558.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
-    [ "UpdateAI", "df/d6b/a21558.html#adf60f62fa92238cb315c42e0179c3f17", null ],
-    [ "_phase", "df/d6b/a21558.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
+    [ "CheckRequirement", "df/d6b/a21558.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
+    [ "PrepareSpellScript", "df/d6b/a21558.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
+    [ "Register", "df/d6b/a21558.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
 ];

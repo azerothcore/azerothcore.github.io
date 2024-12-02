@@ -1,6 +1,7 @@
 var a15646 =
 [
-    [ "npc_baltharus_the_warborn_cloneAI", "d8/dd5/a15650.html", "d8/dd5/a15650" ],
-    [ "npc_baltharus_the_warborn_clone", "df/dbd/a15646.html#a7ed0731a015709ecd3c0c26fafb795ff", null ],
-    [ "GetAI", "df/dbd/a15646.html#a87b50fbc3a67345f375b41c3cb2ba754", null ]
+    [ "DelayedTalk", "df/dbd/a15646.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
+    [ "Execute", "df/dbd/a15646.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
+    [ "_owner", "df/dbd/a15646.html#a9d13769bb3fbaed32919fc919da35006", null ],
+    [ "_talkId", "df/dbd/a15646.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
 ];

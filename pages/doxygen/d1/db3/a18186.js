@@ -1,7 +1,7 @@
 var a18186 =
 [
-    [ "FrostwingVrykulSearcher", "d1/db3/a18186.html#a10aa54184b42a0538dc4f325204399e9", null ],
-    [ "operator()", "d1/db3/a18186.html#afbf32ce600cee12930fefcf9b5e87f16", null ],
-    [ "_range", "d1/db3/a18186.html#a04b2913aae7fbf6547a960d0876d4d02", null ],
-    [ "_source", "d1/db3/a18186.html#af5d3c93f41698e71c867336d0453d40a", null ]
+    [ "PeriodicTick", "d1/db3/a18186.html#ac1bace4fc66349364c84b5784967e9bf", null ],
+    [ "PrepareAuraScript", "d1/db3/a18186.html#a358193e3340112c04f79c043548c3de0", null ],
+    [ "Register", "d1/db3/a18186.html#a28f52bc253899aa407e67f9a089c815c", null ],
+    [ "Validate", "d1/db3/a18186.html#a0dde3447e38e45cea94df44449a19a01", null ]
 ];

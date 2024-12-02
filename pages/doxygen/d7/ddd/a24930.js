@@ -1,7 +1,7 @@
 var a24930 =
 [
-    [ "ModDest", "d7/ddd/a24930.html#afe0fb68de61a657ce6900e71973e4d77", null ],
-    [ "ModifyCookingSkill", "d7/ddd/a24930.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
-    [ "PrepareSpellScript", "d7/ddd/a24930.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
-    [ "Register", "d7/ddd/a24930.html#a6919079b43a816eb601a68c51ad39794", null ]
+    [ "OnPeriodic", "d7/ddd/a24930.html#a58f13f947b4daac98651f7fa46d7d674", null ],
+    [ "PrepareAuraScript", "d7/ddd/a24930.html#a85c4d84408becf2fb4ac55d9da369b25", null ],
+    [ "Register", "d7/ddd/a24930.html#ad0c688255e340c428624de7071b5df56", null ],
+    [ "Validate", "d7/ddd/a24930.html#a5ecd0e840bd94d4414acfb0aef9abd28", null ]
 ];

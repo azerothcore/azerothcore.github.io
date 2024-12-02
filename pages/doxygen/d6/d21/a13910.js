@@ -1,11 +1,11 @@
 var a13910 =
 [
-    [ "npc_elder_kekek", "d6/d21/a13910.html#a6084af39be5c70699c9fdcf3cd58e954", null ],
-    [ "MoveInLineOfSight", "d6/d21/a13910.html#a0c673e4fdf8e75d3bc8570db166bcd95", null ],
-    [ "Reset", "d6/d21/a13910.html#a97e615bdefba5baf459960fc2987cd69", null ],
-    [ "UpdateAI", "d6/d21/a13910.html#a5823bc7164d797c40d48b9b74642d9b5", null ],
-    [ "orphanGUID", "d6/d21/a13910.html#a98c79e46e051c35819c6025828a519cb", null ],
-    [ "phase", "d6/d21/a13910.html#a99fd9d984f92d5ba8b5876675855d4f6", null ],
-    [ "playerGUID", "d6/d21/a13910.html#a614ed3332f4af3c5178aa69da968a3d3", null ],
-    [ "timer", "d6/d21/a13910.html#a445c048d8858f5dc7c1e88308ed7e5ab", null ]
+    [ "npc_winterfin_playmate", "d6/d21/a13910.html#a9c07fb9115c21ba5c3ef7459662e8f38", null ],
+    [ "MoveInLineOfSight", "d6/d21/a13910.html#a7e8640e3bfe0a8f960ce22a2daf136a4", null ],
+    [ "Reset", "d6/d21/a13910.html#aae6b51c22dc0448608c1cf9412565e25", null ],
+    [ "UpdateAI", "d6/d21/a13910.html#a8e04dc18ee8a6d9412cd574994908eb6", null ],
+    [ "orphanGUID", "d6/d21/a13910.html#a9189bf7b93e7c46e559c22f3504f919f", null ],
+    [ "phase", "d6/d21/a13910.html#a0a1051dc971ef393843bd1ba655a2e1b", null ],
+    [ "playerGUID", "d6/d21/a13910.html#a142fe7a438ee22384f682f26ff4a9f9c", null ],
+    [ "timer", "d6/d21/a13910.html#abf4b5f3e16f32a3385b71ef002c5ee64", null ]
 ];

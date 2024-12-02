@@ -1,6 +1,9 @@
 var a18502 =
 [
-    [ "RespawnEvent", "d5/ddc/a18502.html#accc0d5638ff7a493fa116ac2e8f2e58b", null ],
-    [ "Execute", "d5/ddc/a18502.html#a2e58f4e472fb72cf5401f11be6e5e136", null ],
-    [ "_owner", "d5/ddc/a18502.html#adb0835b4a2e7a2795bb81f0a1e3c911a", null ]
+    [ "spell_trigger_spell_from_caster", "d5/ddc/a18502.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
+    [ "HandleTrigger", "d5/ddc/a18502.html#afc11c9408ea11cb04e476999a9bdf522", null ],
+    [ "PrepareSpellScript", "d5/ddc/a18502.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
+    [ "Register", "d5/ddc/a18502.html#ae44cc1a87267c1d08603d1aff2384957", null ],
+    [ "Validate", "d5/ddc/a18502.html#a3aace9a309bc848b887b03c949c921bd", null ],
+    [ "_triggerId", "d5/ddc/a18502.html#a29af52a9035f18936515a464889fefe5", null ]
 ];

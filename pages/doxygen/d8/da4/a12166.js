@@ -1,6 +1,6 @@
 var a12166 =
 [
-    [ "boss_ragnarosAI", "dc/d79/a12170.html", "dc/d79/a12170" ],
-    [ "boss_ragnaros", "d8/da4/a12166.html#a47bd4dc50a0d05e8cbb75c1a5a52c9b5", null ],
-    [ "GetAI", "d8/da4/a12166.html#af54e36608e160811ca06952fd2c63f6e", null ]
+    [ "HandleHit", "d8/da4/a12166.html#a5245f935c0cafd14e492214a51d85ad3", null ],
+    [ "PrepareSpellScript", "d8/da4/a12166.html#a074b9e23de0a9b24776c7e361791c6ff", null ],
+    [ "Register", "d8/da4/a12166.html#a12f7db2345ce0d19a18791a2e63e7450", null ]
 ];

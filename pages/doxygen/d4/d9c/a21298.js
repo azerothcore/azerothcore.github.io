@@ -1,6 +1,6 @@
 var a21298 =
 [
-    [ "npc_mei_francis_mountAI", "d2/d4a/a21302.html", "d2/d4a/a21302" ],
-    [ "npc_mei_francis_mount", "d4/d9c/a21298.html#ab34facb1d4d9a542710340493488eaa8", null ],
-    [ "GetAI", "d4/d9c/a21298.html#ac1f14e0b94662432b399d6dfeb8a8107", null ]
+    [ "npc_archmage_landalockAI", "d2/d4a/a21302.html", "d2/d4a/a21302" ],
+    [ "npc_archmage_landalock", "d4/d9c/a21298.html#ac7379ff07740123312af66ead64df4c6", null ],
+    [ "GetAI", "d4/d9c/a21298.html#a92cfa8c2660413681297bfe12815c938", null ]
 ];

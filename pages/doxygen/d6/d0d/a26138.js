@@ -1,6 +1,7 @@
 var a26138 =
 [
-    [ "ModDest", "d6/d0d/a26138.html#ab03387aec0a02a6b3bac1014443554b6", null ],
-    [ "PrepareSpellScript", "d6/d0d/a26138.html#a53f7da301759fb18686bc73281c4a321", null ],
-    [ "Register", "d6/d0d/a26138.html#a266198fbc6203517f9845ef6212ddf13", null ]
+    [ "HandleScript", "d6/d0d/a26138.html#ad22b87be8f47886650d7bf9e98eee495", null ],
+    [ "PrepareSpellScript", "d6/d0d/a26138.html#a806f934cd684039425ce3fca037b0e8c", null ],
+    [ "Register", "d6/d0d/a26138.html#a9bd3ea5aa5fb16aac87f6097db31e113", null ],
+    [ "Validate", "d6/d0d/a26138.html#a96d189c452a969850121323faef1d9c1", null ]
 ];

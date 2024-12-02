@@ -1,7 +1,6 @@
 var a22650 =
 [
-    [ "HandleEffectApply", "d1/dc1/a22650.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
-    [ "Load", "d1/dc1/a22650.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
-    [ "PrepareAuraScript", "d1/dc1/a22650.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
-    [ "Register", "d1/dc1/a22650.html#a647f21e79e3fef72cf84439fc84e708f", null ]
+    [ "HandleSchoolDamage", "d1/dc1/a22650.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
+    [ "PrepareSpellScript", "d1/dc1/a22650.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
+    [ "Register", "d1/dc1/a22650.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
 ];

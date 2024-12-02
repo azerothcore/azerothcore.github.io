@@ -1,9 +1,7 @@
 var a18522 =
 [
-    [ "npc_isle_of_conquest_turretAI", "d1/d10/a18522.html#a0a0f24af22e4c72e843970c0d5c1ff87", null ],
-    [ "JustDied", "d1/d10/a18522.html#a88390da94298bea9c445bb422a806d23", null ],
-    [ "SpellHit", "d1/d10/a18522.html#afc8b8a9be6b0908fcb83af57bef7a57a", null ],
-    [ "UpdateAI", "d1/d10/a18522.html#a81c039a2a230b261967842161757b6f8", null ],
-    [ "events", "d1/d10/a18522.html#aee0aa5a950b3743409fd3ae482bc94b8", null ],
-    [ "faction", "d1/d10/a18522.html#aca941c070a97278c8ec27d7e6b4edede", null ]
+    [ "DelayedCastMincharEvent", "d1/d10/a18522.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "d1/d10/a18522.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "d1/d10/a18522.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "d1/d10/a18522.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

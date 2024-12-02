@@ -74,6 +74,7 @@ var a04544 =
       [ "WORLD_UPD_GAMEOBJECT_ZONE_AREA_DATA", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a6cb2a915f8a125b6fc1e19f7bcd01070", null ],
       [ "WORLD_SEL_REQ_XP", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a4a1aa08675589bbe24eec3a349a6d0f0", null ],
       [ "WORLD_INS_GAMEOBJECT_ADDON", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ae4477972ea439fcf4d07ca5e2edee113", null ],
+      [ "WORLD_UPD_VERSION", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a403c809e928615ea146d13f34139ba5b", null ],
       [ "MAX_WORLDDATABASE_STATEMENTS", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a25d26e54be2da5b12f47064961479460", null ]
     ] ]
 ];

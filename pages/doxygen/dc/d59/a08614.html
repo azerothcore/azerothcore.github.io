@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: PageText Struct Reference</title>
+<title>AzerothCore: HashMapHolder&lt; T &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,52 +105,255 @@ $(document).ready(function(){initNavTree('dc/d59/a08614.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d8/d73/a08611.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PageText Struct Reference</div></div>
+  <div class="headertitle"><div class="title">HashMapHolder&lt; T &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a9c13498341adce66590cb198b720f96f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a9c13498341adce66590cb198b720f96f">Text</a></td></tr>
-<tr class="separator:a9c13498341adce66590cb198b720f96f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5ea0eba89ecb21a09b184efd5dc57dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a5ea0eba89ecb21a09b184efd5dc57dc0">NextPage</a></td></tr>
-<tr class="separator:a5ea0eba89ecb21a09b184efd5dc57dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a8fa5f0aca9316901f42b2df8251c5a5d"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>, T * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a8fa5f0aca9316901f42b2df8251c5a5d">MapType</a></td></tr>
+<tr class="separator:a8fa5f0aca9316901f42b2df8251c5a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:af5c618228c141e28ffa11468cfffb21a"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#af5c618228c141e28ffa11468cfffb21a">Insert</a> (T *o)</td></tr>
+<tr class="separator:af5c618228c141e28ffa11468cfffb21a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7b9c3761746641133d4a9837559c0bb0"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a7b9c3761746641133d4a9837559c0bb0">Remove</a> (T *o)</td></tr>
+<tr class="separator:a7b9c3761746641133d4a9837559c0bb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a314b4ce3265136fe326b909fe6ef6716"><td class="memItemLeft" align="right" valign="top">static T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a314b4ce3265136fe326b909fe6ef6716">Find</a> (<a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid)</td></tr>
+<tr class="separator:a314b4ce3265136fe326b909fe6ef6716"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9dfe5d223496a379a4aec0fc12c42d9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dc/d59/a08614.html#a8fa5f0aca9316901f42b2df8251c5a5d">MapType</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a> ()</td></tr>
+<tr class="separator:ad9dfe5d223496a379a4aec0fc12c42d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cc052c8d73d5b700c7f9253138942f"><td class="memItemLeft" align="right" valign="top">static std::shared_mutex *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a> ()</td></tr>
+<tr class="separator:a52cc052c8d73d5b700c7f9253138942f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:ad10240097462af2a8a76c9429bd7cbca"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/d59/a08614.html#ad10240097462af2a8a76c9429bd7cbca">HashMapHolder</a> ()=default</td></tr>
+<tr class="separator:ad10240097462af2a8a76c9429bd7cbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5ea0eba89ecb21a09b184efd5dc57dc0" name="a5ea0eba89ecb21a09b184efd5dc57dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5ea0eba89ecb21a09b184efd5dc57dc0">&#9670;&#160;</a></span>NextPage</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class HashMapHolder&lt; T &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a8fa5f0aca9316901f42b2df8251c5a5d" name="a8fa5f0aca9316901f42b2df8251c5a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8fa5f0aca9316901f42b2df8251c5a5d">&#9670;&#160;</a></span>MapType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> PageText::NextPage</td>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>, T*&gt; <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::MapType</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00367">WorldSession::HandlePageTextQueryOpcode()</a>, and <a class="el" href="../../#l05755">ObjectMgr::LoadPageTexts()</a>.</p>
-
 </div>
 </div>
-<a id="a9c13498341adce66590cb198b720f96f" name="a9c13498341adce66590cb198b720f96f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c13498341adce66590cb198b720f96f">&#9670;&#160;</a></span>Text</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="ad10240097462af2a8a76c9429bd7cbca" name="ad10240097462af2a8a76c9429bd7cbca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad10240097462af2a8a76c9429bd7cbca">&#9670;&#160;</a></span>HashMapHolder()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string PageText::Text</td>
+          <td class="memname"><a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;<a class="el" href="../../dc/d59/a08614.html">::HashMapHolder</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00367">WorldSession::HandlePageTextQueryOpcode()</a>, and <a class="el" href="../../#l05755">ObjectMgr::LoadPageTexts()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a314b4ce3265136fe326b909fe6ef6716" name="a314b4ce3265136fe326b909fe6ef6716"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a314b4ce3265136fe326b909fe6ef6716">&#9670;&#160;</a></span>Find()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">T * <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::Find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{</div>
+<div class="line"><span class="lineno">   55</span>    std::shared_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../dc/d59/a08614.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keyword">typename</span> MapType::iterator itr = <a class="code hl_function" href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().find(guid);</div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">return</span> (itr != <a class="code hl_function" href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().end()) ? itr-&gt;second : <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   59</span>}</div>
+<div class="ttc" id="aa08614_html_a52cc052c8d73d5b700c7f9253138942f"><div class="ttname"><a href="../../dc/d59/a08614.html#a52cc052c8d73d5b700c7f9253138942f">HashMapHolder::GetLock</a></div><div class="ttdeci">static std::shared_mutex * GetLock()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:69</div></div>
+<div class="ttc" id="aa08614_html_ad9dfe5d223496a379a4aec0fc12c42d9"><div class="ttname"><a href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">HashMapHolder::GetContainer</a></div><div class="ttdeci">static MapType &amp; GetContainer()</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:62</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00257">ObjectAccessor::FindConnectedPlayer()</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00953">WorldSession::HandleRequestPartyMemberStatsOpcode()</a>, <a class="el" href="../../#l04918">Player::LoadFromDB()</a>, <a class="el" href="../../#l06705">Player::Satisfy()</a>, and <a class="el" href="../../#l00277">Map::ScriptsProcess()</a>.</p>
+
+</div>
+</div>
+<a id="ad9dfe5d223496a379a4aec0fc12c42d9" name="ad9dfe5d223496a379a4aec0fc12c42d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9dfe5d223496a379a4aec0fc12c42d9">&#9670;&#160;</a></span>GetContainer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::GetContainer</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{</div>
+<div class="line"><span class="lineno">   64</span>    <span class="keyword">static</span> <a class="code hl_typedef" href="../../dc/d59/a08614.html#a8fa5f0aca9316901f42b2df8251c5a5d">MapType</a> _objectMap;</div>
+<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">return</span> _objectMap;</div>
+<div class="line"><span class="lineno">   66</span>}</div>
+<div class="ttc" id="aa08614_html_a8fa5f0aca9316901f42b2df8251c5a5d"><div class="ttname"><a href="../../dc/d59/a08614.html#a8fa5f0aca9316901f42b2df8251c5a5d">HashMapHolder::MapType</a></div><div class="ttdeci">std::unordered_map&lt; ObjectGuid, T * &gt; MapType</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.h:47</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00075">ObjectAccessor::GetPlayers()</a>.</p>
+
+</div>
+</div>
+<a id="a52cc052c8d73d5b700c7f9253138942f" name="a52cc052c8d73d5b700c7f9253138942f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52cc052c8d73d5b700c7f9253138942f">&#9670;&#160;</a></span>GetLock()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::shared_mutex * <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::GetLock</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   70</span>{</div>
+<div class="line"><span class="lineno">   71</span>    <span class="keyword">static</span> std::shared_mutex _lock;</div>
+<div class="line"><span class="lineno">   72</span>    <span class="keywordflow">return</span> &amp;_lock;</div>
+<div class="line"><span class="lineno">   73</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af5c618228c141e28ffa11468cfffb21a" name="af5c618228c141e28ffa11468cfffb21a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5c618228c141e28ffa11468cfffb21a">&#9670;&#160;</a></span>Insert()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::Insert </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    <span class="keyword">static_assert</span>(std::is_same&lt;Player, T&gt;::value</div>
+<div class="line"><span class="lineno">   36</span>        || std::is_same&lt;MotionTransport, T&gt;::value,</div>
+<div class="line"><span class="lineno">   37</span>        <span class="stringliteral">&quot;Only Player and Motion Transport can be registered in global HashMapHolder&quot;</span>);</div>
+<div class="line"><span class="lineno">   38</span> </div>
+<div class="line"><span class="lineno">   39</span>    std::unique_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../dc/d59/a08614.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   40</span> </div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_function" href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>()[o-&gt;GetGUID()] = o;</div>
+<div class="line"><span class="lineno">   42</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00333">ObjectAccessor::AddObject()</a>, and <a class="el" href="../../#l00359">TransportMgr::CreateTransport()</a>.</p>
+
+</div>
+</div>
+<a id="a7b9c3761746641133d4a9837559c0bb0" name="a7b9c3761746641133d4a9837559c0bb0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7b9c3761746641133d4a9837559c0bb0">&#9670;&#160;</a></span>Remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a>&lt; T &gt;::Remove </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>o</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    std::unique_lock&lt;std::shared_mutex&gt; lock(*<a class="code hl_function" href="../../dc/d59/a08614.html#a52cc052c8d73d5b700c7f9253138942f">GetLock</a>());</div>
+<div class="line"><span class="lineno">   48</span> </div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_function" href="../../dc/d59/a08614.html#ad9dfe5d223496a379a4aec0fc12c42d9">GetContainer</a>().erase(o-&gt;GetGUID());</div>
+<div class="line"><span class="lineno">   50</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00340">ObjectAccessor::RemoveObject()</a>, and <a class="el" href="../../#l00039">MotionTransport::~MotionTransport()</a>.</p>
 
 </div>
 </div>
@@ -159,8 +362,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d59/a08614.html">PageText</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dc/d59/a08614.html">HashMapHolder</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:42:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

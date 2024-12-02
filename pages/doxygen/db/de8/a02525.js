@@ -1,6 +1,6 @@
 var a02525 =
 [
-    [ "boss_curator", "d1/d37/a12294.html", "d1/d37/a12294" ],
+    [ "boss_curator", "da/dfe/a12298.html", "da/dfe/a12298" ],
     [ "Spells", "db/de8/a02525.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

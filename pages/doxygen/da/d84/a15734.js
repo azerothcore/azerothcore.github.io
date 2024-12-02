@@ -1,6 +1,7 @@
 var a15734 =
 [
-    [ "HandleForceCast", "da/d84/a15734.html#a975b69649aba9de341f4e52c82a3c111", null ],
-    [ "PrepareSpellScript", "da/d84/a15734.html#a2dde8402cc4e8552faf3d8a1f4c6e60e", null ],
-    [ "Register", "da/d84/a15734.html#a794a59e5fd3bda75f30d559f422895b5", null ]
+    [ "npc_orb_carrierAI", "da/d84/a15734.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "da/d84/a15734.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "da/d84/a15734.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "da/d84/a15734.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

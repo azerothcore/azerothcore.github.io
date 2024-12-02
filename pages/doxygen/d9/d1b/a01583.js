@@ -1,6 +1,6 @@
 var a01583 =
 [
-    [ "spell_trigger_spell_from_caster", "d4/db4/a18486.html", "d4/db4/a18486" ],
+    [ "spell_trigger_spell_from_caster", "d5/ddc/a18502.html", "d5/ddc/a18502" ],
     [ "DataHeader", "d9/d1b/a01583.html#a042491ef36459046f3866e90f15aae0d", null ],
     [ "ICCScriptName", "d9/d1b/a01583.html#a8ad0adeac0057e9785ab4fce6f4d6697", null ],
     [ "RegisterIcecrownCitadelCreatureAI", "d9/d1b/a01583.html#a371fa53b2363b7032c1326ca4717a14f", null ],
@@ -397,6 +397,8 @@ var a01583 =
       [ "DATA_MASSIVE_GATE", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22a7afc125bb7bf43f0ba8b6e211c5f29e7", null ],
       [ "DATA_HEXLORD_GATE", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22ae44ed29085b14444414b73bbd223d58e", null ],
       [ "DATA_HARRISON_JONES", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22afed37b4cccbefb71eae3b750ca256a8a", null ],
+      [ "TYPE_AKILZON_GAUNTLET", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22a32627ed2529fd86dd576f9b0b8d8da65", null ],
+      [ "DATA_LOOKOUT", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22ac9a7e429aa546919840b39674b9692cf", null ],
       [ "DATA_JEKLIK", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22aa94ad957c2b090d166d4d7a0ffe64501", null ],
       [ "DATA_VENOXIS", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22ac6e5ff2f658de784d1625d0a84df3bf4", null ],
       [ "DATA_MARLI", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22a4abd552de0f1e952a1976c1bd03919fe", null ],

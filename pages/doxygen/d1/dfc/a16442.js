@@ -1,6 +1,10 @@
 var a16442 =
 [
-    [ "boss_falricAI", "dc/d4d/a16446.html", "dc/d4d/a16446" ],
-    [ "boss_falric", "d1/dfc/a16442.html#aa64253f502f79db5947c09788fb66deb", null ],
-    [ "GetAI", "d1/dfc/a16442.html#a95249877208d19bb54edd8de18616158", null ]
+    [ "HandleAfterEffectAbsorb", "d1/dfc/a16442.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
+    [ "Load", "d1/dfc/a16442.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
+    [ "PrepareAuraScript", "d1/dfc/a16442.html#a0856d66c801715f16cd251ddf9b25a59", null ],
+    [ "Register", "d1/dfc/a16442.html#a69d8dfebb981b51592770b7b5807bc80", null ],
+    [ "Validate", "d1/dfc/a16442.html#a55ec42ce316978220103a3a39f3939a3", null ],
+    [ "amount", "d1/dfc/a16442.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
+    [ "fired", "d1/dfc/a16442.html#a6a7afa99044644608b16e83328bfd5fa", null ]
 ];

@@ -1,6 +1,6 @@
 var a19422 =
 [
-    [ "boss_auriayaAI", "df/dd9/a19426.html", "df/dd9/a19426" ],
-    [ "boss_auriaya", "d8/deb/a19422.html#a8acecf02a63e846d1a46633a6ade6083", null ],
-    [ "GetAI", "d8/deb/a19422.html#a09c7cd124672eb12ec349dbbbd3c87ef", null ]
+    [ "HandleInstaKill", "d8/deb/a19422.html#a9371a2cc86616fd04e47939d45f01cae", null ],
+    [ "PrepareSpellScript", "d8/deb/a19422.html#a38eed301f1db3ea7ac15b626e5927500", null ],
+    [ "Register", "d8/deb/a19422.html#a9aaf3e86a2c14ee79cc013b3978621ee", null ]
 ];

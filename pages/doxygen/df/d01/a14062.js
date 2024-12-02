@@ -1,8 +1,8 @@
 var a14062 =
 [
-    [ "OnApply", "df/d01/a14062.html#aa38abcc9fa49fc2c397edbfff2c0ea0d", null ],
-    [ "OnRemove", "df/d01/a14062.html#a64018d24a33565e615c6c2d3eb4810f8", null ],
-    [ "PrepareAuraScript", "df/d01/a14062.html#acb57b284b9d9116b6b0c0a758e09a8d5", null ],
-    [ "Register", "df/d01/a14062.html#a9cd1e664cb6ccec5dc897b586203faf1", null ],
-    [ "Validate", "df/d01/a14062.html#a77ed6196af0fcf75c6d1071e236f6210", null ]
+    [ "npc_love_in_air_snivel_real", "df/d01/a14062.html#a9f5b36d35ced9eb27375ca13fcfbc55d", null ],
+    [ "Talk", "df/d01/a14062.html#a0b5cc8dd6bdf7c4fbd7b7aa2ba02b028", null ],
+    [ "UpdateAI", "df/d01/a14062.html#a22ed25da8fe3441ef0e4183390983f40", null ],
+    [ "actionCounter", "df/d01/a14062.html#ab1685b1ee34c81c689af3c3466b185f0", null ],
+    [ "actionTimer", "df/d01/a14062.html#a3bbee1ff355581772b337268775b8fbc", null ]
 ];

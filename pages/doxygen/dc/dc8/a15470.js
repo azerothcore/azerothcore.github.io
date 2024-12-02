@@ -1,7 +1,6 @@
 var a15470 =
 [
-    [ "HandleScript", "dc/dc8/a15470.html#ae9939f2795b8ba428277c7d658af715c", null ],
-    [ "PrepareSpellScript", "dc/dc8/a15470.html#aabe244008103ff317e3fc1e26b04115a", null ],
-    [ "Register", "dc/dc8/a15470.html#a4f492bdd96ef190354f37c95217bb696", null ],
-    [ "Validate", "dc/dc8/a15470.html#a4a3a5e83b66d0ae3f6f95bcead932f55", null ]
+    [ "ModDestHeight", "dc/dc8/a15470.html#a8bda9327c4244af41c513528ad5c818c", null ],
+    [ "PrepareSpellScript", "dc/dc8/a15470.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
+    [ "Register", "dc/dc8/a15470.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
 ];

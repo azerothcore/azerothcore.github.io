@@ -1,6 +1,7 @@
 var a14794 =
 [
-    [ "boss_veknilash", "d3/de2/a14794.html#a73a4095c3dd0ffbd9d7ef5a8a837f13f", null ],
-    [ "IAmVeklor", "d3/de2/a14794.html#a454027d829b962ee0feebb6fd5687714", null ],
-    [ "JustEngagedWith", "d3/de2/a14794.html#ace8de3d9a397d0571da1f5bdd2ba84d5", null ]
+    [ "npc_sartura_royal_guard", "d3/de2/a14794.html#a3ce2aeec4e5f26916ef50bdeea624c9d", null ],
+    [ "JustEngagedWith", "d3/de2/a14794.html#a0b162e1fcc925f65fedbfe235b59eb0e", null ],
+    [ "Reset", "d3/de2/a14794.html#a2b604aada12ca7f3e712cdbd1a3f397a", null ],
+    [ "UpdateAI", "d3/de2/a14794.html#a2ed50f65847133c897facecbaa4711d8", null ]
 ];

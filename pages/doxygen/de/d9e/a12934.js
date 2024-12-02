@@ -1,7 +1,6 @@
 var a12934 =
 [
-    [ "HandleScriptEffect", "de/d9e/a12934.html#a703ac8467126f5c2aee393fcf2400ffc", null ],
-    [ "PrepareSpellScript", "de/d9e/a12934.html#a17c49de5f6a37ff83126398d96b43a51", null ],
-    [ "Register", "de/d9e/a12934.html#ae205d84cdbe3fbfa519e7d1c8f2ffe16", null ],
-    [ "Validate", "de/d9e/a12934.html#a17d53f598be9fe9e9790bb96dfcb4891", null ]
+    [ "HandleActivateObject", "de/d9e/a12934.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
+    [ "PrepareSpellScript", "de/d9e/a12934.html#afc844250ea7ba48330edfda305fa856c", null ],
+    [ "Register", "de/d9e/a12934.html#a6d77f6848397724e61c1db7a80de7139", null ]
 ];

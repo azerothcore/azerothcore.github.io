@@ -1,6 +1,6 @@
 var a16662 =
 [
-    [ "npc_pos_deathwhisper_necrolyteAI", "da/df8/a16666.html", "da/df8/a16666" ],
-    [ "npc_pos_deathwhisper_necrolyte", "d2/dfd/a16662.html#a0dcdb5b1dfed44f74b04663758b531a0", null ],
-    [ "GetAI", "d2/dfd/a16662.html#ae765669f95f4f14b393b88bf7ecbbfd6", null ]
+    [ "instance_pit_of_saron_InstanceScript", "da/df8/a16666.html", "da/df8/a16666" ],
+    [ "instance_pit_of_saron", "d2/dfd/a16662.html#a84526dbb5ac7eb6ff5ebe24ed339826b", null ],
+    [ "GetInstanceScript", "d2/dfd/a16662.html#a2a1bc125bfe653a1da8b8c36b86aae67", null ]
 ];

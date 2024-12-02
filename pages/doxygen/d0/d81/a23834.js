@@ -1,5 +1,6 @@
 var a23834 =
 [
-    [ "npc_karynaku", "d0/d81/a23834.html#aa6a3cb409cdbc990f1eee4137c7519d2", null ],
-    [ "OnQuestAccept", "d0/d81/a23834.html#a4cae1950fe3b7b4ae6f2e6691800ec47", null ]
+    [ "npc_torloth_the_magnificentAI", "dd/d13/a23838.html", "dd/d13/a23838" ],
+    [ "npc_torloth_the_magnificent", "d0/d81/a23834.html#a252796a19dcebe210eecb4d9ae150e5d", null ],
+    [ "GetAI", "d0/d81/a23834.html#a94c206fb75cc6f50c6127908b5b5205f", null ]
 ];

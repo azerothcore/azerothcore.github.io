@@ -1,7 +1,6 @@
 var a24550 =
 [
-    [ "CheckProc", "dd/d72/a24550.html#ab376febda606dba5e9f7f5639f867859", null ],
-    [ "HandleProc", "dd/d72/a24550.html#aa8dac7f0a238f6f131553cbc7a142594", null ],
-    [ "PrepareAuraScript", "dd/d72/a24550.html#a7693a86824050ff5615996d0d03d0292", null ],
-    [ "Register", "dd/d72/a24550.html#a458745913288889f687bb19a147cb0fb", null ]
+    [ "PrepareAuraScript", "dd/d72/a24550.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
+    [ "Register", "dd/d72/a24550.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
+    [ "AuraEffectHandleModes", "dd/d72/a24550.html#aed1cfe63d82450b526e154678fb97ac4", null ]
 ];

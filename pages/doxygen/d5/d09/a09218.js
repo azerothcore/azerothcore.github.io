@@ -1,13 +1,18 @@
 var a09218 =
 [
-    [ "GroupReference", "d5/d09/a09218.html#ab1a008e85d413c67696d4d568a98bde7", null ],
-    [ "~GroupReference", "d5/d09/a09218.html#ab586405a850b0985e6b9f08cc6bdf32e", null ],
-    [ "getSubGroup", "d5/d09/a09218.html#a8217ca810bc251005dfe8a2e3b810e1e", null ],
-    [ "next", "d5/d09/a09218.html#a6f8f406f1209dd7060904d40f5424b41", null ],
-    [ "next", "d5/d09/a09218.html#ac913ec0703c28cda068375d01c9cd72d", null ],
-    [ "setSubGroup", "d5/d09/a09218.html#a303caf55ea463398237e6a825f30b143", null ],
-    [ "sourceObjectDestroyLink", "d5/d09/a09218.html#a458157654c27def9b36b68ae099ca7b3", null ],
-    [ "targetObjectBuildLink", "d5/d09/a09218.html#aa7c8acd113fefc7b6d2b9dff94bb047c", null ],
-    [ "targetObjectDestroyLink", "d5/d09/a09218.html#a4c15e8dbb9f990f9ab66c5e1466d0616", null ],
-    [ "iSubGroup", "d5/d09/a09218.html#a528073b16a119cfa81e6f37c6e72cc03", null ]
+    [ "GroupContainer", "d5/d09/a09218.html#a417c5798d50cac5c1bc5b0eae13945cc", null ],
+    [ "GroupIds", "d5/d09/a09218.html#ad3a9005c50a5957d3f47adf60624b9aa", null ],
+    [ "GroupMgr", "d5/d09/a09218.html#a663dbeb2e20161d8d6cf72f322c05f0e", null ],
+    [ "~GroupMgr", "d5/d09/a09218.html#ad5a5efeed7f78146983611c2349c111f", null ],
+    [ "AddGroup", "d5/d09/a09218.html#abb97c613417573dc4cafa117065e7cf8", null ],
+    [ "GenerateGroupId", "d5/d09/a09218.html#ad881433a3836a70e44734bde5a1afc6f", null ],
+    [ "GetGroupByGUID", "d5/d09/a09218.html#a2af93882e217f762df95ba21af191c89", null ],
+    [ "InitGroupIds", "d5/d09/a09218.html#a6881453ec34dc2d9416069a87b1a3234", null ],
+    [ "instance", "d5/d09/a09218.html#a1b7275cfd70d46216df8c353e70d64c8", null ],
+    [ "LoadGroups", "d5/d09/a09218.html#ab8548ce88b015ae3040cd5f2cd7b1990", null ],
+    [ "RegisterGroupId", "d5/d09/a09218.html#a8bface2b6600801ebcd1cbb9070ec3ef", null ],
+    [ "RemoveGroup", "d5/d09/a09218.html#a654b7c795c9c3d77a7a39bce58dec2c7", null ],
+    [ "_groupIds", "d5/d09/a09218.html#af260c73ba61242f741103bdfe6d6fb9e", null ],
+    [ "_nextGroupId", "d5/d09/a09218.html#a4e41d7444f8b7d3dbb54569be80b65f9", null ],
+    [ "GroupStore", "d5/d09/a09218.html#ae897c661dd4b185d205c3a12d17ccb2b", null ]
 ];

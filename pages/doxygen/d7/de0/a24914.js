@@ -1,6 +1,7 @@
 var a24914 =
 [
-    [ "CheckRequirement", "d7/de0/a24914.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "d7/de0/a24914.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "d7/de0/a24914.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "ModDest", "d7/de0/a24914.html#afe0fb68de61a657ce6900e71973e4d77", null ],
+    [ "ModifyCookingSkill", "d7/de0/a24914.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
+    [ "PrepareSpellScript", "d7/de0/a24914.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
+    [ "Register", "d7/de0/a24914.html#a6919079b43a816eb601a68c51ad39794", null ]
 ];

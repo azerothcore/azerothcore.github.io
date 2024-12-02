@@ -1,6 +1,6 @@
 var a03824 =
 [
-    [ "Arena", "de/d75/a07034.html", "de/d75/a07034" ],
+    [ "Arena", "d8/d33/a07038.html", "d8/d33/a07038" ],
     [ "ArenaBroadcastTexts", "dc/d0f/a03824.html#a407f2036481e3d9e2def3daa50546c71", [
       [ "ARENA_TEXT_START_ONE_MINUTE", "dc/d0f/a03824.html#a407f2036481e3d9e2def3daa50546c71a12b484d249dd320cfc39bdf39279d854", null ],
       [ "ARENA_TEXT_START_THIRTY_SECONDS", "dc/d0f/a03824.html#a407f2036481e3d9e2def3daa50546c71a49cdd0c5a035f182212d6fe53a1e2084", null ],

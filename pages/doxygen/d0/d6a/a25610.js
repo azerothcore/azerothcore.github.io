@@ -1,6 +1,7 @@
 var a25610 =
 [
-    [ "HandleDummy", "d0/d6a/a25610.html#a4fde3142b38989cb37db76da6eada03c", null ],
-    [ "PrepareSpellScript", "d0/d6a/a25610.html#aa694a1a7cbbe0f20226d7e616e19cefb", null ],
-    [ "Register", "d0/d6a/a25610.html#a1f83fae2fb3dc0904ed56101e1254f5f", null ]
+    [ "OnRemove", "d0/d6a/a25610.html#a8c39ba2fbd8c9c96de622afd8d04281e", null ],
+    [ "PrepareAuraScript", "d0/d6a/a25610.html#a9e13b76ceb256dec1a6c9dccd5c6c537", null ],
+    [ "Register", "d0/d6a/a25610.html#a9fbaec43bae2f4d6f4b94b18da0144fe", null ],
+    [ "Validate", "d0/d6a/a25610.html#a8f111779a3a0e68fe5a313e6eae716b3", null ]
 ];

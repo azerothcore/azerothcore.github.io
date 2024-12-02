@@ -1,5 +1,6 @@
 var a15186 =
 [
-    [ "go_crystalline_tear", "da/d72/a15186.html#a9e19c6538ecd1a758f2639171321d965", null ],
-    [ "OnQuestAccept", "da/d72/a15186.html#a4efd6b2b8ca37462ba3a26d05f01ec2d", null ]
+    [ "npc_qiraj_war_spawnAI", "d9/d84/a15190.html", "d9/d84/a15190" ],
+    [ "npc_qiraj_war_spawn", "da/d72/a15186.html#a2afba33e9fd879ac3fea206768b14334", null ],
+    [ "GetAI", "da/d72/a15186.html#a32339f20251c188b895c02b6cc9217e9", null ]
 ];

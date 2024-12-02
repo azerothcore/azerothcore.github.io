@@ -1,12 +1,9 @@
 var a21762 =
 [
-    [ "npc_tournament_training_dummyAI", "d7/d5f/a21762.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
-    [ "DamageTaken", "d7/d5f/a21762.html#a98c18794124922e6946a82a324410837", null ],
-    [ "EnterEvadeMode", "d7/d5f/a21762.html#a3f31d705284b0fad2f00c9210ff06646", null ],
-    [ "MoveInLineOfSight", "d7/d5f/a21762.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
-    [ "Reset", "d7/d5f/a21762.html#a7339ffe52dc789f9480afca7141a169e", null ],
-    [ "SpellHit", "d7/d5f/a21762.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
-    [ "UpdateAI", "d7/d5f/a21762.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
-    [ "events", "d7/d5f/a21762.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
-    [ "isVulnerable", "d7/d5f/a21762.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
+    [ "npc_frostbrood_skytalonAI", "d7/d5f/a21762.html#afc14c60466f9f0f1b20062758f18c00d", null ],
+    [ "IsSummonedBy", "d7/d5f/a21762.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
+    [ "MovementInform", "d7/d5f/a21762.html#ae763333503176eb7e8ce407868243958", null ],
+    [ "SpellHit", "d7/d5f/a21762.html#a24bb49f47dcf85c95039d0495a89e126", null ],
+    [ "UpdateAI", "d7/d5f/a21762.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
+    [ "events", "d7/d5f/a21762.html#a8575d258d63e28626cffd7fc2160bee6", null ]
 ];

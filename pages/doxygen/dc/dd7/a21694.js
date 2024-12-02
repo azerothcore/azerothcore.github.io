@@ -1,9 +1,14 @@
 var a21694 =
 [
-    [ "npc_lord_areteAI", "dc/dd7/a21694.html#aebdbf8f4c2fe6948c78315e6b404119b", null ],
-    [ "InitializeAI", "dc/dd7/a21694.html#a22d0c3e2445bff2d742b28bd99f37394", null ],
-    [ "UpdateAI", "dc/dd7/a21694.html#a5cba8d4429ae191dd5b90ca5a4fe2866", null ],
-    [ "_landgrenGUID", "dc/dd7/a21694.html#ac0e3753096dfe779024acc8400791171", null ],
-    [ "_landgrenSoulGUID", "dc/dd7/a21694.html#aaa28c67691610136f0b418b30892f3cd", null ],
-    [ "events", "dc/dd7/a21694.html#ae4ec90b30320cf0aeaec4415c4125605", null ]
+    [ "npc_tirions_gambit_tirionAI", "dc/dd7/a21694.html#a38959c7a5b502b5716a5c09b0f6ae8a4", null ],
+    [ "DoAction", "dc/dd7/a21694.html#a495e0762614020ef6d7b741447099326", null ],
+    [ "DoSummonAction", "dc/dd7/a21694.html#a891b31661705ed4df634059e6165d499", null ],
+    [ "JustSummoned", "dc/dd7/a21694.html#ac62ec499aba734d36249f8c00b36e2d4", null ],
+    [ "Reset", "dc/dd7/a21694.html#afb398bda1d6ee4d35527208e6c5bffee", null ],
+    [ "SetData", "dc/dd7/a21694.html#a41f24de5f824d84edb69c6b2bdca6d4e", null ],
+    [ "SummonedCreatureDespawn", "dc/dd7/a21694.html#aca05fee85997dffba6ec998b144b9495", null ],
+    [ "UpdateEscortAI", "dc/dd7/a21694.html#a0b681d6cc1566e6193f7eb143ab2bd5e", null ],
+    [ "WaypointReached", "dc/dd7/a21694.html#af5fd69b799c6227dba901f434e30c434", null ],
+    [ "events", "dc/dd7/a21694.html#a711c55c26187ae695644b770a358766e", null ],
+    [ "summons", "dc/dd7/a21694.html#af574a4b136ff42c597e30c83e4d463ca", null ]
 ];

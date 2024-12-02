@@ -1,7 +1,8 @@
 var a23046 =
 [
-    [ "npc_underbog_mushroom", "de/dd6/a23046.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
-    [ "InitializeAI", "de/dd6/a23046.html#a7c192010cc63715eaa3f38b1d1372936", null ],
-    [ "UpdateAI", "de/dd6/a23046.html#a9a8ed51b12809152ebe78dda69944d77", null ],
-    [ "_scheduler", "de/dd6/a23046.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
+    [ "boss_the_black_stalker", "de/dd6/a23046.html#ac33519b374509cefe43b8e97701719ee", null ],
+    [ "JustEngagedWith", "de/dd6/a23046.html#ad118347103ec463a09492e81dbd61418", null ],
+    [ "JustSummoned", "de/dd6/a23046.html#a9e0299a99df83abb7de476a765b667b9", null ],
+    [ "SummonedCreatureDies", "de/dd6/a23046.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
+    [ "UpdateAI", "de/dd6/a23046.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
 ];

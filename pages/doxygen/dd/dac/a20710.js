@@ -1,6 +1,6 @@
 var a20710 =
 [
-    [ "boss_dalronn_the_controllerAI", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
-    [ "boss_dalronn_the_controller", "dd/dac/a20710.html#afb5f8ef1df5d2e70e48f88cf986d88b2", null ],
-    [ "GetAI", "dd/dac/a20710.html#a62a12d41c5c4ed808ea8d65068a92b1f", null ]
+    [ "instance_utgarde_keep_InstanceMapScript", "d4/d1e/a20714.html", "d4/d1e/a20714" ],
+    [ "instance_utgarde_keep", "dd/dac/a20710.html#abe013e4f086f63722a6398b2b7928c80", null ],
+    [ "GetInstanceScript", "dd/dac/a20710.html#a9a42e0dde1c7598eb2ef665f11e25e92", null ]
 ];

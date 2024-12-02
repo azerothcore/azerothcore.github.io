@@ -133,7 +133,7 @@ $(document).ready(function(){initNavTree('d6/d07/a04154.html','../../'); initRes
 Functions</h2></td></tr>
 <tr class="memitem:aa48d9759919f0fb8415c0fd0731a23b1"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/a04154.html#aa48d9759919f0fb8415c0fd0731a23b1">GetCheckPacketBaseSize</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> type)</td></tr>
 <tr class="separator:aa48d9759919f0fb8415c0fd0731a23b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adfb39c1ce4f6159c2c70e3cdf26978c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/a04154.html#adfb39c1ce4f6159c2c70e3cdf26978c9">GetCheckPacketSize</a> (<a class="el" href="../../db/da4/a11210.html">WardenCheck</a> const *check)</td></tr>
+<tr class="memitem:adfb39c1ce4f6159c2c70e3cdf26978c9"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/a04154.html#adfb39c1ce4f6159c2c70e3cdf26978c9">GetCheckPacketSize</a> (<a class="el" href="../../d6/d53/a11214.html">WardenCheck</a> const *check)</td></tr>
 <tr class="separator:adfb39c1ce4f6159c2c70e3cdf26978c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1bcaaac66e1101e325fd62778b2f0c8d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41">WorldIntConfigs</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d07/a04154.html#a1bcaaac66e1101e325fd62778b2f0c8d">GetMaxWardenChecksForType</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> type)</td></tr>
 <tr class="separator:a1bcaaac66e1101e325fd62778b2f0c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -214,7 +214,7 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname">static <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> GetCheckPacketSize </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/da4/a11210.html">WardenCheck</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d6/d53/a11214.html">WardenCheck</a> const *&#160;</td>
           <td class="paramname"><em>check</em></td><td>)</td>
           <td></td>
         </tr>
@@ -233,7 +233,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">   63</span> </div>
 <div class="line"><span class="lineno">   64</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> size = 1;</div>
 <div class="line"><span class="lineno">   65</span> </div>
-<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">if</span> (check-&gt;CheckId &gt;= <a class="code hl_variable" href="../../d9/d62/a11238.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a> &amp;&amp; check-&gt;Type == <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a>)</div>
+<div class="line"><span class="lineno">   66</span>    <span class="keywordflow">if</span> (check-&gt;CheckId &gt;= <a class="code hl_variable" href="../../d8/d4e/a11242.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a> &amp;&amp; check-&gt;Type == <a class="code hl_enumvalue" href="../../d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a88364ba9c51997e2baa92428922caada">LUA_EVAL_CHECK</a>)</div>
 <div class="line"><span class="lineno">   67</span>    {</div>
 <div class="line"><span class="lineno">   68</span>        <span class="comment">// Custom payload has no prefix, midfix, postfix.</span></div>
 <div class="line"><span class="lineno">   69</span>        size = size + (4 + 1);</div>
@@ -259,7 +259,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aa04154_html_aa48d9759919f0fb8415c0fd0731a23b1"><div class="ttname"><a href="../../d6/d07/a04154.html#aa48d9759919f0fb8415c0fd0731a23b1">GetCheckPacketBaseSize</a></div><div class="ttdeci">static constexpr uint8 GetCheckPacketBaseSize(uint8 type)</div><div class="ttdef"><b>Definition:</b> WardenWin.cpp:42</div></div>
 <div class="ttc" id="aa05074_html"><div class="ttname"><a href="../../d9/d65/a05074.html">BigNumber</a></div><div class="ttdef"><b>Definition:</b> BigNumber.h:29</div></div>
 <div class="ttc" id="aa05074_html_ab6e59df65e45251677cf033d9ca25c23"><div class="ttname"><a href="../../d9/d65/a05074.html#ab6e59df65e45251677cf033d9ca25c23">BigNumber::GetNumBytes</a></div><div class="ttdeci">int32 GetNumBytes() const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:165</div></div>
-<div class="ttc" id="aa11238_html_a9f7e5a100c56a6ee9a6bd39a792b9e44"><div class="ttname"><a href="../../d9/d62/a11238.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a></div><div class="ttdeci">static uint16 constexpr WardenPayloadOffsetMin</div><div class="ttdoc">The minimum id available for custom payloads.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:115</div></div>
+<div class="ttc" id="aa11242_html_a9f7e5a100c56a6ee9a6bd39a792b9e44"><div class="ttname"><a href="../../d8/d4e/a11242.html#a9f7e5a100c56a6ee9a6bd39a792b9e44">WardenPayloadMgr::WardenPayloadOffsetMin</a></div><div class="ttdeci">static uint16 constexpr WardenPayloadOffsetMin</div><div class="ttdoc">The minimum id available for custom payloads.</div><div class="ttdef"><b>Definition:</b> WardenPayloadMgr.h:115</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00051">WardenCheck::CheckId</a>, <a class="el" href="../../#l00046">WardenCheck::Data</a>, <a class="el" href="../../#l00042">GetCheckPacketBaseSize()</a>, <a class="el" href="../../#l00165">BigNumber::GetNumBytes()</a>, <a class="el" href="../../#l00052">LUA_EVAL_CHECK</a>, <a class="el" href="../../#l00049">WardenCheck::Str</a>, <a class="el" href="../../#l00045">WardenCheck::Type</a>, and <a class="el" href="../../#l00115">WardenPayloadMgr::WardenPayloadOffsetMin</a>.</p>
 
@@ -399,7 +399,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_4b21bdf52d2a98b0776a5d7d01fdcc43.html">Warden</a></li><li class="navelem"><a class="el" href="../../d6/d07/a04154.html">WardenWin.cpp</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:41:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:41:05 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

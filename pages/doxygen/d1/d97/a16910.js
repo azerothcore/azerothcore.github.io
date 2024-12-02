@@ -1,6 +1,6 @@
 var a16910 =
 [
-    [ "npc_dark_nucleusAI", "d7/dc0/a16914.html", "d7/dc0/a16914" ],
-    [ "npc_dark_nucleus", "d1/d97/a16910.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "d1/d97/a16910.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "boss_prince_valanarAI", "d7/dc0/a16914.html", "d7/dc0/a16914" ],
+    [ "boss_prince_valanar_icc", "d1/d97/a16910.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
+    [ "GetAI", "d1/d97/a16910.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
 ];

@@ -1,7 +1,7 @@
 var a26118 =
 [
-    [ "HandleDummy", "db/d28/a26118.html#a2ea424e6c740305340001b1c09bfec91", null ],
-    [ "PrepareSpellScript", "db/d28/a26118.html#afe722c970155b47eac94bb9861a4eb46", null ],
-    [ "Register", "db/d28/a26118.html#a2c2b96f1c00da9884ec9d01fe897c8c1", null ],
-    [ "Validate", "db/d28/a26118.html#ac5f782da8b5e387c31e048759baf3e16", null ]
+    [ "HandleDummy", "db/d28/a26118.html#a4c837e7342603519d1f23ab8702c3160", null ],
+    [ "PrepareSpellScript", "db/d28/a26118.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
+    [ "Register", "db/d28/a26118.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
+    [ "Validate", "db/d28/a26118.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
 ];

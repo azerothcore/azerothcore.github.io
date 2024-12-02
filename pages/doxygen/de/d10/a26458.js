@@ -1,7 +1,7 @@
 var a26458 =
 [
-    [ "HandleTeleport", "de/d10/a26458.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
-    [ "PrepareAuraScript", "de/d10/a26458.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
-    [ "Register", "de/d10/a26458.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
-    [ "Validate", "de/d10/a26458.html#adabf22bd591a10662ffbf0354a18a936", null ]
+    [ "HandleDispel", "de/d10/a26458.html#aaf6920cb0fec741f3cff1d3f6e6d2c0f", null ],
+    [ "PrepareAuraScript", "de/d10/a26458.html#ace0ce4b85311893e1e6df403a6387cd9", null ],
+    [ "Register", "de/d10/a26458.html#a2c67e4327fdd034978d4822311632980", null ],
+    [ "Validate", "de/d10/a26458.html#ad8b5c381904c359ed608c808d5bbd9bd", null ]
 ];

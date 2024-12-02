@@ -1,6 +1,6 @@
 var a20230 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d7/d5d/a20234.html", "d7/d5d/a20234" ],
-    [ "boss_thorim_sif_blizzard", "d9/d65/a20230.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
-    [ "GetAI", "d9/d65/a20230.html#afbff96363951c952a195f5c2a105e279", null ]
+    [ "boss_thorim_lightning_orbAI", "d7/d5d/a20234.html", "d7/d5d/a20234" ],
+    [ "boss_thorim_lightning_orb", "d9/d65/a20230.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "d9/d65/a20230.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

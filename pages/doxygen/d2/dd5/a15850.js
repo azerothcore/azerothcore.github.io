@@ -1,9 +1,13 @@
 var a15850 =
 [
-    [ "npc_memoryAI", "d2/dd5/a15850.html#ad927d377d60b44f43808469042f5feb9", null ],
-    [ "JustDied", "d2/dd5/a15850.html#a7b0484919d671877f29dfa05ca1265d9", null ],
-    [ "Reset", "d2/dd5/a15850.html#a985c51bbfa2cceeb7601432491253aaf", null ],
-    [ "UpdateAI", "d2/dd5/a15850.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
-    [ "events", "d2/dd5/a15850.html#a2ed2993e89728a3723456a67e13581f7", null ],
-    [ "pInstance", "d2/dd5/a15850.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
+    [ "boss_eadricAI", "d2/dd5/a15850.html#a461043fe1bff0f5478e2a57504e7477c", null ],
+    [ "DamageTaken", "d2/dd5/a15850.html#a440899ffdeda7794ef4fa5530638eecc", null ],
+    [ "JustEngagedWith", "d2/dd5/a15850.html#a09a0cebcdffb00e37e9d60111c582669", null ],
+    [ "KilledUnit", "d2/dd5/a15850.html#a0bc5d9ba3f45460e62eebdad4e68b8bd", null ],
+    [ "MovementInform", "d2/dd5/a15850.html#aa20253b3f0aec2678b2e3b1c3a9d1a47", null ],
+    [ "Reset", "d2/dd5/a15850.html#a8776bc2937ed9dc4decd1e71929edf65", null ],
+    [ "SpellHit", "d2/dd5/a15850.html#aef7c66b9ff0a728c140899940a2d7e85", null ],
+    [ "UpdateAI", "d2/dd5/a15850.html#a38e8052f3e5d8d81bb4b79fb41717efb", null ],
+    [ "events", "d2/dd5/a15850.html#a5804ea238fd1c32201c3be943d2fe5ca", null ],
+    [ "pInstance", "d2/dd5/a15850.html#a43a8f2beebae9bb27ff03e0e9af2d36b", null ]
 ];

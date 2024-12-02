@@ -1,10 +1,10 @@
 var a04190 =
 [
-    [ "WardenModuleUse", "de/dee/a11190.html", "de/dee/a11190" ],
-    [ "WardenModuleTransfer", "de/d3a/a11194.html", "de/d3a/a11194" ],
-    [ "WardenHashRequest", "de/de4/a11198.html", "de/de4/a11198" ],
-    [ "ClientWardenModule", "da/d3e/a11202.html", "da/d3e/a11202" ],
-    [ "Warden", "da/d23/a11206.html", "da/d23/a11206" ],
+    [ "WardenModuleUse", "de/d3a/a11194.html", "de/d3a/a11194" ],
+    [ "WardenModuleTransfer", "de/de4/a11198.html", "de/de4/a11198" ],
+    [ "WardenHashRequest", "da/d3e/a11202.html", "da/d3e/a11202" ],
+    [ "ClientWardenModule", "da/d23/a11206.html", "da/d23/a11206" ],
+    [ "Warden", "db/da4/a11210.html", "db/da4/a11210" ],
     [ "WardenCheckType", "d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2", [
       [ "MEM_CHECK", "d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2aba449b452d425f871a9c01be028b5074", null ],
       [ "PAGE_CHECK_A", "d0/dd2/a04190.html#a7598131f87414a66259189a0518ca6f2a331b64b77a83e62b070746aab1ea995f", null ],

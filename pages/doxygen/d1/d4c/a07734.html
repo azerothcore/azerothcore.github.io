@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: lfg::LfgPlayerBoot Struct Reference</title>
+<title>AzerothCore: lfg::LfgRoleCheck Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,7 +107,7 @@ $(document).ready(function(){initNavTree('d1/d4c/a07734.html','../../'); initRes
   <div class="summary">
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d3/d50/a07731.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">lfg::LfgPlayerBoot Struct Reference</div></div>
+  <div class="headertitle"><div class="title">lfg::LfgRoleCheck Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -115,111 +115,132 @@ $(document).ready(function(){initNavTree('d1/d4c/a07734.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a5fe6d6ede54a1f1228e29fc7ef55a413"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a5fe6d6ede54a1f1228e29fc7ef55a413">cancelTime</a></td></tr>
-<tr class="memdesc:a5fe6d6ede54a1f1228e29fc7ef55a413"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time left to vote.  <a href="../../d1/d4c/a07734.html#a5fe6d6ede54a1f1228e29fc7ef55a413">More...</a><br /></td></tr>
-<tr class="separator:a5fe6d6ede54a1f1228e29fc7ef55a413"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f3eddc8fbca950f184b6fb8b400344e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a8f3eddc8fbca950f184b6fb8b400344e">inProgress</a></td></tr>
-<tr class="memdesc:a8f3eddc8fbca950f184b6fb8b400344e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Vote in progress.  <a href="../../d1/d4c/a07734.html#a8f3eddc8fbca950f184b6fb8b400344e">More...</a><br /></td></tr>
-<tr class="separator:a8f3eddc8fbca950f184b6fb8b400344e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7619305fea30cc7fdc47f0a7ee365304"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a24a94f53e8d64ec14618126aff5fb965">LfgAnswerContainer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a7619305fea30cc7fdc47f0a7ee365304">votes</a></td></tr>
-<tr class="memdesc:a7619305fea30cc7fdc47f0a7ee365304"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/dff/a08390.html">Player</a> votes (-1 not answer | 0 Not agree | 1 agree)  <a href="../../d1/d4c/a07734.html#a7619305fea30cc7fdc47f0a7ee365304">More...</a><br /></td></tr>
-<tr class="separator:a7619305fea30cc7fdc47f0a7ee365304"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a949262b4b3cbe0f813aae4fab704e7d2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a949262b4b3cbe0f813aae4fab704e7d2">victim</a></td></tr>
-<tr class="memdesc:a949262b4b3cbe0f813aae4fab704e7d2"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../db/dff/a08390.html">Player</a> guid to be kicked (can't vote)  <a href="../../d1/d4c/a07734.html#a949262b4b3cbe0f813aae4fab704e7d2">More...</a><br /></td></tr>
-<tr class="separator:a949262b4b3cbe0f813aae4fab704e7d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a279a5575ca0956266ae81b7a165874cf"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a279a5575ca0956266ae81b7a165874cf">reason</a></td></tr>
-<tr class="memdesc:a279a5575ca0956266ae81b7a165874cf"><td class="mdescLeft">&#160;</td><td class="mdescRight">kick reason  <a href="../../d1/d4c/a07734.html#a279a5575ca0956266ae81b7a165874cf">More...</a><br /></td></tr>
-<tr class="separator:a279a5575ca0956266ae81b7a165874cf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d5edf075556c488aff36799ee6cb96"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#ac1d5edf075556c488aff36799ee6cb96">cancelTime</a></td></tr>
+<tr class="memdesc:ac1d5edf075556c488aff36799ee6cb96"><td class="mdescLeft">&#160;</td><td class="mdescRight">Time when the rolecheck will fail.  <a href="../../d1/d4c/a07734.html#ac1d5edf075556c488aff36799ee6cb96">More...</a><br /></td></tr>
+<tr class="separator:ac1d5edf075556c488aff36799ee6cb96"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3759dc8140194b09be842365dc0053d7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a1b722a34b2bb9c6f6699bc774c2f246b">LfgRolesMap</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a3759dc8140194b09be842365dc0053d7">roles</a></td></tr>
+<tr class="memdesc:a3759dc8140194b09be842365dc0053d7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="../../da/da3/a08394.html">Player</a> selected roles.  <a href="../../d1/d4c/a07734.html#a3759dc8140194b09be842365dc0053d7">More...</a><br /></td></tr>
+<tr class="separator:a3759dc8140194b09be842365dc0053d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa70ef2d83084359af7bcc9e2de60ce77"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a9596c400ddbfa4a0eadda14c0be342ed">LfgRoleCheckState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#aa70ef2d83084359af7bcc9e2de60ce77">state</a></td></tr>
+<tr class="memdesc:aa70ef2d83084359af7bcc9e2de60ce77"><td class="mdescLeft">&#160;</td><td class="mdescRight">State of the rolecheck.  <a href="../../d1/d4c/a07734.html#aa70ef2d83084359af7bcc9e2de60ce77">More...</a><br /></td></tr>
+<tr class="separator:aa70ef2d83084359af7bcc9e2de60ce77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e6c1deaf47dc835bbab7a1741a57fe2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d6b/a04731.html#a7f47ec56c1412d2da0ff629b760e7f5f">LfgDungeonSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#a1e6c1deaf47dc835bbab7a1741a57fe2">dungeons</a></td></tr>
+<tr class="memdesc:a1e6c1deaf47dc835bbab7a1741a57fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dungeons group is applying for (expanded random dungeons)  <a href="../../d1/d4c/a07734.html#a1e6c1deaf47dc835bbab7a1741a57fe2">More...</a><br /></td></tr>
+<tr class="separator:a1e6c1deaf47dc835bbab7a1741a57fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af07fdfed0b56211af723db06959013f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#af07fdfed0b56211af723db06959013f6">rDungeonId</a></td></tr>
+<tr class="memdesc:af07fdfed0b56211af723db06959013f6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Random Dungeon Id.  <a href="../../d1/d4c/a07734.html#af07fdfed0b56211af723db06959013f6">More...</a><br /></td></tr>
+<tr class="separator:af07fdfed0b56211af723db06959013f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad92b0bd391dae5f934b7d6f8a39351d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d4c/a07734.html#ad92b0bd391dae5f934b7d6f8a39351d8">leader</a></td></tr>
+<tr class="memdesc:ad92b0bd391dae5f934b7d6f8a39351d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Leader of the group.  <a href="../../d1/d4c/a07734.html#ad92b0bd391dae5f934b7d6f8a39351d8">More...</a><br /></td></tr>
+<tr class="separator:ad92b0bd391dae5f934b7d6f8a39351d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a5fe6d6ede54a1f1228e29fc7ef55a413" name="a5fe6d6ede54a1f1228e29fc7ef55a413"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5fe6d6ede54a1f1228e29fc7ef55a413">&#9670;&#160;</a></span>cancelTime</h2>
+<a id="ac1d5edf075556c488aff36799ee6cb96" name="ac1d5edf075556c488aff36799ee6cb96"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d5edf075556c488aff36799ee6cb96">&#9670;&#160;</a></span>cancelTime</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">time_t lfg::LfgPlayerBoot::cancelTime</td>
+          <td class="memname">time_t lfg::LfgRoleCheck::cancelTime</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Time left to vote. </p>
+<p>Time when the rolecheck will fail. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02018">lfg::LFGMgr::InitBoot()</a>, <a class="el" href="../../#l00505">WorldSession::SendLfgBootProposalUpdate()</a>, and <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, and <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>.</p>
 
 </div>
 </div>
-<a id="a8f3eddc8fbca950f184b6fb8b400344e" name="a8f3eddc8fbca950f184b6fb8b400344e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f3eddc8fbca950f184b6fb8b400344e">&#9670;&#160;</a></span>inProgress</h2>
+<a id="a1e6c1deaf47dc835bbab7a1741a57fe2" name="a1e6c1deaf47dc835bbab7a1741a57fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e6c1deaf47dc835bbab7a1741a57fe2">&#9670;&#160;</a></span>dungeons</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool lfg::LfgPlayerBoot::inProgress</td>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a7f47ec56c1412d2da0ff629b760e7f5f">LfgDungeonSet</a> lfg::LfgRoleCheck::dungeons</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>Vote in progress. </p>
+<p>Dungeons group is applying for (expanded random dungeons) </p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02018">lfg::LFGMgr::InitBoot()</a>, <a class="el" href="../../#l00505">WorldSession::SendLfgBootProposalUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l02052">lfg::LFGMgr::UpdateBoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, <a class="el" href="../../#l00388">WorldSession::SendLfgRoleCheckUpdate()</a>, and <a class="el" href="../../#l01398">lfg::LFGMgr::UpdateRoleCheck()</a>.</p>
 
 </div>
 </div>
-<a id="a279a5575ca0956266ae81b7a165874cf" name="a279a5575ca0956266ae81b7a165874cf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a279a5575ca0956266ae81b7a165874cf">&#9670;&#160;</a></span>reason</h2>
+<a id="ad92b0bd391dae5f934b7d6f8a39351d8" name="ad92b0bd391dae5f934b7d6f8a39351d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad92b0bd391dae5f934b7d6f8a39351d8">&#9670;&#160;</a></span>leader</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::string lfg::LfgPlayerBoot::reason</td>
+          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> lfg::LfgRoleCheck::leader</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>kick reason </p>
+<p>Leader of the group. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02018">lfg::LFGMgr::InitBoot()</a>, and <a class="el" href="../../#l00505">WorldSession::SendLfgBootProposalUpdate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, <a class="el" href="../../#l00388">WorldSession::SendLfgRoleCheckUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l01398">lfg::LFGMgr::UpdateRoleCheck()</a>.</p>
 
 </div>
 </div>
-<a id="a949262b4b3cbe0f813aae4fab704e7d2" name="a949262b4b3cbe0f813aae4fab704e7d2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a949262b4b3cbe0f813aae4fab704e7d2">&#9670;&#160;</a></span>victim</h2>
+<a id="af07fdfed0b56211af723db06959013f6" name="af07fdfed0b56211af723db06959013f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af07fdfed0b56211af723db06959013f6">&#9670;&#160;</a></span>rDungeonId</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/d5b/a08194.html">ObjectGuid</a> lfg::LfgPlayerBoot::victim</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::LfgRoleCheck::rDungeonId</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../db/dff/a08390.html">Player</a> guid to be kicked (can't vote) </p>
+<p>Random Dungeon Id. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02018">lfg::LFGMgr::InitBoot()</a>, <a class="el" href="../../#l00505">WorldSession::SendLfgBootProposalUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l02052">lfg::LFGMgr::UpdateBoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, <a class="el" href="../../#l00388">WorldSession::SendLfgRoleCheckUpdate()</a>, and <a class="el" href="../../#l01398">lfg::LFGMgr::UpdateRoleCheck()</a>.</p>
 
 </div>
 </div>
-<a id="a7619305fea30cc7fdc47f0a7ee365304" name="a7619305fea30cc7fdc47f0a7ee365304"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7619305fea30cc7fdc47f0a7ee365304">&#9670;&#160;</a></span>votes</h2>
+<a id="a3759dc8140194b09be842365dc0053d7" name="a3759dc8140194b09be842365dc0053d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3759dc8140194b09be842365dc0053d7">&#9670;&#160;</a></span>roles</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a24a94f53e8d64ec14618126aff5fb965">LfgAnswerContainer</a> lfg::LfgPlayerBoot::votes</td>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a1b722a34b2bb9c6f6699bc774c2f246b">LfgRolesMap</a> lfg::LfgRoleCheck::roles</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="../../db/dff/a08390.html">Player</a> votes (-1 not answer | 0 Not agree | 1 agree) </p>
+<p><a class="el" href="../../da/da3/a08394.html">Player</a> selected roles. </p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l02018">lfg::LFGMgr::InitBoot()</a>, <a class="el" href="../../#l00505">WorldSession::SendLfgBootProposalUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l02052">lfg::LFGMgr::UpdateBoot()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, <a class="el" href="../../#l00388">WorldSession::SendLfgRoleCheckUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l01398">lfg::LFGMgr::UpdateRoleCheck()</a>.</p>
+
+</div>
+</div>
+<a id="aa70ef2d83084359af7bcc9e2de60ce77" name="aa70ef2d83084359af7bcc9e2de60ce77"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa70ef2d83084359af7bcc9e2de60ce77">&#9670;&#160;</a></span>state</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/d6b/a04731.html#a9596c400ddbfa4a0eadda14c0be342ed">LfgRoleCheckState</a> lfg::LfgRoleCheck::state</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>State of the rolecheck. </p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00510">lfg::LFGMgr::JoinLfg()</a>, <a class="el" href="../../#l00388">WorldSession::SendLfgRoleCheckUpdate()</a>, <a class="el" href="../../#l00274">lfg::LFGMgr::Update()</a>, and <a class="el" href="../../#l01398">lfg::LFGMgr::UpdateRoleCheck()</a>.</p>
 
 </div>
 </div>
@@ -228,8 +249,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d6b/a04731.html">lfg</a></li><li class="navelem"><a class="el" href="../../d1/d4c/a07734.html">LfgPlayerBoot</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dc/d6b/a04731.html">lfg</a></li><li class="navelem"><a class="el" href="../../d1/d4c/a07734.html">LfgRoleCheck</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

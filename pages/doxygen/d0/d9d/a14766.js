@@ -1,18 +1,10 @@
 var a14766 =
 [
-    [ "boss_ouro", "d0/d9d/a14766.html#a624700c5010edda9e7880070bd7495d7", null ],
-    [ "CanAIAttack", "d0/d9d/a14766.html#a7b9682b239a2d436069b9e6be1d90648", null ],
-    [ "CastGroundRupture", "d0/d9d/a14766.html#a2b8d88aeb824890a090f3bec544f5de2", null ],
-    [ "DamageTaken", "d0/d9d/a14766.html#aa571cee2fee8a79917f4c63b94a9a1b6", null ],
-    [ "Emerge", "d0/d9d/a14766.html#ac0b0c890f8cec105e6c284f6c1c5dd78", null ],
-    [ "EnterEvadeMode", "d0/d9d/a14766.html#aee5769af48127617d40fa440d042e434", null ],
-    [ "IsPlayerWithinMeleeRange", "d0/d9d/a14766.html#a9f9b4a53cf5c7e9d4e98d2d57e500172", null ],
-    [ "JustEngagedWith", "d0/d9d/a14766.html#a20b0b4a3770564595f40e1375b2811d7", null ],
-    [ "Reset", "d0/d9d/a14766.html#a8d8e471d0a76950d4bcbdb3e6d1b77bf", null ],
-    [ "SpellHitTarget", "d0/d9d/a14766.html#a53fb0c076ce60d769d21fa740fa73308", null ],
-    [ "Submerge", "d0/d9d/a14766.html#aa39a371112f585da952331c200b8b5aa", null ],
-    [ "UpdateAI", "d0/d9d/a14766.html#ab59237535be7a86cb4c0db4819a4d9d5", null ],
-    [ "_enraged", "d0/d9d/a14766.html#a14a147b2cb47bbc5bd7cdeb49fd22328", null ],
-    [ "_submerged", "d0/d9d/a14766.html#aff594fd1558ac0c150ef7dc44b185863", null ],
-    [ "_submergeMelee", "d0/d9d/a14766.html#a1f9afe42fad602f470456929214f40d3", null ]
+    [ "boss_huhuran", "d0/d9d/a14766.html#a64e0b20891992764c708cbb661c18196", null ],
+    [ "DamageTaken", "d0/d9d/a14766.html#adb47086f29b41f4168ad5d1b2728547d", null ],
+    [ "JustEngagedWith", "d0/d9d/a14766.html#a08f1d6550680d5bcf07332eade115730", null ],
+    [ "Reset", "d0/d9d/a14766.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
+    [ "UpdateAI", "d0/d9d/a14766.html#a23962e668f046b373f94ea6a2d75574a", null ],
+    [ "_berserk", "d0/d9d/a14766.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
+    [ "_hardEnrage", "d0/d9d/a14766.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
 ];

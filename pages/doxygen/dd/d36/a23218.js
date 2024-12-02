@@ -1,6 +1,6 @@
 var a23218 =
 [
-    [ "instance_hellfire_ramparts_InstanceMapScript", "d2/d9b/a23222.html", "d2/d9b/a23222" ],
-    [ "instance_hellfire_ramparts", "dd/d36/a23218.html#ab6ee671123dd0d736e9745e45e04b8da", null ],
-    [ "GetInstanceScript", "dd/d36/a23218.html#a6f2dc361984b33c1d14d62d67a563e8d", null ]
+    [ "HandleScriptEffect", "dd/d36/a23218.html#af0841e5c67c981b792a8d8f0d0d18edc", null ],
+    [ "PrepareSpellScript", "dd/d36/a23218.html#a287bff28e57a86f0176921500de78fa9", null ],
+    [ "Register", "dd/d36/a23218.html#ad5fb101794dfdef0c08551dd9397b965", null ]
 ];

@@ -1,6 +1,8 @@
 var a26466 =
 [
-    [ "HandleAfterHit", "d9/d51/a26466.html#a177bcf10d6b8fa586ff0cac3834367f9", null ],
-    [ "PrepareSpellScript", "d9/d51/a26466.html#ac16ef2ff92440deab6c69f4824bdd619", null ],
-    [ "Register", "d9/d51/a26466.html#a46fe3d7ebd663d1cb27aa473a56e81eb", null ]
+    [ "ApplyEffect", "d9/d51/a26466.html#a0c303c58064236969e17d1f2df3e0556", null ],
+    [ "PrepareAuraScript", "d9/d51/a26466.html#a716a483282946f840ac15d73c6e21a94", null ],
+    [ "Register", "d9/d51/a26466.html#ad72816bc73bdb1cf578f3c4599ec1682", null ],
+    [ "RemoveEffect", "d9/d51/a26466.html#a571b1b19f4d5b13e54288aa89ab1e9b6", null ],
+    [ "Validate", "d9/d51/a26466.html#a99eb27ead6f5c8c8f569626600f2daf9", null ]
 ];

@@ -1,6 +1,6 @@
 var a17666 =
 [
-    [ "FilterTargets", "db/dfc/a17666.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
-    [ "PrepareSpellScript", "db/dfc/a17666.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
-    [ "Register", "db/dfc/a17666.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
+    [ "npc_ice_tombAI", "df/d4b/a17670.html", "df/d4b/a17670" ],
+    [ "npc_ice_tomb", "db/dfc/a17666.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
+    [ "GetAI", "db/dfc/a17666.html#ac99b7c9887e54a1764310bd3e079811a", null ]
 ];

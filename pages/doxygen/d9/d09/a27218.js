@@ -1,6 +1,7 @@
 var a27218 =
 [
-    [ "npc_guardianAI", "d7/d08/a27222.html", "d7/d08/a27222" ],
-    [ "npc_guardian", "d9/d09/a27218.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
-    [ "GetAI", "d9/d09/a27218.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
+    [ "npc_steam_tonkAI", "d9/d09/a27218.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "d9/d09/a27218.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "d9/d09/a27218.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "d9/d09/a27218.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

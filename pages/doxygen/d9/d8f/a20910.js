@@ -1,13 +1,6 @@
 var a20910 =
 [
-    [ "boss_toravonAI", "d9/d8f/a20910.html#a98474fcfbc56c7850ae054b7489eaa4f", null ],
-    [ "AttackStart", "d9/d8f/a20910.html#ac4e2ed28ba7863630cd54c8f6c11455f", null ],
-    [ "JustDied", "d9/d8f/a20910.html#ad501bb34a0014be0abc965aae5383e21", null ],
-    [ "JustEngagedWith", "d9/d8f/a20910.html#af6a6cfd1ec54546c2e70ea60f871b564", null ],
-    [ "JustSummoned", "d9/d8f/a20910.html#a431dafbcc3a6581d771e810a85a92a0b", null ],
-    [ "Reset", "d9/d8f/a20910.html#a4af8eb8863e7ee1559bc156b7f28e8d8", null ],
-    [ "UpdateAI", "d9/d8f/a20910.html#a97c16b1689cfdb7fa680381964cb272a", null ],
-    [ "events", "d9/d8f/a20910.html#ae2a3b691f1580275228204ea8ccaf846", null ],
-    [ "pInstance", "d9/d8f/a20910.html#a912bcccd309ccd1f043c5aae633e78fe", null ],
-    [ "summons", "d9/d8f/a20910.html#a56ca98fa12190d6d9d459bc5e569ae04", null ]
+    [ "npc_frozen_orb_stalkerAI", "d9/d8f/a20910.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
+    [ "JustSummoned", "d9/d8f/a20910.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
+    [ "Reset", "d9/d8f/a20910.html#a064ccb90afeb9b36d501850482c60bc4", null ]
 ];

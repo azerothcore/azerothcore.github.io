@@ -1,6 +1,17 @@
 var a13310 =
 [
-    [ "npc_ravenclaw_apparitionAI", "d9/d3b/a13314.html", "d9/d3b/a13314" ],
-    [ "npc_ravenclaw_apparition", "db/d65/a13310.html#a961044571250519e62d7d33633974038", null ],
-    [ "GetAI", "db/d65/a13310.html#a9de4a85f8318ff8b1ad30aa4c8f15765", null ]
+    [ "pyrewood_ambushAI", "db/d65/a13310.html#a29af91205e33cdde314edf35a44223a0", null ],
+    [ "JustDied", "db/d65/a13310.html#a27edb00452f9d43fc25c21b4f2e70ba3", null ],
+    [ "JustEngagedWith", "db/d65/a13310.html#a22f4ee8582e1f99ffa49664088ca10d2", null ],
+    [ "JustSummoned", "db/d65/a13310.html#abbf652df1707f706be1507122f852040", null ],
+    [ "Reset", "db/d65/a13310.html#a65b370d028a2d47c4c6aeec737769d08", null ],
+    [ "SummonCreatureWithRandomTarget", "db/d65/a13310.html#a32dfe2544ad6af64f1c4a4de0fe2acc2", null ],
+    [ "SummonedCreatureDespawn", "db/d65/a13310.html#aaf23bf0a443a21db123b39625cc1b3fc", null ],
+    [ "UpdateAI", "db/d65/a13310.html#a7bc951934bfdb04f1bdc00719c567cae", null ],
+    [ "KillCount", "db/d65/a13310.html#a18887d364811047446ad77525cea7386", null ],
+    [ "Phase", "db/d65/a13310.html#aec1fc4163f3fb2d4a6047f8849c22fae", null ],
+    [ "PlayerGUID", "db/d65/a13310.html#aac20edbf41d884daee88a7dc0a9fefb8", null ],
+    [ "QuestInProgress", "db/d65/a13310.html#a8ad845d7389f7b430c9e6878234aae82", null ],
+    [ "Summons", "db/d65/a13310.html#ab07bf154dfff45075900fbb4a6372623", null ],
+    [ "WaitTimer", "db/d65/a13310.html#a1d6ca4989cf7360a18655198ccdb5459", null ]
 ];

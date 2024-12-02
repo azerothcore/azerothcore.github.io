@@ -1,6 +1,6 @@
 var a11954 =
 [
-    [ "boss_flamegorAI", "dc/d3f/a11958.html", "dc/d3f/a11958" ],
-    [ "boss_flamegor", "d7/d68/a11954.html#abc6f068c81466d08306d94667bb1974b", null ],
-    [ "GetAI", "d7/d68/a11954.html#a56fb8425c55703fbda14a982d8fdcb2d", null ]
+    [ "boss_firemawAI", "d7/d68/a11954.html#ab3f56c97119676b1a75662e52caecb75", null ],
+    [ "JustEngagedWith", "d7/d68/a11954.html#a04cb1d2fa18dba82b9c881b09406a076", null ],
+    [ "UpdateAI", "d7/d68/a11954.html#a6e35e47b23d713263ef00769324bbbed", null ]
 ];

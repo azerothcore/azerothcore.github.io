@@ -1,8 +1,8 @@
 var a14010 =
 [
-    [ "npc_hallows_end_train_fire", "d7/d3f/a14010.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
-    [ "Reset", "d7/d3f/a14010.html#afdda52e0adce23f56fa9d1357469a17d", null ],
-    [ "SpellHit", "d7/d3f/a14010.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
-    [ "UpdateAI", "d7/d3f/a14010.html#a686a565e1743c31166d8d57f67a0adce", null ],
-    [ "timer", "d7/d3f/a14010.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
+    [ "CalcPeriodic", "d7/d3f/a14010.html#ae2ce9c161a25385c6de1f4b7607c9935", null ],
+    [ "HandleEffectApply", "d7/d3f/a14010.html#a4321da69ee59416bd50e621b804e5423", null ],
+    [ "HandleEffectPeriodicUpdate", "d7/d3f/a14010.html#a3f23e4a8fecf83ba580c904f15e1e98b", null ],
+    [ "PrepareAuraScript", "d7/d3f/a14010.html#a956136be8cb484efc9af2429d8779a03", null ],
+    [ "Register", "d7/d3f/a14010.html#a1d4b1c43305b3133e4ac7f8b6ce70727", null ]
 ];

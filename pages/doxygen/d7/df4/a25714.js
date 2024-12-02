@@ -1,8 +1,9 @@
 var a25714 =
 [
-    [ "HandleApply", "d7/df4/a25714.html#aafdf3712f163919f010d11d0becb398f", null ],
-    [ "HandleRemove", "d7/df4/a25714.html#ac3e33cb37d13b633f3938a48917a4975", null ],
-    [ "PrepareAuraScript", "d7/df4/a25714.html#a42590a0ef43a48c5309f995f9bec5c9b", null ],
-    [ "Register", "d7/df4/a25714.html#a84e7337494dc2e1772ca10dea26c675f", null ],
-    [ "Validate", "d7/df4/a25714.html#ac2558aafb3ce66ca7bbfd718eb8c6338", null ]
+    [ "Load", "d7/df4/a25714.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
+    [ "PrepareSpellScript", "d7/df4/a25714.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
+    [ "Register", "d7/df4/a25714.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
+    [ "TriggerHeal", "d7/df4/a25714.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
+    [ "Validate", "d7/df4/a25714.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
+    [ "healPct", "d7/df4/a25714.html#a33b4d26c34903e45b7274e369f096ce1", null ]
 ];

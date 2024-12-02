@@ -1,10 +1,13 @@
 var a02174 =
 [
-    [ "npc_forest_frog", "dd/de8/a13526.html", "dd/de8/a13526" ],
-    [ "npc_zulaman_hostage", "d0/d9c/a13530.html", "d0/d9c/a13530" ],
-    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "d3/dd6/a13534.html", "d3/dd6/a13534" ],
-    [ "npc_harrison_jones", "d1/d68/a13538.html", "d1/d68/a13538" ],
-    [ "spell_ritual_of_power", "d0/d46/a13542.html", "d0/d46/a13542" ],
+    [ "npc_forest_frog", "d0/d9c/a13530.html", "d0/d9c/a13530" ],
+    [ "npc_zulaman_hostage", "d3/dd6/a13534.html", "d3/dd6/a13534" ],
+    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "d1/d68/a13538.html", "d1/d68/a13538" ],
+    [ "npc_harrison_jones", "d0/d46/a13542.html", "d0/d46/a13542" ],
+    [ "spell_ritual_of_power", "dd/de2/a13546.html", "dd/de2/a13546" ],
+    [ "npc_amanishi_lookout", "d1/d8d/a13550.html", "d1/d8d/a13550" ],
+    [ "npc_amanishi_tempest", "d3/d18/a13554.html", "d3/d18/a13554" ],
+    [ "npc_eagle_trash_aggro_trigger", "dd/d9c/a13558.html", "dd/d9c/a13558" ],
     [ "GOSSIP_HOSTAGE1", "d6/d6e/a02174.html#a7e5907213ed023454f786158e3b1f388", null ],
     [ "Actions", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
@@ -89,6 +92,17 @@ var a02174 =
       [ "ACTION_START_INTRO", "db/d40/a00959.html#a250372292659bed7ae290d8621f88ccfa662074617cb51c00a6119b2d0197ee66", null ],
       [ "ACTION_CANCEL_INTRO", "db/d40/a00959.html#a250372292659bed7ae290d8621f88ccfabb3241566229f7036dfe0bed5482ec3f", null ],
       [ "ACTION_START_COMBAT", "db/d40/a00959.html#a250372292659bed7ae290d8621f88ccfaa1b2366514ddc5e937e9a259364b0905", null ]
+    ] ],
+    [ "AmanishiLookout", "d6/d6e/a02174.html#a551260ec9098e89aace8d91b15b67846", [
+      [ "PATH_LOOKOUT", "d6/d6e/a02174.html#a551260ec9098e89aace8d91b15b67846ab61b8a7a29e91e546145fa1cead1aff9", null ],
+      [ "SAY_INVADERS", "d6/d6e/a02174.html#a551260ec9098e89aace8d91b15b67846abf1483656937ad0229f0cb987645d65b", null ]
+    ] ],
+    [ "AmanishiTempest", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9", [
+      [ "ACTION_START_GAUNTLET", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9a840f14c0588f0609c97c592a3413780f", null ],
+      [ "GROUP_AKILZON_GAUNTLET", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9a136872dfc6d7fb760a44ae3046615c25", null ],
+      [ "SPELL_SUMMON_EAGLE", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9a0947710156d8a33ca49bb50006eaeb9b", null ],
+      [ "SPELL_SUMMON_WARRIOR", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9a2cbca2a74cf6c73fc2fb28813653c694", null ],
+      [ "SPELL_THUNDERCLAP", "d6/d6e/a02174.html#a1afe75d1237125e79ceb9bc5ee72f3d9a7f4e66bb0a1b5b2705975420f645b16e", null ]
     ] ],
     [ "DisplayIds", "d6/d6e/a02174.html#ae174127de47b293b45880c8eb9ed7762", [
       [ "MODEL_HARRISON_JONES_0", "d6/d6e/a02174.html#ae174127de47b293b45880c8eb9ed7762aed66d1a5a4697411e1639336f0eb6e8c", null ],

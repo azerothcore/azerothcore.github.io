@@ -1,10 +1,12 @@
 var a15970 =
 [
-    [ "npc_nerubian_burrowerAI", "d4/dcd/a15970.html#a7673709e7b16a6573d9c7392ba556313", null ],
-    [ "CanAIAttack", "d4/dcd/a15970.html#a82e4a5ca23ae2a94212b214aad1c69df", null ],
-    [ "JustDied", "d4/dcd/a15970.html#ab5182ad65187c472b306e2177530d7b6", null ],
-    [ "Reset", "d4/dcd/a15970.html#a4491965d9c08ed1d888cad6f7b06352d", null ],
-    [ "SpellHitTarget", "d4/dcd/a15970.html#a64fa2c8276f7418542190e833dd72c51", null ],
-    [ "UpdateAI", "d4/dcd/a15970.html#abd2c7333625ded502a00848b09ee9a40", null ],
-    [ "events", "d4/dcd/a15970.html#ab45e8c6dd9ea3552fed4b926136f80e6", null ]
+    [ "npc_swarm_scarabAI", "d4/dcd/a15970.html#a0d0cefd52543044773e7df772f90fd37", null ],
+    [ "CanAIAttack", "d4/dcd/a15970.html#a95a27742f4f7fa1af45964b6270a9558", null ],
+    [ "DoAction", "d4/dcd/a15970.html#ac1fe6742ef1e7bdee4c81a3933a31659", null ],
+    [ "JustDied", "d4/dcd/a15970.html#a0fe99c71cac6d3ee8d360f0d46d03fcd", null ],
+    [ "JustEngagedWith", "d4/dcd/a15970.html#a585e1e8800e97b2aa3d6c893d54c1d2b", null ],
+    [ "Reset", "d4/dcd/a15970.html#aa24cc2f2b7aa4c5c534e8d2ce2957237", null ],
+    [ "UpdateAI", "d4/dcd/a15970.html#aa33d9e101ba7de2a25a6213baccf6df1", null ],
+    [ "despawnTimer", "d4/dcd/a15970.html#a6d35e43af695ac112b972badb665f06d", null ],
+    [ "determinationTimer", "d4/dcd/a15970.html#af319dbf16bc1d3939602465f0a87d30c", null ]
 ];

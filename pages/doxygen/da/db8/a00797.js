@@ -1,10 +1,10 @@
 var a00797 =
 [
-    [ "boss_the_black_stalker", "d2/d94/a23062.html", "d2/d94/a23062" ],
-    [ "spell_the_black_stalker_levitate", "db/d4a/a23066.html", "db/d4a/a23066" ],
-    [ "spell_the_black_stalker_levitation_pulse", "d1/df1/a23070.html", "d1/df1/a23070" ],
-    [ "spell_the_black_stalker_someone_grab_me", "d8/d79/a23074.html", "d8/d79/a23074" ],
-    [ "spell_the_black_stalker_magnetic_pull", "d2/d37/a23078.html", "d2/d37/a23078" ],
+    [ "boss_the_black_stalker", "de/dd6/a23046.html", "de/dd6/a23046" ],
+    [ "spell_the_black_stalker_levitate", "d5/d5c/a23050.html", "d5/d5c/a23050" ],
+    [ "spell_the_black_stalker_levitation_pulse", "d7/d78/a23054.html", "d7/d78/a23054" ],
+    [ "spell_the_black_stalker_someone_grab_me", "d8/d4b/a23058.html", "d8/d4b/a23058" ],
+    [ "spell_the_black_stalker_magnetic_pull", "d2/d94/a23062.html", "d2/d94/a23062" ],
     [ "eBlackStalker", "da/db8/a00797.html#afbee42c6927db9ad2cf9d9096eeac954", [
       [ "SPELL_ACID_BREATH", "df/d0c/a00788.html#afbee42c6927db9ad2cf9d9096eeac954af39adcb38f10e84d7ff9bac76f41031c", null ],
       [ "SPELL_ACID_SPIT", "df/d0c/a00788.html#afbee42c6927db9ad2cf9d9096eeac954af69c625b663facf12cc5d8a20a280806", null ],

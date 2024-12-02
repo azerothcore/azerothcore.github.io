@@ -1,7 +1,7 @@
 var a15630 =
 [
-    [ "DelayedTalk", "da/d48/a15630.html#a8a7ea9e6ddebd73996cfe8d9723276bc", null ],
-    [ "Execute", "da/d48/a15630.html#a88c1915e73bcbd8ec253a537c416caf7", null ],
-    [ "_owner", "da/d48/a15630.html#a9d13769bb3fbaed32919fc919da35006", null ],
-    [ "_talkId", "da/d48/a15630.html#a3f3a1688a36807c653a5d071dd2bb389", null ]
+    [ "HandleHit", "da/d48/a15630.html#abd59d91ab50eb8945a4a00157d9d5564", null ],
+    [ "PrepareSpellScript", "da/d48/a15630.html#a27549f3cacc1732bbc1e61209e0f4905", null ],
+    [ "Register", "da/d48/a15630.html#af132eee38064c5123f4e01d52efb9314", null ],
+    [ "Validate", "da/d48/a15630.html#accad8dfdf29a1475b6f272259f1ed9bf", null ]
 ];

@@ -1,7 +1,6 @@
 var a17478 =
 [
-    [ "HandleScript", "d9/dc9/a17478.html#afc76149cb44a4d2aab48350fb4392036", null ],
-    [ "PrepareSpellScript", "d9/dc9/a17478.html#a8598de219c2402596fe97b5dd32c534e", null ],
-    [ "Register", "d9/dc9/a17478.html#ac9d4842632431e52932f66d09042ea70", null ],
-    [ "ScaleRange", "d9/dc9/a17478.html#a9bcc80bd2a8df20ac7fc8f2256f519d9", null ]
+    [ "npc_volatile_oozeAI", "db/d49/a17482.html", "db/d49/a17482" ],
+    [ "npc_volatile_ooze", "d9/dc9/a17478.html#a22847e44812a0b13b92cfcca3a70204e", null ],
+    [ "GetAI", "d9/dc9/a17478.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
 ];

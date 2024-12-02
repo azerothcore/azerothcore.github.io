@@ -1,5 +1,6 @@
 var a19998 =
 [
-    [ "achievement_kologarn_rubble_and_roll", "dd/d2b/a19998.html#ae36bbab8d82f10ad120a1e7564a13961", null ],
-    [ "OnCheck", "dd/d2b/a19998.html#acb0f72ebdf1917a3331b3fc0f9aa4300", null ]
+    [ "HandleInstaKill", "dd/d2b/a19998.html#a593786eb89bf77e05dad4b502ffc1925", null ],
+    [ "PrepareSpellScript", "dd/d2b/a19998.html#aa89401a4c6b1c85e4242bda45933b0ad", null ],
+    [ "Register", "dd/d2b/a19998.html#a46f2c2658e6b55f091bf8894f06a787c", null ]
 ];

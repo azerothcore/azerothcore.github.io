@@ -1,8 +1,8 @@
 var a18898 =
 [
-    [ "FilterTargets", "db/dc5/a18898.html#af6700817fd92dbe495e20d5c43b5d6b5", null ],
-    [ "Load", "db/dc5/a18898.html#a639105c26214d9887b84a482ca93eb26", null ],
-    [ "PrepareSpellScript", "db/dc5/a18898.html#a354ae20be436528b16095d4cd8d37859", null ],
-    [ "Register", "db/dc5/a18898.html#a5fcc9cc654d6495f535600a6eef4c968", null ],
-    [ "DrakeGUID", "db/dc5/a18898.html#ad4bbd7d559cdcc21ae5fafae75cd8eb3", null ]
+    [ "npc_alexstraszaAI", "db/dc5/a18898.html#a36cf63109e379fa4a9e3f3426d70e50c", null ],
+    [ "AttackStart", "db/dc5/a18898.html#a120931695bf3ea649289ee4f6df9a3fd", null ],
+    [ "MoveInLineOfSight", "db/dc5/a18898.html#af93fc8e8877cc5730db7a9386ac3d815", null ],
+    [ "UpdateAI", "db/dc5/a18898.html#aa8cc3ee1a2a4702349b39708cc172594", null ],
+    [ "events", "db/dc5/a18898.html#aade88413d2f2998be6dcb9d15bf85ce0", null ]
 ];

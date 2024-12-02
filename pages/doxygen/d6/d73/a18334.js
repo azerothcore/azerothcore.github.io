@@ -1,6 +1,7 @@
 var a18334 =
 [
-    [ "PrepareSpellScript", "d6/d73/a18334.html#aac12da39c503615036120e3e0cd55622", null ],
-    [ "Register", "d6/d73/a18334.html#a808d2283be9714c14f22a2df0a52dd61", null ],
-    [ "RelocateDest", "d6/d73/a18334.html#a843c9dc403404ddd2de667e57e01f00c", null ]
+    [ "HandleQuestComplete", "d6/d73/a18334.html#a5f1e6c4358df4e0910b2227f90b39d24", null ],
+    [ "HandleScript", "d6/d73/a18334.html#a309052e9b7c3d3747d15ab5e9c0d25fd", null ],
+    [ "PrepareSpellScript", "d6/d73/a18334.html#ac9b2786ba2dbb8d1c74af05153bb0a6f", null ],
+    [ "Register", "d6/d73/a18334.html#a3258d4517cfc758080691bab429624d7", null ]
 ];

@@ -1,8 +1,5 @@
 var a16318 =
 [
-    [ "HandleEffectApply", "d3/d7e/a16318.html#a92b98d9b9be98c330b6efbe34dae235b", null ],
-    [ "HandleEffectRemove", "d3/d7e/a16318.html#a04504220319ec562b1b6691f471c1b8d", null ],
-    [ "PrepareAuraScript", "d3/d7e/a16318.html#a10fd29809373bcfaf38fd587fcdd1dee", null ],
-    [ "Register", "d3/d7e/a16318.html#a9160c940913e4829bd0a6fe269c3b5d3", null ],
-    [ "Validate", "d3/d7e/a16318.html#a7f7750933e122e8c672b6b93f4801cd7", null ]
+    [ "achievement_oh_novos", "d3/d7e/a16318.html#a31ca1f458c384401af107cb8f709ef61", null ],
+    [ "OnCheck", "d3/d7e/a16318.html#a3b922d9ed709ed46edca794f5ccf858f", null ]
 ];

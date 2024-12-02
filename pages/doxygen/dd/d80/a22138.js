@@ -1,13 +1,9 @@
 var a22138 =
 [
-    [ "OPvPCapturePointEP_PWT", "dd/d80/a22138.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
-    [ "ChangeState", "dd/d80/a22138.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
-    [ "FillInitialWorldStates", "dd/d80/a22138.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
-    [ "HandlePlayerEnter", "dd/d80/a22138.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
-    [ "HandlePlayerLeave", "dd/d80/a22138.html#a5772e54263c613eee365856def5e74e6", null ],
-    [ "SendChangePhase", "dd/d80/a22138.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
-    [ "SummonFlightMaster", "dd/d80/a22138.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
-    [ "UpdateTowerState", "dd/d80/a22138.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
-    [ "m_FlightMasterSpawnedId", "dd/d80/a22138.html#afeefd804849b925e6d0a880d8efb5319", null ],
-    [ "m_TowerState", "dd/d80/a22138.html#a914dcbb37baf457750cfe9829d95d88c", null ]
+    [ "OPvPCapturePointGH", "dd/d80/a22138.html#a6e46100e50212310af4301c492d5773e", null ],
+    [ "ChangeState", "dd/d80/a22138.html#afe53e37a3a1dc4a7068c03302f26b981", null ],
+    [ "FillInitialWorldStates", "dd/d80/a22138.html#ad1c3ece363da12750c851cf510228a06", null ],
+    [ "HandlePlayerEnter", "dd/d80/a22138.html#afea733c44d129d9a5af78a8337d9e04a", null ],
+    [ "HandlePlayerLeave", "dd/d80/a22138.html#a1e5d9c6f02eb02dfed654078c910635b", null ],
+    [ "SendChangePhase", "dd/d80/a22138.html#aec741b9102829bf77850dc06a49bb8da", null ]
 ];

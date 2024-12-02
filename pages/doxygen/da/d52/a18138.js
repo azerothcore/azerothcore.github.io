@@ -1,6 +1,6 @@
 var a18138 =
 [
-    [ "npc_gluttonous_abominationAI", "dd/de1/a18142.html", "dd/de1/a18142" ],
-    [ "npc_gluttonous_abomination", "da/d52/a18138.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
-    [ "GetAI", "da/d52/a18138.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
+    [ "npc_suppresserAI", "dd/de1/a18142.html", "dd/de1/a18142" ],
+    [ "npc_suppresser", "da/d52/a18138.html#a5db40aecba3c45281fe963c6b2bd8d1e", null ],
+    [ "GetAI", "da/d52/a18138.html#a48869515abbac1491337a93b987231da", null ]
 ];

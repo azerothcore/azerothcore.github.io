@@ -1,8 +1,6 @@
 var a17038 =
 [
-    [ "npc_high_overlord_saurfangAI", "d3/d91/a17042.html", "d3/d91/a17042" ],
-    [ "npc_high_overlord_saurfang_icc", "db/d54/a17038.html#ac02fe80550572e142406c2d80c0392df", null ],
-    [ "GetAI", "db/d54/a17038.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
-    [ "OnGossipHello", "db/d54/a17038.html#a515a87f751527412222cfdd968febe7c", null ],
-    [ "OnGossipSelect", "db/d54/a17038.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
+    [ "HandleScript", "db/d54/a17038.html#acd11d50f398857dc2a24bd2d63e52222", null ],
+    [ "PrepareSpellScript", "db/d54/a17038.html#a3d218b009c195b6e0fab5152a95da8ad", null ],
+    [ "Register", "db/d54/a17038.html#ad7f12515dc21ab6b19148370fd491629", null ]
 ];

@@ -1,6 +1,7 @@
 var a23366 =
 [
-    [ "instance_arcatraz_InstanceMapScript", "dc/dbe/a23370.html", "dc/dbe/a23370" ],
-    [ "instance_arcatraz", "d2/dd3/a23366.html#a6fc8860651573353b54fd26bddea32aa", null ],
-    [ "GetInstanceScript", "d2/dd3/a23366.html#ad3f78e41ef2c96443ed3bd1ba4ab55bb", null ]
+    [ "HandleCast", "d2/dd3/a23366.html#a0084e7f81fcd032c1e04b8f86d821993", null ],
+    [ "PrepareSpellScript", "d2/dd3/a23366.html#acfd6b86e5afed08fd9cf43f64e948149", null ],
+    [ "Register", "d2/dd3/a23366.html#a6ae0573ea69573df64cd57ba84f99918", null ],
+    [ "Validate", "d2/dd3/a23366.html#ab5794ca5c0863ce40194ed40e156279a", null ]
 ];

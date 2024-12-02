@@ -1,14 +1,13 @@
 var a14790 =
 [
-    [ "boss_twinemperorsAI", "d6/d50/a14790.html#ae0857b191dbbf086533062aee5885237", null ],
-    [ "DamageTaken", "d6/d50/a14790.html#a118151851f36de9dfc22971a965cb047", null ],
-    [ "DoAction", "d6/d50/a14790.html#a2b5e585749b7a59663813c7a9d56c223", null ],
-    [ "EnterEvadeMode", "d6/d50/a14790.html#ab5a1b28405c38ece65f5ee145e472de8", null ],
-    [ "GetTwin", "d6/d50/a14790.html#af23aa54bca9752c242e80331862ace4d", null ],
-    [ "IAmVeklor", "d6/d50/a14790.html#acdccdde2ee573f51e1783ea493577258", null ],
-    [ "JustDied", "d6/d50/a14790.html#a9cc74619908c2aa9f8deda2689616735", null ],
-    [ "JustEngagedWith", "d6/d50/a14790.html#ab9a279e9ba3bb057268602be7368ffe4", null ],
-    [ "KilledUnit", "d6/d50/a14790.html#aaa52e01bfeff824345f7b9c7346e8aef", null ],
-    [ "UpdateAI", "d6/d50/a14790.html#a4d9e07fd3f682a24332d0aabe6c55f8f", null ],
-    [ "_introDone", "d6/d50/a14790.html#a1b4689b0c403f7246ae100e4f716b138", null ]
+    [ "boss_sartura", "d6/d50/a14790.html#a7faaf16a1a56badd1e65a3364d425f02", null ],
+    [ "DamageTaken", "d6/d50/a14790.html#a9a404743ac8491a9efc7091259706e0f", null ],
+    [ "InitializeAI", "d6/d50/a14790.html#ae86d0a6b0cd591b3bb18333195109c22", null ],
+    [ "JustDied", "d6/d50/a14790.html#aceff44022b8d53da41ecfcb1e2317e01", null ],
+    [ "JustEngagedWith", "d6/d50/a14790.html#ab1c024908117e8460eb89c062d3825dc", null ],
+    [ "KilledUnit", "d6/d50/a14790.html#a516a75910e872718a519c2a5c9805770", null ],
+    [ "Reset", "d6/d50/a14790.html#ab3514ad48f622f65d67063723601f8de", null ],
+    [ "UpdateAI", "d6/d50/a14790.html#af3d093dab3f5191d5da2df36ca9c4a11", null ],
+    [ "berserked", "d6/d50/a14790.html#a8ad40cee9667500cb0e9533256d216c6", null ],
+    [ "enraged", "d6/d50/a14790.html#af916ff3f6468b1e48d5b1944442594e5", null ]
 ];

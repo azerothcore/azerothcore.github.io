@@ -1,11 +1,12 @@
 var a20974 =
 [
-    [ "npc_ichor_globuleAI", "dd/d2f/a20974.html#a4d581f89c8385276fd407c000af9e569", null ],
-    [ "AttackStart", "dd/d2f/a20974.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
-    [ "JustDied", "dd/d2f/a20974.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
-    [ "MoveInLineOfSight", "dd/d2f/a20974.html#af8ef8296512d57d934a171f1a5060e73", null ],
-    [ "SpellHit", "dd/d2f/a20974.html#a1396538a446545408e3c304f3e56400f", null ],
-    [ "UpdateAI", "dd/d2f/a20974.html#a6ff13c853583e5178fb3a690e17303de", null ],
-    [ "pInstance", "dd/d2f/a20974.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
-    [ "uiRangeCheck_Timer", "dd/d2f/a20974.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
+    [ "boss_moraggAI", "dd/d2f/a20974.html#a3ae881c9adca20a2cb894af85297d53e", null ],
+    [ "EnterEvadeMode", "dd/d2f/a20974.html#a4e70e42407f452c4685c732949fd2b52", null ],
+    [ "JustDied", "dd/d2f/a20974.html#a97516e6ad5f7f35d0329674130e76dd3", null ],
+    [ "JustEngagedWith", "dd/d2f/a20974.html#ab1d4d863a537a3c567eeda6f95f385ca", null ],
+    [ "MoveInLineOfSight", "dd/d2f/a20974.html#a52a99d72dfa017baacb76717e6db931b", null ],
+    [ "Reset", "dd/d2f/a20974.html#a8b7419c94e36b4b2292cf110a2eccb01", null ],
+    [ "UpdateAI", "dd/d2f/a20974.html#aec7645eaae190d1e7982aae181ff9224", null ],
+    [ "events", "dd/d2f/a20974.html#acd021e4216e3920f0534da95d69ba5eb", null ],
+    [ "pInstance", "dd/d2f/a20974.html#a9f179ea9b180095a1e6df11b4842c5e5", null ]
 ];

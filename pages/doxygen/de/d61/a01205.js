@@ -1,8 +1,8 @@
 var a01205 =
 [
-    [ "boss_rajaxx", "df/ded/a14646.html", "df/ded/a14646" ],
-    [ "spell_rajaxx_thundercrash", "d8/de4/a14650.html", "d8/de4/a14650" ],
-    [ "npc_general_andorov", "d1/d6a/a14654.html", "d1/d6a/a14654" ],
+    [ "boss_rajaxx", "df/d21/a14662.html", "df/d21/a14662" ],
+    [ "spell_rajaxx_thundercrash", "d3/d28/a14666.html", "d3/d28/a14666" ],
+    [ "npc_general_andorov", "d3/d5d/a14670.html", "d3/d5d/a14670" ],
     [ "AndorovMisc", "de/d61/a01205.html#adfc3eda6f1c0f62c59171b07b63a3b70", [
       [ "FACTION_ANDOROV_ESCORT", "de/d61/a01205.html#adfc3eda6f1c0f62c59171b07b63a3b70a5f587733fae72c0e10bf101bdf781343", null ],
       [ "SPELL_AURA_OF_COMMAND", "de/d61/a01205.html#adfc3eda6f1c0f62c59171b07b63a3b70a66c411861d5bf2a38581a29d3e18ddbc", null ],
@@ -1033,11 +1033,6 @@ var a01205 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],

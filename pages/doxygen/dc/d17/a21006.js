@@ -1,6 +1,6 @@
 var a21006 =
 [
-    [ "boss_zuramatAI", "db/de9/a21010.html", "db/de9/a21010" ],
-    [ "boss_zuramat", "dc/d17/a21006.html#a1d169e786dcf846026b48d9be389f9ab", null ],
-    [ "GetAI", "dc/d17/a21006.html#a1008c053a2c9ad14cf9ce994db931670", null ]
+    [ "instance_violet_hold_InstanceMapScript", "db/de9/a21010.html", "db/de9/a21010" ],
+    [ "instance_violet_hold", "dc/d17/a21006.html#ae66f018196cd90683506c3cc3d8c5d7a", null ],
+    [ "GetInstanceScript", "dc/d17/a21006.html#aeedcbb24b0709bd172ebbbc6d9851532", null ]
 ];

@@ -1,7 +1,10 @@
 var a24046 =
 [
-    [ "npc_pet_gen_target_following_bomb", "dd/d25/a24046.html#a447c2cd258d784ca1d79c79412a1a426", null ],
-    [ "UpdateAI", "dd/d25/a24046.html#ac68f18d68a313623c04e885f9506f287", null ],
-    [ "bombSpellId", "dd/d25/a24046.html#a3c72bd26c66d3e7a85f3152557e399c4", null ],
-    [ "checkTimer", "dd/d25/a24046.html#a694ee5f884f1bd404f0ef3d3030a212f", null ]
+    [ "npc_pet_gen_imp_in_a_bottle", "dd/d25/a24046.html#aa32b7770c2719d77d46fcf6d22989284", null ],
+    [ "InitializeAI", "dd/d25/a24046.html#a9fde3fd30d48068a3ad1a19f65c61bf2", null ],
+    [ "UpdateAI", "dd/d25/a24046.html#a453ec855bb21a30cb72b540ff8f77035", null ],
+    [ "_data", "dd/d25/a24046.html#a982ec923536c2c33353a3673aa425b6a", null ],
+    [ "_hasParty", "dd/d25/a24046.html#a192d9e2ba340040cb6ba5c0f324ffb2d", null ],
+    [ "_ownerGUID", "dd/d25/a24046.html#a5452226bbe4f65a9bd7ce103a7648a2f", null ],
+    [ "_talkTimer", "dd/d25/a24046.html#a07eba859ad2d5db4f6d91734c04020cf", null ]
 ];

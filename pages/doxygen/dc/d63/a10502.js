@@ -1,7 +1,9 @@
 var a10502 =
 [
-    [ "PlayMusic", "dc/d63/a10502.html#afee4b7ae9ac5f4f2b7365d3d00e7b581", null ],
-    [ "PlayMusic", "dc/d63/a10502.html#ad3d833f70de5937365c2351aa5206bbf", null ],
-    [ "Write", "dc/d63/a10502.html#ad01a67d76fe9dff269eac9108a27c75a", null ],
-    [ "SoundKitID", "dc/d63/a10502.html#ad2342dd0c1461283c595af29c3bc9fe6", null ]
+    [ "LevelUpInfo", "dc/d63/a10502.html#ae856bb717d6ae4b03775b7bfb026850d", null ],
+    [ "Write", "dc/d63/a10502.html#af09dd1c6470516ea9422d22ed22e6d10", null ],
+    [ "HealthDelta", "dc/d63/a10502.html#ab654fc42947c0c783d3a26e6df32b29d", null ],
+    [ "Level", "dc/d63/a10502.html#a1765f693918fdd1f51d7b8dc7b2494a2", null ],
+    [ "PowerDelta", "dc/d63/a10502.html#a697da64ac234c24fe73e68d408697ee6", null ],
+    [ "StatDelta", "dc/d63/a10502.html#a580e4a3cd77631e960b7753542375d6d", null ]
 ];

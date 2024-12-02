@@ -1,5 +1,6 @@
 var a22046 =
 [
-    [ "achievement_wg_within_our_grasp", "dd/d1c/a22046.html#a9edbd15bc6989c6948e21391a683d22d", null ],
-    [ "OnCheck", "dd/d1c/a22046.html#a10b659c4b52322536333e3d191796c27", null ]
+    [ "npc_feedin_da_goolzAI", "df/dab/a22050.html", "df/dab/a22050" ],
+    [ "npc_feedin_da_goolz", "dd/d1c/a22046.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
+    [ "GetAI", "dd/d1c/a22046.html#a61ab3189e2525a995a87eec06d45e355", null ]
 ];

@@ -1,7 +1,7 @@
 var a25638 =
 [
-    [ "HandleDummy", "d6/dbc/a25638.html#a870b9834d0860a2d017b74fbf33ae668", null ],
-    [ "Load", "d6/dbc/a25638.html#ae971bd1dccc9280620b6ea44dd552bd4", null ],
-    [ "PrepareSpellScript", "d6/dbc/a25638.html#aac68e0f75f39ab25cf490dc381414b96", null ],
-    [ "Register", "d6/dbc/a25638.html#ad2840c719abd010c629747da138e9e32", null ]
+    [ "CalculateSpellAmount", "d6/dbc/a25638.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
+    [ "CheckCast", "d6/dbc/a25638.html#af043f7ee0f80baf667e64225effd57d1", null ],
+    [ "PrepareSpellScript", "d6/dbc/a25638.html#a233ac4020722078d865cf980d7fa76cf", null ],
+    [ "Register", "d6/dbc/a25638.html#a3648ecd94430e21dd014795156c1eb98", null ]
 ];

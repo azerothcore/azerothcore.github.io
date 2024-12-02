@@ -1,6 +1,5 @@
 var a26946 =
 [
-    [ "go_bashir_crystalforge", "df/dd0/a26946.html#a8b68a63933e14d82198580912fddc280", null ],
-    [ "OnGossipHello", "df/dd0/a26946.html#a4aa941ae78a17eecc5593d6ccd17ff63", null ],
-    [ "OnGossipSelect", "df/dd0/a26946.html#ac7e1b6db4ae2bee766b95049a8b0c320", null ]
+    [ "go_table_theka", "df/dd0/a26946.html#a9e25a1c9313437b533e1d88a2db04a58", null ],
+    [ "OnGossipHello", "df/dd0/a26946.html#ab04480f032ce074daacdc0dcfa37ee12", null ]
 ];

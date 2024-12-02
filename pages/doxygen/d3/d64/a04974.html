@@ -253,52 +253,52 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  161</span>    {</div>
-<div class="line"><span class="lineno">  162</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0, nameLen;</div>
-<div class="line"><span class="lineno">  163</span>        check += fread(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  164</span>        <span class="comment">// EoF?</span></div>
-<div class="line"><span class="lineno">  165</span>        <span class="keywordflow">if</span> (!check)</div>
-<div class="line"><span class="lineno">  166</span>        {</div>
-<div class="line"><span class="lineno">  167</span>            <span class="keywordflow">if</span> (ferror(rf))</div>
-<div class="line"><span class="lineno">  168</span>            {</div>
-<div class="line"><span class="lineno">  169</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  170</span>            }</div>
-<div class="line"><span class="lineno">  171</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  172</span>        }</div>
-<div class="line"><span class="lineno">  173</span>        check += fread(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  174</span>        check += fread(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  175</span>        check += fread(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  176</span>        check += fread(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  177</span>        check += fread(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, rf);</div>
-<div class="line"><span class="lineno">  178</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/dcf/a04692.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
-<div class="line"><span class="lineno">  179</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
-<div class="line"><span class="lineno">  180</span>        {</div>
-<div class="line"><span class="lineno">  181</span>            Vector3 bLow, bHigh;</div>
-<div class="line"><span class="lineno">  182</span>            check += fread(&amp;bLow, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  183</span>            check += fread(&amp;bHigh, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
-<div class="line"><span class="lineno">  184</span>            spawn.iBound = G3D::AABox(bLow, bHigh);</div>
-<div class="line"><span class="lineno">  185</span>        }</div>
-<div class="line"><span class="lineno">  186</span>        check += fread(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
-<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11))</div>
-<div class="line"><span class="lineno">  188</span>        {</div>
-<div class="line"><span class="lineno">  189</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  190</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  191</span>        }</div>
-<div class="line"><span class="lineno">  192</span>        <span class="keywordtype">char</span> nameBuff[500];</div>
-<div class="line"><span class="lineno">  193</span>        <span class="keywordflow">if</span> (nameLen &gt; 500) <span class="comment">// file names should never be that long, must be file error</span></div>
-<div class="line"><span class="lineno">  194</span>        {</div>
-<div class="line"><span class="lineno">  195</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn, file name too long!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  197</span>        }</div>
-<div class="line"><span class="lineno">  198</span>        check = fread(nameBuff, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, rf);</div>
-<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">if</span> (check != nameLen)</div>
-<div class="line"><span class="lineno">  200</span>        {</div>
-<div class="line"><span class="lineno">  201</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
-<div class="line"><span class="lineno">  202</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  203</span>        }</div>
-<div class="line"><span class="lineno">  204</span>        spawn.name = std::string(nameBuff, nameLen);</div>
-<div class="line"><span class="lineno">  205</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  206</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  160</span>    {</div>
+<div class="line"><span class="lineno">  161</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0, nameLen;</div>
+<div class="line"><span class="lineno">  162</span>        check += fread(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  163</span>        <span class="comment">// EoF?</span></div>
+<div class="line"><span class="lineno">  164</span>        <span class="keywordflow">if</span> (!check)</div>
+<div class="line"><span class="lineno">  165</span>        {</div>
+<div class="line"><span class="lineno">  166</span>            <span class="keywordflow">if</span> (ferror(rf))</div>
+<div class="line"><span class="lineno">  167</span>            {</div>
+<div class="line"><span class="lineno">  168</span>                std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  169</span>            }</div>
+<div class="line"><span class="lineno">  170</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  171</span>        }</div>
+<div class="line"><span class="lineno">  172</span>        check += fread(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  173</span>        check += fread(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  174</span>        check += fread(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  175</span>        check += fread(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  176</span>        check += fread(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, rf);</div>
+<div class="line"><span class="lineno">  177</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/dcf/a04692.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
+<div class="line"><span class="lineno">  178</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
+<div class="line"><span class="lineno">  179</span>        {</div>
+<div class="line"><span class="lineno">  180</span>            Vector3 bLow, bHigh;</div>
+<div class="line"><span class="lineno">  181</span>            check += fread(&amp;bLow, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  182</span>            check += fread(&amp;bHigh, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, rf);</div>
+<div class="line"><span class="lineno">  183</span>            spawn.iBound = G3D::AABox(bLow, bHigh);</div>
+<div class="line"><span class="lineno">  184</span>        }</div>
+<div class="line"><span class="lineno">  185</span>        check += fread(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, rf);</div>
+<div class="line"><span class="lineno">  186</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11))</div>
+<div class="line"><span class="lineno">  187</span>        {</div>
+<div class="line"><span class="lineno">  188</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  189</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  190</span>        }</div>
+<div class="line"><span class="lineno">  191</span>        <span class="keywordtype">char</span> nameBuff[500];</div>
+<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">if</span> (nameLen &gt; 500) <span class="comment">// file names should never be that long, must be file error</span></div>
+<div class="line"><span class="lineno">  193</span>        {</div>
+<div class="line"><span class="lineno">  194</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn, file name too long!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  195</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  196</span>        }</div>
+<div class="line"><span class="lineno">  197</span>        check = fread(nameBuff, <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, rf);</div>
+<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">if</span> (check != nameLen)</div>
+<div class="line"><span class="lineno">  199</span>        {</div>
+<div class="line"><span class="lineno">  200</span>            std::cout &lt;&lt; <span class="stringliteral">&quot;Error reading ModelSpawn!\n&quot;</span>;</div>
+<div class="line"><span class="lineno">  201</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  202</span>        }</div>
+<div class="line"><span class="lineno">  203</span>        spawn.name = std::string(nameBuff, nameLen);</div>
+<div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  205</span>    }</div>
 <div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
 <div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
 <div class="ttc" id="aa04692_html_ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09"><div class="ttname"><a href="../../d9/dcf/a04692.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">VMAP::MOD_HAS_BOUND</a></div><div class="ttdeci">@ MOD_HAS_BOUND</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:38</div></div>
@@ -342,27 +342,27 @@ Public Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  209</span>    {</div>
-<div class="line"><span class="lineno">  210</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0;</div>
-<div class="line"><span class="lineno">  211</span>        check += fwrite(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  212</span>        check += fwrite(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  213</span>        check += fwrite(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  214</span>        check += fwrite(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  215</span>        check += fwrite(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  216</span>        check += fwrite(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, wf);</div>
-<div class="line"><span class="lineno">  217</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/dcf/a04692.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
-<div class="line"><span class="lineno">  218</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
-<div class="line"><span class="lineno">  219</span>        {</div>
-<div class="line"><span class="lineno">  220</span>            check += fwrite(&amp;spawn.iBound.low(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  221</span>            check += fwrite(&amp;spawn.iBound.high(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
-<div class="line"><span class="lineno">  222</span>        }</div>
-<div class="line"><span class="lineno">  223</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nameLen = spawn.name.length();</div>
-<div class="line"><span class="lineno">  224</span>        check += fwrite(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
-<div class="line"><span class="lineno">  225</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11)) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><span class="lineno">  226</span>        check = fwrite(spawn.name.c_str(), <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, wf);</div>
-<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">if</span> (check != nameLen) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-<div class="line"><span class="lineno">  228</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  229</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  208</span>    {</div>
+<div class="line"><span class="lineno">  209</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> check = 0;</div>
+<div class="line"><span class="lineno">  210</span>        check += fwrite(&amp;spawn.flags, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  211</span>        check += fwrite(&amp;spawn.adtId, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  212</span>        check += fwrite(&amp;spawn.ID, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  213</span>        check += fwrite(&amp;spawn.iPos, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  214</span>        check += fwrite(&amp;spawn.iRot, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  215</span>        check += fwrite(&amp;spawn.iScale, <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 1, wf);</div>
+<div class="line"><span class="lineno">  216</span>        <span class="keywordtype">bool</span> has_bound = (spawn.flags &amp; <a class="code hl_enumvalue" href="../../d9/dcf/a04692.html#ac540ff16efadcc07eeb9d8511b94ccceaa47940cd802c5225d2babb37d24c7f09">MOD_HAS_BOUND</a>);</div>
+<div class="line"><span class="lineno">  217</span>        <span class="keywordflow">if</span> (has_bound) <span class="comment">// only WMOs have bound in MPQ, only available after computation</span></div>
+<div class="line"><span class="lineno">  218</span>        {</div>
+<div class="line"><span class="lineno">  219</span>            check += fwrite(&amp;spawn.iBound.low(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  220</span>            check += fwrite(&amp;spawn.iBound.high(), <span class="keyword">sizeof</span>(<span class="keywordtype">float</span>), 3, wf);</div>
+<div class="line"><span class="lineno">  221</span>        }</div>
+<div class="line"><span class="lineno">  222</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nameLen = spawn.name.length();</div>
+<div class="line"><span class="lineno">  223</span>        check += fwrite(&amp;nameLen, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>), 1, wf);</div>
+<div class="line"><span class="lineno">  224</span>        <span class="keywordflow">if</span> (check != <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(has_bound ? 17 : 11)) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  225</span>        check = fwrite(spawn.name.c_str(), <span class="keyword">sizeof</span>(<span class="keywordtype">char</span>), nameLen, wf);</div>
+<div class="line"><span class="lineno">  226</span>        <span class="keywordflow">if</span> (check != nameLen) { <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="line"><span class="lineno">  227</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  228</span>    }</div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00046">adtId</a>, <a class="el" href="../../#l00045">flags</a>, <a class="el" href="../../#l00051">iBound</a>, <a class="el" href="../../#l00047">ID</a>, <a class="el" href="../../#l00048">iPos</a>, <a class="el" href="../../#l00049">iRot</a>, <a class="el" href="../../#l00050">iScale</a>, <a class="el" href="../../#l00038">VMAP::MOD_HAS_BOUND</a>, and <a class="el" href="../../#l00052">name</a>.</p>
 
@@ -383,7 +383,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00308">VMAP::VMapMgr2::GetAreaAndLiquidData()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00308">VMAP::VMapMgr2::GetAreaAndLiquidData()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -399,7 +399,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00294">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00294">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -415,7 +415,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00056">GetBounds()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00056">GetBounds()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -431,7 +431,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00053">operator==()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, <a class="el" href="../../#l00219">VMAP::TileAssembler::readMapSpawns()</a>, <a class="el" href="../../#l00462">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00067">VMAP::TileAssembler::convertWorld2()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00053">operator==()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, <a class="el" href="../../#l00219">VMAP::TileAssembler::readMapSpawns()</a>, <a class="el" href="../../#l00462">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -447,7 +447,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -463,7 +463,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -479,7 +479,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00144">VMAP::ModelInstance::GetLiquidLevel()</a>, <a class="el" href="../../#l00104">VMAP::ModelInstance::GetLocationInfo()</a>, <a class="el" href="../../#l00066">VMAP::ModelInstance::intersectPoint()</a>, <a class="el" href="../../#l00033">VMAP::ModelInstance::intersectRay()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00027">VMAP::ModelInstance::ModelInstance()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -495,7 +495,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00294">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00160">readFromFile()</a>, <a class="el" href="../../#l00347">VMAP::StaticMapTree::UnloadMap()</a>, <a class="el" href="../../#l00462">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00208">writeToFile()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00267">VMAP::TileAssembler::calculateTransformedBound()</a>, <a class="el" href="../../#l00294">VMAP::StaticMapTree::InitMap()</a>, <a class="el" href="../../#l00363">VMAP::StaticMapTree::LoadMapTile()</a>, <a class="el" href="../../#l00665">MMAP::TerrainBuilder::loadVMap()</a>, <a class="el" href="../../#l00159">readFromFile()</a>, <a class="el" href="../../#l00347">VMAP::StaticMapTree::UnloadMap()</a>, <a class="el" href="../../#l00462">VMAP::StaticMapTree::UnloadMapTile()</a>, and <a class="el" href="../../#l00207">writeToFile()</a>.</p>
 
 </div>
 </div>
@@ -505,7 +505,7 @@ Public Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dcf/a04692.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d3/d64/a04974.html">ModelSpawn</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

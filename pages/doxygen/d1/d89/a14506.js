@@ -1,7 +1,6 @@
 var a14506 =
 [
-    [ "npc_onyxian_lair_guard", "d1/d89/a14506.html#ae72d86cddafd8829fc9edd479a01ab1d", null ],
-    [ "JustEngagedWith", "d1/d89/a14506.html#a7b1d3bc68684202f9b4b95f6dc078be0", null ],
-    [ "UpdateAI", "d1/d89/a14506.html#ac8649636d5847813e49d2ada05f78645", null ],
-    [ "events", "d1/d89/a14506.html#a99acb2010853fcf9f7ac6f08143d06ed", null ]
+    [ "instance_maraudon_InstanceMapScript", "d6/d56/a14510.html", "d6/d56/a14510" ],
+    [ "instance_maraudon", "d1/d89/a14506.html#aaae11d2569d04b42840b101a5702cf24", null ],
+    [ "GetInstanceScript", "d1/d89/a14506.html#ac4f5c7c3ee755226449c96b3e351f12d", null ]
 ];

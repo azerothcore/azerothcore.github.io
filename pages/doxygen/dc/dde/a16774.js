@@ -1,6 +1,5 @@
 var a16774 =
 [
-    [ "boss_drakkari_elementalAI", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
-    [ "boss_drakkari_elemental", "dc/dde/a16774.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
-    [ "GetAI", "dc/dde/a16774.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
+    [ "entry", "dc/dde/a16774.html#a44c7a625896d6fddc15da39988e0b042", null ],
+    [ "pathId", "dc/dde/a16774.html#accd6af0ddfa248a972612d802a1e641e", null ]
 ];

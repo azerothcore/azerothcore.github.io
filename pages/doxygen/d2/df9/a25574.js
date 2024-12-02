@@ -1,8 +1,9 @@
 var a25574 =
 [
-    [ "CheckQuest", "d2/df9/a25574.html#ab7ebff0894832ac009cda89b7c28e252", null ],
-    [ "HandleDummy", "d2/df9/a25574.html#a365df14504a54e95e7d68d22a284e441", null ],
-    [ "HandleOpenObject", "d2/df9/a25574.html#a69467afd49dc2429b8ba9640c8af5dfa", null ],
-    [ "PrepareSpellScript", "d2/df9/a25574.html#a479e313031a2e71473238d8f645bf2d4", null ],
-    [ "Register", "d2/df9/a25574.html#a70f1a91e611cc2092aad44a909cd53db", null ]
+    [ "HandleAfterCast", "d2/df9/a25574.html#afd2fbc51ac1e99789994021af36688f3", null ],
+    [ "HandleTriggerSpell", "d2/df9/a25574.html#ae140ab00101f081454b55e12a7c54440", null ],
+    [ "Load", "d2/df9/a25574.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
+    [ "PrepareSpellScript", "d2/df9/a25574.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
+    [ "Register", "d2/df9/a25574.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
+    [ "_triggerSpellId", "d2/df9/a25574.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
 ];

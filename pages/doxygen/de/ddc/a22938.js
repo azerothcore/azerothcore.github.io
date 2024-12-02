@@ -1,7 +1,7 @@
 var a22938 =
 [
-    [ "go_ahune_ice_spear", "de/ddc/a22938.html#a22922e47b819bc60e331cffbc7c353b3", null ],
-    [ "Reset", "de/ddc/a22938.html#abd11525a84d3ab06a39d1eb7e7c09fbc", null ],
-    [ "UpdateAI", "de/ddc/a22938.html#ae498fc1f71906af2f20e95dea4df4a2b", null ],
-    [ "_scheduler", "de/ddc/a22938.html#a7e1dab03b33b0114cc0a40fc02e2306e", null ]
+    [ "PeriodicTick", "de/ddc/a22938.html#afb5cc6129423cb4f7c3da50977da01f2", null ],
+    [ "PrepareAuraScript", "de/ddc/a22938.html#aea6ca9c5d490f62ae737bfc07751da42", null ],
+    [ "Register", "de/ddc/a22938.html#ad0eb66e0bab8441e1bb3db42967df7ff", null ],
+    [ "Validate", "de/ddc/a22938.html#ae07f6e7de08ada74b4cb9ac890c70c35", null ]
 ];

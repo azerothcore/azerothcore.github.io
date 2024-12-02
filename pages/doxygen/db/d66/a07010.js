@@ -1,8 +1,12 @@
 var a07010 =
 [
-    [ "entry", "db/d66/a07010.html#ab47ef3b15c887f46fb1bf9c88f5cc5d8", null ],
-    [ "o", "db/d66/a07010.html#af2bf42b7d1a18e7ee1125a305ee7bc79", null ],
-    [ "x", "db/d66/a07010.html#a4fb658cf54f9534e0686a8fa5b2328c7", null ],
-    [ "y", "db/d66/a07010.html#aa761c9076be145dab6d2cac773bb6e7a", null ],
-    [ "z", "db/d66/a07010.html#ac9ff501bbf00d80f5b9350a78ffbb6fb", null ]
+    [ "damageText", "db/d66/a07010.html#af83062a39d8dfc89bf61a4364bd8579d", null ],
+    [ "destroyText", "db/d66/a07010.html#a81747f8ff920f7c17a55d45d43304cc9", null ],
+    [ "entry", "db/d66/a07010.html#a58d0395a47190698d309e80d91358bb1", null ],
+    [ "o", "db/d66/a07010.html#a21238943701f594e1a5346193c895d33", null ],
+    [ "type", "db/d66/a07010.html#a3cebd422659aa7339e9a23a87cfad0d7", null ],
+    [ "WorldState", "db/d66/a07010.html#a4b4881aba2d297e125443f0c8ccab618", null ],
+    [ "x", "db/d66/a07010.html#a80ebabba7265753a05367a4c79f6450c", null ],
+    [ "y", "db/d66/a07010.html#a5d8ade187749e6fc191f01b384a4cda6", null ],
+    [ "z", "db/d66/a07010.html#a3913a2618277cc5ad382aa2fc1d00f5e", null ]
 ];

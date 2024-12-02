@@ -1,5 +1,7 @@
 var a24534 =
 [
-    [ "PrepareSpellScript", "d9/de3/a24534.html#a2d0e411f3b4a9efed35ee34c7bf03252", null ],
-    [ "Register", "d9/de3/a24534.html#a560ff22e718e8a975a2e2dc2340da917", null ]
+    [ "CheckProc", "d9/de3/a24534.html#ab376febda606dba5e9f7f5639f867859", null ],
+    [ "HandleProc", "d9/de3/a24534.html#aa8dac7f0a238f6f131553cbc7a142594", null ],
+    [ "PrepareAuraScript", "d9/de3/a24534.html#a7693a86824050ff5615996d0d03d0292", null ],
+    [ "Register", "d9/de3/a24534.html#a458745913288889f687bb19a147cb0fb", null ]
 ];

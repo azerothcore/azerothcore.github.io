@@ -1,8 +1,6 @@
 var a22286 =
 [
-    [ "npc_anzu_spirit", "d3/d19/a22286.html#adb1b66d6bf6ec1991465f85a504397d5", null ],
-    [ "IsSummonedBy", "d3/d19/a22286.html#a26f0928593f75d242c8bbcc541f7b59b", null ],
-    [ "Reset", "d3/d19/a22286.html#acef3f7093f93b6c227d145523cdc487a", null ],
-    [ "UpdateAI", "d3/d19/a22286.html#a9866d91ffc04548a96cfcdc3a5c7496a", null ],
-    [ "_scheduler", "d3/d19/a22286.html#ad14937df9ddddabcf96e2d1104ca153c", null ]
+    [ "instance_sethekk_halls_InstanceMapScript", "db/d97/a22290.html", "db/d97/a22290" ],
+    [ "instance_sethekk_halls", "d3/d19/a22286.html#ab50d296266cf377bfb34750ec36963ef", null ],
+    [ "GetInstanceScript", "d3/d19/a22286.html#adc07afe1aa8132f70474f9a534ecb76c", null ]
 ];

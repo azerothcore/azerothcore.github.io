@@ -1,8 +1,6 @@
 var a24730 =
 [
-    [ "AchievementCredit", "dd/d09/a24730.html#ab0ec836feb53875de355330e05367fe8", null ],
-    [ "Load", "dd/d09/a24730.html#ae48c67f363e399f076122cb6eee10ffb", null ],
-    [ "PrepareSpellScript", "dd/d09/a24730.html#af0bb22c618af5dca7f534bea32e7ee7f", null ],
-    [ "Register", "dd/d09/a24730.html#a793921687c96a39f7dd872b9721096ca", null ],
-    [ "Validate", "dd/d09/a24730.html#a5be222c322714ec62f8beaf69faab257", null ]
+    [ "CheckSeat", "dd/d09/a24730.html#ab4e2376e084bc2cf0e30a91e3e5a270c", null ],
+    [ "PrepareSpellScript", "dd/d09/a24730.html#aaa9a6f31ec57542dcd657874c4eb52aa", null ],
+    [ "Register", "dd/d09/a24730.html#a6feb7c77ba258688a83bdb86e9ee53f8", null ]
 ];

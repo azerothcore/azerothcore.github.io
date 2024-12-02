@@ -1,6 +1,7 @@
 var a17494 =
 [
-    [ "FilterTargets", "dd/da4/a17494.html#ac2396cbd000a8d58ff22dbb08c81dfb4", null ],
-    [ "PrepareSpellScript", "dd/da4/a17494.html#abcdfe528430e299c2eb64b24f7ff8eb0", null ],
-    [ "Register", "dd/da4/a17494.html#a32e04a1110d651701b8eab1648c69a57", null ]
+    [ "HandleScript", "dd/da4/a17494.html#afc76149cb44a4d2aab48350fb4392036", null ],
+    [ "PrepareSpellScript", "dd/da4/a17494.html#a8598de219c2402596fe97b5dd32c534e", null ],
+    [ "Register", "dd/da4/a17494.html#ac9d4842632431e52932f66d09042ea70", null ],
+    [ "ScaleRange", "dd/da4/a17494.html#a9bcc80bd2a8df20ac7fc8f2256f519d9", null ]
 ];

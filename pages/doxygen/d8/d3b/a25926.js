@@ -1,9 +1,6 @@
 var a25926 =
 [
-    [ "HandleAfterCast", "d8/d3b/a25926.html#ac08e632064c407346649f525d030d335", null ],
-    [ "HandleDummy", "d8/d3b/a25926.html#a9c1dadd5a3e2e039b50a414ac589ebf4", null ],
-    [ "Load", "d8/d3b/a25926.html#a177525c755b036a79263c0fa6fa4082e", null ],
-    [ "PrepareSpellScript", "d8/d3b/a25926.html#aed99b07a53068b19bddb4daff3449a52", null ],
-    [ "Register", "d8/d3b/a25926.html#a946e56a325d83656d9b43af80d065e45", null ],
-    [ "_triggerSpellId", "d8/d3b/a25926.html#a6697a22b684784853cb1999d41fcaaa7", null ]
+    [ "HandleDummy", "d8/d3b/a25926.html#a42f48b9d7d657da75c8a4f5b6468011e", null ],
+    [ "PrepareSpellScript", "d8/d3b/a25926.html#a5efc666af2cb73c376706c20e41ace68", null ],
+    [ "Register", "d8/d3b/a25926.html#a46e61697212a43532e148ccb12a7d8e5", null ]
 ];

@@ -1,10 +1,10 @@
 var a00941 =
 [
-    [ "boss_vazruden_the_herald", "de/d5e/a23190.html", "de/d5e/a23190" ],
-    [ "boss_nazan", "da/db1/a23194.html", "da/db1/a23194" ],
-    [ "boss_vazruden", "d1/d36/a23198.html", "d1/d36/a23198" ],
-    [ "spell_vazruden_fireball", "dd/d80/a23202.html", "dd/d80/a23202" ],
-    [ "spell_vazruden_call_nazan", "dd/d29/a23206.html", "dd/d29/a23206" ],
+    [ "boss_vazruden_the_herald", "db/dfe/a23174.html", "db/dfe/a23174" ],
+    [ "boss_nazan", "d2/d85/a23178.html", "d2/d85/a23178" ],
+    [ "boss_vazruden", "d3/d76/a23182.html", "d3/d76/a23182" ],
+    [ "spell_vazruden_fireball", "df/da6/a23186.html", "df/da6/a23186" ],
+    [ "spell_vazruden_call_nazan", "de/d5e/a23190.html", "de/d5e/a23190" ],
     [ "GroupPhase", "d6/dad/a00941.html#a49053b1bcf5e1608ac7b5ad702b2bf00", [
       [ "GROUP_PHASE_1", "d6/dad/a00941.html#a49053b1bcf5e1608ac7b5ad702b2bf00a32bcd3b7fab317a48674500272b5b5c9", null ],
       [ "GROUP_PHASE_2", "d6/dad/a00941.html#a49053b1bcf5e1608ac7b5ad702b2bf00a22321c7fe55bbbccabaf892d4d85e8b4", null ]
@@ -87,9 +87,11 @@ var a00941 =
       [ "NPC_TWILIGHT_CORRUPTER", "d3/dc5/a02306.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afb7e438d6473a60fc5b3033d846b8cc3", null ],
       [ "ACTION_STORM_EXPIRE", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a360211d7a4df1b69d09453ebe4c76dea", null ],
       [ "GROUP_ELECTRICAL_STORM", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a1f1ab8ecc79a8547e170fd84b06c0643", null ],
+      [ "GROUP_STATIC_DISRUPTION", "dd/d09/a02180.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a385a04cb015c08754b4e7bc557834eb2", null ],
       [ "MAX_ADD_COUNT", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6adec9a1ef59ace58f844350cf428842ab", null ],
       [ "ADDITIONAL_CLASS_SPRIEST", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a92706eb33a08d2af442625bec27cdf3c", null ],
       [ "AURA_SHADOW_FORM", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad3a76f7068948a8105e9c5001dbb41d2", null ],
+      [ "GROUP_CLASS_ABILITY", "d6/d1e/a02171.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab8aaab438cd70047fa9299e78971c4f4", null ],
       [ "MAX_BOMB_COUNT", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a55b3541c734c6bf371563c020ea4918e", null ],
       [ "GROUP_ENRAGE", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98519d98f2763476413ba8ba9b1aa780", null ],
       [ "GROUP_HATCHING", "d5/d4d/a02186.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad004964bc87e3ee20b6bd3fcb2411521", null ],

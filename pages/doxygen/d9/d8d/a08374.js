@@ -1,8 +1,6 @@
 var a08374 =
 [
-    [ "checkLeaderOnly", "d9/d8d/a08374.html#ade8f2e22abe69a9a32085e4d901bc83b", null ],
-    [ "faction", "d9/d8d/a08374.html#a23c649e494795b27856b67225370a820", null ],
-    [ "id", "d9/d8d/a08374.html#a5d5b8f6fe0bfc5ae98c2fb10e3a18360", null ],
-    [ "note", "d9/d8d/a08374.html#a0e800dd8869fedbe71e5b14aa3c79d8a", null ],
-    [ "priority", "d9/d8d/a08374.html#a3a66018ae4e7a7e755962f1edae58d29", null ]
+    [ "SavedItem", "d9/d8d/a08374.html#a7261d44eefdbd56df651a57a71f5af6e", null ],
+    [ "dstpos", "d9/d8d/a08374.html#af844c8b955858b1ead94798c6326fa03", null ],
+    [ "item", "d9/d8d/a08374.html#afaa651441e306c13acc3cd1aa3084170", null ]
 ];

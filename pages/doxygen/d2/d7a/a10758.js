@@ -1,7 +1,9 @@
 var a10758 =
 [
-    [ "IsValidOpcode", "d2/d7a/a10758.html#afdba55f89a1c7ffb9e7c302f2269687f", null ],
-    [ "IsValidSize", "d2/d7a/a10758.html#aec5192f7f57a16c9dfa244ff3874e693", null ],
-    [ "cmd", "d2/d7a/a10758.html#ad0a112cb2a8a71e6e8c20e320af63f49", null ],
-    [ "size", "d2/d7a/a10758.html#ac1d551036381db4f85b8dc92ea55d4ee", null ]
+    [ "EncryptableAndCompressiblePacket", "d2/d7a/a10758.html#a64eb3fa6b02a6aff486aa2d9a4d09fc6", null ],
+    [ "CompressIfNeeded", "d2/d7a/a10758.html#a113d89a8f2832c5db01611ff71d2bc73", null ],
+    [ "NeedsCompression", "d2/d7a/a10758.html#ad376b973f02c1b0cd2afbb43cc081917", null ],
+    [ "NeedsEncryption", "d2/d7a/a10758.html#a114e5d6da2e81a26e478f7aea287d08a", null ],
+    [ "_encrypt", "d2/d7a/a10758.html#a37a68eddad23001a85a4a2f77e237810", null ],
+    [ "SocketQueueLink", "d2/d7a/a10758.html#a88f11ce75f439fd290bdc09156d559c2", null ]
 ];

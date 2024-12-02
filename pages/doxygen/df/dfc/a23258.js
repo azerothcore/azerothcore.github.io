@@ -1,6 +1,6 @@
 var a23258 =
 [
-    [ "instance_magtheridons_lair_InstanceMapScript", "dc/df8/a23262.html", "dc/df8/a23262" ],
-    [ "instance_magtheridons_lair", "df/dfc/a23258.html#a9bc61758478dc18ba413264eec2e3ca3", null ],
-    [ "GetInstanceScript", "df/dfc/a23258.html#a6c9cc959cf4f294e6173d244f54bcd02", null ]
+    [ "PrepareSpellScript", "df/dfc/a23258.html#a5b17110b189b7134939aea9dbf2d724b", null ],
+    [ "Register", "df/dfc/a23258.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
+    [ "SelectRandomPlayer", "df/dfc/a23258.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
 ];

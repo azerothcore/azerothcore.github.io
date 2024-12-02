@@ -1,10 +1,10 @@
 var a02597 =
 [
-    [ "instance_uldaman", "d3/d6e/a13146.html", "d3/d6e/a13146" ],
-    [ "instance_uldaman::instance_uldaman_InstanceMapScript", "da/d57/a13150.html", "da/d57/a13150" ],
-    [ "spell_uldaman_sub_boss_agro_keepers", "d1/d76/a13154.html", "d1/d76/a13154" ],
-    [ "spell_uldaman_stoned_aura", "d1/d2d/a13158.html", "d1/d2d/a13158" ],
-    [ "spell_uldaman_boss_agro_archaedas", "df/df0/a13162.html", "df/df0/a13162" ],
+    [ "instance_uldaman", "da/d57/a13150.html", "da/d57/a13150" ],
+    [ "instance_uldaman::instance_uldaman_InstanceMapScript", "d1/d76/a13154.html", "d1/d76/a13154" ],
+    [ "spell_uldaman_sub_boss_agro_keepers", "d1/d2d/a13158.html", "d1/d2d/a13158" ],
+    [ "spell_uldaman_stoned_aura", "df/df0/a13162.html", "df/df0/a13162" ],
+    [ "spell_uldaman_boss_agro_archaedas", "d8/d9e/a13166.html", "d8/d9e/a13166" ],
     [ "Events", "de/d94/a02597.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],
@@ -1023,11 +1023,6 @@ var a02597 =
       [ "EVENT_ANOMALUS_ARCANE_ATTRACTION", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1ade340f8659eddf57af5cdf36fb534649", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a7fd22259ac2f55edd6fc2b9e91e3f1d9", null ],
       [ "EVENT_ANOMALUS_SPAWN_RIFT_EMPOWERED", "d2/d45/a01826.html#af60e00b78607064c5be6aa9397ea49c1a0e5aeaf409be8f9dabf1f577ed9930f3", null ],
-      [ "EVENT_BATTLE_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a9f1c02841164f107485e741bad67cfc3", null ],
-      [ "EVENT_FRIGHTENING_SHOUT", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a514a4e3ec4111bd86552e0a733f4e018", null ],
-      [ "EVENT_WHIRLWIND", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4e49fde4fe8ce8fa992cf9a3a4584afc", null ],
-      [ "EVENT_COMMANDER_CHARGE", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a4c6989edee6aa7dd31f8552588986a30", null ],
-      [ "EVENT_KILL_TALK", "da/dcd/a01835.html#af60e00b78607064c5be6aa9397ea49c1a19e2d7e7feeb728214e70da2b689c36b", null ],
       [ "EVENT_CRYSTALFIRE_BREATH", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1ad9b66f9414227bd5737edc96726bde48", null ],
       [ "EVENT_CRYSTAL_CHAINS", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a222063d0c488b6404362a4e3458de3d4", null ],
       [ "EVENT_TAIL_SWEEP", "dc/d06/a01832.html#af60e00b78607064c5be6aa9397ea49c1a17bfc27de87051c2b38ca746bfb1b732", null ],

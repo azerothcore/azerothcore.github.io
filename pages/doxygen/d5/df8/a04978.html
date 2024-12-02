@@ -289,12 +289,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  150</span>        <span class="keywordflow">if</span> (info.hitModel-&gt;GetLiquidLevel(pModel, zDist))</div>
 <div class="line"><span class="lineno">  151</span>        {</div>
 <div class="line"><span class="lineno">  152</span>            <span class="comment">// calculate world height (zDist in model coords):</span></div>
-<div class="line"><span class="lineno">  153</span>            <span class="comment">// assume WMO not tilted (wouldn&#39;t make much sense anyway)</span></div>
-<div class="line"><span class="lineno">  154</span>            liqHeight = zDist * <a class="code hl_variable" href="../../d3/d64/a04974.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a> + <a class="code hl_variable" href="../../d3/d64/a04974.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>.z;</div>
-<div class="line"><span class="lineno">  155</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  156</span>        }</div>
-<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  158</span>    }</div>
+<div class="line"><span class="lineno">  153</span>            liqHeight = (Vector3(pModel.x, pModel.y, zDist) * <a class="code hl_variable" href="../../d5/df8/a04978.html#a9ac1d8dbfc566a2b5e508cae92ef4019">iInvRot</a> * <a class="code hl_variable" href="../../d3/d64/a04974.html#aad355d0fb09ff0360ed19610bef92d8e">iScale</a> + <a class="code hl_variable" href="../../d3/d64/a04974.html#abb5966f87710bc6a1f5da766c99b3e12">iPos</a>).z;</div>
+<div class="line"><span class="lineno">  154</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  155</span>        }</div>
+<div class="line"><span class="lineno">  156</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  157</span>    }</div>
 <div class="ttc" id="aa04974_html_abb5966f87710bc6a1f5da766c99b3e12"><div class="ttname"><a href="../../d3/d64/a04974.html#abb5966f87710bc6a1f5da766c99b3e12">VMAP::ModelSpawn::iPos</a></div><div class="ttdeci">G3D::Vector3 iPos</div><div class="ttdef"><b>Definition:</b> ModelInstance.h:48</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00471">VMAP::GroupModel::GetLiquidLevel()</a>, <a class="el" href="../../#l00037">VMAP::LocationInfo::hitModel</a>, <a class="el" href="../../#l00074">iInvRot</a>, <a class="el" href="../../#l00075">iInvScale</a>, <a class="el" href="../../#l00048">VMAP::ModelSpawn::iPos</a>, and <a class="el" href="../../#l00050">VMAP::ModelSpawn::iScale</a>.</p>
@@ -660,7 +659,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/dcf/a04692.html">VMAP</a></li><li class="navelem"><a class="el" href="../../d5/df8/a04978.html">ModelInstance</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

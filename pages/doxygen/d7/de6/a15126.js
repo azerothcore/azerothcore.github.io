@@ -1,6 +1,6 @@
 var a15126 =
 [
-    [ "npc_giant_spotlightAI", "db/d6e/a15130.html", "db/d6e/a15130" ],
-    [ "npc_giant_spotlight", "d7/de6/a15126.html#a9d1c47de758c74a89c751b675d5cc4c0", null ],
-    [ "GetAI", "d7/de6/a15126.html#af002a3d0194c991c1f78c720de63cfea", null ]
+    [ "npc_clintar_spiritAI", "db/d6e/a15130.html", "db/d6e/a15130" ],
+    [ "npc_clintar_spirit", "d7/de6/a15126.html#a416f5eea882f2c13c4c0f7dd81d36a2b", null ],
+    [ "GetAI", "d7/de6/a15126.html#a118198504f6f93c86302275a11582d60", null ]
 ];

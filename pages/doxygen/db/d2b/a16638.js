@@ -1,6 +1,6 @@
 var a16638 =
 [
-    [ "boss_tyrannusAI", "dd/d29/a16642.html", "dd/d29/a16642" ],
-    [ "boss_tyrannus", "db/d2b/a16638.html#a81373192ffea8817cb72b80f4629da43", null ],
-    [ "GetAI", "db/d2b/a16638.html#ad107030de1427d070305f5dcef96c016", null ]
+    [ "boss_krickAI", "dd/d29/a16642.html", "dd/d29/a16642" ],
+    [ "boss_krick", "db/d2b/a16638.html#a8921ff79c0af7db7f7910634239bcd0c", null ],
+    [ "GetAI", "db/d2b/a16638.html#a9aa994da7c667b20c00b1bd1e994fed1", null ]
 ];

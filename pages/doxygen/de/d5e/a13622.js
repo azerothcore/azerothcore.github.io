@@ -1,6 +1,5 @@
 var a13622 =
 [
-    [ "HandleOnHit", "de/d5e/a13622.html#a1f133ab9e85f80c225276bf744da6898", null ],
-    [ "PrepareSpellScript", "de/d5e/a13622.html#ae554f8be36eabc6d23f823e6d153be2b", null ],
-    [ "Register", "de/d5e/a13622.html#a1063358ed71ded8454f35f43442354ab", null ]
+    [ "at_zulgurub_bloodfire_pit_speech", "de/d5e/a13622.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
+    [ "_OnTrigger", "de/d5e/a13622.html#a8f1e477942ba9a5f653077632a98930f", null ]
 ];

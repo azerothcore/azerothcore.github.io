@@ -1,10 +1,14 @@
 var a19026 =
 [
-    [ "npc_oculus_drakegiverAI", "d6/d54/a19026.html#a4bba380256a0ede70b8d90611249b444", null ],
-    [ "MovementInform", "d6/d54/a19026.html#adc86ecd4ed7b4b7b42968a0e09fa29a0", null ],
-    [ "UpdateAI", "d6/d54/a19026.html#a652a8c364687d51de62356964f6f33f9", null ],
-    [ "m_pInstance", "d6/d54/a19026.html#a04e43a623d16b4cf8d80552d649d90ca", null ],
-    [ "moved", "d6/d54/a19026.html#a069e202a84d99cd757862bd1a43b5562", null ],
-    [ "resetPosition", "d6/d54/a19026.html#a8ef6c480846d08d8a6225a7124320cbf", null ],
-    [ "timer", "d6/d54/a19026.html#a461b45ab959e71699cf1543ecbcbd91f", null ]
+    [ "boss_varosAI", "d6/d54/a19026.html#a3e6815b80a3f9f5e8c53bb762e9058f2", null ],
+    [ "EnterEvadeMode", "d6/d54/a19026.html#a0b7eeef4529b47357d729852cdeab002", null ],
+    [ "JustDied", "d6/d54/a19026.html#a2724167a66a059e1c0ca1612d8405d68", null ],
+    [ "JustEngagedWith", "d6/d54/a19026.html#a2f25555ca2884f6bffb289d209e87740", null ],
+    [ "JustSummoned", "d6/d54/a19026.html#a24b2a1e438b02c67e64b79adb0cfeafe", null ],
+    [ "MoveInLineOfSight", "d6/d54/a19026.html#a87f743f03dc19659d0e77ee23cd2c327", null ],
+    [ "Reset", "d6/d54/a19026.html#aef24d04954a26bb6381c860403e84288", null ],
+    [ "UpdateAI", "d6/d54/a19026.html#acc1ac3c2bf5cb1a7732f375285467423", null ],
+    [ "events", "d6/d54/a19026.html#a36746118770c936e7606962365e102d8", null ],
+    [ "pInstance", "d6/d54/a19026.html#a9cf7c0159753512ae7dea8a2f6a9da74", null ],
+    [ "ZapAngle", "d6/d54/a19026.html#aef225fcf580c5e500d3242ac4be24260", null ]
 ];

@@ -1,11 +1,8 @@
 var a08450 =
 [
-    [ "UnitActionBarEntry", "df/dc7/a08450.html#a41f9020c4811b14fc543ddece6af86d7", null ],
-    [ "GetAction", "df/dc7/a08450.html#afd77e2f64ec856059759d05ddf77876e", null ],
-    [ "GetType", "df/dc7/a08450.html#a0615e6ad9cf5523d6dc85bd529e65f32", null ],
-    [ "IsActionBarForSpell", "df/dc7/a08450.html#a2af43ec77fcd077b2fe9ca3a6d80123b", null ],
-    [ "SetAction", "df/dc7/a08450.html#aa00953783b0b3de3beb755a054c77730", null ],
-    [ "SetActionAndType", "df/dc7/a08450.html#a110840d38445795957ee0425175b4fb6", null ],
-    [ "SetType", "df/dc7/a08450.html#a38e0dcad391d09e475f90be5a5382f78", null ],
-    [ "packedData", "df/dc7/a08450.html#aa50957a4c707ce3dbdfd62a75e3cb8eb", null ]
+    [ "GlobalCooldownMgr", "df/dc7/a08450.html#a116f4af13a4e10dc5eb3c3c6a17ad863", null ],
+    [ "AddGlobalCooldown", "df/dc7/a08450.html#acc0291e56fe4d3594d079e357f6ea3ed", null ],
+    [ "CancelGlobalCooldown", "df/dc7/a08450.html#aed6b479416104dc536116fdb1e24fcf3", null ],
+    [ "HasGlobalCooldown", "df/dc7/a08450.html#a7487d19ae8c59e5c5e871b2e1afabfba", null ],
+    [ "m_GlobalCooldowns", "df/dc7/a08450.html#a80d03691d36758733f326b65992f266e", null ]
 ];

@@ -1,7 +1,7 @@
 var a03524 =
 [
-    [ "PetSpell", "d0/d0b/a08254.html", "d0/d0b/a08254" ],
-    [ "Pet", "d5/df4/a08258.html", "d5/df4/a08258" ],
+    [ "PetSpell", "d5/df4/a08258.html", "d5/df4/a08258" ],
+    [ "Pet", "dd/d7d/a08262.html", "dd/d7d/a08262" ],
     [ "AutoSpellList", "dc/d98/a03524.html#a85baf40bd776b1c20b66ba7ad78e0356", null ],
     [ "PetSpellMap", "dc/d98/a03524.html#a5b33058abef8c309621a9029df331c0e", null ],
     [ "HAPPINESS_LEVEL_SIZE", "dc/d98/a03524.html#a892e58d225a828ccac38c7d241365e30", null ],

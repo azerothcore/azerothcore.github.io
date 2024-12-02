@@ -1,30 +1,6 @@
 var a19234 =
 [
-    [ "brann_bronzebeardAI", "d3/d50/a19234.html#ac738ee9f48cf95623c02d398a889726a", null ],
-    [ "DamageTaken", "d3/d50/a19234.html#a77531ca2268c97e1dd891e8accdb39e4", null ],
-    [ "DespawnHeads", "d3/d50/a19234.html#a5228e277e7dfb7fe2d40ba4b4ffd119a", null ],
-    [ "DoAction", "d3/d50/a19234.html#abb8463fcd6b642f7dbcd459296c81f86", null ],
-    [ "GetAbedneum", "d3/d50/a19234.html#a908d4f4c44a9ae580ff1ce423edc8827", null ],
-    [ "GetKaddrak", "d3/d50/a19234.html#a0ec7965c90d3401eda58fe7d4e0e1690", null ],
-    [ "GetMarnak", "d3/d50/a19234.html#a121d556eb64ac3f498048de336c29130", null ],
-    [ "InitializeEvent", "d3/d50/a19234.html#ac40734fb9f32d736174781d67908c6d6", null ],
-    [ "JustDied", "d3/d50/a19234.html#a30b1fbaf9a2c248908aa2c230cb843bb", null ],
-    [ "JustSummoned", "d3/d50/a19234.html#ade40ddc2750f52942911de204b74bbea", null ],
-    [ "MoveInLineOfSight", "d3/d50/a19234.html#a7cf70c73f6bfb9fa8efc7cef1cdd2e66", null ],
-    [ "Reset", "d3/d50/a19234.html#a4ffcbc4d1821484d13bab405687057cf", null ],
-    [ "ResetEvent", "d3/d50/a19234.html#a5d3080b0fcb9a968f1c258cfeb3c7d06", null ],
-    [ "SummonCreatures", "d3/d50/a19234.html#aced55136bd186c21dc74774a642f92c8", null ],
-    [ "SwitchHeadVisaul", "d3/d50/a19234.html#a19d3bc69584186ae151416ee959f4369", null ],
-    [ "UpdateEscortAI", "d3/d50/a19234.html#a814f7f6018e2553eba3f1201c2450d57", null ],
-    [ "WaypointReached", "d3/d50/a19234.html#acbcecd90533986c2a6185e7a7b5387f0", null ],
-    [ "AbedneumGUID", "d3/d50/a19234.html#a961f61bf9a9392c5d0c2db0450f8e519", null ],
-    [ "events", "d3/d50/a19234.html#ab667ca6a3e3fd1572cc3a5d0ee4efa60", null ],
-    [ "KaddrakGUID", "d3/d50/a19234.html#acb32e7867b43d1ebd1393d4e716df808", null ],
-    [ "MarnakGUID", "d3/d50/a19234.html#ab451bff216cef73d1caffd1de529ecd0", null ],
-    [ "pInstance", "d3/d50/a19234.html#a93ab00bd475f7544450c53236f46f172", null ],
-    [ "SpeechCount", "d3/d50/a19234.html#ad159a5a46ab35f151177b59f32dea649", null ],
-    [ "SpeechPause", "d3/d50/a19234.html#ab35b242e9a6371ded1d111ce1fd79c35", null ],
-    [ "summons", "d3/d50/a19234.html#a88f94d8492724325c4f74b195caf806e", null ],
-    [ "TalkEvent", "d3/d50/a19234.html#a25f066179d4b0d9861bccada8cb91bfe", null ],
-    [ "WaveNum", "d3/d50/a19234.html#af32c7ba733d00a6f7564d6ed461bd4a5", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "d1/d31/a19238.html", "d1/d31/a19238" ],
+    [ "boss_sjonnir_malformed_ooze", "d3/d50/a19234.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
+    [ "GetAI", "d3/d50/a19234.html#a22807bb07692511c5ec87073d98c2604", null ]
 ];

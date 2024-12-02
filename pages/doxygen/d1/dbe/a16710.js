@@ -1,6 +1,6 @@
 var a16710 =
 [
-    [ "npc_pos_freed_slaveAI", "d4/ddf/a16714.html", "d4/ddf/a16714" ],
-    [ "npc_pos_freed_slave", "d1/dbe/a16710.html#a19fd79279646cb1c49c04056636615fc", null ],
-    [ "GetAI", "d1/dbe/a16710.html#ac798c2584d48892162cc2bc779701e16", null ]
+    [ "npc_pos_collapsing_icicleAI", "d4/ddf/a16714.html", "d4/ddf/a16714" ],
+    [ "npc_pos_collapsing_icicle", "d1/dbe/a16710.html#a42b29fe5d4e106c1e5e5b866a0074664", null ],
+    [ "GetAI", "d1/dbe/a16710.html#a96969ebe749b49ceb38920c63ec6fce3", null ]
 ];

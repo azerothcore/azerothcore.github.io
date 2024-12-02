@@ -1,6 +1,7 @@
 var a14294 =
 [
-    [ "HandleHeal", "d4/d2c/a14294.html#a953536a9a393af9472bdd89018449df0", null ],
-    [ "PrepareSpellScript", "d4/d2c/a14294.html#a70503fc6042001a860d361f2597b7153", null ],
-    [ "Register", "d4/d2c/a14294.html#a383479896e6deb96e50b827370ccfd4d", null ]
+    [ "hyjalThrallAI", "d2/dea/a14298.html", "d2/dea/a14298" ],
+    [ "npc_hyjal_thrall", "d4/d2c/a14294.html#a232f085f208a47f7fae08128de1d06b8", null ],
+    [ "GetAI", "d4/d2c/a14294.html#a699b5df19e4e84166348ecfba2dd0172", null ],
+    [ "OnGossipSelect", "d4/d2c/a14294.html#af833f26d79d34655c010aa04f984a94a", null ]
 ];

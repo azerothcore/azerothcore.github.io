@@ -1,6 +1,7 @@
 var a10722 =
 [
-    [ "WorldSessionFilter", "dd/dfd/a10722.html#aba91eb2dfd56201534743b2d458fa111", null ],
-    [ "~WorldSessionFilter", "dd/dfd/a10722.html#a5de22e3a331e0ab17fe60f34c5b9b3fa", null ],
-    [ "Process", "dd/dfd/a10722.html#a0f0acf4ed9e61bf8aeb77ee7fb310660", null ]
+    [ "MapSessionFilter", "dd/dfd/a10722.html#ad11a700c36f8f45640402e96edc74b49", null ],
+    [ "~MapSessionFilter", "dd/dfd/a10722.html#a82960e741c8f64d24a764a915f14e2b8", null ],
+    [ "Process", "dd/dfd/a10722.html#a54483596fe2a5a0d30fab9a13506b375", null ],
+    [ "ProcessUnsafe", "dd/dfd/a10722.html#a8e3a7dd5affb24305435aea2c57718fa", null ]
 ];

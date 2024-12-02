@@ -1,5 +1,6 @@
 var a26710 =
 [
-    [ "AreaTrigger_at_last_rites", "d8/dee/a26710.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "d8/dee/a26710.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "AreaTrigger_at_area_52_entrance", "d8/dee/a26710.html#a5b7e21903bca1c04bad1394c6965d032", null ],
+    [ "OnTrigger", "d8/dee/a26710.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
+    [ "_triggerTimes", "d8/dee/a26710.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
 ];

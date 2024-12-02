@@ -1,7 +1,9 @@
 var a22470 =
 [
-    [ "boss_lady_malande", "de/d45/a22470.html#a8cb693d203463dcba809e7ffc23c6868", null ],
-    [ "AttackStart", "de/d45/a22470.html#ad5cf6e7b0000c7f96d8606088fb13d31", null ],
-    [ "JustEngagedWith", "de/d45/a22470.html#af4b5f376e387851e15517de03636acde", null ],
-    [ "UpdateAI", "de/d45/a22470.html#a6d9d09a49fc87bbbda02387f78bb3739", null ]
+    [ "HandleAfterCast", "de/d45/a22470.html#a32928b579ef42f377e911ef27197ed61", null ],
+    [ "HandleDummy", "de/d45/a22470.html#a2adec08f0cc42cb21e97007b5f1214bc", null ],
+    [ "Load", "de/d45/a22470.html#ac870bd626367bdc704e63d2f3b061b1f", null ],
+    [ "PrepareSpellScript", "de/d45/a22470.html#a1f51d5562d5caac8d7d0f71de0051989", null ],
+    [ "Register", "de/d45/a22470.html#adf8c87e9f6a3fb36bf26ed1c8dbb722f", null ],
+    [ "_targetCount", "de/d45/a22470.html#a84d46608f7141d68b1a67fffc3493cbb", null ]
 ];

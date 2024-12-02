@@ -1,6 +1,7 @@
 var a27210 =
 [
-    [ "npc_garments_of_questsAI", "d6/deb/a27214.html", "d6/deb/a27214" ],
-    [ "npc_garments_of_quests", "de/d18/a27210.html#a7e4ad68e0187c0a392ed93097b2bf0ce", null ],
-    [ "GetAI", "de/d18/a27210.html#aa8ad1c654f00e054f9b424f61716eafd", null ]
+    [ "npc_sayge", "de/d18/a27210.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
+    [ "OnGossipHello", "de/d18/a27210.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
+    [ "OnGossipSelect", "de/d18/a27210.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
+    [ "SendAction", "de/d18/a27210.html#aed1988335672423d024546654aa95298", null ]
 ];

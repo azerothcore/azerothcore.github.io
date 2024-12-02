@@ -1,16 +1,16 @@
 var a19130 =
 [
-    [ "boss_lokenAI", "d8/d0e/a19130.html#abdadd98c337f97f6a1daf1657f2f3ab2", null ],
-    [ "JustDied", "d8/d0e/a19130.html#a2ab2adb8c9fb2048e2c3c341d8c2ff37", null ],
-    [ "JustEngagedWith", "d8/d0e/a19130.html#afd9634d8665b946991ccd777072cf70a", null ],
-    [ "KilledUnit", "d8/d0e/a19130.html#af6f6ebfffa9e2719c3a18bd53d704018", null ],
-    [ "LokenSpeach", "d8/d0e/a19130.html#a853a371812a856f39137c665fcc09b86", null ],
-    [ "MoveInLineOfSight", "d8/d0e/a19130.html#a0855580a471661925fdf272dedb418fd", null ],
-    [ "Reset", "d8/d0e/a19130.html#a51c7ca1ce5a0b4837d2fbc033c06a864", null ],
-    [ "UpdateAI", "d8/d0e/a19130.html#acc5b453efca847a6cada43606b8a08ed", null ],
-    [ "events", "d8/d0e/a19130.html#ac3b98aeba2741ee49d262b33d30f8b2a", null ],
-    [ "HealthCheck", "d8/d0e/a19130.html#ad9f9e369ce64bab66f29899659440b62", null ],
-    [ "IntroTimer", "d8/d0e/a19130.html#ae92b9ff0abd8580baf7a2fca56e0df23", null ],
-    [ "isActive", "d8/d0e/a19130.html#a8f20ce4cddf7eae09ddc659b9bf75919", null ],
-    [ "m_pInstance", "d8/d0e/a19130.html#aba89a46dae1d4d195c8be10d89fb72ab", null ]
+    [ "boss_ionarAI", "d8/d0e/a19130.html#af212102febe4e0ef406475f5e1452695", null ],
+    [ "JustDied", "d8/d0e/a19130.html#a12ad910d0838b1fbb626f761b70c86c5", null ],
+    [ "JustEngagedWith", "d8/d0e/a19130.html#a17bff3df427ad65453cfc440e46f76fa", null ],
+    [ "KilledUnit", "d8/d0e/a19130.html#aa74b2b6cd2358b11596d34357fac194c", null ],
+    [ "Reset", "d8/d0e/a19130.html#acbb2807142af2ef570aec0f12c861d36", null ],
+    [ "ScheduleEvents", "d8/d0e/a19130.html#ad3f0bf773bc091cc14491cd309a4b531", null ],
+    [ "SpellHit", "d8/d0e/a19130.html#a5954749594cf76a2f8db7a61874a0279", null ],
+    [ "Split", "d8/d0e/a19130.html#ab10351b157e6e370d910780febdbda74", null ],
+    [ "UpdateAI", "d8/d0e/a19130.html#a41767f4b491b4d59824bac8854c3090d", null ],
+    [ "events", "d8/d0e/a19130.html#ae87ba5970d8d4f9fc33b94dc9abefa2f", null ],
+    [ "HealthCheck", "d8/d0e/a19130.html#a05006b60fa4e7b33f589ca87b3374aa5", null ],
+    [ "m_pInstance", "d8/d0e/a19130.html#a752059e06a6971d94243f283ef75be91", null ],
+    [ "summons", "d8/d0e/a19130.html#ac67332dd2f94ea8bdd7c7871bc022239", null ]
 ];

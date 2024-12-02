@@ -1,9 +1,10 @@
 var a08938 =
 [
-    [ "UnitListSearcher", "df/d6e/a08938.html#a24c0de32dc3baa927962626421a343ae", null ],
-    [ "Visit", "df/d6e/a08938.html#a83d86364ef2f9f9ed55b9bf9aa9bea0d", null ],
-    [ "Visit", "df/d6e/a08938.html#a92f9b0407e609b6c61f10d93aa49912f", null ],
-    [ "Visit", "df/d6e/a08938.html#a5fddd281a9f9cd10cf3948d4bf7b626f", null ],
-    [ "i_check", "df/d6e/a08938.html#a508a47e6261e7ae6e5669aee853ff99e", null ],
-    [ "i_phaseMask", "df/d6e/a08938.html#a43c863350bea423cf4a720c4c680fd4c", null ]
+    [ "UnitLastSearcher", "df/d6e/a08938.html#a7924240df139cf0814282eaff8a898b6", null ],
+    [ "Visit", "df/d6e/a08938.html#a95a5148e040daf44ed19e3118621a4ca", null ],
+    [ "Visit", "df/d6e/a08938.html#ae9992afc09771d4f1e1517642075f17e", null ],
+    [ "Visit", "df/d6e/a08938.html#aadfcfdd95a9f2b61cb9ff4c7db43a014", null ],
+    [ "i_check", "df/d6e/a08938.html#a6cf23e7ed9198798da03e6ec3526ee97", null ],
+    [ "i_object", "df/d6e/a08938.html#a7bd2407800c461de70b217a4b48f9921", null ],
+    [ "i_phaseMask", "df/d6e/a08938.html#aee39e2b567813e1e7420de07b3fe9b08", null ]
 ];

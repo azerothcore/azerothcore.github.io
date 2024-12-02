@@ -1,6 +1,6 @@
 var a18990 =
 [
-    [ "boss_eregosAI", "dd/d36/a18994.html", "dd/d36/a18994" ],
-    [ "boss_eregos", "d9/d53/a18990.html#a105820f29aa1391d77a56e024c4b5637", null ],
-    [ "GetAI", "d9/d53/a18990.html#aee43f0dfee70ab9618c560a27504cb02", null ]
+    [ "boss_drakosAI", "dd/d36/a18994.html", "dd/d36/a18994" ],
+    [ "boss_drakos", "d9/d53/a18990.html#aa70ae2809af4f24eea0b83b42d695448", null ],
+    [ "GetAI", "d9/d53/a18990.html#a16dcc7f9da254d0bddc19394a1cd4ab0", null ]
 ];

@@ -1,9 +1,6 @@
 var a09574 =
 [
-    [ "MapUpdateRequest", "da/de5/a09574.html#af71812e502bb1ceb60a286ff0d676ccd", null ],
-    [ "call", "da/de5/a09574.html#a2cb96db357347d47596725e5c345b02f", null ],
-    [ "m_diff", "da/de5/a09574.html#a3f8ff355ac6efb0a6039c7ee5bfc053b", null ],
-    [ "m_map", "da/de5/a09574.html#a3612f3e64bb1d2f266c8724c398f5de5", null ],
-    [ "m_updater", "da/de5/a09574.html#aeb063738175aa8ddc751290f922ffef2", null ],
-    [ "s_diff", "da/de5/a09574.html#a533a8c8a99f82e15dae0d4513c811b01", null ]
+    [ "UpdateRequest", "da/de5/a09574.html#a23b3dbcff54691b2710109a822a486a0", null ],
+    [ "~UpdateRequest", "da/de5/a09574.html#a240bdc56685c270c597588231c3bf8f8", null ],
+    [ "call", "da/de5/a09574.html#a8221fa415f828a4866f85f3983f7dab9", null ]
 ];

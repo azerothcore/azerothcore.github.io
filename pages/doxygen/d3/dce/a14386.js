@@ -1,6 +1,6 @@
 var a14386 =
 [
-    [ "npc_cos_stratholme_citizienAI", "dc/d97/a14390.html", "dc/d97/a14390" ],
-    [ "npc_cos_stratholme_citizien", "d3/dce/a14386.html#a92f8d88ecfa9cc47d6799107e5de0107", null ],
-    [ "GetAI", "d3/dce/a14386.html#a4f5f132b903241021a4e53dd60c0f43b", null ]
+    [ "npc_crate_helperAI", "dc/d97/a14390.html", "dc/d97/a14390" ],
+    [ "npc_crate_helper", "d3/dce/a14386.html#ae08751928234656dcda84dd5c7e4cc37", null ],
+    [ "GetAI", "d3/dce/a14386.html#af69c9cf385ee829853985daa7f2aa8d6", null ]
 ];

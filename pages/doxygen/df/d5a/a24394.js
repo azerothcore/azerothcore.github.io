@@ -1,9 +1,8 @@
 var a24394 =
 [
-    [ "Absorb", "df/d5a/a24394.html#af7df70d0bd68d12032b5b57faa789a87", null ],
-    [ "CalculateAmount", "df/d5a/a24394.html#a40f7cfe30b7bf2237d61665b167476fb", null ],
-    [ "Load", "df/d5a/a24394.html#a1b3e5da38a6aba7cc163bf34848ed950", null ],
-    [ "PrepareAuraScript", "df/d5a/a24394.html#ae63ad15db90ebe73d73e77e232f4d695", null ],
-    [ "Register", "df/d5a/a24394.html#ac7316995b7682a6fafe47ff2547956b0", null ],
-    [ "absorbPct", "df/d5a/a24394.html#ab5b59d975e71e0e12bf41e8d173b9491", null ]
+    [ "AfterApply", "df/d5a/a24394.html#a4d2941ebb326d603ac08f428f811c29b", null ],
+    [ "AfterRemove", "df/d5a/a24394.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
+    [ "PrepareAuraScript", "df/d5a/a24394.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
+    [ "Register", "df/d5a/a24394.html#a78e30a950b9fc08dff5072028816b8b4", null ],
+    [ "Validate", "df/d5a/a24394.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
 ];

@@ -1,5 +1,5 @@
 var a27874 =
 [
-    [ "id", "d9/d8a/a27874.html#a22e48015dd880199e131089e35b1ce05", null ],
-    [ "spellId", "d9/d8a/a27874.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
+    [ "Exp", "d9/d8a/a27874.html#aa34490babd6ccdc45857947db3f36d60", null ],
+    [ "id", "d9/d8a/a27874.html#abe177efe7ea9d1d1ae8e7d09655c7193", null ]
 ];

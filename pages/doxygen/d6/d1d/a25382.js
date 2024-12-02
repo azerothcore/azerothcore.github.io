@@ -1,9 +1,8 @@
 var a25382 =
 [
-    [ "CheckProc", "d6/d1d/a25382.html#a185159a5c83e8c65ef5b82f49a89dd8a", null ],
-    [ "HandleProc", "d6/d1d/a25382.html#a67db21e0293f336a31bf518c0fac85d1", null ],
-    [ "OnRemove", "d6/d1d/a25382.html#a1b51483738d5d3b73f50a78ef9fc1c57", null ],
-    [ "PrepareAuraScript", "d6/d1d/a25382.html#a3e549b8764c0f8efc5d110543c9944c7", null ],
-    [ "Register", "d6/d1d/a25382.html#abc4b88f104253b2b141ab0e3e22ee338", null ],
-    [ "Validate", "d6/d1d/a25382.html#a0b5b97081b7c897d451ef70c810bd7f1", null ]
+    [ "HandleDummy", "d6/d1d/a25382.html#a3db6982f1162ac6b03771a0e7e432e6d", null ],
+    [ "Load", "d6/d1d/a25382.html#a9671be7920dfd3bde2033f0ae43259b0", null ],
+    [ "PrepareSpellScript", "d6/d1d/a25382.html#ad50c9141d40b7089fd24a8657d496a8d", null ],
+    [ "Register", "d6/d1d/a25382.html#a249a857b1cf5b0c3be6018cb233c75d1", null ],
+    [ "Validate", "d6/d1d/a25382.html#ac209048bd5688417c391c2c9b8a72d8b", null ]
 ];

@@ -1,6 +1,6 @@
 var a15370 =
 [
-    [ "HandleOpenLock", "d4/d4b/a15370.html#a32bfb203e9ecfbcfa75f6c3e7a17fade", null ],
-    [ "PrepareSpellScript", "d4/d4b/a15370.html#a646a42455b6a46c9f7cbb4b0229122cd", null ],
-    [ "Register", "d4/d4b/a15370.html#a5dcac6f609ec93074ec3ce195101f592", null ]
+    [ "creatureID", "d4/d4b/a15370.html#a44a9f5e58bfa58e2e2325e116e988f07", null ],
+    [ "pos", "d4/d4b/a15370.html#a9705a858cc2c3867e104514d3a0a1866", null ],
+    [ "waveID", "d4/d4b/a15370.html#a09b48f7f6da7e203ed50a8abc7f24e56", null ]
 ];

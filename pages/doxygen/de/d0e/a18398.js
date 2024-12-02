@@ -1,6 +1,6 @@
 var a18398 =
 [
-    [ "npc_icc_skybreaker_vicarAI", "d0/d06/a18402.html", "d0/d06/a18402" ],
-    [ "npc_icc_skybreaker_vicar", "de/d0e/a18398.html#a40451cc6fba0cae59e47fa38e4fb79d3", null ],
-    [ "GetAI", "de/d0e/a18398.html#a6884bb7e54b78abee0cc995c4fbb501d", null ]
+    [ "npc_icc_skybreaker_hierophantAI", "d0/d06/a18402.html", "d0/d06/a18402" ],
+    [ "npc_icc_skybreaker_hierophant", "de/d0e/a18398.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
+    [ "GetAI", "de/d0e/a18398.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
 ];

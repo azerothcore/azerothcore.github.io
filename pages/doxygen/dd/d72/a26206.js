@@ -1,9 +1,7 @@
 var a26206 =
 [
-    [ "CheckCast", "dd/d72/a26206.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
-    [ "FilterTargets", "dd/d72/a26206.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
-    [ "HandleDummy", "dd/d72/a26206.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
-    [ "PrepareSpellScript", "dd/d72/a26206.html#a9c992e732b525e29f684947398d20efb", null ],
-    [ "Register", "dd/d72/a26206.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
-    [ "Validate", "dd/d72/a26206.html#abca1e5aa46e7753588c8120090775195", null ]
+    [ "CalculateAmount", "dd/d72/a26206.html#aefeab4e58c1b5c1be87f583256d366f5", null ],
+    [ "Load", "dd/d72/a26206.html#ae2ef0eae77137c120ec61af8698677db", null ],
+    [ "PrepareAuraScript", "dd/d72/a26206.html#acaecc78c031aa436f432fd7145478de4", null ],
+    [ "Register", "dd/d72/a26206.html#afd27c8bc5fd1628b7e32bf464bfe3d48", null ]
 ];

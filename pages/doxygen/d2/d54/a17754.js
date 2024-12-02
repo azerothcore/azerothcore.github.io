@@ -1,6 +1,7 @@
 var a17754 =
 [
-    [ "OrderWhelpTargetSelector", "d2/d54/a17754.html#a5e433367ebbf88c6bb8fef9d43eafcfa", null ],
-    [ "operator()", "d2/d54/a17754.html#abf98b730a2b794012c28b61ab8bb6b6c", null ],
-    [ "_owner", "d2/d54/a17754.html#ae475da3cca3d6288ce7df0b84d59005e", null ]
+    [ "HandleTriggerMissile", "d2/d54/a17754.html#af6370594be48d35a12009fa10a38d91d", null ],
+    [ "PrepareSpellScript", "d2/d54/a17754.html#aeeca4381273f382c3abb68f34d229213", null ],
+    [ "Register", "d2/d54/a17754.html#a0b79f5ee23e53c18277712f1b26e13f3", null ],
+    [ "Validate", "d2/d54/a17754.html#abe0b9290ddf9beaa60a583840d90d914", null ]
 ];

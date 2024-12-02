@@ -1,9 +1,8 @@
 var a27162 =
 [
-    [ "npc_target_dummyAI", "dc/d84/a27162.html#a117e45559ea721877d73df4b3c18a259", null ],
-    [ "EnterEvadeMode", "dc/d84/a27162.html#a8f7f2e4decc676e378b4929516f8a147", null ],
-    [ "MoveInLineOfSight", "dc/d84/a27162.html#a05f5b1f2cb8f0926bf425e7c31d618e2", null ],
-    [ "Reset", "dc/d84/a27162.html#a4e8f8d1da604a80b60d61f72ed4ecbcf", null ],
-    [ "UpdateAI", "dc/d84/a27162.html#ae686aa48ab7e91988e5b71c71695ce47", null ],
-    [ "deathTimer", "dc/d84/a27162.html#abf5bd5122e79a62a03c19a18cd68498b", null ]
+    [ "npc_chicken_cluckAI", "d9/d8a/a27166.html", "d9/d8a/a27166" ],
+    [ "npc_chicken_cluck", "dc/d84/a27162.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "dc/d84/a27162.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "dc/d84/a27162.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "dc/d84/a27162.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

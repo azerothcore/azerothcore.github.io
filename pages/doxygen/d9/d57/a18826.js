@@ -1,5 +1,6 @@
 var a18826 =
 [
-    [ "at_naxxramas_hub_portal", "d9/d57/a18826.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "d9/d57/a18826.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "instance_naxxramas_InstanceMapScript", "de/dd3/a18830.html", "de/dd3/a18830" ],
+    [ "instance_naxxramas", "d9/d57/a18826.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
+    [ "GetInstanceScript", "d9/d57/a18826.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
 ];

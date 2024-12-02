@@ -1,6 +1,6 @@
 var a20998 =
 [
-    [ "boss_xevozzAI", "da/d6d/a21002.html", "da/d6d/a21002" ],
-    [ "boss_xevozz", "d1/d55/a20998.html#a814ac939c4570d33450c4a6664833087", null ],
-    [ "GetAI", "d1/d55/a20998.html#a712d8ed125d464da56b677914fbf8796", null ]
+    [ "npc_vh_void_sentryAI", "da/d6d/a21002.html", "da/d6d/a21002" ],
+    [ "npc_vh_void_sentry", "d1/d55/a20998.html#a6d4995d112a3fe6b59c3c3c417d98c45", null ],
+    [ "GetAI", "d1/d55/a20998.html#ab3bcb8f8e9084e2ab588f80929a5d5ce", null ]
 ];

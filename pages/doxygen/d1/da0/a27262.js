@@ -1,6 +1,6 @@
 var a27262 =
 [
-    [ "npc_fireworkAI", "da/dab/a27266.html", "da/dab/a27266" ],
-    [ "npc_firework", "d1/da0/a27262.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
-    [ "GetAI", "d1/da0/a27262.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
+    [ "npc_stable_masterAI", "da/dab/a27266.html", "da/dab/a27266" ],
+    [ "npc_stable_master", "d1/da0/a27262.html#ad327340f47e10bec7f077192227b0899", null ],
+    [ "GetAI", "d1/da0/a27262.html#a7e34e18d2dad465eb88b0388fa830490", null ]
 ];

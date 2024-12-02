@@ -1,10 +1,10 @@
 var a03065 =
 [
-    [ "SpellImplicitTargetInfo", "d2/d3a/a10886.html", "d2/d3a/a10886" ],
-    [ "SpellImplicitTargetInfo::StaticData", "d9/d36/a10890.html", "d9/d36/a10890" ],
-    [ "SpellEffectInfo", "d7/de6/a10894.html", "d7/de6/a10894" ],
-    [ "SpellEffectInfo::StaticData", "d2/db6/a10898.html", "d2/db6/a10898" ],
-    [ "SpellInfo", "dd/d6e/a10902.html", "dd/d6e/a10902" ],
+    [ "SpellImplicitTargetInfo", "d9/d36/a10890.html", "d9/d36/a10890" ],
+    [ "SpellImplicitTargetInfo::StaticData", "d7/de6/a10894.html", "d7/de6/a10894" ],
+    [ "SpellEffectInfo", "d2/db6/a10898.html", "d2/db6/a10898" ],
+    [ "SpellEffectInfo::StaticData", "dd/d6e/a10902.html", "dd/d6e/a10902" ],
+    [ "SpellInfo", "d4/db9/a10906.html", "d4/db9/a10906" ],
     [ "SpellCastTargetFlags", "d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54f", [
       [ "TARGET_FLAG_NONE", "d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa26e47021cbf69aa137c5a028560ee0bc", null ],
       [ "TARGET_FLAG_UNUSED_1", "d4/d44/a03065.html#a3c11f0d0cd9689554b34ccbc325da54fa841fdb1e05b75499a9296ae914477bca", null ],

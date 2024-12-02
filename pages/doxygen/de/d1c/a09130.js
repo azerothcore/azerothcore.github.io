@@ -1,8 +1,8 @@
 var a09130 =
 [
-    [ "MostHPMissingGroupInRange", "de/d1c/a09130.html#ab7cd80daa30d8a39289c704cc0a2064f", null ],
-    [ "operator()", "de/d1c/a09130.html#ad1b4a4894dd652237a7a789ef5619f4b", null ],
-    [ "i_hp", "de/d1c/a09130.html#ae61cafc52cb6d33cd78422c41bd3bb08", null ],
-    [ "i_obj", "de/d1c/a09130.html#ae0d85f9738301b40c3e950b02ee20026", null ],
-    [ "i_range", "de/d1c/a09130.html#a712e9b1ff341ccde4a6d6962ba6002a4", null ]
+    [ "AllCreaturesOfEntryInRange", "de/d1c/a09130.html#a02aca6b65bd5ea49d510bb8d901e1322", null ],
+    [ "operator()", "de/d1c/a09130.html#a99f472f33c0e5a6a76d6ffc08af2783b", null ],
+    [ "m_fRange", "de/d1c/a09130.html#a0cb7d140b51d52e0db5b8d9f70250ced", null ],
+    [ "m_pObject", "de/d1c/a09130.html#ade8cc66e1cd421550d2674e3ad960f48", null ],
+    [ "m_uiEntry", "de/d1c/a09130.html#abf653360d2ee482728fb137a37fe0512", null ]
 ];

@@ -1,5 +1,6 @@
 var a13594 =
 [
-    [ "at_zulgurub_entrance_speech", "dc/de8/a13594.html#afef11c6a7e97befd07072826fa13be55", null ],
-    [ "_OnTrigger", "dc/de8/a13594.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
+    [ "boss_grilekAI", "dd/d76/a13598.html", "dd/d76/a13598" ],
+    [ "boss_grilek", "dc/de8/a13594.html#acffe0061db18c5725c8c290822c5fed7", null ],
+    [ "GetAI", "dc/de8/a13594.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
 ];

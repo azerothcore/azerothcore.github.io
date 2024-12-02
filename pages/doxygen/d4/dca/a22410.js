@@ -1,7 +1,8 @@
 var a22410 =
 [
-    [ "HandleDummy", "d4/dca/a22410.html#af5ac581f7d471300fba2c23548037eea", null ],
-    [ "PrepareSpellScript", "d4/dca/a22410.html#adda61c05b544b52d98af5b7a76d4f808", null ],
-    [ "Register", "d4/dca/a22410.html#a270a64dffdce230d97515f116ec49706", null ],
-    [ "Validate", "d4/dca/a22410.html#a7cf3637ea33ad30913723b4fd33e5546", null ]
+    [ "Load", "d4/dca/a22410.html#a4ff26763f05b07d882cd8d209464910e", null ],
+    [ "OnPeriodic", "d4/dca/a22410.html#a3e3bb503a6b5f90741a4df668851accf", null ],
+    [ "PrepareAuraScript", "d4/dca/a22410.html#a4126d35669859963f10ed1425a054298", null ],
+    [ "Register", "d4/dca/a22410.html#adb6a44892d80aeaaf4c15c71a47f422e", null ],
+    [ "Validate", "d4/dca/a22410.html#a22d6c338ea1f2af9be0eb02aceba42bd", null ]
 ];

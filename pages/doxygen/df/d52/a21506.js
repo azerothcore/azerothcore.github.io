@@ -1,6 +1,7 @@
 var a21506 =
 [
-    [ "HandleDummy", "df/d52/a21506.html#afe86744c6ab901750731fca486ff2e6c", null ],
-    [ "PrepareSpellScript", "df/d52/a21506.html#a47e8a3187fa523c61842885f1cbd041d", null ],
-    [ "Register", "df/d52/a21506.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
+    [ "npc_emilyAI", "d1/dee/a21510.html", "d1/dee/a21510" ],
+    [ "npc_emily", "df/d52/a21506.html#ab40f581fad087b3d32a7724fca97895d", null ],
+    [ "GetAI", "df/d52/a21506.html#a6317e4b9787c25ce119d08432cd1acf7", null ],
+    [ "OnQuestAccept", "df/d52/a21506.html#ad434e7bf2427b3575a8459021e792152", null ]
 ];

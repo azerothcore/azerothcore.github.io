@@ -1,6 +1,6 @@
 var a03452 =
 [
-    [ "Corpse", "d1/d66/a07770.html", "d1/d66/a07770" ],
+    [ "Corpse", "d4/d1e/a07774.html", "d4/d1e/a07774" ],
     [ "CORPSE_RECLAIM_RADIUS", "df/d0f/a03452.html#a1cebf109f41dcdac8a90086696642782", null ],
     [ "MAX_CORPSE_TYPE", "df/d0f/a03452.html#aec0512ffe7d6a8f7dd8330c334bb4fc3", null ],
     [ "CorpseFlags", "df/d0f/a03452.html#ac7edfbd0ad6d8a44c4ac0fe7af8f537c", [

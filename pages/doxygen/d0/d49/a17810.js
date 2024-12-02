@@ -1,8 +1,6 @@
 var a17810 =
 [
-    [ "NecroticPlagueTargetCheck", "d0/d49/a17810.html#abf9c21cc0041e5981a91abce8fb0a58f", null ],
-    [ "operator()", "d0/d49/a17810.html#a801a176e367a9f4446fe080845477654", null ],
-    [ "_notAura1", "d0/d49/a17810.html#a4f52417f233e1ab06210726670f719f3", null ],
-    [ "_notAura2", "d0/d49/a17810.html#affa9b300cd7a7469b0bdf2a72d380dd6", null ],
-    [ "_sourceObj", "d0/d49/a17810.html#a7cf2e485e65f2396cfdbfe8e646e4d53", null ]
+    [ "VileSpiritActivateEvent", "d0/d49/a17810.html#ac7d37d3b7b3173015a2af9ce93b8f2f9", null ],
+    [ "Execute", "d0/d49/a17810.html#a858892424e1f22fda9a7c519b6a7e0b6", null ],
+    [ "_owner", "d0/d49/a17810.html#a385fc75b5d77d8776d5a8e948fa69724", null ]
 ];

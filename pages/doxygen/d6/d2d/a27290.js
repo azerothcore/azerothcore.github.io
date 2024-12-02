@@ -1,6 +1,5 @@
 var a27290 =
 [
-    [ "npc_venomhide_hatchlingAI", "d6/d2d/a27290.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
-    [ "IsSummonedBy", "d6/d2d/a27290.html#a6e1b76f43217f1eb855b50d58a069518", null ],
-    [ "SpellHit", "d6/d2d/a27290.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
+    [ "QuestApprenticeAnglerPlayerScript", "d6/d2d/a27290.html#afaa929276f8b131005c9b94daa9a09f9", null ],
+    [ "OnPlayerCompleteQuest", "d6/d2d/a27290.html#a029ef1ccdd42af2ff9223ab699c3942f", null ]
 ];

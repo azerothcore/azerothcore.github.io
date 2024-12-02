@@ -1,12 +1,11 @@
 var a10174 =
 [
-    [ "Packet", "d1/d32/a10174.html#a316af2b7ce1ac7189fb1e57f534bad11", null ],
-    [ "~Packet", "d1/d32/a10174.html#a2ca1e6377bb2fb10bf042311e72eb5d4", null ],
-    [ "Packet", "d1/d32/a10174.html#a00213b64110a99004b3d9a6b38876cd4", null ],
-    [ "GetRawPacket", "d1/d32/a10174.html#a9d8649e1b035fe7387dcee3e0b062a5e", null ],
-    [ "GetSize", "d1/d32/a10174.html#a08eb4c40f49c0d4e7f17a6dc1df2fe6a", null ],
-    [ "operator=", "d1/d32/a10174.html#a6d2afd0d4b0d7daff11868854b7c4715", null ],
-    [ "Read", "d1/d32/a10174.html#a94afc4d66c2b5bced3063bab5a666bfd", null ],
-    [ "Write", "d1/d32/a10174.html#af7c79156d7b6cfe3142fc530f9ed262a", null ],
-    [ "_worldPacket", "d1/d32/a10174.html#ab85f1c9f20117bc5015180165c7b458a", null ]
+    [ "PointMoveMap", "d1/d32/a10174.html#a777e97ebcf367638578d1c189480ad99", null ],
+    [ "SystemMgr", "d1/d32/a10174.html#ac7fd54676b46afcbc520e4c58fcdce75", null ],
+    [ "~SystemMgr", "d1/d32/a10174.html#ab192b30aa7ff1edd27bb23e87a7ac4c5", null ],
+    [ "GetPointMoveList", "d1/d32/a10174.html#af9f998f9778cebce3edb39b7296994d5", null ],
+    [ "instance", "d1/d32/a10174.html#a71b78a44a3656802d55211d68fb19e12", null ],
+    [ "LoadScriptWaypoints", "d1/d32/a10174.html#af8097171a2ffc49600397c6a519dddc3", null ],
+    [ "_empty", "d1/d32/a10174.html#a4c90cb038afeb09c107979348bd3ca01", null ],
+    [ "m_mPointMoveMap", "d1/d32/a10174.html#a3603d019adf647df9f314a7ca61a25dd", null ]
 ];

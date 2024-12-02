@@ -1,8 +1,6 @@
 var a25082 =
 [
-    [ "OnApply", "d5/daf/a25082.html#aeec705e572ce6aa870bb5cc048e02e75", null ],
-    [ "OnRemove", "d5/daf/a25082.html#a38399457b6cb8ebf4c5e457e0590cb1a", null ],
-    [ "PrepareAuraScript", "d5/daf/a25082.html#a8d0f2113c0212a24e94054f3f1db0ad3", null ],
-    [ "Register", "d5/daf/a25082.html#a673dc5619a33632ba3d3f1793c5cfdb4", null ],
-    [ "Validate", "d5/daf/a25082.html#a65722a9826b14dc90cc6df47655d3d6b", null ]
+    [ "CheckProc", "d5/daf/a25082.html#a393946dd3404c4b03a9a8ced7913ccaa", null ],
+    [ "PrepareAuraScript", "d5/daf/a25082.html#ae28075d0d66c99fb77a2c7fef678f4e2", null ],
+    [ "Register", "d5/daf/a25082.html#a3e0279f7dc724b4d49bfda4f0e417353", null ]
 ];

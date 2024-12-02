@@ -1,8 +1,10 @@
 var a25706 =
 [
-    [ "CalculateAmount", "dd/deb/a25706.html#a8751483423726ffa8a33c70b7e55db23", null ],
-    [ "CheckProc", "dd/deb/a25706.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
-    [ "HandleProc", "dd/deb/a25706.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
-    [ "PrepareAuraScript", "dd/deb/a25706.html#a6bb54cea419145875c4086a69e1e55e8", null ],
-    [ "Register", "dd/deb/a25706.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
+    [ "CheckProc", "dd/deb/a25706.html#a23dfb39522f7a5437af439ef567d6ec6", null ],
+    [ "HandleEffectApply", "dd/deb/a25706.html#ab83f17b45edc5dba8f4b3f3fbc88c626", null ],
+    [ "HandleEffectRemove", "dd/deb/a25706.html#a7bab07fde0fb18e89388e1bc4c72c165", null ],
+    [ "HandleProc", "dd/deb/a25706.html#a8352d7d9376f149fa227f7ca983e2660", null ],
+    [ "PrepareAuraScript", "dd/deb/a25706.html#a309dabfa452d3279e7fb47a8e4784779", null ],
+    [ "Register", "dd/deb/a25706.html#a3d020d3025f0ad086c43b4239205cd94", null ],
+    [ "Validate", "dd/deb/a25706.html#ac3a5505808b3a7e718071f1202805ac5", null ]
 ];

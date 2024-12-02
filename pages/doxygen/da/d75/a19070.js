@@ -1,6 +1,7 @@
 var a19070 =
 [
-    [ "PrepareSpellScript", "da/d75/a19070.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
-    [ "Register", "da/d75/a19070.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
-    [ "SetDest", "da/d75/a19070.html#a24341aae14ed77101d4c31f2fbe11463", null ]
+    [ "CalcDamage", "da/d75/a19070.html#abb2bf75cc347597b17ed5e4ccd213132", null ],
+    [ "PrepareSpellScript", "da/d75/a19070.html#a705a6f0c9b10dc8e7e2e6c091a3ff89c", null ],
+    [ "Register", "da/d75/a19070.html#a2c2b391b223ab92b6d644b739419a1d3", null ],
+    [ "Validate", "da/d75/a19070.html#a773c608119a84cc3f02e7b4d786f2741", null ]
 ];

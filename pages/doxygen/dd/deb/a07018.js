@@ -1,8 +1,10 @@
 var a07018 =
 [
-    [ "nbTowerCannonBottom", "dd/deb/a07018.html#a06e8dcf63efd928b72f3ec7d433ccb89", null ],
-    [ "nbTurretTop", "dd/deb/a07018.html#a5a728dccad89da190131cd93b62390b7", null ],
-    [ "TowerCannonBottom", "dd/deb/a07018.html#a21fa09356b3349bf45865aa3f0920268", null ],
-    [ "towerEntry", "dd/deb/a07018.html#a37e171a06a6e7bf5c0832417c597c2e1", null ],
-    [ "TurretTop", "dd/deb/a07018.html#a6849ba6967fa275950da9fec16df9bec", null ]
+    [ "CreatureBottom", "dd/deb/a07018.html#aaa8fe59aa58bf02934bf87f636582637", null ],
+    [ "CreatureTop", "dd/deb/a07018.html#a98a71fcf0d3a1f98ba4dab56d1a3c64b", null ],
+    [ "GameObject", "dd/deb/a07018.html#abc26a328692fc048d9040c44f360f4c4", null ],
+    [ "nbCreatureBottom", "dd/deb/a07018.html#ade8af6bff39a72f7052b7b0db14b207d", null ],
+    [ "nbCreatureTop", "dd/deb/a07018.html#a38ab7536e0682efd7080b823569d504b", null ],
+    [ "nbObject", "dd/deb/a07018.html#ad1e431e7205aee7fa7f8f0dd9a155c97", null ],
+    [ "towerEntry", "dd/deb/a07018.html#a1c0edf97a599773b688954f2e966e794", null ]
 ];

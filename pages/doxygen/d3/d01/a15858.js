@@ -1,15 +1,17 @@
 var a15858 =
 [
-    [ "npc_argent_soldierAI", "d3/d01/a15858.html#abbfbb5a1e116c6deb3db23f12ff8994f", null ],
-    [ "DamageTaken", "d3/d01/a15858.html#afb48cc1c2e254c292c33eade74b6fad7", null ],
-    [ "JustDied", "d3/d01/a15858.html#aedf4dcd909c1009fedfde593522454ec", null ],
-    [ "JustEngagedWith", "d3/d01/a15858.html#a0aa59fdf0668d64f3b670c595579ba81", null ],
-    [ "Reset", "d3/d01/a15858.html#a1a0c00c09c348f746730c9743d4b7b6b", null ],
-    [ "SetData", "d3/d01/a15858.html#a20b62b48f5cf92106fcd1860d9e91956", null ],
-    [ "UpdateAI", "d3/d01/a15858.html#aed2921c1f6bc0507bf9e6f02f224ab44", null ],
-    [ "WaypointReached", "d3/d01/a15858.html#af70fb91477dbeaa7e6e409f3381f0770", null ],
-    [ "bCheck", "d3/d01/a15858.html#af570597c33add7ac5ebf3d01e8c9b2df", null ],
-    [ "events", "d3/d01/a15858.html#ac458fc9a331dc7edfdc764215b1926e8", null ],
-    [ "pInstance", "d3/d01/a15858.html#ac9951514f27f343ae96e856f484e7baf", null ],
-    [ "uiWaypoint", "d3/d01/a15858.html#a87382571221c608017fd2d4cb99193dc", null ]
+    [ "boss_paletressAI", "d3/d01/a15858.html#a3bd22d082434895c4779b121f926a8c4", null ],
+    [ "DamageTaken", "d3/d01/a15858.html#a54af3ec8de6d0fdb17ae0499645a02bd", null ],
+    [ "DoAction", "d3/d01/a15858.html#a30babeb3c9644af4e9c6cbc879317299", null ],
+    [ "JustEngagedWith", "d3/d01/a15858.html#ab8e8485765502d39cb4311d92ac98441", null ],
+    [ "JustSummoned", "d3/d01/a15858.html#a82df372b8216703b8377ff334aa64684", null ],
+    [ "KilledUnit", "d3/d01/a15858.html#af9aa74ec5a3c88475734f864ec307563", null ],
+    [ "MovementInform", "d3/d01/a15858.html#a0ececc88bc520584d1c7baf8d7a5e7f6", null ],
+    [ "Reset", "d3/d01/a15858.html#af216c7ce539b5e8ce80223270f202603", null ],
+    [ "SummonMemory", "d3/d01/a15858.html#ae9daef57101d1ab25e9c6fb6980b05ff", null ],
+    [ "UpdateAI", "d3/d01/a15858.html#a6f8c8d20fbfff32d34cd30f9c3a757a6", null ],
+    [ "events", "d3/d01/a15858.html#a4b19d38e2a84097c7c47c434d66be052", null ],
+    [ "MemoryGUID", "d3/d01/a15858.html#a5b2d80b38623174b7913ed4d893f03c9", null ],
+    [ "pInstance", "d3/d01/a15858.html#a9ef97ec685e516e80b792fa1d7e891c1", null ],
+    [ "summoned", "d3/d01/a15858.html#a6064594bc0e9bd008b76d498f4cdc36c", null ]
 ];

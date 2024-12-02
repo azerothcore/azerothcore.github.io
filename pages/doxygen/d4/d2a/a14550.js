@@ -1,6 +1,6 @@
 var a14550 =
 [
-    [ "instance_razorfen_kraul_InstanceMapScript", "d4/d2c/a14554.html", "d4/d2c/a14554" ],
-    [ "instance_razorfen_kraul", "d4/d2a/a14550.html#aedd65b901c8131a7ac21e8576734f76f", null ],
-    [ "GetInstanceScript", "d4/d2a/a14550.html#a78e77010ebb055b9530733ca25533110", null ]
+    [ "npc_belnistraszAI", "d4/d2c/a14554.html", "d4/d2c/a14554" ],
+    [ "npc_belnistrasz", "d4/d2a/a14550.html#a7aa0e9bfcfaf74febe67cbcb94c01ddb", null ],
+    [ "GetAI", "d4/d2a/a14550.html#aac9d4389ec1c88be9afb6b9a828da511", null ]
 ];

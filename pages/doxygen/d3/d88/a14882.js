@@ -1,6 +1,7 @@
 var a14882 =
 [
-    [ "HandleApply", "d3/d88/a14882.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "d3/d88/a14882.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "d3/d88/a14882.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "npc_anubisath_warder", "d3/d88/a14882.html#aebe14673e5c31000a9626e39d87c6775", null ],
+    [ "JustEngagedWith", "d3/d88/a14882.html#a579318fa519eb669573b2cea78c2fee3", null ],
+    [ "Reset", "d3/d88/a14882.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
+    [ "UpdateAI", "d3/d88/a14882.html#aba428f1f1a016191aa4f168c616c3a29", null ]
 ];

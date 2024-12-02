@@ -1,14 +1,14 @@
 var a15642 =
 [
-    [ "boss_baltharus_the_warbornAI", "d2/de8/a15642.html#adaf6cb6ab81a461b202d40900b4b744c", null ],
-    [ "DoAction", "d2/de8/a15642.html#ab22f46e2514c10ce0e8141b3f69f069d", null ],
-    [ "InitializeAI", "d2/de8/a15642.html#ac188db2a727e2fb3c411f8616f8a2f41", null ],
-    [ "JustDied", "d2/de8/a15642.html#aaeb3e9b1bd25464cec4a1b0adf88afbe", null ],
-    [ "JustEngagedWith", "d2/de8/a15642.html#a4b670f4d89f9ed9ffeebf9d9426d79dc", null ],
-    [ "JustReachedHome", "d2/de8/a15642.html#ab178ccb3ee8bfa2649f03bfc18f1e424", null ],
-    [ "JustSummoned", "d2/de8/a15642.html#a7947c96290ea2cbe1b7ed6b6a8db65fe", null ],
-    [ "KilledUnit", "d2/de8/a15642.html#adb1a9e2af865292215c02cc1fb959cd3", null ],
-    [ "Reset", "d2/de8/a15642.html#a68e503ddac7be2f4e08d68e64aa2e725", null ],
-    [ "UpdateAI", "d2/de8/a15642.html#abe2e7188e33e70d52ab1985f821fa9c5", null ],
-    [ "_introDone", "d2/de8/a15642.html#a463209610cbc8e34d9839abeaf6df0e6", null ]
+    [ "instance_obsidian_sanctum_InstanceMapScript", "d2/de8/a15642.html#a17e64475b7433b3dc0d87028c11c9c7f", null ],
+    [ "CheckAchievementCriteriaMeet", "d2/de8/a15642.html#a62a5603b9063b4cbb773eb177aa2d0bc", null ],
+    [ "DoAction", "d2/de8/a15642.html#abc08b37f23721ff2ce7a6662605a66ab", null ],
+    [ "GetGuidData", "d2/de8/a15642.html#a01da8216f57e19b5bf8697700089118c", null ],
+    [ "OnCreatureCreate", "d2/de8/a15642.html#aa0fd6fae9a274e483765c0b5c1ff7ba3", null ],
+    [ "m_uiPortalGUID", "d2/de8/a15642.html#a166db22fd409d0387085053852e5ad30", null ],
+    [ "m_uiSartharionGUID", "d2/de8/a15642.html#a17b8e9a050eb6302258119c3b4f5f1bf", null ],
+    [ "m_uiShadronGUID", "d2/de8/a15642.html#a5c6a46069a87340f9e8d5e4830b8a2ed", null ],
+    [ "m_uiTenebronGUID", "d2/de8/a15642.html#afc7daf2b0eb18fa999ff3dae42fc4da2", null ],
+    [ "m_uiVesperonGUID", "d2/de8/a15642.html#a7408fc1c0d61c7db01bdd4f517080139", null ],
+    [ "portalCount", "d2/de8/a15642.html#ab7cec8a8a80713e436e4e4e80c5c1383", null ]
 ];

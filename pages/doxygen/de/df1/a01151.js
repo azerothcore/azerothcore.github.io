@@ -1,8 +1,8 @@
 var a01151 =
 [
-    [ "boss_azgalor", "d7/d5b/a14242.html", "d7/d5b/a14242" ],
-    [ "spell_azgalor_doom", "d8/dda/a14246.html", "d8/dda/a14246" ],
-    [ "spell_azgalor_doom_aura", "d5/ddb/a14250.html", "d5/ddb/a14250" ],
+    [ "boss_azgalor", "df/dd5/a14258.html", "df/dd5/a14258" ],
+    [ "spell_azgalor_doom", "d5/d44/a14262.html", "d5/d44/a14262" ],
+    [ "spell_azgalor_doom_aura", "d4/d9a/a14266.html", "d4/d9a/a14266" ],
     [ "Spells", "de/df1/a01151.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

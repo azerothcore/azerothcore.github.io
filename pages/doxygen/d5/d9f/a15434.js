@@ -1,17 +1,18 @@
 var a15434 =
 [
-    [ "boss_volazj", "d5/d9f/a15434.html#ac1f0bc7b55a554d29e55a376680bf747", null ],
-    [ "CheckPhaseMinions", "d5/d9f/a15434.html#aa79bf97b6772956795bd2f16b85e061f", null ],
-    [ "DamageTaken", "d5/d9f/a15434.html#a494d78875526d878421b995145b74a12", null ],
-    [ "GetPlrInsanityAuraId", "d5/d9f/a15434.html#a5b6936cedb3fc411ae58f3dc3f6b689a", null ],
-    [ "InitializeAI", "d5/d9f/a15434.html#a9480c4294b18c5417895e5070be9a455", null ],
-    [ "JustDied", "d5/d9f/a15434.html#a6c85c56c2483c3e8b4de67b94a45e0a6", null ],
-    [ "JustEngagedWith", "d5/d9f/a15434.html#a135c5606742474e77ffd0ee0a3c3ee69", null ],
-    [ "KilledUnit", "d5/d9f/a15434.html#abdf2cb95f0d3d7756584c338f2e2db25", null ],
-    [ "Reset", "d5/d9f/a15434.html#a0377375b89b02db3cae01390fdd13ee2", null ],
-    [ "ResetPlayersPhaseMask", "d5/d9f/a15434.html#afbfa62f2b72a95434348f74fdda46da6", null ],
-    [ "SetData", "d5/d9f/a15434.html#aa8b5ae6214f0c764f15b096876d614d7", null ],
-    [ "UpdateAI", "d5/d9f/a15434.html#aceac85fb06c81ccd171b024ad0d57ffe", null ],
-    [ "insanityPhase", "d5/d9f/a15434.html#ae90de1e956eb3653c8c2f0c04d89585b", null ],
-    [ "insanityTimes", "d5/d9f/a15434.html#a7d2693147f9cb20a45ff2e5b6a2ca209", null ]
+    [ "boss_elder_nadox", "d5/d9f/a15434.html#a718d8fffde11b1df5a44650096c474cc", null ],
+    [ "DamageTaken", "d5/d9f/a15434.html#a34dd3a07faeee096b1c8574f63353893", null ],
+    [ "GetData", "d5/d9f/a15434.html#ad2f80bcefb6c43370546d867fd4fc951", null ],
+    [ "JustDied", "d5/d9f/a15434.html#a1342dbd6de10197c6ba4bc8e43cceace", null ],
+    [ "JustEngagedWith", "d5/d9f/a15434.html#a659f83714070b7358b43d1c7eb46ac1c", null ],
+    [ "KilledUnit", "d5/d9f/a15434.html#a78310e83e518b64c1373b60a946f9748", null ],
+    [ "Reset", "d5/d9f/a15434.html#ab5e492f39552b64c0333b6fbce89c1ae", null ],
+    [ "SummonedCreatureDies", "d5/d9f/a15434.html#a77d9861b2e2de593d0b44c2fd9449f17", null ],
+    [ "SummonHelpers", "d5/d9f/a15434.html#ae65044c111e514a3050ea14f1155a7dc", null ],
+    [ "UpdateAI", "d5/d9f/a15434.html#abbb783581208c76fa371f01efd481b66", null ],
+    [ "guardianEggs", "d5/d9f/a15434.html#aae96b622766ab4478a8510bd1c7a9f1f", null ],
+    [ "guardianSummoned", "d5/d9f/a15434.html#a5543be0c08bf1d432b36bfdb2d532f0d", null ],
+    [ "previousSwarmEgg_GUID", "d5/d9f/a15434.html#add5ff92f92b8d01caef0b12a98569535", null ],
+    [ "respectYourElders", "d5/d9f/a15434.html#aac97ef9511e64692a152077b43e83e75", null ],
+    [ "swarmEggs", "d5/d9f/a15434.html#a28c8b6826ed86e30b573883cab83168f", null ]
 ];

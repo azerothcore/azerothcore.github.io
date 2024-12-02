@@ -1,6 +1,6 @@
 var a20914 =
 [
-    [ "npc_frozen_orbAI", "d2/d22/a20918.html", "d2/d22/a20918" ],
-    [ "npc_frozen_orb", "d4/dd5/a20914.html#ac14966722e39b2b6b3a907756701ed98", null ],
-    [ "GetAI", "d4/dd5/a20914.html#a2f9e1a2cb14ee9e5f24e02aa97697116", null ]
+    [ "instance_vault_of_archavon_InstanceMapScript", "d2/d22/a20918.html", "d2/d22/a20918" ],
+    [ "instance_vault_of_archavon", "d4/dd5/a20914.html#a0be8d95ff0f3b751e6f833689e436310", null ],
+    [ "GetInstanceScript", "d4/dd5/a20914.html#abb955a8873a3a3021e164225dd1f857a", null ]
 ];

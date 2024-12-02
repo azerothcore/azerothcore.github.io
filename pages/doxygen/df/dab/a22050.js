@@ -1,9 +1,8 @@
 var a22050 =
 [
-    [ "npc_finklesteinAI", "d8/da2/a22054.html", "d8/da2/a22054" ],
-    [ "npc_finklestein", "df/dab/a22050.html#aa719b4bb95012c22ef8123e255e32edd", null ],
-    [ "GetAI", "df/dab/a22050.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
-    [ "OnGossipHello", "df/dab/a22050.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
-    [ "OnGossipSelect", "df/dab/a22050.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
-    [ "OnQuestAccept", "df/dab/a22050.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
+    [ "npc_feedin_da_goolzAI", "df/dab/a22050.html#ada9ba6b4a0dfa5858b76986f8ebaa5d0", null ],
+    [ "UpdateAI", "df/dab/a22050.html#a7cbe5e54620e2356601c09effbe22928", null ],
+    [ "checkTimer", "df/dab/a22050.html#a834f91e84fc2dff6a07e46f0b677de3e", null ],
+    [ "findTimer", "df/dab/a22050.html#a91b49f7c12fed4ddd958171187ccfb47", null ],
+    [ "ghoulFed", "df/dab/a22050.html#adf256f6a4311f8b7cf6758259cc78f3f", null ]
 ];

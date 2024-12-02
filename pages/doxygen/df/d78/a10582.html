@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt; Class Template Reference</title>
+<title>AzerothCore: WorldPackets::Strings::NoHyperlinks Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,408 +105,51 @@ $(document).ready(function(){initNavTree('df/d78/a10582.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
-<a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../d4/d3b/a10579.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">WorldPackets::Strings::NoHyperlinks Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">PacketUtilities.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a87225ea97a5d831e1f10119b22e1ac34"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a87225ea97a5d831e1f10119b22e1ac34">empty</a> () const</td></tr>
-<tr class="separator:a87225ea97a5d831e1f10119b22e1ac34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a009f68f040bf8c24e84be74e07c6f590"><td class="memItemLeft" align="right" valign="top">char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a009f68f040bf8c24e84be74e07c6f590">c_str</a> () const</td></tr>
-<tr class="separator:a009f68f040bf8c24e84be74e07c6f590"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa21bedffd7781262ca29ff801e7f8224"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#aa21bedffd7781262ca29ff801e7f8224">operator std::string_view</a> () const</td></tr>
-<tr class="separator:aa21bedffd7781262ca29ff801e7f8224"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a948fc2ddfb36cf885d3c26534a52222d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a948fc2ddfb36cf885d3c26534a52222d">operator std::string &amp;</a> ()</td></tr>
-<tr class="separator:a948fc2ddfb36cf885d3c26534a52222d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a45b487598b91580467af70cbe7264ee4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a45b487598b91580467af70cbe7264ee4">operator std::string const &amp;</a> () const</td></tr>
-<tr class="separator:a45b487598b91580467af70cbe7264ee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4c8b4cb693929cc172adaf1e3374451"><td class="memItemLeft" align="right" valign="top">std::string &amp;&amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#ad4c8b4cb693929cc172adaf1e3374451">Move</a> ()</td></tr>
-<tr class="separator:ad4c8b4cb693929cc172adaf1e3374451"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:a9d149151d1ac78e590a1ecc2e5125a05"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a9d149151d1ac78e590a1ecc2e5125a05">ValidatorList</a> = std::conditional_t&lt;!<a class="el" href="../../d2/d30/a05490.html">Acore::has_type</a>&lt; <a class="el" href="../../d0/dad/a10562.html">Strings::RawBytes</a>, std::tuple&lt; Validators... &gt; &gt;::value, std::tuple&lt; <a class="el" href="../../df/dd4/a10566.html">Strings::ByteSize</a>&lt; MaxBytesWithoutNullTerminator &gt;, <a class="el" href="../../d5/df1/a10570.html">Strings::Utf8</a>, Validators... &gt;, std::tuple&lt; <a class="el" href="../../df/dd4/a10566.html">Strings::ByteSize</a>&lt; MaxBytesWithoutNullTerminator &gt;, Validators... &gt; &gt;</td></tr>
-<tr class="separator:a9d149151d1ac78e590a1ecc2e5125a05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
-Private Member Functions</h2></td></tr>
-<tr class="memitem:aa1ebd4ac4d40d582d707f04d09187ade"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#aa1ebd4ac4d40d582d707f04d09187ade">Validate</a> () const</td></tr>
-<tr class="separator:aa1ebd4ac4d40d582d707f04d09187ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae652fb9308dfddeebae5b776c91d2cec"><td class="memTemplParams" colspan="2">template&lt;std::size_t... indexes&gt; </td></tr>
-<tr class="memitem:ae652fb9308dfddeebae5b776c91d2cec"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#ae652fb9308dfddeebae5b776c91d2cec">ValidateNth</a> (std::index_sequence&lt; indexes... &gt;) const</td></tr>
-<tr class="separator:ae652fb9308dfddeebae5b776c91d2cec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a3c5565a6f92715af1faf92a615f029d3"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a></td></tr>
-<tr class="separator:a3c5565a6f92715af1faf92a615f029d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:ad49e16ca5e4f4a46c243ccfc52f9dee4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d48/a28086.html">ByteBuffer</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#ad49e16ca5e4f4a46c243ccfc52f9dee4">operator&gt;&gt;</a> (<a class="el" href="../../d6/d48/a28086.html">ByteBuffer</a> &amp;data, <a class="el" href="../../df/d78/a10582.html">String</a> &amp;value)</td></tr>
-<tr class="separator:ad49e16ca5e4f4a46c243ccfc52f9dee4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:aefab7047da58a45e9ef17b5ea7de505e"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d78/a10582.html#aefab7047da58a45e9ef17b5ea7de505e">Validate</a> (std::string const &amp;value)</td></tr>
+<tr class="separator:aefab7047da58a45e9ef17b5ea7de505e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt;<br />
-class WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;</div><p >Utility class for automated prevention of invalid strings in client packets </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a9d149151d1ac78e590a1ecc2e5125a05" name="a9d149151d1ac78e590a1ecc2e5125a05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d149151d1ac78e590a1ecc2e5125a05">&#9670;&#160;</a></span>ValidatorList</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aefab7047da58a45e9ef17b5ea7de505e" name="aefab7047da58a45e9ef17b5ea7de505e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aefab7047da58a45e9ef17b5ea7de505e">&#9670;&#160;</a></span>Validate()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::ValidatorList =  std::conditional_t&lt;!<a class="el" href="../../d2/d30/a05490.html">Acore::has_type</a>&lt;<a class="el" href="../../d0/dad/a10562.html">Strings::RawBytes</a>, std::tuple&lt;Validators...&gt; &gt;::value, std::tuple&lt;<a class="el" href="../../df/dd4/a10566.html">Strings::ByteSize</a>&lt;MaxBytesWithoutNullTerminator&gt;, <a class="el" href="../../d5/df1/a10570.html">Strings::Utf8</a>, Validators...&gt;, std::tuple&lt;<a class="el" href="../../df/dd4/a10566.html">Strings::ByteSize</a>&lt;MaxBytesWithoutNullTerminator&gt;, Validators...&gt; &gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a009f68f040bf8c24e84be74e07c6f590" name="a009f68f040bf8c24e84be74e07c6f590"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a009f68f040bf8c24e84be74e07c6f590">&#9670;&#160;</a></span>c_str()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">char const  * <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::c_str </td>
+          <td class="memname">bool WorldPackets::Strings::NoHyperlinks::Validate </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   79</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>.c_str(); }</div>
-<div class="ttc" id="aa10582_html_a3c5565a6f92715af1faf92a615f029d3"><div class="ttname"><a href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">WorldPackets::String::_storage</a></div><div class="ttdeci">std::string _storage</div><div class="ttdef"><b>Definition:</b> PacketUtilities.h:106</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-</div>
-</div>
-<a id="a87225ea97a5d831e1f10119b22e1ac34" name="a87225ea97a5d831e1f10119b22e1ac34"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a87225ea97a5d831e1f10119b22e1ac34">&#9670;&#160;</a></span>empty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::empty </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   78</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>.empty(); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00369">WorldSession::HandleGuildBankUpdateTab()</a>.</p>
-
-</div>
-</div>
-<a id="ad4c8b4cb693929cc172adaf1e3374451" name="ad4c8b4cb693929cc172adaf1e3374451"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4c8b4cb693929cc172adaf1e3374451">&#9670;&#160;</a></span>Move()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string &amp;&amp; <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::Move </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>{ <span class="keywordflow">return</span> std::move(<a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>); }</div>
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">if</span> (value.find(<span class="charliteral">&#39;|&#39;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">   55</span>        <span class="keywordflow">throw</span> IllegalHyperlinkException(value);</div>
+<div class="line"><span class="lineno">   56</span> </div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   58</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-</div>
-</div>
-<a id="a948fc2ddfb36cf885d3c26534a52222d" name="a948fc2ddfb36cf885d3c26534a52222d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a948fc2ddfb36cf885d3c26534a52222d">&#9670;&#160;</a></span>operator std::string &amp;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string &amp; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-</div>
-</div>
-<a id="a45b487598b91580467af70cbe7264ee4" name="a45b487598b91580467af70cbe7264ee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45b487598b91580467af70cbe7264ee4">&#9670;&#160;</a></span>operator std::string const &amp;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string const &amp; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   83</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-</div>
-</div>
-<a id="aa21bedffd7781262ca29ff801e7f8224" name="aa21bedffd7781262ca29ff801e7f8224"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa21bedffd7781262ca29ff801e7f8224">&#9670;&#160;</a></span>operator std::string_view()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string_view </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   81</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-</div>
-</div>
-<a id="aa1ebd4ac4d40d582d707f04d09187ade" name="aa1ebd4ac4d40d582d707f04d09187ade"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa1ebd4ac4d40d582d707f04d09187ade">&#9670;&#160;</a></span>Validate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::Validate </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   96</span>        {</div>
-<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d78/a10582.html#ae652fb9308dfddeebae5b776c91d2cec">ValidateNth</a>(std::make_index_sequence&lt;std::tuple_size_v&lt;ValidatorList&gt;&gt;{});</div>
-<div class="line"><span class="lineno">   98</span>        }</div>
-<div class="ttc" id="aa10582_html_ae652fb9308dfddeebae5b776c91d2cec"><div class="ttname"><a href="../../df/d78/a10582.html#ae652fb9308dfddeebae5b776c91d2cec">WorldPackets::String::ValidateNth</a></div><div class="ttdeci">bool ValidateNth(std::index_sequence&lt; indexes... &gt;) const</div><div class="ttdef"><b>Definition:</b> PacketUtilities.h:101</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00101">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::ValidateNth()</a>.</p>
-
-</div>
-</div>
-<a id="ae652fb9308dfddeebae5b776c91d2cec" name="ae652fb9308dfddeebae5b776c91d2cec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae652fb9308dfddeebae5b776c91d2cec">&#9670;&#160;</a></span>ValidateNth()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<div class="memtemplate">
-template&lt;std::size_t... indexes&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::ValidateNth </td>
-          <td>(</td>
-          <td class="paramtype">std::index_sequence&lt; indexes... &gt;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  102</span>        {</div>
-<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">return</span> (std::tuple_element_t&lt;indexes, ValidatorList&gt;::Validate(<a class="code hl_variable" href="../../df/d78/a10582.html#a3c5565a6f92715af1faf92a615f029d3">_storage</a>) &amp;&amp; ...);</div>
-<div class="line"><span class="lineno">  104</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00106">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00095">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::Validate()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="ad49e16ca5e4f4a46c243ccfc52f9dee4" name="ad49e16ca5e4f4a46c243ccfc52f9dee4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad49e16ca5e4f4a46c243ccfc52f9dee4">&#9670;&#160;</a></span>operator&gt;&gt;</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/d48/a28086.html">ByteBuffer</a> &amp; operator&gt;&gt; </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d48/a28086.html">ByteBuffer</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d78/a10582.html">String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt; &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   88</span>        {</div>
-<div class="line"><span class="lineno">   89</span>            value._storage = data.<a class="code hl_function" href="../../d6/d48/a28086.html#a7762b0b05a274ebe1ef7ce9c06ca5401">ReadCString</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">   90</span>            value.Validate();</div>
-<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">return</span> data;</div>
-<div class="line"><span class="lineno">   92</span>        }</div>
-<div class="ttc" id="aa28086_html_a7762b0b05a274ebe1ef7ce9c06ca5401"><div class="ttname"><a href="../../d6/d48/a28086.html#a7762b0b05a274ebe1ef7ce9c06ca5401">ByteBuffer::ReadCString</a></div><div class="ttdeci">std::string ReadCString(bool requireValidUtf8=true)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.cpp:77</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3c5565a6f92715af1faf92a615f029d3" name="a3c5565a6f92715af1faf92a615f029d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3c5565a6f92715af1faf92a615f029d3">&#9670;&#160;</a></span>_storage</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string <a class="el" href="../../df/d78/a10582.html">WorldPackets::String</a>&lt; MaxBytesWithoutNullTerminator, Validators &gt;::_storage</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00079">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::c_str()</a>, <a class="el" href="../../#l00078">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::empty()</a>, <a class="el" href="../../#l00085">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::Move()</a>, <a class="el" href="../../#l00082">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string &amp;()</a>, <a class="el" href="../../#l00083">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string const &amp;()</a>, <a class="el" href="../../#l00081">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::operator std::string_view()</a>, and <a class="el" href="../../#l00101">WorldPackets::String&lt; MaxBytesWithoutNullTerminator, Validators &gt;::ValidateNth()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -514,8 +157,8 @@ template&lt;std::size_t MaxBytesWithoutNullTerminator, typename... Validators&gt
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../df/d78/a10582.html">String</a></li>
-    <li class="footer">Generated on Mon Nov 25 2024 20:43:56 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../d0/d84/a04753.html">Strings</a></li><li class="navelem"><a class="el" href="../../df/d78/a10582.html">NoHyperlinks</a></li>
+    <li class="footer">Generated on Mon Dec 2 2024 20:43:24 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

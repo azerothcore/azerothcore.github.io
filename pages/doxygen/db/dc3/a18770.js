@@ -1,6 +1,6 @@
 var a18770 =
 [
-    [ "FilterTargets", "db/dc3/a18770.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
-    [ "PrepareSpellScript", "db/dc3/a18770.html#a452937a4e95b40366f915213ec475a84", null ],
-    [ "Register", "db/dc3/a18770.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
+    [ "boss_razuvious_minionAI", "d9/db8/a18774.html", "d9/db8/a18774" ],
+    [ "boss_razuvious_minion", "db/dc3/a18770.html#ae23d51c9ebfe31f624a749578d27252c", null ],
+    [ "GetAI", "db/dc3/a18770.html#afab8dccbc0b098a1fa058ef8479ba865", null ]
 ];

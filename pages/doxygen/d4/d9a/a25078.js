@@ -1,6 +1,10 @@
 var a25078 =
 [
-    [ "CheckCast", "d4/d9a/a25078.html#a7fa12be149f0cb2202142d7f44cde0a6", null ],
-    [ "PrepareSpellScript", "d4/d9a/a25078.html#ad6867dad8bda358bd1479935c80b82e7", null ],
-    [ "Register", "d4/d9a/a25078.html#a0ab2f1f2a87db93e54dc883c4e53d7ba", null ]
+    [ "ApplyMarker", "d4/d9a/a25078.html#aae1bd2f5f21a389e8d110cabecc9d94d", null ],
+    [ "CheckTrapProc", "d4/d9a/a25078.html#a00f06f18b6874302f88c3af193d8e4ed", null ],
+    [ "HandleProcs", "d4/d9a/a25078.html#a81abe76c24a6a6320811d99ce8f5fb4f", null ],
+    [ "IsTargetValid", "d4/d9a/a25078.html#a02590da9b97a4d6bc7a6cbd0e670480f", null ],
+    [ "PrepareAuraScript", "d4/d9a/a25078.html#a475320d20875b2d710ed3734b78f4645", null ],
+    [ "Register", "d4/d9a/a25078.html#aca7649a87ace4e22793ca33705b1500c", null ],
+    [ "Validate", "d4/d9a/a25078.html#a45630b6dc703996321286ff16a17e3e3", null ]
 ];

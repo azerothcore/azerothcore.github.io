@@ -1,7 +1,10 @@
 var a18562 =
 [
-    [ "HandleTriggerSpell", "d5/de7/a18562.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
-    [ "PrepareAuraScript", "d5/de7/a18562.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
-    [ "Register", "d5/de7/a18562.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
-    [ "Validate", "d5/de7/a18562.html#a813bad39641956fff697580f271416d2", null ]
+    [ "boss_isle_of_conquestAI", "d5/de7/a18562.html#a7880ea86e7a03f5b14875065a83a206a", null ],
+    [ "CheckRageBuff", "d5/de7/a18562.html#a6d60480e39fa89dbcc0facce9f0b69a3", null ],
+    [ "JustEngagedWith", "d5/de7/a18562.html#a878635ef0673325943e6026ad76c2b06", null ],
+    [ "Reset", "d5/de7/a18562.html#add59669e5f6c3c882ac008c720349573", null ],
+    [ "UpdateAI", "d5/de7/a18562.html#ab33aa7e735c5837428a4cf2b76e4275e", null ],
+    [ "events", "d5/de7/a18562.html#a38e308b66b0f35d3efe6916b03e4391c", null ],
+    [ "rage", "d5/de7/a18562.html#aa16ebdd6e2f486d3a6e4b58f4cb5e696", null ]
 ];

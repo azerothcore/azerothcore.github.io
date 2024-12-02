@@ -1,9 +1,9 @@
 var a23662 =
 [
-    [ "npc_aeranasAI", "d9/dea/a23662.html#a2142cebc84e64919fa5c2ef630453282", null ],
-    [ "Reset", "d9/dea/a23662.html#a2c1bbe079c065745782adfa13b030515", null ],
-    [ "UpdateAI", "d9/dea/a23662.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
-    [ "envelopingWinds_Timer", "d9/dea/a23662.html#a566b5d648abe630efc191f9d6d4938a2", null ],
-    [ "faction_Timer", "d9/dea/a23662.html#aac071887c100f91cc7ffc545ea6439d9", null ],
-    [ "shock_Timer", "d9/dea/a23662.html#aba8ad016f0e470b07163fef07b603380", null ]
+    [ "npc_wounded_blood_elfAI", "d9/dea/a23662.html#a2dfcd5fa17b56c44f4056ecf4861af6e", null ],
+    [ "JustEngagedWith", "d9/dea/a23662.html#aba950ba77ff71508263cc54b28c7725b", null ],
+    [ "JustSummoned", "d9/dea/a23662.html#aa97f5294981c44b530efca1411458a97", null ],
+    [ "Reset", "d9/dea/a23662.html#a8e6be35a3079998f3bab829f5d963c71", null ],
+    [ "sQuestAccept", "d9/dea/a23662.html#a56c157928c24daae6edacd5a126ef171", null ],
+    [ "WaypointReached", "d9/dea/a23662.html#a5affcb00e28a582f8926ab2226001cd0", null ]
 ];

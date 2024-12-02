@@ -1,6 +1,5 @@
 var a16294 =
 [
-    [ "HandleEffectApply", "d1/d8c/a16294.html#aaea2c3733dadc19072c81774468e345a", null ],
-    [ "PrepareAuraScript", "d1/d8c/a16294.html#a3848997e9f775add50d40342b6211ff0", null ],
-    [ "Register", "d1/d8c/a16294.html#a775b1cf494049ed13d149ca6318142c3", null ]
+    [ "achievement_better_off_dred", "d1/d8c/a16294.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
+    [ "OnCheck", "d1/d8c/a16294.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
 ];

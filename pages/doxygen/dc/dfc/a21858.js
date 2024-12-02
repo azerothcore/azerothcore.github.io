@@ -1,8 +1,6 @@
 var a21858 =
 [
-    [ "CheckCast", "dc/dfc/a21858.html#ab1584c391ac81b8338387acc6187001f", null ],
-    [ "HandleDummy", "dc/dfc/a21858.html#abe856e2c3b986eeac0c1a62aa301eb6d", null ],
-    [ "PrepareSpellScript", "dc/dfc/a21858.html#a08d9ffb7dcbe786071979166e0489336", null ],
-    [ "Register", "dc/dfc/a21858.html#a5f0bbd57f3cbc0d0de3d8830dd4e6f2b", null ],
-    [ "Validate", "dc/dfc/a21858.html#a82d931b4a15f6a60c27d932e8188ef78", null ]
+    [ "HandleScriptEffect", "dc/dfc/a21858.html#a1dac2806b74471332aec0595118005a3", null ],
+    [ "PrepareSpellScript", "dc/dfc/a21858.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
+    [ "Register", "dc/dfc/a21858.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
 ];

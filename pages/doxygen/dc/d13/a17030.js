@@ -1,6 +1,9 @@
 var a17030 =
 [
-    [ "boss_deathbringer_saurfangAI", "da/d3d/a17034.html", "da/d3d/a17034" ],
-    [ "boss_deathbringer_saurfang", "dc/d13/a17030.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "dc/d13/a17030.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "CheckTarget", "dc/d13/a17030.html#a43fc6a16aca217ef043fa34a58391357", null ],
+    [ "HandlePresence", "dc/d13/a17030.html#a52ea6041c5fe004c1e996a974cc59d5d", null ],
+    [ "OnCast", "dc/d13/a17030.html#a96cec6f1b51a2c0c03f89447c5306b5a", null ],
+    [ "PrepareSpellScript", "dc/d13/a17030.html#abe559b32aa82f19abb0a6d664b75c748", null ],
+    [ "Register", "dc/d13/a17030.html#ad8c7a9935e85c06f837e694ebcaffba1", null ],
+    [ "Validate", "dc/d13/a17030.html#a2301414a88dcbf4bdc8a486ec4be994e", null ]
 ];

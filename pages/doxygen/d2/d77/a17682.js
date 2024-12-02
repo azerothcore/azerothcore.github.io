@@ -1,6 +1,6 @@
 var a17682 =
 [
-    [ "HandleSpecial", "d2/d77/a17682.html#afa540e8c748ca3083667528e2449bc65", null ],
-    [ "PrepareSpellScript", "d2/d77/a17682.html#a9472211ffdaa33802099b22b2a721645", null ],
-    [ "Register", "d2/d77/a17682.html#ab868b10372ff2ef401d19b126acf00c6", null ]
+    [ "FilterTargets", "d2/d77/a17682.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
+    [ "PrepareSpellScript", "d2/d77/a17682.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
+    [ "Register", "d2/d77/a17682.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
 ];

@@ -1,6 +1,6 @@
 var a19202 =
 [
-    [ "boss_sjonnir_dwarfAI", "df/d28/a19206.html", "df/d28/a19206" ],
-    [ "boss_sjonnir_dwarf", "d2/d40/a19202.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
-    [ "GetAI", "d2/d40/a19202.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
+    [ "boss_maiden_of_griefAI", "df/d28/a19206.html", "df/d28/a19206" ],
+    [ "boss_maiden_of_grief", "d2/d40/a19202.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "d2/d40/a19202.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

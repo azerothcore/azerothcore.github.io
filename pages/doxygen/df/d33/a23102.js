@@ -1,11 +1,7 @@
 var a23102 =
 [
-    [ "boss_gruul", "df/d33/a23102.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "df/d33/a23102.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "df/d33/a23102.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "df/d33/a23102.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "df/d33/a23102.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "df/d33/a23102.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "df/d33/a23102.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "df/d33/a23102.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "OnApply", "df/d33/a23102.html#a301e47da9be4b4a449701c59c19bc62b", null ],
+    [ "PrepareAuraScript", "df/d33/a23102.html#a623bf9442a4a2b046d1d89bc2523eb37", null ],
+    [ "Register", "df/d33/a23102.html#aaf38547f7fa233b03429734dbe374f13", null ],
+    [ "Validate", "df/d33/a23102.html#ac390e2e24d9a85635ced5eaa343b8e09", null ]
 ];

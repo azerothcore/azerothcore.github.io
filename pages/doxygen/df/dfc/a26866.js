@@ -1,7 +1,7 @@
 var a26866 =
 [
-    [ "go_bear_trapAI", "df/dfc/a26866.html#ad97484d73bcea6a84909004c099eec34", null ],
-    [ "Initialize", "df/dfc/a26866.html#a89c76f1563f541c572c48f8cf633aa6a", null ],
-    [ "UpdateAI", "df/dfc/a26866.html#a8901922d736bb0391da5618593ced5c5", null ],
-    [ "_events", "df/dfc/a26866.html#a59f37a130326818dd922763ae9058fe7", null ]
+    [ "go_brewfest_musicAI", "df/dfc/a26866.html#a832bd6353b3c466c197b8c90b5bee8a8", null ],
+    [ "UpdateAI", "df/dfc/a26866.html#a47ea5bbcd9d01b9eaf839bc779809aec", null ],
+    [ "_currentMusicEvent", "df/dfc/a26866.html#ad26a0309bdd4eafce4dfa310db929357", null ],
+    [ "_events", "df/dfc/a26866.html#ae741239bbebae9f93ad2d04c7487c32f", null ]
 ];

@@ -1,9 +1,8 @@
 var a25590 =
 [
-    [ "HandleAfterCast", "d1/de8/a25590.html#afd2fbc51ac1e99789994021af36688f3", null ],
-    [ "HandleTriggerSpell", "d1/de8/a25590.html#ae140ab00101f081454b55e12a7c54440", null ],
-    [ "Load", "d1/de8/a25590.html#a3dbb3541f0ec3f614d1f18fd92f9bc03", null ],
-    [ "PrepareSpellScript", "d1/de8/a25590.html#a7fd1a83dd49cee4f52913a40caf3ef88", null ],
-    [ "Register", "d1/de8/a25590.html#a3e9d0ff0bd71ea6d87fb9a7edcfa9a1c", null ],
-    [ "_triggerSpellId", "d1/de8/a25590.html#a9a3efd5cf45d15cf8112a82d33dca731", null ]
+    [ "CheckProc", "d1/de8/a25590.html#a4f8e030154606e0781ebb89294019e0e", null ],
+    [ "HandleProc", "d1/de8/a25590.html#a3d3db432fb051785f51ece4052ec8907", null ],
+    [ "PrepareAuraScript", "d1/de8/a25590.html#aed40577ca9a1de3efc501606bcc9a8dd", null ],
+    [ "Register", "d1/de8/a25590.html#a8cfdc8d98946fca603971ad91035e21c", null ],
+    [ "Validate", "d1/de8/a25590.html#abfd3c0ad08ad287b38e8da437c18376c", null ]
 ];

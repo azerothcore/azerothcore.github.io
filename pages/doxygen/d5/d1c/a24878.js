@@ -1,5 +1,7 @@
 var a24878 =
 [
-    [ "PrepareSpellScript", "d5/d1c/a24878.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
-    [ "Register", "d5/d1c/a24878.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
+    [ "EjectPassenger", "d5/d1c/a24878.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
+    [ "PrepareSpellScript", "d5/d1c/a24878.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
+    [ "Register", "d5/d1c/a24878.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
+    [ "Validate", "d5/d1c/a24878.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
 ];

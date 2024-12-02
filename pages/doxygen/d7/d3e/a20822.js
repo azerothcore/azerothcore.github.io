@@ -1,5 +1,6 @@
 var a20822 =
 [
-    [ "npc_ritual_channelerAI", "d7/d3e/a20822.html#aa770f8f2b9dd5fca86f9e63de7b4000f", null ],
-    [ "AttackStart", "d7/d3e/a20822.html#aff09fbdc1e701853c9953882ca73ce2a", null ]
+    [ "boss_ymironAI", "d5/d4a/a20826.html", "d5/d4a/a20826" ],
+    [ "boss_ymiron", "d7/d3e/a20822.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
+    [ "GetAI", "d7/d3e/a20822.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
 ];

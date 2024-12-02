@@ -1,4 +1,4 @@
 var a04364 =
 [
-    [ "CommandScript", "dd/daa/a10002.html", "dd/daa/a10002" ]
+    [ "CommandScript", "dd/d45/a10006.html", "dd/d45/a10006" ]
 ];

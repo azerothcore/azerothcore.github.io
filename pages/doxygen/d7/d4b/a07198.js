@@ -1,11 +1,13 @@
 var a07198 =
 [
-    [ "BattlegroundICScore", "d7/d4b/a07198.html#a3b8798fdb479885fbe4b7cecb2f84f68", null ],
-    [ "BuildObjectivesBlock", "d7/d4b/a07198.html#a4a10d0be9c318048feb4e76ffae9472c", null ],
-    [ "GetAttr1", "d7/d4b/a07198.html#af6c42bbd1b8f3f94fe838ce5df610a80", null ],
-    [ "GetAttr2", "d7/d4b/a07198.html#a758fa51038f232c7d65cd0168a4608c2", null ],
-    [ "UpdateScore", "d7/d4b/a07198.html#a690ede108b8ce8dfa45a2b7457e53a3c", null ],
-    [ "BattlegroundIC", "d7/d4b/a07198.html#a2d7503354e4bdce9f2a06d48b649da2f", null ],
-    [ "BasesAssaulted", "d7/d4b/a07198.html#a5050b80f9d1855cb8b97830f9e80124f", null ],
-    [ "BasesDefended", "d7/d4b/a07198.html#a70c2965b6b1e99239e0dcc1c03ccb552", null ]
+    [ "banners", "d7/d4b/a07198.html#a07c98125c64d119232fec9cc80050537", null ],
+    [ "faction", "d7/d4b/a07198.html#ab3758f67da3dcb507bb1acab575e2836", null ],
+    [ "gameobject_entry", "d7/d4b/a07198.html#ae80024986e048e05dca174d6b14964d3", null ],
+    [ "gameobject_type", "d7/d4b/a07198.html#ac4760cba40ba8916d66cae3712f7c641", null ],
+    [ "last_entry", "d7/d4b/a07198.html#a968d6f412ba88b9577429910ffa511a5", null ],
+    [ "needChange", "d7/d4b/a07198.html#acecd97e26d19c82e934817ecbc2afce9", null ],
+    [ "nodeState", "d7/d4b/a07198.html#a214e160c6fd94cefb4d080a94a12ba56", null ],
+    [ "nodeType", "d7/d4b/a07198.html#a3b303a427c4a2248dade5eada6774dc9", null ],
+    [ "timer", "d7/d4b/a07198.html#a434605ed0efcc262057a65d7cd8d0128", null ],
+    [ "worldStates", "d7/d4b/a07198.html#ae5d3b4b37fc5b7983c08b54d94d6c3d2", null ]
 ];

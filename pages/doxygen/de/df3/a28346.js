@@ -1,25 +1,10 @@
 var a28346 =
 [
-    [ "Vec3D", "de/df3/a28346.html#a66e77d25ca67f7a5418bc7b252bf4f9c", null ],
-    [ "Vec3D", "de/df3/a28346.html#aa5aa758ed25117a81f53e19d8c80e427", null ],
-    [ "length", "de/df3/a28346.html#aa99cf98be42720cb2e6eda8321d0585d", null ],
-    [ "lengthSquared", "de/df3/a28346.html#a87ac62b18bdb6534dde07295ad3d7418", null ],
-    [ "normalize", "de/df3/a28346.html#aad796e1a7950cf29bcf0664ab4529bdd", null ],
-    [ "operator float *", "de/df3/a28346.html#ae7f0a885985683c338dcf10cdc675849", null ],
-    [ "operator%", "de/df3/a28346.html#a6c06ca74a17414a8afad8889bc49e5e7", null ],
-    [ "operator*", "de/df3/a28346.html#aa69f6d867a748bd543ec423a57378a21", null ],
-    [ "operator*", "de/df3/a28346.html#a4d33d483ce46a408a9d0c45ddb075eb4", null ],
-    [ "operator*=", "de/df3/a28346.html#aa59022e80683193bae192972da755884", null ],
-    [ "operator+", "de/df3/a28346.html#a4908c6bd44a6a7856eada7b56425b1cc", null ],
-    [ "operator+=", "de/df3/a28346.html#a15627b72a8533dba20622314d9c2d02e", null ],
-    [ "operator-", "de/df3/a28346.html#a7022d6629a4d968fe6efdc29b54b16aa", null ],
-    [ "operator-=", "de/df3/a28346.html#ac4cd3cead349c30f5bdaeecfaff4fdaa", null ],
-    [ "operator=", "de/df3/a28346.html#ab7e2806da7e3bdfda666b5e4906f08c3", null ],
-    [ "operator~", "de/df3/a28346.html#ab58f61de30ae8941782f902eb54dca29", null ],
-    [ "operator*", "de/df3/a28346.html#ae30695a767fd2a31300bd1b858fda811", null ],
-    [ "operator<<", "de/df3/a28346.html#ae0085c2ad66a850cb8270bbdd52d680e", null ],
-    [ "operator>>", "de/df3/a28346.html#a9aa8110efc91a62f0719d9476b3cd7cf", null ],
-    [ "x", "de/df3/a28346.html#a0f061b9d5ea2a680f64bed8b5be9116d", null ],
-    [ "y", "de/df3/a28346.html#a3441f0095b7f2b5dc424f7b045f92f2c", null ],
-    [ "z", "de/df3/a28346.html#a5a619f14529e714231bff4cc6fd36614", null ]
+    [ "WDTFile", "de/df3/a28346.html#a10c133d9b2f8d39cb6c2b3d8c2791b78", null ],
+    [ "~WDTFile", "de/df3/a28346.html#a445fe73204fd378e2b63a83d9f5dca0a", null ],
+    [ "GetMap", "de/df3/a28346.html#aa952c5bfe52a1aa851984a7e6dc963c9", null ],
+    [ "init", "de/df3/a28346.html#a91a33f89cae35254f52e8c4f1c33e2cb", null ],
+    [ "_file", "de/df3/a28346.html#a54ab64288144b9cf4904e67bb359e524", null ],
+    [ "_wmoNames", "de/df3/a28346.html#a6ec4f95ff866585403670b620a42a857", null ],
+    [ "filename", "de/df3/a28346.html#ab3dac8623598bac1152a514a00126bf6", null ]
 ];

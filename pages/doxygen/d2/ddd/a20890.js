@@ -1,12 +1,6 @@
 var a20890 =
 [
-    [ "boss_koralonAI", "d2/ddd/a20890.html#a3f5bc42a141011e543d1215eac09dc74", null ],
-    [ "AttackStart", "d2/ddd/a20890.html#aa84e6e9a302172e134163cd07ca57864", null ],
-    [ "JustDied", "d2/ddd/a20890.html#a102c10792d9e7df61d920b5a43f58e51", null ],
-    [ "JustEngagedWith", "d2/ddd/a20890.html#aa7503618dd09e0aebac44394595f4715", null ],
-    [ "Reset", "d2/ddd/a20890.html#a0e57ee42e45e55b1a69ac7cb0f1d2666", null ],
-    [ "UpdateAI", "d2/ddd/a20890.html#aa944aad2eb68adc917cba743d1e530c7", null ],
-    [ "events", "d2/ddd/a20890.html#abc8b9a8759b0e3e95d66c16615f621f5", null ],
-    [ "pInstance", "d2/ddd/a20890.html#a4bdea1a9d7e46d4ef71cd43ce969e59c", null ],
-    [ "rotateTimer", "d2/ddd/a20890.html#ad4b766094f28e940b0b7971d6dadc277", null ]
+    [ "boss_toravonAI", "db/d0d/a20894.html", "db/d0d/a20894" ],
+    [ "boss_toravon", "d2/ddd/a20890.html#abd30a86924bd7dd9474b5df16f3a8d8d", null ],
+    [ "GetAI", "d2/ddd/a20890.html#a6db140b1d232312300e20155830cb249", null ]
 ];

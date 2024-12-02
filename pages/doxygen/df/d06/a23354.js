@@ -1,10 +1,10 @@
 var a23354 =
 [
-    [ "boss_harbinger_skyriss", "df/d06/a23354.html#a245179f74d61c2671b397e8f2473b599", null ],
-    [ "EnterEvadeMode", "df/d06/a23354.html#a873413da06569343225e6659f8277b2c", null ],
-    [ "JustDied", "df/d06/a23354.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
-    [ "JustEngagedWith", "df/d06/a23354.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
-    [ "JustSummoned", "df/d06/a23354.html#a97d84139a3e970e22d7d422f2f825f12", null ],
-    [ "KilledUnit", "df/d06/a23354.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
-    [ "Reset", "df/d06/a23354.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
+    [ "instance_arcatraz_InstanceMapScript", "df/d06/a23354.html#a4c6594eb7fa1f7213c89ea5af6c70ae0", null ],
+    [ "GetGuidData", "df/d06/a23354.html#aa4bedf168359eaf5332476a6de99c830", null ],
+    [ "OnGameObjectCreate", "df/d06/a23354.html#ad8c84d90b85db5717b6a37fc2343e0aa", null ],
+    [ "SetBossState", "df/d06/a23354.html#a2937e4ea47af542a476bd3399ecc7233", null ],
+    [ "SetData", "df/d06/a23354.html#aca09d4856d5c3e1831ea8753a50a3b71", null ],
+    [ "StasisPodGUIDs", "df/d06/a23354.html#a1fb9824baee2d8d83e030da307f21fc3", null ],
+    [ "WardensShieldGUID", "df/d06/a23354.html#a3cbff5742e05f6cf0544807bce64b1d0", null ]
 ];

@@ -1,5 +1,6 @@
 var a15350 =
 [
-    [ "go_elune_fire", "d0/d4f/a15350.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
-    [ "OnGossipHello", "d0/d4f/a15350.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
+    [ "SayerEntry", "d0/d4f/a15350.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
+    [ "SayTimer", "d0/d4f/a15350.html#a942073f24fd12da712184243d9f098f2", null ],
+    [ "TextEntry", "d0/d4f/a15350.html#a360822e4c069be6019c0a465cb2499cf", null ]
 ];

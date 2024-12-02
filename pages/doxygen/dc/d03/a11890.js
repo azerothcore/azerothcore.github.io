@@ -1,9 +1,6 @@
 var a11890 =
 [
-    [ "npc_vaelastrasz_the_redAI", "dc/d03/a11890.html#aa800617f887a21d8a61cac099c86faed", null ],
-    [ "IsSummonedBy", "dc/d03/a11890.html#ab0eb414e7c9385e4831c4fbc6ba1de49", null ],
-    [ "UpdateAI", "dc/d03/a11890.html#a4dd74c81dc67291ed04861cf542b0d24", null ],
-    [ "_combatEnabled", "dc/d03/a11890.html#ae82e9f70dbfd6a4a75206d358de4504e", null ],
-    [ "_events2", "dc/d03/a11890.html#aa31a968cb89f2c4bb4fde836fd600ab9", null ],
-    [ "_victorGUID", "dc/d03/a11890.html#a8a4af969b8d340d5492f89499e3e90c2", null ]
+    [ "npc_vaelastrasz_the_redAI", "d1/da3/a11894.html", "d1/da3/a11894" ],
+    [ "npc_vaelastrasz_the_red", "dc/d03/a11890.html#af39fcaa29b200e3b7933f97de277df6b", null ],
+    [ "GetAI", "dc/d03/a11890.html#a59e7630d5060986dc4209d2d2b5ef42b", null ]
 ];

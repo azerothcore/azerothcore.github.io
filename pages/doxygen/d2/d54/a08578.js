@@ -1,9 +1,9 @@
 var a08578 =
 [
-    [ "TransportBase", "d2/d54/a08578.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
-    [ "~TransportBase", "d2/d54/a08578.html#a81dca3435a1a1666a90acd8e154e3287", null ],
-    [ "CalculatePassengerOffset", "d2/d54/a08578.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
-    [ "CalculatePassengerOffset", "d2/d54/a08578.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
-    [ "CalculatePassengerPosition", "d2/d54/a08578.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
-    [ "CalculatePassengerPosition", "d2/d54/a08578.html#a328fbc464c56eca89138380182a0108c", null ]
+    [ "VehicleAccessory", "d2/d54/a08578.html#a70576b3cfa29bb6a31fdc61588b6d3c4", null ],
+    [ "AccessoryEntry", "d2/d54/a08578.html#a6e3cd6b20680974235c146d34b16295a", null ],
+    [ "IsMinion", "d2/d54/a08578.html#ace3fd27311370e4db4103f2c3ac70410", null ],
+    [ "SeatId", "d2/d54/a08578.html#a73b54fbbfe8e18f7129acc65dadec447", null ],
+    [ "SummonedType", "d2/d54/a08578.html#afc843c62c580c860471b0e49f5901363", null ],
+    [ "SummonTime", "d2/d54/a08578.html#a13a024b3ceacf38ce4907b079d732420", null ]
 ];

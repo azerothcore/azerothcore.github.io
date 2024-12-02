@@ -1,7 +1,11 @@
 var a17882 =
 [
-    [ "CheckTargetCount", "d9/dce/a17882.html#a637ba0717ae0f6f736f5532ed65ca301", null ],
-    [ "PrepareSpellScript", "d9/dce/a17882.html#af560e5c4e985e9b139999f5ef618fe3c", null ],
-    [ "Register", "d9/dce/a17882.html#a86e7512496fd38201d458c03a7a60296", null ],
-    [ "Validate", "d9/dce/a17882.html#a744c4aa76387be4aa76a69fbcaa7932e", null ]
+    [ "AddMissingStack", "d9/dce/a17882.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
+    [ "CheckAura", "d9/dce/a17882.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
+    [ "FilterTargets", "d9/dce/a17882.html#ab6c86c3680823329d5f3aad985aa316a", null ],
+    [ "Load", "d9/dce/a17882.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
+    [ "PrepareSpellScript", "d9/dce/a17882.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
+    [ "Register", "d9/dce/a17882.html#af0e6f1fc6687de1abcc1689116150088", null ],
+    [ "_hadInitialAura", "d9/dce/a17882.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
+    [ "_hadJumpingAura", "d9/dce/a17882.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
 ];

@@ -1,19 +1,12 @@
 var a15466 =
 [
-    [ "boss_taldaram", "d7/d5a/a15466.html#a6438d3534aca5e4a92afb3e6c6e24f73", null ],
-    [ "DamageTaken", "d7/d5a/a15466.html#a44d94f39e23720810acb40550f1c178a", null ],
-    [ "DoAction", "d7/d5a/a15466.html#aee1cf0553e8c7ebebea4a83f2d7e6d5d", null ],
-    [ "InitializeAI", "d7/d5a/a15466.html#a3d5b4628d6fb2db91ed073b042eefdc4", null ],
-    [ "JustDied", "d7/d5a/a15466.html#a4b6c0f51fd3a2a8c00ef095eeeea785d", null ],
-    [ "JustEngagedWith", "d7/d5a/a15466.html#a07e1cb5b53906f92a1f485340aa004e5", null ],
-    [ "JustSummoned", "d7/d5a/a15466.html#a5ae9201a71fa665908f924647b262825", null ],
-    [ "KilledUnit", "d7/d5a/a15466.html#a8fe516a08547ec03e8114b07e9c87d1f", null ],
-    [ "MovementInform", "d7/d5a/a15466.html#a17ca98f742a06b1496b2216e984811d8", null ],
-    [ "Reset", "d7/d5a/a15466.html#ae26fec572206d2f1f9acc229ee797496", null ],
-    [ "ScheduleCombatEvents", "d7/d5a/a15466.html#a247e5357fcdf8da8e00bef09f3568ca3", null ],
-    [ "SpellHitTarget", "d7/d5a/a15466.html#a0f228ea10a538a9ecf70b9f54d399150", null ],
-    [ "UpdateAI", "d7/d5a/a15466.html#a8ae18c5fd1c5df67edaf1921b5504ce1", null ],
-    [ "vanishDamage", "d7/d5a/a15466.html#a85d8c95320e6f1f486a39043218f0350", null ],
-    [ "vanishTarget_GUID", "d7/d5a/a15466.html#a211707b3e9476a22be011567882f018a", null ],
-    [ "victimSperePos", "d7/d5a/a15466.html#a06efb376b0d08207a0efce74770f21dc", null ]
+    [ "npc_twilight_volunteer", "d7/d5a/a15466.html#a3062041fcabf972e0a3d4753363c37b3", null ],
+    [ "AttackStart", "d7/d5a/a15466.html#abc2e12fb7be5b1a7dabc4c2211e7de13", null ],
+    [ "DoAction", "d7/d5a/a15466.html#ae95bcb02ee4f0ead76e249de0cba2d88", null ],
+    [ "EnterEvadeMode", "d7/d5a/a15466.html#abd88e6fe0565babb92ccae17df0421d6", null ],
+    [ "MovementInform", "d7/d5a/a15466.html#a4f27ae97ccf2c349a6352a0f5ba1681a", null ],
+    [ "UpdateAI", "d7/d5a/a15466.html#a93288a45982b172c201e2442a4c91114", null ],
+    [ "events", "d7/d5a/a15466.html#ad8cc52c1462d7adbfbe566c55c0ed244", null ],
+    [ "isSacraficeTarget", "d7/d5a/a15466.html#a8350dba2c41754a2e5d15c94731ef27d", null ],
+    [ "pInstance", "d7/d5a/a15466.html#ad58453e078520fa23238a96115e5f38f", null ]
 ];

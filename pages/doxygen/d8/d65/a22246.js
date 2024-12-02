@@ -1,8 +1,8 @@
 var a22246 =
 [
-    [ "CalcPeriodic", "d8/d65/a22246.html#a7a34b9bd77cd1f15a1cd7954d76d80d0", null ],
-    [ "OnRemove", "d8/d65/a22246.html#af120bb9d6a0c3d338706613540849412", null ],
-    [ "PrepareAuraScript", "d8/d65/a22246.html#ad413f14193013058e1775f80b457a81d", null ],
-    [ "Register", "d8/d65/a22246.html#aa35fc5865f108712e450661e67c384ce", null ],
-    [ "Update", "d8/d65/a22246.html#aebc61b57ed8038488ec06c14483b2099", null ]
+    [ "npc_yor", "d8/d65/a22246.html#a43ed8720d06c035085d481dbe6539dca", null ],
+    [ "JustEngagedWith", "d8/d65/a22246.html#a74d5cd95b98a2057f78ee9e9b12aec42", null ],
+    [ "Reset", "d8/d65/a22246.html#aa698540b646fd870b33afbaf19ddbe07", null ],
+    [ "UpdateAI", "d8/d65/a22246.html#a46a2cf8ff94b830348641d94e3d9cd57", null ],
+    [ "_scheduler", "d8/d65/a22246.html#a4ce1e1558c9b8aa5d50b1df1a903d776", null ]
 ];

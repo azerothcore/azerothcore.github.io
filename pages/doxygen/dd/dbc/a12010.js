@@ -1,7 +1,7 @@
 var a12010 =
 [
-    [ "HandleDummy", "dd/dbc/a12010.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
-    [ "PrepareSpellScript", "dd/dbc/a12010.html#a5308de47023b89e4ff8680158a502ac0", null ],
-    [ "Register", "dd/dbc/a12010.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
-    [ "Validate", "dd/dbc/a12010.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
+    [ "HandleDummy", "dd/dbc/a12010.html#a2299a8b99013fb9f9c2b8e81cfc541cc", null ],
+    [ "PrepareSpellScript", "dd/dbc/a12010.html#ad07165f81a7f407c716f90691ecb9817", null ],
+    [ "Register", "dd/dbc/a12010.html#a28fb28ca049b87dd76fddc3af222fd9c", null ],
+    [ "Validate", "dd/dbc/a12010.html#a8ce6773c7d0fd501fa7b26f04fd22796", null ]
 ];

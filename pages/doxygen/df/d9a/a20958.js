@@ -1,10 +1,11 @@
 var a20958 =
 [
-    [ "npc_erekem_guardAI", "df/d9a/a20958.html#a1ce40b70a35fc76e6ac0af449b7f4ded", null ],
-    [ "JustEngagedWith", "df/d9a/a20958.html#a93819c5c76821b1c9559be55359d677e", null ],
-    [ "MoveInLineOfSight", "df/d9a/a20958.html#aa1140892c13f4c070b1f3f1bf2230bb5", null ],
-    [ "Reset", "df/d9a/a20958.html#a079be6dd45e96184d66e95f031dc9c5f", null ],
-    [ "UpdateAI", "df/d9a/a20958.html#ab2c55e384f624b0f671e42e381aa3a37", null ],
-    [ "events", "df/d9a/a20958.html#a15afc8dd6d6e15fcd1a632728ad8d16e", null ],
-    [ "pInstance", "df/d9a/a20958.html#a81985b8522111f2aae540353cd5641fe", null ]
+    [ "npc_ichor_globuleAI", "df/d9a/a20958.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "df/d9a/a20958.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "df/d9a/a20958.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "df/d9a/a20958.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "df/d9a/a20958.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "df/d9a/a20958.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "df/d9a/a20958.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "df/d9a/a20958.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

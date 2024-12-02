@@ -1,10 +1,7 @@
 var a13634 =
 [
-    [ "boss_jeklik", "dd/dee/a13634.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
-    [ "EnterEvadeMode", "dd/dee/a13634.html#a70dc363e0690e72846db5f779375edc1", null ],
-    [ "JustDied", "dd/dee/a13634.html#ae648ba9ff49f4970612a8c3351789b66", null ],
-    [ "JustEngagedWith", "dd/dee/a13634.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
-    [ "PathEndReached", "dd/dee/a13634.html#a689e8f91361de45e6f885fea0dec900a", null ],
-    [ "Reset", "dd/dee/a13634.html#a7959106123e60e3584b32b50a272746c", null ],
-    [ "batRidersCount", "dd/dee/a13634.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
+    [ "OnRemove", "dd/dee/a13634.html#ab909660f32a77e86fde5da35e2f69302", null ],
+    [ "PrepareAuraScript", "dd/dee/a13634.html#ac95ee854f1f8921bd49fbd59c959d0da", null ],
+    [ "Register", "dd/dee/a13634.html#a42c116ecb7d938bc4b9047ab40ff60ea", null ],
+    [ "Validate", "dd/dee/a13634.html#abd1254c53c04f72f848d8641affc729d", null ]
 ];

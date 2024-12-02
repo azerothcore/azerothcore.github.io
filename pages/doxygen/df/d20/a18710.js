@@ -1,6 +1,7 @@
 var a18710 =
 [
-    [ "boss_maexxnaAI", "d9/da2/a18714.html", "d9/da2/a18714" ],
-    [ "boss_maexxna", "df/d20/a18710.html#ae47a789ac8abe50932b9e000c83b02b2", null ],
-    [ "GetAI", "df/d20/a18710.html#ab438df4cb61625da35552ca7c867dc64", null ]
+    [ "HandleScript", "df/d20/a18710.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
+    [ "PrepareAuraScript", "df/d20/a18710.html#aa3053519be0101f55450d76b1291f0f7", null ],
+    [ "Register", "df/d20/a18710.html#ada596a7f19115c7178fd07fb9e956f58", null ],
+    [ "Validate", "df/d20/a18710.html#a768dec18bc0e879c457a64135ec27ad9", null ]
 ];

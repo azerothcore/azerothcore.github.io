@@ -1,12 +1,6 @@
 var a12274 =
 [
-    [ "BoardCell", "d5/d3c/a12274.html#a1ecd0d14c1b4896f70caaee83e1c864d", null ],
-    [ "Reset", "d5/d3c/a12274.html#a22a71e9bd4a4dd9601aa0fffe978009c", null ],
-    [ "SetData", "d5/d3c/a12274.html#a0e57e888290cbe15b5dafa9788c3f86b", null ],
-    [ "SetPiece", "d5/d3c/a12274.html#ac919854a2e9d5fc2d1b68960e16cf79d", null ],
-    [ "col", "d5/d3c/a12274.html#a49707efa5b356ad0dc6f6ff16a652430", null ],
-    [ "pieceEntry", "d5/d3c/a12274.html#a7697506ccc800d38968e457c44bfa019", null ],
-    [ "pieceGUID", "d5/d3c/a12274.html#a74f494e406c56d4c61d79539acea684c", null ],
-    [ "row", "d5/d3c/a12274.html#a195c187e134be546f224cbb0eef8c844", null ],
-    [ "triggerGUID", "d5/d3c/a12274.html#a9cafdea50739b014a97e60611adcd3f1", null ]
+    [ "HandleTriggerSpell", "d5/d3c/a12274.html#a5f30f2af73eae022b9596939b2f88c0b", null ],
+    [ "PrepareSpellScript", "d5/d3c/a12274.html#a4fa2709a456e9e75f5c11b7f2e04912b", null ],
+    [ "Register", "d5/d3c/a12274.html#a7e9c140aecea892ee6971bc97d385640", null ]
 ];

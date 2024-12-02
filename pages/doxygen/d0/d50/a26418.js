@@ -1,9 +1,10 @@
 var a26418 =
 [
-    [ "CheckCast", "d0/d50/a26418.html#a441927e0d8d7304030440c19458eb34d", null ],
-    [ "HandleScriptEffect", "d0/d50/a26418.html#a10e9691aa15869c82fba79072a314d7e", null ],
-    [ "PrepareSpellScript", "d0/d50/a26418.html#a90b8ae945aeb85ad6e8a120501288979", null ],
-    [ "Register", "d0/d50/a26418.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
-    [ "Validate", "d0/d50/a26418.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
-    [ "iTypes", "d0/d50/a26418.html#ae852b9df34612c074eab23b025c86870", null ]
+    [ "CalculateAmount", "d0/d50/a26418.html#a9e0e28d871f9d3c89cf2dc862971321d", null ],
+    [ "Detonate", "d0/d50/a26418.html#adc622aae157984546dfe3d8373c0c413", null ],
+    [ "HandleProc", "d0/d50/a26418.html#a3b5812649b67830d8dc6d10b5dd1c937", null ],
+    [ "OnRemove", "d0/d50/a26418.html#a5067cef0afc99d487f995f8d6edea21f", null ],
+    [ "PrepareAuraScript", "d0/d50/a26418.html#abc23ebb3761e3505486ac578bdeaeeed", null ],
+    [ "Register", "d0/d50/a26418.html#acc4819698e175889a0491d7f7cc680fd", null ],
+    [ "Validate", "d0/d50/a26418.html#a0649826ce0d66c9f21be8d47c76f4941", null ]
 ];

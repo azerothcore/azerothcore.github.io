@@ -1,13 +1,17 @@
 var a14722 =
 [
-    [ "npc_giant_claw_tentacle", "d5/d9c/a14722.html#aa50511886122a337fc59585fba03b590", null ],
-    [ "Emerge", "d5/d9c/a14722.html#ad5fd7a9246c9c7aba0fa71d331e1f512", null ],
-    [ "JustDied", "d5/d9c/a14722.html#aaaed0a9fb39d30f5c9c7381e923a3d1e", null ],
-    [ "JustEngagedWith", "d5/d9c/a14722.html#ad4dceaafa3bb12b2e5cb7d9530c59d31", null ],
-    [ "Reset", "d5/d9c/a14722.html#a8da9c7e164bc7d7bc6e70a784420c3bc", null ],
-    [ "ScheduleTasks", "d5/d9c/a14722.html#af62d155ec2cf4f56c956869aed8fa1f9", null ],
-    [ "Submerge", "d5/d9c/a14722.html#ac4fedda976b2de295350363e9fef86ec", null ],
-    [ "UpdateAI", "d5/d9c/a14722.html#aa3cc1eac6fe92e4325ec0b5a4f7a2604", null ],
-    [ "_canAttack", "d5/d9c/a14722.html#a62be930ba345b1d2e0df832e72570752", null ],
-    [ "_portalGUID", "d5/d9c/a14722.html#a175bd11b9d5651d44cc0dd213b2c4ef5", null ]
+    [ "boss_eye_of_cthun", "d5/d9c/a14722.html#ac780d2e04a1fab6bd02db049bc6eaab2", null ],
+    [ "DamageTaken", "d5/d9c/a14722.html#a1a28da1eefd61303201d1f3150fe405f", null ],
+    [ "DoAction", "d5/d9c/a14722.html#a102aabe3ce6d89b6403760c11eac87ec", null ],
+    [ "JustDied", "d5/d9c/a14722.html#a4dec255ac49195d835390772a8f1f517", null ],
+    [ "JustEngagedWith", "d5/d9c/a14722.html#ae83ed5b888df95ad0b854f67192cbd4a", null ],
+    [ "JustSummoned", "d5/d9c/a14722.html#a5c037c1fa7adb8355242bf36beb9c61d", null ],
+    [ "MoveInLineOfSight", "d5/d9c/a14722.html#a4555b8c931f9d02b7bd3af1c1f569c6c", null ],
+    [ "Reset", "d5/d9c/a14722.html#a66aec1afcbaa46ede6be2ffc32b67faa", null ],
+    [ "ScheduleTask", "d5/d9c/a14722.html#a14e5b518f2c8534096b8a8059458636d", null ],
+    [ "_beamTarget", "d5/d9c/a14722.html#a2c217290b988d06397c52e3485a7dae8", null ],
+    [ "_eyeTentacleCounter", "d5/d9c/a14722.html#a559d6ba31ed626d8c42a00c230d647b8", null ],
+    [ "ClockWise", "d5/d9c/a14722.html#a701a24f3a06657467b8665d2e4216710", null ],
+    [ "DarkGlareAngle", "d5/d9c/a14722.html#ac71992a2cf223d65c0e06cd8bd440164", null ],
+    [ "DarkGlareTick", "d5/d9c/a14722.html#af546d3325ad456d335148cd7284f7cad", null ]
 ];

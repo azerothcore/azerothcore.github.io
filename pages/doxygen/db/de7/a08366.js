@@ -1,7 +1,10 @@
 var a08366 =
 [
-    [ "ItemPosCount", "db/de7/a08366.html#a43458da1fc31d827b6de726754f7901e", null ],
-    [ "isContainedIn", "db/de7/a08366.html#a6977c544a2d39ca5872b75f27517974f", null ],
-    [ "count", "db/de7/a08366.html#a4e09f94aa0808f76b2d5ff23691abb27", null ],
-    [ "pos", "db/de7/a08366.html#ad8954f1a6323316510cfe0f332ee495f", null ]
+    [ "EquipmentSet", "db/de7/a08366.html#acd3085c12c795daceae86e94448109e2", null ],
+    [ "Guid", "db/de7/a08366.html#aae529ea61a2ad4f114b6a108564f5474", null ],
+    [ "IconName", "db/de7/a08366.html#a40233dfcc23f125ff88693d6c7d7fab5", null ],
+    [ "IgnoreMask", "db/de7/a08366.html#af116e824d23f000f424f3b261618e827", null ],
+    [ "Items", "db/de7/a08366.html#a113e6e5883afe38d446a6d435cd34a01", null ],
+    [ "Name", "db/de7/a08366.html#a2b4691a1b44ae47e7d3c2e63f88d78ba", null ],
+    [ "state", "db/de7/a08366.html#a7e2270a6041dda26f8bc7f8c82597e7f", null ]
 ];

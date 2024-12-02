@@ -1,6 +1,8 @@
 var a20690 =
 [
-    [ "npc_vrykul_skeletonAI", "d1/d02/a20694.html", "d1/d02/a20694" ],
-    [ "npc_vrykul_skeleton", "d5/d2f/a20690.html#a08b79a9baba3cd05768d13ff36b6ed42", null ],
-    [ "GetAI", "d5/d2f/a20690.html#a74292cbb6f83ef9b6b90febda02570a5", null ]
+    [ "boss_keleseth", "d5/d2f/a20690.html#ad2f0f020b0c92852dedadea5730e4e80", null ],
+    [ "AttackStart", "d5/d2f/a20690.html#a731ebf8e9ff4f64582a8f9373ce08a39", null ],
+    [ "JustDied", "d5/d2f/a20690.html#ad23ede5c869ab12dc1c2f6a783e9b539", null ],
+    [ "JustEngagedWith", "d5/d2f/a20690.html#a8d5cba1dd481bdfaf93f6e2427880b2e", null ],
+    [ "KilledUnit", "d5/d2f/a20690.html#a64d14f1b8f169128bbbc507730f4f1eb", null ]
 ];

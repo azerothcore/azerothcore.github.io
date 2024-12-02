@@ -1,7 +1,6 @@
 var a26134 =
 [
-    [ "HandleDummy", "da/d0e/a26134.html#a4c837e7342603519d1f23ab8702c3160", null ],
-    [ "PrepareSpellScript", "da/d0e/a26134.html#ae9d6ab0c9b9cf87f7b86f28e9bb25371", null ],
-    [ "Register", "da/d0e/a26134.html#a16a5ca3ec9a8c463c9a2975fa29eb1e9", null ],
-    [ "Validate", "da/d0e/a26134.html#ad742f4ce0d0db70427f7ba849a4526df", null ]
+    [ "HandleScript", "da/d0e/a26134.html#ad0885113f3bd8eea8ff3db30b55cc240", null ],
+    [ "PrepareSpellScript", "da/d0e/a26134.html#a8410b746f810eaeb7f71c3a7de607a84", null ],
+    [ "Register", "da/d0e/a26134.html#ab8f5c857ee42a6767d10277b52a7da01", null ]
 ];

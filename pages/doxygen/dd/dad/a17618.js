@@ -1,6 +1,7 @@
 var a17618 =
 [
-    [ "npc_precious_iccAI", "d6/d62/a17622.html", "d6/d62/a17622" ],
-    [ "npc_precious_icc", "dd/dad/a17618.html#a463eb0df1edb17e154658dac131f0898", null ],
-    [ "GetAI", "dd/dad/a17618.html#aa63840c5968a089bff41dcd9c86d5849", null ]
+    [ "HandleScript", "dd/dad/a17618.html#aa579f99f704f4db50b38b5f9b87259d7", null ],
+    [ "PrepareSpellScript", "dd/dad/a17618.html#a92a6f2b0d5a0845e35c07d0b5cefe053", null ],
+    [ "Register", "dd/dad/a17618.html#a2278ecef3dc60082ccb8964a34e55587", null ],
+    [ "Validate", "dd/dad/a17618.html#aeee94330ee7ea9b4fd7447e642404119", null ]
 ];

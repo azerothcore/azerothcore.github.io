@@ -1,9 +1,7 @@
 var a13098 =
 [
-    [ "boss_entropius", "d9/d25/a13098.html#a458deaa80c9694cd2608150bc5519c76", null ],
-    [ "EnterEvadeMode", "d9/d25/a13098.html#a01889b192525af082471d092bff28c88", null ],
-    [ "JustDied", "d9/d25/a13098.html#aed1313073a44bc15f87432a85e6c2d8e", null ],
-    [ "JustEngagedWith", "d9/d25/a13098.html#afb07fc44fd14b9f78fbc97b2670b8b5e", null ],
-    [ "Reset", "d9/d25/a13098.html#ad9da990a540703d38cb45dd2da72c179", null ],
-    [ "UpdateAI", "d9/d25/a13098.html#ab7fbeb67059c48b5f1aff071990ece5e", null ]
+    [ "boss_muru", "d9/d25/a13098.html#a6e51cd6b3283f011fc834e0cc59f46e6", null ],
+    [ "DamageTaken", "d9/d25/a13098.html#a570c8cc6aaefaac4063d9f1053c04b32", null ],
+    [ "JustEngagedWith", "d9/d25/a13098.html#a305f5f20fbe3d15885ed3e6248d96ec6", null ],
+    [ "Reset", "d9/d25/a13098.html#a177aed9c1e5c1380fc8ea5f8c29650c6", null ]
 ];

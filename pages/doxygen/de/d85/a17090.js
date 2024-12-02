@@ -1,5 +1,6 @@
 var a17090 =
 [
-    [ "achievement_ive_gone_and_made_a_mess", "de/d85/a17090.html#a0e71ea3afae02176f81231e51155c038", null ],
-    [ "OnCheck", "de/d85/a17090.html#a638cead986783523c7c35ecb9d885b11", null ]
+    [ "ModAuraValue", "de/d85/a17090.html#a359453c6253beb6f729209c6d3d79af7", null ],
+    [ "PrepareSpellScript", "de/d85/a17090.html#a4f916abef69782be10cc6be9ba0124f5", null ],
+    [ "Register", "de/d85/a17090.html#a4a387df07c88144288c4327ce86b730a", null ]
 ];

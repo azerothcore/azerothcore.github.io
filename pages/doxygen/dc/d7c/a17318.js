@@ -1,7 +1,7 @@
 var a17318 =
 [
-    [ "DamageGunship", "dc/d7c/a17318.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
-    [ "PrepareSpellScript", "dc/d7c/a17318.html#aa698d016ae58d665c081976f20ec0385", null ],
-    [ "Register", "dc/d7c/a17318.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
-    [ "Validate", "dc/d7c/a17318.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
+    [ "FilterTargets", "dc/d7c/a17318.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "dc/d7c/a17318.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "dc/d7c/a17318.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "dc/d7c/a17318.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

@@ -1,6 +1,6 @@
 var a11706 =
 [
-    [ "instance_blackrock_depths_InstanceMapScript", "d0/d20/a11710.html", "d0/d20/a11710" ],
-    [ "instance_blackrock_depths", "df/d44/a11706.html#a8d906bdb520b2c7907b94b0e22b5cdf4", null ],
-    [ "GetInstanceScript", "df/d44/a11706.html#af8f8c9929cae50c098efc5a0dbdd727a", null ]
+    [ "RestoreAttack", "df/d44/a11706.html#a8c5b3b0cbe7f5bfebb1c09987c4066e3", null ],
+    [ "Execute", "df/d44/a11706.html#a633e5abe4a3a9353df63d3778b8d71bc", null ],
+    [ "_boss", "df/d44/a11706.html#a493ef909da834b0befd90f57f54fb10c", null ]
 ];

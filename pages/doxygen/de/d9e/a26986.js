@@ -1,5 +1,5 @@
 var a26986 =
 [
-    [ "go_massive_seaforium_charge", "de/d9e/a26986.html#adae43b764f237932923cd18207e4d23c", null ],
-    [ "OnGossipHello", "de/d9e/a26986.html#a187e28c773ad904f245d11d3f5b9d7e3", null ]
+    [ "go_duskwither_spire_power_source", "de/d9e/a26986.html#aab69de16e8b744af2671e2ed882ee94a", null ],
+    [ "OnGossipHello", "de/d9e/a26986.html#a2c7fd017e7985b99bff187119157a041", null ]
 ];

@@ -1,7 +1,8 @@
 var a27842 =
 [
-    [ "Id", "da/dc6/a27842.html#a94843a6f0cb39332f39a9630945f1fc8", null ],
-    [ "SoundBank", "da/dc6/a27842.html#a1dd2e40caf515186c831dc8cc82c095b", null ],
-    [ "SpellId", "da/dc6/a27842.html#aa010947f5fbec6867b005b25728e720b", null ],
-    [ "Type", "da/dc6/a27842.html#a7f610dd6a9944b4634bb981c0cb8e230", null ]
+    [ "areaTriggerText", "da/dc6/a27842.html#a32bb8c4a4defce661d108627e25b645a", null ],
+    [ "Difficulty", "da/dc6/a27842.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
+    [ "MapId", "da/dc6/a27842.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
+    [ "maxPlayers", "da/dc6/a27842.html#a7ab33229ffee11a27861439053c79831", null ],
+    [ "resetTime", "da/dc6/a27842.html#a891a741efb049b51996e1a6110efc52d", null ]
 ];

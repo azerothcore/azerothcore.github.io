@@ -1,6 +1,6 @@
 var a16198 =
 [
-    [ "boss_icehowlAI", "df/dea/a16202.html", "df/dea/a16202" ],
-    [ "boss_icehowl", "d5/d93/a16198.html#ab3c9711fa6af17be9dc7331b42c408be", null ],
-    [ "GetAI", "d5/d93/a16198.html#ac77bf3b9d954b8c6be01d0209a80cc6a", null ]
+    [ "boss_acidmawAI", "df/dea/a16202.html", "df/dea/a16202" ],
+    [ "boss_acidmaw", "d5/d93/a16198.html#a86e71bf9ae950a4f8efa58d6f679e8bf", null ],
+    [ "GetAI", "d5/d93/a16198.html#aacbd4c83e6e9c9790e6cf9a87e3aa9a0", null ]
 ];

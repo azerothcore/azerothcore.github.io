@@ -1,6 +1,6 @@
 var a22558 =
 [
-    [ "boss_essence_of_angerAI", "da/d19/a22562.html", "da/d19/a22562" ],
-    [ "boss_essence_of_anger", "db/d0a/a22558.html#adf8151d1fbb4a258f174c4bdb8410cd6", null ],
-    [ "GetAI", "db/d0a/a22558.html#a70a460f31b7f878e532b695ca822ab5d", null ]
+    [ "HandleEffectRemove", "db/d0a/a22558.html#ae9baf688d8ac42c4ccbbf13f3b79e831", null ],
+    [ "PrepareAuraScript", "db/d0a/a22558.html#a2e2668f0b5bf369ec859627e0bd8d980", null ],
+    [ "Register", "db/d0a/a22558.html#acd7e22159d262a9888c744eecb978c09", null ]
 ];

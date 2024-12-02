@@ -1,14 +1,21 @@
 var a14926 =
 [
-    [ "npc_draenei_survivorAI", "d1/d32/a14926.html#a8766dcf9afd6d26d619bead82b549a8f", null ],
-    [ "JustEngagedWith", "d1/d32/a14926.html#a6d0b790ad7466b14bf0bba0aa37eebf2", null ],
-    [ "MoveInLineOfSight", "d1/d32/a14926.html#a2b3f0a595fde04ad1e054331a596e225", null ],
-    [ "Reset", "d1/d32/a14926.html#a3db19a846ce3b4810321eb02d314633f", null ],
-    [ "SpellHit", "d1/d32/a14926.html#a079789d2f6a03b1c7b0ac7dc43a2550a", null ],
-    [ "UpdateAI", "d1/d32/a14926.html#aa3fd8e3747fa69b5156e932fddaf6fa7", null ],
-    [ "CanSayHelp", "d1/d32/a14926.html#a6bf8c4eb06fe661da0c850424843bd42", null ],
-    [ "pCaster", "d1/d32/a14926.html#a35ad8350e51fd520b75cd0289f19cb09", null ],
-    [ "RunAwayTimer", "d1/d32/a14926.html#a233885b12615bfbc927d8845d0cff3fd", null ],
-    [ "SayHelpTimer", "d1/d32/a14926.html#a8d77b110c6af6615d5d39e0870cbe890", null ],
-    [ "SayThanksTimer", "d1/d32/a14926.html#a4f2d829af97d6fb5ef13e3922ebe99e8", null ]
+    [ "npc_rizzle_sprysprocketAI", "d1/d32/a14926.html#a74b59a5721c46cddf13e9532a36f6a6d", null ],
+    [ "AttackStart", "d1/d32/a14926.html#a87aa5e5e66f5f083829cf8dd78d9dc75", null ],
+    [ "JustEngagedWith", "d1/d32/a14926.html#a9c39a4c8302fb507f9c7b09ebf871c5e", null ],
+    [ "MovementInform", "d1/d32/a14926.html#a6ba4af8eee61bd6f562b25e096fcf0a8", null ],
+    [ "Reset", "d1/d32/a14926.html#a060a25159570525af2d624f3f153eadf", null ],
+    [ "sGossipSelect", "d1/d32/a14926.html#ab69a38bfe7a5b18b7f11b1f4df4c293a", null ],
+    [ "UpdateAI", "d1/d32/a14926.html#ab2b1307113e4c91af94ea3ed4cbe8697", null ],
+    [ "CheckTimer", "d1/d32/a14926.html#a2bb7b9a55427023156175bd2305a77fe", null ],
+    [ "ContinueWP", "d1/d32/a14926.html#a85b90ae315a7957eba416d9c44f457ff", null ],
+    [ "CurrWP", "d1/d32/a14926.html#acd4a2ef2157d47d3571d6c61d9dfdd4a", null ],
+    [ "Escape", "d1/d32/a14926.html#a300700dc91eb4b49ec7cbf42c998feb4", null ],
+    [ "GrenadeTimer", "d1/d32/a14926.html#ad43496d1ba134a19b49ecfae871f49ba", null ],
+    [ "MustDie", "d1/d32/a14926.html#a8eae3901791679ef5609f929ddc83fc9", null ],
+    [ "MustDieTimer", "d1/d32/a14926.html#a044f7c15ed58b67d02d6e1f6b76ad573", null ],
+    [ "PlayerGUID", "d1/d32/a14926.html#a28482e22f80316de1b2e4ebd54875f13", null ],
+    [ "Reached", "d1/d32/a14926.html#a1962eac2fa0403b965e5534d09bfc8a5", null ],
+    [ "SpellEscapeTimer", "d1/d32/a14926.html#a4f2a0f04c8c126ac4ef31a45f74f7f77", null ],
+    [ "TeleportTimer", "d1/d32/a14926.html#a4df0058661b6251c39497ee5b872c33e", null ]
 ];

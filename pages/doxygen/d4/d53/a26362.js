@@ -1,6 +1,6 @@
 var a26362 =
 [
-    [ "HandleKnockBack", "d4/d53/a26362.html#abad9f9293260a3e99be98b43aabb321b", null ],
-    [ "PrepareSpellScript", "d4/d53/a26362.html#a65787b78165631898458264e6ee310f4", null ],
-    [ "Register", "d4/d53/a26362.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
+    [ "HandleSchoolDMG", "d4/d53/a26362.html#a8f3ff0a48d5de4dcd33831400de0ba28", null ],
+    [ "PrepareSpellScript", "d4/d53/a26362.html#a42bb397aa53fb43ba1b1799a7f162d9b", null ],
+    [ "Register", "d4/d53/a26362.html#ac1271959fe8de3c11403b1e76acdbf15", null ]
 ];

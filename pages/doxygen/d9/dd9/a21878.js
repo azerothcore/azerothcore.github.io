@@ -1,6 +1,6 @@
 var a21878 =
 [
-    [ "npc_frosthoundAI", "d4/d55/a21882.html", "d4/d55/a21882" ],
-    [ "npc_frosthound", "d9/dd9/a21878.html#a3266f5186d1db0c010f586d3272725a6", null ],
-    [ "GetAI", "d9/dd9/a21878.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
+    [ "npc_time_lost_proto_drakeAI", "d4/d55/a21882.html", "d4/d55/a21882" ],
+    [ "npc_time_lost_proto_drake", "d9/dd9/a21878.html#a6fda9f8b0d4e61e88e2a82d101d9c69e", null ],
+    [ "GetAI", "d9/dd9/a21878.html#a8b463fe7a85b0b1526c2f99ed7aeefa2", null ]
 ];

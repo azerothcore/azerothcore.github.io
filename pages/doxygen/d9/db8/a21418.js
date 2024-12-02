@@ -1,6 +1,6 @@
 var a21418 =
 [
-    [ "npc_heated_battleAI", "d9/db8/a21418.html#a2b73957d7890549f4b02488c5527fcef", null ],
-    [ "DamageTaken", "d9/db8/a21418.html#a8422c157214195d7166ede35c9c05d19", null ],
-    [ "Reset", "d9/db8/a21418.html#a11a4f3270ff260e30da89017dad38433", null ]
+    [ "npc_q24545_lich_kingAI", "d5/d22/a21422.html", "d5/d22/a21422" ],
+    [ "npc_q24545_lich_king", "d9/db8/a21418.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
+    [ "GetAI", "d9/db8/a21418.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
 ];

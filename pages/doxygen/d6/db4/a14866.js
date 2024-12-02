@@ -1,7 +1,6 @@
 var a14866 =
 [
-    [ "npc_anubisath_warder", "d6/db4/a14866.html#aebe14673e5c31000a9626e39d87c6775", null ],
-    [ "JustEngagedWith", "d6/db4/a14866.html#a579318fa519eb669573b2cea78c2fee3", null ],
-    [ "Reset", "d6/db4/a14866.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
-    [ "UpdateAI", "d6/db4/a14866.html#aba428f1f1a016191aa4f168c616c3a29", null ]
+    [ "HandleDummy", "d6/db4/a14866.html#ac06b2b8e07ebc51a281c70663796dcc3", null ],
+    [ "PrepareSpellScript", "d6/db4/a14866.html#aa60cc00f33e329fe8d010c0e1c00989a", null ],
+    [ "Register", "d6/db4/a14866.html#aee9d14b3f45cb43478f970e9e6e173fd", null ]
 ];

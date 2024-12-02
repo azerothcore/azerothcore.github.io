@@ -1,6 +1,7 @@
 var a15046 =
 [
-    [ "npc_tiger_matriarchAI", "d2/d7f/a15050.html", "d2/d7f/a15050" ],
-    [ "npc_tiger_matriarch", "de/da5/a15046.html#a05a08bfa64c428213a4b534a982afb71", null ],
-    [ "GetAI", "de/da5/a15046.html#a6d5664ca125a775c2d71f322f5a57655", null ]
+    [ "npc_aged_dying_ancient_kodoAI", "d2/d7f/a15050.html", "d2/d7f/a15050" ],
+    [ "npc_aged_dying_ancient_kodo", "de/da5/a15046.html#a676170a319d3a8e46c9d017e61396c28", null ],
+    [ "GetAI", "de/da5/a15046.html#a886bc82764e4ca6d98dc94ea73415375", null ],
+    [ "OnGossipHello", "de/da5/a15046.html#a8489b3f23d8eca39f2750711512672e4", null ]
 ];
