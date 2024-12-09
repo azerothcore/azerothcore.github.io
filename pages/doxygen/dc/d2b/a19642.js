@@ -1,5 +1,6 @@
 var a19642 =
 [
-    [ "achievement_flame_leviathan_shutout", "dc/d2b/a19642.html#a555e0d206b7f730665d301c7e03b23e6", null ],
-    [ "OnCheck", "dc/d2b/a19642.html#af548232f563fd387bc8ee25b696a2f99", null ]
+    [ "CheckCast", "dc/d2b/a19642.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
+    [ "PrepareSpellScript", "dc/d2b/a19642.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
+    [ "Register", "dc/d2b/a19642.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
 ];

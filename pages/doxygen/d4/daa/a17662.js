@@ -1,25 +1,6 @@
 var a17662 =
 [
-    [ "boss_sindragosaAI", "d4/daa/a17662.html#ab02e42a863496b27a8f2b745085e30ea", null ],
-    [ "CanAIAttack", "d4/daa/a17662.html#aea65b981e8b9461750a53fca3919c27f", null ],
-    [ "DamageTaken", "d4/daa/a17662.html#ab4bc9869ad6074a1671b0b18f681a913", null ],
-    [ "DoAction", "d4/daa/a17662.html#a93859d74931e5b810e3c48e492103919", null ],
-    [ "EnterEvadeMode", "d4/daa/a17662.html#acb1e677b2347e0464df832e1d86cd3b5", null ],
-    [ "GetData", "d4/daa/a17662.html#abbdaf0b2fe76e6f79126d15a1cecca2a", null ],
-    [ "JustDied", "d4/daa/a17662.html#a0a41a38ba0577f9b4f10bd1143a1e615", null ],
-    [ "JustEngagedWith", "d4/daa/a17662.html#af0151f1cb6776a3a180b4e24332c8489", null ],
-    [ "JustSummoned", "d4/daa/a17662.html#ac3d9b66097202719781ede743fabc1ea", null ],
-    [ "KilledUnit", "d4/daa/a17662.html#a27f5953a9cf68ec10a63622cf0f33d9b", null ],
-    [ "MoveInLineOfSight", "d4/daa/a17662.html#a17d93e98d5c8f91e8009674a4117bd39", null ],
-    [ "MovementInform", "d4/daa/a17662.html#abff1b505e9d2d6c826f814b2d43409af", null ],
-    [ "Reset", "d4/daa/a17662.html#a5350ca3791fb777959de068933d121ba", null ],
-    [ "SpellHitTarget", "d4/daa/a17662.html#ad2d10d5aeebea48809a61eee293ff9da", null ],
-    [ "SummonedCreatureDespawn", "d4/daa/a17662.html#a5245dbb8a3065f2da4815be744dce357", null ],
-    [ "UpdateAI", "d4/daa/a17662.html#a0e92f831d702eda65309787c651f221b", null ],
-    [ "_bombCount", "d4/daa/a17662.html#a8ef89884c8d1b272d28dd7a6d2048964", null ],
-    [ "_isBelow20Pct", "d4/daa/a17662.html#a87663e3f6d1c87c9def8eb1852adc029", null ],
-    [ "_isInAirPhase", "d4/daa/a17662.html#addc25d8f87dd9fd627c0bde5944c037a", null ],
-    [ "_isLanding", "d4/daa/a17662.html#a3de52bd0571eab9df13809ff5a4b891c", null ],
-    [ "_isThirdPhase", "d4/daa/a17662.html#a741a811fd9832fb4275c51d2272d98f0", null ],
-    [ "_mysticBuffetStack", "d4/daa/a17662.html#a9cfaa3b61da9a7aad88c2d2a537f0821", null ]
+    [ "boss_sindragosaAI", "db/dfc/a17666.html", "db/dfc/a17666" ],
+    [ "boss_sindragosa", "d4/daa/a17662.html#af5cdf4798b8b87467fa45dbda7fcbee1", null ],
+    [ "GetAI", "d4/daa/a17662.html#a005a6da9f4f9690416a108872b3c2b36", null ]
 ];

@@ -1,8 +1,7 @@
 var a22414 =
 [
-    [ "Load", "da/dd7/a22414.html#a038301fbb547469574efff88455be663", null ],
-    [ "OnPeriodic", "da/dd7/a22414.html#a8df384cc329cf20ddc5ac0d7bed0345f", null ],
-    [ "PrepareAuraScript", "da/dd7/a22414.html#a386df1300e6a99b02efd13ef4968e99a", null ],
-    [ "Register", "da/dd7/a22414.html#a1b7b9bff5b3d906fa491846a4d5c6743", null ],
-    [ "Validate", "da/dd7/a22414.html#ad64a3fc1a66b9e8914099e501992f2aa", null ]
+    [ "HandleOnEffectApply", "da/dd7/a22414.html#a01d6ca6f8ec21ad42445b5e581c0f79b", null ],
+    [ "HandleOnEffectRemove", "da/dd7/a22414.html#a59952b33d7c4705a6bfe7f3443bbf005", null ],
+    [ "PrepareAuraScript", "da/dd7/a22414.html#a45df29f911b1232e306e04a182648904", null ],
+    [ "Register", "da/dd7/a22414.html#a71fbf189fc116eb7d14944ff4060a9a9", null ]
 ];

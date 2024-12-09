@@ -1,12 +1,8 @@
 var a17058 =
 [
-    [ "npc_high_overlord_saurfangAI", "db/db5/a17058.html#a5c31259d9eb26e09d2b645d826e75328", null ],
-    [ "DoAction", "db/db5/a17058.html#a4a372a14c960c48c51a1c8e34ebffc53", null ],
-    [ "MovementInform", "db/db5/a17058.html#a6a46f99ffb67a699ef9adb2a1afcbe13", null ],
-    [ "Reset", "db/db5/a17058.html#a28899c61f9b4d3612535d1a01dc05f4a", null ],
-    [ "SpellHit", "db/db5/a17058.html#a6399e9c9ecdb8c01fbd2bcd1b081811f", null ],
-    [ "UpdateAI", "db/db5/a17058.html#a92124e7490a066bf63836397a3bdc71b", null ],
-    [ "_events", "db/db5/a17058.html#a12bbe13cf8fd1eda0cb8aa75ecafddc4", null ],
-    [ "_guardList", "db/db5/a17058.html#a1d8ccb93c5c8d13767fa8a1429adb262", null ],
-    [ "_instance", "db/db5/a17058.html#a4181022e52fc10e2d5d98dcffe9ced62", null ]
+    [ "npc_high_overlord_saurfangAI", "d3/d93/a17062.html", "d3/d93/a17062" ],
+    [ "npc_high_overlord_saurfang_icc", "db/db5/a17058.html#ac02fe80550572e142406c2d80c0392df", null ],
+    [ "GetAI", "db/db5/a17058.html#a21c04ab5b8d747c28c7355cc483ac6e3", null ],
+    [ "OnGossipHello", "db/db5/a17058.html#a515a87f751527412222cfdd968febe7c", null ],
+    [ "OnGossipSelect", "db/db5/a17058.html#a39c33a3b2e7037ca6f0f40ba65cb55db", null ]
 ];

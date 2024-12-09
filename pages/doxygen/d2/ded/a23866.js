@@ -1,9 +1,5 @@
 var a23866 =
 [
-    [ "npc_enraged_spiritAI", "d2/ded/a23866.html#aa487c906c1c0d15dc7761c7288e7d3c6", null ],
-    [ "JustDied", "d2/ded/a23866.html#a9322622f679dbc311bd8983f5037bd2e", null ],
-    [ "JustEngagedWith", "d2/ded/a23866.html#a1d192d0dd563dc2735b23a171b2bf659", null ],
-    [ "Reset", "d2/ded/a23866.html#a2d56572acf042ba34f468f0ff3b0bd1a", null ],
-    [ "UpdateAI", "d2/ded/a23866.html#adc3d04d66f2b4de7a970f2cd5e476a2b", null ],
-    [ "_scheduler", "d2/ded/a23866.html#afa6825696b0622849f877b392df4b326", null ]
+    [ "go_crystal_prison", "d2/ded/a23866.html#a0faca8b76f9650ee5cc7825b90463365", null ],
+    [ "OnQuestAccept", "d2/ded/a23866.html#ad19d8bdf8361d5d7fca2917a6bf0977a", null ]
 ];

@@ -1,7 +1,6 @@
 var a18678 =
 [
-    [ "HandleRemove", "dd/da4/a18678.html#a7c81c567ae10bf4fd4d3c1eb480b5761", null ],
-    [ "PrepareAuraScript", "dd/da4/a18678.html#aaefd5b15f7a3725b2663c0717fe22c92", null ],
-    [ "Register", "dd/da4/a18678.html#ad7ba015a7878adad0820cf378d2632ca", null ],
-    [ "Validate", "dd/da4/a18678.html#a570bb63c6ed7af58b0b886e8a954dea9", null ]
+    [ "FilterTargets", "dd/da4/a18678.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
+    [ "PrepareSpellScript", "dd/da4/a18678.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
+    [ "Register", "dd/da4/a18678.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
 ];

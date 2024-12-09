@@ -1,6 +1,8 @@
 var a23002 =
 [
-    [ "HandleAfterRemove", "d7/d5b/a23002.html#a74610b06095572aa2c898cd84e0fb229", null ],
-    [ "PrepareAuraScript", "d7/d5b/a23002.html#ac0d686490ff37810e0116dea4d0b6077", null ],
-    [ "Register", "d7/d5b/a23002.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
+    [ "boss_mekgineer_steamrigger", "d7/d5b/a23002.html#a930dcbade7135d0c689bcc0718815547", null ],
+    [ "JustDied", "d7/d5b/a23002.html#a79272c233bc0256cca62700fc7a01421", null ],
+    [ "JustEngagedWith", "d7/d5b/a23002.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
+    [ "JustSummoned", "d7/d5b/a23002.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
+    [ "KilledUnit", "d7/d5b/a23002.html#a84374438458cb7e034f91d4b65cd22f1", null ]
 ];

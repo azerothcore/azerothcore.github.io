@@ -1,5 +1,5 @@
 var a23994 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d8/d4e/a23994.html#ac9f42a8f6d87ab65e78d9a3951102705", null ],
-    [ "OnCharmed", "d8/d4e/a23994.html#ada01d7ab11b7bf240cad932c96978a06", null ]
+    [ "npc_pet_dk_ghoulAI", "d8/d4e/a23994.html#a7e747ba9e709eb532b0c16c8a1c1763a", null ],
+    [ "JustDied", "d8/d4e/a23994.html#a7d964fafeb0a7746a7749a9e0eb93080", null ]
 ];

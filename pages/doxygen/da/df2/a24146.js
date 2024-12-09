@@ -1,6 +1,6 @@
 var a24146 =
 [
-    [ "CheckProc", "da/df2/a24146.html#a451ceeda18638f88d2e0a24ac445f5e2", null ],
-    [ "PrepareAuraScript", "da/df2/a24146.html#a0a6d4617ff3351411f4e13f53876db31", null ],
-    [ "Register", "da/df2/a24146.html#a0e5d974111eeca075f38910223f5eaf4", null ]
+    [ "HandleSummon", "da/df2/a24146.html#a00e265d830ea3e8a0a1952984c438071", null ],
+    [ "PrepareSpellScript", "da/df2/a24146.html#a96df13b19964b6e89babb312465b90bc", null ],
+    [ "Register", "da/df2/a24146.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
 ];

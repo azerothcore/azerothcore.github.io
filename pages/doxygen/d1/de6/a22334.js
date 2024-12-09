@@ -1,7 +1,6 @@
 var a22334 =
 [
-    [ "HandleProc", "d1/de6/a22334.html#a4d12ab1b286105fdad5eb2dd20131408", null ],
-    [ "PrepareAuraScript", "d1/de6/a22334.html#a94b6499dc2e1fa95a50bd9c3c491e858", null ],
-    [ "Register", "d1/de6/a22334.html#a6b764182501a1d192f90dc20bbd6549e", null ],
-    [ "Validate", "d1/de6/a22334.html#ad89123425cca5bd02a18526a11595a1a", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "d3/d72/a22338.html", "d3/d72/a22338" ],
+    [ "instance_shadow_labyrinth", "d1/de6/a22334.html#a16a3acdfd9b1053374dfa5f27e5f3c19", null ],
+    [ "GetInstanceScript", "d1/de6/a22334.html#af9edf624413593a5cdf025dd9a1c3631", null ]
 ];

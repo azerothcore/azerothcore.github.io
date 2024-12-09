@@ -1,14 +1,15 @@
 var a19854 =
 [
-    [ "npc_ulduar_hodir_mageAI", "d1/da2/a19854.html#a118059c877151a9f6b2b15a4070e2704", null ],
-    [ "AttackStart", "d1/da2/a19854.html#a3217617eb3312c1da34dc7dce590fe0d", null ],
-    [ "CanAIAttack", "d1/da2/a19854.html#a66ea56e856fcc706e4f938512def1590", null ],
-    [ "EnterEvadeMode", "d1/da2/a19854.html#a6d4cd626dcd58f825a6c88b804bb38a7", null ],
-    [ "JustDied", "d1/da2/a19854.html#a0176f8b45c20af1552e1a8b70e307442", null ],
-    [ "MoveInLineOfSight", "d1/da2/a19854.html#aaf35c04462b1698e85df64190f4e2c8a", null ],
-    [ "ScheduleAbilities", "d1/da2/a19854.html#a7927f399ef1c89b3eb83804fde9b2700", null ],
-    [ "SpellHit", "d1/da2/a19854.html#aa814a46a45ce5eb9696c8f6c6de8c521", null ],
-    [ "UpdateAI", "d1/da2/a19854.html#acbbe6667360e5bb7576c1ea741c2e2f1", null ],
-    [ "events", "d1/da2/a19854.html#a556453c557df0be6a57255e400d98a87", null ],
-    [ "pInstance", "d1/da2/a19854.html#ac4677898f5612c01d98ab242c7628e8f", null ]
+    [ "npc_ulduar_hodir_shamanAI", "d1/da2/a19854.html#a4f18b06f254b57787b7ab31c9b422402", null ],
+    [ "AttackStart", "d1/da2/a19854.html#a022aabbc965872925698bd53fad2f84d", null ],
+    [ "CanAIAttack", "d1/da2/a19854.html#a21b3804fe0af15e59e9af30260552666", null ],
+    [ "EnterEvadeMode", "d1/da2/a19854.html#af9cfc1dc173e0a4d82f1dbc8eb1cbcba", null ],
+    [ "JustDied", "d1/da2/a19854.html#a5c06c412d38203bb10e9951e27d5760a", null ],
+    [ "MoveInLineOfSight", "d1/da2/a19854.html#a24d570f1c4a133c4f001032a1c915a27", null ],
+    [ "ScheduleAbilities", "d1/da2/a19854.html#ac197b53bc03fd8bdf44b8b2e2a64f568", null ],
+    [ "SpellHit", "d1/da2/a19854.html#a3c61b680a0d75a87bfaf4d8ae8072ea9", null ],
+    [ "SpellHitTarget", "d1/da2/a19854.html#ae829e62ec342c1e0d12a523506ea6b04", null ],
+    [ "UpdateAI", "d1/da2/a19854.html#af961f02169ab700716410e26114fd857", null ],
+    [ "events", "d1/da2/a19854.html#ad92f69d2a63313798e16cfbaf55301ca", null ],
+    [ "pInstance", "d1/da2/a19854.html#af4f0d720b9d9e4cbe4805cfc0c9a12c8", null ]
 ];

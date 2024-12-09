@@ -1,10 +1,10 @@
 var a27002 =
 [
-    [ "guard_shattrath_aldorAI", "d4/d96/a27002.html#a88961dfe4100dfe207af693a1eed86ad", null ],
-    [ "Reset", "d4/d96/a27002.html#aef38e83e90c322bbef18b78e6339ef2e", null ],
-    [ "UpdateAI", "d4/d96/a27002.html#ac87ee12d4487971b68c70f06f63eb410", null ],
-    [ "banishTimer", "d4/d96/a27002.html#a8b6e4c2acb09c65f2dbebbd21df4f29e", null ],
-    [ "canTeleport", "d4/d96/a27002.html#af4d933b56431d2f2755d87fb05922458", null ],
-    [ "exileTimer", "d4/d96/a27002.html#a8d56205206f3e14184922f96873456ad", null ],
-    [ "playerGUID", "d4/d96/a27002.html#a16fe41ae30d54abaf12f68672b93dc32", null ]
+    [ "guard_shattrath_scryerAI", "d4/d96/a27002.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "d4/d96/a27002.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "d4/d96/a27002.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "d4/d96/a27002.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "d4/d96/a27002.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "d4/d96/a27002.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "d4/d96/a27002.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

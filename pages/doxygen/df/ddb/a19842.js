@@ -1,6 +1,6 @@
 var a19842 =
 [
-    [ "npc_ulduar_hodir_shamanAI", "df/dcd/a19846.html", "df/dcd/a19846" ],
-    [ "npc_ulduar_hodir_shaman", "df/ddb/a19842.html#ae73a416c72441ab531d8a5db88183d47", null ],
-    [ "GetAI", "df/ddb/a19842.html#ab06a67b72a3954c65792a478ac90672c", null ]
+    [ "npc_ulduar_hodir_druidAI", "df/dcd/a19846.html", "df/dcd/a19846" ],
+    [ "npc_ulduar_hodir_druid", "df/ddb/a19842.html#a07809d61d55756a847467043b0e90989", null ],
+    [ "GetAI", "df/ddb/a19842.html#a4b0503e20bf8caddf0ea544a88124263", null ]
 ];

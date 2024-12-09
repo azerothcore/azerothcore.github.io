@@ -1,5 +1,6 @@
 var a23250 =
 [
-    [ "spellId", "d3/dc5/a23250.html#acc63d01d5095adef28b9746c520be973", null ],
-    [ "textId", "d3/dc5/a23250.html#a5b366c702c1cda6ea10ad0b58935f97c", null ]
+    [ "instance_magtheridons_lair_InstanceMapScript", "dd/ded/a23254.html", "dd/ded/a23254" ],
+    [ "instance_magtheridons_lair", "d3/dc5/a23250.html#a9bc61758478dc18ba413264eec2e3ca3", null ],
+    [ "GetInstanceScript", "d3/dc5/a23250.html#a6c9cc959cf4f294e6173d244f54bcd02", null ]
 ];

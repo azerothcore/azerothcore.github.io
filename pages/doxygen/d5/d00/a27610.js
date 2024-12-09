@@ -1,11 +1,14 @@
 var a27610 =
 [
-    [ "icon", "d5/d00/a27610.html#ad34c7f65fc077b39b6b71a1ff1a89cf5", null ],
-    [ "id", "d5/d00/a27610.html#af9f4cd8b29daededd3d2b2f0cc53d213", null ],
-    [ "mapId", "d5/d00/a27610.html#a4a8ba812b143b55e06d8dbd88e9e6fe3", null ],
-    [ "worldState", "d5/d00/a27610.html#a9d745d26316726c861cc5a242f6a4f57", null ],
-    [ "x", "d5/d00/a27610.html#a27fd46a0c6b00a297c345a14dfd781e5", null ],
-    [ "y", "d5/d00/a27610.html#afcb7cc22d0ed260793b31f8893d13a0f", null ],
-    [ "z", "d5/d00/a27610.html#a79ca5d6a2c4332dcc6d0a51ef40d0189", null ],
-    [ "zoneId", "d5/d00/a27610.html#a0cc33089981237694ca550cba6793a3e", null ]
+    [ "IsFlyable", "d5/d00/a27610.html#a2a59297a617c9d3b582ede2a028bd07e", null ],
+    [ "IsSanctuary", "d5/d00/a27610.html#ad239b4e381b6af858a181e9c361d6cbb", null ],
+    [ "area_level", "d5/d00/a27610.html#a23434848cf8b2eab4de1b6530b8d5f8d", null ],
+    [ "area_name", "d5/d00/a27610.html#a87653e6b7f7368a59af7adaf77a49e10", null ],
+    [ "exploreFlag", "d5/d00/a27610.html#a78cf3009cd0fe49dc7870c7f65c79251", null ],
+    [ "flags", "d5/d00/a27610.html#a5854e3f565d827dbad3d9a36f99e9a25", null ],
+    [ "ID", "d5/d00/a27610.html#ad02bb9fce21f464e38223581074a9e21", null ],
+    [ "LiquidTypeOverride", "d5/d00/a27610.html#abe743a4b542c4356aab9d41f3fae7457", null ],
+    [ "mapid", "d5/d00/a27610.html#a048ac249318efd9aa35bb705bfb92dc8", null ],
+    [ "team", "d5/d00/a27610.html#ae18e0efef83e663452715f6be15ecaef", null ],
+    [ "zone", "d5/d00/a27610.html#a3b4f9e187629db5ced9a06c601fc7f78", null ]
 ];

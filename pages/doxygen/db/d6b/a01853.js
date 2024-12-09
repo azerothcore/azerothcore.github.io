@@ -1,7 +1,7 @@
 var a01853 =
 [
-    [ "boss_varos", "d2/d7c/a19022.html", "d2/d7c/a19022" ],
-    [ "boss_varos::boss_varosAI", "d6/d54/a19026.html", "d6/d54/a19026" ],
+    [ "boss_varos", "d6/d54/a19026.html", "d6/d54/a19026" ],
+    [ "boss_varos::boss_varosAI", "da/dc9/a19030.html", "da/dc9/a19030" ],
     [ "SPELL_AMPLIFY_MAGIC", "db/d6b/a01853.html#a075a51f16e112a721f01da6beedbbb6f", null ],
     [ "SPELL_ENERGIZE_CORES", "db/d6b/a01853.html#a088f90a94bfd48bdd631e135332dee31", null ],
     [ "SPELL_ENERGIZE_CORES_THIN", "db/d6b/a01853.html#a7a180c3c0cf9bd0e27c047333fcb9459", null ],

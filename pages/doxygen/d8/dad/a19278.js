@@ -1,7 +1,8 @@
 var a19278 =
 [
-    [ "HandleEffectRemove", "d8/dad/a19278.html#ae380a5bb6f17fa476e6c1ca9ca9b96fe", null ],
-    [ "PrepareAuraScript", "d8/dad/a19278.html#ad9b9d6e2c98fa6943e65e5d239f81948", null ],
-    [ "Register", "d8/dad/a19278.html#ae8d6057df54728e063c13cc45e3d7664", null ],
-    [ "Validate", "d8/dad/a19278.html#af3d738aad41fe7022f60180f8c2cd1be", null ]
+    [ "iron_golem_custodianAI", "d8/dad/a19278.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "d8/dad/a19278.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "d8/dad/a19278.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "d8/dad/a19278.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "d8/dad/a19278.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

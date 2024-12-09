@@ -1,13 +1,14 @@
 var a22810 =
 [
-    [ "npc_inner_demon", "db/d4a/a22810.html#a12063a0125e0e9b5ba5a73f669bfcd84", null ],
-    [ "CanAIAttack", "db/d4a/a22810.html#a7498fd32b0ace832b38dc624d07478ed", null ],
-    [ "CanBeSeen", "db/d4a/a22810.html#a5e61d5fc45bf95efaa06f81df58b5fab", null ],
-    [ "CanReceiveDamage", "db/d4a/a22810.html#a7b0bc55f8dfbba2dc3a3b7d314083bc2", null ],
-    [ "IsSummonedBy", "db/d4a/a22810.html#a5ed405dd9315cb255d14d3e5f808dc9d", null ],
-    [ "JustDied", "db/d4a/a22810.html#a15ab3cd6576055ec7ba29a5ed44e73db", null ],
-    [ "OnCalculateMeleeDamageReceived", "db/d4a/a22810.html#ae95022548b44b23ef93fae24729b5af5", null ],
-    [ "OnCalculatePeriodicTickReceived", "db/d4a/a22810.html#a546281a2257d0407d294fba1f7d3426f", null ],
-    [ "OnCalculateSpellDamageReceived", "db/d4a/a22810.html#aa40ee81a4456e1a1f7254d2169f50e88", null ],
-    [ "UpdateAI", "db/d4a/a22810.html#a977a76b54c4eae6461559d7b15cfc4b2", null ]
+    [ "SpellIds", "db/d4a/a22810.html#a2d0e9022edc8a9f6fc0e34330fda114a", [
+      [ "SPELL_SUMMON_WAVE_A_MOB", "db/d4a/a22810.html#a2d0e9022edc8a9f6fc0e34330fda114aa19ea6e555692392677c74fccd206380b", null ],
+      [ "SPELL_SUMMON_WAVE_B_MOB", "db/d4a/a22810.html#a2d0e9022edc8a9f6fc0e34330fda114aa938130293fb55c96d06462e407a24a89", null ],
+      [ "SPELL_SUMMON_WAVE_C_MOB", "db/d4a/a22810.html#a2d0e9022edc8a9f6fc0e34330fda114aadc855654104e4ec0a09540e9b51cb098", null ],
+      [ "SPELL_SUMMON_WAVE_D_MOB", "db/d4a/a22810.html#a2d0e9022edc8a9f6fc0e34330fda114aa3bbb32a8c4da3b06e9bf5da83f39970d", null ]
+    ] ],
+    [ "FilterTargets", "db/d4a/a22810.html#a2a1a2e5069587f52ae968c84cd702eaf", null ],
+    [ "HandleHit", "db/d4a/a22810.html#aa670812f42c3082f42e0f232ee6bee16", null ],
+    [ "PrepareSpellScript", "db/d4a/a22810.html#a7fe65229c64c27909868f02439c1ef66", null ],
+    [ "Register", "db/d4a/a22810.html#a0a8f29b524391ff257aba5cbdc355115", null ],
+    [ "Validate", "db/d4a/a22810.html#ab8bcdcfcad2a9998d95567006817711e", null ]
 ];

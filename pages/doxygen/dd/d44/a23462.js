@@ -1,6 +1,5 @@
 var a23462 =
 [
-    [ "HandlePeriodic", "dd/d44/a23462.html#aec3f36e2c5fedddd84478b9e3a59e6f4", null ],
-    [ "PrepareAuraScript", "dd/d44/a23462.html#a2b809a60626119f6bcf595bd3581c2be", null ],
-    [ "Register", "dd/d44/a23462.html#a299f84e9c12406c79a56999a13de5c1c", null ]
+    [ "npc_telonicus", "dd/d44/a23462.html#af8ba6be2d39463725bbbaf7770319a93", null ],
+    [ "ScheduleEvents", "dd/d44/a23462.html#a49501a607aeb901aa99e94d9dd0e161b", null ]
 ];

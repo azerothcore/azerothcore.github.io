@@ -1876,7 +1876,7 @@ Additional Inherited Members</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  119</span>    {</div>
-<div class="line"><span class="lineno">  120</span>        <a class="code hl_struct" href="../../d7/d57/a27654.html">CinematicSequencesEntry</a> <span class="keyword">const</span>* cineSeq = <a class="code hl_variable" href="../../d7/da2/a03704.html#ae2d0342340981e0015a66c4045a9c70c">sCinematicSequencesStore</a>.LookupEntry(cinematicId);</div>
+<div class="line"><span class="lineno">  120</span>        <a class="code hl_struct" href="../../de/d61/a27662.html">CinematicSequencesEntry</a> <span class="keyword">const</span>* cineSeq = <a class="code hl_variable" href="../../d7/da2/a03704.html#ae2d0342340981e0015a66c4045a9c70c">sCinematicSequencesStore</a>.LookupEntry(cinematicId);</div>
 <div class="line"><span class="lineno">  121</span>        <span class="keywordflow">if</span> (!cineSeq)</div>
 <div class="line"><span class="lineno">  122</span>        {</div>
 <div class="line"><span class="lineno">  123</span>            handler-&gt;<a class="code hl_function" href="../../dc/dcd/a07294.html#a92dbe6ed87759b9ed247973178d99a80">SendErrorMessage</a>(<a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa379cb79641953ec81b9a7932e9a37e68">LANG_CINEMATIC_NOT_EXIST</a>, cinematicId);</div>
@@ -1884,9 +1884,9 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  125</span>        }</div>
 <div class="line"><span class="lineno">  126</span> </div>
 <div class="line"><span class="lineno">  127</span>        <span class="comment">// Dump camera locations</span></div>
-<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">if</span> (std::vector&lt;FlyByCamera&gt; <span class="keyword">const</span>* flyByCameras = <a class="code hl_function" href="../../d1/d00/a03707.html#af4a9ba9da1a2f4075cc36b95cce62f6f">GetFlyByCameras</a>(cineSeq-&gt;<a class="code hl_variable" href="../../d7/d57/a27654.html#a87e5f6de255dc0c75423eace2768a1dc">cinematicCamera</a>))</div>
+<div class="line"><span class="lineno">  128</span>        <span class="keywordflow">if</span> (std::vector&lt;FlyByCamera&gt; <span class="keyword">const</span>* flyByCameras = <a class="code hl_function" href="../../d1/d00/a03707.html#af4a9ba9da1a2f4075cc36b95cce62f6f">GetFlyByCameras</a>(cineSeq-&gt;<a class="code hl_variable" href="../../de/d61/a27662.html#a87e5f6de255dc0c75423eace2768a1dc">cinematicCamera</a>))</div>
 <div class="line"><span class="lineno">  129</span>        {</div>
-<div class="line"><span class="lineno">  130</span>            handler-&gt;<a class="code hl_function" href="../../dc/dcd/a07294.html#a54305506d6194dfdd1c1a3f30c8d1d62">PSendSysMessage</a>(<span class="stringliteral">&quot;Waypoints for sequence {}, camera {}&quot;</span>, cinematicId, cineSeq-&gt;<a class="code hl_variable" href="../../d7/d57/a27654.html#a87e5f6de255dc0c75423eace2768a1dc">cinematicCamera</a>);</div>
+<div class="line"><span class="lineno">  130</span>            handler-&gt;<a class="code hl_function" href="../../dc/dcd/a07294.html#a54305506d6194dfdd1c1a3f30c8d1d62">PSendSysMessage</a>(<span class="stringliteral">&quot;Waypoints for sequence {}, camera {}&quot;</span>, cinematicId, cineSeq-&gt;<a class="code hl_variable" href="../../de/d61/a27662.html#a87e5f6de255dc0c75423eace2768a1dc">cinematicCamera</a>);</div>
 <div class="line"><span class="lineno">  131</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> count = 1;</div>
 <div class="line"><span class="lineno">  132</span>            <span class="keywordflow">for</span> (<a class="code hl_struct" href="../../df/d9b/a07666.html">FlyByCamera</a> <span class="keyword">const</span>&amp; cam : *flyByCameras)</div>
 <div class="line"><span class="lineno">  133</span>            {</div>
@@ -1904,8 +1904,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa03707_html_af4a9ba9da1a2f4075cc36b95cce62f6f"><div class="ttname"><a href="../../d1/d00/a03707.html#af4a9ba9da1a2f4075cc36b95cce62f6f">GetFlyByCameras</a></div><div class="ttdeci">std::vector&lt; FlyByCamera &gt; const * GetFlyByCameras(uint32 cinematicCameraId)</div><div class="ttdef"><b>Definition:</b> M2Stores.cpp:254</div></div>
 <div class="ttc" id="aa07666_html"><div class="ttname"><a href="../../df/d9b/a07666.html">FlyByCamera</a></div><div class="ttdef"><b>Definition:</b> M2Stores.h:26</div></div>
 <div class="ttc" id="aa08394_html_aa200b1a7e5ba41136515e6ae9d1afe02"><div class="ttname"><a href="../../da/da3/a08394.html#aa200b1a7e5ba41136515e6ae9d1afe02">Player::SendCinematicStart</a></div><div class="ttdeci">void SendCinematicStart(uint32 CinematicSequenceId) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:5706</div></div>
-<div class="ttc" id="aa27654_html"><div class="ttname"><a href="../../d7/d57/a27654.html">CinematicSequencesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:712</div></div>
-<div class="ttc" id="aa27654_html_a87e5f6de255dc0c75423eace2768a1dc"><div class="ttname"><a href="../../d7/d57/a27654.html#a87e5f6de255dc0c75423eace2768a1dc">CinematicSequencesEntry::cinematicCamera</a></div><div class="ttdeci">uint32 cinematicCamera</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:715</div></div>
+<div class="ttc" id="aa27662_html"><div class="ttname"><a href="../../de/d61/a27662.html">CinematicSequencesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:712</div></div>
+<div class="ttc" id="aa27662_html_a87e5f6de255dc0c75423eace2768a1dc"><div class="ttname"><a href="../../de/d61/a27662.html#a87e5f6de255dc0c75423eace2768a1dc">CinematicSequencesEntry::cinematicCamera</a></div><div class="ttdeci">uint32 cinematicCamera</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:715</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00715">CinematicSequencesEntry::cinematicCamera</a>, <a class="el" href="../../#l00254">GetFlyByCameras()</a>, <a class="el" href="../../#l00035">ChatHandler::GetPlayer()</a>, <a class="el" href="../../#l00977">LANG_CINEMATIC_NOT_EXIST</a>, <a class="el" href="../../#l00210">ChatHandler::PSendSysMessage()</a>, <a class="el" href="../../d7/da2/a03704.html#ae2d0342340981e0015a66c4045a9c70c">sCinematicSequencesStore</a>, <a class="el" href="../../#l05706">Player::SendCinematicStart()</a>, and <a class="el" href="../../#l00215">ChatHandler::SendErrorMessage()</a>.</p>
 
@@ -3175,7 +3175,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  941</span>        <span class="keywordflow">if</span> (!ci)</div>
 <div class="line"><span class="lineno">  942</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  943</span> </div>
-<div class="line"><span class="lineno">  944</span>        <a class="code hl_struct" href="../../d1/d75/a28010.html">VehicleEntry</a> <span class="keyword">const</span>* ve = <a class="code hl_variable" href="../../d7/da2/a03704.html#a2577498fed349739662ae3368bb125f7">sVehicleStore</a>.LookupEntry(*<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  944</span>        <a class="code hl_struct" href="../../de/d5d/a28018.html">VehicleEntry</a> <span class="keyword">const</span>* ve = <a class="code hl_variable" href="../../d7/da2/a03704.html#a2577498fed349739662ae3368bb125f7">sVehicleStore</a>.LookupEntry(*<span class="keywordtype">id</span>);</div>
 <div class="line"><span class="lineno">  945</span> </div>
 <div class="line"><span class="lineno">  946</span>        <span class="keywordflow">if</span> (!ve)</div>
 <div class="line"><span class="lineno">  947</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -3207,7 +3207,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa08526_html_a5f8e38db03da1828c7f5447548b393e3"><div class="ttname"><a href="../../d6/d15/a08526.html#a5f8e38db03da1828c7f5447548b393e3">Unit::GetCombatReach</a></div><div class="ttdeci">float GetCombatReach() const override</div><div class="ttdef"><b>Definition:</b> Unit.h:828</div></div>
 <div class="ttc" id="aa09546_html_a7986709c0837590129c9f4030c9e59ae"><div class="ttname"><a href="../../d4/d08/a09546.html#a7986709c0837590129c9f4030c9e59ae">Map::GenerateLowGuid</a></div><div class="ttdeci">ObjectGuid::LowType GenerateLowGuid()</div><div class="ttdef"><b>Definition:</b> Map.h:636</div></div>
 <div class="ttc" id="aa09546_html_aec8fdf932b6233dd3ee23b469d2b10a5"><div class="ttname"><a href="../../d4/d08/a09546.html#aec8fdf932b6233dd3ee23b469d2b10a5">Map::AddToMap</a></div><div class="ttdeci">bool AddToMap(T *, bool checkTransport=false)</div><div class="ttdef"><b>Definition:</b> Map.cpp:558</div></div>
-<div class="ttc" id="aa28010_html"><div class="ttname"><a href="../../d1/d75/a28010.html">VehicleEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2026</div></div>
+<div class="ttc" id="aa28018_html"><div class="ttname"><a href="../../de/d5d/a28018.html">VehicleEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:2026</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00558">Map::AddToMap()</a>, <a class="el" href="../../#l01126">Creature::Create()</a>, <a class="el" href="../../#l00636">Map::GenerateLowGuid()</a>, <a class="el" href="../../#l02699">WorldObject::GetClosePoint()</a>, <a class="el" href="../../#l00828">Unit::GetCombatReach()</a>, <a class="el" href="../../#l00531">WorldObject::GetMap()</a>, <a class="el" href="../../#l00119">Position::GetOrientation()</a>, <a class="el" href="../../#l00446">WorldObject::GetPhaseMask()</a>, <a class="el" href="../../#l00035">ChatHandler::GetPlayer()</a>, <a class="el" href="../../#l00362">WorldSession::GetPlayer()</a>, <a class="el" href="../../#l00242">ChatHandler::GetSession()</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, <a class="el" href="../../#l02355">WorldObject::SummonCreature()</a>, <a class="el" href="../../d7/da2/a03704.html#a2577498fed349739662ae3368bb125f7">sVehicleStore</a>, and <a class="el" href="../../#l00202">Object::ToCreature()</a>.</p>
 
@@ -3604,7 +3604,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../de/d98/a11334.html">debug_commandscript</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:20 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:44:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

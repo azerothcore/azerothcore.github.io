@@ -1,5 +1,5 @@
 var a26614 =
 [
-    [ "achievement_bg_ic_glaive_grave", "dc/d25/a26614.html#a97e1cead0102a120b3bd14592ea26034", null ],
-    [ "OnCheck", "dc/d25/a26614.html#a0eacab5595969cfe5e3d083c984dfd77", null ]
+    [ "achievement_save_the_day", "dc/d25/a26614.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "dc/d25/a26614.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

@@ -1,6 +1,8 @@
 var a29208 =
 [
-    [ "go_darkmoon_faire_musicAI", "dd/d34/a29212.html", "dd/d34/a29212" ],
-    [ "go_darkmoon_faire_music", "d6/de2/a29208.html#ab8dd92213e1c2815ff9498267b09b5f2", null ],
-    [ "GetAI", "d6/de2/a29208.html#a03be3eddefe4eeba8a0af8ee02bf2839", null ]
+    [ "DBCFile", "d2/d31/a28206.html", "d2/d31/a28206" ],
+    [ "DBCFile::Exception", "de/df0/a28210.html", "de/df0/a28210" ],
+    [ "DBCFile::NotFound", "d6/d5b/a28214.html", "d6/d5b/a28214" ],
+    [ "DBCFile::Record", "da/d91/a28218.html", "da/d91/a28218" ],
+    [ "DBCFile::Iterator", "de/d9b/a28222.html", "de/d9b/a28222" ]
 ];

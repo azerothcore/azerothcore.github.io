@@ -1,9 +1,9 @@
 var a26190 =
 [
-    [ "CheckCast", "d2/d48/a26190.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
-    [ "FilterTargets", "d2/d48/a26190.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
-    [ "HandleDummy", "d2/d48/a26190.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
-    [ "PrepareSpellScript", "d2/d48/a26190.html#a9c992e732b525e29f684947398d20efb", null ],
-    [ "Register", "d2/d48/a26190.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
-    [ "Validate", "d2/d48/a26190.html#abca1e5aa46e7753588c8120090775195", null ]
+    [ "HandleAfterHit", "d2/d48/a26190.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
+    [ "HandleBeforeHit", "d2/d48/a26190.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
+    [ "Load", "d2/d48/a26190.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
+    [ "PrepareSpellScript", "d2/d48/a26190.html#a496c27472579be3b8989868765ec19ef", null ],
+    [ "Register", "d2/d48/a26190.html#a133e338413e960c442446a2a4a13b85b", null ],
+    [ "_stackAmount", "d2/d48/a26190.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
 ];

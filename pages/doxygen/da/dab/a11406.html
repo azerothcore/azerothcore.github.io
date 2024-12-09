@@ -1114,11 +1114,11 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  600</span>        <span class="comment">// Search in ItemSet.dbc</span></div>
 <div class="line"><span class="lineno">  601</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <span class="keywordtype">id</span> = 0; <span class="keywordtype">id</span> &lt; <a class="code hl_variable" href="../../d7/da2/a03704.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>.GetNumRows(); <span class="keywordtype">id</span>++)</div>
 <div class="line"><span class="lineno">  602</span>        {</div>
-<div class="line"><span class="lineno">  603</span>            <a class="code hl_struct" href="../../df/de6/a27814.html">ItemSetEntry</a> <span class="keyword">const</span>* set = <a class="code hl_variable" href="../../d7/da2/a03704.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>.LookupEntry(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  603</span>            <a class="code hl_struct" href="../../d7/d69/a27822.html">ItemSetEntry</a> <span class="keyword">const</span>* set = <a class="code hl_variable" href="../../d7/da2/a03704.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>.LookupEntry(<span class="keywordtype">id</span>);</div>
 <div class="line"><span class="lineno">  604</span>            <span class="keywordflow">if</span> (set)</div>
 <div class="line"><span class="lineno">  605</span>            {</div>
 <div class="line"><span class="lineno">  606</span>                <span class="keywordtype">int</span> locale = handler-&gt;<a class="code hl_function" href="../../dc/dcd/a07294.html#a6cfa4cd171866cacb272e996aa75e487">GetSessionDbcLocale</a>();</div>
-<div class="line"><span class="lineno">  607</span>                std::string name = set-&gt;<a class="code hl_variable" href="../../df/de6/a27814.html#a9b62f843833d524f200782d44151503d">name</a>[locale];</div>
+<div class="line"><span class="lineno">  607</span>                std::string name = set-&gt;<a class="code hl_variable" href="../../d7/d69/a27822.html#a9b62f843833d524f200782d44151503d">name</a>[locale];</div>
 <div class="line"><span class="lineno">  608</span>                <span class="keywordflow">if</span> (name.empty())</div>
 <div class="line"><span class="lineno">  609</span>                {</div>
 <div class="line"><span class="lineno">  610</span>                    <span class="keywordflow">continue</span>;</div>
@@ -1134,7 +1134,7 @@ Additional Inherited Members</h2></td></tr>
 <div class="line"><span class="lineno">  620</span>                            <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">  621</span>                        }</div>
 <div class="line"><span class="lineno">  622</span> </div>
-<div class="line"><span class="lineno">  623</span>                        name = set-&gt;<a class="code hl_variable" href="../../df/de6/a27814.html#a9b62f843833d524f200782d44151503d">name</a>[locale];</div>
+<div class="line"><span class="lineno">  623</span>                        name = set-&gt;<a class="code hl_variable" href="../../d7/d69/a27822.html#a9b62f843833d524f200782d44151503d">name</a>[locale];</div>
 <div class="line"><span class="lineno">  624</span>                        <span class="keywordflow">if</span> (name.empty())</div>
 <div class="line"><span class="lineno">  625</span>                        {</div>
 <div class="line"><span class="lineno">  626</span>                            <span class="keywordflow">continue</span>;</div>
@@ -1184,8 +1184,8 @@ Additional Inherited Members</h2></td></tr>
 <div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa9895b36ec8be0f2877e64b41906bf08e"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa9895b36ec8be0f2877e64b41906bf08e">LANG_COMMAND_NOITEMSETFOUND</a></div><div class="ttdeci">@ LANG_COMMAND_NOITEMSETFOUND</div><div class="ttdef"><b>Definition:</b> Language.h:475</div></div>
 <div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aaccaa1239847e2b941c1112c88f4281d2"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aaccaa1239847e2b941c1112c88f4281d2">LANG_ITEMSET_LIST_CONSOLE</a></div><div class="ttdeci">@ LANG_ITEMSET_LIST_CONSOLE</div><div class="ttdef"><b>Definition:</b> Language.h:895</div></div>
 <div class="ttc" id="aa03704_html_a1968d28bd1de03990d18d743025c65d9"><div class="ttname"><a href="../../d7/da2/a03704.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a></div><div class="ttdeci">DBCStorage&lt; ItemSetEntry &gt; sItemSetStore(ItemSetEntryfmt)</div></div>
-<div class="ttc" id="aa27814_html"><div class="ttname"><a href="../../df/de6/a27814.html">ItemSetEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1231</div></div>
-<div class="ttc" id="aa27814_html_a9b62f843833d524f200782d44151503d"><div class="ttname"><a href="../../df/de6/a27814.html#a9b62f843833d524f200782d44151503d">ItemSetEntry::name</a></div><div class="ttdeci">char const  * name[16]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1233</div></div>
+<div class="ttc" id="aa27822_html"><div class="ttname"><a href="../../d7/d69/a27822.html">ItemSetEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1231</div></div>
+<div class="ttc" id="aa27822_html_a9b62f843833d524f200782d44151503d"><div class="ttname"><a href="../../d7/d69/a27822.html#a9b62f843833d524f200782d44151503d">ItemSetEntry::name</a></div><div class="ttdeci">char const  * name[16]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1233</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00358">CONFIG_MAX_RESULTS_LOOKUP_COMMANDS</a>, <a class="el" href="../../#l00242">ChatHandler::GetSession()</a>, <a class="el" href="../../#l00869">ChatHandler::GetSessionDbcLocale()</a>, <a class="el" href="../../#l01076">LANG_COMMAND_LOOKUP_MAX_RESULTS</a>, <a class="el" href="../../#l00475">LANG_COMMAND_NOITEMSETFOUND</a>, <a class="el" href="../../#l00561">LANG_ITEMSET_LIST_CHAT</a>, <a class="el" href="../../#l00895">LANG_ITEMSET_LIST_CONSOLE</a>, <a class="el" href="../../#l00020">localeNames</a>, <a class="el" href="../../#l01233">ItemSetEntry::name</a>, <a class="el" href="../../#l00210">ChatHandler::PSendSysMessage()</a>, <a class="el" href="../../#l00159">ChatHandler::SendSysMessage()</a>, <a class="el" href="../../d7/da2/a03704.html#a1968d28bd1de03990d18d743025c65d9">sItemSetStore</a>, <a class="el" href="../../#l00443">sWorld</a>, <a class="el" href="../../#l00076">TOTAL_LOCALES</a>, <a class="el" href="../../#l00481">Utf8FitTo()</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
 
@@ -2868,7 +2868,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/dab/a11406.html">lookup_commandscript</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:44:07 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

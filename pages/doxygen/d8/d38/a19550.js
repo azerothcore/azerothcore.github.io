@@ -1,8 +1,6 @@
 var a19550 =
 [
-    [ "npc_brann_radioAI", "d8/d38/a19550.html#a329ca0310efe109f7fb364045f6eccbb", null ],
-    [ "MoveInLineOfSight", "d8/d38/a19550.html#ad119431edd6f632b4c44fc4e8708d375", null ],
-    [ "Reset", "d8/d38/a19550.html#a89183942dcb38f48de1867bfbce15721", null ],
-    [ "_helpLock", "d8/d38/a19550.html#ae927b6c8143cfb029ab6574d10dde60e", null ],
-    [ "_lock", "d8/d38/a19550.html#a421cfd2b8b149a0f3ea5bc2262ba6bac", null ]
+    [ "npc_pool_of_tarAI", "d8/d38/a19550.html#a6141addc9b1cf2c0028d98ef4f4d9d37", null ],
+    [ "DamageTaken", "d8/d38/a19550.html#a4ea55aa08123f724268238e0def5b595", null ],
+    [ "SpellHit", "d8/d38/a19550.html#acb63166b396c079d5b4bb9db67a1448a", null ]
 ];

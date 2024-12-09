@@ -457,7 +457,7 @@ Additional Inherited Members</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  170</span>: <a class="code hl_class" href="../../d0/d6a/a06014.html">NullCreatureAI</a>(creature) { }</div>
+<div class="fragment"><div class="line"><span class="lineno">  178</span>: <a class="code hl_class" href="../../d0/d6a/a06014.html">NullCreatureAI</a>(creature) { }</div>
 <div class="ttc" id="aa06014_html"><div class="ttname"><a href="../../d0/d6a/a06014.html">NullCreatureAI</a></div><div class="ttdef"><b>Definition:</b> PassiveAI.h:53</div></div>
 </div><!-- fragment -->
 </div>
@@ -487,38 +487,38 @@ Additional Inherited Members</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Reimplemented from <a class="el" href="../../d9/de2/a06062.html#a43eb9ef68b977d98f6618d69a0d62115">UnitAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  173</span>    {</div>
-<div class="line"><span class="lineno">  174</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../df/d49/a07778.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(18000);</div>
-<div class="line"><span class="lineno">  175</span>        <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544">SPELL_BLACK_HOLE_SUMMON_VISUAL</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  176</span>        <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  177</span> </div>
-<div class="line"><span class="lineno">  178</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;] {</div>
-<div class="line"><span class="lineno">  179</span>            <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ada48afda515b2bf5acc45c5872972114">KillSelf</a>();</div>
-<div class="line"><span class="lineno">  180</span>        }, 17s);</div>
-<div class="line"><span class="lineno">  181</span> </div>
-<div class="line"><span class="lineno">  182</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;] {</div>
-<div class="line"><span class="lineno">  183</span>            <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>);</div>
-<div class="line"><span class="lineno">  184</span>            <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd">SPELL_BLACK_HOLE_VISUAL2</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  185</span>            <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298cae9e5a94175d13b0956f52736e2706085">SPELL_BLACK_HOLE_PASSIVE</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  186</span>        }, 3500ms);</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#a7a708f334e3ff40b7e1bbdfbff7ba765">scheduler</a>.<a class="code hl_function" href="../../db/d2b/a05454.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../da/d10/a05470.html">TaskContext</a> context)</div>
-<div class="line"><span class="lineno">  189</span>        {</div>
-<div class="line"><span class="lineno">  190</span>            <span class="keyword">auto</span> <span class="keyword">const</span>&amp; playerList = <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df3/a08182.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../d4/d08/a09546.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
-<div class="line"><span class="lineno">  191</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; playerRef : playerList)</div>
-<div class="line"><span class="lineno">  192</span>            {</div>
-<div class="line"><span class="lineno">  193</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/da3/a08394.html">Player</a>* player = playerRef.GetSource())</div>
-<div class="line"><span class="lineno">  194</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df3/a08182.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(player) &lt; 15.0f &amp;&amp; player-&gt;GetPositionZ() &lt; 72.0f &amp;&amp; player-&gt;IsAlive() &amp;&amp; !player-&gt;HasAura(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca51d12f35581fed6247a539f5d711996f">SPELL_BLACK_HOLE_EFFECT</a>))</div>
-<div class="line"><span class="lineno">  195</span>                    {</div>
-<div class="line"><span class="lineno">  196</span>                        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../d7/d67/a09670.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, player-&gt;GetPositionX(), player-&gt;GetPositionY(), player-&gt;GetPositionZ(), <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  197</span>                        context.<a class="code hl_function" href="../../da/d10/a05470.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>();</div>
-<div class="line"><span class="lineno">  198</span>                        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  199</span>                    }</div>
-<div class="line"><span class="lineno">  200</span>            }</div>
-<div class="line"><span class="lineno">  201</span> </div>
-<div class="line"><span class="lineno">  202</span>            context.<a class="code hl_function" href="../../da/d10/a05470.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(1s);</div>
-<div class="line"><span class="lineno">  203</span>        });</div>
-<div class="line"><span class="lineno">  204</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  181</span>    {</div>
+<div class="line"><span class="lineno">  182</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../df/d49/a07778.html#abce66404f36b926cf403555911bcb9f7">DespawnOrUnsummon</a>(18000);</div>
+<div class="line"><span class="lineno">  183</span>        <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544">SPELL_BLACK_HOLE_SUMMON_VISUAL</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  184</span>        <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  185</span> </div>
+<div class="line"><span class="lineno">  186</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;] {</div>
+<div class="line"><span class="lineno">  187</span>            <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ada48afda515b2bf5acc45c5872972114">KillSelf</a>();</div>
+<div class="line"><span class="lineno">  188</span>        }, 17s);</div>
+<div class="line"><span class="lineno">  189</span> </div>
+<div class="line"><span class="lineno">  190</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;] {</div>
+<div class="line"><span class="lineno">  191</span>            <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#aac612f06e84142d92dcfc432b5feb4ac">RemoveAurasDueToSpell</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a>);</div>
+<div class="line"><span class="lineno">  192</span>            <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd">SPELL_BLACK_HOLE_VISUAL2</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  193</span>            <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298cae9e5a94175d13b0956f52736e2706085">SPELL_BLACK_HOLE_PASSIVE</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  194</span>        }, 3500ms);</div>
+<div class="line"><span class="lineno">  195</span> </div>
+<div class="line"><span class="lineno">  196</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#a7a708f334e3ff40b7e1bbdfbff7ba765">scheduler</a>.<a class="code hl_function" href="../../db/d2b/a05454.html#a0e0579d2a2397de5a79c756d5e59a830">Schedule</a>(5s, [<span class="keyword">this</span>](<a class="code hl_class" href="../../da/d10/a05470.html">TaskContext</a> context)</div>
+<div class="line"><span class="lineno">  197</span>        {</div>
+<div class="line"><span class="lineno">  198</span>            <span class="keyword">auto</span> <span class="keyword">const</span>&amp; playerList = <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df3/a08182.html#a1013c27be4347a1b1a4a986a07456deb">GetMap</a>()-&gt;<a class="code hl_function" href="../../d4/d08/a09546.html#ae37764185b1adf2c6438025e4fa9091a">GetPlayers</a>();</div>
+<div class="line"><span class="lineno">  199</span>            <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; playerRef : playerList)</div>
+<div class="line"><span class="lineno">  200</span>            {</div>
+<div class="line"><span class="lineno">  201</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/da3/a08394.html">Player</a>* player = playerRef.GetSource())</div>
+<div class="line"><span class="lineno">  202</span>                    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../db/df3/a08182.html#a73f3c7fa817faebff6b2752ba3bb1a50">GetDistance2d</a>(player) &lt; 15.0f &amp;&amp; player-&gt;GetPositionZ() &lt; 72.0f &amp;&amp; player-&gt;IsAlive() &amp;&amp; !player-&gt;HasAura(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca51d12f35581fed6247a539f5d711996f">SPELL_BLACK_HOLE_EFFECT</a>))</div>
+<div class="line"><span class="lineno">  203</span>                    {</div>
+<div class="line"><span class="lineno">  204</span>                        <a class="code hl_variable" href="../../dc/d36/a06074.html#aee5bf3d421199445de241a34798ae819">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a4a04a3f22c3b0d6f4933993ac0cc7aa4">GetMotionMaster</a>()-&gt;<a class="code hl_function" href="../../d7/d67/a09670.html#a903a48c63482ebbd45d63272b218df7f">MovePoint</a>(0, player-&gt;GetPositionX(), player-&gt;GetPositionY(), player-&gt;GetPositionZ(), <span class="keyword">false</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  205</span>                        context.<a class="code hl_function" href="../../da/d10/a05470.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>();</div>
+<div class="line"><span class="lineno">  206</span>                        <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">  207</span>                    }</div>
+<div class="line"><span class="lineno">  208</span>            }</div>
+<div class="line"><span class="lineno">  209</span> </div>
+<div class="line"><span class="lineno">  210</span>            context.<a class="code hl_function" href="../../da/d10/a05470.html#a380c596857dd0030414db5e8d28a3dda">Repeat</a>(1s);</div>
+<div class="line"><span class="lineno">  211</span>        });</div>
+<div class="line"><span class="lineno">  212</span>    }</div>
 <div class="ttc" id="aa02231_html_a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd"><div class="ttname"><a href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca10635ca1d4cf574666082abe31d4a0bd">SPELL_BLACK_HOLE_VISUAL2</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_VISUAL2</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:52</div></div>
 <div class="ttc" id="aa02231_html_a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544"><div class="ttname"><a href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca23774b52390332d7deb748a26be41544">SPELL_BLACK_HOLE_SUMMON_VISUAL</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_SUMMON_VISUAL</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:50</div></div>
 <div class="ttc" id="aa02231_html_a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96"><div class="ttname"><a href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca2b6c2c704bd34e907bcfbc0ae4708f96">SPELL_BLACK_HOLE_SUMMON_VISUAL2</a></div><div class="ttdeci">@ SPELL_BLACK_HOLE_SUMMON_VISUAL2</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:51</div></div>
@@ -573,9 +573,9 @@ Additional Inherited Members</h2></td></tr>
 <p>Use to start attacking a target. Called just before <a class="el" href="../../dc/d36/a06074.html#a15f691c9137273cd5c3d5ba6f0762300" title="Called for reaction when initially engaged.">JustEngagedWith()</a> </p>
 
 <p>Reimplemented from <a class="el" href="../../d0/d6a/a06014.html#ab200fcf78dee74a2ec808c01f5855236">NullCreatureAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  207</span>    {</div>
-<div class="line"><span class="lineno">  208</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#a7a708f334e3ff40b7e1bbdfbff7ba765">scheduler</a>.<a class="code hl_function" href="../../db/d2b/a05454.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
-<div class="line"><span class="lineno">  209</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  215</span>    {</div>
+<div class="line"><span class="lineno">  216</span>        <a class="code hl_variable" href="../../dc/d36/a06074.html#a7a708f334e3ff40b7e1bbdfbff7ba765">scheduler</a>.<a class="code hl_function" href="../../db/d2b/a05454.html#a35c0891c7aded13c6ae7ecd2e6d480a9">Update</a>(diff);</div>
+<div class="line"><span class="lineno">  217</span>    }</div>
 <div class="ttc" id="aa05454_html_a35c0891c7aded13c6ae7ecd2e6d480a9"><div class="ttname"><a href="../../db/d2b/a05454.html#a35c0891c7aded13c6ae7ecd2e6d480a9">TaskScheduler::Update</a></div><div class="ttdeci">TaskScheduler &amp; Update(success_t const &amp;callback=EmptyCallback)</div><div class="ttdef"><b>Definition:</b> TaskScheduler.cpp:27</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00075">CreatureAI::scheduler</a>, and <a class="el" href="../../#l00027">TaskScheduler::Update()</a>.</p>
@@ -588,7 +588,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d8/d6d/a13106.html">npc_singularity</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:44 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:44:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

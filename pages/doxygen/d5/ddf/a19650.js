@@ -1,5 +1,5 @@
 var a19650 =
 [
-    [ "achievement_flame_leviathan_unbroken", "d5/ddf/a19650.html#a30a94a92aacc558d6833994c11f3ee8a", null ],
-    [ "OnCheck", "d5/ddf/a19650.html#a78c69e3217b6598ab238a4f51ba598eb", null ]
+    [ "achievement_flame_leviathan_shutout", "d5/ddf/a19650.html#a555e0d206b7f730665d301c7e03b23e6", null ],
+    [ "OnCheck", "d5/ddf/a19650.html#af548232f563fd387bc8ee25b696a2f99", null ]
 ];

@@ -1,7 +1,9 @@
 var a14222 =
 [
-    [ "HandleOnHit", "d3/d21/a14222.html#ae3241486a612293b5421a523f6d854d9", null ],
-    [ "PrepareSpellScript", "d3/d21/a14222.html#a20b6f0f7d403065cde55dec7f50537f9", null ],
-    [ "Register", "d3/d21/a14222.html#af6d4c6dfa15da815298ad5d88b3fede2", null ],
-    [ "Validate", "d3/d21/a14222.html#a53773b6b18b1d3a5be24f3065e8a2875", null ]
+    [ "boss_azuregosAI", "d3/d21/a14222.html#a839ab1e096d30062d64c1c515a7462a4", null ],
+    [ "JustDied", "d3/d21/a14222.html#aea4d204173b7882d2d9acf8204410947", null ],
+    [ "JustEngagedWith", "d3/d21/a14222.html#ac17c09d4de27e3b3a299bb8288ef79f8", null ],
+    [ "KilledUnit", "d3/d21/a14222.html#aeefc791e17d2a687f8beae809c44d123", null ],
+    [ "Reset", "d3/d21/a14222.html#a3f9584a7cf4e27f57eec2c5babb7aff1", null ],
+    [ "UpdateAI", "d3/d21/a14222.html#aafdfce2d21d5890ead413a2d9fe1b65d", null ]
 ];

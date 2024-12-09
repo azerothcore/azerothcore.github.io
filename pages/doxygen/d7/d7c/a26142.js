@@ -1,6 +1,6 @@
 var a26142 =
 [
-    [ "HandleScript", "d7/d7c/a26142.html#acde0ae837d0cd3af0f38481027200291", null ],
-    [ "PrepareSpellScript", "d7/d7c/a26142.html#ac1237e0af7f88f75ebc551af52fc301c", null ],
-    [ "Register", "d7/d7c/a26142.html#a2dc2628984358628afe7d9b62ced7794", null ]
+    [ "HandleScript", "d7/d7c/a26142.html#ad0885113f3bd8eea8ff3db30b55cc240", null ],
+    [ "PrepareSpellScript", "d7/d7c/a26142.html#a8410b746f810eaeb7f71c3a7de607a84", null ],
+    [ "Register", "d7/d7c/a26142.html#ab8f5c857ee42a6767d10277b52a7da01", null ]
 ];

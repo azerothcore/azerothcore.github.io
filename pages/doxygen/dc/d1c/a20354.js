@@ -1,6 +1,6 @@
 var a20354 =
 [
-    [ "BoomEvent", "dc/d1c/a20354.html#aa9b7a8785f382068bb4510ffc0b43004", null ],
-    [ "Execute", "dc/d1c/a20354.html#a1a870bea5c8e0a24a8ecd347a862ee75", null ],
-    [ "_me", "dc/d1c/a20354.html#a30de77ee751f1c10231088cb84942342", null ]
+    [ "npc_xt002_pummellerAI", "d2/dd7/a20358.html", "d2/dd7/a20358" ],
+    [ "npc_xt002_pummeller", "dc/d1c/a20354.html#af620e31a231ca8fb812324521bad4673", null ],
+    [ "GetAI", "dc/d1c/a20354.html#a9ec4e452a3763c3d03e581a17e5d7efe", null ]
 ];

@@ -1,5 +1,6 @@
 var a26934 =
 [
-    [ "go_scourge_cage", "d1/dca/a26934.html#a76dfa458a52c950fbc0a86412e1ad490", null ],
-    [ "OnGossipHello", "d1/dca/a26934.html#ab4e97cd290342d623d212cc7cec227d5", null ]
+    [ "go_fel_crystalforge", "d1/dca/a26934.html#aa44708a617edd51651da49918ab776e5", null ],
+    [ "OnGossipHello", "d1/dca/a26934.html#aae9f4beff251efb7b29e1988ddd51eaf", null ],
+    [ "OnGossipSelect", "d1/dca/a26934.html#a97450cce5f547e28ea84fa6a6f8ab79e", null ]
 ];

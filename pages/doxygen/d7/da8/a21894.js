@@ -1,8 +1,6 @@
 var a21894 =
 [
-    [ "AfterRemove", "d7/da8/a21894.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
-    [ "HandlePeriodic", "d7/da8/a21894.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
-    [ "OnApply", "d7/da8/a21894.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
-    [ "PrepareAuraScript", "d7/da8/a21894.html#a47a6281c42dc9368357cc86912331c77", null ],
-    [ "Register", "d7/da8/a21894.html#a868c79cda98b97b27b74d46f86cb980a", null ]
+    [ "npc_wild_wyrmAI", "df/dc1/a21898.html", "df/dc1/a21898" ],
+    [ "npc_wild_wyrm", "d7/da8/a21894.html#abce8c3a368e75b4be5e05381f9eb722b", null ],
+    [ "GetAI", "d7/da8/a21894.html#aedba91446fe12997047070f123d925d2", null ]
 ];

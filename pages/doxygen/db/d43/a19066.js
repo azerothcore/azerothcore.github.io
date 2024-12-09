@@ -1,7 +1,7 @@
 var a19066 =
 [
-    [ "HandleProc", "db/d43/a19066.html#adb7714eca4c317ab76db0ecbc813669e", null ],
-    [ "PrepareAuraScript", "db/d43/a19066.html#a70f2c5c4656abb4798ad39b015fc2a9a", null ],
-    [ "Register", "db/d43/a19066.html#a445ce7331c36e507aa24466ff9a67781", null ],
-    [ "Validate", "db/d43/a19066.html#ad0e44f34d7bd1671ef7dcc2165abaa66", null ]
+    [ "Apply", "db/d43/a19066.html#add8e95d38b0c437833c11cded72fe2a7", null ],
+    [ "PrepareAuraScript", "db/d43/a19066.html#ad2112b571d97e537983b4d11207015e6", null ],
+    [ "Register", "db/d43/a19066.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
+    [ "Validate", "db/d43/a19066.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
 ];

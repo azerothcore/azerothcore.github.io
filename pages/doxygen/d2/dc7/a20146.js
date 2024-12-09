@@ -1,6 +1,5 @@
 var a20146 =
 [
-    [ "boss_razorscaleAI", "d4/dfb/a20150.html", "d4/dfb/a20150" ],
-    [ "boss_razorscale", "d2/dc7/a20146.html#ad8fe81f1b553414df3fa07c646029065", null ],
-    [ "GetAI", "d2/dc7/a20146.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
+    [ "achievement_mimiron_set_up_us_the_bomb_12", "d2/dc7/a20146.html#adc7f5769894c59710fa70604878b1e2c", null ],
+    [ "OnCheck", "d2/dc7/a20146.html#ad604fa41b8c8d34b996dbdc709faac66", null ]
 ];

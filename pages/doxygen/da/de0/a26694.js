@@ -1,5 +1,5 @@
 var a26694 =
 [
-    [ "AreaTrigger_at_last_rites", "da/de0/a26694.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "da/de0/a26694.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "AreaTrigger_at_stormwright_shelf", "da/de0/a26694.html#a97cdf51a8992b3d9edc138351770fd75", null ],
+    [ "OnTrigger", "da/de0/a26694.html#ab635f9328b35f3570211cf6ffc60a4c6", null ]
 ];

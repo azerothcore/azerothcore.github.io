@@ -1,10 +1,5 @@
 var a16442 =
 [
-    [ "HandleAfterEffectAbsorb", "d1/dfc/a16442.html#a4af67c41afd7843a5cfe2b2e2e9e8055", null ],
-    [ "Load", "d1/dfc/a16442.html#abab656d4ba7e14bf1ffdb1d40c395b5d", null ],
-    [ "PrepareAuraScript", "d1/dfc/a16442.html#a0856d66c801715f16cd251ddf9b25a59", null ],
-    [ "Register", "d1/dfc/a16442.html#a69d8dfebb981b51592770b7b5807bc80", null ],
-    [ "Validate", "d1/dfc/a16442.html#a55ec42ce316978220103a3a39f3939a3", null ],
-    [ "amount", "d1/dfc/a16442.html#aaf34ee04ae619a3ac108a8fd1c9dac99", null ],
-    [ "fired", "d1/dfc/a16442.html#a6a7afa99044644608b16e83328bfd5fa", null ]
+    [ "npc_fos_leader_secondAI", "d1/dfc/a16442.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
+    [ "MovementInform", "d1/dfc/a16442.html#a9cc0b500f1289dc8b764b3755468e639", null ]
 ];

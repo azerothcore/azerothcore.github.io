@@ -1,12 +1,13 @@
 var a13702 =
 [
-    [ "npc_chained_spirit", "d7/d64/a13702.html#a5f407e700a2086f971bed0e8c0def0db", null ],
-    [ "DoAction", "d7/d64/a13702.html#a7205ef13ca0d164a9222c049bc582254", null ],
-    [ "JustDied", "d7/d64/a13702.html#a3b405503231173e7ff7aa52e34f63da5", null ],
-    [ "MovementInform", "d7/d64/a13702.html#a469a8fdc4a40857ff1dc0af9ead74d3c", null ],
-    [ "Reset", "d7/d64/a13702.html#a2a8a8a429492511aac697878b5dc4cc3", null ],
-    [ "SetGUID", "d7/d64/a13702.html#acbe42c0692e8c1d671f2745ff8c2f9bb", null ],
-    [ "UpdateAI", "d7/d64/a13702.html#a38d14b69c71bf2902a916028580fbfad", null ],
-    [ "instance", "d7/d64/a13702.html#ad5dd92208d6a23954fef6348f4abbd23", null ],
-    [ "revivePlayerGUID", "d7/d64/a13702.html#a193fddae1d3eb84bc36842adbb1fe86a", null ]
+    [ "npc_ohganAI", "d7/d64/a13702.html#a43f7fa66ff39bca177d30fc1d0d78080", null ],
+    [ "JustDied", "d7/d64/a13702.html#a89e506868e3191362545e34d21528b8f", null ],
+    [ "JustEngagedWith", "d7/d64/a13702.html#a5b6171794c5b49e8ee439de7bdc51ba5", null ],
+    [ "KilledUnit", "d7/d64/a13702.html#a4e202eef928e54bd52160705bba5cc35", null ],
+    [ "Reset", "d7/d64/a13702.html#ac3e1bc9dc819138741eb3b4448051547", null ],
+    [ "SetGUID", "d7/d64/a13702.html#a5baf8e15902d4d8ff06c8410314327f6", null ],
+    [ "UpdateAI", "d7/d64/a13702.html#aea7c169bc2b7c52ff7d4d9a5dd7a6f0a", null ],
+    [ "_scheduler", "d7/d64/a13702.html#a838f1354e24c47e1c52e4b50e2b93c85", null ],
+    [ "instance", "d7/d64/a13702.html#aeb6f6bddf881edf818fdc31fc639d5d5", null ],
+    [ "reviveGUID", "d7/d64/a13702.html#afc066ae0c6d370f6632408b08de3c3bb", null ]
 ];

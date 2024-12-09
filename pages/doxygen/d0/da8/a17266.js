@@ -1,6 +1,9 @@
 var a17266 =
 [
-    [ "PrepareSpellScript", "d0/da8/a17266.html#a47df21229183b628c1d82bf34cbbe396", null ],
-    [ "Register", "d0/da8/a17266.html#a3cc4a1180f66cd9fe19020c1e5f2fccb", null ],
-    [ "RelocateTransportOffset", "d0/da8/a17266.html#acab29d77b4806f5d59ddc5dc3493c8ae", null ]
+    [ "CheckAreaTarget", "d0/da8/a17266.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
+    [ "HandleApply", "d0/da8/a17266.html#a9ce86d32957af07313af379b4176d0b3", null ],
+    [ "HandleRemove", "d0/da8/a17266.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
+    [ "Load", "d0/da8/a17266.html#aa10821981f3e80262850e5c46449d5d0", null ],
+    [ "PrepareAuraScript", "d0/da8/a17266.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
+    [ "Register", "d0/da8/a17266.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
 ];

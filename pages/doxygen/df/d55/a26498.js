@@ -1,6 +1,7 @@
 var a26498 =
 [
-    [ "HandleOnHit", "df/d55/a26498.html#a94893e6dd048f0028540e5ce15ed7b1d", null ],
-    [ "PrepareSpellScript", "df/d55/a26498.html#a999b019665dec9b0690a1019be428072", null ],
-    [ "Register", "df/d55/a26498.html#ab21c47d1918a9e29ebe7b041421deaf7", null ]
+    [ "HandleApply", "df/d55/a26498.html#aa35fa107aee605a8583150901a75ad72", null ],
+    [ "HandleRemove", "df/d55/a26498.html#a60b6e438ff67d9db41d160020b54da40", null ],
+    [ "PrepareAuraScript", "df/d55/a26498.html#a1da44046f2cb9fb68b18f712111c38ea", null ],
+    [ "Register", "df/d55/a26498.html#ac7c9e15a796e91e0ac68791d24e3d4bf", null ]
 ];

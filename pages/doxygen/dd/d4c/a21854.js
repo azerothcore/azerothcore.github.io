@@ -1,6 +1,6 @@
 var a21854 =
 [
-    [ "HandleScript", "dd/d4c/a21854.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "dd/d4c/a21854.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "dd/d4c/a21854.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "npc_vics_flying_machineAI", "dc/dfc/a21858.html", "dc/dfc/a21858" ],
+    [ "npc_vics_flying_machine", "dd/d4c/a21854.html#ac0f1e83a9f53f1e38e81804f0332e3fd", null ],
+    [ "GetAI", "dd/d4c/a21854.html#aac2a7cabd2e87705e9a1b3bfebb89eae", null ]
 ];

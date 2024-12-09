@@ -1,6 +1,6 @@
 var a20054 =
 [
-    [ "npc_ulduar_proximity_mineAI", "d8/d35/a20058.html", "d8/d35/a20058" ],
-    [ "npc_ulduar_proximity_mine", "d6/dfd/a20054.html#ac33beb07e17712cdda1b3434d9dc8222", null ],
-    [ "GetAI", "d6/dfd/a20054.html#a7d8237b965699004f9df731e357b4020", null ]
+    [ "npc_ulduar_aerial_command_unitAI", "d8/d35/a20058.html", "d8/d35/a20058" ],
+    [ "npc_ulduar_aerial_command_unit", "d6/dfd/a20054.html#ac0c1ecef78b92dd4ae072f6eeca9f733", null ],
+    [ "GetAI", "d6/dfd/a20054.html#a406e828a902d75bb1946fd8f5090044f", null ]
 ];

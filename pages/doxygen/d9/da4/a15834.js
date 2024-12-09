@@ -1,6 +1,6 @@
 var a15834 =
 [
-    [ "instance_ruby_sanctum_InstanceMapScript", "d3/da7/a15838.html", "d3/da7/a15838" ],
-    [ "instance_ruby_sanctum", "d9/da4/a15834.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
-    [ "GetInstanceScript", "d9/da4/a15834.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
+    [ "HandleScript", "d9/da4/a15834.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d9/da4/a15834.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d9/da4/a15834.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

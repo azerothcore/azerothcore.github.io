@@ -1,9 +1,9 @@
 var a21938 =
 [
-    [ "HandlePeriodic", "d7/d10/a21938.html#a3d9ef90ec1ddebe2b2f3dd3a8b9eb25a", null ],
-    [ "Load", "d7/d10/a21938.html#af5ed9dda3b2a2fd208fdc32de414c28a", null ],
-    [ "PrepareAuraScript", "d7/d10/a21938.html#a1057e5262d413149a023bc904a3c3751", null ],
-    [ "Register", "d7/d10/a21938.html#a47b9665b84742fd8cbb4e422d667b2ac", null ],
-    [ "Validate", "d7/d10/a21938.html#a85d7ac258d50f690574ad7656256cd05", null ],
-    [ "_counter", "d7/d10/a21938.html#a855bb93d5d9c5d8a9d06cfbb16d8d814", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d4/d76/a21942.html", "d4/d76/a21942" ],
+    [ "NPCs", "d7/d10/a21938.html#a8f2ea95c836ba6bab370301fbf3e6822", [
+      [ "NPC_HYLDSMEET_DRAKERIDER", "d7/d10/a21938.html#a8f2ea95c836ba6bab370301fbf3e6822a1b77c38a75142cff5392a89db3e765df", null ]
+    ] ],
+    [ "npc_hyldsmeet_protodrake", "d7/d10/a21938.html#a2471f1d858d7ae8f801208e35860a95e", null ],
+    [ "GetAI", "d7/d10/a21938.html#a791e5cff3901f9a3ec365d4049b82d25", null ]
 ];

@@ -1,5 +1,6 @@
 var a20770 =
 [
-    [ "go_palehoof_sphere", "d9/d51/a20770.html#a9e31fe7531980a5f75af95e24cbc272d", null ],
-    [ "OnGossipHello", "d9/d51/a20770.html#ad939fd46f8bdf32d4e158f32f2bcd8da", null ]
+    [ "npc_frenzied_worgenAI", "d5/d0f/a20774.html", "d5/d0f/a20774" ],
+    [ "npc_frenzied_worgen", "d9/d51/a20770.html#ad46eb89ab86876950652f6dd6b7dc91a", null ],
+    [ "GetAI", "d9/d51/a20770.html#a1ed46e8e6bd001f8f35492f340ab1d56", null ]
 ];

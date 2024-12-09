@@ -1,6 +1,6 @@
 var a23010 =
 [
-    [ "instance_steam_vault_InstanceMapScript", "d2/d4d/a23014.html", "d2/d4d/a23014" ],
-    [ "instance_steam_vault", "dc/dc6/a23010.html#aa3417083841ccb50c8a2f29ba343e115", null ],
-    [ "GetInstanceScript", "dc/dc6/a23010.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
+    [ "HandleAfterRemove", "dc/dc6/a23010.html#a74610b06095572aa2c898cd84e0fb229", null ],
+    [ "PrepareAuraScript", "dc/dc6/a23010.html#ac0d686490ff37810e0116dea4d0b6077", null ],
+    [ "Register", "dc/dc6/a23010.html#aad72f4aaa19f92f7a71241311f5d0582", null ]
 ];

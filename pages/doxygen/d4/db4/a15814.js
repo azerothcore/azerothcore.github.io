@@ -1,6 +1,6 @@
 var a15814 =
 [
-    [ "npc_living_infernoAI", "d4/db4/a15814.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
-    [ "IsSummonedBy", "d4/db4/a15814.html#a4b6986a392aee0741ba47651e809c76c", null ],
-    [ "JustDied", "d4/db4/a15814.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
+    [ "npc_living_infernoAI", "db/dd6/a15818.html", "db/dd6/a15818" ],
+    [ "npc_living_inferno", "d4/db4/a15814.html#a7df2bb522e67b6f1864604c7b0182078", null ],
+    [ "GetAI", "d4/db4/a15814.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
 ];

@@ -1,11 +1,11 @@
 var a22734 =
 [
-    [ "boss_doomwalker", "d2/d9d/a22734.html#a47811086ff98b1a09af5300af94b6c0e", null ],
-    [ "JustDied", "d2/d9d/a22734.html#aeefc6b3fdff4375c421318484e0b18a6", null ],
-    [ "JustEngagedWith", "d2/d9d/a22734.html#a01aa1cc0e5feaf9d2f49b54daaf7b13f", null ],
-    [ "KilledUnit", "d2/d9d/a22734.html#a2335eb642940397f73ee2a8051624e8e", null ],
-    [ "MoveInLineOfSight", "d2/d9d/a22734.html#ac0ffd491ac9a4923e3977e09e8ba310e", null ],
-    [ "Reset", "d2/d9d/a22734.html#aba08b227d629c9f35e59f465e29c267b", null ],
-    [ "UpdateAI", "d2/d9d/a22734.html#a3105c50e512c6f709985cece619b131f", null ],
-    [ "_inEnrage", "d2/d9d/a22734.html#a0004e96e25d8f5ad9393e3cdb3a4ce70", null ]
+    [ "boss_doomlordkazzakAI", "d2/d9d/a22734.html#a86a942b48bf1146fb3ab445dc386cab9", null ],
+    [ "JustDied", "d2/d9d/a22734.html#a33d0bc150c3c2701f4c0c4d8f39fce29", null ],
+    [ "JustEngagedWith", "d2/d9d/a22734.html#a8086a5f8f6edd94525b9aedd083b7b00", null ],
+    [ "JustRespawned", "d2/d9d/a22734.html#a174912c149657f4d88446f4ac0631598", null ],
+    [ "KilledUnit", "d2/d9d/a22734.html#adb91f475b0e8cb73821860c3c5cc226b", null ],
+    [ "Reset", "d2/d9d/a22734.html#a51b19c8e7c5f85c41b3168165bb8b40b", null ],
+    [ "UpdateAI", "d2/d9d/a22734.html#a28a0a8345fcd5411491409854acef729", null ],
+    [ "_inBerserk", "d2/d9d/a22734.html#a996d17128aca96c00c8416957ebc24d0", null ]
 ];

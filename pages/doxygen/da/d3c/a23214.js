@@ -1,8 +1,8 @@
 var a23214 =
 [
-    [ "npc_target_trigger", "da/d3c/a23214.html#a238058ba80130c6239b7267db3247196", null ],
-    [ "Reset", "da/d3c/a23214.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
-    [ "UpdateAI", "da/d3c/a23214.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
-    [ "_cast", "da/d3c/a23214.html#a4ec89ca960323f7ad135d5a425a82416", null ],
-    [ "_scheduler", "da/d3c/a23214.html#a9b418b09e25c8f96692b4e2626339c96", null ]
+    [ "instance_hellfire_ramparts_InstanceMapScript", "da/d3c/a23214.html#aebc047b45cb4560a38df89db75f8efab", null ],
+    [ "Initialize", "da/d3c/a23214.html#a115a36ec26e15e23be4d78250d86d814", null ],
+    [ "OnGameObjectCreate", "da/d3c/a23214.html#a0639fcd867616d1f04aacde44020bb30", null ],
+    [ "SetBossState", "da/d3c/a23214.html#a7a38526ca7b9a7c7c04231f8f8efd2f7", null ],
+    [ "felIronChestGUID", "da/d3c/a23214.html#a7cfcac5dbe4562268679ddceaf8ec8ea", null ]
 ];

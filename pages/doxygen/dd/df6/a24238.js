@@ -1,7 +1,7 @@
 var a24238 =
 [
-    [ "CalcDamage", "dd/df6/a24238.html#a5e06d1aa2864c296b2680a83a9f2187f", null ],
-    [ "PrepareSpellScript", "dd/df6/a24238.html#a80a748b6a18d26004b04a4486df1ebe3", null ],
-    [ "Register", "dd/df6/a24238.html#a857a010e6426e931ca872f66803b99b9", null ],
-    [ "Validate", "dd/df6/a24238.html#ab64625ce305efb9dc92780c945b4fd62", null ]
+    [ "HandleDummy", "dd/df6/a24238.html#a54f7f56a9122b623855eb9d11e34dfca", null ],
+    [ "PrepareSpellScript", "dd/df6/a24238.html#a2fe4b009fa3741c180e18730af5853e3", null ],
+    [ "Register", "dd/df6/a24238.html#a762c2320ab8d48e1284d81962a4b078f", null ],
+    [ "Validate", "dd/df6/a24238.html#a42fbc381d7ae89f1ac265fb15ebd864f", null ]
 ];

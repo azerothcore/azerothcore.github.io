@@ -1,7 +1,7 @@
 var a01841 =
 [
-    [ "boss_ormorok", "de/de7/a18970.html", "de/de7/a18970" ],
-    [ "npc_crystal_spike", "dc/d84/a18974.html", "dc/d84/a18974" ],
+    [ "boss_ormorok", "dc/d84/a18974.html", "dc/d84/a18974" ],
+    [ "npc_crystal_spike", "dc/d75/a18978.html", "dc/d75/a18978" ],
     [ "eEnums", "d2/d5b/a01841.html#a0ec08fe05ebfdddfa34c747c9c62a165", [
       [ "SPELL_FROZEN_PRISON", "dc/d06/a01832.html#a0ec08fe05ebfdddfa34c747c9c62a165a874864078de8743889d364bbecadcee6", null ],
       [ "SPELL_TAIL_SWEEP", "dc/d06/a01832.html#a0ec08fe05ebfdddfa34c747c9c62a165addcb3daa6cdc61ef04c65580e44ef823", null ],
@@ -1645,6 +1645,7 @@ var a01841 =
       [ "SPELL_GLARE_OF_THE_TRIBUNAL", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a98ca5f86f60983975da7b380a51fab06", null ],
       [ "SPELL_GLARE_OF_THE_TRIBUNAL_H", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6afd12fbc6a0967b99627bfe016cf02922", null ],
       [ "SPELL_DARK_MATTER_VISUAL", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ae556c683c5dc1984fd4a873c172e74f1", null ],
+      [ "SPELL_DARK_MATTER_VISUAL_CHANNEL", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a760280be3f540c227e26d34756ef35", null ],
       [ "SPELL_DARK_MATTER", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a499b41edf9950331bd113593a13de1a4", null ],
       [ "SPELL_DARK_MATTER_H", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a80b9b8192c0207d8de10c3383448d0a1", null ],
       [ "SPELL_SEARING_GAZE", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a04d1058c4758a85da757fd74bf51501c", null ],
@@ -1658,14 +1659,6 @@ var a01841 =
       [ "SPELL_IGC_CRUSH_ARMOR", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ac3283aab05aa97bdb4afcaa3ae7e51ae", null ],
       [ "SPELL_IGC_GROUND_SMASH", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a88d4fd219660c3a15607fd8c2b602d80", null ],
       [ "SPELL_IGC_GROUND_SMASH_H", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ad134a3a8adb0fcce809659e730fc1fd1", null ],
-      [ "ACTION_START_EVENT", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a5a9d00590152ece2beb2305c6f271dd9", null ],
-      [ "ACTION_START_TRIBUNAL", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aaab50cc86b2609c2e6881c53a236b9cf", null ],
-      [ "ACTION_GO_TO_SJONNIR", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6ab84450864af1804a4917937b2c45e109", null ],
-      [ "ACTION_START_SJONNIR_FIGHT", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a65e0f4d98e878c9295a887851bc21296", null ],
-      [ "ACTION_SJONNIR_DEAD", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aeed311e3fce51bb88993720c4b33a2b4", null ],
-      [ "ACTION_ENTEREVADEMODE", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a8ef3a6dda23ebc6ee41b4fc19867bdb4", null ],
-      [ "ACTION_WIPE_START", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a29156860f146908bf22f8faa075ec6bc", null ],
-      [ "ACTION_OPEN_DOOR", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a64d4ad26625abea66c3fff0d170d0912", null ],
       [ "QUEST_HALLS_OF_STONE", "db/dbe/a01706.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a2f4d823dced8973dbb7061fdbdb76b52", null ],
       [ "POINT_BRANN_INTRO", "d9/d37/a01754.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6aa8ce0b2e94a1e1c1e093138984867bff", null ],
       [ "MAX_BRANN_WAYPOINTS_INTRO", "d9/d37/a01754.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a10b5c5b9ea9036138bfcb6eee6a30881", null ],

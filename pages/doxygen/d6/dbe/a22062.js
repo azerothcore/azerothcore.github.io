@@ -1,6 +1,6 @@
 var a22062 =
 [
-    [ "npc_drakuru_shacklesAI", "da/d46/a22066.html", "da/d46/a22066" ],
-    [ "npc_drakuru_shackles", "d6/dbe/a22062.html#a2b15a214b34d86597cba09b17654e4ff", null ],
-    [ "GetAI", "d6/dbe/a22062.html#a90ce98de4630771858cd3b79264a28f9", null ]
+    [ "npc_overlord_drakuru_betrayalAI", "da/d46/a22066.html", "da/d46/a22066" ],
+    [ "npc_overlord_drakuru_betrayal", "d6/dbe/a22062.html#af4092356ea86c25d91c73af1310c2eb0", null ],
+    [ "GetAI", "d6/dbe/a22062.html#a3bd893f08212dc94a321beb7a95eea08", null ]
 ];

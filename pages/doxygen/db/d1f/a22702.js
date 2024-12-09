@@ -1,6 +1,8 @@
 var a22702 =
 [
-    [ "HandleProc", "db/d1f/a22702.html#a93dfb9e0dac89cb66f340c41dbc526bb", null ],
-    [ "PrepareAuraScript", "db/d1f/a22702.html#a94b244ef26355d53c874aec6d26f3a53", null ],
-    [ "Register", "db/d1f/a22702.html#a9499d88802213ceb877e19d1651324f2", null ]
+    [ "Absorb", "db/d1f/a22702.html#a1c054ce067a620e16611cbb9e784cee1", null ],
+    [ "CalculateAmount", "db/d1f/a22702.html#abd828dd3493339db9c0613e960792941", null ],
+    [ "PrepareAuraScript", "db/d1f/a22702.html#a1075139fc82cd8e1b30d4bc0f89fbfe0", null ],
+    [ "Register", "db/d1f/a22702.html#a85840e7d27a7ed256c45de87f4486d45", null ],
+    [ "Update", "db/d1f/a22702.html#afbf28fd4eb66899a424e0b542d561656", null ]
 ];

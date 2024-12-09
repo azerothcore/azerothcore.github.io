@@ -1,7 +1,8 @@
 var a19558 =
 [
-    [ "npc_storm_beacon_spawnAI", "df/db0/a19558.html#a031c1941f177a18af58efcf4a1270654", null ],
-    [ "UpdateAI", "df/db0/a19558.html#a249bf56b905ef0c8b34c737d95518c91", null ],
-    [ "_amount", "df/db0/a19558.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
-    [ "_checkTimer", "df/db0/a19558.html#a7fd6d449b6a20ba9463896244c513a67", null ]
+    [ "npc_brann_radioAI", "df/db0/a19558.html#a329ca0310efe109f7fb364045f6eccbb", null ],
+    [ "MoveInLineOfSight", "df/db0/a19558.html#ad119431edd6f632b4c44fc4e8708d375", null ],
+    [ "Reset", "df/db0/a19558.html#a89183942dcb38f48de1867bfbce15721", null ],
+    [ "_helpLock", "df/db0/a19558.html#ae927b6c8143cfb029ab6574d10dde60e", null ],
+    [ "_lock", "df/db0/a19558.html#a421cfd2b8b149a0f3ea5bc2262ba6bac", null ]
 ];

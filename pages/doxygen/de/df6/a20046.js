@@ -1,6 +1,6 @@
 var a20046 =
 [
-    [ "npc_ulduar_aerial_command_unitAI", "df/d2b/a20050.html", "df/d2b/a20050" ],
-    [ "npc_ulduar_aerial_command_unit", "de/df6/a20046.html#ac0c1ecef78b92dd4ae072f6eeca9f733", null ],
-    [ "GetAI", "de/df6/a20046.html#a406e828a902d75bb1946fd8f5090044f", null ]
+    [ "npc_ulduar_vx001AI", "df/d2b/a20050.html", "df/d2b/a20050" ],
+    [ "npc_ulduar_vx001", "de/df6/a20046.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
+    [ "GetAI", "de/df6/a20046.html#acdab817141b851deb09861230323ee58", null ]
 ];

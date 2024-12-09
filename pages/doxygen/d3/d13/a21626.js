@@ -1,12 +1,6 @@
 var a21626 =
 [
-    [ "npc_your_inner_turmoilAI", "d3/d13/a21626.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
-    [ "DamageTaken", "d3/d13/a21626.html#a0e14a306db46e817e6d8f7a358519f83", null ],
-    [ "JustDied", "d3/d13/a21626.html#a142359bf1661542d044a7d27b764832b", null ],
-    [ "Reset", "d3/d13/a21626.html#a4e17e9642ec11712652f41495974b716", null ],
-    [ "setphase", "d3/d13/a21626.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
-    [ "UpdateAI", "d3/d13/a21626.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
-    [ "health50", "d3/d13/a21626.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
-    [ "phase", "d3/d13/a21626.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
-    [ "timer", "d3/d13/a21626.html#af2c272de51aa15a41af9837f99256a62", null ]
+    [ "npc_attracted_reef_bullAI", "d3/d13/a21626.html#aa8917a912fb31a5987332e53e8d268e7", null ],
+    [ "MovementInform", "d3/d13/a21626.html#a79d9539243f178a2989f017c5f9ebc8c", null ],
+    [ "SpellHit", "d3/d13/a21626.html#ab06ee7ef84d881262ae682b69fae3135", null ]
 ];

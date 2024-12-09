@@ -1,6 +1,7 @@
 var a26482 =
 [
-    [ "PrepareAuraScript", "da/d64/a26482.html#a65fa925d99065d028e328a92f2a13805", null ],
-    [ "Register", "da/d64/a26482.html#a95dc732286adf4327f68e23015d58c21", null ],
-    [ "RemoveEffect", "da/d64/a26482.html#a3f474c143f64739187b6049cac5e4b38", null ]
+    [ "HandleProc", "da/d64/a26482.html#a2a1d6c4a6fdcfbb0ab34769649dbe321", null ],
+    [ "PrepareAuraScript", "da/d64/a26482.html#afa1f4cba7a02cb4a92a67c6e41d3349c", null ],
+    [ "Register", "da/d64/a26482.html#ae3711d9dff0acd196b1fae8e2285fb2a", null ],
+    [ "Validate", "da/d64/a26482.html#a77b31ab1d2952c5d77e8a1ca9cf18405", null ]
 ];

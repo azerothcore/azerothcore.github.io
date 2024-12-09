@@ -1,5 +1,6 @@
 var a20614 =
 [
-    [ "achievement_yogg_saron_drive_me_crazy", "de/de7/a20614.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
-    [ "OnCheck", "de/de7/a20614.html#a029fdd68e0643b53971efbb1056f19d8", null ]
+    [ "HandleScript", "de/de7/a20614.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
+    [ "PrepareSpellScript", "de/de7/a20614.html#ab2a4155f6029850c61e84d7c180addae", null ],
+    [ "Register", "de/de7/a20614.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
 ];

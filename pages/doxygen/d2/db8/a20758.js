@@ -1,13 +1,13 @@
 var a20758 =
 [
-    [ "npc_ravenous_furbolgAI", "d2/db8/a20758.html#a3e2a0cac8a02d2d6105b06b5c21f1628", null ],
-    [ "DoAction", "d2/db8/a20758.html#a837b442d7812b0c5708995d35c0d45f6", null ],
-    [ "JustDied", "d2/db8/a20758.html#a03e5dd969fcc2e3dcebc714247e18bf2", null ],
-    [ "JustEngagedWith", "d2/db8/a20758.html#a003eb350a11f3f5c2355a58958633f36", null ],
-    [ "JustReachedHome", "d2/db8/a20758.html#a09fc5ba4680c1e5a7a49a81c50cee540", null ],
-    [ "MoveInLineOfSight", "d2/db8/a20758.html#a0b4db9708b9b0288ddb1be2f2205e03a", null ],
-    [ "Reset", "d2/db8/a20758.html#aca5ae47050590ec22e6e929f44e09276", null ],
-    [ "UpdateAI", "d2/db8/a20758.html#ad044c04381a8d61a8fefc55129453ddf", null ],
-    [ "events", "d2/db8/a20758.html#a8bf068c63d7ae10c6edf0af3aab1a6c3", null ],
-    [ "m_pInstance", "d2/db8/a20758.html#aeb0a7644ada4d44e649b4ae45e0d2dc2", null ]
+    [ "npc_ferocious_rhinoAI", "d2/db8/a20758.html#ad70d0aeba4b73330c5087bc84a533389", null ],
+    [ "DoAction", "d2/db8/a20758.html#a10395930fed95fb7809a0b5ffe224c4d", null ],
+    [ "JustDied", "d2/db8/a20758.html#a2b1af0402dc1b4940534d2e60d7ef33e", null ],
+    [ "JustEngagedWith", "d2/db8/a20758.html#aab35078fe4518b6647f98e316d02898a", null ],
+    [ "JustReachedHome", "d2/db8/a20758.html#ab8105d6c8c70037c208c83c13c35242d", null ],
+    [ "MoveInLineOfSight", "d2/db8/a20758.html#a97e32d32a692f223b96746f3ef1086c5", null ],
+    [ "Reset", "d2/db8/a20758.html#a6d317407c2de2f954b5dd2a6db137304", null ],
+    [ "UpdateAI", "d2/db8/a20758.html#a09b80e739e4df6e751c9c2846f3fb999", null ],
+    [ "events", "d2/db8/a20758.html#af23061de7d8566c7435c2c64c53dff89", null ],
+    [ "m_pInstance", "d2/db8/a20758.html#a97e00db40792c559dd06327c9960abe4", null ]
 ];

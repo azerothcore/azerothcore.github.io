@@ -1,6 +1,6 @@
 var a27254 =
 [
-    [ "npc_spring_rabbitAI", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
-    [ "npc_spring_rabbit", "db/d9c/a27254.html#a4e2ed1f556edd535a8d262d7e0bdfa1a", null ],
-    [ "GetAI", "db/d9c/a27254.html#a968933658fbcc7f7cbdfca90fd9a68dc", null ]
+    [ "npc_fireworkAI", "d1/dfe/a27258.html", "d1/dfe/a27258" ],
+    [ "npc_firework", "db/d9c/a27254.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
+    [ "GetAI", "db/d9c/a27254.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
 ];

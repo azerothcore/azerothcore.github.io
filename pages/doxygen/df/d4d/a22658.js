@@ -1,6 +1,6 @@
 var a22658 =
 [
-    [ "instance_black_temple_InstanceMapScript", "df/df2/a22662.html", "df/df2/a22662" ],
-    [ "instance_black_temple", "df/d4d/a22658.html#a2efd6c7fff15c8fd03652ef9a65088eb", null ],
-    [ "GetInstanceScript", "df/d4d/a22658.html#a947a1279eabde75d9884b1ef84b295a3", null ]
+    [ "HandleSchoolDamage", "df/d4d/a22658.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
+    [ "PrepareSpellScript", "df/d4d/a22658.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
+    [ "Register", "df/d4d/a22658.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
 ];

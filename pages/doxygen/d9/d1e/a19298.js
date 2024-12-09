@@ -1,28 +1,6 @@
 var a19298 =
 [
-    [ "boss_algalon_the_observerAI", "d9/d1e/a19298.html#a2c2d990919a6f5cba8ff8127199195e3", null ],
-    [ "AttackStart", "d9/d1e/a19298.html#a2631ccc7111d01735a97244838ca9c27", null ],
-    [ "CallConstellations", "d9/d1e/a19298.html#a564415931ad23ee369f2df503ce9c561", null ],
-    [ "DamageTaken", "d9/d1e/a19298.html#a5f96871a1fb8ecb0e6d861d96601876d", null ],
-    [ "DoAction", "d9/d1e/a19298.html#a931e8e5178a0e1d201e002ef06d9af3e", null ],
-    [ "DoCheckHeraldOfTheTitans", "d9/d1e/a19298.html#a68cf28542db34f6d5784218085dc0d4c", null ],
-    [ "EnterEvadeMode", "d9/d1e/a19298.html#aa114e1b79dc128fbad06223039f5d57a", null ],
-    [ "GetData", "d9/d1e/a19298.html#acc68df65e98350c9bd8d8838ebc5d926", null ],
-    [ "IsInRoom", "d9/d1e/a19298.html#a85f55d3a1f0dae6f5015310b7aa47e2c", null ],
-    [ "IsValidHeraldItem", "d9/d1e/a19298.html#ab9498202d44b60655f877dd751201c11", null ],
-    [ "JustEngagedWith", "d9/d1e/a19298.html#acc87dc30d4b60f111d1ffd6718f38959", null ],
-    [ "JustReachedHome", "d9/d1e/a19298.html#a9a506424f408f3574f8dfbaf099b37e9", null ],
-    [ "JustSummoned", "d9/d1e/a19298.html#af2d96586fd35513073e22ccd1dafc109", null ],
-    [ "KilledUnit", "d9/d1e/a19298.html#a4f4a9ae8f0513ace5965ec37ae7afe36", null ],
-    [ "MovementInform", "d9/d1e/a19298.html#aeeedd56277bd2b6a91fbdf29a4fc5016", null ],
-    [ "Reset", "d9/d1e/a19298.html#aa770123f55cbe8dd0fa6107fcc101a22", null ],
-    [ "UpdateAI", "d9/d1e/a19298.html#aa699ab825076fd56f54084708087d871", null ],
-    [ "_fedOnTears", "d9/d1e/a19298.html#a14aaf7e154db5ad43cee0524f3c2fbb0", null ],
-    [ "_fightWon", "d9/d1e/a19298.html#a15bd59c5e9be39fb57b4511f22c093f4", null ],
-    [ "_firstPull", "d9/d1e/a19298.html#a0123d20ad380467522167c1612ab34e6", null ],
-    [ "_heraldOfTheTitans", "d9/d1e/a19298.html#a9f81cbf1360db8c8e1a9646cf31cf4b6", null ],
-    [ "_phaseTwo", "d9/d1e/a19298.html#a2176501407dd0bf927806a87b22f87d2", null ],
-    [ "events", "d9/d1e/a19298.html#aa79c8c65f5ac56558d24416e00fdf003", null ],
-    [ "m_pInstance", "d9/d1e/a19298.html#a4901167c02871f8228de44cd92b5e7db", null ],
-    [ "summons", "d9/d1e/a19298.html#abe084c0ec13623e078e79a3fb9a1e080", null ]
+    [ "CosmicSmashDamageEvent", "d9/d1e/a19298.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "d9/d1e/a19298.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "d9/d1e/a19298.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

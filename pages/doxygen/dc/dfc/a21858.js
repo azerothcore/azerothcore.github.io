@@ -1,6 +1,8 @@
 var a21858 =
 [
-    [ "HandleScriptEffect", "dc/dfc/a21858.html#a1dac2806b74471332aec0595118005a3", null ],
-    [ "PrepareSpellScript", "dc/dfc/a21858.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
-    [ "Register", "dc/dfc/a21858.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
+    [ "npc_vics_flying_machineAI", "dc/dfc/a21858.html#a4464e0b1433c4ffb24ae7809b1a0eec5", null ],
+    [ "MovementInform", "dc/dfc/a21858.html#ac4bbe0a3cccb6878d050b717b9efb320", null ],
+    [ "PassengerBoarded", "dc/dfc/a21858.html#aa67dcbb4b43b047398fec2619ad61829", null ],
+    [ "SpellHit", "dc/dfc/a21858.html#aa81229a104e1521d570abec4b6f7bca7", null ],
+    [ "pointId", "dc/dfc/a21858.html#aa1412c23f0c3b964262e145c51aea974", null ]
 ];

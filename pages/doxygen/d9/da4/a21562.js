@@ -1,6 +1,9 @@
 var a21562 =
 [
-    [ "npc_venture_co_stragglerAI", "dd/d8d/a21566.html", "dd/d8d/a21566" ],
-    [ "npc_venture_co_straggler", "d9/da4/a21562.html#a9d928b33dfcd3a6ccb7e1f7a1964762f", null ],
-    [ "GetAI", "d9/da4/a21562.html#a5f95d20c67553ae8a27f00ebb92e3627", null ]
+    [ "npc_wounded_skirmisher", "d9/da4/a21562.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
+    [ "Initialize", "d9/da4/a21562.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
+    [ "JustEngagedWith", "d9/da4/a21562.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
+    [ "Reset", "d9/da4/a21562.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
+    [ "SpellHit", "d9/da4/a21562.html#a891e879af5da1f181c94e528c59a81f1", null ],
+    [ "UpdateAI", "d9/da4/a21562.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
 ];

@@ -1,9 +1,7 @@
 var a13842 =
 [
-    [ "CheckCast", "d3/db7/a13842.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
-    [ "FilterTargets", "d3/db7/a13842.html#a9638048b4107db116474abf8e18d7760", null ],
-    [ "HandleBeforeHit", "d3/db7/a13842.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
-    [ "HandleScriptEffect", "d3/db7/a13842.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
-    [ "PrepareSpellScript", "d3/db7/a13842.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
-    [ "Register", "d3/db7/a13842.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
+    [ "GetEmptyEntry", "d3/db7/a13842.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
+    [ "HandleAfterHit", "d3/db7/a13842.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
+    [ "PrepareSpellScript", "d3/db7/a13842.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
+    [ "Register", "d3/db7/a13842.html#a25e1858e1f81891443f4b7de50a5d495", null ]
 ];

@@ -1,13 +1,6 @@
 var a18218 =
 [
-    [ "npc_highlord_tirion_fordringAI", "de/d6b/a18218.html#a8852f9196a6609f317b6113ac2eee9ee", null ],
-    [ "Reset", "de/d6b/a18218.html#a80051b1b2a663997304b1754a3f9ff25", null ],
-    [ "SetData", "de/d6b/a18218.html#a5642aab7afc50a7494c43ae7a130d571", null ],
-    [ "UpdateAI", "de/d6b/a18218.html#ac3c8dc2e5bf6e0c3f380f395a785ad49", null ],
-    [ "_bolvarFordragon", "de/d6b/a18218.html#a8e8ae990a6e70a70ce6de3a13300261c", null ],
-    [ "_damnedKills", "de/d6b/a18218.html#a56e035884d2ab94629c133efc1fc8feb", null ],
-    [ "_events", "de/d6b/a18218.html#a8d8d6f1b8dc65b28a8117426e3767762", null ],
-    [ "_factionNPC", "de/d6b/a18218.html#acf9a436edcbfe3fcf47f56c5cf90cfb2", null ],
-    [ "_instance", "de/d6b/a18218.html#acd16d6200b08df23576aa9ccbb060d31", null ],
-    [ "_theLichKing", "de/d6b/a18218.html#afbe85d7002e34cfcb9414f2beda4e0a2", null ]
+    [ "npc_highlord_tirion_fordringAI", "d0/d6f/a18222.html", "d0/d6f/a18222" ],
+    [ "npc_highlord_tirion_fordring_lh", "de/d6b/a18218.html#a96102a488330c54a3e3654c767e8e1a5", null ],
+    [ "GetAI", "de/d6b/a18218.html#aea42394c04c1763cffe10eb5eba09854", null ]
 ];

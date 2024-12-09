@@ -1,8 +1,7 @@
 var a15782 =
 [
-    [ "OnApply", "d7/d2f/a15782.html#a7165da94ce589afcd24411a308802c18", null ],
-    [ "OnRemove", "d7/d2f/a15782.html#a8a43050c44b4d3d5b48f4e2c6fcc0b49", null ],
-    [ "PrepareAuraScript", "d7/d2f/a15782.html#ab8361bc1d2cc786b52f1fc2b7ff09527", null ],
-    [ "Register", "d7/d2f/a15782.html#a0ff7bbd0dea458b15231ecf419b1c49c", null ],
-    [ "Validate", "d7/d2f/a15782.html#acf29b80b7b74c3f409e1f046b8062994", null ]
+    [ "OnApply", "d7/d2f/a15782.html#ad072d243dd148e1b34aea29a2e5d175e", null ],
+    [ "PrepareAuraScript", "d7/d2f/a15782.html#ae657ceca517aa3f725ba72c18ddbaf1c", null ],
+    [ "Register", "d7/d2f/a15782.html#a4eab0bd70eb884f7736e90f9001d3cc7", null ],
+    [ "Validate", "d7/d2f/a15782.html#a2c9e4d82bd25f439e01a05700563b122", null ]
 ];

@@ -1,6 +1,9 @@
 var a13854 =
 [
-    [ "OnApply", "d3/d19/a13854.html#a4a276b00d4912c210598057620368934", null ],
-    [ "PrepareAuraScript", "d3/d19/a13854.html#a20cb3aec994ffc0a06d9b4ba4f575844", null ],
-    [ "Register", "d3/d19/a13854.html#adf9962252dec76f324b8cdbf8f6b9155", null ]
+    [ "npc_brew_bubble", "d3/d19/a13854.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
+    [ "DoAction", "d3/d19/a13854.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
+    [ "MoveInLineOfSight", "d3/d19/a13854.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
+    [ "Reset", "d3/d19/a13854.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
+    [ "UpdateAI", "d3/d19/a13854.html#a25018deaa206620f6e98ba722f689b8d", null ],
+    [ "timer", "d3/d19/a13854.html#a4bee73add756ba4b3137818b2dacd27f", null ]
 ];

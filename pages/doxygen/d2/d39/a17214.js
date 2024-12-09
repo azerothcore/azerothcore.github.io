@@ -1,17 +1,12 @@
 var a17214 =
 [
-    [ "npc_gunship_boarding_addAI", "d2/d39/a17214.html#accf0e65592983cc0199cb445aea55f99", null ],
-    [ "CanAIAttack", "d2/d39/a17214.html#a7d30e525342d1cb13103a4d7ebe1bb39", null ],
-    [ "DamageTaken", "d2/d39/a17214.html#a3b4eac0143e3c9eb2730c9bcf54f90b0", null ],
-    [ "EnterEvadeMode", "d2/d39/a17214.html#a5350433e352e0302d03c750a143880cf", null ],
-    [ "MovementInform", "d2/d39/a17214.html#aa2bd88e4539ddc99f888d41fcb78c383", null ],
-    [ "SetData", "d2/d39/a17214.html#a4fd0655356a2f9b5820e0f42f267715e", null ],
-    [ "SetSlotInfo", "d2/d39/a17214.html#adb50c92c76763733dbec025769d62a40", null ],
-    [ "UpdateAI", "d2/d39/a17214.html#af25bee85b38d70d1b792d7c1752e45f5", null ],
-    [ "_usedDesperateResolve", "d2/d39/a17214.html#aaf154d9774154e868d563b3c47916746", null ],
-    [ "anyValid", "d2/d39/a17214.html#a7fafebb9c6076dbe7fc621788910f63b", null ],
-    [ "checkTimer", "d2/d39/a17214.html#a9a6b6d68743b1e1e993fa32435ba6722", null ],
-    [ "Index", "d2/d39/a17214.html#a18b570e7bae0e2c4d0dcfc788d9deec3", null ],
-    [ "Instance", "d2/d39/a17214.html#a07eeeedf7c1315a41c073cfc83361c9f", null ],
-    [ "Slot", "d2/d39/a17214.html#a1aef6abcddaca26da2d09d3d2e6e1152", null ]
+    [ "gunship_npc_AI", "d2/d39/a17214.html#a30c13cb755638fcf05d1ad9a476210d3", null ],
+    [ "EnterEvadeMode", "d2/d39/a17214.html#a7c2da25bb962c32fa350ee1f12f86ca4", null ],
+    [ "JustDied", "d2/d39/a17214.html#ad40c976be4decd9054dad031a4caab78", null ],
+    [ "MovementInform", "d2/d39/a17214.html#a3bae54b656fc5ed8c6fef80bd1721c71", null ],
+    [ "SetData", "d2/d39/a17214.html#acfd5e331155d7787ada33acbca73fece", null ],
+    [ "SetSlotInfo", "d2/d39/a17214.html#afdfc3f9add2952f90baf24d55425670f", null ],
+    [ "Index", "d2/d39/a17214.html#ae120874514cf5921136821b820a04da7", null ],
+    [ "Instance", "d2/d39/a17214.html#ab5276a099bcf56c5a25b3a52be516b5c", null ],
+    [ "Slot", "d2/d39/a17214.html#a59d237475ae309755d429cfac77d6630", null ]
 ];

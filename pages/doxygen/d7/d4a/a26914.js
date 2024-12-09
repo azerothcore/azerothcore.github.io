@@ -1,5 +1,5 @@
 var a26914 =
 [
-    [ "go_southfury_moonstone", "d7/d4a/a26914.html#aed27e57e8232e156177c293ad0c0b4bb", null ],
-    [ "OnGossipHello", "d7/d4a/a26914.html#a4c0870f0e03708f1fdc073abadbe5de8", null ]
+    [ "go_jump_a_tron", "d7/d4a/a26914.html#a23306caf54a4282d290eec5daa3bfbc5", null ],
+    [ "OnGossipHello", "d7/d4a/a26914.html#ae45085de26fc6ad4c3fa2bddf0bf20ec", null ]
 ];

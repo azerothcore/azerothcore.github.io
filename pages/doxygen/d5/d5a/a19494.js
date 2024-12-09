@@ -1,11 +1,11 @@
 var a19494 =
 [
-    [ "boss_flame_leviathan_defense_turretAI", "d5/d5a/a19494.html#aedf30f06fe89c805019f7cc254646ff1", null ],
-    [ "CanAIAttack", "d5/d5a/a19494.html#a76efa1d88ce029775809abb3ec88efb3", null ],
-    [ "DamageTaken", "d5/d5a/a19494.html#adedbbeeb01da20843bc85ac2daaed12a", null ],
-    [ "JustDied", "d5/d5a/a19494.html#af261cc1f0458984719ab1bb4518bdc64", null ],
-    [ "KilledUnit", "d5/d5a/a19494.html#aed3f2a4bac3391683989eec94697ef16", null ],
-    [ "UpdateAI", "d5/d5a/a19494.html#a575eb381d1aa31af60484271ae6e4627", null ],
-    [ "_instance", "d5/d5a/a19494.html#a8c0658a5d32355607cb16f6e1c83f83e", null ],
-    [ "_setHealth", "d5/d5a/a19494.html#aeb220ded0a6515674a428716a8be9f48", null ]
+    [ "boss_flame_leviathan_seatAI", "d5/d5a/a19494.html#ab830db7804ee9b9815e4ea3398a6d856", null ],
+    [ "AttackStart", "d5/d5a/a19494.html#a39efb927928e19a040144bab7dfa3ba2", null ],
+    [ "EnterEvadeMode", "d5/d5a/a19494.html#aeda2ad4d596c86aa5c19acb1c710cc9f", null ],
+    [ "PassengerBoarded", "d5/d5a/a19494.html#af4939f3daef8aae9a1eafe2020ab205e", null ],
+    [ "Reset", "d5/d5a/a19494.html#a1e134e9bb2b1048f69dc310a52be9473", null ],
+    [ "UpdateAI", "d5/d5a/a19494.html#a857b1e927ae6574e00e25a20a21d4427", null ],
+    [ "_despawnTimer", "d5/d5a/a19494.html#ac3d1d8f405a37d2344c5f4e34519e2cb", null ],
+    [ "vehicle", "d5/d5a/a19494.html#a9d0624a45613676a39def53b2a2fdce0", null ]
 ];

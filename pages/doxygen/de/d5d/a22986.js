@@ -1,5 +1,6 @@
 var a22986 =
 [
-    [ "at_quagmirran_lair", "de/d5d/a22986.html#a1f8cb1f59e7a179d9e4a987f716ab26f", null ],
-    [ "OnTrigger", "de/d5d/a22986.html#aa0aab42516efaf842923b8a820942ac4", null ]
+    [ "instance_the_slave_pens_InstanceMapScript", "dc/d0a/a22990.html", "dc/d0a/a22990" ],
+    [ "instance_the_slave_pens", "de/d5d/a22986.html#a765f7b66ad3bed1828524ecb143742f2", null ],
+    [ "GetInstanceScript", "de/d5d/a22986.html#a0eedcecf1ddc27e139898cacf6f48965", null ]
 ];

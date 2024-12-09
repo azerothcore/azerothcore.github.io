@@ -1,13 +1,15 @@
 var a23282 =
 [
-    [ "boss_warbringer_omrogg", "dc/dad/a23282.html#a20f790595640cd41d636ad43c8837cda", null ],
-    [ "HandleHeadTalk", "dc/dad/a23282.html#aaa324c065f6c2bbf75688f5910be09d1", null ],
-    [ "JustDied", "dc/dad/a23282.html#a8a2abaceda580ac2ed4f1c736281828f", null ],
-    [ "JustEngagedWith", "dc/dad/a23282.html#ae1710f22f8a72f661498c4fbc6d108a5", null ],
-    [ "KilledUnit", "dc/dad/a23282.html#add6b54c4744be120b6b5fd53912ce1fd", null ],
-    [ "ScheduleBurningPhase", "dc/dad/a23282.html#afd20a8bd1f6f083e0725d962ec747e26", null ],
-    [ "ScheduleNonBurningPhase", "dc/dad/a23282.html#a176217a0767e8153d07996461ac68f60", null ],
-    [ "SetData", "dc/dad/a23282.html#a4d1154d64c999316f9ae02ab76cbc870", null ],
-    [ "UpdateAI", "dc/dad/a23282.html#a90369760ed0e52f1ffc6d3e7c4e39ec2", null ],
-    [ "_headTalk", "dc/dad/a23282.html#ae657addceb26f4d02d734fa0790a1ae2", null ]
+    [ "npc_shattered_hand_scout", "dc/dad/a23282.html#a51a57eaaad75817a9b5a81210e01ed51", null ],
+    [ "DamageTaken", "dc/dad/a23282.html#ad37c34ae2dee082f1b4eed90bc4a3618", null ],
+    [ "FireArrows", "dc/dad/a23282.html#aa3043011d7d9e7b7c5826b9afc7581d1", null ],
+    [ "GetPorung", "dc/dad/a23282.html#a575b12c40aeccd6d0cdd63f71a3b93d6", null ],
+    [ "MoveInLineOfSight", "dc/dad/a23282.html#a2ddb6fd6aa6221768ff71257f4bdd81b", null ],
+    [ "MovementInform", "dc/dad/a23282.html#a6f6198c2faf68823b1d4c8237044784b", null ],
+    [ "Reset", "dc/dad/a23282.html#a1fcf0da2cc4a0554f04b3624b68de598", null ],
+    [ "SetData", "dc/dad/a23282.html#a9416dd89c4728538971abc5975c7080f", null ],
+    [ "UpdateAI", "dc/dad/a23282.html#a91c2c7eca064d6eaafe5ecaeca4344b4", null ],
+    [ "_firstZealots", "dc/dad/a23282.html#a2b5fd63b01e4ecb96b006e3870b37609", null ],
+    [ "_scheduler", "dc/dad/a23282.html#a376f6eab11f8399493d5d33b5c4ea35a", null ],
+    [ "_zealotGUIDs", "dc/dad/a23282.html#a26381a05bb007fdb4b7da97a19a878da", null ]
 ];

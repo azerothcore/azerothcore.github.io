@@ -1,10 +1,7 @@
 var a24326 =
 [
-    [ "CalculateAPAmount", "df/d52/a24326.html#af1d4558f6132d3c2abc71ec1dabee2e8", null ],
-    [ "CalculateResistanceAmount", "df/d52/a24326.html#a5d6e7b92f4335176388a877e72c0e92c", null ],
-    [ "CalculateSPAmount", "df/d52/a24326.html#a40c96996d19b9f7eeed3fda4271b9f87", null ],
-    [ "CalculateStatAmount", "df/d52/a24326.html#ae4f96de2c558a4b0fd7659442aa3d92b", null ],
-    [ "HandleEffectApply", "df/d52/a24326.html#aeebb14424a6ae336edd4b66d824d648a", null ],
-    [ "PrepareAuraScript", "df/d52/a24326.html#a7e3dc351574f6d6ad3424eb7df7092df", null ],
-    [ "Register", "df/d52/a24326.html#ab5713a34ced4d2e2a67b43e98d7a55c0", null ]
+    [ "CalculateAmount", "df/d52/a24326.html#af51a8e22ddfe0648f08a4190d730fbda", null ],
+    [ "CheckProc", "df/d52/a24326.html#a2f80dcd9e5922af55dee096c95079062", null ],
+    [ "PrepareAuraScript", "df/d52/a24326.html#af54ef254d0897140255960146507e986", null ],
+    [ "Register", "df/d52/a24326.html#ad6e4bd4390f6f88494984af792a11b90", null ]
 ];

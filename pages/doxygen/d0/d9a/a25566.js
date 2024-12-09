@@ -1,6 +1,8 @@
 var a25566 =
 [
-    [ "CalculateAmount", "d0/d9a/a25566.html#a2010f58ba86d6266e9549753fdec52ed", null ],
-    [ "PrepareAuraScript", "d0/d9a/a25566.html#aa9ddc9f2a0ded66e81be51cec24a0e4b", null ],
-    [ "Register", "d0/d9a/a25566.html#acf737f74e3cb9340f3449b491e923b7f", null ]
+    [ "CheckQuest", "d0/d9a/a25566.html#ab7ebff0894832ac009cda89b7c28e252", null ],
+    [ "HandleDummy", "d0/d9a/a25566.html#a365df14504a54e95e7d68d22a284e441", null ],
+    [ "HandleOpenObject", "d0/d9a/a25566.html#a69467afd49dc2429b8ba9640c8af5dfa", null ],
+    [ "PrepareSpellScript", "d0/d9a/a25566.html#a479e313031a2e71473238d8f645bf2d4", null ],
+    [ "Register", "d0/d9a/a25566.html#a70f1a91e611cc2092aad44a909cd53db", null ]
 ];

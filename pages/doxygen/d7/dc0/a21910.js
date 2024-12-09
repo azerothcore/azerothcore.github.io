@@ -1,9 +1,6 @@
 var a21910 =
 [
-    [ "npc_brunnhildar_prisonerAI", "d7/dc0/a21910.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
-    [ "JustRespawned", "d7/dc0/a21910.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
-    [ "Reset", "d7/dc0/a21910.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
-    [ "SpellHit", "d7/dc0/a21910.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
-    [ "UpdateAI", "d7/dc0/a21910.html#a0702d4cf577ac00688a7b93bfe656952", null ],
-    [ "freed", "d7/dc0/a21910.html#a46e03a19bac91a800154e3c873235800", null ]
+    [ "npc_roxi_ramrocket", "d7/dc0/a21910.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
+    [ "OnGossipHello", "d7/dc0/a21910.html#adec28f778921246c56f11d09753e566e", null ],
+    [ "OnGossipSelect", "d7/dc0/a21910.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
 ];

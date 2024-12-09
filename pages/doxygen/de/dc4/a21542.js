@@ -1,7 +1,7 @@
 var a21542 =
 [
-    [ "npc_tallhorn_stagAI", "de/dc4/a21542.html#a50947c450eece979193b45728e5e1f82", null ],
-    [ "Reset", "de/dc4/a21542.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
-    [ "UpdateAI", "de/dc4/a21542.html#adf60f62fa92238cb315c42e0179c3f17", null ],
-    [ "_phase", "de/dc4/a21542.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
+    [ "HandleScriptEffect", "de/dc4/a21542.html#a2d39a073c351860db735301b4cf9c79f", null ],
+    [ "PrepareSpellScript", "de/dc4/a21542.html#a3674adaef23f1531af360a65c14efadd", null ],
+    [ "Register", "de/dc4/a21542.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
+    [ "Validate", "de/dc4/a21542.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
 ];

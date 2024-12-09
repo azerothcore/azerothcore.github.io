@@ -1,6 +1,6 @@
 var a24014 =
 [
-    [ "HandleDamageCalc", "d4/dae/a24014.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
-    [ "PrepareSpellScript", "d4/dae/a24014.html#a183477b6269dbc705a10e60ab36c13b1", null ],
-    [ "Register", "d4/dae/a24014.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
+    [ "npc_pet_dk_dancing_rune_weaponAI", "d0/d03/a24018.html", "d0/d03/a24018" ],
+    [ "npc_pet_dk_dancing_rune_weapon", "d4/dae/a24014.html#aaa0881509c2842d6c0442884d0947e28", null ],
+    [ "GetAI", "d4/dae/a24014.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
 ];

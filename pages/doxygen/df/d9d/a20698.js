@@ -1,7 +1,8 @@
 var a20698 =
 [
-    [ "HandleEffectPeriodic", "df/d9d/a20698.html#a5741a78ba0cc8c723e80b1847b3eb1bc", null ],
-    [ "PrepareAuraScript", "df/d9d/a20698.html#a748cd347867557b5048d9ba0c112cd80", null ],
-    [ "Register", "df/d9d/a20698.html#a3c24d37ab4a6e16a577983c3f6bc2722", null ],
-    [ "Validate", "df/d9d/a20698.html#afa86789ef14b1d06094705ba6cfb9205", null ]
+    [ "boss_keleseth", "df/d9d/a20698.html#ad2f0f020b0c92852dedadea5730e4e80", null ],
+    [ "AttackStart", "df/d9d/a20698.html#a731ebf8e9ff4f64582a8f9373ce08a39", null ],
+    [ "JustDied", "df/d9d/a20698.html#ad23ede5c869ab12dc1c2f6a783e9b539", null ],
+    [ "JustEngagedWith", "df/d9d/a20698.html#a8d5cba1dd481bdfaf93f6e2427880b2e", null ],
+    [ "KilledUnit", "df/d9d/a20698.html#a64d14f1b8f169128bbbc507730f4f1eb", null ]
 ];

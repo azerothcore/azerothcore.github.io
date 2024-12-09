@@ -1,6 +1,9 @@
 var a17454 =
 [
-    [ "AbominationDespawner", "de/d40/a17454.html#a3bbf8c5d4e42569ffe993a3c3b8ff95e", null ],
-    [ "operator()", "de/d40/a17454.html#a58b8faac1cdffa7230783a1d6439fcfb", null ],
-    [ "_owner", "de/d40/a17454.html#af9089e566905b885887a5714ad5b0741", null ]
+    [ "CountTargets", "de/d40/a17454.html#aa72b762d802c27047d485a8a314c6c6d", null ],
+    [ "Load", "de/d40/a17454.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
+    [ "PrepareSpellScript", "de/d40/a17454.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
+    [ "Register", "de/d40/a17454.html#a86cad92c07fa31c730a3b560d33ed824", null ],
+    [ "SplitDamage", "de/d40/a17454.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
+    [ "_targetCount", "de/d40/a17454.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
 ];

@@ -132,6 +132,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a305f5f20fbe3d15885ed3e6248d96ec6"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a13098.html#a305f5f20fbe3d15885ed3e6248d96ec6">JustEngagedWith</a> (<a class="el" href="../../d6/d15/a08526.html">Unit</a> *who) override</td></tr>
 <tr class="memdesc:a305f5f20fbe3d15885ed3e6248d96ec6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called for reaction when initially engaged.  <a href="../../d9/d25/a13098.html#a305f5f20fbe3d15885ed3e6248d96ec6">More...</a><br /></td></tr>
 <tr class="separator:a305f5f20fbe3d15885ed3e6248d96ec6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cf18b5f12586d122ece406feaa5bc39"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a13098.html#a7cf18b5f12586d122ece406feaa5bc39">JustSummoned</a> (<a class="el" href="../../df/d49/a07778.html">Creature</a> *creature) override</td></tr>
+<tr class="separator:a7cf18b5f12586d122ece406feaa5bc39"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a570c8cc6aaefaac4063d9f1053c04b32"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d25/a13098.html#a570c8cc6aaefaac4063d9f1053c04b32">DamageTaken</a> (<a class="el" href="../../d6/d15/a08526.html">Unit</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;damage, <a class="el" href="../../de/d3d/a03515.html#ab0b8a9de485ea928c497ac0b5f9040b1">DamageEffectType</a>, <a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>) override</td></tr>
 <tr class="memdesc:a570c8cc6aaefaac4063d9f1053c04b32"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called at any Damage from any attacker (before damage apply)  <a href="../../d9/d25/a13098.html#a570c8cc6aaefaac4063d9f1053c04b32">More...</a><br /></td></tr>
 <tr class="separator:a570c8cc6aaefaac4063d9f1053c04b32"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -696,28 +698,28 @@ Additional Inherited Members</h2></td></tr>
 <dl class="section note"><dt>Note</dt><dd>It use for recalculation damage or special reaction at damage for attack reaction use AttackedBy called for non DOT damage in <a class="el" href="../../d6/d15/a08526.html#afe2cdf561288531d745b6a3eb7182a98">Unit::DealDamage</a> also </dd></dl>
 
 <p>Reimplemented from <a class="el" href="../../dc/d1e/a06126.html#ace268b3d2d922496c8508ddb263c1fb1">BossAI</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
-<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (damage &gt;= <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>())</div>
-<div class="line"><span class="lineno">   89</span>        {</div>
-<div class="line"><span class="lineno">   90</span>            damage = <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>() - 1;</div>
-<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a4af419c3eef4085ecaad8fd08e536800">HasUnitFlag</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>))</div>
-<div class="line"><span class="lineno">   92</span>            {</div>
-<div class="line"><span class="lineno">   93</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
-<div class="line"><span class="lineno">   94</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#aca967faa985dbe4062dd23360cdb607c">RemoveAllAuras</a>();</div>
-<div class="line"><span class="lineno">   95</span>                <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca87e9fa2e283eca2f5256dd90fadf931b">SPELL_OPEN_ALL_PORTALS</a>, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">   96</span> </div>
-<div class="line"><span class="lineno">   97</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;]</div>
-<div class="line"><span class="lineno">   98</span>                {</div>
-<div class="line"><span class="lineno">   99</span>                    <a class="code hl_function" href="../../d9/de2/a06062.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca30349b5b8c99e7ab662311ad934e9767">SPELL_SUMMON_ENTROPIUS</a>);</div>
-<div class="line"><span class="lineno">  100</span>                }, 7s);</div>
-<div class="line"><span class="lineno">  101</span> </div>
-<div class="line"><span class="lineno">  102</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;]</div>
-<div class="line"><span class="lineno">  103</span>                {</div>
-<div class="line"><span class="lineno">  104</span>                    <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  105</span>                }, 8s);</div>
-<div class="line"><span class="lineno">  106</span>            }</div>
-<div class="line"><span class="lineno">  107</span>        }</div>
-<div class="line"><span class="lineno">  108</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   95</span>    {</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">if</span> (damage &gt;= <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>())</div>
+<div class="line"><span class="lineno">   97</span>        {</div>
+<div class="line"><span class="lineno">   98</span>            damage = <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a958172d6051b106e3b3c776e4f9f3952">GetHealth</a>() - 1;</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a4af419c3eef4085ecaad8fd08e536800">HasUnitFlag</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>))</div>
+<div class="line"><span class="lineno">  100</span>            {</div>
+<div class="line"><span class="lineno">  101</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ad9f2d48b20f62e17abf5c1892cebe296">SetUnitFlag</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a>);</div>
+<div class="line"><span class="lineno">  102</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#aca967faa985dbe4062dd23360cdb607c">RemoveAllAuras</a>();</div>
+<div class="line"><span class="lineno">  103</span>                <a class="code hl_function" href="../../d9/de2/a06062.html#a6ae5c7d15b747433f4d94f80bcebd215">DoCastSelf</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca87e9fa2e283eca2f5256dd90fadf931b">SPELL_OPEN_ALL_PORTALS</a>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;]</div>
+<div class="line"><span class="lineno">  106</span>                {</div>
+<div class="line"><span class="lineno">  107</span>                    <a class="code hl_function" href="../../d9/de2/a06062.html#a1e37cbb75f91c247b04131afc7ce35f5">DoCastAOE</a>(<a class="code hl_enumvalue" href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca30349b5b8c99e7ab662311ad934e9767">SPELL_SUMMON_ENTROPIUS</a>);</div>
+<div class="line"><span class="lineno">  108</span>                }, 7s);</div>
+<div class="line"><span class="lineno">  109</span> </div>
+<div class="line"><span class="lineno">  110</span>                <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_variable" href="../../d6/d15/a08526.html#a8ca8fcc886a2cea2c235514644e7e2a0">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#ac4cfbe963d7e9335f6404666a6b95bad">AddEventAtOffset</a>([&amp;]</div>
+<div class="line"><span class="lineno">  111</span>                {</div>
+<div class="line"><span class="lineno">  112</span>                    <a class="code hl_variable" href="../../df/d58/a06118.html#a5da7193f0a8713b8fa5e7ff2f19ac3bb">me</a>-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a08f6c21ed1d05cf54e8351b80e152c90">SetVisible</a>(<span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno">  113</span>                }, 8s);</div>
+<div class="line"><span class="lineno">  114</span>            }</div>
+<div class="line"><span class="lineno">  115</span>        }</div>
+<div class="line"><span class="lineno">  116</span>    }</div>
 <div class="ttc" id="aa02231_html_a5bd342133be8c2137b831460acc9298ca30349b5b8c99e7ab662311ad934e9767"><div class="ttname"><a href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca30349b5b8c99e7ab662311ad934e9767">SPELL_SUMMON_ENTROPIUS</a></div><div class="ttdeci">@ SPELL_SUMMON_ENTROPIUS</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:40</div></div>
 <div class="ttc" id="aa02231_html_a5bd342133be8c2137b831460acc9298ca87e9fa2e283eca2f5256dd90fadf931b"><div class="ttname"><a href="../../d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298ca87e9fa2e283eca2f5256dd90fadf931b">SPELL_OPEN_ALL_PORTALS</a></div><div class="ttdeci">@ SPELL_OPEN_ALL_PORTALS</div><div class="ttdef"><b>Definition:</b> boss_muru.cpp:39</div></div>
 <div class="ttc" id="aa03521_html_affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f"><div class="ttname"><a href="../../d8/dbe/a03521.html#affdd0d554c8bcaaa85a879f5a9d60934a8b7b8fe906282847f5f337728d4a534f">UNIT_FLAG_NOT_SELECTABLE</a></div><div class="ttdeci">@ UNIT_FLAG_NOT_SELECTABLE</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:254</div></div>
@@ -792,6 +794,45 @@ Additional Inherited Members</h2></td></tr>
 
 </div>
 </div>
+<a id="a7cf18b5f12586d122ece406feaa5bc39" name="a7cf18b5f12586d122ece406feaa5bc39"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cf18b5f12586d122ece406feaa5bc39">&#9670;&#160;</a></span>JustSummoned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void boss_muru::JustSummoned </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d49/a07778.html">Creature</a> *&#160;</td>
+          <td class="paramname"><em>creature</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../dc/d1e/a06126.html#a55938a5ee8ad433cca9fad829cc0d915">BossAI</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        <span class="keywordflow">if</span> (creature-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>() == <a class="code hl_enumvalue" href="../../de/db2/a02246.html#a92f6fd626e1834a4cc509efc1186963ea8d49bed70c207efd21f18820f48730f6">NPC_ENTROPIUS</a>)</div>
+<div class="line"><span class="lineno">   89</span>            creature-&gt;<a class="code hl_function" href="../../df/d49/a07778.html#a01ccacf28df6336a774bf1672caf3571">SetInCombatWithZone</a>();</div>
+<div class="line"><span class="lineno">   90</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   91</span>            <a class="code hl_function" href="../../dc/d1e/a06126.html#a55938a5ee8ad433cca9fad829cc0d915">BossAI::JustSummoned</a>(creature);</div>
+<div class="line"><span class="lineno">   92</span>    }</div>
+<div class="ttc" id="aa06126_html_a55938a5ee8ad433cca9fad829cc0d915"><div class="ttname"><a href="../../dc/d1e/a06126.html#a55938a5ee8ad433cca9fad829cc0d915">BossAI::JustSummoned</a></div><div class="ttdeci">void JustSummoned(Creature *summon) override</div><div class="ttdef"><b>Definition:</b> ScriptedCreature.cpp:703</div></div>
+<div class="ttc" id="aa07778_html_a01ccacf28df6336a774bf1672caf3571"><div class="ttname"><a href="../../df/d49/a07778.html#a01ccacf28df6336a774bf1672caf3571">Creature::SetInCombatWithZone</a></div><div class="ttdeci">void SetInCombatWithZone()</div><div class="ttdoc">Set in combat all units in the dungeon/raid. Affect only units with IsAIEnabled.</div><div class="ttdef"><b>Definition:</b> Creature.cpp:2811</div></div>
+<div class="ttc" id="aa08150_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00112">Object::GetEntry()</a>, <a class="el" href="../../#l00703">BossAI::JustSummoned()</a>, <a class="el" href="../../#l00076">NPC_ENTROPIUS</a>, and <a class="el" href="../../#l02811">Creature::SetInCombatWithZone()</a>.</p>
+
+</div>
+</div>
 <a id="a177aed9c1e5c1380fc8ea5f8c29650c6" name="a177aed9c1e5c1380fc8ea5f8c29650c6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a177aed9c1e5c1380fc8ea5f8c29650c6">&#9670;&#160;</a></span>Reset()</h2>
 
@@ -839,7 +880,7 @@ Additional Inherited Members</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d25/a13098.html">boss_muru</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:43:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

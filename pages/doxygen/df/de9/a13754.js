@@ -1,10 +1,19 @@
 var a13754 =
 [
-    [ "npc_zealot_lorkhan", "df/de9/a13754.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
-    [ "JustDied", "df/de9/a13754.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
-    [ "JustEngagedWith", "df/de9/a13754.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
-    [ "Reset", "df/de9/a13754.html#abecbd4a2ea2cf3281244933fe7484239", null ],
-    [ "UpdateAI", "df/de9/a13754.html#a68c35734f8886b2c241dcbc178899206", null ],
-    [ "_scheduler", "df/de9/a13754.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
-    [ "instance", "df/de9/a13754.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
+    [ "boss_thekal", "df/de9/a13754.html#a91e8fd9ba169d5096fd06471f8bd16e9", null ],
+    [ "CheckPhaseTransition", "df/de9/a13754.html#a95aeb81565f5863eec67106ae1118ac4", null ],
+    [ "DamageTaken", "df/de9/a13754.html#a98be9a4d815f6fdc01acbfaa916b721c", null ],
+    [ "DoAction", "df/de9/a13754.html#aa3d81738fbb42d5575dd8e5b30d84563", null ],
+    [ "Initialize", "df/de9/a13754.html#aec365f330eed69513e988f895ec780e7", null ],
+    [ "JustDied", "df/de9/a13754.html#a79bc19df134cbeb17f0941865461bd0d", null ],
+    [ "JustEngagedWith", "df/de9/a13754.html#af5e2b2b5665270f29243921e51280190", null ],
+    [ "Reset", "df/de9/a13754.html#a684bf1fc087970a41cf79959ba57b31b", null ],
+    [ "ReviveZealot", "df/de9/a13754.html#aab84b3390cf8cc95dc8a2067ed38b4ab", null ],
+    [ "SetData", "df/de9/a13754.html#a586805c5f8d20a35055cf12a3c9f673f", null ],
+    [ "UpdateAI", "df/de9/a13754.html#a4b5e7dae10900a197d047b6ea32c33ed", null ],
+    [ "UpdateZealotStatus", "df/de9/a13754.html#ac69068240dfc1ecf30f37e36c3e51353", null ],
+    [ "_enraged", "df/de9/a13754.html#aba5ac2c4cdac1d4a0e37e9d6cd3b1422", null ],
+    [ "_lorkhanDied", "df/de9/a13754.html#a0f84ad2f224fe29fc4ddde3258200e10", null ],
+    [ "_wasDead", "df/de9/a13754.html#aec4eea1f0d8ebffb1bbc2646e986f300", null ],
+    [ "_zathDied", "df/de9/a13754.html#ae3df1561ee3dcb3887f6e646b6277b29", null ]
 ];

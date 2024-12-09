@@ -1,9 +1,10 @@
 var a24062 =
 [
-    [ "npc_pet_gen_fetch_ball", "d1/d78/a24062.html#a4cd4dabd5df72ad1e64bdc8d6efb2f1b", null ],
-    [ "IsSummonedBy", "d1/d78/a24062.html#abaf6308f7c47fd05acb86055bec0aea8", null ],
-    [ "SpellHitTarget", "d1/d78/a24062.html#a87bdded236f6584d9b71507a1253f7d0", null ],
-    [ "UpdateAI", "d1/d78/a24062.html#a1e0f75d5cd438d500ad94c5024bf83ae", null ],
-    [ "checkTimer", "d1/d78/a24062.html#ab8d0a3a9ba2a8e0d6f58b3867f20974e", null ],
-    [ "targetGUID", "d1/d78/a24062.html#ae474374af7c2270e218ed236d90c789c", null ]
+    [ "npc_pet_gen_plump_turkey", "d1/d78/a24062.html#acd5a9cb122cbf5a773461ce1027f28a1", null ],
+    [ "MovementInform", "d1/d78/a24062.html#af27c91388891add6d00e251bf3187743", null ],
+    [ "UpdateAI", "d1/d78/a24062.html#a93d2719bcc6a657a9a32cce06f566b19", null ],
+    [ "checkTimer", "d1/d78/a24062.html#af9e7339416ada0c3bb9829cbd8e1f5d3", null ],
+    [ "goGUID", "d1/d78/a24062.html#a5fa88e045430adea9e72a3744bf72780", null ],
+    [ "jumping", "d1/d78/a24062.html#a8486512b7594f2ce759fcb580f1baf34", null ],
+    [ "jumpTimer", "d1/d78/a24062.html#ad53a9abad41ab6a792a55b854155135d", null ]
 ];

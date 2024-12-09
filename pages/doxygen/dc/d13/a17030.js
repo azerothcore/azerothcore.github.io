@@ -1,9 +1,7 @@
 var a17030 =
 [
-    [ "CheckTarget", "dc/d13/a17030.html#a43fc6a16aca217ef043fa34a58391357", null ],
-    [ "HandlePresence", "dc/d13/a17030.html#a52ea6041c5fe004c1e996a974cc59d5d", null ],
-    [ "OnCast", "dc/d13/a17030.html#a96cec6f1b51a2c0c03f89447c5306b5a", null ],
-    [ "PrepareSpellScript", "dc/d13/a17030.html#abe559b32aa82f19abb0a6d664b75c748", null ],
-    [ "Register", "dc/d13/a17030.html#ad8c7a9935e85c06f837e694ebcaffba1", null ],
-    [ "Validate", "dc/d13/a17030.html#a2301414a88dcbf4bdc8a486ec4be994e", null ]
+    [ "OnProc", "dc/d13/a17030.html#a5b6e96abb900da33657cdbbd137138e3", null ],
+    [ "PrepareAuraScript", "dc/d13/a17030.html#a5502476536a923e77af67c4bbcf005e3", null ],
+    [ "Register", "dc/d13/a17030.html#aca08edf219504156d6157c95702bb815", null ],
+    [ "Validate", "dc/d13/a17030.html#a52b1231f37e8b3d810614365659a98b6", null ]
 ];

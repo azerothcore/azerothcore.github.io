@@ -1,14 +1,12 @@
 var a23182 =
 [
-    [ "boss_vazruden", "d3/d76/a23182.html#a9908d6082a09d55dd0d8bb801784a151", null ],
-    [ "DamageTaken", "d3/d76/a23182.html#a44b1e4d43bbf0d7faec7f4ee277db811", null ],
-    [ "EnterEvadeMode", "d3/d76/a23182.html#aba006e8e9aefe522ea5c36c638bb5c3b", null ],
-    [ "JustDied", "d3/d76/a23182.html#a525025b41b53a577bdff1eb818191ed7", null ],
-    [ "JustEngagedWith", "d3/d76/a23182.html#a5dbbe80fcfe191ac5ae03f943496ad02", null ],
-    [ "KilledUnit", "d3/d76/a23182.html#a8f430a0d7edb0285156c6bf68ba0aa07", null ],
-    [ "Reset", "d3/d76/a23182.html#a11b5091dafe2f0de9afd81de7b6fde90", null ],
-    [ "UpdateAI", "d3/d76/a23182.html#aebaf147a1a2e723cb0cb8e46f3d01e68", null ],
-    [ "_hasSpoken", "d3/d76/a23182.html#af5b9aa9c7a343486b4dc05819e8d3ccf", null ],
-    [ "_nazanCalled", "d3/d76/a23182.html#a44d53934c743e9beb539681719997852", null ],
-    [ "_scheduler", "d3/d76/a23182.html#a60382206e378c2f2c493d1ee25c4ff8c", null ]
+    [ "boss_vazruden_the_herald", "d3/d76/a23182.html#a97f761b2e3477a22cdc65c68700de72c", null ],
+    [ "AttackStart", "d3/d76/a23182.html#a190621f4130b913348a49d6dfe76b591", null ],
+    [ "JustSummoned", "d3/d76/a23182.html#a66d8c6252e6baf88144da3af57bf65a4", null ],
+    [ "MovementInform", "d3/d76/a23182.html#abd89aa3911c626864f8aada889ce99c9", null ],
+    [ "Reset", "d3/d76/a23182.html#a18076b0fd12bc9a002394d5fe3aa5f81", null ],
+    [ "SetData", "d3/d76/a23182.html#a7dcbec1c99fdf4f740656a8379a99080", null ],
+    [ "SummonedCreatureDespawn", "d3/d76/a23182.html#a7621077082a3b53d1d21265e6dd00dce", null ],
+    [ "SummonedCreatureDies", "d3/d76/a23182.html#a336feba0d88e4fccce28b2730a9aea9e", null ],
+    [ "UpdateAI", "d3/d76/a23182.html#adc98e358a751fd9881589aada4baf320", null ]
 ];

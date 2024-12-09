@@ -1,6 +1,6 @@
 var a14750 =
 [
-    [ "OnPeriodic", "d6/d25/a14750.html#a08dce8b98afadc134166a615b4496151", null ],
-    [ "PrepareAuraScript", "d6/d25/a14750.html#a9ebb34665b176e4e60f085da65183d8e", null ],
-    [ "Register", "d6/d25/a14750.html#a6a04dbb7c66324e701a8db0ee0334123", null ]
+    [ "FilterTargets", "d6/d25/a14750.html#a3ec2840ab1d853a1546c64a2d158e75f", null ],
+    [ "PrepareSpellScript", "d6/d25/a14750.html#a511e54100036307aa5d37bc959405c73", null ],
+    [ "Register", "d6/d25/a14750.html#a31d1d590f0e6fc2e56322d606961828f", null ]
 ];

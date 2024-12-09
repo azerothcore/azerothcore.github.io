@@ -1,10 +1,10 @@
 var a13758 =
 [
-    [ "npc_zealot_zath", "dc/d42/a13758.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
-    [ "JustDied", "dc/d42/a13758.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
-    [ "JustEngagedWith", "dc/d42/a13758.html#a25e059f40de51d880f4ec209ff4dd924", null ],
-    [ "Reset", "dc/d42/a13758.html#abc4e40afd644f2c89444f3fe475817c0", null ],
-    [ "UpdateAI", "dc/d42/a13758.html#a467ce2437ec112b42f864ef412c0c976", null ],
-    [ "_scheduler", "dc/d42/a13758.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
-    [ "instance", "dc/d42/a13758.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
+    [ "npc_zealot_lorkhan", "dc/d42/a13758.html#a7df2ab658c1fda0d130815581ffbae4e", null ],
+    [ "JustDied", "dc/d42/a13758.html#abda06af9ccc78763e70ebf98f0a9dc03", null ],
+    [ "JustEngagedWith", "dc/d42/a13758.html#a7cb7da94799fa1689a5f16ef33d4d874", null ],
+    [ "Reset", "dc/d42/a13758.html#abecbd4a2ea2cf3281244933fe7484239", null ],
+    [ "UpdateAI", "dc/d42/a13758.html#a68c35734f8886b2c241dcbc178899206", null ],
+    [ "_scheduler", "dc/d42/a13758.html#a50ded84f7cdb698118b406c9cfab7e5c", null ],
+    [ "instance", "dc/d42/a13758.html#aa677f42d562fa6dc90a4913eed3763c8", null ]
 ];

@@ -532,7 +532,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  283</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16aaba4eda4a83ec296459f59dff39d5f40">CHAT_MSG_BATTLENET</a>:</div>
 <div class="line"><span class="lineno">  284</span>            data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(senderName.length() + 1);</div>
 <div class="line"><span class="lineno">  285</span>            data &lt;&lt; senderName;</div>
-<div class="line"><span class="lineno">  286</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
+<div class="line"><span class="lineno">  286</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
 <div class="line"><span class="lineno">  287</span>            data &lt;&lt; receiverGUID;</div>
 <div class="line"><span class="lineno">  288</span>            <span class="keywordflow">if</span> (receiverGUID &amp;&amp; !receiverGUID.IsPlayer() &amp;&amp; !receiverGUID.IsPet())</div>
 <div class="line"><span class="lineno">  289</span>            {</div>
@@ -543,13 +543,13 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  294</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a3c24cc49122d1ed918e299231a05fabc">CHAT_MSG_WHISPER_FOREIGN</a>:</div>
 <div class="line"><span class="lineno">  295</span>            data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(senderName.length() + 1);</div>
 <div class="line"><span class="lineno">  296</span>            data &lt;&lt; senderName;</div>
-<div class="line"><span class="lineno">  297</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
+<div class="line"><span class="lineno">  297</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
 <div class="line"><span class="lineno">  298</span>            data &lt;&lt; receiverGUID;</div>
 <div class="line"><span class="lineno">  299</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  300</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16af816113678bb2f0b90a4a70b0af7a737">CHAT_MSG_BG_SYSTEM_NEUTRAL</a>:</div>
 <div class="line"><span class="lineno">  301</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a46472c6ca8e985f54e9a0758b5ee0b27">CHAT_MSG_BG_SYSTEM_ALLIANCE</a>:</div>
 <div class="line"><span class="lineno">  302</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16ac6012fbcfbbedfb058db86569ea7dd51">CHAT_MSG_BG_SYSTEM_HORDE</a>:</div>
-<div class="line"><span class="lineno">  303</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
+<div class="line"><span class="lineno">  303</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
 <div class="line"><span class="lineno">  304</span>            data &lt;&lt; receiverGUID;</div>
 <div class="line"><span class="lineno">  305</span>            <span class="keywordflow">if</span> (receiverGUID &amp;&amp; !receiverGUID.IsPlayer())</div>
 <div class="line"><span class="lineno">  306</span>            {</div>
@@ -559,7 +559,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  310</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  311</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16aa2c64d8ca1bc348eca1b73a54d648414">CHAT_MSG_ACHIEVEMENT</a>:</div>
 <div class="line"><span class="lineno">  312</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a41765ef95abc2c480a403473a4474f57">CHAT_MSG_GUILD_ACHIEVEMENT</a>:</div>
-<div class="line"><span class="lineno">  313</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
+<div class="line"><span class="lineno">  313</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
 <div class="line"><span class="lineno">  314</span>            data &lt;&lt; receiverGUID;</div>
 <div class="line"><span class="lineno">  315</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  316</span>        <span class="keywordflow">default</span>:</div>
@@ -575,7 +575,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  326</span>                data &lt;&lt; channelName;</div>
 <div class="line"><span class="lineno">  327</span>            }</div>
 <div class="line"><span class="lineno">  328</span> </div>
-<div class="line"><span class="lineno">  329</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
+<div class="line"><span class="lineno">  329</span>            receiverGUIDPos = data.<a class="code hl_function" href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>();</div>
 <div class="line"><span class="lineno">  330</span>            data &lt;&lt; receiverGUID;</div>
 <div class="line"><span class="lineno">  331</span>            <span class="keywordflow">break</span>;</div>
 <div class="line"><span class="lineno">  332</span>    }</div>
@@ -611,7 +611,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa04680_html_gga1073b6abb3a749f18bf1633020879e9ba17d60a81f9b9634fa9d70a867dccc197"><div class="ttname"><a href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba17d60a81f9b9634fa9d70a867dccc197">SMSG_GM_MESSAGECHAT</a></div><div class="ttdeci">@ SMSG_GM_MESSAGECHAT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:977</div></div>
 <div class="ttc" id="aa04680_html_gga1073b6abb3a749f18bf1633020879e9ba4c79b0cc83e509f31b580eb22f0ae116"><div class="ttname"><a href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9ba4c79b0cc83e509f31b580eb22f0ae116">SMSG_MESSAGECHAT</a></div><div class="ttdeci">@ SMSG_MESSAGECHAT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:180</div></div>
 <div class="ttc" id="aa10706_html_a6b7d58fb0230383629fa888d3aa9dbd8"><div class="ttname"><a href="../../d2/da2/a10706.html#a6b7d58fb0230383629fa888d3aa9dbd8">WorldPacket::Initialize</a></div><div class="ttdeci">void Initialize(uint16 opcode, std::size_t newres=200)</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:68</div></div>
-<div class="ttc" id="aa28070_html_a6e9aaf9195c43a9a03ee4a55c435e24f"><div class="ttname"><a href="../../db/d24/a28070.html#a6e9aaf9195c43a9a03ee4a55c435e24f">ByteBuffer::wpos</a></div><div class="ttdeci">std::size_t wpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:330</div></div>
+<div class="ttc" id="aa28078_html_a6e9aaf9195c43a9a03ee4a55c435e24f"><div class="ttname"><a href="../../db/d50/a28078.html#a6e9aaf9195c43a9a03ee4a55c435e24f">ByteBuffer::wpos</a></div><div class="ttdeci">std::size_t wpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:330</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l03200">CHAT_MSG_ACHIEVEMENT</a>, <a class="el" href="../../#l03199">CHAT_MSG_BATTLENET</a>, <a class="el" href="../../#l03189">CHAT_MSG_BG_SYSTEM_ALLIANCE</a>, <a class="el" href="../../#l03190">CHAT_MSG_BG_SYSTEM_HORDE</a>, <a class="el" href="../../#l03188">CHAT_MSG_BG_SYSTEM_NEUTRAL</a>, <a class="el" href="../../#l03169">CHAT_MSG_CHANNEL</a>, <a class="el" href="../../#l03201">CHAT_MSG_GUILD_ACHIEVEMENT</a>, <a class="el" href="../../#l03168">CHAT_MSG_MONSTER_EMOTE</a>, <a class="el" href="../../#l03165">CHAT_MSG_MONSTER_PARTY</a>, <a class="el" href="../../#l03164">CHAT_MSG_MONSTER_SAY</a>, <a class="el" href="../../#l03167">CHAT_MSG_MONSTER_WHISPER</a>, <a class="el" href="../../#l03166">CHAT_MSG_MONSTER_YELL</a>, <a class="el" href="../../#l03193">CHAT_MSG_RAID_BOSS_EMOTE</a>, <a class="el" href="../../#l03194">CHAT_MSG_RAID_BOSS_WHISPER</a>, <a class="el" href="../../#l03160">CHAT_MSG_WHISPER_FOREIGN</a>, <a class="el" href="../../#l00068">WorldPacket::Initialize()</a>, <a class="el" href="../../#l00977">SMSG_GM_MESSAGECHAT</a>, <a class="el" href="../../#l00180">SMSG_MESSAGECHAT</a>, and <a class="el" href="../../#l00330">ByteBuffer::wpos()</a>.</p>
 
@@ -1269,7 +1269,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  646</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/da8/a03302.html#a39157073e48b2e925e7227a28d1f09f9ac802fa91fadd1123dd681fb41e79ba56">SPELL_LINK_TALENT</a>:</div>
 <div class="line"><span class="lineno">  647</span>            {</div>
 <div class="line"><span class="lineno">  648</span>                <span class="comment">// talent</span></div>
-<div class="line"><span class="lineno">  649</span>                <a class="code hl_struct" href="../../d3/d29/a27974.html">TalentEntry</a> <span class="keyword">const</span>* talentEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>.LookupEntry(<span class="keywordtype">id</span>);</div>
+<div class="line"><span class="lineno">  649</span>                <a class="code hl_struct" href="../../df/d2c/a27982.html">TalentEntry</a> <span class="keyword">const</span>* talentEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>.LookupEntry(<span class="keywordtype">id</span>);</div>
 <div class="line"><span class="lineno">  650</span>                <span class="keywordflow">if</span> (!talentEntry)</div>
 <div class="line"><span class="lineno">  651</span>                    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><span class="lineno">  652</span> </div>
@@ -1280,7 +1280,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  657</span>                <span class="keywordflow">if</span> (rank &lt; 0)</div>
 <div class="line"><span class="lineno">  658</span>                    rank = 0;</div>
 <div class="line"><span class="lineno">  659</span> </div>
-<div class="line"><span class="lineno">  660</span>                <span class="keywordflow">return</span> talentEntry-&gt;<a class="code hl_variable" href="../../d3/d29/a27974.html#a96d0fd120ed3aa7fbd287d104fd87c26">RankID</a>[rank];</div>
+<div class="line"><span class="lineno">  660</span>                <span class="keywordflow">return</span> talentEntry-&gt;<a class="code hl_variable" href="../../df/d2c/a27982.html#a96d0fd120ed3aa7fbd287d104fd87c26">RankID</a>[rank];</div>
 <div class="line"><span class="lineno">  661</span>            }</div>
 <div class="line"><span class="lineno">  662</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/da8/a03302.html#a39157073e48b2e925e7227a28d1f09f9aea86b74d590ef750d18f0ea02a3a3654">SPELL_LINK_ENCHANT</a>:</div>
 <div class="line"><span class="lineno">  663</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/da8/a03302.html#a39157073e48b2e925e7227a28d1f09f9afb3878bf9e3c79264f9b24165df84919">SPELL_LINK_TRADE</a>:</div>
@@ -1289,11 +1289,11 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  666</span>            {</div>
 <div class="line"><span class="lineno">  667</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> glyph_prop_id = param1_str ? (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)atol(param1_str) : 0;</div>
 <div class="line"><span class="lineno">  668</span> </div>
-<div class="line"><span class="lineno">  669</span>                <a class="code hl_struct" href="../../d6/d60/a27730.html">GlyphPropertiesEntry</a> <span class="keyword">const</span>* glyphPropEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a>.LookupEntry(glyph_prop_id);</div>
+<div class="line"><span class="lineno">  669</span>                <a class="code hl_struct" href="../../d9/d4e/a27738.html">GlyphPropertiesEntry</a> <span class="keyword">const</span>* glyphPropEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a>.LookupEntry(glyph_prop_id);</div>
 <div class="line"><span class="lineno">  670</span>                <span class="keywordflow">if</span> (!glyphPropEntry)</div>
 <div class="line"><span class="lineno">  671</span>                    <span class="keywordflow">return</span> 0;</div>
 <div class="line"><span class="lineno">  672</span> </div>
-<div class="line"><span class="lineno">  673</span>                <span class="keywordflow">return</span> glyphPropEntry-&gt;<a class="code hl_variable" href="../../d6/d60/a27730.html#ae8c119bacf706916f331d3f316fb1347">SpellId</a>;</div>
+<div class="line"><span class="lineno">  673</span>                <span class="keywordflow">return</span> glyphPropEntry-&gt;<a class="code hl_variable" href="../../d9/d4e/a27738.html#ae8c119bacf706916f331d3f316fb1347">SpellId</a>;</div>
 <div class="line"><span class="lineno">  674</span>            }</div>
 <div class="line"><span class="lineno">  675</span>    }</div>
 <div class="line"><span class="lineno">  676</span> </div>
@@ -1309,10 +1309,10 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa03302_html_a493fba30c4b66be28baeb971844ea593"><div class="ttname"><a href="../../d5/da8/a03302.html#a493fba30c4b66be28baeb971844ea593">spellKeys</a></div><div class="ttdeci">static char const  *const spellKeys[]</div><div class="ttdef"><b>Definition:</b> Chat.cpp:617</div></div>
 <div class="ttc" id="aa03704_html_abd81359499a4a51a71b17ea8f9f7ad62"><div class="ttname"><a href="../../d7/da2/a03704.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a></div><div class="ttdeci">DBCStorage&lt; TalentEntry &gt; sTalentStore(TalentEntryfmt)</div></div>
 <div class="ttc" id="aa03704_html_acea66fa4ab7a4e45db7d27aa86a15eda"><div class="ttname"><a href="../../d7/da2/a03704.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a></div><div class="ttdeci">DBCStorage&lt; GlyphPropertiesEntry &gt; sGlyphPropertiesStore(GlyphPropertiesfmt)</div></div>
-<div class="ttc" id="aa27730_html"><div class="ttname"><a href="../../d6/d60/a27730.html">GlyphPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1020</div></div>
-<div class="ttc" id="aa27730_html_ae8c119bacf706916f331d3f316fb1347"><div class="ttname"><a href="../../d6/d60/a27730.html#ae8c119bacf706916f331d3f316fb1347">GlyphPropertiesEntry::SpellId</a></div><div class="ttdeci">uint32 SpellId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1022</div></div>
-<div class="ttc" id="aa27974_html"><div class="ttname"><a href="../../d3/d29/a27974.html">TalentEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1922</div></div>
-<div class="ttc" id="aa27974_html_a96d0fd120ed3aa7fbd287d104fd87c26"><div class="ttname"><a href="../../d3/d29/a27974.html#a96d0fd120ed3aa7fbd287d104fd87c26">TalentEntry::RankID</a></div><div class="ttdeci">std::array&lt; uint32, MAX_TALENT_RANK &gt; RankID</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1927</div></div>
+<div class="ttc" id="aa27738_html"><div class="ttname"><a href="../../d9/d4e/a27738.html">GlyphPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1020</div></div>
+<div class="ttc" id="aa27738_html_ae8c119bacf706916f331d3f316fb1347"><div class="ttname"><a href="../../d9/d4e/a27738.html#ae8c119bacf706916f331d3f316fb1347">GlyphPropertiesEntry::SpellId</a></div><div class="ttdeci">uint32 SpellId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1022</div></div>
+<div class="ttc" id="aa27982_html"><div class="ttname"><a href="../../df/d2c/a27982.html">TalentEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1922</div></div>
+<div class="ttc" id="aa27982_html_a96d0fd120ed3aa7fbd287d104fd87c26"><div class="ttname"><a href="../../df/d2c/a27982.html#a96d0fd120ed3aa7fbd287d104fd87c26">TalentEntry::RankID</a></div><div class="ttdeci">std::array&lt; uint32, MAX_TALENT_RANK &gt; RankID</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1927</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00452">extractKeyFromLink()</a>, <a class="el" href="../../#l01917">MAX_TALENT_RANK</a>, <a class="el" href="../../#l01927">TalentEntry::RankID</a>, <a class="el" href="../../d7/da2/a03704.html#acea66fa4ab7a4e45db7d27aa86a15eda">sGlyphPropertiesStore</a>, <a class="el" href="../../#l00612">SPELL_LINK_ENCHANT</a>, <a class="el" href="../../#l00614">SPELL_LINK_GLYPH</a>, <a class="el" href="../../#l00610">SPELL_LINK_SPELL</a>, <a class="el" href="../../#l00611">SPELL_LINK_TALENT</a>, <a class="el" href="../../#l00613">SPELL_LINK_TRADE</a>, <a class="el" href="../../#l01022">GlyphPropertiesEntry::SpellId</a>, <a class="el" href="../../#l00617">spellKeys</a>, and <a class="el" href="../../d7/da2/a03704.html#abd81359499a4a51a71b17ea8f9f7ad62">sTalentStore</a>.</p>
 
@@ -2041,7 +2041,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   87</span>    <span class="keywordflow">if</span> (target)</div>
 <div class="line"><span class="lineno">   88</span>        target_sec = target-&gt;<a class="code hl_function" href="../../db/d29/a10750.html#a38f29ba7dc5216093dd812cf3e7861df">GetSecurity</a>();</div>
 <div class="line"><span class="lineno">   89</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (target_account)</div>
-<div class="line"><span class="lineno">   90</span>        target_sec = <a class="code hl_function" href="../../d2/ddc/a04717.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a>(target_account, <a class="code hl_variable" href="../../d2/db6/a04681.html#gab842e78f86995775c494437356620779">realm</a>.<a class="code hl_variable" href="../../db/d50/a28078.html#ab0ccda7e7a58eee0965261767f3ee2ee">Id</a>.<a class="code hl_variable" href="../../d1/d09/a28074.html#a31af0d9064a295b1579fce3c80217bfd">Realm</a>);</div>
+<div class="line"><span class="lineno">   90</span>        target_sec = <a class="code hl_function" href="../../d2/ddc/a04717.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a>(target_account, <a class="code hl_variable" href="../../d2/db6/a04681.html#gab842e78f86995775c494437356620779">realm</a>.<a class="code hl_variable" href="../../d6/d48/a28086.html#ab0ccda7e7a58eee0965261767f3ee2ee">Id</a>.<a class="code hl_variable" href="../../da/d35/a28082.html#a31af0d9064a295b1579fce3c80217bfd">Realm</a>);</div>
 <div class="line"><span class="lineno">   91</span>    <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">   92</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;                                        <span class="comment">// caller must report error for (target == nullptr &amp;&amp; target_account == 0)</span></div>
 <div class="line"><span class="lineno">   93</span> </div>
@@ -2059,8 +2059,8 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa03317_html_a1b4b88c03b7d0124998b4c22e957baf0a14be5dd23686af6c6df2c7496364ceb5"><div class="ttname"><a href="../../d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a14be5dd23686af6c6df2c7496364ceb5">CONFIG_GM_LOWER_SECURITY</a></div><div class="ttdeci">@ CONFIG_GM_LOWER_SECURITY</div><div class="ttdef"><b>Definition:</b> IWorld.h:90</div></div>
 <div class="ttc" id="aa04681_html_gab842e78f86995775c494437356620779"><div class="ttname"><a href="../../d2/db6/a04681.html#gab842e78f86995775c494437356620779">realm</a></div><div class="ttdeci">Realm realm</div><div class="ttdef"><b>Definition:</b> World.cpp:112</div></div>
 <div class="ttc" id="aa04717_html_a8280510b2564ec6ea76727218c1687b3"><div class="ttname"><a href="../../d2/ddc/a04717.html#a8280510b2564ec6ea76727218c1687b3">AccountMgr::GetSecurity</a></div><div class="ttdeci">uint32 GetSecurity(uint32 accountId)</div><div class="ttdef"><b>Definition:</b> AccountMgr.cpp:238</div></div>
-<div class="ttc" id="aa28074_html_a31af0d9064a295b1579fce3c80217bfd"><div class="ttname"><a href="../../d1/d09/a28074.html#a31af0d9064a295b1579fce3c80217bfd">RealmHandle::Realm</a></div><div class="ttdeci">uint32 Realm</div><div class="ttdef"><b>Definition:</b> Realm.h:43</div></div>
-<div class="ttc" id="aa28078_html_ab0ccda7e7a58eee0965261767f3ee2ee"><div class="ttname"><a href="../../db/d50/a28078.html#ab0ccda7e7a58eee0965261767f3ee2ee">Realm::Id</a></div><div class="ttdeci">RealmHandle Id</div><div class="ttdef"><b>Definition:</b> Realm.h:69</div></div>
+<div class="ttc" id="aa28082_html_a31af0d9064a295b1579fce3c80217bfd"><div class="ttname"><a href="../../da/d35/a28082.html#a31af0d9064a295b1579fce3c80217bfd">RealmHandle::Realm</a></div><div class="ttdeci">uint32 Realm</div><div class="ttdef"><b>Definition:</b> Realm.h:43</div></div>
+<div class="ttc" id="aa28086_html_ab0ccda7e7a58eee0965261767f3ee2ee"><div class="ttname"><a href="../../d6/d48/a28086.html#ab0ccda7e7a58eee0965261767f3ee2ee">Realm::Id</a></div><div class="ttdeci">RealmHandle Id</div><div class="ttdef"><b>Definition:</b> Realm.h:69</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00090">CONFIG_GM_LOWER_SECURITY</a>, <a class="el" href="../../#l00359">WorldSession::GetSecurity()</a>, <a class="el" href="../../#l00238">AccountMgr::GetSecurity()</a>, <a class="el" href="../../#l00069">Realm::Id</a>, <a class="el" href="../../#l00305">AccountMgr::IsPlayerAccount()</a>, <a class="el" href="../../#l00429">LANG_YOURS_SECURITY_IS_LOW</a>, <a class="el" href="../../#l00248">m_session</a>, <a class="el" href="../../#l00112">realm</a>, <a class="el" href="../../#l00043">RealmHandle::Realm</a>, <a class="el" href="../../#l00215">SendErrorMessage()</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
 
@@ -3556,7 +3556,7 @@ template&lt;typename... Args&gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:18 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:43:58 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

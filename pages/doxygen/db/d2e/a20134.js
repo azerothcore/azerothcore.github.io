@@ -1,5 +1,5 @@
 var a20134 =
 [
-    [ "achievement_mimiron_set_up_us_the_bomb_11", "db/d2e/a20134.html#a5d8980111e029b4c9311737f3985ab61", null ],
-    [ "OnCheck", "db/d2e/a20134.html#a7682a7f2f4417dcf75ec58e34e4fd6bc", null ]
+    [ "npc_ulduar_rocket_strike_triggerAI", "db/d2e/a20134.html#a6308129d11989dadf0a5948c4a268e4b", null ],
+    [ "SpellHitTarget", "db/d2e/a20134.html#a3c254e16f62e7d2414d81062c91c2468", null ]
 ];

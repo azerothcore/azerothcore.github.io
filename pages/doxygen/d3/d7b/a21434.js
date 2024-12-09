@@ -1,6 +1,5 @@
 var a21434 =
 [
-    [ "SACDeactivateEvent", "d3/d7b/a21434.html#a14f1db2f3bf7e82d0e5c5b5135d46cf9", null ],
-    [ "Execute", "d3/d7b/a21434.html#a12179c55d1999b3cd0cfc5d51d039a31", null ],
-    [ "_owner", "d3/d7b/a21434.html#acc87b2f689bf2e6a3f19440dceb6ea6d", null ]
+    [ "at_q24545_frostmourne_cavern", "d3/d7b/a21434.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
+    [ "OnTrigger", "d3/d7b/a21434.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
 ];

@@ -1,7 +1,7 @@
 var a18710 =
 [
-    [ "HandleScript", "df/d20/a18710.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
-    [ "PrepareAuraScript", "df/d20/a18710.html#aa3053519be0101f55450d76b1291f0f7", null ],
-    [ "Register", "df/d20/a18710.html#ada596a7f19115c7178fd07fb9e956f58", null ],
-    [ "Validate", "df/d20/a18710.html#a768dec18bc0e879c457a64135ec27ad9", null ]
+    [ "FilterTargets", "df/d20/a18710.html#af92aec0df6c962a10ccbebb366081cfd", null ],
+    [ "PrepareSpellScript", "df/d20/a18710.html#ad7ccb2b2024887ec0a9802454a8bfaec", null ],
+    [ "Register", "df/d20/a18710.html#af59416debfc7685bec92541a00e1dafe", null ],
+    [ "Validate", "df/d20/a18710.html#abbe7ae557fb510457504f72adfa0aedc", null ]
 ];

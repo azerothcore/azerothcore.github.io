@@ -1,14 +1,18 @@
 var a20742 =
 [
-    [ "npc_massive_jormungarAI", "d9/d49/a20742.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "d9/d49/a20742.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "JustDied", "d9/d49/a20742.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustEngagedWith", "d9/d49/a20742.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
-    [ "JustReachedHome", "d9/d49/a20742.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "d9/d49/a20742.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "d9/d49/a20742.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "d9/d49/a20742.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "d9/d49/a20742.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "d9/d49/a20742.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "d9/d49/a20742.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "boss_palehoofAI", "d9/d49/a20742.html#aa49a4e6e2f942ab0efeb83d0fe672f9f", null ],
+    [ "DoAction", "d9/d49/a20742.html#ae94606f2b382e07cd3f4b9be48b1ca2d", null ],
+    [ "JustDied", "d9/d49/a20742.html#a1484b82afc3072d1b1fc5e2c9b0204b0", null ],
+    [ "JustEngagedWith", "d9/d49/a20742.html#abd00a0b514c11d8fa3786e1e61333138", null ],
+    [ "JustReachedHome", "d9/d49/a20742.html#aae6517c4816eb9bbc5dfe245d69edd87", null ],
+    [ "KilledUnit", "d9/d49/a20742.html#abf68aba465731a0ea7de305861ad4875", null ],
+    [ "MoveInLineOfSight", "d9/d49/a20742.html#ae969093bfb3466e332c1de7e65ceeb5d", null ],
+    [ "Reset", "d9/d49/a20742.html#a61d1cedcc30fbccbebbdc768d6a18900", null ],
+    [ "UpdateAI", "d9/d49/a20742.html#ac7da92990a0d48e418115943ba7bdd51", null ],
+    [ "Counter", "d9/d49/a20742.html#a5b8c197cd3c482d5a4d5a14f9c5019e7", null ],
+    [ "events", "d9/d49/a20742.html#a18325a2a5cca9910bf7e35a21c16400b", null ],
+    [ "m_pInstance", "d9/d49/a20742.html#abffb9efc207c98a30e1bfcf7b87fdb6d", null ],
+    [ "OrbGUID", "d9/d49/a20742.html#ab75e8eea72bde1bd15fe40e347373ab4", null ],
+    [ "RandomUnfreeze", "d9/d49/a20742.html#a02d34d4cd26706e1108c99cc0b4afbba", null ],
+    [ "summons", "d9/d49/a20742.html#a098d738ccbc2764867643bf4336c04da", null ]
 ];

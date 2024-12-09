@@ -1,6 +1,7 @@
 var a20618 =
 [
-    [ "achievement_yogg_saron_darkness", "d6/d75/a20618.html#a536c7156305d47c41a062d3c1a1b16eb", null ],
-    [ "OnCheck", "d6/d75/a20618.html#a809902fca87abaeb4334132763624ed6", null ],
-    [ "_keepersCount", "d6/d75/a20618.html#a765ec4606bb489760ed1e15db10de1dc", null ]
+    [ "HandleProc", "d6/d75/a20618.html#a1b8782a4f22522cfe224073515abdf45", null ],
+    [ "PrepareAuraScript", "d6/d75/a20618.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
+    [ "Register", "d6/d75/a20618.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
+    [ "Validate", "d6/d75/a20618.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
 ];

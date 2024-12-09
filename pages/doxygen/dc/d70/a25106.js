@@ -1,5 +1,5 @@
 var a25106 =
 [
-    [ "PrepareSpellScript", "dc/d70/a25106.html#a999d5173e12b643e0bdcefcd099f65d1", null ],
-    [ "Register", "dc/d70/a25106.html#afd92511fb578c1df33248dba5055315e", null ]
+    [ "PrepareSpellScript", "dc/d70/a25106.html#a9137654c01f41c735f477b85e4ec6d73", null ],
+    [ "Register", "dc/d70/a25106.html#af1002e90bc0801c0759393d2d4af8778", null ]
 ];

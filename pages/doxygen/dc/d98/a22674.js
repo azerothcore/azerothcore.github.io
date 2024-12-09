@@ -1,8 +1,9 @@
 var a22674 =
 [
-    [ "CalcPeriodic", "dc/d98/a22674.html#aad87c25b9b3255a4871bec39d9787299", null ],
-    [ "PrepareAuraScript", "dc/d98/a22674.html#a7494c41e41ffc55811c57208f80c7eb6", null ],
-    [ "Register", "dc/d98/a22674.html#acce25abc58a29dfe5a5287a8b00242ae", null ],
-    [ "Update", "dc/d98/a22674.html#a4e2a5a2d666419ccbb0ca71670332b8c", null ],
-    [ "Validate", "dc/d98/a22674.html#ae4f7bfb1cd95666acada217173876352", null ]
+    [ "HandleEffectApply", "dc/d98/a22674.html#aca8ff864832d30e45bccfca12256560a", null ],
+    [ "HandleEffectRemove", "dc/d98/a22674.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
+    [ "Load", "dc/d98/a22674.html#a3b9838f26673ce344ca40f9f487ef878", null ],
+    [ "PrepareAuraScript", "dc/d98/a22674.html#a79b93c86a01d31d08cba15436856b794", null ],
+    [ "Register", "dc/d98/a22674.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
+    [ "_turtleSet", "dc/d98/a22674.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
 ];

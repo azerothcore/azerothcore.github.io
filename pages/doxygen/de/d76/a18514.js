@@ -1,5 +1,5 @@
 var a18514 =
 [
-    [ "creatureEntry", "de/d76/a18514.html#afab12c40af70303dff2a9553d47dbb7d", null ],
-    [ "questId", "de/d76/a18514.html#ace2a7dd58d442b6afb2173311c89593b", null ]
+    [ "at_frozen_throne_teleport", "de/d76/a18514.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "de/d76/a18514.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

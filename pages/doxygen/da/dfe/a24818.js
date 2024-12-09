@@ -1,7 +1,7 @@
 var a24818 =
 [
-    [ "HandleStun", "da/dfe/a24818.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
-    [ "PrepareAuraScript", "da/dfe/a24818.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
-    [ "Register", "da/dfe/a24818.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
-    [ "Validate", "da/dfe/a24818.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
+    [ "HandleDummy", "da/dfe/a24818.html#a9037eddf4c9ce96c15c57e8906bd9a5f", null ],
+    [ "Load", "da/dfe/a24818.html#a738318535196b3d55e8f1b3da4f76c95", null ],
+    [ "PrepareSpellScript", "da/dfe/a24818.html#a941a097124ed9b4917faa18ff23fc366", null ],
+    [ "Register", "da/dfe/a24818.html#aaf9d269e7d052515f31b463999e92cf4", null ]
 ];

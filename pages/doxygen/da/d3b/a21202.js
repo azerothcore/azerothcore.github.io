@@ -1,7 +1,9 @@
 var a21202 =
 [
-    [ "npc_valiance_keep_cannoneerAI", "da/d3b/a21202.html#a0769e975c5c7ff1cfbfa6089e3e55e3f", null ],
-    [ "Reset", "da/d3b/a21202.html#a65718076e65b68cae0a54ff4112fdb4b", null ],
-    [ "UpdateAI", "da/d3b/a21202.html#a75f16f2b028ca341db6e08536be06bfa", null ],
-    [ "uiTimer", "da/d3b/a21202.html#a0cf5f0413b1cded835252a38e272f835", null ]
+    [ "npc_bonker_togglevoltAI", "da/d3b/a21202.html#adfd43a6a804a35e235262e55f0155ffe", null ],
+    [ "JustDied", "da/d3b/a21202.html#a5ac6e89ad9ad3d3d69a87f7b9dc4026f", null ],
+    [ "Reset", "da/d3b/a21202.html#a13efa2a2a0c5c796b3fd9f36a54ce523", null ],
+    [ "UpdateEscortAI", "da/d3b/a21202.html#a9bf17d7ec59d800955c131dbe14a31d8", null ],
+    [ "WaypointReached", "da/d3b/a21202.html#a06dc6c018d52f1cd1b2c7f76dbda3a2d", null ],
+    [ "Bonker_agro", "da/d3b/a21202.html#a395e6e14f03cb0ecfe70348cc148d7ef", null ]
 ];

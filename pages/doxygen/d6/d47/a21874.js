@@ -1,11 +1,13 @@
 var a21874 =
 [
-    [ "npc_iron_watcherAI", "d6/d47/a21874.html#a5f0c3d759dfba81cb2010d2a0b479909", null ],
-    [ "MovementInform", "d6/d47/a21874.html#aaf329f0160efa778abdebf86b1cf230b", null ],
-    [ "Reset", "d6/d47/a21874.html#a878f26cd41ccb9d777f9db00e2e30568", null ],
-    [ "SpellHit", "d6/d47/a21874.html#afce7cebdb4a49d9e5618ac211b235c6b", null ],
-    [ "UpdateAI", "d6/d47/a21874.html#a50391c9950fbbaf170600f13bab1e6bb", null ],
-    [ "charging", "d6/d47/a21874.html#af5be6fc6d7d234cfd2ac78f636b0ad7c", null ],
-    [ "hpTimer", "d6/d47/a21874.html#afcbb113387345361baf0351a19e6eb1d", null ],
-    [ "spellTimer", "d6/d47/a21874.html#a9bcd8d80b0a74c7abf0fc8b3bb32aa30", null ]
+    [ "npc_frosthoundAI", "d6/d47/a21874.html#ac8f41789568399318cdc30292abfd93b", null ],
+    [ "AttackStart", "d6/d47/a21874.html#a0278736f670f5aac069b03530f441ae1", null ],
+    [ "EnterEvadeMode", "d6/d47/a21874.html#acc1a3842ddae670e23d8c55e8768ace9", null ],
+    [ "JustDied", "d6/d47/a21874.html#a26f4657c1d373cf4a2b45f6487a9e901", null ],
+    [ "JustEngagedWith", "d6/d47/a21874.html#a80eec4a19fb53be5946b2e021b8dd332", null ],
+    [ "JustSummoned", "d6/d47/a21874.html#a8db3dbace66dabfa54800cacbfdfab9b", null ],
+    [ "OnCharmed", "d6/d47/a21874.html#ae1e2a4763e8bfc8ab04687829830c639", null ],
+    [ "PassengerBoarded", "d6/d47/a21874.html#aea512a9811ec0766b9b175ec2ca9a447", null ],
+    [ "UpdateAI", "d6/d47/a21874.html#a9a755fd6d53d124c441357472fcb73e0", null ],
+    [ "WaypointReached", "d6/d47/a21874.html#aa87f8d5bbbd105481773941a90a96cf6", null ]
 ];

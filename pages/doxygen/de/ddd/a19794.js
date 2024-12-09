@@ -1,6 +1,5 @@
 var a19794 =
 [
-    [ "boss_hodirAI", "d0/d0d/a19798.html", "d0/d0d/a19798" ],
-    [ "boss_hodir", "de/ddd/a19794.html#a5740f489f57380d2633a8ee5a18de339", null ],
-    [ "GetAI", "de/ddd/a19794.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
+    [ "go_ulduar_pure_saronite_deposit", "de/ddd/a19794.html#a39da51a78b9f27392ed7494e18e89b93", null ],
+    [ "OnGossipHello", "de/ddd/a19794.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
 ];

@@ -1,7 +1,11 @@
 var a15826 =
 [
-    [ "HandleDummy", "d3/dd9/a15826.html#a687cff5dcfcd7d9253182eb604d7a780", null ],
-    [ "PrepareSpellScript", "d3/dd9/a15826.html#ab8544e2c9e3bea229abd270c108bfa14", null ],
-    [ "Register", "d3/dd9/a15826.html#a144224b42aabc0402b729dcc808d779d", null ],
-    [ "Validate", "d3/dd9/a15826.html#a985e843e856a7322bccf8544c45df48c", null ]
+    [ "boss_saviana_ragefireAI", "d3/dd9/a15826.html#ab4fa6a2cc57c9d110bfd3cf16a016942", null ],
+    [ "JustDied", "d3/dd9/a15826.html#a30331f9cdb141cd2dbc043888b48a6eb", null ],
+    [ "JustEngagedWith", "d3/dd9/a15826.html#a458eb370872c20441b5ec6ecd2c97500", null ],
+    [ "JustReachedHome", "d3/dd9/a15826.html#a74abf893a37874eb98aa5ba9883e8d62", null ],
+    [ "KilledUnit", "d3/dd9/a15826.html#ac07513681c72d6748246cc7c349d117c", null ],
+    [ "MovementInform", "d3/dd9/a15826.html#aed4c70f571586c8cbcc044c01bdc472d", null ],
+    [ "Reset", "d3/dd9/a15826.html#a4b7f103331c566cbf007a075161505af", null ],
+    [ "UpdateAI", "d3/dd9/a15826.html#af36ca2a359f950a10214d07aad240324", null ]
 ];

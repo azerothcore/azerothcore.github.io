@@ -1,6 +1,6 @@
 var a19718 =
 [
-    [ "boss_freya_nature_bombAI", "d5/d8d/a19722.html", "d5/d8d/a19722" ],
-    [ "boss_freya_nature_bomb", "d2/dbb/a19718.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
-    [ "GetAI", "d2/dbb/a19718.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
+    [ "boss_freya_summonsAI", "d5/d8d/a19722.html", "d5/d8d/a19722" ],
+    [ "boss_freya_summons", "d2/dbb/a19718.html#a3445ed89967cc9a610472f18e862ecd4", null ],
+    [ "GetAI", "d2/dbb/a19718.html#ac68f231c37c61d262d6c16bc87a0f1c7", null ]
 ];

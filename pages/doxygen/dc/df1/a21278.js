@@ -1,5 +1,7 @@
 var a21278 =
 [
-    [ "npc_steam_powered_auctioneerAI", "dc/df1/a21278.html#a5ef3dfd385ee3e5a49bd5c0e165103fc", null ],
-    [ "CanBeSeen", "dc/df1/a21278.html#a3352588abda326f7c72d0764a3f53370", null ]
+    [ "npc_warmage_violetstand", "dc/df1/a21278.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
+    [ "Reset", "dc/df1/a21278.html#a99015610597f43f184cc686c9fab2fa9", null ],
+    [ "UpdateAI", "dc/df1/a21278.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
+    [ "targetGUID", "dc/df1/a21278.html#a46560aa7aa90778967a79c931a81721b", null ]
 ];

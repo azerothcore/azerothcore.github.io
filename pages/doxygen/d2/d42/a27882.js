@@ -1,7 +1,5 @@
 var a27882 =
 [
-    [ "EpicPropertiesPoints", "d2/d42/a27882.html#a35dc60a15091357e03032226621340f7", null ],
-    [ "itemLevel", "d2/d42/a27882.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
-    [ "RarePropertiesPoints", "d2/d42/a27882.html#a9359171635ef3e9a0029820fad286368", null ],
-    [ "UncommonPropertiesPoints", "d2/d42/a27882.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
+    [ "Exp", "d2/d42/a27882.html#aa34490babd6ccdc45857947db3f36d60", null ],
+    [ "id", "d2/d42/a27882.html#abe177efe7ea9d1d1ae8e7d09655c7193", null ]
 ];

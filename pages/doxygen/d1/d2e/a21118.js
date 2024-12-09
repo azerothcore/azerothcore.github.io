@@ -1,6 +1,6 @@
 var a21118 =
 [
-    [ "npc_sinkhole_kill_creditAI", "de/def/a21122.html", "de/def/a21122" ],
-    [ "npc_sinkhole_kill_credit", "d1/d2e/a21118.html#a627d01aaaa3408986f2b4d171624e680", null ],
-    [ "GetAI", "d1/d2e/a21118.html#a4d734432f132bea2c4525d049fbcfa67", null ]
+    [ "npc_violet_hold_defense_system", "d1/d2e/a21118.html#abb5eb275e803201aad3010ad77aa4b41", null ],
+    [ "Reset", "d1/d2e/a21118.html#a77925ae6097f7a52d446ee20bbb3de62", null ],
+    [ "UpdateAI", "d1/d2e/a21118.html#ab39bc3da2d7ce33be1e27cd48fc16e89", null ]
 ];

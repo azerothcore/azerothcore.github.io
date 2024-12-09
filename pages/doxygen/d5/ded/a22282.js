@@ -1,8 +1,8 @@
 var a22282 =
 [
-    [ "FilterTargets", "d5/ded/a22282.html#a9e0a72530a8dc764269e8df6d9d1ed3d", null ],
-    [ "HandleDummyHitTarget", "d5/ded/a22282.html#ae892090a9bd48aa447224c9f96801d37", null ],
-    [ "PrepareSpellScript", "d5/ded/a22282.html#af08ab4fcc3705b07e89ed222794e70e9", null ],
-    [ "Register", "d5/ded/a22282.html#aeb1aad59b6b4767a63660c5fe0277392", null ],
-    [ "Validate", "d5/ded/a22282.html#a5a87a7c18a55caf5288b8ca8bbd2f361", null ]
+    [ "boss_darkweaver_syth", "d5/ded/a22282.html#a4f719165e07206c5a378412b3f82ff86", null ],
+    [ "JustDied", "d5/ded/a22282.html#adf7e44e3fdc7241baa5f9eddafcb6d40", null ],
+    [ "JustEngagedWith", "d5/ded/a22282.html#aaf6dab75e66734e930c5732749f3d69a", null ],
+    [ "KilledUnit", "d5/ded/a22282.html#a1904c2596dd455f84625974beec4a2c8", null ],
+    [ "Reset", "d5/ded/a22282.html#a484a6dea12ca9e5a20f0a0761461c1f5", null ]
 ];

@@ -1,9 +1,6 @@
 var a16590 =
 [
-    [ "npc_hor_lumbering_abominationAI", "d8/d48/a16590.html#acc1e6e72aee030ebf2d0daa50f880f60", null ],
-    [ "JustDied", "d8/d48/a16590.html#af243a79da3028d3d66facc8a15132f78", null ],
-    [ "JustEngagedWith", "d8/d48/a16590.html#a83d0add807b5d9647328b89fed8e9bc4", null ],
-    [ "Reset", "d8/d48/a16590.html#a4270f405bbade0028fce4df0655a1987", null ],
-    [ "UpdateAI", "d8/d48/a16590.html#a995d0f7902cb70280d1448ac7731a816", null ],
-    [ "events", "d8/d48/a16590.html#aee9063950477b50e38ec904e91882689", null ]
+    [ "npc_hor_lumbering_abominationAI", "d8/d9e/a16594.html", "d8/d9e/a16594" ],
+    [ "npc_hor_lumbering_abomination", "d8/d48/a16590.html#a0d394d1ba52a05a6db0ae983daea7123", null ],
+    [ "GetAI", "d8/d48/a16590.html#a0601ac0af85e545617013846c48de29a", null ]
 ];

@@ -1,7 +1,10 @@
 var a21186 =
 [
-    [ "npc_mootoo_the_youngerAI", "d9/dd0/a21186.html#a70a5a502dab9a90a790a90eabc5c3acd", null ],
-    [ "JustDied", "d9/dd0/a21186.html#a766612f646a6d22d3f0e6f93298e34bc", null ],
-    [ "Reset", "d9/dd0/a21186.html#a04624b9b4d552d6b27308edc3ad44644", null ],
-    [ "WaypointReached", "d9/dd0/a21186.html#ac758a992ed0d62a272930c84d617b348", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "d9/dd0/a21186.html#a0a8159a84689dbfd8c69ed523ce03817", null ],
+    [ "GotStinged", "d9/dd0/a21186.html#a0729c584c3b65e5f25f4445de378f0ea", null ],
+    [ "JustEngagedWith", "d9/dd0/a21186.html#a2f3e45b3f762ede62aa94a6ae3f2909f", null ],
+    [ "Reset", "d9/dd0/a21186.html#aedc82ee3bfa193a838d5af62533e19b4", null ],
+    [ "SpellHit", "d9/dd0/a21186.html#a2010b53b3a8ad1e0aa6ecb5a26c8b6c9", null ],
+    [ "UpdateAI", "d9/dd0/a21186.html#a21def23073eeec051c1c97a813e0ea84", null ],
+    [ "rebuff", "d9/dd0/a21186.html#ac83c25091fdd3c7876a88927b758261f", null ]
 ];

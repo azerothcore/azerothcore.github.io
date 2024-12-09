@@ -1,6 +1,6 @@
 var a20002 =
 [
-    [ "FilterTargets", "dc/d15/a20002.html#ae8d940a89be9b63286911bd55dcd3844", null ],
-    [ "PrepareSpellScript", "dc/d15/a20002.html#a8f4b4d82e53c8f820b620896478681a9", null ],
-    [ "Register", "dc/d15/a20002.html#a744d5cb8de927410ab1bf72008fff8b3", null ]
+    [ "OnRemoveStun", "dc/d15/a20002.html#a67aeca34d32c43ff647dc2dbe83cbb7f", null ],
+    [ "PrepareAuraScript", "dc/d15/a20002.html#a0be1d9a7dcba0bff75d59aed926efe55", null ],
+    [ "Register", "dc/d15/a20002.html#a3166cfcd2acdcd4460217503d4008367", null ]
 ];

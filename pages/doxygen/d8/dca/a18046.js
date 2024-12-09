@@ -1,6 +1,6 @@
 var a18046 =
 [
-    [ "npc_lk_wicked_spiritAI", "da/d7d/a18050.html", "da/d7d/a18050" ],
-    [ "npc_lk_wicked_spirit", "d8/dca/a18046.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
-    [ "GetAI", "d8/dca/a18046.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
+    [ "ActivateSpirit", "d8/dca/a18046.html#ae5c9f8e693a98c828e0e922870552952", null ],
+    [ "PrepareSpellScript", "d8/dca/a18046.html#aa55f0fe4e27520b8a7ae1bb0f810838d", null ],
+    [ "Register", "d8/dca/a18046.html#a2b1d27e93a879681098a83d17c4d686a", null ]
 ];

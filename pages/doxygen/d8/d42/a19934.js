@@ -1,6 +1,6 @@
 var a19934 =
 [
-    [ "boss_ignisAI", "d4/d55/a19938.html", "d4/d55/a19938" ],
-    [ "boss_ignis", "d8/d42/a19934.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
-    [ "GetAI", "d8/d42/a19934.html#ac11ff148e9cbc985875f859268a3de01", null ]
+    [ "npc_ulduar_iron_constructAI", "d4/d55/a19938.html", "d4/d55/a19938" ],
+    [ "npc_ulduar_iron_construct", "d8/d42/a19934.html#a56ddf4d4d290dbb15303419c1dab18da", null ],
+    [ "GetAI", "d8/d42/a19934.html#a7d46ba96b6f1968e35721d45c17b1a49", null ]
 ];

@@ -1,6 +1,6 @@
 var a17358 =
 [
-    [ "boss_lady_deathwhisperAI", "d6/dae/a17362.html", "d6/dae/a17362" ],
-    [ "boss_lady_deathwhisper", "d7/da2/a17358.html#a979411cb834611b1239f3bf9058d316d", null ],
-    [ "GetAI", "d7/da2/a17358.html#ac0b86fee1e2e9dbf794ed1b53aab11d2", null ]
+    [ "DaranavanMoveEvent", "d7/da2/a17358.html#add38d87b9108c09aa9b9fd60f12abcde", null ],
+    [ "Execute", "d7/da2/a17358.html#ada0ebc4a9c9f949dd0155a554a553543", null ],
+    [ "_darnavan", "d7/da2/a17358.html#a7585edb957755efbc6064f232d50ea4e", null ]
 ];

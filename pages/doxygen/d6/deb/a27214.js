@@ -1,6 +1,7 @@
 var a27214 =
 [
-    [ "npc_steam_tonkAI", "d9/d09/a27218.html", "d9/d09/a27218" ],
-    [ "npc_steam_tonk", "d6/deb/a27214.html#a19731e7f1bc6fe0220e8c28619ff7c50", null ],
-    [ "GetAI", "d6/deb/a27214.html#a38e51485a3610a204a45677fce15c943", null ]
+    [ "npc_guardianAI", "d6/deb/a27214.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
+    [ "JustEngagedWith", "d6/deb/a27214.html#a50257f80245bc59437e53083badcb056", null ],
+    [ "Reset", "d6/deb/a27214.html#a217df9bae079f56ffd70d27958fb2756", null ],
+    [ "UpdateAI", "d6/deb/a27214.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
 ];

@@ -1,6 +1,7 @@
 var a21458 =
 [
-    [ "npc_q24545_vegard_dummyAI", "d8/d47/a21458.html#ad354ccbe97b12f8df1186de4bf52bfcc", null ],
-    [ "UpdateAI", "d8/d47/a21458.html#aa31baac9ce3c4c951f93917b88390797", null ],
-    [ "done", "d8/d47/a21458.html#a0208fbae8e6c46d0671107530279c50c", null ]
+    [ "FilterTargets", "d8/d47/a21458.html#af62588a225f0b701a0f9321677ae22b8", null ],
+    [ "HandleScript", "d8/d47/a21458.html#ad68fad08b2613de096e504bb7dea61cd", null ],
+    [ "PrepareSpellScript", "d8/d47/a21458.html#a76ac3fe280585a4e2b2d599b4bcc7846", null ],
+    [ "Register", "d8/d47/a21458.html#a8fdbf1c7ab67c0ef094d738ec9a169d8", null ]
 ];

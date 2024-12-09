@@ -1,7 +1,6 @@
 var a15254 =
 [
-    [ "npc_toogaAI", "da/d94/a15258.html", "da/d94/a15258" ],
-    [ "npc_tooga", "db/d8c/a15254.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
-    [ "GetAI", "db/d8c/a15254.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
-    [ "OnQuestAccept", "db/d8c/a15254.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
+    [ "npc_stone_watcher_of_norgannon", "db/d8c/a15254.html#aa838e060c8ef6d7d85981c718328d9ef", null ],
+    [ "OnGossipHello", "db/d8c/a15254.html#a00f526b1b17b68f31a86e892e0997856", null ],
+    [ "OnGossipSelect", "db/d8c/a15254.html#a5b79ebae097266ec4e1a0e3dfaa87da5", null ]
 ];

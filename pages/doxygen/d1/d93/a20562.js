@@ -1,7 +1,7 @@
 var a20562 =
 [
-    [ "FilterTargets", "d1/d93/a20562.html#a4e27a01b87e6f003ed52da45a4bda403", null ],
-    [ "HandleDummyEffect", "d1/d93/a20562.html#abfe7ff12346d54fe3a0c1450897e58ee", null ],
-    [ "PrepareSpellScript", "d1/d93/a20562.html#a0c31912e28eaa5922edb1ca4c7689883", null ],
-    [ "Register", "d1/d93/a20562.html#a337cdb940a2001ac370768b02126d3c0", null ]
+    [ "OnApply", "d1/d93/a20562.html#a7dd5b6217db77373dfba5958a2376ff1", null ],
+    [ "OnRemove", "d1/d93/a20562.html#a39510971a0e1dbd800efc37c2e09c74f", null ],
+    [ "PrepareAuraScript", "d1/d93/a20562.html#a35c1e8f81229565e5d333ec42aa2e92c", null ],
+    [ "Register", "d1/d93/a20562.html#a27fdfe00e5201b6472a282f4589a66cc", null ]
 ];

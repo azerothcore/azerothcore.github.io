@@ -1,9 +1,8 @@
 var a21094 =
 [
-    [ "npc_azure_sorcerorAI", "d0/de7/a21094.html#a474a7144908d4820341dc56f77436b90", null ],
-    [ "Reset", "d0/de7/a21094.html#a4c637288f79e1da4bdace6516cd887b1", null ],
-    [ "UpdateAI", "d0/de7/a21094.html#a928d789e2cbd35b228857a23c4204ea1", null ],
-    [ "uiArcaneStreamTimer", "d0/de7/a21094.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
-    [ "uiArcaneStreamTimerStartingValueHolder", "d0/de7/a21094.html#af044879e8e064e28a491c87d0c6cde74", null ],
-    [ "uiManaDetonationTimer", "d0/de7/a21094.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
+    [ "npc_azure_captainAI", "d0/de7/a21094.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
+    [ "Reset", "d0/de7/a21094.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
+    [ "UpdateAI", "d0/de7/a21094.html#ae50ac21138e12be43caa93e37062051e", null ],
+    [ "uiMortalStrikeTimer", "d0/de7/a21094.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
+    [ "uiWhirlwindTimer", "d0/de7/a21094.html#a2e3439976a6e84a60be765cb0b929798", null ]
 ];

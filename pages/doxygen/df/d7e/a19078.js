@@ -1,6 +1,7 @@
 var a19078 =
 [
-    [ "HandleDamageCalc", "df/d7e/a19078.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
-    [ "PrepareSpellScript", "df/d7e/a19078.html#a754da297cd5801616e24bf2d802d0b38", null ],
-    [ "Register", "df/d7e/a19078.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
+    [ "HandleProc", "df/d7e/a19078.html#a84255cd31ebaa7c70de93d569258c709", null ],
+    [ "PrepareAuraScript", "df/d7e/a19078.html#a8d9c8122b105b28b88c4297d3a9acf7f", null ],
+    [ "Register", "df/d7e/a19078.html#a6bc166d2e1455537fa78c4223da17746", null ],
+    [ "Validate", "df/d7e/a19078.html#ab38bde2ed642dcf4fda1893a131aa6fe", null ]
 ];

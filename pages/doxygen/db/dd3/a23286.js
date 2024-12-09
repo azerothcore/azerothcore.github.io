@@ -1,7 +1,7 @@
 var a23286 =
 [
-    [ "HandleOnApply", "db/dd3/a23286.html#a4d14f81325ecd0bde345d60a135ad8ba", null ],
-    [ "HandleOnRemove", "db/dd3/a23286.html#aed5f87523c58d94c8f98b76c06abb140", null ],
-    [ "PrepareAuraScript", "db/dd3/a23286.html#ab32413873bec92540f9e85e8013b7ea2", null ],
-    [ "Register", "db/dd3/a23286.html#a0653d8688f98822580a3243a0d47c17a", null ]
+    [ "FilterTargets", "db/dd3/a23286.html#a834163302ff10875227806d7d4945988", null ],
+    [ "HandleScriptEffect", "db/dd3/a23286.html#a5dd125da7dd46e2d81ab5e0f10bc00c3", null ],
+    [ "PrepareSpellScript", "db/dd3/a23286.html#a079e72d57550e03956088b4be1d11422", null ],
+    [ "Register", "db/dd3/a23286.html#abd4e0f268652652d3828ba8d350de849", null ]
 ];

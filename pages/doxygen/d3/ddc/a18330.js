@@ -1,8 +1,6 @@
 var a18330 =
 [
-    [ "CountTargets", "d3/ddc/a18330.html#a3000d234134bb3d4b2e17fd1eff8f4f0", null ],
-    [ "HandleScript", "d3/ddc/a18330.html#af058a0c458463bdba4a4eb73aa91c113", null ],
-    [ "PrepareSpellScript", "d3/ddc/a18330.html#a83b2fad7cdc189a17129e25a015952ff", null ],
-    [ "Register", "d3/ddc/a18330.html#af5e214ab418ca05ddd637c83d7a7e71a", null ],
-    [ "Validate", "d3/ddc/a18330.html#a63e8e899cb1469dca26cd5fa34b85408", null ]
+    [ "HandleEvent", "d3/ddc/a18330.html#a7936a64a1142a47b2addfd746dccfcef", null ],
+    [ "PrepareSpellScript", "d3/ddc/a18330.html#a00e2be07131c674558d0364df98849ab", null ],
+    [ "Register", "d3/ddc/a18330.html#a89364583504d2eaa75473586850bc3d5", null ]
 ];

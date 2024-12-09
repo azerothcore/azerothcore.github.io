@@ -1,8 +1,9 @@
 var a21526 =
 [
-    [ "npc_ravenous_worgAI", "d6/dce/a21526.html#a5404516869e171c84b774f2a7b8be15d", null ],
-    [ "AttackStart", "d6/dce/a21526.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
-    [ "UpdateAI", "d6/dce/a21526.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
-    [ "_attack", "d6/dce/a21526.html#a3df5c98821ba33a40e25e7b050858b96", null ],
-    [ "_pacified", "d6/dce/a21526.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
+    [ "npc_mrfloppyAI", "d6/dce/a21526.html#a2994e5658035bb2cfe6f3cdab4c507fc", null ],
+    [ "EnterEvadeMode", "d6/dce/a21526.html#af0f11f715cac553c772c0dca7e5e3a22", null ],
+    [ "JustEngagedWith", "d6/dce/a21526.html#a490bf07de00cc5c59b5f0024317d8125", null ],
+    [ "MoveInLineOfSight", "d6/dce/a21526.html#af0b376c5f10b6cb43f3bb63376012a0d", null ],
+    [ "Reset", "d6/dce/a21526.html#ac2dc6204b0579e1aaf7e670f0fcb4ec5", null ],
+    [ "UpdateAI", "d6/dce/a21526.html#afad6db1ccd903fd18192f832a10a32f4", null ]
 ];

@@ -1,6 +1,7 @@
 var a16146 =
 [
-    [ "boss_jaraxxusAI", "d4/d00/a16150.html", "d4/d00/a16150" ],
-    [ "boss_jaraxxus", "d4/d27/a16146.html#a82cf0601aa16893d88d9b669a6d1fc72", null ],
-    [ "GetAI", "d4/d27/a16146.html#a518f7af9f86ab995e5195175b5a34bc6", null ]
+    [ "HandleDispel", "d4/d27/a16146.html#a7b24f38bbb7813826520f928b22d30aa", null ],
+    [ "PrepareAuraScript", "d4/d27/a16146.html#a0e0424bd590cfc4f85f40728bf6efd22", null ],
+    [ "Register", "d4/d27/a16146.html#a2bf6921550da3c13730fd98bded2c927", null ],
+    [ "Validate", "d4/d27/a16146.html#ad8b0bb389d232c74acf106b711414fa1", null ]
 ];

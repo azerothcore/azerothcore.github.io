@@ -1,8 +1,6 @@
 var a20542 =
 [
-    [ "OnApply", "d8/d85/a20542.html#a3046fa845b6763c5602ca7b50aefd68f", null ],
-    [ "OnRemove", "d8/d85/a20542.html#ad3f482f9fff9798cc6e7a06183344742", null ],
-    [ "PrepareAuraScript", "d8/d85/a20542.html#ab830a7a6c5ed432f8718071345c99b57", null ],
-    [ "Register", "d8/d85/a20542.html#ac83a8d085d02feec64b6012cacb60dce", null ],
-    [ "Validate", "d8/d85/a20542.html#a69a3e0a6c06e3c4085bf0ad25e40edf9", null ]
+    [ "boss_yoggsaron_voiceAI", "d2/d9e/a20546.html", "d2/d9e/a20546" ],
+    [ "boss_yoggsaron_voice", "d8/d85/a20542.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "d8/d85/a20542.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

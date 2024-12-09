@@ -1,5 +1,6 @@
 var a19726 =
 [
-    [ "achievement_freya_getting_back_to_nature", "d1/d41/a19726.html#aa4078b573a9335fc52c9b9609590b12f", null ],
-    [ "OnCheck", "d1/d41/a19726.html#a850a32450379284784f019a5eb5ff0ff", null ]
+    [ "boss_freya_nature_bombAI", "d3/dff/a19730.html", "d3/dff/a19730" ],
+    [ "boss_freya_nature_bomb", "d1/d41/a19726.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
+    [ "GetAI", "d1/d41/a19726.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
 ];

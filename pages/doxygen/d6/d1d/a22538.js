@@ -1,12 +1,12 @@
 var a22538 =
 [
-    [ "boss_essence_of_desireAI", "d6/d1d/a22538.html#a02f6dec07038297c15c264fb501b01ab", null ],
-    [ "DamageTaken", "d6/d1d/a22538.html#abc2d334c185f519230e5ee4d1fc8ff39", null ],
-    [ "DoAction", "d6/d1d/a22538.html#ad55459d8e75f34783c1516be05cbb97f", null ],
-    [ "JustEngagedWith", "d6/d1d/a22538.html#a0976078399b2190cca25aa2ae5c3c201", null ],
-    [ "KilledUnit", "d6/d1d/a22538.html#a07509843bd658e3fc0b02cb817da37e9", null ],
-    [ "MovementInform", "d6/d1d/a22538.html#ad65068c5f56db269b4dc711745f96cfb", null ],
-    [ "Reset", "d6/d1d/a22538.html#a5c785c728d201a1a4f8f1e01d7000166", null ],
-    [ "UpdateAI", "d6/d1d/a22538.html#af348a1b996a8e7704ba55185ef79fe7d", null ],
-    [ "_recentlySpoken", "d6/d1d/a22538.html#a6507c0da056a74d961d28e96120cd676", null ]
+    [ "boss_essence_of_sufferingAI", "d6/d1d/a22538.html#a98de7f0b7d12d0981854129cbeab0d0d", null ],
+    [ "DamageTaken", "d6/d1d/a22538.html#a347ef26e4ecdc83ca80c9fd9a93bd97d", null ],
+    [ "DoAction", "d6/d1d/a22538.html#a08724d74523866969b12d13846eb4c1e", null ],
+    [ "JustEngagedWith", "d6/d1d/a22538.html#aa2fce36768ad6e23a955cd215ca759db", null ],
+    [ "KilledUnit", "d6/d1d/a22538.html#a3699b19f23cf15115ff8c92691a6d334", null ],
+    [ "MovementInform", "d6/d1d/a22538.html#a4ff66e57277bc3bc6e8d2fb8bc585cd7", null ],
+    [ "Reset", "d6/d1d/a22538.html#affa55b69784d8f881598189c361c986e", null ],
+    [ "UpdateAI", "d6/d1d/a22538.html#abb60432720b3720832ccc83d454a3808", null ],
+    [ "_recentlySpoken", "d6/d1d/a22538.html#a71a28a61e97f6278836649411493484f", null ]
 ];

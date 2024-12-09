@@ -1,5 +1,6 @@
 var a22022 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "d2/dab/a22022.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "d2/dab/a22022.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "HandlePeriodicDummy", "d2/dab/a22022.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
+    [ "PrepareAuraScript", "d2/dab/a22022.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
+    [ "Register", "d2/dab/a22022.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
 ];

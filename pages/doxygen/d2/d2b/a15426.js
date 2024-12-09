@@ -1,11 +1,14 @@
 var a15426 =
 [
-    [ "npc_amanitar_mushrooms", "d2/d2b/a15426.html#ad5603426c71c107ff439cea2efeea3f9", null ],
-    [ "AttackStart", "d2/d2b/a15426.html#a0cc90c924a12a8be32c78e76ca798943", null ],
-    [ "DamageTaken", "d2/d2b/a15426.html#a4c21a448535e1fc0f0116257194b9732", null ],
-    [ "EnterEvadeMode", "d2/d2b/a15426.html#ae17ee367c9d206868c7dfc64d438806a", null ],
-    [ "JustEngagedWith", "d2/d2b/a15426.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
-    [ "Reset", "d2/d2b/a15426.html#ae597d5a64765f5304773f9a38e9c719a", null ],
-    [ "UpdateAI", "d2/d2b/a15426.html#ae71058353be43935aa45eb28eb41170f", null ],
-    [ "events", "d2/d2b/a15426.html#a0be93d15582a5511963721510652e76d", null ]
+    [ "boss_amanitar", "d2/d2b/a15426.html#a660bdf8dd64bbffda4ee1ec603c41402", null ],
+    [ "EnterEvadeMode", "d2/d2b/a15426.html#a6b3cf0ea01ce34b4281116ca8387732d", null ],
+    [ "ExecuteEvent", "d2/d2b/a15426.html#a540fb447d261ccfcc77ac15888e8bb50", null ],
+    [ "JustDied", "d2/d2b/a15426.html#a138049712649ff414950d9d0ca05d712", null ],
+    [ "JustEngagedWith", "d2/d2b/a15426.html#ae2bace7f649626c68560d4a6d5aa4ea3", null ],
+    [ "JustSummoned", "d2/d2b/a15426.html#a1199430b8ec2a27b136838c112a63c07", null ],
+    [ "Reset", "d2/d2b/a15426.html#aab3faca4526947a72d8ca049a605f5be", null ],
+    [ "SummonedCreatureDies", "d2/d2b/a15426.html#a2f897b4d32b8c67ff644675f08ac6353", null ],
+    [ "SummonMushroom", "d2/d2b/a15426.html#afc5b4942931f6020b2894b901650fc35", null ],
+    [ "_mushroomsDeque", "d2/d2b/a15426.html#a4ba2415d6134cdc435114cd3af235b6d", null ],
+    [ "mushroomsSummoned", "d2/d2b/a15426.html#a57b207eaa8a4347bfb5cb51d46eead27", null ]
 ];

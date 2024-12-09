@@ -1,8 +1,6 @@
 var a19342 =
 [
-    [ "HandlePeriodic", "df/d41/a19342.html#a2724a85983561a14db8b06ae492ead55", null ],
-    [ "OnRemove", "df/d41/a19342.html#a6d0f941f30d8c850e48396fffd13768d", null ],
-    [ "PrepareAuraScript", "df/d41/a19342.html#aea9d38dc7fdff6d38d252bb5ded57d78", null ],
-    [ "Register", "df/d41/a19342.html#a85270947972be9c299a642b31969ef68", null ],
-    [ "Validate", "df/d41/a19342.html#a91ebb4e69d02deb5129965f543c474d1", null ]
+    [ "go_celestial_planetarium_accessAI", "dc/d36/a19346.html", "dc/d36/a19346" ],
+    [ "go_celestial_planetarium_access", "df/d41/a19342.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
+    [ "GetAI", "df/d41/a19342.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
 ];

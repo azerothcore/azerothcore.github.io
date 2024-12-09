@@ -1,6 +1,5 @@
 var a20406 =
 [
-    [ "x", "dd/d80/a20406.html#ae4223168378b602a0a96dbb424a22be4", null ],
-    [ "y", "dd/d80/a20406.html#a30f361d8104e4de44541d75945105963", null ],
-    [ "z", "dd/d80/a20406.html#ae68a79519c35302b89976ac29bb77e26", null ]
+    [ "achievement_xt002_nerf_engineering", "dd/d80/a20406.html#a5be8c0a8a51d81c4014ec0ab92c21f79", null ],
+    [ "OnCheck", "dd/d80/a20406.html#a2b401f51d1ba7ed817f95d81d1048adf", null ]
 ];

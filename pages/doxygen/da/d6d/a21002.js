@@ -1,11 +1,16 @@
 var a21002 =
 [
-    [ "npc_vh_void_sentryAI", "da/d6d/a21002.html#a312f4bbc07e6d786e85c2b4e89d36344", null ],
-    [ "DoAction", "da/d6d/a21002.html#a0bc95eea54b5cdc16a4d3f588f3ff900", null ],
-    [ "JustDied", "da/d6d/a21002.html#add5121ed38a74be9ae168df5f893f89e", null ],
-    [ "SummonedCreatureDespawn", "da/d6d/a21002.html#a24ff36cdb049da7c67c1f041361e17e4", null ],
-    [ "UpdateAI", "da/d6d/a21002.html#ae1f683d5ef920213c9c86da35c626381", null ],
-    [ "checkTimer", "da/d6d/a21002.html#a675bcae4119e45490403013534c731ef", null ],
-    [ "pInstance", "da/d6d/a21002.html#a7527473944681143bab89fd12b475645", null ],
-    [ "SummonedGUID", "da/d6d/a21002.html#a4420eb2cf4d3b6d161355b0f4ad9516d", null ]
+    [ "boss_zuramatAI", "da/d6d/a21002.html#ab4c04fec01023295946d170a466d1c48", null ],
+    [ "EnterEvadeMode", "da/d6d/a21002.html#a991437ea0d9fd1ce7807ef9937c4cb0a", null ],
+    [ "JustDied", "da/d6d/a21002.html#a060df9b36f2f62f3fc7afb80386d51c5", null ],
+    [ "JustEngagedWith", "da/d6d/a21002.html#a85cc0f20b51e84ff1c5c16a3b2b004b9", null ],
+    [ "JustSummoned", "da/d6d/a21002.html#a6e925207ddc112f7dd7044c08023f90e", null ],
+    [ "KilledUnit", "da/d6d/a21002.html#adb79f8c244f57b88848dd44b592faf41", null ],
+    [ "MoveInLineOfSight", "da/d6d/a21002.html#aa3ef3256d203d264dee12eff4491a28c", null ],
+    [ "Reset", "da/d6d/a21002.html#a18498e4bc4bfac33ff2c591f5bf28d7d", null ],
+    [ "SummonedCreatureDespawn", "da/d6d/a21002.html#a242f814bfec2e937e1338097e78080e3", null ],
+    [ "UpdateAI", "da/d6d/a21002.html#adb591699b7d8ece0b1775afd40a4181b", null ],
+    [ "events", "da/d6d/a21002.html#a4406b42618f3e40fa90e0a34ec3ad09f", null ],
+    [ "pInstance", "da/d6d/a21002.html#a8ebb5ca6f9f18b0205e8b6a54492c06a", null ],
+    [ "summons", "da/d6d/a21002.html#a42cb09654095c8a157720f99e7957102", null ]
 ];

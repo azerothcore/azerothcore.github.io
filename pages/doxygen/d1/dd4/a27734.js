@@ -1,6 +1,6 @@
 var a27734 =
 [
-    [ "Id", "d1/dd4/a27734.html#a5d7f2d5a2890593554ea841deb38abb2", null ],
-    [ "Order", "d1/dd4/a27734.html#a16fca42d9a0a98e034a93984c4362b53", null ],
-    [ "TypeFlags", "d1/dd4/a27734.html#ac7246adc7c6c3217de8ac093983b7553", null ]
+    [ "color", "d1/dd4/a27734.html#a2e4ee1d687af07445684907d1bcec4f4", null ],
+    [ "ID", "d1/dd4/a27734.html#ac125147c2dc5546a0116f48e08f36e59", null ],
+    [ "spellitemenchantement", "d1/dd4/a27734.html#a3a6329c8f5caa3cd6e61138339f37f4d", null ]
 ];

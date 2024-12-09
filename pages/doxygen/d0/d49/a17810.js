@@ -1,6 +1,7 @@
 var a17810 =
 [
-    [ "VileSpiritActivateEvent", "d0/d49/a17810.html#ac7d37d3b7b3173015a2af9ce93b8f2f9", null ],
-    [ "Execute", "d0/d49/a17810.html#a858892424e1f22fda9a7c519b6a7e0b6", null ],
-    [ "_owner", "d0/d49/a17810.html#a385fc75b5d77d8776d5a8e948fa69724", null ]
+    [ "StartMovementEvent", "d0/d49/a17810.html#a4f0fd5e835f742c876f37f31bf03c56f", null ],
+    [ "Execute", "d0/d49/a17810.html#af1a043d953bcffe9341292e85cae2f55", null ],
+    [ "_owner", "d0/d49/a17810.html#ac2f4166af128a161c471b243144856ba", null ],
+    [ "_summoner", "d0/d49/a17810.html#afe1f7bcb3569758bc075380a24527067", null ]
 ];

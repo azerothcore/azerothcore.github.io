@@ -1,7 +1,8 @@
 var a21974 =
 [
-    [ "npc_wg_quest_giver", "de/df7/a21974.html#a68589ab4ce9f43247154f3c66d8107b8", null ],
-    [ "GetDialogStatus", "de/df7/a21974.html#acd5c1462fe51a350c80af4f3ab46bac8", null ],
-    [ "OnGossipHello", "de/df7/a21974.html#ad08debc749cbaea6fad9b7bcfb5548e0", null ],
-    [ "OnGossipSelect", "de/df7/a21974.html#a9d42e558d68eee9f0f96ac1f8cd1a409", null ]
+    [ "npc_wg_queueAI", "da/d10/a21978.html", "da/d10/a21978" ],
+    [ "npc_wg_queue", "de/df7/a21974.html#a2cc9825e08e982ef195f117a4512c4ae", null ],
+    [ "GetAI", "de/df7/a21974.html#ad2d7746a32b520d37ea826b03627de4e", null ],
+    [ "OnGossipHello", "de/df7/a21974.html#a20fc6ae4e4377f237a620b7f5b1de8ee", null ],
+    [ "OnGossipSelect", "de/df7/a21974.html#afb707da5d85affc65f7ab5a0fc018c93", null ]
 ];

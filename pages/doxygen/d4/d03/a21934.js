@@ -1,8 +1,12 @@
 var a21934 =
 [
-    [ "npc_hyldsmeet_protodrakeAI", "d4/d03/a21934.html#a30794392a32b1323fb0a86615b341741", null ],
-    [ "PassengerBoarded", "d4/d03/a21934.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
-    [ "UpdateAI", "d4/d03/a21934.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
-    [ "_accessoryRespawnTimer", "d4/d03/a21934.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
-    [ "_vehicleKit", "d4/d03/a21934.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
+    [ "npc_icefangAI", "d4/d03/a21934.html#ab74b58a77e3c1349ed308f7febef794a", null ],
+    [ "AttackStart", "d4/d03/a21934.html#a56615ecdb45389aa793374d26a636d45", null ],
+    [ "EnterEvadeMode", "d4/d03/a21934.html#a1465c4779ea8b080f934163c8db6c99c", null ],
+    [ "JustDied", "d4/d03/a21934.html#a3140c8306a384833cca1580ad964d73a", null ],
+    [ "JustEngagedWith", "d4/d03/a21934.html#a8455dd4afb5ef5a694ca9237848df907", null ],
+    [ "OnCharmed", "d4/d03/a21934.html#ad7f3465f5730cd9ebd42bb4092ec8e68", null ],
+    [ "PassengerBoarded", "d4/d03/a21934.html#acf6e8e273830d022eaca3a28a4bd5320", null ],
+    [ "UpdateAI", "d4/d03/a21934.html#ab4d752f2273062c48339b53e611e617c", null ],
+    [ "WaypointReached", "d4/d03/a21934.html#ae315a1d22317edb2864e4d796f808ffb", null ]
 ];

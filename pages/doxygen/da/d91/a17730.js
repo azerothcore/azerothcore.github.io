@@ -1,7 +1,6 @@
 var a17730 =
 [
-    [ "PeriodicTick", "da/d91/a17730.html#a0c365bbb4ae9b77bb9e00a1eb41b96e4", null ],
-    [ "PrepareAuraScript", "da/d91/a17730.html#afcadfbdd84608e827b89c64bf03c8501", null ],
-    [ "Register", "da/d91/a17730.html#a0e8e8685ce8c1eea2b60e8bf6aeed782", null ],
-    [ "Validate", "da/d91/a17730.html#a879b657d94c1faf6225fe64f907cdf82", null ]
+    [ "FilterTargets", "da/d91/a17730.html#ad5a004ddfdc888c38e95c3a0b49ca73e", null ],
+    [ "PrepareSpellScript", "da/d91/a17730.html#a24466e7a04722cc7559b086f89d2edc8", null ],
+    [ "Register", "da/d91/a17730.html#a9ecea534f3dffdedf7d23b3b2461509d", null ]
 ];

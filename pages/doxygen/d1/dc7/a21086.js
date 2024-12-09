@@ -1,8 +1,10 @@
 var a21086 =
 [
-    [ "npc_azure_captainAI", "d1/dc7/a21086.html#a15b1acc73108c6802dbf3ac2ed0734c9", null ],
-    [ "Reset", "d1/dc7/a21086.html#a13d25bf1612086cc4bb5bc2078105f18", null ],
-    [ "UpdateAI", "d1/dc7/a21086.html#ae50ac21138e12be43caa93e37062051e", null ],
-    [ "uiMortalStrikeTimer", "d1/dc7/a21086.html#a791a3ee9b67e72e1dcb392b9ebc2359a", null ],
-    [ "uiWhirlwindTimer", "d1/dc7/a21086.html#a2e3439976a6e84a60be765cb0b929798", null ]
+    [ "npc_azure_spellbreakerAI", "d1/dc7/a21086.html#a1daf4cb20f4081380d8deda9a58da2fd", null ],
+    [ "Reset", "d1/dc7/a21086.html#a731ff2d4311359145c353de2d91935c8", null ],
+    [ "UpdateAI", "d1/dc7/a21086.html#a053ecfe5c78220c4fa1ac896ce161210", null ],
+    [ "uiArcaneBlastTimer", "d1/dc7/a21086.html#a1e752971a31c7d3415c1820eb3574a98", null ],
+    [ "uiChainsOfIceTimer", "d1/dc7/a21086.html#a2cbf33865a79a781d8b7aad04cd2095c", null ],
+    [ "uiConeOfColdTimer", "d1/dc7/a21086.html#a4970c7459b044b08bf36e17c703395fb", null ],
+    [ "uiSlowTimer", "d1/dc7/a21086.html#a2a02b42ec104cfb6682782a80f813eef", null ]
 ];

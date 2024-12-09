@@ -1,7 +1,6 @@
 var a16962 =
 [
-    [ "HandleScript", "d3/d7a/a16962.html#a4b1e392acea30a9259e65a75667704c5", null ],
-    [ "Load", "d3/d7a/a16962.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
-    [ "PrepareSpellScript", "d3/d7a/a16962.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
-    [ "Register", "d3/d7a/a16962.html#a77632d11a172e5552c0c49de830a1639", null ]
+    [ "HandleScript", "d3/d7a/a16962.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "d3/d7a/a16962.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "d3/d7a/a16962.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

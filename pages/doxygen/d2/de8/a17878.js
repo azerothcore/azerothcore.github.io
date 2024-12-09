@@ -1,7 +1,7 @@
 var a17878 =
 [
-    [ "OnRemove", "d2/de8/a17878.html#ac1a58d605156c03d05eb99605287e762", null ],
-    [ "PrepareAuraScript", "d2/de8/a17878.html#a2db820022631647e942b5ec84e63717e", null ],
-    [ "Register", "d2/de8/a17878.html#adfd213ccf8c5596fcd6dc69e53740376", null ],
-    [ "Validate", "d2/de8/a17878.html#aa498d4669f67eba4b904b203daeb5a7d", null ]
+    [ "OnPeriodic", "d2/de8/a17878.html#accd12b06341f3168c74cb18926614f7f", null ],
+    [ "OnUpdate", "d2/de8/a17878.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
+    [ "PrepareAuraScript", "d2/de8/a17878.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
+    [ "Register", "d2/de8/a17878.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
 ];

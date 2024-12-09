@@ -1,6 +1,7 @@
 var a18586 =
 [
-    [ "boss_anubrekhanAI", "d8/d3c/a18590.html", "d8/d3c/a18590" ],
-    [ "boss_anubrekhan", "d1/d89/a18586.html#a6ff866300f8b0b58d4b7467def9747c0", null ],
-    [ "GetAI", "d1/d89/a18586.html#aba5c31f182d6f600302f84ed21e9f7e9", null ]
+    [ "HandleScript", "d1/d89/a18586.html#a2e5311b631a4cbf6002e27e4a806280c", null ],
+    [ "Launch", "d1/d89/a18586.html#a575a7bf98b629dd91e7ca96e388eb8fd", null ],
+    [ "PrepareSpellScript", "d1/d89/a18586.html#ad65642fd7e8b7793f69d041d458fa33f", null ],
+    [ "Register", "d1/d89/a18586.html#aa8800d8fc050f2914d63c24e555aad4b", null ]
 ];

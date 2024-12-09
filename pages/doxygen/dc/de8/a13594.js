@@ -1,6 +1,6 @@
 var a13594 =
 [
-    [ "boss_grilekAI", "dd/d76/a13598.html", "dd/d76/a13598" ],
-    [ "boss_grilek", "dc/de8/a13594.html#acffe0061db18c5725c8c290822c5fed7", null ],
-    [ "GetAI", "dc/de8/a13594.html#aa346fa8807069d8fc94bd4d81a014c76", null ]
+    [ "OnEffect", "dc/de8/a13594.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
+    [ "PrepareSpellScript", "dc/de8/a13594.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
+    [ "Register", "dc/de8/a13594.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
 ];

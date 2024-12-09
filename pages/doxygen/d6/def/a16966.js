@@ -1,6 +1,7 @@
 var a16966 =
 [
-    [ "ModAuraStack", "d6/def/a16966.html#a7535ef148e047e32a5f7a1944585e396", null ],
-    [ "PrepareSpellScript", "d6/def/a16966.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
-    [ "Register", "d6/def/a16966.html#ab44b362197e74b98b3ffeb98eff52742", null ]
+    [ "HandleScript", "d6/def/a16966.html#a4b1e392acea30a9259e65a75667704c5", null ],
+    [ "Load", "d6/def/a16966.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
+    [ "PrepareSpellScript", "d6/def/a16966.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
+    [ "Register", "d6/def/a16966.html#a77632d11a172e5552c0c49de830a1639", null ]
 ];

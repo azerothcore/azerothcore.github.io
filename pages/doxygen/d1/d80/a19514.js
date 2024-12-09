@@ -1,6 +1,6 @@
 var a19514 =
 [
-    [ "npc_hodirs_furyAI", "d2/d28/a19518.html", "d2/d28/a19518" ],
-    [ "npc_hodirs_fury", "d1/d80/a19514.html#af5e0f1cb4c478bd4fc9ec246aa7d7e08", null ],
-    [ "GetAI", "d1/d80/a19514.html#ad8856a6da86a8f4ce744d57614ee16e6", null ]
+    [ "npc_freya_wardAI", "d2/d28/a19518.html", "d2/d28/a19518" ],
+    [ "npc_freya_ward", "d1/d80/a19514.html#aebaadcc001922c78e8ec43084a827ac9", null ],
+    [ "GetAI", "d1/d80/a19514.html#a90c0e7a0be1717bf1793415b6fcafbed", null ]
 ];

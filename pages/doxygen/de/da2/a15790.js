@@ -1,7 +1,6 @@
 var a15790 =
 [
-    [ "TwilightCutterSelector", "de/da2/a15790.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
-    [ "operator()", "de/da2/a15790.html#a6374425df156bdf202d53a2c73ef784c", null ],
-    [ "_caster", "de/da2/a15790.html#a784c95ef6472e711f4200f194222d179", null ],
-    [ "_cutterCaster", "de/da2/a15790.html#a7f713777a36a8d127c2865e4610b1288", null ]
+    [ "HandlePeriodic", "de/da2/a15790.html#a7753587518171689f86f3f76269c1b8a", null ],
+    [ "PrepareAuraScript", "de/da2/a15790.html#aa73351e7200bee94b0068fb8dabfada5", null ],
+    [ "Register", "de/da2/a15790.html#ab126fe8d4387609e8834898c3b3a67ea", null ]
 ];

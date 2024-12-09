@@ -1,6 +1,7 @@
 var a26058 =
 [
-    [ "OnApply", "d4/dfc/a26058.html#a50ced6d5a475ccad9429dfbb05130394", null ],
-    [ "PrepareAuraScript", "d4/dfc/a26058.html#abd02e129b1201449d473a66aea77d569", null ],
-    [ "Register", "d4/dfc/a26058.html#a8c09775f642335252c6e548900dc9d3a", null ]
+    [ "HandleScriptEffect", "d4/dfc/a26058.html#ae7bfcdf3306fe4c8532649ff7e892c57", null ],
+    [ "PrepareSpellScript", "d4/dfc/a26058.html#ad2bfab00a973366af32388e40b9d2566", null ],
+    [ "Register", "d4/dfc/a26058.html#acbf74d85d9d8ce8e9ce0546c90cb7efa", null ],
+    [ "Validate", "d4/dfc/a26058.html#a487fa0e6b5f2682349b22737ceeae50c", null ]
 ];

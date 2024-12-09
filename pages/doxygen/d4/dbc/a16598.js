@@ -1,5 +1,7 @@
 var a16598 =
 [
-    [ "at_hor_battered_hilt_start", "d4/dbc/a16598.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
-    [ "OnTrigger", "d4/dbc/a16598.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
+    [ "HandleEffectPeriodic", "d4/dbc/a16598.html#aaefcf8ace7c109648c9220fb0ff9d4de", null ],
+    [ "PrepareAuraScript", "d4/dbc/a16598.html#ae0ccb7d4566777e52b71e99a908d13fa", null ],
+    [ "Register", "d4/dbc/a16598.html#a73e8ef9dbd3dd3dc332d4b3a2eb2c5ea", null ],
+    [ "Validate", "d4/dbc/a16598.html#ab3fcbe5386e9529824228e8f3b6be797", null ]
 ];

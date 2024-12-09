@@ -1,8 +1,8 @@
 var a26438 =
 [
-    [ "HandleDummyTick", "d3/d3e/a26438.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
-    [ "HandleRemove", "d3/d3e/a26438.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
-    [ "PrepareAuraScript", "d3/d3e/a26438.html#a06e45d5f63ef1395b5949482e8393098", null ],
-    [ "Register", "d3/d3e/a26438.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
-    [ "Validate", "d3/d3e/a26438.html#a9a2da4d163a96526e14f5de76798a784", null ]
+    [ "CheckProc", "d3/d3e/a26438.html#afcda3b112699e108e2db6270836fce1b", null ],
+    [ "OnProc", "d3/d3e/a26438.html#ab953f817368120933828d6b3e5e200c0", null ],
+    [ "PrepareAuraScript", "d3/d3e/a26438.html#a33381b811abcd52f7a57e0f62fa73e5f", null ],
+    [ "Register", "d3/d3e/a26438.html#abfdd5179215432a3e89ea7b498d49867", null ],
+    [ "Validate", "d3/d3e/a26438.html#a19e8f1b9aab5ee4e718b304c87303627", null ]
 ];

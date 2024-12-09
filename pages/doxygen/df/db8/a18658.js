@@ -1,6 +1,7 @@
 var a18658 =
 [
-    [ "boss_grobbulusAI", "d3/dff/a18662.html", "d3/dff/a18662" ],
-    [ "boss_grobbulus", "df/db8/a18658.html#acf1b781e86e33a363b68354d34d3c015", null ],
-    [ "GetAI", "df/db8/a18658.html#ae918614566a0b9979aef4e1aeaac394c", null ]
+    [ "FilterTargets", "df/db8/a18658.html#a56ff062a6014099623466145a66284cc", null ],
+    [ "PrepareSpellScript", "df/db8/a18658.html#aa14623bb948ff457e52979facf74ffab", null ],
+    [ "Register", "df/db8/a18658.html#a9494bea35088161c9a520395d714fde1", null ],
+    [ "Validate", "df/db8/a18658.html#a6a02bc1a79a5f4fefe3b1e2900eaf0b4", null ]
 ];

@@ -1,7 +1,7 @@
 var a19566 =
 [
-    [ "boss_flame_leviathan_safety_containerAI", "d6/df4/a19566.html#ab9191e20df488df184c468ca1ac41084", null ],
-    [ "MovementInform", "d6/df4/a19566.html#a1b472a233ebebbb4c1fbf639aeb4bed6", null ],
-    [ "UpdateAI", "d6/df4/a19566.html#a77b3a493c5650d91c903879db324651d", null ],
-    [ "_allowTimer", "d6/df4/a19566.html#a2185c9fe04fa7288fab452c5c1de3819", null ]
+    [ "npc_storm_beacon_spawnAI", "d6/df4/a19566.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "d6/df4/a19566.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "d6/df4/a19566.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "d6/df4/a19566.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

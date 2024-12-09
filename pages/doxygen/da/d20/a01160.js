@@ -1,11 +1,11 @@
 var a01160 =
 [
-    [ "npc_rivern_frostwind", "df/d05/a15346.html", "df/d05/a15346" ],
-    [ "DialogueEntry", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
-    [ "DialogueHelper", "d5/d31/a15354.html", "d5/d31/a15354" ],
-    [ "npc_ranshalla", "db/d9f/a15358.html", "db/d9f/a15358" ],
-    [ "npc_ranshalla::npc_ranshallaAI", "d7/dd7/a15362.html", "d7/dd7/a15362" ],
-    [ "go_elune_fire", "d8/dab/a15366.html", "d8/dab/a15366" ],
+    [ "npc_rivern_frostwind", "d0/d4f/a15350.html", "d0/d4f/a15350" ],
+    [ "DialogueEntry", "d5/d31/a15354.html", "d5/d31/a15354" ],
+    [ "DialogueHelper", "db/d9f/a15358.html", "db/d9f/a15358" ],
+    [ "npc_ranshalla", "d7/dd7/a15362.html", "d7/dd7/a15362" ],
+    [ "npc_ranshalla::npc_ranshallaAI", "d8/dab/a15366.html", "d8/dab/a15366" ],
+    [ "go_elune_fire", "d4/d4b/a15370.html", "d4/d4b/a15370" ],
     [ "Dummies", "da/d20/a01160.html#a2bbe982dfe66b7d2feb6449e4b33ac2e", [
       [ "NPC_PRIESTESS_DATA_1", "da/d20/a01160.html#a2bbe982dfe66b7d2feb6449e4b33ac2ea0594ed0eed6a55af01b29286273cadef", null ],
       [ "NPC_PRIESTESS_DATA_2", "da/d20/a01160.html#a2bbe982dfe66b7d2feb6449e4b33ac2ea4236792aa6debd5b26af8a27358513fc", null ],
@@ -168,7 +168,8 @@ var a01160 =
       [ "NPC_DARK_RUNE_PROTECTOR", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cadce53817fd6965f59a16bb8b700bb4a3", null ],
       [ "NPC_DARK_RUNE_STORMCALLER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca1e69a67dd750b7a83483211a22cf6ca1", null ],
       [ "NPC_IRON_GOLEM_CUSTODIAN", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cacc6919a1cac3589ac215cfca60ec429e", null ],
-      [ "NPC_DARK_MATTER_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca5ca145f19b7aae75e3dcac1c573ecf75", null ],
+      [ "NPC_DARK_MATTER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca85b8db9d6af4d479e6fe7afa466a1f62", null ],
+      [ "NPC_DARK_MATTER_TARGET", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca749a4d921c5f10a0f0f088a6f0941a46", null ],
       [ "NPC_SEARING_GAZE_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca277494839c28c35d50283a6001a286ef", null ],
       [ "NPC_LEVIATHAN_MKII", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5ca1c82e84038889b63ff246314efbd64f7", null ],
       [ "NPC_LEVIATHAN_MKII_CANNON", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5cac1f3999518124ad86c06af3678061d08", null ],

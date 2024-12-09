@@ -1,5 +1,12 @@
 var a13938 =
 [
-    [ "at_bring_your_orphan_to", "dd/df2/a13938.html#a160aae23dd3423dbc1afc8e3f8dbec7c", null ],
-    [ "OnTrigger", "dd/df2/a13938.html#af5cb73f6ba0657eff8809711a5dba84c", null ]
+    [ "npc_alexstraza_the_lifebinder", "dd/df2/a13938.html#a7c30258540803bde75843cb070b6a288", null ],
+    [ "MoveInLineOfSight", "dd/df2/a13938.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
+    [ "Reset", "dd/df2/a13938.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
+    [ "SetData", "dd/df2/a13938.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
+    [ "UpdateAI", "dd/df2/a13938.html#ad13b21d571833210b1c069b7ea8bea05", null ],
+    [ "orphanGUID", "dd/df2/a13938.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
+    [ "phase", "dd/df2/a13938.html#a98216e43888854ac93f22169a0e253e5", null ],
+    [ "playerGUID", "dd/df2/a13938.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
+    [ "timer", "dd/df2/a13938.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
 ];

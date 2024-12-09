@@ -1,8 +1,14 @@
 var a20430 =
 [
-    [ "boss_yoggsaron_guardian_of_ysAI", "db/d6c/a20430.html#a5542a4fd68a012049a79047f47dccc68", null ],
-    [ "JustDied", "db/d6c/a20430.html#ad75f0baeef73a79cdb9bf62463bc8e50", null ],
-    [ "Reset", "db/d6c/a20430.html#a43d12c19425f3caa56a9732774b6f943", null ],
-    [ "UpdateAI", "db/d6c/a20430.html#a8e1d0b14747db6ce06b882f3f9d61963", null ],
-    [ "_spellTimer", "db/d6c/a20430.html#a45dec8609328d65413ae6c88f693ba15", null ]
+    [ "boss_yoggsaron_cloudAI", "db/d6c/a20430.html#a6a13c31fb0649387ac411ed7ec2fb66a", null ],
+    [ "AttackStart", "db/d6c/a20430.html#a3ecf6a1c74780aa250be3f4e2dd04ea1", null ],
+    [ "DoAction", "db/d6c/a20430.html#a68caf08c015a0048be7858e435bbc84d", null ],
+    [ "InitWaypoint", "db/d6c/a20430.html#ae68d5d5f5c1edb74596761dccecb614d", null ],
+    [ "JustSummoned", "db/d6c/a20430.html#a70e74c2a1c19468e25edcc3d0e41df06", null ],
+    [ "MoveInLineOfSight", "db/d6c/a20430.html#a48fb6de45d47ab4fbe02da835056f4ce", null ],
+    [ "Reset", "db/d6c/a20430.html#adffbc99bb2fff0ce2082cd9e2d3608d7", null ],
+    [ "UpdateEscortAI", "db/d6c/a20430.html#a3661ecf52a93c7d769eaa9dcfa2ac202", null ],
+    [ "WaypointReached", "db/d6c/a20430.html#a3933d6c39c060db0da18d174e5b2e01a", null ],
+    [ "_checkTimer", "db/d6c/a20430.html#a883307a4134b269fb2bbe6efa371b945", null ],
+    [ "_isSummoning", "db/d6c/a20430.html#a118ccef4158c49bddf2b503f3a3090d0", null ]
 ];

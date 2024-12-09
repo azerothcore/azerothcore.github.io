@@ -1,21 +1,13 @@
 var a21782 =
 [
-    [ "npc_still_at_it_triggerAI", "dc/ddd/a21782.html#a4c8a9984ded254aac0df168e35d658e1", null ],
-    [ "CheckAction", "dc/ddd/a21782.html#ae52906e508ec3ea438c0dbde31a82197", null ],
-    [ "DamageTaken", "dc/ddd/a21782.html#abeae6e59731fb70848ba719dbc18727b", null ],
-    [ "GetManus", "dc/ddd/a21782.html#a1208132a9844369d0e1d87910a8576a7", null ],
-    [ "Reset", "dc/ddd/a21782.html#a51f7fae0fae84e12e27840c04dde65f8", null ],
-    [ "SpellHit", "dc/ddd/a21782.html#a41f2ef44c6ad7b9fff8e9ee90eebc759", null ],
-    [ "Start", "dc/ddd/a21782.html#ac707759eea2d1e3d538f89d013aa96c9", null ],
-    [ "UpdateAI", "dc/ddd/a21782.html#af6b279fbc562bbb702ea17eb892471d4", null ],
-    [ "currentstep", "dc/ddd/a21782.html#a3206f3946f1f9a3e230c39f3370642cd", null ],
-    [ "expectedaction", "dc/ddd/a21782.html#a3aa9f7db1b56bb186678455026e4d193", null ],
-    [ "playeraction", "dc/ddd/a21782.html#af018e010bb709b73eec229615f401966", null ],
-    [ "playerGUID", "dc/ddd/a21782.html#a3385d9f57a52914378fe2c1126600af5", null ],
-    [ "running", "dc/ddd/a21782.html#a81100e14bbfdd5d31d61cef76b4c0a7f", null ],
-    [ "stepcount", "dc/ddd/a21782.html#abd3273fe4758b494153c91362b01a587", null ],
-    [ "success", "dc/ddd/a21782.html#a4e4d83f7b8e084f5051498f47cd57448", null ],
-    [ "tensecstimer", "dc/ddd/a21782.html#a8774bbe4630b518f45508996710d006a", null ],
-    [ "thunderbrewGUID", "dc/ddd/a21782.html#ac55098fa6034fe3b7efabdfaf72d083a", null ],
-    [ "timer", "dc/ddd/a21782.html#a818549f4fd33d6d07e874705b09416e6", null ]
+    [ "npc_artruis_the_hearthlessAI", "dc/ddd/a21782.html#ad64e86b038ea3c0cf119aa18493dceec", null ],
+    [ "JustDied", "dc/ddd/a21782.html#a22baa7603ffb4a7b118f2a2f5de88633", null ],
+    [ "JustEngagedWith", "dc/ddd/a21782.html#aafedd2a49c60923294a1e9de7012fb3a", null ],
+    [ "MoveInLineOfSight", "dc/ddd/a21782.html#a1a592dd9f1834cc5efe63c227dcfe372", null ],
+    [ "Reset", "dc/ddd/a21782.html#af24b77b5d154f5289105b67714f9d3a9", null ],
+    [ "SummonedCreatureDies", "dc/ddd/a21782.html#a40041d3c1557effa4173eb660ca87a09", null ],
+    [ "SummonsAction", "dc/ddd/a21782.html#aa34f581358c094d87a1c7259f4981b65", null ],
+    [ "UpdateAI", "dc/ddd/a21782.html#a4795db544ac7e9702b2ac9094b969e7f", null ],
+    [ "events", "dc/ddd/a21782.html#a151e92cb78e752e10896bd7586c539dc", null ],
+    [ "summons", "dc/ddd/a21782.html#a24fd0452b154e7e4a2615691aa810d8d", null ]
 ];

@@ -1,6 +1,6 @@
 var a21206 =
 [
-    [ "npc_warmage_coldarraAI", "de/dff/a21210.html", "de/dff/a21210" ],
-    [ "npc_warmage_coldarra", "dc/d08/a21206.html#a358f8ab26991798ff076ac764cd7abe2", null ],
-    [ "GetAI", "dc/d08/a21206.html#aa29181e0ad61b44eff685267f3231382", null ]
+    [ "npc_valiance_keep_cannoneerAI", "de/dff/a21210.html", "de/dff/a21210" ],
+    [ "npc_valiance_keep_cannoneer", "dc/d08/a21206.html#a11f6060a7c6cd7be60001f5c259c94d3", null ],
+    [ "GetAI", "dc/d08/a21206.html#a8bfc1505dedee28d1517ba6a7738ffd5", null ]
 ];

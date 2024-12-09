@@ -1,5 +1,5 @@
 var a26650 =
 [
-    [ "achievement_not_even_a_scratch", "dd/db7/a26650.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
-    [ "OnCheck", "dd/db7/a26650.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
+    [ "achievement_sa_defense_of_the_ancients", "dd/db7/a26650.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "dd/db7/a26650.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

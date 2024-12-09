@@ -1,6 +1,6 @@
 var a20474 =
 [
-    [ "boss_yoggsaron_constrictor_tentacleAI", "db/de6/a20478.html", "db/de6/a20478" ],
-    [ "boss_yoggsaron_constrictor_tentacle", "df/df3/a20474.html#a131809f1c691e55a33863caf6fe0c5dc", null ],
-    [ "GetAI", "df/df3/a20474.html#ac469d5661eb664c73bf5ab38084cb03e", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "db/de6/a20478.html", "db/de6/a20478" ],
+    [ "boss_yoggsaron_corruptor_tentacle", "df/df3/a20474.html#a86fbf881f0a861124dda085347bb03bd", null ],
+    [ "GetAI", "df/df3/a20474.html#a7325d6feaa12d74c030152ba3a0ab756", null ]
 ];

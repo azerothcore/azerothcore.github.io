@@ -752,10 +752,10 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  311</span>    <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d9/d45/a09922.html#a7e372ec4a72e0ac134278868e8064fe9">GetRewHonorAddition</a>() &gt; 0 || <a class="code hl_function" href="../../d9/d45/a09922.html#a7b29e769ae395f8de78b955f4aa2b38d">GetRewHonorMultiplier</a>() &gt; 0.0f)</div>
 <div class="line"><span class="lineno">  312</span>    {</div>
 <div class="line"><span class="lineno">  313</span>        <span class="comment">// values stored from 0.. for 1...</span></div>
-<div class="line"><span class="lineno">  314</span>        <a class="code hl_struct" href="../../d0/d0a/a27994.html">TeamContributionPointsEntry</a> <span class="keyword">const</span>* tc = <a class="code hl_variable" href="../../d7/da2/a03704.html#abf0ec5a70cc97a27dafdf32aa7709545">sTeamContributionPointsStore</a>.LookupEntry(level);</div>
+<div class="line"><span class="lineno">  314</span>        <a class="code hl_struct" href="../../d0/da7/a28002.html">TeamContributionPointsEntry</a> <span class="keyword">const</span>* tc = <a class="code hl_variable" href="../../d7/da2/a03704.html#abf0ec5a70cc97a27dafdf32aa7709545">sTeamContributionPointsStore</a>.LookupEntry(level);</div>
 <div class="line"><span class="lineno">  315</span>        <span class="keywordflow">if</span> (!tc)</div>
 <div class="line"><span class="lineno">  316</span>            <span class="keywordflow">return</span> 0;</div>
-<div class="line"><span class="lineno">  317</span>        honor = <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(tc-&gt;<a class="code hl_variable" href="../../d0/d0a/a27994.html#a30d3b489f743df8aa828b6e5bb847ea2">value</a> * <a class="code hl_function" href="../../d9/d45/a09922.html#a7b29e769ae395f8de78b955f4aa2b38d">GetRewHonorMultiplier</a>() * 0.1000000014901161);</div>
+<div class="line"><span class="lineno">  317</span>        honor = <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(tc-&gt;<a class="code hl_variable" href="../../d0/da7/a28002.html#a30d3b489f743df8aa828b6e5bb847ea2">value</a> * <a class="code hl_function" href="../../d9/d45/a09922.html#a7b29e769ae395f8de78b955f4aa2b38d">GetRewHonorMultiplier</a>() * 0.1000000014901161);</div>
 <div class="line"><span class="lineno">  318</span> </div>
 <div class="line"><span class="lineno">  319</span>        <span class="comment">// Xinef: exactly this is calculated above, however with higher precision...</span></div>
 <div class="line"><span class="lineno">  320</span>        <span class="comment">//honor += Acore::Honor::hk_honor_at_level(level, GetRewHonorMultiplier());</span></div>
@@ -768,8 +768,8 @@ Friends</h2></td></tr>
 <div class="ttc" id="aa03704_html_abf0ec5a70cc97a27dafdf32aa7709545"><div class="ttname"><a href="../../d7/da2/a03704.html#abf0ec5a70cc97a27dafdf32aa7709545">sTeamContributionPointsStore</a></div><div class="ttdeci">DBCStorage&lt; TeamContributionPointsEntry &gt; sTeamContributionPointsStore(TeamContributionPointsfmt)</div></div>
 <div class="ttc" id="aa09922_html_a7b29e769ae395f8de78b955f4aa2b38d"><div class="ttname"><a href="../../d9/d45/a09922.html#a7b29e769ae395f8de78b955f4aa2b38d">Quest::GetRewHonorMultiplier</a></div><div class="ttdeci">float GetRewHonorMultiplier() const</div><div class="ttdef"><b>Definition:</b> QuestDef.h:270</div></div>
 <div class="ttc" id="aa09922_html_a7e372ec4a72e0ac134278868e8064fe9"><div class="ttname"><a href="../../d9/d45/a09922.html#a7e372ec4a72e0ac134278868e8064fe9">Quest::GetRewHonorAddition</a></div><div class="ttdeci">uint32 GetRewHonorAddition() const</div><div class="ttdef"><b>Definition:</b> QuestDef.h:269</div></div>
-<div class="ttc" id="aa27994_html"><div class="ttname"><a href="../../d0/d0a/a27994.html">TeamContributionPointsEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1987</div></div>
-<div class="ttc" id="aa27994_html_a30d3b489f743df8aa828b6e5bb847ea2"><div class="ttname"><a href="../../d0/d0a/a27994.html#a30d3b489f743df8aa828b6e5bb847ea2">TeamContributionPointsEntry::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1989</div></div>
+<div class="ttc" id="aa28002_html"><div class="ttname"><a href="../../d0/da7/a28002.html">TeamContributionPointsEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1987</div></div>
+<div class="ttc" id="aa28002_html_a30d3b489f743df8aa828b6e5bb847ea2"><div class="ttname"><a href="../../d0/da7/a28002.html#a30d3b489f743df8aa828b6e5bb847ea2">TeamContributionPointsEntry::value</a></div><div class="ttdeci">float value</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1989</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00269">GetRewHonorAddition()</a>, <a class="el" href="../../#l00270">GetRewHonorMultiplier()</a>, <a class="el" href="../../#l01035">GT_MAX_LEVEL</a>, <a class="el" href="../../d7/da2/a03704.html#abf0ec5a70cc97a27dafdf32aa7709545">sTeamContributionPointsStore</a>, and <a class="el" href="../../#l01989">TeamContributionPointsEntry::value</a>.</p>
 
@@ -3465,7 +3465,7 @@ Friends</h2></td></tr>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">  199</span>{</div>
 <div class="line"><span class="lineno">  200</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> quest_level = (<a class="code hl_variable" href="../../d9/d45/a09922.html#a0070c98e09ae2c18fcdcc89541a41570">Level</a> == -1 ? playerLevel : <a class="code hl_variable" href="../../d9/d45/a09922.html#a0070c98e09ae2c18fcdcc89541a41570">Level</a>);</div>
-<div class="line"><span class="lineno">  201</span>    <span class="keyword">const</span> <a class="code hl_struct" href="../../d9/d8a/a27874.html">QuestXPEntry</a>* xpentry = <a class="code hl_variable" href="../../d7/da2/a03704.html#ab186aaf86f47c3d401ff156d44951914">sQuestXPStore</a>.LookupEntry(quest_level);</div>
+<div class="line"><span class="lineno">  201</span>    <span class="keyword">const</span> <a class="code hl_struct" href="../../d2/d42/a27882.html">QuestXPEntry</a>* xpentry = <a class="code hl_variable" href="../../d7/da2/a03704.html#ab186aaf86f47c3d401ff156d44951914">sQuestXPStore</a>.LookupEntry(quest_level);</div>
 <div class="line"><span class="lineno">  202</span>    <span class="keywordflow">if</span> (!xpentry)</div>
 <div class="line"><span class="lineno">  203</span>    {</div>
 <div class="line"><span class="lineno">  204</span>        <span class="keywordflow">return</span> 0;</div>
@@ -3481,7 +3481,7 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  214</span>        diffFactor = 10;</div>
 <div class="line"><span class="lineno">  215</span>    }</div>
 <div class="line"><span class="lineno">  216</span> </div>
-<div class="line"><span class="lineno">  217</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> xp = diffFactor * xpentry-&gt;<a class="code hl_variable" href="../../d9/d8a/a27874.html#aa34490babd6ccdc45857947db3f36d60">Exp</a>[<a class="code hl_variable" href="../../d9/d45/a09922.html#a5fa5770255800c3a746fea48bdda6c80">RewardXPDifficulty</a>] / 10;</div>
+<div class="line"><span class="lineno">  217</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> xp = diffFactor * xpentry-&gt;<a class="code hl_variable" href="../../d2/d42/a27882.html#aa34490babd6ccdc45857947db3f36d60">Exp</a>[<a class="code hl_variable" href="../../d9/d45/a09922.html#a5fa5770255800c3a746fea48bdda6c80">RewardXPDifficulty</a>] / 10;</div>
 <div class="line"><span class="lineno">  218</span>    <span class="keywordflow">if</span> (xp &lt;= 100)</div>
 <div class="line"><span class="lineno">  219</span>    {</div>
 <div class="line"><span class="lineno">  220</span>        xp = 5 * ((xp + 2) / 5);</div>
@@ -3502,8 +3502,8 @@ Friends</h2></td></tr>
 <div class="line"><span class="lineno">  235</span>    <span class="keywordflow">return</span> xp;</div>
 <div class="line"><span class="lineno">  236</span>}</div>
 <div class="ttc" id="aa03704_html_ab186aaf86f47c3d401ff156d44951914"><div class="ttname"><a href="../../d7/da2/a03704.html#ab186aaf86f47c3d401ff156d44951914">sQuestXPStore</a></div><div class="ttdeci">DBCStorage&lt; QuestXPEntry &gt; sQuestXPStore(QuestXPfmt)</div></div>
-<div class="ttc" id="aa27874_html"><div class="ttname"><a href="../../d9/d8a/a27874.html">QuestXPEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1451</div></div>
-<div class="ttc" id="aa27874_html_aa34490babd6ccdc45857947db3f36d60"><div class="ttname"><a href="../../d9/d8a/a27874.html#aa34490babd6ccdc45857947db3f36d60">QuestXPEntry::Exp</a></div><div class="ttdeci">uint32 Exp[10]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1453</div></div>
+<div class="ttc" id="aa27882_html"><div class="ttname"><a href="../../d2/d42/a27882.html">QuestXPEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1451</div></div>
+<div class="ttc" id="aa27882_html_aa34490babd6ccdc45857947db3f36d60"><div class="ttname"><a href="../../d2/d42/a27882.html#aa34490babd6ccdc45857947db3f36d60">QuestXPEntry::Exp</a></div><div class="ttdeci">uint32 Exp[10]</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1453</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01453">QuestXPEntry::Exp</a>, <a class="el" href="../../#l00349">Level</a>, <a class="el" href="../../#l00364">RewardXPDifficulty</a>, and <a class="el" href="../../d7/da2/a03704.html#ab186aaf86f47c3d401ff156d44951914">sQuestXPStore</a>.</p>
 
@@ -5365,7 +5365,7 @@ Friends</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d9/d45/a09922.html">Quest</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:42:55 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:44:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

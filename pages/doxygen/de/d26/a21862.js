@@ -1,6 +1,6 @@
 var a21862 =
 [
-    [ "npc_frosthoundAI", "dd/daf/a21866.html", "dd/daf/a21866" ],
-    [ "npc_frosthound", "de/d26/a21862.html#a3266f5186d1db0c010f586d3272725a6", null ],
-    [ "GetAI", "de/d26/a21862.html#a49cd41753c715f166fc903df9dcfdd6b", null ]
+    [ "HandleScript", "de/d26/a21862.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
+    [ "PrepareSpellScript", "de/d26/a21862.html#a5a4ce9453638d61fe52514240f0a9384", null ],
+    [ "Register", "de/d26/a21862.html#a889f931aaa37d3a283f4d585b384a68e", null ]
 ];

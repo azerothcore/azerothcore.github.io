@@ -52,7 +52,7 @@ var searchData=
   ['smartaieventstoredlist_49',['SmartAIEventStoredList',['../d9/dc5/a02924.html#a9bf01cc8325bd669dff76a3545290fe4',1,'SmartScriptMgr.h']]],
   ['smarteventconditioncontainer_50',['SmartEventConditionContainer',['../dd/d51/a03842.html#abdfa94c93c90adfe4347841af180cbec',1,'ConditionMgr.h']]],
   ['socialmap_51',['SocialMap',['../d4/dc6/a08422.html#a2b80fa18a6f1ed54fda7719867f45ebd',1,'SocialMgr']]],
-  ['socketcontainer_52',['SocketContainer',['../d8/d21/a28042.html#afecfc2ddefae1d1dca0f74e36695a748',1,'NetworkThread']]],
+  ['socketcontainer_52',['SocketContainer',['../d6/d71/a28050.html#afecfc2ddefae1d1dca0f74e36695a748',1,'NetworkThread']]],
   ['spectatorlist_53',['SpectatorList',['../d4/db3/a07082.html#a152b516933fa88d053a99d3e3aa052c3',1,'Battleground']]],
   ['spell_5fmage_5ffingers_5fof_5ffrost_5fproc_5faura_5fscript_54',['spell_mage_fingers_of_frost_proc_aura_script',['../d3/d0b/a01253.html#aa5de9b4eecf809a3292a4697d206eaf9',1,'spell_mage.cpp']]],
   ['spell_5frog_5fkilling_5fspree_5faura_5fscript_55',['spell_rog_killing_spree_aura_script',['../da/dd8/a01265.html#a68df6411a1d33b37aed8e2cb7d35de0f',1,'spell_rogue.cpp']]],

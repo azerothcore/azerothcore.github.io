@@ -1,5 +1,6 @@
 var a26806 =
 [
-    [ "go_arena_ready_marker", "da/d1a/a26806.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
-    [ "OnGossipHello", "da/d1a/a26806.html#a9f51ead2b56d51427ff23be9688388d8", null ]
+    [ "go_witherbark_totem_bundleAI", "d2/db2/a26810.html", "d2/db2/a26810" ],
+    [ "go_witherbark_totem_bundle", "da/d1a/a26806.html#affcdff7ec6894add0acec842028efd2e", null ],
+    [ "GetAI", "da/d1a/a26806.html#a5ac2b3b572d67fdcc587f242f3d50f97", null ]
 ];

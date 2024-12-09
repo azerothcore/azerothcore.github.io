@@ -1,9 +1,10 @@
 var a26182 =
 [
-    [ "HandleAfterHit", "d0/df1/a26182.html#a05341e7a67f50c6ced4bf4bd3892f39a", null ],
-    [ "HandleBeforeHit", "d0/df1/a26182.html#a7ca0fe15f6679c73aa77818ef3d94eed", null ],
-    [ "Load", "d0/df1/a26182.html#a6b2a1f378c0f5a2762ce1d34740d310e", null ],
-    [ "PrepareSpellScript", "d0/df1/a26182.html#a496c27472579be3b8989868765ec19ef", null ],
-    [ "Register", "d0/df1/a26182.html#a133e338413e960c442446a2a4a13b85b", null ],
-    [ "_stackAmount", "d0/df1/a26182.html#a3aa304a5386f6c0ee4aa428bf4ed12bb", null ]
+    [ "CheckProc", "d0/df1/a26182.html#a5971c42af47d1cc8045a130deb218a04", null ],
+    [ "HandleProc", "d0/df1/a26182.html#a45aaf5afebc2fa533240fcf8233430ed", null ],
+    [ "Load", "d0/df1/a26182.html#a7664b0f67c9e3b14841ed9e30447544d", null ],
+    [ "PrepareAuraScript", "d0/df1/a26182.html#a291fcf1af497d1e83a31209cd01a360d", null ],
+    [ "Register", "d0/df1/a26182.html#af16d0517ad07a454145da0b92c051740", null ],
+    [ "Validate", "d0/df1/a26182.html#ac768a5f4738dee9ad7d885fa6136785e", null ],
+    [ "_procTargetGUID", "d0/df1/a26182.html#a13976d069846f29d2f744f3f03502787", null ]
 ];

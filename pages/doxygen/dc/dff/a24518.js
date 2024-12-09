@@ -1,5 +1,6 @@
 var a24518 =
 [
-    [ "PrepareSpellScript", "dc/dff/a24518.html#a2d0e411f3b4a9efed35ee34c7bf03252", null ],
-    [ "Register", "dc/dff/a24518.html#a560ff22e718e8a975a2e2dc2340da917", null ]
+    [ "CheckAreaTarget", "dc/dff/a24518.html#aab7e3693e5744cf444e643f7cdfdf738", null ],
+    [ "PrepareAuraScript", "dc/dff/a24518.html#a551d8d6dd43c83d9a693c5971fa5c224", null ],
+    [ "Register", "dc/dff/a24518.html#a6647a8e35009cf8559e4957a666f037a", null ]
 ];

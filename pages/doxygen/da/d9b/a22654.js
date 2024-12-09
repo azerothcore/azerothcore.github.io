@@ -1,6 +1,6 @@
 var a22654 =
 [
-    [ "PrepareSpellScript", "da/d9b/a22654.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
-    [ "Register", "da/d9b/a22654.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
-    [ "RemoveSpines", "da/d9b/a22654.html#a076b056328ba6181a6ec907f21258f9d", null ]
+    [ "HandleDummy", "da/d9b/a22654.html#a85cbe85873c5f04c8fb94ad52e94afda", null ],
+    [ "PrepareSpellScript", "da/d9b/a22654.html#ae483ea2ecc541f52f37456f6e9d4b380", null ],
+    [ "Register", "da/d9b/a22654.html#a972574075c86c32593982add71dc893f", null ]
 ];

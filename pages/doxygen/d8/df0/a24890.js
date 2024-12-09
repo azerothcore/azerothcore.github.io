@@ -1,7 +1,6 @@
 var a24890 =
 [
-    [ "OnApply", "d8/df0/a24890.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
-    [ "OnRemove", "d8/df0/a24890.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
-    [ "PrepareAuraScript", "d8/df0/a24890.html#a9a7b549e059b6bd2d22802f60e952658", null ],
-    [ "Register", "d8/df0/a24890.html#aae603735281daf02ceca157e218d5c9f", null ]
+    [ "HandleCast", "d8/df0/a24890.html#ac6f7b9650d0a55834dafb09555692243", null ],
+    [ "PrepareSpellScript", "d8/df0/a24890.html#ab3dc21aa63f0fb9202233603106eef87", null ],
+    [ "Register", "d8/df0/a24890.html#ad6c2dc91d0973c0b8d57151dff3d9499", null ]
 ];

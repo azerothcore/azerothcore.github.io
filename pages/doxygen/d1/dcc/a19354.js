@@ -1,7 +1,6 @@
 var a19354 =
 [
-    [ "HandleDummyEffect", "d1/dcc/a19354.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
-    [ "PrepareSpellScript", "d1/dcc/a19354.html#a84a4f52928873e58b1fc49e783c5083a", null ],
-    [ "Register", "d1/dcc/a19354.html#a90c00bcb1768d696addab407425e406a", null ],
-    [ "SelectTarget", "d1/dcc/a19354.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
+    [ "HandlePeriodic", "d1/dcc/a19354.html#a0a77c0b232e24e5cb8b3392ac8adbd3a", null ],
+    [ "PrepareAuraScript", "d1/dcc/a19354.html#a7c6b6839da4a93f656800c9ae174c832", null ],
+    [ "Register", "d1/dcc/a19354.html#ae28e67baa12488e248efd46ef5a7cb11", null ]
 ];

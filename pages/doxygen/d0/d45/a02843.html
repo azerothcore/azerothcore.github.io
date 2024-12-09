@@ -454,7 +454,7 @@ Functions</h2></td></tr>
 <tr class="separator:a34339a53afbec181844cc9d936d1d9a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a46371802334fe0589dc4f2b065b590e5"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d45/a02843.html#a46371802334fe0589dc4f2b065b590e5">GetScriptCommandName</a> (<a class="el" href="../../d0/d45/a02843.html#a3b5dc6beed23a198fcf9b4b0c2da57e1">ScriptCommands</a> command)</td></tr>
 <tr class="separator:a46371802334fe0589dc4f2b065b590e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e3e576d2e15a5033a24dec106b42453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1">SkillRangeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d45/a02843.html#a2e3e576d2e15a5033a24dec106b42453">GetSkillRangeType</a> (<a class="el" href="../../dd/dc2/a27894.html">SkillRaceClassInfoEntry</a> const *rcEntry)</td></tr>
+<tr class="memitem:a2e3e576d2e15a5033a24dec106b42453"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1">SkillRangeType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d45/a02843.html#a2e3e576d2e15a5033a24dec106b42453">GetSkillRangeType</a> (<a class="el" href="../../dc/dc9/a27902.html">SkillRaceClassInfoEntry</a> const *rcEntry)</td></tr>
 <tr class="separator:a2e3e576d2e15a5033a24dec106b42453"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af55111c173fd16ba2898f3046dfa3d9a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d45/a02843.html#af55111c173fd16ba2898f3046dfa3d9a">normalizePlayerName</a> (std::string &amp;name)</td></tr>
 <tr class="separator:af55111c173fd16ba2898f3046dfa3d9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1857,14 +1857,14 @@ Variables</h2></td></tr>
         <tr>
           <td class="memname"><a class="el" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1">SkillRangeType</a> GetSkillRangeType </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dc2/a27894.html">SkillRaceClassInfoEntry</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../dc/dc9/a27902.html">SkillRaceClassInfoEntry</a> const *&#160;</td>
           <td class="paramname"><em>rcEntry</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno"> 8864</span>{</div>
-<div class="line"><span class="lineno"> 8865</span>    <a class="code hl_struct" href="../../df/d0c/a27898.html">SkillLineEntry</a> <span class="keyword">const</span>* skill = <a class="code hl_variable" href="../../d7/da2/a03704.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>.LookupEntry(rcEntry-&gt;SkillID);</div>
+<div class="line"><span class="lineno"> 8865</span>    <a class="code hl_struct" href="../../de/dbb/a27906.html">SkillLineEntry</a> <span class="keyword">const</span>* skill = <a class="code hl_variable" href="../../d7/da2/a03704.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>.LookupEntry(rcEntry-&gt;SkillID);</div>
 <div class="line"><span class="lineno"> 8866</span>    <span class="keywordflow">if</span> (!skill)</div>
 <div class="line"><span class="lineno"> 8867</span>    {</div>
 <div class="line"><span class="lineno"> 8868</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1a45a5df47172b7b6a42469001aaf5a980">SKILL_RANGE_NONE</a>;</div>
@@ -1880,7 +1880,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno"> 8878</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517">SKILL_RANGE_MONO</a>;</div>
 <div class="line"><span class="lineno"> 8879</span>    }</div>
 <div class="line"><span class="lineno"> 8880</span> </div>
-<div class="line"><span class="lineno"> 8881</span>    <span class="keywordflow">switch</span> (skill-&gt;<a class="code hl_variable" href="../../df/d0c/a27898.html#abf285e69e8e2a90626a157cb0c50d158">categoryId</a>)</div>
+<div class="line"><span class="lineno"> 8881</span>    <span class="keywordflow">switch</span> (skill-&gt;<a class="code hl_variable" href="../../de/dbb/a27906.html#abf285e69e8e2a90626a157cb0c50d158">categoryId</a>)</div>
 <div class="line"><span class="lineno"> 8882</span>    {</div>
 <div class="line"><span class="lineno"> 8883</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a347be03c72c20860f46f78c9bed72ad4a3cb6651c3e5e2219229f886cd86dd411">SKILL_CATEGORY_ARMOR</a>:</div>
 <div class="line"><span class="lineno"> 8884</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d0/d45/a02843.html#affa6a379d099508f3a01ff6af8eed1c1a0e2fa46595e86120500ebed3364c4517">SKILL_RANGE_MONO</a>;</div>
@@ -1895,8 +1895,8 @@ Variables</h2></td></tr>
 <div class="ttc" id="aa02771_html_af4541d30ebbff76b1f9f689519789234ab05776d4e4650677906614d28589caf1"><div class="ttname"><a href="../../d0/dbd/a02771.html#af4541d30ebbff76b1f9f689519789234ab05776d4e4650677906614d28589caf1">SKILL_RUNEFORGING</a></div><div class="ttdeci">@ SKILL_RUNEFORGING</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3004</div></div>
 <div class="ttc" id="aa03704_html_a48f208d73a9f906cf5f8f92d8d885fa9"><div class="ttname"><a href="../../d7/da2/a03704.html#a48f208d73a9f906cf5f8f92d8d885fa9">sSkillTiersStore</a></div><div class="ttdeci">DBCStorage&lt; SkillTiersEntry &gt; sSkillTiersStore(SkillTiersfmt)</div></div>
 <div class="ttc" id="aa03704_html_ab4bb35cde6511a56d8b9d23f4290f8e7"><div class="ttname"><a href="../../d7/da2/a03704.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a></div><div class="ttdeci">DBCStorage&lt; SkillLineEntry &gt; sSkillLineStore(SkillLinefmt)</div></div>
-<div class="ttc" id="aa27898_html"><div class="ttname"><a href="../../df/d0c/a27898.html">SkillLineEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1582</div></div>
-<div class="ttc" id="aa27898_html_abf285e69e8e2a90626a157cb0c50d158"><div class="ttname"><a href="../../df/d0c/a27898.html#abf285e69e8e2a90626a157cb0c50d158">SkillLineEntry::categoryId</a></div><div class="ttdeci">int32 categoryId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1584</div></div>
+<div class="ttc" id="aa27906_html"><div class="ttname"><a href="../../de/dbb/a27906.html">SkillLineEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1582</div></div>
+<div class="ttc" id="aa27906_html_abf285e69e8e2a90626a157cb0c50d158"><div class="ttname"><a href="../../de/dbb/a27906.html#abf285e69e8e2a90626a157cb0c50d158">SkillLineEntry::categoryId</a></div><div class="ttdeci">int32 categoryId</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1584</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l01584">SkillLineEntry::categoryId</a>, <a class="el" href="../../#l03075">SKILL_CATEGORY_ARMOR</a>, <a class="el" href="../../#l03077">SKILL_CATEGORY_LANGUAGES</a>, <a class="el" href="../../#l00674">SKILL_RANGE_LANGUAGE</a>, <a class="el" href="../../#l00675">SKILL_RANGE_LEVEL</a>, <a class="el" href="../../#l00676">SKILL_RANGE_MONO</a>, <a class="el" href="../../#l00678">SKILL_RANGE_NONE</a>, <a class="el" href="../../#l00677">SKILL_RANGE_RANK</a>, <a class="el" href="../../#l03004">SKILL_RUNEFORGING</a>, <a class="el" href="../../#l01570">SkillRaceClassInfoEntry::SkillID</a>, <a class="el" href="../../#l01575">SkillRaceClassInfoEntry::SkillTierID</a>, <a class="el" href="../../d7/da2/a03704.html#ab4bb35cde6511a56d8b9d23f4290f8e7">sSkillLineStore</a>, and <a class="el" href="../../d7/da2/a03704.html#a48f208d73a9f906cf5f8f92d8d885fa9">sSkillTiersStore</a>.</p>
 
@@ -2077,7 +2077,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a12bdf17fc4860c5ac78d8e274fbb711.html">Globals</a></li><li class="navelem"><a class="el" href="../../d0/d45/a02843.html">ObjectMgr.h</a></li>
-    <li class="footer">Generated on Mon Dec 2 2024 20:41:04 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 9 2024 20:42:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

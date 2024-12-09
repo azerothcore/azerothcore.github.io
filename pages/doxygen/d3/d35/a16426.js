@@ -1,8 +1,9 @@
 var a16426 =
 [
-    [ "npc_fos_leaderAI", "d1/dfb/a16430.html", "d1/dfb/a16430" ],
-    [ "npc_fos_leader", "d3/d35/a16426.html#a4223072bc180e990ff9e01bf772def5b", null ],
-    [ "GetAI", "d3/d35/a16426.html#a6eca5c95aa3a8498790d8bf52f0741f8", null ],
-    [ "OnGossipHello", "d3/d35/a16426.html#a3858054505d439902624378b9355f40d", null ],
-    [ "OnGossipSelect", "d3/d35/a16426.html#a1b743c6f270a2bdbd09940a414a1b437", null ]
+    [ "HandlePeriodicTick", "d3/d35/a16426.html#a8d3713d113cbcfd610938544e52fe6ec", null ],
+    [ "Load", "d3/d35/a16426.html#a6f2cb6a9dd83a887314cdd9f7741acae", null ],
+    [ "PrepareAuraScript", "d3/d35/a16426.html#a0d00fd1bbc8dfce6cbc3234865bab42b", null ],
+    [ "Register", "d3/d35/a16426.html#a75dbd486e1ccb8c12bbf8001434ae66a", null ],
+    [ "Validate", "d3/d35/a16426.html#aae7b42d8e7fa2dc76d2584534877625c", null ],
+    [ "dir", "d3/d35/a16426.html#a7dd1959596e8ad1628498215249eb7a2", null ]
 ];

@@ -1,6 +1,8 @@
 var a21902 =
 [
-    [ "npc_roxi_ramrocket", "db/d5c/a21902.html#af7f6bf6d5f8fc468abe62605f205571b", null ],
-    [ "OnGossipHello", "db/d5c/a21902.html#adec28f778921246c56f11d09753e566e", null ],
-    [ "OnGossipSelect", "db/d5c/a21902.html#a46a9898cb4b29808f9e911c03b5759cb", null ]
+    [ "AfterRemove", "db/d5c/a21902.html#a06fd72c7754f34dbc62a99a9ed839302", null ],
+    [ "HandlePeriodic", "db/d5c/a21902.html#a5aaadeed42e6a3cf1e2216a13c2d3ff9", null ],
+    [ "OnApply", "db/d5c/a21902.html#a6617555d302923e5e95e7b1c6d8d74d6", null ],
+    [ "PrepareAuraScript", "db/d5c/a21902.html#a47a6281c42dc9368357cc86912331c77", null ],
+    [ "Register", "db/d5c/a21902.html#a868c79cda98b97b27b74d46f86cb980a", null ]
 ];

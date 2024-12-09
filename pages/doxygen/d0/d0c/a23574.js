@@ -1,6 +1,6 @@
 var a23574 =
 [
-    [ "npc_deaths_door_fell_cannon_target_bunnyAI", "d7/dde/a23578.html", "d7/dde/a23578" ],
-    [ "npc_deaths_door_fell_cannon_target_bunny", "d0/d0c/a23574.html#a1385e50777282fae0c8f8ca2f9f8a3e6", null ],
-    [ "GetAI", "d0/d0c/a23574.html#a250707096229da28024960beeb7725bf", null ]
+    [ "instance_mechanar_InstanceMapScript", "d7/dde/a23578.html", "d7/dde/a23578" ],
+    [ "instance_mechanar", "d0/d0c/a23574.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
+    [ "GetInstanceScript", "d0/d0c/a23574.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
 ];

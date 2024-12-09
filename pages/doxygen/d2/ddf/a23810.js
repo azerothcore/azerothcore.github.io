@@ -1,6 +1,6 @@
 var a23810 =
 [
-    [ "npc_drake_dealer_hurlunk", "d2/ddf/a23810.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "d2/ddf/a23810.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "d2/ddf/a23810.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "npc_dragonmaw_peonAI", "dc/dad/a23814.html", "dc/dad/a23814" ],
+    [ "npc_dragonmaw_peon", "d2/ddf/a23810.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "d2/ddf/a23810.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

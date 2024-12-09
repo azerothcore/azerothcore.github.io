@@ -1,6 +1,6 @@
 var a23430 =
 [
-    [ "AfterRemove", "dc/d5b/a23430.html#a1794dcf8ebca0bd0c4fce5acb8b45de0", null ],
-    [ "PrepareAuraScript", "dc/d5b/a23430.html#ad5871ce865820456177362c6b790778f", null ],
-    [ "Register", "dc/d5b/a23430.html#a41e19fb2509051bbd2d9e43c59f16486", null ]
+    [ "OnApply", "dc/d5b/a23430.html#a472220f22165c6d21eab5f4b5f75921e", null ],
+    [ "PrepareAuraScript", "dc/d5b/a23430.html#a12dba24d5aa3d41671980d8dd509d6f2", null ],
+    [ "Register", "dc/d5b/a23430.html#aa8530071a4053e6c6f8b194a9cc723e2", null ]
 ];

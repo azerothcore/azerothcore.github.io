@@ -1,9 +1,7 @@
 var a26782 =
 [
-    [ "ChatLogScript", "d3/d24/a26782.html#ade8c407083cf094f0767412e7b6d7730", null ],
-    [ "OnChat", "d3/d24/a26782.html#a44694358d5babfd988c6c64e738a4f80", null ],
-    [ "OnChat", "d3/d24/a26782.html#ac0a0f2e7d63cb5ff94be3d1a7c7a62b4", null ],
-    [ "OnChat", "d3/d24/a26782.html#a53b69eaa690266d38f08aa3920048353", null ],
-    [ "OnChat", "d3/d24/a26782.html#a7b6ce21ddcda078a0ed32ce130a3b376", null ],
-    [ "OnChat", "d3/d24/a26782.html#ab7e9d4f50e33c4ddd49e98157deb29ba", null ]
+    [ "HandlePeriodic", "d3/d24/a26782.html#a3da4cc5322f2e34244729fe3b3876482", null ],
+    [ "PrepareAuraScript", "d3/d24/a26782.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
+    [ "Register", "d3/d24/a26782.html#a53b6067f46912648413fc6d6f107b0d8", null ],
+    [ "Validate", "d3/d24/a26782.html#aa03222717b3c06316b232a6ac0270ec0", null ]
 ];

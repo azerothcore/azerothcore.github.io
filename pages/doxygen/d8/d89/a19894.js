@@ -1,6 +1,7 @@
 var a19894 =
 [
-    [ "HandleAfterEffectApply", "d8/d89/a19894.html#ac8b5cddcf66c1f43c4ab0461354e97f1", null ],
-    [ "PrepareAuraScript", "d8/d89/a19894.html#a439799df0d6ca43e6a81930e3e4b5334", null ],
-    [ "Register", "d8/d89/a19894.html#adce13201dd11c6ba83883b12ad32d1f6", null ]
+    [ "HandleAfterEffectApply", "d8/d89/a19894.html#adab765d78094eec673abce5140145267", null ],
+    [ "OnApply", "d8/d89/a19894.html#aab4331a7a55dc6f713db02726ec22e3a", null ],
+    [ "PrepareAuraScript", "d8/d89/a19894.html#acb827ae4299ae482d9b7f3fb09bbcc52", null ],
+    [ "Register", "d8/d89/a19894.html#ac1007ce2ee5e046639829558855f0188", null ]
 ];

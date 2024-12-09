@@ -1,7 +1,7 @@
 var a01931 =
 [
-    [ "npc_preparations_for_war_vehicle", "d4/d5e/a21266.html", "d4/d5e/a21266" ],
-    [ "npc_warmage_violetstand", "d8/d63/a21270.html", "d8/d63/a21270" ],
+    [ "npc_preparations_for_war_vehicle", "db/dc6/a21274.html", "db/dc6/a21274" ],
+    [ "npc_warmage_violetstand", "dc/df1/a21278.html", "dc/df1/a21278" ],
     [ "ePreparationsForWar", "d5/d31/a01931.html#aa1f5da50609df8a5db6588a5aef4dfa1", [
       [ "NPC_HAMMERHEAD", "d5/d31/a01931.html#aa1f5da50609df8a5db6588a5aef4dfa1ad1b13588c08e2e01417692b4885a4872", null ],
       [ "NPC_CLOUDBUSTER", "d5/d31/a01931.html#aa1f5da50609df8a5db6588a5aef4dfa1afa07f0b51a484de98e7c55105c1235fa", null ],
@@ -124,7 +124,8 @@ var a01931 =
       [ "NPC_DARK_RUNE_PROTECTOR", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cadce53817fd6965f59a16bb8b700bb4a3", null ],
       [ "NPC_DARK_RUNE_STORMCALLER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca1e69a67dd750b7a83483211a22cf6ca1", null ],
       [ "NPC_IRON_GOLEM_CUSTODIAN", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cacc6919a1cac3589ac215cfca60ec429e", null ],
-      [ "NPC_DARK_MATTER_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca5ca145f19b7aae75e3dcac1c573ecf75", null ],
+      [ "NPC_DARK_MATTER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca85b8db9d6af4d479e6fe7afa466a1f62", null ],
+      [ "NPC_DARK_MATTER_TARGET", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca749a4d921c5f10a0f0f088a6f0941a46", null ],
       [ "NPC_SEARING_GAZE_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca277494839c28c35d50283a6001a286ef", null ],
       [ "NPC_LEVIATHAN_MKII", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5ca1c82e84038889b63ff246314efbd64f7", null ],
       [ "NPC_LEVIATHAN_MKII_CANNON", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5cac1f3999518124ad86c06af3678061d08", null ],

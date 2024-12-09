@@ -1,9 +1,6 @@
 var a25766 =
 [
-    [ "CheckCast", "d6/d7b/a25766.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
-    [ "HandleTriggerSpellHit", "d6/d7b/a25766.html#aca027bb2995456bfcedd33c06966eb88", null ],
-    [ "HandleTriggerSpellLaunch", "d6/d7b/a25766.html#aa67bf9f81086a3837037d67306979072", null ],
-    [ "PrepareSpellScript", "d6/d7b/a25766.html#a9247b5f3a376bebdcf857565b5049944", null ],
-    [ "Register", "d6/d7b/a25766.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
-    [ "Validate", "d6/d7b/a25766.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
+    [ "HandleDummy", "d6/d7b/a25766.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "d6/d7b/a25766.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "d6/d7b/a25766.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

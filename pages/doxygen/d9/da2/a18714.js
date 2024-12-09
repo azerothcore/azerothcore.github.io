@@ -1,6 +1,7 @@
 var a18714 =
 [
-    [ "boss_loathebAI", "d1/d73/a18718.html", "d1/d73/a18718" ],
-    [ "boss_loatheb", "d9/da2/a18714.html#a93bf8055a9ed900c880ef8b81b87bafd", null ],
-    [ "GetAI", "d9/da2/a18714.html#aca9b3a2515777f81b354c01a9727276e", null ]
+    [ "HandleScript", "d9/da2/a18714.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
+    [ "PrepareAuraScript", "d9/da2/a18714.html#aa3053519be0101f55450d76b1291f0f7", null ],
+    [ "Register", "d9/da2/a18714.html#ada596a7f19115c7178fd07fb9e956f58", null ],
+    [ "Validate", "d9/da2/a18714.html#a768dec18bc0e879c457a64135ec27ad9", null ]
 ];

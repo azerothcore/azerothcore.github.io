@@ -1,5 +1,5 @@
 var a26610 =
 [
-    [ "achievement_bg_ic_resource_glut", "d6/dda/a26610.html#ace247962dccee2601ceade593b0874d4", null ],
-    [ "OnCheck", "d6/dda/a26610.html#a9910cf8b16b8c956df382161cc5f2c84", null ]
+    [ "achievement_bg_control_all_nodes", "d6/dda/a26610.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
+    [ "OnCheck", "d6/dda/a26610.html#a69609eb5488519fa5a1f43b13a80e280", null ]
 ];

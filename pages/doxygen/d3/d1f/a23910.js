@@ -1,5 +1,6 @@
 var a23910 =
 [
-    [ "npc_shattrath_daily_quest", "d3/d1f/a23910.html#ab6aa71e4738fdce1b59d379249a868d5", null ],
-    [ "DoAction", "d3/d1f/a23910.html#ac3e8c6de30ad7567fe5e52cd1ddfeb2c", null ]
+    [ "npc_kservantAI", "dc/dd9/a23914.html", "dc/dd9/a23914" ],
+    [ "npc_kservant", "d3/d1f/a23910.html#af04c8a87516e41f7d35071664034af9d", null ],
+    [ "GetAI", "d3/d1f/a23910.html#a3ae7327ec2ead5a2d3ffb043f18ccc09", null ]
 ];

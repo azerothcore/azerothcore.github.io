@@ -1,13 +1,17 @@
 var a14726 =
 [
-    [ "boss_cthun", "dd/d2d/a14726.html#a287ee7b65708971e4fdfa7b814486935", null ],
-    [ "DoAction", "dd/d2d/a14726.html#a04ae38b67d358f1d34820b855aab3869", null ],
-    [ "JustDied", "dd/d2d/a14726.html#a3c6478e7de0e5a6f20f693a788bf8c86", null ],
-    [ "JustEngagedWith", "dd/d2d/a14726.html#a56fe3347ac41b67fb6912f372a5879ba", null ],
-    [ "Reset", "dd/d2d/a14726.html#a05bab8427cd4b4bfa50aee450e423f98", null ],
-    [ "ScheduleTasks", "dd/d2d/a14726.html#a5a0514e56217bb3b30b22b2681542adb", null ],
-    [ "SummonedCreatureDies", "dd/d2d/a14726.html#a49d76bb4cf30ee66fae6114313394961", null ],
-    [ "UpdateAI", "dd/d2d/a14726.html#a7d2685597f1eec2459fe509e5b97681f", null ],
-    [ "_fleshTentaclesKilled", "dd/d2d/a14726.html#a139de83ae488c40d40a4587509cd197d", null ],
-    [ "WisperTimer", "dd/d2d/a14726.html#abad23f1df9c6989e7a6d3d62143adb05", null ]
+    [ "boss_eye_of_cthun", "dd/d2d/a14726.html#ac780d2e04a1fab6bd02db049bc6eaab2", null ],
+    [ "DamageTaken", "dd/d2d/a14726.html#a1a28da1eefd61303201d1f3150fe405f", null ],
+    [ "DoAction", "dd/d2d/a14726.html#a102aabe3ce6d89b6403760c11eac87ec", null ],
+    [ "JustDied", "dd/d2d/a14726.html#a4dec255ac49195d835390772a8f1f517", null ],
+    [ "JustEngagedWith", "dd/d2d/a14726.html#ae83ed5b888df95ad0b854f67192cbd4a", null ],
+    [ "JustSummoned", "dd/d2d/a14726.html#a5c037c1fa7adb8355242bf36beb9c61d", null ],
+    [ "MoveInLineOfSight", "dd/d2d/a14726.html#a4555b8c931f9d02b7bd3af1c1f569c6c", null ],
+    [ "Reset", "dd/d2d/a14726.html#a66aec1afcbaa46ede6be2ffc32b67faa", null ],
+    [ "ScheduleTask", "dd/d2d/a14726.html#a14e5b518f2c8534096b8a8059458636d", null ],
+    [ "_beamTarget", "dd/d2d/a14726.html#a2c217290b988d06397c52e3485a7dae8", null ],
+    [ "_eyeTentacleCounter", "dd/d2d/a14726.html#a559d6ba31ed626d8c42a00c230d647b8", null ],
+    [ "ClockWise", "dd/d2d/a14726.html#a701a24f3a06657467b8665d2e4216710", null ],
+    [ "DarkGlareAngle", "dd/d2d/a14726.html#ac71992a2cf223d65c0e06cd8bd440164", null ],
+    [ "DarkGlareTick", "dd/d2d/a14726.html#af546d3325ad456d335148cd7284f7cad", null ]
 ];

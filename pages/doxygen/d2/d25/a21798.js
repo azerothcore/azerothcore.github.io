@@ -1,6 +1,5 @@
 var a21798 =
 [
-    [ "npc_vekjik", "d2/d25/a21798.html#a7439c6038237b77ba8623ae92d6cf708", null ],
-    [ "OnGossipHello", "d2/d25/a21798.html#acdbba5b4970049e72477eccf6672b0e8", null ],
-    [ "OnGossipSelect", "d2/d25/a21798.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
+    [ "go_pressure_valve", "d2/d25/a21798.html#a43a91a1379001ecd3e825d7d4fcd3c6b", null ],
+    [ "OnGossipHello", "d2/d25/a21798.html#a6b81a04a33cd5e1e577fc80a3b1f706c", null ]
 ];

@@ -1,6 +1,8 @@
 var a23034 =
 [
-    [ "HandlePeriodic", "dc/d6b/a23034.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
-    [ "PrepareAuraScript", "dc/d6b/a23034.html#a75515896f3d94d227963a3c5258e2d0d", null ],
-    [ "Register", "dc/d6b/a23034.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
+    [ "boss_hungarfen", "dc/d6b/a23034.html#a009b8d34731d2310a53195024b434935", null ],
+    [ "JustEngagedWith", "dc/d6b/a23034.html#a3612bb373ecdba4245587fd94257ba62", null ],
+    [ "Reset", "dc/d6b/a23034.html#a4b310eff8af9a33c50ae8f2035ba76ad", null ],
+    [ "UpdateAI", "dc/d6b/a23034.html#a1765bd54c04a3479e837b3d0e241300e", null ],
+    [ "_scheduler", "dc/d6b/a23034.html#a702185681abb6cfc4add7078ff5bbb52", null ]
 ];

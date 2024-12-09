@@ -1,14 +1,13 @@
 var a15422 =
 [
-    [ "boss_amanitar", "d8/dfe/a15422.html#a660bdf8dd64bbffda4ee1ec603c41402", null ],
-    [ "EnterEvadeMode", "d8/dfe/a15422.html#a6b3cf0ea01ce34b4281116ca8387732d", null ],
-    [ "ExecuteEvent", "d8/dfe/a15422.html#a540fb447d261ccfcc77ac15888e8bb50", null ],
-    [ "JustDied", "d8/dfe/a15422.html#a138049712649ff414950d9d0ca05d712", null ],
-    [ "JustEngagedWith", "d8/dfe/a15422.html#ae2bace7f649626c68560d4a6d5aa4ea3", null ],
-    [ "JustSummoned", "d8/dfe/a15422.html#a1199430b8ec2a27b136838c112a63c07", null ],
-    [ "Reset", "d8/dfe/a15422.html#aab3faca4526947a72d8ca049a605f5be", null ],
-    [ "SummonedCreatureDies", "d8/dfe/a15422.html#a2f897b4d32b8c67ff644675f08ac6353", null ],
-    [ "SummonMushroom", "d8/dfe/a15422.html#afc5b4942931f6020b2894b901650fc35", null ],
-    [ "_mushroomsDeque", "d8/dfe/a15422.html#a4ba2415d6134cdc435114cd3af235b6d", null ],
-    [ "mushroomsSummoned", "d8/dfe/a15422.html#a57b207eaa8a4347bfb5cb51d46eead27", null ]
+    [ "npc_shadowpriest_sezzizAI", "d8/dfe/a15422.html#a14c5cee1c3032b8df4ad902eb273e9b0", null ],
+    [ "AttackStart", "d8/dfe/a15422.html#a8278a73501ea33164cbdef8599144f4a", null ],
+    [ "Reset", "d8/dfe/a15422.html#ab08cc327c4206e4526e77eea3bf17e0b", null ],
+    [ "UpdateAI", "d8/dfe/a15422.html#a1c0236b52d4cd87634659991e0dfc728", null ],
+    [ "_missingHPForHealTimer", "d8/dfe/a15422.html#a1171f0cd40bd3d7198bab15b12edc131", null ],
+    [ "_missingHPForRenewTimer", "d8/dfe/a15422.html#a8df4e1046348599cd5d1e31e3dc4eb0c", null ],
+    [ "_physicScreemTimer", "d8/dfe/a15422.html#a43de246b93f3380d5b79ffba6434aa5a", null ],
+    [ "_shadowBoltTimer", "d8/dfe/a15422.html#a34a18991ff2c0aafac15694ed9667193", null ],
+    [ "_summmonAddsCount", "d8/dfe/a15422.html#a8ce2b172757d1f7d188152ecc0fe30f5", null ],
+    [ "_summonAddsTimer", "d8/dfe/a15422.html#aff413ce6f4106d212f35fb7abbfa047e", null ]
 ];

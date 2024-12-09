@@ -1,6 +1,6 @@
 var a02552 =
 [
-    [ "boss_venoxis", "de/d26/a13762.html", "de/d26/a13762" ],
+    [ "boss_venoxis", "d4/d5b/a13766.html", "d4/d5b/a13766" ],
     [ "NPCs", "de/d48/a02552.html#a6986ec7b2d3274669934af9795f26d5c", [
       [ "NPC_EMI_SHORTFUSE", "db/dda/a02318.html#a6986ec7b2d3274669934af9795f26d5ca9e4a9c0c7e0adc0ef8c70ad7a302078a", null ],
       [ "BOSS_VENOXIS", "de/d48/a02552.html#a6986ec7b2d3274669934af9795f26d5caae68e55f680ae41a7b7f050bb06a5702", null ],
@@ -117,7 +117,8 @@ var a02552 =
       [ "NPC_DARK_RUNE_PROTECTOR", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cadce53817fd6965f59a16bb8b700bb4a3", null ],
       [ "NPC_DARK_RUNE_STORMCALLER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca1e69a67dd750b7a83483211a22cf6ca1", null ],
       [ "NPC_IRON_GOLEM_CUSTODIAN", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5cacc6919a1cac3589ac215cfca60ec429e", null ],
-      [ "NPC_DARK_MATTER_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca5ca145f19b7aae75e3dcac1c573ecf75", null ],
+      [ "NPC_DARK_MATTER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca85b8db9d6af4d479e6fe7afa466a1f62", null ],
+      [ "NPC_DARK_MATTER_TARGET", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca749a4d921c5f10a0f0f088a6f0941a46", null ],
       [ "NPC_SEARING_GAZE_TRIGGER", "db/dbe/a01706.html#a6986ec7b2d3274669934af9795f26d5ca277494839c28c35d50283a6001a286ef", null ],
       [ "NPC_LEVIATHAN_MKII", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5ca1c82e84038889b63ff246314efbd64f7", null ],
       [ "NPC_LEVIATHAN_MKII_CANNON", "d1/dd5/a01742.html#a6986ec7b2d3274669934af9795f26d5cac1f3999518124ad86c06af3678061d08", null ],

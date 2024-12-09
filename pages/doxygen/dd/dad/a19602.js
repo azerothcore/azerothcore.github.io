@@ -1,6 +1,8 @@
 var a19602 =
 [
-    [ "HandleScript", "dd/dad/a19602.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
-    [ "PrepareSpellScript", "dd/dad/a19602.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
-    [ "Register", "dd/dad/a19602.html#a04a5b3a4f768200d74f4641508633d35", null ]
+    [ "Area", "dd/dad/a19602.html#a0b9dc74e944f13e3291184645f432477", [
+      [ "AREA_FORMATION_GROUNDS", "dd/dad/a19602.html#a0b9dc74e944f13e3291184645f432477a92a09caedcec4a8b97c3e4601308d450", null ]
+    ] ],
+    [ "FlameLeviathanPursuedTargetSelector", "dd/dad/a19602.html#acc855eaab1e9590e1fcfae6ed8d37815", null ],
+    [ "operator()", "dd/dad/a19602.html#aaa2a49366fb651f7486b463ce597f364", null ]
 ];

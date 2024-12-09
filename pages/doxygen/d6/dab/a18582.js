@@ -1,7 +1,7 @@
 var a18582 =
 [
-    [ "HandleScript", "d6/dab/a18582.html#a2e5311b631a4cbf6002e27e4a806280c", null ],
-    [ "Launch", "d6/dab/a18582.html#a575a7bf98b629dd91e7ca96e388eb8fd", null ],
-    [ "PrepareSpellScript", "d6/dab/a18582.html#ad65642fd7e8b7793f69d041d458fa33f", null ],
-    [ "Register", "d6/dab/a18582.html#aa8800d8fc050f2914d63c24e555aad4b", null ]
+    [ "HandleTriggerSpell", "d6/dab/a18582.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
+    [ "PrepareAuraScript", "d6/dab/a18582.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
+    [ "Register", "d6/dab/a18582.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
+    [ "Validate", "d6/dab/a18582.html#a813bad39641956fff697580f271416d2", null ]
 ];

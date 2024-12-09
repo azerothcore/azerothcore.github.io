@@ -1,8 +1,5 @@
 var a27038 =
 [
-    [ "trigger_periodicAI", "de/dca/a27038.html#a696d62fed28de9c67827dad111cf320b", null ],
-    [ "UpdateAI", "de/dca/a27038.html#aed31d60765eff7dd11790714e28e729e", null ],
-    [ "interval", "de/dca/a27038.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
-    [ "spell", "de/dca/a27038.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
-    [ "timer", "de/dca/a27038.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
+    [ "item_generic_limit_chance_above_60", "de/dca/a27038.html#abc18809810f0a7668020d01c482be84b", null ],
+    [ "OnCastItemCombatSpell", "de/dca/a27038.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
 ];

@@ -1,8 +1,7 @@
 var a17530 =
 [
-    [ "FilterTargets", "df/dc9/a17530.html#a1b125c887db7d2030838d0ac8e38c4e3", null ],
-    [ "HandleScript", "df/dc9/a17530.html#a4c7be5a65b1fb7e8db62691f5ef6b38d", null ],
-    [ "PrepareSpellScript", "df/dc9/a17530.html#ae6b30b8da52141c385f985435cac99a1", null ],
-    [ "Register", "df/dc9/a17530.html#a17dc25670b0f21525a01f6e7aa7eb572", null ],
-    [ "Validate", "df/dc9/a17530.html#accff1f03fb7c0d56cb197bb18348635c", null ]
+    [ "HandleTriggerSpell", "df/dc9/a17530.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
+    [ "OnRemove", "df/dc9/a17530.html#a238adc96e80c1890934b23dd4a2685b4", null ],
+    [ "PrepareAuraScript", "df/dc9/a17530.html#af9ce7433b620fdf1dea570561c514b3b", null ],
+    [ "Register", "df/dc9/a17530.html#ab36a001ea8cd87703e2694e0765635c0", null ]
 ];

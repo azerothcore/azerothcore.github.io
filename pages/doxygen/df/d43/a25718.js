@@ -1,9 +1,10 @@
 var a25718 =
 [
-    [ "CountTargets", "df/d43/a25718.html#a85a60a3ada7ea2b8c995bc156be36fe2", null ],
-    [ "HandleDummy", "df/d43/a25718.html#af51f59f6cb8e2a6d99b3c05cebfcfa89", null ],
-    [ "PrepareSpellScript", "df/d43/a25718.html#adfb7e3fbb52aa349573b95c457823900", null ],
-    [ "Register", "df/d43/a25718.html#a9180a01674a1f56c287d40bfbdf6d841", null ],
-    [ "Validate", "df/d43/a25718.html#a5dd09977efde2d3433aff4d35687d5e8", null ],
-    [ "_targetCount", "df/d43/a25718.html#aa9a0fb36eafd8535fcd2bddda56d7107", null ]
+    [ "Load", "df/d43/a25718.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
+    [ "PrepareAuraScript", "df/d43/a25718.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
+    [ "Register", "df/d43/a25718.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
+    [ "Split", "df/d43/a25718.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
+    [ "groupSize", "df/d43/a25718.html#aa1e61b128f63c802dc623be551657df1", null ],
+    [ "minHpPct", "df/d43/a25718.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
+    [ "remainingAmount", "df/d43/a25718.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
 ];

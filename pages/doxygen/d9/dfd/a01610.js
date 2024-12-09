@@ -1,8 +1,8 @@
 var a01610 =
 [
-    [ "ChampionPosition", "d7/d4f/a16770.html", "d7/d4f/a16770" ],
-    [ "FBSPosition", "dc/dde/a16774.html", "dc/dde/a16774" ],
-    [ "TSPosition", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
+    [ "ChampionPosition", "dc/dde/a16774.html", "dc/dde/a16774" ],
+    [ "FBSPosition", "d2/d7e/a16778.html", "d2/d7e/a16778" ],
+    [ "TSPosition", "d3/d62/a16782.html", "d3/d62/a16782" ],
     [ "DataHeader", "d9/dfd/a01610.html#a042491ef36459046f3866e90f15aae0d", null ],
     [ "PATH_BEGIN_VALUE", "d9/dfd/a01610.html#a5e53249f20085a0a3fa19bdb577ee3c0", null ],
     [ "PitOfSaronScriptName", "d9/dfd/a01610.html#ac8331e51ea541bfd050c3deb5dc0a07a", null ],
@@ -388,6 +388,7 @@ var a01610 =
       [ "DATA_HARRISON_JONES", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22afed37b4cccbefb71eae3b750ca256a8a", null ],
       [ "TYPE_AKILZON_GAUNTLET", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22a32627ed2529fd86dd576f9b0b8d8da65", null ],
       [ "DATA_LOOKOUT", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22ac9a7e429aa546919840b39674b9692cf", null ],
+      [ "DATA_ZULJIN_GATE", "d1/dce/a02168.html#afb6eb4f28419b652027fad41104a6d22aef4fd113c1545998d07b032c3367ced1", null ],
       [ "DATA_JEKLIK", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22aa94ad957c2b090d166d4d7a0ffe64501", null ],
       [ "DATA_VENOXIS", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22ac6e5ff2f658de784d1625d0a84df3bf4", null ],
       [ "DATA_MARLI", "db/dab/a02567.html#afb6eb4f28419b652027fad41104a6d22a4abd552de0f1e952a1976c1bd03919fe", null ],

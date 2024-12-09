@@ -1,11 +1,10 @@
 var a26186 =
 [
-    [ "AddTarget", "d7/da7/a26186.html#a18875ef707271a77c0c5867fa8de7ff7", null ],
-    [ "HandleApply", "d7/da7/a26186.html#afad10ab0f64e688a18ed749c294a2fbe", null ],
-    [ "HandleEffectPeriodic", "d7/da7/a26186.html#a339b71689056a61e4eebf77f1abcb3dd", null ],
-    [ "HandleRemove", "d7/da7/a26186.html#a1bd9806323ad6b26a0c1fb8773596c98", null ],
-    [ "PrepareAuraScript", "d7/da7/a26186.html#abd535f756fae06c9fae613d69ef4e353", null ],
-    [ "Register", "d7/da7/a26186.html#a0f41f9287f5eb5046e6679d22c65416a", null ],
-    [ "Validate", "d7/da7/a26186.html#a47351141df5e5e15a2d454cc653a9cf5", null ],
-    [ "_targets", "d7/da7/a26186.html#ad2467bc150cb08766c57cca23d4d9843", null ]
+    [ "Absorb", "d7/da7/a26186.html#aedee311aa77597674b3665eaf74e98c8", null ],
+    [ "CalculateAmount", "d7/da7/a26186.html#a5fdabb367ab86589d733d1da906446ab", null ],
+    [ "Load", "d7/da7/a26186.html#a7418b17f23b9eeacceb0970df3cb1d99", null ],
+    [ "PrepareAuraScript", "d7/da7/a26186.html#a1de52fae7a5ed3eeeb46be11eb2eac21", null ],
+    [ "Register", "d7/da7/a26186.html#abfc540163e9eb34cbf8a48d39bede840", null ],
+    [ "Validate", "d7/da7/a26186.html#a6cca564b6d13063ce7cd72ed8b6adf67", null ],
+    [ "absorbChance", "d7/da7/a26186.html#a293be81af42d810126eda35b1d27e3bc", null ]
 ];

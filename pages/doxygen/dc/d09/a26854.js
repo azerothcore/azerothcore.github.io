@@ -1,6 +1,6 @@
 var a26854 =
 [
-    [ "go_l70_etc_musicAI", "d1/d68/a26858.html", "d1/d68/a26858" ],
-    [ "go_l70_etc_music", "dc/d09/a26854.html#a766dccca12fc7959273ba1e3a278564f", null ],
-    [ "GetAI", "dc/d09/a26854.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
+    [ "go_bear_trapAI", "d1/d68/a26858.html", "d1/d68/a26858" ],
+    [ "go_bear_trap", "dc/d09/a26854.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "dc/d09/a26854.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

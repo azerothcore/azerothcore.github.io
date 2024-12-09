@@ -1,6 +1,7 @@
 var a19110 =
 [
-    [ "boss_bjarngrimAI", "d9/d93/a19114.html", "d9/d93/a19114" ],
-    [ "boss_bjarngrim", "d4/d8e/a19110.html#ab509688547d41ec1fd094fdc45291959", null ],
-    [ "GetAI", "d4/d8e/a19110.html#aff6455d2a327bbf3426d10a07f7b0e44", null ]
+    [ "HandleOnEffectApply", "d4/d8e/a19110.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "d4/d8e/a19110.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "d4/d8e/a19110.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "d4/d8e/a19110.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

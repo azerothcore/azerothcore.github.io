@@ -1,12 +1,16 @@
 var a19406 =
 [
-    [ "npc_assembly_lightningAI", "de/d55/a19406.html#a4b778b6545e7c93e66a07160db793651", null ],
-    [ "AttackStart", "de/d55/a19406.html#afd4657e8c6a2eb39346e99cb54a7ab1a", null ],
-    [ "EnterEvadeMode", "de/d55/a19406.html#a4c0bb838053412a3945648ed1a5a13b9", null ],
-    [ "MoveInLineOfSight", "de/d55/a19406.html#a077f788e67cdb67683ac13f3a3d1322b", null ],
-    [ "MovementInform", "de/d55/a19406.html#a95227f93c5ac6871bfcea603ebb2188d", null ],
-    [ "OnCharmed", "de/d55/a19406.html#aa08e4c286723c76251bd75aa54b24f5f", null ],
-    [ "Reset", "de/d55/a19406.html#a1f03885bfd91d9b9cdde1d90b51d2c96", null ],
-    [ "UpdateAI", "de/d55/a19406.html#a94edd1ea5278bd5ca8d5d64619e9c8b4", null ],
-    [ "_boomed", "de/d55/a19406.html#aa6b4a46674a7d4106a49ef308ec27b9e", null ]
+    [ "boss_runemaster_molgeimAI", "de/d55/a19406.html#a9454bd0e95a5361baed5b186b1290606", null ],
+    [ "JustDied", "de/d55/a19406.html#a98df9b6d86eb0cec19f3a32dbf79a0e1", null ],
+    [ "JustEngagedWith", "de/d55/a19406.html#ade0ee9133e2d571015d7b0b2ea9d988b", null ],
+    [ "JustReachedHome", "de/d55/a19406.html#add0ccdadc163490cb9d241aedb919cfc", null ],
+    [ "KilledUnit", "de/d55/a19406.html#a1e1e8f4dbd450799135c8065d8229481", null ],
+    [ "Reset", "de/d55/a19406.html#ae17903a98365dc462b6dfd13efb6c689", null ],
+    [ "SpellHit", "de/d55/a19406.html#a35f83a6017a8c6a46334c5c65b3f62c4", null ],
+    [ "UpdateAI", "de/d55/a19406.html#a7db3d0f2725fd8b7aff01d1f60aba5bd", null ],
+    [ "UpdatePhase", "de/d55/a19406.html#adc700e8903de503260839c2d627d4b44", null ],
+    [ "_phase", "de/d55/a19406.html#a47a958b930d898627bcbde9a1b0426e6", null ],
+    [ "events", "de/d55/a19406.html#a626a84eca5840ba0851aa6bc151e5277", null ],
+    [ "pInstance", "de/d55/a19406.html#a422e7c2e139483cd377856bf3357b6a3", null ],
+    [ "summons", "de/d55/a19406.html#ad7b215ef95f6d37f94accf4d0e8a19e1", null ]
 ];

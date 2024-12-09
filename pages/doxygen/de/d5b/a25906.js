@@ -1,6 +1,7 @@
 var a25906 =
 [
-    [ "HandleScriptEffect", "de/d5b/a25906.html#ab958c74ba8b40488751e5137eb0b6a66", null ],
-    [ "PrepareSpellScript", "de/d5b/a25906.html#a810fcbfe27f3c6991d1c5f599609b6f7", null ],
-    [ "Register", "de/d5b/a25906.html#a12c61c9057250f12ea50be74ba74c948", null ]
+    [ "if", "de/d5b/a25906.html#aefedb14e99d2e60abfd58f7778deb39b", null ],
+    [ "PrepareAuraScript", "de/d5b/a25906.html#ad61e8c804e59ca0623748acde69aeddb", null ],
+    [ "Register", "de/d5b/a25906.html#af917d32bc0d7f825a52c0a916a3a2357", null ],
+    [ "AuraEffectHandleModes", "de/d5b/a25906.html#accfab0bada4faf21178e3f67a79c6dfe", null ]
 ];

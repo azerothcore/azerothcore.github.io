@@ -1,14 +1,14 @@
 var a20934 =
 [
-    [ "boss_erekemAI", "dc/d57/a20934.html#aedf10fef3f0f2ac6797efa5f5a809f4a", null ],
-    [ "EnterEvadeMode", "dc/d57/a20934.html#a2c9f8f444b3b28d5cfdbaa234e9d76ee", null ],
-    [ "GetChainHealTargetGUID", "dc/d57/a20934.html#aa346cbaded883bbb3806acf9cb32579a", null ],
-    [ "JustDied", "dc/d57/a20934.html#a12e7fb5389977dcacb4e1eadda771467", null ],
-    [ "JustEngagedWith", "dc/d57/a20934.html#ad380838dbb6c2a3488fa57f2999e137c", null ],
-    [ "KilledUnit", "dc/d57/a20934.html#a120a2c9a6af821ce9a5e68dbab6e800d", null ],
-    [ "MoveInLineOfSight", "dc/d57/a20934.html#a5905809cba20d426c4d222b1e91055bc", null ],
-    [ "Reset", "dc/d57/a20934.html#a338bbc123b1d3adef4f014c3302c4590", null ],
-    [ "UpdateAI", "dc/d57/a20934.html#a234ae447260ae30a137a53fb986e5dc4", null ],
-    [ "events", "dc/d57/a20934.html#a8d4445b6d35f534061818f7708f39f7e", null ],
-    [ "pInstance", "dc/d57/a20934.html#aa68ece744a21ed2ef8d3e7c4b4081d8e", null ]
+    [ "boss_cyanigosaAI", "dc/d57/a20934.html#a4b24132889b17b3e682a15009a1ae910", null ],
+    [ "EnterEvadeMode", "dc/d57/a20934.html#a8da6ddc9b1c9f7b145920205046ce095", null ],
+    [ "JustDied", "dc/d57/a20934.html#a805117db567dd3d529a1c862bc24179c", null ],
+    [ "JustEngagedWith", "dc/d57/a20934.html#a4ef85c0178120f14f2a7b29efb7a9abf", null ],
+    [ "KilledUnit", "dc/d57/a20934.html#a5e69b631ab6844160b1e53fd1d731bae", null ],
+    [ "MoveInLineOfSight", "dc/d57/a20934.html#adb699a22dbf1c14cb80f8fdcca9c6f82", null ],
+    [ "Reset", "dc/d57/a20934.html#a7b0fdaa4f2603db8fd2d0c1ee6975817", null ],
+    [ "SpellHitTarget", "dc/d57/a20934.html#ae8218b69e6dc7489e65d891048d84da1", null ],
+    [ "UpdateAI", "dc/d57/a20934.html#ae69afba77636c962045160b610177bd9", null ],
+    [ "events", "dc/d57/a20934.html#ab5fe766d46e9445b9e7cfc605073983f", null ],
+    [ "pInstance", "dc/d57/a20934.html#a075f4a592202dc73d9b5d63ca5178093", null ]
 ];

@@ -1,6 +1,5 @@
 var a15554 =
 [
-    [ "boss_krik_thirAI", "d8/d80/a15558.html", "d8/d80/a15558" ],
-    [ "boss_krik_thir", "d4/d00/a15554.html#ab7001cd05e8e5e371cbd6ee2b25f3522", null ],
-    [ "GetAI", "d4/d00/a15554.html#a10e582440092d5c6558c2a11d60907aa", null ]
+    [ "achievement_hadronox_denied", "d4/d00/a15554.html#aeb1dcb0cee9cfe1bd149aa070a9ab7a0", null ],
+    [ "OnCheck", "d4/d00/a15554.html#a0ee9c8fb90a43bc011c75026d6bcc2e5", null ]
 ];

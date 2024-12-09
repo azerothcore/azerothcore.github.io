@@ -1,6 +1,8 @@
 var a23302 =
 [
-    [ "instance_shattered_halls_InstanceMapScript", "df/d6f/a23306.html", "df/d6f/a23306" ],
-    [ "instance_shattered_halls", "d7/d72/a23302.html#a9d0d3b6baec34c679151791610cff3a7", null ],
-    [ "GetInstanceScript", "d7/d72/a23302.html#a82388466811b022a725ba721845cadf3", null ]
+    [ "npc_warchief_portal", "d7/d72/a23302.html#a1a52395a5ae66f5cc5f92c6d4ce81893", null ],
+    [ "JustSummoned", "d7/d72/a23302.html#ad90c834dc059040f3922f58dc3bcf4a2", null ],
+    [ "SetData", "d7/d72/a23302.html#a538ab8c6e7683aa02e8c75f9dd900be8", null ],
+    [ "UpdateAI", "d7/d72/a23302.html#a8c400cf1b9f41696807e11f1f135c0ad", null ],
+    [ "_scheduler", "d7/d72/a23302.html#a76bb6a89f0922ed0bc0289ee4e0f20d4", null ]
 ];

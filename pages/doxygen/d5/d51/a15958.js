@@ -1,6 +1,6 @@
 var a15958 =
 [
-    [ "boss_anubarak_trialAI", "d0/dfb/a15962.html", "d0/dfb/a15962" ],
-    [ "boss_anubarak_trial", "d5/d51/a15958.html#a5204e33a412608b53cc155a043356d58", null ],
-    [ "GetAI", "d5/d51/a15958.html#a9b8fe9ed3370434612cbd46e7649213d", null ]
+    [ "HideNpcEvent", "d5/d51/a15958.html#ab454295aab0f5d4586740140232e96eb", null ],
+    [ "Execute", "d5/d51/a15958.html#aecfbbbcac3fd98675913a6381c891a59", null ],
+    [ "_owner", "d5/d51/a15958.html#ac5481c94e180900f0a455dc1f1f9851c", null ]
 ];

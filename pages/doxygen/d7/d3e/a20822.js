@@ -1,6 +1,6 @@
 var a20822 =
 [
-    [ "boss_ymironAI", "d5/d4a/a20826.html", "d5/d4a/a20826" ],
-    [ "boss_ymiron", "d7/d3e/a20822.html#a708ffc55e0a190a8ed6adb0bca6ced7c", null ],
-    [ "GetAI", "d7/d3e/a20822.html#a0a8caed3c8021ddf861cc71b57297c41", null ]
+    [ "CalculateAmount", "d7/d3e/a20822.html#a79019ef395c9b66f6a88759b0517005d", null ],
+    [ "PrepareAuraScript", "d7/d3e/a20822.html#a1336ab2b7f560deeeeaaf017578bd524", null ],
+    [ "Register", "d7/d3e/a20822.html#a9bce52699983fe798c903385faa42462", null ]
 ];

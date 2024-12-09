@@ -1,5 +1,6 @@
 var a23734 =
 [
-    [ "at_commander_dawnforge", "dd/dfd/a23734.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "dd/dfd/a23734.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "npc_commander_dawnforgeAI", "d7/de5/a23738.html", "d7/de5/a23738" ],
+    [ "npc_commander_dawnforge", "dd/dfd/a23734.html#ab4d430725f68f906e9c8def66b1d6646", null ],
+    [ "GetAI", "dd/dfd/a23734.html#a6089b087b7c3b18659e23c677814318b", null ]
 ];

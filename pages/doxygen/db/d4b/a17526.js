@@ -1,7 +1,7 @@
 var a17526 =
 [
-    [ "HandleTriggerSpell", "db/d4b/a17526.html#a109dc4f189a64ac3b5949191d6abd2be", null ],
-    [ "OnRemove", "db/d4b/a17526.html#a238adc96e80c1890934b23dd4a2685b4", null ],
-    [ "PrepareAuraScript", "db/d4b/a17526.html#af9ce7433b620fdf1dea570561c514b3b", null ],
-    [ "Register", "db/d4b/a17526.html#ab36a001ea8cd87703e2694e0765635c0", null ]
+    [ "HandleDummy", "db/d4b/a17526.html#aa61db53d7395fd45b8569e12978fed0b", null ],
+    [ "PrepareSpellScript", "db/d4b/a17526.html#ab63054debe6763027ab52ad122277719", null ],
+    [ "Register", "db/d4b/a17526.html#a6dee5fc9fafd7faa3eadbf9431568dcc", null ],
+    [ "Validate", "db/d4b/a17526.html#adb7e30d10c2071de5d5070b64a10af30", null ]
 ];

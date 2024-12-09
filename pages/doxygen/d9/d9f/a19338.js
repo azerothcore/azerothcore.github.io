@@ -1,8 +1,8 @@
 var a19338 =
 [
-    [ "go_celestial_planetarium_accessAI", "d9/d9f/a19338.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
-    [ "GossipHello", "d9/d9f/a19338.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
-    [ "UpdateAI", "d9/d9f/a19338.html#a9b2bfb74a12e3258476387fc78cde574", null ],
-    [ "_locked", "d9/d9f/a19338.html#a37f83dbbb05e461d613a4c38001f785c", null ],
-    [ "events", "d9/d9f/a19338.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
+    [ "npc_algalon_worm_holeAI", "d9/d9f/a19338.html#a07b36b40972bebea6b17890aa8fee50c", null ],
+    [ "JustSummoned", "d9/d9f/a19338.html#a148de5da4502813e369ec6c52b1671a0", null ],
+    [ "Reset", "d9/d9f/a19338.html#a915a8e5e23062cb10da9a3dbe387cf51", null ],
+    [ "UpdateAI", "d9/d9f/a19338.html#a9df88d81aa4f4dd7e1dcdf6209832c32", null ],
+    [ "_summonTimer", "d9/d9f/a19338.html#a73a55560e5ff7957d883f732bc0d2a82", null ]
 ];

@@ -1,7 +1,6 @@
 var a26102 =
 [
-    [ "HandleDummy", "d2/d57/a26102.html#a2ea424e6c740305340001b1c09bfec91", null ],
-    [ "PrepareSpellScript", "d2/d57/a26102.html#afe722c970155b47eac94bb9861a4eb46", null ],
-    [ "Register", "d2/d57/a26102.html#a2c2b96f1c00da9884ec9d01fe897c8c1", null ],
-    [ "Validate", "d2/d57/a26102.html#ac5f782da8b5e387c31e048759baf3e16", null ]
+    [ "PrepareSpellScript", "d2/d57/a26102.html#a882d87de64d0e2c64b17c26d9e40d616", null ],
+    [ "Register", "d2/d57/a26102.html#ab58938808e460e843e42f2b6fa644e8a", null ],
+    [ "SetDest", "d2/d57/a26102.html#ab87932c73a2e53647bda584aeb58f789", null ]
 ];

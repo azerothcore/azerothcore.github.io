@@ -1,12 +1,8 @@
 var a14494 =
 [
-    [ "boss_isalien", "d8/df0/a14494.html#a736a25e60ae367a45c7d6451be96126d", null ],
-    [ "DamageTaken", "d8/df0/a14494.html#a95d461e099193b5e2c1363acb1b5939a", null ],
-    [ "JustDied", "d8/df0/a14494.html#a6544b5eb398eb2fc9cae05709e4a5cc1", null ],
-    [ "JustEngagedWith", "d8/df0/a14494.html#ad6714da515db77c7299ee80b3268433e", null ],
-    [ "JustSummoned", "d8/df0/a14494.html#a84a94a1a8889b48cd02d5cb6a205a487", null ],
-    [ "Reset", "d8/df0/a14494.html#a4995c18e2baa62d05717617d0b1e3529", null ],
-    [ "UpdateAI", "d8/df0/a14494.html#aa067bea34557a4b2fe840ef305852bc0", null ],
-    [ "_phase", "d8/df0/a14494.html#a954bbd32948e6c416197199d96142056", null ],
-    [ "_scheduler", "d8/df0/a14494.html#a8eb56a907e3395b9e81588aab7c07ca6", null ]
+    [ "Load", "d8/df0/a14494.html#a59e8723d8b73f45075db47e1e09e15fb", null ],
+    [ "PeriodicTick", "d8/df0/a14494.html#ae4761ac3bce02903a7266511d80503f9", null ],
+    [ "PrepareAuraScript", "d8/df0/a14494.html#a7bacc1ebd4b98e5e43b74e13471b2063", null ],
+    [ "Register", "d8/df0/a14494.html#acc4db638e0d858085dc3fb2d6b45f7ec", null ],
+    [ "_ticks", "d8/df0/a14494.html#ab858e9f6505fa32cc7325087d29fee8b", null ]
 ];

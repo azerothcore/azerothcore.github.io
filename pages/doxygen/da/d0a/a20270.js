@@ -1,6 +1,6 @@
 var a20270 =
 [
-    [ "boss_thorim_gauntlet_npcsAI", "d8/d2d/a20274.html", "d8/d2d/a20274" ],
-    [ "boss_thorim_gauntlet_npcs", "da/d0a/a20270.html#abdf2e90c5b86d3724fac46bff5e15d97", null ],
-    [ "GetAI", "da/d0a/a20270.html#a2a71153ed2a9091de6668ab0b6f7674f", null ]
+    [ "boss_thorim_start_npcsAI", "d8/d2d/a20274.html", "d8/d2d/a20274" ],
+    [ "boss_thorim_start_npcs", "da/d0a/a20270.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "da/d0a/a20270.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

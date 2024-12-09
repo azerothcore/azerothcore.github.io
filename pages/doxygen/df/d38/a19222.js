@@ -1,5 +1,6 @@
 var a19222 =
 [
-    [ "boss_sjonnir_dwarfAI", "df/d38/a19222.html#aee7608282bef500a7eb3e0d3130fa01c", null ],
-    [ "UpdateAI", "df/d38/a19222.html#afef50cec19e4cb2018c7c8a9e36ef41c", null ]
+    [ "boss_sjonnir_dwarfAI", "d5/dd3/a19226.html", "d5/dd3/a19226" ],
+    [ "boss_sjonnir_dwarf", "df/d38/a19222.html#a3589ae3bef1bbfe0fc5381e341c0995b", null ],
+    [ "GetAI", "df/d38/a19222.html#a945d8e753e1a54dc348848b9c2dd6cce", null ]
 ];

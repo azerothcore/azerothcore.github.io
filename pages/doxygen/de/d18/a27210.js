@@ -1,7 +1,6 @@
 var a27210 =
 [
-    [ "npc_sayge", "de/d18/a27210.html#a5b75c459665ece26cee5dbffcc0fc8ff", null ],
-    [ "OnGossipHello", "de/d18/a27210.html#ad069e6cc7fe5271c3474c8bcf537cf4c", null ],
-    [ "OnGossipSelect", "de/d18/a27210.html#aa049b4514fc2d18508d8d4f9b6616c99", null ],
-    [ "SendAction", "de/d18/a27210.html#aed1988335672423d024546654aa95298", null ]
+    [ "npc_guardianAI", "d6/deb/a27214.html", "d6/deb/a27214" ],
+    [ "npc_guardian", "de/d18/a27210.html#aa614e73ae6a6c128c323ac275652dbf1", null ],
+    [ "GetAI", "de/d18/a27210.html#a3e65ccc70be9d25b2d8563c23146ef4f", null ]
 ];

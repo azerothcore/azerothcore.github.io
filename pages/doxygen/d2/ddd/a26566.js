@@ -1,6 +1,7 @@
 var a26566 =
 [
-    [ "CalculateAmount", "d2/ddd/a26566.html#a94b6fab25e8cb298650f2a1e2d0b4347", null ],
-    [ "PrepareAuraScript", "d2/ddd/a26566.html#a845476e27b3751fd5aab505d41d8696d", null ],
-    [ "Register", "d2/ddd/a26566.html#aa5141f11bcd97cc501297a5309df1079", null ]
+    [ "HandleEffect", "d2/ddd/a26566.html#a83b2bd3a3f9a9027766f15f23cae95f0", null ],
+    [ "PrepareSpellScript", "d2/ddd/a26566.html#a7645af1c876e1f6ad91ef92884d220ac", null ],
+    [ "Register", "d2/ddd/a26566.html#a15d4ce9c947ca2f25e29f97119c4106e", null ],
+    [ "Validate", "d2/ddd/a26566.html#ab6d78ecb650f13df3376baced8c40a63", null ]
 ];

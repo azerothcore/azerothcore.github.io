@@ -1,7 +1,7 @@
 var a23746 =
 [
-    [ "npc_maxx_a_million_escortAI", "db/d57/a23750.html", "db/d57/a23750" ],
-    [ "npc_maxx_a_million_escort", "de/d39/a23746.html#a958a88b495594dd8e14919d950ac917a", null ],
-    [ "GetAI", "de/d39/a23746.html#af79619087908d442f503e0b0d633937d", null ],
-    [ "OnQuestAccept", "de/d39/a23746.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
+    [ "npc_bessyAI", "db/d57/a23750.html", "db/d57/a23750" ],
+    [ "npc_bessy", "de/d39/a23746.html#a08278c1524445054ca158433044a0824", null ],
+    [ "GetAI", "de/d39/a23746.html#af805bc5ee3de2fd6773158e51bf09d4a", null ],
+    [ "OnQuestAccept", "de/d39/a23746.html#a98b8e816195b81bab12cc9906df79807", null ]
 ];

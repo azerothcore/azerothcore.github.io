@@ -1,6 +1,6 @@
 var a21398 =
 [
-    [ "npc_heated_battleAI", "da/dd3/a21402.html", "da/dd3/a21402" ],
-    [ "npc_heated_battle", "d9/d8f/a21398.html#aceafde04a60940c1027a6e838ffdc137", null ],
-    [ "GetAI", "d9/d8f/a21398.html#af73fc1f330bf2fd224e53be39da1c9d3", null ]
+    [ "CheckCast", "d9/d8f/a21398.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
+    [ "PrepareSpellScript", "d9/d8f/a21398.html#abff433d61c798d17882292b6b0956a58", null ],
+    [ "Register", "d9/d8f/a21398.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
 ];

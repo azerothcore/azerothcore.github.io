@@ -1,10 +1,7 @@
 var a20478 =
 [
-    [ "boss_yoggsaron_constrictor_tentacleAI", "db/de6/a20478.html#a351df0050661628e3ab0be2f636f9c4e", null ],
-    [ "DoAction", "db/de6/a20478.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
-    [ "JustDied", "db/de6/a20478.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
-    [ "SelectConstrictTarget", "db/de6/a20478.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
-    [ "UpdateAI", "db/de6/a20478.html#a00c137429f2b565bf195dab4e9902a7c", null ],
-    [ "_checkTimer", "db/de6/a20478.html#ae5c189401dd04823449e7a16c197e65f", null ],
-    [ "_playerGUID", "db/de6/a20478.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
+    [ "boss_yoggsaron_corruptor_tentacleAI", "db/de6/a20478.html#a5f8fbd8ac772fad79f809de4d3128574", null ],
+    [ "DoAction", "db/de6/a20478.html#abac26b3be775eea734403be36cbed4d2", null ],
+    [ "SelectCorruptionTarget", "db/de6/a20478.html#a1d61b34d31794cd2bdcddfe91dc1103e", null ],
+    [ "UpdateAI", "db/de6/a20478.html#a0269d1dc655af5680d7074cb093740b8", null ]
 ];

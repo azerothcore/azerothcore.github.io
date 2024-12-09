@@ -1,6 +1,6 @@
 var a01118 =
 [
-    [ "boss_aeonus", "db/d86/a14454.html", "db/d86/a14454" ],
+    [ "boss_aeonus", "da/db5/a14458.html", "da/db5/a14458" ],
     [ "Spells", "dd/d09/a01118.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

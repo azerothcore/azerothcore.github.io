@@ -1,8 +1,6 @@
 var a26510 =
 [
-    [ "CheckProc", "da/d7e/a26510.html#a8a61fbd855294e6218cfc0e2dd3706c9", null ],
-    [ "OnProc", "da/d7e/a26510.html#a9217135a55d6612bf1d36b63ac09e7fb", null ],
-    [ "PrepareAuraScript", "da/d7e/a26510.html#a8bf573bb900773d4669708536b0b8011", null ],
-    [ "Register", "da/d7e/a26510.html#ae8ddcb6329088f904cbae3292ff92023", null ],
-    [ "Validate", "da/d7e/a26510.html#a918c9334b7f20710c0d6448a33c94601", null ]
+    [ "PrepareSpellScript", "da/d7e/a26510.html#aa784c7af6fe38069fca4dcff9a09a22b", null ],
+    [ "Register", "da/d7e/a26510.html#a81bc86c83ffc70602410912870e61700", null ],
+    [ "VictoryRushHit", "da/d7e/a26510.html#a89387a25e67af1d47ef7f5b95344ccb0", null ]
 ];

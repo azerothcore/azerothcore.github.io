@@ -1,6 +1,8 @@
 var a14894 =
 [
-    [ "HandleDummy", "d5/def/a14894.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
-    [ "PrepareSpellScript", "d5/def/a14894.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
-    [ "Register", "d5/def/a14894.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
+    [ "npc_ahnqiraji_critter", "d5/def/a14894.html#a60e2dc1c52579a410d3435126bf39684", null ],
+    [ "JustDied", "d5/def/a14894.html#a71d3d5262bde847a18932fea89cb6648", null ],
+    [ "JustEngagedWith", "d5/def/a14894.html#aca1df706306f9181db26cd77e5b66452", null ],
+    [ "Reset", "d5/def/a14894.html#a645e16e9da29f6579320394201d0ada7", null ],
+    [ "UpdateAI", "d5/def/a14894.html#a68c5ded8563c2de9429a13cdb7d38f89", null ]
 ];

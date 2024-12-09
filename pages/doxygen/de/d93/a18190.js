@@ -1,7 +1,7 @@
 var a18190 =
 [
-    [ "HandleForceCast", "de/d93/a18190.html#accc757e0a23103242865f0ce3085f9d9", null ],
-    [ "Load", "de/d93/a18190.html#a7206571378a0196a8648659628bdeece", null ],
-    [ "PrepareSpellScript", "de/d93/a18190.html#a8bb6db3eaebab00d3166b24ad1e41158", null ],
-    [ "Register", "de/d93/a18190.html#ace665321732f59f13b2ef831c71c2f18", null ]
+    [ "PeriodicTick", "de/d93/a18190.html#ac1bace4fc66349364c84b5784967e9bf", null ],
+    [ "PrepareAuraScript", "de/d93/a18190.html#a358193e3340112c04f79c043548c3de0", null ],
+    [ "Register", "de/d93/a18190.html#a28f52bc253899aa407e67f9a089c815c", null ],
+    [ "Validate", "de/d93/a18190.html#a0dde3447e38e45cea94df44449a19a01", null ]
 ];

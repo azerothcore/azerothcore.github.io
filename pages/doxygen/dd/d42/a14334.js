@@ -1,6 +1,27 @@
 var a14334 =
 [
-    [ "boss_epochAI", "dc/d1b/a14338.html", "dc/d1b/a14338" ],
-    [ "boss_epoch", "dd/d42/a14334.html#a78b7d775bc3fc44496e41c58f2ed534d", null ],
-    [ "GetAI", "dd/d42/a14334.html#a2673a4fb8c70d62009dfdc6daf23aee2", null ]
+    [ "instance_mount_hyjal_InstanceMapScript", "dd/d42/a14334.html#ab824542973eede5a3a3f7dc995e8cc28", null ],
+    [ "GetData", "dd/d42/a14334.html#ae30c50dfcced56db0c3f42c4deb2bef9", null ],
+    [ "Initialize", "dd/d42/a14334.html#ac3fffb02ed557b60e22852bdd79cdc9a", null ],
+    [ "OnCreatureCreate", "dd/d42/a14334.html#a28b8c1e3332dd9ccce42fd3fcb262e2f", null ],
+    [ "OnGameObjectCreate", "dd/d42/a14334.html#a2048cde72727c5d6b493d67b56ed91f8", null ],
+    [ "OnPlayerInWaterStateUpdate", "dd/d42/a14334.html#ac07e909721d1416608ea01e8819e3b00", null ],
+    [ "OnUnitDeath", "dd/d42/a14334.html#a1626532eb4df7ae481032fb9991c5d8f", null ],
+    [ "ScheduleWaves", "dd/d42/a14334.html#afdcceea6e0459b9c5c1e4098227d20dd", null ],
+    [ "SetData", "dd/d42/a14334.html#a87fd932691795e2d3fb9c8e6de12a20f", null ],
+    [ "Update", "dd/d42/a14334.html#a4f3824bd9afad19cbffa05c62fdf517b", null ],
+    [ "_ancientGemAlliance", "dd/d42/a14334.html#a1dc1a47ecf057b4d08e9827c5a859213", null ],
+    [ "_ancientGemHorde", "dd/d42/a14334.html#a3cd0132363583f8ab24f37e74743abd8", null ],
+    [ "_baseAlliance", "dd/d42/a14334.html#add9c97be76cdb85bb0cfd24bdf5c99e9", null ],
+    [ "_baseHorde", "dd/d42/a14334.html#a74d576ec11f4b6027b42ed503e54d3e3", null ],
+    [ "_baseNightElf", "dd/d42/a14334.html#a4f6a23e1e4c3c406a169908dddc64c00", null ],
+    [ "_bossWave", "dd/d42/a14334.html#a57e6038adc5c5bfcf30c79559de8dd1e", null ],
+    [ "_currentWave", "dd/d42/a14334.html#a419ef8bcf249e7aac9c8ea11611fb0c1", null ],
+    [ "_encounterNPCs", "dd/d42/a14334.html#ae8cdcced3902234317dc419bd04126e0", null ],
+    [ "_infernalTargets", "dd/d42/a14334.html#a6d48f27c687dc23bb2e60cae55fd33f4", null ],
+    [ "_retreat", "dd/d42/a14334.html#ad9242c9a8e4ea51243b8e526eb82a51b", null ],
+    [ "_roaringFlameAlliance", "dd/d42/a14334.html#a9c5f35107d7e4311e7d8f65a6eccfb7a", null ],
+    [ "_roaringFlameHorde", "dd/d42/a14334.html#ac4a2ec6b3fb06cfd9b11486e62e076a3", null ],
+    [ "_summonedNPCs", "dd/d42/a14334.html#a9bea0d89252e7b6154b2acd67960818a", null ],
+    [ "trash", "dd/d42/a14334.html#a2e464c6ca35c53fab15f45381ca06aae", null ]
 ];

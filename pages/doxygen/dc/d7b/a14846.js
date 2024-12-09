@@ -1,6 +1,6 @@
 var a14846 =
 [
-    [ "instance_temple_of_ahnqiraj_InstanceMapScript", "d5/d3a/a14850.html", "d5/d3a/a14850" ],
-    [ "instance_temple_of_ahnqiraj", "dc/d7b/a14846.html#a316c5e2cac59f2ee2520fba1b97407e3", null ],
-    [ "GetInstanceScript", "dc/d7b/a14846.html#a9e3060d9f2188f410da8aa3e9526e79d", null ]
+    [ "HandleOnHit", "dc/d7b/a14846.html#a65818c4421ea83869d36a116d1bc6d2c", null ],
+    [ "PrepareSpellScript", "dc/d7b/a14846.html#a9e568a1608715973fc438ff5e4356714", null ],
+    [ "Register", "dc/d7b/a14846.html#a752d697aada626440fdff2bd889f890f", null ]
 ];

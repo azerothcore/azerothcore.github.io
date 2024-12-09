@@ -1,6 +1,6 @@
 var a19662 =
 [
-    [ "boss_freya_elder_stonebarkAI", "d3/dd8/a19666.html", "d3/dd8/a19666" ],
-    [ "boss_freya_elder_stonebark", "dd/d24/a19662.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "dd/d24/a19662.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "boss_freyaAI", "d3/dd8/a19666.html", "d3/dd8/a19666" ],
+    [ "boss_freya", "dd/d24/a19662.html#ae366f60526e7c948dee148cdd12f0752", null ],
+    [ "GetAI", "dd/d24/a19662.html#a6a2f5b402e99208a535fc3f23c2a0eb3", null ]
 ];

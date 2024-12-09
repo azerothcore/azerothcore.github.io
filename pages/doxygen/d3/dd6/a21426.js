@@ -1,5 +1,6 @@
 var a21426 =
 [
-    [ "at_q24545_frostmourne_cavern", "d3/dd6/a21426.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
-    [ "OnTrigger", "d3/dd6/a21426.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
+    [ "npc_q24545_lich_kingAI", "d1/d59/a21430.html", "d1/d59/a21430" ],
+    [ "npc_q24545_lich_king", "d3/dd6/a21426.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
+    [ "GetAI", "d3/dd6/a21426.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
 ];

@@ -1,19 +1,13 @@
 var a27318 =
 [
-    [ "difference_type", "da/df7/a27318.html#ae4b37510a14d178636d2caeb518152d8", null ],
-    [ "iterator_category", "da/df7/a27318.html#a1b18e314fae6548a7b7a2a9bb1eff74d", null ],
-    [ "pointer", "da/df7/a27318.html#a734ca6242c1ab2c6ac1b3126f6ee81f0", null ],
-    [ "reference", "da/df7/a27318.html#a17541a5d418dd9835eab783fc5c50b4e", null ],
-    [ "value_type", "da/df7/a27318.html#a5f84eca02dd9a1a3003cd6cf748c4be7", null ],
-    [ "DBCStorageIterator", "da/df7/a27318.html#a5d579fb01742b5b7bbd92de4d44b0ca4", null ],
-    [ "DBCStorageIterator", "da/df7/a27318.html#a76f99de60a6ff7306b0e585b0a49def9", null ],
-    [ "operator!=", "da/df7/a27318.html#afc1a89496edd42c09ef4d4c11a384d81", null ],
-    [ "operator*", "da/df7/a27318.html#a3b70157f0d4ebfb0d3df49e1c528767b", null ],
-    [ "operator++", "da/df7/a27318.html#a88bf008d6f2d553a22f41a2bc1777a7d", null ],
-    [ "operator++", "da/df7/a27318.html#a10439a8b58f835bd5bbda9af42536eea", null ],
-    [ "operator->", "da/df7/a27318.html#adb031d50b1a6e19300fdd713101d7cfc", null ],
-    [ "operator==", "da/df7/a27318.html#a4d25ca9a7f276d71a39fc8f05ac2ec8f", null ],
-    [ "_end", "da/df7/a27318.html#aa6463048b19614ca3703bd840bee5060", null ],
-    [ "_index", "da/df7/a27318.html#a93c4239222a0dcac3051bd97f4e60b24", null ],
-    [ "_pos", "da/df7/a27318.html#a3b7fdda5aed3be63b253912d25f3a02a", null ]
+    [ "DBCDatabaseLoader", "da/df7/a27318.html#a2efbbd3799e5f72fecaeaf9365579482", null ],
+    [ "DBCDatabaseLoader", "da/df7/a27318.html#a7d93e6d37796f341edcf25062743c5b5", null ],
+    [ "CloneStringToPool", "da/df7/a27318.html#a68e5ae50c980aa81b051d0622575bb2d", null ],
+    [ "Load", "da/df7/a27318.html#a1b116dca8b01e0462a2e6c08245a49a3", null ],
+    [ "operator=", "da/df7/a27318.html#a46f7d5670840892f7a8714ce0b6cde13", null ],
+    [ "_dbcFormat", "da/df7/a27318.html#aa749118514d0b784ac6df295bd820d8e", null ],
+    [ "_recordSize", "da/df7/a27318.html#a6721538ebbcfe020fb195d44b3bdbd11", null ],
+    [ "_sqlIndexPos", "da/df7/a27318.html#ac1b5b191615d3e3121ea70965b0d495a", null ],
+    [ "_sqlTableName", "da/df7/a27318.html#ab6590071edf5311ccf484d48e4fd125e", null ],
+    [ "_stringPool", "da/df7/a27318.html#a52b5b86f0efb8ad0716bc0171a3aa740", null ]
 ];

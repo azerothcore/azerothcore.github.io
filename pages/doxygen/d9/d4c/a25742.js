@@ -1,6 +1,7 @@
 var a25742 =
 [
-    [ "CheckTarget", "d9/d4c/a25742.html#af1dae4f351ccaa7bc9b2ea315f0752c5", null ],
-    [ "PrepareSpellScript", "d9/d4c/a25742.html#a8f4075c80c7dcaa16f71bc1b396d005f", null ],
-    [ "Register", "d9/d4c/a25742.html#af4a27df3090a45ebd5db29c58e9ea47f", null ]
+    [ "HandleScriptEffect", "d9/d4c/a25742.html#a6c1ac025fa93caa08737387a18003612", null ],
+    [ "PrepareSpellScript", "d9/d4c/a25742.html#acb5ad05212399b06ed9bb64bb9203069", null ],
+    [ "Register", "d9/d4c/a25742.html#afbf989d514c308f466ecfd9957d2d177", null ],
+    [ "Validate", "d9/d4c/a25742.html#a2f48b1903edef1a5bb8beeddc8879aa4", null ]
 ];

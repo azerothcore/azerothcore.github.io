@@ -1,11 +1,11 @@
 var a23130 =
 [
-    [ "boss_krosh_firehand", "dc/d86/a23130.html#a1ef3618844f086de7875f26e7e6190f9", null ],
-    [ "AttackStart", "dc/d86/a23130.html#a74bd2c93ac45efcd163a904b9a52827b", null ],
-    [ "JustDied", "dc/d86/a23130.html#ad20c86b4a3d0cccddf91982c26f56c09", null ],
-    [ "JustEngagedWith", "dc/d86/a23130.html#ad6389c357fb6c09fdf4f3f3ef7095395", null ],
-    [ "Reset", "dc/d86/a23130.html#a989c4b762a7cdb228b245e91881d97a2", null ],
-    [ "UpdateAI", "dc/d86/a23130.html#a3d26a6f544e9d00514ca5b0ef7d4bf4f", null ],
-    [ "_scheduler", "dc/d86/a23130.html#a261ced01dc1305ab7c2d2f3322022fe5", null ],
-    [ "instance", "dc/d86/a23130.html#a876bb040d78cafa9aa22e818f60dce7f", null ]
+    [ "boss_kiggler_the_crazed", "dc/d86/a23130.html#a6f6cd74a8d2b12809f2710f784340fda", null ],
+    [ "AttackStart", "dc/d86/a23130.html#a47c18487637dcb911852573e3aec85a2", null ],
+    [ "JustDied", "dc/d86/a23130.html#acf82f68ccfeabd33bc387dbe7ea0e997", null ],
+    [ "JustEngagedWith", "dc/d86/a23130.html#acd10951a5b148579d0bd4196cc2e686e", null ],
+    [ "Reset", "dc/d86/a23130.html#a3bd8ca2488b2db298a198038a849189e", null ],
+    [ "UpdateAI", "dc/d86/a23130.html#a16e2b767ca4b05eba79726ccb6e11204", null ],
+    [ "_scheduler", "dc/d86/a23130.html#af041c254910df663a03fcc815db635da", null ],
+    [ "instance", "dc/d86/a23130.html#aa78db443f19814c66b977fe008de74fa", null ]
 ];

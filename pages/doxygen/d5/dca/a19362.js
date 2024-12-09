@@ -1,9 +1,7 @@
 var a19362 =
 [
-    [ "CheckTargets", "d5/dca/a19362.html#a9340c167ef70508635092e273c23dcde", null ],
-    [ "CountTargets", "d5/dca/a19362.html#a996db37b678143fbc0a392032d29fff5", null ],
-    [ "Load", "d5/dca/a19362.html#a716bcf5bb0a24f9a57534c9dafb1a56f", null ],
-    [ "PrepareSpellScript", "d5/dca/a19362.html#a0b68ca6bdfe0f7c84236e5fe509d8fd9", null ],
-    [ "Register", "d5/dca/a19362.html#aed312a4408134589fd02bbcb844fd1b7", null ],
-    [ "_targetCount", "d5/dca/a19362.html#ac780614674e748274081f9f99a5165fe", null ]
+    [ "HandleDummyEffect", "d5/dca/a19362.html#ae95c1ce60db79c360e9c1431f27705cb", null ],
+    [ "PrepareSpellScript", "d5/dca/a19362.html#a84a4f52928873e58b1fc49e783c5083a", null ],
+    [ "Register", "d5/dca/a19362.html#a90c00bcb1768d696addab407425e406a", null ],
+    [ "SelectTarget", "d5/dca/a19362.html#a2e7a7c05a30ae1e0c5aa14dc2af19345", null ]
 ];

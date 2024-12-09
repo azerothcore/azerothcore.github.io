@@ -1,7 +1,7 @@
 var a25018 =
 [
-    [ "HandleScriptEffect", "db/d4f/a25018.html#ae3c2900d98c2fd51ff0888ea5d1072c4", null ],
-    [ "PrepareSpellScript", "db/d4f/a25018.html#a29ac1789b8023ef3339a7b40ee9c31ab", null ],
-    [ "Register", "db/d4f/a25018.html#a321098d2325bfb9cea674d1137348350", null ],
-    [ "Validate", "db/d4f/a25018.html#aa16a67bf42f51b838d22dcbe4b5b6f7b", null ]
+    [ "HandleScriptEffect", "db/d4f/a25018.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "db/d4f/a25018.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "db/d4f/a25018.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "db/d4f/a25018.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

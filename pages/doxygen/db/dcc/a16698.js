@@ -1,11 +1,6 @@
 var a16698 =
 [
-    [ "npc_pos_tyrannus_eventsAI", "db/dcc/a16698.html#a51769d22a4cb448fae90d827e2494581", null ],
-    [ "MovementInform", "db/dcc/a16698.html#ac0d1550855988fe6f562e8a0a6ada80f", null ],
-    [ "SetData", "db/dcc/a16698.html#a8f8bbb06c50215c90cf11ddbc925ba5d", null ],
-    [ "UpdateAI", "db/dcc/a16698.html#a6c4d82c46547bbb2f86dd7f9fa88c743", null ],
-    [ "deathbringerGUID", "db/dcc/a16698.html#a21ea8c66374403d0eca83e4d24c80a7a", null ],
-    [ "events", "db/dcc/a16698.html#a317d48c75a93ef5abaa3329ab10a1c8e", null ],
-    [ "killsLeft", "db/dcc/a16698.html#ac81d85e0ceb0b571373f44475baa36df", null ],
-    [ "pInstance", "db/dcc/a16698.html#a44460335986bcedf35dc295c242df6da", null ]
+    [ "npc_pos_tyrannus_eventsAI", "d5/dc6/a16702.html", "d5/dc6/a16702" ],
+    [ "npc_pos_tyrannus_events", "db/dcc/a16698.html#a9e61db8b2b30e86fc5e554b3f4d51b7c", null ],
+    [ "GetAI", "db/dcc/a16698.html#ae5863e99d77815de71c1774e908b3f65", null ]
 ];

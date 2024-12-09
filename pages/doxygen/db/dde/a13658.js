@@ -1,7 +1,10 @@
 var a13658 =
 [
-    [ "HandleScriptEffect", "db/dde/a13658.html#ace68732d578fbaeb2b209bfded88853a", null ],
-    [ "PrepareSpellScript", "db/dde/a13658.html#a42a69995e8f527a383e96e2ead832f72", null ],
-    [ "Register", "db/dde/a13658.html#abb26c89a617bc27f8c2a1cfbb0935234", null ],
-    [ "Validate", "db/dde/a13658.html#a7697caf8e5390d290b353fb6a291aa10", null ]
+    [ "npc_batrider", "db/dde/a13658.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
+    [ "DamageTaken", "db/dde/a13658.html#ad4818b1363082a91223526908c38777c", null ],
+    [ "JustEngagedWith", "db/dde/a13658.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
+    [ "Reset", "db/dde/a13658.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
+    [ "UpdateAI", "db/dde/a13658.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
+    [ "_mode", "db/dde/a13658.html#acd53ec78a754219511af1ad2f11422a9", null ],
+    [ "_scheduler", "db/dde/a13658.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
 ];

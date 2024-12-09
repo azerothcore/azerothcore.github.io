@@ -1,5 +1,5 @@
 var a27926 =
 [
-    [ "ID", "d3/df5/a27926.html#a0272b3c1130508a2681035c91ee416e6", null ],
-    [ "SpellID", "d3/df5/a27926.html#a231d22a763ddcd9f1fbdab81521dcf67", null ]
+    [ "CastTime", "d3/df5/a27926.html#af0bf895b1a5d61974cb63230b786c55e", null ],
+    [ "ID", "d3/df5/a27926.html#a41b1059fc4059bd198925861a9414497", null ]
 ];

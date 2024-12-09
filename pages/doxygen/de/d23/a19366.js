@@ -1,7 +1,6 @@
 var a19366 =
 [
-    [ "HandlePeriodic", "de/d23/a19366.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
-    [ "PrepareAuraScript", "de/d23/a19366.html#ad78b06733a8609dd39e885db2f23edba", null ],
-    [ "Register", "de/d23/a19366.html#ac9ae9be546964752869163896c4045dd", null ],
-    [ "Validate", "de/d23/a19366.html#afcca84d03b29ef7569c03f973a6c191b", null ]
+    [ "PrepareSpellScript", "de/d23/a19366.html#af7426e99a49f8618fc38242ded7132f1", null ],
+    [ "RecalculateDamage", "de/d23/a19366.html#a94e70b20f2139f668227dccb623c1af6", null ],
+    [ "Register", "de/d23/a19366.html#acd911f78780e052d88f5f47574092d62", null ]
 ];

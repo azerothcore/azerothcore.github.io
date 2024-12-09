@@ -1,10 +1,10 @@
 var a15762 =
 [
-    [ "spell_halion_damage_aoe_summon", "df/d0a/a15762.html#a6152e7a0515076af2c7c2155506257b0", null ],
-    [ "HandleSummon", "df/d0a/a15762.html#a47a810b94c515b7e48c9cc5f99c6bc23", null ],
-    [ "PrepareSpellScript", "df/d0a/a15762.html#ae05be3eca26724f57f3f4b37b723aa63", null ],
-    [ "Register", "df/d0a/a15762.html#aa1f9239a2910d53c85539abba6333893", null ],
-    [ "Validate", "df/d0a/a15762.html#acb359257b29354b5962d9865e06137e7", null ],
-    [ "_auraSpell", "df/d0a/a15762.html#a497a74eca703470964157639a6f372e2", null ],
-    [ "_explosionSpell", "df/d0a/a15762.html#ad1ad3a6f143bc84bad61070755752b2f", null ]
+    [ "spell_halion_marks_aura", "df/d0a/a15762.html#a3351eb9a4b497e1d92bd0021c0fa01f8", null ],
+    [ "BeforeDispel", "df/d0a/a15762.html#a48fb48567091c8fd9d365ea3ff8730cc", null ],
+    [ "OnRemove", "df/d0a/a15762.html#a1c9fefecd33db13e06f267c41e6b0375", null ],
+    [ "PrepareAuraScript", "df/d0a/a15762.html#acd5285ea5c378b31526440d263c54770", null ],
+    [ "Register", "df/d0a/a15762.html#ac84d4ab83e56314ff15ee363cafd2feb", null ],
+    [ "_removeSpellId", "df/d0a/a15762.html#aeef9d928c6a8739337251e144558b169", null ],
+    [ "_summonSpellId", "df/d0a/a15762.html#a01e8677e4f55dbb55cca1bf16dec48b2", null ]
 ];

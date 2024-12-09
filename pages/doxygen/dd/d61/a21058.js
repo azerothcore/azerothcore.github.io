@@ -1,6 +1,6 @@
 var a21058 =
 [
-    [ "npc_azure_raiderAI", "da/db3/a21062.html", "da/db3/a21062" ],
-    [ "npc_azure_raider", "dd/d61/a21058.html#a249abee0df263e183341193b828a310c", null ],
-    [ "GetAI", "dd/d61/a21058.html#a88a45e3b117c5105f7541d640dda8470", null ]
+    [ "npc_azure_mage_slayerAI", "da/db3/a21062.html", "da/db3/a21062" ],
+    [ "npc_azure_mage_slayer", "dd/d61/a21058.html#ad5e5453235c224f4fac40244516dd1ad", null ],
+    [ "GetAI", "dd/d61/a21058.html#a9b795915100f47b11a65abdfdcbf39f4", null ]
 ];

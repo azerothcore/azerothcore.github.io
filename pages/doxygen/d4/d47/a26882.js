@@ -1,7 +1,7 @@
 var a26882 =
 [
-    [ "go_darkmoon_faire_musicAI", "d4/d47/a26882.html#a2ee13dd1260c1ad5b810c25665c9ec87", null ],
-    [ "UpdateAI", "d4/d47/a26882.html#af3d802bd852fc0483f72781edb13b5d5", null ],
-    [ "_events", "d4/d47/a26882.html#acc7e15d2b286b7df262623acf7ea7f03", null ],
-    [ "rnd", "d4/d47/a26882.html#a9a4c983f11c4d912f31eaaf351afc016", null ]
+    [ "go_pirate_day_musicAI", "d4/d47/a26882.html#a1abe263949b7a07e5143779efcddc7eb", null ],
+    [ "UpdateAI", "d4/d47/a26882.html#a5373bb46c866df31a3827ceb8ee4ef9b", null ],
+    [ "_events", "d4/d47/a26882.html#a233ae55a05876c665455b106ef50d57e", null ],
+    [ "rnd", "d4/d47/a26882.html#ad0ced4b4f569b91b5dde4ad93a298568", null ]
 ];

@@ -1,8 +1,8 @@
 var a19594 =
 [
-    [ "Area", "d4/d20/a19594.html#a0b9dc74e944f13e3291184645f432477", [
-      [ "AREA_FORMATION_GROUNDS", "d4/d20/a19594.html#a0b9dc74e944f13e3291184645f432477a92a09caedcec4a8b97c3e4601308d450", null ]
-    ] ],
-    [ "FlameLeviathanPursuedTargetSelector", "d4/d20/a19594.html#acc855eaab1e9590e1fcfae6ed8d37815", null ],
-    [ "operator()", "d4/d20/a19594.html#aaa2a49366fb651f7486b463ce597f364", null ]
+    [ "FilterTargets", "d4/d20/a19594.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
+    [ "HandleScript", "d4/d20/a19594.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
+    [ "PrepareSpellScript", "d4/d20/a19594.html#aea46762f43b31923617f740e0545fe98", null ],
+    [ "Register", "d4/d20/a19594.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
+    [ "Validate", "d4/d20/a19594.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
 ];

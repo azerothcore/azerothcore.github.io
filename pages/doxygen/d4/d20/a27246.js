@@ -1,6 +1,6 @@
 var a27246 =
 [
-    [ "npc_fireworkAI", "de/d66/a27250.html", "de/d66/a27250" ],
-    [ "npc_firework", "d4/d20/a27246.html#a9efb6ed098e4eb3e24c30393cb5cb45d", null ],
-    [ "GetAI", "d4/d20/a27246.html#a9732f7b6eb8b3638bb6280ff7a71bcf7", null ]
+    [ "npc_locksmith", "d4/d20/a27246.html#af959a6395ebc33109405f18f262e4ecb", null ],
+    [ "OnGossipHello", "d4/d20/a27246.html#aec977cf39f11a7bc2f13c2bde8e97351", null ],
+    [ "OnGossipSelect", "d4/d20/a27246.html#a62ec02e226255ff1f81895391a6494b8", null ]
 ];

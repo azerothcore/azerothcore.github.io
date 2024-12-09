@@ -1,10 +1,9 @@
 var a24294 =
 [
-    [ "Absorb", "df/d7c/a24294.html#a5ab2041dcc342b087d8c6fd9b8d2635f", null ],
-    [ "CalculateAmount", "df/d7c/a24294.html#aed6e525b71f18dafb6f458bc255a6495", null ],
-    [ "Load", "df/d7c/a24294.html#af73fcf4a73ba60e214c045471569f7b0", null ],
-    [ "PrepareAuraScript", "df/d7c/a24294.html#a884927612b8ab2712a057da72f8180c6", null ],
-    [ "Register", "df/d7c/a24294.html#a380b63aec7c567c8db60f4c69a4e6043", null ],
-    [ "Validate", "df/d7c/a24294.html#af58ba552be9c91e8885ef1ccd567c96a", null ],
-    [ "absorbPct", "df/d7c/a24294.html#a64e8bcde6ee27dd00e77d7bfa0864e81", null ]
+    [ "Absorb", "df/d7c/a24294.html#ae5101c9adc7b9d09daf9c78d5e6d9d14", null ],
+    [ "CalculateAmount", "df/d7c/a24294.html#a0e88abc0dfc1f0aa5c52f3602f99d45a", null ],
+    [ "Load", "df/d7c/a24294.html#ab7eae0747736dea5633ef51eb0945fae", null ],
+    [ "PrepareAuraScript", "df/d7c/a24294.html#a760b72149ee11ad88e290c9537b3094b", null ],
+    [ "Register", "df/d7c/a24294.html#a0d25efee128ee95f9ad268b53358f376", null ],
+    [ "absorbPct", "df/d7c/a24294.html#a31091ef6a0d39e1d498420a85f6c84fa", null ]
 ];

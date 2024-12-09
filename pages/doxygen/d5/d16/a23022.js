@@ -1,5 +1,6 @@
 var a23022 =
 [
-    [ "at_underbog_ghazan", "d5/d16/a23022.html#aa6c74496bb30bf04e66ac3cd06110811", null ],
-    [ "_OnTrigger", "d5/d16/a23022.html#aff03fc0bbded7bf7fa68d0c736bfaff2", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d5/d16/a23022.html#a1ca8d6b10fabe1a8b829dbf62b77ed51", null ],
+    [ "OnGameObjectCreate", "d5/d16/a23022.html#ace71fc6f1d7bc4b49bc2a2507f481fc2", null ],
+    [ "SetBossState", "d5/d16/a23022.html#ab1e344fbf169ee40f28741217f3dca14", null ]
 ];

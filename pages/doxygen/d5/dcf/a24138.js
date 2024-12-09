@@ -1,6 +1,6 @@
 var a24138 =
 [
-    [ "HandleSummon", "d5/dcf/a24138.html#a00e265d830ea3e8a0a1952984c438071", null ],
-    [ "PrepareSpellScript", "d5/dcf/a24138.html#a96df13b19964b6e89babb312465b90bc", null ],
-    [ "Register", "d5/dcf/a24138.html#a5341e4ddf1b1ef94099c337114164ba8", null ]
+    [ "HandleAfterCast", "d5/dcf/a24138.html#aaa65e67362ded5318e89272acf073bf3", null ],
+    [ "PrepareSpellScript", "d5/dcf/a24138.html#a7d0dd936965845c14e7b54846facdb89", null ],
+    [ "Register", "d5/dcf/a24138.html#ab7b767743d62d9763bea710b7552a8cf", null ]
 ];

@@ -1,6 +1,6 @@
 var a24762 =
 [
-    [ "HandleEffectPeriodic", "da/deb/a24762.html#a248ba0e88498e36355491b2b89063e17", null ],
-    [ "PrepareAuraScript", "da/deb/a24762.html#ac9aed434fe7602ef846e9f052402620e", null ],
-    [ "Register", "da/deb/a24762.html#a039eec910c802276b9e979253141cdee", null ]
+    [ "HandleDummy", "da/deb/a24762.html#a63bc85e32a1478d03b381c61a33d0dff", null ],
+    [ "PrepareSpellScript", "da/deb/a24762.html#adae41617f38a71ccec183f419d677cfd", null ],
+    [ "Register", "da/deb/a24762.html#a820e8b506de36a24411ae4a1c5930417", null ]
 ];
