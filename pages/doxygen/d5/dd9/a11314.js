@@ -1,8 +1,10 @@
 var a11314 =
 [
-    [ "cache_commandscript", "d5/dd9/a11314.html#a709e1d02632aed18113c1adb52e962b5", null ],
-    [ "GetCommands", "d5/dd9/a11314.html#ae62aed5b701a408460d8fedcd08bb3a4", null ],
-    [ "HandleCacheDeleteCommand", "d5/dd9/a11314.html#a9ee0f4aceb031ad1c6b1870320fca88b", null ],
-    [ "HandleCacheInfoCommand", "d5/dd9/a11314.html#aa9bce5578450a35909a4e481bc21867f", null ],
-    [ "HandleCacheRefreshCommand", "d5/dd9/a11314.html#abf02cad15dabdcc5ed3df1fab0e87b6f", null ]
+    [ "bf_commandscript", "d5/dd9/a11314.html#a806ca440ae1b51fffefee9d298dab3df", null ],
+    [ "GetCommands", "d5/dd9/a11314.html#a97f0192d7ccd3532cfceaebff9f242be", null ],
+    [ "HandleBattlefieldEnable", "d5/dd9/a11314.html#a08dd3bdd279c760fe0f126200a01619e", null ],
+    [ "HandleBattlefieldEnd", "d5/dd9/a11314.html#af7100032ad26a66fbc9d9b37d1da98e1", null ],
+    [ "HandleBattlefieldStart", "d5/dd9/a11314.html#a55102cc3b29a3ded0832ec82be1e3a5e", null ],
+    [ "HandleBattlefieldSwitch", "d5/dd9/a11314.html#ac12cac377007d90b25b9797f2b2cc8de", null ],
+    [ "HandleBattlefieldTimer", "d5/dd9/a11314.html#a7168b3db9435d70e2c5ca5eb41fc8ef2", null ]
 ];

@@ -1,15 +1,13 @@
 var a22134 =
 [
-    [ "OutdoorPvPEP", "dc/d50/a22134.html#ab4915dfc03de08cad83eb48c4c789cb8", null ],
-    [ "BuffTeams", "dc/d50/a22134.html#ac6a61c19ba96ca843eb12952d0c09078", null ],
-    [ "FillInitialWorldStates", "dc/d50/a22134.html#a3e9ca34d696c3d644fdb7f495e11270c", null ],
-    [ "HandlePlayerEnterZone", "dc/d50/a22134.html#a9e7404160b1220dc3cc2766a07f42ad2", null ],
-    [ "HandlePlayerLeaveZone", "dc/d50/a22134.html#a251b154abfaec9cbfb1a56e657ac5214", null ],
-    [ "SendRemoveWorldStates", "dc/d50/a22134.html#afad47628bb4cfcc6060ce35396e33d9d", null ],
-    [ "SetControlledState", "dc/d50/a22134.html#abef30d5cbe7c2cd52cd32ae29da1c9ce", null ],
-    [ "SetupOutdoorPvP", "dc/d50/a22134.html#acecc8126180c027cb3d685231e55d873", null ],
-    [ "Update", "dc/d50/a22134.html#a974910b2f7f2d8cfaf43b6694bf4c2c7", null ],
-    [ "EP_ControlsId", "dc/d50/a22134.html#a7e8fcf50f88bdb56b189877721a1f006", null ],
-    [ "m_AllianceTowersControlled", "dc/d50/a22134.html#a09e5cf029656af3fc740b236596d42ee", null ],
-    [ "m_HordeTowersControlled", "dc/d50/a22134.html#a325c16f6b5f40bd5dd5f63a9d93a8cd1", null ]
+    [ "OPvPCapturePointEP_PWT", "dc/d50/a22134.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
+    [ "ChangeState", "dc/d50/a22134.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
+    [ "FillInitialWorldStates", "dc/d50/a22134.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
+    [ "HandlePlayerEnter", "dc/d50/a22134.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
+    [ "HandlePlayerLeave", "dc/d50/a22134.html#a5772e54263c613eee365856def5e74e6", null ],
+    [ "SendChangePhase", "dc/d50/a22134.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
+    [ "SummonFlightMaster", "dc/d50/a22134.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
+    [ "UpdateTowerState", "dc/d50/a22134.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
+    [ "m_FlightMasterSpawnedId", "dc/d50/a22134.html#afeefd804849b925e6d0a880d8efb5319", null ],
+    [ "m_TowerState", "dc/d50/a22134.html#a914dcbb37baf457750cfe9829d95d88c", null ]
 ];

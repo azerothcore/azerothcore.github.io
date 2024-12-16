@@ -1,9 +1,9 @@
 var a01106 =
 [
-    [ "npc_thrall_old_hillsbrad", "d5/d40/a14442.html", "d5/d40/a14442" ],
-    [ "npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI", "df/d5e/a14446.html", "df/d5e/a14446" ],
-    [ "npc_taretha", "d0/df2/a14450.html", "d0/df2/a14450" ],
-    [ "npc_taretha::npc_tarethaAI", "db/d86/a14454.html", "db/d86/a14454" ],
+    [ "npc_thrall_old_hillsbrad", "df/d5e/a14446.html", "df/d5e/a14446" ],
+    [ "npc_thrall_old_hillsbrad::npc_thrall_old_hillsbradAI", "d0/df2/a14450.html", "d0/df2/a14450" ],
+    [ "npc_taretha", "db/d86/a14454.html", "db/d86/a14454" ],
+    [ "npc_taretha::npc_tarethaAI", "da/db5/a14458.html", "da/db5/a14458" ],
     [ "SPEED_MOUNTED", "da/d4e/a01106.html#a7e059016e4f9b8f2cc7c2b89ead8de5a", null ],
     [ "SPEED_RUNNING", "da/d4e/a01106.html#a90caa16af6201f0e06561b0c8cb762fc", null ],
     [ "Events", "da/d4e/a01106.html#af60e00b78607064c5be6aa9397ea49c1", [

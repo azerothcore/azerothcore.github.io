@@ -1,7 +1,9 @@
 var a13238 =
 [
-    [ "npc_ranger_lilatha", "d8/d3b/a13238.html#abd13a89b41a289edefb9bc21588f8d29", null ],
-    [ "Reset", "d8/d3b/a13238.html#a3e804e483b51961193ee1079caba40be", null ],
-    [ "sQuestAccept", "d8/d3b/a13238.html#acc38d4feacb5e7fa5ce9658b10447c4d", null ],
-    [ "WaypointReached", "d8/d3b/a13238.html#a193bd47c7d7c4fb3d832a59bf55e8412", null ]
+    [ "npc_partygoer", "d8/d3b/a13238.html#af053caedfd1fa8173b875f521d279418", null ],
+    [ "Initialize", "d8/d3b/a13238.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
+    [ "Reset", "d8/d3b/a13238.html#ad1936099ec5696a2a593e5041b0360c6", null ],
+    [ "UpdateAI", "d8/d3b/a13238.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
+    [ "_events", "d8/d3b/a13238.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
+    [ "_facing", "d8/d3b/a13238.html#a9e934091894987ec091b03090bf733e5", null ]
 ];

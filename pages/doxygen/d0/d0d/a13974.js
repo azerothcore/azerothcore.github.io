@@ -1,9 +1,6 @@
 var a13974 =
 [
-    [ "entries", "d0/d0d/a13974.html#a8c55bbd253d6bea01e83c0aa7380dee5", null ],
-    [ "entries", "d0/d0d/a13974.html#a953850b267eb6f599bb49d82080bdf64", null ],
-    [ "revelerId", "d0/d0d/a13974.html#a9e4069ef00c8b4e31d8af06f34e12ad5", null ],
-    [ "schedule", "d0/d0d/a13974.html#a7fd78a5fa19a14ab1b002f5b6ef4e20f", null ],
-    [ "size", "d0/d0d/a13974.html#ae6a3fa59e1eb384255c247abadc962d5", null ],
-    [ "spawns", "d0/d0d/a13974.html#aa22c51469489fbb6551de2b751f06c94", null ]
+    [ "gameobjectId", "d0/d0d/a13974.html#a5cebf652fccc66cb5f98968036405d14", null ],
+    [ "spawnIndex", "d0/d0d/a13974.html#a5e8b95d6ecf69db8736941b67e2478d8", null ],
+    [ "timestamp", "d0/d0d/a13974.html#a0c49f62b35e906637890fee896c74951", null ]
 ];

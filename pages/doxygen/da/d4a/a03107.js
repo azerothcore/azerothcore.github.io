@@ -1,6 +1,6 @@
 var a03107 =
 [
-    [ "SpellEvent", "df/d90/a10814.html", "df/d90/a10814" ],
+    [ "SpellEvent", "d3/d26/a10818.html", "d3/d26/a10818" ],
     [ "CHECK_DIST", "da/d4a/a03107.html#aa16c8b27baa496c2fdf0afffaf4485a0", null ],
     [ "DEBUG_TRAJ", "da/d4a/a03107.html#ac27bc73435b380df600d6da0b753a144", null ],
     [ "GCDLimits", "da/d4a/a03107.html#aea36520bcbaa2ebe9c062b9c5d9df777", [

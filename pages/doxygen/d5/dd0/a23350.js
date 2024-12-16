@@ -1,13 +1,10 @@
 var a23350 =
 [
-    [ "boss_wrath_scryer_soccothrates", "d5/dd0/a23350.html#a771980c1022e7699c3eb02baccb68a93", null ],
-    [ "InitializeAI", "d5/dd0/a23350.html#ad29f9c200de2f25a74f548c918bb61ac", null ],
-    [ "JustDied", "d5/dd0/a23350.html#a4954041d6a9cbc754d9fcd1d4ab3d38b", null ],
-    [ "JustEngagedWith", "d5/dd0/a23350.html#a09302e6f5e1422232a3024dd24a38fd6", null ],
-    [ "KilledUnit", "d5/dd0/a23350.html#a9b9237e0c8ad1b759c2402de79b3d0bd", null ],
-    [ "MoveInLineOfSight", "d5/dd0/a23350.html#ab75e402ce24ca34c42f80116b8a0726d", null ],
-    [ "Reset", "d5/dd0/a23350.html#a85435a23d36f13e348112348a26e7d12", null ],
-    [ "UpdateAI", "d5/dd0/a23350.html#a41ad9124dec5432feb7ca823f0c8f87f", null ],
-    [ "events2", "d5/dd0/a23350.html#afd4e9a0ab16406a4a452cd89d13d1fe0", null ],
-    [ "preFight", "d5/dd0/a23350.html#a193889ee2815b93a1c9aeee394170fc4", null ]
+    [ "boss_harbinger_skyriss", "d5/dd0/a23350.html#a245179f74d61c2671b397e8f2473b599", null ],
+    [ "EnterEvadeMode", "d5/dd0/a23350.html#a873413da06569343225e6659f8277b2c", null ],
+    [ "JustDied", "d5/dd0/a23350.html#a2b5152ddeb53d382294bd0fe7455a21e", null ],
+    [ "JustEngagedWith", "d5/dd0/a23350.html#adb4cdec41f4b61f82efdb78fe995c313", null ],
+    [ "JustSummoned", "d5/dd0/a23350.html#a97d84139a3e970e22d7d422f2f825f12", null ],
+    [ "KilledUnit", "d5/dd0/a23350.html#a8f9e1bd87c80041e07b428ec300ceef8", null ],
+    [ "Reset", "d5/dd0/a23350.html#a045ec2371ad99c3465b8f089eb604e0a", null ]
 ];

@@ -1,6 +1,6 @@
 var a25234 =
 [
-    [ "HandlePeriodicTick", "de/dee/a25234.html#a1bd15727da421fdbfc3a60136bfa9bc9", null ],
-    [ "PrepareAuraScript", "de/dee/a25234.html#a1c4f592511c8886d0b9a5e64eb19cda7", null ],
-    [ "Register", "de/dee/a25234.html#ac019a52a6f62f1251d20efcfadba1e78", null ]
+    [ "PrepareSpellScript", "de/dee/a25234.html#a3a77016a3a8314969ce41cc6483761ec", null ],
+    [ "Register", "de/dee/a25234.html#ae1fa8b9e4a11c884d10b1f4cc0afd09e", null ],
+    [ "SetDest", "de/dee/a25234.html#a724217c09faa57ec2e6dad034e8709ed", null ]
 ];

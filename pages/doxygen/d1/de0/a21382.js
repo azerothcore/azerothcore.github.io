@@ -1,6 +1,6 @@
 var a21382 =
 [
-    [ "npc_injured_7th_legion_soldierAI", "d3/d28/a21386.html", "d3/d28/a21386" ],
-    [ "npc_injured_7th_legion_soldier", "d1/de0/a21382.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
-    [ "GetAI", "d1/de0/a21382.html#a0feca7aedcf3c07253d4d402266189cc", null ]
+    [ "npc_mindless_ghoulAI", "d1/de0/a21382.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
+    [ "CanAIAttack", "d1/de0/a21382.html#a18fbc44ad760a69d952d003622ec75b2", null ],
+    [ "JustDied", "d1/de0/a21382.html#a272067bef6dbab24024f7de990c10b64", null ]
 ];

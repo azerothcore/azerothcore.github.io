@@ -1,6 +1,28 @@
 var a19670 =
 [
-    [ "boss_freya_elder_stonebarkAI", "db/d14/a19674.html", "db/d14/a19674" ],
-    [ "boss_freya_elder_stonebark", "d3/db2/a19670.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "d3/db2/a19670.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "boss_freyaAI", "d3/db2/a19670.html#a0441cd3dc5902696823b992c340660e9", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d3/db2/a19670.html#a3696b798ea0c6c899263cd06e9eb467d", null ],
+    [ "DamageTaken", "d3/db2/a19670.html#a3ecaa81b75770931d55938f8b36328f6", null ],
+    [ "DoAction", "d3/db2/a19670.html#a607c12e1d6dcbdb7f45ccf7f7a0ab515", null ],
+    [ "GetData", "d3/db2/a19670.html#ace4bd3a529e3a9b2d0bcb7babdd78b7d", null ],
+    [ "JustEngagedWith", "d3/db2/a19670.html#a3fd5c4e8997e06afdd9c4a9f7003cb9b", null ],
+    [ "JustReachedHome", "d3/db2/a19670.html#a90b5d1d5fb31de96b8fbd3a7e373fb3b", null ],
+    [ "JustSummoned", "d3/db2/a19670.html#af904769f707ef1daa9a4ebbd21eee661", null ],
+    [ "KilledUnit", "d3/db2/a19670.html#add2c5875d831e1e1b69285228329c5d1", null ],
+    [ "Reset", "d3/db2/a19670.html#a7ce317e14696250ef282e6d97645bbcf", null ],
+    [ "SpawnWave", "d3/db2/a19670.html#acc2b964411ba9334e87940ac85acd106", null ],
+    [ "SpellHit", "d3/db2/a19670.html#a9830104d9f0fbd4a25e9ce425e57df4e", null ],
+    [ "SpellHitTarget", "d3/db2/a19670.html#a4f14e1653a9925b92954fb8ff28e9bb0", null ],
+    [ "UpdateAI", "d3/db2/a19670.html#af128b016426e5ea33ecc0bbee4a5fb14", null ],
+    [ "_backToNature", "d3/db2/a19670.html#a0eabb4541faf52d22ed2d7b59edb7055", null ],
+    [ "_deforestation", "d3/db2/a19670.html#afa6d2870adc9b550f3ca6c190bb61b4c", null ],
+    [ "_elderGUID", "d3/db2/a19670.html#a562f34591c822cd957d9b970cfd5c05c", null ],
+    [ "_lumberjacked", "d3/db2/a19670.html#a896ac0c1392fb119f5a5dadf6a29a3aa", null ],
+    [ "_respawningTrio", "d3/db2/a19670.html#aa9686a1d02d9b33e6621a817a5a0a138", null ],
+    [ "_spawnedAmount", "d3/db2/a19670.html#a45bdff52a8cd0d286070c22c2c42de77", null ],
+    [ "_trioKilled", "d3/db2/a19670.html#a05ccafeffda3ba6bb0b1fac250c9aae4", null ],
+    [ "_waveNumber", "d3/db2/a19670.html#aef672931b5f87a4f6c630f45393eb253", null ],
+    [ "events", "d3/db2/a19670.html#ade3d910b3f1126d39fb3f01f37f2b4d8", null ],
+    [ "m_pInstance", "d3/db2/a19670.html#aa82d03099910ad78a52b34bf4e971002", null ],
+    [ "summons", "d3/db2/a19670.html#a79e0526f188c612af25c4c4393ce4107", null ]
 ];

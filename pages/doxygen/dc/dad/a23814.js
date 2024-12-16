@@ -1,16 +1,6 @@
 var a23814 =
 [
-    [ "npc_dragonmaw_peonAI", "dc/dad/a23814.html#a6f1255fead5357001ec85fdaa6980249", null ],
-    [ "CreditPlayer", "dc/dad/a23814.html#a5cf28e156cab2e2066bb94bc99233a2b", null ],
-    [ "JustEngagedWith", "dc/dad/a23814.html#abd5b37793aa2fb150c808b7dc7270763", null ],
-    [ "MovementInform", "dc/dad/a23814.html#a0ee4038f90d54c75c48b2448dacb5724", null ],
-    [ "Reset", "dc/dad/a23814.html#a9d876ec76b51f743c71e67749c21d939", null ],
-    [ "SpellHit", "dc/dad/a23814.html#abe5162608ba0acd7360a630562ff5935", null ],
-    [ "UpdateAI", "dc/dad/a23814.html#a98a045606d9e689ef25a5068b81b1ebf", null ],
-    [ "events", "dc/dad/a23814.html#a7d6fb37d1953630aa79f8665eca0db61", null ],
-    [ "PlayerGUID", "dc/dad/a23814.html#ad6838d98e34a32cbed42c77cdf096070", null ],
-    [ "Tapped", "dc/dad/a23814.html#ae393f8d3cb47f38a4c4314a262826d03", null ],
-    [ "x", "dc/dad/a23814.html#acebbfa8da88d8d683ba5ea6463f6b5f7", null ],
-    [ "y", "dc/dad/a23814.html#ae5a1d416c712803ec0b80ae7ccf29e2d", null ],
-    [ "z", "dc/dad/a23814.html#a7722420716c030b5abe7b760199df14d", null ]
+    [ "npc_dragonmaw_peonAI", "d2/d9c/a23818.html", "d2/d9c/a23818" ],
+    [ "npc_dragonmaw_peon", "dc/dad/a23814.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
+    [ "GetAI", "dc/dad/a23814.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
 ];

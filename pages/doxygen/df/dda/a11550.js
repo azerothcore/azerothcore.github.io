@@ -1,5 +1,5 @@
 var a11550 =
 [
-    [ "at_ring_of_law", "df/dda/a11550.html#ad9bb44e898f90fb489b50cad0a711976", null ],
-    [ "OnTrigger", "df/dda/a11550.html#a613471caae75ab3d82ce915101a20108", null ]
+    [ "amount", "df/dda/a11550.html#a35b1ecbfecae77f1cb7a0a52eafc5f7b", null ],
+    [ "entry", "df/dda/a11550.html#ac3d4d211ebb927b1b9a376ee956e1b26", null ]
 ];

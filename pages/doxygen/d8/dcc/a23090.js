@@ -1,7 +1,7 @@
 var a23090 =
 [
-    [ "CalcPeriodic", "d8/dcc/a23090.html#aeae100fb3ab86b9064c3923472fbd45d", null ],
-    [ "PrepareAuraScript", "d8/dcc/a23090.html#a290913502dfe3dfb42b44a964468b97c", null ],
-    [ "Register", "d8/dcc/a23090.html#aea7a6e4bcbc97d19393d790a28a4483a", null ],
-    [ "Update", "d8/dcc/a23090.html#ab3bdb3a14c6d130d295553e635acb47c", null ]
+    [ "OnApply", "d8/dcc/a23090.html#a6189a5ea90b1951b21a7e9ef36700ed9", null ],
+    [ "PeriodicTick", "d8/dcc/a23090.html#a1c79b1016361eabb5cef57a893bccfcf", null ],
+    [ "PrepareAuraScript", "d8/dcc/a23090.html#acfa6b5217a0e0e2654b7fa9c4092abd5", null ],
+    [ "Register", "d8/dcc/a23090.html#adddddd0689f4686a40b1db142b5d6ce2", null ]
 ];

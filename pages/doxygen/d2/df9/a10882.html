@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: CustomSpellValues Class Reference</title>
+<title>AzerothCore: ReflectEvent Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,28 +106,56 @@ $(document).ready(function(){initNavTree('d2/df9/a10882.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../d2/d8d/a10879.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CustomSpellValues Class Reference</div></div>
+  <div class="headertitle"><div class="title">ReflectEvent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SpellDefines.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for CustomSpellValues:</div>
+Inheritance diagram for ReflectEvent:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d2/df9/a10882.png" alt=""/>
- </div></div>
+  <img src="../../d2/df9/a10882.png" usemap="#ReflectEvent_map" alt=""/>
+  <map id="ReflectEvent_map" name="ReflectEvent_map">
+<area href="../../dd/d9e/a05378.html" alt="BasicEvent" shape="rect" coords="0,0,83,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1c14e27dd094be2fccff3d74a1414a80"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#a1c14e27dd094be2fccff3d74a1414a80">AddSpellMod</a> (<a class="el" href="../../d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371b">SpellValueMod</a> mod, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> value)</td></tr>
-<tr class="separator:a1c14e27dd094be2fccff3d74a1414a80"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1669aec08a3a09143c57e4889c8fad08"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#a1669aec08a3a09143c57e4889c8fad08">ReflectEvent</a> (<a class="el" href="../../de/d71/a08530.html">Unit</a> *caster, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> targetGUID, <a class="el" href="../../dd/df5/a10910.html">SpellInfo</a> const *spellInfo)</td></tr>
+<tr class="separator:a1669aec08a3a09143c57e4889c8fad08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37fb766d70932e8a431dba363c603531"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#a37fb766d70932e8a431dba363c603531">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> e_time, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> p_time) override</td></tr>
+<tr class="separator:a37fb766d70932e8a431dba363c603531"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a05378"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05378')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a></td></tr>
+<tr class="memitem:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a0c3860e1c8854c2db20a225944792afd">~BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a62c0483af9fd1885e779cf088a50eb02">IsDeletable</a> () const</td></tr>
+<tr class="separator:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a5584968148a48bd7ba072515bd489963">Abort</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>)</td></tr>
+<tr class="separator:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#afafade0729f08b8f1193a66f50c18348">ScheduleAbort</a> ()</td></tr>
+<tr class="separator:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a67ec85597bb887e7b8cb31b818910d1a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d71/a08530.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">_caster</a></td></tr>
+<tr class="separator:a67ec85597bb887e7b8cb31b818910d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa9f8c7bf1e22c74f3d134df2cfc014b5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#aa9f8c7bf1e22c74f3d134df2cfc014b5">_targetGUID</a></td></tr>
+<tr class="separator:aa9f8c7bf1e22c74f3d134df2cfc014b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae05fc2092226695fa22dd1e72d58bc7b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/df5/a10910.html">SpellInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df9/a10882.html#ae05fc2092226695fa22dd1e72d58bc7b">_spellInfo</a></td></tr>
+<tr class="separator:ae05fc2092226695fa22dd1e72d58bc7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a1c14e27dd094be2fccff3d74a1414a80" name="a1c14e27dd094be2fccff3d74a1414a80"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1c14e27dd094be2fccff3d74a1414a80">&#9670;&#160;</a></span>AddSpellMod()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1669aec08a3a09143c57e4889c8fad08" name="a1669aec08a3a09143c57e4889c8fad08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1669aec08a3a09143c57e4889c8fad08">&#9670;&#160;</a></span>ReflectEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,16 +164,22 @@ Public Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void CustomSpellValues::AddSpellMod </td>
+          <td class="memname">ReflectEvent::ReflectEvent </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d1/d7a/a03080.html#a4ad87b8c967acbbcb154a32bc123371b">SpellValueMod</a>&#160;</td>
-          <td class="paramname"><em>mod</em>, </td>
+          <td class="paramtype"><a class="el" href="../../de/d71/a08530.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>caster</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>targetGUID</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/df5/a10910.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname"><em>spellInfo</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -159,11 +193,138 @@ Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  168</span>    {</div>
-<div class="line"><span class="lineno">  169</span>        push_back(std::make_pair(mod, value));</div>
-<div class="line"><span class="lineno">  170</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  852</span>: <a class="code hl_variable" href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">_caster</a>(caster), <a class="code hl_variable" href="../../d2/df9/a10882.html#aa9f8c7bf1e22c74f3d134df2cfc014b5">_targetGUID</a>(targetGUID), <a class="code hl_variable" href="../../d2/df9/a10882.html#ae05fc2092226695fa22dd1e72d58bc7b">_spellInfo</a>(spellInfo) { }</div>
+<div class="ttc" id="aa10882_html_a67ec85597bb887e7b8cb31b818910d1a"><div class="ttname"><a href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">ReflectEvent::_caster</a></div><div class="ttdeci">Unit * _caster</div><div class="ttdef"><b>Definition:</b> Spell.h:856</div></div>
+<div class="ttc" id="aa10882_html_aa9f8c7bf1e22c74f3d134df2cfc014b5"><div class="ttname"><a href="../../d2/df9/a10882.html#aa9f8c7bf1e22c74f3d134df2cfc014b5">ReflectEvent::_targetGUID</a></div><div class="ttdeci">ObjectGuid _targetGUID</div><div class="ttdef"><b>Definition:</b> Spell.h:857</div></div>
+<div class="ttc" id="aa10882_html_ae05fc2092226695fa22dd1e72d58bc7b"><div class="ttname"><a href="../../d2/df9/a10882.html#ae05fc2092226695fa22dd1e72d58bc7b">ReflectEvent::_spellInfo</a></div><div class="ttdeci">SpellInfo const  * _spellInfo</div><div class="ttdef"><b>Definition:</b> Spell.h:858</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02016">spell_the_lich_king_necrotic_plague_jump_aura::AfterDispel()</a>, <a class="el" href="../../#l02366">spell_igb_incinerating_blast::CalculateDamage()</a>, <a class="el" href="../../#l01224">Unit::CastCustomSpell()</a>, <a class="el" href="../../#l00996">Spell::EffectForceCast()</a>, <a class="el" href="../../#l00942">Spell::EffectTriggerMissileSpell()</a>, <a class="el" href="../../#l00785">Spell::EffectTriggerSpell()</a>, <a class="el" href="../../#l00253">spell_serpentshrine_cavern_infection::HandleEffectRemove()</a>, <a class="el" href="../../#l06560">AuraEffect::HandlePeriodicTriggerSpellWithValueAuraTick()</a>, <a class="el" href="../../#l00116">spell_rog_blade_flurry::HandleProc()</a>, <a class="el" href="../../#l00160">spell_warr_improved_spell_reflection::OnProc()</a>, <a class="el" href="../../#l01882">spell_the_lich_king_necrotic_plague_aura::OnRemove()</a>, and <a class="el" href="../../#l01992">spell_the_lich_king_necrotic_plague_jump_aura::OnRemove()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a37fb766d70932e8a431dba363c603531" name="a37fb766d70932e8a431dba363c603531"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37fb766d70932e8a431dba363c603531">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ReflectEvent::Execute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>e_time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>p_time</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8221</span>{</div>
+<div class="line"><span class="lineno"> 8222</span>    <a class="code hl_class" href="../../de/d71/a08530.html">Unit</a>* target = <a class="code hl_function" href="../../d9/d06/a04735.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a>(*<a class="code hl_variable" href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">_caster</a>, <a class="code hl_variable" href="../../d2/df9/a10882.html#aa9f8c7bf1e22c74f3d134df2cfc014b5">_targetGUID</a>);</div>
+<div class="line"><span class="lineno"> 8223</span>    <span class="keywordflow">if</span> (target &amp;&amp; <a class="code hl_variable" href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">_caster</a>-&gt;<a class="code hl_function" href="../../db/df3/a08182.html#aedc362bb48f474ee7291f4c82f585837">IsInMap</a>(target))</div>
+<div class="line"><span class="lineno"> 8224</span>        <a class="code hl_function" href="../../de/d71/a08530.html#aad2d8dec02abdea33b3447bea9407a4f">Unit::ProcDamageAndSpell</a>(<a class="code hl_variable" href="../../d2/df9/a10882.html#a67ec85597bb887e7b8cb31b818910d1a">_caster</a>, target, <a class="code hl_enumvalue" href="../../df/d64/a03110.html#ade1c2af066d4cf1bbcd88f13f01cd4d6af765023e3e3f58d814e32d66d0f8fe45">PROC_FLAG_NONE</a>, <a class="code hl_enumvalue" href="../../df/d64/a03110.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a>, <a class="code hl_enumvalue" href="../../df/d64/a03110.html#ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a">PROC_EX_REFLECT</a>, 1, <a class="code hl_enumvalue" href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a>, <a class="code hl_variable" href="../../d2/df9/a10882.html#ae05fc2092226695fa22dd1e72d58bc7b">_spellInfo</a>);</div>
+<div class="line"><span class="lineno"> 8225</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 8226</span>}</div>
+<div class="ttc" id="aa03110_html_ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a"><div class="ttname"><a href="../../df/d64/a03110.html#ac9aaef596a1061b6b944e1dc0e679b46ac0f0575131b658e1143778206283552a">PROC_EX_REFLECT</a></div><div class="ttdeci">@ PROC_EX_REFLECT</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:205</div></div>
+<div class="ttc" id="aa03110_html_ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105"><div class="ttname"><a href="../../df/d64/a03110.html#ade1c2af066d4cf1bbcd88f13f01cd4d6a83f7552203278e82d55d40034cea9105">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a></div><div class="ttdeci">@ PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:132</div></div>
+<div class="ttc" id="aa03110_html_ade1c2af066d4cf1bbcd88f13f01cd4d6af765023e3e3f58d814e32d66d0f8fe45"><div class="ttname"><a href="../../df/d64/a03110.html#ade1c2af066d4cf1bbcd88f13f01cd4d6af765023e3e3f58d814e32d66d0f8fe45">PROC_FLAG_NONE</a></div><div class="ttdeci">@ PROC_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:105</div></div>
+<div class="ttc" id="aa03515_html_a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae"><div class="ttname"><a href="../../de/d3d/a03515.html#a85524ab4e1fb005ed500bd190f79c352a5145c1138a6f21d47061e9015e07a3ae">BASE_ATTACK</a></div><div class="ttdeci">@ BASE_ATTACK</div><div class="ttdef"><b>Definition:</b> Unit.h:209</div></div>
+<div class="ttc" id="aa04735_html_a02c2dfb59db7d7e2501dcc9a4f9baf07"><div class="ttname"><a href="../../d9/d06/a04735.html#a02c2dfb59db7d7e2501dcc9a4f9baf07">ObjectAccessor::GetUnit</a></div><div class="ttdeci">Unit * GetUnit(WorldObject const &amp;, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:199</div></div>
+<div class="ttc" id="aa08182_html_aedc362bb48f474ee7291f4c82f585837"><div class="ttname"><a href="../../db/df3/a08182.html#aedc362bb48f474ee7291f4c82f585837">WorldObject::IsInMap</a></div><div class="ttdeci">bool IsInMap(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1296</div></div>
+<div class="ttc" id="aa08530_html"><div class="ttname"><a href="../../de/d71/a08530.html">Unit</a></div><div class="ttdef"><b>Definition:</b> Unit.h:630</div></div>
+<div class="ttc" id="aa08530_html_aad2d8dec02abdea33b3447bea9407a4f"><div class="ttname"><a href="../../de/d71/a08530.html#aad2d8dec02abdea33b3447bea9407a4f">Unit::ProcDamageAndSpell</a></div><div class="ttdeci">static void ProcDamageAndSpell(Unit *actor, Unit *victim, uint32 procAttacker, uint32 procVictim, uint32 procEx, uint32 amount, WeaponAttackType attType=BASE_ATTACK, SpellInfo const *procSpellInfo=nullptr, SpellInfo const *procAura=nullptr, int8 procAuraEffectIndex=-1, Spell const *procSpell=nullptr, DamageInfo *damageInfo=nullptr, HealInfo *healInfo=nullptr, uint32 procPhase=2)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:6378</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00856">_caster</a>, <a class="el" href="../../#l00858">_spellInfo</a>, <a class="el" href="../../#l00857">_targetGUID</a>, <a class="el" href="../../#l00209">BASE_ATTACK</a>, <a class="el" href="../../#l00199">ObjectAccessor::GetUnit()</a>, <a class="el" href="../../#l01296">WorldObject::IsInMap()</a>, <a class="el" href="../../#l00205">PROC_EX_REFLECT</a>, <a class="el" href="../../#l00105">PROC_FLAG_NONE</a>, <a class="el" href="../../#l00132">PROC_FLAG_TAKEN_SPELL_MAGIC_DMG_CLASS_NEG</a>, and <a class="el" href="../../#l06378">Unit::ProcDamageAndSpell()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a67ec85597bb887e7b8cb31b818910d1a" name="a67ec85597bb887e7b8cb31b818910d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67ec85597bb887e7b8cb31b818910d1a">&#9670;&#160;</a></span>_caster</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d71/a08530.html">Unit</a>* ReflectEvent::_caster</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l08220">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="ae05fc2092226695fa22dd1e72d58bc7b" name="ae05fc2092226695fa22dd1e72d58bc7b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae05fc2092226695fa22dd1e72d58bc7b">&#9670;&#160;</a></span>_spellInfo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/df5/a10910.html">SpellInfo</a> const* ReflectEvent::_spellInfo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l08220">Execute()</a>.</p>
+
+</div>
+</div>
+<a id="aa9f8c7bf1e22c74f3d134df2cfc014b5" name="aa9f8c7bf1e22c74f3d134df2cfc014b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa9f8c7bf1e22c74f3d134df2cfc014b5">&#9670;&#160;</a></span>_targetGUID</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> ReflectEvent::_targetGUID</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l08220">Execute()</a>.</p>
 
 </div>
 </div>
@@ -172,8 +333,8 @@ Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/df9/a10882.html">CustomSpellValues</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:00 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/df9/a10882.html">ReflectEvent</a></li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:44:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

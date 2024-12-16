@@ -1,5 +1,5 @@
 var a20686 =
 [
-    [ "npc_salvaged_siege_engine", "dd/da4/a20686.html#aa8cde891a19ebb1e53be2a81a2432442", null ],
-    [ "BeforeSpellClick", "dd/da4/a20686.html#aed2500b2315b5e508ea3d06a2355d023", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "dd/da4/a20686.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "dd/da4/a20686.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

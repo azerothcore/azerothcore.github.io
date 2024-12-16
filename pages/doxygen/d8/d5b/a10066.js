@@ -1,17 +1,12 @@
 var a10066 =
 [
-    [ "GuildScript", "d8/d5b/a10066.html#a9f2e849a2fb4a1cb901080f129692482", null ],
-    [ "CanGuildSendBankList", "d8/d5b/a10066.html#a293f3d822ae075246f1a7552ce9b0424", null ],
-    [ "IsDatabaseBound", "d8/d5b/a10066.html#aae0601f04ec90533bb7699c68f68fe8f", null ],
-    [ "OnAddMember", "d8/d5b/a10066.html#a908df71c0d9be1258e624f4e977e8d75", null ],
-    [ "OnBankEvent", "d8/d5b/a10066.html#a8f29c847a68fb41dd3bca4ac257ee159", null ],
-    [ "OnCreate", "d8/d5b/a10066.html#acfc89fe841629beca8de15c23c48a6c7", null ],
-    [ "OnDisband", "d8/d5b/a10066.html#a5c840084ca74af0556ac5d6256bfd75d", null ],
-    [ "OnEvent", "d8/d5b/a10066.html#ad0733568cee8ded5c89d8404166201bb", null ],
-    [ "OnInfoChanged", "d8/d5b/a10066.html#a3ce284c112b61c6077b509d55a52f388", null ],
-    [ "OnItemMove", "d8/d5b/a10066.html#a2309a1ae2828cb7c758a5cf0329f1f5a", null ],
-    [ "OnMemberDepositMoney", "d8/d5b/a10066.html#a64d676d964b408b6fde7ab9185951eb0", null ],
-    [ "OnMemberWitdrawMoney", "d8/d5b/a10066.html#a503c5116512f8ac45506732674aa5635", null ],
-    [ "OnMOTDChanged", "d8/d5b/a10066.html#ac5886f63fbc5da499843677339f4944b", null ],
-    [ "OnRemoveMember", "d8/d5b/a10066.html#a0231be74a2625a91fc617980dfc41ca3", null ]
+    [ "GroupScript", "d8/d5b/a10066.html#a0680f82522424afc364e9b94e1c6f686", null ],
+    [ "CanGroupJoinBattlegroundQueue", "d8/d5b/a10066.html#a931b4a94a2f95958579b37c0af6ece03", null ],
+    [ "IsDatabaseBound", "d8/d5b/a10066.html#acb561e8a2d5b3542e228a7beb8122fbf", null ],
+    [ "OnAddMember", "d8/d5b/a10066.html#adb279c4c0ba60ffea994f35cd7e91ad1", null ],
+    [ "OnChangeLeader", "d8/d5b/a10066.html#a64a1441fd3db3f25236691efcff4a80b", null ],
+    [ "OnCreate", "d8/d5b/a10066.html#a18973a7e5f260712f032ca1129d4a0bc", null ],
+    [ "OnDisband", "d8/d5b/a10066.html#a3cb94966ba1d02180fb3e7cf95000e5f", null ],
+    [ "OnInviteMember", "d8/d5b/a10066.html#a2ae925dc27708fdaa4d5909b582b77a7", null ],
+    [ "OnRemoveMember", "d8/d5b/a10066.html#adf640b01746ee92fed31670ee5cc8d0f", null ]
 ];

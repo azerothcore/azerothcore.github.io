@@ -1,6 +1,7 @@
 var a11970 =
 [
-    [ "boss_victor_nefariusAI", "d7/d70/a11974.html", "d7/d70/a11974" ],
-    [ "boss_victor_nefarius", "db/d54/a11970.html#a85c529c49a0373a553bc59818fb18f49", null ],
-    [ "GetAI", "db/d54/a11970.html#a6ea19bde6980cbb4ca627d17cf57ae24", null ]
+    [ "ClassCallSelector", "db/d54/a11970.html#a223895c97121b0727aac258c12c89e0b", null ],
+    [ "operator()", "db/d54/a11970.html#ab0d2ab1d94d72c6a202ed0cb2900dd2e", null ],
+    [ "_me", "db/d54/a11970.html#a5347a24609a21ae0a342682104b1dc14", null ],
+    [ "_targetClass", "db/d54/a11970.html#a7ce861956ec8d216d2f8cba82c69ea50", null ]
 ];

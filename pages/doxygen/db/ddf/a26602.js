@@ -1,8 +1,7 @@
 var a26602 =
 [
-    [ "CheckProc", "db/ddf/a26602.html#ab9b2a87dc91e2c6031a02043e6ce4f50", null ],
-    [ "HandleEffectProc", "db/ddf/a26602.html#af01d160cb2a55124361a2dd113acd0a7", null ],
-    [ "PrepareAuraScript", "db/ddf/a26602.html#aeffb8490a7208ae6e32a505283afbc03", null ],
-    [ "Register", "db/ddf/a26602.html#a5436413d098dde4b0fa1ed2259a47779", null ],
-    [ "Validate", "db/ddf/a26602.html#ae786a8c97e9f66152b8d0b55624a4eac", null ]
+    [ "CheckProc", "db/ddf/a26602.html#a957f8837b5613a3bfd8200ded3529c54", null ],
+    [ "HandleEffectProc", "db/ddf/a26602.html#a54810a897e535558d060119e3de6537b", null ],
+    [ "PrepareAuraScript", "db/ddf/a26602.html#a37950bfd846e1c2c550a108461941a26", null ],
+    [ "Register", "db/ddf/a26602.html#a16c273043e81fd163fb7c3f517ee6f4c", null ]
 ];

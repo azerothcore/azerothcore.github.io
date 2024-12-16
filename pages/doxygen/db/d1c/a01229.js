@@ -1,14 +1,14 @@
 var a01229 =
 [
-    [ "npc_bunthen_plainswind", "de/d1a/a15118.html", "de/d1a/a15118" ],
-    [ "npc_great_bear_spirit", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
-    [ "npc_silva_filnaveth", "d7/de6/a15126.html", "d7/de6/a15126" ],
-    [ "npc_clintar_spirit", "db/d6e/a15130.html", "db/d6e/a15130" ],
-    [ "npc_clintar_spirit::npc_clintar_spiritAI", "df/d2f/a15134.html", "df/d2f/a15134" ],
-    [ "npc_omen", "d7/d02/a15138.html", "d7/d02/a15138" ],
-    [ "npc_omen::npc_omenAI", "d4/d3c/a15142.html", "d4/d3c/a15142" ],
-    [ "npc_giant_spotlight", "dd/d48/a15146.html", "dd/d48/a15146" ],
-    [ "npc_giant_spotlight::npc_giant_spotlightAI", "d9/d91/a15150.html", "d9/d91/a15150" ],
+    [ "npc_bunthen_plainswind", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
+    [ "npc_great_bear_spirit", "d7/de6/a15126.html", "d7/de6/a15126" ],
+    [ "npc_silva_filnaveth", "db/d6e/a15130.html", "db/d6e/a15130" ],
+    [ "npc_clintar_spirit", "df/d2f/a15134.html", "df/d2f/a15134" ],
+    [ "npc_clintar_spirit::npc_clintar_spiritAI", "d7/d02/a15138.html", "d7/d02/a15138" ],
+    [ "npc_omen", "d4/d3c/a15142.html", "d4/d3c/a15142" ],
+    [ "npc_omen::npc_omenAI", "dd/d48/a15146.html", "dd/d48/a15146" ],
+    [ "npc_giant_spotlight", "d9/d91/a15150.html", "d9/d91/a15150" ],
+    [ "npc_giant_spotlight::npc_giant_spotlightAI", "da/d67/a15154.html", "da/d67/a15154" ],
     [ "Bunthen", "db/d1c/a01229.html#adbbeebdb932cdc68f2ad2b58d4c922fb", [
       [ "QUEST_SEA_LION_HORDE", "db/d1c/a01229.html#adbbeebdb932cdc68f2ad2b58d4c922fba19a2ff94115fefe241626f3331ce747f", null ],
       [ "QUEST_SEA_LION_ALLY", "db/d1c/a01229.html#adbbeebdb932cdc68f2ad2b58d4c922fba9333cbca83acf867219e50edeeb6ad5a", null ],

@@ -1,14 +1,14 @@
 var a11762 =
 [
-    [ "boss_mor_grayhoof", "d1/db5/a11762.html#aef1001233a51ad3bb9963c540d39d79b", null ],
-    [ "CastRandomSpell", "d1/db5/a11762.html#a00756d64d24088ebf408153fcb59ff13", null ],
-    [ "DamageTaken", "d1/db5/a11762.html#a164a911eb9a86964a61866c05d44512f", null ],
-    [ "JustDied", "d1/db5/a11762.html#aa98fbfc5cc4ee94e0323d8586dae1e1c", null ],
-    [ "JustEngagedWith", "d1/db5/a11762.html#a043f6ee099efd0d49982b2966604e65a", null ],
-    [ "Reset", "d1/db5/a11762.html#af313bd8509a76cd6b6fbc197f15afbff", null ],
-    [ "UpdateAI", "d1/db5/a11762.html#aaa6a1a9b6e4259aea46d2f25bca3b809", null ],
-    [ "_phase", "d1/db5/a11762.html#a40bf6a66aefe7a605d94526b5a586ba6", null ],
-    [ "_scheduler", "d1/db5/a11762.html#ad2a897281d308475957e2636c6536fdd", null ],
-    [ "_sleepTargetGUID", "d1/db5/a11762.html#a8baa606696dc8acf532e8badfc6c624b", null ],
-    [ "_sleepTargetThreat", "d1/db5/a11762.html#ac62d7d30b12d0c2da9553b9689091e0e", null ]
+    [ "boss_lord_valthalakAI", "d1/db5/a11762.html#a7f10837eafefefb87b338410c5994362", null ],
+    [ "DamageTaken", "d1/db5/a11762.html#a6fe691c8dd5c5b387eed08e3a010bec7", null ],
+    [ "IsSummonedBy", "d1/db5/a11762.html#a852589ca84562ad1a9dcdd403fe5aa83", null ],
+    [ "JustDied", "d1/db5/a11762.html#a4c9bd060e62f1c4d3819350bf549a39a", null ],
+    [ "JustEngagedWith", "d1/db5/a11762.html#acee7b1758b670a688fe1afcdef3b9f8c", null ],
+    [ "Reset", "d1/db5/a11762.html#abcc993a205602484fb46a67bc68dbbd9", null ],
+    [ "StartFighting", "d1/db5/a11762.html#af06da24e8bedf922895c8c591c1def04", null ],
+    [ "StartTalking", "d1/db5/a11762.html#ac1d7b3844f9019ea6485de7616caff95", null ],
+    [ "UpdateAI", "d1/db5/a11762.html#a2b39a384ac7133aa013e21b0e873c4e2", null ],
+    [ "frenzy15", "d1/db5/a11762.html#aabd65fc1a1bdbbc9c3a46c918bc7dff5", null ],
+    [ "frenzy40", "d1/db5/a11762.html#a75aa55580bed475e88e9071fa5284267", null ]
 ];

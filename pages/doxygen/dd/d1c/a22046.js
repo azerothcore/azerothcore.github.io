@@ -1,14 +1,9 @@
 var a22046 =
 [
-    [ "npc_finklesteinAI", "dd/d1c/a22046.html#a075481689af110f8c20cd5ca13258ba3", null ],
-    [ "ClearPlayerOnTask", "dd/d1c/a22046.html#ad6ec9c020ba2f8eae9250a89fbe9490d", null ],
-    [ "GetTaskAura", "dd/d1c/a22046.html#ae3a1b7fbdd9aba64e8f853f53d9c261c", null ],
-    [ "GetTaskCounter", "dd/d1c/a22046.html#a240e8f556176b9571bd08407276402be", null ],
-    [ "GetTaskItemEntry", "dd/d1c/a22046.html#a08a3005db6d192663a835b9ee192352b", null ],
-    [ "GetTaskItemName", "dd/d1c/a22046.html#adce990629aa1833dc07c7dbb1297cead", null ],
-    [ "IsPlayerOnTask", "dd/d1c/a22046.html#ad815f0d79ab73d95e9fbf3a659aea2ce", null ],
-    [ "RightClickCauldron", "dd/d1c/a22046.html#a71fea2fdf5079fbc1d8baa72e7e4ae82", null ],
-    [ "SelectRandomCode", "dd/d1c/a22046.html#a16c9ddf6f2f858f4147a0188e0df7250", null ],
-    [ "StartNextTask", "dd/d1c/a22046.html#a89c5c3a90fad1719bc4d2e2cb611e8c7", null ],
-    [ "questList", "dd/d1c/a22046.html#a5c3a3237579721b94dd433841b83bb02", null ]
+    [ "npc_finklesteinAI", "df/dab/a22050.html", "df/dab/a22050" ],
+    [ "npc_finklestein", "dd/d1c/a22046.html#aa719b4bb95012c22ef8123e255e32edd", null ],
+    [ "GetAI", "dd/d1c/a22046.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
+    [ "OnGossipHello", "dd/d1c/a22046.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
+    [ "OnGossipSelect", "dd/d1c/a22046.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
+    [ "OnQuestAccept", "dd/d1c/a22046.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
 ];

@@ -1,6 +1,7 @@
 var a17554 =
 [
-    [ "OnRemove", "d2/d4b/a17554.html#ab9c21998c71991ff74e6dfcf4d32f126", null ],
-    [ "PrepareAuraScript", "d2/d4b/a17554.html#a8fb5803b07022f9bd3d246216bac5abb", null ],
-    [ "Register", "d2/d4b/a17554.html#afa993cb14444989feac16c9fa2d7b8df", null ]
+    [ "CheckRequirement", "d2/d4b/a17554.html#a1568599758bdc757ae448ab5a77c1cc7", null ],
+    [ "CheckRequirementInternal", "d2/d4b/a17554.html#ac2559b4a925fc0960a902fa2b306dc54", null ],
+    [ "PrepareSpellScript", "d2/d4b/a17554.html#a0d6745dab09cdd228fc802e482c3d15c", null ],
+    [ "Register", "d2/d4b/a17554.html#a95a250aeb3a41922c529f476d39f18e4", null ]
 ];

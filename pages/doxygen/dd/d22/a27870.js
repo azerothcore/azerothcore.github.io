@@ -1,5 +1,5 @@
 var a27870 =
 [
-    [ "Id", "dd/d22/a27870.html#a44532f8af054ae5224f5e816c3c9a8a7", null ],
-    [ "PowerType", "dd/d22/a27870.html#ab6c17a5a3ba9f2f3a8fac125104703c4", null ]
+    [ "id", "dd/d22/a27870.html#a22e48015dd880199e131089e35b1ce05", null ],
+    [ "spellId", "dd/d22/a27870.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
 ];

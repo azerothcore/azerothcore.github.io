@@ -1,9 +1,10 @@
 var a13822 =
 [
-    [ "HandleEffectPeriodic", "db/dfd/a13822.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "db/dfd/a13822.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "db/dfd/a13822.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "db/dfd/a13822.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "db/dfd/a13822.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "db/dfd/a13822.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "npc_brewfest_super_brew_trigger", "db/dfd/a13822.html#a3d2189978683150b1c431fa0fd637358", null ],
+    [ "AttackStart", "db/dfd/a13822.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
+    [ "JustEngagedWith", "db/dfd/a13822.html#a61be52cb8ba0cc10285820ad5324816e", null ],
+    [ "MoveInLineOfSight", "db/dfd/a13822.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
+    [ "Reset", "db/dfd/a13822.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
+    [ "UpdateAI", "db/dfd/a13822.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
+    [ "timer", "db/dfd/a13822.html#a2ebb06175e3142cca156e57e8386fe02", null ]
 ];

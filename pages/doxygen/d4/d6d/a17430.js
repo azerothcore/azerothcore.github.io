@@ -1,6 +1,7 @@
 var a17430 =
 [
-    [ "npc_bone_spikeAI", "d2/d16/a17434.html", "d2/d16/a17434" ],
-    [ "npc_bone_spike", "d4/d6d/a17430.html#ac93d7a45eaeae8d7adf2a3b313825aed", null ],
-    [ "GetAI", "d4/d6d/a17430.html#a887a9156f550ca55047fa501e1709d95", null ]
+    [ "npc_coldflameAI", "d4/d6d/a17430.html#a2a8420b79357f7a2167dddbd68ec8bc0", null ],
+    [ "IsSummonedBy", "d4/d6d/a17430.html#a1a330428ac8f17dc673fb1ae4d57035a", null ],
+    [ "UpdateAI", "d4/d6d/a17430.html#a5a847ae7c15b309cb1393b6d16a6e220", null ],
+    [ "events", "d4/d6d/a17430.html#af3b7d4ca1b268fe0d786eee83c0a3596", null ]
 ];

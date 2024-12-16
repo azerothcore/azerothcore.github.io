@@ -1,8 +1,8 @@
 var a02015 =
 [
-    [ "boss_gluth", "dc/ddd/a18618.html", "dc/ddd/a18618" ],
-    [ "boss_gluth::boss_gluthAI", "d6/d7d/a18622.html", "d6/d7d/a18622" ],
-    [ "spell_gluth_decimate", "d6/d4e/a18626.html", "d6/d4e/a18626" ],
+    [ "boss_gluth", "d6/d7d/a18622.html", "d6/d7d/a18622" ],
+    [ "boss_gluth::boss_gluthAI", "d6/d4e/a18626.html", "d6/d4e/a18626" ],
+    [ "spell_gluth_decimate", "d5/d68/a18630.html", "d5/d68/a18630" ],
     [ "Emotes", "de/d0a/a02015.html#a2d0a63150f7988db8ff39124dc1cb21a", [
       [ "EMOTE_FRENZY", "dc/d2b/a02486.html#a2d0a63150f7988db8ff39124dc1cb21aa55f111609d7846e27c2f642b9f46b1ac", null ],
       [ "EMOTE_SHIMMER", "dc/d2b/a02486.html#a2d0a63150f7988db8ff39124dc1cb21aa706a7a036a41d3d1f2650ee226e9ec1e", null ],

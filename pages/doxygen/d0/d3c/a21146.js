@@ -1,6 +1,6 @@
 var a21146 =
 [
-    [ "npc_nerubar_victimAI", "d6/d07/a21150.html", "d6/d07/a21150" ],
-    [ "npc_nerubar_victim", "d0/d3c/a21146.html#a4fe80597d3e56776f0f04965fc706097", null ],
-    [ "GetAI", "d0/d3c/a21146.html#a5bb565352ab47fb5cb572190f55df8d1", null ]
+    [ "npc_iruk", "d0/d3c/a21146.html#a721aeefd23371cc6bc16738a797bf50a", null ],
+    [ "OnGossipHello", "d0/d3c/a21146.html#a774669099330c75ab5e0bea8d460f517", null ],
+    [ "OnGossipSelect", "d0/d3c/a21146.html#ae6f7d54d224488a9e29c59c560eba471", null ]
 ];

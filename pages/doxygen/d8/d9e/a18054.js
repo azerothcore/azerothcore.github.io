@@ -1,8 +1,6 @@
 var a18054 =
 [
-    [ "npc_lk_wicked_spiritAI", "d8/d9e/a18054.html#a6323ddd6c0932f3d73a6de4bd3c4d5dd", null ],
-    [ "CanAIAttack", "d8/d9e/a18054.html#ae094420b1a6e134632baa0b086c806c6", null ],
-    [ "JustDied", "d8/d9e/a18054.html#adf153fab1c8639b2b5790ed418afb85d", null ],
-    [ "JustRespawned", "d8/d9e/a18054.html#a1acfbead42b66dd8f70a85efc8ce2e6f", null ],
-    [ "Reset", "d8/d9e/a18054.html#a8b15079251b6855679d738a342126006", null ]
+    [ "npc_lk_wicked_spiritAI", "de/d72/a18058.html", "de/d72/a18058" ],
+    [ "npc_lk_wicked_spirit", "d8/d9e/a18054.html#adb5f0d5db260b3e5b4df3725c0b62827", null ],
+    [ "GetAI", "d8/d9e/a18054.html#ad75b36f2f7242dea685cd67dc72d0d30", null ]
 ];

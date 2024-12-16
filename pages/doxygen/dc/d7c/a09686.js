@@ -1,5 +1,5 @@
 var a09686 =
 [
-    [ "IdleMovementFactory", "dc/d7c/a09686.html#af2bb5ef9fe67f3dda64d6ce44e825f52", null ],
-    [ "Create", "dc/d7c/a09686.html#a5e99eab3436482927bc83100f85581cd", null ]
+    [ "MovementGeneratorFactory", "dc/d7c/a09686.html#a8b473ae9fa2af60a7fa92727ce163305", null ],
+    [ "Create", "dc/d7c/a09686.html#af3a494507c8d910bd98bb0989d42ba6f", null ]
 ];

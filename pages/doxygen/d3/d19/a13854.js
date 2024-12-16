@@ -1,9 +1,6 @@
 var a13854 =
 [
-    [ "npc_brew_bubble", "d3/d19/a13854.html#a188d1b68bb939d518e72e844e53e9a7d", null ],
-    [ "DoAction", "d3/d19/a13854.html#a7223d3397b32cf2969ea628c06ac2f19", null ],
-    [ "MoveInLineOfSight", "d3/d19/a13854.html#aea01d2c0f9ac883a8a8668164f16f932", null ],
-    [ "Reset", "d3/d19/a13854.html#aa3ab8e07323b47751f72c5ebab24a1bb", null ],
-    [ "UpdateAI", "d3/d19/a13854.html#a25018deaa206620f6e98ba722f689b8d", null ],
-    [ "timer", "d3/d19/a13854.html#a4bee73add756ba4b3137818b2dacd27f", null ]
+    [ "HandleDummyEffect", "d3/d19/a13854.html#a3860ad8a34e37601f7a4cef395f7ab2a", null ],
+    [ "PrepareSpellScript", "d3/d19/a13854.html#a1c69fb2fd3fa623d62647fca738d27d6", null ],
+    [ "Register", "d3/d19/a13854.html#ad1cbf7ed8f7d119bb56d06fb62358458", null ]
 ];

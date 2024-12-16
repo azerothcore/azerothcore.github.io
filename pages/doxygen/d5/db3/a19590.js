@@ -1,8 +1,5 @@
 var a19590 =
 [
-    [ "OnApply", "d5/db3/a19590.html#a3f2ef4882bcd52e091a0bcfabfc352cd", null ],
-    [ "OnRemove", "d5/db3/a19590.html#ab967233994aa3ff07b272f010b2c1545", null ],
-    [ "PrepareAuraScript", "d5/db3/a19590.html#a788480ec4aaa57e643f55daca17c6ded", null ],
-    [ "Register", "d5/db3/a19590.html#a63a3e30704b282a430dcdbb9073a66df", null ],
-    [ "Validate", "d5/db3/a19590.html#a6ccb698445ce30c5224dcacc3dc8136b", null ]
+    [ "go_ulduar_tower", "d5/db3/a19590.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "d5/db3/a19590.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

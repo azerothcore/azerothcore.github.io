@@ -1,7 +1,6 @@
 var a16978 =
 [
-    [ "HandleDummyTick", "df/d21/a16978.html#a9aa9a7a6c2e09c840cfca3253c2ac7c0", null ],
-    [ "PrepareAuraScript", "df/d21/a16978.html#a577523701b5a4ea2def4999e634c8862", null ],
-    [ "Register", "df/d21/a16978.html#aaad9185c62333de4d6704b22780edd28", null ],
-    [ "Validate", "df/d21/a16978.html#a9cfabcbbb9805a902fdd2d1b327dc4c7", null ]
+    [ "ChangeSummonPos", "df/d21/a16978.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "df/d21/a16978.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "df/d21/a16978.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

@@ -1,7 +1,7 @@
 var a22406 =
 [
-    [ "OnPeriodic", "d6/d1e/a22406.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
-    [ "PrepareAuraScript", "d6/d1e/a22406.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
-    [ "Register", "d6/d1e/a22406.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
-    [ "Validate", "d6/d1e/a22406.html#a006d67e9e82cce68930b90b00d3555a4", null ]
+    [ "HandleDummy", "d6/d1e/a22406.html#af5ac581f7d471300fba2c23548037eea", null ],
+    [ "PrepareSpellScript", "d6/d1e/a22406.html#adda61c05b544b52d98af5b7a76d4f808", null ],
+    [ "Register", "d6/d1e/a22406.html#a270a64dffdce230d97515f116ec49706", null ],
+    [ "Validate", "d6/d1e/a22406.html#a7cf3637ea33ad30913723b4fd33e5546", null ]
 ];

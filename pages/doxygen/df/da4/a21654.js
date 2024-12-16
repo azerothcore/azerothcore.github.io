@@ -1,6 +1,6 @@
 var a21654 =
 [
-    [ "npc_razael_and_lyana", "df/da4/a21654.html#aec7257a1136a3580e2b4542e032429d6", null ],
-    [ "OnGossipHello", "df/da4/a21654.html#a9c9085db92853d5275c12e804a68b0fc", null ],
-    [ "OnGossipSelect", "df/da4/a21654.html#a407d8344280e8e38efb3991fda1d52cd", null ]
+    [ "npc_plaguehound_trackerAI", "df/da4/a21654.html#a7530f500b42ad9bb38593193d3113da8", null ],
+    [ "Reset", "df/da4/a21654.html#a05c351ab3aca0cd18209405075bb0f47", null ],
+    [ "WaypointReached", "df/da4/a21654.html#a67c345f49572cde76d9109a1baff6788", null ]
 ];

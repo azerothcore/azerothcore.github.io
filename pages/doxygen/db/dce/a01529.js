@@ -1,8 +1,8 @@
 var a01529 =
 [
-    [ "AccountActionIpLogger", "df/d61/a26670.html", "df/d61/a26670" ],
-    [ "CharacterActionIpLogger", "d8/d84/a26674.html", "d8/d84/a26674" ],
-    [ "CharacterDeleteActionIpLogger", "dd/de5/a26678.html", "dd/de5/a26678" ],
+    [ "AccountActionIpLogger", "d8/d84/a26674.html", "d8/d84/a26674" ],
+    [ "CharacterActionIpLogger", "dd/de5/a26678.html", "dd/de5/a26678" ],
+    [ "CharacterDeleteActionIpLogger", "d0/d5c/a26682.html", "d0/d5c/a26682" ],
     [ "IPLoggingTypes", "db/dce/a01529.html#a3b67d8dbf539fa5519b3e33da9d0137b", [
       [ "ACCOUNT_LOGIN", "db/dce/a01529.html#a3b67d8dbf539fa5519b3e33da9d0137ba8f9e397f01ecf6030118a21051f37eb8", null ],
       [ "ACCOUNT_FAIL_LOGIN", "db/dce/a01529.html#a3b67d8dbf539fa5519b3e33da9d0137baf5dfdd830d71ca55c98a2a6bbc49895f", null ],

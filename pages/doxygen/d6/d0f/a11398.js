@@ -1,10 +1,17 @@
 var a11398 =
 [
-    [ "lfg_commandscript", "d6/d0f/a11398.html#a90faaca821e4162e0aea40a4d98af62c", null ],
-    [ "GetCommands", "d6/d0f/a11398.html#a324310f9b04675c277ceae44ea09fbaf", null ],
-    [ "HandleLfgCleanCommand", "d6/d0f/a11398.html#a93db689dbdb97a0318d62409a863767e", null ],
-    [ "HandleLfgGroupInfoCommand", "d6/d0f/a11398.html#a2376288a2ef82d8a19602cd66ff880f2", null ],
-    [ "HandleLfgOptionsCommand", "d6/d0f/a11398.html#a73187a97c883d8d1bb3765943dd98c39", null ],
-    [ "HandleLfgPlayerInfoCommand", "d6/d0f/a11398.html#acdf12aff45f16904df5724ab158e3b97", null ],
-    [ "HandleLfgQueueInfoCommand", "d6/d0f/a11398.html#a54dcdf133cc5b22961c34eda62a4f2fc", null ]
+    [ "learn_commandscript", "d6/d0f/a11398.html#a7ef51367ab7ab1c360390ff5552c0f51", null ],
+    [ "GetCommands", "d6/d0f/a11398.html#a8c8f73f3c1d5dbddd5a3d2e89ea326d8", null ],
+    [ "HandleLearnAllCraftsCommand", "d6/d0f/a11398.html#ae25064fa03d022277a368f52a17e5b70", null ],
+    [ "HandleLearnAllDefaultCommand", "d6/d0f/a11398.html#a985d2a10f01808c4bff2922b1530e911", null ],
+    [ "HandleLearnAllGMCommand", "d6/d0f/a11398.html#a88e28ec43968c5a8b0bfd1f190d89a98", null ],
+    [ "HandleLearnAllLangCommand", "d6/d0f/a11398.html#aaf4d779b47511db72727fe44fb1bbd2d", null ],
+    [ "HandleLearnAllMyClassCommand", "d6/d0f/a11398.html#a956716b7743dfc6de922b0badf40aeda", null ],
+    [ "HandleLearnAllMyPetTalentsCommand", "d6/d0f/a11398.html#a2a7cc02eb4417907b50d49bab39110cf", null ],
+    [ "HandleLearnAllMySpellsCommand", "d6/d0f/a11398.html#af95e27d3bfb3cd421a0fd13f9f655755", null ],
+    [ "HandleLearnAllMyTalentsCommand", "d6/d0f/a11398.html#aaa19e92798ac56355a95e625ead56556", null ],
+    [ "HandleLearnAllRecipesCommand", "d6/d0f/a11398.html#a44b538a1031ad69bec762f1a791cf11f", null ],
+    [ "HandleLearnCommand", "d6/d0f/a11398.html#ab59da6873596596ee84509cb0060e760", null ],
+    [ "HandleLearnSkillRecipesHelper", "d6/d0f/a11398.html#ae8bd0389415fdeb70d369b694b953619", null ],
+    [ "HandleUnLearnCommand", "d6/d0f/a11398.html#a2dc980af9662b3b1c783e3603732ca01", null ]
 ];

@@ -1,6 +1,6 @@
 var a13526 =
 [
-    [ "instance_zulaman_InstanceMapScript", "d0/d9c/a13530.html", "d0/d9c/a13530" ],
-    [ "instance_zulaman", "dd/de8/a13526.html#a5a81dddc07dea599e2a197737206427b", null ],
-    [ "GetInstanceScript", "dd/de8/a13526.html#a2144a517b22c5d6e7f6cc31d344669fc", null ]
+    [ "go", "dd/de8/a13526.html#ac14168f8c25efe7fa22ec802259b3a11", null ],
+    [ "npc", "dd/de8/a13526.html#a04d6e67fa2fb208ca747798ccc53083d", null ],
+    [ "pos", "dd/de8/a13526.html#a51175880a326101b29879d7a6a62c48d", null ]
 ];

@@ -1,6 +1,8 @@
 var a13594 =
 [
-    [ "OnEffect", "dc/de8/a13594.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "dc/de8/a13594.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "dc/de8/a13594.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "FilterTargets", "dc/de8/a13594.html#a3405b21202d423c649e0b8d341b42d9c", null ],
+    [ "HandleWipeThreat", "dc/de8/a13594.html#a2bbcce83bffebc509e9ec54778e82639", null ],
+    [ "PrepareSpellScript", "dc/de8/a13594.html#a59948484b528cab69c695f08b39b886d", null ],
+    [ "Register", "dc/de8/a13594.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
+    [ "_wipeThreat", "dc/de8/a13594.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
 ];

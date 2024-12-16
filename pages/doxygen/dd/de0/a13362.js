@@ -1,11 +1,6 @@
 var a13362 =
 [
-    [ "npc_highborne_lamenterAI", "dd/de0/a13362.html#ad91cd657166a12d3c34adcf7b11d076f", null ],
-    [ "JustEngagedWith", "dd/de0/a13362.html#a77a978fdb0ba0de506f66ec0b2906229", null ],
-    [ "Reset", "dd/de0/a13362.html#a7cf9338767e8edf0a87a5552703de87a", null ],
-    [ "UpdateAI", "dd/de0/a13362.html#a1048c558b825b58dbc7a3d97869a3e88", null ],
-    [ "EventCast", "dd/de0/a13362.html#a02ed3216c8b71e3d2be695866dbc0089", null ],
-    [ "EventCastTimer", "dd/de0/a13362.html#afc490ae2382fd7097b3877c7f9eadf6b", null ],
-    [ "EventMove", "dd/de0/a13362.html#aca22c73db989f0393926067506794e43", null ],
-    [ "EventMoveTimer", "dd/de0/a13362.html#a36d1993262eb0a7200e2bec625f5b4d1", null ]
+    [ "npc_highborne_lamenterAI", "da/d92/a13366.html", "da/d92/a13366" ],
+    [ "npc_highborne_lamenter", "dd/de0/a13362.html#a40316cf73a688e34e95dd41feef8612a", null ],
+    [ "GetAI", "dd/de0/a13362.html#aad8ccb43b325b797f60a16e338458a1e", null ]
 ];

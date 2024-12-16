@@ -1,12 +1,9 @@
 var a22234 =
 [
-    [ "boss_shirrak_the_dead_watcher", "dd/dfb/a22234.html#aaa6826de3b6563342b89544b38386d93", null ],
-    [ "EnterEvadeMode", "dd/dfb/a22234.html#a23768629c4ab48954880c3c29099f432", null ],
-    [ "getStackCount", "dd/dfb/a22234.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
-    [ "JustEngagedWith", "dd/dfb/a22234.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
-    [ "JustSummoned", "dd/dfb/a22234.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
-    [ "Reset", "dd/dfb/a22234.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
-    [ "SpellHitTarget", "dd/dfb/a22234.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
-    [ "UpdateAI", "dd/dfb/a22234.html#a855505f949f53f979187abcb5b2f617f", null ],
-    [ "focusGUID", "dd/dfb/a22234.html#a81a7eade42ef595c173d7828ce59ef88", null ]
+    [ "npc_stolen_soul", "dd/dfb/a22234.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "dd/dfb/a22234.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "dd/dfb/a22234.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "dd/dfb/a22234.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "dd/dfb/a22234.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "dd/dfb/a22234.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

@@ -1,6 +1,6 @@
 var a18730 =
 [
-    [ "boss_maexxnaAI", "d0/d55/a18734.html", "d0/d55/a18734" ],
-    [ "boss_maexxna", "d9/d5f/a18730.html#ae47a789ac8abe50932b9e000c83b02b2", null ],
-    [ "GetAI", "d9/d5f/a18730.html#ab438df4cb61625da35552ca7c867dc64", null ]
+    [ "WebTargetSelector", "d9/d5f/a18730.html#a2f19cffab18fd6f2f5a1d296aa1db47d", null ],
+    [ "operator()", "d9/d5f/a18730.html#a289821eaae114ba384a9ee9b8c19325f", null ],
+    [ "_maexxna", "d9/d5f/a18730.html#ad21c9ac380f7b97aacc06f08f1c45974", null ]
 ];

@@ -1,9 +1,9 @@
 var a13674 =
 [
-    [ "npc_shade_of_jindo", "d4/dfd/a13674.html#a86fa95e806aea21fd6db332ea3f18a02", null ],
-    [ "IsSummonedBy", "d4/dfd/a13674.html#aaf4eed2de98601844a32fec159f2f5fc", null ],
-    [ "JustEngagedWith", "d4/dfd/a13674.html#a450f887c97cfa3ebce91ebd058ed9849", null ],
-    [ "Reset", "d4/dfd/a13674.html#abc18dabb6f4f0b85a3b5b2e6f830804f", null ],
-    [ "UpdateAI", "d4/dfd/a13674.html#a1aca8192c0655c0ab359f49448f8fafd", null ],
-    [ "_scheduler", "d4/dfd/a13674.html#a1d74d8113f5ef117b2968f8f864fcaf4", null ]
+    [ "npc_healing_ward", "d4/dfd/a13674.html#a3d3c35f61502d3a83cb2581119e08903", null ],
+    [ "JustEngagedWith", "d4/dfd/a13674.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
+    [ "Reset", "d4/dfd/a13674.html#a756d27a43d86c7ecde859df255c6bd62", null ],
+    [ "UpdateAI", "d4/dfd/a13674.html#a8b8635af33ce814602206064e0815520", null ],
+    [ "_instance", "d4/dfd/a13674.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
+    [ "_scheduler", "d4/dfd/a13674.html#a0c62fe945b491cab76175217a7d10c06", null ]
 ];

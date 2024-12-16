@@ -1,22 +1,10 @@
 var a09950 =
 [
-    [ "AllBattlegroundScript", "db/da4/a09950.html#af2c4a52b8bfc4a0ac7ac1a081e4cdd03", null ],
-    [ "CanFillPlayersToBG", "db/da4/a09950.html#a3c70c7c71f2b941cf42607806ea19874", null ],
-    [ "CanSendMessageBGQueue", "db/da4/a09950.html#a1407ab7e2b4630ec8def2f7e6e532831", null ],
-    [ "IsCheckNormalMatch", "db/da4/a09950.html#a638cd6beb9edf2c538f4ac079560a07c", null ],
-    [ "IsDatabaseBound", "db/da4/a09950.html#a91c57b646aae6467e06b4cc13b89cfb4", null ],
-    [ "OnAddGroup", "db/da4/a09950.html#ae315ebbf606d85f59b6c0e6558283088", null ],
-    [ "OnBattlegroundAddPlayer", "db/da4/a09950.html#aa6affc2d98448a93ac15a2a54327cba9", null ],
-    [ "OnBattlegroundBeforeAddPlayer", "db/da4/a09950.html#a30ec158dc1fdc13712de9db261eac589", null ],
-    [ "OnBattlegroundCreate", "db/da4/a09950.html#adea000f8e6470a2d69843c2894102086", null ],
-    [ "OnBattlegroundDestroy", "db/da4/a09950.html#a1991c567eb8578f1874613987526ce10", null ],
-    [ "OnBattlegroundEnd", "db/da4/a09950.html#a8c2588bb5b7c193b0c85b26de5210dd5", null ],
-    [ "OnBattlegroundEndReward", "db/da4/a09950.html#a91225952a9567a2408ea8b1f52660599", null ],
-    [ "OnBattlegroundRemovePlayerAtLeave", "db/da4/a09950.html#acf48de938b3535c1d64d5e69b7e4c3cc", null ],
-    [ "OnBattlegroundStart", "db/da4/a09950.html#a00e6e5d7ec0925a28b84719f1ef32b8d", null ],
-    [ "OnBattlegroundUpdate", "db/da4/a09950.html#a4a5c88793e3147af07482f5081106173", null ],
-    [ "OnBeforeSendExitMessageArenaQueue", "db/da4/a09950.html#a53eb5af1d9dc2a4bfbba33ce75170f34", null ],
-    [ "OnBeforeSendJoinMessageArenaQueue", "db/da4/a09950.html#a159e7e138cb75f57f013cd50a4a16a49", null ],
-    [ "OnQueueUpdate", "db/da4/a09950.html#a46675aeb8e2d066d0efaf2559ec6754c", null ],
-    [ "OnQueueUpdateValidity", "db/da4/a09950.html#a39a66e14a6e18f233ce33a86492142f7", null ]
+    [ "AchievementScript", "db/da4/a09950.html#a85f0d7a676e7e31bc87ca64040b29489", null ],
+    [ "CanCheckCriteria", "db/da4/a09950.html#aca4cb16b55f7990c676267b8f10b4e57", null ],
+    [ "IsCompletedCriteria", "db/da4/a09950.html#a33d7ba1a6bf82da8e2de367553c0fb52", null ],
+    [ "IsDatabaseBound", "db/da4/a09950.html#a9ea2ed91c281e881404c31a948de0fc9", null ],
+    [ "IsRealmCompleted", "db/da4/a09950.html#abc54c295c1bcad45e21aed99e43a3713", null ],
+    [ "OnBeforeCheckCriteria", "db/da4/a09950.html#afac6fc03c2ba91165fbdf2ccc5422063", null ],
+    [ "SetRealmCompleted", "db/da4/a09950.html#acf6a63ba96da7b33a92d48a95a549d4e", null ]
 ];

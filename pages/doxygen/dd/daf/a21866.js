@@ -1,6 +1,6 @@
 var a21866 =
 [
-    [ "HandleScriptEffect", "dd/daf/a21866.html#a1dac2806b74471332aec0595118005a3", null ],
-    [ "PrepareSpellScript", "dd/daf/a21866.html#adb1efd90b7ffa23887ca4aa3afb6d99e", null ],
-    [ "Register", "dd/daf/a21866.html#a2ff0986c88dcbd9aac263f62b772c992", null ]
+    [ "HandleScript", "dd/daf/a21866.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
+    [ "PrepareSpellScript", "dd/daf/a21866.html#a5a4ce9453638d61fe52514240f0a9384", null ],
+    [ "Register", "dd/daf/a21866.html#a889f931aaa37d3a283f4d585b384a68e", null ]
 ];

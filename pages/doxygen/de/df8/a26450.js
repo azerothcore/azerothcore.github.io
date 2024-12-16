@@ -1,7 +1,8 @@
 var a26450 =
 [
-    [ "HandleTeleport", "de/df8/a26450.html#a7ba7b82988dab5fd8e691b5b87c3d959", null ],
-    [ "PrepareAuraScript", "de/df8/a26450.html#a2307b7eccd4dd08d7e97ece704ddc4fb", null ],
-    [ "Register", "de/df8/a26450.html#a82432a4448d8c23ea2a39b4b26eb1b58", null ],
-    [ "Validate", "de/df8/a26450.html#adabf22bd591a10662ffbf0354a18a936", null ]
+    [ "HandleDummyTick", "de/df8/a26450.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
+    [ "HandleRemove", "de/df8/a26450.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
+    [ "PrepareAuraScript", "de/df8/a26450.html#a06e45d5f63ef1395b5949482e8393098", null ],
+    [ "Register", "de/df8/a26450.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
+    [ "Validate", "de/df8/a26450.html#a9a2da4d163a96526e14f5de76798a784", null ]
 ];

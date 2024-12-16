@@ -1,6 +1,7 @@
 var a15810 =
 [
-    [ "HandleHealPct", "d5/d8c/a15810.html#ad13b3924815ac3da7902c8292a760943", null ],
-    [ "PrepareSpellScript", "d5/d8c/a15810.html#aeea718bce7dd5aa4ac33bbd1a95a65c0", null ],
-    [ "Register", "d5/d8c/a15810.html#a3016c31c072d6417bbe47c2891059718", null ]
+    [ "HandleDummy", "d5/d8c/a15810.html#a96b430cb0546fb599da22cd675660187", null ],
+    [ "PrepareSpellScript", "d5/d8c/a15810.html#ad0330cb78a330f05c18f33375f231fbc", null ],
+    [ "Register", "d5/d8c/a15810.html#a70a36683a235dec6044a8a32f20c606c", null ],
+    [ "Validate", "d5/d8c/a15810.html#affa7ccf869e98eacd3a153cc645d704e", null ]
 ];

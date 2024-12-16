@@ -1,9 +1,10 @@
 var a22866 =
 [
-    [ "FilterTargets", "d5/dda/a22866.html#a9049c113d65b15a9a8e1143980a84b23", null ],
-    [ "HandleDummy", "d5/dda/a22866.html#a21fd59ba177fd7b04eb1fcafe869f33a", null ],
-    [ "Load", "d5/dda/a22866.html#a8cad82701e0147e14f826243175e1c32", null ],
-    [ "PrepareSpellScript", "d5/dda/a22866.html#aa05839a8dd785a2472e8e5f3a9fc58b0", null ],
-    [ "Register", "d5/dda/a22866.html#a0e7e246c322b89c3b6ee08797984f7e6", null ],
-    [ "_targetNumber", "d5/dda/a22866.html#a34f80edf782ade371e7a6fc908b47b4f", null ]
+    [ "boss_morogrim_tidewalker", "d5/dda/a22866.html#a138a200da298f64697e2e47fb8004ccb", null ],
+    [ "JustDied", "d5/dda/a22866.html#a139d87e7cffe03183538eb493e063195", null ],
+    [ "JustEngagedWith", "d5/dda/a22866.html#a3244672aeb994673e1f46708699bcc2c", null ],
+    [ "JustSummoned", "d5/dda/a22866.html#a2b669007520094948138c95468b77f9f", null ],
+    [ "KilledUnit", "d5/dda/a22866.html#a2db94919e6d6f3d4eda4addc4248976e", null ],
+    [ "Reset", "d5/dda/a22866.html#a78ed1d1f8c55407497a4fb679587975d", null ],
+    [ "_recentlySpoken", "d5/dda/a22866.html#a63edb4b20baa9e1cf5238c3db5974c56", null ]
 ];

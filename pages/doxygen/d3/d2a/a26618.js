@@ -1,5 +1,5 @@
 var a26618 =
 [
-    [ "achievement_bg_ic_resource_glut", "d3/d2a/a26618.html#ace247962dccee2601ceade593b0874d4", null ],
-    [ "OnCheck", "d3/d2a/a26618.html#a9910cf8b16b8c956df382161cc5f2c84", null ]
+    [ "achievement_save_the_day", "d3/d2a/a26618.html#a193e4060b6634a87b499b7c8a5e287a1", null ],
+    [ "OnCheck", "d3/d2a/a26618.html#a95cfea6cd9ff955ba6800ebdf3a30eb7", null ]
 ];

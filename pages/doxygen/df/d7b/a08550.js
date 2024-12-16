@@ -1,13 +1,14 @@
 var a08550 =
 [
-    [ "BuildValuesCachePosPointers", "df/d7b/a08550.html#ae84124e042e8ba50d755ccef3c02fdd8", null ],
-    [ "ApplyOffset", "df/d7b/a08550.html#a31a13ea07b3eb9e3d045996e8a6074b2", null ],
-    [ "other", "df/d7b/a08550.html#ad56ddc5f2d7ea4937b49a61d80b8b138", null ],
-    [ "UnitDynamicFlagsPos", "df/d7b/a08550.html#a230385a8646ebce01faaadce648b1a61", null ],
-    [ "UnitFieldAuraStatePos", "df/d7b/a08550.html#a69592cf42c5f6663c8ada3468fcbe658", null ],
-    [ "UnitFieldBytes2Pos", "df/d7b/a08550.html#aa1df8492f0a3c576b067469ee3552796", null ],
-    [ "UnitFieldDisplayPos", "df/d7b/a08550.html#a1058d1650d656498f7dcd5139363a315", null ],
-    [ "UnitFieldFactionTemplatePos", "df/d7b/a08550.html#a9b8eae9da685231956dca3e92b845cbb", null ],
-    [ "UnitFieldFlagsPos", "df/d7b/a08550.html#a04e607123d1d1dde24611b573d25fedb", null ],
-    [ "UnitNPCFlagsPos", "df/d7b/a08550.html#aa9412413e1a867d1f3857d18f4d52906", null ]
+    [ "SafeUnitPointer", "df/d7b/a08550.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
+    [ "SafeUnitPointer", "df/d7b/a08550.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
+    [ "~SafeUnitPointer", "df/d7b/a08550.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
+    [ "Initialize", "df/d7b/a08550.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
+    [ "operator Unit *", "df/d7b/a08550.html#afee1d290f436472dd719ff83f41721f5", null ],
+    [ "operator->", "df/d7b/a08550.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
+    [ "operator=", "df/d7b/a08550.html#a44f522d9c22861f853df0286a3764d3e", null ],
+    [ "SetPointedTo", "df/d7b/a08550.html#a6603c67b736224a8e6559340afa8b275", null ],
+    [ "UnitDeleted", "df/d7b/a08550.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
+    [ "defaultValue", "df/d7b/a08550.html#a38dce117cb135c9b84918a9bbc884f28", null ],
+    [ "ptr", "df/d7b/a08550.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
 ];

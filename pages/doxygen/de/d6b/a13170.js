@@ -1,6 +1,6 @@
 var a13170 =
 [
-    [ "npc_professor_phizzlethorpeAI", "db/d69/a13174.html", "db/d69/a13174" ],
-    [ "npc_professor_phizzlethorpe", "de/d6b/a13170.html#a8d32b4a107533c81033c617b0b97027d", null ],
-    [ "GetAI", "de/d6b/a13170.html#a5eb540d16b2dd123d553ea4ae24d8b53", null ]
+    [ "HandleSendEvent", "de/d6b/a13170.html#a1be975f4440b823c34cc3e790fcff608", null ],
+    [ "PrepareSpellScript", "de/d6b/a13170.html#a91ac4a392fcf5b6e833fb3f5103d8e06", null ],
+    [ "Register", "de/d6b/a13170.html#a217fb7cb47b08999d49ec04b345b77fe", null ]
 ];

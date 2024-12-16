@@ -1,25 +1,6 @@
 var a15590 =
 [
-    [ "boss_sartharionAI", "d7/d7c/a15590.html#aea51fa7b0e55c9ae635a95f7a1aea161", null ],
-    [ "DamageTaken", "d7/d7c/a15590.html#a0f16f9865159338c46e140c01650a728", null ],
-    [ "DoAction", "d7/d7c/a15590.html#af3c28d7eff6df494bbca6156df5fb014", null ],
-    [ "GetData", "d7/d7c/a15590.html#a6d45699d2efacdc0aca88dba3f67d20a", null ],
-    [ "IsTargetInBounds", "d7/d7c/a15590.html#a5ed942da2e53ecc63ec15fa8cf8c3325", null ],
-    [ "JustDied", "d7/d7c/a15590.html#ac0a2915976f7dfb21786c161d5e43d3f", null ],
-    [ "JustEngagedWith", "d7/d7c/a15590.html#a15c50a40ae2a6caa873993c6e330600c", null ],
-    [ "JustSummoned", "d7/d7c/a15590.html#ac5dc745f044bdf673b7f92b194063d94", null ],
-    [ "KilledUnit", "d7/d7c/a15590.html#a8502d5c79b7baac2f9a68349e99b7b16", null ],
-    [ "Reset", "d7/d7c/a15590.html#ab72889e00eb1fad659f807620e81e23e", null ],
-    [ "RespawnDragons", "d7/d7c/a15590.html#a5014e6aebdda3b84cd22fd2f66ed691b", null ],
-    [ "SendLavaWaves", "d7/d7c/a15590.html#a14384c3853570d0f7580d72d0008b986", null ],
-    [ "SetData", "d7/d7c/a15590.html#ad992cf36966069dc00d5509a54445213", null ],
-    [ "SummonLavaWaves", "d7/d7c/a15590.html#aadd3b8f29b49b67685d67036c5f2775f", null ],
-    [ "SummonStartingTriggers", "d7/d7c/a15590.html#a17f64c07e9c83c7e25bf9fba5b9f3ba4", null ],
-    [ "UpdateAI", "d7/d7c/a15590.html#a7aaca15038bf53ff3baaeb39c7713bff", null ],
-    [ "below11PctReached", "d7/d7c/a15590.html#ae838ffe0fdee72f4d4b1c02a9cbde949", null ],
-    [ "dragonsCount", "d7/d7c/a15590.html#a3bb9defa2a2a3acc6caadaaa361027ee", null ],
-    [ "extraEvents", "d7/d7c/a15590.html#a4d2e7a5aae63664e437c1e9ac22846cb", null ],
-    [ "lastLavaSide", "d7/d7c/a15590.html#ab9c3a5d19c966e547328ce2a28674069", null ],
-    [ "usedBerserk", "d7/d7c/a15590.html#a4790e98b3e8d02021b00e14aafec3aff", null ],
-    [ "volcanoBlows", "d7/d7c/a15590.html#a1d6e306084fb64742d28beb1f65ef338", null ]
+    [ "boss_sartharionAI", "d2/d38/a15594.html", "d2/d38/a15594" ],
+    [ "boss_sartharion", "d7/d7c/a15590.html#a6605aee69372d08fba8f4b4523896588", null ],
+    [ "GetAI", "d7/d7c/a15590.html#aca5d66e0f5cdcafd6f9cd2c173f43839", null ]
 ];

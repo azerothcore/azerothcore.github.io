@@ -1,6 +1,5 @@
 var a24014 =
 [
-    [ "npc_pet_dk_dancing_rune_weaponAI", "d0/d03/a24018.html", "d0/d03/a24018" ],
-    [ "npc_pet_dk_dancing_rune_weapon", "d4/dae/a24014.html#aaa0881509c2842d6c0442884d0947e28", null ],
-    [ "GetAI", "d4/dae/a24014.html#aae11c76fbcf729f44136c53b2b3e0982", null ]
+    [ "npc_pet_dk_army_of_the_deadAI", "d4/dae/a24014.html#a2d934ed807d225f6b9f2206f0556f26d", null ],
+    [ "InitializeAI", "d4/dae/a24014.html#af3ecec126ed3d902acd4bfe979382307", null ]
 ];

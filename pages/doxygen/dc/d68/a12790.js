@@ -1,7 +1,7 @@
 var a12790 =
 [
-    [ "HandleScript", "dc/d68/a12790.html#a03f8c24445ee4ac82a4cf2caece38f90", null ],
-    [ "PrepareSpellScript", "dc/d68/a12790.html#a034195e58f02225c172b70c3967fe3ad", null ],
-    [ "Register", "dc/d68/a12790.html#afaf3a6fd54f499982bd1cfd6e4c6c1a2", null ],
-    [ "Validate", "dc/d68/a12790.html#a8ac78c00c49b1eb2fade4100a810d367", null ]
+    [ "HandleScript", "dc/d68/a12790.html#a6ce169d6c1b106195f787b52ea433311", null ],
+    [ "PrepareSpellScript", "dc/d68/a12790.html#a4f71583df2193274365944e6d228247c", null ],
+    [ "Register", "dc/d68/a12790.html#aad8978dc0505d1fb80e2416f5525cbc7", null ],
+    [ "Validate", "dc/d68/a12790.html#a51025308f88001f1f66d7f68f174f325", null ]
 ];

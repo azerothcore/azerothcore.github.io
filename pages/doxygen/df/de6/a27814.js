@@ -1,6 +1,6 @@
 var a27814 =
 [
-    [ "Enchantment", "df/de6/a27814.html#a480ab806214bb138d56dfd5e9e43936f", null ],
-    [ "ID", "df/de6/a27814.html#acb673be771124b84dd3fdd5deb300de7", null ],
-    [ "Name", "df/de6/a27814.html#a3ad3a1b693922ff8264d90232abb3e35", null ]
+    [ "ID", "df/de6/a27814.html#a7d40e334785d96a2e57d28f87a59778a", null ],
+    [ "maxCount", "df/de6/a27814.html#a5edc6442e026b12dae654fa86440a11a", null ],
+    [ "mode", "df/de6/a27814.html#a76553ecf9f880a5e5967f818123742fd", null ]
 ];

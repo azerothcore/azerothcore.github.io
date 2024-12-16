@@ -1,11 +1,6 @@
 var a20242 =
 [
-    [ "boss_thorim_lightning_orbAI", "d9/d1d/a20242.html#a14d4b9f445abfaba77bcfc52173ff705", null ],
-    [ "AttackStart", "d9/d1d/a20242.html#a88a885b96016788f8011dd1d3d44d992", null ],
-    [ "EnterEvadeMode", "d9/d1d/a20242.html#a04bc99d1bd16f8297e7da8902e4bcaab", null ],
-    [ "InitWaypoint", "d9/d1d/a20242.html#a420217dd9e482edc24a87dead2753321", null ],
-    [ "MoveInLineOfSight", "d9/d1d/a20242.html#a0ee02cdd5cedf8a6565493b9812e88ae", null ],
-    [ "Reset", "d9/d1d/a20242.html#a4e410303d287a4c827c279a4e7c3ca99", null ],
-    [ "WaypointReached", "d9/d1d/a20242.html#a141659a0ebbcc097f0f03dec30dad2ca", null ],
-    [ "Timer", "d9/d1d/a20242.html#ac251df35736ae44e08f82ae7bbe8fc15", null ]
+    [ "boss_thorim_lightning_orbAI", "d2/d9b/a20246.html", "d2/d9b/a20246" ],
+    [ "boss_thorim_lightning_orb", "d9/d1d/a20242.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
+    [ "GetAI", "d9/d1d/a20242.html#ad24d28866145c4fccf7a3971856fa87f", null ]
 ];

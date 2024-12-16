@@ -1,5 +1,5 @@
 var a19930 =
 [
-    [ "achievement_staying_buffed_all_winter_25", "db/da7/a19930.html#a91f0ab3bada837cff6414350b98a27a3", null ],
-    [ "OnCheck", "db/da7/a19930.html#a36591082184bc8466e124bad9a910545", null ]
+    [ "achievement_staying_buffed_all_winter_10", "db/da7/a19930.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
+    [ "OnCheck", "db/da7/a19930.html#a67587b1659a8d026e73b42311148541a", null ]
 ];

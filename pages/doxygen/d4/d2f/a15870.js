@@ -1,9 +1,6 @@
 var a15870 =
 [
-    [ "npc_memoryAI", "d4/d2f/a15870.html#ad927d377d60b44f43808469042f5feb9", null ],
-    [ "JustDied", "d4/d2f/a15870.html#a7b0484919d671877f29dfa05ca1265d9", null ],
-    [ "Reset", "d4/d2f/a15870.html#a985c51bbfa2cceeb7601432491253aaf", null ],
-    [ "UpdateAI", "d4/d2f/a15870.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
-    [ "events", "d4/d2f/a15870.html#a2ed2993e89728a3723456a67e13581f7", null ],
-    [ "pInstance", "d4/d2f/a15870.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
+    [ "npc_memoryAI", "dd/dd6/a15874.html", "dd/dd6/a15874" ],
+    [ "npc_memory", "d4/d2f/a15870.html#acebf31813025d323f9486d6575a60483", null ],
+    [ "GetAI", "d4/d2f/a15870.html#ad8e532d029217a06d11ae39810498976", null ]
 ];

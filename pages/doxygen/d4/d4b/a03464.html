@@ -108,12 +108,14 @@ $(document).ready(function(){initNavTree('d4/d4b/a03464.html','../../'); initRes
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle"><div class="title">Object.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">DataMap.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">EventProcessor.h</a>&quot;</code><br />
 <code>#include &quot;G3D/Vector3.h&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GridDefines.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">GridReference.h</a>&quot;</code><br />
@@ -161,7 +163,7 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac58dd2c514e262c6b68700fb72c69231"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../da/da3/a08394.html">Player</a> *, <a class="el" href="../../d3/d99/a08246.html">UpdateData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a03464.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td></tr>
+<tr class="memitem:ac58dd2c514e262c6b68700fb72c69231"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d9/d86/a08398.html">Player</a> *, <a class="el" href="../../d3/d99/a08246.html">UpdateData</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a03464.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td></tr>
 <tr class="separator:ac58dd2c514e262c6b68700fb72c69231"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abc4c822bd43dd0c1ea669b791c856405"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d7/db0/a03467.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a03464.html#abc4c822bd43dd0c1ea669b791c856405">UpdatePlayerSet</a></td></tr>
 <tr class="separator:abc4c822bd43dd0c1ea669b791c856405"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -225,6 +227,11 @@ Enumerations</h2></td></tr>
 <br />
  }</td></tr>
 <tr class="separator:a1833d9b1810b160d0c00f297af237b07"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8cd21ff3f4267aa848be64aa30c71d24"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d4b/a03464.html#a8cd21ff3f4267aa848be64aa30c71d24">HEARTBEAT_INTERVAL</a> = 5s + 200ms</td></tr>
+<tr class="separator:a8cd21ff3f4267aa848be64aa30c71d24"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="ac58dd2c514e262c6b68700fb72c69231" name="ac58dd2c514e262c6b68700fb72c69231"></a>
@@ -234,7 +241,7 @@ Enumerations</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../da/da3/a08394.html">Player</a>*, <a class="el" href="../../d3/d99/a08246.html">UpdateData</a>&gt; <a class="el" href="../../d4/d4b/a03464.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d9/d86/a08398.html">Player</a>*, <a class="el" href="../../d3/d99/a08246.html">UpdateData</a>&gt; <a class="el" href="../../d4/d4b/a03464.html#ac58dd2c514e262c6b68700fb72c69231">UpdateDataMapType</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -271,12 +278,12 @@ Enumerations</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1" name="a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1"></a>GO_SUMMON_TIMED_OR_CORPSE_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50" name="a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50"></a>GO_SUMMON_TIMED_DESPAWN&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a> = 0,      <span class="comment">// despawns after a specified time OR when the summoner dies</span></div>
-<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a> = 1                 <span class="comment">// despawns after a specified time</span></div>
-<div class="line"><span class="lineno">   75</span>};</div>
-<div class="ttc" id="aa03464_html_a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50"><div class="ttname"><a href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:74</div></div>
-<div class="ttc" id="aa03464_html_a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1"><div class="ttname"><a href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:73</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a> = 0,      <span class="comment">// despawns after a specified time OR when the summoner dies</span></div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a> = 1                 <span class="comment">// despawns after a specified time</span></div>
+<div class="line"><span class="lineno">   76</span>};</div>
+<div class="ttc" id="aa03464_html_a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50"><div class="ttname"><a href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa740b94fbb874c9de6553b126eeff3e50">GO_SUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:75</div></div>
+<div class="ttc" id="aa03464_html_a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1"><div class="ttname"><a href="../../d4/d4b/a03464.html#a3f5846dbc17f13c4c2b88a15593bbfbaa842fffe6e187c8821e8b7f1cdbbcaac1">GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ GO_SUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:74</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -296,14 +303,14 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58" name="a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58"></a>MAP_OBJECT_CELL_MOVE_ACTIVE&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a" name="a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a"></a>MAP_OBJECT_CELL_MOVE_INACTIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">  381</span>{</div>
-<div class="line"><span class="lineno">  382</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a>, <span class="comment">//not in move list</span></div>
-<div class="line"><span class="lineno">  383</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a>, <span class="comment">//in move list</span></div>
-<div class="line"><span class="lineno">  384</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a>, <span class="comment">//in move list but should not move</span></div>
-<div class="line"><span class="lineno">  385</span>};</div>
-<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_INACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:384</div></div>
-<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_ACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:383</div></div>
-<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:382</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  386</span>{</div>
+<div class="line"><span class="lineno">  387</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a>, <span class="comment">//not in move list</span></div>
+<div class="line"><span class="lineno">  388</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a>, <span class="comment">//in move list</span></div>
+<div class="line"><span class="lineno">  389</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a>, <span class="comment">//in move list but should not move</span></div>
+<div class="line"><span class="lineno">  390</span>};</div>
+<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07a08ca33ead1d9abd8a15f213e09e1e23a">MAP_OBJECT_CELL_MOVE_INACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_INACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:389</div></div>
+<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07acdf663aceba2a09ee27f33056500cf58">MAP_OBJECT_CELL_MOVE_ACTIVE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_ACTIVE</div><div class="ttdef"><b>Definition:</b> Object.h:388</div></div>
+<div class="ttc" id="aa03464_html_a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1"><div class="ttname"><a href="../../d4/d4b/a03464.html#a1833d9b1810b160d0c00f297af237b07afb882558defaa808483ae0d24e1d12e1">MAP_OBJECT_CELL_MOVE_NONE</a></div><div class="ttdeci">@ MAP_OBJECT_CELL_MOVE_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:387</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -324,16 +331,16 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053" name="ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"></a>NOTIFY_VISIBILITY_CHANGED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c" name="ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c"></a>NOTIFY_ALL&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   64</span>{</div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a>                     = 0x00,</div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a>            = 0x01,</div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a>       = 0x02,</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a>                      = 0xFF</div>
-<div class="line"><span class="lineno">   69</span>};</div>
-<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a></div><div class="ttdeci">@ NOTIFY_ALL</div><div class="ttdef"><b>Definition:</b> Object.h:68</div></div>
-<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a></div><div class="ttdeci">@ NOTIFY_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:65</div></div>
-<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a></div><div class="ttdeci">@ NOTIFY_AI_RELOCATION</div><div class="ttdef"><b>Definition:</b> Object.h:66</div></div>
-<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a></div><div class="ttdeci">@ NOTIFY_VISIBILITY_CHANGED</div><div class="ttdef"><b>Definition:</b> Object.h:67</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   65</span>{</div>
+<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a>                     = 0x00,</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a>            = 0x01,</div>
+<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a>       = 0x02,</div>
+<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a>                      = 0xFF</div>
+<div class="line"><span class="lineno">   70</span>};</div>
+<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389a8073de571f5d684d5b4ddd10a525322c">NOTIFY_ALL</a></div><div class="ttdeci">@ NOTIFY_ALL</div><div class="ttdef"><b>Definition:</b> Object.h:69</div></div>
+<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389aae40b53764f8cda7335d348860245cb9">NOTIFY_NONE</a></div><div class="ttdeci">@ NOTIFY_NONE</div><div class="ttdef"><b>Definition:</b> Object.h:66</div></div>
+<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ac8f5884b0cde878e7d080be2be35f12d">NOTIFY_AI_RELOCATION</a></div><div class="ttdeci">@ NOTIFY_AI_RELOCATION</div><div class="ttdef"><b>Definition:</b> Object.h:67</div></div>
+<div class="ttc" id="aa03464_html_ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053"><div class="ttname"><a href="../../d4/d4b/a03464.html#ae6d03ea53b22c98f9dd7e3ce829cf389ae24fd40d89da822e12587f23612eb053">NOTIFY_VISIBILITY_CHANGED</a></div><div class="ttdeci">@ NOTIFY_VISIBILITY_CHANGED</div><div class="ttdef"><b>Definition:</b> Object.h:68</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -352,12 +359,12 @@ Enumerations</h2></td></tr>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060" name="a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060"></a>PHASEMASK_NORMAL&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57" name="a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57"></a>PHASEMASK_ANYWHERE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a>   = 0x00000001,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a> = 0xFFFFFFFF</div>
-<div class="line"><span class="lineno">   61</span>};</div>
-<div class="ttc" id="aa03464_html_a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57"><div class="ttname"><a href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a></div><div class="ttdeci">@ PHASEMASK_ANYWHERE</div><div class="ttdef"><b>Definition:</b> Object.h:60</div></div>
-<div class="ttc" id="aa03464_html_a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060"><div class="ttname"><a href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a></div><div class="ttdeci">@ PHASEMASK_NORMAL</div><div class="ttdef"><b>Definition:</b> Object.h:59</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
+<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a>   = 0x00000001,</div>
+<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a> = 0xFFFFFFFF</div>
+<div class="line"><span class="lineno">   62</span>};</div>
+<div class="ttc" id="aa03464_html_a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57"><div class="ttname"><a href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157a212ead88887027cc3575f2b07c08af57">PHASEMASK_ANYWHERE</a></div><div class="ttdeci">@ PHASEMASK_ANYWHERE</div><div class="ttdef"><b>Definition:</b> Object.h:61</div></div>
+<div class="ttc" id="aa03464_html_a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060"><div class="ttname"><a href="../../d4/d4b/a03464.html#a154255f23e41069883118fc4f0d23157aa253161c3caae282ce3c6922048db060">PHASEMASK_NORMAL</a></div><div class="ttdeci">@ PHASEMASK_NORMAL</div><div class="ttdef"><b>Definition:</b> Object.h:60</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -384,29 +391,54 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687" name="a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"></a>TEMPSUMMON_DESPAWNED&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7" name="a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"></a>TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>{</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>       = 1,             <span class="comment">// despawns after a specified time OR when the creature disappears</span></div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a>     = 2,             <span class="comment">// despawns after a specified time OR when the creature dies</span></div>
-<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>               = 3,             <span class="comment">// despawns after a specified time</span></div>
-<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a> = 4,             <span class="comment">// despawns after a specified time after the creature is out of combat</span></div>
-<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a>              = 5,             <span class="comment">// despawns instantly after death</span></div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>        = 6,             <span class="comment">// despawns after a specified time after death</span></div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>                = 7,             <span class="comment">// despawns when the creature disappears</span></div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>              = 8,             <span class="comment">// despawns when UnSummon() is called</span></div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>                   = 9,             <span class="comment">// xinef: DONT USE, INTERNAL USE ONLY</span></div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a>     = 10,            <span class="comment">// despawns after a specified time after the creature is out of combat and alive</span></div>
-<div class="line"><span class="lineno">   55</span>};</div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</div><div class="ttdef"><b>Definition:</b> Object.h:54</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:51</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_MANUAL_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:52</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:45</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:46</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a></div><div class="ttdeci">@ TEMPSUMMON_DESPAWNED</div><div class="ttdef"><b>Definition:</b> Object.h:53</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:49</div></div>
-<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:50</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a>       = 1,             <span class="comment">// despawns after a specified time OR when the creature disappears</span></div>
+<div class="line"><span class="lineno">   47</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a>     = 2,             <span class="comment">// despawns after a specified time OR when the creature dies</span></div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a>               = 3,             <span class="comment">// despawns after a specified time</span></div>
+<div class="line"><span class="lineno">   49</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a> = 4,             <span class="comment">// despawns after a specified time after the creature is out of combat</span></div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a>              = 5,             <span class="comment">// despawns instantly after death</span></div>
+<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a>        = 6,             <span class="comment">// despawns after a specified time after death</span></div>
+<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a>                = 7,             <span class="comment">// despawns when the creature disappears</span></div>
+<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a>              = 8,             <span class="comment">// despawns when UnSummon() is called</span></div>
+<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a>                   = 9,             <span class="comment">// xinef: DONT USE, INTERNAL USE ONLY</span></div>
+<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a>     = 10,            <span class="comment">// despawns after a specified time after the creature is out of combat and alive</span></div>
+<div class="line"><span class="lineno">   56</span>};</div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a1e689534a035355813f5eac245564af7">TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OOC_ALIVE</div><div class="ttdef"><b>Definition:</b> Object.h:55</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a2ed37622e9cac6dbba3d2bb354307493">TEMPSUMMON_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:52</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a494d31263c972013b6b0e42f6c00e14a">TEMPSUMMON_MANUAL_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_MANUAL_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:53</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a68d0fa29801bfa0be2b983f167b0c0f2">TEMPSUMMON_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:48</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a792ae85af0a6c91140415668fdfef99a">TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_DESPAWN_OUT_OF_COMBAT</div><div class="ttdef"><b>Definition:</b> Object.h:49</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a7fcc17b9aac93c81619414e6af366e39">TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_DEAD_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:46</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148a9d16b839c0bff9df1f7adfe701da0882">TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_TIMED_OR_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:47</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ab372a9ecde35043aa67d1ee162a37687">TEMPSUMMON_DESPAWNED</a></div><div class="ttdeci">@ TEMPSUMMON_DESPAWNED</div><div class="ttdef"><b>Definition:</b> Object.h:54</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148aca87dcb32ebfdc5d2d1acd159abe8fd9">TEMPSUMMON_CORPSE_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:50</div></div>
+<div class="ttc" id="aa03464_html_a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a"><div class="ttname"><a href="../../d4/d4b/a03464.html#a38c6d8d01cbe0c49b035f348f7724148ae10d0bfbb29fbbfe0e3c50203548d01a">TEMPSUMMON_CORPSE_TIMED_DESPAWN</a></div><div class="ttdeci">@ TEMPSUMMON_CORPSE_TIMED_DESPAWN</div><div class="ttdef"><b>Definition:</b> Object.h:51</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a8cd21ff3f4267aa848be64aa30c71d24" name="a8cd21ff3f4267aa848be64aa30c71d24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8cd21ff3f4267aa848be64aa30c71d24">&#9670;&#160;</a></span>HEARTBEAT_INTERVAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="../../dc/d84/a00338.html#a1c3834b9e3853535027d58bf21bec81f">Milliseconds</a> HEARTBEAT_INTERVAL = 5s + 200ms</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01061">WorldObject::Update()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -415,7 +447,7 @@ Enumerations</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e83c9d0a1780a629eb22febc87da63b1.html">Entities</a></li><li class="navelem"><a class="el" href="../../dir_7cceb56be83a77325820340cc4b7f0cb.html">Object</a></li><li class="navelem"><a class="el" href="../../d4/d4b/a03464.html">Object.h</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:42:46 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:42:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

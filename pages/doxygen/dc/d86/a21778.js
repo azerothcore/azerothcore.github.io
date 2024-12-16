@@ -1,6 +1,6 @@
 var a21778 =
 [
-    [ "npc_artruis_the_hearthlessAI", "dc/ddd/a21782.html", "dc/ddd/a21782" ],
-    [ "npc_artruis_the_hearthless", "dc/d86/a21778.html#abeed70f4306113bd5df242eae91bfdb0", null ],
-    [ "GetAI", "dc/d86/a21778.html#a1a7674c5e3e9e0de848bfb0d906ac06c", null ]
+    [ "HandleHealPct", "dc/d86/a21778.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
+    [ "PrepareSpellScript", "dc/d86/a21778.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
+    [ "Register", "dc/d86/a21778.html#a52f253d2a3b9b3890020107b7722ad96", null ]
 ];

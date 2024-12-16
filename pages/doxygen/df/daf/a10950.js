@@ -1,7 +1,8 @@
 var a10950 =
 [
-    [ "maxvalue", "df/daf/a10950.html#a1dd2289b0d3505cb50e8613595ad8c8e", null ],
-    [ "skill", "df/daf/a10950.html#a8bcbe05ff6a3220f9f05f52b16925f5d", null ],
-    [ "step", "df/daf/a10950.html#a1c882f7d43c65954cb99566225660312", null ],
-    [ "value", "df/daf/a10950.html#a064fece53cdaf07b072510b14200a968", null ]
+    [ "first", "df/daf/a10950.html#a49aea8bfed353c2c552f6195b8e9f60a", null ],
+    [ "last", "df/daf/a10950.html#a05a8077c7ec39bcca66fe84aa1da7040", null ],
+    [ "next", "df/daf/a10950.html#a0a7791b7069912a013299e7afaf4142f", null ],
+    [ "prev", "df/daf/a10950.html#ae27b7d0aa5a2ae5cb75a7f0d397c849f", null ],
+    [ "rank", "df/daf/a10950.html#a0b58cef8fc18f91fa59b8c7d7b9f9872", null ]
 ];

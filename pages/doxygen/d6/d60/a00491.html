@@ -118,6 +118,8 @@ $(document).ready(function(){initNavTree('d6/d60/a00491.html','../../'); initRes
 Functions</h2></td></tr>
 <tr class="memitem:a8051d28826d995169bd4ce60310d5d65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a8051d28826d995169bd4ce60310d5d65">GetLocaleByName</a> (const std::string &amp;name)</td></tr>
 <tr class="separator:a8051d28826d995169bd4ce60310d5d65"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a6dbe16dbe45905c1f3aabc858c1fe1"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a3a6dbe16dbe45905c1f3aabc858c1fe1">GetNameByLocaleConstant</a> (<a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> localeConstant)</td></tr>
+<tr class="separator:a3a6dbe16dbe45905c1f3aabc858c1fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4750695bf6f728da1b0356af3ddaabc9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d60/a00491.html#a4750695bf6f728da1b0356af3ddaabc9">CleanStringForMysqlQuery</a> (std::string &amp;str)</td></tr>
 <tr class="separator:a4750695bf6f728da1b0356af3ddaabc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -142,12 +144,12 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
-<div class="line"><span class="lineno">   46</span>    std::string::size_type n = 0;</div>
-<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\\&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
-<div class="line"><span class="lineno">   48</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;&quot;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
-<div class="line"><span class="lineno">   49</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\&#39;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
-<div class="line"><span class="lineno">   50</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
+<div class="line"><span class="lineno">   56</span>    std::string::size_type n = 0;</div>
+<div class="line"><span class="lineno">   57</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\\&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;&quot;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">while</span> ((n = str.find(<span class="charliteral">&#39;\&#39;&#39;</span>)) != str.npos) { str.erase(n, 1); }</div>
+<div class="line"><span class="lineno">   60</span>}</div>
 </div><!-- fragment -->
 <p class="reference">Referenced by <a class="el" href="../../#l00482">WorldSession::HandleMailTakeItem()</a>, <a class="el" href="../../#l00063">WorldSession::HandleSendMail()</a>, and <a class="el" href="../../#l03539">Map::LogEncounterFinished()</a>.</p>
 
@@ -185,7 +187,37 @@ Variables</h2></td></tr>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00020">localeNames</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>, <a class="el" href="../../#l09699">ObjectMgr::LoadBroadcastTextLocales()</a>, <a class="el" href="../../#l00393">ObjectMgr::LoadCreatureLocales()</a>, <a class="el" href="../../#l00168">CreatureTextMgr::LoadCreatureTextLocales()</a>, <a class="el" href="../../#l07075">ObjectMgr::LoadGameObjectLocales()</a>, <a class="el" href="../../#l00422">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l02632">ObjectMgr::LoadItemLocales()</a>, <a class="el" href="../../#l03276">ObjectMgr::LoadItemSetNameLocales()</a>, <a class="el" href="../../#l08644">ObjectMgr::LoadModuleStringsLocale()</a>, <a class="el" href="../../#l06054">ObjectMgr::LoadNpcTextLocales()</a>, <a class="el" href="../../#l05805">ObjectMgr::LoadPageTextLocales()</a>, <a class="el" href="../../#l00453">ObjectMgr::LoadPetNamesLocales()</a>, <a class="el" href="../../#l00493">ObjectMgr::LoadPointOfInterestLocales()</a>, <a class="el" href="../../#l06342">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l05176">ObjectMgr::LoadQuestLocales()</a>, <a class="el" href="../../#l06403">ObjectMgr::LoadQuestOfferRewardLocale()</a>, <a class="el" href="../../#l06432">ObjectMgr::LoadQuestRequestItemsLocale()</a>, <a class="el" href="../../#l03096">AchievementGlobalMgr::LoadRewardLocales()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>, <a class="el" href="../../#l00528">server_commandscript::HandleServerSetMotdCommand()</a>, <a class="el" href="../../#l09699">ObjectMgr::LoadBroadcastTextLocales()</a>, <a class="el" href="../../#l00393">ObjectMgr::LoadCreatureLocales()</a>, <a class="el" href="../../#l00168">CreatureTextMgr::LoadCreatureTextLocales()</a>, <a class="el" href="../../#l07075">ObjectMgr::LoadGameObjectLocales()</a>, <a class="el" href="../../#l00422">ObjectMgr::LoadGossipMenuItemsLocales()</a>, <a class="el" href="../../#l02632">ObjectMgr::LoadItemLocales()</a>, <a class="el" href="../../#l03276">ObjectMgr::LoadItemSetNameLocales()</a>, <a class="el" href="../../#l00134">MotdMgr::LoadLocalizedMotds()</a>, <a class="el" href="../../#l08644">ObjectMgr::LoadModuleStringsLocale()</a>, <a class="el" href="../../#l06054">ObjectMgr::LoadNpcTextLocales()</a>, <a class="el" href="../../#l05805">ObjectMgr::LoadPageTextLocales()</a>, <a class="el" href="../../#l00453">ObjectMgr::LoadPetNamesLocales()</a>, <a class="el" href="../../#l00493">ObjectMgr::LoadPointOfInterestLocales()</a>, <a class="el" href="../../#l06342">ObjectMgr::LoadQuestGreetingsLocales()</a>, <a class="el" href="../../#l05176">ObjectMgr::LoadQuestLocales()</a>, <a class="el" href="../../#l06403">ObjectMgr::LoadQuestOfferRewardLocale()</a>, <a class="el" href="../../#l06432">ObjectMgr::LoadQuestRequestItemsLocale()</a>, <a class="el" href="../../#l03096">AchievementGlobalMgr::LoadRewardLocales()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+
+</div>
+</div>
+<a id="a3a6dbe16dbe45905c1f3aabc858c1fe1" name="a3a6dbe16dbe45905c1f3aabc858c1fe1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a6dbe16dbe45905c1f3aabc858c1fe1">&#9670;&#160;</a></span>GetNameByLocaleConstant()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::string GetNameByLocaleConstant </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td>
+          <td class="paramname"><em>localeConstant</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{</div>
+<div class="line"><span class="lineno">   46</span>    <span class="keywordflow">if</span> (localeConstant &lt; <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>)</div>
+<div class="line"><span class="lineno">   47</span>    {</div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d60/a00491.html#a32b3de4eb98b686cc6472385a449e4e9">localeNames</a>[localeConstant];</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">return</span> <span class="stringliteral">&quot;enUS&quot;</span>; <span class="comment">// Default value for unsupported or invalid LocaleConstant</span></div>
+<div class="line"><span class="lineno">   52</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00020">localeNames</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00528">server_commandscript::HandleServerSetMotdCommand()</a>.</p>
 
 </div>
 </div>
@@ -214,7 +246,7 @@ Variables</h2></td></tr>
 <div class="line">    <span class="stringliteral">&quot;ruRU&quot;</span></div>
 <div class="line">}</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02216">World::DetectDBCLang()</a>, <a class="el" href="../../#l00033">GetLocaleByName()</a>, <a class="el" href="../../#l00533">character_commandscript::HandleCharacterReputationCommand()</a>, <a class="el" href="../../#l00281">character_commandscript::HandleCharacterTitlesCommand()</a>, <a class="el" href="../../#l00082">lookup_commandscript::HandleLookupAreaCommand()</a>, <a class="el" href="../../#l00337">lookup_commandscript::HandleLookupFactionCommand()</a>, <a class="el" href="../../#l00579">lookup_commandscript::HandleLookupItemSetCommand()</a>, <a class="el" href="../../#l00911">lookup_commandscript::HandleLookupSkillCommand()</a>, <a class="el" href="../../#l01016">lookup_commandscript::HandleLookupSpellCommand()</a>, <a class="el" href="../../#l01168">lookup_commandscript::HandleLookupSpellIdCommand()</a>, <a class="el" href="../../#l01281">lookup_commandscript::HandleLookupTaxiNodeCommand()</a>, <a class="el" href="../../#l01434">lookup_commandscript::HandleLookupTitleCommand()</a>, <a class="el" href="../../#l00113">server_commandscript::HandleServerDebugCommand()</a>, and <a class="el" href="../../#l00213">LoadDBC()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l02221">World::DetectDBCLang()</a>, <a class="el" href="../../#l00033">GetLocaleByName()</a>, <a class="el" href="../../#l00044">GetNameByLocaleConstant()</a>, <a class="el" href="../../#l00533">character_commandscript::HandleCharacterReputationCommand()</a>, <a class="el" href="../../#l00281">character_commandscript::HandleCharacterTitlesCommand()</a>, <a class="el" href="../../#l00082">lookup_commandscript::HandleLookupAreaCommand()</a>, <a class="el" href="../../#l00337">lookup_commandscript::HandleLookupFactionCommand()</a>, <a class="el" href="../../#l00579">lookup_commandscript::HandleLookupItemSetCommand()</a>, <a class="el" href="../../#l00911">lookup_commandscript::HandleLookupSkillCommand()</a>, <a class="el" href="../../#l01016">lookup_commandscript::HandleLookupSpellCommand()</a>, <a class="el" href="../../#l01168">lookup_commandscript::HandleLookupSpellIdCommand()</a>, <a class="el" href="../../#l01281">lookup_commandscript::HandleLookupTaxiNodeCommand()</a>, <a class="el" href="../../#l01434">lookup_commandscript::HandleLookupTitleCommand()</a>, <a class="el" href="../../#l00114">server_commandscript::HandleServerDebugCommand()</a>, <a class="el" href="../../#l00042">MotdMgr::IsValidLocale()</a>, and <a class="el" href="../../#l00213">LoadDBC()</a>.</p>
 
 </div>
 </div>
@@ -224,7 +256,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_1070012e9e40376f8468ff0aa5b77c71.html">common</a></li><li class="navelem"><a class="el" href="../../d6/d60/a00491.html">Common.cpp</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:42:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -208,7 +208,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  188</span>        <span class="keywordflow">if</span> (text == data.Quest-&gt;GetTitle())</div>
 <div class="line"><span class="lineno">  189</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  190</span> </div>
-<div class="line"><span class="lineno">  191</span>        <a class="code hl_struct" href="../../d5/de9/a09910.html">QuestLocale</a> <span class="keyword">const</span>* locale = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestLocale(data.Quest-&gt;GetQuestId());</div>
+<div class="line"><span class="lineno">  191</span>        <a class="code hl_struct" href="../../d1/d39/a09914.html">QuestLocale</a> <span class="keyword">const</span>* locale = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetQuestLocale(data.Quest-&gt;GetQuestId());</div>
 <div class="line"><span class="lineno">  192</span>        <span class="keywordflow">if</span> (!locale)</div>
 <div class="line"><span class="lineno">  193</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  194</span> </div>
@@ -217,7 +217,7 @@ Static Public Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  197</span>            <span class="keywordflow">if</span> (i == <a class="code hl_define" href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a>)</div>
 <div class="line"><span class="lineno">  198</span>                <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">  199</span> </div>
-<div class="line"><span class="lineno">  200</span>            std::string_view name = <a class="code hl_function" href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(locale-&gt;<a class="code hl_variable" href="../../d5/de9/a09910.html#ab75b38241e31b9137c1d85334b3a3f30">Title</a>, i);</div>
+<div class="line"><span class="lineno">  200</span>            std::string_view name = <a class="code hl_function" href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(locale-&gt;<a class="code hl_variable" href="../../d1/d39/a09914.html#ab75b38241e31b9137c1d85334b3a3f30">Title</a>, i);</div>
 <div class="line"><span class="lineno">  201</span>            <span class="keywordflow">if</span> (!name.empty() &amp;&amp; (text == name))</div>
 <div class="line"><span class="lineno">  202</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  203</span>        }</div>
@@ -227,9 +227,9 @@ Static Public Member Functions</h2></td></tr>
 <div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
 <div class="ttc" id="aa00017_html_a900ed91bceba26c1e05048bd3a9ec4fd"><div class="ttname"><a href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a></div><div class="ttdeci">#define DEFAULT_LOCALE</div><div class="ttdef"><b>Definition:</b> Common.h:79</div></div>
 <div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
-<div class="ttc" id="aa08818_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1407</div></div>
-<div class="ttc" id="aa09910_html"><div class="ttname"><a href="../../d5/de9/a09910.html">QuestLocale</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:183</div></div>
-<div class="ttc" id="aa09910_html_ab75b38241e31b9137c1d85334b3a3f30"><div class="ttname"><a href="../../d5/de9/a09910.html#ab75b38241e31b9137c1d85334b3a3f30">QuestLocale::Title</a></div><div class="ttdeci">std::vector&lt; std::string &gt; Title</div><div class="ttdef"><b>Definition:</b> QuestDef.h:186</div></div>
+<div class="ttc" id="aa08822_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1407</div></div>
+<div class="ttc" id="aa09914_html"><div class="ttname"><a href="../../d1/d39/a09914.html">QuestLocale</a></div><div class="ttdef"><b>Definition:</b> QuestDef.h:183</div></div>
+<div class="ttc" id="aa09914_html_ab75b38241e31b9137c1d85334b3a3f30"><div class="ttname"><a href="../../d1/d39/a09914.html#ab75b38241e31b9137c1d85334b3a3f30">QuestLocale::Title</a></div><div class="ttdeci">std::vector&lt; std::string &gt; Title</div><div class="ttdef"><b>Definition:</b> QuestDef.h:186</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00079">DEFAULT_LOCALE</a>, <a class="el" href="../../#l01407">ObjectMgr::GetLocaleString()</a>, <a class="el" href="../../#l00228">Quest::GetQuestId()</a>, <a class="el" href="../../#l00261">Quest::GetTitle()</a>, <a class="el" href="../../#l00070">Acore::Hyperlinks::QuestLinkData::Quest</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, <a class="el" href="../../#l00186">QuestLocale::Title</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
 
@@ -241,7 +241,7 @@ Static Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../db/d12/a07510.html">LinkValidator&lt; LinkTags::quest &gt;</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:07 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:43:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

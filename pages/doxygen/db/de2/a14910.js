@@ -1,6 +1,5 @@
 var a14910 =
 [
-    [ "instance_wailing_caverns_InstanceMapScript", "d7/d4d/a14914.html", "d7/d4d/a14914" ],
-    [ "instance_wailing_caverns", "db/de2/a14910.html#a906f59c39f59237e9eedb479dfc7d825", null ],
-    [ "GetInstanceScript", "db/de2/a14910.html#a0f1020e86443d6902b3c4d8726f3e610", null ]
+    [ "at_battleguard_sartura", "db/de2/a14910.html#a9247cdebeb57d2ddbfa75f60da125d36", null ],
+    [ "OnTrigger", "db/de2/a14910.html#a6a7b9f210ce0c2844b4f2412c0fe440e", null ]
 ];

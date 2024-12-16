@@ -1,6 +1,6 @@
 var a25690 =
 [
-    [ "HandleRemove", "d7/dcf/a25690.html#a491765056e8c4d97d9cdaaea9d11a0af", null ],
-    [ "PrepareAuraScript", "d7/dcf/a25690.html#abe5d45b960fda879f48e3e98db9ad4ac", null ],
-    [ "Register", "d7/dcf/a25690.html#ab00f3119d6c1bd1ad185374144f2987e", null ]
+    [ "FilterTargets", "d7/dcf/a25690.html#aad5d183d0d7ea229cbfc11f751536624", null ],
+    [ "PrepareSpellScript", "d7/dcf/a25690.html#a68ba19142ae6eb04a2547495233700df", null ],
+    [ "Register", "d7/dcf/a25690.html#a22c313409438f94d29ab3e236a56c115", null ]
 ];

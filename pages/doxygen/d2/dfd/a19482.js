@@ -1,6 +1,5 @@
 var a19482 =
 [
-    [ "boss_flame_leviathanAI", "d2/ded/a19486.html", "d2/ded/a19486" ],
-    [ "boss_flame_leviathan", "d2/dfd/a19482.html#af4fcd38fc7095701c6c31674d849aef4", null ],
-    [ "GetAI", "d2/dfd/a19482.html#a3a402b002472bfe4347b512f21654c50", null ]
+    [ "achievement_auriaya_nine_lives", "d2/dfd/a19482.html#a750304bc946a7ecefec29dc18c429d3b", null ],
+    [ "OnCheck", "d2/dfd/a19482.html#ae1b7ee75a3e7343c3f5f8043b4e39362", null ]
 ];

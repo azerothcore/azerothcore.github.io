@@ -1,7 +1,8 @@
 var a17090 =
 [
-    [ "HandleDummy", "de/d85/a17090.html#a89c0706f21fe92fd443c3638181044ec", null ],
-    [ "PrepareSpellScript", "de/d85/a17090.html#a957e29d2458fd90228ef9c53e997c642", null ],
-    [ "Register", "de/d85/a17090.html#a250c95310503cd59d73e45a9b9372268", null ],
-    [ "Validate", "de/d85/a17090.html#a1c67a262eb95def51661919a3bad3437", null ]
+    [ "CheckProc", "de/d85/a17090.html#a11620e4d645b3bfd35924700b5dad289", null ],
+    [ "HandleProc", "de/d85/a17090.html#aa80a032f2ec80aba36f6fe0208412587", null ],
+    [ "PrepareAuraScript", "de/d85/a17090.html#afe04f0cb6539238412253b63dd3c82b9", null ],
+    [ "Register", "de/d85/a17090.html#ac18d1d1a1d19b0dfa5cb1565377ba273", null ],
+    [ "Validate", "de/d85/a17090.html#ac42fe3248fadf0ecca95893e06c490ee", null ]
 ];

@@ -1,6 +1,6 @@
 var a13274 =
 [
-    [ "npc_grand_magister_rommathAI", "d2/d7f/a13278.html", "d2/d7f/a13278" ],
-    [ "npc_grand_magister_rommath", "d1/d4e/a13274.html#a63b9786bfbd9c7b462b0549e2f6941ea", null ],
-    [ "GetAI", "d1/d4e/a13274.html#abd64eff4712e8209e39e938b1813250c", null ]
+    [ "OnEffect", "d1/d4e/a13274.html#a41903586310ec274dd10537ccb8655f3", null ],
+    [ "PrepareSpellScript", "d1/d4e/a13274.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
+    [ "Register", "d1/d4e/a13274.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
 ];

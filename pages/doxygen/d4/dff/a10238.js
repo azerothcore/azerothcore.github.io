@@ -1,5 +1,5 @@
 var a10238 =
 [
-    [ "PlayerLogout", "d4/dff/a10238.html#afacee5b02c2adc4bec608b6f280fbcf1", null ],
-    [ "Read", "d4/dff/a10238.html#accbe1ced6a10ea2fa699df5e74575795", null ]
+    [ "LogoutCancelAck", "d4/dff/a10238.html#a2c261c1cdd4c29658c5160e8fe44ac58", null ],
+    [ "Write", "d4/dff/a10238.html#a12f9e56c2ee59f5a084e8aef3fdfad97", null ]
 ];

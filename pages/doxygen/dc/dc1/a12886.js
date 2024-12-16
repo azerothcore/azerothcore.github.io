@@ -1,14 +1,11 @@
 var a12886 =
 [
-    [ "boss_jarien", "dc/dc1/a12886.html#a19e07a3da93e487b5984a8de0c7f26c9", null ],
-    [ "DoAction", "dc/dc1/a12886.html#a8b9f1f2e7e45adf8df436b5c71555272", null ],
-    [ "IsSummonedBy", "dc/dc1/a12886.html#a2e54c5ae404be944eeff3a57c96aa8ca", null ],
-    [ "JustDied", "dc/dc1/a12886.html#a418380b56f3432b5aec84737012f4693", null ],
-    [ "JustEngagedWith", "dc/dc1/a12886.html#ab6590cf6626a12e804520b2cde84a93e", null ],
-    [ "Reset", "dc/dc1/a12886.html#ac85ca96b42aa5115500bd24454f84209", null ],
-    [ "UpdateAI", "dc/dc1/a12886.html#acf7157ec7af7356beddc8a2429177b95", null ],
-    [ "_phase", "dc/dc1/a12886.html#aa88435f313dc2b7880bca8f4cdb7a537", null ],
-    [ "_scheduler", "dc/dc1/a12886.html#abce9540798dbae1026d1c74bfeb111a6", null ],
-    [ "_sothosDied", "dc/dc1/a12886.html#a06b02c7f7dff885a86609e0116f2fd96", null ],
-    [ "_talked", "dc/dc1/a12886.html#ae0c943c970990b055ebc8c31d81a7198", null ]
+    [ "boss_baroness_anastariAI", "dc/dc1/a12886.html#acf180bbe881ba1f6e49c075254759c00", null ],
+    [ "JustDied", "dc/dc1/a12886.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
+    [ "JustEngagedWith", "dc/dc1/a12886.html#a7329455d99045e7002abffe09112a4ea", null ],
+    [ "Reset", "dc/dc1/a12886.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
+    [ "SchedulePossession", "dc/dc1/a12886.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
+    [ "UpdateAI", "dc/dc1/a12886.html#a962e4e3091d126682825c326af5f6922", null ],
+    [ "_possessedTargetGuid", "dc/dc1/a12886.html#a36e386b847c7032b5ce95a01070518ad", null ],
+    [ "_scheduler", "dc/dc1/a12886.html#aa59518627a5e64e371dbbb45cfced75f", null ]
 ];

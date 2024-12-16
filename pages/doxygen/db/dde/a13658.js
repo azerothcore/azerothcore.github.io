@@ -1,10 +1,10 @@
 var a13658 =
 [
-    [ "npc_batrider", "db/dde/a13658.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "DamageTaken", "db/dde/a13658.html#ad4818b1363082a91223526908c38777c", null ],
-    [ "JustEngagedWith", "db/dde/a13658.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
-    [ "Reset", "db/dde/a13658.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "db/dde/a13658.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
-    [ "_mode", "db/dde/a13658.html#acd53ec78a754219511af1ad2f11422a9", null ],
-    [ "_scheduler", "db/dde/a13658.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "boss_jeklik", "db/dde/a13658.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
+    [ "EnterEvadeMode", "db/dde/a13658.html#a70dc363e0690e72846db5f779375edc1", null ],
+    [ "JustDied", "db/dde/a13658.html#ae648ba9ff49f4970612a8c3351789b66", null ],
+    [ "JustEngagedWith", "db/dde/a13658.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
+    [ "PathEndReached", "db/dde/a13658.html#a689e8f91361de45e6f885fea0dec900a", null ],
+    [ "Reset", "db/dde/a13658.html#a7959106123e60e3584b32b50a272746c", null ],
+    [ "batRidersCount", "db/dde/a13658.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
 ];

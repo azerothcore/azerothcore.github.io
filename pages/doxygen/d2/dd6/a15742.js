@@ -1,7 +1,7 @@
 var a15742 =
 [
-    [ "HandleDummy", "d2/dd6/a15742.html#ad0782bfbd977954aac6170ee9111aef6", null ],
-    [ "PrepareSpellScript", "d2/dd6/a15742.html#ac456524856c4a3c4913423693a8fd50c", null ],
-    [ "Register", "d2/dd6/a15742.html#a82d88c5dac164eb9dee9883a91edd0df", null ],
-    [ "Validate", "d2/dd6/a15742.html#a2cf4ee02293cee5e383e99efe14e0008", null ]
+    [ "npc_orb_carrierAI", "d2/dd6/a15742.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "d2/dd6/a15742.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "d2/dd6/a15742.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "d2/dd6/a15742.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

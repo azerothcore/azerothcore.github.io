@@ -1,9 +1,25 @@
 var a11486 =
 [
-    [ "titles_commandscript", "d3/d9c/a11486.html#ac088fd907013150a0508b79c99f6c2f3", null ],
-    [ "GetCommands", "d3/d9c/a11486.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
-    [ "HandleTitlesAddCommand", "d3/d9c/a11486.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
-    [ "HandleTitlesCurrentCommand", "d3/d9c/a11486.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
-    [ "HandleTitlesRemoveCommand", "d3/d9c/a11486.html#a2001bcc2eddc5688d57154f9906218e4", null ],
-    [ "HandleTitlesSetMaskCommand", "d3/d9c/a11486.html#a9517b10295b856779cdd067234f640c8", null ]
+    [ "ticket_commandscript", "d3/d9c/a11486.html#a67842c302b12e19d41c74740db425a94", null ],
+    [ "GetCommands", "d3/d9c/a11486.html#a8db36489c60473f6f3fed73011c5f7ab", null ],
+    [ "HandleGMTicketAssignToCommand", "d3/d9c/a11486.html#a20e307317e082667b420562802b25eed", null ],
+    [ "HandleGMTicketCloseByIdCommand", "d3/d9c/a11486.html#a18a65dc2e01aa1bfbf9be20e312fb29f", null ],
+    [ "HandleGMTicketCommentCommand", "d3/d9c/a11486.html#a69d76ba54dc776f35a200b79d3383109", null ],
+    [ "HandleGMTicketCompleteCommand", "d3/d9c/a11486.html#a7dd17afc1279a650b53815c5dc5cb9ac", null ],
+    [ "HandleGMTicketDeleteByIdCommand", "d3/d9c/a11486.html#a5caaf9293917036dd957d2b0a4bb61d1", null ],
+    [ "HandleGMTicketEscalateCommand", "d3/d9c/a11486.html#a12b04f7113a53d5974e6faffe3286119", null ],
+    [ "HandleGMTicketGetByIdCommand", "d3/d9c/a11486.html#ae0686f933ff941c8ba36a727b703cdd9", null ],
+    [ "HandleGMTicketGetByNameCommand", "d3/d9c/a11486.html#af38ad7d982f8cf16523ed62677f2c0e1", null ],
+    [ "HandleGMTicketListClosedCommand", "d3/d9c/a11486.html#a5c6c12b2aa84984f2c2fada59673f29c", null ],
+    [ "HandleGMTicketListCommand", "d3/d9c/a11486.html#aa622eb1c1f53c41b2af78667800a5389", null ],
+    [ "HandleGMTicketListEscalatedCommand", "d3/d9c/a11486.html#a756a9a38b724526d6713dad186689090", null ],
+    [ "HandleGMTicketListOnlineCommand", "d3/d9c/a11486.html#a71491d4987e7e7a4b73f798d3d8ec81e", null ],
+    [ "HandleGMTicketResetCommand", "d3/d9c/a11486.html#a6bf98525629aa9d045abe84cf8e320c9", null ],
+    [ "HandleGMTicketResponseAppendCommand", "d3/d9c/a11486.html#a5596c5be64f75c0bf67e88fabb05a060", null ],
+    [ "HandleGMTicketResponseAppendLnCommand", "d3/d9c/a11486.html#a1f0f24f48a37726dbc7e5e6b89740261", null ],
+    [ "HandleGMTicketResponseDeleteCommand", "d3/d9c/a11486.html#acfcbea533c3306d9a2746c3ee318ddbd", null ],
+    [ "HandleGMTicketResponseShowCommand", "d3/d9c/a11486.html#a7bf924ff31d957220f15d2be0c5aeb8a", null ],
+    [ "HandleGMTicketUnAssignCommand", "d3/d9c/a11486.html#afc1a25ed1d1a966d5afaa6dbd1070fda", null ],
+    [ "HandleToggleGMTicketSystem", "d3/d9c/a11486.html#a5dcc80f5e050e0c5dced93bf8fa3c908", null ],
+    [ "TicketResponseAppend", "d3/d9c/a11486.html#aac1c7b72a4cea7da0965dfceb65039fc", null ]
 ];

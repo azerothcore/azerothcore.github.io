@@ -1,8 +1,5 @@
 var a08406 =
 [
-    [ "AddFlag", "dd/d8f/a08406.html#a1e81343732cd86cdf9974a1d96b73ba7", null ],
-    [ "HasFlag", "dd/d8f/a08406.html#aba5227bee5d5e928e0fa171730f57385", null ],
-    [ "IsEnabled", "dd/d8f/a08406.html#a115b220747f7b2d687ec81716dbad69f", null ],
-    [ "RemoveFlag", "dd/d8f/a08406.html#a4ca3645233a466345d6be217d7a0df2b", null ],
-    [ "value", "dd/d8f/a08406.html#a74592e45f8ae4c5f411a982227f809f3", null ]
+    [ "bgQueueTypeId", "dd/d8f/a08406.html#a171a9be34883429a97f6f2e3035b5fca", null ],
+    [ "invitedToInstance", "dd/d8f/a08406.html#a5efaf8479d7afb8c24e7f3389ad9c8cf", null ]
 ];

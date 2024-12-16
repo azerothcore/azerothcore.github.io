@@ -1,10 +1,9 @@
 var a28030 =
 [
-    [ "area_id", "d6/d28/a28030.html#acbd77950bf9548d266e568640cf38458", null ],
-    [ "map_id", "d6/d28/a28030.html#abeabdc3d225dcd6626a641d6792d7ff8", null ],
-    [ "virtual_map_id", "d6/d28/a28030.html#afe75f114a3aa74a0589cc575e372f1b1", null ],
-    [ "x1", "d6/d28/a28030.html#a78967fef40841f705c2564a177cb36f3", null ],
-    [ "x2", "d6/d28/a28030.html#a037dca812715df0b4f2551f8684b537c", null ],
-    [ "y1", "d6/d28/a28030.html#a7f90073656e1cd00a88add9f8d881d11", null ],
-    [ "y2", "d6/d28/a28030.html#ad8e0164952e5565488d5443f269ec79e", null ]
+    [ "adtId", "d6/d28/a28030.html#a9bf7e7dd9dd55e5b1ffeffb0ad3e92e0", null ],
+    [ "areaId", "d6/d28/a28030.html#a7f652c68036429350543fc5a2cc6861e", null ],
+    [ "Flags", "d6/d28/a28030.html#a60f9a61948d1e28587c9d1a338730f37", null ],
+    [ "groupId", "d6/d28/a28030.html#a09052bad3028899580ffedd556672b64", null ],
+    [ "Id", "d6/d28/a28030.html#a70e3e94df9d0b0b1c114ed1001768066", null ],
+    [ "rootId", "d6/d28/a28030.html#a7997c7ac31abdb40f2e7f0e0a7e04403", null ]
 ];

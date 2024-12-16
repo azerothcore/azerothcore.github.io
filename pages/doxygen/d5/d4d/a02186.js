@@ -1,7 +1,7 @@
 var a02186 =
 [
-    [ "boss_janalai", "d3/dae/a13490.html", "d3/dae/a13490" ],
-    [ "npc_janalai_hatcher", "d3/d2d/a13494.html", "d3/d2d/a13494" ],
+    [ "boss_janalai", "d3/d2d/a13494.html", "d3/d2d/a13494" ],
+    [ "npc_janalai_hatcher", "df/d9b/a13498.html", "df/d9b/a13498" ],
     [ "Creatures", "d5/d4d/a02186.html#a25a619e6b66096a4f05d048e4a96df08", [
       [ "NPC_NORTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08abeb6d3b1ff8238f7c57911ab8acde69e", null ],
       [ "NPC_SOUTH_MARSHAL", "d8/d5f/a02216.html#a25a619e6b66096a4f05d048e4a96df08a9a3360dc10641daabdef8158f42ee00e", null ],

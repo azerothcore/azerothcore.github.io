@@ -1,7 +1,6 @@
 var a26530 =
 [
-    [ "HandleDummy", "da/dd8/a26530.html#a0eae8fe2faee05bad7a34e84dddd3317", null ],
-    [ "PrepareSpellScript", "da/dd8/a26530.html#a24634405a8d0ccdd22f4832815262446", null ],
-    [ "Register", "da/dd8/a26530.html#a3394b9b9e5899550251d553ac9f77f8a", null ],
-    [ "Validate", "da/dd8/a26530.html#ae56a900b3484fd6397d38c4ad8efe5c2", null ]
+    [ "HandleRemove", "da/dd8/a26530.html#a0ac8fe6a39ae00e50f219bf02c26f1a4", null ],
+    [ "PrepareAuraScript", "da/dd8/a26530.html#a0517fe77f15e1b9cf6153ed2aaf9cee8", null ],
+    [ "Register", "da/dd8/a26530.html#ac968ede75fd5d98ba9a10dc9f6bdbb85", null ]
 ];

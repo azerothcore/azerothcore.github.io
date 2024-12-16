@@ -1,6 +1,7 @@
 var a20610 =
 [
-    [ "CheckCast", "d2/d36/a20610.html#a715a58956db4253c8adfed039833debd", null ],
-    [ "PrepareSpellScript", "d2/d36/a20610.html#a3b03178d8ab54db36a19ba5a27444917", null ],
-    [ "Register", "d2/d36/a20610.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
+    [ "HandleScriptEffect", "d2/d36/a20610.html#a173ee086127655cdfcca507fd5b15b2e", null ],
+    [ "PrepareSpellScript", "d2/d36/a20610.html#a005d47b18a820c35ec596b5539db94eb", null ],
+    [ "Register", "d2/d36/a20610.html#a20a0d554e80707c1517422cb747f38e8", null ],
+    [ "Validate", "d2/d36/a20610.html#a5ca44686e26def56adc2b98d88145235", null ]
 ];

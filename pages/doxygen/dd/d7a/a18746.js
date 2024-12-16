@@ -1,7 +1,8 @@
 var a18746 =
 [
-    [ "OnPeriodic", "dd/d7a/a18746.html#ae685e9d36b85af8a7e33cefbd439a2f4", null ],
-    [ "PrepareAuraScript", "dd/d7a/a18746.html#a1362103840db4b3c40ef7d6b0aa5226c", null ],
-    [ "Register", "dd/d7a/a18746.html#a39b03ebd7f6233f373f52e34f18dad10", null ],
-    [ "Validate", "dd/d7a/a18746.html#a54cfed486827216817adb740efa6646e", null ]
+    [ "boss_maexxna_webwrapAI", "dd/d7a/a18746.html#a1423b619676f650f71c8e7215aa2a2b7", null ],
+    [ "IsSummonedBy", "dd/d7a/a18746.html#a1d434373ccc7dd54c5de7bc99487170a", null ],
+    [ "JustDied", "dd/d7a/a18746.html#a1ed18e791d2a5ae26cd1c2f3cdf37d82", null ],
+    [ "UpdateAI", "dd/d7a/a18746.html#a05220fcded67e15bbd94d13d0b9581a2", null ],
+    [ "victimGUID", "dd/d7a/a18746.html#a54081ebfc0df639b7e18b5f079802c92", null ]
 ];

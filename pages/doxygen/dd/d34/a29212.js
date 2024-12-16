@@ -1,4 +1,8 @@
 var a29212 =
 [
-    [ "gOpenArchives", "dd/d34/a29212.html#a8ae40ebe73635e831bc65b70e7f97f3c", null ]
+    [ "DBCFile", "de/df0/a28210.html", "de/df0/a28210" ],
+    [ "DBCFile::Exception", "d6/d5b/a28214.html", "d6/d5b/a28214" ],
+    [ "DBCFile::NotFound", "da/d91/a28218.html", "da/d91/a28218" ],
+    [ "DBCFile::Record", "de/d9b/a28222.html", "de/d9b/a28222" ],
+    [ "DBCFile::Iterator", "df/d25/a28226.html", "df/d25/a28226" ]
 ];

@@ -1,6 +1,5 @@
 var a19966 =
 [
-    [ "boss_kologarnAI", "d3/db2/a19970.html", "d3/db2/a19970" ],
-    [ "boss_kologarn", "d0/d29/a19966.html#a5f654a0f534c4ec6c1164ea08e40a476", null ],
-    [ "GetAI", "d0/d29/a19966.html#ad78c2d269e68d8c3bbd86b844ada9435", null ]
+    [ "achievement_ignis_shattered", "d0/d29/a19966.html#adbe893b0dd409eb3f10768f81f182f61", null ],
+    [ "OnCheck", "d0/d29/a19966.html#a8a77a6e6979b4b09f5208e51b4faa4c1", null ]
 ];

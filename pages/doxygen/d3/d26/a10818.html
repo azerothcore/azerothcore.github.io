@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SpellDestination Struct Reference</title>
+<title>AzerothCore: SpellEvent Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,101 +106,182 @@ $(document).ready(function(){initNavTree('d3/d26/a10818.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../dc/d33/a10815.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SpellDestination Struct Reference</div></div>
+  <div class="headertitle"><div class="title">SpellEvent Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for SpellEvent:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d3/d26/a10818.png" usemap="#SpellEvent_map" alt=""/>
+  <map id="SpellEvent_map" name="SpellEvent_map">
+<area href="../../dd/d9e/a05378.html" alt="BasicEvent" shape="rect" coords="0,0,75,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aa91f31101de3139b2e2d2976dac94686"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#aa91f31101de3139b2e2d2976dac94686">SpellDestination</a> ()</td></tr>
-<tr class="separator:aa91f31101de3139b2e2d2976dac94686"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa27cefe3e93fedd557174a3cc8f49fe1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#aa27cefe3e93fedd557174a3cc8f49fe1">SpellDestination</a> (float x, float y, float z, float orientation=0.0f, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> mapId=<a class="el" href="../../d0/d17/a03491.html#af69a1d112a89b89894dafd5da53e7490">MAPID_INVALID</a>)</td></tr>
-<tr class="separator:aa27cefe3e93fedd557174a3cc8f49fe1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12f65757f20436b02b7aa00bb1682c8e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a12f65757f20436b02b7aa00bb1682c8e">SpellDestination</a> (<a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;pos)</td></tr>
-<tr class="separator:a12f65757f20436b02b7aa00bb1682c8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b8949fa80249aee8bebc56620ec746c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a7b8949fa80249aee8bebc56620ec746c">SpellDestination</a> (<a class="el" href="../../db/df3/a08182.html">WorldObject</a> const &amp;wObj)</td></tr>
-<tr class="separator:a7b8949fa80249aee8bebc56620ec746c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab565861d5013130639013e3c4d22d712"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#ab565861d5013130639013e3c4d22d712">Relocate</a> (<a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;pos)</td></tr>
-<tr class="separator:ab565861d5013130639013e3c4d22d712"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0bf1d731787bfed47b593d8cb4943f2a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a0bf1d731787bfed47b593d8cb4943f2a">RelocateOffset</a> (<a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;offset)</td></tr>
-<tr class="separator:a0bf1d731787bfed47b593d8cb4943f2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abca64eb7d39df9788cef9df7e8634368"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#abca64eb7d39df9788cef9df7e8634368">SpellEvent</a> (<a class="el" href="../../d5/d56/a10846.html">Spell</a> *spell)</td></tr>
+<tr class="separator:abca64eb7d39df9788cef9df7e8634368"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01f8ea354ef70d0a2ee7b88b8dd9f68e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a01f8ea354ef70d0a2ee7b88b8dd9f68e">~SpellEvent</a> ()</td></tr>
+<tr class="separator:a01f8ea354ef70d0a2ee7b88b8dd9f68e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac8158bfbe916ff6207b2f6608308ae24"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#ac8158bfbe916ff6207b2f6608308ae24">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> e_time, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> p_time)</td></tr>
+<tr class="separator:ac8158bfbe916ff6207b2f6608308ae24"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21656467ae71def45fd78b9d1fa1c30"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#ac21656467ae71def45fd78b9d1fa1c30">Abort</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> e_time)</td></tr>
+<tr class="separator:ac21656467ae71def45fd78b9d1fa1c30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ecd9b31bacc717cc509eb9bb69c3cb3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a2ecd9b31bacc717cc509eb9bb69c3cb3">IsDeletable</a> () const</td></tr>
+<tr class="separator:a2ecd9b31bacc717cc509eb9bb69c3cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a05378"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05378')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../dd/d9e/a05378.html">BasicEvent</a></td></tr>
+<tr class="memitem:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a9c3cd17edab7fc410f88bb680d756975 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a0c3860e1c8854c2db20a225944792afd">~BasicEvent</a> ()=default</td></tr>
+<tr class="separator:a0c3860e1c8854c2db20a225944792afd inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">Execute</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a89297a10b64d01895332655122ed8ccb inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a62c0483af9fd1885e779cf088a50eb02">IsDeletable</a> () const</td></tr>
+<tr class="separator:a62c0483af9fd1885e779cf088a50eb02 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#a5584968148a48bd7ba072515bd489963">Abort</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>)</td></tr>
+<tr class="separator:a5584968148a48bd7ba072515bd489963 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d9e/a05378.html#afafade0729f08b8f1193a66f50c18348">ScheduleAbort</a> ()</td></tr>
+<tr class="separator:afafade0729f08b8f1193a66f50c18348 inherit pub_methods_a05378"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a6c4587b85e295d86f3479e4feeb662e5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/dfb/a08242.html">WorldLocation</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a></td></tr>
-<tr class="separator:a6c4587b85e295d86f3479e4feeb662e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad3456cf591eb32a5dd390ffbb7b27387"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#ad3456cf591eb32a5dd390ffbb7b27387">_transportGUID</a></td></tr>
-<tr class="separator:ad3456cf591eb32a5dd390ffbb7b27387"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52f0f9f741985bb4d78289145fe66ba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dc8/a08226.html">Position</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a></td></tr>
-<tr class="separator:a52f0f9f741985bb4d78289145fe66ba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a22cce1d722f5086932ae3e97c58d2921"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d56/a10846.html">Spell</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a></td></tr>
+<tr class="separator:a22cce1d722f5086932ae3e97c58d2921"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aa91f31101de3139b2e2d2976dac94686" name="aa91f31101de3139b2e2d2976dac94686"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa91f31101de3139b2e2d2976dac94686">&#9670;&#160;</a></span>SpellDestination() <span class="overload">[1/4]</span></h2>
+<a id="abca64eb7d39df9788cef9df7e8634368" name="abca64eb7d39df9788cef9df7e8634368"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abca64eb7d39df9788cef9df7e8634368">&#9670;&#160;</a></span>SpellEvent()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SpellDestination::SpellDestination </td>
+          <td class="memname">SpellEvent::SpellEvent </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d5/d56/a10846.html">Spell</a> *&#160;</td>
+          <td class="paramname"><em>spell</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 8123</span>                                   : <a class="code hl_function" href="../../dd/d9e/a05378.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent</a>()</div>
+<div class="line"><span class="lineno"> 8124</span>{</div>
+<div class="line"><span class="lineno"> 8125</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a> = spell;</div>
+<div class="line"><span class="lineno"> 8126</span>}</div>
+<div class="ttc" id="aa05378_html_a9c3cd17edab7fc410f88bb680d756975"><div class="ttname"><a href="../../dd/d9e/a05378.html#a9c3cd17edab7fc410f88bb680d756975">BasicEvent::BasicEvent</a></div><div class="ttdeci">BasicEvent()=default</div></div>
+<div class="ttc" id="aa10818_html_a22cce1d722f5086932ae3e97c58d2921"><div class="ttname"><a href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">SpellEvent::m_Spell</a></div><div class="ttdeci">Spell * m_Spell</div><div class="ttdef"><b>Definition:</b> Spell.cpp:529</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00529">m_Spell</a>.</p>
+
+</div>
+</div>
+<a id="a01f8ea354ef70d0a2ee7b88b8dd9f68e" name="a01f8ea354ef70d0a2ee7b88b8dd9f68e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01f8ea354ef70d0a2ee7b88b8dd9f68e">&#9670;&#160;</a></span>~SpellEvent()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">SpellEvent::~SpellEvent </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   68</span>{</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(0, 0, 0, 0);</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(0, 0, 0, 0);</div>
-<div class="line"><span class="lineno">   71</span>}</div>
-<div class="ttc" id="aa08226_html_afdbf0a257fcd7a48066fd92c4eacae3b"><div class="ttname"><a href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Position::Relocate</a></div><div class="ttdeci">void Relocate(float x, float y)</div><div class="ttdef"><b>Definition:</b> Position.h:72</div></div>
-<div class="ttc" id="aa10818_html_a52f0f9f741985bb4d78289145fe66ba0"><div class="ttname"><a href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">SpellDestination::_transportOffset</a></div><div class="ttdeci">Position _transportOffset</div><div class="ttdef"><b>Definition:</b> Spell.h:107</div></div>
-<div class="ttc" id="aa10818_html_a6c4587b85e295d86f3479e4feeb662e5"><div class="ttname"><a href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">SpellDestination::_position</a></div><div class="ttdeci">WorldLocation _position</div><div class="ttdef"><b>Definition:</b> Spell.h:105</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 8129</span>{</div>
+<div class="line"><span class="lineno"> 8130</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6fea183fab3cd5f8946923c3d8909f5a">getState</a>() != <a class="code hl_enumvalue" href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44">SPELL_STATE_FINISHED</a>)</div>
+<div class="line"><span class="lineno"> 8131</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a77ebded75e30f5242ccbd9db08dc93f6">cancel</a>();</div>
+<div class="line"><span class="lineno"> 8132</span> </div>
+<div class="line"><span class="lineno"> 8133</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6032f8f164df1d6fc2607e4ca5c35ce5">IsDeletable</a>())</div>
+<div class="line"><span class="lineno"> 8134</span>    {</div>
+<div class="line"><span class="lineno"> 8135</span>        <span class="keyword">delete</span> <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>;</div>
+<div class="line"><span class="lineno"> 8136</span>    }</div>
+<div class="line"><span class="lineno"> 8137</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 8138</span>    {</div>
+<div class="line"><span class="lineno"> 8139</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;spells&quot;</span>, <span class="stringliteral">&quot;~SpellEvent: {} {} tried to delete non-deletable spell {}. Was not deleted, causes memory leak.&quot;</span>,</div>
+<div class="line"><span class="lineno"> 8140</span>                       (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() ? <span class="stringliteral">&quot;Player&quot;</span> : <span class="stringliteral">&quot;Creature&quot;</span>), <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">GetCaster</a>()-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_variable" href="../../d5/d56/a10846.html#af46c9b635b8928c161d943f10ae693f1">m_spellInfo</a>-&gt;<a class="code hl_variable" href="../../dd/df5/a10910.html#a49bc14059c2bd3785231c52e0d54d382">Id</a>);</div>
+<div class="line"><span class="lineno"> 8141</span>        <a class="code hl_define" href="../../da/d45/a00011.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a>();</div>
+<div class="line"><span class="lineno"> 8142</span>    }</div>
+<div class="line"><span class="lineno"> 8143</span>}</div>
+<div class="ttc" id="aa00011_html_a5376571bbf4cdc9782683635f366f89a"><div class="ttname"><a href="../../da/d45/a00011.html#a5376571bbf4cdc9782683635f366f89a">ABORT</a></div><div class="ttdeci">#define ABORT</div><div class="ttdef"><b>Definition:</b> Errors.h:76</div></div>
+<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
+<div class="ttc" id="aa03077_html_a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44"><div class="ttname"><a href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44">SPELL_STATE_FINISHED</a></div><div class="ttdeci">@ SPELL_STATE_FINISHED</div><div class="ttdef"><b>Definition:</b> Spell.h:229</div></div>
+<div class="ttc" id="aa08150_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../d6/d80/a08150.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:200</div></div>
+<div class="ttc" id="aa08150_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
+<div class="ttc" id="aa08198_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
+<div class="ttc" id="aa10846_html_a2e13b936f0eb823e5c7e75fb5c04d3b2"><div class="ttname"><a href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">Spell::GetCaster</a></div><div class="ttdeci">Unit * GetCaster() const</div><div class="ttdef"><b>Definition:</b> Spell.h:577</div></div>
+<div class="ttc" id="aa10846_html_a6032f8f164df1d6fc2607e4ca5c35ce5"><div class="ttname"><a href="../../d5/d56/a10846.html#a6032f8f164df1d6fc2607e4ca5c35ce5">Spell::IsDeletable</a></div><div class="ttdeci">bool IsDeletable() const</div><div class="ttdef"><b>Definition:</b> Spell.h:562</div></div>
+<div class="ttc" id="aa10846_html_a6fea183fab3cd5f8946923c3d8909f5a"><div class="ttname"><a href="../../d5/d56/a10846.html#a6fea183fab3cd5f8946923c3d8909f5a">Spell::getState</a></div><div class="ttdeci">uint32 getState() const</div><div class="ttdef"><b>Definition:</b> Spell.h:485</div></div>
+<div class="ttc" id="aa10846_html_a77ebded75e30f5242ccbd9db08dc93f6"><div class="ttname"><a href="../../d5/d56/a10846.html#a77ebded75e30f5242ccbd9db08dc93f6">Spell::cancel</a></div><div class="ttdeci">void cancel(bool bySelf=false)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:3723</div></div>
+<div class="ttc" id="aa10846_html_af46c9b635b8928c161d943f10ae693f1"><div class="ttname"><a href="../../d5/d56/a10846.html#af46c9b635b8928c161d943f10ae693f1">Spell::m_spellInfo</a></div><div class="ttdeci">SpellInfo const  *const m_spellInfo</div><div class="ttdef"><b>Definition:</b> Spell.h:523</div></div>
+<div class="ttc" id="aa10910_html_a49bc14059c2bd3785231c52e0d54d382"><div class="ttname"><a href="../../dd/df5/a10910.html#a49bc14059c2bd3785231c52e0d54d382">SpellInfo::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> SpellInfo.h:320</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00107">_transportOffset</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00076">ABORT</a>, <a class="el" href="../../#l03723">Spell::cancel()</a>, <a class="el" href="../../#l00577">Spell::GetCaster()</a>, <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l00485">Spell::getState()</a>, <a class="el" href="../../#l00320">SpellInfo::Id</a>, <a class="el" href="../../#l00562">Spell::IsDeletable()</a>, <a class="el" href="../../#l00200">Object::IsPlayer()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00529">m_Spell</a>, <a class="el" href="../../#l00523">Spell::m_spellInfo</a>, <a class="el" href="../../#l00229">SPELL_STATE_FINISHED</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
 
 </div>
 </div>
-<a id="aa27cefe3e93fedd557174a3cc8f49fe1" name="aa27cefe3e93fedd557174a3cc8f49fe1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa27cefe3e93fedd557174a3cc8f49fe1">&#9670;&#160;</a></span>SpellDestination() <span class="overload">[2/4]</span></h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ac21656467ae71def45fd78b9d1fa1c30" name="ac21656467ae71def45fd78b9d1fa1c30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21656467ae71def45fd78b9d1fa1c30">&#9670;&#160;</a></span>Abort()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellDestination::SpellDestination </td>
+          <td class="memname">void SpellEvent::Abort </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>x</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>e_time</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>y</em>, </td>
         </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../dd/d9e/a05378.html#a5584968148a48bd7ba072515bd489963">BasicEvent</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8209</span>{</div>
+<div class="line"><span class="lineno"> 8210</span>    <span class="comment">// oops, the spell we try to do is aborted</span></div>
+<div class="line"><span class="lineno"> 8211</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6fea183fab3cd5f8946923c3d8909f5a">getState</a>() != <a class="code hl_enumvalue" href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44">SPELL_STATE_FINISHED</a>)</div>
+<div class="line"><span class="lineno"> 8212</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a77ebded75e30f5242ccbd9db08dc93f6">cancel</a>();</div>
+<div class="line"><span class="lineno"> 8213</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l03723">Spell::cancel()</a>, <a class="el" href="../../#l00485">Spell::getState()</a>, <a class="el" href="../../#l00529">m_Spell</a>, and <a class="el" href="../../#l00229">SPELL_STATE_FINISHED</a>.</p>
+
+</div>
+</div>
+<a id="ac8158bfbe916ff6207b2f6608308ae24" name="ac8158bfbe916ff6207b2f6608308ae24"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac8158bfbe916ff6207b2f6608308ae24">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>z</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>orientation</em> = <code>0.0f</code>, </td>
+          <td class="memname">bool SpellEvent::Execute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>e_time</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>mapId</em> = <code><a class="el" href="../../d0/d17/a03491.html#af69a1d112a89b89894dafd5da53e7490">MAPID_INVALID</a></code>&#160;</td>
+          <td class="paramname"><em>p_time</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -208,177 +289,143 @@ Public Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(x, y, z, orientation);</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_variable" href="../../d4/dfb/a08242.html#a88161a79f13aa3ab267096cfa8e5d0ed">m_mapId</a> = mapId;</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(0, 0, 0, 0);</div>
-<div class="line"><span class="lineno">   78</span>}</div>
-<div class="ttc" id="aa08242_html_a88161a79f13aa3ab267096cfa8e5d0ed"><div class="ttname"><a href="../../d4/dfb/a08242.html#a88161a79f13aa3ab267096cfa8e5d0ed">WorldLocation::m_mapId</a></div><div class="ttdeci">uint32 m_mapId</div><div class="ttdef"><b>Definition:</b> Position.h:318</div></div>
+
+<p>Reimplemented from <a class="el" href="../../dd/d9e/a05378.html#a89297a10b64d01895332655122ed8ccb">BasicEvent</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8146</span>{</div>
+<div class="line"><span class="lineno"> 8147</span>    <span class="comment">// update spell if it is not finished</span></div>
+<div class="line"><span class="lineno"> 8148</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6fea183fab3cd5f8946923c3d8909f5a">getState</a>() != <a class="code hl_enumvalue" href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44">SPELL_STATE_FINISHED</a>)</div>
+<div class="line"><span class="lineno"> 8149</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#acc435ce7ca5fc0510122e720a6aea580">update</a>(p_time);</div>
+<div class="line"><span class="lineno"> 8150</span> </div>
+<div class="line"><span class="lineno"> 8151</span>    <span class="comment">// check spell state to process</span></div>
+<div class="line"><span class="lineno"> 8152</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6fea183fab3cd5f8946923c3d8909f5a">getState</a>())</div>
+<div class="line"><span class="lineno"> 8153</span>    {</div>
+<div class="line"><span class="lineno"> 8154</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa620ae87eec478ce64981cb346d628a44">SPELL_STATE_FINISHED</a>:</div>
+<div class="line"><span class="lineno"> 8155</span>            {</div>
+<div class="line"><span class="lineno"> 8156</span>                <span class="comment">// spell was finished, check deletable state</span></div>
+<div class="line"><span class="lineno"> 8157</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6032f8f164df1d6fc2607e4ca5c35ce5">IsDeletable</a>())</div>
+<div class="line"><span class="lineno"> 8158</span>                {</div>
+<div class="line"><span class="lineno"> 8159</span>                    <span class="comment">// check, if we do have unfinished triggered spells</span></div>
+<div class="line"><span class="lineno"> 8160</span>                    <span class="keywordflow">return</span> <span class="keyword">true</span>;                                <span class="comment">// spell is deletable, finish event</span></div>
+<div class="line"><span class="lineno"> 8161</span>                }</div>
+<div class="line"><span class="lineno"> 8162</span>                <span class="comment">// event will be re-added automatically at the end of routine)</span></div>
+<div class="line"><span class="lineno"> 8163</span>            }</div>
+<div class="line"><span class="lineno"> 8164</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 8165</span> </div>
+<div class="line"><span class="lineno"> 8166</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa301d2895947dd39262654eb77e794452">SPELL_STATE_DELAYED</a>:</div>
+<div class="line"><span class="lineno"> 8167</span>            {</div>
+<div class="line"><span class="lineno"> 8168</span>                <span class="comment">// first, check, if we have just started</span></div>
+<div class="line"><span class="lineno"> 8169</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#acd106ca9dbe908ea1329c05d1fdbffc4">GetDelayStart</a>() != 0)</div>
+<div class="line"><span class="lineno"> 8170</span>                {</div>
+<div class="line"><span class="lineno"> 8171</span>                    {</div>
+<div class="line"><span class="lineno"> 8172</span>                        <span class="comment">// run the spell handler and think about what we can do next</span></div>
+<div class="line"><span class="lineno"> 8173</span>                        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> t_offset = e_time - <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#acd106ca9dbe908ea1329c05d1fdbffc4">GetDelayStart</a>();</div>
+<div class="line"><span class="lineno"> 8174</span>                        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> n_offset = <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a98e6d38fef38925272ed77fae54903b2">handle_delayed</a>(t_offset);</div>
+<div class="line"><span class="lineno"> 8175</span>                        <span class="keywordflow">if</span> (n_offset)</div>
+<div class="line"><span class="lineno"> 8176</span>                        {</div>
+<div class="line"><span class="lineno"> 8177</span>                            <span class="comment">// re-add us to the queue</span></div>
+<div class="line"><span class="lineno"> 8178</span>                            <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">GetCaster</a>()-&gt;<a class="code hl_variable" href="../../db/df3/a08182.html#ab963446488123d34f39a32587d9720a6">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#acd106ca9dbe908ea1329c05d1fdbffc4">GetDelayStart</a>() + n_offset, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 8179</span>                            <span class="keywordflow">return</span> <span class="keyword">false</span>;                       <span class="comment">// event not complete</span></div>
+<div class="line"><span class="lineno"> 8180</span>                        }</div>
+<div class="line"><span class="lineno"> 8181</span>                        <span class="comment">// event complete</span></div>
+<div class="line"><span class="lineno"> 8182</span>                        <span class="comment">// finish update event will be re-added automatically at the end of routine)</span></div>
+<div class="line"><span class="lineno"> 8183</span>                    }</div>
+<div class="line"><span class="lineno"> 8184</span>                }</div>
+<div class="line"><span class="lineno"> 8185</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 8186</span>                {</div>
+<div class="line"><span class="lineno"> 8187</span>                    <span class="comment">// delaying had just started, record the moment</span></div>
+<div class="line"><span class="lineno"> 8188</span>                    <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a9572cd3b12252c7c177b0f6151a1c57b">SetDelayStart</a>(e_time);</div>
+<div class="line"><span class="lineno"> 8189</span>                    <span class="comment">// re-plan the event for the delay moment</span></div>
+<div class="line"><span class="lineno"> 8190</span>                    <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">GetCaster</a>()-&gt;<a class="code hl_variable" href="../../db/df3/a08182.html#ab963446488123d34f39a32587d9720a6">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">this</span>, e_time + <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#ad39149ba8f34185ed6c52c5782881250">GetDelayMoment</a>(), <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 8191</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;                               <span class="comment">// event not complete</span></div>
+<div class="line"><span class="lineno"> 8192</span>                }</div>
+<div class="line"><span class="lineno"> 8193</span>            }</div>
+<div class="line"><span class="lineno"> 8194</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 8195</span> </div>
+<div class="line"><span class="lineno"> 8196</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 8197</span>            {</div>
+<div class="line"><span class="lineno"> 8198</span>                <span class="comment">// all other states</span></div>
+<div class="line"><span class="lineno"> 8199</span>                <span class="comment">// event will be re-added automatically at the end of routine)</span></div>
+<div class="line"><span class="lineno"> 8200</span>            } <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 8201</span>    }</div>
+<div class="line"><span class="lineno"> 8202</span> </div>
+<div class="line"><span class="lineno"> 8203</span>    <span class="comment">// spell processing not complete, plan event on the next update interval</span></div>
+<div class="line"><span class="lineno"> 8204</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a2e13b936f0eb823e5c7e75fb5c04d3b2">GetCaster</a>()-&gt;<a class="code hl_variable" href="../../db/df3/a08182.html#ab963446488123d34f39a32587d9720a6">m_Events</a>.<a class="code hl_function" href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">AddEvent</a>(<span class="keyword">this</span>, e_time + 1, <span class="keyword">false</span>);</div>
+<div class="line"><span class="lineno"> 8205</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;                                           <span class="comment">// event not complete</span></div>
+<div class="line"><span class="lineno"> 8206</span>}</div>
+<div class="ttc" id="aa00497_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
+<div class="ttc" id="aa03077_html_a821bd91389a0f4046989739b12e84f0aa301d2895947dd39262654eb77e794452"><div class="ttname"><a href="../../d7/deb/a03077.html#a821bd91389a0f4046989739b12e84f0aa301d2895947dd39262654eb77e794452">SPELL_STATE_DELAYED</a></div><div class="ttdeci">@ SPELL_STATE_DELAYED</div><div class="ttdef"><b>Definition:</b> Spell.h:231</div></div>
+<div class="ttc" id="aa05386_html_a0ecdf822624a632b7b3fad1e66228cfb"><div class="ttname"><a href="../../d0/d12/a05386.html#a0ecdf822624a632b7b3fad1e66228cfb">EventProcessor::AddEvent</a></div><div class="ttdeci">void AddEvent(BasicEvent *Event, uint64 e_time, bool set_addtime=true)</div><div class="ttdef"><b>Definition:</b> EventProcessor.h:103</div></div>
+<div class="ttc" id="aa08182_html_ab963446488123d34f39a32587d9720a6"><div class="ttname"><a href="../../db/df3/a08182.html#ab963446488123d34f39a32587d9720a6">WorldObject::m_Events</a></div><div class="ttdeci">EventProcessor m_Events</div><div class="ttdef"><b>Definition:</b> Object.h:642</div></div>
+<div class="ttc" id="aa10846_html_a9572cd3b12252c7c177b0f6151a1c57b"><div class="ttname"><a href="../../d5/d56/a10846.html#a9572cd3b12252c7c177b0f6151a1c57b">Spell::SetDelayStart</a></div><div class="ttdeci">void SetDelayStart(uint64 m_time)</div><div class="ttdef"><b>Definition:</b> Spell.h:567</div></div>
+<div class="ttc" id="aa10846_html_a98e6d38fef38925272ed77fae54903b2"><div class="ttname"><a href="../../d5/d56/a10846.html#a98e6d38fef38925272ed77fae54903b2">Spell::handle_delayed</a></div><div class="ttdeci">uint64 handle_delayed(uint64 t_offset)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:4180</div></div>
+<div class="ttc" id="aa10846_html_acc435ce7ca5fc0510122e720a6aea580"><div class="ttname"><a href="../../d5/d56/a10846.html#acc435ce7ca5fc0510122e720a6aea580">Spell::update</a></div><div class="ttdeci">void update(uint32 difftime)</div><div class="ttdef"><b>Definition:</b> Spell.cpp:4406</div></div>
+<div class="ttc" id="aa10846_html_acd106ca9dbe908ea1329c05d1fdbffc4"><div class="ttname"><a href="../../d5/d56/a10846.html#acd106ca9dbe908ea1329c05d1fdbffc4">Spell::GetDelayStart</a></div><div class="ttdeci">uint64 GetDelayStart() const</div><div class="ttdef"><b>Definition:</b> Spell.h:566</div></div>
+<div class="ttc" id="aa10846_html_ad39149ba8f34185ed6c52c5782881250"><div class="ttname"><a href="../../d5/d56/a10846.html#ad39149ba8f34185ed6c52c5782881250">Spell::GetDelayMoment</a></div><div class="ttdeci">uint64 GetDelayMoment() const</div><div class="ttdef"><b>Definition:</b> Spell.h:568</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00107">_transportOffset</a>, <a class="el" href="../../#l00318">WorldLocation::m_mapId</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00103">EventProcessor::AddEvent()</a>, <a class="el" href="../../#l00577">Spell::GetCaster()</a>, <a class="el" href="../../#l00568">Spell::GetDelayMoment()</a>, <a class="el" href="../../#l00566">Spell::GetDelayStart()</a>, <a class="el" href="../../#l00485">Spell::getState()</a>, <a class="el" href="../../#l04180">Spell::handle_delayed()</a>, <a class="el" href="../../#l00562">Spell::IsDeletable()</a>, <a class="el" href="../../#l00642">WorldObject::m_Events</a>, <a class="el" href="../../#l00529">m_Spell</a>, <a class="el" href="../../#l00567">Spell::SetDelayStart()</a>, <a class="el" href="../../#l00231">SPELL_STATE_DELAYED</a>, <a class="el" href="../../#l00229">SPELL_STATE_FINISHED</a>, and <a class="el" href="../../#l04406">Spell::update()</a>.</p>
 
 </div>
 </div>
-<a id="a12f65757f20436b02b7aa00bb1682c8e" name="a12f65757f20436b02b7aa00bb1682c8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12f65757f20436b02b7aa00bb1682c8e">&#9670;&#160;</a></span>SpellDestination() <span class="overload">[3/4]</span></h2>
+<a id="a2ecd9b31bacc717cc509eb9bb69c3cb3" name="a2ecd9b31bacc717cc509eb9bb69c3cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2ecd9b31bacc717cc509eb9bb69c3cb3">&#9670;&#160;</a></span>IsDeletable()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellDestination::SpellDestination </td>
+          <td class="memname">bool SpellEvent::IsDeletable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   81</span>{</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(pos);</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(0, 0, 0, 0);</div>
-<div class="line"><span class="lineno">   84</span>}</div>
+
+<p>Reimplemented from <a class="el" href="../../dd/d9e/a05378.html#a62c0483af9fd1885e779cf088a50eb02">BasicEvent</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 8216</span>{</div>
+<div class="line"><span class="lineno"> 8217</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d3/d26/a10818.html#a22cce1d722f5086932ae3e97c58d2921">m_Spell</a>-&gt;<a class="code hl_function" href="../../d5/d56/a10846.html#a6032f8f164df1d6fc2607e4ca5c35ce5">IsDeletable</a>();</div>
+<div class="line"><span class="lineno"> 8218</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00107">_transportOffset</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
-
-</div>
-</div>
-<a id="a7b8949fa80249aee8bebc56620ec746c" name="a7b8949fa80249aee8bebc56620ec746c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b8949fa80249aee8bebc56620ec746c">&#9670;&#160;</a></span>SpellDestination() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">SpellDestination::SpellDestination </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const &amp;&#160;</td>
-          <td class="paramname"><em>wObj</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#ad3456cf591eb32a5dd390ffbb7b27387">_transportGUID</a> = wObj.GetTransGUID();</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(wObj.GetTransOffsetX(), wObj.GetTransOffsetY(), wObj.GetTransOffsetZ(), wObj.GetTransOffsetO());</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(wObj);</div>
-<div class="line"><span class="lineno">   91</span>}</div>
-<div class="ttc" id="aa10818_html_ad3456cf591eb32a5dd390ffbb7b27387"><div class="ttname"><a href="../../d3/d26/a10818.html#ad3456cf591eb32a5dd390ffbb7b27387">SpellDestination::_transportGUID</a></div><div class="ttdeci">ObjectGuid _transportGUID</div><div class="ttdef"><b>Definition:</b> Spell.h:106</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00106">_transportGUID</a>, <a class="el" href="../../#l00107">_transportOffset</a>, <a class="el" href="../../#l03112">WorldObject::GetTransGUID()</a>, <a class="el" href="../../#l00603">WorldObject::GetTransOffsetO()</a>, <a class="el" href="../../#l00600">WorldObject::GetTransOffsetX()</a>, <a class="el" href="../../#l00601">WorldObject::GetTransOffsetY()</a>, <a class="el" href="../../#l00602">WorldObject::GetTransOffsetZ()</a>, and <a class="el" href="../../#l00072">Position::Relocate()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab565861d5013130639013e3c4d22d712" name="ab565861d5013130639013e3c4d22d712"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab565861d5013130639013e3c4d22d712">&#9670;&#160;</a></span>Relocate()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SpellDestination::Relocate </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
-<div class="line"><span class="lineno">   95</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#ad3456cf591eb32a5dd390ffbb7b27387">_transportGUID</a>)</div>
-<div class="line"><span class="lineno">   96</span>    {</div>
-<div class="line"><span class="lineno">   97</span>        <a class="code hl_struct" href="../../d6/dc8/a08226.html">Position</a> offset;</div>
-<div class="line"><span class="lineno">   98</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#a8ee8107a73650fef4b958f2df1ebb53a">GetPositionOffsetTo</a>(pos, offset);</div>
-<div class="line"><span class="lineno">   99</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#a1ee5670db2621e59adf12c225e726cd7">RelocateOffset</a>(offset);</div>
-<div class="line"><span class="lineno">  100</span>    }</div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#afdbf0a257fcd7a48066fd92c4eacae3b">Relocate</a>(pos);</div>
-<div class="line"><span class="lineno">  102</span>}</div>
-<div class="ttc" id="aa08226_html"><div class="ttname"><a href="../../d6/dc8/a08226.html">Position</a></div><div class="ttdef"><b>Definition:</b> Position.h:27</div></div>
-<div class="ttc" id="aa08226_html_a1ee5670db2621e59adf12c225e726cd7"><div class="ttname"><a href="../../d6/dc8/a08226.html#a1ee5670db2621e59adf12c225e726cd7">Position::RelocateOffset</a></div><div class="ttdeci">void RelocateOffset(const Position &amp;offset)</div><div class="ttdef"><b>Definition:</b> Position.cpp:59</div></div>
-<div class="ttc" id="aa08226_html_a8ee8107a73650fef4b958f2df1ebb53a"><div class="ttname"><a href="../../d6/dc8/a08226.html#a8ee8107a73650fef4b958f2df1ebb53a">Position::GetPositionOffsetTo</a></div><div class="ttdeci">void GetPositionOffsetTo(const Position &amp;endPos, Position &amp;retOffset) const</div><div class="ttdef"><b>Definition:</b> Position.cpp:67</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00106">_transportGUID</a>, <a class="el" href="../../#l00107">_transportOffset</a>, <a class="el" href="../../#l00067">Position::GetPositionOffsetTo()</a>, <a class="el" href="../../#l00072">Position::Relocate()</a>, and <a class="el" href="../../#l00059">Position::RelocateOffset()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00994">spell_gen_random_target32::ModDest()</a>, <a class="el" href="../../#l02154">spell_q12308_escape_from_silverbrook_summon_worgen::ModDest()</a>, <a class="el" href="../../#l00436">SpellCastTargets::ModDst()</a>, <a class="el" href="../../#l00385">SpellCastTargets::ModSrc()</a>, <a class="el" href="../../#l01346">Spell::SelectImplicitCasterDestTargets()</a>, <a class="el" href="../../#l01721">Spell::SelectImplicitDestDestTargets()</a>, <a class="el" href="../../#l01684">Spell::SelectImplicitTargetDestTargets()</a>, <a class="el" href="../../#l01870">Spell::SelectImplicitTrajTargets()</a>, <a class="el" href="../../#l00235">spell_mother_shahraz_fatal_attraction::SetDest()</a>, <a class="el" href="../../#l00210">spell_q10898_skywing::SetDest()</a>, <a class="el" href="../../#l02049">spell_spawn_blood_pool::SetDest()</a>, <a class="el" href="../../#l01060">spell_item_dragon_kite_summon_lightning_bunny::SetDest()</a>, and <a class="el" href="../../#l03646">spell_item_recall::SetDest()</a>.</p>
-
-</div>
-</div>
-<a id="a0bf1d731787bfed47b593d8cb4943f2a" name="a0bf1d731787bfed47b593d8cb4943f2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0bf1d731787bfed47b593d8cb4943f2a">&#9670;&#160;</a></span>RelocateOffset()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SpellDestination::RelocateOffset </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dc8/a08226.html">Position</a> const &amp;&#160;</td>
-          <td class="paramname"><em>offset</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  105</span>{</div>
-<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d26/a10818.html#ad3456cf591eb32a5dd390ffbb7b27387">_transportGUID</a>)</div>
-<div class="line"><span class="lineno">  107</span>        <a class="code hl_variable" href="../../d3/d26/a10818.html#a52f0f9f741985bb4d78289145fe66ba0">_transportOffset</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#a1ee5670db2621e59adf12c225e726cd7">RelocateOffset</a>(offset);</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_variable" href="../../d3/d26/a10818.html#a6c4587b85e295d86f3479e4feeb662e5">_position</a>.<a class="code hl_function" href="../../d6/dc8/a08226.html#a1ee5670db2621e59adf12c225e726cd7">RelocateOffset</a>(offset);</div>
-<div class="line"><span class="lineno">  110</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00105">_position</a>, <a class="el" href="../../#l00106">_transportGUID</a>, <a class="el" href="../../#l00107">_transportOffset</a>, and <a class="el" href="../../#l00059">Position::RelocateOffset()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00695">spell_random_lightning_visual_effect::ModDestHeight()</a>, <a class="el" href="../../#l00858">spell_midsummer_ribbon_pole_firework::PrepareSpellScript()</a>, <a class="el" href="../../#l01098">spell_kiljaeden_armageddon_missile::SetDest()</a>, <a class="el" href="../../#l00694">spell_oculus_call_ruby_emerald_amber_drake::SetDest()</a>, <a class="el" href="../../#l00872">spell_call_wintergarde_gryphon::SetDest()</a>, <a class="el" href="../../#l00523">spell_shade_of_akama_akama_soul_expel::SetDest()</a>, <a class="el" href="../../#l01782">spell_calling_korkron_or_wildhammer::SetDest()</a>, <a class="el" href="../../#l00043">spell_q10930_big_bone_worm::SetDest()</a>, <a class="el" href="../../#l00082">spell_q10929_fumping::SetDest()</a>, <a class="el" href="../../#l00193">spell_q10923_evil_draws_near_visual::SetDest()</a>, <a class="el" href="../../#l00210">spell_q10898_skywing::SetDest()</a>, <a class="el" href="../../#l01060">spell_item_dragon_kite_summon_lightning_bunny::SetDest()</a>, <a class="el" href="../../#l01913">spell_q12661_q12669_q12676_q12677_q12713_summon_stefan::SetDest()</a>, and <a class="el" href="../../#l01990">spell_q13291_q13292_q13239_q13261_armored_decoy_summon_skytalon::SetDest()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00562">Spell::IsDeletable()</a>, and <a class="el" href="../../#l00529">m_Spell</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6c4587b85e295d86f3479e4feeb662e5" name="a6c4587b85e295d86f3479e4feeb662e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c4587b85e295d86f3479e4feeb662e5">&#9670;&#160;</a></span>_position</h2>
+<a id="a22cce1d722f5086932ae3e97c58d2921" name="a22cce1d722f5086932ae3e97c58d2921"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a22cce1d722f5086932ae3e97c58d2921">&#9670;&#160;</a></span>m_Spell</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/dfb/a08242.html">WorldLocation</a> SpellDestination::_position</td>
+          <td class="memname"><a class="el" href="../../d5/d56/a10846.html">Spell</a>* SpellEvent::m_Spell</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00175">SpellCastTargets::GetDist2d()</a>, <a class="el" href="../../#l00401">SpellCastTargets::GetDstPos()</a>, <a class="el" href="../../#l00362">SpellCastTargets::GetSrcPos()</a>, <a class="el" href="../../#l05632">Spell::HandleEffects()</a>, <a class="el" href="../../#l00469">SpellCastTargets::HasDstChannel()</a>, <a class="el" href="../../#l04745">spell_gen_basic_campfire::ModDest()</a>, <a class="el" href="../../#l00532">SpellCastTargets::OutDebug()</a>, <a class="el" href="../../#l00126">SpellCastTargets::Read()</a>, <a class="el" href="../../#l00093">Relocate()</a>, <a class="el" href="../../#l00104">RelocateOffset()</a>, <a class="el" href="../../#l01346">Spell::SelectImplicitCasterDestTargets()</a>, <a class="el" href="../../#l01721">Spell::SelectImplicitDestDestTargets()</a>, <a class="el" href="../../#l01684">Spell::SelectImplicitTargetDestTargets()</a>, <a class="el" href="../../#l00532">spell_prince_taldaram_flame_sphere_summon::SetDest()</a>, <a class="el" href="../../#l00287">spell_azjol_nerub_impale_summon::SetDest()</a>, <a class="el" href="../../#l01658">spell_blood_council_summon_shadow_resonance::SetDest()</a>, <a class="el" href="../../#l00446">spell_dk_summon_gargoyle::SetDest()</a>, <a class="el" href="../../#l00067">SpellDestination()</a>, <a class="el" href="../../#l00479">SpellCastTargets::Update()</a>, <a class="el" href="../../#l07866">Spell::UpdatePointers()</a>, and <a class="el" href="../../#l00179">SpellCastTargets::Write()</a>.</p>
-
-</div>
-</div>
-<a id="ad3456cf591eb32a5dd390ffbb7b27387" name="ad3456cf591eb32a5dd390ffbb7b27387"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad3456cf591eb32a5dd390ffbb7b27387">&#9670;&#160;</a></span>_transportGUID</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> SpellDestination::_transportGUID</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00532">SpellCastTargets::OutDebug()</a>, <a class="el" href="../../#l00126">SpellCastTargets::Read()</a>, <a class="el" href="../../#l00093">Relocate()</a>, <a class="el" href="../../#l00104">RelocateOffset()</a>, <a class="el" href="../../#l00086">SpellDestination()</a>, <a class="el" href="../../#l00479">SpellCastTargets::Update()</a>, <a class="el" href="../../#l07866">Spell::UpdatePointers()</a>, and <a class="el" href="../../#l00179">SpellCastTargets::Write()</a>.</p>
-
-</div>
-</div>
-<a id="a52f0f9f741985bb4d78289145fe66ba0" name="a52f0f9f741985bb4d78289145fe66ba0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52f0f9f741985bb4d78289145fe66ba0">&#9670;&#160;</a></span>_transportOffset</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/dc8/a08226.html">Position</a> SpellDestination::_transportOffset</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00532">SpellCastTargets::OutDebug()</a>, <a class="el" href="../../#l00126">SpellCastTargets::Read()</a>, <a class="el" href="../../#l00093">Relocate()</a>, <a class="el" href="../../#l00104">RelocateOffset()</a>, <a class="el" href="../../#l00067">SpellDestination()</a>, <a class="el" href="../../#l00479">SpellCastTargets::Update()</a>, <a class="el" href="../../#l07866">Spell::UpdatePointers()</a>, and <a class="el" href="../../#l00179">SpellCastTargets::Write()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l08208">Abort()</a>, <a class="el" href="../../#l08145">Execute()</a>, <a class="el" href="../../#l08215">IsDeletable()</a>, <a class="el" href="../../#l08123">SpellEvent()</a>, and <a class="el" href="../../#l08128">~SpellEvent()</a>.</p>
 
 </div>
 </div>
@@ -387,8 +434,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/d26/a10818.html">SpellDestination</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:52 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d3/d26/a10818.html">SpellEvent</a></li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:44:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

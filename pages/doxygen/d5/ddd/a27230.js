@@ -1,8 +1,7 @@
 var a27230 =
 [
-    [ "npc_wormholeAI", "da/d05/a27234.html", "da/d05/a27234" ],
-    [ "npc_wormhole", "d5/ddd/a27230.html#aeace4cbf665409786b86140709191cb0", null ],
-    [ "GetAI", "d5/ddd/a27230.html#af43ec809ce2efe2cd7127029f3c3ec45", null ],
-    [ "OnGossipHello", "d5/ddd/a27230.html#a6ae1a84557f8dc0f0631b9cc7e88d78e", null ],
-    [ "OnGossipSelect", "d5/ddd/a27230.html#a73e441bf05f8a4ea7f57d767945e2d5d", null ]
+    [ "npc_steam_tonkAI", "d5/ddd/a27230.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "d5/ddd/a27230.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "d5/ddd/a27230.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "d5/ddd/a27230.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

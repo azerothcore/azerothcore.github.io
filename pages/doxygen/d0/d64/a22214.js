@@ -1,12 +1,14 @@
 var a22214 =
 [
-    [ "OPvPCapturePointZM_Beacon", "d0/d64/a22214.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
-    [ "ChangeState", "d0/d64/a22214.html#a5bbe87c18c814358596a9648fd92b129", null ],
-    [ "FillInitialWorldStates", "d0/d64/a22214.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
-    [ "HandlePlayerEnter", "d0/d64/a22214.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
-    [ "HandlePlayerLeave", "d0/d64/a22214.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
-    [ "SendChangePhase", "d0/d64/a22214.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
-    [ "UpdateTowerState", "d0/d64/a22214.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
-    [ "m_TowerState", "d0/d64/a22214.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
-    [ "m_TowerType", "d0/d64/a22214.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
+    [ "event_enter", "d0/d64/a22214.html#ac80d575f14dca1c901be55e34cc690e1", null ],
+    [ "event_leave", "d0/d64/a22214.html#a3dc0a11a5c06079026d27852e7561b74", null ],
+    [ "map_tower_a", "d0/d64/a22214.html#a9a65209caac3791b835c1920f5a667cf", null ],
+    [ "map_tower_h", "d0/d64/a22214.html#aa30ae484db7c69137abb13adb1b3c505", null ],
+    [ "map_tower_n", "d0/d64/a22214.html#a0453edceab2132e900bec183e360e210", null ],
+    [ "slider_disp", "d0/d64/a22214.html#aec3c8dde769675e3f436515c7a3bcf24", null ],
+    [ "slider_n", "d0/d64/a22214.html#a65015a3a24a5554643ecb5da47e24eea", null ],
+    [ "slider_pos", "d0/d64/a22214.html#acc63481f7613242ac06c6bee6c136a30", null ],
+    [ "ui_tower_a", "d0/d64/a22214.html#a0107bfd3b1df99568e02d6ca80042c86", null ],
+    [ "ui_tower_h", "d0/d64/a22214.html#a94a5fa0517fd0713b74f50a3d1d627cc", null ],
+    [ "ui_tower_n", "d0/d64/a22214.html#ae0fd99db88e6c60b829a18ff8e4be9a0", null ]
 ];

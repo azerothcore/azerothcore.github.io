@@ -1,5 +1,6 @@
 var a15110 =
 [
-    [ "at_ancient_leaf", "d0/ddd/a15110.html#a7c1913b5ac00659697d0b361f1a7a2fd", null ],
-    [ "OnTrigger", "d0/ddd/a15110.html#a6d3a2775216cb0c864dc21f5bb5dbc79", null ]
+    [ "npcs_riverbreeze_and_silversky", "d0/ddd/a15110.html#a9f012d5bbaa8b9f9822ddfbd86e7c4b2", null ],
+    [ "OnGossipHello", "d0/ddd/a15110.html#a7de032322a37f929c316aadfdadda768", null ],
+    [ "OnGossipSelect", "d0/ddd/a15110.html#a93c7b159dda733da5030de747bad30b5", null ]
 ];

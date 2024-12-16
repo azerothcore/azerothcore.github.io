@@ -1,7 +1,7 @@
 var a21590 =
 [
-    [ "HandleAfterEffectApply", "de/d7a/a21590.html#ab54795dc49ca453db40494a694158a98", null ],
-    [ "PrepareAuraScript", "de/d7a/a21590.html#a3e5902a79b9d2c5cad69ad2ece8592ec", null ],
-    [ "Register", "de/d7a/a21590.html#addd4fac4cc8a93d800abacb144e3303c", null ],
-    [ "Validate", "de/d7a/a21590.html#a3ee65a1391c340e471adfc7ac653dd50", null ]
+    [ "HandleScript", "de/d7a/a21590.html#a95de3ae27cfd764380ab1648b49af38d", null ],
+    [ "Load", "de/d7a/a21590.html#a1aafe141985bc1e9c5b9467d4896d96b", null ],
+    [ "PrepareSpellScript", "de/d7a/a21590.html#a442138710213b9b120d8ce57b733205a", null ],
+    [ "Register", "de/d7a/a21590.html#af9d8f764a6a02737f8b559f067156df6", null ]
 ];

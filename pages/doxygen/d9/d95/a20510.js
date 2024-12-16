@@ -1,6 +1,6 @@
 var a20510 =
 [
-    [ "boss_yoggsaron_immortal_guardianAI", "da/db9/a20514.html", "da/db9/a20514" ],
-    [ "boss_yoggsaron_immortal_guardian", "d9/d95/a20510.html#a4009759d284b54cb958ee0bb80c45f14", null ],
-    [ "GetAI", "d9/d95/a20510.html#ac532ca090d93ce6d11a0332329111f2b", null ]
+    [ "boss_yoggsaron_influence_tentacleAI", "d9/d95/a20510.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
+    [ "DamageTaken", "d9/d95/a20510.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
+    [ "JustDied", "d9/d95/a20510.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
 ];

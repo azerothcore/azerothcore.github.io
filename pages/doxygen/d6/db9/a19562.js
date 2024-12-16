@@ -1,6 +1,8 @@
 var a19562 =
 [
-    [ "npc_storm_beacon_spawnAI", "d6/df4/a19566.html", "d6/df4/a19566" ],
-    [ "npc_storm_beacon_spawn", "d6/db9/a19562.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
-    [ "GetAI", "d6/db9/a19562.html#a780dd823962e259dbeda7089224aa23e", null ]
+    [ "npc_brann_radioAI", "d6/db9/a19562.html#a329ca0310efe109f7fb364045f6eccbb", null ],
+    [ "MoveInLineOfSight", "d6/db9/a19562.html#ad119431edd6f632b4c44fc4e8708d375", null ],
+    [ "Reset", "d6/db9/a19562.html#a89183942dcb38f48de1867bfbce15721", null ],
+    [ "_helpLock", "d6/db9/a19562.html#ae927b6c8143cfb029ab6574d10dde60e", null ],
+    [ "_lock", "d6/db9/a19562.html#a421cfd2b8b149a0f3ea5bc2262ba6bac", null ]
 ];

@@ -1,7 +1,7 @@
 var a24930 =
 [
-    [ "HandleDummy", "d7/ddd/a24930.html#a704a2f1c36b32809b22bc3edc87b3414", null ],
-    [ "PrepareSpellScript", "d7/ddd/a24930.html#aad01f2888176e8a555fe7acd1bc3fd8b", null ],
-    [ "Register", "d7/ddd/a24930.html#ae12fa2b2f9859b465a64fbec04345c9e", null ],
-    [ "Validate", "d7/ddd/a24930.html#ad4bb369ef46122cd45c38d876884d350", null ]
+    [ "HandleDamage", "d7/ddd/a24930.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
+    [ "PrepareSpellScript", "d7/ddd/a24930.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
+    [ "Register", "d7/ddd/a24930.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
+    [ "Validate", "d7/ddd/a24930.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
 ];

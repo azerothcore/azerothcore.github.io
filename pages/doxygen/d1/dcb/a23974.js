@@ -1,8 +1,10 @@
 var a23974 =
 [
-    [ "go_skull_pile", "d1/dcb/a23974.html#a9cf8dfef432c4967c60f66e645585770", null ],
-    [ "OnGossipHello", "d1/dcb/a23974.html#ac95d39ea03e78fee2a10603d8c7f8840", null ],
-    [ "OnGossipSelect", "d1/dcb/a23974.html#afb8e8db2705355e975fa48c98e09f20b", null ],
-    [ "SendActionMenu", "d1/dcb/a23974.html#a048dd224b46ead864958ad524d76167f", null ],
-    [ "_result", "d1/dcb/a23974.html#af74fcd75404c0886128401d661067394", null ]
+    [ "npc_isla_starmaneAI", "d1/dcb/a23974.html#a0cb655d324ddde173dcfdee069c0f694", null ],
+    [ "JustDied", "d1/dcb/a23974.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
+    [ "JustEngagedWith", "d1/dcb/a23974.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
+    [ "JustRespawned", "d1/dcb/a23974.html#a69b395a9b9504737109870c5e8db74c8", null ],
+    [ "UpdateEscortAI", "d1/dcb/a23974.html#af4b8c80e7443bb671be253238b124910", null ],
+    [ "WaypointReached", "d1/dcb/a23974.html#a5d00583afa4e811e4f3cb8400787a990", null ],
+    [ "events", "d1/dcb/a23974.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
 ];

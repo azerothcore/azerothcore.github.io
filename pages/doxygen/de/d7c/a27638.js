@@ -1,7 +1,9 @@
 var a27638 =
 [
-    [ "Class", "de/d7c/a27638.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
-    [ "Gender", "de/d7c/a27638.html#aba6251a7020c6e66b9fc7a21859df271", null ],
-    [ "ItemId", "de/d7c/a27638.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
-    [ "Race", "de/d7c/a27638.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
+    [ "HolidayWorldStateId", "de/d7c/a27638.html#a3f70ffbb1abb5a96fe91c2eec3682c8b", null ],
+    [ "id", "de/d7c/a27638.html#a52f7840f9247d2af63062dd280b37341", null ],
+    [ "mapid", "de/d7c/a27638.html#a11e1326eeb24b436b10db53acc323c13", null ],
+    [ "maxGroupSize", "de/d7c/a27638.html#adbdae47b424c3b61b76b48ea5798f52d", null ],
+    [ "name", "de/d7c/a27638.html#a9a56ca930ff8425d4b77066e47a1e09f", null ],
+    [ "type", "de/d7c/a27638.html#a647669b97599d7edf02b5a38dd1d5116", null ]
 ];

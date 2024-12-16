@@ -1,6 +1,8 @@
 var a24406 =
 [
-    [ "FilterTargets", "dd/dc8/a24406.html#ac01bb4bac4f041318937cfc09ed603cd", null ],
-    [ "PrepareSpellScript", "dd/dc8/a24406.html#a3eb1d8c26653477bed5b7ae0c69b34e9", null ],
-    [ "Register", "dd/dc8/a24406.html#a658a476f5c2229715a8949aa6ba4f99c", null ]
+    [ "AfterApply", "dd/dc8/a24406.html#a4d2941ebb326d603ac08f428f811c29b", null ],
+    [ "AfterRemove", "dd/dc8/a24406.html#ac1e50413041edbecd5cc4189a1121cb5", null ],
+    [ "PrepareAuraScript", "dd/dc8/a24406.html#afa99d3e45e4a54c41b59ec317ffdd9b9", null ],
+    [ "Register", "dd/dc8/a24406.html#a78e30a950b9fc08dff5072028816b8b4", null ],
+    [ "Validate", "dd/dc8/a24406.html#ac3502abb9d6ef213ffd2413eba7916b2", null ]
 ];

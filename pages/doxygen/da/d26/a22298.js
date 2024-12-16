@@ -1,5 +1,6 @@
 var a22298 =
 [
-    [ "instance_sethekk_halls_InstanceMapScript", "da/d26/a22298.html#a037ee225b626b64436570680ae4e9ea0", null ],
-    [ "ProcessEvent", "da/d26/a22298.html#aba05b0edb57e6c42bd45593a51598365", null ]
+    [ "instance_sethekk_halls_InstanceMapScript", "d5/d5f/a22302.html", "d5/d5f/a22302" ],
+    [ "instance_sethekk_halls", "da/d26/a22298.html#ab50d296266cf377bfb34750ec36963ef", null ],
+    [ "GetInstanceScript", "da/d26/a22298.html#adc07afe1aa8132f70474f9a534ecb76c", null ]
 ];

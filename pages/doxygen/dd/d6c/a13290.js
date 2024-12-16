@@ -1,6 +1,7 @@
 var a13290 =
 [
-    [ "npc_corporal_keeshanAI", "d3/d90/a13294.html", "d3/d90/a13294" ],
-    [ "npc_corporal_keeshan", "dd/d6c/a13290.html#a0ca9459a7f283e040f14e0052762f587", null ],
-    [ "GetAI", "dd/d6c/a13290.html#a2cc19f28dea9ea8597648339a160d1bc", null ]
+    [ "npc_greengill_slaveAI", "dd/d6c/a13290.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
+    [ "JustEngagedWith", "dd/d6c/a13290.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
+    [ "SpellHit", "dd/d6c/a13290.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
+    [ "UpdateAI", "dd/d6c/a13290.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
 ];

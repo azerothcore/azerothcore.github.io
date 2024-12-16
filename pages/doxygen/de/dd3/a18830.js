@@ -1,6 +1,5 @@
 var a18830 =
 [
-    [ "instance_naxxramas_InstanceMapScript", "d2/dc0/a18834.html", "d2/dc0/a18834" ],
-    [ "instance_naxxramas", "de/dd3/a18830.html#a9d4b57f9f0f7a44565bb8d9bd3aa24a1", null ],
-    [ "GetInstanceScript", "de/dd3/a18830.html#ac5dd8d591af2239faab17727eb1ef66e", null ]
+    [ "at_thaddius_entrance", "de/dd3/a18830.html#ad81a60cac337baad82ea526de1d151d1", null ],
+    [ "OnTrigger", "de/dd3/a18830.html#af8635a58d4da0421b72b4451c1ebafc5", null ]
 ];

@@ -1,6 +1,8 @@
 var a14978 =
 [
-    [ "npc_stillpine_capitiveAI", "dd/dd1/a14982.html", "dd/dd1/a14982" ],
-    [ "npc_stillpine_capitive", "d9/d6e/a14978.html#a6c9ce06ffe8cafaea2f428ba610d6964", null ],
-    [ "GetAI", "d9/d6e/a14978.html#ad1d81ae43d3c417b8817da61afef4e4b", null ]
+    [ "npc_death_ravagerAI", "d9/d6e/a14978.html#ad18242b078db0883029537562a41cc20", null ],
+    [ "Reset", "d9/d6e/a14978.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
+    [ "UpdateAI", "d9/d6e/a14978.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
+    [ "EnragingBiteTimer", "d9/d6e/a14978.html#af33898ebd9bea6b1a58b673373de3c64", null ],
+    [ "RendTimer", "d9/d6e/a14978.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
 ];

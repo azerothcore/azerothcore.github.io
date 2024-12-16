@@ -1,7 +1,7 @@
 var a18326 =
 [
-    [ "HandleEvent", "dc/df9/a18326.html#a7aea0f5c4cd3765a8266e5478322910b", null ],
-    [ "PrepareSpellScript", "dc/df9/a18326.html#a2e59f7f9eb67790c59c2e94cf877b4f3", null ],
-    [ "Register", "dc/df9/a18326.html#a96c6a479141f765b9c0f96b5f148a428", null ],
-    [ "Validate", "dc/df9/a18326.html#aa86d2cea5cb41b1e0a86248d95b5bfdb", null ]
+    [ "OnApply", "dc/df9/a18326.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
+    [ "OnRemove", "dc/df9/a18326.html#a697a7c76f944b5df956a9de07746b7a9", null ],
+    [ "PrepareAuraScript", "dc/df9/a18326.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
+    [ "Register", "dc/df9/a18326.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
 ];

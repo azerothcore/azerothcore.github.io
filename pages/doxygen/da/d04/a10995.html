@@ -104,21 +104,32 @@ $(document).ready(function(){initNavTree('d3/d24/a10998.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">SpellScript::BeforeHitHandler Member List</div></div>
+  <div class="headertitle"><div class="title">SpellScript::EffectHandler Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d3/d24/a10998.html">SpellScript::BeforeHitHandler</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#acecb7a8844155ff6eeb3f09582d7a475">_pBeforeHitHandlerScript</a></td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::BeforeHitHandler</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a0c2f048fc10f408a299a8b537ad7551d">BeforeHitHandler</a>(SpellBeforeHitFnType pBeforeHitHandlerScript)</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::BeforeHitHandler</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a393057cca72c41e193508bf150ed0b1f">Call</a>(SpellScript *spellScript, SpellMissInfo missInfo)</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::BeforeHitHandler</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a7696d64688fa8b10cd58220fdd5fa5ba">Call</a>(SpellScript *spellScript, SpellEffIndex effIndex)</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../df/d17/a10978.html#a729d7f07669dedec50f009a87b8f32a4">Check</a>(SpellInfo const *spellInfo, uint8 effIndex)</td><td class="entry"><a class="el" href="../../df/d17/a10978.html">_SpellScript::EffectNameCheck</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a8eeff14be65159b6f9a88b04abe14e8b">CheckEffect</a>(SpellInfo const *spellInfo, uint8 effIndex) override</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a></td><td class="entry"><span class="mlabel">virtual</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#aebdff9758b3ec51a75220be43b0d7b44">EffectHandler</a>(SpellEffectFnType _pEffectHandlerScript, uint8 _effIndex, uint16 _effName)</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#a4a197e061d918dfba2bc486f3393b00d">EffectHook</a>(uint8 _effIndex)</td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../df/d17/a10978.html#aa82307388bdda7864bb085a349b63f29">EffectNameCheck</a>(uint16 _effName)</td><td class="entry"><a class="el" href="../../df/d17/a10978.html">_SpellScript::EffectNameCheck</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"><span class="mlabel">protected</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a>()</td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../df/d17/a10978.html#a905224fb028ea0eab350773b7230f871">effName</a></td><td class="entry"><a class="el" href="../../df/d17/a10978.html">_SpellScript::EffectNameCheck</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#a31faa86590e22f5ab3ca518f4df02840">GetAffectedEffectsMask</a>(SpellInfo const *spellInfo)</td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#a697041ffa562bb6fff792beb159c7af2">IsEffectAffected</a>(SpellInfo const *spellInfo, uint8 effIndex)</td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a88fbf00b2e35c462423ddeff55ac3dee">pEffectHandlerScript</a></td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d3/d24/a10998.html#a5b583dc87f0146f06c9a38a5db92f4fb">ToString</a>()</td><td class="entry"><a class="el" href="../../d3/d24/a10998.html">SpellScript::EffectHandler</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d9/d49/a10974.html#aa234f63b530764d12064acbe3f5c9299">~EffectHook</a>()</td><td class="entry"><a class="el" href="../../d9/d49/a10974.html">_SpellScript::EffectHook</a></td><td class="entry"><span class="mlabel">inline</span><span class="mlabel">virtual</span></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:53 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:44:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

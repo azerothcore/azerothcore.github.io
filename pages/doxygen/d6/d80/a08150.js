@@ -53,6 +53,7 @@ var a08150 =
     [ "HasFlag64", "d6/d80/a08150.html#aebc9abb8dc78d8184bfbc5cd2a23eff0", null ],
     [ "hasInvolvedQuest", "d6/d80/a08150.html#ada61cb59931e3c02624a63161997bf20", null ],
     [ "hasQuest", "d6/d80/a08150.html#a5a39e4cde00448cc3a6eaeaee139c749", null ],
+    [ "Heartbeat", "d6/d80/a08150.html#af0930b68d7e83e9200e110722d012aa0", null ],
     [ "IsCorpse", "d6/d80/a08150.html#a4fa288b272e9ae7e10a3d7cf1e5fb29f", null ],
     [ "IsCreature", "d6/d80/a08150.html#aacc8ee332f66effdc0d77c126dae1961", null ],
     [ "IsDynamicObject", "d6/d80/a08150.html#ae4c76bc345c6067c152aaf0fb9f91957", null ],

@@ -1,8 +1,11 @@
 var a11734 =
 [
-    [ "CheckProc", "d5/d44/a11734.html#a08e84f2b2ff25ed7e260e61251f9cdb9", null ],
-    [ "HandleProc", "d5/d44/a11734.html#afd3d4786f739566056b69390553d9c71", null ],
-    [ "PrepareAuraScript", "d5/d44/a11734.html#a3ba84d4fd311a91efa685980ffec8d77", null ],
-    [ "Register", "d5/d44/a11734.html#aa36a2e10a6fd67fa74d08e20dc806744", null ],
-    [ "Validate", "d5/d44/a11734.html#aeff8b89300bb5d3589a46a4f66cfd77d", null ]
+    [ "boss_gythAI", "d5/d44/a11734.html#aeec049af24b3a6f94051f1008ce107e6", null ],
+    [ "EnterEvadeMode", "d5/d44/a11734.html#a20296c618ad366d7ac956f16671cc408", null ],
+    [ "IsSummonedBy", "d5/d44/a11734.html#a6800421a2e9e889e649e792ee642d8ac", null ],
+    [ "JustDied", "d5/d44/a11734.html#a979da1f3922d9575b6c237b85952fb6c", null ],
+    [ "JustEngagedWith", "d5/d44/a11734.html#a6c0ca15d87851c205d94679ea65e5193", null ],
+    [ "JustSummoned", "d5/d44/a11734.html#ab9024ce261129c82d4304d2a13834a5f", null ],
+    [ "Reset", "d5/d44/a11734.html#aa3c86b403af5394a4e4cb30781bcb46b", null ],
+    [ "UpdateAI", "d5/d44/a11734.html#a66f27f6d49b40dcc2894f177b281570f", null ]
 ];

@@ -460,16 +460,16 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   94</span>            <span class="keywordflow">continue</span>;</div>
 <div class="line"><span class="lineno">   95</span> </div>
 <div class="line"><span class="lineno">   97</span>        std::string strOptionText, strBoxText;</div>
-<div class="line"><span class="lineno">   98</span>        <a class="code hl_struct" href="../../da/ddf/a08750.html">BroadcastText</a> <span class="keyword">const</span>* optionBroadcastText = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(itr-&gt;second.OptionBroadcastTextID);</div>
-<div class="line"><span class="lineno">   99</span>        <a class="code hl_struct" href="../../da/ddf/a08750.html">BroadcastText</a> <span class="keyword">const</span>* boxBroadcastText = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(itr-&gt;second.BoxBroadcastTextID);</div>
+<div class="line"><span class="lineno">   98</span>        <a class="code hl_struct" href="../../d1/d41/a08754.html">BroadcastText</a> <span class="keyword">const</span>* optionBroadcastText = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(itr-&gt;second.OptionBroadcastTextID);</div>
+<div class="line"><span class="lineno">   99</span>        <a class="code hl_struct" href="../../d1/d41/a08754.html">BroadcastText</a> <span class="keyword">const</span>* boxBroadcastText = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetBroadcastText(itr-&gt;second.BoxBroadcastTextID);</div>
 <div class="line"><span class="lineno">  100</span> </div>
 <div class="line"><span class="lineno">  102</span>        <span class="keywordflow">if</span> (optionBroadcastText)</div>
-<div class="line"><span class="lineno">  103</span>            <a class="code hl_function" href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(optionBroadcastText-&gt;<a class="code hl_variable" href="../../da/ddf/a08750.html#ab30526857fe7c7c945d84931ffa4c416">MaleText</a>, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strOptionText);</div>
+<div class="line"><span class="lineno">  103</span>            <a class="code hl_function" href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(optionBroadcastText-&gt;<a class="code hl_variable" href="../../d1/d41/a08754.html#ab30526857fe7c7c945d84931ffa4c416">MaleText</a>, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strOptionText);</div>
 <div class="line"><span class="lineno">  104</span>        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  105</span>            strOptionText = itr-&gt;second.OptionText;</div>
 <div class="line"><span class="lineno">  106</span> </div>
 <div class="line"><span class="lineno">  108</span>        <span class="keywordflow">if</span> (boxBroadcastText)</div>
-<div class="line"><span class="lineno">  109</span>            <a class="code hl_function" href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(boxBroadcastText-&gt;<a class="code hl_variable" href="../../da/ddf/a08750.html#ab30526857fe7c7c945d84931ffa4c416">MaleText</a>, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strBoxText);</div>
+<div class="line"><span class="lineno">  109</span>            <a class="code hl_function" href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(boxBroadcastText-&gt;<a class="code hl_variable" href="../../d1/d41/a08754.html#ab30526857fe7c7c945d84931ffa4c416">MaleText</a>, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strBoxText);</div>
 <div class="line"><span class="lineno">  110</span>        <span class="keywordflow">else</span></div>
 <div class="line"><span class="lineno">  111</span>            strBoxText = itr-&gt;second.BoxText;</div>
 <div class="line"><span class="lineno">  112</span> </div>
@@ -478,13 +478,13 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  116</span>            <span class="keywordflow">if</span> (!optionBroadcastText)</div>
 <div class="line"><span class="lineno">  117</span>            {</div>
 <div class="line"><span class="lineno">  119</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d6/d6e/a07818.html">GossipMenuItemsLocale</a> <span class="keyword">const</span>* gossipMenuLocale = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetGossipMenuItemsLocale(<a class="code hl_function" href="../../d2/d67/a03455.html#a16746aa380554e93891c528f8edf0df1">MAKE_PAIR32</a>(menuId, menuItemId)))</div>
-<div class="line"><span class="lineno">  120</span>                    <a class="code hl_function" href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(gossipMenuLocale-&gt;OptionText, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strOptionText);</div>
+<div class="line"><span class="lineno">  120</span>                    <a class="code hl_function" href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(gossipMenuLocale-&gt;OptionText, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strOptionText);</div>
 <div class="line"><span class="lineno">  121</span>            }</div>
 <div class="line"><span class="lineno">  122</span> </div>
 <div class="line"><span class="lineno">  123</span>            <span class="keywordflow">if</span> (!boxBroadcastText)</div>
 <div class="line"><span class="lineno">  124</span>            {</div>
 <div class="line"><span class="lineno">  126</span>                <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d6/d6e/a07818.html">GossipMenuItemsLocale</a> <span class="keyword">const</span>* gossipMenuLocale = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetGossipMenuItemsLocale(<a class="code hl_function" href="../../d2/d67/a03455.html#a16746aa380554e93891c528f8edf0df1">MAKE_PAIR32</a>(menuId, menuItemId)))</div>
-<div class="line"><span class="lineno">  127</span>                    <a class="code hl_function" href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(gossipMenuLocale-&gt;BoxText, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strBoxText);</div>
+<div class="line"><span class="lineno">  127</span>                    <a class="code hl_function" href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(gossipMenuLocale-&gt;BoxText, <a class="code hl_function" href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GetLocale</a>(), strBoxText);</div>
 <div class="line"><span class="lineno">  128</span>            }</div>
 <div class="line"><span class="lineno">  129</span>        }</div>
 <div class="line"><span class="lineno">  130</span> </div>
@@ -497,9 +497,9 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa07818_html"><div class="ttname"><a href="../../d6/d6e/a07818.html">GossipMenuItemsLocale</a></div><div class="ttdef"><b>Definition:</b> CreatureData.h:349</div></div>
 <div class="ttc" id="aa07890_html_a300a0ffdf513e3fc405028b72d9ad600"><div class="ttname"><a href="../../da/de7/a07890.html#a300a0ffdf513e3fc405028b72d9ad600">GossipMenu::GetLocale</a></div><div class="ttdeci">LocaleConstant GetLocale() const</div><div class="ttdef"><b>Definition:</b> GossipDef.h:174</div></div>
 <div class="ttc" id="aa07890_html_a47c99098962324ba20efb029df24fd3e"><div class="ttname"><a href="../../da/de7/a07890.html#a47c99098962324ba20efb029df24fd3e">GossipMenu::AddMenuItem</a></div><div class="ttdeci">void AddMenuItem(int32 menuItemId, uint8 icon, std::string const &amp;message, uint32 sender, uint32 action, std::string const &amp;boxMessage, uint32 boxMoney, bool coded=false)</div><div class="ttdef"><b>Definition:</b> GossipDef.cpp:41</div></div>
-<div class="ttc" id="aa08750_html"><div class="ttname"><a href="../../da/ddf/a08750.html">BroadcastText</a></div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:434</div></div>
-<div class="ttc" id="aa08750_html_ab30526857fe7c7c945d84931ffa4c416"><div class="ttname"><a href="../../da/ddf/a08750.html#ab30526857fe7c7c945d84931ffa4c416">BroadcastText::MaleText</a></div><div class="ttdeci">std::vector&lt; std::string &gt; MaleText</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:443</div></div>
-<div class="ttc" id="aa08818_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d3/d39/a08818.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1407</div></div>
+<div class="ttc" id="aa08754_html"><div class="ttname"><a href="../../d1/d41/a08754.html">BroadcastText</a></div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:434</div></div>
+<div class="ttc" id="aa08754_html_ab30526857fe7c7c945d84931ffa4c416"><div class="ttname"><a href="../../d1/d41/a08754.html#ab30526857fe7c7c945d84931ffa4c416">BroadcastText::MaleText</a></div><div class="ttdeci">std::vector&lt; std::string &gt; MaleText</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:443</div></div>
+<div class="ttc" id="aa08822_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../d9/db0/a08822.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1407</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00041">AddMenuItem()</a>, <a class="el" href="../../#l00079">DEFAULT_LOCALE</a>, <a class="el" href="../../#l00174">GetLocale()</a>, <a class="el" href="../../#l01407">ObjectMgr::GetLocaleString()</a>, <a class="el" href="../../#l00087">MAKE_PAIR32()</a>, <a class="el" href="../../#l00443">BroadcastText::MaleText</a>, and <a class="el" href="../../#l01635">sObjectMgr</a>.</p>
 
@@ -1097,7 +1097,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../da/de7/a07890.html">GossipMenu</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:03 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:43:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

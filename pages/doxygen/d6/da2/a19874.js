@@ -1,10 +1,7 @@
 var a19874 =
 [
-    [ "HandleEffectPeriodic", "d6/da2/a19874.html#aa62be73e00d9cb512806787eaf1c4144", null ],
-    [ "Load", "d6/da2/a19874.html#ab31989a4abd6b5cb08818b0e082c7d9f", null ],
-    [ "PrepareAuraScript", "d6/da2/a19874.html#ad9664bff267b330565d3c706e1752e9d", null ],
-    [ "Register", "d6/da2/a19874.html#ad971837f4f0da07b21271fb2b5ac1715", null ],
-    [ "Validate", "d6/da2/a19874.html#a3f6653b4ca202d9b0971189930e8b463", null ],
-    [ "_counter", "d6/da2/a19874.html#a3e7343f124b66a55d9a6cbf0ab085309", null ],
-    [ "_prev", "d6/da2/a19874.html#a9dd8f32c8ec709a14be15b46745b692b", null ]
+    [ "HandleEffectPeriodic", "d6/da2/a19874.html#a428d1251465cc9947e7474eab83494e3", null ],
+    [ "PrepareAuraScript", "d6/da2/a19874.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
+    [ "Register", "d6/da2/a19874.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
+    [ "Validate", "d6/da2/a19874.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
 ];

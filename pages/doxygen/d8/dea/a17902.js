@@ -1,7 +1,7 @@
 var a17902 =
 [
-    [ "CheckTargetCount", "d8/dea/a17902.html#a637ba0717ae0f6f736f5532ed65ca301", null ],
-    [ "PrepareSpellScript", "d8/dea/a17902.html#af560e5c4e985e9b139999f5ef618fe3c", null ],
-    [ "Register", "d8/dea/a17902.html#a86e7512496fd38201d458c03a7a60296", null ],
-    [ "Validate", "d8/dea/a17902.html#a744c4aa76387be4aa76a69fbcaa7932e", null ]
+    [ "CheckTargetCount", "d8/dea/a17902.html#a67a1cbbf74fe91a32a51d9ad5056f048", null ],
+    [ "PrepareSpellScript", "d8/dea/a17902.html#abd32198867e7f01b21b7de6224a597d4", null ],
+    [ "Register", "d8/dea/a17902.html#a671bede7fbc68085cd6075f412822869", null ],
+    [ "Validate", "d8/dea/a17902.html#a2f64421bb71988f06a7e2cb71a097d75", null ]
 ];

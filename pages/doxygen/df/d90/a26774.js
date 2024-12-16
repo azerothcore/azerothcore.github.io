@@ -1,7 +1,15 @@
 var a26774 =
 [
-    [ "FilterTargets", "df/d90/a26774.html#a5ee420ce696d23d836ff6e9e1def6405", null ],
-    [ "HandleEffect", "df/d90/a26774.html#a064fdac9158e35f290b51ecf9bf537b1", null ],
-    [ "PrepareSpellScript", "df/d90/a26774.html#a53b5772c87574beb5b295c26fe983b76", null ],
-    [ "Register", "df/d90/a26774.html#a5e93d0d708d2304d9166c47ad285ada5", null ]
+    [ "boss_taerarAI", "df/d90/a26774.html#a69171fba79d49d12a2e96fb5c2baa0aa", null ],
+    [ "DamageTaken", "df/d90/a26774.html#a08babc3ca2cd76891b9c0e196e461c79", null ],
+    [ "ExecuteEvent", "df/d90/a26774.html#a89750136787d549ac4c744a0e3b9239c", null ],
+    [ "JustDied", "df/d90/a26774.html#add2712022edbd88504de2dd147a098a0", null ],
+    [ "JustEngagedWith", "df/d90/a26774.html#adf280483e6fd7f01d14472973c021a91", null ],
+    [ "Reset", "df/d90/a26774.html#a74a53b7c4672bcba1cc4f69407c23c42", null ],
+    [ "SummonedCreatureDies", "df/d90/a26774.html#a35557d97df6d83c9fafead3f59e1af2e", null ],
+    [ "UpdateAI", "df/d90/a26774.html#a406213e6b3a1397c0026d5dc857f08a9", null ],
+    [ "_banished", "df/d90/a26774.html#a8ee658a07f28df0c5f46cedac25f68ab", null ],
+    [ "_banishedTimer", "df/d90/a26774.html#a6b7bd08d3e4362201ee904019f9e6b51", null ],
+    [ "_shades", "df/d90/a26774.html#a6e77285330fcd09fd13ef0d029e2a554", null ],
+    [ "_stage", "df/d90/a26774.html#a2d49f2ce95d16cfc1b9525256f0a6bc2", null ]
 ];

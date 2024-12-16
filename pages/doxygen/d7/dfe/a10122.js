@@ -1,9 +1,10 @@
 var a10122 =
 [
-    [ "TransportScript", "d7/dfe/a10122.html#a4b83123b122fa98831d304670a3de50a", null ],
-    [ "IsDatabaseBound", "d7/dfe/a10122.html#a956f0d757e5d974566fa8fac0df731e5", null ],
-    [ "OnAddCreaturePassenger", "d7/dfe/a10122.html#a5afb1f1dca2264089238ddd68b38a86d", null ],
-    [ "OnAddPassenger", "d7/dfe/a10122.html#a806f4829b47429900271f6dde7eaa625", null ],
-    [ "OnRelocate", "d7/dfe/a10122.html#a10334c1929c80fc80c76791cbd52f6dd", null ],
-    [ "OnRemovePassenger", "d7/dfe/a10122.html#a6d6a3af4fcde46101b78cfdb787a2248", null ]
+    [ "ArgsType", "d7/dfe/a10122.html#a4ea4d3b165a196482ebe96af9c462658", null ],
+    [ "AuraScriptType", "d7/dfe/a10122.html#a7b2a19d6c7c75c0df22eae17b0c8e90a", null ],
+    [ "SpellScriptType", "d7/dfe/a10122.html#a790a8ef2b59bfe6298486648858506ed", null ],
+    [ "GenericSpellAndAuraScriptLoader", "d7/dfe/a10122.html#ab1bd69d57c6e2322044b8f7cf46cedb6", null ],
+    [ "GetAuraScript", "d7/dfe/a10122.html#a5f3c898a0dc6d9085589b88eb5571528", null ],
+    [ "GetSpellScript", "d7/dfe/a10122.html#a913fa28d2a2cf100ce73cf641e333e01", null ],
+    [ "_args", "d7/dfe/a10122.html#aad6527f64ede0d896880ffa90d05a378", null ]
 ];

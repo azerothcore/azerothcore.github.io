@@ -1,7 +1,6 @@
 var a17614 =
 [
-    [ "HandleScript", "db/db0/a17614.html#a37b261d0df2829788d8290a9194913f5", null ],
-    [ "PrepareSpellScript", "db/db0/a17614.html#a69386dbef57322393a38eec90662135f", null ],
-    [ "Register", "db/db0/a17614.html#a5b85b01100d7f7c672c437e4bdfd7a7c", null ],
-    [ "Validate", "db/db0/a17614.html#a63c446574c700a895d7fbc5bb2b81508", null ]
+    [ "ExtraRemoveEffect", "db/db0/a17614.html#a49b1087d66606ddeebe6918ad05d4b37", null ],
+    [ "PrepareAuraScript", "db/db0/a17614.html#a41992ed6c23275d3a910915755b682f9", null ],
+    [ "Register", "db/db0/a17614.html#ab956cb95473cf0c5fc9fb2af14fc945e", null ]
 ];

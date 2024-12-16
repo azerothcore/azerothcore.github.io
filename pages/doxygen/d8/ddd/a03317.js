@@ -1,7 +1,7 @@
 var a03317 =
 [
-    [ "CliCommandHolder", "d3/d5c/a11266.html", "d3/d5c/a11266" ],
-    [ "IWorld", "d9/d3d/a11270.html", "d9/d3d/a11270" ],
+    [ "CliCommandHolder", "d9/d3d/a11270.html", "d9/d3d/a11270" ],
+    [ "IWorld", "d8/dc5/a11274.html", "d8/dc5/a11274" ],
     [ "SessionMap", "d8/ddd/a03317.html#a24a95911e6375202b09db2333ec94fc1", null ],
     [ "Rates", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20", [
       [ "RATE_HEALTH", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a8bdee348b397c9fbaa19c38d23814cb2", null ],
@@ -78,6 +78,7 @@ var a03317 =
       [ "RATE_REST_INGAME", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20aba64cff7540e041dd3671da84f5213a8", null ],
       [ "RATE_REST_OFFLINE_IN_TAVERN_OR_CITY", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a731246f9c2687e6c190f44120120709a", null ],
       [ "RATE_REST_OFFLINE_IN_WILDERNESS", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a4631e0989d3fdaf71cbf6986100d4840", null ],
+      [ "RATE_REST_MAX_BONUS", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a5b2765632e3d3d074c528f936c3a7616", null ],
       [ "RATE_DAMAGE_FALL", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a0fc29e644939e74f4da59a62abc20aad", null ],
       [ "RATE_AUCTION_TIME", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20adaa87ae1a662451454f455457f662729", null ],
       [ "RATE_AUCTION_DEPOSIT", "d8/ddd/a03317.html#a7ba5c3e6b385572c3bd751b6c9da9a20a74abcc9ada3a153d89e96ca0646932cd", null ],
@@ -226,6 +227,7 @@ var a03317 =
       [ "CONFIG_ALLOWS_RANK_MOD_FOR_PET_HEALTH", "d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a8d41df3f64a68ce08d35ea37d9d1f150", null ],
       [ "CONFIG_MUNCHING_BLIZZLIKE", "d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a29dade96defe28bfe03bf60912b8b861", null ],
       [ "CONFIG_ENABLE_DAZE", "d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0ab77427da7dfe42dc3356adb6a660e8cb", null ],
+      [ "CONFIG_SPELL_QUEUE_ENABLED", "d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a8022155187be48b8d30e2bbce0d5a948", null ],
       [ "BOOL_CONFIG_VALUE_COUNT", "d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a0037a8646fb2518c870bb33165704822", null ]
     ] ],
     [ "WorldFloatConfigs", "d8/ddd/a03317.html#aa23506e28a8e9c6ea99ea2d0b1ea5780", [
@@ -458,6 +460,7 @@ var a03317 =
       [ "CONFIG_WATER_BREATH_TIMER", "d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a7d597622effebbc26eb197460dfc19d7", null ],
       [ "CONFIG_AUCTION_HOUSE_SEARCH_TIMEOUT", "d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a6237670e96195ac491898fa9df09e2f4", null ],
       [ "CONFIG_DAILY_RBG_MIN_LEVEL_AP_REWARD", "d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a1ba708497da36f4c2f99063e50fc62d9", null ],
+      [ "CONFIG_SPELL_QUEUE_WINDOW", "d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a5e104e52d4032d6b6507b8e7c9997ac3", null ],
       [ "INT_CONFIG_VALUE_COUNT", "d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41a17d8a53ae2d7130180aac066b2f64adb", null ]
     ] ]
 ];

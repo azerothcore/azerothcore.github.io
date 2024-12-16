@@ -1,6 +1,9 @@
 var a11598 =
 [
-    [ "boss_anubshiahAI", "d1/ddf/a11602.html", "d1/ddf/a11602" ],
-    [ "boss_anubshiah", "d5/da2/a11598.html#a7176d98f966dac62f7ac1a10d3f2afa1", null ],
-    [ "GetAI", "d5/da2/a11598.html#a157420b5f0c4c05e7dc2ee327ef81cb9", null ]
+    [ "npc_burning_spiritAI", "d5/da2/a11598.html#a52f63423d09794446b0c01da2feb325d", null ],
+    [ "EnterEvadeMode", "d5/da2/a11598.html#a567a7a023bb83a1228bb458ea16ee2fc", null ],
+    [ "IsSummonedBy", "d5/da2/a11598.html#a65ee7b6dd6d4394cc04a6260fc75827e", null ],
+    [ "MovementInform", "d5/da2/a11598.html#a0a02ece5a3ff1eefa30fd27a9cc84d10", null ],
+    [ "_events", "d5/da2/a11598.html#a9af0f46710741bba3d8401d1a1fb0556", null ],
+    [ "_flamelasherGUID", "d5/da2/a11598.html#abfc34e3e45d1e74b328a91f6f8981191", null ]
 ];

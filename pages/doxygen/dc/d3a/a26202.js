@@ -1,9 +1,9 @@
 var a26202 =
 [
-    [ "Absorb", "dc/d3a/a26202.html#a22b175a7a07f950b5be1aad60e096e4f", null ],
-    [ "CalculateAmount", "dc/d3a/a26202.html#a9aa29ca1e77a2ef060d94d4d07a7c0e6", null ],
-    [ "Load", "dc/d3a/a26202.html#acf7851d34fa2368c9e711e8b3943c09b", null ],
-    [ "PrepareAuraScript", "dc/d3a/a26202.html#ac273b669dc396561d9ec8b523659363f", null ],
-    [ "Register", "dc/d3a/a26202.html#a656f4770b0f7099f5926a8063f7d740c", null ],
-    [ "absorbPct", "dc/d3a/a26202.html#a31d7ca52ace4e22652403292969baf55", null ]
+    [ "CheckCast", "dc/d3a/a26202.html#a9af89d5ffaa73747acb55e7dee681d03", null ],
+    [ "FilterTargets", "dc/d3a/a26202.html#aa33f9d87325271bb264ba190ebb5cfa0", null ],
+    [ "HandleDummy", "dc/d3a/a26202.html#a3c076ab3ccf1f0be81a7ab067327a589", null ],
+    [ "PrepareSpellScript", "dc/d3a/a26202.html#a9c992e732b525e29f684947398d20efb", null ],
+    [ "Register", "dc/d3a/a26202.html#abbea3ee39cbdf91518031c088e2e2ed9", null ],
+    [ "Validate", "dc/d3a/a26202.html#abca1e5aa46e7753588c8120090775195", null ]
 ];

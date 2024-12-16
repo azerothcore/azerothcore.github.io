@@ -1,6 +1,9 @@
 var a13338 =
 [
-    [ "npc_tyrion_spybotAI", "d6/d72/a13342.html", "d6/d72/a13342" ],
-    [ "npc_tyrion_spybot", "d2/dc0/a13338.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
-    [ "GetAI", "d2/dc0/a13338.html#af81b70437703edc8d99fe24249891dd6", null ]
+    [ "npc_marzon_silent_bladeAI", "d2/dc0/a13338.html#a9f29c3b56e26421dabc2c95b8cd0407e", null ],
+    [ "EnterEvadeMode", "d2/dc0/a13338.html#a0b42596550d045f5ca0096ceee80c0ac", null ],
+    [ "JustEngagedWith", "d2/dc0/a13338.html#a116b3458f342811e378713e6a67f76a6", null ],
+    [ "MovementInform", "d2/dc0/a13338.html#a32201d45f0c19212becb6319a48366f8", null ],
+    [ "Reset", "d2/dc0/a13338.html#a51c2b16c767ce2922564dc9e4048e089", null ],
+    [ "UpdateAI", "d2/dc0/a13338.html#aa6686399b41d32429d530dcc2ec41185", null ]
 ];

@@ -1,5 +1,5 @@
 var a19918 =
 [
-    [ "achievement_i_could_say_that_this_cache_was_rare", "dd/de5/a19918.html#a8ec1949d92f21fe57f967e510453da3e", null ],
-    [ "OnCheck", "dd/de5/a19918.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
+    [ "achievement_getting_cold_in_here", "dd/de5/a19918.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
+    [ "OnCheck", "dd/de5/a19918.html#aeafd382d378381f754da6ee04d382276", null ]
 ];

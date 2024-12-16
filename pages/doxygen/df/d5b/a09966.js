@@ -1,10 +1,19 @@
 var a09966 =
 [
-    [ "AllItemScript", "df/d5b/a09966.html#a7c0e310c69966e0eab6f2951dedcda63", null ],
-    [ "CanItemExpire", "df/d5b/a09966.html#aa2a9c691b4ba5d06f65555a7092fffc3", null ],
-    [ "CanItemQuestAccept", "df/d5b/a09966.html#a545e2bc7436a064146025954eaf5ae92", null ],
-    [ "CanItemRemove", "df/d5b/a09966.html#ad29a7f5d07d56127bc00846e1a7fb067", null ],
-    [ "CanItemUse", "df/d5b/a09966.html#a89d237f426840658e4423fb9cc7428db", null ],
-    [ "OnItemGossipSelect", "df/d5b/a09966.html#a7157f72c6d09988b60480d1671892cde", null ],
-    [ "OnItemGossipSelectCode", "df/d5b/a09966.html#a9e13f025e5cf10bf51c87a4dc1e7968d", null ]
+    [ "AllGameObjectScript", "df/d5b/a09966.html#ac6640c81043e19d7c73ed6208dd119dd", null ],
+    [ "CanGameObjectGossipHello", "df/d5b/a09966.html#a33efc883fe64cdc52aa9b03f9377da97", null ],
+    [ "CanGameObjectGossipSelect", "df/d5b/a09966.html#a317305c7dc81fede50d73f65fbc2bb42", null ],
+    [ "CanGameObjectGossipSelectCode", "df/d5b/a09966.html#ac0b0ce8b06f371a6adfb69b926797790", null ],
+    [ "CanGameObjectQuestAccept", "df/d5b/a09966.html#a0c99183b04355ecfb3460bc371b58805", null ],
+    [ "CanGameObjectQuestReward", "df/d5b/a09966.html#a55eb61a5e4386908db998ceff1dff359", null ],
+    [ "GetGameObjectAI", "df/d5b/a09966.html#afe0c610693bc883415952ba350596788", null ],
+    [ "OnGameObjectAddWorld", "df/d5b/a09966.html#ae07275a83e4e1ae65371739bdc342d7f", null ],
+    [ "OnGameObjectDamaged", "df/d5b/a09966.html#ab551bd870ab2e6513d95fcfb3e62d8c5", null ],
+    [ "OnGameObjectDestroyed", "df/d5b/a09966.html#a3861b881456c1af3e9231d90519367d6", null ],
+    [ "OnGameObjectLootStateChanged", "df/d5b/a09966.html#a599b35bb426d3c91c5457c838bfe910d", null ],
+    [ "OnGameObjectModifyHealth", "df/d5b/a09966.html#a4d5607d755f044fed3a23c122bceddff", null ],
+    [ "OnGameObjectRemoveWorld", "df/d5b/a09966.html#aca2171a8521195f06ea00c21f219d8f5", null ],
+    [ "OnGameObjectSaveToDB", "df/d5b/a09966.html#ae4bb28ae318f13a72109a3874f2ca12d", null ],
+    [ "OnGameObjectStateChanged", "df/d5b/a09966.html#ab0ab47240bdb815d404f8bd41fb3bdaa", null ],
+    [ "OnGameObjectUpdate", "df/d5b/a09966.html#ada8cc5373b75025199ca62856242d0ab", null ]
 ];

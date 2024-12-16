@@ -1,8 +1,28 @@
 var a20162 =
 [
-    [ "npc_ulduar_expedition_commanderAI", "d7/de5/a20166.html", "d7/de5/a20166" ],
-    [ "npc_ulduar_expedition_commander", "da/df9/a20162.html#a8513554f686b75c29524fa5b2fa93ee4", null ],
-    [ "GetAI", "da/df9/a20162.html#aa888a3634a643a103075d44c8f52d28a", null ],
-    [ "OnGossipHello", "da/df9/a20162.html#a6b52abae7ec1be10fcb5385ec928b785", null ],
-    [ "OnGossipSelect", "da/df9/a20162.html#a5d212e5e21d9ffb8c60e883e065c1801", null ]
+    [ "boss_razorscaleAI", "da/df9/a20162.html#ab7675cd43308d3c8b94eeca6eb89b5cb", null ],
+    [ "AttackStart", "da/df9/a20162.html#ad281280a12b6643ff0697b8d0b33c3f8", null ],
+    [ "DamageTaken", "da/df9/a20162.html#a9dcc80f9d2ea5f4775810dc162ac6bc9", null ],
+    [ "EnterEvadeMode", "da/df9/a20162.html#a50883ae190fdfd46741aea8a94979410", null ],
+    [ "GetData", "da/df9/a20162.html#ab84075a936809baf26012a0394800c3f", null ],
+    [ "InitializeAI", "da/df9/a20162.html#ad4b63a06118ab7e42d24472934ce2ba0", null ],
+    [ "JustDied", "da/df9/a20162.html#a5a5b44268cbce32fd17fbb6b6a45d831", null ],
+    [ "JustEngagedWith", "da/df9/a20162.html#a9c2c742085aba81b5956a33a6fb77bbe", null ],
+    [ "JustReachedHome", "da/df9/a20162.html#a7ec2cacb11fae5612370b29abc2fcd21", null ],
+    [ "JustSummoned", "da/df9/a20162.html#ac93176401f20a403c8531045965ac86c", null ],
+    [ "KilledUnit", "da/df9/a20162.html#a09e8978f107b0cd96096f9546984cfb2", null ],
+    [ "MoveInLineOfSight", "da/df9/a20162.html#afd0ae4b42713025f7f87e522249dad85", null ],
+    [ "MovementInform", "da/df9/a20162.html#a22a2c951ed4cec3c8865c99d837b97be", null ],
+    [ "Reset", "da/df9/a20162.html#adb797a39e30e8ca75eb6ef4d3e14c814", null ],
+    [ "SpellHit", "da/df9/a20162.html#a3b41060477d92a06e66446e4d63437c8", null ],
+    [ "UpdateAI", "da/df9/a20162.html#ab288ade9a17929fa7463721932e41c8d", null ],
+    [ "bGroundPhase", "da/df9/a20162.html#a150411c707fdd94619ca67db6c428ca3", null ],
+    [ "CommanderGUID", "da/df9/a20162.html#a38f5e560d24717030e8ee755f10b484b", null ],
+    [ "cords", "da/df9/a20162.html#a5cf071dc764dff1b710efd72a718454e", null ],
+    [ "events", "da/df9/a20162.html#ab67bf8ff144f42bd99876ec031288ff3", null ],
+    [ "ExpeditionEngineerGUIDs", "da/df9/a20162.html#ab5de17b2186e27faa1bd7846f6e75940", null ],
+    [ "flyTimes", "da/df9/a20162.html#aa66ecf253f3c10f1549c08da5727d710", null ],
+    [ "pInstance", "da/df9/a20162.html#a1c2b35438f0cc9cfc8b6fe306b7dbbd1", null ],
+    [ "startPath", "da/df9/a20162.html#a1e07d9184b25fa836c4b17d6626a17fc", null ],
+    [ "summons", "da/df9/a20162.html#a392e92bec13ba5fcca29a4bcf6119989", null ]
 ];

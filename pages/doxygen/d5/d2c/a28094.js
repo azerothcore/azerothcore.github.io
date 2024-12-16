@@ -1,20 +1,10 @@
 var a28094 =
 [
-    [ "RealmMap", "d5/d2c/a28094.html#a6031c19ec935fbe535f60a1014483dbd", null ],
-    [ "RealmList", "d5/d2c/a28094.html#abe7dfad5160a08a5852cb1436a06eaa9", null ],
-    [ "~RealmList", "d5/d2c/a28094.html#a64bea5f38384143cc960840a8e84ef00", null ],
-    [ "Close", "d5/d2c/a28094.html#a14a4d9b5383da24bc1ad9754cdfa2183", null ],
-    [ "GetBuildInfo", "d5/d2c/a28094.html#a0f7136cb280d2461b1ec0d080645c6e0", null ],
-    [ "GetRealm", "d5/d2c/a28094.html#a3e25e63168bcff88d021294559ccf0c5", null ],
-    [ "GetRealms", "d5/d2c/a28094.html#afc2cbe2a4ee4d9870821dbe8d96e8fa4", null ],
-    [ "Initialize", "d5/d2c/a28094.html#a70954d518dc4559e0aca0388f13db411", null ],
-    [ "Instance", "d5/d2c/a28094.html#aea053134fe293fbd4a8801b25fbb44ca", null ],
-    [ "LoadBuildInfo", "d5/d2c/a28094.html#a1f8866e57557beb7d69037a63e34428d", null ],
-    [ "UpdateRealm", "d5/d2c/a28094.html#ae15cf59b00e8e8e561f266d5dd3e11ae", null ],
-    [ "UpdateRealms", "d5/d2c/a28094.html#a0b4559e5538a02ccf5247839005d602e", null ],
-    [ "_builds", "d5/d2c/a28094.html#a7c38c3c8b4fe6554c66dbc5ada26a3e0", null ],
-    [ "_realms", "d5/d2c/a28094.html#a41693a01cd88ea99b54dd9ca8fe6b445", null ],
-    [ "_resolver", "d5/d2c/a28094.html#a1beee0fdd1a9e61f68db925f53d373a9", null ],
-    [ "_updateInterval", "d5/d2c/a28094.html#ac07fe3cd4fc18169af4f63b207902e95", null ],
-    [ "_updateTimer", "d5/d2c/a28094.html#af040673a6ea6ac35dd67da3d218b5c9b", null ]
+    [ "BugfixVersion", "d5/d2c/a28094.html#a461f8c749a874405584dc1fd3fe1d805", null ],
+    [ "Build", "d5/d2c/a28094.html#a6cc7aff1b397df7333b9bb0003282abd", null ],
+    [ "HotfixVersion", "d5/d2c/a28094.html#a0df61c036a57b8a3efde5d180dc38131", null ],
+    [ "MacHash", "d5/d2c/a28094.html#ad59772e86371318fe975760e303fa7d9", null ],
+    [ "MajorVersion", "d5/d2c/a28094.html#a0eb78564680f771e325536a0ab77382a", null ],
+    [ "MinorVersion", "d5/d2c/a28094.html#a7140f7ef9540eff08fabf74ded68b9cc", null ],
+    [ "WindowsHash", "d5/d2c/a28094.html#a96abd69a458dfc4363c4e545fc7fabab", null ]
 ];

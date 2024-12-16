@@ -1,6 +1,6 @@
 var a26578 =
 [
-    [ "HandleScript", "d6/d31/a26578.html#ab2bad52272a5cd7167a7601fdfa02b1d", null ],
-    [ "PrepareSpellScript", "d6/d31/a26578.html#a60454f2c1ba8d1ea160350b5e02bf56d", null ],
-    [ "Register", "d6/d31/a26578.html#a22b9877e2cd27c925ae7b351d3d6f41b", null ]
+    [ "CalculateAmount", "d6/d31/a26578.html#a94b6fab25e8cb298650f2a1e2d0b4347", null ],
+    [ "PrepareAuraScript", "d6/d31/a26578.html#a845476e27b3751fd5aab505d41d8696d", null ],
+    [ "Register", "d6/d31/a26578.html#aa5141f11bcd97cc501297a5309df1079", null ]
 ];

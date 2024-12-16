@@ -1,6 +1,6 @@
 var a00809 =
 [
-    [ "boss_mennu_the_betrayer", "da/df1/a22974.html", "da/df1/a22974" ],
+    [ "boss_mennu_the_betrayer", "d6/dee/a22978.html", "d6/dee/a22978" ],
     [ "Spells", "dd/d7e/a00809.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

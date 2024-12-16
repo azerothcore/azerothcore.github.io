@@ -1,10 +1,23 @@
 var a11310 =
 [
-    [ "bf_commandscript", "d0/d02/a11310.html#a806ca440ae1b51fffefee9d298dab3df", null ],
-    [ "GetCommands", "d0/d02/a11310.html#a97f0192d7ccd3532cfceaebff9f242be", null ],
-    [ "HandleBattlefieldEnable", "d0/d02/a11310.html#a08dd3bdd279c760fe0f126200a01619e", null ],
-    [ "HandleBattlefieldEnd", "d0/d02/a11310.html#af7100032ad26a66fbc9d9b37d1da98e1", null ],
-    [ "HandleBattlefieldStart", "d0/d02/a11310.html#a55102cc3b29a3ded0832ec82be1e3a5e", null ],
-    [ "HandleBattlefieldSwitch", "d0/d02/a11310.html#ac12cac377007d90b25b9797f2b2cc8de", null ],
-    [ "HandleBattlefieldTimer", "d0/d02/a11310.html#a7168b3db9435d70e2c5ca5eb41fc8ef2", null ]
+    [ "ban_commandscript", "d0/d02/a11310.html#aaece480aacb3cae7d0919a277d46eb31", null ],
+    [ "GetCommands", "d0/d02/a11310.html#a3079102518edbfd0e16576083e053a19", null ],
+    [ "HandleBanAccountByCharCommand", "d0/d02/a11310.html#a3a1a2890ddf2e70f26beacfb6e827647", null ],
+    [ "HandleBanAccountCommand", "d0/d02/a11310.html#af54b01c0b6db28488866fff9ad3d885e", null ],
+    [ "HandleBanCharacterCommand", "d0/d02/a11310.html#adc181572cfcaa15e649429df50d8d529", null ],
+    [ "HandleBanHelper", "d0/d02/a11310.html#a2685e26ced4dda5bfbbefaec02d59a5e", null ],
+    [ "HandleBanInfoAccountCommand", "d0/d02/a11310.html#a43048a5b00dec7476d83dca64cd41641", null ],
+    [ "HandleBanInfoCharacterCommand", "d0/d02/a11310.html#aea445f0a0a6cdb690fb88a53e2f794fb", null ],
+    [ "HandleBanInfoHelper", "d0/d02/a11310.html#ab0a56c9d565ccaf0cdd38beb3a36f4d9", null ],
+    [ "HandleBanInfoIPCommand", "d0/d02/a11310.html#ac32e4d00bb6e94a65eb63e0f0a9cc963", null ],
+    [ "HandleBanIPCommand", "d0/d02/a11310.html#a82cbdac404e6bc594d823fb4081e6df8", null ],
+    [ "HandleBanListAccountCommand", "d0/d02/a11310.html#adafc851259dfa7d8fb717f2e77e66a38", null ],
+    [ "HandleBanListCharacterCommand", "d0/d02/a11310.html#abf9fa4690f97f6f98511a20d9d4ea521", null ],
+    [ "HandleBanListHelper", "d0/d02/a11310.html#aec570c5ca3eeefc1be807ea1aa9577ab", null ],
+    [ "HandleBanListIPCommand", "d0/d02/a11310.html#a5c1ae1798c1ad498fa2993d098b5131c", null ],
+    [ "HandleUnBanAccountByCharCommand", "d0/d02/a11310.html#a3fd418aec25d220cd31d3637bbded380", null ],
+    [ "HandleUnBanAccountCommand", "d0/d02/a11310.html#aeb041ffecb3611151172b4f0c52f8018", null ],
+    [ "HandleUnBanCharacterCommand", "d0/d02/a11310.html#af55843929fa62402b2eb5cae71c2e4a5", null ],
+    [ "HandleUnBanHelper", "d0/d02/a11310.html#a2cc5ebe2fda5d9fe217fd8f4c62c644e", null ],
+    [ "HandleUnBanIPCommand", "d0/d02/a11310.html#a3f73d0989eaa2b9d840d24544ad90bfd", null ]
 ];

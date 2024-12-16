@@ -1,6 +1,9 @@
 var a21830 =
 [
-    [ "npc_jungle_punch_targetAI", "db/dce/a21834.html", "db/dce/a21834" ],
-    [ "npc_jungle_punch_target", "db/ded/a21830.html#a69220634d9d6b84e464cdc4e0cba91a7", null ],
-    [ "GetAI", "db/ded/a21830.html#abb38ccb55abfe0f48f360469031c6902", null ]
+    [ "npc_engineer_heliceAI", "db/ded/a21830.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
+    [ "JustDied", "db/ded/a21830.html#aba224727b86a2bfc39a47b70b424ccef", null ],
+    [ "Reset", "db/ded/a21830.html#ade3f7f526dd8973c155aafb939db3778", null ],
+    [ "UpdateAI", "db/ded/a21830.html#a1c333511dd6e82cd22af111e12a701c4", null ],
+    [ "WaypointReached", "db/ded/a21830.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
+    [ "m_uiChatTimer", "db/ded/a21830.html#aa305bc2b5711d0745650f80275204ea8", null ]
 ];

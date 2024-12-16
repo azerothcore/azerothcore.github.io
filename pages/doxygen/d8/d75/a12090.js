@@ -1,5 +1,6 @@
 var a12090 =
 [
-    [ "npc_garr_fireswornAI", "d8/d75/a12090.html#af2454b2ddf93102378ebf9780d260e56", null ],
-    [ "DamageTaken", "d8/d75/a12090.html#ae9582b14e82b163ff97b99cb603e0179", null ]
+    [ "npc_garr_fireswornAI", "df/dac/a12094.html", "df/dac/a12094" ],
+    [ "npc_garr_firesworn", "d8/d75/a12090.html#a54c8f5daab9b8c4e1e7ff5d7777fcddf", null ],
+    [ "GetAI", "d8/d75/a12090.html#a07e47767a44d3613f8cba2c3dfb1d14e", null ]
 ];

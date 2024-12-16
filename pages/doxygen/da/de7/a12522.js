@@ -1,5 +1,5 @@
 var a12522 =
 [
-    [ "boss_warlord_salaris", "da/de7/a12522.html#afe9ace28dcd302e9b9a9ebe806e2ada5", null ],
-    [ "JustEngagedWith", "da/de7/a12522.html#a77b3b531466810ee17f9fd6eadf5872a", null ]
+    [ "boss_yazzai", "da/de7/a12522.html#a6c92ffeff3e56f98cb1bd08f1835fe10", null ],
+    [ "JustEngagedWith", "da/de7/a12522.html#ab504de0e51a3715485eb65e006352a6f", null ]
 ];

@@ -1,11 +1,11 @@
 var a12394 =
 [
-    [ "boss_terestian_illhoof", "db/d64/a12394.html#a5750bf4f12ac01216335a926f885e136", null ],
-    [ "JustDied", "db/d64/a12394.html#a9039c0fb905e72e659ce62f9d36593ce", null ],
-    [ "JustEngagedWith", "db/d64/a12394.html#adc1f9195954eda7ec406ac9a084b7508", null ],
-    [ "JustSummoned", "db/d64/a12394.html#a8b156654dbd75a4a7626edf30a8aae78", null ],
-    [ "KilledUnit", "db/d64/a12394.html#ab7de8b406de200eec981fab79a56dcd7", null ],
-    [ "Reset", "db/d64/a12394.html#a685b00f0e3317740412adfc48df1c3fb", null ],
-    [ "SpellHit", "db/d64/a12394.html#a2f25021cfbc9e466d73c13de8116d8f1", null ],
-    [ "SummonKilrek", "db/d64/a12394.html#a0007e35a38efce5edada2f47a9bb89c6", null ]
+    [ "npc_demon_chain", "db/d64/a12394.html#ac234e729422925bd773bcdbc45f9e1b5", null ],
+    [ "AttackStart", "db/d64/a12394.html#a745fa194ca5ad30c96e85b3f9daad2ad", null ],
+    [ "IsSummonedBy", "db/d64/a12394.html#a27007fdff0d685b0a38a0b98820b95fb", null ],
+    [ "JustDied", "db/d64/a12394.html#a35d1b7de8612f11cdf61b9d663990686", null ],
+    [ "JustEngagedWith", "db/d64/a12394.html#a9743ebc31c5159a03889bfd40b09d749", null ],
+    [ "MoveInLineOfSight", "db/d64/a12394.html#a9ffa6ed6faa21c9596f7a0c2ceb1cc05", null ],
+    [ "Reset", "db/d64/a12394.html#ad531f82511e5156d3b9891dd4095b0d5", null ],
+    [ "sacrificeGUID", "db/d64/a12394.html#a5572e39fcf3d807ef462f5c16ff703f1", null ]
 ];

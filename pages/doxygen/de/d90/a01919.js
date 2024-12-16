@@ -1,9 +1,9 @@
 var a01919 =
 [
-    [ "boss_general_zarithrian", "d4/de8/a15690.html", "d4/de8/a15690" ],
-    [ "boss_general_zarithrian::boss_general_zarithrianAI", "d4/d34/a15694.html", "d4/d34/a15694" ],
-    [ "npc_onyx_flamecaller", "d1/dcc/a15698.html", "d1/dcc/a15698" ],
-    [ "npc_onyx_flamecaller::npc_onyx_flamecallerAI", "dd/dae/a15702.html", "dd/dae/a15702" ],
+    [ "boss_general_zarithrian", "d4/d34/a15694.html", "d4/d34/a15694" ],
+    [ "boss_general_zarithrian::boss_general_zarithrianAI", "d1/dcc/a15698.html", "d1/dcc/a15698" ],
+    [ "npc_onyx_flamecaller", "dd/dae/a15702.html", "dd/dae/a15702" ],
+    [ "npc_onyx_flamecaller::npc_onyx_flamecallerAI", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
     [ "Misc", "de/d90/a01919.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

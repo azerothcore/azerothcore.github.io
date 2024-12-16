@@ -1,18 +1,15 @@
 var a21038 =
 [
-    [ "violet_hold_trashAI", "d0/df1/a21038.html#a87011739810f39291655bc835f9995bd", null ],
-    [ "AttackStart", "d0/df1/a21038.html#ab2d2157977ae2482217fa8ac344b30af", null ],
-    [ "ClearDoorSealAura", "d0/df1/a21038.html#ad0c756eb5bef8036cb47ebcc9e6915df", null ],
-    [ "CreatureStartAttackDoor", "d0/df1/a21038.html#a1e64a9f7c82275969e099b5012a32924", null ],
-    [ "EnterEvadeMode", "d0/df1/a21038.html#ab189607a468514d6c472ac40e6f3d85b", null ],
-    [ "JustDied", "d0/df1/a21038.html#acd512cd3722a2edf0ca539272ded3c79", null ],
-    [ "JustEngagedWith", "d0/df1/a21038.html#a16e7677aa9597dda938a67c51febde6c", null ],
-    [ "JustReachedHome", "d0/df1/a21038.html#ae98d0cd977d59cbfe567fa6e294cde7e", null ],
-    [ "MoveInLineOfSight", "d0/df1/a21038.html#ab0e73a03d6e36a35eb393127bce3dad3", null ],
-    [ "UpdateAI", "d0/df1/a21038.html#a8647797343650fcd4f6304bce3742883", null ],
-    [ "WaypointReached", "d0/df1/a21038.html#ac218e3761b79d4d8186ad8d12e0d0b57", null ],
-    [ "bAddedWP", "d0/df1/a21038.html#ad2e8841054cece73bdc7c2e7782c96a8", null ],
-    [ "bAlt", "d0/df1/a21038.html#ad84ecad1a57f0af44af2795a252d2214", null ],
-    [ "pInstance", "d0/df1/a21038.html#a0a5f5b86cd54c28a828db2ac3e83126b", null ],
-    [ "PLoc", "d0/df1/a21038.html#a9e9ca535b9d2fa1b246975f984c96998", null ]
+    [ "npc_vh_teleportation_portalAI", "d0/df1/a21038.html#a9d062de34e4fbc8ccc487a633efa038d", null ],
+    [ "JustDied", "d0/df1/a21038.html#aab2cc259d78492c54e21b4279697f909", null ],
+    [ "JustSummoned", "d0/df1/a21038.html#a029b105ef6f92455c41e064aeb0fd5f6", null ],
+    [ "SummonedMobDied", "d0/df1/a21038.html#ae6b5b15aeee2f7b02d5c54dd8d09aa51", null ],
+    [ "UpdateAI", "d0/df1/a21038.html#a812e330e20924cc34262363ecc0a3fc1", null ],
+    [ "addValue", "d0/df1/a21038.html#aa52f29a41d12320516737b437af62fc3", null ],
+    [ "bKorG", "d0/df1/a21038.html#ad96efd06ebb1902cc30deb22e62d7873", null ],
+    [ "events", "d0/df1/a21038.html#a329635246e80e7264cad6749ee70be40", null ],
+    [ "listOfMobs", "d0/df1/a21038.html#a470a61cf7d424711b07770fd56c74b29", null ],
+    [ "pInstance", "d0/df1/a21038.html#a10ebe705c55d898bfea2af104ce7f86e", null ],
+    [ "spawned", "d0/df1/a21038.html#a8921c314c2f4b958e11136504971f427", null ],
+    [ "wave", "d0/df1/a21038.html#a4dd689e6445e18c3e9883bc471fecdde", null ]
 ];

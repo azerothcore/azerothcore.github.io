@@ -1,6 +1,6 @@
 var a18282 =
 [
-    [ "npc_captain_grondelAI", "d8/d17/a18282.html#afbc971fc03584b87229318309d51a2f5", null ],
-    [ "Reset", "d8/d17/a18282.html#a7d3878822e77fba66891e87e23bd3740", null ],
-    [ "UpdateAI", "d8/d17/a18282.html#a4af8548092b49653805224bd4c0ac0a2", null ]
+    [ "npc_captain_grondelAI", "d1/d5f/a18286.html", "d1/d5f/a18286" ],
+    [ "npc_captain_grondel", "d8/d17/a18282.html#a54a53f8e3cde87405219c815a56d523c", null ],
+    [ "GetAI", "d8/d17/a18282.html#a2a7725e81294e80701b7742d2605ec00", null ]
 ];

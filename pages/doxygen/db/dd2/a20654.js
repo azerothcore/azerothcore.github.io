@@ -1,7 +1,9 @@
 var a20654 =
 [
-    [ "HandleEffectPeriodic", "db/dd2/a20654.html#a2b9426d0a2ce9251632acebb30d0e2b5", null ],
-    [ "PrepareAuraScript", "db/dd2/a20654.html#a7dca0398e78278c78dd80e9e6ca874e1", null ],
-    [ "Register", "db/dd2/a20654.html#a74052d7da1523b3c4010465510e5fe04", null ],
-    [ "Validate", "db/dd2/a20654.html#a587a469c649877f80e8fe80062e8b5d4", null ]
+    [ "npc_ulduar_keeperAI", "db/dd2/a20654.html#ac69d21f3820f2c01a80ff664c317d111", null ],
+    [ "DoAction", "db/dd2/a20654.html#a03011d04761926d67e43c0bea5a0901f", null ],
+    [ "Reset", "db/dd2/a20654.html#a86971339e6fcbffb3c019e4dc29972b3", null ],
+    [ "SpellHit", "db/dd2/a20654.html#a18f22ca155646a6f40e0627f9d6dc337", null ],
+    [ "UpdateAI", "db/dd2/a20654.html#a9af455266dd2a843ac1a2c4e56d50e78", null ],
+    [ "_keeper", "db/dd2/a20654.html#ad8cd47f6c75042d589fc6fae4603c9f2", null ]
 ];

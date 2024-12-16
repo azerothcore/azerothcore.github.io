@@ -1,8 +1,8 @@
 var a19598 =
 [
-    [ "OnApply", "db/d79/a19598.html#a5aec8606684637bbdb1e819254f5d483", null ],
-    [ "OnRemove", "db/d79/a19598.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
-    [ "PrepareAuraScript", "db/d79/a19598.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
-    [ "Register", "db/d79/a19598.html#af1db6ca387cf0733ba4b9c324172d692", null ],
-    [ "Validate", "db/d79/a19598.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
+    [ "FilterTargets", "db/d79/a19598.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
+    [ "HandleScript", "db/d79/a19598.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
+    [ "PrepareSpellScript", "db/d79/a19598.html#aea46762f43b31923617f740e0545fe98", null ],
+    [ "Register", "db/d79/a19598.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
+    [ "Validate", "db/d79/a19598.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
 ];

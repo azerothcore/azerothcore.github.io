@@ -1,28 +1,6 @@
 var a20158 =
 [
-    [ "boss_razorscaleAI", "d5/dbf/a20158.html#ab7675cd43308d3c8b94eeca6eb89b5cb", null ],
-    [ "AttackStart", "d5/dbf/a20158.html#ad281280a12b6643ff0697b8d0b33c3f8", null ],
-    [ "DamageTaken", "d5/dbf/a20158.html#a9dcc80f9d2ea5f4775810dc162ac6bc9", null ],
-    [ "EnterEvadeMode", "d5/dbf/a20158.html#a50883ae190fdfd46741aea8a94979410", null ],
-    [ "GetData", "d5/dbf/a20158.html#ab84075a936809baf26012a0394800c3f", null ],
-    [ "InitializeAI", "d5/dbf/a20158.html#ad4b63a06118ab7e42d24472934ce2ba0", null ],
-    [ "JustDied", "d5/dbf/a20158.html#a5a5b44268cbce32fd17fbb6b6a45d831", null ],
-    [ "JustEngagedWith", "d5/dbf/a20158.html#a9c2c742085aba81b5956a33a6fb77bbe", null ],
-    [ "JustReachedHome", "d5/dbf/a20158.html#a7ec2cacb11fae5612370b29abc2fcd21", null ],
-    [ "JustSummoned", "d5/dbf/a20158.html#ac93176401f20a403c8531045965ac86c", null ],
-    [ "KilledUnit", "d5/dbf/a20158.html#a09e8978f107b0cd96096f9546984cfb2", null ],
-    [ "MoveInLineOfSight", "d5/dbf/a20158.html#afd0ae4b42713025f7f87e522249dad85", null ],
-    [ "MovementInform", "d5/dbf/a20158.html#a22a2c951ed4cec3c8865c99d837b97be", null ],
-    [ "Reset", "d5/dbf/a20158.html#adb797a39e30e8ca75eb6ef4d3e14c814", null ],
-    [ "SpellHit", "d5/dbf/a20158.html#a3b41060477d92a06e66446e4d63437c8", null ],
-    [ "UpdateAI", "d5/dbf/a20158.html#ab288ade9a17929fa7463721932e41c8d", null ],
-    [ "bGroundPhase", "d5/dbf/a20158.html#a150411c707fdd94619ca67db6c428ca3", null ],
-    [ "CommanderGUID", "d5/dbf/a20158.html#a38f5e560d24717030e8ee755f10b484b", null ],
-    [ "cords", "d5/dbf/a20158.html#a5cf071dc764dff1b710efd72a718454e", null ],
-    [ "events", "d5/dbf/a20158.html#ab67bf8ff144f42bd99876ec031288ff3", null ],
-    [ "ExpeditionEngineerGUIDs", "d5/dbf/a20158.html#ab5de17b2186e27faa1bd7846f6e75940", null ],
-    [ "flyTimes", "d5/dbf/a20158.html#aa66ecf253f3c10f1549c08da5727d710", null ],
-    [ "pInstance", "d5/dbf/a20158.html#a1c2b35438f0cc9cfc8b6fe306b7dbbd1", null ],
-    [ "startPath", "d5/dbf/a20158.html#a1e07d9184b25fa836c4b17d6626a17fc", null ],
-    [ "summons", "d5/dbf/a20158.html#a392e92bec13ba5fcca29a4bcf6119989", null ]
+    [ "boss_razorscaleAI", "da/df9/a20162.html", "da/df9/a20162" ],
+    [ "boss_razorscale", "d5/dbf/a20158.html#ad8fe81f1b553414df3fa07c646029065", null ],
+    [ "GetAI", "d5/dbf/a20158.html#a01cf25d901a5eddae9ef3ea291020ba1", null ]
 ];

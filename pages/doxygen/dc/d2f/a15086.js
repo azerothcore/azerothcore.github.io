@@ -1,7 +1,7 @@
 var a15086 =
 [
-    [ "HandleDummy", "dc/d2f/a15086.html#a7657ffcc0b055b838408de4dd5f778f3", null ],
-    [ "PrepareSpellScript", "dc/d2f/a15086.html#ace2c23ec11d09cfb6f101a2dbd8b9d89", null ],
-    [ "Register", "dc/d2f/a15086.html#ae9be2e8124edf50b98824c584aaa32cf", null ],
-    [ "Validate", "dc/d2f/a15086.html#a041c84fd605abd36b8f774903a5200dc", null ]
+    [ "HandleEffectPeriodic", "dc/d2f/a15086.html#ac47c157dbd193bc131d281666ae2097f", null ],
+    [ "PrepareAuraScript", "dc/d2f/a15086.html#ac650ece6e2d9e9e7ff9b863d77f84975", null ],
+    [ "Register", "dc/d2f/a15086.html#ac3c158fdddd007d1d7986470032bfc25", null ],
+    [ "Validate", "dc/d2f/a15086.html#a26b117dc8a3b104dec9de27597fbe55d", null ]
 ];

@@ -1,5 +1,5 @@
 var a13626 =
 [
-    [ "at_zulgurub_bloodfire_pit_speech", "dd/df4/a13626.html#a880058a08d7da3b8d3062a8bc17367a4", null ],
-    [ "_OnTrigger", "dd/df4/a13626.html#a8f1e477942ba9a5f653077632a98930f", null ]
+    [ "at_zulgurub_temple_speech", "dd/df4/a13626.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
+    [ "_OnTrigger", "dd/df4/a13626.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
 ];

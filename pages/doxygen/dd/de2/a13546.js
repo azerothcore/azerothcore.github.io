@@ -1,14 +1,9 @@
 var a13546 =
 [
-    [ "npc_harrison_jones", "dd/de2/a13546.html#ae408c9533166f8919c121053a3efff6c", null ],
-    [ "DoAction", "dd/de2/a13546.html#a2ecf8a9f807e879530ee6a094475e67b", null ],
-    [ "JustEngagedWith", "dd/de2/a13546.html#a884e5973ed597eeeb606f5b8a2b1c028", null ],
-    [ "MovementInform", "dd/de2/a13546.html#a5ee27ccc1aea33ecc8aee5b703e05174", null ],
-    [ "OpenMassiveGateAndCallGuards", "dd/de2/a13546.html#a8f15098ad66e2d13ddfababc2ad2e33b", null ],
-    [ "Reset", "dd/de2/a13546.html#a11b1b2da283ddaa475f3f42534702f5b", null ],
-    [ "sGossipSelect", "dd/de2/a13546.html#ae56b80041fa198063a9ce87729142420", null ],
-    [ "SpellHit", "dd/de2/a13546.html#ad3ead59986b9340529bb6c6f42dbc137", null ],
-    [ "UpdateAI", "dd/de2/a13546.html#a0c64f294257e98522e0f32171aee6080", null ],
-    [ "_instance", "dd/de2/a13546.html#adb995a4b18607a5bd7555ce6989c2525", null ],
-    [ "_phase", "dd/de2/a13546.html#a1620b4f7407aa49c3e16876148c49ba7", null ]
+    [ "npc_zulaman_hostageAI", "dd/de2/a13546.html#a36a24241dfb0280a26c826ef9f1509dc", null ],
+    [ "JustDied", "dd/de2/a13546.html#af87bdebb039f1da5736408cf3aad6487", null ],
+    [ "JustEngagedWith", "dd/de2/a13546.html#af0aa229973da1a6230a854439658e9ed", null ],
+    [ "UpdateAI", "dd/de2/a13546.html#a2212a1f56cf151e8816d22095ebb7c9c", null ],
+    [ "IsLoot", "dd/de2/a13546.html#a86e65ee76ce382ec26a5b5bfb3fbf2b1", null ],
+    [ "PlayerGUID", "dd/de2/a13546.html#a49f15c5a94d005c56218d00ac6732b82", null ]
 ];

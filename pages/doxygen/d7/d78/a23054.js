@@ -1,8 +1,12 @@
 var a23054 =
 [
-    [ "boss_the_black_stalker", "d7/d78/a23054.html#ac33519b374509cefe43b8e97701719ee", null ],
-    [ "JustEngagedWith", "d7/d78/a23054.html#ad118347103ec463a09492e81dbd61418", null ],
-    [ "JustSummoned", "d7/d78/a23054.html#a9e0299a99df83abb7de476a765b667b9", null ],
-    [ "SummonedCreatureDies", "d7/d78/a23054.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
-    [ "UpdateAI", "d7/d78/a23054.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
+    [ "boss_swamplord_muselek", "d7/d78/a23054.html#a94ca982b8b9c1785a59040d23e72fc0e", null ],
+    [ "AttackStart", "d7/d78/a23054.html#a0732fdf14c972ae955eb43417a6d86a1", null ],
+    [ "CanShootVictim", "d7/d78/a23054.html#af84af5e4b344fc5f5da9f2047519710a", null ],
+    [ "JustDied", "d7/d78/a23054.html#a4020748c43bf03cb338e3d64a1dfd840", null ],
+    [ "JustEngagedWith", "d7/d78/a23054.html#a7b22bff5b78dcd1e5e1cc42858735655", null ],
+    [ "KilledUnit", "d7/d78/a23054.html#a9f2afd6aacb9befa956079a42fbace37", null ],
+    [ "Reset", "d7/d78/a23054.html#a6e03d7feca2de668c82d8f056d95fc6a", null ],
+    [ "_canChase", "d7/d78/a23054.html#aca3298f0e9bbbd7366f4e6456cfff621", null ],
+    [ "_markTarget", "d7/d78/a23054.html#a957d3f9ad935dbfa0537c75e39316ce3", null ]
 ];

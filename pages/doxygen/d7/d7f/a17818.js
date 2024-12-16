@@ -1,7 +1,6 @@
 var a17818 =
 [
-    [ "TriggerWickedSpirit", "d7/d7f/a17818.html#ace62bc037a2bd8ca9c9c56202eb811e7", null ],
-    [ "Execute", "d7/d7f/a17818.html#a7c8f1b5c33fac4d6a7cd89e3e71aa36d", null ],
-    [ "_counter", "d7/d7f/a17818.html#a24b85a62208f881418f97b0a8cb10f27", null ],
-    [ "_owner", "d7/d7f/a17818.html#ab460675158bfedd7f17a4b8e1cc06b3c", null ]
+    [ "VileSpiritActivateEvent", "d7/d7f/a17818.html#ac7d37d3b7b3173015a2af9ce93b8f2f9", null ],
+    [ "Execute", "d7/d7f/a17818.html#a858892424e1f22fda9a7c519b6a7e0b6", null ],
+    [ "_owner", "d7/d7f/a17818.html#a385fc75b5d77d8776d5a8e948fa69724", null ]
 ];

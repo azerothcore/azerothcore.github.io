@@ -1,6 +1,6 @@
 var a21414 =
 [
-    [ "HandleSendEvent", "d0/d92/a21414.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
-    [ "PrepareSpellScript", "d0/d92/a21414.html#aa632d381ac415feaf226f55fc2cd8520", null ],
-    [ "Register", "d0/d92/a21414.html#a72673f5054cf269cc8da511441f7bd66", null ]
+    [ "npc_heated_battleAI", "d0/d92/a21414.html#a2b73957d7890549f4b02488c5527fcef", null ],
+    [ "DamageTaken", "d0/d92/a21414.html#a8422c157214195d7166ede35c9c05d19", null ],
+    [ "Reset", "d0/d92/a21414.html#a11a4f3270ff260e30da89017dad38433", null ]
 ];

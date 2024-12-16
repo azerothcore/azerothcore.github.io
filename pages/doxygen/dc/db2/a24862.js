@@ -1,7 +1,6 @@
 var a24862 =
 [
-    [ "PrepareSpellScript", "dc/db2/a24862.html#a65d5717a25e371e09c44148c679dd390", null ],
-    [ "Register", "dc/db2/a24862.html#afb5f3560c022a8ef659d82cf24a46d8a", null ],
-    [ "RemoveInvalidTargets", "dc/db2/a24862.html#a53262865dfa222de1d020f8c7cbf15fd", null ],
-    [ "Validate", "dc/db2/a24862.html#a27ee4f0e6d14d15e5da2119c2bc49516", null ]
+    [ "CalculateAmount", "dc/db2/a24862.html#a0522f4bf54b4a71df4e09f97a28fda45", null ],
+    [ "PrepareAuraScript", "dc/db2/a24862.html#acf699e467734499dd992f401da38cf88", null ],
+    [ "Register", "dc/db2/a24862.html#a6e6396a162a532ff25b9bd7c551f05d8", null ]
 ];

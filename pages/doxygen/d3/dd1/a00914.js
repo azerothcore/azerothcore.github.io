@@ -1,6 +1,6 @@
 var a00914 =
 [
-    [ "boss_the_maker", "da/d9e/a23166.html", "da/d9e/a23166" ],
+    [ "boss_the_maker", "d8/d44/a23170.html", "d8/d44/a23170" ],
     [ "Says", "d3/dd1/a00914.html#a16774215bba3b38580ea51987d64cff1", [
       [ "SAY_START_FIGHT", "d6/dff/a02390.html#a16774215bba3b38580ea51987d64cff1a8faddecee02adff0c6fb321d27621e1e", null ],
       [ "EMOTE_DEATH", "de/dc9/a02414.html#a16774215bba3b38580ea51987d64cff1a532dda2af249d6245366a455505ac407", null ],

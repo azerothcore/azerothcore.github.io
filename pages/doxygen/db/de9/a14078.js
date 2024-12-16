@@ -1,7 +1,7 @@
 var a14078 =
 [
-    [ "OnApply", "db/de9/a14078.html#a42148069675e663456bb5495fa5c8702", null ],
-    [ "OnPeriodic", "db/de9/a14078.html#ad3582b02b369e3029e20817dd19aede0", null ],
-    [ "PrepareAuraScript", "db/de9/a14078.html#a4e53e6cc02ce44d85fdf5497c006d7d9", null ],
-    [ "Register", "db/de9/a14078.html#a8970b2ae63e0ba2e238aa6309d713b62", null ]
+    [ "HandleScript", "db/de9/a14078.html#a78899a874a645d531dd4d89f2bd5478a", null ],
+    [ "PrepareSpellScript", "db/de9/a14078.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
+    [ "Register", "db/de9/a14078.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
+    [ "Validate", "db/de9/a14078.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
 ];

@@ -1,15 +1,14 @@
 var a12414 =
 [
-    [ "boss_tinhead", "d4/d93/a12414.html#aa56375e9b031db15bee833375b7a4405", null ],
-    [ "DoAction", "d4/d93/a12414.html#ab27d93fd2b58e3f1c9e14d5bc6c788ff", null ],
-    [ "EnterEvadeMode", "d4/d93/a12414.html#ae83464d571103a67980b413325988921", null ],
-    [ "JustDied", "d4/d93/a12414.html#a5a641c0e96f271540e4642b5bb4e4c9e", null ],
-    [ "JustEngagedWith", "d4/d93/a12414.html#a74f51f155fdfb9ecc70245380b740d9c", null ],
-    [ "JustReachedHome", "d4/d93/a12414.html#a6c930c6cb2116cf16f3e4002e333f585", null ],
-    [ "KilledUnit", "d4/d93/a12414.html#ac0f281f1e4b985174f4c5c9b7fcf278d", null ],
-    [ "Reset", "d4/d93/a12414.html#ac22d86f58d59c81429e45fba9393fd37", null ],
-    [ "UpdateAI", "d4/d93/a12414.html#aec0d558cf82eb6bbf0d5626126b10233", null ],
-    [ "_rustCount", "d4/d93/a12414.html#a48901503085fd3d4ee5624626a526ce2", null ],
-    [ "_scheduler", "d4/d93/a12414.html#ababc9f32611a9ea35ef41725bce22df5", null ],
-    [ "instance", "d4/d93/a12414.html#a00b2ebbb009c700e38bbffbb035b4bfa", null ]
+    [ "boss_strawman", "d4/d93/a12414.html#a1789cdafc2ce03e156ac686e6859e25f", null ],
+    [ "DoAction", "d4/d93/a12414.html#a57f9519f87bc8e7446632a49f56a02ca", null ],
+    [ "EnterEvadeMode", "d4/d93/a12414.html#a67fd9b85406512cef4f3ae581461f0c4", null ],
+    [ "JustDied", "d4/d93/a12414.html#ab175b0104d316b8929e32d9eb939780f", null ],
+    [ "JustEngagedWith", "d4/d93/a12414.html#a40657516c4f1b049dd0514a50e299a10", null ],
+    [ "JustReachedHome", "d4/d93/a12414.html#a4235b2de2540199f9570cbadb7326871", null ],
+    [ "KilledUnit", "d4/d93/a12414.html#a06b92dbb6907ace60df7e10893be7af0", null ],
+    [ "SpellHit", "d4/d93/a12414.html#a5bf558765b59a7950bd55ece14c07a4f", null ],
+    [ "UpdateAI", "d4/d93/a12414.html#adcb7db7cb3f938b492a28c3540251ea9", null ],
+    [ "_scheduler", "d4/d93/a12414.html#a409539c771b373c165bdbccac8a59e7f", null ],
+    [ "instance", "d4/d93/a12414.html#a157a6faacf83432b8227173f6b14a7d3", null ]
 ];

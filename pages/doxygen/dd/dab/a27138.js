@@ -1,7 +1,8 @@
 var a27138 =
 [
-    [ "npc_riggle_bassbaitAI", "dd/dab/a27138.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
-    [ "CheckTournamentState", "dd/dab/a27138.html#aa7b4393b93be92fbb595648cede832be", null ],
-    [ "UpdateAI", "dd/dab/a27138.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
-    [ "m_uiTimer", "dd/dab/a27138.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
+    [ "npc_riggle_bassbaitAI", "d3/d82/a27142.html", "d3/d82/a27142" ],
+    [ "npc_riggle_bassbait", "dd/dab/a27138.html#afc4280099cda3c28c4634d649e636839", null ],
+    [ "GetAI", "dd/dab/a27138.html#ad5e3230dae9ac23aa83883e53b37234e", null ],
+    [ "OnGossipHello", "dd/dab/a27138.html#aeea1e5d4d59c72ce97e1f0eb8da5b6fe", null ],
+    [ "OnQuestReward", "dd/dab/a27138.html#aa3ef2b3ebd7542a4836983872c397e66", null ]
 ];

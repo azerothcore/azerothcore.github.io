@@ -1,6 +1,11 @@
 var a20534 =
 [
-    [ "boss_yoggsaron_neltharionAI", "d9/d9e/a20538.html", "d9/d9e/a20538" ],
-    [ "boss_yoggsaron_neltharion", "d0/d57/a20534.html#a9910e0d6043e7738cba0fe9ae7e92898", null ],
-    [ "GetAI", "d0/d57/a20534.html#abce5f59c35f7af3e1d5b30cc55ff48e6", null ]
+    [ "boss_yoggsaron_llaneAI", "d0/d57/a20534.html#a8524834b7dff49844d96b7dc49fd265d", null ],
+    [ "NextStep", "d0/d57/a20534.html#a6587e7873455950bda97b2a7d78e6fc5", null ],
+    [ "Reset", "d0/d57/a20534.html#a86f9d594562f842d478b63de18e52455", null ],
+    [ "Say", "d0/d57/a20534.html#ab619684f15f5325383a413dced7c930e", null ],
+    [ "UpdateAI", "d0/d57/a20534.html#a545378189f85968ac925baa06ad608b5", null ],
+    [ "_checkTimer", "d0/d57/a20534.html#aa4956f6943adce94a9ed4fec951317d6", null ],
+    [ "_running", "d0/d57/a20534.html#a6d6d186febc408ecb830bf7eea3c72bd", null ],
+    [ "_step", "d0/d57/a20534.html#a718c0bf307934b9ee9cbb933899c6324", null ]
 ];

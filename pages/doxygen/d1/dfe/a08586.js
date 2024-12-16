@@ -1,9 +1,9 @@
 var a08586 =
 [
-    [ "GameEventAIHookWorker", "d1/dfe/a08586.html#ad72640a18d2d32a9201c965089ee49cf", null ],
-    [ "Visit", "d1/dfe/a08586.html#a23d979ee43838e7d58e9123e36474a5a", null ],
-    [ "Visit", "d1/dfe/a08586.html#a79106ec550d072d690bbf3496d76cb0a", null ],
-    [ "Visit", "d1/dfe/a08586.html#a165476edd8b252bbb90b8b78fae963a6", null ],
-    [ "_activate", "d1/dfe/a08586.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
-    [ "_eventId", "d1/dfe/a08586.html#ab1ee68bb7134e84780772eba2cfac766", null ]
+    [ "TransportBase", "d1/dfe/a08586.html#a6dba8e37217dae4e5da8f52780e63f70", null ],
+    [ "~TransportBase", "d1/dfe/a08586.html#a81dca3435a1a1666a90acd8e154e3287", null ],
+    [ "CalculatePassengerOffset", "d1/dfe/a08586.html#ae8c9eb64027f8e7c781f0af192e3f6c1", null ],
+    [ "CalculatePassengerOffset", "d1/dfe/a08586.html#aa4d00f15dc0e6c53b4a175b0ca53021b", null ],
+    [ "CalculatePassengerPosition", "d1/dfe/a08586.html#a7cb7586a6935ca4e08aa3e658982abec", null ],
+    [ "CalculatePassengerPosition", "d1/dfe/a08586.html#a328fbc464c56eca89138380182a0108c", null ]
 ];

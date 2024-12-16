@@ -1,8 +1,12 @@
 var a22374 =
 [
-    [ "npc_parasitic_shadowfiend", "db/d8b/a22374.html#a09aa9baed84ec849bd5a34d02aec8db3", null ],
-    [ "CanAIAttack", "db/d8b/a22374.html#ac7600aed313f1413cb9b522d60d30329", null ],
-    [ "EnterEvadeMode", "db/d8b/a22374.html#a4dc9fe2b60fc97bd836701244a069d4d", null ],
-    [ "IsSummonedBy", "db/d8b/a22374.html#a306c696d4243c4525d0a3908a212135d", null ],
-    [ "UpdateAI", "db/d8b/a22374.html#a2706a4ba7876f299b02d2e720f512af2", null ]
+    [ "npc_maiev_illidan", "db/d8b/a22374.html#a0d19d9bb58c44662cdfb66a8fe373a60", null ],
+    [ "DamageTaken", "db/d8b/a22374.html#a780cc558c483efa3293d798cc6048a33", null ],
+    [ "DoAction", "db/d8b/a22374.html#a53607a158edf8fd772908b5d7af6edf1", null ],
+    [ "IsSummonedBy", "db/d8b/a22374.html#a1bf4f2f29132c5132e7903d089ace6e2", null ],
+    [ "JustEngagedWith", "db/d8b/a22374.html#ad1728d7d8b1b5f9db8db4d811c2ba630", null ],
+    [ "Reset", "db/d8b/a22374.html#a100db757c89634a58b9382216e2791ec", null ],
+    [ "SpellHit", "db/d8b/a22374.html#aa4d6626d6130a88519f86cfe70d9fb95", null ],
+    [ "UpdateAI", "db/d8b/a22374.html#a269e4a8f79b508e2da61cd5e2dc34664", null ],
+    [ "instance", "db/d8b/a22374.html#ad41b6deb9406232629ad60ba66cfac6b", null ]
 ];

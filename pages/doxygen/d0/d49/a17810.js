@@ -1,7 +1,5 @@
 var a17810 =
 [
-    [ "StartMovementEvent", "d0/d49/a17810.html#a4f0fd5e835f742c876f37f31bf03c56f", null ],
-    [ "Execute", "d0/d49/a17810.html#af1a043d953bcffe9341292e85cae2f55", null ],
-    [ "_owner", "d0/d49/a17810.html#ac2f4166af128a161c471b243144856ba", null ],
-    [ "_summoner", "d0/d49/a17810.html#afe1f7bcb3569758bc075380a24527067", null ]
+    [ "FrozenThroneResetWorker", "d0/d49/a17810.html#afd21e9c1449d4e391713256e197bc92b", null ],
+    [ "operator()", "d0/d49/a17810.html#a7119548d30d760ae817a87cacf712cf6", null ]
 ];

@@ -1,8 +1,8 @@
 var a01769 =
 [
-    [ "boss_loken", "df/db6/a19146.html", "df/db6/a19146" ],
-    [ "boss_loken::boss_lokenAI", "da/d2c/a19150.html", "da/d2c/a19150" ],
-    [ "spell_loken_pulsing_shockwave", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
+    [ "boss_loken", "da/d2c/a19150.html", "da/d2c/a19150" ],
+    [ "boss_loken::boss_lokenAI", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
+    [ "spell_loken_pulsing_shockwave", "dc/d85/a19158.html", "dc/d85/a19158" ],
     [ "LokenEvents", "d7/d6d/a01769.html#a77575461d3289e4cd9f6432f5f6e01c0", [
       [ "EVENT_LIGHTNING_NOVA", "d7/d6d/a01769.html#a77575461d3289e4cd9f6432f5f6e01c0a44944e59a1877f181fcd2a7b0255a74a", null ],
       [ "EVENT_SHOCKWAVE", "d7/d6d/a01769.html#a77575461d3289e4cd9f6432f5f6e01c0ade40d104ed3268809acfe5d537a6828d", null ],

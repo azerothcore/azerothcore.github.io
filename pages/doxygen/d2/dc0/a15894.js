@@ -1,6 +1,7 @@
 var a15894 =
 [
-    [ "boss_black_knightAI", "db/d75/a15898.html", "db/d75/a15898" ],
-    [ "boss_black_knight", "d2/dc0/a15894.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "d2/dc0/a15894.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "HandleAfterEffectAbsorb", "d2/dc0/a15894.html#ab3d9f3679931b4b3b29713602d08701d", null ],
+    [ "PrepareAuraScript", "d2/dc0/a15894.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
+    [ "Register", "d2/dc0/a15894.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
+    [ "Validate", "d2/dc0/a15894.html#a87750183d2b2d6adb67bba4a1f767029", null ]
 ];

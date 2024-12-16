@@ -1,6 +1,7 @@
 var a26242 =
 [
-    [ "HandleAfterCast", "dd/deb/a26242.html#a6f21938e84e45848fad74a16f1f52c48", null ],
-    [ "PrepareSpellScript", "dd/deb/a26242.html#ac7abeee05c117595696faf1ec55e11bd", null ],
-    [ "Register", "dd/deb/a26242.html#a9e90a6fa037627ac682f4ea050f557de", null ]
+    [ "HandleEffect", "dd/deb/a26242.html#ab33c9312c9ac4096140a82f381d83235", null ],
+    [ "PrepareSpellScript", "dd/deb/a26242.html#a6117d7b2720f719d801b5f6e0e719f5f", null ],
+    [ "Register", "dd/deb/a26242.html#a1f5983124756eca5666ca6adbe5a4544", null ],
+    [ "Validate", "dd/deb/a26242.html#a08f7e508b50fc44ced0b7ff04e22b333", null ]
 ];

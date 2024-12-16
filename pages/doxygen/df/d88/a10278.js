@@ -1,7 +1,11 @@
 var a10278 =
 [
-    [ "QueryGuildInfoResponse", "df/d88/a10278.html#ae1f7b9f33e36821477a19439a3d4065d", null ],
-    [ "Write", "df/d88/a10278.html#abda9452eba38e76c460f910eb3aad5fa", null ],
-    [ "GuildId", "df/d88/a10278.html#a04eec0531238fa55a91afa11c394fbce", null ],
-    [ "Info", "df/d88/a10278.html#a749e992a19264b259f62d403b4925abe", null ]
+    [ "BackgroundColor", "df/d88/a10278.html#abab86dd497de86088873178bf1d54b5b", null ],
+    [ "BorderColor", "df/d88/a10278.html#abb2489b9be8a0d4a20d209d6293d7d46", null ],
+    [ "BorderStyle", "df/d88/a10278.html#acd5105c31e0f56e680f3384e86186872", null ],
+    [ "EmblemColor", "df/d88/a10278.html#a2e8a4768292d3566bb61009056a8a230", null ],
+    [ "EmblemStyle", "df/d88/a10278.html#aa6309467f9f09725a8698de864b4e63c", null ],
+    [ "GuildName", "df/d88/a10278.html#a74d4e1690c07a647c97ca2225e8488dd", null ],
+    [ "RankCount", "df/d88/a10278.html#acddb77850a86348df197afc724c4eaa0", null ],
+    [ "Ranks", "df/d88/a10278.html#aec9fd9a1a3bfa040375193027b32cf24", null ]
 ];

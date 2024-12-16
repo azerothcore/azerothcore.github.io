@@ -170,6 +170,7 @@ var a02924 =
       [ "SMART_ACTION_EXIT_VEHICLE", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebca9f776489dc53e46a169aac7570ca5eff", null ],
       [ "SMART_ACTION_SET_UNIT_MOVEMENT_FLAGS", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebca4ff94ba2707039a9459bc26701cba4ec", null ],
       [ "SMART_ACTION_SET_COMBAT_DISTANCE", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebca72a1b87b0eeb3118909403489af3ef8c", null ],
+      [ "SMART_ACTION_DISMOUNT", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebcab9f8c5536f4c056af37d7f5296397f84", null ],
       [ "SMART_ACTION_SET_HOVER", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebca43c6978abbb634b5c471e5959a92c9e4", null ],
       [ "SMART_ACTION_ADD_IMMUNITY", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebca7889ea2c8c5dc1998efcd8ba0381955d", null ],
       [ "SMART_ACTION_REMOVE_IMMUNITY", "d9/dc5/a02924.html#a7b5604e647b8ac28cc6a4a64deceeebcaedf7438f7eb3676e0de46489eabf94e4", null ],

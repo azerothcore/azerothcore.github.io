@@ -1,6 +1,12 @@
 var a25678 =
 [
-    [ "CheckProc", "d8/da0/a25678.html#a5b8ee53249a19954e4d46b17422207d5", null ],
-    [ "PrepareAuraScript", "d8/da0/a25678.html#a2640f58f3e7442c37615b61ecf938a6f", null ],
-    [ "Register", "d8/da0/a25678.html#a55be2362ac226caa615e07a2a3b5ea38", null ]
+    [ "AfterCheckProc", "d8/da0/a25678.html#ae6ac733a614be543c04b57379b84aaca", null ],
+    [ "CheckProc", "d8/da0/a25678.html#aa533054a5cd434ef3e02767a0a87db62", null ],
+    [ "GetProcSpell", "d8/da0/a25678.html#af9fc6eb0c61c4084307fc2f7fb38973b", null ],
+    [ "HandleAfterEffectProc", "d8/da0/a25678.html#aaa577b07d61ddc6e7af175c76ce63b11", null ],
+    [ "HandleOnEffectProc", "d8/da0/a25678.html#a5bb5345754505cca5f9c840dc5bb9dfb", null ],
+    [ "PrepareAuraScript", "d8/da0/a25678.html#a111821352b6d26f51878ce81b173ef6d", null ],
+    [ "Register", "d8/da0/a25678.html#a9ba0584da94cf51b8cd8fe7da50fc1b0", null ],
+    [ "_chance", "d8/da0/a25678.html#ab644c981163424fbaa05650dc6505ae1", null ],
+    [ "_spell", "d8/da0/a25678.html#a07a855a4806bac873eb40505f805c39f", null ]
 ];

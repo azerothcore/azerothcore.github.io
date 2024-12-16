@@ -1,6 +1,6 @@
 var a22022 =
 [
-    [ "HandlePeriodicDummy", "d2/dab/a22022.html#a0096e0521c37a4f7f9ab1f2173a807d4", null ],
-    [ "PrepareAuraScript", "d2/dab/a22022.html#ad55ab81c39e8bf53d1e2066bbeefa712", null ],
-    [ "Register", "d2/dab/a22022.html#afeccfe29a0e0f192a4242217f9d4b7e5", null ]
+    [ "CheckCast", "d2/dab/a22022.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
+    [ "PrepareSpellScript", "d2/dab/a22022.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
+    [ "Register", "d2/dab/a22022.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
 ];

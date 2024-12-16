@@ -1,14 +1,6 @@
 var a20750 =
 [
-    [ "npc_massive_jormungarAI", "dd/d7b/a20750.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
-    [ "DoAction", "dd/d7b/a20750.html#a8084994ba056c907b2e487568fa7502a", null ],
-    [ "JustDied", "dd/d7b/a20750.html#a02b4e75227811250e2210f754e6e04f2", null ],
-    [ "JustEngagedWith", "dd/d7b/a20750.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
-    [ "JustReachedHome", "dd/d7b/a20750.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
-    [ "MoveInLineOfSight", "dd/d7b/a20750.html#a55c817111fab479c3abcfca8942f16e8", null ],
-    [ "Reset", "dd/d7b/a20750.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
-    [ "UpdateAI", "dd/d7b/a20750.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
-    [ "events", "dd/d7b/a20750.html#a92334b8178317a91a7d4336096d75f33", null ],
-    [ "m_pInstance", "dd/d7b/a20750.html#ad50a9852370798817fda318f71f27653", null ],
-    [ "summons", "dd/d7b/a20750.html#acfa84efc38b994706015e6d82fe1f653", null ]
+    [ "npc_massive_jormungarAI", "d0/dd6/a20754.html", "d0/dd6/a20754" ],
+    [ "npc_massive_jormungar", "dd/d7b/a20750.html#ad17b632fcfe78019dcb9e6b58fa1ac01", null ],
+    [ "GetAI", "dd/d7b/a20750.html#a68e3557e967ef633ba59fa81e661b80c", null ]
 ];

@@ -1,26 +1,10 @@
 var a28186 =
 [
-    [ "getMCIN", "d8/d90/a28186.html#a5014297529c070757b1a3672f679b83f", null ],
-    [ "getMFBO", "d8/d90/a28186.html#a28a247f0addfd93d3eeed190516e515a", null ],
-    [ "getMH2O", "d8/d90/a28186.html#a6672516f9b82b4dc33e28a5b9fda7000", null ],
-    [ "prepareLoadedData", "d8/d90/a28186.html#aeae95bb7dbb0d46e68db52fb2e212a80", null ],
-    [ "data1", "d8/d90/a28186.html#aeb0dacd46404505504aa4c9cd868838a", null ],
-    [ "data2", "d8/d90/a28186.html#a1996770c42791100aa0cbef91c78fcd2", null ],
-    [ "data3", "d8/d90/a28186.html#a4936a7d0e5ad64f4f75f6550418f80e6", null ],
-    [ "data4", "d8/d90/a28186.html#a6842806c1317e9be2a2cb5cbeeb0580d", null ],
-    [ "data5", "d8/d90/a28186.html#ac5bf3376c3e870ee129acc562588e4d5", null ],
-    [ "fcc", "d8/d90/a28186.html#a5d1b23b9a55361516d4dedbef5886d52", null ],
-    [ "fcc_txt", "d8/d90/a28186.html#a73087fbf3b4ff49036f3d3091c6125bc", null ],
-    [ "flags", "d8/d90/a28186.html#a04fe5874241fd7b868f1d3f5caf7d257", null ],
-    [ "offsDoodsDef", "d8/d90/a28186.html#a62270e73c2fd69dcfd38a4073de20fbc", null ],
-    [ "offsMapObejcts", "d8/d90/a28186.html#ad80da67bf16b98bba014d487da757492", null ],
-    [ "offsMapObejctsIds", "d8/d90/a28186.html#ab1c6fc91e4ac6954f959cb26502b88ce", null ],
-    [ "offsMCIN", "d8/d90/a28186.html#aa89f72d475714b226ed737b43eb8f6fc", null ],
-    [ "offsMFBO", "d8/d90/a28186.html#adc0706b41b60a36a26fea083d0eec379", null ],
-    [ "offsMH2O", "d8/d90/a28186.html#a677d2fc59ea16c6be991d2f1a9365de6", null ],
-    [ "offsModels", "d8/d90/a28186.html#a91801010d9fd98048e02a6dca36eefed", null ],
-    [ "offsModelsIds", "d8/d90/a28186.html#a0e5716fc4586c41f07103baa84c67388", null ],
-    [ "offsObjectsDef", "d8/d90/a28186.html#af3204f96aaab52969f97c56fc8207e1f", null ],
-    [ "offsTex", "d8/d90/a28186.html#abb5f6d7851880d74c6a645fe797cb355", null ],
-    [ "size", "d8/d90/a28186.html#a23b9fac4ccbdcae862135fa3cbe3061d", null ]
+    [ "plane", "d7/dca/a28194.html", "d7/dca/a28194" ],
+    [ "prepareLoadedData", "d8/d90/a28186.html#a29dc30be1cb7f5439e023865ff5a4853", null ],
+    [ "fcc", "d8/d90/a28186.html#a8c64958fb4e18bc3bcfaf7dbfde9f178", null ],
+    [ "fcc_txt", "d8/d90/a28186.html#ab768fb1ba27812060cf2edeb5f4b876c", null ],
+    [ "max", "d8/d90/a28186.html#afadebfc1361985b6f5d45c27e22cb303", null ],
+    [ "min", "d8/d90/a28186.html#ac3ebf1557841088ef8912b68fe6df908", null ],
+    [ "size", "d8/d90/a28186.html#af92420cfd862486c73c35ac8a9f9fdee", null ]
 ];

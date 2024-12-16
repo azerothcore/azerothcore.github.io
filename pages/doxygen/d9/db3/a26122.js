@@ -1,9 +1,8 @@
 var a26122 =
 [
-    [ "HandleKnockBack", "d9/db3/a26122.html#acaa8f445874270f34ea5b42a506671db", null ],
-    [ "HandleScript", "d9/db3/a26122.html#a29e47298601cb55c5442a3fa59bb3646", null ],
-    [ "Load", "d9/db3/a26122.html#a45700aba665b601b2c860af5a869d1af", null ],
-    [ "PrepareSpellScript", "d9/db3/a26122.html#aad1c175a2611152278d847ac59f93090", null ],
-    [ "Register", "d9/db3/a26122.html#ad790d435f422fabd128e601fb2dff103", null ],
-    [ "Validate", "d9/db3/a26122.html#a889a129ddc3ea6fcd7f440fc7c163e08", null ]
+    [ "HandleScript", "d9/db3/a26122.html#a1e096b2b2f5a285e660f64fb133f4f8b", null ],
+    [ "Load", "d9/db3/a26122.html#ad4e3fecb64bbb0f5c63b90d445c0b9f3", null ],
+    [ "PrepareSpellScript", "d9/db3/a26122.html#a5c4b2a46dfd6bdc2d14ee02f673628c1", null ],
+    [ "Register", "d9/db3/a26122.html#aa823af94e3366ae799ebaf03e52411dd", null ],
+    [ "Validate", "d9/db3/a26122.html#ad6985954002f88436a2681e758f41fb2", null ]
 ];

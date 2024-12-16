@@ -1,6 +1,6 @@
 var a25210 =
 [
-    [ "PrepareSpellScript", "db/d75/a25210.html#a72e57e8a4bdb9a4fcd73e3519b6025ea", null ],
-    [ "Register", "db/d75/a25210.html#aac4d3c8ecde3652c65c05abad5c8eaeb", null ],
-    [ "SelectTarget", "db/d75/a25210.html#a3153b6c6814922cd7220e19b06f2a602", null ]
+    [ "HandleActivateObject", "db/d75/a25210.html#a0d14ca0b21716855a04a0a9267f3e019", null ],
+    [ "PrepareSpellScript", "db/d75/a25210.html#a684079434128bacd3d8b8b71c14dc56a", null ],
+    [ "Register", "db/d75/a25210.html#a266301f59c809c03d0ccfc48a2ace302", null ]
 ];

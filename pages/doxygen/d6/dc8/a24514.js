@@ -1,6 +1,6 @@
 var a24514 =
 [
-    [ "CheckAreaTarget", "d6/dc8/a24514.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
-    [ "PrepareAuraScript", "d6/dc8/a24514.html#a2b6dbd33e34357917f662000a1cd932f", null ],
-    [ "Register", "d6/dc8/a24514.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
+    [ "CheckProc", "d6/dc8/a24514.html#afa477049b9a4fa18594b203a6066d205", null ],
+    [ "PrepareAuraScript", "d6/dc8/a24514.html#a9fff895957dfedb5d975e4a8e9588aa9", null ],
+    [ "Register", "d6/dc8/a24514.html#ab0746e7fa614f09708f89ed3ef93fca9", null ]
 ];

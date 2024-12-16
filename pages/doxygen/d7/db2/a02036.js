@@ -1,11 +1,11 @@
 var a02036 =
 [
-    [ "npc_toc5_player_vehicle", "d3/d6c/a15918.html", "d3/d6c/a15918" ],
-    [ "npc_toc5_player_vehicle::npc_toc5_player_vehicleAI", "d3/d87/a15922.html", "d3/d87/a15922" ],
-    [ "npc_toc5_grand_champion_minion", "d5/d2a/a15926.html", "d5/d2a/a15926" ],
-    [ "npc_toc5_grand_champion_minion::npc_toc5_grand_champion_minionAI", "d4/d18/a15930.html", "d4/d18/a15930" ],
-    [ "boss_grand_champion", "dc/d0b/a15934.html", "dc/d0b/a15934" ],
-    [ "boss_grand_champion::boss_grand_championAI", "d0/d29/a15938.html", "d0/d29/a15938" ],
+    [ "npc_toc5_player_vehicle", "d3/d87/a15922.html", "d3/d87/a15922" ],
+    [ "npc_toc5_player_vehicle::npc_toc5_player_vehicleAI", "d5/d2a/a15926.html", "d5/d2a/a15926" ],
+    [ "npc_toc5_grand_champion_minion", "d4/d18/a15930.html", "d4/d18/a15930" ],
+    [ "npc_toc5_grand_champion_minion::npc_toc5_grand_champion_minionAI", "dc/d0b/a15934.html", "dc/d0b/a15934" ],
+    [ "boss_grand_champion", "d0/d29/a15938.html", "d0/d29/a15938" ],
+    [ "boss_grand_champion::boss_grand_championAI", "db/d73/a15942.html", "db/d73/a15942" ],
     [ "SPELL_BLAST_WAVE", "d7/db2/a02036.html#ade3e1a0604a27ccc3e1d2044e5ac7f36", null ],
     [ "SPELL_CHAIN_LIGHTNING", "d7/db2/a02036.html#a62c2e253126f0f260aebfb5e1566f59a", null ],
     [ "SPELL_EVISCERATE", "d7/db2/a02036.html#a1fe576b1b42797377641ca138061c190", null ],
@@ -72,6 +72,7 @@ var a02036 =
       [ "EVENT_FIND_NEW_MOUNT", "d7/db2/a02036.html#aa934094648d2b70ca99f1fe7ba0fa86fadaef397a4d7d6588586194217bedc21c", null ]
     ] ],
     [ "MountSpells", "d7/db2/a02036.html#aa2ceb3484424d427f5a965f76e7a4557", [
+      [ "SPELL_LANCE_EQUIPPED", "d7/db2/a02036.html#aa2ceb3484424d427f5a965f76e7a4557a44d017273aef98fe3f421440c8b3265e", null ],
       [ "SPELL_PLAYER_VEHICLE_DEFEND", "d7/db2/a02036.html#aa2ceb3484424d427f5a965f76e7a4557acb88fbd527c0e83755107136cd54cc74", null ],
       [ "SPELL_MINIONS_DEFEND", "d7/db2/a02036.html#aa2ceb3484424d427f5a965f76e7a4557a3ce085d8b7d5682118a920d7ec5f4a86", null ],
       [ "SPELL_BOSS_DEFEND", "d7/db2/a02036.html#aa2ceb3484424d427f5a965f76e7a4557a96dd68df819ff567d360feb221830b7c", null ],

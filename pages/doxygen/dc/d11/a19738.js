@@ -1,6 +1,5 @@
 var a19738 =
 [
-    [ "achievement_freya_knock_on_wood", "dc/d11/a19738.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
-    [ "OnCheck", "dc/d11/a19738.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
-    [ "_elderCount", "dc/d11/a19738.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
+    [ "achievement_freya_getting_back_to_nature", "dc/d11/a19738.html#aa4078b573a9335fc52c9b9609590b12f", null ],
+    [ "OnCheck", "dc/d11/a19738.html#a850a32450379284784f019a5eb5ff0ff", null ]
 ];

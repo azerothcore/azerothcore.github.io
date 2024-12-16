@@ -1,6 +1,5 @@
 var a11538 =
 [
-    [ "ironhand_guardianAI", "d2/df7/a11542.html", "d2/df7/a11542" ],
-    [ "ironhand_guardian", "dd/d35/a11538.html#a2363002ce096937ecbb4b62af806ee42", null ],
-    [ "GetAI", "dd/d35/a11538.html#a0bf140618a45a6a4398cfe51b8a03488", null ]
+    [ "go_shadowforge_brazier", "dd/d35/a11538.html#aafc1d2e865294bb102c918d6016aab4b", null ],
+    [ "OnGossipHello", "dd/d35/a11538.html#a83b188cd2ee68e1ebfe75060465f8f38", null ]
 ];

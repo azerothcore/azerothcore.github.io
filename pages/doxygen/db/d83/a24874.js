@@ -1,5 +1,5 @@
 var a24874 =
 [
-    [ "PrepareSpellScript", "db/d83/a24874.html#a096abf53c6e622875c463060e986b5ef", null ],
-    [ "Register", "db/d83/a24874.html#a68905cc33f09dbb42db67139193530cb", null ]
+    [ "PrepareSpellScript", "db/d83/a24874.html#ae49ad5a4ad43099c4510e1666ff6415b", null ],
+    [ "Register", "db/d83/a24874.html#ad31fa6c2099d984389c3fb12e53a5bd8", null ]
 ];

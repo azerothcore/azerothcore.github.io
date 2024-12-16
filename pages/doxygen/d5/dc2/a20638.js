@@ -1,6 +1,5 @@
 var a20638 =
 [
-    [ "instance_ulduar_InstanceMapScript", "d4/deb/a20642.html", "d4/deb/a20642" ],
-    [ "instance_ulduar", "d5/dc2/a20638.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
-    [ "GetInstanceScript", "d5/dc2/a20638.html#ad15f003a90e656910fc32d661ca9baba", null ]
+    [ "achievement_yogg_saron_kiss_and_make_up", "d5/dc2/a20638.html#a9f2e5fe9de59a9b5a00c0e73e8f9b376", null ],
+    [ "OnCheck", "d5/dc2/a20638.html#a8ce7df713b804d5bdd5f6f47d77fc1b8", null ]
 ];

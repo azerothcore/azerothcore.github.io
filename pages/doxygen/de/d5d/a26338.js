@@ -1,6 +1,7 @@
 var a26338 =
 [
-    [ "HandleDummy", "de/d5d/a26338.html#af5bccd5dfb9aa37215b083438b6749ea", null ],
-    [ "PrepareSpellScript", "de/d5d/a26338.html#a6c2b858c893ed215d1192073b06db81d", null ],
-    [ "Register", "de/d5d/a26338.html#a1b23dc4a7a04e4c910bb738d45a8df1f", null ]
+    [ "HandleEffectProc", "de/d5d/a26338.html#a7f2ddbf54a4932277ad91eb0036915ab", null ],
+    [ "PrepareAuraScript", "de/d5d/a26338.html#a47d844a9700cd8add793e3f3088d1b82", null ],
+    [ "Register", "de/d5d/a26338.html#ad40dfc164ab98fc9734e1ed15ea14c17", null ],
+    [ "Validate", "de/d5d/a26338.html#a97f5239399e7135b02000722eaf837ad", null ]
 ];

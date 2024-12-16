@@ -1,6 +1,8 @@
 var a25886 =
 [
-    [ "HandleDummyEffect", "d1/db7/a25886.html#ad5421ca3dd5bf802952f98e6d1170003", null ],
-    [ "PrepareSpellScript", "d1/db7/a25886.html#a9489556e1e16cd2e0d5c43b38d7ea5ee", null ],
-    [ "Register", "d1/db7/a25886.html#a2ad2c00807d07aeb55a8fd848a69f9d1", null ]
+    [ "HandleEffectApply", "d1/db7/a25886.html#aed959961fcd07649cd4914fcd38a3214", null ],
+    [ "if", "d1/db7/a25886.html#a1518c08cb3b5cb716b8bd01692a5160d", null ],
+    [ "PrepareAuraScript", "d1/db7/a25886.html#a42167bc6bf7992debea8582680251da4", null ],
+    [ "Register", "d1/db7/a25886.html#aa2c23abd2b90a276bd7980cadc0397a4", null ],
+    [ "AuraEffectHandleModes", "d1/db7/a25886.html#ac886dec8a2ce55af4ec58ab068c589fa", null ]
 ];

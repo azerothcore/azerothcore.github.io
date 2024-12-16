@@ -71,8 +71,8 @@ var namespaces_dup =
       [ "_modulesList", "d9/dda/a04740.html#aa8df8c5e3d2ad2852ea850d12636d578", null ]
     ] ],
     [ "anonymous_namespace{MotdMgr.cpp}", "d4/dc9/a04742.html", [
-      [ "FormattedMotd", "d4/dc9/a04742.html#acadcdb5816d12c64acadfd214da71bb5", null ],
-      [ "MotdPacket", "d4/dc9/a04742.html#a78c7bbe511721151aa51c1143d1a14f9", null ]
+      [ "MotdMap", "d4/dc9/a04742.html#a5c662919d486ab6fdecf6195e172bc0d", null ],
+      [ "MotdPackets", "d4/dc9/a04742.html#a58c795807a8c0ddf95b6dde3d1760c0a", null ]
     ] ],
     [ "anonymous_namespace{QueryResult.cpp}", "d7/de9/a04715.html", [
       [ "FieldTypeToString", "d7/de9/a04715.html#a9b1d39b7abfe176191c0ed27188ed310", null ],

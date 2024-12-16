@@ -1,7 +1,7 @@
 var a15302 =
 [
-    [ "npc_lakota_windsongAI", "da/d06/a15302.html#a922172a38ca75adef66a2653eda7fa98", null ],
-    [ "DoSpawnBandits", "da/d06/a15302.html#aa63601ac87b674cb5d0594213d1e7ea9", null ],
-    [ "Reset", "da/d06/a15302.html#aee7a86275f93021e0e5db249b636bcd4", null ],
-    [ "WaypointReached", "da/d06/a15302.html#a6435c8b1521206789131889e5fa527a6", null ]
+    [ "npc_lakota_windsongAI", "d4/d1c/a15306.html", "d4/d1c/a15306" ],
+    [ "npc_lakota_windsong", "da/d06/a15302.html#a08a585ac36189ec23354c7acb26d223d", null ],
+    [ "GetAI", "da/d06/a15302.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
+    [ "OnQuestAccept", "da/d06/a15302.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
 ];

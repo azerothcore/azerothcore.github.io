@@ -1,19 +1,17 @@
 var a09962 =
 [
-    [ "AllGameObjectScript", "d2/d5e/a09962.html#ac6640c81043e19d7c73ed6208dd119dd", null ],
-    [ "CanGameObjectGossipHello", "d2/d5e/a09962.html#a33efc883fe64cdc52aa9b03f9377da97", null ],
-    [ "CanGameObjectGossipSelect", "d2/d5e/a09962.html#a317305c7dc81fede50d73f65fbc2bb42", null ],
-    [ "CanGameObjectGossipSelectCode", "d2/d5e/a09962.html#ac0b0ce8b06f371a6adfb69b926797790", null ],
-    [ "CanGameObjectQuestAccept", "d2/d5e/a09962.html#a0c99183b04355ecfb3460bc371b58805", null ],
-    [ "CanGameObjectQuestReward", "d2/d5e/a09962.html#a55eb61a5e4386908db998ceff1dff359", null ],
-    [ "GetGameObjectAI", "d2/d5e/a09962.html#afe0c610693bc883415952ba350596788", null ],
-    [ "OnGameObjectAddWorld", "d2/d5e/a09962.html#ae07275a83e4e1ae65371739bdc342d7f", null ],
-    [ "OnGameObjectDamaged", "d2/d5e/a09962.html#ab551bd870ab2e6513d95fcfb3e62d8c5", null ],
-    [ "OnGameObjectDestroyed", "d2/d5e/a09962.html#a3861b881456c1af3e9231d90519367d6", null ],
-    [ "OnGameObjectLootStateChanged", "d2/d5e/a09962.html#a599b35bb426d3c91c5457c838bfe910d", null ],
-    [ "OnGameObjectModifyHealth", "d2/d5e/a09962.html#a4d5607d755f044fed3a23c122bceddff", null ],
-    [ "OnGameObjectRemoveWorld", "d2/d5e/a09962.html#aca2171a8521195f06ea00c21f219d8f5", null ],
-    [ "OnGameObjectSaveToDB", "d2/d5e/a09962.html#ae4bb28ae318f13a72109a3874f2ca12d", null ],
-    [ "OnGameObjectStateChanged", "d2/d5e/a09962.html#ab0ab47240bdb815d404f8bd41fb3bdaa", null ],
-    [ "OnGameObjectUpdate", "d2/d5e/a09962.html#ada8cc5373b75025199ca62856242d0ab", null ]
+    [ "AllCreatureScript", "d2/d5e/a09962.html#ae933414c901fc5d3606fd5c239156f1b", null ],
+    [ "CanCreatureGossipHello", "d2/d5e/a09962.html#a2cf3bd5ad27bf97fde905bc69a6dec5e", null ],
+    [ "CanCreatureGossipSelect", "d2/d5e/a09962.html#a551633c543dd01e876ee10452b98fb5e", null ],
+    [ "CanCreatureGossipSelectCode", "d2/d5e/a09962.html#aa193e968ecc1639ca33fee052dafb0b3", null ],
+    [ "CanCreatureQuestAccept", "d2/d5e/a09962.html#af45ef5e7a0a6b3ca6126d5af87753b5c", null ],
+    [ "CanCreatureQuestReward", "d2/d5e/a09962.html#a31659a18df4206122a56ce69f3e4809d", null ],
+    [ "Creature_SelectLevel", "d2/d5e/a09962.html#a53699365c09e80de805be89545a28968", null ],
+    [ "GetCreatureAI", "d2/d5e/a09962.html#a1e568b6f85a8b60a65a987c8d081ca3e", null ],
+    [ "OnAllCreatureUpdate", "d2/d5e/a09962.html#abba47678a4f5e73c2db3b27b4cfa3dbe", null ],
+    [ "OnBeforeCreatureSelectLevel", "d2/d5e/a09962.html#a136f18625787127115566bb4625fc490", null ],
+    [ "OnCreatureAddWorld", "d2/d5e/a09962.html#aa5ba65ba430a95724a814311382c9a67", null ],
+    [ "OnCreatureRemoveWorld", "d2/d5e/a09962.html#aba119c6b59f3dd4a489bb227c1b1208d", null ],
+    [ "OnCreatureSaveToDB", "d2/d5e/a09962.html#acad4f67abbd5906f38be136be2ae1f53", null ],
+    [ "OnFfaPvpStateUpdate", "d2/d5e/a09962.html#a8022ccb5b3d0b6d900512f3d8ea6dbfa", null ]
 ];

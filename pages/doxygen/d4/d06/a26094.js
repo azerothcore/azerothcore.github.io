@@ -1,6 +1,6 @@
 var a26094 =
 [
-    [ "HandleDummy", "d4/d06/a26094.html#a86ec9b4606ae92b070edd4ca863fe93e", null ],
-    [ "PrepareSpellScript", "d4/d06/a26094.html#a4411e4317053450a0ac5217d546952b2", null ],
-    [ "Register", "d4/d06/a26094.html#a9eea8631e0723555a9c328bdfc1e30b7", null ]
+    [ "HandleEffectPeriodic", "d4/d06/a26094.html#ab283b40ceb6dcd0a835550531321ce92", null ],
+    [ "PrepareAuraScript", "d4/d06/a26094.html#a6d6efe0be7cefeb20c386c83dee561d4", null ],
+    [ "Register", "d4/d06/a26094.html#a4c69f350a68c1f4dd429ab52a791f3cd", null ]
 ];

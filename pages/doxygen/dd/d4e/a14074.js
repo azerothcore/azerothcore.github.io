@@ -1,7 +1,7 @@
 var a14074 =
 [
-    [ "HandleScript", "dd/d4e/a14074.html#a78899a874a645d531dd4d89f2bd5478a", null ],
-    [ "PrepareSpellScript", "dd/d4e/a14074.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
-    [ "Register", "dd/d4e/a14074.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
-    [ "Validate", "dd/d4e/a14074.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
+    [ "HandleEffectApply", "dd/d4e/a14074.html#ad48d832fef881bfb517fb8df694b7507", null ],
+    [ "HandleEffectRemove", "dd/d4e/a14074.html#a1534b010301dbaff66d41443142c50b7", null ],
+    [ "PrepareAuraScript", "dd/d4e/a14074.html#ab4bba02a5e2196ad65ccea94a4615a9d", null ],
+    [ "Register", "dd/d4e/a14074.html#a97a0003cca808e5b03f720bb3be07419", null ]
 ];

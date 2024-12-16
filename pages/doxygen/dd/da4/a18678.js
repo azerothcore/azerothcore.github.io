@@ -1,6 +1,9 @@
 var a18678 =
 [
-    [ "FilterTargets", "dd/da4/a18678.html#a2df81e30554809a0d5b45d2f471bb71f", null ],
-    [ "PrepareSpellScript", "dd/da4/a18678.html#aa51d9c578b782fbe0e7e3cf13789b702", null ],
-    [ "Register", "dd/da4/a18678.html#a4c1eab348e54011f1a2f827fc251ca13", null ]
+    [ "boss_grobbulus_poison_cloudAI", "dd/da4/a18678.html#ac26671336eec2d84b56a3552d50f8e0a", null ],
+    [ "KilledUnit", "dd/da4/a18678.html#a9c6ce4ace426f2e7aba5a7bf9430bbe3", null ],
+    [ "Reset", "dd/da4/a18678.html#a1715ab3f3f25b56517f6ded84acdbd9f", null ],
+    [ "UpdateAI", "dd/da4/a18678.html#af1b8dafb0aa47ba22b3601d8bf639c22", null ],
+    [ "auraVisualTimer", "dd/da4/a18678.html#a74aea4294c26414d3b60983d14d36e31", null ],
+    [ "sizeTimer", "dd/da4/a18678.html#a73f775b30ad36a595e0d8532067ba042", null ]
 ];

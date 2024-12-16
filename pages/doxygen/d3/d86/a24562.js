@@ -1,6 +1,6 @@
 var a24562 =
 [
-    [ "CheckLevel", "d3/d86/a24562.html#a9c0f4404275b274bd8af7be621eaa5b9", null ],
-    [ "PrepareSpellScript", "d3/d86/a24562.html#abc2bcce83810661ab462f56594066df3", null ],
-    [ "Register", "d3/d86/a24562.html#add6731563bd9a26d8f286bd29ffc8709", null ]
+    [ "PrepareAuraScript", "d3/d86/a24562.html#a8a60db6939ba71ddcf723fb4e48b3146", null ],
+    [ "Register", "d3/d86/a24562.html#a8ab913cf84f55428d2b0615172f3da3b", null ],
+    [ "AuraEffectHandleModes", "d3/d86/a24562.html#aed1cfe63d82450b526e154678fb97ac4", null ]
 ];

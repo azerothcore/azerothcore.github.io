@@ -332,7 +332,7 @@ Private Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  218</span>    <span class="keywordflow">for</span> (std::map&lt;ObjectGuid, uint32&gt;::iterator playerItr = PlayerPoints.begin(); playerItr != PlayerPoints.end(); ++playerItr)</div>
 <div class="line"><span class="lineno">  219</span>    {</div>
 <div class="line"><span class="lineno">  220</span>        <span class="comment">// Add points to player if online</span></div>
-<div class="line"><span class="lineno">  221</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../da/da3/a08394.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(playerItr-&gt;first))</div>
+<div class="line"><span class="lineno">  221</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(playerItr-&gt;first))</div>
 <div class="line"><span class="lineno">  222</span>            player-&gt;ModifyArenaPoints(playerItr-&gt;second, trans);</div>
 <div class="line"><span class="lineno">  223</span>        <span class="keywordflow">else</span>    <span class="comment">// Update database</span></div>
 <div class="line"><span class="lineno">  224</span>        {</div>
@@ -383,7 +383,7 @@ Private Member Functions</h2></td></tr>
 <div class="ttc" id="aa07062_html_ac7213a41de4e09ca079fe266496d4b51"><div class="ttname"><a href="../../d6/d0e/a07062.html#ac7213a41de4e09ca079fe266496d4b51">ArenaTeamMgr::GetArenaTeamMapEnd</a></div><div class="ttdeci">ArenaTeamContainer::iterator GetArenaTeamMapEnd()</div><div class="ttdef"><b>Definition:</b> ArenaTeamMgr.h:47</div></div>
 <div class="ttc" id="aa07294_html"><div class="ttname"><a href="../../dc/dcd/a07294.html">ChatHandler</a></div><div class="ttdef"><b>Definition:</b> Chat.h:37</div></div>
 <div class="ttc" id="aa07294_html_ad04fd84539ea2ab1596b40f2efdd906e"><div class="ttname"><a href="../../dc/dcd/a07294.html#ad04fd84539ea2ab1596b40f2efdd906e">ChatHandler::SendWorldText</a></div><div class="ttdeci">void SendWorldText(std::string_view str)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:130</div></div>
-<div class="ttc" id="aa08394_html"><div class="ttname"><a href="../../da/da3/a08394.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1064</div></div>
+<div class="ttc" id="aa08398_html"><div class="ttname"><a href="../../d9/d86/a08398.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1081</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00373">CHAR_UPD_CHAR_ARENA_POINTS</a>, <a class="el" href="../../#l00021">CharacterDatabase</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00046">GetArenaTeamMapBegin()</a>, <a class="el" href="../../#l00047">GetArenaTeamMapEnd()</a>, <a class="el" href="../../#l00717">LANG_DIST_ARENA_POINTS_END</a>, <a class="el" href="../../#l00714">LANG_DIST_ARENA_POINTS_ONLINE_END</a>, <a class="el" href="../../#l00713">LANG_DIST_ARENA_POINTS_ONLINE_START</a>, <a class="el" href="../../#l00712">LANG_DIST_ARENA_POINTS_START</a>, <a class="el" href="../../#l00716">LANG_DIST_ARENA_POINTS_TEAM_END</a>, <a class="el" href="../../#l00715">LANG_DIST_ARENA_POINTS_TEAM_START</a>, <a class="el" href="../../#l00130">ChatHandler::SendWorldText()</a>, <a class="el" href="../../#l00077">PreparedStatementBase::SetData()</a>, and <a class="el" href="../../#l00709">sScriptMgr</a>.</p>
 
@@ -407,7 +407,7 @@ Private Member Functions</h2></td></tr>
 <div class="line"><span class="lineno">  130</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/d0e/a07062.html#a7d542a1eea7a8f9c5c3f91552b5e1a30">NextArenaTeamId</a> &gt;= <a class="code hl_variable" href="../../df/d28/a03821.html#aa472ba6cfd587021965aece0e77797b7">MAX_ARENA_TEAM_ID</a>)</div>
 <div class="line"><span class="lineno">  131</span>    {</div>
 <div class="line"><span class="lineno">  132</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;bg.arena&quot;</span>, <span class="stringliteral">&quot;Arena team ids overflow!! Can&#39;t continue, shutting down server. &quot;</span>);</div>
-<div class="line"><span class="lineno">  133</span>        <a class="code hl_function" href="../../d8/de8/a11282.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a>(<a class="code hl_enumvalue" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a>);</div>
+<div class="line"><span class="lineno">  133</span>        <a class="code hl_function" href="../../d7/ddd/a11286.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a>(<a class="code hl_enumvalue" href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a>);</div>
 <div class="line"><span class="lineno">  134</span>    }</div>
 <div class="line"><span class="lineno">  135</span> </div>
 <div class="line"><span class="lineno">  136</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d6/d0e/a07062.html#a7d542a1eea7a8f9c5c3f91552b5e1a30">NextArenaTeamId</a>++;</div>
@@ -415,7 +415,7 @@ Private Member Functions</h2></td></tr>
 <div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
 <div class="ttc" id="aa03821_html_aa472ba6cfd587021965aece0e77797b7"><div class="ttname"><a href="../../df/d28/a03821.html#aa472ba6cfd587021965aece0e77797b7">MAX_ARENA_TEAM_ID</a></div><div class="ttdeci">constexpr uint32 MAX_ARENA_TEAM_ID</div><div class="ttdef"><b>Definition:</b> ArenaTeamMgr.h:23</div></div>
 <div class="ttc" id="aa04681_html_gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08"><div class="ttname"><a href="../../d2/db6/a04681.html#gga06d1e4f345fc9b7a45e5b1b9f1919efcaf9a655efa1811bdc5e1b8ed0f1dfdd08">ERROR_EXIT_CODE</a></div><div class="ttdeci">@ ERROR_EXIT_CODE</div><div class="ttdef"><b>Definition:</b> World.h:54</div></div>
-<div class="ttc" id="aa11282_html_ab0c53f76dd85fb0f2dcfc29b33291d9d"><div class="ttname"><a href="../../d8/de8/a11282.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a></div><div class="ttdeci">static void StopNow(uint8 exitcode)</div><div class="ttdef"><b>Definition:</b> World.h:253</div></div>
+<div class="ttc" id="aa11286_html_ab0c53f76dd85fb0f2dcfc29b33291d9d"><div class="ttname"><a href="../../d7/ddd/a11286.html#ab0c53f76dd85fb0f2dcfc29b33291d9d">World::StopNow</a></div><div class="ttdeci">static void StopNow(uint8 exitcode)</div><div class="ttdef"><b>Definition:</b> World.h:253</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00054">ERROR_EXIT_CODE</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00023">MAX_ARENA_TEAM_ID</a>, <a class="el" href="../../#l00061">NextArenaTeamId</a>, and <a class="el" href="../../#l00253">World::StopNow()</a>.</p>
 
@@ -1036,7 +1036,7 @@ Private Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../d6/d0e/a07062.html">ArenaTeamMgr</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:43:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:43:07 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

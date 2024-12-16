@@ -1,6 +1,6 @@
 var a19326 =
 [
-    [ "npc_living_constellationAI", "d4/dd9/a19330.html", "d4/dd9/a19330" ],
-    [ "npc_living_constellation", "d5/db9/a19326.html#a6ee651a525498cb5715ccfedaa26e05d", null ],
-    [ "GetAI", "d5/db9/a19326.html#a4533812a4da72c0d9eff6d6c9eaf772a", null ]
+    [ "npc_collapsing_starAI", "d5/db9/a19326.html#ac389b380a8f315ae50a8cd809393a773", null ],
+    [ "DamageTaken", "d5/db9/a19326.html#a424fac98093eb9d02cda5027523ad06a", null ],
+    [ "JustSummoned", "d5/db9/a19326.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
 ];

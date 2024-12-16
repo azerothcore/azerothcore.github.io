@@ -1,6 +1,8 @@
 var a23666 =
 [
-    [ "npc_wounded_blood_elfAI", "dc/d33/a23670.html", "dc/d33/a23670" ],
-    [ "npc_wounded_blood_elf", "d5/d67/a23666.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
-    [ "GetAI", "d5/d67/a23666.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
+    [ "npc_ancestral_wolfAI", "d5/d67/a23666.html#a59ccca7093575f4bcac57a4751d977d4", null ],
+    [ "MoveInLineOfSight", "d5/d67/a23666.html#aec5788f0be3c1dcb63b3e61b50ae39c1", null ],
+    [ "Reset", "d5/d67/a23666.html#a9778a1648ca0007f7daf4ee98308d8d2", null ],
+    [ "WaypointReached", "d5/d67/a23666.html#a2b553c29823e5ef888ee02a3ed413386", null ],
+    [ "ryga", "d5/d67/a23666.html#ac238214604720e298124b58c35d58e05", null ]
 ];

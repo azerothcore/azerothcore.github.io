@@ -1,11 +1,21 @@
 var a28374 =
 [
-    [ "material", "de/dfe/a28374.html#a7079e8817a9684602084eb224f2540fc", null ],
-    [ "pos_x", "de/dfe/a28374.html#ac4d971cc46506be14716124afbb5ad9c", null ],
-    [ "pos_y", "de/dfe/a28374.html#a6cd85f2a674d732e88371ffce5e46077", null ],
-    [ "pos_z", "de/dfe/a28374.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
-    [ "xtiles", "de/dfe/a28374.html#aca34dfa64624cfe04c314c13bbed0062", null ],
-    [ "xverts", "de/dfe/a28374.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
-    [ "ytiles", "de/dfe/a28374.html#a9901a7e9828ac840bc290b0768831d66", null ],
-    [ "yverts", "de/dfe/a28374.html#abf24042b85692cd0df05d65d734dd99e", null ]
+    [ "WMORoot", "de/dfe/a28374.html#ac9b3d7cb0502bf612a9b780926364c2b", null ],
+    [ "ConvertToVMAPRootWmo", "de/dfe/a28374.html#a9e2bea32209471be360f964e7c6702ad", null ],
+    [ "open", "de/dfe/a28374.html#a3c10106f8ded86f5e889c99c93dc385a", null ],
+    [ "bbcorn1", "de/dfe/a28374.html#a119493cf0243952021d07d9328de68df", null ],
+    [ "bbcorn2", "de/dfe/a28374.html#a518adad011f480154a786503224aff0f", null ],
+    [ "color", "de/dfe/a28374.html#ab9f1ca906365d919dc8c03b04d3f7759", null ],
+    [ "DoodadData", "de/dfe/a28374.html#a193043738049583257b8c26494c97573", null ],
+    [ "filename", "de/dfe/a28374.html#a8ef5c36dfab76a6baf633a0f6dbe5449", null ],
+    [ "flags", "de/dfe/a28374.html#ac3e95eb0b51ef25289b2cdf617ac2585", null ],
+    [ "nDoodadDefs", "de/dfe/a28374.html#a1881c8d0ba9d435627a4cdeb3ec8bf77", null ],
+    [ "nDoodadNames", "de/dfe/a28374.html#ab51a28cda7db10964cfac9b13022dcd6", null ],
+    [ "nDoodadSets", "de/dfe/a28374.html#a17b88fd5067eb7d30e345726ad7d1f26", null ],
+    [ "nGroups", "de/dfe/a28374.html#a73a8d2c858db5e144f163ece74a9d295", null ],
+    [ "nLights", "de/dfe/a28374.html#a2442113c758362dd5b8da9ceb8d355ae", null ],
+    [ "nPortals", "de/dfe/a28374.html#a25b1d2531c61ae7cf883642f5c5f2ee7", null ],
+    [ "nTextures", "de/dfe/a28374.html#ac0b9bc8f8087878b2b51be8261f9928c", null ],
+    [ "RootWMOID", "de/dfe/a28374.html#aeb47cb44dc9b564782fb7b0ef5cc314c", null ],
+    [ "ValidDoodadNames", "de/dfe/a28374.html#a787748c52305b52fb65776df51b4c017", null ]
 ];

@@ -1,7 +1,7 @@
 var a02834 =
 [
-    [ "u_map_magic", "dd/d60/a09490.html", "dd/d60/a09490" ],
-    [ "ResetNotifier", "df/d01/a09494.html", "df/d01/a09494" ],
+    [ "u_map_magic", "df/d01/a09494.html", "df/d01/a09494" ],
+    [ "ResetNotifier", "d9/d30/a09498.html", "d9/d30/a09498" ],
     [ "IsInWMOInterior", "d3/d57/a02834.html#ad41458075af3abab316f89b325f54b7e", null ],
     [ "holetab_h", "d3/d57/a02834.html#a10e90ca95e60d3244de3e68d7882433b", null ],
     [ "holetab_v", "d3/d57/a02834.html#a54b408dce116992610ba9c141426d821", null ],

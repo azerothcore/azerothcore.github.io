@@ -1,6 +1,6 @@
 var a22826 =
 [
-    [ "HandleDummy", "df/d44/a22826.html#a3347413822ce083085bcf1418fbdbae2", null ],
-    [ "PrepareSpellScript", "df/d44/a22826.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
-    [ "Register", "df/d44/a22826.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
+    [ "HandleScriptEffect", "df/d44/a22826.html#a18fb2e73a00f1de7c62049eadfcbc658", null ],
+    [ "PrepareSpellScript", "df/d44/a22826.html#ae80b4ca96692035c399d1621b632fe66", null ],
+    [ "Register", "df/d44/a22826.html#ac655157c74104a51f045e114fc63a42d", null ]
 ];

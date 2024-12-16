@@ -1,11 +1,6 @@
 var a13610 =
 [
-    [ "boss_hakkarAI", "d2/d57/a13610.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
-    [ "ApplyHakkarPowerStacks", "d2/d57/a13610.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
-    [ "CheckInRoom", "d2/d57/a13610.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
-    [ "EnterEvadeMode", "d2/d57/a13610.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
-    [ "JustDied", "d2/d57/a13610.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
-    [ "JustEngagedWith", "d2/d57/a13610.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
-    [ "Reset", "d2/d57/a13610.html#a52db5743c09088e2e9f1aff1513960f2", null ],
-    [ "UpdateAI", "d2/d57/a13610.html#a1119212465bcf293991d7a520c6ffe42", null ]
+    [ "boss_hakkarAI", "dc/d3f/a13614.html", "dc/d3f/a13614" ],
+    [ "boss_hakkar", "d2/d57/a13610.html#a834bd1f223154fbf1be94bf43136da28", null ],
+    [ "GetAI", "d2/d57/a13610.html#aff3a089e30dcddfde4db372104153723", null ]
 ];

@@ -1,7 +1,9 @@
 var a12378 =
 [
-    [ "OnRemove", "dd/d40/a12378.html#a3fdb54a848aa81a7f4e8c2bd772ca3e5", null ],
-    [ "PrepareAuraScript", "dd/d40/a12378.html#a92a12c16381c433a946eeb1fed8ab7a9", null ],
-    [ "Register", "dd/d40/a12378.html#af26ef4eae84aa3982287fde0b4f65dcd", null ],
-    [ "Validate", "dd/d40/a12378.html#aeabc1d487afdb30b80d9a5235c306df1", null ]
+    [ "FilterTargets", "dd/d40/a12378.html#a88b91e40b330d39bd04a7873128fb858", null ],
+    [ "HandleFinish", "dd/d40/a12378.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
+    [ "PrepareSpellScript", "dd/d40/a12378.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
+    [ "Register", "dd/d40/a12378.html#ab2008e585589cbf313170064d37c4aa9", null ],
+    [ "Validate", "dd/d40/a12378.html#af4963be6c544a1706a6dc30dcbf18309", null ],
+    [ "_targets", "dd/d40/a12378.html#a2f75199a90e52cff770f46bce76d5149", null ]
 ];

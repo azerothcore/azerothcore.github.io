@@ -1,6 +1,6 @@
 var a16738 =
 [
-    [ "npc_pos_leader_secondAI", "dd/d5b/a16742.html", "dd/d5b/a16742" ],
-    [ "npc_pos_leader_second", "dd/d62/a16738.html#ac4758674cc97eae0937264fa028e6da5", null ],
-    [ "GetAI", "dd/d62/a16738.html#ac403cfc86247990d78c9cf4179df8b87", null ]
+    [ "npc_pos_freed_slaveAI", "dd/d62/a16738.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
+    [ "CanAIAttack", "dd/d62/a16738.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
+    [ "EnterEvadeMode", "dd/d62/a16738.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
 ];

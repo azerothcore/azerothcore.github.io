@@ -1,11 +1,6 @@
 var a23786 =
 [
-    [ "npc_invis_infernal_casterAI", "dd/d85/a23786.html#a1188ecc4752d5ab1c2f81602187282f2", null ],
-    [ "Reset", "dd/d85/a23786.html#a05a8d5fd4828d7b1edb3b29ff8a6e61c", null ],
-    [ "SetData", "dd/d85/a23786.html#aee88dc141757384f96da969fcdc20671", null ],
-    [ "SummonInfernal", "dd/d85/a23786.html#a78d53d09e5544b3fe8301da4415d297b", null ],
-    [ "UpdateAI", "dd/d85/a23786.html#a80be204b493768ceb5f5d99d1e81f1b1", null ],
-    [ "events", "dd/d85/a23786.html#aab7aca330ae36dd2de7761984dd2a0a3", null ],
-    [ "ground", "dd/d85/a23786.html#a4c943d67b25d7c9f4ac6f16d96bbbc4f", null ],
-    [ "infernalGUID", "dd/d85/a23786.html#a5619136f90c181ecf3e4389bc2fcdafc", null ]
+    [ "npc_invis_infernal_casterAI", "db/dbd/a23790.html", "db/dbd/a23790" ],
+    [ "npc_invis_infernal_caster", "dd/d85/a23786.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "dd/d85/a23786.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

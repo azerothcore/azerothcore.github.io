@@ -1,6 +1,12 @@
 var a21758 =
 [
-    [ "npc_blessed_bannerAI", "d7/d5f/a21762.html", "d7/d5f/a21762" ],
-    [ "npc_blessed_banner", "dd/dcd/a21758.html#a779a0c653088b2d206226e146a19101f", null ],
-    [ "GetAI", "dd/dcd/a21758.html#a43dabbf2f2d54ae201cde37df792a41d", null ]
+    [ "npc_tournament_training_dummyAI", "dd/dcd/a21758.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
+    [ "DamageTaken", "dd/dcd/a21758.html#a98c18794124922e6946a82a324410837", null ],
+    [ "EnterEvadeMode", "dd/dcd/a21758.html#a3f31d705284b0fad2f00c9210ff06646", null ],
+    [ "MoveInLineOfSight", "dd/dcd/a21758.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
+    [ "Reset", "dd/dcd/a21758.html#a7339ffe52dc789f9480afca7141a169e", null ],
+    [ "SpellHit", "dd/dcd/a21758.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
+    [ "UpdateAI", "dd/dcd/a21758.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
+    [ "events", "dd/dcd/a21758.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
+    [ "isVulnerable", "dd/dcd/a21758.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
 ];

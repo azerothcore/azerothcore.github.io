@@ -1,7 +1,7 @@
 var a17134 =
 [
-    [ "ExtraEffect", "d5/d70/a17134.html#a65b5bc8d053a69325f42a7f23ae4dbdc", null ],
-    [ "PrepareAuraScript", "d5/d70/a17134.html#a53d6013e5ec473854e1537969cb31988", null ],
-    [ "Register", "d5/d70/a17134.html#a85be360bb15482ff34b7f1d04d949b1d", null ],
-    [ "Validate", "d5/d70/a17134.html#ab14e7410cf542d9f4043800a3b86c664", null ]
+    [ "HandleScript", "d5/d70/a17134.html#a5fe0b684473bd5dd1ff9b12432ff3de8", null ],
+    [ "Load", "d5/d70/a17134.html#ab1d81386ae3ccd332c01864d7f456017", null ],
+    [ "PrepareSpellScript", "d5/d70/a17134.html#ae3ef753ff4c99aa8bed20ce3369a7e0f", null ],
+    [ "Register", "d5/d70/a17134.html#a7edb44f70501c2e760d29c8f78a4e087", null ]
 ];

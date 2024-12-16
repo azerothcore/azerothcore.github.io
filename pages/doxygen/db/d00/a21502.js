@@ -1,6 +1,6 @@
 var a21502 =
 [
-    [ "npc_torturer_lecraftAI", "df/d52/a21506.html", "df/d52/a21506" ],
-    [ "npc_torturer_lecraft", "db/d00/a21502.html#a789f8bdafe96d5cb01225b940a80c651", null ],
-    [ "GetAI", "db/d00/a21502.html#abdc8b33cd820c5cd14c999e7407897fe", null ]
+    [ "HandleDummy", "db/d00/a21502.html#afe86744c6ab901750731fca486ff2e6c", null ],
+    [ "PrepareSpellScript", "db/d00/a21502.html#a47e8a3187fa523c61842885f1cbd041d", null ],
+    [ "Register", "db/d00/a21502.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
 ];

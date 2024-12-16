@@ -1,7 +1,7 @@
 var a15270 =
 [
-    [ "npc_giltharesAI", "d7/d36/a15270.html#af22e42b2180987febd964784b6d49b5e", null ],
-    [ "JustEngagedWith", "d7/d36/a15270.html#ae9ba65652db3d2d32920d1a98594727a", null ],
-    [ "Reset", "d7/d36/a15270.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
-    [ "WaypointReached", "d7/d36/a15270.html#a9308c73760e50e0f3d04031b508526d1", null ]
+    [ "npc_giltharesAI", "d0/ddc/a15274.html", "d0/ddc/a15274" ],
+    [ "npc_gilthares", "d7/d36/a15270.html#af1e0746350b32b68825710e1c3ed91a5", null ],
+    [ "GetAI", "d7/d36/a15270.html#a96293e28237a092c64f6a91d91bc7ff3", null ],
+    [ "OnQuestAccept", "d7/d36/a15270.html#a018cc6240a79216acb371241f63e3234", null ]
 ];

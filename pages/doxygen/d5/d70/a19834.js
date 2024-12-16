@@ -1,6 +1,6 @@
 var a19834 =
 [
-    [ "npc_ulduar_hodir_priestAI", "d0/d76/a19838.html", "d0/d76/a19838" ],
-    [ "npc_ulduar_hodir_priest", "d5/d70/a19834.html#a30d7f1b68f9a1d10bc47288b81fc517c", null ],
-    [ "GetAI", "d5/d70/a19834.html#a276046b974666c1462440a46a8096de7", null ]
+    [ "npc_ulduar_toasty_fireAI", "d5/d70/a19834.html#a145001c6f1c1d505f810ae545ec62c69", null ],
+    [ "DoAction", "d5/d70/a19834.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
+    [ "SpellHit", "d5/d70/a19834.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
 ];

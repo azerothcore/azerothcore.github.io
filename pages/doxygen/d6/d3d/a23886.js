@@ -1,9 +1,11 @@
 var a23886 =
 [
-    [ "npc_korkron_or_wildhammer", "d6/d3d/a23886.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
-    [ "IsSummonedBy", "d6/d3d/a23886.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
-    [ "JustDied", "d6/d3d/a23886.html#a2b216f372b3681b4c96a711568c2a93b", null ],
-    [ "MovementInform", "d6/d3d/a23886.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
-    [ "Reset", "d6/d3d/a23886.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
-    [ "_playerGUID", "d6/d3d/a23886.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
+    [ "npc_shadowmoon_tuber_nodeAI", "d6/d3d/a23886.html#af24a8d5ead256d158c86379e032aa889", null ],
+    [ "Reset", "d6/d3d/a23886.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
+    [ "SetData", "d6/d3d/a23886.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
+    [ "SpellHit", "d6/d3d/a23886.html#a14523a24042d23efbafc7924f394dd04", null ],
+    [ "UpdateAI", "d6/d3d/a23886.html#ae5cd38aa2a9cc1727141298323639660", null ],
+    [ "resetTimer", "d6/d3d/a23886.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
+    [ "tapped", "d6/d3d/a23886.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
+    [ "tuberGUID", "d6/d3d/a23886.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
 ];

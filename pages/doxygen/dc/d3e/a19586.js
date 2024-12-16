@@ -1,5 +1,8 @@
 var a19586 =
 [
-    [ "go_ulduar_tower", "dc/d3e/a19586.html#afc1add1a0543921f52afe1eb907f5de3", null ],
-    [ "OnDestroyed", "dc/d3e/a19586.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
+    [ "npc_mechanoliftAI", "dc/d3e/a19586.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "dc/d3e/a19586.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "dc/d3e/a19586.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "dc/d3e/a19586.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "dc/d3e/a19586.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

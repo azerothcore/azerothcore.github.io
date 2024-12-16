@@ -1,8 +1,7 @@
 var a22954 =
 [
-    [ "FilterTargets", "d6/db4/a22954.html#a8687ba9c22299e62e5911a3729fa4a0a", null ],
-    [ "HandleDummy", "d6/db4/a22954.html#addb3580259be74126b7de36d1b0a8a97", null ],
-    [ "PrepareSpellScript", "d6/db4/a22954.html#aba82de0886d03037de4564f9908b8c89", null ],
-    [ "Register", "d6/db4/a22954.html#a1650962493d48f5553a9e2771e594f1f", null ],
-    [ "Validate", "d6/db4/a22954.html#a0a29926e43bd5ff58ca7ad79df6f8cc1", null ]
+    [ "PeriodicTick", "d6/db4/a22954.html#a94bee50f214d0a61fa81c4cca1b38fb2", null ],
+    [ "PrepareAuraScript", "d6/db4/a22954.html#a2c34fbc5c12be43b1c054cf4b23542cb", null ],
+    [ "Register", "d6/db4/a22954.html#ae1479b53d8c0575947a7ce7cae4747c4", null ],
+    [ "Validate", "d6/db4/a22954.html#ade8d57db324f02734e1752f49976dc9d", null ]
 ];

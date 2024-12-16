@@ -129,7 +129,7 @@ $(document).ready(function(){initNavTree('db/d6c/a02969.html','../../'); initRes
 Functions</h2></td></tr>
 <tr class="memitem:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d6d/a06086.html">AISpellInfoType</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a1ed41ad074263f6c0c63f38b7f51414b">GetAISpellInfo</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i)</td></tr>
 <tr class="separator:a1ed41ad074263f6c0c63f38b7f51414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a981f03ba3b8c59eb1fa9d22df158ba19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a981f03ba3b8c59eb1fa9d22df158ba19">IsValidCombatTarget</a> (<a class="el" href="../../df/d49/a07778.html">Creature</a> *source, <a class="el" href="../../da/da3/a08394.html">Player</a> *target)</td></tr>
+<tr class="memitem:a981f03ba3b8c59eb1fa9d22df158ba19"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d6c/a02969.html#a981f03ba3b8c59eb1fa9d22df158ba19">IsValidCombatTarget</a> (<a class="el" href="../../df/d49/a07778.html">Creature</a> *source, <a class="el" href="../../d9/d86/a08398.html">Player</a> *target)</td></tr>
 <tr class="separator:a981f03ba3b8c59eb1fa9d22df158ba19"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
@@ -175,7 +175,7 @@ Functions</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../da/da3/a08394.html">Player</a> *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
           <td class="paramname"><em>target</em>&#160;</td>
         </tr>
         <tr>
@@ -191,7 +191,7 @@ Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
-<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../da/da3/a08394.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (target-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
 <div class="line"><span class="lineno">   79</span>    {</div>
 <div class="line"><span class="lineno">   80</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   81</span>    }</div>
@@ -201,7 +201,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   85</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   86</span>    }</div>
 <div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">if</span> (!source-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !target-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">if</span> (!source-&gt;<a class="code hl_function" href="../../de/d71/a08530.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !target-&gt;<a class="code hl_function" href="../../de/d71/a08530.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
 <div class="line"><span class="lineno">   89</span>    {</div>
 <div class="line"><span class="lineno">   90</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   91</span>    }</div>
@@ -211,7 +211,7 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">   95</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">   96</span>    }</div>
 <div class="line"><span class="lineno">   97</span> </div>
-<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">if</span> (source-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>) || target-&gt;<a class="code hl_function" href="../../d6/d15/a08526.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>))</div>
+<div class="line"><span class="lineno">   98</span>    <span class="keywordflow">if</span> (source-&gt;<a class="code hl_function" href="../../de/d71/a08530.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>) || target-&gt;<a class="code hl_function" href="../../de/d71/a08530.html#ab78147cd520d2dac6be709b4c80a7de3">HasUnitState</a>(<a class="code hl_enumvalue" href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a>))</div>
 <div class="line"><span class="lineno">   99</span>    {</div>
 <div class="line"><span class="lineno">  100</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  101</span>    }</div>
@@ -219,13 +219,13 @@ Functions</h2></td></tr>
 <div class="line"><span class="lineno">  103</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  104</span>}</div>
 <div class="ttc" id="aa03521_html_ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc"><div class="ttname"><a href="../../d8/dbe/a03521.html#ae51d2ecb71f7a5cb3882982a622c9544acaa99b04af24f0d3e5adb2e92d82ffcc">UNIT_STATE_IN_FLIGHT</a></div><div class="ttdeci">@ UNIT_STATE_IN_FLIGHT</div><div class="ttdef"><b>Definition:</b> UnitDefines.h:157</div></div>
-<div class="ttc" id="aa08150_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d6/d80/a08150.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:104</div></div>
-<div class="ttc" id="aa08182_html_a9194d2edf982e08c6a17e2893d9969f9"><div class="ttname"><a href="../../db/df3/a08182.html#a9194d2edf982e08c6a17e2893d9969f9">WorldObject::InSamePhase</a></div><div class="ttdeci">bool InSamePhase(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.h:447</div></div>
-<div class="ttc" id="aa08394_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../da/da3/a08394.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1158</div></div>
-<div class="ttc" id="aa08526_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../d6/d15/a08526.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1654</div></div>
-<div class="ttc" id="aa08526_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../d6/d15/a08526.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:701</div></div>
+<div class="ttc" id="aa08150_html_a3aeab7def818ba6c50249f197ad2f9ca"><div class="ttname"><a href="../../d6/d80/a08150.html#a3aeab7def818ba6c50249f197ad2f9ca">Object::IsInWorld</a></div><div class="ttdeci">bool IsInWorld() const</div><div class="ttdef"><b>Definition:</b> Object.h:107</div></div>
+<div class="ttc" id="aa08182_html_a9194d2edf982e08c6a17e2893d9969f9"><div class="ttname"><a href="../../db/df3/a08182.html#a9194d2edf982e08c6a17e2893d9969f9">WorldObject::InSamePhase</a></div><div class="ttdeci">bool InSamePhase(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.h:452</div></div>
+<div class="ttc" id="aa08398_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../d9/d86/a08398.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1175</div></div>
+<div class="ttc" id="aa08530_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../de/d71/a08530.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1654</div></div>
+<div class="ttc" id="aa08530_html_ab78147cd520d2dac6be709b4c80a7de3"><div class="ttname"><a href="../../de/d71/a08530.html#ab78147cd520d2dac6be709b4c80a7de3">Unit::HasUnitState</a></div><div class="ttdeci">bool HasUnitState(const uint32 f) const</div><div class="ttdef"><b>Definition:</b> Unit.h:701</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00701">Unit::HasUnitState()</a>, <a class="el" href="../../#l00447">WorldObject::InSamePhase()</a>, <a class="el" href="../../#l01654">Unit::IsAlive()</a>, <a class="el" href="../../#l01158">Player::IsGameMaster()</a>, <a class="el" href="../../#l00104">Object::IsInWorld()</a>, and <a class="el" href="../../#l00157">UNIT_STATE_IN_FLIGHT</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00701">Unit::HasUnitState()</a>, <a class="el" href="../../#l00452">WorldObject::InSamePhase()</a>, <a class="el" href="../../#l01654">Unit::IsAlive()</a>, <a class="el" href="../../#l01175">Player::IsGameMaster()</a>, <a class="el" href="../../#l00107">Object::IsInWorld()</a>, and <a class="el" href="../../#l00157">UNIT_STATE_IN_FLIGHT</a>.</p>
 
 <p class="reference">Referenced by <a class="el" href="../../#l00106">CreatureAI::DoZoneInCombat()</a>.</p>
 
@@ -237,7 +237,7 @@ Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_5e5741f7891ede41bef7ecc492194021.html">AI</a></li><li class="navelem"><a class="el" href="../../db/d6c/a02969.html">CreatureAI.cpp</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:42:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,13 +1,11 @@
 var a23126 =
 [
-    [ "boss_olm_the_summoner", "d3/db8/a23126.html#aa8fe3804d4e2a1a1150975f5e9832ce6", null ],
-    [ "AttackStart", "d3/db8/a23126.html#a334ab95cfc3320db1a568bcb5a1d9542", null ],
-    [ "JustDied", "d3/db8/a23126.html#a07cde4fc7bc882db40b51426dc40ab93", null ],
-    [ "JustEngagedWith", "d3/db8/a23126.html#a68db779bb7ffffa7621caedd7f52d93f", null ],
-    [ "JustSummoned", "d3/db8/a23126.html#a546bede780b7d67b98ec251ae2e1b812", null ],
-    [ "Reset", "d3/db8/a23126.html#a8dcdc816276a1932612d554cff703a45", null ],
-    [ "UpdateAI", "d3/db8/a23126.html#a967f330966fdb29f26ab24e8f40d2152", null ],
-    [ "_scheduler", "d3/db8/a23126.html#a448ba3a88156e80eebad44585791ab21", null ],
-    [ "instance", "d3/db8/a23126.html#a8caabc31bb7a8548eb936c34c655df68", null ],
-    [ "summons", "d3/db8/a23126.html#ae9187928c74fa1cfafaea4df25a55e41", null ]
+    [ "boss_high_king_maulgar", "d3/db8/a23126.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
+    [ "DoAction", "d3/db8/a23126.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
+    [ "JustDied", "d3/db8/a23126.html#ad235febd755745313b72394c633c3723", null ],
+    [ "JustEngagedWith", "d3/db8/a23126.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
+    [ "KilledUnit", "d3/db8/a23126.html#a2059016597039929103c053d6524ebf7", null ],
+    [ "Reset", "d3/db8/a23126.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
+    [ "UpdateAI", "d3/db8/a23126.html#ae540909dbbb3cf93e37503cd755c3001", null ],
+    [ "_recentlySpoken", "d3/db8/a23126.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
 ];

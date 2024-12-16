@@ -1,6 +1,6 @@
 var a16994 =
 [
-    [ "PrepareSpellScript", "df/dee/a16994.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
-    [ "Register", "df/dee/a16994.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
-    [ "SetDest", "df/dee/a16994.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
+    [ "PrepareSpellScript", "df/dee/a16994.html#a37899f12707930d038de38bae92c9aff", null ],
+    [ "Register", "df/dee/a16994.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
+    [ "SelectDest", "df/dee/a16994.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
 ];

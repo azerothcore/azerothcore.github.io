@@ -1,10 +1,6 @@
 var a09742 =
 [
-    [ "EffectMovementGenerator", "d4/dbe/a09742.html#a4b574eb9865cffe1277d9012db653d98", null ],
-    [ "Finalize", "d4/dbe/a09742.html#a50cad77c4261bea67428b9dcd5a37ea1", null ],
-    [ "GetMovementGeneratorType", "d4/dbe/a09742.html#a42c56bc35cf3d752e24ccc36adcd2e82", null ],
-    [ "Initialize", "d4/dbe/a09742.html#a376f554231bc5dc4c95790e6c85dcb01", null ],
-    [ "Reset", "d4/dbe/a09742.html#a9627573a7206e12ff469e8e6e076862b", null ],
-    [ "Update", "d4/dbe/a09742.html#adff45ee4ce3cc72b6cc88e626c3bd0a5", null ],
-    [ "m_Id", "d4/dbe/a09742.html#a56f483336fe5c86c6d186ec4d7772d4b", null ]
+    [ "AssistanceMovementGenerator", "d4/dbe/a09742.html#a649b7d2833aaf895a5f6f290131c88f5", null ],
+    [ "Finalize", "d4/dbe/a09742.html#a6fc296a5283726cca409d7df1137743d", null ],
+    [ "GetMovementGeneratorType", "d4/dbe/a09742.html#a1d4b6fe8693fdd21c364b53075c27439", null ]
 ];

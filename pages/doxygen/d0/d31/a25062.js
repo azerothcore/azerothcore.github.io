@@ -1,6 +1,9 @@
 var a25062 =
 [
-    [ "OnRemove", "d0/d31/a25062.html#ac3a6d7bdc95605e3c73f8115b4a68da0", null ],
-    [ "PrepareAuraScript", "d0/d31/a25062.html#ab1e3a55a35dbbb4bd781ac8c51608e6a", null ],
-    [ "Register", "d0/d31/a25062.html#aecd068248e174c4b676ff9f43dd0856f", null ]
+    [ "CheckProc", "d0/d31/a25062.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
+    [ "HandleProc", "d0/d31/a25062.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
+    [ "OnRemove", "d0/d31/a25062.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
+    [ "PrepareAuraScript", "d0/d31/a25062.html#a2e13f63459342fb749594f7fbb517c80", null ],
+    [ "Register", "d0/d31/a25062.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
+    [ "Validate", "d0/d31/a25062.html#a008ec43da50deb568ec453e992f89887", null ]
 ];

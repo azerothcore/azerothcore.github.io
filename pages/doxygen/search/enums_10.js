@@ -36,9 +36,10 @@ var searchData=
   ['questslotoffsets_33',['QuestSlotOffsets',['../d7/d13/a03365.html#a7c33ee51eabd76272609a0ca6e26f315',1,'Player.h']]],
   ['questslotstatemask_34',['QuestSlotStateMask',['../d7/d13/a03365.html#a2d079af58ae5bf704ea2b958307a5196',1,'Player.h']]],
   ['questsort_35',['QuestSort',['../d0/dbd/a02771.html#ae823c0dfe6586b88fab84e822b4d79f5',1,'SharedDefines.h']]],
-  ['questspecialflags_36',['QuestSpecialFlags',['../dd/da3/a03026.html#afa444be95c64570168d2ecd6732aa7ad',1,'QuestDef.h']]],
-  ['queststatus_37',['QuestStatus',['../dd/da3/a03026.html#abfc87d39d69176ad25e800fb4aa6f0d8',1,'QuestDef.h']]],
-  ['questtradeskill_38',['QuestTradeSkill',['../dd/da3/a03026.html#a4947c7f0350e13fba41d5ece641faeed',1,'QuestDef.h']]],
-  ['questtypes_39',['QuestTypes',['../d0/dbd/a02771.html#aa6addbfd7b811a56c18d8b67d5d61712',1,'SharedDefines.h']]],
-  ['quotes_40',['Quotes',['../d7/d70/a02252.html#a3f2ffdc8d4bc224b9ab0264dab54463c',1,'Quotes():&#160;boss_brutallus.cpp'],['../d9/d13/a02237.html#a3f2ffdc8d4bc224b9ab0264dab54463c',1,'Quotes():&#160;boss_eredar_twins.cpp']]]
+  ['questsound_36',['QuestSound',['../d7/d13/a03365.html#a017a9adaae6aa5e8fc321ee6b10482a0',1,'Player.h']]],
+  ['questspecialflags_37',['QuestSpecialFlags',['../dd/da3/a03026.html#afa444be95c64570168d2ecd6732aa7ad',1,'QuestDef.h']]],
+  ['queststatus_38',['QuestStatus',['../dd/da3/a03026.html#abfc87d39d69176ad25e800fb4aa6f0d8',1,'QuestDef.h']]],
+  ['questtradeskill_39',['QuestTradeSkill',['../dd/da3/a03026.html#a4947c7f0350e13fba41d5ece641faeed',1,'QuestDef.h']]],
+  ['questtypes_40',['QuestTypes',['../d0/dbd/a02771.html#aa6addbfd7b811a56c18d8b67d5d61712',1,'SharedDefines.h']]],
+  ['quotes_41',['Quotes',['../d7/d70/a02252.html#a3f2ffdc8d4bc224b9ab0264dab54463c',1,'Quotes():&#160;boss_brutallus.cpp'],['../d9/d13/a02237.html#a3f2ffdc8d4bc224b9ab0264dab54463c',1,'Quotes():&#160;boss_eredar_twins.cpp']]]
 ];

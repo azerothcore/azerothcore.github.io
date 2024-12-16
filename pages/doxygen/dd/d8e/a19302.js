@@ -1,6 +1,6 @@
 var a19302 =
 [
-    [ "boss_algalon_the_observerAI", "de/d1b/a19306.html", "de/d1b/a19306" ],
-    [ "boss_algalon_the_observer", "dd/d8e/a19302.html#a0691b47a116401da58b246203ecba2cb", null ],
-    [ "GetAI", "dd/d8e/a19302.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
+    [ "CosmicSmashDamageEvent", "dd/d8e/a19302.html#a5c9606791b560d8be1825a9c73f2393e", null ],
+    [ "Execute", "dd/d8e/a19302.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
+    [ "_caster", "dd/d8e/a19302.html#ab7af2459d3962831812ee2362ee9de2b", null ]
 ];

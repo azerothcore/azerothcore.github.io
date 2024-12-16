@@ -1,11 +1,13 @@
 var a23130 =
 [
-    [ "boss_kiggler_the_crazed", "dc/d86/a23130.html#a6f6cd74a8d2b12809f2710f784340fda", null ],
-    [ "AttackStart", "dc/d86/a23130.html#a47c18487637dcb911852573e3aec85a2", null ],
-    [ "JustDied", "dc/d86/a23130.html#acf82f68ccfeabd33bc387dbe7ea0e997", null ],
-    [ "JustEngagedWith", "dc/d86/a23130.html#acd10951a5b148579d0bd4196cc2e686e", null ],
-    [ "Reset", "dc/d86/a23130.html#a3bd8ca2488b2db298a198038a849189e", null ],
-    [ "UpdateAI", "dc/d86/a23130.html#a16e2b767ca4b05eba79726ccb6e11204", null ],
-    [ "_scheduler", "dc/d86/a23130.html#af041c254910df663a03fcc815db635da", null ],
-    [ "instance", "dc/d86/a23130.html#aa78db443f19814c66b977fe008de74fa", null ]
+    [ "boss_olm_the_summoner", "dc/d86/a23130.html#aa8fe3804d4e2a1a1150975f5e9832ce6", null ],
+    [ "AttackStart", "dc/d86/a23130.html#a334ab95cfc3320db1a568bcb5a1d9542", null ],
+    [ "JustDied", "dc/d86/a23130.html#a07cde4fc7bc882db40b51426dc40ab93", null ],
+    [ "JustEngagedWith", "dc/d86/a23130.html#a68db779bb7ffffa7621caedd7f52d93f", null ],
+    [ "JustSummoned", "dc/d86/a23130.html#a546bede780b7d67b98ec251ae2e1b812", null ],
+    [ "Reset", "dc/d86/a23130.html#a8dcdc816276a1932612d554cff703a45", null ],
+    [ "UpdateAI", "dc/d86/a23130.html#a967f330966fdb29f26ab24e8f40d2152", null ],
+    [ "_scheduler", "dc/d86/a23130.html#a448ba3a88156e80eebad44585791ab21", null ],
+    [ "instance", "dc/d86/a23130.html#a8caabc31bb7a8548eb936c34c655df68", null ],
+    [ "summons", "dc/d86/a23130.html#ae9187928c74fa1cfafaea4df25a55e41", null ]
 ];

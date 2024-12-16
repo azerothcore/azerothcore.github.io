@@ -1,10 +1,11 @@
 var a22914 =
 [
-    [ "npc_frozen_core", "df/d25/a22914.html#af00f67392d96aa1ab8ccdab5b168fc04", null ],
-    [ "DoAction", "df/d25/a22914.html#a7b2c684f0c4e88720fb0d921815026ab", null ],
-    [ "Initialize", "df/d25/a22914.html#a7e5824e31f600d10c3177e00ae443c7f", null ],
-    [ "JustDied", "df/d25/a22914.html#a476e086b0379e0cef3a44d250b020d6a", null ],
-    [ "UpdateAI", "df/d25/a22914.html#af09168b57b79d14d9a7ef6861e85cc1a", null ],
-    [ "_events", "df/d25/a22914.html#a3a5efec3279644ef713722e1556a3c84", null ],
-    [ "_instance", "df/d25/a22914.html#a80fa517cc7dffd4bf15f3393d1f4af14", null ]
+    [ "boss_ahune", "df/d25/a22914.html#aa3d15e1ab37843761d9f7c56d2e5a319", null ],
+    [ "DoAction", "df/d25/a22914.html#a9e197e8a5ecbad8487c7bad7647e6d2c", null ],
+    [ "Emerge", "df/d25/a22914.html#a6404a8255566f2eaa061a89025e2bdcd", null ],
+    [ "EnterEvadeMode", "df/d25/a22914.html#a2b906881621e59143a916c588beb70e7", null ],
+    [ "ExecuteEvent", "df/d25/a22914.html#a46b477aef635de1d3ec88baa2465089f", null ],
+    [ "JustDied", "df/d25/a22914.html#af2fc7c071321653a644ee569ead67d63", null ],
+    [ "JustEngagedWith", "df/d25/a22914.html#aaffc4f54544c8aa4529b249560ddeeec", null ],
+    [ "Submerge", "df/d25/a22914.html#aad68758720cc1cb703f8f2dc72c09af2", null ]
 ];

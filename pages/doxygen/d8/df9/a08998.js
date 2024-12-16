@@ -1,7 +1,8 @@
 var a08998 =
 [
-    [ "GameObjectFocusCheck", "d8/df9/a08998.html#a06607ffa0ebf51c230f4584632a7444a", null ],
-    [ "operator()", "d8/df9/a08998.html#af5c0b63b8bfe112c9a8a43d7e49e1f7b", null ],
-    [ "i_focusId", "d8/df9/a08998.html#ace009546c2dcc6dac5de98b3c34152a5", null ],
-    [ "i_unit", "d8/df9/a08998.html#a0afc07e086f5aa3301c2b46a0004213e", null ]
+    [ "RespawnDo", "d8/df9/a08998.html#a79f6424f2849c4c05998fe29a8510aeb", null ],
+    [ "operator()", "d8/df9/a08998.html#ac15ff63f29e313556b8f66e0cd80514f", null ],
+    [ "operator()", "d8/df9/a08998.html#a23408bf4da497d1007e4e88e0d9c0e19", null ],
+    [ "operator()", "d8/df9/a08998.html#a66335f45bb1f3c770887b263e9d84236", null ],
+    [ "operator()", "d8/df9/a08998.html#a4551ca2e0fdb6540a724c9c2b43484c6", null ]
 ];

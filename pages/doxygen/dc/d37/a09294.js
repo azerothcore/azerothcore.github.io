@@ -1,9 +1,9 @@
 var a09294 =
 [
-    [ "EmoteChatBuilder", "dc/d37/a09294.html#ae1aeb36aad24d5ef28074edfbf2f9e7e", null ],
-    [ "operator()", "dc/d37/a09294.html#a133a7bb35e86cf40425910c4f19a3337", null ],
-    [ "i_emote_num", "dc/d37/a09294.html#a966b8afcbf5afca3a3466d8e075a9437", null ],
-    [ "i_player", "dc/d37/a09294.html#ae09dbfe01b2a24e57b63b2b1df5ad232", null ],
-    [ "i_target", "dc/d37/a09294.html#abc538e056d91ea1ee8d6203c96174b1d", null ],
-    [ "i_text_emote", "dc/d37/a09294.html#add0630dc3fc76fb4fdb79095e13b2fc0", null ]
+    [ "LoginQueryHolder", "dc/d37/a09294.html#a0e1a9e1b505ba40d08daee432eaa40c1", null ],
+    [ "GetAccountId", "dc/d37/a09294.html#ac44ea5d53fa90dae955bfaa3f472ecea", null ],
+    [ "GetGuid", "dc/d37/a09294.html#a8cdce5befc3b7f8727eef78ab1f768a2", null ],
+    [ "Initialize", "dc/d37/a09294.html#ae21aca0c9ccc627e084b4a535b3f5774", null ],
+    [ "m_accountId", "dc/d37/a09294.html#abc8056182803af44a062fe6153fdd009", null ],
+    [ "m_guid", "dc/d37/a09294.html#ab4696408b2e649dcdaae0bc4330c0b9e", null ]
 ];

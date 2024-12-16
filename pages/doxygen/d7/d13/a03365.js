@@ -26,9 +26,10 @@ var a03365 =
     [ "DungeonProgressionRequirements", "d9/d6e/a08382.html", "d9/d6e/a08382" ],
     [ "BGData", "d0/dc6/a08386.html", "d0/dc6/a08386" ],
     [ "EntryPointData", "db/dff/a08390.html", "db/dff/a08390" ],
-    [ "Player", "da/da3/a08394.html", "da/da3/a08394" ],
-    [ "Player::ChatFloodThrottle", "d9/d86/a08398.html", "d9/d86/a08398" ],
-    [ "Player::BgBattlegroundQueueID_Rec", "d7/df7/a08402.html", "d7/df7/a08402" ],
+    [ "PendingSpellCastRequest", "da/da3/a08394.html", "da/da3/a08394" ],
+    [ "Player", "d9/d86/a08398.html", "d9/d86/a08398" ],
+    [ "Player::ChatFloodThrottle", "d7/df7/a08402.html", "d7/df7/a08402" ],
+    [ "Player::BgBattlegroundQueueID_Rec", "dd/d8f/a08406.html", "dd/d8f/a08406" ],
     [ "ACTION_BUTTON_ACTION", "d7/d13/a03365.html#ab6a9fef336444d917d4caa5a59acf600", null ],
     [ "ACTION_BUTTON_TYPE", "d7/d13/a03365.html#a7cd994ea695a2fdb343be5ef0bdb03a8", null ],
     [ "DEATH_EXPIRE_STEP", "d7/d13/a03365.html#a5162fa9f5a706edd3f4eba77de6fe0bc", null ],
@@ -438,6 +439,9 @@ var a03365 =
       [ "QUEST_STATE_NONE", "d7/d13/a03365.html#a2d079af58ae5bf704ea2b958307a5196aa0fcb1405df6995fae9176032524522a", null ],
       [ "QUEST_STATE_COMPLETE", "d7/d13/a03365.html#a2d079af58ae5bf704ea2b958307a5196a61b0594f1dd162d5a1dcff7103cecfc2", null ],
       [ "QUEST_STATE_FAIL", "d7/d13/a03365.html#a2d079af58ae5bf704ea2b958307a5196a94e8ba97d7ae5f33b87bab4d23ffb39f", null ]
+    ] ],
+    [ "QuestSound", "d7/d13/a03365.html#a017a9adaae6aa5e8fc321ee6b10482a0", [
+      [ "QUEST_SOUND_FAILURE", "d7/d13/a03365.html#a017a9adaae6aa5e8fc321ee6b10482a0a6dc8ede9aeb9e538d3ca3f123bb564a0", null ]
     ] ],
     [ "ReferAFriendError", "d7/d13/a03365.html#a1540bb0af13f9b9cfd024dca6c5b92c1", [
       [ "ERR_REFER_A_FRIEND_NONE", "d7/d13/a03365.html#a1540bb0af13f9b9cfd024dca6c5b92c1a427be4b54d50f8d80cf65318d2a7123f", null ],

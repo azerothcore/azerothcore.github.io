@@ -1,6 +1,6 @@
 var a11650 =
 [
-    [ "boss_hedrumAI", "d5/d06/a11650.html#a95e4af51a8e24fa7b36b924c6cdfb86c", null ],
-    [ "JustEngagedWith", "d5/d06/a11650.html#a1cf03b06598f2b36814062d47a73ed82", null ],
-    [ "UpdateAI", "d5/d06/a11650.html#aa515ed081aaabdad751c1bbba56d3d96", null ]
+    [ "boss_hedrumAI", "d5/d96/a11654.html", "d5/d96/a11654" ],
+    [ "boss_hedrum", "d5/d06/a11650.html#a655d348dec9ce9b585ea12f3629b0aa7", null ],
+    [ "GetAI", "d5/d06/a11650.html#a7033d315852aa4905784e957679ee261", null ]
 ];

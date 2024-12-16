@@ -1,6 +1,6 @@
 var a23954 =
 [
-    [ "PrepareSpellScript", "d7/d64/a23954.html#ac781a5ff389268d1f18867ff5585ca71", null ],
-    [ "Register", "d7/d64/a23954.html#a5cb9e02774ea6c307e76183253ffb472", null ],
-    [ "SetDest", "d7/d64/a23954.html#a5fec9885b1dd6cf80fb47af321fad98e", null ]
+    [ "PrepareSpellScript", "d7/d64/a23954.html#a190f6dc3d9b336324da29f627a743fe9", null ],
+    [ "Register", "d7/d64/a23954.html#a3afc8035b852bc31abd3228e88d59819", null ],
+    [ "SetDest", "d7/d64/a23954.html#a85d66a58597954501305ad5b674cc8a2", null ]
 ];

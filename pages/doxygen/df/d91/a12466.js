@@ -1,8 +1,5 @@
 var a12466 =
 [
-    [ "npc_barnesAI", "df/d92/a12470.html", "df/d92/a12470" ],
-    [ "npc_barnes", "df/d91/a12466.html#aacdc737a94397a90b48b635293fe9c80", null ],
-    [ "GetAI", "df/d91/a12466.html#a4e349ede566d9be90b82e7ebd9d71de3", null ],
-    [ "OnGossipHello", "df/d91/a12466.html#a47cafa3628d2ca99582140f2a72ff8db", null ],
-    [ "OnGossipSelect", "df/d91/a12466.html#aa04d577e318f16f581f82761b6014eb5", null ]
+    [ "textid", "df/d91/a12466.html#a7dac5c31d7df501f28eee3e1dec0523a", null ],
+    [ "timer", "df/d91/a12466.html#ab7851f383e7221c6ff2700ee345d9504", null ]
 ];

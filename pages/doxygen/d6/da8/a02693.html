@@ -177,7 +177,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">   41</span> </div>
 <div class="line"><span class="lineno">   42</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;network.soap&quot;</span>, <span class="stringliteral">&quot;ACSoap: bound to http://{}:{}&quot;</span>, host, port);</div>
 <div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d8/de8/a11282.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
+<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">while</span> (!<a class="code hl_function" href="../../d7/ddd/a11286.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a>())</div>
 <div class="line"><span class="lineno">   45</span>    {</div>
 <div class="line"><span class="lineno">   46</span>        <span class="keywordflow">if</span> (!soap_valid_socket(soap_accept(&amp;soap)))</div>
 <div class="line"><span class="lineno">   47</span>            <span class="keywordflow">continue</span>;   <span class="comment">// ran into an accept timeout</span></div>
@@ -196,7 +196,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
 <div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
 <div class="ttc" id="aa02693_html_abf914e30c869f88f2fafb9f656320c6a"><div class="ttname"><a href="../../d6/da8/a02693.html#abf914e30c869f88f2fafb9f656320c6a">process_message</a></div><div class="ttdeci">void process_message(struct soap *soap_message)</div><div class="ttdef"><b>Definition:</b> ACSoap.cpp:60</div></div>
-<div class="ttc" id="aa11282_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d8/de8/a11282.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:254</div></div>
+<div class="ttc" id="aa11286_html_ae1716f62b00fe8ba87a92850bf4d054c"><div class="ttname"><a href="../../d7/ddd/a11286.html#ae1716f62b00fe8ba87a92850bf4d054c">World::IsStopped</a></div><div class="ttdeci">static bool IsStopped()</div><div class="ttdef"><b>Definition:</b> World.h:254</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00254">World::IsStopped()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, and <a class="el" href="../../#l00060">process_message()</a>.</p>
 
@@ -271,7 +271,7 @@ Variables</h2></td></tr>
 <div class="line"><span class="lineno">  108</span>    <span class="comment">// commands are executed in the world thread. We have to wait for them to be completed</span></div>
 <div class="line"><span class="lineno">  109</span>    {</div>
 <div class="line"><span class="lineno">  110</span>        <span class="comment">// CliCommandHolder will be deleted from world, accessing after queueing is NOT save</span></div>
-<div class="line"><span class="lineno">  111</span>        <a class="code hl_struct" href="../../d3/d5c/a11266.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../d3/d5c/a11266.html">CliCommandHolder</a>(&amp;connection, command, &amp;<a class="code hl_function" href="../../d3/d27/a05574.html#a69a3287df41392488dbcb1be2f0349f3">SOAPCommand::print</a>, &amp;<a class="code hl_function" href="../../d3/d27/a05574.html#a18310d831429b084dc5cbf6310195001">SOAPCommand::commandFinished</a>);</div>
+<div class="line"><span class="lineno">  111</span>        <a class="code hl_struct" href="../../d9/d3d/a11270.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../d9/d3d/a11270.html">CliCommandHolder</a>(&amp;connection, command, &amp;<a class="code hl_function" href="../../d3/d27/a05574.html#a69a3287df41392488dbcb1be2f0349f3">SOAPCommand::print</a>, &amp;<a class="code hl_function" href="../../d3/d27/a05574.html#a18310d831429b084dc5cbf6310195001">SOAPCommand::commandFinished</a>);</div>
 <div class="line"><span class="lineno">  112</span>        <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;QueueCliCommand(cmd);</div>
 <div class="line"><span class="lineno">  113</span>    }</div>
 <div class="line"><span class="lineno">  114</span> </div>
@@ -300,7 +300,7 @@ Variables</h2></td></tr>
 <div class="ttc" id="aa05574_html_a69a3287df41392488dbcb1be2f0349f3"><div class="ttname"><a href="../../d3/d27/a05574.html#a69a3287df41392488dbcb1be2f0349f3">SOAPCommand::print</a></div><div class="ttdeci">static void print(void *callbackArg, std::string_view msg)</div><div class="ttdef"><b>Definition:</b> ACSoap.h:51</div></div>
 <div class="ttc" id="aa05574_html_aa823e9c8d3048d5780b11d168f5be0d9"><div class="ttname"><a href="../../d3/d27/a05574.html#aa823e9c8d3048d5780b11d168f5be0d9">SOAPCommand::m_printBuffer</a></div><div class="ttdeci">std::string m_printBuffer</div><div class="ttdef"><b>Definition:</b> ACSoap.h:59</div></div>
 <div class="ttc" id="aa05574_html_aec2e336644d004a59ad21431fbf80c83"><div class="ttname"><a href="../../d3/d27/a05574.html#aec2e336644d004a59ad21431fbf80c83">SOAPCommand::finishedPromise</a></div><div class="ttdeci">std::promise&lt; void &gt; finishedPromise</div><div class="ttdef"><b>Definition:</b> ACSoap.h:60</div></div>
-<div class="ttc" id="aa11266_html"><div class="ttname"><a href="../../d3/d5c/a11266.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:34</div></div>
+<div class="ttc" id="aa11270_html"><div class="ttname"><a href="../../d9/d3d/a11270.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:34</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>, <a class="el" href="../../#l00129">SOAPCommand::commandFinished()</a>, <a class="el" href="../../#l00060">SOAPCommand::finishedPromise</a>, <a class="el" href="../../#l00229">AccountMgr::GetId()</a>, <a class="el" href="../../#l00238">AccountMgr::GetSecurity()</a>, <a class="el" href="../../#l00046">SOAPCommand::hasCommandSucceeded()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00059">SOAPCommand::m_printBuffer</a>, <a class="el" href="../../#l00051">SOAPCommand::print()</a>, <a class="el" href="../../#l00060">SEC_ADMINISTRATOR</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
 
@@ -367,7 +367,7 @@ Variables</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_c8498b4bff487486cc5ffdac4c412cf7.html">apps</a></li><li class="navelem"><a class="el" href="../../dir_4a0dc471e712914507a0672b672729a4.html">worldserver</a></li><li class="navelem"><a class="el" href="../../dir_d5546cd048ce0388ac9df91d37210e56.html">ACSoap</a></li><li class="navelem"><a class="el" href="../../d6/da8/a02693.html">ACSoap.cpp</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:42:45 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:42:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

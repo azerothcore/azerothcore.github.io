@@ -1,10 +1,9 @@
 var a09070 =
 [
-    [ "AnyAoETargetUnitInObjectRangeCheck", "de/d96/a09070.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
-    [ "operator()", "de/d96/a09070.html#af9a0c32593544a73aae22cd397eef63a", null ],
-    [ "_spellInfo", "de/d96/a09070.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
-    [ "i_funit", "de/d96/a09070.html#aa00b184a24ea73293114f92126f58f24", null ],
-    [ "i_obj", "de/d96/a09070.html#aa4acf0089c978408e30b08d539f2512f", null ],
-    [ "i_range", "de/d96/a09070.html#ad386efa8206906fd99816694a6a8d69b", null ],
-    [ "i_targetForPlayer", "de/d96/a09070.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
+    [ "NearestAttackableUnitInObjectRangeCheck", "de/d96/a09070.html#ae2f43e2036047622ec88de3db08ea668", null ],
+    [ "NearestAttackableUnitInObjectRangeCheck", "de/d96/a09070.html#a8deef14a2c11f9ccd9613614124a7d8e", null ],
+    [ "operator()", "de/d96/a09070.html#a2f966e38682e6a02a120ad90ba19f7a4", null ],
+    [ "i_funit", "de/d96/a09070.html#a88be7342d10008fc394f21b9a5e14162", null ],
+    [ "i_obj", "de/d96/a09070.html#a6c1c4e5b85f6f7958578afb6c6f2af98", null ],
+    [ "i_range", "de/d96/a09070.html#a26242657d6f2eb61d6f8fcac30357381", null ]
 ];

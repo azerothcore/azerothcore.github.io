@@ -1,8 +1,14 @@
 var a23338 =
 [
-    [ "HandleEffectApply", "d5/db8/a23338.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
-    [ "HandleEffectRemove", "d5/db8/a23338.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
-    [ "PrepareAuraScript", "d5/db8/a23338.html#a438a8ba3688e0832853bae4183695494", null ],
-    [ "Register", "d5/db8/a23338.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
-    [ "Validate", "d5/db8/a23338.html#ab07b244e53b397bc9e9842655617a80d", null ]
+    [ "npc_warden_mellicharAI", "d5/db8/a23338.html#a3486b015ccb8fecfe5e215f45e45f15e", null ],
+    [ "AttackStart", "d5/db8/a23338.html#a2b16dc3ad358e4179fe20e2066ba5c64", null ],
+    [ "DamageTaken", "d5/db8/a23338.html#a07e7b215ed7653fe7e1ee44d34a74bbd", null ],
+    [ "JustDied", "d5/db8/a23338.html#a867404a125aeb4ee3332a4e2b5a8f547", null ],
+    [ "JustEngagedWith", "d5/db8/a23338.html#ad584a3c2dd8f108cc9b4e66a6917f97b", null ],
+    [ "JustSummoned", "d5/db8/a23338.html#a3fe95a64b640fb61459da2c8621fbc9c", null ],
+    [ "MoveInLineOfSight", "d5/db8/a23338.html#aa4edaf9534e7232526fd9c7bd097b7c4", null ],
+    [ "Reset", "d5/db8/a23338.html#aebd55a8e6e618e4dc37cf253c60c3a94", null ],
+    [ "SetData", "d5/db8/a23338.html#a0d0e8d1af5179aea73aa60e060ba751a", null ],
+    [ "SummonedCreatureDies", "d5/db8/a23338.html#a58e1011986be65725d4db3d782bc72ac", null ],
+    [ "UpdateAI", "d5/db8/a23338.html#a944cff5367213d561a7e6df5faf2a216", null ]
 ];

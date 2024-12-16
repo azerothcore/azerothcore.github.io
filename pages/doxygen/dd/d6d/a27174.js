@@ -1,9 +1,8 @@
 var a27174 =
 [
-    [ "npc_chicken_cluckAI", "dd/d6d/a27174.html#a4f2eaa107e2a8b4900fac54780ac9693", null ],
-    [ "JustEngagedWith", "dd/d6d/a27174.html#a854eae196c68cb1e4dd1c1773870ef9a", null ],
-    [ "ReceiveEmote", "dd/d6d/a27174.html#aa5d6d3ea3ad4d0f81781581a39933fc8", null ],
-    [ "Reset", "dd/d6d/a27174.html#a5a32f458a7f09282e7ac53fa7d6255b4", null ],
-    [ "UpdateAI", "dd/d6d/a27174.html#a86c8f74d0a55b9a041a789f16de8189d", null ],
-    [ "ResetFlagTimer", "dd/d6d/a27174.html#a0d0507ae7a1eca369df288515856e1b5", null ]
+    [ "npc_chicken_cluckAI", "d9/d24/a27178.html", "d9/d24/a27178" ],
+    [ "npc_chicken_cluck", "dd/d6d/a27174.html#a7bc08c81fca730886c47e0f3a3d8062c", null ],
+    [ "GetAI", "dd/d6d/a27174.html#abf986f555672823477c3c17e0f59bdbe", null ],
+    [ "OnQuestAccept", "dd/d6d/a27174.html#acca62c027b5b0cdff107e04cf2c276ea", null ],
+    [ "OnQuestComplete", "dd/d6d/a27174.html#a8f22520166a557e066502eb16bdae774", null ]
 ];

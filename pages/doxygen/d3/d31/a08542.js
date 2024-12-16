@@ -1,13 +1,8 @@
 var a08542 =
 [
-    [ "MMapTargetData", "d3/d31/a08542.html#a33cc430ea3c4b5dd4012a16914dc8aeb", null ],
-    [ "MMapTargetData", "d3/d31/a08542.html#a8312ea3187617e78b28aab842a8284cc", null ],
-    [ "MMapTargetData", "d3/d31/a08542.html#a4108ff5fbbf7c468ff7d90ac7beea4fa", null ],
-    [ "MMapTargetData", "d3/d31/a08542.html#a3547f93af46826a051f1164ac1fc9ccc", null ],
-    [ "operator=", "d3/d31/a08542.html#a4053689f5f675cf1a621dfb39211b3cc", null ],
-    [ "operator=", "d3/d31/a08542.html#a130fe2b359f583acab99c51eb9d0b1ad", null ],
-    [ "PosChanged", "d3/d31/a08542.html#ade55876b7781b47a72dac9fea1f2e420", null ],
-    [ "_endTime", "d3/d31/a08542.html#a5506c303d668bbead180fe2a8c2ed48e", null ],
-    [ "_posOwner", "d3/d31/a08542.html#aeaf1e739388ab834e8c845fa366bbfd3", null ],
-    [ "_posTarget", "d3/d31/a08542.html#a7f089d873690e8ea549f6345b6598fc4", null ]
+    [ "RedirectSpellEvent", "d3/d31/a08542.html#a77d243d64c2fc651d71c42e10a315161", null ],
+    [ "Execute", "d3/d31/a08542.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
+    [ "_auraEffect", "d3/d31/a08542.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
+    [ "_auraOwnerGUID", "d3/d31/a08542.html#a1b3fb598748362379fef15b3172d8e2b", null ],
+    [ "_self", "d3/d31/a08542.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
 ];

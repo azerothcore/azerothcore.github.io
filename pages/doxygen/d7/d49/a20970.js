@@ -1,6 +1,11 @@
 var a20970 =
 [
-    [ "boss_lavanthorAI", "dd/d2f/a20974.html", "dd/d2f/a20974" ],
-    [ "boss_lavanthor", "d7/d49/a20970.html#aa935ffe07f59db59b9b8484f22927026", null ],
-    [ "GetAI", "d7/d49/a20970.html#aae09ecbe56efac6538bdfb6120e0be40", null ]
+    [ "npc_ichor_globuleAI", "d7/d49/a20970.html#a4d581f89c8385276fd407c000af9e569", null ],
+    [ "AttackStart", "d7/d49/a20970.html#aa4e1fc88a26d6ef41f1ca96c93abbc1a", null ],
+    [ "JustDied", "d7/d49/a20970.html#ad29c7659590933b0749e8e1c2c2e4c46", null ],
+    [ "MoveInLineOfSight", "d7/d49/a20970.html#af8ef8296512d57d934a171f1a5060e73", null ],
+    [ "SpellHit", "d7/d49/a20970.html#a1396538a446545408e3c304f3e56400f", null ],
+    [ "UpdateAI", "d7/d49/a20970.html#a6ff13c853583e5178fb3a690e17303de", null ],
+    [ "pInstance", "d7/d49/a20970.html#a94cbe93a69a28171fc3d91d71b6ec419", null ],
+    [ "uiRangeCheck_Timer", "d7/d49/a20970.html#a99914a55d2dc0b36a623dc7d6248e953", null ]
 ];

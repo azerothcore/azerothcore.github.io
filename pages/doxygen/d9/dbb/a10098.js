@@ -1,6 +1,5 @@
 var a10098 =
 [
-    [ "OutdoorPvPScript", "d9/dbb/a10098.html#ad7882db48419888c7968007e30c2f3f7", null ],
-    [ "GetOutdoorPvP", "d9/dbb/a10098.html#aa213974f384c88ab65f7b7308dadb026", null ],
-    [ "IsDatabaseBound", "d9/dbb/a10098.html#ac22c6a9945738270452848f997d2818f", null ]
+    [ "MovementHandlerScript", "d9/dbb/a10098.html#aeeeb5fe81eebc04fc317e726782be3ab", null ],
+    [ "OnPlayerMove", "d9/dbb/a10098.html#ac1604e58c8ecab26ce4159fb43a86a68", null ]
 ];

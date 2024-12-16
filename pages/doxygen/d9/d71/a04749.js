@@ -1,4 +1,4 @@
 var a04749 =
 [
-    [ "EnvironmentalDamageLog", "d0/d6c/a10262.html", "d0/d6c/a10262" ]
+    [ "EnvironmentalDamageLog", "de/d4e/a10266.html", "de/d4e/a10266" ]
 ];

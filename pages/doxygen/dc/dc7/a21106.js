@@ -1,6 +1,9 @@
 var a21106 =
 [
-    [ "npc_azure_saboteurAI", "d2/d93/a21110.html", "d2/d93/a21110" ],
-    [ "npc_azure_saboteur", "dc/dc7/a21106.html#ae60362727a7a246b7c6c923ed96c7be7", null ],
-    [ "GetAI", "dc/dc7/a21106.html#a69b552fb6f725d00ac4b0303d36a7138", null ]
+    [ "npc_azure_sorcerorAI", "dc/dc7/a21106.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "dc/dc7/a21106.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "dc/dc7/a21106.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "dc/dc7/a21106.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "dc/dc7/a21106.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "dc/dc7/a21106.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

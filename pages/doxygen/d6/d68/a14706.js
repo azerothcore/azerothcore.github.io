@@ -1,5 +1,5 @@
 var a14706 =
 [
-    [ "boss_vem", "d6/d68/a14706.html#a8e303ece8ba209c6dea0ed6c888077d3", null ],
-    [ "JustEngagedWith", "d6/d68/a14706.html#ae4b7fa599d31155bdee566b31c60b237", null ]
+    [ "boss_kri", "d6/d68/a14706.html#a0a95f8d2a380ab48ffd5a034e012cc2c", null ],
+    [ "JustEngagedWith", "d6/d68/a14706.html#ab2169ec49ecbff2ee1460e38bd1a163e", null ]
 ];

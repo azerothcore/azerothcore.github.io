@@ -1,6 +1,6 @@
 var a23906 =
 [
-    [ "npc_zephyr", "db/dbb/a23906.html#a3bad7bf2bd3b193960f1f53cd7d8349d", null ],
-    [ "OnGossipHello", "db/dbb/a23906.html#a31e132e80a19bb6e63787fcdf7ffd466", null ],
-    [ "OnGossipSelect", "db/dbb/a23906.html#a9b1f5a0d4ba24e65dda521bc94574ad8", null ]
+    [ "npc_shattrathflaskvendors", "db/dbb/a23906.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "db/dbb/a23906.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "db/dbb/a23906.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

@@ -1,8 +1,8 @@
 var a02390 =
 [
-    [ "boss_gloomrel", "de/d45/a11694.html", "de/d45/a11694" ],
-    [ "boss_doomrel", "dd/da4/a11698.html", "dd/da4/a11698" ],
-    [ "boss_doomrel::boss_doomrelAI", "d4/de1/a11702.html", "d4/de1/a11702" ],
+    [ "boss_gloomrel", "dd/da4/a11698.html", "dd/da4/a11698" ],
+    [ "boss_doomrel", "d4/de1/a11702.html", "d4/de1/a11702" ],
+    [ "boss_doomrel::boss_doomrelAI", "df/d44/a11706.html", "df/d44/a11706" ],
     [ "DoomrelEvents", "d6/dff/a02390.html#ab9389560cf2d38a16f6e60a780c1be3a", [
       [ "EVENT_SPELL_SHADOWBOLTVOLLEY", "d6/dff/a02390.html#ab9389560cf2d38a16f6e60a780c1be3aa642858fddb5ee881ee52f837caf26c76", null ],
       [ "EVENT_SPELL_IMMOLATE", "d6/dff/a02390.html#ab9389560cf2d38a16f6e60a780c1be3aa2e843514087cb8fd60441d23a27e1ac2", null ],

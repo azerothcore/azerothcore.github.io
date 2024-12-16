@@ -1,7 +1,8 @@
 var a12006 =
 [
-    [ "HandleDummy", "d3/d86/a12006.html#a7fca477ef5c86d543cd59571ad8dc7de", null ],
-    [ "PrepareSpellScript", "d3/d86/a12006.html#a6ec124990f202af0c6063c285bf04d88", null ],
-    [ "Register", "d3/d86/a12006.html#a5adf9f0bbe5b72c4c22f569086582f0f", null ],
-    [ "Validate", "d3/d86/a12006.html#ae35efa08f507aac5b72166a216d01870", null ]
+    [ "FilterTargets", "d3/d86/a12006.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
+    [ "FilterTargetsEff", "d3/d86/a12006.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
+    [ "PrepareSpellScript", "d3/d86/a12006.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
+    [ "Register", "d3/d86/a12006.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
+    [ "targetList", "d3/d86/a12006.html#a874dc7877ecfae332c9f826f01afce0f", null ]
 ];

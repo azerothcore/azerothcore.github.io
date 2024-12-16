@@ -1,6 +1,12 @@
 var a12686 =
 [
-    [ "npc_a_special_surpriseAI", "d5/d2a/a12690.html", "d5/d2a/a12690" ],
-    [ "npc_a_special_surprise", "d1/db0/a12686.html#ab88d74a86049c53b1569bdcc263f3dd4", null ],
-    [ "GetAI", "d1/db0/a12686.html#a930c7ba67a20fbfc55b40117ccd52c98", null ]
+    [ "npc_high_inquisitor_valrothAI", "d1/db0/a12686.html#afd15d7c3b64c9c84094234b1c369c6d6", null ],
+    [ "JustDied", "d1/db0/a12686.html#ac8f4f8594bbd5d984a330d52ef2fde74", null ],
+    [ "JustEngagedWith", "d1/db0/a12686.html#a9cf989be7062743685b2357309889585", null ],
+    [ "Reset", "d1/db0/a12686.html#a833adc603d6d0b2eb03ea34b925f88b0", null ],
+    [ "Shout", "d1/db0/a12686.html#aa80f070da5ad92297a5f5b7b6983085c", null ],
+    [ "UpdateAI", "d1/db0/a12686.html#abe6becc3a10e0195bd75bf1de2d6bcc6", null ],
+    [ "uiInquisitor_Penance_timer", "d1/db0/a12686.html#a765ef78cf5c30b1c46da303f4bbeb4d9", null ],
+    [ "uiRenew_timer", "d1/db0/a12686.html#a1fe70428102a0319031179c97f02cbab", null ],
+    [ "uiValroth_Smite_timer", "d1/db0/a12686.html#a527628708354414caea85b6bec3d0f1d", null ]
 ];

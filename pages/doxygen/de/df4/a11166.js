@@ -1,6 +1,7 @@
 var a11166 =
 [
-    [ "FieldGuidType", "de/df4/a11166.html#a88e763ed9715ad76a0eb1c1a9ad7a59b", null ],
-    [ "FieldName", "de/df4/a11166.html#a669f1ecf12148799e59e7b3e3124d681", null ],
-    [ "IsDependentField", "de/df4/a11166.html#a241b9e8f5672e30732f0b938b02046d4", null ]
+    [ "StringTransaction", "de/df4/a11166.html#aef82d603733e7cb0636d95abea9e6cdc", null ],
+    [ "Append", "de/df4/a11166.html#a0d1d9db61a1b3658c3d0fde37e2a4c5e", null ],
+    [ "GetBuffer", "de/df4/a11166.html#a7cb52c3e029cdb971dfbb4048ade25a0", null ],
+    [ "_buf", "de/df4/a11166.html#a4ec7dd27d7a2321cd1cead11ca78c1ef", null ]
 ];

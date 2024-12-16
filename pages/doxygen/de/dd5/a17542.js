@@ -1,6 +1,6 @@
 var a17542 =
 [
-    [ "HandleScript", "de/dd5/a17542.html#a54ecb69bf0c54c170b12c9a4b88b55fb", null ],
-    [ "PrepareSpellScript", "de/dd5/a17542.html#a50560d754709e6b9ec6863142c1ffce3", null ],
-    [ "Register", "de/dd5/a17542.html#ab29deadceb953d6fb5d997b21ee4bb1c", null ]
+    [ "HandlePeriodic", "de/dd5/a17542.html#a9583ccd7b642694a06bde4b88826ec7b", null ],
+    [ "PrepareAuraScript", "de/dd5/a17542.html#a5d855d79247dff6f949a5e099abb9352", null ],
+    [ "Register", "de/dd5/a17542.html#ae797de0ed29b3ca179c07d759b469228", null ]
 ];

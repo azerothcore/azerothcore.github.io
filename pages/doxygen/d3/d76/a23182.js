@@ -1,12 +1,12 @@
 var a23182 =
 [
-    [ "boss_vazruden_the_herald", "d3/d76/a23182.html#a97f761b2e3477a22cdc65c68700de72c", null ],
-    [ "AttackStart", "d3/d76/a23182.html#a190621f4130b913348a49d6dfe76b591", null ],
-    [ "JustSummoned", "d3/d76/a23182.html#a66d8c6252e6baf88144da3af57bf65a4", null ],
-    [ "MovementInform", "d3/d76/a23182.html#abd89aa3911c626864f8aada889ce99c9", null ],
-    [ "Reset", "d3/d76/a23182.html#a18076b0fd12bc9a002394d5fe3aa5f81", null ],
-    [ "SetData", "d3/d76/a23182.html#a7dcbec1c99fdf4f740656a8379a99080", null ],
-    [ "SummonedCreatureDespawn", "d3/d76/a23182.html#a7621077082a3b53d1d21265e6dd00dce", null ],
-    [ "SummonedCreatureDies", "d3/d76/a23182.html#a336feba0d88e4fccce28b2730a9aea9e", null ],
-    [ "UpdateAI", "d3/d76/a23182.html#adc98e358a751fd9881589aada4baf320", null ]
+    [ "boss_omor_the_unscarred", "d3/d76/a23182.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
+    [ "JustDied", "d3/d76/a23182.html#a9ddae483a0f8cefd8a19975b60002660", null ],
+    [ "JustEngagedWith", "d3/d76/a23182.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
+    [ "JustSummoned", "d3/d76/a23182.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
+    [ "KilledUnit", "d3/d76/a23182.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
+    [ "Reset", "d3/d76/a23182.html#a0ec22c50cd096677a20299ab45a3c344", null ],
+    [ "UpdateAI", "d3/d76/a23182.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
+    [ "_hasSpoken", "d3/d76/a23182.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
+    [ "_targetGUID", "d3/d76/a23182.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
 ];

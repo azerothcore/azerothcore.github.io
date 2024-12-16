@@ -1,7 +1,6 @@
 var a23242 =
 [
-    [ "FilterTargets", "d8/df4/a23242.html#a921450a09e51585beb9dd2ce9b00bac9", null ],
-    [ "HandleHit", "d8/df4/a23242.html#adb30857a5a320bb24b8cc0bcb9d60040", null ],
-    [ "PrepareSpellScript", "d8/df4/a23242.html#a376618b9811b2e1ec18697431094e22f", null ],
-    [ "Register", "d8/df4/a23242.html#ae7f4f54446d5a1ebb20d49ab9deaed81", null ]
+    [ "HandleHit", "d8/df4/a23242.html#ab948b958955c2413ad6e15dfa09fd3cd", null ],
+    [ "PrepareSpellScript", "d8/df4/a23242.html#a37ff09e6b82d69c85b5bd98e84968569", null ],
+    [ "Register", "d8/df4/a23242.html#acb1b681f587817614c2b3684585369db", null ]
 ];

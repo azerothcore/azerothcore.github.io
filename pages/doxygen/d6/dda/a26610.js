@@ -1,5 +1,5 @@
 var a26610 =
 [
-    [ "achievement_bg_control_all_nodes", "d6/dda/a26610.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
-    [ "OnCheck", "d6/dda/a26610.html#a69609eb5488519fa5a1f43b13a80e280", null ]
+    [ "achievement_resilient_victory", "d6/dda/a26610.html#a6224c8a4b1b1ee7c1ab09d8873e86aa8", null ],
+    [ "OnCheck", "d6/dda/a26610.html#a21445d406f67771a20608260b3f9b033", null ]
 ];

@@ -1,6 +1,7 @@
 var a15754 =
 [
-    [ "HandleForceCast", "d2/d8f/a15754.html#a975b69649aba9de341f4e52c82a3c111", null ],
-    [ "PrepareSpellScript", "d2/d8f/a15754.html#a2dde8402cc4e8552faf3d8a1f4c6e60e", null ],
-    [ "Register", "d2/d8f/a15754.html#a794a59e5fd3bda75f30d559f422895b5", null ]
+    [ "HandlePeriodic", "d2/d8f/a15754.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
+    [ "PrepareAuraScript", "d2/d8f/a15754.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
+    [ "Register", "d2/d8f/a15754.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
+    [ "Validate", "d2/d8f/a15754.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
 ];

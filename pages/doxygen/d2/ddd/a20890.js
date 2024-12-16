@@ -1,7 +1,7 @@
 var a20890 =
 [
-    [ "PrepareAuraScript", "d2/ddd/a20890.html#a2b5894cd889205f19ac2c6ea5a535a82", null ],
-    [ "Register", "d2/ddd/a20890.html#a95b0bcb7f3027cb63711c74befbd74ea", null ],
-    [ "TriggerFists", "d2/ddd/a20890.html#a2df5a013ba1b3c5b57d628fd59a9073a", null ],
-    [ "Validate", "d2/ddd/a20890.html#a2b7c45343d17839d85bf64ed36afd45c", null ]
+    [ "HandleDummy", "d2/ddd/a20890.html#af524c771ef3a314f3c1dbaacae4f4538", null ],
+    [ "PrepareSpellScript", "d2/ddd/a20890.html#a2ad8abf39847c79ac5bc53093c487fc0", null ],
+    [ "Register", "d2/ddd/a20890.html#a45a33c0b51ed6c1dfed8d52d2f99e239", null ],
+    [ "Validate", "d2/ddd/a20890.html#a92f99501ee1582873586d2405b224f4f", null ]
 ];

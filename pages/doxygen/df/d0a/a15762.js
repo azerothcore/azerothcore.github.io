@@ -1,10 +1,10 @@
 var a15762 =
 [
-    [ "spell_halion_marks_aura", "df/d0a/a15762.html#a3351eb9a4b497e1d92bd0021c0fa01f8", null ],
-    [ "BeforeDispel", "df/d0a/a15762.html#a48fb48567091c8fd9d365ea3ff8730cc", null ],
-    [ "OnRemove", "df/d0a/a15762.html#a1c9fefecd33db13e06f267c41e6b0375", null ],
-    [ "PrepareAuraScript", "df/d0a/a15762.html#acd5285ea5c378b31526440d263c54770", null ],
-    [ "Register", "df/d0a/a15762.html#ac84d4ab83e56314ff15ee363cafd2feb", null ],
-    [ "_removeSpellId", "df/d0a/a15762.html#aeef9d928c6a8739337251e144558b169", null ],
-    [ "_summonSpellId", "df/d0a/a15762.html#a01e8677e4f55dbb55cca1bf16dec48b2", null ]
+    [ "spell_halion_combustion_consumption_aura", "df/d0a/a15762.html#a8b67aee76c7288748757e6bec7f4cb78", null ],
+    [ "AddMarkStack", "df/d0a/a15762.html#a337776c42bd6c42ecdffb508808ed070", null ],
+    [ "OnApply", "df/d0a/a15762.html#afeea3e5026e6d8472440c9cffac9bce9", null ],
+    [ "OnRemove", "df/d0a/a15762.html#a3959dbe8bbdf2d3953daf14072614708", null ],
+    [ "PrepareAuraScript", "df/d0a/a15762.html#a334f2211429dde989b6beb6c10a71464", null ],
+    [ "Register", "df/d0a/a15762.html#affc66a03e9d1eaef30a54b8a044734b8", null ],
+    [ "_markSpell", "df/d0a/a15762.html#a8236d9d50f267a12216d90f8041da439", null ]
 ];

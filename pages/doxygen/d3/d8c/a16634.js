@@ -1,6 +1,9 @@
 var a16634 =
 [
-    [ "boss_ickAI", "db/d2b/a16638.html", "db/d2b/a16638" ],
-    [ "boss_ick", "d3/d8c/a16634.html#af97d7f96bc48ba245e28c18614b9369e", null ],
-    [ "GetAI", "d3/d8c/a16634.html#a355285766712a31b704c23fe85d19e5f", null ]
+    [ "FilterTargets", "d3/d8c/a16634.html#aefebf504286394cf3caffa566543e4a4", null ],
+    [ "FilterTargetsNext", "d3/d8c/a16634.html#a356b6ace97d07df22a232d2287072b5e", null ],
+    [ "PrepareSpellScript", "d3/d8c/a16634.html#a893e0eb620e19909b2f2a715ea946f6b", null ],
+    [ "Register", "d3/d8c/a16634.html#a962651920a94190f4864a3b1c7fcd1d3", null ],
+    [ "Unload", "d3/d8c/a16634.html#a6adc9b6ca86da6cd9465fa0da150dcca", null ],
+    [ "targetList", "d3/d8c/a16634.html#a3c839185938e0b67b97f652d1d15e213", null ]
 ];

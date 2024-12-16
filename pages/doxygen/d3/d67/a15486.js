@@ -1,19 +1,14 @@
 var a15486 =
 [
-    [ "boss_taldaram", "d3/d67/a15486.html#a6438d3534aca5e4a92afb3e6c6e24f73", null ],
-    [ "DamageTaken", "d3/d67/a15486.html#a44d94f39e23720810acb40550f1c178a", null ],
-    [ "DoAction", "d3/d67/a15486.html#aee1cf0553e8c7ebebea4a83f2d7e6d5d", null ],
-    [ "InitializeAI", "d3/d67/a15486.html#a3d5b4628d6fb2db91ed073b042eefdc4", null ],
-    [ "JustDied", "d3/d67/a15486.html#a4b6c0f51fd3a2a8c00ef095eeeea785d", null ],
-    [ "JustEngagedWith", "d3/d67/a15486.html#a07e1cb5b53906f92a1f485340aa004e5", null ],
-    [ "JustSummoned", "d3/d67/a15486.html#a5ae9201a71fa665908f924647b262825", null ],
-    [ "KilledUnit", "d3/d67/a15486.html#a8fe516a08547ec03e8114b07e9c87d1f", null ],
-    [ "MovementInform", "d3/d67/a15486.html#a17ca98f742a06b1496b2216e984811d8", null ],
-    [ "Reset", "d3/d67/a15486.html#ae26fec572206d2f1f9acc229ee797496", null ],
-    [ "ScheduleCombatEvents", "d3/d67/a15486.html#a247e5357fcdf8da8e00bef09f3568ca3", null ],
-    [ "SpellHitTarget", "d3/d67/a15486.html#a0f228ea10a538a9ecf70b9f54d399150", null ],
-    [ "UpdateAI", "d3/d67/a15486.html#a8ae18c5fd1c5df67edaf1921b5504ce1", null ],
-    [ "vanishDamage", "d3/d67/a15486.html#a85d8c95320e6f1f486a39043218f0350", null ],
-    [ "vanishTarget_GUID", "d3/d67/a15486.html#a211707b3e9476a22be011567882f018a", null ],
-    [ "victimSperePos", "d3/d67/a15486.html#a06efb376b0d08207a0efce74770f21dc", null ]
+    [ "npc_taldaram_flamesphere", "d3/d67/a15486.html#aad7d6696b54e39c6abd27a7252353360", null ],
+    [ "DoAction", "d3/d67/a15486.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
+    [ "IsSummonedBy", "d3/d67/a15486.html#acb232931bc181eedf4b39d5519dd45e2", null ],
+    [ "JustDied", "d3/d67/a15486.html#ae6dfff3df39257c55495707934d5d38b", null ],
+    [ "MovementInform", "d3/d67/a15486.html#a785c491b7144420cd4975e62c9a8a711", null ],
+    [ "SetVictimPos", "d3/d67/a15486.html#a51f1683806095c760d4accff9e23f8b6", null ],
+    [ "UpdateAI", "d3/d67/a15486.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
+    [ "instance", "d3/d67/a15486.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
+    [ "moveTimer", "d3/d67/a15486.html#afe50ac59ec441ab11745ca9461158a00", null ],
+    [ "uiDespawnTimer", "d3/d67/a15486.html#a883b4c6429e8a8bf02878caa14e02537", null ],
+    [ "victimPos", "d3/d67/a15486.html#ae681d84f2324faf22296dcb6e08484b0", null ]
 ];

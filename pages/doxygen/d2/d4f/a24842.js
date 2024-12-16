@@ -1,10 +1,9 @@
 var a24842 =
 [
-    [ "spell_gen_summon_elemental", "d2/d4f/a24842.html#ae2dece3ac20afe16430e741fab909fa1", null ],
-    [ "AfterApply", "d2/d4f/a24842.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
-    [ "AfterRemove", "d2/d4f/a24842.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
-    [ "PrepareAuraScript", "d2/d4f/a24842.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
-    [ "Register", "d2/d4f/a24842.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
-    [ "Validate", "d2/d4f/a24842.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
-    [ "_spellId", "d2/d4f/a24842.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
+    [ "spell_gen_lifebloom", "d2/d4f/a24842.html#a5cb52a4dda841d9d31fd00a31ddc3350", null ],
+    [ "AfterRemove", "d2/d4f/a24842.html#aea962f603e56c1bd33fccaef0c89d917", null ],
+    [ "PrepareAuraScript", "d2/d4f/a24842.html#ac11134bdc3588795ce6e256c5b02055f", null ],
+    [ "Register", "d2/d4f/a24842.html#ab4a552402ee9f90834320d6fc668cff3", null ],
+    [ "Validate", "d2/d4f/a24842.html#a599634d92b92a5635b89733b7bb3c3c8", null ],
+    [ "_spellId", "d2/d4f/a24842.html#a196484d01d2dc07163e18fdca9f60ca9", null ]
 ];

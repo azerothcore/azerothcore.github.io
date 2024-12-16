@@ -1,11 +1,8 @@
 var a26222 =
 [
-    [ "CheckProc", "d9/def/a26222.html#a7a6eea8debb09c4c9086a92d8e6ee59c", null ],
-    [ "HandleProc", "d9/def/a26222.html#af29b1d6d8553003514918a383cb08b4a", null ],
-    [ "Load", "d9/def/a26222.html#a8861c2415c0f705cb4a06c02eabb54d2", null ],
-    [ "OnRemove", "d9/def/a26222.html#a9227147dd6e621deddd0088b95e9db2f", null ],
-    [ "PrepareAuraScript", "d9/def/a26222.html#a149881d517edbb15032452554fc64948", null ],
-    [ "Register", "d9/def/a26222.html#ac81d60d54a87a23bd9481934f5753de0", null ],
-    [ "Validate", "d9/def/a26222.html#a7a4d1bddd1dbeb41e0f6f8fe272b4ad6", null ],
-    [ "_redirectTarget", "d9/def/a26222.html#af3ee2a283d8942ab3652a6386c26f737", null ]
+    [ "HandleDummy", "d9/def/a26222.html#ab653cf0414411c17ccc674395b08af7a", null ],
+    [ "Load", "d9/def/a26222.html#a6eb80b68a00c91d92a2963adb753ed23", null ],
+    [ "PrepareSpellScript", "d9/def/a26222.html#ae6c5ba4ed1918125594b31368c3bcf2f", null ],
+    [ "Register", "d9/def/a26222.html#a92eb201b3ae3ab167cc338174a355b00", null ],
+    [ "Validate", "d9/def/a26222.html#a3635089640297e059a183322c7e8f7b9", null ]
 ];

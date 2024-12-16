@@ -1,6 +1,7 @@
 var a23042 =
 [
-    [ "HandlePeriodic", "d1/de6/a23042.html#af6c30bb292a69d5eaaaf75c8a76111ea", null ],
-    [ "PrepareAuraScript", "d1/de6/a23042.html#a75515896f3d94d227963a3c5258e2d0d", null ],
-    [ "Register", "d1/de6/a23042.html#aeacb1ffc287cc7128366ee0484c2994b", null ]
+    [ "npc_underbog_mushroom", "d1/de6/a23042.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
+    [ "InitializeAI", "d1/de6/a23042.html#a7c192010cc63715eaa3f38b1d1372936", null ],
+    [ "UpdateAI", "d1/de6/a23042.html#a9a8ed51b12809152ebe78dda69944d77", null ],
+    [ "_scheduler", "d1/de6/a23042.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
 ];

@@ -1,9 +1,6 @@
 var a08826 =
 [
-    [ "CellArea", "d4/d6d/a08826.html#ace8ca84753b4ec8681415386fb135053", null ],
-    [ "CellArea", "d4/d6d/a08826.html#a547aa2c544abb8de2c6defdd6ec77fa3", null ],
-    [ "operator!", "d4/d6d/a08826.html#a386d4a562c27155012daedc361541e3b", null ],
-    [ "ResizeBorders", "d4/d6d/a08826.html#aebb8a0eb3210fa09d647d89ce8a0c7b8", null ],
-    [ "high_bound", "d4/d6d/a08826.html#a0c90f0474902deaafc4a64faaf6e8071", null ],
-    [ "low_bound", "d4/d6d/a08826.html#a374fe9802c798e6ece359a8025b6e1df", null ]
+    [ "m_guid", "d4/d6d/a08826.html#afa8383c81a2d75f9ead2e8f3daa29086", null ],
+    [ "m_instance", "d4/d6d/a08826.html#a8bc0c5e1cf45073f054c5154c21b3d72", null ],
+    [ "m_state", "d4/d6d/a08826.html#a3ac18fb8f5d386e3245a2435e31e45e1", null ]
 ];

@@ -1,6 +1,7 @@
 var a11646 =
 [
-    [ "boss_hedrumAI", "d5/d06/a11650.html", "d5/d06/a11650" ],
-    [ "boss_hedrum", "da/ddd/a11646.html#a655d348dec9ce9b585ea12f3629b0aa7", null ],
-    [ "GetAI", "da/ddd/a11646.html#a7033d315852aa4905784e957679ee261", null ]
+    [ "boss_grizzleAI", "da/ddd/a11646.html#a3310892cafc2a8e022105f77258b25af", null ],
+    [ "JustEngagedWith", "da/ddd/a11646.html#a598e7e7d6bdd847bf01968116988a935", null ],
+    [ "UpdateAI", "da/ddd/a11646.html#a2dc5c27cd4eaf2aa1484a370a68e3314", null ],
+    [ "nextTremorTime", "da/ddd/a11646.html#aa392b5a5db08d8676614923ae4838d05", null ]
 ];

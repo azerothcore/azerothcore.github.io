@@ -1,10 +1,6 @@
 var a10142 =
 [
-    [ "WorldObjectScript", "d6/dd4/a10142.html#af044c3699a591c137abc5e03c772890b", null ],
-    [ "IsDatabaseBound", "d6/dd4/a10142.html#a48f037dd6152ff68ebef672de68df45e", null ],
-    [ "OnWorldObjectCreate", "d6/dd4/a10142.html#a2b32bc661e5a377de98902f3bc16679b", null ],
-    [ "OnWorldObjectDestroy", "d6/dd4/a10142.html#a7856d4b561cd99a7f405f86fffd57fef", null ],
-    [ "OnWorldObjectResetMap", "d6/dd4/a10142.html#a32e6b907a20d84377e1ddfce79b5cfe1", null ],
-    [ "OnWorldObjectSetMap", "d6/dd4/a10142.html#a12cf83d65dded66b41ca54a3c1bd31cb", null ],
-    [ "OnWorldObjectUpdate", "d6/dd4/a10142.html#abc139d1aa728f8a70886eed65d28f566", null ]
+    [ "WorldMapScript", "d6/dd4/a10142.html#a49300e796ceb6ab1a40ed9cbb89a9e4d", null ],
+    [ "checkValidity", "d6/dd4/a10142.html#aa212e582764d2cfbc5e7e600a54f2cb4", null ],
+    [ "isAfterLoadScript", "d6/dd4/a10142.html#a6aeda6e4c8328d7334527cbe69311ddc", null ]
 ];

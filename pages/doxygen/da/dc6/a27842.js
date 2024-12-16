@@ -1,5 +1,7 @@
 var a27842 =
 [
-    [ "content", "da/dc6/a27842.html#a936eb07adb8a41480dfc196127b7e5c0", null ],
-    [ "ID", "da/dc6/a27842.html#a1a33aff67b979c3c7a76c26debb5fc25", null ]
+    [ "ID", "da/dc6/a27842.html#a3af48dd3f6b92ad7f5950d99ca6dd379", null ],
+    [ "Index", "da/dc6/a27842.html#aa58e046529aae0d1d6201c08ec8107e2", null ],
+    [ "Skill", "da/dc6/a27842.html#aed5e58cf605d3c28cd0d26015722be03", null ],
+    [ "Type", "da/dc6/a27842.html#a39b0b548efd795c162926bddcdd301b5", null ]
 ];

@@ -1,6 +1,5 @@
 var a22730 =
 [
-    [ "boss_doomlordkazzakAI", "d2/d9d/a22734.html", "d2/d9d/a22734" ],
-    [ "boss_doomlord_kazzak", "d0/dfa/a22730.html#ae4e4844d584ba71ebd3d8a341ba91462", null ],
-    [ "GetAI", "d0/dfa/a22730.html#a460a32ce37aae852b48f1990406da9a4", null ]
+    [ "PrepareSpellScript", "d0/dfa/a22730.html#a0482d714ce0b4cfd81b2fc7fa8c87f0d", null ],
+    [ "Register", "d0/dfa/a22730.html#a7aa83bfd512ee0ff839f61bafe6dd27b", null ]
 ];

@@ -1,6 +1,6 @@
 var a14902 =
 [
-    [ "HandleApply", "da/d79/a14902.html#aefef61bc68c13b20e9b41a6f148a9599", null ],
-    [ "PrepareAuraScript", "da/d79/a14902.html#aabe8dc8b99dc455dfcfaf58b64fa3f18", null ],
-    [ "Register", "da/d79/a14902.html#ade5c710416516760cc69f77750aa2a1f", null ]
+    [ "HandleDummy", "da/d79/a14902.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
+    [ "PrepareSpellScript", "da/d79/a14902.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
+    [ "Register", "da/d79/a14902.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
 ];

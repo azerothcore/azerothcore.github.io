@@ -1,5 +1,5 @@
 var a03227 =
 [
-    [ "FormattedMotd", "d3/d1b/a03227.html#acadcdb5816d12c64acadfd214da71bb5", null ],
-    [ "MotdPacket", "d3/d1b/a03227.html#a78c7bbe511721151aa51c1143d1a14f9", null ]
+    [ "MotdMap", "d3/d1b/a03227.html#a5c662919d486ab6fdecf6195e172bc0d", null ],
+    [ "MotdPackets", "d3/d1b/a03227.html#a58c795807a8c0ddf95b6dde3d1760c0a", null ]
 ];

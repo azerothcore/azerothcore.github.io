@@ -1,7 +1,8 @@
 var a13114 =
 [
-    [ "OnPeriodic", "de/d72/a13114.html#a25e7a59384f262a36c74696a1befa01d", null ],
-    [ "PrepareAuraScript", "de/d72/a13114.html#a9b82fde3e38054b686f9b2a110cfaa1e", null ],
-    [ "Register", "de/d72/a13114.html#a65e469ba04d8cd2aa23d934bf2915721", null ],
-    [ "Validate", "de/d72/a13114.html#a6843deda5be8b684c06a86920714f255", null ]
+    [ "HandleApply", "de/d72/a13114.html#a9dce02909356193476e66586aee87f1d", null ],
+    [ "OnPeriodic", "de/d72/a13114.html#add4f000f81d5d4112719c6dd7464163c", null ],
+    [ "PrepareAuraScript", "de/d72/a13114.html#a1a9dfb50cec61386c5e3a3556f5d2f53", null ],
+    [ "Register", "de/d72/a13114.html#abc349f12f375b1f284eb78a363e8172a", null ],
+    [ "Validate", "de/d72/a13114.html#a83195ac3c9536a3485e41bf2c04884f6", null ]
 ];

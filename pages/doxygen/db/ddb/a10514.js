@@ -1,7 +1,8 @@
 var a10514 =
 [
-    [ "Playsound", "db/ddb/a10514.html#a955f91d0d65c64f154f99b3b9472e273", null ],
-    [ "Playsound", "db/ddb/a10514.html#aa242d4ca729d67d7fd58dc81985f22f9", null ],
-    [ "Write", "db/ddb/a10514.html#acb4bdd9a1613a158832115e4c18bfcd9", null ],
-    [ "SoundKitID", "db/ddb/a10514.html#a922cb6d06285bdf9f3d89ff990c40b0a", null ]
+    [ "PlayObjectSound", "db/ddb/a10514.html#ab322044d36abddeb2fafbf99261bb70b", null ],
+    [ "PlayObjectSound", "db/ddb/a10514.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
+    [ "Write", "db/ddb/a10514.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
+    [ "SoundKitID", "db/ddb/a10514.html#a5e794706b8793d164a1189e9a6918735", null ],
+    [ "SourceObjectGUID", "db/ddb/a10514.html#a82b226eba66e569c1f377f529e511361", null ]
 ];

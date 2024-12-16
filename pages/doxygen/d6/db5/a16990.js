@@ -1,6 +1,6 @@
 var a16990 =
 [
-    [ "PrepareSpellScript", "d6/db5/a16990.html#a37899f12707930d038de38bae92c9aff", null ],
-    [ "Register", "d6/db5/a16990.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
-    [ "SelectDest", "d6/db5/a16990.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
+    [ "KnockIntoAir", "d6/db5/a16990.html#a1f9fb1f258613ca6657abba26969961f", null ],
+    [ "PrepareSpellScript", "d6/db5/a16990.html#acf66a4b14ffce76b6c8dc7cc5906f229", null ],
+    [ "Register", "d6/db5/a16990.html#a35a7758630c1769228fedff84ad929e8", null ]
 ];

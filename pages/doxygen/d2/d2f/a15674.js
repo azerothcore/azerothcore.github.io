@@ -1,7 +1,7 @@
 var a15674 =
 [
-    [ "CheckDistance", "d2/d2f/a15674.html#ac10f4cebab4966a220cd931afd0e0a30", null ],
-    [ "PrepareSpellScript", "d2/d2f/a15674.html#adb14940f47dc509d75a4e81bb90fc40d", null ],
-    [ "Register", "d2/d2f/a15674.html#a3a64ffc872e4650b1d226d20d9bedc65", null ],
-    [ "Validate", "d2/d2f/a15674.html#aa5d7a420154b156ca24e73de2faf912a", null ]
+    [ "npc_baltharus_the_warborn_cloneAI", "d2/d2f/a15674.html#aed531e61508d4d404827f47c6348a5e6", null ],
+    [ "JustEngagedWith", "d2/d2f/a15674.html#ad906b7602a34abcfaede92cba6f0a6d7", null ],
+    [ "UpdateAI", "d2/d2f/a15674.html#ab0c1cf041146a3e16a33986e3e824a2d", null ],
+    [ "_events", "d2/d2f/a15674.html#a6e2819f73f0fccd02b7188f0e6f1ffa9", null ]
 ];

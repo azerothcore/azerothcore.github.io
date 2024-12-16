@@ -1,7 +1,7 @@
 var a10978 =
 [
-    [ "EffectAuraNameCheck", "df/d17/a10978.html#a4b10ec0fcb3ffd841cf790574875017d", null ],
-    [ "Check", "df/d17/a10978.html#a7fff405a99c65d3e846463ca29a8ddfd", null ],
-    [ "ToString", "df/d17/a10978.html#a602fc1ddafe663e2e5ddceaeaec8b118", null ],
-    [ "effAurName", "df/d17/a10978.html#abcf90ed5a832b5fe5ce3913a812da05d", null ]
+    [ "EffectNameCheck", "df/d17/a10978.html#aa82307388bdda7864bb085a349b63f29", null ],
+    [ "Check", "df/d17/a10978.html#a729d7f07669dedec50f009a87b8f32a4", null ],
+    [ "ToString", "df/d17/a10978.html#a31e545b0ae22cad4be815ea9e3b44377", null ],
+    [ "effName", "df/d17/a10978.html#a905224fb028ea0eab350773b7230f871", null ]
 ];

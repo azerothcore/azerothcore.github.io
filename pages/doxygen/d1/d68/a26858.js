@@ -1,7 +1,6 @@
 var a26858 =
 [
-    [ "go_bear_trapAI", "d1/d68/a26858.html#ad97484d73bcea6a84909004c099eec34", null ],
-    [ "Initialize", "d1/d68/a26858.html#a89c76f1563f541c572c48f8cf633aa6a", null ],
-    [ "UpdateAI", "d1/d68/a26858.html#a8901922d736bb0391da5618593ced5c5", null ],
-    [ "_events", "d1/d68/a26858.html#a59f37a130326818dd922763ae9058fe7", null ]
+    [ "go_bear_trapAI", "da/da4/a26862.html", "da/da4/a26862" ],
+    [ "go_bear_trap", "d1/d68/a26858.html#a6301aa23009ac2599fc37b81bb3a0750", null ],
+    [ "GetAI", "d1/d68/a26858.html#afb882fd4cc2e4379bb8d5afff210a679", null ]
 ];

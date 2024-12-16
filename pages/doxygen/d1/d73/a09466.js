@@ -1,8 +1,8 @@
 var a09466 =
 [
-    [ "EllipseBoundary", "d1/d73/a09466.html#aeb8c822a8c4c745de0c848721a624545", null ],
-    [ "IsWithinBoundaryArea", "d1/d73/a09466.html#a203ccf7ca23f1d66f834bdadb8b18b31", null ],
-    [ "_center", "d1/d73/a09466.html#aa84bae8bced77e38fec652e473cf39c7", null ],
-    [ "_radiusYSq", "d1/d73/a09466.html#ae933c6b1e62967f98c95cfbd4822b818", null ],
-    [ "_scaleXSq", "d1/d73/a09466.html#ad781cadd6c09e482d3a93ad71440a4c2", null ]
+    [ "CircleBoundary", "d1/d73/a09466.html#a1f58f718ac4e4f6de029a0d46954012e", null ],
+    [ "CircleBoundary", "d1/d73/a09466.html#a10387b9a70013ecc15ae4f31dd1f21f3", null ],
+    [ "IsWithinBoundaryArea", "d1/d73/a09466.html#ad8eef3c2c98ee71a7d28d1e5d93ee508", null ],
+    [ "_center", "d1/d73/a09466.html#a65edd0aef7b73b176e5e311bb0d63738", null ],
+    [ "_radiusSq", "d1/d73/a09466.html#acbb3cc0c546f0e557a48a45425355950", null ]
 ];

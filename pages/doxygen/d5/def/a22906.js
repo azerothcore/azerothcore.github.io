@@ -1,6 +1,10 @@
 var a22906 =
 [
-    [ "HandlePeriodic", "d5/def/a22906.html#a25c698e911ec02d9cd7f757ba87281df", null ],
-    [ "PrepareAuraScript", "d5/def/a22906.html#a7bf79bc5e5f509b52965f03e998db399", null ],
-    [ "Register", "d5/def/a22906.html#ab3eec9f591384c7c1c684651c38aa614", null ]
+    [ "Spells", "d5/def/a22906.html#a70ca1841fb1db54e6f76b96331e05cf1", [
+      [ "SPELL_GROW", "d5/def/a22906.html#a70ca1841fb1db54e6f76b96331e05cf1a287a03bdb61355baf071dd8aa5802ccd", null ],
+      [ "SPELL_SPORE_CLOUD", "d5/def/a22906.html#a70ca1841fb1db54e6f76b96331e05cf1afae99ec87dcd6bdf3631b9f273fecbd5", null ]
+    ] ],
+    [ "npc_rancid_mushroom", "d5/def/a22906.html#a15896957b94de57de9eda5a199a05d4c", null ],
+    [ "InitializeAI", "d5/def/a22906.html#afff169ff9d7a8411cf6d21f4f9be2545", null ],
+    [ "UpdateAI", "d5/def/a22906.html#a13bfd343bdf54c829b3fcb0a775c0852", null ]
 ];

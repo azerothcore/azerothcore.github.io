@@ -530,7 +530,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">  197</span>    <span class="keyword">delete</span> <a class="code hl_variable" href="../../df/da8/a05582.html#a817e53b23c54f2f6bbf7058eab0824b4">_commandExecuting</a>;</div>
 <div class="line"><span class="lineno">  198</span>    <a class="code hl_variable" href="../../df/da8/a05582.html#a817e53b23c54f2f6bbf7058eab0824b4">_commandExecuting</a> = <span class="keyword">new</span> std::promise&lt;void&gt;();</div>
 <div class="line"><span class="lineno">  199</span> </div>
-<div class="line"><span class="lineno">  200</span>    <a class="code hl_struct" href="../../d3/d5c/a11266.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../d3/d5c/a11266.html">CliCommandHolder</a>(<span class="keyword">this</span>, command.c_str(), &amp;<a class="code hl_function" href="../../df/da8/a05582.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a>, &amp;<a class="code hl_function" href="../../df/da8/a05582.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a>);</div>
+<div class="line"><span class="lineno">  200</span>    <a class="code hl_struct" href="../../d9/d3d/a11270.html">CliCommandHolder</a>* cmd = <span class="keyword">new</span> <a class="code hl_struct" href="../../d9/d3d/a11270.html">CliCommandHolder</a>(<span class="keyword">this</span>, command.c_str(), &amp;<a class="code hl_function" href="../../df/da8/a05582.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a>, &amp;<a class="code hl_function" href="../../df/da8/a05582.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a>);</div>
 <div class="line"><span class="lineno">  201</span>    <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;QueueCliCommand(cmd);</div>
 <div class="line"><span class="lineno">  202</span> </div>
 <div class="line"><span class="lineno">  203</span>    <span class="comment">// Wait for the command to finish</span></div>
@@ -541,7 +541,7 @@ Private Attributes</h2></td></tr>
 <div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
 <div class="ttc" id="aa05582_html_a547d5f26b74209003a8a3c7f8aa4af5d"><div class="ttname"><a href="../../df/da8/a05582.html#a547d5f26b74209003a8a3c7f8aa4af5d">RASession::CommandFinished</a></div><div class="ttdeci">static void CommandFinished(void *callbackArg, bool)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:220</div></div>
 <div class="ttc" id="aa05582_html_adda3b14e26103155c0a154e4673e8627"><div class="ttname"><a href="../../df/da8/a05582.html#adda3b14e26103155c0a154e4673e8627">RASession::CommandPrint</a></div><div class="ttdeci">static void CommandPrint(void *callbackArg, std::string_view text)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:209</div></div>
-<div class="ttc" id="aa11266_html"><div class="ttname"><a href="../../d3/d5c/a11266.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:34</div></div>
+<div class="ttc" id="aa11270_html"><div class="ttname"><a href="../../d9/d3d/a11270.html">CliCommandHolder</a></div><div class="ttdoc">Storage class for commands issued for delayed execution.</div><div class="ttdef"><b>Definition:</b> IWorld.h:34</div></div>
 </div><!-- fragment -->
 <p class="reference">References <a class="el" href="../../#l00053">_commandExecuting</a>, <a class="el" href="../../#l00220">CommandFinished()</a>, <a class="el" href="../../#l00209">CommandPrint()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00094">Send()</a>, and <a class="el" href="../../#l00443">sWorld</a>.</p>
 
@@ -692,7 +692,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   76</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a271e427d8e8481efd5cd5f537ec9e419">LOG_INFO</a>(<span class="stringliteral">&quot;commands.ra&quot;</span>, <span class="stringliteral">&quot;User {} (IP: {}) authenticated correctly to RA&quot;</span>, username, <a class="code hl_function" href="../../df/da8/a05582.html#aff8957db5a0cceec4fddeb7950bba557">GetRemoteIpAddress</a>());</div>
 <div class="line"><span class="lineno">   77</span> </div>
 <div class="line"><span class="lineno">   78</span>    <span class="comment">// Authentication successful, send the motd</span></div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_function" href="../../df/da8/a05582.html#a0f87da6517747387b3899b608328a8c5">Send</a>(std::string(std::string(<a class="code hl_define" href="../../df/dc9/a03230.html#a0ad6ba4db6e433e72e172e659af2cada">sMotdMgr</a>-&gt;GetMotd()) + <span class="stringliteral">&quot;\r\n&quot;</span>).c_str());</div>
+<div class="line"><span class="lineno">   79</span>    <a class="code hl_function" href="../../df/da8/a05582.html#a0f87da6517747387b3899b608328a8c5">Send</a>(std::string(std::string(<a class="code hl_define" href="../../df/dc9/a03230.html#a0ad6ba4db6e433e72e172e659af2cada">sMotdMgr</a>-&gt;GetMotd(<a class="code hl_define" href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a>)) + <span class="stringliteral">&quot;\r\n&quot;</span>).c_str());</div>
 <div class="line"><span class="lineno">   80</span> </div>
 <div class="line"><span class="lineno">   81</span>    <span class="comment">// Read commands</span></div>
 <div class="line"><span class="lineno">   82</span>    <span class="keywordflow">for</span> (;;)</div>
@@ -706,15 +706,16 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   90</span> </div>
 <div class="line"><span class="lineno">   91</span>    <a class="code hl_variable" href="../../df/da8/a05582.html#ac18177d4dfeb0c03d0b1d2015f5dd7e6">_socket</a>.close();</div>
 <div class="line"><span class="lineno">   92</span>}</div>
+<div class="ttc" id="aa00017_html_a900ed91bceba26c1e05048bd3a9ec4fd"><div class="ttname"><a href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a></div><div class="ttdeci">#define DEFAULT_LOCALE</div><div class="ttdef"><b>Definition:</b> Common.h:79</div></div>
 <div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa03230_html_a0ad6ba4db6e433e72e172e659af2cada"><div class="ttname"><a href="../../df/dc9/a03230.html#a0ad6ba4db6e433e72e172e659af2cada">sMotdMgr</a></div><div class="ttdeci">#define sMotdMgr</div><div class="ttdef"><b>Definition:</b> MotdMgr.h:44</div></div>
+<div class="ttc" id="aa03230_html_a0ad6ba4db6e433e72e172e659af2cada"><div class="ttname"><a href="../../df/dc9/a03230.html#a0ad6ba4db6e433e72e172e659af2cada">sMotdMgr</a></div><div class="ttdeci">#define sMotdMgr</div><div class="ttdef"><b>Definition:</b> MotdMgr.h:61</div></div>
 <div class="ttc" id="aa05582_html_a55f31c8b5181bf5d95b353b875267783"><div class="ttname"><a href="../../df/da8/a05582.html#a55f31c8b5181bf5d95b353b875267783">RASession::ReadString</a></div><div class="ttdeci">std::string ReadString()</div><div class="ttdef"><b>Definition:</b> RASession.cpp:103</div></div>
 <div class="ttc" id="aa05582_html_a72963e43e085c28b7d4bb50dfa45433a"><div class="ttname"><a href="../../df/da8/a05582.html#a72963e43e085c28b7d4bb50dfa45433a">RASession::CheckAccessLevel</a></div><div class="ttdeci">bool CheckAccessLevel(const std::string &amp;user)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:123</div></div>
 <div class="ttc" id="aa05582_html_abf15291f3135a382d314feb8a5d72e9e"><div class="ttname"><a href="../../df/da8/a05582.html#abf15291f3135a382d314feb8a5d72e9e">RASession::CheckPassword</a></div><div class="ttdeci">bool CheckPassword(const std::string &amp;user, const std::string &amp;pass)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:155</div></div>
 <div class="ttc" id="aa05582_html_ad4f4c2ccb371867a882351b3f8f8a9ef"><div class="ttname"><a href="../../df/da8/a05582.html#ad4f4c2ccb371867a882351b3f8f8a9ef">RASession::ProcessCommand</a></div><div class="ttdeci">bool ProcessCommand(std::string &amp;command)</div><div class="ttdef"><b>Definition:</b> RASession.cpp:182</div></div>
 <div class="ttc" id="aa05582_html_aff8957db5a0cceec4fddeb7950bba557"><div class="ttname"><a href="../../df/da8/a05582.html#aff8957db5a0cceec4fddeb7950bba557">RASession::GetRemoteIpAddress</a></div><div class="ttdeci">const std::string GetRemoteIpAddress() const</div><div class="ttdef"><b>Definition:</b> RASession.h:37</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00050">_socket</a>, <a class="el" href="../../#l00123">CheckAccessLevel()</a>, <a class="el" href="../../#l00155">CheckPassword()</a>, <a class="el" href="../../#l00037">GetRemoteIpAddress()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00182">ProcessCommand()</a>, <a class="el" href="../../#l00103">ReadString()</a>, <a class="el" href="../../#l00094">Send()</a>, and <a class="el" href="../../#l00044">sMotdMgr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00050">_socket</a>, <a class="el" href="../../#l00123">CheckAccessLevel()</a>, <a class="el" href="../../#l00155">CheckPassword()</a>, <a class="el" href="../../#l00079">DEFAULT_LOCALE</a>, <a class="el" href="../../#l00037">GetRemoteIpAddress()</a>, <a class="el" href="../../#l00165">LOG_INFO</a>, <a class="el" href="../../#l00182">ProcessCommand()</a>, <a class="el" href="../../#l00103">ReadString()</a>, <a class="el" href="../../#l00094">Send()</a>, and <a class="el" href="../../#l00061">sMotdMgr</a>.</p>
 
 </div>
 </div>
@@ -821,7 +822,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="../../df/da8/a05582.html">RASession</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:44:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:44:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

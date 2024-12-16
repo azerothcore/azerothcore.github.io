@@ -1,8 +1,7 @@
 var a24750 =
 [
-    [ "OnApply", "d1/d31/a24750.html#a9ea247d39fa51d9722c17e6ea83a0e55", null ],
-    [ "OnRemove", "d1/d31/a24750.html#abd45d59ecd41274bd02c17fb066a521e", null ],
-    [ "PrepareAuraScript", "d1/d31/a24750.html#af30811301599459bf2a99a68608a053f", null ],
-    [ "Register", "d1/d31/a24750.html#a0eb56dc80c02932a0d7cf4cca7079c75", null ],
-    [ "Validate", "d1/d31/a24750.html#a29c5049e4455737ff96596a18af118d0", null ]
+    [ "HandleDummy", "d1/d31/a24750.html#af5d0fc4e596c04c6ca3faf4079f6b602", null ],
+    [ "Load", "d1/d31/a24750.html#a4098aa621012c5e3623ee905d2d2c8eb", null ],
+    [ "PrepareSpellScript", "d1/d31/a24750.html#ad9d1823fa4302334419e6f9a01f0a728", null ],
+    [ "Register", "d1/d31/a24750.html#a4d683270dc086454630475d39f0105e8", null ]
 ];

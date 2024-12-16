@@ -1,7 +1,7 @@
 var a02417 =
 [
-    [ "boss_rend_blackhand", "df/df3/a11794.html", "df/df3/a11794" ],
-    [ "boss_rend_blackhand::boss_rend_blackhandAI", "d4/dfc/a11798.html", "d4/dfc/a11798" ],
+    [ "boss_rend_blackhand", "d4/dfc/a11798.html", "d4/dfc/a11798" ],
+    [ "boss_rend_blackhand::boss_rend_blackhandAI", "db/d03/a11802.html", "db/d03/a11802" ],
     [ "Adds", "de/d76/a02417.html#a2933cb34869f6eceea9b33441a4608ad", [
       [ "NPC_SPIRESTONE_WARLORD", "d1/de1/a02435.html#a2933cb34869f6eceea9b33441a4608ada3f7866506513346cd5aebdcf27322b25", null ],
       [ "NPC_SMOLDERTHORN_BERSERKER", "d1/de1/a02435.html#a2933cb34869f6eceea9b33441a4608ada7c0a3088589c1df2edf499c7d65a496d", null ],

@@ -1,6 +1,12 @@
 var a14538 =
 [
-    [ "instance_ragefire_chasm_InstanceMapScript", "dc/d37/a14542.html", "dc/d37/a14542" ],
-    [ "instance_ragefire_chasm", "d2/dd0/a14538.html#ab7f27d3e73b24d16dcf9b114f7dd4b36", null ],
-    [ "GetInstanceScript", "d2/dd0/a14538.html#a0568996a61ef91688b9f223cb3782e5a", null ]
+    [ "instance_onyxias_lair_InstanceMapScript", "d2/dd0/a14538.html#a15c6f3f16f9cfa1f9fc1b7a2c62bcc64", null ],
+    [ "CheckAchievementCriteriaMeet", "d2/dd0/a14538.html#a20761aa41e0f70836c4525f17faf064f", null ],
+    [ "Initialize", "d2/dd0/a14538.html#a5d109b5acfa2e21e3c50e35dcdf119dd", null ],
+    [ "OnGameObjectCreate", "d2/dd0/a14538.html#a1e99600992673d165382d99236e0c59f", null ],
+    [ "SetBossState", "d2/dd0/a14538.html#a2a28e42ec49fce2ef47288c1ad4b6e61", null ],
+    [ "SetData", "d2/dd0/a14538.html#ac5df2ecb9f88dbedbb1f59ad2bdc8b96", null ],
+    [ "bDeepBreath", "d2/dd0/a14538.html#a96211e4e0e033e16d4de57b6e40f2023", null ],
+    [ "ManyWhelpsCounter", "d2/dd0/a14538.html#aea148b562a4f2cd752ac73240f902993", null ],
+    [ "str_data", "d2/dd0/a14538.html#ad0b65a3cfccdf07d017757751f4e15fa", null ]
 ];

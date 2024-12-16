@@ -1,7 +1,8 @@
 var a17934 =
 [
-    [ "OnPeriodic", "db/d39/a17934.html#a9635bf496ee3098e412ba7de633250b3", null ],
-    [ "PrepareAuraScript", "db/d39/a17934.html#accb775d3a9c4ae40f5d8644c366ec39e", null ],
-    [ "Register", "db/d39/a17934.html#aa44bb97a0d3af32b90a133582f064b0e", null ],
-    [ "Validate", "db/d39/a17934.html#a5675fef373315edd34d096bb91c733b0", null ]
+    [ "ChangeDamageAndGrow", "db/d39/a17934.html#a017ade08eca93f326d2e5115c4d88c33", null ],
+    [ "CorrectRange", "db/d39/a17934.html#a9022b9efab89bc562428520b3551ff37", null ],
+    [ "PrepareSpellScript", "db/d39/a17934.html#a3e1d1764add95728428cbf25f9b66dc4", null ],
+    [ "Register", "db/d39/a17934.html#a998b810cdbecbca2bf65f18cee14d286", null ],
+    [ "Validate", "db/d39/a17934.html#afe0910e903f6f8f466b272ce9ddc7a6b", null ]
 ];

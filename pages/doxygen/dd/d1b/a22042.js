@@ -1,9 +1,5 @@
 var a22042 =
 [
-    [ "npc_finklesteinAI", "dd/d1c/a22046.html", "dd/d1c/a22046" ],
-    [ "npc_finklestein", "dd/d1b/a22042.html#aa719b4bb95012c22ef8123e255e32edd", null ],
-    [ "GetAI", "dd/d1b/a22042.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
-    [ "OnGossipHello", "dd/d1b/a22042.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
-    [ "OnGossipSelect", "dd/d1b/a22042.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
-    [ "OnQuestAccept", "dd/d1b/a22042.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
+    [ "achievement_wg_within_our_grasp", "dd/d1b/a22042.html#a9edbd15bc6989c6948e21391a683d22d", null ],
+    [ "OnCheck", "dd/d1b/a22042.html#a10b659c4b52322536333e3d191796c27", null ]
 ];

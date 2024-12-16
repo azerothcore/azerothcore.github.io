@@ -1,7 +1,9 @@
 var a22342 =
 [
-    [ "HandleProc", "d6/d3b/a22342.html#a4d12ab1b286105fdad5eb2dd20131408", null ],
-    [ "PrepareAuraScript", "d6/d3b/a22342.html#a94b6499dc2e1fa95a50bd9c3c491e858", null ],
-    [ "Register", "d6/d3b/a22342.html#a6b764182501a1d192f90dc20bbd6549e", null ],
-    [ "Validate", "d6/d3b/a22342.html#ad89123425cca5bd02a18526a11595a1a", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "d6/d3b/a22342.html#ada5f19c96bfe623b110389ede032ef53", null ],
+    [ "GetData", "d6/d3b/a22342.html#ad876ebd581c470f5a3075129076bd1fb", null ],
+    [ "Initialize", "d6/d3b/a22342.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
+    [ "OnCreatureCreate", "d6/d3b/a22342.html#a118b4a7a7c872327ec2868c5b0417636", null ],
+    [ "OnUnitDeath", "d6/d3b/a22342.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
+    [ "_ritualistsAliveCount", "d6/d3b/a22342.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
 ];

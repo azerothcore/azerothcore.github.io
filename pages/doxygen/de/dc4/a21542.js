@@ -1,7 +1,7 @@
 var a21542 =
 [
-    [ "HandleScriptEffect", "de/dc4/a21542.html#a2d39a073c351860db735301b4cf9c79f", null ],
-    [ "PrepareSpellScript", "de/dc4/a21542.html#a3674adaef23f1531af360a65c14efadd", null ],
-    [ "Register", "de/dc4/a21542.html#a11b217c0066217f2da5ff42ce35c9a0a", null ],
-    [ "Validate", "de/dc4/a21542.html#a3dadb61ca7dd8195ba5fdac5bf49583c", null ]
+    [ "HandleScriptEffect", "de/dc4/a21542.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
+    [ "PrepareSpellScript", "de/dc4/a21542.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
+    [ "Register", "de/dc4/a21542.html#a278206630f9f45f2dba50b259a6115c1", null ],
+    [ "Validate", "de/dc4/a21542.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
 ];

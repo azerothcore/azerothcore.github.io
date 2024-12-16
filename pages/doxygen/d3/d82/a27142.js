@@ -1,6 +1,7 @@
 var a27142 =
 [
-    [ "npc_training_dummyAI", "d6/dee/a27146.html", "d6/dee/a27146" ],
-    [ "npc_training_dummy", "d3/d82/a27142.html#acfed4da3b1a01bc58e599d2dc134cb7d", null ],
-    [ "GetAI", "d3/d82/a27142.html#a87a48a42e8349ce9125de91a429d4ffa", null ]
+    [ "npc_riggle_bassbaitAI", "d3/d82/a27142.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
+    [ "CheckTournamentState", "d3/d82/a27142.html#aa7b4393b93be92fbb595648cede832be", null ],
+    [ "UpdateAI", "d3/d82/a27142.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
+    [ "m_uiTimer", "d3/d82/a27142.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
 ];

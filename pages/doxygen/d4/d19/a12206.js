@@ -1,6 +1,6 @@
 var a12206 =
 [
-    [ "npc_flamewaker_priestAI", "d9/dfa/a12210.html", "d9/dfa/a12210" ],
-    [ "npc_flamewaker_priest", "d4/d19/a12206.html#a2ae4d75192f8ddc60d092b9a129e636e", null ],
-    [ "GetAI", "d4/d19/a12206.html#a8a38c2c54ae8366496eb58145f75eac9", null ]
+    [ "boss_sulfuronAI", "d4/d19/a12206.html#a63c76fb94131830924e2bf77477261ba", null ],
+    [ "ExecuteEvent", "d4/d19/a12206.html#ae038aa8140f5b4128c39c592966321f1", null ],
+    [ "JustEngagedWith", "d4/d19/a12206.html#a35394690b8d25529c91c147025f6ad92", null ]
 ];

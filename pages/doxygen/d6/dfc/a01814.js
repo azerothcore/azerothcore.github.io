@@ -1,10 +1,10 @@
 var a01814 =
 [
-    [ "boss_anub_arak", "d2/d5a/a15510.html", "d2/d5a/a15510" ],
-    [ "boss_anub_arak::boss_anub_arakAI", "d8/df0/a15514.html", "d8/df0/a15514" ],
-    [ "spell_azjol_nerub_carrion_beetels", "d3/d56/a15518.html", "d3/d56/a15518" ],
-    [ "spell_azjol_nerub_pound", "d4/d78/a15522.html", "d4/d78/a15522" ],
-    [ "spell_azjol_nerub_impale_summon", "d5/d2b/a15526.html", "d5/d2b/a15526" ],
+    [ "boss_anub_arak", "d8/df0/a15514.html", "d8/df0/a15514" ],
+    [ "boss_anub_arak::boss_anub_arakAI", "d3/d56/a15518.html", "d3/d56/a15518" ],
+    [ "spell_azjol_nerub_carrion_beetels", "d4/d78/a15522.html", "d4/d78/a15522" ],
+    [ "spell_azjol_nerub_pound", "d5/d2b/a15526.html", "d5/d2b/a15526" ],
+    [ "spell_azjol_nerub_impale_summon", "d4/d4b/a15530.html", "d4/d4b/a15530" ],
     [ "Misc", "d6/dfc/a01814.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

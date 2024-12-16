@@ -1,6 +1,5 @@
 var a26298 =
 [
-    [ "FilterTargets", "dd/de3/a26298.html#af7035627c3d6dd3fd8381ee258391a0b", null ],
-    [ "PrepareSpellScript", "dd/de3/a26298.html#a3211fda7263bc513d14a8f2fd1507ef8", null ],
-    [ "Register", "dd/de3/a26298.html#abe63ec69fe15fd8924fb63235489e088", null ]
+    [ "EarthenPowerTargetSelector", "dd/de3/a26298.html#a61290afcc621c73682160a4e6a6e0f5d", null ],
+    [ "operator()", "dd/de3/a26298.html#a9f3d7e7bdb3a3affa72da57903f28940", null ]
 ];

@@ -1,13 +1,10 @@
 var a18990 =
 [
-    [ "npc_crystalline_frayer", "d9/d53/a18990.html#ade88d8f4d4fd32155b87dfba75084f4c", null ],
-    [ "DamageTaken", "d9/d53/a18990.html#a2580575a58353e8cb94561bafd74f502", null ],
-    [ "EnterEvadeMode", "d9/d53/a18990.html#a9240adcfe966f11c925db82add432aa5", null ],
-    [ "JustEngagedWith", "d9/d53/a18990.html#a91e8c4015b9b238fd2144999bcef9362", null ],
-    [ "Reset", "d9/d53/a18990.html#a5baa6491ee0205b2b2e7bc8e6cd9a163", null ],
-    [ "UpdateAI", "d9/d53/a18990.html#ab494a601b9a5dc3d4c3c303bc4de3a94", null ],
-    [ "_allowDeath", "d9/d53/a18990.html#adc85054030146067d2cff47db2886a07", null ],
-    [ "abilityTimer1", "d9/d53/a18990.html#ae4a140cd9fccecea24982d7aa90c6bf0", null ],
-    [ "abilityTimer2", "d9/d53/a18990.html#a6d2bf3e1cc05860eb6a7706102438f32", null ],
-    [ "restoreTimer", "d9/d53/a18990.html#a5ab2990b41f485417af6272194035fc3", null ]
+    [ "instance_nexus_InstanceMapScript", "d9/d53/a18990.html#a6803f233d730f33e5af7dc9d8ecd9775", null ],
+    [ "Initialize", "d9/d53/a18990.html#a2c6c42e73de2a155c04f80e37aa5d442", null ],
+    [ "OnCreatureCreate", "d9/d53/a18990.html#a04806dc42aa0b171fa99eb1d8492ff61", null ],
+    [ "OnGameObjectCreate", "d9/d53/a18990.html#a85c3ac915970d68a192414ca4ff8ad1f", null ],
+    [ "OnGameObjectRemove", "d9/d53/a18990.html#ac148c67823484eee38ab6646dfb68530", null ],
+    [ "SetBossState", "d9/d53/a18990.html#a11ac1fbc7c699084e7da5e4bf0595651", null ],
+    [ "SetData", "d9/d53/a18990.html#a351052b1d3ea4ddb5d36ce69818c7e67", null ]
 ];

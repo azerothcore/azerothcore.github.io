@@ -1,6 +1,8 @@
 var a13066 =
 [
-    [ "FilterTargets", "da/dde/a13066.html#aa6c8db9ae3ffd14e0841c98633115a9b", null ],
-    [ "PrepareSpellScript", "da/dde/a13066.html#a502f57c8567bc7ed15035d89ea26f4a6", null ],
-    [ "Register", "da/dde/a13066.html#aa3f50e9c6d430d3a1bc83c382c08b189", null ]
+    [ "FilterTargets", "da/dde/a13066.html#a3282eb4c27b4256705bba47f4934c9b8", null ],
+    [ "HandleScriptEffect", "da/dde/a13066.html#a8622351d9984d2de69ccd67d37fd52b9", null ],
+    [ "PrepareSpellScript", "da/dde/a13066.html#a6083e35b4289b8a960dd6b223e1d02b5", null ],
+    [ "Register", "da/dde/a13066.html#a57b42bf7b94ef5b23092ed097ce016e8", null ],
+    [ "Validate", "da/dde/a13066.html#a5493864b068de82015bc157f3d0899b3", null ]
 ];

@@ -1,6 +1,6 @@
 var a16786 =
 [
-    [ "boss_drakkari_colossusAI", "d6/d87/a16790.html", "d6/d87/a16790" ],
-    [ "boss_drakkari_colossus", "df/dd2/a16786.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
-    [ "GetAI", "df/dd2/a16786.html#a75c6c9c56fe11342dd8aece031059e77", null ]
+    [ "entry", "df/dd2/a16786.html#af2cf5df64adf9ac1575a8217b103e738", null ],
+    [ "x", "df/dd2/a16786.html#aad21475d521921ea30cc0ae5d260ce69", null ],
+    [ "y", "df/dd2/a16786.html#abd69e1c28ad36466c82807ea0ffb0fb7", null ]
 ];

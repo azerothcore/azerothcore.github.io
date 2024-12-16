@@ -1,8 +1,7 @@
 var a14382 =
 [
-    [ "npc_arthasAI", "d3/dce/a14386.html", "d3/dce/a14386" ],
-    [ "npc_arthas", "d8/de8/a14382.html#a87c280ff9861187b0a713f795e657266", null ],
-    [ "GetAI", "d8/de8/a14382.html#a4a613dd76cde27f7df834b9bb837ab6c", null ],
-    [ "OnGossipHello", "d8/de8/a14382.html#a4bd3d5dd8eebe48b525e2bd162787172", null ],
-    [ "OnGossipSelect", "d8/de8/a14382.html#aeca2f4baa3c943281c676c6498393165", null ]
+    [ "OnRemove", "d8/de8/a14382.html#a98bf88bd917b441d2ad81716dcd38ec1", null ],
+    [ "PrepareAuraScript", "d8/de8/a14382.html#ab082adc51983f124d0467cbff63cffb7", null ],
+    [ "Register", "d8/de8/a14382.html#a2feb8adaad212ee29d9ec6d9957575a4", null ],
+    [ "Validate", "d8/de8/a14382.html#a73421b82f483e73314dbb862fb0a11c7", null ]
 ];

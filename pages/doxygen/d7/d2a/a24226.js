@@ -1,7 +1,8 @@
 var a24226 =
 [
-    [ "CheckClass", "d7/d2a/a24226.html#a931d7a6aa2f1b574c225d3e803edbab4", null ],
-    [ "HandleScript", "d7/d2a/a24226.html#a4f4f7004be5629efdc48b52b6667edba", null ],
-    [ "PrepareSpellScript", "d7/d2a/a24226.html#a599ce758681c5196bd40e4c7b86635cc", null ],
-    [ "Register", "d7/d2a/a24226.html#ab184b23aa446c826db39928eb3ff3ecc", null ]
+    [ "CheckCast", "d7/d2a/a24226.html#a94851a2b6a62138e28466317e9e88480", null ],
+    [ "HandleDummy", "d7/d2a/a24226.html#a970684d219c99519512c437a8efd8d43", null ],
+    [ "PrepareSpellScript", "d7/d2a/a24226.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
+    [ "Register", "d7/d2a/a24226.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
+    [ "Validate", "d7/d2a/a24226.html#a59cca008a97447e257bf24071301b366", null ]
 ];

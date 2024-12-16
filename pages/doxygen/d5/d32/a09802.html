@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Movement::MoveSpline Class Reference</title>
+<title>AzerothCore: Movement::Location Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,231 +105,41 @@ $(document).ready(function(){initNavTree('d5/d32/a09802.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="../../d6/da5/a09799.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Movement::MoveSpline Class Reference</div></div>
+  <div class="headertitle"><div class="title">Movement::Location Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">MoveSpline.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for Movement::Location:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d5/d32/a09802.png" alt=""/>
+ </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a6fcd01e84f328619ce1a8dbbfa8143b0"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">UpdateResult</a> { <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc">Result_None</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5">Result_Arrived</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26">Result_NextCycle</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f">Result_NextSegment</a> = 0x08
-, <br />
-&#160;&#160;<a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304">Result_JustArrived</a> = 0x10
-<br />
- }</td></tr>
-<tr class="separator:a6fcd01e84f328619ce1a8dbbfa8143b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd29e3dbc84edbaac05c266ceb37ce9"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../de/d38/a09838.html">Spline</a>&lt; <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">MySpline</a></td></tr>
-<tr class="separator:afcd29e3dbc84edbaac05c266ceb37ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a310026526a7eba86bad78a200ea7ee94"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a310026526a7eba86bad78a200ea7ee94">timeElapsed</a> () const</td></tr>
-<tr class="separator:a310026526a7eba86bad78a200ea7ee94"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a52b58ec4427998890ece4339f139d307"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a52b58ec4427998890ece4339f139d307">timePassed</a> () const</td></tr>
-<tr class="separator:a52b58ec4427998890ece4339f139d307"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9dd5370cafdd0a3d743ae5f5cceafff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a> () const</td></tr>
-<tr class="separator:a9dd5370cafdd0a3d743ae5f5cceafff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6af23fc8b13a82fe0b78a2c75904a090"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">MySpline</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a6af23fc8b13a82fe0b78a2c75904a090">_Spline</a> () const</td></tr>
-<tr class="separator:a6af23fc8b13a82fe0b78a2c75904a090"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f6d2ea600f8591b2027679f360edf0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#aa6f6d2ea600f8591b2027679f360edf0">_currentSplineIdx</a> () const</td></tr>
-<tr class="separator:aa6f6d2ea600f8591b2027679f360edf0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a313fdb89edc8e257d4f3b5d6ba12f0e5"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a313fdb89edc8e257d4f3b5d6ba12f0e5">_Finalize</a> ()</td></tr>
-<tr class="separator:a313fdb89edc8e257d4f3b5d6ba12f0e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a84eca1595271fcc665628739ba4158ce"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a84eca1595271fcc665628739ba4158ce">_Interrupt</a> ()</td></tr>
-<tr class="separator:a84eca1595271fcc665628739ba4158ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22d2fde4e6a3e3550ae7cdd7c7250689"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a22d2fde4e6a3e3550ae7cdd7c7250689">Initialize</a> (const <a class="el" href="../../d3/d95/a09830.html">MoveSplineInitArgs</a> &amp;)</td></tr>
-<tr class="separator:a22d2fde4e6a3e3550ae7cdd7c7250689"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5f5e3287587a37b25f1cab033e5ff6b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a> () const</td></tr>
-<tr class="separator:ab5f5e3287587a37b25f1cab033e5ff6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a144977e0f5788113d1a3d846e74dda3e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a144977e0f5788113d1a3d846e74dda3e">MoveSpline</a> ()</td></tr>
-<tr class="separator:a144977e0f5788113d1a3d846e74dda3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad92db22796b029c4d5c912019461e6c3"><td class="memTemplParams" colspan="2">template&lt;class UpdateHandler &gt; </td></tr>
-<tr class="memitem:ad92db22796b029c4d5c912019461e6c3"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ad92db22796b029c4d5c912019461e6c3">updateState</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> difftime, UpdateHandler &amp;handler)</td></tr>
-<tr class="separator:ad92db22796b029c4d5c912019461e6c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a601ad6ac5069f9b702bba4bc6960fd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a5a601ad6ac5069f9b702bba4bc6960fd">updateState</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> difftime)</td></tr>
-<tr class="separator:a5a601ad6ac5069f9b702bba4bc6960fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a23c64deed151366320b44261572fd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/d6d/a09798.html">Location</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a2a23c64deed151366320b44261572fd9">ComputePosition</a> () const</td></tr>
-<tr class="separator:a2a23c64deed151366320b44261572fd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a397cd76f394503b4460e746c7cfb2603"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a397cd76f394503b4460e746c7cfb2603">GetId</a> () const</td></tr>
-<tr class="separator:a397cd76f394503b4460e746c7cfb2603"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c375981abbfa1ea7335cd9369fd93f6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a4c375981abbfa1ea7335cd9369fd93f6">Finalized</a> () const</td></tr>
-<tr class="separator:a4c375981abbfa1ea7335cd9369fd93f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ae53158f6b2d3ed43d66d6b5ee21643"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a0ae53158f6b2d3ed43d66d6b5ee21643">isCyclic</a> () const</td></tr>
-<tr class="separator:a0ae53158f6b2d3ed43d66d6b5ee21643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a545d6194fd1684261a75545ec6a171"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a3a545d6194fd1684261a75545ec6a171">isFalling</a> () const</td></tr>
-<tr class="separator:a3a545d6194fd1684261a75545ec6a171"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a97822562bcdf817cb8529aa6ad862ad7"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a97822562bcdf817cb8529aa6ad862ad7">isWalking</a> () const</td></tr>
-<tr class="separator:a97822562bcdf817cb8529aa6ad862ad7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a75c3c093ade5d45a92f7d777e572c5"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a5a75c3c093ade5d45a92f7d777e572c5">FinalDestination</a> () const</td></tr>
-<tr class="separator:a5a75c3c093ade5d45a92f7d777e572c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acabbd1fc901e287f53b9906e4689815e"><td class="memItemLeft" align="right" valign="top">Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#acabbd1fc901e287f53b9906e4689815e">CurrentDestination</a> () const</td></tr>
-<tr class="separator:acabbd1fc901e287f53b9906e4689815e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76e1f096005cddf6d43fea86b4bd4a88"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a76e1f096005cddf6d43fea86b4bd4a88">currentPathIdx</a> () const</td></tr>
-<tr class="separator:a76e1f096005cddf6d43fea86b4bd4a88"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae63db347ed61a9dec1d1931e84903b2a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ae63db347ed61a9dec1d1931e84903b2a">HasAnimation</a> () const</td></tr>
-<tr class="separator:ae63db347ed61a9dec1d1931e84903b2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a957e20859d778d793a6fdc9ebdde0cd9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a957e20859d778d793a6fdc9ebdde0cd9">GetAnimationType</a> () const</td></tr>
-<tr class="separator:a957e20859d778d793a6fdc9ebdde0cd9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16f9799522821c4b0ced892a431ec86b"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a16f9799522821c4b0ced892a431ec86b">ToString</a> () const</td></tr>
-<tr class="separator:a16f9799522821c4b0ced892a431ec86b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff843d8b47838848e482920fe0a9d838"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#aff843d8b47838848e482920fe0a9d838">HasStarted</a> () const</td></tr>
-<tr class="separator:aff843d8b47838848e482920fe0a9d838"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c601d413eeb398eb75d386c264ef5ab"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a0c601d413eeb398eb75d386c264ef5ab">Location</a> ()=default</td></tr>
+<tr class="separator:a0c601d413eeb398eb75d386c264ef5ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae013ab2bf44bb250644573625bf93265"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ae013ab2bf44bb250644573625bf93265">Location</a> (float x, float y, float z, float o)</td></tr>
+<tr class="separator:ae013ab2bf44bb250644573625bf93265"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d50c28ba40b409a0c5a9776bfe8ef42"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a0d50c28ba40b409a0c5a9776bfe8ef42">Location</a> (const Vector3 &amp;v)</td></tr>
+<tr class="separator:a0d50c28ba40b409a0c5a9776bfe8ef42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1270aec177f47a607cb5a1472819c738"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a1270aec177f47a607cb5a1472819c738">Location</a> (const Vector3 &amp;v, float o)</td></tr>
+<tr class="separator:a1270aec177f47a607cb5a1472819c738"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae68059cf60cd9e73e124d0fd7066c385"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ae68059cf60cd9e73e124d0fd7066c385">onTransport</a></td></tr>
-<tr class="separator:ae68059cf60cd9e73e124d0fd7066c385"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:ace17bbbbf729a024f320454a814a1fcf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ace17bbbbf729a024f320454a814a1fcf">init_spline</a> (const <a class="el" href="../../d3/d95/a09830.html">MoveSplineInitArgs</a> &amp;args)</td></tr>
-<tr class="separator:ace17bbbbf729a024f320454a814a1fcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d4dc3fa4b29013cba8aba891e29e00a"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d8/df9/a09834.html#a1519aa715d924d84efc27560b523f869">MySpline::ControlArray</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a2d4dc3fa4b29013cba8aba891e29e00a">getPath</a> () const</td></tr>
-<tr class="separator:a2d4dc3fa4b29013cba8aba891e29e00a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad89f7f9628e36e2031fcc49c55e88f3b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ad89f7f9628e36e2031fcc49c55e88f3b">computeParabolicElevation</a> (float &amp;el) const</td></tr>
-<tr class="separator:ad89f7f9628e36e2031fcc49c55e88f3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46956cfbaaa2ada7a7720760f116b66a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a46956cfbaaa2ada7a7720760f116b66a">computeFallElevation</a> (float &amp;el) const</td></tr>
-<tr class="separator:a46956cfbaaa2ada7a7720760f116b66a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18f8b2eea1e37fabbe43bfe441329035"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">UpdateResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a18f8b2eea1e37fabbe43bfe441329035">_updateState</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;ms_time_diff)</td></tr>
-<tr class="memdesc:a18f8b2eea1e37fabbe43bfe441329035"><td class="mdescLeft">&#160;</td><td class="mdescRight">============================================================================================  <a href="../../d5/d32/a09802.html#a18f8b2eea1e37fabbe43bfe441329035">More...</a><br /></td></tr>
-<tr class="separator:a18f8b2eea1e37fabbe43bfe441329035"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ab31e82d23db1da66296cafc1a356a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a0ab31e82d23db1da66296cafc1a356a8">next_timestamp</a> () const</td></tr>
-<tr class="separator:a0ab31e82d23db1da66296cafc1a356a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca091ebfe9952bb677cb3adb18ee5c9b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#aca091ebfe9952bb677cb3adb18ee5c9b">segment_time_elapsed</a> () const</td></tr>
-<tr class="separator:aca091ebfe9952bb677cb3adb18ee5c9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a94a0255f355fadbaee5314a548a90882"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">MySpline</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a></td></tr>
-<tr class="separator:a94a0255f355fadbaee5314a548a90882"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acaefd7981d82fef5f8352aca2791d9bf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/da0/a09822.html">FacingInfo</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a></td></tr>
-<tr class="separator:acaefd7981d82fef5f8352aca2791d9bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abab76396311d0e6f1057ccb88739b865"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#abab76396311d0e6f1057ccb88739b865">m_Id</a></td></tr>
-<tr class="separator:abab76396311d0e6f1057ccb88739b865"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f7636760ddc72da3daeaeff76f34de"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/daf/a09806.html">MoveSplineFlag</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a></td></tr>
-<tr class="separator:ae4f7636760ddc72da3daeaeff76f34de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43b26a2cb5d7047054b6bdbd35e170e1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a></td></tr>
-<tr class="separator:a43b26a2cb5d7047054b6bdbd35e170e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9cd70abff5088d0fc9a32a9a6091c541"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">vertical_acceleration</a></td></tr>
-<tr class="separator:a9cd70abff5088d0fc9a32a9a6091c541"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5cf0a38c59f295bbf89e68e139ce687"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#af5cf0a38c59f295bbf89e68e139ce687">initialOrientation</a></td></tr>
-<tr class="separator:af5cf0a38c59f295bbf89e68e139ce687"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c5cf7915bce1fbaa7a7b2c452700d2c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a></td></tr>
-<tr class="separator:a6c5cf7915bce1fbaa7a7b2c452700d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac49274b3aaae247ad398b0159e7033c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a></td></tr>
-<tr class="separator:aac49274b3aaae247ad398b0159e7033c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af80a7f21ed339e75e55d83670d058ef1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#af80a7f21ed339e75e55d83670d058ef1">point_Idx_offset</a></td></tr>
-<tr class="separator:af80a7f21ed339e75e55d83670d058ef1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a607dc7708aea97be99c623f61b1e6db7"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a607dc7708aea97be99c623f61b1e6db7">PacketBuilder</a></td></tr>
-<tr class="separator:a607dc7708aea97be99c623f61b1e6db7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9fc2637d4441d90c528eaef0f0414b98"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d32/a09802.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a> {0}</td></tr>
+<tr class="separator:a9fc2637d4441d90c528eaef0f0414b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="afcd29e3dbc84edbaac05c266ceb37ce9" name="afcd29e3dbc84edbaac05c266ceb37ce9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afcd29e3dbc84edbaac05c266ceb37ce9">&#9670;&#160;</a></span>MySpline</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../de/d38/a09838.html">Spline</a>&lt;<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&gt; <a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">Movement::MoveSpline::MySpline</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a6fcd01e84f328619ce1a8dbbfa8143b0" name="a6fcd01e84f328619ce1a8dbbfa8143b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6fcd01e84f328619ce1a8dbbfa8143b0">&#9670;&#160;</a></span>UpdateResult</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">Movement::MoveSpline::UpdateResult</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc" name="a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc"></a>Result_None&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5" name="a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5"></a>Result_Arrived&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26" name="a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26"></a>Result_NextCycle&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f" name="a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f"></a>Result_NextSegment&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304" name="a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304"></a>Result_JustArrived&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   44</span>        {</div>
-<div class="line"><span class="lineno">   45</span>            <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc">Result_None</a>         = 0x01,</div>
-<div class="line"><span class="lineno">   46</span>            <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5">Result_Arrived</a>      = 0x02,</div>
-<div class="line"><span class="lineno">   47</span>            <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26">Result_NextCycle</a>    = 0x04,</div>
-<div class="line"><span class="lineno">   48</span>            <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f">Result_NextSegment</a>  = 0x08,</div>
-<div class="line"><span class="lineno">   49</span>            <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304">Result_JustArrived</a>  = 0x10,</div>
-<div class="line"><span class="lineno">   50</span>        };</div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f">Movement::MoveSpline::Result_NextSegment</a></div><div class="ttdeci">@ Result_NextSegment</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:48</div></div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5">Movement::MoveSpline::Result_Arrived</a></div><div class="ttdeci">@ Result_Arrived</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:46</div></div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304">Movement::MoveSpline::Result_JustArrived</a></div><div class="ttdeci">@ Result_JustArrived</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:49</div></div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26">Movement::MoveSpline::Result_NextCycle</a></div><div class="ttdeci">@ Result_NextCycle</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:47</div></div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc">Movement::MoveSpline::Result_None</a></div><div class="ttdeci">@ Result_None</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:45</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a144977e0f5788113d1a3d846e74dda3e" name="a144977e0f5788113d1a3d846e74dda3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a144977e0f5788113d1a3d846e74dda3e">&#9670;&#160;</a></span>MoveSpline()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">Movement::MoveSpline::MoveSpline </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  192</span>                           : <a class="code hl_variable" href="../../d5/d32/a09802.html#abab76396311d0e6f1057ccb88739b865">m_Id</a>(0), <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a>(0),</div>
-<div class="line"><span class="lineno">  193</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">vertical_acceleration</a>(0.f), <a class="code hl_variable" href="../../d5/d32/a09802.html#af5cf0a38c59f295bbf89e68e139ce687">initialOrientation</a>(0.f), <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a>(0), <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>(0), <a class="code hl_variable" href="../../d5/d32/a09802.html#af80a7f21ed339e75e55d83670d058ef1">point_Idx_offset</a>(0),</div>
-<div class="line"><span class="lineno">  194</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#ae68059cf60cd9e73e124d0fd7066c385">onTransport</a>(<span class="keyword">false</span>)</div>
-<div class="line"><span class="lineno">  195</span>    {</div>
-<div class="line"><span class="lineno">  196</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">done</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  197</span>    }</div>
-<div class="ttc" id="aa09802_html_a43b26a2cb5d7047054b6bdbd35e170e1"><div class="ttname"><a href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">Movement::MoveSpline::time_passed</a></div><div class="ttdeci">int32 time_passed</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:61</div></div>
-<div class="ttc" id="aa09802_html_a6c5cf7915bce1fbaa7a7b2c452700d2c"><div class="ttname"><a href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">Movement::MoveSpline::effect_start_time</a></div><div class="ttdeci">int32 effect_start_time</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:67</div></div>
-<div class="ttc" id="aa09802_html_a9cd70abff5088d0fc9a32a9a6091c541"><div class="ttname"><a href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">Movement::MoveSpline::vertical_acceleration</a></div><div class="ttdeci">float vertical_acceleration</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:65</div></div>
-<div class="ttc" id="aa09802_html_aac49274b3aaae247ad398b0159e7033c"><div class="ttname"><a href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">Movement::MoveSpline::point_Idx</a></div><div class="ttdeci">int32 point_Idx</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:68</div></div>
-<div class="ttc" id="aa09802_html_abab76396311d0e6f1057ccb88739b865"><div class="ttname"><a href="../../d5/d32/a09802.html#abab76396311d0e6f1057ccb88739b865">Movement::MoveSpline::m_Id</a></div><div class="ttdeci">uint32 m_Id</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:57</div></div>
-<div class="ttc" id="aa09802_html_ae4f7636760ddc72da3daeaeff76f34de"><div class="ttname"><a href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">Movement::MoveSpline::splineflags</a></div><div class="ttdeci">MoveSplineFlag splineflags</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:59</div></div>
-<div class="ttc" id="aa09802_html_ae68059cf60cd9e73e124d0fd7066c385"><div class="ttname"><a href="../../d5/d32/a09802.html#ae68059cf60cd9e73e124d0fd7066c385">Movement::MoveSpline::onTransport</a></div><div class="ttdeci">bool onTransport</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:127</div></div>
-<div class="ttc" id="aa09802_html_af5cf0a38c59f295bbf89e68e139ce687"><div class="ttname"><a href="../../d5/d32/a09802.html#af5cf0a38c59f295bbf89e68e139ce687">Movement::MoveSpline::initialOrientation</a></div><div class="ttdeci">float initialOrientation</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:66</div></div>
-<div class="ttc" id="aa09802_html_af80a7f21ed339e75e55d83670d058ef1"><div class="ttname"><a href="../../d5/d32/a09802.html#af80a7f21ed339e75e55d83670d058ef1">Movement::MoveSpline::point_Idx_offset</a></div><div class="ttdeci">int32 point_Idx_offset</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:69</div></div>
-<div class="ttc" id="aa09806_html_ad4217e478ecdb5fcc3ccfc4d0dca68ce"><div class="ttname"><a href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">Movement::MoveSplineFlag::done</a></div><div class="ttdeci">bool done</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:116</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="aa6f6d2ea600f8591b2027679f360edf0" name="aa6f6d2ea600f8591b2027679f360edf0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa6f6d2ea600f8591b2027679f360edf0">&#9670;&#160;</a></span>_currentSplineIdx()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0c601d413eeb398eb75d386c264ef5ab" name="a0c601d413eeb398eb75d386c264ef5ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c601d413eeb398eb75d386c264ef5ab">&#9670;&#160;</a></span>Location() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -338,64 +148,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::_currentSplineIdx </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">point_Idx</a>.</p>
-
-</div>
-</div>
-<a id="a313fdb89edc8e257d4f3b5d6ba12f0e5" name="a313fdb89edc8e257d4f3b5d6ba12f0e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a313fdb89edc8e257d4f3b5d6ba12f0e5">&#9670;&#160;</a></span>_Finalize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::_Finalize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  311</span>    {</div>
-<div class="line"><span class="lineno">  312</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">done</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  313</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> = <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">last</a>() - 1;</div>
-<div class="line"><span class="lineno">  314</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> = <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>();</div>
-<div class="line"><span class="lineno">  315</span>    }</div>
-<div class="ttc" id="aa09802_html_a94a0255f355fadbaee5314a548a90882"><div class="ttname"><a href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">Movement::MoveSpline::spline</a></div><div class="ttdeci">MySpline spline</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:53</div></div>
-<div class="ttc" id="aa09802_html_a9dd5370cafdd0a3d743ae5f5cceafff6"><div class="ttname"><a href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Movement::MoveSpline::Duration</a></div><div class="ttdeci">int32 Duration() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:85</div></div>
-<div class="ttc" id="aa09834_html_ac9b6a775702923a14230b1818843be7e"><div class="ttname"><a href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">Movement::SplineBase::last</a></div><div class="ttdeci">index_type last() const</div><div class="ttdef"><b>Definition:</b> Spline.h:107</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../#l00107">Movement::SplineBase::last()</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00053">spline</a>, <a class="el" href="../../#l00059">splineflags</a>, and <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00244">_updateState()</a>.</p>
-
-</div>
-</div>
-<a id="a84eca1595271fcc665628739ba4158ce" name="a84eca1595271fcc665628739ba4158ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a84eca1595271fcc665628739ba4158ce">&#9670;&#160;</a></span>_Interrupt()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::_Interrupt </td>
+          <td class="memname">Movement::Location::Location </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -403,20 +156,15 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   89</span>{ <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">done</a> = <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00636">Unit::DisableSpline()</a>.</p>
 
 </div>
 </div>
-<a id="a6af23fc8b13a82fe0b78a2c75904a090" name="a6af23fc8b13a82fe0b78a2c75904a090"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6af23fc8b13a82fe0b78a2c75904a090">&#9670;&#160;</a></span>_Spline()</h2>
+<a id="ae013ab2bf44bb250644573625bf93265" name="ae013ab2bf44bb250644573625bf93265"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae013ab2bf44bb250644573625bf93265">&#9670;&#160;</a></span>Location() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -425,1048 +173,28 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">MySpline</a> const  &amp; Movement::MoveSpline::_Spline </td>
+          <td class="memname">Movement::Location::Location </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   86</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00053">spline</a>.</p>
-
-</div>
-</div>
-<a id="a18f8b2eea1e37fabbe43bfe441329035" name="a18f8b2eea1e37fabbe43bfe441329035"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18f8b2eea1e37fabbe43bfe441329035">&#9670;&#160;</a></span>_updateState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">MoveSpline::UpdateResult</a> Movement::MoveSpline::_updateState </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> &amp;&#160;</td>
-          <td class="paramname"><em>ms_time_diff</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>============================================================================================ </p>
-<div class="fragment"><div class="line"><span class="lineno">  245</span>    {</div>
-<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d32/a09802.html#a4c375981abbfa1ea7335cd9369fd93f6">Finalized</a>())</div>
-<div class="line"><span class="lineno">  247</span>        {</div>
-<div class="line"><span class="lineno">  248</span>            ms_time_diff = 0;</div>
-<div class="line"><span class="lineno">  249</span>            <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5">Result_Arrived</a>;</div>
-<div class="line"><span class="lineno">  250</span>        }</div>
-<div class="line"><span class="lineno">  251</span> </div>
-<div class="line"><span class="lineno">  252</span>        <a class="code hl_struct" href="../../d6/db5/a05814.html">UpdateResult</a> result = <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a80bc65d893b8c23d148b93ddc33de8fc">Result_None</a>;</div>
-<div class="line"><span class="lineno">  253</span> </div>
-<div class="line"><span class="lineno">  254</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> minimal_diff = std::min(ms_time_diff, <a class="code hl_function" href="../../d5/d32/a09802.html#aca091ebfe9952bb677cb3adb18ee5c9b">segment_time_elapsed</a>());</div>
-<div class="line"><span class="lineno">  255</span>        <span class="keywordflow">if</span> (minimal_diff &lt; 0)</div>
-<div class="line"><span class="lineno">  256</span>            minimal_diff = 0;</div>
-<div class="line"><span class="lineno">  257</span> </div>
-<div class="line"><span class="lineno">  258</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(minimal_diff &gt;= 0);</div>
-<div class="line"><span class="lineno">  259</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> += minimal_diff;</div>
-<div class="line"><span class="lineno">  260</span>        ms_time_diff -= minimal_diff;</div>
-<div class="line"><span class="lineno">  261</span> </div>
-<div class="line"><span class="lineno">  262</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> &gt;= <a class="code hl_function" href="../../d5/d32/a09802.html#a0ab31e82d23db1da66296cafc1a356a8">next_timestamp</a>())</div>
-<div class="line"><span class="lineno">  263</span>        {</div>
-<div class="line"><span class="lineno">  264</span>            ++<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>;</div>
-<div class="line"><span class="lineno">  265</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> &lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">last</a>())</div>
-<div class="line"><span class="lineno">  266</span>            {</div>
-<div class="line"><span class="lineno">  267</span>                result = <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a244200f419a7c14f70802729ec974b4f">Result_NextSegment</a>;</div>
-<div class="line"><span class="lineno">  268</span>            }</div>
-<div class="line"><span class="lineno">  269</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  270</span>            {</div>
-<div class="line"><span class="lineno">  271</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a0f6aa656c6cf648879c9bfb90e4b577c">isCyclic</a>())</div>
-<div class="line"><span class="lineno">  272</span>                {</div>
-<div class="line"><span class="lineno">  273</span>                    <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> = <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>();</div>
-<div class="line"><span class="lineno">  274</span>                    <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> = <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> % <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>();</div>
-<div class="line"><span class="lineno">  275</span>                    result = <a class="code hl_enumeration" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">Movement::MoveSpline::UpdateResult</a>(<a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a7f20151988456961f8ce2116a70aed26">Result_NextCycle</a> | <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304">Result_JustArrived</a>);</div>
-<div class="line"><span class="lineno">  276</span>                }</div>
-<div class="line"><span class="lineno">  277</span>                <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  278</span>                {</div>
-<div class="line"><span class="lineno">  279</span>                    <a class="code hl_function" href="../../d5/d32/a09802.html#a313fdb89edc8e257d4f3b5d6ba12f0e5">_Finalize</a>();</div>
-<div class="line"><span class="lineno">  280</span>                    ms_time_diff = 0;</div>
-<div class="line"><span class="lineno">  281</span>                    result = <a class="code hl_enumeration" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">Movement::MoveSpline::UpdateResult</a>(<a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a2fe334066f924cb5ee843ec6c45553d5">Result_Arrived</a> | <a class="code hl_enumvalue" href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0a4d7f3b20644036bb1cfee9adc8866304">Result_JustArrived</a>);</div>
-<div class="line"><span class="lineno">  282</span>                }</div>
-<div class="line"><span class="lineno">  283</span>            }</div>
-<div class="line"><span class="lineno">  284</span>        }</div>
-<div class="line"><span class="lineno">  285</span> </div>
-<div class="line"><span class="lineno">  286</span>        <span class="keywordflow">return</span> result;</div>
-<div class="line"><span class="lineno">  287</span>    }</div>
-<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
-<div class="ttc" id="aa05814_html"><div class="ttname"><a href="../../d6/db5/a05814.html">UpdateResult</a></div><div class="ttdef"><b>Definition:</b> UpdateFetcher.h:30</div></div>
-<div class="ttc" id="aa09802_html_a0ab31e82d23db1da66296cafc1a356a8"><div class="ttname"><a href="../../d5/d32/a09802.html#a0ab31e82d23db1da66296cafc1a356a8">Movement::MoveSpline::next_timestamp</a></div><div class="ttdeci">int32 next_timestamp() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:79</div></div>
-<div class="ttc" id="aa09802_html_a313fdb89edc8e257d4f3b5d6ba12f0e5"><div class="ttname"><a href="../../d5/d32/a09802.html#a313fdb89edc8e257d4f3b5d6ba12f0e5">Movement::MoveSpline::_Finalize</a></div><div class="ttdeci">void _Finalize()</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:310</div></div>
-<div class="ttc" id="aa09802_html_a4c375981abbfa1ea7335cd9369fd93f6"><div class="ttname"><a href="../../d5/d32/a09802.html#a4c375981abbfa1ea7335cd9369fd93f6">Movement::MoveSpline::Finalized</a></div><div class="ttdeci">bool Finalized() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:116</div></div>
-<div class="ttc" id="aa09802_html_a6fcd01e84f328619ce1a8dbbfa8143b0"><div class="ttname"><a href="../../d5/d32/a09802.html#a6fcd01e84f328619ce1a8dbbfa8143b0">Movement::MoveSpline::UpdateResult</a></div><div class="ttdeci">UpdateResult</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:44</div></div>
-<div class="ttc" id="aa09802_html_aca091ebfe9952bb677cb3adb18ee5c9b"><div class="ttname"><a href="../../d5/d32/a09802.html#aca091ebfe9952bb677cb3adb18ee5c9b">Movement::MoveSpline::segment_time_elapsed</a></div><div class="ttdeci">int32 segment_time_elapsed() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:80</div></div>
-<div class="ttc" id="aa09834_html_a0f6aa656c6cf648879c9bfb90e4b577c"><div class="ttname"><a href="../../d8/df9/a09834.html#a0f6aa656c6cf648879c9bfb90e4b577c">Movement::SplineBase::isCyclic</a></div><div class="ttdeci">bool isCyclic() const</div><div class="ttdef"><b>Definition:</b> Spline.h:111</div></div>
-<div class="ttc" id="aa09834_html_a83b4d4eeca3c80ab3b7c1c36f8edec39"><div class="ttname"><a href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">Movement::SplineBase::first</a></div><div class="ttdeci">index_type first() const</div><div class="ttdef"><b>Definition:</b> Spline.h:106</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../#l00116">Finalized()</a>, <a class="el" href="../../#l00106">Movement::SplineBase::first()</a>, <a class="el" href="../../#l00111">Movement::SplineBase::isCyclic()</a>, <a class="el" href="../../#l00107">Movement::SplineBase::last()</a>, <a class="el" href="../../#l00079">next_timestamp()</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00046">Result_Arrived</a>, <a class="el" href="../../#l00049">Result_JustArrived</a>, <a class="el" href="../../#l00047">Result_NextCycle</a>, <a class="el" href="../../#l00048">Result_NextSegment</a>, <a class="el" href="../../#l00045">Result_None</a>, <a class="el" href="../../#l00080">segment_time_elapsed()</a>, <a class="el" href="../../#l00053">spline</a>, and <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00098">updateState()</a>.</p>
-
-</div>
-</div>
-<a id="a46956cfbaaa2ada7a7720760f116b66a" name="a46956cfbaaa2ada7a7720760f116b66a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a46956cfbaaa2ada7a7720760f116b66a">&#9670;&#160;</a></span>computeFallElevation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::computeFallElevation </td>
-          <td>(</td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>el</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>    {</div>
-<div class="line"><span class="lineno">   83</span>        <span class="keywordtype">float</span> z_now = <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a2488d8f0ca631d1004e577347663d84e">getPoint</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>()).z - <a class="code hl_function" href="../../d3/d06/a04733.html#a87260372150c8322b45e75bfaa445f14">Movement::computeFallElevation</a>(<a class="code hl_function" href="../../d3/d06/a04733.html#aefc83834e7badc5f8450322da9567bd6">MSToSec</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a>), <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">   84</span>        <span class="keywordtype">float</span> final_z = <a class="code hl_function" href="../../d5/d32/a09802.html#a5a75c3c093ade5d45a92f7d777e572c5">FinalDestination</a>().z;</div>
-<div class="line"><span class="lineno">   85</span>        el = std::max(z_now, final_z);</div>
-<div class="line"><span class="lineno">   86</span>    }</div>
-<div class="ttc" id="aa04733_html_a87260372150c8322b45e75bfaa445f14"><div class="ttname"><a href="../../d3/d06/a04733.html#a87260372150c8322b45e75bfaa445f14">Movement::computeFallElevation</a></div><div class="ttdeci">float computeFallElevation(float t_passed, bool isSafeFall, float start_velocity=0.0f)</div><div class="ttdef"><b>Definition:</b> MovementUtil.cpp:60</div></div>
-<div class="ttc" id="aa04733_html_aefc83834e7badc5f8450322da9567bd6"><div class="ttname"><a href="../../d3/d06/a04733.html#aefc83834e7badc5f8450322da9567bd6">Movement::MSToSec</a></div><div class="ttdeci">float MSToSec(uint32 ms)</div><div class="ttdef"><b>Definition:</b> MovementTypedefs.h:41</div></div>
-<div class="ttc" id="aa09802_html_a5a75c3c093ade5d45a92f7d777e572c5"><div class="ttname"><a href="../../d5/d32/a09802.html#a5a75c3c093ade5d45a92f7d777e572c5">Movement::MoveSpline::FinalDestination</a></div><div class="ttdeci">Vector3 FinalDestination() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:120</div></div>
-<div class="ttc" id="aa09834_html_a2488d8f0ca631d1004e577347663d84e"><div class="ttname"><a href="../../d8/df9/a09834.html#a2488d8f0ca631d1004e577347663d84e">Movement::SplineBase::getPoint</a></div><div class="ttdeci">const Vector3 &amp; getPoint(index_type i) const</div><div class="ttdef"><b>Definition:</b> Spline.h:116</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00060">Movement::computeFallElevation()</a>, <a class="el" href="../../#l00120">FinalDestination()</a>, <a class="el" href="../../#l00106">Movement::SplineBase::first()</a>, <a class="el" href="../../#l00116">Movement::SplineBase::getPoint()</a>, <a class="el" href="../../#l00041">Movement::MSToSec()</a>, <a class="el" href="../../#l00053">spline</a>, and <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00026">ComputePosition()</a>.</p>
-
-</div>
-</div>
-<a id="ad89f7f9628e36e2031fcc49c55e88f3b" name="ad89f7f9628e36e2031fcc49c55e88f3b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad89f7f9628e36e2031fcc49c55e88f3b">&#9670;&#160;</a></span>computeParabolicElevation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::computeParabolicElevation </td>
-          <td>(</td>
-          <td class="paramtype">float &amp;&#160;</td>
-          <td class="paramname"><em>el</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   69</span>    {</div>
-<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> &gt; <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a>)</div>
-<div class="line"><span class="lineno">   71</span>        {</div>
-<div class="line"><span class="lineno">   72</span>            <span class="keywordtype">float</span> t_passedf = <a class="code hl_function" href="../../d3/d06/a04733.html#aefc83834e7badc5f8450322da9567bd6">MSToSec</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> - <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a>);</div>
-<div class="line"><span class="lineno">   73</span>            <span class="keywordtype">float</span> t_durationf = <a class="code hl_function" href="../../d3/d06/a04733.html#aefc83834e7badc5f8450322da9567bd6">MSToSec</a>(<a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>() - <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a>); <span class="comment">//client use not modified duration here</span></div>
-<div class="line"><span class="lineno">   74</span> </div>
-<div class="line"><span class="lineno">   75</span>            <span class="comment">// -a*x*x + bx + c:</span></div>
-<div class="line"><span class="lineno">   76</span>            <span class="comment">//(dur * v3-&gt;z_acceleration * dt)/2 - (v3-&gt;z_acceleration * dt * dt)/2 + Z;</span></div>
-<div class="line"><span class="lineno">   77</span>            el += (t_durationf - t_passedf) * 0.5f * <a class="code hl_variable" href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">vertical_acceleration</a> * t_passedf;</div>
-<div class="line"><span class="lineno">   78</span>        }</div>
-<div class="line"><span class="lineno">   79</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../#l00067">effect_start_time</a>, <a class="el" href="../../#l00041">Movement::MSToSec()</a>, <a class="el" href="../../#l00061">time_passed</a>, and <a class="el" href="../../#l00065">vertical_acceleration</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00026">ComputePosition()</a>.</p>
-
-</div>
-</div>
-<a id="a2a23c64deed151366320b44261572fd9" name="a2a23c64deed151366320b44261572fd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a23c64deed151366320b44261572fd9">&#9670;&#160;</a></span>ComputePosition()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/d6d/a09798.html">Location</a> Movement::MoveSpline::ComputePosition </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   27</span>    {</div>
-<div class="line"><span class="lineno">   28</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a>());</div>
-<div class="line"><span class="lineno">   29</span> </div>
-<div class="line"><span class="lineno">   30</span>        <span class="keywordtype">float</span> u = 1.f;</div>
-<div class="line"><span class="lineno">   31</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> seg_time = <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">length</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>, <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> + 1);</div>
-<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">if</span> (seg_time &gt; 0)</div>
-<div class="line"><span class="lineno">   33</span>            u = (<a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> - <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">length</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>)) / (<span class="keywordtype">float</span>)seg_time;</div>
-<div class="line"><span class="lineno">   34</span>        <a class="code hl_struct" href="../../d0/d81/a23834.html">Location</a> c;</div>
-<div class="line"><span class="lineno">   35</span>        c.orientation = <a class="code hl_variable" href="../../d5/d32/a09802.html#af5cf0a38c59f295bbf89e68e139ce687">initialOrientation</a>;</div>
-<div class="line"><span class="lineno">   36</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#ae05046412e2825316172dc8b1cdac870">evaluate_percent</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>, u, c);</div>
-<div class="line"><span class="lineno">   37</span> </div>
-<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a61a40ce0b6ea77a9af8604e6ee99bbf6">animation</a>)</div>
-<div class="line"><span class="lineno">   39</span>            ;<span class="comment">// MoveSplineFlag::Animation disables falling or parabolic movement</span></div>
-<div class="line"><span class="lineno">   40</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a002f305e30b1ab1b8737396204faf06d">parabolic</a>)</div>
-<div class="line"><span class="lineno">   41</span>            <a class="code hl_function" href="../../d5/d32/a09802.html#ad89f7f9628e36e2031fcc49c55e88f3b">computeParabolicElevation</a>(c.<a class="code hl_variable" href="../../d0/d81/a23834.html#a69fc2438e52f6c0de3af13900ff38166">z</a>);</div>
-<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#afb2ab2e120170c78a0311f8286a93b4e">falling</a>)</div>
-<div class="line"><span class="lineno">   43</span>            <a class="code hl_function" href="../../d5/d32/a09802.html#a46956cfbaaa2ada7a7720760f116b66a">computeFallElevation</a>(c.<a class="code hl_variable" href="../../d0/d81/a23834.html#a69fc2438e52f6c0de3af13900ff38166">z</a>);</div>
-<div class="line"><span class="lineno">   44</span> </div>
-<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">done</a> &amp;&amp; <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_function" href="../../d8/daf/a09806.html#a6e571ca707464ceea929767573d202fb">isFacing</a>())</div>
-<div class="line"><span class="lineno">   46</span>        {</div>
-<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a96118e89070feb1e1af37d0dcd397a11">final_angle</a>)</div>
-<div class="line"><span class="lineno">   48</span>                c.orientation = <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ac56b304c2c5df7ab72c6fcbd2f845b02">angle</a>;</div>
-<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a6114527c0a5e68d0e3f049b54ec9d161">final_point</a>)</div>
-<div class="line"><span class="lineno">   50</span>                c.orientation = std::atan2(<a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">f</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ad7fcfb6b1c5402a0570748d343eadfcc">y</a> - c.<a class="code hl_variable" href="../../d0/d81/a23834.html#a10fbad67977d8dd3911eb629c1797684">y</a>, <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">f</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ac08687158cc0bcfbc9814b1cbbe95684">x</a> - c.<a class="code hl_variable" href="../../d0/d81/a23834.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7">x</a>);</div>
-<div class="line"><span class="lineno">   51</span>            <span class="comment">//nothing to do for MoveSplineFlag::Final_Target flag</span></div>
-<div class="line"><span class="lineno">   52</span>        }</div>
-<div class="line"><span class="lineno">   53</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   54</span>        {</div>
-<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_function" href="../../d8/daf/a09806.html#a80a2fb9c59013d7b465ea39d25b9316c">hasFlag</a>(<a class="code hl_enumvalue" href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c">MoveSplineFlag::OrientationFixed</a> | <a class="code hl_enumvalue" href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">MoveSplineFlag::Falling</a>))</div>
-<div class="line"><span class="lineno">   56</span>            {</div>
-<div class="line"><span class="lineno">   57</span>                Vector3 hermite;</div>
-<div class="line"><span class="lineno">   58</span>                <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#ad4b8334bf969be613fdf68043b602fb1">evaluate_derivative</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a>, u, hermite);</div>
-<div class="line"><span class="lineno">   59</span>                c.orientation = std::atan2(hermite.y, hermite.x);</div>
-<div class="line"><span class="lineno">   60</span>            }</div>
-<div class="line"><span class="lineno">   61</span> </div>
-<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#abccea4ee84cfc2f4b6bc918bb7019061">orientationInversed</a>)</div>
-<div class="line"><span class="lineno">   63</span>                c.orientation = -c.orientation;</div>
-<div class="line"><span class="lineno">   64</span>        }</div>
-<div class="line"><span class="lineno">   65</span>        <span class="keywordflow">return</span> c;</div>
-<div class="line"><span class="lineno">   66</span>    }</div>
-<div class="ttc" id="aa09802_html_a46956cfbaaa2ada7a7720760f116b66a"><div class="ttname"><a href="../../d5/d32/a09802.html#a46956cfbaaa2ada7a7720760f116b66a">Movement::MoveSpline::computeFallElevation</a></div><div class="ttdeci">void computeFallElevation(float &amp;el) const</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:81</div></div>
-<div class="ttc" id="aa09802_html_ab5f5e3287587a37b25f1cab033e5ff6b"><div class="ttname"><a href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Movement::MoveSpline::Initialized</a></div><div class="ttdeci">bool Initialized() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:93</div></div>
-<div class="ttc" id="aa09802_html_acaefd7981d82fef5f8352aca2791d9bf"><div class="ttname"><a href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">Movement::MoveSpline::facing</a></div><div class="ttdeci">FacingInfo facing</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:55</div></div>
-<div class="ttc" id="aa09802_html_ad89f7f9628e36e2031fcc49c55e88f3b"><div class="ttname"><a href="../../d5/d32/a09802.html#ad89f7f9628e36e2031fcc49c55e88f3b">Movement::MoveSpline::computeParabolicElevation</a></div><div class="ttdeci">void computeParabolicElevation(float &amp;el) const</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:68</div></div>
-<div class="ttc" id="aa09806_html_a002f305e30b1ab1b8737396204faf06d"><div class="ttname"><a href="../../d8/daf/a09806.html#a002f305e30b1ab1b8737396204faf06d">Movement::MoveSplineFlag::parabolic</a></div><div class="ttdeci">bool parabolic</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:119</div></div>
-<div class="ttc" id="aa09806_html_a6114527c0a5e68d0e3f049b54ec9d161"><div class="ttname"><a href="../../d8/daf/a09806.html#a6114527c0a5e68d0e3f049b54ec9d161">Movement::MoveSplineFlag::final_point</a></div><div class="ttdeci">bool final_point</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:123</div></div>
-<div class="ttc" id="aa09806_html_a61a40ce0b6ea77a9af8604e6ee99bbf6"><div class="ttname"><a href="../../d8/daf/a09806.html#a61a40ce0b6ea77a9af8604e6ee99bbf6">Movement::MoveSplineFlag::animation</a></div><div class="ttdeci">bool animation</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:129</div></div>
-<div class="ttc" id="aa09806_html_a6e571ca707464ceea929767573d202fb"><div class="ttname"><a href="../../d8/daf/a09806.html#a6e571ca707464ceea929767573d202fb">Movement::MoveSplineFlag::isFacing</a></div><div class="ttdeci">bool isFacing() const</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:90</div></div>
-<div class="ttc" id="aa09806_html_a80a2fb9c59013d7b465ea39d25b9316c"><div class="ttname"><a href="../../d8/daf/a09806.html#a80a2fb9c59013d7b465ea39d25b9316c">Movement::MoveSplineFlag::hasFlag</a></div><div class="ttdeci">bool hasFlag(uint32 f) const</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:94</div></div>
-<div class="ttc" id="aa09806_html_a96118e89070feb1e1af37d0dcd397a11"><div class="ttname"><a href="../../d8/daf/a09806.html#a96118e89070feb1e1af37d0dcd397a11">Movement::MoveSplineFlag::final_angle</a></div><div class="ttdeci">bool final_angle</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:125</div></div>
-<div class="ttc" id="aa09806_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c"><div class="ttname"><a href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca0cf97db19c690d86eaa289414799d66c">Movement::MoveSplineFlag::OrientationFixed</a></div><div class="ttdeci">@ OrientationFixed</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:45</div></div>
-<div class="ttc" id="aa09806_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952"><div class="ttname"><a href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cac5a23746207a86ea9d433b3b22b97952">Movement::MoveSplineFlag::Falling</a></div><div class="ttdeci">@ Falling</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:40</div></div>
-<div class="ttc" id="aa09806_html_abccea4ee84cfc2f4b6bc918bb7019061"><div class="ttname"><a href="../../d8/daf/a09806.html#abccea4ee84cfc2f4b6bc918bb7019061">Movement::MoveSplineFlag::orientationInversed</a></div><div class="ttdeci">bool orientationInversed</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:135</div></div>
-<div class="ttc" id="aa09806_html_afb2ab2e120170c78a0311f8286a93b4e"><div class="ttname"><a href="../../d8/daf/a09806.html#afb2ab2e120170c78a0311f8286a93b4e">Movement::MoveSplineFlag::falling</a></div><div class="ttdeci">bool falling</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:117</div></div>
-<div class="ttc" id="aa09822_html_a33b4342a205eae9aca04ae0129365a61"><div class="ttname"><a href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">Movement::FacingInfo::f</a></div><div class="ttdeci">struct Movement::FacingInfo::@299 f</div></div>
-<div class="ttc" id="aa09822_html_ac08687158cc0bcfbc9814b1cbbe95684"><div class="ttname"><a href="../../d6/da0/a09822.html#ac08687158cc0bcfbc9814b1cbbe95684">Movement::FacingInfo::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:34</div></div>
-<div class="ttc" id="aa09822_html_ac56b304c2c5df7ab72c6fcbd2f845b02"><div class="ttname"><a href="../../d6/da0/a09822.html#ac56b304c2c5df7ab72c6fcbd2f845b02">Movement::FacingInfo::angle</a></div><div class="ttdeci">float angle</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:37</div></div>
-<div class="ttc" id="aa09822_html_ad7fcfb6b1c5402a0570748d343eadfcc"><div class="ttname"><a href="../../d6/da0/a09822.html#ad7fcfb6b1c5402a0570748d343eadfcc">Movement::FacingInfo::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:34</div></div>
-<div class="ttc" id="aa09838_html_aab929569bba2417387acd22f0634504d"><div class="ttname"><a href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">Movement::Spline::length</a></div><div class="ttdeci">length_type length() const</div><div class="ttdef"><b>Definition:</b> Spline.h:200</div></div>
-<div class="ttc" id="aa09838_html_ad4b8334bf969be613fdf68043b602fb1"><div class="ttname"><a href="../../de/d38/a09838.html#ad4b8334bf969be613fdf68043b602fb1">Movement::Spline::evaluate_derivative</a></div><div class="ttdeci">void evaluate_derivative(float t, Vector3 &amp;hermite) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:28</div></div>
-<div class="ttc" id="aa09838_html_ae05046412e2825316172dc8b1cdac870"><div class="ttname"><a href="../../de/d38/a09838.html#ae05046412e2825316172dc8b1cdac870">Movement::Spline::evaluate_percent</a></div><div class="ttdeci">void evaluate_percent(float t, Vector3 &amp;c) const</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:20</div></div>
-<div class="ttc" id="aa23834_html"><div class="ttname"><a href="../../d0/d81/a23834.html">Location</a></div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:839</div></div>
-<div class="ttc" id="aa23834_html_a10fbad67977d8dd3911eb629c1797684"><div class="ttname"><a href="../../d0/d81/a23834.html#a10fbad67977d8dd3911eb629c1797684">Location::y</a></div><div class="ttdeci">float y</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:840</div></div>
-<div class="ttc" id="aa23834_html_a69fc2438e52f6c0de3af13900ff38166"><div class="ttname"><a href="../../d0/d81/a23834.html#a69fc2438e52f6c0de3af13900ff38166">Location::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:840</div></div>
-<div class="ttc" id="aa23834_html_ac81cc1119b7ac8ac70ee635f2e3d4bb7"><div class="ttname"><a href="../../d0/d81/a23834.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7">Location::x</a></div><div class="ttdeci">float x</div><div class="ttdef"><b>Definition:</b> zone_shadowmoon_valley.cpp:840</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00037">Movement::FacingInfo::angle</a>, <a class="el" href="../../#l00129">Movement::MoveSplineFlag::animation</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00081">computeFallElevation()</a>, <a class="el" href="../../#l00068">computeParabolicElevation()</a>, <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, <a class="el" href="../../#l00028">Movement::Spline&lt; length_type &gt;::evaluate_derivative()</a>, <a class="el" href="../../#l00020">Movement::Spline&lt; length_type &gt;::evaluate_percent()</a>, <a class="el" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">Movement::FacingInfo::f</a>, <a class="el" href="../../#l00055">facing</a>, <a class="el" href="../../#l00040">Movement::MoveSplineFlag::Falling</a>, <a class="el" href="../../#l00117">Movement::MoveSplineFlag::falling</a>, <a class="el" href="../../#l00125">Movement::MoveSplineFlag::final_angle</a>, <a class="el" href="../../#l00123">Movement::MoveSplineFlag::final_point</a>, <a class="el" href="../../#l00094">Movement::MoveSplineFlag::hasFlag()</a>, <a class="el" href="../../#l00093">Initialized()</a>, <a class="el" href="../../#l00066">initialOrientation</a>, <a class="el" href="../../#l00090">Movement::MoveSplineFlag::isFacing()</a>, <a class="el" href="../../#l00200">Movement::Spline&lt; length_type &gt;::length()</a>, <a class="el" href="../../#l00033">Movement::Location::orientation</a>, <a class="el" href="../../#l00045">Movement::MoveSplineFlag::OrientationFixed</a>, <a class="el" href="../../#l00135">Movement::MoveSplineFlag::orientationInversed</a>, <a class="el" href="../../#l00119">Movement::MoveSplineFlag::parabolic</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00053">spline</a>, <a class="el" href="../../#l00059">splineflags</a>, <a class="el" href="../../#l00061">time_passed</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::x</a>, and <a class="el" href="../../#l00034">Movement::FacingInfo::y</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>, and <a class="el" href="../../#l00607">Unit::UpdateSplinePosition()</a>.</p>
-
-</div>
-</div>
-<a id="acabbd1fc901e287f53b9906e4689815e" name="acabbd1fc901e287f53b9906e4689815e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acabbd1fc901e287f53b9906e4689815e">&#9670;&#160;</a></span>CurrentDestination()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Movement::MoveSpline::CurrentDestination </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  121</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a>() ? <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a2488d8f0ca631d1004e577347663d84e">getPoint</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> + 1) : Vector3(); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::SplineBase::getPoint()</a>, <a class="el" href="../../#l00093">Initialized()</a>, <a class="el" href="../../#l00068">point_Idx</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-</div>
-</div>
-<a id="a76e1f096005cddf6d43fea86b4bd4a88" name="a76e1f096005cddf6d43fea86b4bd4a88"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76e1f096005cddf6d43fea86b4bd4a88">&#9670;&#160;</a></span>currentPathIdx()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::currentPathIdx </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  318</span>    {</div>
-<div class="line"><span class="lineno">  319</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> point = <a class="code hl_variable" href="../../d5/d32/a09802.html#af80a7f21ed339e75e55d83670d058ef1">point_Idx_offset</a> + <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> - <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>() + (int)<a class="code hl_function" href="../../d5/d32/a09802.html#a4c375981abbfa1ea7335cd9369fd93f6">Finalized</a>();</div>
-<div class="line"><span class="lineno">  320</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d5/d32/a09802.html#a0ae53158f6b2d3ed43d66d6b5ee21643">isCyclic</a>())</div>
-<div class="line"><span class="lineno">  321</span>            point = point % (<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">last</a>() - <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>());</div>
-<div class="line"><span class="lineno">  322</span>        <span class="keywordflow">return</span> point;</div>
-<div class="line"><span class="lineno">  323</span>    }</div>
-<div class="ttc" id="aa09802_html_a0ae53158f6b2d3ed43d66d6b5ee21643"><div class="ttname"><a href="../../d5/d32/a09802.html#a0ae53158f6b2d3ed43d66d6b5ee21643">Movement::MoveSpline::isCyclic</a></div><div class="ttdeci">bool isCyclic() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:117</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Finalized()</a>, <a class="el" href="../../#l00106">Movement::SplineBase::first()</a>, <a class="el" href="../../#l00117">isCyclic()</a>, <a class="el" href="../../#l00107">Movement::SplineBase::last()</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00069">point_Idx_offset</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00454">FlightPathMovementGenerator::DoUpdate()</a>, <a class="el" href="../../#l00559">SplineHandler::operator()()</a>, and <a class="el" href="../../#l00289">ToString()</a>.</p>
-
-</div>
-</div>
-<a id="a9dd5370cafdd0a3d743ae5f5cceafff6" name="a9dd5370cafdd0a3d743ae5f5cceafff6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9dd5370cafdd0a3d743ae5f5cceafff6">&#9670;&#160;</a></span>Duration()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::Duration </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">length</a>(); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00200">Movement::Spline&lt; length_type &gt;::length()</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00068">computeParabolicElevation()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00083">timeElapsed()</a>, <a class="el" href="../../#l00289">ToString()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a5a75c3c093ade5d45a92f7d777e572c5" name="a5a75c3c093ade5d45a92f7d777e572c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a75c3c093ade5d45a92f7d777e572c5">&#9670;&#160;</a></span>FinalDestination()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Vector3 Movement::MoveSpline::FinalDestination </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  120</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a>() ? <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a2488d8f0ca631d1004e577347663d84e">getPoint</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">last</a>()) : Vector3(); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::SplineBase::getPoint()</a>, <a class="el" href="../../#l00093">Initialized()</a>, <a class="el" href="../../#l00107">Movement::SplineBase::last()</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00081">computeFallElevation()</a>, <a class="el" href="../../#l00962">MotionMaster::GetDestination()</a>, <a class="el" href="../../#l00323">CharmInfo::SaveStayPosition()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a4c375981abbfa1ea7335cd9369fd93f6" name="a4c375981abbfa1ea7335cd9369fd93f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c375981abbfa1ea7335cd9369fd93f6">&#9670;&#160;</a></span>Finalized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::Finalized </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ad4217e478ecdb5fcc3ccfc4d0dca68ce">done</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00317">currentPathIdx()</a>, <a class="el" href="../../#l00075">HomeMovementGenerator&lt; Creature &gt;::DoUpdate()</a>, <a class="el" href="../../#l00212">WaypointMovementGenerator&lt; Creature &gt;::DoUpdate()</a>, <a class="el" href="../../#l00277">RandomMovementGenerator&lt; T &gt;::DoUpdate()</a>, <a class="el" href="../../#l03551">Creature::FocusTarget()</a>, <a class="el" href="../../#l00962">MotionMaster::GetDestination()</a>, <a class="el" href="../../#l00334">WorldSession::HandleMovementOpcodes()</a>, <a class="el" href="../../#l01379">WorldSession::HandleSetRaidDifficultyOpcode()</a>, <a class="el" href="../../#l19953">Unit::IsFalling()</a>, <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00108">boss_captain_skarloc::MovementInform()</a>, <a class="el" href="../../#l00318">boss_razorscale::boss_razorscaleAI::MovementInform()</a>, <a class="el" href="../../#l00310">boss_alar::MovementInform()</a>, <a class="el" href="../../#l00378">npc_wild_wyrm::npc_wild_wyrmAI::MovementInform()</a>, <a class="el" href="../../#l01706">npc_hor_lich_king::npc_hor_lich_kingAI::MovementInform()</a>, <a class="el" href="../../#l01995">npc_hor_leader_second::npc_hor_leader_secondAI::MovementInform()</a>, <a class="el" href="../../#l00833">npc_freed_protodrake::npc_freed_protodrakeAI::MovementInform()</a>, <a class="el" href="../../#l00589">SmartAI::MovepointReached()</a>, <a class="el" href="../../#l18205">Unit::SetRooted()</a>, <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>, <a class="el" href="../../#l16651">Unit::StopMoving()</a>, <a class="el" href="../../#l00226">EffectMovementGenerator::Update()</a>, <a class="el" href="../../#l00240">npc_escortAI::UpdateAI()</a>, <a class="el" href="../../#l00392">SmartAI::UpdatePath()</a>, and <a class="el" href="../../#l00575">Unit::UpdateSplineMovement()</a>.</p>
-
-</div>
-</div>
-<a id="a957e20859d778d793a6fdc9ebdde0cd9" name="a957e20859d778d793a6fdc9ebdde0cd9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a957e20859d778d793a6fdc9ebdde0cd9">&#9670;&#160;</a></span>GetAnimationType()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> Movement::MoveSpline::GetAnimationType </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  125</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ae13bafb8520acdabcb3537bac59a22bf">animId</a>; }</div>
-<div class="ttc" id="aa09806_html_ae13bafb8520acdabcb3537bac59a22bf"><div class="ttname"><a href="../../d8/daf/a09806.html#ae13bafb8520acdabcb3537bac59a22bf">Movement::MoveSplineFlag::animId</a></div><div class="ttdeci">uint8 animId</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:115</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00115">Movement::MoveSplineFlag::animId</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00575">Unit::UpdateSplineMovement()</a>.</p>
-
-</div>
-</div>
-<a id="a397cd76f394503b4460e746c7cfb2603" name="a397cd76f394503b4460e746c7cfb2603"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a397cd76f394503b4460e746c7cfb2603">&#9670;&#160;</a></span>GetId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Movement::MoveSpline::GetId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  115</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#abab76396311d0e6f1057ccb88739b865">m_Id</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00057">m_Id</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00559">SplineHandler::operator()()</a>, <a class="el" href="../../#l00289">ToString()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a2d4dc3fa4b29013cba8aba891e29e00a" name="a2d4dc3fa4b29013cba8aba891e29e00a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d4dc3fa4b29013cba8aba891e29e00a">&#9670;&#160;</a></span>getPath()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d8/df9/a09834.html#a1519aa715d924d84efc27560b523f869">MySpline::ControlArray</a> &amp; Movement::MoveSpline::getPath </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#abfedcb6ac1261e845c73743dfa8daa1f">getPoints</a>(); }</div>
-<div class="ttc" id="aa09834_html_abfedcb6ac1261e845c73743dfa8daa1f"><div class="ttname"><a href="../../d8/df9/a09834.html#abfedcb6ac1261e845c73743dfa8daa1f">Movement::SplineBase::getPoints</a></div><div class="ttdeci">const ControlArray &amp; getPoints() const</div><div class="ttdef"><b>Definition:</b> Spline.h:114</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00114">Movement::SplineBase::getPoints()</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="ae63db347ed61a9dec1d1931e84903b2a" name="ae63db347ed61a9dec1d1931e84903b2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae63db347ed61a9dec1d1931e84903b2a">&#9670;&#160;</a></span>HasAnimation()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::HasAnimation </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  124</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a61a40ce0b6ea77a9af8604e6ee99bbf6">animation</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00129">Movement::MoveSplineFlag::animation</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00575">Unit::UpdateSplineMovement()</a>.</p>
-
-</div>
-</div>
-<a id="aff843d8b47838848e482920fe0a9d838" name="aff843d8b47838848e482920fe0a9d838"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff843d8b47838848e482920fe0a9d838">&#9670;&#160;</a></span>HasStarted()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::HasStarted </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  130</span>        {</div>
-<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> &gt; 0;</div>
-<div class="line"><span class="lineno">  132</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l16651">Unit::StopMoving()</a>.</p>
-
-</div>
-</div>
-<a id="ace17bbbbf729a024f320454a814a1fcf" name="ace17bbbbf729a024f320454a814a1fcf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace17bbbbf729a024f320454a814a1fcf">&#9670;&#160;</a></span>init_spline()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::init_spline </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d95/a09830.html">MoveSplineInitArgs</a> &amp;&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000104">Todo:</a></b></dt><dd>: what to do in such cases? problem is in input data (all points are at same coords) </dd></dl>
-<div class="fragment"><div class="line"><span class="lineno">  123</span>    {</div>
-<div class="line"><span class="lineno">  124</span>        <span class="keyword">const</span> <a class="code hl_enumeration" href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731a">SplineBase::EvaluationMode</a> modes[2] = {<a class="code hl_enumvalue" href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b">SplineBase::ModeLinear</a>, <a class="code hl_enumvalue" href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903">SplineBase::ModeCatmullrom</a>};</div>
-<div class="line"><span class="lineno">  125</span>        <span class="keywordflow">if</span> (args.flags.cyclic)</div>
-<div class="line"><span class="lineno">  126</span>        {</div>
-<div class="line"><span class="lineno">  127</span>            <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> cyclic_point = 0;</div>
-<div class="line"><span class="lineno">  128</span>            <span class="comment">// MoveSplineFlag::Enter_Cycle support dropped</span></div>
-<div class="line"><span class="lineno">  129</span>            <span class="comment">//if (splineflags &amp; SPLINEFLAG_ENTER_CYCLE)</span></div>
-<div class="line"><span class="lineno">  130</span>            <span class="comment">//cyclic_point = 1;   // shouldn&#39;t be modified, came from client</span></div>
-<div class="line"><span class="lineno">  131</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#a41da9314f499c768b9bd567f1eb5ae55">init_cyclic_spline</a>(&amp;args.path[0], args.path.size(), modes[args.flags.isSmooth()], cyclic_point);</div>
-<div class="line"><span class="lineno">  132</span>        }</div>
-<div class="line"><span class="lineno">  133</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  134</span>        {</div>
-<div class="line"><span class="lineno">  135</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#a146e7d35cea5ff759fdec2463e16f465">init_spline</a>(&amp;args.path[0], args.path.size(), modes[args.flags.isSmooth()]);</div>
-<div class="line"><span class="lineno">  136</span>        }</div>
-<div class="line"><span class="lineno">  137</span> </div>
-<div class="line"><span class="lineno">  138</span>        <span class="comment">// init spline timestamps</span></div>
-<div class="line"><span class="lineno">  139</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#afb2ab2e120170c78a0311f8286a93b4e">falling</a>)</div>
-<div class="line"><span class="lineno">  140</span>        {</div>
-<div class="line"><span class="lineno">  141</span>            FallInitializer init(<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a2488d8f0ca631d1004e577347663d84e">getPoint</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>()).z);</div>
-<div class="line"><span class="lineno">  142</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#ad1cdf5235b5a2a64f32125bcf9048094">initLengths</a>(init);</div>
-<div class="line"><span class="lineno">  143</span>        }</div>
-<div class="line"><span class="lineno">  144</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  145</span>        {</div>
-<div class="line"><span class="lineno">  146</span>            CommonInitializer init(args.velocity);</div>
-<div class="line"><span class="lineno">  147</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#ad1cdf5235b5a2a64f32125bcf9048094">initLengths</a>(init);</div>
-<div class="line"><span class="lineno">  148</span>        }</div>
-<div class="line"><span class="lineno">  149</span> </div>
-<div class="line"><span class="lineno">  151</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">length</a>() &lt; <a class="code hl_enumvalue" href="../../d3/d06/a04733.html#a2d217e6c8034f56f3dff52dd9e8e3057ac0830cab2ceed6a2184d7ae9a6cd4e30">minimal_duration</a>)</div>
-<div class="line"><span class="lineno">  152</span>        {</div>
-<div class="line"><span class="lineno">  153</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#a7c5aba567e41d196c8bf0faf175ed43e">set_length</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ac9b6a775702923a14230b1818843be7e">last</a>(), <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a0f6aa656c6cf648879c9bfb90e4b577c">isCyclic</a>() ? 1000 : 1);</div>
-<div class="line"><span class="lineno">  154</span>        }</div>
-<div class="line"><span class="lineno">  155</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> = <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a83b4d4eeca3c80ab3b7c1c36f8edec39">first</a>();</div>
-<div class="line"><span class="lineno">  156</span>    }</div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa04733_html_a2d217e6c8034f56f3dff52dd9e8e3057ac0830cab2ceed6a2184d7ae9a6cd4e30"><div class="ttname"><a href="../../d3/d06/a04733.html#a2d217e6c8034f56f3dff52dd9e8e3057ac0830cab2ceed6a2184d7ae9a6cd4e30">Movement::minimal_duration</a></div><div class="ttdeci">@ minimal_duration</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:105</div></div>
-<div class="ttc" id="aa09834_html_a815f7b7cd727035f39a5d81bb3ff731a"><div class="ttname"><a href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731a">Movement::SplineBase::EvaluationMode</a></div><div class="ttdeci">EvaluationMode</div><div class="ttdef"><b>Definition:</b> Spline.h:35</div></div>
-<div class="ttc" id="aa09834_html_a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903"><div class="ttname"><a href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731aa237cadfa35c5a8a98d58ada3c2c4c903">Movement::SplineBase::ModeCatmullrom</a></div><div class="ttdeci">@ ModeCatmullrom</div><div class="ttdef"><b>Definition:</b> Spline.h:37</div></div>
-<div class="ttc" id="aa09834_html_a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b"><div class="ttname"><a href="../../d8/df9/a09834.html#a815f7b7cd727035f39a5d81bb3ff731aaf7dc78a98cac10b22b94630757269e8b">Movement::SplineBase::ModeLinear</a></div><div class="ttdeci">@ ModeLinear</div><div class="ttdef"><b>Definition:</b> Spline.h:36</div></div>
-<div class="ttc" id="aa09838_html_a146e7d35cea5ff759fdec2463e16f465"><div class="ttname"><a href="../../de/d38/a09838.html#a146e7d35cea5ff759fdec2463e16f465">Movement::Spline::init_spline</a></div><div class="ttdeci">void init_spline(const Vector3 *controls, index_type count, EvaluationMode m)</div><div class="ttdef"><b>Definition:</b> Spline.h:173</div></div>
-<div class="ttc" id="aa09838_html_a41da9314f499c768b9bd567f1eb5ae55"><div class="ttname"><a href="../../de/d38/a09838.html#a41da9314f499c768b9bd567f1eb5ae55">Movement::Spline::init_cyclic_spline</a></div><div class="ttdeci">void init_cyclic_spline(const Vector3 *controls, index_type count, EvaluationMode m, index_type cyclic_point)</div><div class="ttdef"><b>Definition:</b> Spline.h:174</div></div>
-<div class="ttc" id="aa09838_html_a7c5aba567e41d196c8bf0faf175ed43e"><div class="ttname"><a href="../../de/d38/a09838.html#a7c5aba567e41d196c8bf0faf175ed43e">Movement::Spline::set_length</a></div><div class="ttdeci">void set_length(index_type i, length_type length)</div><div class="ttdef"><b>Definition:</b> Spline.h:205</div></div>
-<div class="ttc" id="aa09838_html_ad1cdf5235b5a2a64f32125bcf9048094"><div class="ttname"><a href="../../de/d38/a09838.html#ad1cdf5235b5a2a64f32125bcf9048094">Movement::Spline::initLengths</a></div><div class="ttdeci">void initLengths()</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:78</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00127">Movement::MoveSplineFlag::cyclic</a>, <a class="el" href="../../#l00117">Movement::MoveSplineFlag::falling</a>, <a class="el" href="../../#l00106">Movement::SplineBase::first()</a>, <a class="el" href="../../#l00053">Movement::MoveSplineInitArgs::flags</a>, <a class="el" href="../../#l00116">Movement::SplineBase::getPoint()</a>, <a class="el" href="../../#l00174">Movement::Spline&lt; length_type &gt;::init_cyclic_spline()</a>, <a class="el" href="../../#l00173">Movement::Spline&lt; length_type &gt;::init_spline()</a>, <a class="el" href="../../#l00078">Movement::Spline&lt; length_type &gt;::initLengths()</a>, <a class="el" href="../../#l00111">Movement::SplineBase::isCyclic()</a>, <a class="el" href="../../#l00088">Movement::MoveSplineFlag::isSmooth()</a>, <a class="el" href="../../#l00107">Movement::SplineBase::last()</a>, <a class="el" href="../../#l00200">Movement::Spline&lt; length_type &gt;::length()</a>, <a class="el" href="../../#l00105">Movement::minimal_duration</a>, <a class="el" href="../../#l00037">Movement::SplineBase::ModeCatmullrom</a>, <a class="el" href="../../#l00036">Movement::SplineBase::ModeLinear</a>, <a class="el" href="../../#l00051">Movement::MoveSplineInitArgs::path</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00205">Movement::Spline&lt; length_type &gt;::set_length()</a>, <a class="el" href="../../#l00053">spline</a>, <a class="el" href="../../#l00059">splineflags</a>, and <a class="el" href="../../#l00055">Movement::MoveSplineInitArgs::velocity</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00158">Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="a22d2fde4e6a3e3550ae7cdd7c7250689" name="a22d2fde4e6a3e3550ae7cdd7c7250689"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22d2fde4e6a3e3550ae7cdd7c7250689">&#9670;&#160;</a></span>Initialize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::Initialize </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../d3/d95/a09830.html">MoveSplineInitArgs</a> &amp;&#160;</td>
-          <td class="paramname"><em>args</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  159</span>    {</div>
-<div class="line"><span class="lineno">  160</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a> = args.flags;</div>
-<div class="line"><span class="lineno">  161</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a> = args.facing;</div>
-<div class="line"><span class="lineno">  162</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#abab76396311d0e6f1057ccb88739b865">m_Id</a> = args.splineId;</div>
-<div class="line"><span class="lineno">  163</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#af80a7f21ed339e75e55d83670d058ef1">point_Idx_offset</a> = args.path_Idx_offset;</div>
-<div class="line"><span class="lineno">  164</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#af5cf0a38c59f295bbf89e68e139ce687">initialOrientation</a> = args.initialOrientation;</div>
-<div class="line"><span class="lineno">  165</span> </div>
-<div class="line"><span class="lineno">  166</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> = 0;</div>
-<div class="line"><span class="lineno">  167</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">vertical_acceleration</a> = 0.f;</div>
-<div class="line"><span class="lineno">  168</span>        <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a> = 0;</div>
-<div class="line"><span class="lineno">  169</span> </div>
-<div class="line"><span class="lineno">  170</span>        <span class="comment">// Check if its a stop spline</span></div>
-<div class="line"><span class="lineno">  171</span>        <span class="keywordflow">if</span> (args.flags.done)</div>
-<div class="line"><span class="lineno">  172</span>        {</div>
-<div class="line"><span class="lineno">  173</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#a091e42262c66dff880bfa787c74a0bcc">clear</a>();</div>
-<div class="line"><span class="lineno">  174</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  175</span>        }</div>
-<div class="line"><span class="lineno">  176</span> </div>
-<div class="line"><span class="lineno">  177</span>        <a class="code hl_function" href="../../d5/d32/a09802.html#ace17bbbbf729a024f320454a814a1fcf">init_spline</a>(args);</div>
-<div class="line"><span class="lineno">  178</span> </div>
-<div class="line"><span class="lineno">  179</span>        <span class="comment">// init parabolic / animation</span></div>
-<div class="line"><span class="lineno">  180</span>        <span class="comment">// spline initialized, duration known and i able to compute parabolic acceleration</span></div>
-<div class="line"><span class="lineno">  181</span>        <span class="keywordflow">if</span> (args.flags &amp; (<a class="code hl_enumvalue" href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">MoveSplineFlag::Parabolic</a> | <a class="code hl_enumvalue" href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">MoveSplineFlag::Animation</a>))</div>
-<div class="line"><span class="lineno">  182</span>        {</div>
-<div class="line"><span class="lineno">  183</span>            <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a> = <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>() * args.time_perc;</div>
-<div class="line"><span class="lineno">  184</span>            <span class="keywordflow">if</span> (args.flags.parabolic &amp;&amp; <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a> &lt; <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>())</div>
-<div class="line"><span class="lineno">  185</span>            {</div>
-<div class="line"><span class="lineno">  186</span>                <span class="keywordtype">float</span> f_duration = <a class="code hl_function" href="../../d3/d06/a04733.html#aefc83834e7badc5f8450322da9567bd6">MSToSec</a>(<a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>() - <a class="code hl_variable" href="../../d5/d32/a09802.html#a6c5cf7915bce1fbaa7a7b2c452700d2c">effect_start_time</a>);</div>
-<div class="line"><span class="lineno">  187</span>                <a class="code hl_variable" href="../../d5/d32/a09802.html#a9cd70abff5088d0fc9a32a9a6091c541">vertical_acceleration</a> = args.parabolic_amplitude * 8.f / (f_duration * f_duration);</div>
-<div class="line"><span class="lineno">  188</span>            }</div>
-<div class="line"><span class="lineno">  189</span>        }</div>
-<div class="line"><span class="lineno">  190</span>    }</div>
-<div class="ttc" id="aa09802_html_ace17bbbbf729a024f320454a814a1fcf"><div class="ttname"><a href="../../d5/d32/a09802.html#ace17bbbbf729a024f320454a814a1fcf">Movement::MoveSpline::init_spline</a></div><div class="ttdeci">void init_spline(const MoveSplineInitArgs &amp;args)</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:122</div></div>
-<div class="ttc" id="aa09806_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f"><div class="ttname"><a href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3ca341cef845b788d83646e1c8b32023c5f">Movement::MoveSplineFlag::Parabolic</a></div><div class="ttdeci">@ Parabolic</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:42</div></div>
-<div class="ttc" id="aa09806_html_a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff"><div class="ttname"><a href="../../d8/daf/a09806.html#a9a8b47cc7b2fe7a9cb43e89ed9010f3cafcfd18b5805043a54785fd29fb5de7ff">Movement::MoveSplineFlag::Animation</a></div><div class="ttdeci">@ Animation</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:52</div></div>
-<div class="ttc" id="aa09838_html_a091e42262c66dff880bfa787c74a0bcc"><div class="ttname"><a href="../../de/d38/a09838.html#a091e42262c66dff880bfa787c74a0bcc">Movement::Spline::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> SplineImpl.h:90</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00052">Movement::MoveSplineFlag::Animation</a>, <a class="el" href="../../#l00090">Movement::Spline&lt; length_type &gt;::clear()</a>, <a class="el" href="../../#l00116">Movement::MoveSplineFlag::done</a>, <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../#l00067">effect_start_time</a>, <a class="el" href="../../#l00055">facing</a>, <a class="el" href="../../#l00052">Movement::MoveSplineInitArgs::facing</a>, <a class="el" href="../../#l00053">Movement::MoveSplineInitArgs::flags</a>, <a class="el" href="../../#l00122">init_spline()</a>, <a class="el" href="../../#l00066">initialOrientation</a>, <a class="el" href="../../#l00059">Movement::MoveSplineInitArgs::initialOrientation</a>, <a class="el" href="../../#l00057">m_Id</a>, <a class="el" href="../../#l00041">Movement::MSToSec()</a>, <a class="el" href="../../#l00042">Movement::MoveSplineFlag::Parabolic</a>, <a class="el" href="../../#l00119">Movement::MoveSplineFlag::parabolic</a>, <a class="el" href="../../#l00056">Movement::MoveSplineInitArgs::parabolic_amplitude</a>, <a class="el" href="../../#l00054">Movement::MoveSplineInitArgs::path_Idx_offset</a>, <a class="el" href="../../#l00069">point_Idx_offset</a>, <a class="el" href="../../#l00053">spline</a>, <a class="el" href="../../#l00059">splineflags</a>, <a class="el" href="../../#l00058">Movement::MoveSplineInitArgs::splineId</a>, <a class="el" href="../../#l00061">time_passed</a>, <a class="el" href="../../#l00057">Movement::MoveSplineInitArgs::time_perc</a>, and <a class="el" href="../../#l00065">vertical_acceleration</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, and <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>.</p>
-
-</div>
-</div>
-<a id="ab5f5e3287587a37b25f1cab033e5ff6b" name="ab5f5e3287587a37b25f1cab033e5ff6b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab5f5e3287587a37b25f1cab033e5ff6b">&#9670;&#160;</a></span>Initialized()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::Initialized </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   93</span>{ <span class="keywordflow">return</span> !<a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#a6e3e99b9af65afd02ec5f23e9553e9d2">empty</a>(); }</div>
-<div class="ttc" id="aa09834_html_a6e3e99b9af65afd02ec5f23e9553e9d2"><div class="ttname"><a href="../../d8/df9/a09834.html#a6e3e99b9af65afd02ec5f23e9553e9d2">Movement::SplineBase::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> Spline.h:109</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00109">Movement::SplineBase::empty()</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00121">CurrentDestination()</a>, <a class="el" href="../../#l00120">FinalDestination()</a>, <a class="el" href="../../#l19953">Unit::IsFalling()</a>, <a class="el" href="../../#l20665">Unit::SendMovementFeatherFall()</a>, <a class="el" href="../../#l20702">Unit::SendMovementHover()</a>, <a class="el" href="../../#l20643">Unit::SendMovementWaterWalking()</a>, <a class="el" href="../../#l00575">Unit::UpdateSplineMovement()</a>, and <a class="el" href="../../#l00098">updateState()</a>.</p>
-
-</div>
-</div>
-<a id="a0ae53158f6b2d3ed43d66d6b5ee21643" name="a0ae53158f6b2d3ed43d66d6b5ee21643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ae53158f6b2d3ed43d66d6b5ee21643">&#9670;&#160;</a></span>isCyclic()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::isCyclic </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a0f03237422a99cbc4c0ddd67b2930f18">cyclic</a>; }</div>
-<div class="ttc" id="aa09806_html_a0f03237422a99cbc4c0ddd67b2930f18"><div class="ttname"><a href="../../d8/daf/a09806.html#a0f03237422a99cbc4c0ddd67b2930f18">Movement::MoveSplineFlag::cyclic</a></div><div class="ttdeci">bool cyclic</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:127</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00127">Movement::MoveSplineFlag::cyclic</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00317">currentPathIdx()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a3a545d6194fd1684261a75545ec6a171" name="a3a545d6194fd1684261a75545ec6a171"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a545d6194fd1684261a75545ec6a171">&#9670;&#160;</a></span>isFalling()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::isFalling </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#afb2ab2e120170c78a0311f8286a93b4e">falling</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00117">Movement::MoveSplineFlag::falling</a>, and <a class="el" href="../../#l00059">splineflags</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00231">EffectMovementGenerator::Finalize()</a>, and <a class="el" href="../../#l19953">Unit::IsFalling()</a>.</p>
-
-</div>
-</div>
-<a id="a97822562bcdf817cb8529aa6ad862ad7" name="a97822562bcdf817cb8529aa6ad862ad7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97822562bcdf817cb8529aa6ad862ad7">&#9670;&#160;</a></span>isWalking()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Movement::MoveSpline::isWalking </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  119</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#ae73f22b86642c968b77881ec1329d1c5">walkmode</a>; }</div>
-<div class="ttc" id="aa09806_html_ae73f22b86642c968b77881ec1329d1c5"><div class="ttname"><a href="../../d8/daf/a09806.html#ae73f22b86642c968b77881ec1329d1c5">Movement::MoveSplineFlag::walkmode</a></div><div class="ttdeci">bool walkmode</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:120</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00059">splineflags</a>, and <a class="el" href="../../#l00120">Movement::MoveSplineFlag::walkmode</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00441">FollowMovementGenerator&lt; T &gt;::DoUpdate()</a>, and <a class="el" href="../../#l00334">GetVelocity()</a>.</p>
-
-</div>
-</div>
-<a id="a0ab31e82d23db1da66296cafc1a356a8" name="a0ab31e82d23db1da66296cafc1a356a8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ab31e82d23db1da66296cafc1a356a8">&#9670;&#160;</a></span>next_timestamp()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::next_timestamp </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   79</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../de/d38/a09838.html#aab929569bba2417387acd22f0634504d">length</a>(<a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> + 1); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00200">Movement::Spline&lt; length_type &gt;::length()</a>, <a class="el" href="../../#l00068">point_Idx</a>, and <a class="el" href="../../#l00053">spline</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00244">_updateState()</a>, and <a class="el" href="../../#l00080">segment_time_elapsed()</a>.</p>
-
-</div>
-</div>
-<a id="aca091ebfe9952bb677cb3adb18ee5c9b" name="aca091ebfe9952bb677cb3adb18ee5c9b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca091ebfe9952bb677cb3adb18ee5c9b">&#9670;&#160;</a></span>segment_time_elapsed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::segment_time_elapsed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   80</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d32/a09802.html#a0ab31e82d23db1da66296cafc1a356a8">next_timestamp</a>() - <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00079">next_timestamp()</a>, and <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00244">_updateState()</a>.</p>
-
-</div>
-</div>
-<a id="a310026526a7eba86bad78a200ea7ee94" name="a310026526a7eba86bad78a200ea7ee94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a310026526a7eba86bad78a200ea7ee94">&#9670;&#160;</a></span>timeElapsed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::timeElapsed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   83</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>() - <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a>; }  <span class="comment">// xinef: moved to public for waypoint movegen</span></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00085">Duration()</a>, and <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-</div>
-</div>
-<a id="a52b58ec4427998890ece4339f139d307" name="a52b58ec4427998890ece4339f139d307"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a52b58ec4427998890ece4339f139d307">&#9670;&#160;</a></span>timePassed()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::timePassed </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   84</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a>; }                <span class="comment">// xinef: moved to public for waypoint movegen</span></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00061">time_passed</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a16f9799522821c4b0ced892a431ec86b" name="a16f9799522821c4b0ced892a431ec86b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16f9799522821c4b0ced892a431ec86b">&#9670;&#160;</a></span>ToString()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string Movement::MoveSpline::ToString </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  290</span>    {</div>
-<div class="line"><span class="lineno">  291</span>        std::stringstream str;</div>
-<div class="line"><span class="lineno">  292</span>        str &lt;&lt; <span class="stringliteral">&quot;MoveSpline&quot;</span> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  293</span>        str &lt;&lt; <span class="stringliteral">&quot;spline Id: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d5/d32/a09802.html#a397cd76f394503b4460e746c7cfb2603">GetId</a>() &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  294</span>        str &lt;&lt; <span class="stringliteral">&quot;flags: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_function" href="../../d8/daf/a09806.html#a09410689b671e7f41cf63c85419cd423">ToString</a>() &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  295</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a96118e89070feb1e1af37d0dcd397a11">final_angle</a>)</div>
-<div class="line"><span class="lineno">  296</span>            str &lt;&lt; <span class="stringliteral">&quot;facing  angle: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ac56b304c2c5df7ab72c6fcbd2f845b02">angle</a>;</div>
-<div class="line"><span class="lineno">  297</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a3b7bad117218e9fcdc32094cb746390f">final_target</a>)</div>
-<div class="line"><span class="lineno">  298</span>            str &lt;&lt; <span class="stringliteral">&quot;facing target: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a064b5265b4bb2a0053908bf6031b8f65">target</a>;</div>
-<div class="line"><span class="lineno">  299</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d5/d32/a09802.html#ae4f7636760ddc72da3daeaeff76f34de">splineflags</a>.<a class="code hl_variable" href="../../d8/daf/a09806.html#a6114527c0a5e68d0e3f049b54ec9d161">final_point</a>)</div>
-<div class="line"><span class="lineno">  300</span>            str &lt;&lt; <span class="stringliteral">&quot;facing  point: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">f</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ac08687158cc0bcfbc9814b1cbbe95684">x</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">f</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#ad7fcfb6b1c5402a0570748d343eadfcc">y</a> &lt;&lt; <span class="stringliteral">&quot; &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#acaefd7981d82fef5f8352aca2791d9bf">facing</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">f</a>.<a class="code hl_variable" href="../../d6/da0/a09822.html#a5ff017b732d47684f675041e44227754">z</a>;</div>
-<div class="line"><span class="lineno">  301</span>        str &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  302</span>        str &lt;&lt; <span class="stringliteral">&quot;time passed: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#a43b26a2cb5d7047054b6bdbd35e170e1">time_passed</a> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  303</span>        str &lt;&lt; <span class="stringliteral">&quot;total  time: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d5/d32/a09802.html#a9dd5370cafdd0a3d743ae5f5cceafff6">Duration</a>() &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  304</span>        str &lt;&lt; <span class="stringliteral">&quot;spline point Id: &quot;</span> &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#aac49274b3aaae247ad398b0159e7033c">point_Idx</a> &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  305</span>        str &lt;&lt; <span class="stringliteral">&quot;path  point  Id: &quot;</span> &lt;&lt; <a class="code hl_function" href="../../d5/d32/a09802.html#a76e1f096005cddf6d43fea86b4bd4a88">currentPathIdx</a>() &lt;&lt; std::endl;</div>
-<div class="line"><span class="lineno">  306</span>        str &lt;&lt; <a class="code hl_variable" href="../../d5/d32/a09802.html#a94a0255f355fadbaee5314a548a90882">spline</a>.<a class="code hl_function" href="../../d8/df9/a09834.html#ad6dd181fc2a4b086cf19a4d6df006606">ToString</a>();</div>
-<div class="line"><span class="lineno">  307</span>        <span class="keywordflow">return</span> str.str();</div>
-<div class="line"><span class="lineno">  308</span>    }</div>
-<div class="ttc" id="aa09802_html_a397cd76f394503b4460e746c7cfb2603"><div class="ttname"><a href="../../d5/d32/a09802.html#a397cd76f394503b4460e746c7cfb2603">Movement::MoveSpline::GetId</a></div><div class="ttdeci">uint32 GetId() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:115</div></div>
-<div class="ttc" id="aa09802_html_a76e1f096005cddf6d43fea86b4bd4a88"><div class="ttname"><a href="../../d5/d32/a09802.html#a76e1f096005cddf6d43fea86b4bd4a88">Movement::MoveSpline::currentPathIdx</a></div><div class="ttdeci">int32 currentPathIdx() const</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:317</div></div>
-<div class="ttc" id="aa09806_html_a09410689b671e7f41cf63c85419cd423"><div class="ttname"><a href="../../d8/daf/a09806.html#a09410689b671e7f41cf63c85419cd423">Movement::MoveSplineFlag::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> MovementUtil.cpp:188</div></div>
-<div class="ttc" id="aa09806_html_a3b7bad117218e9fcdc32094cb746390f"><div class="ttname"><a href="../../d8/daf/a09806.html#a3b7bad117218e9fcdc32094cb746390f">Movement::MoveSplineFlag::final_target</a></div><div class="ttdeci">bool final_target</div><div class="ttdef"><b>Definition:</b> MoveSplineFlag.h:124</div></div>
-<div class="ttc" id="aa09822_html_a064b5265b4bb2a0053908bf6031b8f65"><div class="ttname"><a href="../../d6/da0/a09822.html#a064b5265b4bb2a0053908bf6031b8f65">Movement::FacingInfo::target</a></div><div class="ttdeci">uint64 target</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:36</div></div>
-<div class="ttc" id="aa09822_html_a5ff017b732d47684f675041e44227754"><div class="ttname"><a href="../../d6/da0/a09822.html#a5ff017b732d47684f675041e44227754">Movement::FacingInfo::z</a></div><div class="ttdeci">float z</div><div class="ttdef"><b>Definition:</b> MoveSplineInitArgs.h:34</div></div>
-<div class="ttc" id="aa09834_html_ad6dd181fc2a4b086cf19a4d6df006606"><div class="ttname"><a href="../../d8/df9/a09834.html#ad6dd181fc2a4b086cf19a4d6df006606">Movement::SplineBase::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> Spline.cpp:291</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00037">Movement::FacingInfo::angle</a>, <a class="el" href="../../#l00317">currentPathIdx()</a>, <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../d6/da0/a09822.html#a33b4342a205eae9aca04ae0129365a61">Movement::FacingInfo::f</a>, <a class="el" href="../../#l00055">facing</a>, <a class="el" href="../../#l00125">Movement::MoveSplineFlag::final_angle</a>, <a class="el" href="../../#l00123">Movement::MoveSplineFlag::final_point</a>, <a class="el" href="../../#l00124">Movement::MoveSplineFlag::final_target</a>, <a class="el" href="../../#l00115">GetId()</a>, <a class="el" href="../../#l00068">point_Idx</a>, <a class="el" href="../../#l00053">spline</a>, <a class="el" href="../../#l00059">splineflags</a>, <a class="el" href="../../#l00036">Movement::FacingInfo::target</a>, <a class="el" href="../../#l00061">time_passed</a>, <a class="el" href="../../#l00188">Movement::MoveSplineFlag::ToString()</a>, <a class="el" href="../../#l00291">Movement::SplineBase::ToString()</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::x</a>, <a class="el" href="../../#l00034">Movement::FacingInfo::y</a>, and <a class="el" href="../../#l00034">Movement::FacingInfo::z</a>.</p>
-
-</div>
-</div>
-<a id="a5a601ad6ac5069f9b702bba4bc6960fd" name="a5a601ad6ac5069f9b702bba4bc6960fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a601ad6ac5069f9b702bba4bc6960fd">&#9670;&#160;</a></span>updateState() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::updateState </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
-          <td class="paramname"><em>difftime</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  107</span>        {</div>
-<div class="line"><span class="lineno">  108</span>            <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a>());</div>
-<div class="line"><span class="lineno">  109</span>            <span class="keywordflow">do</span> <a class="code hl_function" href="../../d5/d32/a09802.html#a18f8b2eea1e37fabbe43bfe441329035">_updateState</a>(difftime);</div>
-<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">while</span> (difftime &gt; 0);</div>
-<div class="line"><span class="lineno">  111</span>        }</div>
-<div class="ttc" id="aa09802_html_a18f8b2eea1e37fabbe43bfe441329035"><div class="ttname"><a href="../../d5/d32/a09802.html#a18f8b2eea1e37fabbe43bfe441329035">Movement::MoveSpline::_updateState</a></div><div class="ttdeci">UpdateResult _updateState(int32 &amp;ms_time_diff)</div><div class="ttdoc">============================================================================================</div><div class="ttdef"><b>Definition:</b> MoveSpline.cpp:244</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00093">Initialized()</a>.</p>
-
-</div>
-</div>
-<a id="ad92db22796b029c4d5c912019461e6c3" name="ad92db22796b029c4d5c912019461e6c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad92db22796b029c4d5c912019461e6c3">&#9670;&#160;</a></span>updateState() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class UpdateHandler &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Movement::MoveSpline::updateState </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
-          <td class="paramname"><em>difftime</em>, </td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">UpdateHandler &amp;&#160;</td>
-          <td class="paramname"><em>handler</em>&#160;</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>y</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>z</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>o</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1480,22 +208,13 @@ template&lt;class UpdateHandler &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   99</span>        {</div>
-<div class="line"><span class="lineno">  100</span>            <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_function" href="../../d5/d32/a09802.html#ab5f5e3287587a37b25f1cab033e5ff6b">Initialized</a>());</div>
-<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">do</span></div>
-<div class="line"><span class="lineno">  102</span>                handler(<a class="code hl_function" href="../../d5/d32/a09802.html#a18f8b2eea1e37fabbe43bfe441329035">_updateState</a>(difftime));</div>
-<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">while</span> (difftime &gt; 0);</div>
-<div class="line"><span class="lineno">  104</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   29</span>: Vector3(x, y, z), <a class="code hl_variable" href="../../d5/d32/a09802.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a>(o) {}</div>
+<div class="ttc" id="aa09802_html_a9fc2637d4441d90c528eaef0f0414b98"><div class="ttname"><a href="../../d5/d32/a09802.html#a9fc2637d4441d90c528eaef0f0414b98">Movement::Location::orientation</a></div><div class="ttdeci">float orientation</div><div class="ttdef"><b>Definition:</b> MoveSpline.h:33</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00093">Initialized()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00575">Unit::UpdateSplineMovement()</a>.</p>
-
 </div>
 </div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a607dc7708aea97be99c623f61b1e6db7" name="a607dc7708aea97be99c623f61b1e6db7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a607dc7708aea97be99c623f61b1e6db7">&#9670;&#160;</a></span>PacketBuilder</h2>
+<a id="a0d50c28ba40b409a0c5a9776bfe8ef42" name="a0d50c28ba40b409a0c5a9776bfe8ef42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d50c28ba40b409a0c5a9776bfe8ef42">&#9670;&#160;</a></span>Location() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1504,272 +223,74 @@ template&lt;class UpdateHandler &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">friend class <a class="el" href="../../d2/db9/a09782.html">PacketBuilder</a></td>
+          <td class="memname">Movement::Location::Location </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3 &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   30</span>: Vector3(v) {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1270aec177f47a607cb5a1472819c738" name="a1270aec177f47a607cb5a1472819c738"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1270aec177f47a607cb5a1472819c738">&#9670;&#160;</a></span>Location() <span class="overload">[4/4]</span></h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Movement::Location::Location </td>
+          <td>(</td>
+          <td class="paramtype">const Vector3 &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>o</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>: Vector3(v), <a class="code hl_variable" href="../../d5/d32/a09802.html#a9fc2637d4441d90c528eaef0f0414b98">orientation</a>(o) {}</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6c5cf7915bce1fbaa7a7b2c452700d2c" name="a6c5cf7915bce1fbaa7a7b2c452700d2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c5cf7915bce1fbaa7a7b2c452700d2c">&#9670;&#160;</a></span>effect_start_time</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::effect_start_time</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00068">computeParabolicElevation()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="acaefd7981d82fef5f8352aca2791d9bf" name="acaefd7981d82fef5f8352aca2791d9bf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acaefd7981d82fef5f8352aca2791d9bf">&#9670;&#160;</a></span>facing</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/da0/a09822.html">FacingInfo</a> Movement::MoveSpline::facing</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00289">ToString()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
-
-</div>
-</div>
-<a id="af5cf0a38c59f295bbf89e68e139ce687" name="af5cf0a38c59f295bbf89e68e139ce687"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5cf0a38c59f295bbf89e68e139ce687">&#9670;&#160;</a></span>initialOrientation</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Movement::MoveSpline::initialOrientation</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00026">ComputePosition()</a>, and <a class="el" href="../../#l00158">Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="abab76396311d0e6f1057ccb88739b865" name="abab76396311d0e6f1057ccb88739b865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abab76396311d0e6f1057ccb88739b865">&#9670;&#160;</a></span>m_Id</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Movement::MoveSpline::m_Id</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00115">GetId()</a>, and <a class="el" href="../../#l00158">Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="ae68059cf60cd9e73e124d0fd7066c385" name="ae68059cf60cd9e73e124d0fd7066c385"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae68059cf60cd9e73e124d0fd7066c385">&#9670;&#160;</a></span>onTransport</h2>
+<a id="a9fc2637d4441d90c528eaef0f0414b98" name="a9fc2637d4441d90c528eaef0f0414b98"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9fc2637d4441d90c528eaef0f0414b98">&#9670;&#160;</a></span>orientation</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool Movement::MoveSpline::onTransport</td>
+          <td class="memname">float Movement::Location::orientation {0}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00323">CharmInfo::SaveStayPosition()</a>, <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>, and <a class="el" href="../../#l00607">Unit::UpdateSplinePosition()</a>.</p>
-
-</div>
-</div>
-<a id="aac49274b3aaae247ad398b0159e7033c" name="aac49274b3aaae247ad398b0159e7033c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac49274b3aaae247ad398b0159e7033c">&#9670;&#160;</a></span>point_Idx</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::point_Idx</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">_currentSplineIdx()</a>, <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00121">CurrentDestination()</a>, <a class="el" href="../../#l00317">currentPathIdx()</a>, <a class="el" href="../../#l00122">init_spline()</a>, <a class="el" href="../../#l00079">next_timestamp()</a>, and <a class="el" href="../../#l00289">ToString()</a>.</p>
-
-</div>
-</div>
-<a id="af80a7f21ed339e75e55d83670d058ef1" name="af80a7f21ed339e75e55d83670d058ef1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af80a7f21ed339e75e55d83670d058ef1">&#9670;&#160;</a></span>point_Idx_offset</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::point_Idx_offset</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00317">currentPathIdx()</a>, and <a class="el" href="../../#l00158">Initialize()</a>.</p>
-
-</div>
-</div>
-<a id="a94a0255f355fadbaee5314a548a90882" name="a94a0255f355fadbaee5314a548a90882"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94a0255f355fadbaee5314a548a90882">&#9670;&#160;</a></span>spline</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d32/a09802.html#afcd29e3dbc84edbaac05c266ceb37ce9">MySpline</a> Movement::MoveSpline::spline</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00086">_Spline()</a>, <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00081">computeFallElevation()</a>, <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00121">CurrentDestination()</a>, <a class="el" href="../../#l00317">currentPathIdx()</a>, <a class="el" href="../../#l00085">Duration()</a>, <a class="el" href="../../#l00120">FinalDestination()</a>, <a class="el" href="../../#l00074">getPath()</a>, <a class="el" href="../../#l00122">init_spline()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00093">Initialized()</a>, <a class="el" href="../../#l00079">next_timestamp()</a>, <a class="el" href="../../#l00289">ToString()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>, and <a class="el" href="../../#l00142">Movement::PacketBuilder::WriteMonsterMove()</a>.</p>
-
-</div>
-</div>
-<a id="ae4f7636760ddc72da3daeaeff76f34de" name="ae4f7636760ddc72da3daeaeff76f34de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f7636760ddc72da3daeaeff76f34de">&#9670;&#160;</a></span>splineflags</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/daf/a09806.html">MoveSplineFlag</a> Movement::MoveSpline::splineflags</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00089">_Interrupt()</a>, <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00116">Finalized()</a>, <a class="el" href="../../#l00125">GetAnimationType()</a>, <a class="el" href="../../#l00124">HasAnimation()</a>, <a class="el" href="../../#l00122">init_spline()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00117">isCyclic()</a>, <a class="el" href="../../#l00118">isFalling()</a>, <a class="el" href="../../#l00119">isWalking()</a>, <a class="el" href="../../#l00192">MoveSpline()</a>, <a class="el" href="../../#l00289">ToString()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>, and <a class="el" href="../../#l00142">Movement::PacketBuilder::WriteMonsterMove()</a>.</p>
-
-</div>
-</div>
-<a id="a43b26a2cb5d7047054b6bdbd35e170e1" name="a43b26a2cb5d7047054b6bdbd35e170e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43b26a2cb5d7047054b6bdbd35e170e1">&#9670;&#160;</a></span>time_passed</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> Movement::MoveSpline::time_passed</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00310">_Finalize()</a>, <a class="el" href="../../#l00244">_updateState()</a>, <a class="el" href="../../#l00081">computeFallElevation()</a>, <a class="el" href="../../#l00068">computeParabolicElevation()</a>, <a class="el" href="../../#l00026">ComputePosition()</a>, <a class="el" href="../../#l00129">HasStarted()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00080">segment_time_elapsed()</a>, <a class="el" href="../../#l00083">timeElapsed()</a>, <a class="el" href="../../#l00084">timePassed()</a>, and <a class="el" href="../../#l00289">ToString()</a>.</p>
-
-</div>
-</div>
-<a id="a9cd70abff5088d0fc9a32a9a6091c541" name="a9cd70abff5088d0fc9a32a9a6091c541"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9cd70abff5088d0fc9a32a9a6091c541">&#9670;&#160;</a></span>vertical_acceleration</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float Movement::MoveSpline::vertical_acceleration</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00068">computeParabolicElevation()</a>, <a class="el" href="../../#l00158">Initialize()</a>, <a class="el" href="../../#l00043">Movement::PacketBuilder::WriteCommonMonsterMovePart()</a>, and <a class="el" href="../../#l00159">Movement::PacketBuilder::WriteCreate()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00026">Movement::MoveSpline::ComputePosition()</a>, <a class="el" href="../../#l00058">Movement::MoveSplineInit::Launch()</a>, <a class="el" href="../../#l00101">WaypointMovementGenerator&lt; Creature &gt;::StartMove()</a>, <a class="el" href="../../#l00146">Movement::MoveSplineInit::Stop()</a>, and <a class="el" href="../../#l00607">Unit::UpdateSplinePosition()</a>.</p>
 
 </div>
 </div>
@@ -1778,8 +299,8 @@ template&lt;class UpdateHandler &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/d06/a04733.html">Movement</a></li><li class="navelem"><a class="el" href="../../d5/d32/a09802.html">MoveSpline</a></li>
-    <li class="footer">Generated on Mon Dec 9 2024 20:45:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d3/d06/a04733.html">Movement</a></li><li class="navelem"><a class="el" href="../../d5/d32/a09802.html">Location</a></li>
+    <li class="footer">Generated on Mon Dec 16 2024 20:44:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,10 +1,8 @@
 var a25762 =
 [
-    [ "spell_pal_judgement", "d1/db3/a25762.html#a497aed8c1d8c6a2af22e9e8daae96e14", null ],
-    [ "HandleScriptEffect", "d1/db3/a25762.html#add419a824dbebdc168d2b6dc49d07913", null ],
-    [ "PrepareSpellScript", "d1/db3/a25762.html#a2cffed69c16a1a6189048ed52af35152", null ],
-    [ "Register", "d1/db3/a25762.html#ad8e65beb41a1bb41a2dd307f3b1da839", null ],
-    [ "SealApplication", "d1/db3/a25762.html#a0bb55f122d560c70f416e448d03d2184", null ],
-    [ "Validate", "d1/db3/a25762.html#a3971c195a279338253771675131b4802", null ],
-    [ "_spellId", "d1/db3/a25762.html#ad49ea02800078c672747f4fdbbab1d20", null ]
+    [ "CheckCast", "d1/db3/a25762.html#a0d7910cd2b9d9f4174575532502d40f9", null ],
+    [ "HandleDummy", "d1/db3/a25762.html#a1eac1eb5f39093ff48942e82728478dd", null ],
+    [ "PrepareSpellScript", "d1/db3/a25762.html#adbb58b75232560d101b291c0d99a2a20", null ],
+    [ "Register", "d1/db3/a25762.html#a6acb46e81171e13f50ac1f01bf83013b", null ],
+    [ "Validate", "d1/db3/a25762.html#a4b67c348685a8094668e4ed2f0c78446", null ]
 ];

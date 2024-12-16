@@ -1,6 +1,6 @@
 var a19802 =
 [
-    [ "boss_hodirAI", "df/d43/a19806.html", "df/d43/a19806" ],
-    [ "boss_hodir", "d7/d42/a19802.html#a5740f489f57380d2633a8ee5a18de339", null ],
-    [ "GetAI", "d7/d42/a19802.html#a8d6ce019e9c383d2eb9ac0d211f4bc4c", null ]
+    [ "id", "d7/d42/a19802.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "d7/d42/a19802.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "d7/d42/a19802.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

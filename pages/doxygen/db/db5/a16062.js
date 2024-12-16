@@ -1,8 +1,6 @@
 var a16062 =
 [
-    [ "npc_toc_warlockAI", "db/db5/a16062.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
-    [ "JustSummoned", "db/db5/a16062.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
-    [ "myCanCast", "db/db5/a16062.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
-    [ "UpdateAI", "db/db5/a16062.html#a554849d02d923439bd810b7d8c242afa", null ],
-    [ "events", "db/db5/a16062.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
+    [ "npc_toc_warlockAI", "da/d7e/a16066.html", "da/d7e/a16066" ],
+    [ "npc_toc_warlock", "db/db5/a16062.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
+    [ "GetAI", "db/db5/a16062.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
 ];

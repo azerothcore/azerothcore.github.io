@@ -1,6 +1,10 @@
 var a15178 =
 [
-    [ "SpellId", "d6/d63/a15178.html#a2c430be201c1fd866ee96224f1803a20", null ],
-    [ "Timer1", "d6/d63/a15178.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
-    [ "Timer2", "d6/d63/a15178.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
+    [ "CreatureId", "d6/d63/a15178.html#a09f696e37f96e7da259fc026a7c4fd83", null ],
+    [ "DespTimer", "d6/d63/a15178.html#a0dfec745982b346ac1cd0af672be31fb", null ],
+    [ "SpawnCount", "d6/d63/a15178.html#ad5347ee83eaa00fe0721279099c48433", null ],
+    [ "SpawnTimer", "d6/d63/a15178.html#ab1720ffe0aeeb5669ab49fc32cb24750", null ],
+    [ "UsedSpawnPoint", "d6/d63/a15178.html#a7db57df5da62ebb3b52ecd70ec3d45f2", null ],
+    [ "WaveTextId", "d6/d63/a15178.html#a0a9807e31c2d5c769bc0a020941b234c", null ],
+    [ "YellTimer", "d6/d63/a15178.html#ac3f9997775f34babc79d4321fd1a6d6d", null ]
 ];
