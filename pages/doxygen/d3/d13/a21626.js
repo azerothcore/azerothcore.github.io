@@ -1,6 +1,6 @@
 var a21626 =
 [
-    [ "npc_attracted_reef_bullAI", "d1/d10/a21630.html", "d1/d10/a21630" ],
-    [ "npc_attracted_reef_bull", "d3/d13/a21626.html#acd0ade9e7ce5492c11be0b3f2696418e", null ],
-    [ "GetAI", "d3/d13/a21626.html#af705e2768cd41c955af7f944c670ac85", null ]
+    [ "CheckRequirement", "d3/d13/a21626.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
+    [ "PrepareSpellScript", "d3/d13/a21626.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
+    [ "Register", "d3/d13/a21626.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
 ];

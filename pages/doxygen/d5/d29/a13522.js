@@ -1,7 +1,7 @@
 var a13522 =
 [
-    [ "OnPeriodic", "d5/d29/a13522.html#aa541a8bc034517d1f5d034ac51bd8dac", null ],
-    [ "PrepareAuraScript", "d5/d29/a13522.html#abc166e4dc33e7bffd1d53c2ef8272efa", null ],
-    [ "Register", "d5/d29/a13522.html#a60313d4ba992b1dc81e7cdae942f1b3d", null ],
-    [ "Validate", "d5/d29/a13522.html#a7ed214de6769314a45540e9afdb82949", null ]
+    [ "Load", "d5/d29/a13522.html#a9888c598c4d6cf77c49e15f68c3db225", null ],
+    [ "OnRemove", "d5/d29/a13522.html#ad4044dcd8c88eba88d032a96ca79dc4c", null ],
+    [ "PrepareAuraScript", "d5/d29/a13522.html#a07abb27367cc0a59bdf60a30dfb7cfb0", null ],
+    [ "Register", "d5/d29/a13522.html#ac2db8f8d9b778a0a36081c897f4149cb", null ]
 ];

@@ -1,6 +1,12 @@
 var a20430 =
 [
-    [ "boss_yoggsaron_cloudAI", "d6/d5b/a20434.html", "d6/d5b/a20434" ],
-    [ "boss_yoggsaron_cloud", "db/d6c/a20430.html#ab52cc1fa8b45b70dde340b9f463ef2f1", null ],
-    [ "GetAI", "db/d6c/a20430.html#a2005f062eb9d78c7b09b045eba570b98", null ]
+    [ "npc_xt002_boombotAI", "db/d6c/a20430.html#a9be3f9270a828946e2934aea24aa5549", null ],
+    [ "DamageTaken", "db/d6c/a20430.html#ad581fd228701d851c8d3bf0f3a1f854c", null ],
+    [ "Explode", "db/d6c/a20430.html#afe8c0408887b8cd0cb533475c221035b", null ],
+    [ "JustDied", "db/d6c/a20430.html#ad6d240b16aa8f7f297b1ad0982a8827e", null ],
+    [ "MovementInform", "db/d6c/a20430.html#a2cb53c683de44347b0448d8a1611300e", null ],
+    [ "Reset", "db/d6c/a20430.html#a5d4f4a4c6c098f440064caa37438a7ed", null ],
+    [ "UpdateAI", "db/d6c/a20430.html#a2bebdd97339b3b545331a494a51246eb", null ],
+    [ "_boomed", "db/d6c/a20430.html#acd75eb57db0043fbae633a2f63924c05", null ],
+    [ "_locked", "db/d6c/a20430.html#ada468c62b133ec1a9c043eec1c52c0d1", null ]
 ];

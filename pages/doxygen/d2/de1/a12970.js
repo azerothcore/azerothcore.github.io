@@ -1,5 +1,5 @@
 var a12970 =
 [
-    [ "at_sunwell_eredar_twins", "d2/de1/a12970.html#afc183c384bc87321186b20e0ac168c1f", null ],
-    [ "_OnTrigger", "d2/de1/a12970.html#aa862756c9905e2cb10d60c70b47919aa", null ]
+    [ "at_malfurion_stormrage", "d2/de1/a12970.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
+    [ "OnTrigger", "d2/de1/a12970.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
 ];

@@ -1,7 +1,9 @@
 var a13906 =
 [
-    [ "PeriodicTick", "d8/d41/a13906.html#ac8b584ffbb1a8787f70370d94586ed77", null ],
-    [ "PrepareAuraScript", "d8/d41/a13906.html#a4e860850bbab0f14eb8a160bb5e6799e", null ],
-    [ "Register", "d8/d41/a13906.html#a5def2685cedc4fb78c1a5c534c764ee9", null ],
-    [ "Validate", "d8/d41/a13906.html#a68247c2afa553411fac34582e83635c9", null ]
+    [ "CheckCast", "d8/d41/a13906.html#a02965b55e8efadbd21e5afdd824f1dec", null ],
+    [ "FilterTargets", "d8/d41/a13906.html#a9638048b4107db116474abf8e18d7760", null ],
+    [ "HandleBeforeHit", "d8/d41/a13906.html#a3567c72e999ad6ca9db15b4d6ddadafb", null ],
+    [ "HandleScriptEffect", "d8/d41/a13906.html#a47d6a6c1fcb2b04782e54d3797c1f42c", null ],
+    [ "PrepareSpellScript", "d8/d41/a13906.html#aab9211291bd9dab8255d94e4eb07bf8e", null ],
+    [ "Register", "d8/d41/a13906.html#a73e6c9c91dccb309207fa3aeb6bd9d6f", null ]
 ];

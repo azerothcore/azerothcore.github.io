@@ -1,6 +1,6 @@
 var a19802 =
 [
-    [ "id", "d7/d42/a19802.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
-    [ "x", "d7/d42/a19802.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
-    [ "y", "d7/d42/a19802.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
+    [ "boss_vezaxAI", "df/d43/a19806.html", "df/d43/a19806" ],
+    [ "boss_vezax", "d7/d42/a19802.html#af778f9ef3070598f8ca5109b2f6f0f82", null ],
+    [ "GetAI", "d7/d42/a19802.html#a55c7f1ee93252768ba02e8d0d4634eb9", null ]
 ];

@@ -1,8 +1,9 @@
 var a23226 =
 [
-    [ "npc_target_trigger", "db/d45/a23226.html#a238058ba80130c6239b7267db3247196", null ],
-    [ "Reset", "db/d45/a23226.html#ad23d465bfd78ede0a1556f2ce1742349", null ],
-    [ "UpdateAI", "db/d45/a23226.html#ab5f482e209d2d8aa5c27666d3e1934f3", null ],
-    [ "_cast", "db/d45/a23226.html#a4ec89ca960323f7ad135d5a425a82416", null ],
-    [ "_scheduler", "db/d45/a23226.html#a9b418b09e25c8f96692b4e2626339c96", null ]
+    [ "boss_the_maker", "db/d45/a23226.html#a478c48f225e8fdf14cde5b1f144cb6c4", null ],
+    [ "JustDied", "db/d45/a23226.html#a564abd0a8f52c8c58a305f9c47d8475c", null ],
+    [ "JustEngagedWith", "db/d45/a23226.html#a6b0a4442dbabde69ca9352017ee23675", null ],
+    [ "KilledUnit", "db/d45/a23226.html#a40643ca00fe7d7029a291335e47c722a", null ],
+    [ "Reset", "db/d45/a23226.html#a9d115e5e1ef585348937b9d6c1cd2cb1", null ],
+    [ "UpdateAI", "db/d45/a23226.html#a24cd8e9a97410ab290592b586962fffd", null ]
 ];

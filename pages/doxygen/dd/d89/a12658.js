@@ -1,6 +1,7 @@
 var a12658 =
 [
-    [ "npc_crusade_persuadedAI", "d0/d1e/a12662.html", "d0/d1e/a12662" ],
-    [ "npc_crusade_persuaded", "dd/d89/a12658.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
-    [ "GetAI", "dd/d89/a12658.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
+    [ "npc_scarlet_cannonAI", "dd/d89/a12658.html#a26720b34088b8063544f8c5db3b8d67c", null ],
+    [ "PassengerBoarded", "dd/d89/a12658.html#a71241dfc9b3ebe1f664d0adf03439c41", null ],
+    [ "UpdateAI", "dd/d89/a12658.html#a18ebb585e9b83f3781d3c49de5dc73b5", null ],
+    [ "summonAttackers", "dd/d89/a12658.html#a9e8eeb6995dae9a9d9ec3cb0ca6a07f5", null ]
 ];

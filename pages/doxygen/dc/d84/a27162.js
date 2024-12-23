@@ -1,6 +1,8 @@
 var a27162 =
 [
-    [ "spawnedCreatureEntry", "dc/d84/a27162.html#a32b390dfff99d5fd3c49359779718af4", null ],
-    [ "spawnType", "dc/d84/a27162.html#a056dabf4092da4ef3155a661607ca772", null ],
-    [ "thisCreatureEntry", "dc/d84/a27162.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
+    [ "npc_nelsonAI", "d9/d8a/a27166.html", "d9/d8a/a27166" ],
+    [ "npc_nelson", "dc/d84/a27162.html#ada597926a6db1aa7823ddabc19945b11", null ],
+    [ "GetAI", "dc/d84/a27162.html#a75fea281fb49249345c48236bf44b1c8", null ],
+    [ "OnGossipHello", "dc/d84/a27162.html#aa693b365a15d4617f214f9c3c229bf89", null ],
+    [ "OnGossipSelect", "dc/d84/a27162.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
 ];

@@ -1,6 +1,6 @@
 var a20378 =
 [
-    [ "npc_xt002_life_sparkAI", "d2/db7/a20382.html", "d2/db7/a20382" ],
-    [ "npc_xt002_life_spark", "dd/db9/a20378.html#a9644718d192708e391b833468a0ff21e", null ],
-    [ "GetAI", "dd/db9/a20378.html#a09a1ce332d55fad146947c94bb53f564", null ]
+    [ "OnPeriodic", "dd/db9/a20378.html#a5247db3b621d1d499b9e22e16c7a951a", null ],
+    [ "PrepareAuraScript", "dd/db9/a20378.html#a6aa46e818199da206e6543005a7fe87f", null ],
+    [ "Register", "dd/db9/a20378.html#ab64dfdda3c09e65cfaeb90d20a5212ed", null ]
 ];

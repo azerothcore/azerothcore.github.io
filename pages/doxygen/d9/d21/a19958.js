@@ -1,7 +1,7 @@
 var a19958 =
 [
-    [ "HandleScript", "d9/d21/a19958.html#a760bb60198017605111d02af98c827b1", null ],
-    [ "PrepareSpellScript", "d9/d21/a19958.html#a6128956f1037b62fff2e6f10ec22d956", null ],
-    [ "Register", "d9/d21/a19958.html#ae445c98f5543df2f45b77b6cd54d58e7", null ],
-    [ "Validate", "d9/d21/a19958.html#a3bb460d50928bd1b57566dd6a50fa5cd", null ]
+    [ "HandleEffectPeriodic", "d9/d21/a19958.html#ae22cd3b6f7cf515e80dd1125349dd152", null ],
+    [ "PrepareAuraScript", "d9/d21/a19958.html#a4cc9b379480c50e1116e3dab03afeaad", null ],
+    [ "Register", "d9/d21/a19958.html#ac82d5a47f5eca266eed99ab65f9eb5bf", null ],
+    [ "Validate", "d9/d21/a19958.html#a2bb4fe398e6b225dd14bdb51e3f01522", null ]
 ];

@@ -1,6 +1,6 @@
 var a15122 =
 [
-    [ "npc_bunthen_plainswind", "d9/d1a/a15122.html#ad9b789ad3e958dee4733b142813b6302", null ],
-    [ "OnGossipHello", "d9/d1a/a15122.html#ae2fe8bfb957dd8ea84d2585293c3b6eb", null ],
-    [ "OnGossipSelect", "d9/d1a/a15122.html#a117f28d513ac645b9d3d908d052d2146", null ]
+    [ "npc_tiger_matriarch_creditAI", "d9/d1a/a15122.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
+    [ "UpdateAI", "d9/d1a/a15122.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
+    [ "events", "d9/d1a/a15122.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
 ];

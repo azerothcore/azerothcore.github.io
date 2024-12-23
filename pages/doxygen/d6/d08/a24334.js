@@ -1,7 +1,6 @@
 var a24334 =
 [
-    [ "AfterApply", "d6/d08/a24334.html#a1849f49a9682627753b8bd39b3ff827e", null ],
-    [ "AfterRemove", "d6/d08/a24334.html#a7c08bea735cd36840463aa942e7529b4", null ],
-    [ "PrepareAuraScript", "d6/d08/a24334.html#ad27880f797137cae09381e860727e2f7", null ],
-    [ "Register", "d6/d08/a24334.html#a6c105609c1ee61a8f845018550b2e3ba", null ]
+    [ "RaiseDeadCheck", "d6/d08/a24334.html#abc6439e5b457f2f6e832f504167a392d", null ],
+    [ "operator()", "d6/d08/a24334.html#a9647e6afd21e7397f05349e66bea4326", null ],
+    [ "_caster", "d6/d08/a24334.html#a7b1647934c5e64de65d38b9fba2d343a", null ]
 ];

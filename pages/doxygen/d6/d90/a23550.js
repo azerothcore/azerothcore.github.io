@@ -1,7 +1,6 @@
 var a23550 =
 [
-    [ "HandleDamage", "d6/d90/a23550.html#add7e78111217d00bfa3dfa5b3eb490f9", null ],
-    [ "HandleTargets", "d6/d90/a23550.html#ac9e455d4ef5cc7b7ce424b70b4387c78", null ],
-    [ "PrepareSpellScript", "d6/d90/a23550.html#a46b62a09ea23cb102b0e5cf075c727d4", null ],
-    [ "Register", "d6/d90/a23550.html#a8873614ae22c908cb2cf49129fc53be2", null ]
+    [ "lapseTeleport", "d6/d90/a23550.html#a55c4330397214bf3a43628b3067d4634", null ],
+    [ "Execute", "d6/d90/a23550.html#a122023ed13fce2f5bb3721e459964443", null ],
+    [ "_owner", "d6/d90/a23550.html#a0e678c5cdb862390ea50c8d6057b7093", null ]
 ];

@@ -1,9 +1,8 @@
 var a24526 =
 [
-    [ "spell_gen_select_target_count", "d8/d70/a24526.html#a65507c155a8746ff49c58c051b7868e4", null ],
-    [ "FilterTargets", "d8/d70/a24526.html#a5de89be9ce321a0f4ac49853a700b502", null ],
-    [ "PrepareSpellScript", "d8/d70/a24526.html#a42ddce15414dcdf495b572e0f75e9486", null ],
-    [ "Register", "d8/d70/a24526.html#a94f86992275123e2e3989655cf077efd", null ],
-    [ "_count", "d8/d70/a24526.html#acdf5daa848ae185b859c45a1271df68c", null ],
-    [ "_effTarget", "d8/d70/a24526.html#a9c54508790062277c8275d2466e93fb3", null ]
+    [ "HandleSchoolDMG", "d8/d70/a24526.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
+    [ "HandleScriptEffect", "d8/d70/a24526.html#a06f9cf29387b49f3e5950661173c77eb", null ],
+    [ "PrepareSpellScript", "d8/d70/a24526.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
+    [ "Register", "d8/d70/a24526.html#a9bdbf7578509976d482a26869e9068aa", null ],
+    [ "Validate", "d8/d70/a24526.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
 ];

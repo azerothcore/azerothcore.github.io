@@ -1,7 +1,6 @@
 var a25650 =
 [
-    [ "CalculateSpellAmount", "d3/de3/a25650.html#a2f93ff69f30b243fe787d72f78a2d159", null ],
-    [ "CheckCast", "d3/de3/a25650.html#af043f7ee0f80baf667e64225effd57d1", null ],
-    [ "PrepareSpellScript", "d3/de3/a25650.html#a233ac4020722078d865cf980d7fa76cf", null ],
-    [ "Register", "d3/de3/a25650.html#a3648ecd94430e21dd014795156c1eb98", null ]
+    [ "CheckProc", "d3/de3/a25650.html#aa8a8c89cf55ab6796a81671d0312a481", null ],
+    [ "PrepareAuraScript", "d3/de3/a25650.html#a9c88f86a4edafda286725008ecfeab6c", null ],
+    [ "Register", "d3/de3/a25650.html#ad75f33c72dff282e4a8976c92e0b4e76", null ]
 ];

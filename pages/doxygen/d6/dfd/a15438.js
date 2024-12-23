@@ -1,6 +1,6 @@
 var a15438 =
 [
-    [ "HandleApply", "d6/dfd/a15438.html#aee4d5908035d06be2f1469a50db02e26", null ],
-    [ "PrepareAuraScript", "d6/dfd/a15438.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
-    [ "Register", "d6/dfd/a15438.html#ac83962bef84b68cef6d7937769730598", null ]
+    [ "instance_zulfarrak_InstanceMapScript", "db/d8e/a15442.html", "db/d8e/a15442" ],
+    [ "instance_zulfarrak", "d6/dfd/a15438.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
+    [ "GetInstanceScript", "d6/dfd/a15438.html#a5f092341e49848c9d321452be2193d56", null ]
 ];

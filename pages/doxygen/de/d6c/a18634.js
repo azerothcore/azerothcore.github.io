@@ -1,6 +1,7 @@
 var a18634 =
 [
-    [ "NotOnSameSide", "de/d6c/a18634.html#ac3189b202a8c0ca4c8f52799ed54e284", null ],
-    [ "operator()", "de/d6c/a18634.html#a59ea48b9633049180ec62d3616fe4dea", null ],
-    [ "m_inLiveSide", "de/d6c/a18634.html#a77c1d18f54609a5f4da2e9c13f62293d", null ]
+    [ "HandleGameObjectDamage", "de/d6c/a18634.html#a811edfe01c1784664b5b4253d2305b4e", null ],
+    [ "PrepareSpellScript", "de/d6c/a18634.html#a0cfedeba2a747777de292b8f30b6752b", null ],
+    [ "Register", "de/d6c/a18634.html#a2d3b99dfe386777cf71ccb2ccac9f3a7", null ],
+    [ "Validate", "de/d6c/a18634.html#ab74d5c88a910fe191b071db3ac2c0381", null ]
 ];

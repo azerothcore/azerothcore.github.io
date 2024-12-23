@@ -1,7 +1,7 @@
 var a12058 =
 [
-    [ "HandleEffectScriptEffect", "d9/dc7/a12058.html#a8157c4b213b3b4e260222976e283e2ae", null ],
-    [ "PrepareSpellScript", "d9/dc7/a12058.html#aa8a4fdd0dc5c06a836ac05cec0dccd75", null ],
-    [ "Register", "d9/dc7/a12058.html#aeda056b568b4956ba35b32a3f20c053e", null ],
-    [ "Validate", "d9/dc7/a12058.html#a29a7f51f01e1ccf71dcc53ad68f032ae", null ]
+    [ "HandlePeriodic", "d9/dc7/a12058.html#ac2196cc9de34e286581d44d147fe9d04", null ],
+    [ "PrepareAuraScript", "d9/dc7/a12058.html#a149c974371f23268d2d929b483637b14", null ],
+    [ "Register", "d9/dc7/a12058.html#a6a2f42867a7082d2b8406c651d5dc484", null ],
+    [ "Validate", "d9/dc7/a12058.html#ab77b8a7dca3dc9bbd20cdb498d1d317e", null ]
 ];

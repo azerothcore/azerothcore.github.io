@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/AuctionHouse/AuctionHouseMgr.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/AuctionHouse/AuctionHouseSearcher.h File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,105 +106,80 @@ $(document).ready(function(){initNavTree('d6/d2a/a03062.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
 <a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">AuctionHouseMgr.h File Reference</div></div>
+  <div class="headertitle"><div class="title">AuctionHouseSearcher.h File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DBCStructure.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">EventProcessor.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">ObjectGuid.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">AuctionHouseMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Item.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LockedQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MPSCQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">PCQueue.h</a>&quot;</code><br />
+<code>#include &lt;memory&gt;</code><br />
+<code>#include &lt;thread&gt;</code><br />
 <code>#include &lt;unordered_map&gt;</code><br />
+<code>#include &lt;unordered_set&gt;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d1d/a06954.html">AuctionSortInfo</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcb/a06962.html">AuctionSortInfo</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dce/a06958.html">AuctionEntry</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dad/a06966.html">AuctionEntryItemEnchants</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcb/a06962.html">AuctionHouseObject</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/da7/a06970.html">SearchableAuctionEntryItem</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dad/a06966.html">AuctionHouseMgr</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a65e0ff6290b1d068de3d9be0aa323d27"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a65e0ff6290b1d068de3d9be0aa323d27">MIN_AUCTION_TIME</a>&#160;&#160;&#160;(12*<a class="el" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a>)</td></tr>
-<tr class="separator:a65e0ff6290b1d068de3d9be0aa323d27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa87bb3f5c1101ca4c260c6bb743a846e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#aa87bb3f5c1101ca4c260c6bb743a846e">MAX_AUCTION_ITEMS</a>&#160;&#160;&#160;160</td></tr>
-<tr class="separator:aa87bb3f5c1101ca4c260c6bb743a846e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3e168154709326e99ab24a7d1395906"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#ac3e168154709326e99ab24a7d1395906">sAuctionMgr</a>&#160;&#160;&#160;<a class="el" href="../../dc/dad/a06966.html#aeef11ff6ea7ca5986429329c76041b96">AuctionHouseMgr::instance</a>()</td></tr>
-<tr class="separator:ac3e168154709326e99ab24a7d1395906"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/df3/a06978.html">AuctionHouseSearchInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dde/a06982.html">AuctionHouseUsablePlayerInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/ded/a06986.html">AuctionHousePlayerInfo</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da7/a06990.html">AuctionSearcherRequest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/ddb/a06994.html">AuctionSearchListRequest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d4e/a06998.html">AuctionSearchOwnerListRequest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/ddf/a07002.html">AuctionSearchBidderListRequest</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d1d/a07006.html">AuctionSearcherResponse</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d66/a07010.html">AuctionSearcherUpdate</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/de9/a07014.html">AuctionSearchAdd</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/deb/a07018.html">AuctionSearchRemove</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d00/a07022.html">AuctionSearchUpdateBid</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dfc/a07026.html">AuctionSorter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d92/a07030.html">AuctionHouseWorkerThread</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d75/a07034.html">AuctionHouseSearcher</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:afefbc3444cfffa5e2fe0ded42a20e407"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../d0/d1d/a06954.html">AuctionSortInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a></td></tr>
+<tr class="memitem:afefbc3444cfffa5e2fe0ded42a20e407"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dc/dcb/a06962.html">AuctionSortInfo</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a></td></tr>
 <tr class="separator:afefbc3444cfffa5e2fe0ded42a20e407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b900c09f81e1b28037da303e33bd597"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a1b900c09f81e1b28037da303e33bd597">AuctionPlayerSkills</a></td></tr>
+<tr class="separator:a1b900c09f81e1b28037da303e33bd597"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add0df1394d287b79672ebf01c59138c1"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_set&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#add0df1394d287b79672ebf01c59138c1">AuctionPlayerSpells</a></td></tr>
+<tr class="separator:add0df1394d287b79672ebf01c59138c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cad31f048914034b12550129308e80e"><td class="memItemLeft" align="right" valign="top">typedef std::unordered_map&lt; <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, std::shared_ptr&lt; <a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a> &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a7cad31f048914034b12550129308e80e">SearchableAuctionEntriesMap</a></td></tr>
+<tr class="separator:a7cad31f048914034b12550129308e80e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d6d8287b2adf4a3caae16ed69a8519d"><td class="memItemLeft" align="right" valign="top">typedef std::vector&lt; <a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a> * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a7d6d8287b2adf4a3caae16ed69a8519d">SortableAuctionEntriesList</a></td></tr>
+<tr class="separator:a7d6d8287b2adf4a3caae16ed69a8519d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:acd1082bcecaa4487e9f32ad1d4cd5225"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225">AuctionError</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34">ERR_AUCTION_OK</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98">ERR_AUCTION_INVENTORY</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d">ERR_AUCTION_DATABASE_ERROR</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189">ERR_AUCTION_NOT_ENOUGHT_MONEY</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063">ERR_AUCTION_ITEM_NOT_FOUND</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac">ERR_AUCTION_HIGHER_BID</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74">ERR_AUCTION_BID_INCREMENT</a> = 7
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9">ERR_AUCTION_BID_OWN</a> = 10
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35">ERR_AUCTION_RESTRICTED_ACCOUNT</a> = 13
-<br />
- }</td></tr>
-<tr class="separator:acd1082bcecaa4487e9f32ad1d4cd5225"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f0f1b824cc940197c2bc0cd6cb1dd18"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18">AuctionAction</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796">AUCTION_SELL_ITEM</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e">AUCTION_CANCEL</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80">AUCTION_PLACE_BID</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:a6f0f1b824cc940197c2bc0cd6cb1dd18"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a098b883868639271d82defd50dad764e"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764e">MailAuctionAnswers</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0">AUCTION_OUTBIDDED</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8">AUCTION_WON</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14">AUCTION_SUCCESSFUL</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc">AUCTION_EXPIRED</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c">AUCTION_CANCELLED_TO_BIDDER</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6">AUCTION_CANCELED</a> = 5
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8">AUCTION_SALE_PENDING</a> = 6
-<br />
- }</td></tr>
-<tr class="separator:a098b883868639271d82defd50dad764e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6c4ca607b9d687717cd0a419e7317fec"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317fec">AuctionHouses</a> { <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e">AUCTIONHOUSE_ALLIANCE</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e">AUCTIONHOUSE_HORDE</a> = 6
-, <br />
-&#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300">AUCTIONHOUSE_NEUTRAL</a> = 7
-<br />
- }</td></tr>
-<tr class="separator:a6c4ca607b9d687717cd0a419e7317fec"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abce5a6a07f5c4ef07bed8f8f5fba2420"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420">AuctionSortOrder</a> { <br />
 &#160;&#160;<a class="el" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a> = 0
 , <br />
@@ -233,50 +208,35 @@ Enumerations</h2></td></tr>
  }</td></tr>
 <tr class="separator:abce5a6a07f5c4ef07bed8f8f5fba2420"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="aa87bb3f5c1101ca4c260c6bb743a846e" name="aa87bb3f5c1101ca4c260c6bb743a846e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa87bb3f5c1101ca4c260c6bb743a846e">&#9670;&#160;</a></span>MAX_AUCTION_ITEMS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MAX_AUCTION_ITEMS&#160;&#160;&#160;160</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a65e0ff6290b1d068de3d9be0aa323d27" name="a65e0ff6290b1d068de3d9be0aa323d27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e0ff6290b1d068de3d9be0aa323d27">&#9670;&#160;</a></span>MIN_AUCTION_TIME</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define MIN_AUCTION_TIME&#160;&#160;&#160;(12*<a class="el" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a>)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ac3e168154709326e99ab24a7d1395906" name="ac3e168154709326e99ab24a7d1395906"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3e168154709326e99ab24a7d1395906">&#9670;&#160;</a></span>sAuctionMgr</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define sAuctionMgr&#160;&#160;&#160;<a class="el" href="../../dc/dad/a06966.html#aeef11ff6ea7ca5986429329c76041b96">AuctionHouseMgr::instance</a>()</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <h2 class="groupheader">Typedef Documentation</h2>
+<a id="a1b900c09f81e1b28037da303e33bd597" name="a1b900c09f81e1b28037da303e33bd597"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b900c09f81e1b28037da303e33bd597">&#9670;&#160;</a></span>AuctionPlayerSkills</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt; <a class="el" href="../../d6/d2a/a03062.html#a1b900c09f81e1b28037da303e33bd597">AuctionPlayerSkills</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="add0df1394d287b79672ebf01c59138c1" name="add0df1394d287b79672ebf01c59138c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#add0df1394d287b79672ebf01c59138c1">&#9670;&#160;</a></span>AuctionPlayerSpells</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_set&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt; <a class="el" href="../../d6/d2a/a03062.html#add0df1394d287b79672ebf01c59138c1">AuctionPlayerSpells</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="afefbc3444cfffa5e2fe0ded42a20e407" name="afefbc3444cfffa5e2fe0ded42a20e407"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afefbc3444cfffa5e2fe0ded42a20e407">&#9670;&#160;</a></span>AuctionSortOrderVector</h2>
 
@@ -284,7 +244,35 @@ Enumerations</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">typedef std::vector&lt;<a class="el" href="../../d0/d1d/a06954.html">AuctionSortInfo</a>&gt; <a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a></td>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../dc/dcb/a06962.html">AuctionSortInfo</a>&gt; <a class="el" href="../../d6/d2a/a03062.html#afefbc3444cfffa5e2fe0ded42a20e407">AuctionSortOrderVector</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7cad31f048914034b12550129308e80e" name="a7cad31f048914034b12550129308e80e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cad31f048914034b12550129308e80e">&#9670;&#160;</a></span>SearchableAuctionEntriesMap</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::unordered_map&lt;<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, std::shared_ptr&lt;<a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a>&gt; &gt; <a class="el" href="../../d6/d2a/a03062.html#a7cad31f048914034b12550129308e80e">SearchableAuctionEntriesMap</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d6d8287b2adf4a3caae16ed69a8519d" name="a7d6d8287b2adf4a3caae16ed69a8519d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d6d8287b2adf4a3caae16ed69a8519d">&#9670;&#160;</a></span>SortableAuctionEntriesList</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef std::vector&lt;<a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a>*&gt; <a class="el" href="../../d6/d2a/a03062.html#a7d6d8287b2adf4a3caae16ed69a8519d">SortableAuctionEntriesList</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -292,105 +280,6 @@ Enumerations</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a6f0f1b824cc940197c2bc0cd6cb1dd18" name="a6f0f1b824cc940197c2bc0cd6cb1dd18"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f0f1b824cc940197c2bc0cd6cb1dd18">&#9670;&#160;</a></span>AuctionAction</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18">AuctionAction</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796" name="a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796"></a>AUCTION_SELL_ITEM&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e" name="a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e"></a>AUCTION_CANCEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80" name="a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80"></a>AUCTION_PLACE_BID&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796">AUCTION_SELL_ITEM</a>   = 0,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e">AUCTION_CANCEL</a>      = 1,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80">AUCTION_PLACE_BID</a>   = 2</div>
-<div class="line"><span class="lineno">   53</span>};</div>
-<div class="ttc" id="aa03062_html_a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18a47c59e2fd5e2b2cdafa124fee3f94796">AUCTION_SELL_ITEM</a></div><div class="ttdeci">@ AUCTION_SELL_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:50</div></div>
-<div class="ttc" id="aa03062_html_a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab934fb55a314a6d1332d37e5fde04a80">AUCTION_PLACE_BID</a></div><div class="ttdeci">@ AUCTION_PLACE_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:52</div></div>
-<div class="ttc" id="aa03062_html_a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6f0f1b824cc940197c2bc0cd6cb1dd18ab9f7fb48c99015aed9fd3a2a0a57c72e">AUCTION_CANCEL</a></div><div class="ttdeci">@ AUCTION_CANCEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:51</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="acd1082bcecaa4487e9f32ad1d4cd5225" name="acd1082bcecaa4487e9f32ad1d4cd5225"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd1082bcecaa4487e9f32ad1d4cd5225">&#9670;&#160;</a></span>AuctionError</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225">AuctionError</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34" name="acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34"></a>ERR_AUCTION_OK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98" name="acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98"></a>ERR_AUCTION_INVENTORY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d" name="acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d"></a>ERR_AUCTION_DATABASE_ERROR&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189" name="acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189"></a>ERR_AUCTION_NOT_ENOUGHT_MONEY&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063" name="acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063"></a>ERR_AUCTION_ITEM_NOT_FOUND&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac" name="acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac"></a>ERR_AUCTION_HIGHER_BID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74" name="acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74"></a>ERR_AUCTION_BID_INCREMENT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9" name="acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9"></a>ERR_AUCTION_BID_OWN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35" name="acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35"></a>ERR_AUCTION_RESTRICTED_ACCOUNT&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34">ERR_AUCTION_OK</a>                  = 0,</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98">ERR_AUCTION_INVENTORY</a>           = 1,</div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d">ERR_AUCTION_DATABASE_ERROR</a>      = 2,</div>
-<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189">ERR_AUCTION_NOT_ENOUGHT_MONEY</a>   = 3,</div>
-<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063">ERR_AUCTION_ITEM_NOT_FOUND</a>      = 4,</div>
-<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac">ERR_AUCTION_HIGHER_BID</a>          = 5,</div>
-<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74">ERR_AUCTION_BID_INCREMENT</a>       = 7,</div>
-<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9">ERR_AUCTION_BID_OWN</a>             = 10,</div>
-<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35">ERR_AUCTION_RESTRICTED_ACCOUNT</a>  = 13</div>
-<div class="line"><span class="lineno">   46</span>};</div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a2e3c0e26a932a0d123c74cd6c025c189">ERR_AUCTION_NOT_ENOUGHT_MONEY</a></div><div class="ttdeci">@ ERR_AUCTION_NOT_ENOUGHT_MONEY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:40</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a3b16c2583b0b0097a95bc23126567b34">ERR_AUCTION_OK</a></div><div class="ttdeci">@ ERR_AUCTION_OK</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:37</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a4db8ce7711bbc2b9a30b6c93f63a7f98">ERR_AUCTION_INVENTORY</a></div><div class="ttdeci">@ ERR_AUCTION_INVENTORY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:38</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a5d35d3c3de8c5c8418934d758db2dc35">ERR_AUCTION_RESTRICTED_ACCOUNT</a></div><div class="ttdeci">@ ERR_AUCTION_RESTRICTED_ACCOUNT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:45</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a8b1421e42296f2d0141c2e2c8dfe5bac">ERR_AUCTION_HIGHER_BID</a></div><div class="ttdeci">@ ERR_AUCTION_HIGHER_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:42</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225a98a5a65a2cd34419689fe5d6154bf4e9">ERR_AUCTION_BID_OWN</a></div><div class="ttdeci">@ ERR_AUCTION_BID_OWN</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:44</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225aa75b2e1b0476195aeb1fe923d483a063">ERR_AUCTION_ITEM_NOT_FOUND</a></div><div class="ttdeci">@ ERR_AUCTION_ITEM_NOT_FOUND</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:41</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad31b9ca1c2b4338c2cc19ea57e81bf74">ERR_AUCTION_BID_INCREMENT</a></div><div class="ttdeci">@ ERR_AUCTION_BID_INCREMENT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:43</div></div>
-<div class="ttc" id="aa03062_html_acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d"><div class="ttname"><a href="../../d6/d2a/a03062.html#acd1082bcecaa4487e9f32ad1d4cd5225ad9a6332f7dcf4f37c65a07880df64a8d">ERR_AUCTION_DATABASE_ERROR</a></div><div class="ttdeci">@ ERR_AUCTION_DATABASE_ERROR</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:39</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6c4ca607b9d687717cd0a419e7317fec" name="a6c4ca607b9d687717cd0a419e7317fec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6c4ca607b9d687717cd0a419e7317fec">&#9670;&#160;</a></span>AuctionHouses</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317fec">AuctionHouses</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e" name="a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e"></a>AUCTIONHOUSE_ALLIANCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e" name="a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e"></a>AUCTIONHOUSE_HORDE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300" name="a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300"></a>AUCTIONHOUSE_NEUTRAL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   67</span>{</div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e">AUCTIONHOUSE_ALLIANCE</a>       = 2,</div>
-<div class="line"><span class="lineno">   69</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e">AUCTIONHOUSE_HORDE</a>          = 6,</div>
-<div class="line"><span class="lineno">   70</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300">AUCTIONHOUSE_NEUTRAL</a>        = 7</div>
-<div class="line"><span class="lineno">   71</span>};</div>
-<div class="ttc" id="aa03062_html_a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca085b8d2365b3cba39a4065093c015f7e">AUCTIONHOUSE_HORDE</a></div><div class="ttdeci">@ AUCTIONHOUSE_HORDE</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:69</div></div>
-<div class="ttc" id="aa03062_html_a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317feca7c0adcba4ad1197cc4622943d1ca006e">AUCTIONHOUSE_ALLIANCE</a></div><div class="ttdeci">@ AUCTIONHOUSE_ALLIANCE</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:68</div></div>
-<div class="ttc" id="aa03062_html_a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300"><div class="ttname"><a href="../../d6/d2a/a03062.html#a6c4ca607b9d687717cd0a419e7317fecaf67f6faa7f85ddc2cb68fd50bd815300">AUCTIONHOUSE_NEUTRAL</a></div><div class="ttdeci">@ AUCTIONHOUSE_NEUTRAL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:70</div></div>
-</div><!-- fragment -->
-</div>
-</div>
 <a id="abce5a6a07f5c4ef07bed8f8f5fba2420" name="abce5a6a07f5c4ef07bed8f8f5fba2420"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#abce5a6a07f5c4ef07bed8f8f5fba2420">&#9670;&#160;</a></span>AuctionSortOrder</h2>
 
@@ -416,72 +305,33 @@ Enumerations</h2></td></tr>
 <tr><td class="fieldname"><a id="abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094" name="abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"></a>AUCTION_SORT_BUYOUT_2&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d" name="abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d"></a>AUCTION_SORT_MAX&#160;</td><td class="fielddoc"></td></tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   74</span>{</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a>       = 0,</div>
-<div class="line"><span class="lineno">   76</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a>         = 1,</div>
-<div class="line"><span class="lineno">   77</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a>         = 2,</div>
-<div class="line"><span class="lineno">   78</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a>       = 3,</div>
-<div class="line"><span class="lineno">   79</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a>           = 4,</div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a>           = 5,</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a>      = 6,</div>
-<div class="line"><span class="lineno">   82</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a>          = 7,</div>
-<div class="line"><span class="lineno">   83</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a>            = 8,</div>
-<div class="line"><span class="lineno">   84</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a>          = 9,</div>
-<div class="line"><span class="lineno">   85</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a>       = 10,</div>
-<div class="line"><span class="lineno">   86</span> </div>
-<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div>
-<div class="line"><span class="lineno">   88</span>};</div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a></div><div class="ttdeci">@ AUCTION_SORT_TIMELEFT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:78</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a></div><div class="ttdeci">@ AUCTION_SORT_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:83</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:77</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a></div><div class="ttdeci">@ AUCTION_SORT_MINLEVEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:75</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a></div><div class="ttdeci">@ AUCTION_SORT_UNK4</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:79</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div><div class="ttdeci">@ AUCTION_SORT_MAX</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:87</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a></div><div class="ttdeci">@ AUCTION_SORT_MINBIDBUY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:81</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a></div><div class="ttdeci">@ AUCTION_SORT_OWNER</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:82</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a></div><div class="ttdeci">@ AUCTION_SORT_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:80</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a></div><div class="ttdeci">@ AUCTION_SORT_STACK</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:84</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a></div><div class="ttdeci">@ AUCTION_SORT_RARITY</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:76</div></div>
-<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT_2</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:85</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a098b883868639271d82defd50dad764e" name="a098b883868639271d82defd50dad764e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a098b883868639271d82defd50dad764e">&#9670;&#160;</a></span>MailAuctionAnswers</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764e">MailAuctionAnswers</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0" name="a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0"></a>AUCTION_OUTBIDDED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8" name="a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8"></a>AUCTION_WON&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14" name="a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14"></a>AUCTION_SUCCESSFUL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc" name="a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc"></a>AUCTION_EXPIRED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c" name="a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c"></a>AUCTION_CANCELLED_TO_BIDDER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6" name="a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6"></a>AUCTION_CANCELED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8" name="a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8"></a>AUCTION_SALE_PENDING&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   56</span>{</div>
-<div class="line"><span class="lineno">   57</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0">AUCTION_OUTBIDDED</a>           = 0,</div>
-<div class="line"><span class="lineno">   58</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8">AUCTION_WON</a>                 = 1,</div>
-<div class="line"><span class="lineno">   59</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14">AUCTION_SUCCESSFUL</a>          = 2,</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc">AUCTION_EXPIRED</a>             = 3,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c">AUCTION_CANCELLED_TO_BIDDER</a> = 4,</div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6">AUCTION_CANCELED</a>            = 5,</div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8">AUCTION_SALE_PENDING</a>        = 6</div>
-<div class="line"><span class="lineno">   64</span>};</div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea2ef6542e060c27e5364ddca4f77b5edc">AUCTION_EXPIRED</a></div><div class="ttdeci">@ AUCTION_EXPIRED</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:60</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea7a49299211b591c1b6b527754069a09c">AUCTION_CANCELLED_TO_BIDDER</a></div><div class="ttdeci">@ AUCTION_CANCELLED_TO_BIDDER</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:61</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764ea9f1d5ad610d6e9d778e61d2f79643dd8">AUCTION_SALE_PENDING</a></div><div class="ttdeci">@ AUCTION_SALE_PENDING</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:63</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eaa56d99ef4cba6dc5afc2865810f0a4c6">AUCTION_CANCELED</a></div><div class="ttdeci">@ AUCTION_CANCELED</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:62</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac212352bbd7fce3cb50b5673de71ae14">AUCTION_SUCCESSFUL</a></div><div class="ttdeci">@ AUCTION_SUCCESSFUL</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:59</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eac51a47dbc7d47d70e051386979fa22c8">AUCTION_WON</a></div><div class="ttdeci">@ AUCTION_WON</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:58</div></div>
-<div class="ttc" id="aa03062_html_a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0"><div class="ttname"><a href="../../d6/d2a/a03062.html#a098b883868639271d82defd50dad764eafa59fd83ffed270500a83d207c19b3d0">AUCTION_OUTBIDDED</a></div><div class="ttdeci">@ AUCTION_OUTBIDDED</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.h:57</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a>       = 0,</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a>         = 1,</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a>         = 2,</div>
+<div class="line"><span class="lineno">   39</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a>       = 3,</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a>           = 4,</div>
+<div class="line"><span class="lineno">   41</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a>           = 5,</div>
+<div class="line"><span class="lineno">   42</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a>      = 6,</div>
+<div class="line"><span class="lineno">   43</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a>          = 7,</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a>            = 8,</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a>          = 9,</div>
+<div class="line"><span class="lineno">   46</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a>       = 10,</div>
+<div class="line"><span class="lineno">   47</span> </div>
+<div class="line"><span class="lineno">   48</span>    <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div>
+<div class="line"><span class="lineno">   49</span>};</div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a></div><div class="ttdeci">@ AUCTION_SORT_TIMELEFT</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:39</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a></div><div class="ttdeci">@ AUCTION_SORT_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:44</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:38</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a></div><div class="ttdeci">@ AUCTION_SORT_MINLEVEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:36</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a></div><div class="ttdeci">@ AUCTION_SORT_UNK4</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:40</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a607c80ce155cba82b2aa1d27532c970d">AUCTION_SORT_MAX</a></div><div class="ttdeci">@ AUCTION_SORT_MAX</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:48</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a></div><div class="ttdeci">@ AUCTION_SORT_MINBIDBUY</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:42</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a></div><div class="ttdeci">@ AUCTION_SORT_OWNER</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:43</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a></div><div class="ttdeci">@ AUCTION_SORT_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:41</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a></div><div class="ttdeci">@ AUCTION_SORT_STACK</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:45</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a></div><div class="ttdeci">@ AUCTION_SORT_RARITY</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:37</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT_2</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:46</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -490,8 +340,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a1ce599ad2b2438c4a079c0c47195cb6.html">AuctionHouse</a></li><li class="navelem"><a class="el" href="../../d6/d2a/a03062.html">AuctionHouseMgr.h</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:42:10 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_a1ce599ad2b2438c4a079c0c47195cb6.html">AuctionHouse</a></li><li class="navelem"><a class="el" href="../../d6/d2a/a03062.html">AuctionHouseSearcher.h</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:38:28 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

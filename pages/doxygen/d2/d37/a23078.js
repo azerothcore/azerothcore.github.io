@@ -1,6 +1,6 @@
 var a23078 =
 [
-    [ "instance_the_underbog_InstanceMapScript", "d1/d23/a23082.html", "d1/d23/a23082" ],
-    [ "instance_the_underbog", "d2/d37/a23078.html#afaf8740a3e367a1a54eaa3e76ffa483e", null ],
-    [ "GetInstanceScript", "d2/d37/a23078.html#ace939fb7fd89e7c9c84c17d3ca31208b", null ]
+    [ "instance_steam_vault_InstanceMapScript", "d1/d23/a23082.html", "d1/d23/a23082" ],
+    [ "instance_steam_vault", "d2/d37/a23078.html#aa3417083841ccb50c8a2f29ba343e115", null ],
+    [ "GetInstanceScript", "d2/d37/a23078.html#a3a2edb84cc7067d3c8fa2151b4763c5a", null ]
 ];

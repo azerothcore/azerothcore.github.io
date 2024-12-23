@@ -1,6 +1,6 @@
 var a23962 =
 [
-    [ "npc_unkor_the_ruthlessAI", "df/db4/a23966.html", "df/db4/a23966" ],
-    [ "npc_unkor_the_ruthless", "dc/dfe/a23962.html#a4eb173932f39c5503d1db91d55f3a5b7", null ],
-    [ "GetAI", "dc/dfe/a23962.html#a552a19b9a48e90f3b093e2b9e16ec867", null ]
+    [ "npc_shattrathflaskvendors", "dc/dfe/a23962.html#ab74b234406c2022bf519242a7842458a", null ],
+    [ "OnGossipHello", "dc/dfe/a23962.html#af165d6f4640b41a92b36d77c1f1c1161", null ],
+    [ "OnGossipSelect", "dc/dfe/a23962.html#ad9eb60422dfc663e6d020a630c09ee05", null ]
 ];

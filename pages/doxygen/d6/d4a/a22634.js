@@ -1,7 +1,7 @@
 var a22634 =
 [
-    [ "Absorb", "d6/d4a/a22634.html#a227cf7329d7dee564c3f8f9f67378ffe", null ],
-    [ "HandleEffectRemove", "d6/d4a/a22634.html#a3d4026e5208acb948c089a4bedba0de8", null ],
-    [ "PrepareAuraScript", "d6/d4a/a22634.html#af66dc1cba6aa7511c11a071ea9a381bb", null ],
-    [ "Register", "d6/d4a/a22634.html#a983cf678001efcbccc4b34a9ad919881", null ]
+    [ "CalculateAmount", "d6/d4a/a22634.html#adad1c8a513ce8a1badbd40c291363de1", null ],
+    [ "PrepareAuraScript", "d6/d4a/a22634.html#ac1a896ac1a751c8bdaee186dffd8c251", null ],
+    [ "Register", "d6/d4a/a22634.html#ae839fd19933a6fa9e55ce37e0633073e", null ],
+    [ "Update", "d6/d4a/a22634.html#aeb5a347ccac3c5ce6faef7641b5fca1c", null ]
 ];

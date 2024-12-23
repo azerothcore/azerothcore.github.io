@@ -1,6 +1,6 @@
 var a16974 =
 [
-    [ "ModAuraStack", "d3/d8c/a16974.html#a7535ef148e047e32a5f7a1944585e396", null ],
-    [ "PrepareSpellScript", "d3/d8c/a16974.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
-    [ "Register", "d3/d8c/a16974.html#ab44b362197e74b98b3ffeb98eff52742", null ]
+    [ "boss_prince_valanarAI", "df/d21/a16978.html", "df/d21/a16978" ],
+    [ "boss_prince_valanar_icc", "d3/d8c/a16974.html#a7bfa4e13fa5cc19313c7ce9877d1c631", null ],
+    [ "GetAI", "d3/d8c/a16974.html#a2f7f58d57f5ed107d1f972d061105fd4", null ]
 ];

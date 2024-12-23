@@ -1,6 +1,6 @@
 var a22942 =
 [
-    [ "HandleScript", "d8/dfc/a22942.html#ad81007cd08ee18bfc7cda4221cbc8482", null ],
-    [ "PrepareSpellScript", "d8/dfc/a22942.html#a60f0bb4882d3f75f0839cd0d8ab2707d", null ],
-    [ "Register", "d8/dfc/a22942.html#ac06f4246c5cecc4875bc93811eaeb839", null ]
+    [ "HandleEffectRemove", "d8/dfc/a22942.html#ab4c215a735ead9959fd78972a6da72e4", null ],
+    [ "PrepareAuraScript", "d8/dfc/a22942.html#a75be2f838d6773b619dfac80e32557b8", null ],
+    [ "Register", "d8/dfc/a22942.html#a239068b4e4ad88b5be93a031043ad7ca", null ]
 ];

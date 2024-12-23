@@ -1,6 +1,6 @@
 var a21558 =
 [
-    [ "npc_amberpine_woodsmanAI", "d9/da4/a21562.html", "d9/da4/a21562" ],
-    [ "npc_amberpine_woodsman", "df/d6b/a21558.html#a33bbec50a360b724bfe9cb8612cbb47d", null ],
-    [ "GetAI", "df/d6b/a21558.html#a9c1df6c01c163ca68712d72b14c46139", null ]
+    [ "HandleDummy", "df/d6b/a21558.html#afe86744c6ab901750731fca486ff2e6c", null ],
+    [ "PrepareSpellScript", "df/d6b/a21558.html#a47e8a3187fa523c61842885f1cbd041d", null ],
+    [ "Register", "df/d6b/a21558.html#a61b1b63167b3dc562b9916ffce1e4eee", null ]
 ];

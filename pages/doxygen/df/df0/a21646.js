@@ -1,9 +1,7 @@
 var a21646 =
 [
-    [ "npc_Apothecary_HanesAI", "df/df0/a21646.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
-    [ "JustDied", "df/df0/a21646.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
-    [ "Reset", "df/df0/a21646.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
-    [ "UpdateEscortAI", "df/df0/a21646.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
-    [ "WaypointReached", "df/df0/a21646.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
-    [ "PotTimer", "df/df0/a21646.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
+    [ "HandleScript", "df/df0/a21646.html#a95de3ae27cfd764380ab1648b49af38d", null ],
+    [ "Load", "df/df0/a21646.html#a1aafe141985bc1e9c5b9467d4896d96b", null ],
+    [ "PrepareSpellScript", "df/df0/a21646.html#a442138710213b9b120d8ce57b733205a", null ],
+    [ "Register", "df/df0/a21646.html#af9d8f764a6a02737f8b559f067156df6", null ]
 ];

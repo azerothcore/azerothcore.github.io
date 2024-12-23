@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SpellScript::BeforeHitHandler Class Reference</title>
+<title>AzerothCore: SpellArea Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,102 +106,420 @@ $(document).ready(function(){initNavTree('d4/d49/a11002.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d5/dc6/a10999.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SpellScript::BeforeHitHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">SpellArea Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a0c2f048fc10f408a299a8b537ad7551d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a0c2f048fc10f408a299a8b537ad7551d">BeforeHitHandler</a> (SpellBeforeHitFnType pBeforeHitHandlerScript)</td></tr>
-<tr class="separator:a0c2f048fc10f408a299a8b537ad7551d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a393057cca72c41e193508bf150ed0b1f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a393057cca72c41e193508bf150ed0b1f">Call</a> (<a class="el" href="../../d6/d66/a10986.html">SpellScript</a> *spellScript, <a class="el" href="../../d0/dbd/a02771.html#ac42174a036914cd9ca25c52e98bef65a">SpellMissInfo</a> missInfo)</td></tr>
-<tr class="separator:a393057cca72c41e193508bf150ed0b1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1585273701356a591bf9d9483e996a3"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#af1585273701356a591bf9d9483e996a3">IsFitToRequirements</a> (<a class="el" href="../../dc/d06/a08466.html">Player</a> const *player, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> newZone, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> newArea) const</td></tr>
+<tr class="separator:af1585273701356a591bf9d9483e996a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:acecb7a8844155ff6eeb3f09582d7a475"><td class="memItemLeft" align="right" valign="top">SpellBeforeHitFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#acecb7a8844155ff6eeb3f09582d7a475">_pBeforeHitHandlerScript</a></td></tr>
-<tr class="separator:acecb7a8844155ff6eeb3f09582d7a475"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:a8a299d901e2c13cdc3c00d6cf0a856d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">spellId</a></td></tr>
+<tr class="separator:a8a299d901e2c13cdc3c00d6cf0a856d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af7e6f7b027388447a1f99e759975ca09"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#af7e6f7b027388447a1f99e759975ca09">areaId</a></td></tr>
+<tr class="separator:af7e6f7b027388447a1f99e759975ca09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc99b14a3724fef7c5dd70e976a479a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#afc99b14a3724fef7c5dd70e976a479a8">questStart</a></td></tr>
+<tr class="separator:afc99b14a3724fef7c5dd70e976a479a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a075cc2bc4d8c9663b2bdb2cf8ba77f5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f">questEnd</a></td></tr>
+<tr class="separator:a075cc2bc4d8c9663b2bdb2cf8ba77f5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adaf2f6f7c56701fe42a2674aca74fba0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">auraSpell</a></td></tr>
+<tr class="separator:adaf2f6f7c56701fe42a2674aca74fba0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a402373ff841bd2aa47b4b36a581624cc"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a402373ff841bd2aa47b4b36a581624cc">raceMask</a></td></tr>
+<tr class="separator:a402373ff841bd2aa47b4b36a581624cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4314cba9c91fd1e2c09905c17c67d22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a3667e3c5ec056737c8789615a989324f">Gender</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#af4314cba9c91fd1e2c09905c17c67d22">gender</a></td></tr>
+<tr class="separator:af4314cba9c91fd1e2c09905c17c67d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f4466dfd9ab56850a36d0d09ff84798"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a7f4466dfd9ab56850a36d0d09ff84798">questStartStatus</a></td></tr>
+<tr class="separator:a7f4466dfd9ab56850a36d0d09ff84798"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac6c7ed326628642da138bb3835db9a1d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#ac6c7ed326628642da138bb3835db9a1d">questEndStatus</a></td></tr>
+<tr class="separator:ac6c7ed326628642da138bb3835db9a1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38b42b82e4a588e102eb393cc907cd27"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d49/a11002.html#a38b42b82e4a588e102eb393cc907cd27">autocast</a></td></tr>
+<tr class="separator:a38b42b82e4a588e102eb393cc907cd27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a0c2f048fc10f408a299a8b537ad7551d" name="a0c2f048fc10f408a299a8b537ad7551d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0c2f048fc10f408a299a8b537ad7551d">&#9670;&#160;</a></span>BeforeHitHandler()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1585273701356a591bf9d9483e996a3" name="af1585273701356a591bf9d9483e996a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1585273701356a591bf9d9483e996a3">&#9670;&#160;</a></span>IsFitToRequirements()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SpellScript::BeforeHitHandler::BeforeHitHandler </td>
+          <td class="memname">bool SpellArea::IsFitToRequirements </td>
           <td>(</td>
-          <td class="paramtype">SpellBeforeHitFnType&#160;</td>
-          <td class="paramname"><em>pBeforeHitHandlerScript</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  208</span>{</div>
-<div class="line"><span class="lineno">  209</span>    <a class="code hl_variable" href="../../d4/d49/a11002.html#acecb7a8844155ff6eeb3f09582d7a475">_pBeforeHitHandlerScript</a> = pBeforeHitHandlerScript;</div>
-<div class="line"><span class="lineno">  210</span>}</div>
-<div class="ttc" id="aa11002_html_acecb7a8844155ff6eeb3f09582d7a475"><div class="ttname"><a href="../../d4/d49/a11002.html#acecb7a8844155ff6eeb3f09582d7a475">SpellScript::BeforeHitHandler::_pBeforeHitHandlerScript</a></div><div class="ttdeci">SpellBeforeHitFnType _pBeforeHitHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:234</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a393057cca72c41e193508bf150ed0b1f" name="a393057cca72c41e193508bf150ed0b1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a393057cca72c41e193508bf150ed0b1f">&#9670;&#160;</a></span>Call()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void SpellScript::BeforeHitHandler::Call </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d66/a10986.html">SpellScript</a> *&#160;</td>
-          <td class="paramname"><em>spellScript</em>, </td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> const *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#ac42174a036914cd9ca25c52e98bef65a">SpellMissInfo</a>&#160;</td>
-          <td class="paramname"><em>missInfo</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>newZone</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>newArea</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  213</span>{</div>
-<div class="line"><span class="lineno">  214</span>    (spellScript-&gt;*<a class="code hl_variable" href="../../d4/d49/a11002.html#acecb7a8844155ff6eeb3f09582d7a475">_pBeforeHitHandlerScript</a>)(missInfo);</div>
-<div class="line"><span class="lineno">  215</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1078</span>{</div>
+<div class="line"><span class="lineno"> 1079</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#af4314cba9c91fd1e2c09905c17c67d22">gender</a> != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a3667e3c5ec056737c8789615a989324fafe69f428f13193dcfd8ed8f30d6d2e07">GENDER_NONE</a>)                   <span class="comment">// not in expected gender</span></div>
+<div class="line"><span class="lineno"> 1080</span>        <span class="keywordflow">if</span> (!player || <a class="code hl_variable" href="../../d4/d49/a11002.html#af4314cba9c91fd1e2c09905c17c67d22">gender</a> != player-&gt;getGender())</div>
+<div class="line"><span class="lineno"> 1081</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1082</span> </div>
+<div class="line"><span class="lineno"> 1083</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#a402373ff841bd2aa47b4b36a581624cc">raceMask</a>)                                <span class="comment">// not in expected race</span></div>
+<div class="line"><span class="lineno"> 1084</span>        <span class="keywordflow">if</span> (!player || !(<a class="code hl_variable" href="../../d4/d49/a11002.html#a402373ff841bd2aa47b4b36a581624cc">raceMask</a> &amp; player-&gt;getRaceMask()))</div>
+<div class="line"><span class="lineno"> 1085</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1086</span> </div>
+<div class="line"><span class="lineno"> 1087</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#af7e6f7b027388447a1f99e759975ca09">areaId</a>)                                  <span class="comment">// not in expected zone</span></div>
+<div class="line"><span class="lineno"> 1088</span>        <span class="keywordflow">if</span> (newZone != <a class="code hl_variable" href="../../d4/d49/a11002.html#af7e6f7b027388447a1f99e759975ca09">areaId</a> &amp;&amp; newArea != <a class="code hl_variable" href="../../d4/d49/a11002.html#af7e6f7b027388447a1f99e759975ca09">areaId</a>)</div>
+<div class="line"><span class="lineno"> 1089</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1090</span> </div>
+<div class="line"><span class="lineno"> 1091</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#afc99b14a3724fef7c5dd70e976a479a8">questStart</a>)                              <span class="comment">// not in expected required quest state</span></div>
+<div class="line"><span class="lineno"> 1092</span>        <span class="keywordflow">if</span> (!player || (((1 &lt;&lt; player-&gt;GetQuestStatus(<a class="code hl_variable" href="../../d4/d49/a11002.html#afc99b14a3724fef7c5dd70e976a479a8">questStart</a>)) &amp; <a class="code hl_variable" href="../../d4/d49/a11002.html#a7f4466dfd9ab56850a36d0d09ff84798">questStartStatus</a>) == 0))</div>
+<div class="line"><span class="lineno"> 1093</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1094</span> </div>
+<div class="line"><span class="lineno"> 1095</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f">questEnd</a>)                                <span class="comment">// not in expected forbidden quest state</span></div>
+<div class="line"><span class="lineno"> 1096</span>        <span class="keywordflow">if</span> (!player || (((1 &lt;&lt; player-&gt;GetQuestStatus(<a class="code hl_variable" href="../../d4/d49/a11002.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f">questEnd</a>)) &amp; <a class="code hl_variable" href="../../d4/d49/a11002.html#ac6c7ed326628642da138bb3835db9a1d">questEndStatus</a>) == 0))</div>
+<div class="line"><span class="lineno"> 1097</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1098</span> </div>
+<div class="line"><span class="lineno"> 1099</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">auraSpell</a>)                               <span class="comment">// not have expected aura</span></div>
+<div class="line"><span class="lineno"> 1100</span>        <span class="keywordflow">if</span> (!player || (<a class="code hl_variable" href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">auraSpell</a> &gt; 0 &amp;&amp; !player-&gt;HasAura(<a class="code hl_variable" href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">auraSpell</a>)) || (auraSpell &lt; 0 &amp;&amp; player-&gt;HasAura(-<a class="code hl_variable" href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">auraSpell</a>)))</div>
+<div class="line"><span class="lineno"> 1101</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1102</span> </div>
+<div class="line"><span class="lineno"> 1103</span>    <span class="comment">// Extra conditions -- leaving the possibility add extra conditions...</span></div>
+<div class="line"><span class="lineno"> 1104</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">spellId</a>)</div>
+<div class="line"><span class="lineno"> 1105</span>    {</div>
+<div class="line"><span class="lineno"> 1106</span>        <span class="keywordflow">case</span> 58600: <span class="comment">// No fly Zone - Dalaran</span></div>
+<div class="line"><span class="lineno"> 1107</span>            {</div>
+<div class="line"><span class="lineno"> 1108</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1109</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1110</span> </div>
+<div class="line"><span class="lineno"> 1111</span>                <a class="code hl_struct" href="../../dc/d28/a27670.html">AreaTableEntry</a> <span class="keyword">const</span>* pArea = <a class="code hl_variable" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>.LookupEntry(player-&gt;GetAreaId());</div>
+<div class="line"><span class="lineno"> 1112</span>                <span class="keywordflow">if</span> (!(pArea &amp;&amp; pArea-&gt;<a class="code hl_variable" href="../../dc/d28/a27670.html#a5854e3f565d827dbad3d9a36f99e9a25">flags</a> &amp; <a class="code hl_enumvalue" href="../../dc/d80/a02756.html#ab8e24c5cd27834059bb62c245412fe72afabf36ba773b9f7fbe87f43bcd173128">AREA_FLAG_NO_FLY_ZONE</a>))</div>
+<div class="line"><span class="lineno"> 1113</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1114</span>                <span class="keywordflow">if</span> (!player-&gt;HasIncreaseMountedFlightSpeedAura() &amp;&amp; !player-&gt;HasFlyAura())</div>
+<div class="line"><span class="lineno"> 1115</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1116</span>                <span class="comment">// Xinef: Underbelly elixir</span></div>
+<div class="line"><span class="lineno"> 1117</span>                <span class="keywordflow">if</span> (player-&gt;GetPositionZ() &lt; 637.0f &amp;&amp; player-&gt;HasTransformAura())</div>
+<div class="line"><span class="lineno"> 1118</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1119</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1120</span>            }</div>
+<div class="line"><span class="lineno"> 1121</span>        <span class="keywordflow">case</span> 58730: <span class="comment">// No fly Zone - Wintergrasp</span></div>
+<div class="line"><span class="lineno"> 1122</span>            {</div>
+<div class="line"><span class="lineno"> 1123</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1124</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1125</span> </div>
+<div class="line"><span class="lineno"> 1126</span>                <a class="code hl_class" href="../../d8/de3/a07050.html">Battlefield</a>* Bf = <a class="code hl_define" href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldToZoneId(player-&gt;GetZoneId());</div>
+<div class="line"><span class="lineno"> 1127</span>                <span class="keywordflow">if</span> (!Bf || Bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#aa5ed54065b1201e086a89240a6acc1cc">CanFlyIn</a>() || (!player-&gt;HasIncreaseMountedFlightSpeedAura() &amp;&amp; !player-&gt;HasFlyAura()))</div>
+<div class="line"><span class="lineno"> 1128</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1129</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1130</span>            }</div>
+<div class="line"><span class="lineno"> 1131</span>        <span class="comment">// xinef: northrend flying mounts</span></div>
+<div class="line"><span class="lineno"> 1132</span>        <span class="comment">// xinef: NE wisp and spectral gryphon</span></div>
+<div class="line"><span class="lineno"> 1133</span>        <span class="keywordflow">case</span> 55164:</div>
+<div class="line"><span class="lineno"> 1134</span>        <span class="keywordflow">case</span> 55173:</div>
+<div class="line"><span class="lineno"> 1135</span>            {</div>
+<div class="line"><span class="lineno"> 1136</span>                <a class="code hl_class" href="../../d8/de3/a07050.html">Battlefield</a>* Bf = <a class="code hl_define" href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldToZoneId(player-&gt;GetZoneId());</div>
+<div class="line"><span class="lineno"> 1137</span>                <span class="keywordflow">return</span> !Bf || Bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#aa5ed54065b1201e086a89240a6acc1cc">CanFlyIn</a>();</div>
+<div class="line"><span class="lineno"> 1138</span>            }</div>
+<div class="line"><span class="lineno"> 1139</span>        <span class="keywordflow">case</span> 57940: <span class="comment">// Essence of Wintergrasp OUTSIDE</span></div>
+<div class="line"><span class="lineno"> 1140</span>        <span class="keywordflow">case</span> 58045: <span class="comment">// Essence of Wintergrasp INSIDE</span></div>
+<div class="line"><span class="lineno"> 1141</span>            {</div>
+<div class="line"><span class="lineno"> 1142</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1143</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1144</span> </div>
+<div class="line"><span class="lineno"> 1145</span>                <span class="keywordflow">if</span> (<a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getIntConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41aa64237bf7ab70e8554559907e4d54c8a">CONFIG_WINTERGRASP_ENABLE</a>) != 1)</div>
+<div class="line"><span class="lineno"> 1146</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1147</span> </div>
+<div class="line"><span class="lineno"> 1148</span>                <a class="code hl_class" href="../../d8/de3/a07050.html">Battlefield</a>* Bf = <a class="code hl_define" href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldByBattleId(<a class="code hl_enumvalue" href="../../d5/db0/a02777.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a>);</div>
+<div class="line"><span class="lineno"> 1149</span>                <span class="keywordflow">if</span> (!Bf || player-&gt;GetTeamId() != Bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#a6199f0a6ab9a392b650d3d1f83396ec4">GetDefenderTeam</a>() || Bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">IsWarTime</a>())</div>
+<div class="line"><span class="lineno"> 1150</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1151</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1152</span>            }</div>
+<div class="line"><span class="lineno"> 1153</span>        <span class="keywordflow">case</span> 74411: <span class="comment">// Battleground - Dampening</span></div>
+<div class="line"><span class="lineno"> 1154</span>            {</div>
+<div class="line"><span class="lineno"> 1155</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1156</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1157</span> </div>
+<div class="line"><span class="lineno"> 1158</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/de3/a07050.html">Battlefield</a>* bf = <a class="code hl_define" href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldToZoneId(player-&gt;GetZoneId()))</div>
+<div class="line"><span class="lineno"> 1159</span>                    <span class="keywordflow">return</span> bf-&gt;IsWarTime();</div>
+<div class="line"><span class="lineno"> 1160</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1161</span>            }</div>
+<div class="line"><span class="lineno"> 1162</span>        <span class="keywordflow">case</span> 68719: <span class="comment">// Oil Refinery - Isle of Conquest.</span></div>
+<div class="line"><span class="lineno"> 1163</span>        <span class="keywordflow">case</span> 68720: <span class="comment">// Quarry - Isle of Conquest.</span></div>
+<div class="line"><span class="lineno"> 1164</span>            {</div>
+<div class="line"><span class="lineno"> 1165</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1166</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1167</span> </div>
+<div class="line"><span class="lineno"> 1168</span>                <a class="code hl_class" href="../../df/ddd/a07150.html">Battleground</a>* bg = player-&gt;GetBattleground();</div>
+<div class="line"><span class="lineno"> 1169</span>                <span class="keywordflow">if</span> (!bg || bg-&gt;<a class="code hl_function" href="../../df/ddd/a07150.html#adfd6af85ad435ecdab7129e810ba2319">GetBgTypeID</a>(<span class="keyword">true</span>) != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2a0bbe26d588c3dbd56c898f29589caabf">BATTLEGROUND_IC</a>)</div>
+<div class="line"><span class="lineno"> 1170</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1171</span> </div>
+<div class="line"><span class="lineno"> 1172</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> nodeType = <a class="code hl_variable" href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">spellId</a> == 68719 ? <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a257626efe0e7f74e034fc1202dbfea07a43095ce2c82f3a9cf2a6f7d496b78af0">NODE_TYPE_REFINERY</a> : <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#a257626efe0e7f74e034fc1202dbfea07a9742305a0d95ee6acacae283891dcd3e">NODE_TYPE_QUARRY</a>;</div>
+<div class="line"><span class="lineno"> 1173</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> nodeState = player-&gt;GetTeamId() == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> ? <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#aa3b18929571d0cc0cd2b821c243a1dfea7320ed68f6222cdd1b03d71e24eba3bc">NODE_STATE_CONTROLLED_A</a> : <a class="code hl_enumvalue" href="../../d4/dd0/a03749.html#aa3b18929571d0cc0cd2b821c243a1dfeaca966fa9f844bfee2b29fbe01d0cb6bb">NODE_STATE_CONTROLLED_H</a>;</div>
+<div class="line"><span class="lineno"> 1174</span> </div>
+<div class="line"><span class="lineno"> 1175</span>                <span class="keywordflow">return</span> bg-&gt;<a class="code hl_function" href="../../df/ddd/a07150.html#abab9f0ab1b01d817c0a6002c317c41a6">ToBattlegroundIC</a>()-&gt;<a class="code hl_function" href="../../de/d94/a07274.html#a3efd5175076dc47ff235af74f246da30">GetNodeState</a>(nodeType) == nodeState;</div>
+<div class="line"><span class="lineno"> 1176</span>            }</div>
+<div class="line"><span class="lineno"> 1177</span>        <span class="keywordflow">case</span> 56618: <span class="comment">// Horde Controls Factory Phase Shift</span></div>
+<div class="line"><span class="lineno"> 1178</span>        <span class="keywordflow">case</span> 56617: <span class="comment">// Alliance Controls Factory Phase Shift</span></div>
+<div class="line"><span class="lineno"> 1179</span>            {</div>
+<div class="line"><span class="lineno"> 1180</span>                <span class="keywordflow">if</span> (!player)</div>
+<div class="line"><span class="lineno"> 1181</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1182</span> </div>
+<div class="line"><span class="lineno"> 1183</span>                <a class="code hl_class" href="../../d8/de3/a07050.html">Battlefield</a>* bf = <a class="code hl_define" href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a>-&gt;GetBattlefieldToZoneId(player-&gt;GetZoneId());</div>
+<div class="line"><span class="lineno"> 1184</span> </div>
+<div class="line"><span class="lineno"> 1185</span>                <span class="keywordflow">if</span> (!bf || bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#a8dc3a39f428abe572eebec1c3cf02de1">GetTypeId</a>() != <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#a6f435417da35c7d1b51c95e516fc6b2da1fc74ab91b471d0c59f02fea08cb2efd">BATTLEFIELD_WG</a>)</div>
+<div class="line"><span class="lineno"> 1186</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1187</span> </div>
+<div class="line"><span class="lineno"> 1188</span>                <span class="comment">// team that controls the workshop in the specified area</span></div>
+<div class="line"><span class="lineno"> 1189</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> team = bf-&gt;<a class="code hl_function" href="../../d8/de3/a07050.html#a1605eebf64a203761f5aeba106b2b325">GetData</a>(newArea);</div>
+<div class="line"><span class="lineno"> 1190</span> </div>
+<div class="line"><span class="lineno"> 1191</span>                <span class="keywordflow">if</span> (team == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>)</div>
+<div class="line"><span class="lineno"> 1192</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">spellId</a> == 56618;</div>
+<div class="line"><span class="lineno"> 1193</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (team == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
+<div class="line"><span class="lineno"> 1194</span>                    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">spellId</a> == 56617;</div>
+<div class="line"><span class="lineno"> 1195</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1196</span>                    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1197</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1198</span>            }</div>
+<div class="line"><span class="lineno"> 1199</span>        <span class="comment">// Hellscream&#39;s Warsong</span></div>
+<div class="line"><span class="lineno"> 1200</span>        <span class="keywordflow">case</span> 73816:</div>
+<div class="line"><span class="lineno"> 1201</span>        <span class="keywordflow">case</span> 73818:</div>
+<div class="line"><span class="lineno"> 1202</span>        <span class="keywordflow">case</span> 73819:</div>
+<div class="line"><span class="lineno"> 1203</span>        <span class="keywordflow">case</span> 73820:</div>
+<div class="line"><span class="lineno"> 1204</span>        <span class="keywordflow">case</span> 73821:</div>
+<div class="line"><span class="lineno"> 1205</span>        <span class="keywordflow">case</span> 73822:</div>
+<div class="line"><span class="lineno"> 1206</span>        <span class="comment">// Strength of Wrynn</span></div>
+<div class="line"><span class="lineno"> 1207</span>        <span class="keywordflow">case</span> 73762:</div>
+<div class="line"><span class="lineno"> 1208</span>        <span class="keywordflow">case</span> 73824:</div>
+<div class="line"><span class="lineno"> 1209</span>        <span class="keywordflow">case</span> 73825:</div>
+<div class="line"><span class="lineno"> 1210</span>        <span class="keywordflow">case</span> 73826:</div>
+<div class="line"><span class="lineno"> 1211</span>        <span class="keywordflow">case</span> 73827:</div>
+<div class="line"><span class="lineno"> 1212</span>        <span class="keywordflow">case</span> 73828:</div>
+<div class="line"><span class="lineno"> 1213</span>            <span class="keywordflow">if</span> (player)</div>
+<div class="line"><span class="lineno"> 1214</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../de/d4c/a09442.html">InstanceScript</a>* s = <span class="keyword">const_cast&lt;</span><a class="code hl_class" href="../../dc/d06/a08466.html">Player</a>*<span class="keyword">&gt;</span>(player)-&gt;GetInstanceScript())</div>
+<div class="line"><span class="lineno"> 1215</span>                    <span class="keywordflow">return</span> s-&gt;GetData(251 <span class="comment">/*DATA_BUFF_AVAILABLE*/</span>) != 0;</div>
+<div class="line"><span class="lineno"> 1216</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1217</span>            <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno"> 1218</span>    }</div>
+<div class="line"><span class="lineno"> 1219</span> </div>
+<div class="line"><span class="lineno"> 1220</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1221</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa02756_html_ab8e24c5cd27834059bb62c245412fe72afabf36ba773b9f7fbe87f43bcd173128"><div class="ttname"><a href="../../dc/d80/a02756.html#ab8e24c5cd27834059bb62c245412fe72afabf36ba773b9f7fbe87f43bcd173128">AREA_FLAG_NO_FLY_ZONE</a></div><div class="ttdeci">@ AREA_FLAG_NO_FLY_ZONE</div><div class="ttdef"><b>Definition:</b> DBCEnums.h:262</div></div>
+<div class="ttc" id="aa02771_html_a3667e3c5ec056737c8789615a989324fafe69f428f13193dcfd8ed8f30d6d2e07"><div class="ttname"><a href="../../d0/dbd/a02771.html#a3667e3c5ec056737c8789615a989324fafe69f428f13193dcfd8ed8f30d6d2e07">GENDER_NONE</a></div><div class="ttdeci">@ GENDER_NONE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:63</div></div>
+<div class="ttc" id="aa02771_html_aaef9ddb244c12d22800aee24c3b637a2a0bbe26d588c3dbd56c898f29589caabf"><div class="ttname"><a href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2a0bbe26d588c3dbd56c898f29589caabf">BATTLEGROUND_IC</a></div><div class="ttdeci">@ BATTLEGROUND_IC</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3492</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:760</div></div>
+<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:761</div></div>
+<div class="ttc" id="aa02777_html_a6f435417da35c7d1b51c95e516fc6b2da1fc74ab91b471d0c59f02fea08cb2efd"><div class="ttname"><a href="../../d5/db0/a02777.html#a6f435417da35c7d1b51c95e516fc6b2da1fc74ab91b471d0c59f02fea08cb2efd">BATTLEFIELD_WG</a></div><div class="ttdeci">@ BATTLEFIELD_WG</div><div class="ttdef"><b>Definition:</b> Battlefield.h:29</div></div>
+<div class="ttc" id="aa02777_html_aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010"><div class="ttname"><a href="../../d5/db0/a02777.html#aff53bf428d550c270744c9a188d4187fa38e75e8c40750cb29f0d478d19974010">BATTLEFIELD_BATTLEID_WG</a></div><div class="ttdeci">@ BATTLEFIELD_BATTLEID_WG</div><div class="ttdef"><b>Definition:</b> Battlefield.h:35</div></div>
+<div class="ttc" id="aa02780_html_a4545b2a440043037e8dad52c0f644f48"><div class="ttname"><a href="../../df/de4/a02780.html#a4545b2a440043037e8dad52c0f644f48">sBattlefieldMgr</a></div><div class="ttdeci">#define sBattlefieldMgr</div><div class="ttdef"><b>Definition:</b> BattlefieldMgr.h:77</div></div>
+<div class="ttc" id="aa03317_html_a17aac4c166ebe43e3b8fdccf9e012e41aa64237bf7ab70e8554559907e4d54c8a"><div class="ttname"><a href="../../d8/ddd/a03317.html#a17aac4c166ebe43e3b8fdccf9e012e41aa64237bf7ab70e8554559907e4d54c8a">CONFIG_WINTERGRASP_ENABLE</a></div><div class="ttdeci">@ CONFIG_WINTERGRASP_ENABLE</div><div class="ttdef"><b>Definition:</b> IWorld.h:322</div></div>
+<div class="ttc" id="aa03704_html_aedcdbef7c215330459e17b2f224ff0e3"><div class="ttname"><a href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a></div><div class="ttdeci">DBCStorage&lt; AreaTableEntry &gt; sAreaTableStore(AreaTableEntryfmt)</div></div>
+<div class="ttc" id="aa03749_html_a257626efe0e7f74e034fc1202dbfea07a43095ce2c82f3a9cf2a6f7d496b78af0"><div class="ttname"><a href="../../d4/dd0/a03749.html#a257626efe0e7f74e034fc1202dbfea07a43095ce2c82f3a9cf2a6f7d496b78af0">NODE_TYPE_REFINERY</a></div><div class="ttdeci">@ NODE_TYPE_REFINERY</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:820</div></div>
+<div class="ttc" id="aa03749_html_a257626efe0e7f74e034fc1202dbfea07a9742305a0d95ee6acacae283891dcd3e"><div class="ttname"><a href="../../d4/dd0/a03749.html#a257626efe0e7f74e034fc1202dbfea07a9742305a0d95ee6acacae283891dcd3e">NODE_TYPE_QUARRY</a></div><div class="ttdeci">@ NODE_TYPE_QUARRY</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:821</div></div>
+<div class="ttc" id="aa03749_html_aa3b18929571d0cc0cd2b821c243a1dfea7320ed68f6222cdd1b03d71e24eba3bc"><div class="ttname"><a href="../../d4/dd0/a03749.html#aa3b18929571d0cc0cd2b821c243a1dfea7320ed68f6222cdd1b03d71e24eba3bc">NODE_STATE_CONTROLLED_A</a></div><div class="ttdeci">@ NODE_STATE_CONTROLLED_A</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:838</div></div>
+<div class="ttc" id="aa03749_html_aa3b18929571d0cc0cd2b821c243a1dfeaca966fa9f844bfee2b29fbe01d0cb6bb"><div class="ttname"><a href="../../d4/dd0/a03749.html#aa3b18929571d0cc0cd2b821c243a1dfeaca966fa9f844bfee2b29fbe01d0cb6bb">NODE_STATE_CONTROLLED_H</a></div><div class="ttdeci">@ NODE_STATE_CONTROLLED_H</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:839</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:442</div></div>
+<div class="ttc" id="aa07050_html"><div class="ttname"><a href="../../d8/de3/a07050.html">Battlefield</a></div><div class="ttdef"><b>Definition:</b> Battlefield.h:204</div></div>
+<div class="ttc" id="aa07050_html_a1605eebf64a203761f5aeba106b2b325"><div class="ttname"><a href="../../d8/de3/a07050.html#a1605eebf64a203761f5aeba106b2b325">Battlefield::GetData</a></div><div class="ttdeci">uint32 GetData(uint32 dataId) const override</div><div class="ttdef"><b>Definition:</b> Battlefield.h:270</div></div>
+<div class="ttc" id="aa07050_html_a6199f0a6ab9a392b650d3d1f83396ec4"><div class="ttname"><a href="../../d8/de3/a07050.html#a6199f0a6ab9a392b650d3d1f83396ec4">Battlefield::GetDefenderTeam</a></div><div class="ttdeci">TeamId GetDefenderTeam()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:275</div></div>
+<div class="ttc" id="aa07050_html_a8b0c38a6d6ef3096cfb333ca3fea72b5"><div class="ttname"><a href="../../d8/de3/a07050.html#a8b0c38a6d6ef3096cfb333ca3fea72b5">Battlefield::IsWarTime</a></div><div class="ttdeci">bool IsWarTime()</div><div class="ttdoc">Return true if battle is start, false if battle is not started.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:247</div></div>
+<div class="ttc" id="aa07050_html_a8dc3a39f428abe572eebec1c3cf02de1"><div class="ttname"><a href="../../d8/de3/a07050.html#a8dc3a39f428abe572eebec1c3cf02de1">Battlefield::GetTypeId</a></div><div class="ttdeci">uint32 GetTypeId()</div><div class="ttdef"><b>Definition:</b> Battlefield.h:241</div></div>
+<div class="ttc" id="aa07050_html_aa5ed54065b1201e086a89240a6acc1cc"><div class="ttname"><a href="../../d8/de3/a07050.html#aa5ed54065b1201e086a89240a6acc1cc">Battlefield::CanFlyIn</a></div><div class="ttdeci">bool CanFlyIn()</div><div class="ttdoc">Return if we can use mount in battlefield.</div><div class="ttdef"><b>Definition:</b> Battlefield.h:340</div></div>
+<div class="ttc" id="aa07150_html"><div class="ttname"><a href="../../df/ddd/a07150.html">Battleground</a></div><div class="ttdef"><b>Definition:</b> Battleground.h:303</div></div>
+<div class="ttc" id="aa07150_html_abab9f0ab1b01d817c0a6002c317c41a6"><div class="ttname"><a href="../../df/ddd/a07150.html#abab9f0ab1b01d817c0a6002c317c41a6">Battleground::ToBattlegroundIC</a></div><div class="ttdeci">BattlegroundIC * ToBattlegroundIC()</div><div class="ttdef"><b>Definition:</b> Battleground.h:614</div></div>
+<div class="ttc" id="aa07150_html_adfd6af85ad435ecdab7129e810ba2319"><div class="ttname"><a href="../../df/ddd/a07150.html#adfd6af85ad435ecdab7129e810ba2319">Battleground::GetBgTypeID</a></div><div class="ttdeci">BattlegroundTypeId GetBgTypeID(bool GetRandom=false) const</div><div class="ttdef"><b>Definition:</b> Battleground.h:329</div></div>
+<div class="ttc" id="aa07274_html_a3efd5175076dc47ff235af74f246da30"><div class="ttname"><a href="../../de/d94/a07274.html#a3efd5175076dc47ff235af74f246da30">BattlegroundIC::GetNodeState</a></div><div class="ttdeci">uint32 GetNodeState(uint8 nodeType) const</div><div class="ttdef"><b>Definition:</b> BattlegroundIC.h:981</div></div>
+<div class="ttc" id="aa08466_html"><div class="ttname"><a href="../../dc/d06/a08466.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1081</div></div>
+<div class="ttc" id="aa09442_html"><div class="ttname"><a href="../../de/d4c/a09442.html">InstanceScript</a></div><div class="ttdef"><b>Definition:</b> InstanceScript.h:142</div></div>
+<div class="ttc" id="aa11002_html_a075cc2bc4d8c9663b2bdb2cf8ba77f5f"><div class="ttname"><a href="../../d4/d49/a11002.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f">SpellArea::questEnd</a></div><div class="ttdeci">uint32 questEnd</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:531</div></div>
+<div class="ttc" id="aa11002_html_a402373ff841bd2aa47b4b36a581624cc"><div class="ttname"><a href="../../d4/d49/a11002.html#a402373ff841bd2aa47b4b36a581624cc">SpellArea::raceMask</a></div><div class="ttdeci">uint32 raceMask</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:533</div></div>
+<div class="ttc" id="aa11002_html_a7f4466dfd9ab56850a36d0d09ff84798"><div class="ttname"><a href="../../d4/d49/a11002.html#a7f4466dfd9ab56850a36d0d09ff84798">SpellArea::questStartStatus</a></div><div class="ttdeci">uint32 questStartStatus</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:535</div></div>
+<div class="ttc" id="aa11002_html_a8a299d901e2c13cdc3c00d6cf0a856d3"><div class="ttname"><a href="../../d4/d49/a11002.html#a8a299d901e2c13cdc3c00d6cf0a856d3">SpellArea::spellId</a></div><div class="ttdeci">uint32 spellId</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:528</div></div>
+<div class="ttc" id="aa11002_html_ac6c7ed326628642da138bb3835db9a1d"><div class="ttname"><a href="../../d4/d49/a11002.html#ac6c7ed326628642da138bb3835db9a1d">SpellArea::questEndStatus</a></div><div class="ttdeci">uint32 questEndStatus</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:536</div></div>
+<div class="ttc" id="aa11002_html_adaf2f6f7c56701fe42a2674aca74fba0"><div class="ttname"><a href="../../d4/d49/a11002.html#adaf2f6f7c56701fe42a2674aca74fba0">SpellArea::auraSpell</a></div><div class="ttdeci">int32 auraSpell</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:532</div></div>
+<div class="ttc" id="aa11002_html_af4314cba9c91fd1e2c09905c17c67d22"><div class="ttname"><a href="../../d4/d49/a11002.html#af4314cba9c91fd1e2c09905c17c67d22">SpellArea::gender</a></div><div class="ttdeci">Gender gender</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:534</div></div>
+<div class="ttc" id="aa11002_html_af7e6f7b027388447a1f99e759975ca09"><div class="ttname"><a href="../../d4/d49/a11002.html#af7e6f7b027388447a1f99e759975ca09">SpellArea::areaId</a></div><div class="ttdeci">uint32 areaId</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:529</div></div>
+<div class="ttc" id="aa11002_html_afc99b14a3724fef7c5dd70e976a479a8"><div class="ttname"><a href="../../d4/d49/a11002.html#afc99b14a3724fef7c5dd70e976a479a8">SpellArea::questStart</a></div><div class="ttdeci">uint32 questStart</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:530</div></div>
+<div class="ttc" id="aa27670_html"><div class="ttname"><a href="../../dc/d28/a27670.html">AreaTableEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:518</div></div>
+<div class="ttc" id="aa27670_html_a5854e3f565d827dbad3d9a36f99e9a25"><div class="ttname"><a href="../../dc/d28/a27670.html#a5854e3f565d827dbad3d9a36f99e9a25">AreaTableEntry::flags</a></div><div class="ttdeci">uint32 flags</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:523</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00262">AREA_FLAG_NO_FLY_ZONE</a>, <a class="el" href="../../#l00529">areaId</a>, <a class="el" href="../../#l00532">auraSpell</a>, <a class="el" href="../../#l00035">BATTLEFIELD_BATTLEID_WG</a>, <a class="el" href="../../#l00029">BATTLEFIELD_WG</a>, <a class="el" href="../../#l03492">BATTLEGROUND_IC</a>, <a class="el" href="../../#l00340">Battlefield::CanFlyIn()</a>, <a class="el" href="../../#l00322">CONFIG_WINTERGRASP_ENABLE</a>, <a class="el" href="../../#l00523">AreaTableEntry::flags</a>, <a class="el" href="../../#l00534">gender</a>, <a class="el" href="../../#l00063">GENDER_NONE</a>, <a class="el" href="../../#l03167">WorldObject::GetAreaId()</a>, <a class="el" href="../../#l12228">Player::GetBattleground()</a>, <a class="el" href="../../#l00329">Battleground::GetBgTypeID()</a>, <a class="el" href="../../#l00270">Battlefield::GetData()</a>, <a class="el" href="../../#l00275">Battlefield::GetDefenderTeam()</a>, <a class="el" href="../../#l00805">Unit::getGender()</a>, <a class="el" href="../../#l00981">BattlegroundIC::GetNodeState()</a>, <a class="el" href="../../#l00118">Position::GetPositionZ()</a>, <a class="el" href="../../#l01430">Player::GetQuestStatus()</a>, <a class="el" href="../../#l00795">Unit::getRaceMask()</a>, <a class="el" href="../../#l02111">Player::GetTeamId()</a>, <a class="el" href="../../#l00241">Battlefield::GetTypeId()</a>, <a class="el" href="../../#l03159">WorldObject::GetZoneId()</a>, <a class="el" href="../../#l05698">Unit::HasAura()</a>, <a class="el" href="../../#l01664">Unit::HasFlyAura()</a>, <a class="el" href="../../#l01691">Unit::HasIncreaseMountedFlightSpeedAura()</a>, <a class="el" href="../../#l01669">Unit::HasTransformAura()</a>, <a class="el" href="../../#l00247">Battlefield::IsWarTime()</a>, <a class="el" href="../../#l00838">NODE_STATE_CONTROLLED_A</a>, <a class="el" href="../../#l00839">NODE_STATE_CONTROLLED_H</a>, <a class="el" href="../../#l00821">NODE_TYPE_QUARRY</a>, <a class="el" href="../../#l00820">NODE_TYPE_REFINERY</a>, <a class="el" href="../../#l00531">questEnd</a>, <a class="el" href="../../#l00536">questEndStatus</a>, <a class="el" href="../../#l00530">questStart</a>, <a class="el" href="../../#l00535">questStartStatus</a>, <a class="el" href="../../#l00533">raceMask</a>, <a class="el" href="../../d7/da2/a03704.html#aedcdbef7c215330459e17b2f224ff0e3">sAreaTableStore</a>, <a class="el" href="../../#l00077">sBattlefieldMgr</a>, <a class="el" href="../../#l00528">spellId</a>, <a class="el" href="../../#l00442">sWorld</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00761">TEAM_HORDE</a>, and <a class="el" href="../../#l00614">Battleground::ToBattlegroundIC()</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="acecb7a8844155ff6eeb3f09582d7a475" name="acecb7a8844155ff6eeb3f09582d7a475"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acecb7a8844155ff6eeb3f09582d7a475">&#9670;&#160;</a></span>_pBeforeHitHandlerScript</h2>
+<a id="af7e6f7b027388447a1f99e759975ca09" name="af7e6f7b027388447a1f99e759975ca09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af7e6f7b027388447a1f99e759975ca09">&#9670;&#160;</a></span>areaId</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellBeforeHitFnType SpellScript::BeforeHitHandler::_pBeforeHitHandlerScript</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::areaId</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="adaf2f6f7c56701fe42a2674aca74fba0" name="adaf2f6f7c56701fe42a2674aca74fba0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adaf2f6f7c56701fe42a2674aca74fba0">&#9670;&#160;</a></span>auraSpell</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> SpellArea::auraSpell</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="a38b42b82e4a588e102eb393cc907cd27" name="a38b42b82e4a588e102eb393cc907cd27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38b42b82e4a588e102eb393cc907cd27">&#9670;&#160;</a></span>autocast</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool SpellArea::autocast</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4314cba9c91fd1e2c09905c17c67d22" name="af4314cba9c91fd1e2c09905c17c67d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4314cba9c91fd1e2c09905c17c67d22">&#9670;&#160;</a></span>gender</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a3667e3c5ec056737c8789615a989324f">Gender</a> SpellArea::gender</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="a075cc2bc4d8c9663b2bdb2cf8ba77f5f" name="a075cc2bc4d8c9663b2bdb2cf8ba77f5f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a075cc2bc4d8c9663b2bdb2cf8ba77f5f">&#9670;&#160;</a></span>questEnd</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::questEnd</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="ac6c7ed326628642da138bb3835db9a1d" name="ac6c7ed326628642da138bb3835db9a1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac6c7ed326628642da138bb3835db9a1d">&#9670;&#160;</a></span>questEndStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::questEndStatus</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="afc99b14a3724fef7c5dd70e976a479a8" name="afc99b14a3724fef7c5dd70e976a479a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc99b14a3724fef7c5dd70e976a479a8">&#9670;&#160;</a></span>questStart</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::questStart</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="a7f4466dfd9ab56850a36d0d09ff84798" name="a7f4466dfd9ab56850a36d0d09ff84798"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f4466dfd9ab56850a36d0d09ff84798">&#9670;&#160;</a></span>questStartStatus</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::questStartStatus</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="a402373ff841bd2aa47b4b36a581624cc" name="a402373ff841bd2aa47b4b36a581624cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a402373ff841bd2aa47b4b36a581624cc">&#9670;&#160;</a></span>raceMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::raceMask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>.</p>
+
+</div>
+</div>
+<a id="a8a299d901e2c13cdc3c00d6cf0a856d3" name="a8a299d901e2c13cdc3c00d6cf0a856d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a299d901e2c13cdc3c00d6cf0a856d3">&#9670;&#160;</a></span>spellId</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SpellArea::spellId</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01077">IsFitToRequirements()</a>, and <a class="el" href="../../#l02479">SpellMgr::LoadSpellAreas()</a>.</p>
 
 </div>
 </div>
@@ -210,8 +528,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d66/a10986.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d4/d49/a11002.html">BeforeHitHandler</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d4/d49/a11002.html">SpellArea</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

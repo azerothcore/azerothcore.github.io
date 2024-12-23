@@ -1,7 +1,8 @@
 var a15014 =
 [
-    [ "npc_kerlonianAI", "d2/d16/a15018.html", "d2/d16/a15018" ],
-    [ "npc_kerlonian", "d8/db2/a15014.html#a8a5ab1fde9f21ac256d5168ef3f17f87", null ],
-    [ "GetAI", "d8/db2/a15014.html#a93d93ba13d8521fee39801473b7c4b6a", null ],
-    [ "OnQuestAccept", "d8/db2/a15014.html#a257d24295318605ac2fd5554315dfd63", null ]
+    [ "npc_injured_draeneiAI", "d8/db2/a15014.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
+    [ "JustEngagedWith", "d8/db2/a15014.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
+    [ "MoveInLineOfSight", "d8/db2/a15014.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
+    [ "Reset", "d8/db2/a15014.html#adcb601f739a91ce71926791885152471", null ],
+    [ "UpdateAI", "d8/db2/a15014.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
 ];

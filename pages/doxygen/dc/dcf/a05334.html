@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::ObjectLevelLockable&lt; T, MUTEX &gt;::Lock Class Reference</title>
+<title>AzerothCore: Acore::ClassLevelLockable&lt; T, MUTEX &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,30 +105,42 @@ $(document).ready(function(){initNavTree('dc/dcf/a05334.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
+<a href="#friends">Friends</a> &#124;
 <a href="../../dc/d4e/a05331.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::ObjectLevelLockable&lt; T, MUTEX &gt;::Lock Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::ClassLevelLockable&lt; T, MUTEX &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">ThreadingModel.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/da3/a05338.html">Lock</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a09c992e631ec8e778a238b38208d686b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcf/a05334.html#a09c992e631ec8e778a238b38208d686b">Lock</a> (<a class="el" href="../../db/d4c/a05330.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;host)</td></tr>
-<tr class="separator:a09c992e631ec8e778a238b38208d686b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a507181347374b55f335a9e872293c6e0"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcf/a05334.html#a507181347374b55f335a9e872293c6e0">ClassLevelLockable</a> ()</td></tr>
+<tr class="separator:a507181347374b55f335a9e872293c6e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a45314b9d141b17ba5bac603afb0ffbe0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d74/a05318.html">GeneralLock</a>&lt; MUTEX &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcf/a05334.html#a45314b9d141b17ba5bac603afb0ffbe0">i_lock</a></td></tr>
-<tr class="separator:a45314b9d141b17ba5bac603afb0ffbe0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
+Static Private Attributes</h2></td></tr>
+<tr class="memitem:a2bcba35930178d1cd094ed1c34320997"><td class="memItemLeft" align="right" valign="top">static MUTEX&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcf/a05334.html#a2bcba35930178d1cd094ed1c34320997">si_mtx</a></td></tr>
+<tr class="separator:a2bcba35930178d1cd094ed1c34320997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
+Friends</h2></td></tr>
+<tr class="memitem:a5bf7608e05250fb524a1229bcf83ece3"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dc/dcf/a05334.html#a5bf7608e05250fb524a1229bcf83ece3">Lock</a></td></tr>
+<tr class="separator:a5bf7608e05250fb524a1229bcf83ece3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><div class="compoundTemplParams">template&lt;class T, class MUTEX&gt;<br />
-class Acore::ObjectLevelLockable&lt; T, MUTEX &gt;::Lock</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a09c992e631ec8e778a238b38208d686b" name="a09c992e631ec8e778a238b38208d686b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09c992e631ec8e778a238b38208d686b">&#9670;&#160;</a></span>Lock()</h2>
+class Acore::ClassLevelLockable&lt; T, MUTEX &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a507181347374b55f335a9e872293c6e0" name="a507181347374b55f335a9e872293c6e0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a507181347374b55f335a9e872293c6e0">&#9670;&#160;</a></span>ClassLevelLockable()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -139,10 +151,9 @@ template&lt;class T , class MUTEX &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../db/d4c/a05330.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::Lock::Lock </td>
+          <td class="memname"><a class="el" href="../../dc/dcf/a05334.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::ClassLevelLockable </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d4c/a05330.html">ObjectLevelLockable</a>&lt; T, MUTEX &gt; &amp;&#160;</td>
-          <td class="paramname"><em>host</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -152,16 +163,14 @@ template&lt;class T , class MUTEX &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   83</span>                : <a class="code hl_variable" href="../../dc/dcf/a05334.html#a45314b9d141b17ba5bac603afb0ffbe0">i_lock</a>(host.i_mtx)</div>
-<div class="line"><span class="lineno">   84</span>            {</div>
-<div class="line"><span class="lineno">   85</span>            }</div>
-<div class="ttc" id="aa05334_html_a45314b9d141b17ba5bac603afb0ffbe0"><div class="ttname"><a href="../../dc/dcf/a05334.html#a45314b9d141b17ba5bac603afb0ffbe0">Acore::ObjectLevelLockable::Lock::i_lock</a></div><div class="ttdeci">GeneralLock&lt; MUTEX &gt; i_lock</div><div class="ttdef"><b>Definition:</b> ThreadingModel.h:88</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  104</span>        {</div>
+<div class="line"><span class="lineno">  105</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a45314b9d141b17ba5bac603afb0ffbe0" name="a45314b9d141b17ba5bac603afb0ffbe0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a45314b9d141b17ba5bac603afb0ffbe0">&#9670;&#160;</a></span>i_lock</h2>
+<h2 class="groupheader">Friends And Related Function Documentation</h2>
+<a id="a5bf7608e05250fb524a1229bcf83ece3" name="a5bf7608e05250fb524a1229bcf83ece3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bf7608e05250fb524a1229bcf83ece3">&#9670;&#160;</a></span>Lock</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -172,12 +181,37 @@ template&lt;class T , class MUTEX &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d74/a05318.html">GeneralLock</a>&lt;MUTEX&gt; <a class="el" href="../../db/d4c/a05330.html">Acore::ObjectLevelLockable</a>&lt; T, MUTEX &gt;::Lock::i_lock</td>
+          <td class="memname">friend class <a class="el" href="../../da/da3/a05338.html">Lock</a></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a2bcba35930178d1cd094ed1c34320997" name="a2bcba35930178d1cd094ed1c34320997"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2bcba35930178d1cd094ed1c34320997">&#9670;&#160;</a></span>si_mtx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class MUTEX &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">MUTEX <a class="el" href="../../dc/dcf/a05334.html">Acore::ClassLevelLockable</a>&lt; T, MUTEX &gt;::si_mtx</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -189,8 +223,8 @@ template&lt;class T , class MUTEX &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../db/d4c/a05330.html">ObjectLevelLockable</a></li><li class="navelem"><a class="el" href="../../dc/dcf/a05334.html">Lock</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../dc/dcf/a05334.html">ClassLevelLockable</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:40 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

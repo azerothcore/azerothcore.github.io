@@ -1,7 +1,6 @@
 var a13398 =
 [
-    [ "boss_blight_wormAI", "d1/ddd/a13398.html#af267e395fbd539f871e498dc6745c610", null ],
-    [ "Reset", "d1/ddd/a13398.html#a96e27eaba5c9e422981d78123ed9c83d", null ],
-    [ "UpdateAI", "d1/ddd/a13398.html#ac8e4c5a7a251173a2afb369498c88a1d", null ],
-    [ "_events", "d1/ddd/a13398.html#a65f7fd4f73c727eeb5988d7ec77b94ce", null ]
+    [ "npc_tyrion_spybotAI", "de/d6f/a13402.html", "de/d6f/a13402" ],
+    [ "npc_tyrion_spybot", "d1/ddd/a13398.html#a7e0eed1b51ffe1df2d8ae2ad37f26528", null ],
+    [ "GetAI", "d1/ddd/a13398.html#af81b70437703edc8d99fe24249891dd6", null ]
 ];

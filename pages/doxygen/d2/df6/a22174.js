@@ -1,4 +1,5 @@
 var a22174 =
 [
-    [ "idPatrol", "d2/df6/a22174.html#a1fbc40a9798b89ae8b903b1f5a6a8e67", null ]
+    [ "OutdoorPvP_eastern_plaguelands", "d2/df6/a22174.html#a5178152ee493eb90b1c1c0f611c6cd92", null ],
+    [ "GetOutdoorPvP", "d2/df6/a22174.html#abc4e99dfa8a600ef578b77ffc3956ada", null ]
 ];

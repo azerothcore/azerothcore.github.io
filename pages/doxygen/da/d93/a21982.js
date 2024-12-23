@@ -1,6 +1,6 @@
 var a21982 =
 [
-    [ "npc_wg_queueAI", "da/d93/a21982.html#a3760738d61b6148042fc30bd96b88fdc", null ],
-    [ "UpdateAI", "da/d93/a21982.html#a2e5f19a0f01eeb3d1585c7b02f2073b2", null ],
-    [ "events", "da/d93/a21982.html#ab0eb949272e48120cff1c3df27ad8e92", null ]
+    [ "npc_freed_protodrakeAI", "d6/df5/a21986.html", "d6/df5/a21986" ],
+    [ "npc_freed_protodrake", "da/d93/a21982.html#a56e33e186800efa3fb86ca6a614e3b0b", null ],
+    [ "GetAI", "da/d93/a21982.html#a9680bf65cb97327396f58c297df1c8f5", null ]
 ];

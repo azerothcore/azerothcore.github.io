@@ -1,6 +1,6 @@
 var a24574 =
 [
-    [ "HandleScriptEffect", "db/db6/a24574.html#a142d6a512ba6e937985a9c21725d8d33", null ],
-    [ "PrepareSpellScript", "db/db6/a24574.html#af46fd8adaf8fef92984376ad6aa4f9a2", null ],
-    [ "Register", "db/db6/a24574.html#a9cbf1c0678bd0775a452aa3270dff6a0", null ]
+    [ "CheckAreaTarget", "db/db6/a24574.html#a545323b9964ee4cb3c8d054fac4e2d55", null ],
+    [ "PrepareAuraScript", "db/db6/a24574.html#a2b6dbd33e34357917f662000a1cd932f", null ],
+    [ "Register", "db/db6/a24574.html#a7b4a2301b3a608ea5b2dd2504e02741d", null ]
 ];

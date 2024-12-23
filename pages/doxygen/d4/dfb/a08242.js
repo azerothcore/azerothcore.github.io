@@ -1,16 +1,13 @@
 var a08242 =
 [
-    [ "WorldLocation", "d4/dfb/a08242.html#a424e67f5a820f3396ed6a02c3daa05fb", null ],
-    [ "WorldLocation", "d4/dfb/a08242.html#a04d7814f5d846259c5af562ce856f468", null ],
-    [ "GetDebugInfo", "d4/dfb/a08242.html#a0b3f13522d288dde484c70cbf8ef5fc5", null ],
-    [ "GetMapId", "d4/dfb/a08242.html#a2682e56ae4f0ce4b517a8ba3cd2798b1", null ],
-    [ "GetWorldLocation", "d4/dfb/a08242.html#a48cad9058b04a5108c4b99c7fd4d0bfe", null ],
-    [ "GetWorldLocation", "d4/dfb/a08242.html#aa2623109f914fd8592f865545696d27b", null ],
-    [ "GetWorldLocation", "d4/dfb/a08242.html#a75c59d33f5aac8da8eb9b8c5e2711acf", null ],
-    [ "GetWorldLocation", "d4/dfb/a08242.html#aed21eb7d191b1e34ebd1456b427fbb2c", null ],
-    [ "GetWorldLocation", "d4/dfb/a08242.html#abb5d3b7c89fa4a39d2486f2f943159e4", null ],
-    [ "SetMapId", "d4/dfb/a08242.html#ac425c27c61ecc169fe3df61991011988", null ],
-    [ "WorldRelocate", "d4/dfb/a08242.html#a7f014ec2469e93ffca3ec7bbd03b1606", null ],
-    [ "WorldRelocate", "d4/dfb/a08242.html#adc762865d564319245ffc3363c080365", null ],
-    [ "m_mapId", "d4/dfb/a08242.html#a88161a79f13aa3ab267096cfa8e5d0ed", null ]
+    [ "FlaggedValuesArray32", "d4/dfb/a08242.html#a0680f7b67001783f20d89989a49cbead", null ],
+    [ "AddFlag", "d4/dfb/a08242.html#a273ab3607b23881628eb0c5d6a4da288", null ],
+    [ "AddValue", "d4/dfb/a08242.html#aacca1261b2a22525e5fd40e5f479aa06", null ],
+    [ "DelFlag", "d4/dfb/a08242.html#a3a674b2a7b8d5874f7210372b3e92123", null ],
+    [ "GetFlags", "d4/dfb/a08242.html#a314a315eb1c1a76116fe3a31f7be9c68", null ],
+    [ "GetValue", "d4/dfb/a08242.html#a87e5949bc041f15449331aceb277e8c4", null ],
+    [ "HasFlag", "d4/dfb/a08242.html#a0ea5d977caef5152c71c515259a91f06", null ],
+    [ "SetValue", "d4/dfb/a08242.html#ad0d385589befe52103f077723fa2463c", null ],
+    [ "m_flags", "d4/dfb/a08242.html#abab31b77efb46fa796275c36964eab91", null ],
+    [ "m_values", "d4/dfb/a08242.html#aabd025f47ad522e574f603eb559500f0", null ]
 ];

@@ -1,6 +1,6 @@
 var a00785 =
 [
-    [ "boss_swamplord_muselek", "d7/d78/a23054.html", "d7/d78/a23054" ],
+    [ "boss_swamplord_muselek", "db/dd2/a23110.html", "db/dd2/a23110" ],
     [ "Misc", "d3/d00/a00785.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,10 +1,12 @@
 var a07078 =
 [
-    [ "ArenaLogEntryData", "d3/d86/a07078.html#a8f3ec057dd930d2f2acd7961e0cf4e5e", null ],
-    [ "Fill", "d3/d86/a07078.html#aa3cca4521431bf152550611549bf4bbe", null ],
-    [ "Acc", "d3/d86/a07078.html#aa8983930063298c86f4635d2ae3078fe", null ],
-    [ "ArenaTeamId", "d3/d86/a07078.html#ac764620c3c8a986286fd74062dac4645", null ],
-    [ "Guid", "d3/d86/a07078.html#a03b32cd44c655dcc9104aead3b76454e", null ],
-    [ "IP", "d3/d86/a07078.html#ab9f80eacfe24025a2d4947085d3f6dd7", null ],
-    [ "Name", "d3/d86/a07078.html#a5c18d554adb9e38ab10baf36c9b3fdd7", null ]
+    [ "damageText", "d3/d86/a07078.html#af83062a39d8dfc89bf61a4364bd8579d", null ],
+    [ "destroyText", "d3/d86/a07078.html#a81747f8ff920f7c17a55d45d43304cc9", null ],
+    [ "entry", "d3/d86/a07078.html#a58d0395a47190698d309e80d91358bb1", null ],
+    [ "o", "d3/d86/a07078.html#a21238943701f594e1a5346193c895d33", null ],
+    [ "type", "d3/d86/a07078.html#a3cebd422659aa7339e9a23a87cfad0d7", null ],
+    [ "WorldState", "d3/d86/a07078.html#a4b4881aba2d297e125443f0c8ccab618", null ],
+    [ "x", "d3/d86/a07078.html#a80ebabba7265753a05367a4c79f6450c", null ],
+    [ "y", "d3/d86/a07078.html#a5d8ade187749e6fc191f01b384a4cda6", null ],
+    [ "z", "d3/d86/a07078.html#a3913a2618277cc5ad382aa2fc1d00f5e", null ]
 ];

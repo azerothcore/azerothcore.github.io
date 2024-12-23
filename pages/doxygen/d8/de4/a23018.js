@@ -1,5 +1,7 @@
 var a23018 =
 [
-    [ "go_main_chambers_access_panel", "d8/de4/a23018.html#a30c3c20be1892b5107ef53683d593b75", null ],
-    [ "OnGossipHello", "d8/de4/a23018.html#af4b3a4a0260de68dcfac7202e0a728ee", null ]
+    [ "HandleScriptEffect", "d8/de4/a23018.html#ad5e905710a20436f120c979c865571c9", null ],
+    [ "PrepareSpellScript", "d8/de4/a23018.html#ab44aa98f47162b50f30622d67ac75395", null ],
+    [ "Register", "d8/de4/a23018.html#ad4c2bf1a8556b6fb85c05d3c83494fed", null ],
+    [ "Validate", "d8/de4/a23018.html#a9b1baeb7a677d5b0f72bbeeeab9a94a2", null ]
 ];

@@ -1,8 +1,8 @@
 var a27910 =
 [
-    [ "canLink", "dd/d1f/a27910.html#aff87dafee61faf5afdf6248f6f3c9a35", null ],
-    [ "categoryId", "dd/d1f/a27910.html#abf285e69e8e2a90626a157cb0c50d158", null ],
-    [ "id", "dd/d1f/a27910.html#a7740b26f1bde19a05b002c00eded25e3", null ],
-    [ "name", "dd/d1f/a27910.html#afb5e77ab4f6faa132ca62f7664dce116", null ],
-    [ "spellIcon", "dd/d1f/a27910.html#a3a20ea7c73a6739e89bd570d6f4d4b03", null ]
+    [ "areaTriggerText", "dd/d1f/a27910.html#a32bb8c4a4defce661d108627e25b645a", null ],
+    [ "Difficulty", "dd/d1f/a27910.html#add8ed75cd6aaa3412e6222b869bb4113", null ],
+    [ "MapId", "dd/d1f/a27910.html#aa107ad302ec2aa3ce2289ba392e1c32e", null ],
+    [ "maxPlayers", "dd/d1f/a27910.html#a7ab33229ffee11a27861439053c79831", null ],
+    [ "resetTime", "dd/d1f/a27910.html#a891a741efb049b51996e1a6110efc52d", null ]
 ];

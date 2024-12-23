@@ -1,6 +1,7 @@
 var a13362 =
 [
-    [ "npc_highborne_lamenterAI", "da/d92/a13366.html", "da/d92/a13366" ],
-    [ "npc_highborne_lamenter", "dd/de0/a13362.html#a40316cf73a688e34e95dd41feef8612a", null ],
-    [ "GetAI", "dd/de0/a13362.html#aad8ccb43b325b797f60a16e338458a1e", null ]
+    [ "npc_deathstalker_erlandAI", "dd/de0/a13362.html#aa3c6822db09bc40dc87d556f6b3cc880", null ],
+    [ "JustEngagedWith", "dd/de0/a13362.html#ae4789c26cbb00b4ac04d646617a48a40", null ],
+    [ "Reset", "dd/de0/a13362.html#a3def0a0dd57ed732242a09d6390ab1f0", null ],
+    [ "WaypointReached", "dd/de0/a13362.html#af200e269d3f4b51bb5cfd08e9bf7ecc5", null ]
 ];

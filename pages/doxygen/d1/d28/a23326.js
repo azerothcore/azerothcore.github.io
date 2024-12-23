@@ -1,6 +1,6 @@
 var a23326 =
 [
-    [ "npc_millhouse_manastormAI", "d4/ddf/a23330.html", "d4/ddf/a23330" ],
-    [ "npc_millhouse_manastorm", "d1/d28/a23326.html#aebc8efc48d207ad7f1105fa636b9c104", null ],
-    [ "GetAI", "d1/d28/a23326.html#ac4516785f7daf544718fc201197ba977", null ]
+    [ "PrepareSpellScript", "d1/d28/a23326.html#a5b17110b189b7134939aea9dbf2d724b", null ],
+    [ "Register", "d1/d28/a23326.html#aab0cdddfc5c8188ff246a04035b8b552", null ],
+    [ "SelectRandomPlayer", "d1/d28/a23326.html#a8a2229c61fb2eaaac3b0694008ec3ae1", null ]
 ];

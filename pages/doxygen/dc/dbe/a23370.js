@@ -1,8 +1,6 @@
 var a23370 =
 [
-    [ "boss_commander_sarannis", "dc/dbe/a23370.html#ace0957feb37f864798008849be25f607", null ],
-    [ "JustDied", "dc/dbe/a23370.html#a7796429f04c049549a4a02a1eb8d35fc", null ],
-    [ "JustEngagedWith", "dc/dbe/a23370.html#ad4273db7c169c6cfa9917dd3b76c9c95", null ],
-    [ "KilledUnit", "dc/dbe/a23370.html#a64e77321adc5eea9d3494a3e1030f9de", null ],
-    [ "ScheduleReinforcements", "dc/dbe/a23370.html#a293f0b860a66396a30c6d255eef85309", null ]
+    [ "instance_shattered_halls_InstanceMapScript", "de/d23/a23374.html", "de/d23/a23374" ],
+    [ "instance_shattered_halls", "dc/dbe/a23370.html#a9d0d3b6baec34c679151791610cff3a7", null ],
+    [ "GetInstanceScript", "dc/dbe/a23370.html#a82388466811b022a725ba721845cadf3", null ]
 ];

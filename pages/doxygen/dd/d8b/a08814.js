@@ -1,6 +1,8 @@
 var a08814 =
 [
-    [ "lang_id", "dd/d8b/a08814.html#a1fa900a467834103ac595a8a96dd28c0", null ],
-    [ "skill_id", "dd/d8b/a08814.html#a37ffc91876a998fe354ca1b7dffc512a", null ],
-    [ "spell_id", "dd/d8b/a08814.html#ac0acb5dfb8af32b382b3b51db4daa0f0", null ]
+    [ "target_mapId", "dd/d8b/a08814.html#af6d7558707c026a6d64f2d7b65a344be", null ],
+    [ "target_Orientation", "dd/d8b/a08814.html#a5f6bf883e167b683e048ce9eeebb7cb0", null ],
+    [ "target_X", "dd/d8b/a08814.html#a3ef5faea7a6fd9b173ea35036b3390b2", null ],
+    [ "target_Y", "dd/d8b/a08814.html#a6660d360eaa47098506f246927130e32", null ],
+    [ "target_Z", "dd/d8b/a08814.html#a32fee5f497804089feb738be84548dc1", null ]
 ];

@@ -1,10 +1,9 @@
 var a24086 =
 [
-    [ "npc_pet_hunter_snake_trap", "db/d2e/a24086.html#aaf5df574c4ac53661c0bb1968f84c6ea", null ],
-    [ "EnterEvadeMode", "db/d2e/a24086.html#a819add0c7b968063403d10275fdc289f", null ],
-    [ "MoveInLineOfSight", "db/d2e/a24086.html#a32d5ed7f4d436f2678b34f4a1d572721", null ],
-    [ "Reset", "db/d2e/a24086.html#a831cf6eea8bd03247cd9877d3be6e1ee", null ],
-    [ "UpdateAI", "db/d2e/a24086.html#a41a37efe6d39c6d97b3dcc5fabbcc812", null ],
-    [ "_init", "db/d2e/a24086.html#a1b5c1301389749f82667c35f3daff847", null ],
-    [ "_spellTimer", "db/d2e/a24086.html#ab9397451e2e8320ca77560a19baeee3f", null ]
+    [ "npc_pet_gen_soul_trader_beacon", "db/d2e/a24086.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
+    [ "GetOwner", "db/d2e/a24086.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
+    [ "SpellHitTarget", "db/d2e/a24086.html#a6c0d3181b913c5022325f66586f66bfa", null ],
+    [ "UpdateAI", "db/d2e/a24086.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
+    [ "events", "db/d2e/a24086.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
+    [ "ownerGUID", "db/d2e/a24086.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
 ];

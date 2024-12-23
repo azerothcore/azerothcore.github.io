@@ -1,13 +1,13 @@
 var a27378 =
 [
-    [ "npc_spring_rabbitAI", "d8/d64/a27378.html#a1211ab47dee4844b90a010c284c4f1a5", null ],
-    [ "DoAction", "d8/d64/a27378.html#a288ddb2f1ee0ab7113f1a1f34dc545c5", null ],
-    [ "JustEngagedWith", "d8/d64/a27378.html#a0c36f1dfc094007990f067544a940538", null ],
-    [ "Reset", "d8/d64/a27378.html#ac0f6b47044099016dd6453674b75b2c8", null ],
-    [ "UpdateAI", "d8/d64/a27378.html#af9da118068234755fa9219b84050d2a3", null ],
-    [ "bunnyTimer", "d8/d64/a27378.html#a99c2923194cf6a07bee8924abf98f470", null ],
-    [ "inLove", "d8/d64/a27378.html#aec8887aedf32fb4ebcc68c48f0ee0ea5", null ],
-    [ "jumpTimer", "d8/d64/a27378.html#a5c17e00187ac87b23482dfbabb89809b", null ],
-    [ "rabbitGUID", "d8/d64/a27378.html#af838b25c8442767aaef16e95022cb062", null ],
-    [ "searchTimer", "d8/d64/a27378.html#af1b82227dadf30c6c796e7b8c2abbe82", null ]
+    [ "DBCDatabaseLoader", "d8/d64/a27378.html#a2efbbd3799e5f72fecaeaf9365579482", null ],
+    [ "DBCDatabaseLoader", "d8/d64/a27378.html#a7d93e6d37796f341edcf25062743c5b5", null ],
+    [ "CloneStringToPool", "d8/d64/a27378.html#a68e5ae50c980aa81b051d0622575bb2d", null ],
+    [ "Load", "d8/d64/a27378.html#a1b116dca8b01e0462a2e6c08245a49a3", null ],
+    [ "operator=", "d8/d64/a27378.html#a46f7d5670840892f7a8714ce0b6cde13", null ],
+    [ "_dbcFormat", "d8/d64/a27378.html#aa749118514d0b784ac6df295bd820d8e", null ],
+    [ "_recordSize", "d8/d64/a27378.html#a6721538ebbcfe020fb195d44b3bdbd11", null ],
+    [ "_sqlIndexPos", "d8/d64/a27378.html#ac1b5b191615d3e3121ea70965b0d495a", null ],
+    [ "_sqlTableName", "d8/d64/a27378.html#ab6590071edf5311ccf484d48e4fd125e", null ],
+    [ "_stringPool", "d8/d64/a27378.html#a52b5b86f0efb8ad0716bc0171a3aa740", null ]
 ];

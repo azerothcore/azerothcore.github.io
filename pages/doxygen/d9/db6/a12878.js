@@ -1,10 +1,7 @@
 var a12878 =
 [
-    [ "HandleDummyTick", "d9/db6/a12878.html#a036291aee8b08212ecead4afce01adf4", null ],
-    [ "Load", "d9/db6/a12878.html#aaecea41af42790dfe9aeba3c56480668", null ],
-    [ "OnApply", "d9/db6/a12878.html#a37b425f877e7415b245c119c29521c4b", null ],
-    [ "PrepareAuraScript", "d9/db6/a12878.html#ade7bfbc3400fb620956d1e8dff7d4a8a", null ],
-    [ "Register", "d9/db6/a12878.html#a9b32995b6e324a6c779bbd742de6cce2", null ],
-    [ "Validate", "d9/db6/a12878.html#a72595ee3cd995d7bed2bcf8c9f5199fb", null ],
-    [ "_forsakenSpell", "d9/db6/a12878.html#ae2aee05482e4854120fc581ecec41f95", null ]
+    [ "boss_apothecary_hummelAI", "d5/d93/a12882.html", "d5/d93/a12882" ],
+    [ "boss_apothecary_hummel", "d9/db6/a12878.html#af1672c0b7f67d9013e3769a7009c2ee9", null ],
+    [ "GetAI", "d9/db6/a12878.html#a87a01f4d6eaac7c5e1795133e8aa1ccd", null ],
+    [ "OnQuestReward", "d9/db6/a12878.html#a86d23ff3569e5e86b8787bb3ea7816c7", null ]
 ];

@@ -1,11 +1,15 @@
 var a18766 =
 [
-    [ "boss_patchwerkAI", "d6/d7f/a18766.html#a74dfcf9ef921aa2a53d877c0e5ee9a34", null ],
-    [ "JustDied", "d6/d7f/a18766.html#aaed18187aa8e0058c70b29b1ccbe955f", null ],
-    [ "JustEngagedWith", "d6/d7f/a18766.html#a1317cb819d6247f62e0c6c725157db30", null ],
-    [ "KilledUnit", "d6/d7f/a18766.html#a17ccb5b2a1841656813a9408f5a05c4e", null ],
-    [ "Reset", "d6/d7f/a18766.html#a1d03058bf53e670f4fe9384e9f047891", null ],
-    [ "UpdateAI", "d6/d7f/a18766.html#a2db0df50a0faa88ebeaa035ea048157e", null ],
-    [ "events", "d6/d7f/a18766.html#a00c98ee5cdb3c512ba0d92a48d441006", null ],
-    [ "pInstance", "d6/d7f/a18766.html#a78a3e9a6ef289e82c3ccaedc4399607a", null ]
+    [ "boss_kelthuzad_minionAI", "d6/d7f/a18766.html#addeb3112e8b6da5713e6c25878c7e785", null ],
+    [ "AttackStart", "d6/d7f/a18766.html#ae6e2b0dd529f819b5b62348059dacb02", null ],
+    [ "DoAction", "d6/d7f/a18766.html#acd08aa78c1620f5552bbbc77c06b4344", null ],
+    [ "JustDied", "d6/d7f/a18766.html#abc6db76c9dcdbdb1c51b7f67d4c39551", null ],
+    [ "JustEngagedWith", "d6/d7f/a18766.html#a135dd028f95eeb34b2852e8dafebbe63", null ],
+    [ "JustReachedHome", "d6/d7f/a18766.html#aedfaf037ddf66d0e3aa990b4ea5b171c", null ],
+    [ "KilledUnit", "d6/d7f/a18766.html#ac8a2297a89310f4902fdc544ef71b673", null ],
+    [ "MoveInLineOfSight", "d6/d7f/a18766.html#aee871ff356bcfd38162a5f6c9bd3c994", null ],
+    [ "Reset", "d6/d7f/a18766.html#a01db0df4ec5f49d0915e90c418ebba75", null ],
+    [ "UpdateAI", "d6/d7f/a18766.html#ad60ec485144e447fd9d43b0cd5d6c87c", null ],
+    [ "callHelp", "d6/d7f/a18766.html#a6c6935e058bc18c013bc31f03f5a914b", null ],
+    [ "events", "d6/d7f/a18766.html#a2885d65bfaf345e7c3dfa42d8c80a892", null ]
 ];

@@ -1,6 +1,6 @@
 var a20634 =
 [
-    [ "achievement_yogg_saron_he_waits_dreaming", "d8/df4/a20634.html#a25f4950d1ccffe77aa9cf5de7a14ea37", null ],
-    [ "OnCheck", "d8/df4/a20634.html#a7ef7dfb0235fb2db5932e7415e3e6f61", null ],
-    [ "_requiredIllusion", "d8/df4/a20634.html#aa3e107cb3be6fa02687709e07466a094", null ]
+    [ "FilterTargets", "d8/df4/a20634.html#a7efa78a7991b7ca859c7d622f973265d", null ],
+    [ "PrepareSpellScript", "d8/df4/a20634.html#a67da98b94fe491afa06b7a0cfa92982a", null ],
+    [ "Register", "d8/df4/a20634.html#a4d2c901a32f526673e968aa5b7ca9117", null ]
 ];

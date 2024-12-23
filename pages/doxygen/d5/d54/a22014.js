@@ -1,9 +1,6 @@
 var a22014 =
 [
-    [ "HandleFinish", "d5/d54/a22014.html#a4511ae5227c3e4e931b04f2ba0d4a62e", null ],
-    [ "Load", "d5/d54/a22014.html#a6b6f6b4ab8f345199d8d2189f07df7f2", null ],
-    [ "PrepareSpellScript", "d5/d54/a22014.html#a8326b3f9f78aab65225e81d274cc37df", null ],
-    [ "Register", "d5/d54/a22014.html#a749858f56e15a0bb6074d15ba166625d", null ],
-    [ "Validate", "d5/d54/a22014.html#a64005c52e7112c466f6206b7f6c847c0", null ],
-    [ "handled", "d5/d54/a22014.html#a7afe3007a016cb553f437544f8fd6f89", null ]
+    [ "npc_vehicle_d16_propelled_deliveryAI", "db/d28/a22018.html", "db/d28/a22018" ],
+    [ "npc_vehicle_d16_propelled_delivery", "d5/d54/a22014.html#a93bed362ae78231b21327994a3e4cafd", null ],
+    [ "GetAI", "d5/d54/a22014.html#abda3dbcb251d7f1e614d089f630d0d1c", null ]
 ];

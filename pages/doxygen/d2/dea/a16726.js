@@ -1,6 +1,6 @@
 var a16726 =
 [
-    [ "npc_pos_martin_or_gorkun_secondAI", "de/d9e/a16730.html", "de/d9e/a16730" ],
-    [ "npc_pos_martin_or_gorkun_second", "d2/dea/a16726.html#a3027c88a65aa523cc99f2fa79e1e376c", null ],
-    [ "GetAI", "d2/dea/a16726.html#a180936e3bb98eb55d29ebd51350906c0", null ]
+    [ "instance_pit_of_saron_InstanceScript", "de/d9e/a16730.html", "de/d9e/a16730" ],
+    [ "instance_pit_of_saron", "d2/dea/a16726.html#a84526dbb5ac7eb6ff5ebe24ed339826b", null ],
+    [ "GetInstanceScript", "d2/dea/a16726.html#a2a1bc125bfe653a1da8b8c36b86aae67", null ]
 ];

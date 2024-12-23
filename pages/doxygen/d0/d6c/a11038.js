@@ -1,6 +1,7 @@
 var a11038 =
 [
-    [ "EffectBase", "d0/d6c/a11038.html#ab02f9f344e2f32ad59b35993d5c8f819", null ],
-    [ "CheckEffect", "d0/d6c/a11038.html#a8c300ca68c3ff6f74b230835c566fd60", null ],
-    [ "ToString", "d0/d6c/a11038.html#ab6f5b2a7ec1183206110eac9a21a7de5", null ]
+    [ "EffectAuraNameCheck", "d0/d6c/a11038.html#a4b10ec0fcb3ffd841cf790574875017d", null ],
+    [ "Check", "d0/d6c/a11038.html#a7fff405a99c65d3e846463ca29a8ddfd", null ],
+    [ "ToString", "d0/d6c/a11038.html#a602fc1ddafe663e2e5ddceaeaec8b118", null ],
+    [ "effAurName", "d0/d6c/a11038.html#abcf90ed5a832b5fe5ce3913a812da05d", null ]
 ];

@@ -1,12 +1,7 @@
 var a11914 =
 [
-    [ "go_suppression_deviceAI", "d8/d78/a11914.html#a32767442eeabab896032333e42d3e496", null ],
-    [ "Activate", "d8/d78/a11914.html#aa52ca9fb60793e33ae3fe911cd4be379", null ],
-    [ "Deactivate", "d8/d78/a11914.html#aec459270ff4965b79430c5bb66cb18f6", null ],
-    [ "DoAction", "d8/d78/a11914.html#a60bcafdf76e6735756a43c780bda7baf", null ],
-    [ "InitializeAI", "d8/d78/a11914.html#a1dd83a1e393ef47d8bd4917aff5df13f", null ],
-    [ "UpdateAI", "d8/d78/a11914.html#afaa70c968a0994fbcd01dd40b6d060a5", null ],
-    [ "_active", "d8/d78/a11914.html#a00fb57e180148622e564712611705218", null ],
-    [ "_events", "d8/d78/a11914.html#a0c6436834b4aca4bed2a8361941c553c", null ],
-    [ "_instance", "d8/d78/a11914.html#a69dbc36ce80cf12cdcee5c42fe4f0a72", null ]
+    [ "boss_warmastervooneAI", "d8/d78/a11914.html#aa22519c8d3037cf07c275080b9bedcaf", null ],
+    [ "DamageTaken", "d8/d78/a11914.html#adce28de25fa74557000d60188346e2d2", null ],
+    [ "ExecuteEvent", "d8/d78/a11914.html#ac9dc6ef78503a87ea68d0e232b0376da", null ],
+    [ "JustEngagedWith", "d8/d78/a11914.html#ac419c5118a45264e24e391f7575d90fb", null ]
 ];

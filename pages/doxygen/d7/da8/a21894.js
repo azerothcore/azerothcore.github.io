@@ -1,12 +1,15 @@
 var a21894 =
 [
-    [ "npc_time_lost_proto_drakeAI", "d7/da8/a21894.html#ab98805519233eda932c6131aca059a8b", null ],
-    [ "JustEngagedWith", "d7/da8/a21894.html#a14f41b30451b8ac8fe2411ec7102ae81", null ],
-    [ "Reset", "d7/da8/a21894.html#a418ea9621040e3c717c4e24f73539f44", null ],
-    [ "RollPath", "d7/da8/a21894.html#aabb3dd1d54a1290d500429efc8fa9e41", null ],
-    [ "UpdateEscortAI", "d7/da8/a21894.html#a1a5442a5796b27d04eaa3ab62c613199", null ],
-    [ "WaypointReached", "d7/da8/a21894.html#ad262b9dbc0edd2bac126fafbb5eb5f01", null ],
-    [ "events", "d7/da8/a21894.html#aa2e4c3396d63d85a5d0abc8c74e58a79", null ],
-    [ "rollPath", "d7/da8/a21894.html#a5431fd5a0801569bc03507818461aa7d", null ],
-    [ "setVisible", "d7/da8/a21894.html#a63558b3406c241ecb27f3e485eeb439b", null ]
+    [ "npc_jungle_punch_targetAI", "d7/da8/a21894.html#a04f09361f6bc4bc752ca773878187f79", null ],
+    [ "MoveInLineOfSight", "d7/da8/a21894.html#adc08551a256220bab144ef26d89c4263", null ],
+    [ "proceedCwEvent", "d7/da8/a21894.html#a54f8a5c7414f4a9fd019e02fede1970d", null ],
+    [ "Reset", "d7/da8/a21894.html#a56faff3edbe0d13969e8d20e6c3e03a2", null ],
+    [ "SpellHit", "d7/da8/a21894.html#a3515e873adf5a097f66764887e3cc5a3", null ],
+    [ "UpdateAI", "d7/da8/a21894.html#afa2a1bcdeef51e9f984307f576a1ff6e", null ],
+    [ "orphanGUID", "d7/da8/a21894.html#a5947a4415b63f8bbda4d53c44ccebf74", null ],
+    [ "phase", "d7/da8/a21894.html#a737a9016c93d621bf8cfa29d6b66b345", null ],
+    [ "playerGUID", "d7/da8/a21894.html#afbb4e4c74c2634a442171f06bb2eff08", null ],
+    [ "sayStep", "d7/da8/a21894.html#a1b1757dd6e0775f1f4791b4feafd86fb", null ],
+    [ "sayTimer", "d7/da8/a21894.html#a4edf558dbc54ff1acab15d6daf0a5613", null ],
+    [ "timer", "d7/da8/a21894.html#a0fa884bf3003267501f048d3f1287d42", null ]
 ];

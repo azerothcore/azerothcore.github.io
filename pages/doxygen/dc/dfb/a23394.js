@@ -1,10 +1,14 @@
 var a23394 =
 [
-    [ "boss_thorngrin_the_tender", "dc/dfb/a23394.html#ad960b1084fc08d2870975c7c6c44ab2b", null ],
-    [ "JustDied", "dc/dfb/a23394.html#a4bc13108f7cb240fedb44ccae2b54047", null ],
-    [ "JustEngagedWith", "dc/dfb/a23394.html#a647ed5b29861b719d3c4a11fd110c512", null ],
-    [ "KilledUnit", "dc/dfb/a23394.html#ab3731c5b56e1c01aa5d78d84a5e60234", null ],
-    [ "MoveInLineOfSight", "dc/dfb/a23394.html#a9467e59287b3e917907de82507d1a16d", null ],
-    [ "Reset", "dc/dfb/a23394.html#af3f1471cbcdadfe3a86421d7232fb4b9", null ],
-    [ "_intro", "dc/dfb/a23394.html#a48fc89c7e9814d90a8724ca38c5e2fe8", null ]
+    [ "npc_warden_mellicharAI", "dc/dfb/a23394.html#a3486b015ccb8fecfe5e215f45e45f15e", null ],
+    [ "AttackStart", "dc/dfb/a23394.html#a2b16dc3ad358e4179fe20e2066ba5c64", null ],
+    [ "DamageTaken", "dc/dfb/a23394.html#a07e7b215ed7653fe7e1ee44d34a74bbd", null ],
+    [ "JustDied", "dc/dfb/a23394.html#a867404a125aeb4ee3332a4e2b5a8f547", null ],
+    [ "JustEngagedWith", "dc/dfb/a23394.html#ad584a3c2dd8f108cc9b4e66a6917f97b", null ],
+    [ "JustSummoned", "dc/dfb/a23394.html#a3fe95a64b640fb61459da2c8621fbc9c", null ],
+    [ "MoveInLineOfSight", "dc/dfb/a23394.html#aa4edaf9534e7232526fd9c7bd097b7c4", null ],
+    [ "Reset", "dc/dfb/a23394.html#aebd55a8e6e618e4dc37cf253c60c3a94", null ],
+    [ "SetData", "dc/dfb/a23394.html#a0d0e8d1af5179aea73aa60e060ba751a", null ],
+    [ "SummonedCreatureDies", "dc/dfb/a23394.html#a58e1011986be65725d4db3d782bc72ac", null ],
+    [ "UpdateAI", "dc/dfb/a23394.html#a944cff5367213d561a7e6df5faf2a216", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: PlayerClassInfo Struct Reference</title>
+<title>AzerothCore: UpdateMask Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,29 +105,111 @@ $(document).ready(function(){initNavTree('d0/dc4/a08318.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../da/d36/a08315.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PlayerClassInfo Struct Reference</div></div>
+  <div class="headertitle"><div class="title">UpdateMask Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">UpdateMask.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a667c2f210ee4a2417a2a3ba486d1332f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332f">UpdateMaskCount</a> { <a class="el" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> = sizeof(ClientUpdateMaskType) * 8
+ }</td></tr>
+<tr class="separator:a667c2f210ee4a2417a2a3ba486d1332f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7638c508cfb0f5480eec2f9d650b0eb4"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">ClientUpdateMaskType</a></td></tr>
+<tr class="memdesc:a7638c508cfb0f5480eec2f9d650b0eb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Type representing how client reads update mask.  <a href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">More...</a><br /></td></tr>
+<tr class="separator:a7638c508cfb0f5480eec2f9d650b0eb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a6a0a6db24e144593356e0505946e8f06"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a6a0a6db24e144593356e0505946e8f06">PlayerClassInfo</a> ()=default</td></tr>
-<tr class="separator:a6a0a6db24e144593356e0505946e8f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72e9de07108361222addde025ea8362f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a72e9de07108361222addde025ea8362f">UpdateMask</a> ()=default</td></tr>
+<tr class="separator:a72e9de07108361222addde025ea8362f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0cefda1282f8c29a6557e1c25e007de"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#ae0cefda1282f8c29a6557e1c25e007de">UpdateMask</a> (<a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;right)</td></tr>
+<tr class="separator:ae0cefda1282f8c29a6557e1c25e007de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986a2b81e0b4f86486ccc455ff6ad79a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a986a2b81e0b4f86486ccc455ff6ad79a">~UpdateMask</a> ()</td></tr>
+<tr class="separator:a986a2b81e0b4f86486ccc455ff6ad79a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3390cfa31c39629968a871be2c763fc"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#af3390cfa31c39629968a871be2c763fc">SetBit</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> index)</td></tr>
+<tr class="separator:af3390cfa31c39629968a871be2c763fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaac0596975c08d04736996c608eff29f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#aaac0596975c08d04736996c608eff29f">UnsetBit</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> index)</td></tr>
+<tr class="separator:aaac0596975c08d04736996c608eff29f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69f7c72de49699d5730f3a10d55f30e2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a69f7c72de49699d5730f3a10d55f30e2">GetBit</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> index) const</td></tr>
+<tr class="separator:a69f7c72de49699d5730f3a10d55f30e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe89109ca16f687072062408e311f793"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#afe89109ca16f687072062408e311f793">AppendToPacket</a> (<a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a> *data)</td></tr>
+<tr class="separator:afe89109ca16f687072062408e311f793"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5c0d2086346e4522e422add9622e1117"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a5c0d2086346e4522e422add9622e1117">GetBlockCount</a> () const</td></tr>
+<tr class="separator:a5c0d2086346e4522e422add9622e1117"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f6e2b930533b303c173166bf3588613"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a1f6e2b930533b303c173166bf3588613">GetCount</a> () const</td></tr>
+<tr class="separator:a1f6e2b930533b303c173166bf3588613"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad6ec4d5a2b6a85a2ec72b559efbdeb35"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">SetCount</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> valuesCount)</td></tr>
+<tr class="separator:ad6ec4d5a2b6a85a2ec72b559efbdeb35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39cffd3822966011d83d7241ee3c5548"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a39cffd3822966011d83d7241ee3c5548">Clear</a> ()</td></tr>
+<tr class="separator:a39cffd3822966011d83d7241ee3c5548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c94144194d52a00888b8bb0760e2d5a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a3c94144194d52a00888b8bb0760e2d5a">operator=</a> (<a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;right)</td></tr>
+<tr class="separator:a3c94144194d52a00888b8bb0760e2d5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af15db8c732b94437fd1323a911eab5ce"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#af15db8c732b94437fd1323a911eab5ce">operator&amp;=</a> (<a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;right)</td></tr>
+<tr class="separator:af15db8c732b94437fd1323a911eab5ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a81b64e6574c61533b07491920eddf413"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a81b64e6574c61533b07491920eddf413">operator|=</a> (<a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;right)</td></tr>
+<tr class="separator:a81b64e6574c61533b07491920eddf413"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a487d62a6a039803da615d265a176f138"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a487d62a6a039803da615d265a176f138">operator|</a> (<a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;right)</td></tr>
+<tr class="separator:a487d62a6a039803da615d265a176f138"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:aa234b353361ef0017ec974ca4c8e86f1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../da/dfc/a08314.html">PlayerClassLevelInfo</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#aa234b353361ef0017ec974ca4c8e86f1">levelInfo</a> {nullptr}</td></tr>
-<tr class="separator:aa234b353361ef0017ec974ca4c8e86f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a6c7ed53833620c2754b1e0db85a96ece"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a> {0}</td></tr>
+<tr class="separator:a6c7ed53833620c2754b1e0db85a96ece"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58cc5d2dbf8854f36ef4a19f5b6f51b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> {0}</td></tr>
+<tr class="separator:ad58cc5d2dbf8854f36ef4a19f5b6f51b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab34e66bf840ac230da0cfa35ef332145"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a> {nullptr}</td></tr>
+<tr class="separator:ab34e66bf840ac230da0cfa35ef332145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a6a0a6db24e144593356e0505946e8f06" name="a6a0a6db24e144593356e0505946e8f06"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a0a6db24e144593356e0505946e8f06">&#9670;&#160;</a></span>PlayerClassInfo()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a7638c508cfb0f5480eec2f9d650b0eb4" name="a7638c508cfb0f5480eec2f9d650b0eb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7638c508cfb0f5480eec2f9d650b0eb4">&#9670;&#160;</a></span>ClientUpdateMaskType</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">UpdateMask::ClientUpdateMaskType</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Type representing how client reads update mask. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Enumeration Documentation</h2>
+<a id="a667c2f210ee4a2417a2a3ba486d1332f" name="a667c2f210ee4a2417a2a3ba486d1332f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a667c2f210ee4a2417a2a3ba486d1332f">&#9670;&#160;</a></span>UpdateMaskCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332f">UpdateMask::UpdateMaskCount</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b" name="a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b"></a>CLIENT_UPDATE_MASK_BITS&#160;</td><td class="fielddoc"></td></tr>
+</table>
+<div class="fragment"><div class="line"><span class="lineno">   31</span>    {</div>
+<div class="line"><span class="lineno">   32</span>        <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> = <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">ClientUpdateMaskType</a>) * 8,</div>
+<div class="line"><span class="lineno">   33</span>    };</div>
+<div class="ttc" id="aa08318_html_a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b"><div class="ttname"><a href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">UpdateMask::CLIENT_UPDATE_MASK_BITS</a></div><div class="ttdeci">@ CLIENT_UPDATE_MASK_BITS</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:32</div></div>
+<div class="ttc" id="aa08318_html_a7638c508cfb0f5480eec2f9d650b0eb4"><div class="ttname"><a href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">UpdateMask::ClientUpdateMaskType</a></div><div class="ttdeci">uint32 ClientUpdateMaskType</div><div class="ttdoc">Type representing how client reads update mask.</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:28</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a72e9de07108361222addde025ea8362f" name="a72e9de07108361222addde025ea8362f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72e9de07108361222addde025ea8362f">&#9670;&#160;</a></span>UpdateMask() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -136,7 +218,7 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PlayerClassInfo::PlayerClassInfo </td>
+          <td class="memname">UpdateMask::UpdateMask </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -151,20 +233,550 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="aa234b353361ef0017ec974ca4c8e86f1" name="aa234b353361ef0017ec974ca4c8e86f1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa234b353361ef0017ec974ca4c8e86f1">&#9670;&#160;</a></span>levelInfo</h2>
+<a id="ae0cefda1282f8c29a6557e1c25e007de" name="ae0cefda1282f8c29a6557e1c25e007de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0cefda1282f8c29a6557e1c25e007de">&#9670;&#160;</a></span>UpdateMask() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../da/dfc/a08314.html">PlayerClassLevelInfo</a>* PlayerClassInfo::levelInfo {nullptr}</td>
+          <td class="memname">UpdateMask::UpdateMask </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   38</span>    {</div>
+<div class="line"><span class="lineno">   39</span>        <a class="code hl_function" href="../../d0/dc4/a08318.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">SetCount</a>(right.GetCount());</div>
+<div class="line"><span class="lineno">   40</span>        memcpy(<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, right._bits, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * 32);</div>
+<div class="line"><span class="lineno">   41</span>    }</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa08318_html_ab34e66bf840ac230da0cfa35ef332145"><div class="ttname"><a href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">UpdateMask::_bits</a></div><div class="ttdeci">uint8 * _bits</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:120</div></div>
+<div class="ttc" id="aa08318_html_ad58cc5d2dbf8854f36ef4a19f5b6f51b"><div class="ttname"><a href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">UpdateMask::_blockCount</a></div><div class="ttdeci">uint32 _blockCount</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:119</div></div>
+<div class="ttc" id="aa08318_html_ad6ec4d5a2b6a85a2ec72b559efbdeb35"><div class="ttname"><a href="../../d0/dc4/a08318.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">UpdateMask::SetCount</a></div><div class="ttdeci">void SetCount(uint32 valuesCount)</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:65</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00119">_blockCount</a>, <a class="el" href="../../#l00063">GetCount()</a>, and <a class="el" href="../../#l00065">SetCount()</a>.</p>
+
+</div>
+</div>
+<a id="a986a2b81e0b4f86486ccc455ff6ad79a" name="a986a2b81e0b4f86486ccc455ff6ad79a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986a2b81e0b4f86486ccc455ff6ad79a">&#9670;&#160;</a></span>~UpdateMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">UpdateMask::~UpdateMask </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{ <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="afe89109ca16f687072062408e311f793" name="afe89109ca16f687072062408e311f793"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe89109ca16f687072062408e311f793">&#9670;&#160;</a></span>AppendToPacket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateMask::AppendToPacket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a> *&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   50</span>    {</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_function" href="../../d0/dc4/a08318.html#a5c0d2086346e4522e422add9622e1117">GetBlockCount</a>(); ++i)</div>
+<div class="line"><span class="lineno">   52</span>        {</div>
+<div class="line"><span class="lineno">   53</span>            <a class="code hl_typedef" href="../../d0/dc4/a08318.html#a7638c508cfb0f5480eec2f9d650b0eb4">ClientUpdateMaskType</a> maskPart = 0;</div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> j = 0; j &lt; <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>; ++j)</div>
+<div class="line"><span class="lineno">   55</span>                <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[<a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> * i + j])</div>
+<div class="line"><span class="lineno">   56</span>                    maskPart |= 1 &lt;&lt; j;</div>
+<div class="line"><span class="lineno">   57</span> </div>
+<div class="line"><span class="lineno">   58</span>            *data &lt;&lt; maskPart;</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="line"><span class="lineno">   60</span>    }</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa08318_html_a5c0d2086346e4522e422add9622e1117"><div class="ttname"><a href="../../d0/dc4/a08318.html#a5c0d2086346e4522e422add9622e1117">UpdateMask::GetBlockCount</a></div><div class="ttdeci">uint32 GetBlockCount() const</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:62</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00032">CLIENT_UPDATE_MASK_BITS</a>, and <a class="el" href="../../#l00062">GetBlockCount()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00497">Object::BuildValuesUpdate()</a>, <a class="el" href="../../#l00200">Corpse::BuildValuesUpdate()</a>, <a class="el" href="../../#l02742">GameObject::BuildValuesUpdate()</a>, and <a class="el" href="../../#l20710">Unit::BuildValuesUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="a39cffd3822966011d83d7241ee3c5548" name="a39cffd3822966011d83d7241ee3c5548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39cffd3822966011d83d7241ee3c5548">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateMask::Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   77</span>    {</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>)</div>
+<div class="line"><span class="lineno">   79</span>            memset(<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   80</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00119">_blockCount</a>, and <a class="el" href="../../#l00032">CLIENT_UPDATE_MASK_BITS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00533">Object::ClearUpdateMask()</a>.</p>
+
+</div>
+</div>
+<a id="a69f7c72de49699d5730f3a10d55f30e2" name="a69f7c72de49699d5730f3a10d55f30e2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69f7c72de49699d5730f3a10d55f30e2">&#9670;&#160;</a></span>GetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UpdateMask::GetBit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] != 0; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00497">Object::BuildValuesUpdate()</a>, <a class="el" href="../../#l00200">Corpse::BuildValuesUpdate()</a>, <a class="el" href="../../#l02742">GameObject::BuildValuesUpdate()</a>, and <a class="el" href="../../#l20710">Unit::BuildValuesUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="a5c0d2086346e4522e422add9622e1117" name="a5c0d2086346e4522e422add9622e1117"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5c0d2086346e4522e422add9622e1117">&#9670;&#160;</a></span>GetBlockCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UpdateMask::GetBlockCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   62</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00119">_blockCount</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00049">AppendToPacket()</a>, <a class="el" href="../../#l00497">Object::BuildValuesUpdate()</a>, <a class="el" href="../../#l00200">Corpse::BuildValuesUpdate()</a>, <a class="el" href="../../#l02742">GameObject::BuildValuesUpdate()</a>, and <a class="el" href="../../#l20710">Unit::BuildValuesUpdate()</a>.</p>
+
+</div>
+</div>
+<a id="a1f6e2b930533b303c173166bf3588613" name="a1f6e2b930533b303c173166bf3588613"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f6e2b930533b303c173166bf3588613">&#9670;&#160;</a></span>GetCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UpdateMask::GetCount </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; }</div>
+<div class="ttc" id="aa08318_html_a6c7ed53833620c2754b1e0db85a96ece"><div class="ttname"><a href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">UpdateMask::_fieldCount</a></div><div class="ttdeci">uint32 _fieldCount</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:118</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00118">_fieldCount</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00092">operator&amp;=()</a>, <a class="el" href="../../#l00082">operator=()</a>, <a class="el" href="../../#l00101">operator|=()</a>, and <a class="el" href="../../#l00037">UpdateMask()</a>.</p>
+
+</div>
+</div>
+<a id="af15db8c732b94437fd1323a911eab5ce" name="af15db8c732b94437fd1323a911eab5ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af15db8c732b94437fd1323a911eab5ce">&#9670;&#160;</a></span>operator&amp;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp; UpdateMask::operator&amp;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   93</span>    {</div>
+<div class="line"><span class="lineno">   94</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(right.GetCount() &lt;= <a class="code hl_function" href="../../d0/dc4/a08318.html#a1f6e2b930533b303c173166bf3588613">GetCount</a>());</div>
+<div class="line"><span class="lineno">   95</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">   96</span>            <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[i] &amp;= right._bits[i];</div>
+<div class="line"><span class="lineno">   97</span> </div>
+<div class="line"><span class="lineno">   98</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   99</span>    }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa08318_html_a1f6e2b930533b303c173166bf3588613"><div class="ttname"><a href="../../d0/dc4/a08318.html#a1f6e2b930533b303c173166bf3588613">UpdateMask::GetCount</a></div><div class="ttdeci">uint32 GetCount() const</div><div class="ttdef"><b>Definition:</b> UpdateMask.h:63</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00118">_fieldCount</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00063">GetCount()</a>.</p>
+
+</div>
+</div>
+<a id="a3c94144194d52a00888b8bb0760e2d5a" name="a3c94144194d52a00888b8bb0760e2d5a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c94144194d52a00888b8bb0760e2d5a">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp; UpdateMask::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   83</span>    {</div>
+<div class="line"><span class="lineno">   84</span>        <span class="keywordflow">if</span> (<span class="keyword">this</span> == &amp;right)</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   86</span> </div>
+<div class="line"><span class="lineno">   87</span>        <a class="code hl_function" href="../../d0/dc4/a08318.html#ad6ec4d5a2b6a85a2ec72b559efbdeb35">SetCount</a>(right.GetCount());</div>
+<div class="line"><span class="lineno">   88</span>        memcpy(<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, right._bits, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00119">_blockCount</a>, <a class="el" href="../../#l00032">CLIENT_UPDATE_MASK_BITS</a>, <a class="el" href="../../#l00063">GetCount()</a>, and <a class="el" href="../../#l00065">SetCount()</a>.</p>
+
+</div>
+</div>
+<a id="a487d62a6a039803da615d265a176f138" name="a487d62a6a039803da615d265a176f138"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a487d62a6a039803da615d265a176f138">&#9670;&#160;</a></span>operator|()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> UpdateMask::operator| </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  111</span>    {</div>
+<div class="line"><span class="lineno">  112</span>        <a class="code hl_class" href="../../d0/dc4/a08318.html">UpdateMask</a> ret(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">  113</span>        ret |= right;</div>
+<div class="line"><span class="lineno">  114</span>        <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  115</span>    }</div>
+<div class="ttc" id="aa08318_html"><div class="ttname"><a href="../../d0/dc4/a08318.html">UpdateMask</a></div><div class="ttdef"><b>Definition:</b> UpdateMask.h:25</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a81b64e6574c61533b07491920eddf413" name="a81b64e6574c61533b07491920eddf413"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81b64e6574c61533b07491920eddf413">&#9670;&#160;</a></span>operator|=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> &amp; UpdateMask::operator|= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  102</span>    {</div>
+<div class="line"><span class="lineno">  103</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(right.GetCount() &lt;= <a class="code hl_function" href="../../d0/dc4/a08318.html#a1f6e2b930533b303c173166bf3588613">GetCount</a>());</div>
+<div class="line"><span class="lineno">  104</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> i = 0; i &lt; <a class="code hl_variable" href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a>; ++i)</div>
+<div class="line"><span class="lineno">  105</span>            <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[i] |= right._bits[i];</div>
+<div class="line"><span class="lineno">  106</span> </div>
+<div class="line"><span class="lineno">  107</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  108</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00118">_fieldCount</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00063">GetCount()</a>.</p>
+
+</div>
+</div>
+<a id="af3390cfa31c39629968a871be2c763fc" name="af3390cfa31c39629968a871be2c763fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3390cfa31c39629968a871be2c763fc">&#9670;&#160;</a></span>SetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateMask::SetBit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{ <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] = 1; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00612">Object::_LoadIntoDataField()</a>, <a class="el" href="../../#l00686">Object::AddGuidValue()</a>, <a class="el" href="../../#l00497">Object::BuildValuesUpdate()</a>, <a class="el" href="../../#l00200">Corpse::BuildValuesUpdate()</a>, <a class="el" href="../../#l02742">GameObject::BuildValuesUpdate()</a>, <a class="el" href="../../#l20710">Unit::BuildValuesUpdate()</a>, <a class="el" href="../../#l02078">Object::ForceValuesUpdateAtIndex()</a>, <a class="el" href="../../#l00930">Object::RemoveByteFlag()</a>, <a class="el" href="../../#l00860">Object::RemoveFlag()</a>, <a class="el" href="../../#l00704">Object::RemoveGuidValue()</a>, <a class="el" href="../../#l00911">Object::SetByteFlag()</a>, <a class="el" href="../../#l00750">Object::SetByteValue()</a>, <a class="el" href="../../#l00845">Object::SetFlag()</a>, <a class="el" href="../../#l00737">Object::SetFloatValue()</a>, <a class="el" href="../../#l00723">Object::SetGuidValue()</a>, <a class="el" href="../../#l00637">Object::SetInt32Value()</a>, <a class="el" href="../../#l00770">Object::SetUInt16Value()</a>, <a class="el" href="../../#l00650">Object::SetUInt32Value()</a>, <a class="el" href="../../#l00671">Object::SetUInt64Value()</a>, and <a class="el" href="../../#l00663">Object::UpdateUInt32Value()</a>.</p>
+
+</div>
+</div>
+<a id="ad6ec4d5a2b6a85a2ec72b559efbdeb35" name="ad6ec4d5a2b6a85a2ec72b559efbdeb35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6ec4d5a2b6a85a2ec72b559efbdeb35">&#9670;&#160;</a></span>SetCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateMask::SetCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>valuesCount</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <span class="keyword">delete</span>[] <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>;</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>        <a class="code hl_variable" href="../../d0/dc4/a08318.html#a6c7ed53833620c2754b1e0db85a96ece">_fieldCount</a> = valuesCount;</div>
+<div class="line"><span class="lineno">   70</span>        <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> = (valuesCount + <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a> - 1) / <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>        <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a> = <span class="keyword">new</span> <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>[<a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>];</div>
+<div class="line"><span class="lineno">   73</span>        memset(<a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>, 0, <span class="keyword">sizeof</span>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) * <a class="code hl_variable" href="../../d0/dc4/a08318.html#ad58cc5d2dbf8854f36ef4a19f5b6f51b">_blockCount</a> * <a class="code hl_enumvalue" href="../../d0/dc4/a08318.html#a667c2f210ee4a2417a2a3ba486d1332fac06e5fd027ae17cd4eaf7faa2580098b">CLIENT_UPDATE_MASK_BITS</a>);</div>
+<div class="line"><span class="lineno">   74</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>, <a class="el" href="../../#l00119">_blockCount</a>, <a class="el" href="../../#l00118">_fieldCount</a>, and <a class="el" href="../../#l00032">CLIENT_UPDATE_MASK_BITS</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00124">Object::_InitValues()</a>, <a class="el" href="../../#l00497">Object::BuildValuesUpdate()</a>, <a class="el" href="../../#l00200">Corpse::BuildValuesUpdate()</a>, <a class="el" href="../../#l02742">GameObject::BuildValuesUpdate()</a>, <a class="el" href="../../#l20710">Unit::BuildValuesUpdate()</a>, <a class="el" href="../../#l00082">operator=()</a>, and <a class="el" href="../../#l00037">UpdateMask()</a>.</p>
+
+</div>
+</div>
+<a id="aaac0596975c08d04736996c608eff29f" name="aaac0596975c08d04736996c608eff29f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaac0596975c08d04736996c608eff29f">&#9670;&#160;</a></span>UnsetBit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateMask::UnsetBit </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>index</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{ <a class="code hl_variable" href="../../d0/dc4/a08318.html#ab34e66bf840ac230da0cfa35ef332145">_bits</a>[index] = 0; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00120">_bits</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l15460">Unit::SetLevel()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="ab34e66bf840ac230da0cfa35ef332145" name="ab34e66bf840ac230da0cfa35ef332145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab34e66bf840ac230da0cfa35ef332145">&#9670;&#160;</a></span>_bits</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>* UpdateMask::_bits {nullptr}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l04304">ObjectMgr::GetPlayerClassLevelInfo()</a>, <a class="el" href="../../#l03683">ObjectMgr::LoadPlayerInfo()</a>, and <a class="el" href="../../#l00316">ObjectMgr::~ObjectMgr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00049">AppendToPacket()</a>, <a class="el" href="../../#l00076">Clear()</a>, <a class="el" href="../../#l00047">GetBit()</a>, <a class="el" href="../../#l00092">operator&amp;=()</a>, <a class="el" href="../../#l00082">operator=()</a>, <a class="el" href="../../#l00101">operator|=()</a>, <a class="el" href="../../#l00045">SetBit()</a>, <a class="el" href="../../#l00065">SetCount()</a>, <a class="el" href="../../#l00046">UnsetBit()</a>, <a class="el" href="../../#l00037">UpdateMask()</a>, and <a class="el" href="../../#l00043">~UpdateMask()</a>.</p>
+
+</div>
+</div>
+<a id="ad58cc5d2dbf8854f36ef4a19f5b6f51b" name="ad58cc5d2dbf8854f36ef4a19f5b6f51b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad58cc5d2dbf8854f36ef4a19f5b6f51b">&#9670;&#160;</a></span>_blockCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UpdateMask::_blockCount {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00076">Clear()</a>, <a class="el" href="../../#l00062">GetBlockCount()</a>, <a class="el" href="../../#l00082">operator=()</a>, <a class="el" href="../../#l00065">SetCount()</a>, and <a class="el" href="../../#l00037">UpdateMask()</a>.</p>
+
+</div>
+</div>
+<a id="a6c7ed53833620c2754b1e0db85a96ece" name="a6c7ed53833620c2754b1e0db85a96ece"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c7ed53833620c2754b1e0db85a96ece">&#9670;&#160;</a></span>_fieldCount</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UpdateMask::_fieldCount {0}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00063">GetCount()</a>, <a class="el" href="../../#l00092">operator&amp;=()</a>, <a class="el" href="../../#l00101">operator|=()</a>, and <a class="el" href="../../#l00065">SetCount()</a>.</p>
 
 </div>
 </div>
@@ -173,8 +785,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/dc4/a08318.html">PlayerClassInfo</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d0/dc4/a08318.html">UpdateMask</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

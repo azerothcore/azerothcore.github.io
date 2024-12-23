@@ -1,7 +1,6 @@
 var a26786 =
 [
-    [ "HandlePeriodic", "d1/d91/a26786.html#a3da4cc5322f2e34244729fe3b3876482", null ],
-    [ "PrepareAuraScript", "d1/d91/a26786.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
-    [ "Register", "d1/d91/a26786.html#a53b6067f46912648413fc6d6f107b0d8", null ],
-    [ "Validate", "d1/d91/a26786.html#aa03222717b3c06316b232a6ac0270ec0", null ]
+    [ "npc_dream_fogAI", "de/d1d/a26790.html", "de/d1d/a26790" ],
+    [ "npc_dream_fog", "d1/d91/a26786.html#ae50306be88f15c9dfc4d0f12c63c68e6", null ],
+    [ "GetAI", "d1/d91/a26786.html#a48c45fec086e3a50462deed44734ba38", null ]
 ];

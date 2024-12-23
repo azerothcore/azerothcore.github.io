@@ -1,7 +1,11 @@
 var a14194 =
 [
-    [ "HandleScript", "de/d24/a14194.html#adc8ab610e3b816dcce57fe44b6585bdb", null ],
-    [ "PrepareSpellScript", "de/d24/a14194.html#a05059d25127cd8d3aa51e4374963f9d9", null ],
-    [ "Register", "de/d24/a14194.html#aabe7d4213bbafdb6d072ba50bcfd1793", null ],
-    [ "Validate", "de/d24/a14194.html#aa1e74de390a8b71e43e43664981a36ff", null ]
+    [ "HandleFinish", "de/d24/a14194.html#ace3a2ad0cf8ac31f7ef5345f1dbbf6e7", null ],
+    [ "HandleScript", "de/d24/a14194.html#a2a2f005c29f0381c3c45d04a75ccc378", null ],
+    [ "Load", "de/d24/a14194.html#a177ea78202f4d5b4c381f1712b01fe43", null ],
+    [ "PrepareSpellScript", "de/d24/a14194.html#a9714f48de3982feb245f78efb8008f1b", null ],
+    [ "Register", "de/d24/a14194.html#ad24c159a0dcfb86eb35a4286f606a3ab", null ],
+    [ "ThrowNextTorch", "de/d24/a14194.html#a6ea11852ede397c1ede1ebaabb906c35", null ],
+    [ "Validate", "de/d24/a14194.html#a026fbf7123f6780459c19ff04b370b08", null ],
+    [ "handled", "de/d24/a14194.html#a869fde9e5d0756d3c68a8db3e10ad50d", null ]
 ];

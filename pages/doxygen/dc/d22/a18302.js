@@ -1,15 +1,6 @@
 var a18302 =
 [
-    [ "npc_frostwing_vrykulAI", "dc/d22/a18302.html#ab68f844aa58f5d22586ba6d7526fc7ae", null ],
-    [ "AttackStart", "dc/d22/a18302.html#a42a53fedc36aa71f52900a416e414fc6", null ],
-    [ "CanAIAttack", "dc/d22/a18302.html#a91300d1178a2b433bd8830ec1066368e", null ],
-    [ "JustEngagedWith", "dc/d22/a18302.html#abc75688914cd4f984448dd3f21527d89", null ],
-    [ "JustSummoned", "dc/d22/a18302.html#a116908f5689d6d75570379f13ed0bd90", null ],
-    [ "Reset", "dc/d22/a18302.html#a4baa20089b50acee617c4b85bc6b8478", null ],
-    [ "SpellHitTarget", "dc/d22/a18302.html#a645dd6d85676cdd7ec1845c184dd2f93", null ],
-    [ "UpdateAI", "dc/d22/a18302.html#a810d1b1829623836f88b5a3ddfc277c5", null ],
-    [ "events", "dc/d22/a18302.html#accae0992a349361d85200863f5ac4f81", null ],
-    [ "events2", "dc/d22/a18302.html#a16682657d7cfb03ccd9f31d481c7af83", null ],
-    [ "isRanged", "dc/d22/a18302.html#a6f2e29ca9c859fe96648a2b55ccb773f", null ],
-    [ "summons", "dc/d22/a18302.html#ac75d1c18a8f70ff88f5925a3df6e5924", null ]
+    [ "npc_crok_scourgebaneAI", "db/d4d/a18306.html", "db/d4d/a18306" ],
+    [ "npc_crok_scourgebane", "dc/d22/a18302.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
+    [ "GetAI", "dc/d22/a18302.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
 ];

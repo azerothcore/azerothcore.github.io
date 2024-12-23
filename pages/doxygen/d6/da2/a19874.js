@@ -1,7 +1,7 @@
 var a19874 =
 [
-    [ "HandleEffectPeriodic", "d6/da2/a19874.html#a428d1251465cc9947e7474eab83494e3", null ],
-    [ "PrepareAuraScript", "d6/da2/a19874.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
-    [ "Register", "d6/da2/a19874.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
-    [ "Validate", "d6/da2/a19874.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
+    [ "npc_ulduar_icicleAI", "d6/da2/a19874.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
+    [ "UpdateAI", "d6/da2/a19874.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
+    [ "timer1", "d6/da2/a19874.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
+    [ "timer2", "d6/da2/a19874.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
 ];

@@ -1,5 +1,6 @@
 var a10058 =
 [
-    [ "FactoryGameObjectScript", "d4/d9c/a10058.html#ac0981bdae743da11b99d7df1c967a703", null ],
-    [ "GetAI", "d4/d9c/a10058.html#a9a39e94f28729ea1fb4b6231d588b42c", null ]
+    [ "BattlegroundMapScript", "d4/d9c/a10058.html#a61e1c0f145064cbc6c8708824a359e4c", null ],
+    [ "checkValidity", "d4/d9c/a10058.html#a90584770132eb71cffc6e25a674750ad", null ],
+    [ "isAfterLoadScript", "d4/d9c/a10058.html#a0148a79556f82c990fe0fc494d03c7ab", null ]
 ];

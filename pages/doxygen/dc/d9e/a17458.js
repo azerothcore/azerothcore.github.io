@@ -1,9 +1,12 @@
 var a17458 =
 [
-    [ "CountTargets", "dc/d9e/a17458.html#aa72b762d802c27047d485a8a314c6c6d", null ],
-    [ "Load", "dc/d9e/a17458.html#a80a5d0f997f5d68a4fb438a81295fa52", null ],
-    [ "PrepareSpellScript", "dc/d9e/a17458.html#acfd2927786a5bcefa0889d7e8aa40f72", null ],
-    [ "Register", "dc/d9e/a17458.html#a86cad92c07fa31c730a3b560d33ed824", null ],
-    [ "SplitDamage", "dc/d9e/a17458.html#a501a46b3e3988ae8cb8af1ff87eeac65", null ],
-    [ "_targetCount", "dc/d9e/a17458.html#a39b8e5443250777594e3b4417d5ea1ec", null ]
+    [ "npc_darnavanAI", "dc/d9e/a17458.html#ae06019c24910c873877398f29f5a1737", null ],
+    [ "JustDied", "dc/d9e/a17458.html#a49250dcdaed6de534de7a1fe3c5aa72c", null ],
+    [ "JustEngagedWith", "dc/d9e/a17458.html#acbaedacea5ad19d82002c25b68623a27", null ],
+    [ "MovementInform", "dc/d9e/a17458.html#afcd3bfd190fcb99e38f32129fb2ce861", null ],
+    [ "Reset", "dc/d9e/a17458.html#a926c39a6e30507d9f9927f4f142e5a45", null ],
+    [ "UpdateAI", "dc/d9e/a17458.html#a2b3b5e168989db21fc047acaf01413d9", null ],
+    [ "_canCharge", "dc/d9e/a17458.html#ac37dc2ddc1787b7bd83b7e64ccdc6af8", null ],
+    [ "_canShatter", "dc/d9e/a17458.html#aa7750edc8051c8ee453143491dccf122", null ],
+    [ "events", "dc/d9e/a17458.html#aa8a022ccb1367432480f72d305c752ac", null ]
 ];

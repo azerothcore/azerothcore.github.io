@@ -1,6 +1,6 @@
 var a18286 =
 [
-    [ "npc_captain_grondelAI", "d1/d5f/a18286.html#afbc971fc03584b87229318309d51a2f5", null ],
-    [ "Reset", "d1/d5f/a18286.html#a7d3878822e77fba66891e87e23bd3740", null ],
-    [ "UpdateAI", "d1/d5f/a18286.html#a4af8548092b49653805224bd4c0ac0a2", null ]
+    [ "npc_rotting_frost_giantAI", "d2/dda/a18290.html", "d2/dda/a18290" ],
+    [ "npc_rotting_frost_giant", "d1/d5f/a18286.html#ad4440216e11a00d97af43dc5f3957e95", null ],
+    [ "GetAI", "d1/d5f/a18286.html#aabc388b3690f2d03e903c7f480d52842", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: BaseTable Struct Reference</title>
+<title>AzerothCore: Acore::CustomChatTextBuilder Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,81 +105,239 @@ $(document).ready(function(){initNavTree('dd/d1c/a11158.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d2/d51/a11155.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">BaseTable Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::CustomChatTextBuilder Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &quot;<a class="el" href="../../">ChatTextBuilder.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a0f308af88812c110c490c94368bda482"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a0f308af88812c110c490c94368bda482">TableName</a></td></tr>
-<tr class="separator:a0f308af88812c110c490c94368bda482"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c1ef4d19fb49e5813868ff2ccfe12fc"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a7c1ef4d19fb49e5813868ff2ccfe12fc">PrimaryKey</a></td></tr>
-<tr class="separator:a7c1ef4d19fb49e5813868ff2ccfe12fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a629a600c48376d04293c225390f747ff"><td class="memItemLeft" align="right" valign="top">char const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a629a600c48376d04293c225390f747ff">PlayerGuid</a></td></tr>
-<tr class="separator:a629a600c48376d04293c225390f747ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bea7cf549813010b55c23417d65edc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d30/a04115.html#a786729c2a29db8efe3400a170aeb9073">GuidType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a9bea7cf549813010b55c23417d65edc6">StoredType</a></td></tr>
-<tr class="separator:a9bea7cf549813010b55c23417d65edc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a47b3e24f7100d13180ad1946647999ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a47b3e24f7100d13180ad1946647999ae">CustomChatTextBuilder</a> (<a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *obj, <a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> msgType, std::string_view text, <a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> language=<a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *target=nullptr)</td></tr>
+<tr class="separator:a47b3e24f7100d13180ad1946647999ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad80555f063e7de15df3c434bc90d2ca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#ad80555f063e7de15df3c434bc90d2ca9">operator()</a> (<a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;data, <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale) const</td></tr>
+<tr class="separator:ad80555f063e7de15df3c434bc90d2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad75f22d7eb6a62d59730918f4336768c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#ad75f22d7eb6a62d59730918f4336768c">_source</a></td></tr>
+<tr class="separator:ad75f22d7eb6a62d59730918f4336768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0db1501da33fde77ab3c50943666b1fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a></td></tr>
+<tr class="separator:a0db1501da33fde77ab3c50943666b1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab59c9b938b564329483e38466169a92c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#ab59c9b938b564329483e38466169a92c">_text</a></td></tr>
+<tr class="separator:ab59c9b938b564329483e38466169a92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92d1c58d76d5d450892338d0e1856dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a></td></tr>
+<tr class="separator:a92d1c58d76d5d450892338d0e1856dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa45be322836be588d8df2b253a22ee5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/d1c/a11158.html#aa45be322836be588d8df2b253a22ee5c">_target</a></td></tr>
+<tr class="separator:aa45be322836be588d8df2b253a22ee5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a629a600c48376d04293c225390f747ff" name="a629a600c48376d04293c225390f747ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a629a600c48376d04293c225390f747ff">&#9670;&#160;</a></span>PlayerGuid</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a47b3e24f7100d13180ad1946647999ae" name="a47b3e24f7100d13180ad1946647999ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47b3e24f7100d13180ad1946647999ae">&#9670;&#160;</a></span>CustomChatTextBuilder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">Acore::CustomChatTextBuilder::CustomChatTextBuilder </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td>
+          <td class="paramname"><em>msgType</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>text</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a>&#160;</td>
+          <td class="paramname"><em>language</em> = <code><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *&#160;</td>
+          <td class="paramname"><em>target</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   52</span>                : <a class="code hl_variable" href="../../dd/d1c/a11158.html#ad75f22d7eb6a62d59730918f4336768c">_source</a>(obj), <a class="code hl_variable" href="../../dd/d1c/a11158.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a>(msgType), <a class="code hl_variable" href="../../dd/d1c/a11158.html#ab59c9b938b564329483e38466169a92c">_text</a>(text), <a class="code hl_variable" href="../../dd/d1c/a11158.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a>(language), <a class="code hl_variable" href="../../dd/d1c/a11158.html#aa45be322836be588d8df2b253a22ee5c">_target</a>(target) { }</div>
+<div class="ttc" id="aa11158_html_a0db1501da33fde77ab3c50943666b1fd"><div class="ttname"><a href="../../dd/d1c/a11158.html#a0db1501da33fde77ab3c50943666b1fd">Acore::CustomChatTextBuilder::_msgType</a></div><div class="ttdeci">ChatMsg _msgType</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:58</div></div>
+<div class="ttc" id="aa11158_html_a92d1c58d76d5d450892338d0e1856dc0"><div class="ttname"><a href="../../dd/d1c/a11158.html#a92d1c58d76d5d450892338d0e1856dc0">Acore::CustomChatTextBuilder::_language</a></div><div class="ttdeci">Language _language</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:60</div></div>
+<div class="ttc" id="aa11158_html_aa45be322836be588d8df2b253a22ee5c"><div class="ttname"><a href="../../dd/d1c/a11158.html#aa45be322836be588d8df2b253a22ee5c">Acore::CustomChatTextBuilder::_target</a></div><div class="ttdeci">WorldObject const  * _target</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:61</div></div>
+<div class="ttc" id="aa11158_html_ab59c9b938b564329483e38466169a92c"><div class="ttname"><a href="../../dd/d1c/a11158.html#ab59c9b938b564329483e38466169a92c">Acore::CustomChatTextBuilder::_text</a></div><div class="ttdeci">std::string _text</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:59</div></div>
+<div class="ttc" id="aa11158_html_ad75f22d7eb6a62d59730918f4336768c"><div class="ttname"><a href="../../dd/d1c/a11158.html#ad75f22d7eb6a62d59730918f4336768c">Acore::CustomChatTextBuilder::_source</a></div><div class="ttdeci">WorldObject const  * _source</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:57</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad80555f063e7de15df3c434bc90d2ca9" name="ad80555f063e7de15df3c434bc90d2ca9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad80555f063e7de15df3c434bc90d2ca9">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char const* BaseTable::PlayerGuid</td>
+          <td class="memname">void Acore::CustomChatTextBuilder::operator() </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td>
+          <td class="paramname"><em>locale</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00237">AssertBaseTable()</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
+<div class="line"><span class="lineno">   37</span>    <a class="code hl_function" href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a>(data, <a class="code hl_variable" href="../../dd/d1c/a11158.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a>, <a class="code hl_variable" href="../../dd/d1c/a11158.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a>, <a class="code hl_variable" href="../../dd/d1c/a11158.html#ad75f22d7eb6a62d59730918f4336768c">_source</a>, <a class="code hl_variable" href="../../dd/d1c/a11158.html#aa45be322836be588d8df2b253a22ee5c">_target</a>, <a class="code hl_variable" href="../../dd/d1c/a11158.html#ab59c9b938b564329483e38466169a92c">_text</a>, 0, <span class="stringliteral">&quot;&quot;</span>, locale);</div>
+<div class="line"><span class="lineno">   38</span>}</div>
+<div class="ttc" id="aa07362_html_a3295cee708d267aac165f9ee55d2e615"><div class="ttname"><a href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static std::size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:264</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00264">ChatHandler::BuildChatPacket()</a>.</p>
 
 </div>
 </div>
-<a id="a7c1ef4d19fb49e5813868ff2ccfe12fc" name="a7c1ef4d19fb49e5813868ff2ccfe12fc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c1ef4d19fb49e5813868ff2ccfe12fc">&#9670;&#160;</a></span>PrimaryKey</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a92d1c58d76d5d450892338d0e1856dc0" name="a92d1c58d76d5d450892338d0e1856dc0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92d1c58d76d5d450892338d0e1856dc0">&#9670;&#160;</a></span>_language</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char const* BaseTable::PrimaryKey</td>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> Acore::CustomChatTextBuilder::_language</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00237">AssertBaseTable()</a>.</p>
-
-</div>
-</div>
-<a id="a9bea7cf549813010b55c23417d65edc6" name="a9bea7cf549813010b55c23417d65edc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bea7cf549813010b55c23417d65edc6">&#9670;&#160;</a></span>StoredType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d30/a04115.html#a786729c2a29db8efe3400a170aeb9073">GuidType</a> BaseTable::StoredType</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a0f308af88812c110c490c94368bda482" name="a0f308af88812c110c490c94368bda482"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f308af88812c110c490c94368bda482">&#9670;&#160;</a></span>TableName</h2>
+<a id="a0db1501da33fde77ab3c50943666b1fd" name="a0db1501da33fde77ab3c50943666b1fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0db1501da33fde77ab3c50943666b1fd">&#9670;&#160;</a></span>_msgType</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">char const* BaseTable::TableName</td>
+          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> Acore::CustomChatTextBuilder::_msgType</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad75f22d7eb6a62d59730918f4336768c" name="ad75f22d7eb6a62d59730918f4336768c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad75f22d7eb6a62d59730918f4336768c">&#9670;&#160;</a></span>_source</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const* Acore::CustomChatTextBuilder::_source</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa45be322836be588d8df2b253a22ee5c" name="aa45be322836be588d8df2b253a22ee5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa45be322836be588d8df2b253a22ee5c">&#9670;&#160;</a></span>_target</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const* Acore::CustomChatTextBuilder::_target</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab59c9b938b564329483e38466169a92c" name="ab59c9b938b564329483e38466169a92c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab59c9b938b564329483e38466169a92c">&#9670;&#160;</a></span>_text</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acore::CustomChatTextBuilder::_text</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
@@ -189,8 +347,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/d1c/a11158.html">BaseTable</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:08 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../dd/d1c/a11158.html">CustomChatTextBuilder</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:40 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

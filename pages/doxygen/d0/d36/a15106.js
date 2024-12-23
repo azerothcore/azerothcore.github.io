@@ -1,8 +1,27 @@
 var a15106 =
 [
-    [ "FilterTargets", "d0/d36/a15106.html#a47b8055fa1b28968e8323ca98613aa83", null ],
-    [ "HandleScript", "d0/d36/a15106.html#a8f7984e510d8947a2ae4b0734409866b", null ],
-    [ "PrepareSpellScript", "d0/d36/a15106.html#a5c12caf56e95a9f7960ed9f4a3945c7c", null ],
-    [ "Register", "d0/d36/a15106.html#adf76a5d9145f88aad5b3dd164fa4fcc4", null ],
-    [ "Validate", "d0/d36/a15106.html#aa3f9c6418eb804a2ddf235beb8491a19", null ]
+    [ "npc_cork_gizeltonAI", "d0/d36/a15106.html#a3f5f08b4ac364fddf14e8405cdc27b68", null ],
+    [ "CheckCaravan", "d0/d36/a15106.html#aa0d89f971b6e210d8550e89839e28f44", null ],
+    [ "CheckPlayer", "d0/d36/a15106.html#acd3edee41c80992ee97130eac6912c18", null ],
+    [ "EnterEvadeMode", "d0/d36/a15106.html#ab639db8fe4637a2068d94bb5e99d88ea", null ],
+    [ "ImmuneFlagSet", "d0/d36/a15106.html#aee85ef406a6bc0644ec2e35a4a7f22d5", null ],
+    [ "Initialize", "d0/d36/a15106.html#a91131055a31dc828ccb2e3ba087d5062", null ],
+    [ "InitializeAI", "d0/d36/a15106.html#a4c39fd26b4ab6bd861988c19ab3ead37", null ],
+    [ "JustDied", "d0/d36/a15106.html#ab34fe1b0bac1a694c6e76d3cebf67172", null ],
+    [ "JustRespawned", "d0/d36/a15106.html#a6b860a2b93654f92fb821b8907a3cc91", null ],
+    [ "RelocateSummons", "d0/d36/a15106.html#a22d63ca89f2ebce396eb0a5a6cb69d13", null ],
+    [ "RemoveSummons", "d0/d36/a15106.html#a53c900f7bfa720bfdfc22531ac916c5b", null ],
+    [ "SetData", "d0/d36/a15106.html#a26576302fc0f6897d604030431651908", null ],
+    [ "SetGUID", "d0/d36/a15106.html#ada67b8aa3de368daa6e143924cce6a9e", null ],
+    [ "SummonedCreatureDespawn", "d0/d36/a15106.html#a4dabd8ae79a6b956264dea7ba2359e7d", null ],
+    [ "SummonedCreatureDies", "d0/d36/a15106.html#a85cd2486bad6cda8867eba29538842e9", null ],
+    [ "SummonHelpers", "d0/d36/a15106.html#a38986eddc806f76fdefa99de1cd46fb5", null ],
+    [ "SummonsFollow", "d0/d36/a15106.html#a81a72db27d196b2fb6696b6466d26449", null ],
+    [ "UpdateEscortAI", "d0/d36/a15106.html#a2c3704eaa58cc11e86a9e1eb60e3e543", null ],
+    [ "WaypointReached", "d0/d36/a15106.html#ab9d7763f86dcbaa3bf6e2c12c5d872e7", null ],
+    [ "_faction", "d0/d36/a15106.html#a4ff6b0e39f7cbf8ba5f4c79159a03e45", null ],
+    [ "_playerGUID", "d0/d36/a15106.html#a94277075d53a9d9115894e3bf378d106", null ],
+    [ "events", "d0/d36/a15106.html#a251f091e5b314341c8e5131bf38188f0", null ],
+    [ "headNorth", "d0/d36/a15106.html#aace73f2e878ebaf30634431f9f1068ab", null ],
+    [ "summons", "d0/d36/a15106.html#a9af9323b3bf6df4a85445d9859609c78", null ]
 ];

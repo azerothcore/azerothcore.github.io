@@ -1,7 +1,6 @@
 var a12018 =
 [
-    [ "HandleDummy", "d7/d87/a12018.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
-    [ "PrepareSpellScript", "d7/d87/a12018.html#a5308de47023b89e4ff8680158a502ac0", null ],
-    [ "Register", "d7/d87/a12018.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
-    [ "Validate", "d7/d87/a12018.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
+    [ "boss_flamegorAI", "d9/df9/a12022.html", "d9/df9/a12022" ],
+    [ "boss_flamegor", "d7/d87/a12018.html#abc6f068c81466d08306d94667bb1974b", null ],
+    [ "GetAI", "d7/d87/a12018.html#a56fb8425c55703fbda14a982d8fdcb2d", null ]
 ];

@@ -1,6 +1,6 @@
 var a26162 =
 [
-    [ "HandleFinish", "da/d41/a26162.html#ac4c50220d86f809644e339fc578d9b4a", null ],
-    [ "PrepareSpellScript", "da/d41/a26162.html#a5a14594ed93150e34626a7e0edb8171b", null ],
-    [ "Register", "da/d41/a26162.html#a9d28a3b88d57e2f89921d59f56148f74", null ]
+    [ "PrepareSpellScript", "da/d41/a26162.html#a882d87de64d0e2c64b17c26d9e40d616", null ],
+    [ "Register", "da/d41/a26162.html#ab58938808e460e843e42f2b6fa644e8a", null ],
+    [ "SetDest", "da/d41/a26162.html#ab87932c73a2e53647bda584aeb58f789", null ]
 ];

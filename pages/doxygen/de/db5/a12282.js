@@ -1,12 +1,24 @@
 var a12282 =
 [
-    [ "BoardCell", "de/db5/a12282.html#a1ecd0d14c1b4896f70caaee83e1c864d", null ],
-    [ "Reset", "de/db5/a12282.html#a22a71e9bd4a4dd9601aa0fffe978009c", null ],
-    [ "SetData", "de/db5/a12282.html#a0e57e888290cbe15b5dafa9788c3f86b", null ],
-    [ "SetPiece", "de/db5/a12282.html#ac919854a2e9d5fc2d1b68960e16cf79d", null ],
-    [ "col", "de/db5/a12282.html#a49707efa5b356ad0dc6f6ff16a652430", null ],
-    [ "pieceEntry", "de/db5/a12282.html#a7697506ccc800d38968e457c44bfa019", null ],
-    [ "pieceGUID", "de/db5/a12282.html#a74f494e406c56d4c61d79539acea684c", null ],
-    [ "row", "de/db5/a12282.html#a195c187e134be546f224cbb0eef8c844", null ],
-    [ "triggerGUID", "de/db5/a12282.html#a9cafdea50739b014a97e60611adcd3f1", null ]
+    [ "instance_molten_core_InstanceMapScript", "de/db5/a12282.html#aac834ca3723fbe4cdba2d2813feb0451", null ],
+    [ "CheckMajordomoExecutus", "de/db5/a12282.html#ae1a8863f382d142b1d8722065f20949e", null ],
+    [ "DoAction", "de/db5/a12282.html#a0849a6d1a98b6c49cca7341f6341179c", null ],
+    [ "GetGuidData", "de/db5/a12282.html#a644bfe3309b765ba8df750acdb81d496", null ],
+    [ "OnCreatureCreate", "de/db5/a12282.html#ace732c2df084275ae3af76b612c1a098", null ],
+    [ "OnCreatureRemove", "de/db5/a12282.html#af45a1eb74e5e59f98808d2a54ea00b0f", null ],
+    [ "OnGameObjectCreate", "de/db5/a12282.html#aee70a5df7498eba0bba840870c0b5cf3", null ],
+    [ "OnPlayerEnter", "de/db5/a12282.html#aaadc39f4b4032cc59105525ce6a7b6a8", null ],
+    [ "SetBossState", "de/db5/a12282.html#a38a20534aeb08f52fbf6e57f49763bdd", null ],
+    [ "SummonMajordomoExecutus", "de/db5/a12282.html#abee5c9c60893401fb5df17dbe2ccead9", null ],
+    [ "_cacheOfTheFirelordGUID", "de/db5/a12282.html#a080decfc444d3d89f0334a76bfb5e757", null ],
+    [ "_circlesGUIDs", "de/db5/a12282.html#ac87977d4b94ceccad965c00cab772cbe", null ],
+    [ "_garrGUID", "de/db5/a12282.html#a44a6c18c9e1d279cfb16a087d1313845", null ],
+    [ "_golemaggGUID", "de/db5/a12282.html#a42ba68922c644e8a3c752bdaefbadb57", null ],
+    [ "_golemaggMinionsGUIDS", "de/db5/a12282.html#afe5ea95bd9fc8fa7e1d3d737bad8923c", null ],
+    [ "_lavaSplashGUID", "de/db5/a12282.html#a7bdd42ce9cf698f6d78fde784ac0b32f", null ],
+    [ "_lavaSteamGUID", "de/db5/a12282.html#aaa5552c50b504a3a3e2d5534840a52cf", null ],
+    [ "_magmadarGUID", "de/db5/a12282.html#a2a46b6d841d988dce9c5e54b19a1967a", null ],
+    [ "_majordomoExecutusGUID", "de/db5/a12282.html#a88215e741eec8be55882290de22f5c69", null ],
+    [ "_ragnarosGUID", "de/db5/a12282.html#a8d512fa12205db57c322b0734b344717", null ],
+    [ "_runesGUIDs", "de/db5/a12282.html#ae259af00a4f2a349795d08d969f93fe2", null ]
 ];

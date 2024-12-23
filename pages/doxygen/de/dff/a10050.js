@@ -1,17 +1,10 @@
 var a10050 =
 [
-    [ "GameObjectScript", "de/dff/a10050.html#a9d9cf73435a16d7fef450134c03980bb", null ],
-    [ "GetAI", "de/dff/a10050.html#a05492473fa28c0f7c80770aa3445ce4e", null ],
-    [ "GetDialogStatus", "de/dff/a10050.html#ac526fbe66b9b1e9edca51f9fd20a40b9", null ],
-    [ "IsDatabaseBound", "de/dff/a10050.html#a020e07dfd6e99b55bf5c8e56cfdd3948", null ],
-    [ "OnDamaged", "de/dff/a10050.html#a2fb7d0f8f01ce083643bc0cb810fc612", null ],
-    [ "OnDestroyed", "de/dff/a10050.html#a042676e98453494ab49bb90216755052", null ],
-    [ "OnGameObjectStateChanged", "de/dff/a10050.html#a4992d88f026bf906852f085db4e8768e", null ],
-    [ "OnGossipHello", "de/dff/a10050.html#a58b56fc92ae87aea0530eceba1f3088d", null ],
-    [ "OnGossipSelect", "de/dff/a10050.html#a612884c70eed9c56958ab49dc1e2bb1f", null ],
-    [ "OnGossipSelectCode", "de/dff/a10050.html#ac9c9feb4d08ea0e5ad202ada205a9772", null ],
-    [ "OnLootStateChanged", "de/dff/a10050.html#ab93c178f2137e92da28665d28bfec1d5", null ],
-    [ "OnModifyHealth", "de/dff/a10050.html#a1ff457beae2b6249a9d3ecd08fd1b5a4", null ],
-    [ "OnQuestAccept", "de/dff/a10050.html#afd22217feca39340d68b9c7fd6c1caa8", null ],
-    [ "OnQuestReward", "de/dff/a10050.html#a233712ff412081583a8295cf512da48d", null ]
+    [ "ArenaTeamScript", "de/dff/a10050.html#ab86543c6ce76ff21e4306c799b99c896", null ],
+    [ "IsDatabaseBound", "de/dff/a10050.html#a4d30f94084ae63eadd952c05b13f3ff4", null ],
+    [ "OnGetArenaPoints", "de/dff/a10050.html#aa4b2d40921443cefee2775da6ca31b3e", null ],
+    [ "OnGetSlotByType", "de/dff/a10050.html#a1ff67b327073bb8ebf10e7fddce92835", null ],
+    [ "OnQueueIdToArenaType", "de/dff/a10050.html#a2a26e8c87c5fa7e85eb2f0517ced29e8", null ],
+    [ "OnSetArenaMaxPlayersPerTeam", "de/dff/a10050.html#a776548946a09dcb3e76bd97f3c425e7f", null ],
+    [ "OnTypeIDToQueueID", "de/dff/a10050.html#abcdd905b695f926e503db610d80ada3c", null ]
 ];

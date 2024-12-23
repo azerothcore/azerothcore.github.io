@@ -1,8 +1,8 @@
 var a26562 =
 [
-    [ "HandleDamage", "d2/de4/a26562.html#a371d3112e619453b7c92933a145bf4d2", null ],
-    [ "HandleDummy", "d2/de4/a26562.html#a051f68946f3c246b410bbaa2ac14e4b1", null ],
-    [ "PrepareSpellScript", "d2/de4/a26562.html#a41d69ed3f8372c4e157aefbec6ad525c", null ],
-    [ "Register", "d2/de4/a26562.html#aaa1e53f38a2ba835c12fa726c030ab08", null ],
-    [ "Validate", "d2/de4/a26562.html#a180ab99bc257b841e0bbbfc0ddb83814", null ]
+    [ "AfterCheckProc", "d2/de4/a26562.html#acfdce5bcda30fc7c498d4f7aba37933f", null ],
+    [ "HandleProc", "d2/de4/a26562.html#ac24bde081e118b347a3cad6832cd96da", null ],
+    [ "PrepareAuraScript", "d2/de4/a26562.html#a5d33fbbc36417bd229fb9b1576f4f42b", null ],
+    [ "Register", "d2/de4/a26562.html#ac60630c5d36b1e9cc4fc809ecde1fe20", null ],
+    [ "Validate", "d2/de4/a26562.html#aecc372443f71834aaeab97ba77757e2a", null ]
 ];

@@ -1,8 +1,6 @@
 var a10514 =
 [
-    [ "PlayObjectSound", "db/ddb/a10514.html#ab322044d36abddeb2fafbf99261bb70b", null ],
-    [ "PlayObjectSound", "db/ddb/a10514.html#a2c4d15099e991a9c2ddc5295536aa28e", null ],
-    [ "Write", "db/ddb/a10514.html#a1162715dd557a9f7b7c25a0331bc3b74", null ],
-    [ "SoundKitID", "db/ddb/a10514.html#a5e794706b8793d164a1189e9a6918735", null ],
-    [ "SourceObjectGUID", "db/ddb/a10514.html#a82b226eba66e569c1f377f529e511361", null ]
+    [ "GuildBankLogQuery", "db/ddb/a10514.html#ab094e91a48d0259b4247157b92997bb2", null ],
+    [ "Read", "db/ddb/a10514.html#a5eed269e9285a33ffc61fcfa7d639083", null ],
+    [ "Tab", "db/ddb/a10514.html#ae966e3ac144b86e20f65b742ff3be9e3", null ]
 ];

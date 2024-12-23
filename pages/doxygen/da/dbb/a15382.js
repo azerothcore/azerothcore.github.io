@@ -1,6 +1,6 @@
 var a15382 =
 [
-    [ "instance_zulfarrak_InstanceMapScript", "da/da8/a15386.html", "da/da8/a15386" ],
-    [ "instance_zulfarrak", "da/dbb/a15382.html#a7c8594fe278dc9f6c3ab6f291cf9bad2", null ],
-    [ "GetInstanceScript", "da/dbb/a15382.html#a5f092341e49848c9d321452be2193d56", null ]
+    [ "HandleDummy", "da/dbb/a15382.html#a2750ae788168e7496ea2345c5535509c", null ],
+    [ "PrepareSpellScript", "da/dbb/a15382.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
+    [ "Register", "da/dbb/a15382.html#ab6c961d89d22761402eb4f5881cbd318", null ]
 ];

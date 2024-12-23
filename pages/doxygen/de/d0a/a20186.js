@@ -1,11 +1,9 @@
 var a20186 =
 [
-    [ "npc_ulduar_expedition_engineerAI", "de/d0a/a20186.html#a48e29edad38f8ecbab54579203c93044", null ],
-    [ "Reset", "de/d0a/a20186.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
-    [ "SetData", "de/d0a/a20186.html#a31db1ae61777b8f1a38d381e785ce158", null ],
-    [ "UpdateAI", "de/d0a/a20186.html#ab6d29aaae95038282fece78479448459", null ],
-    [ "fixingGUID", "de/d0a/a20186.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
-    [ "pInstance", "de/d0a/a20186.html#a6b858d46eda05493ec0cac22e174854c", null ],
-    [ "timer", "de/d0a/a20186.html#a926b343da3d3953d386b18f24bc72867", null ],
-    [ "working", "de/d0a/a20186.html#ab8e436472efd91f2d400c02c1b500746", null ]
+    [ "npc_ulduar_emergency_fire_botAI", "de/d0a/a20186.html#a98ad3308b0fa56847ce6f5583bdfaba9", null ],
+    [ "AttackStart", "de/d0a/a20186.html#aa18e89f63e98112efeb69328f8fdc296", null ],
+    [ "MoveInLineOfSight", "de/d0a/a20186.html#a6384437fff9349df0cfa5053b37313ea", null ],
+    [ "MovementInform", "de/d0a/a20186.html#a2f7d5b821ea4bf80bd01d469859f6fb6", null ],
+    [ "UpdateAI", "de/d0a/a20186.html#a71d24eb5cea764011249b8ff78c3ed6c", null ],
+    [ "events", "de/d0a/a20186.html#a5099c03b3ab1eb437ea11a0c4e8650f1", null ]
 ];

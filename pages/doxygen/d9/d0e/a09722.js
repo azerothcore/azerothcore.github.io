@@ -1,12 +1,10 @@
 var a09722 =
 [
-    [ "RotateMovementGenerator", "d9/d0e/a09722.html#a89a6559b4380210972e82c6ca6d5a9db", null ],
-    [ "Finalize", "d9/d0e/a09722.html#afd7588c7877b116cc9626a774b89d584", null ],
-    [ "GetMovementGeneratorType", "d9/d0e/a09722.html#a20677803edf5d93ceae3bf76ef426a81", null ],
-    [ "Initialize", "d9/d0e/a09722.html#a18fea8760bb24912af9349a06ff7b596", null ],
-    [ "Reset", "d9/d0e/a09722.html#a3e177762fcfc11ac47aa820b46b93ed0", null ],
-    [ "Update", "d9/d0e/a09722.html#a0dc8600e3aa862a81735dfb927232e53", null ],
-    [ "m_direction", "d9/d0e/a09722.html#a8717e890670d9f4e2ff66c0981d14aa6", null ],
-    [ "m_duration", "d9/d0e/a09722.html#a2cb8d5fc3d26c24e62c7373f1ce49b13", null ],
-    [ "m_maxDuration", "d9/d0e/a09722.html#a7cf10886bdd50ccbc5900b9229958e01", null ]
+    [ "ChaseRange", "d9/d0e/a09722.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
+    [ "ChaseRange", "d9/d0e/a09722.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
+    [ "ChaseRange", "d9/d0e/a09722.html#a397b3789449b1c178f11f64313498c4d", null ],
+    [ "MaxRange", "d9/d0e/a09722.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
+    [ "MaxTolerance", "d9/d0e/a09722.html#a7909b18028d43c84eca5feee3e41469c", null ],
+    [ "MinRange", "d9/d0e/a09722.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
+    [ "MinTolerance", "d9/d0e/a09722.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
 ];

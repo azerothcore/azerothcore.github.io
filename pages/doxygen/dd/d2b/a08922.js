@@ -1,9 +1,15 @@
 var a08922 =
 [
-    [ "GameObjectSearcher", "dd/d2b/a08922.html#a6625a6afd81bea2f9cdd10fad6d4a5a4", null ],
-    [ "Visit", "dd/d2b/a08922.html#a16685c62e1e69fdc5df55b2b3920a579", null ],
-    [ "Visit", "dd/d2b/a08922.html#a1105dd396e4fe8c366fc453b5a4bec02", null ],
-    [ "i_check", "dd/d2b/a08922.html#a71152e100ea7c72eceb5cda470d5a2f3", null ],
-    [ "i_object", "dd/d2b/a08922.html#ad1c14442e0f1b5d9ee43639077c75876", null ],
-    [ "i_phaseMask", "dd/d2b/a08922.html#ac11e036da088f6e62556c42965530040", null ]
+    [ "CoordPair", "dd/d2b/a08922.html#a53b5f24cfdf13b246549a0c1543924c9", null ],
+    [ "CoordPair", "dd/d2b/a08922.html#aab92ece0f01ebc00cdac4966e02fa8fd", null ],
+    [ "dec_x", "dd/d2b/a08922.html#a69be5b72b710722120104f0c502fbb70", null ],
+    [ "dec_y", "dd/d2b/a08922.html#aefa33f8766212bb71e5fd19a318142cc", null ],
+    [ "GetId", "dd/d2b/a08922.html#ae4f7f304faf2c2363cffe2170b4c5c97", null ],
+    [ "inc_x", "dd/d2b/a08922.html#aa6a4942253e87ae57e2d69a2563ddef1", null ],
+    [ "inc_y", "dd/d2b/a08922.html#a120946c5a8c8b49bbdf9a1ee54ded9ec", null ],
+    [ "IsCoordValid", "dd/d2b/a08922.html#a082960c54e2077df370f891c0534b44f", null ],
+    [ "normalize", "dd/d2b/a08922.html#afac8086374bfc499e3a8d74d6afc58db", null ],
+    [ "operator=", "dd/d2b/a08922.html#a27f81c359c4ae278d663e85eccbeebb9", null ],
+    [ "x_coord", "dd/d2b/a08922.html#a101dd71af6a2cba18140aea2e502ef8b", null ],
+    [ "y_coord", "dd/d2b/a08922.html#aacae12844cc0c0d70e26b137ad28f700", null ]
 ];

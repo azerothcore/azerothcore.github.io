@@ -1,9 +1,5 @@
 var a08474 =
 [
-    [ "ProcTriggeredData", "d0/d06/a08474.html#a37c5cbfd0b916b950a0e638223394de4", null ],
-    [ "operator==", "d0/d06/a08474.html#a787760cbd8a6ee5192975bc514886159", null ],
-    [ "aura", "d0/d06/a08474.html#a5138144d49900690bb15a5f66b763eac", null ],
-    [ "effMask", "d0/d06/a08474.html#a1c2bfb3e0016ba823e12b3defe373790", null ],
-    [ "spellProcEvent", "d0/d06/a08474.html#ac6e491a7ef478d271d3c74d7b9df577e", null ],
-    [ "triggerSpelId", "d0/d06/a08474.html#abfd99a1e3beb871a3cbf83d7578ec98a", null ]
+    [ "bgQueueTypeId", "d0/d06/a08474.html#a171a9be34883429a97f6f2e3035b5fca", null ],
+    [ "invitedToInstance", "d0/d06/a08474.html#a5efaf8479d7afb8c24e7f3389ad9c8cf", null ]
 ];

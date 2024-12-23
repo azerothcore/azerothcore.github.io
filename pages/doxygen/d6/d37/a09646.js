@@ -1,6 +1,6 @@
 var a09646 =
 [
-    [ "IsNeutralOrFriendlyToTeam", "d6/d37/a09646.html#aeeea8efaff8fe3f5044a7d5627a89cb6", null ],
-    [ "safeLocId", "d6/d37/a09646.html#a4f6003cc76b70c83fbb8301cc9d5a7ad", null ],
-    [ "teamId", "d6/d37/a09646.html#a287b04900d70f8ff8c6f6542edbd40a6", null ]
+    [ "UpdateRequest", "d6/d37/a09646.html#a23b3dbcff54691b2710109a822a486a0", null ],
+    [ "~UpdateRequest", "d6/d37/a09646.html#a240bdc56685c270c597588231c3bf8f8", null ],
+    [ "call", "d6/d37/a09646.html#a8221fa415f828a4866f85f3983f7dab9", null ]
 ];

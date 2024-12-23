@@ -1,7 +1,6 @@
 var a24646 =
 [
-    [ "HandleProc", "d0/d19/a24646.html#af768269d315e998fc2042794c3a03b58", null ],
-    [ "PrepareAuraScript", "d0/d19/a24646.html#ae3da67d626ee11c57a85a3af99ff07a5", null ],
-    [ "Register", "d0/d19/a24646.html#a2df1cff47861cbf3198e573c6031b54e", null ],
-    [ "Validate", "d0/d19/a24646.html#a84f40eec148c55108085db5e7b05cb0e", null ]
+    [ "ModDest", "d0/d19/a24646.html#a99d08536d2555390a7399a6d2fc199e6", null ],
+    [ "PrepareSpellScript", "d0/d19/a24646.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
+    [ "Register", "d0/d19/a24646.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
 ];

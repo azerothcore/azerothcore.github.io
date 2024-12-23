@@ -1,6 +1,7 @@
 var a23174 =
 [
-    [ "instance_blood_furnace_InstanceMapScript", "d2/d85/a23178.html", "d2/d85/a23178" ],
-    [ "instance_blood_furnace", "db/dfe/a23174.html#a925a045fa518e72c1eff02fe3c66202b", null ],
-    [ "GetInstanceScript", "db/dfe/a23174.html#a885ba94e1777dfd6586daca304622d3d", null ]
+    [ "HandleScriptEffect", "db/dfe/a23174.html#a534bf39998813f06c48bc920e4666692", null ],
+    [ "PrepareSpellScript", "db/dfe/a23174.html#a5892f20a0704596cb70a995a73846368", null ],
+    [ "Register", "db/dfe/a23174.html#a1176b4e4ad488a3b6b38ff4b8c955d64", null ],
+    [ "Validate", "db/dfe/a23174.html#af618314a13013eaf9f36b30047de0878", null ]
 ];

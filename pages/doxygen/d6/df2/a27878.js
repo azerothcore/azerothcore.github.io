@@ -1,10 +1,7 @@
 var a27878 =
 [
-    [ "PvPDifficultyEntry", "d6/df2/a27878.html#acdf17ca6dce80b7311bd6ae79ce16001", null ],
-    [ "GetBracketId", "d6/df2/a27878.html#a4bcbc99d34ef8eaa7c15dbd33332c480", null ],
-    [ "bracketId", "d6/df2/a27878.html#a670bce11b1d934167d8b3e990ea49d4a", null ],
-    [ "difficulty", "d6/df2/a27878.html#a33ac017d785a4586a78e715d97836720", null ],
-    [ "mapId", "d6/df2/a27878.html#a58c251f56a928bedbc7b9e8c6cbdbc5d", null ],
-    [ "maxLevel", "d6/df2/a27878.html#a1385166568239f2118b65377df8b4b55", null ],
-    [ "minLevel", "d6/df2/a27878.html#acd07e8d759af1b73ec7543f6e70df242", null ]
+    [ "AllocationPct", "d6/df2/a27878.html#a45d752dfd00a75f69d919a88573ba4fc", null ],
+    [ "Enchantment", "d6/df2/a27878.html#a45e694082c1dbdeef5229561f617d584", null ],
+    [ "ID", "d6/df2/a27878.html#a66d78860d81c497765b5e68b5fd2ae18", null ],
+    [ "Name", "d6/df2/a27878.html#a3ee4d8152817e10b873de5ec36ba062b", null ]
 ];

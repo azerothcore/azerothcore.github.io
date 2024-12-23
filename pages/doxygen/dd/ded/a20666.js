@@ -1,6 +1,7 @@
 var a20666 =
 [
-    [ "npc_ulduar_storm_tempered_keeperAI", "dd/dab/a20670.html", "dd/dab/a20670" ],
-    [ "npc_ulduar_storm_tempered_keeper", "dd/ded/a20666.html#aaf2ef154cad4f2ba5796e410dabf02fc", null ],
-    [ "GetAI", "dd/ded/a20666.html#aa0860236d2abedba1e521ee1610c89e8", null ]
+    [ "HandleScriptEffect", "dd/ded/a20666.html#a173ee086127655cdfcca507fd5b15b2e", null ],
+    [ "PrepareSpellScript", "dd/ded/a20666.html#a005d47b18a820c35ec596b5539db94eb", null ],
+    [ "Register", "dd/ded/a20666.html#a20a0d554e80707c1517422cb747f38e8", null ],
+    [ "Validate", "dd/ded/a20666.html#a5ca44686e26def56adc2b98d88145235", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AllCommandScript Class Reference</title>
+<title>AzerothCore: ActivePoolData Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,78 +106,98 @@ $(document).ready(function(){initNavTree('dd/dbc/a09958.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../db/d2c/a09955.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">AllCommandScript Class Reference</div></div>
+  <div class="headertitle"><div class="title">ActivePoolData Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">AllCommandScript.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for AllCommandScript:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../dd/dbc/a09958.png" usemap="#AllCommandScript_map" alt=""/>
-  <map id="AllCommandScript_map" name="AllCommandScript_map">
-<area href="../../d0/d93/a10162.html" alt="ScriptObject" shape="rect" coords="0,0,115,24"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">PoolMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a89430678d5c88c562f1b0ac2b294fea4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a89430678d5c88c562f1b0ac2b294fea4">IsDatabaseBound</a> () const override</td></tr>
-<tr class="separator:a89430678d5c88c562f1b0ac2b294fea4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aba983f0e052ece230617573f04a35c92"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#aba983f0e052ece230617573f04a35c92">OnHandleDevCommand</a> (<a class="el" href="../../d9/d86/a08398.html">Player</a> *, bool &amp;)</td></tr>
-<tr class="separator:aba983f0e052ece230617573f04a35c92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a116836453073e77bbd8ab974f36f47"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a3a116836453073e77bbd8ab974f36f47">OnTryExecuteCommand</a> (<a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> &amp;, std::string_view)</td></tr>
-<tr class="memdesc:a3a116836453073e77bbd8ab974f36f47"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook is triggered when a command is parsed, but before it is executed.  <a href="../../dd/dbc/a09958.html#a3a116836453073e77bbd8ab974f36f47">More...</a><br /></td></tr>
-<tr class="separator:a3a116836453073e77bbd8ab974f36f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f85dc271c1b61244978aa4474e708b0"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a6f85dc271c1b61244978aa4474e708b0">OnBeforeIsInvokerVisible</a> (std::string, <a class="el" href="../../d5/df3/a07330.html">Acore::Impl::ChatCommands::CommandPermissions</a>, <a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const &amp;)</td></tr>
-<tr class="separator:a6f85dc271c1b61244978aa4474e708b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
-<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
-<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
-<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
-<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
-<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a092d75db230d224ef3e322994f1c0076"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a092d75db230d224ef3e322994f1c0076"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a092d75db230d224ef3e322994f1c0076">IsActiveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid_or_pool_id) const</td></tr>
+<tr class="separator:a092d75db230d224ef3e322994f1c0076"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a27d8f244ad75cedce9d0a341411b48b6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a27d8f244ad75cedce9d0a341411b48b6">GetActiveObjectCount</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id) const</td></tr>
+<tr class="separator:a27d8f244ad75cedce9d0a341411b48b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac23fc621fc12c77718d5a1b9b9d928c4"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ac23fc621fc12c77718d5a1b9b9d928c4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ac23fc621fc12c77718d5a1b9b9d928c4">ActivateObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid_or_pool_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:ac23fc621fc12c77718d5a1b9b9d928c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aaeb7438df310b28e8c536a1ef83ebb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a1aaeb7438df310b28e8c536a1ef83ebb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a1aaeb7438df310b28e8c536a1ef83ebb">RemoveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid_or_pool_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:a1aaeb7438df310b28e8c536a1ef83ebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5973d0bb86a4477a3471579c5697d51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ae5973d0bb86a4477a3471579c5697d51">GetActiveQuests</a> () const</td></tr>
+<tr class="separator:ae5973d0bb86a4477a3471579c5697d51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a3eaf8cdcdea5103a6f8d414a11b485d0">IsActiveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid) const</td></tr>
+<tr class="separator:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a3eaf8cdcdea5103a6f8d414a11b485d0">IsActiveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid) const</td></tr>
+<tr class="separator:a3eaf8cdcdea5103a6f8d414a11b485d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904a2e30dd2c90c42efbd111fadb939b"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a904a2e30dd2c90c42efbd111fadb939b"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a904a2e30dd2c90c42efbd111fadb939b">IsActiveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> sub_pool_id) const</td></tr>
+<tr class="separator:a904a2e30dd2c90c42efbd111fadb939b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6cf482063504094ce47271cf8097001"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ae6cf482063504094ce47271cf8097001"><td class="memTemplItemLeft" align="right" valign="top">bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ae6cf482063504094ce47271cf8097001">IsActiveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id) const</td></tr>
+<tr class="separator:ae6cf482063504094ce47271cf8097001"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a0ee3c6f24c51bac7da15c165ff93ab42">ActivateObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a0ee3c6f24c51bac7da15c165ff93ab42">ActivateObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:a0ee3c6f24c51bac7da15c165ff93ab42"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac06d473e60ddb91e027dabbd64d64961"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ac06d473e60ddb91e027dabbd64d64961"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ac06d473e60ddb91e027dabbd64d64961">ActivateObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> sub_pool_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:ac06d473e60ddb91e027dabbd64d64961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa11b01ff001992aa5dadf4291875c947"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa11b01ff001992aa5dadf4291875c947"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#aa11b01ff001992aa5dadf4291875c947">ActivateObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:aa11b01ff001992aa5dadf4291875c947"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad305bcc1094ba640c2e961f2f56530b6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ad305bcc1094ba640c2e961f2f56530b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ad305bcc1094ba640c2e961f2f56530b6">RemoveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:ad305bcc1094ba640c2e961f2f56530b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad305bcc1094ba640c2e961f2f56530b6"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:ad305bcc1094ba640c2e961f2f56530b6"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ad305bcc1094ba640c2e961f2f56530b6">RemoveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> db_guid, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:ad305bcc1094ba640c2e961f2f56530b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1aadfb44076691257dfb9bf97f865957"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a1aadfb44076691257dfb9bf97f865957"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a1aadfb44076691257dfb9bf97f865957">RemoveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> sub_pool_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:a1aadfb44076691257dfb9bf97f865957"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8979fda780644f1e678b6569bc7ca6eb"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a8979fda780644f1e678b6569bc7ca6eb"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a8979fda780644f1e678b6569bc7ca6eb">RemoveObject</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> quest_id, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> pool_id)</td></tr>
+<tr class="separator:a8979fda780644f1e678b6569bc7ca6eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a7ff235b904eecdd4d02d2025c4078980"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a7ff235b904eecdd4d02d2025c4078980">AllCommandScript</a> (const char *name, std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; enabledHooks=std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;())</td></tr>
-<tr class="separator:a7ff235b904eecdd4d02d2025c4078980"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
-<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
-<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9873ca821d26606ee06011a02bf3e1f8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">mSpawnedCreatures</a></td></tr>
+<tr class="separator:a9873ca821d26606ee06011a02bf3e1f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae4e61f0da2ed8848c3afced7af36e761"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">mSpawnedGameobjects</a></td></tr>
+<tr class="separator:ae4e61f0da2ed8848c3afced7af36e761"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a04f133b25c58d462c35a62c57862af14"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a></td></tr>
+<tr class="separator:a04f133b25c58d462c35a62c57862af14"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab64e67ec373ca97edab12662190e36c5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/de3/a03326.html#ad18a3f26065fec260d0281c5354067dd">ActivePoolPools</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a></td></tr>
+<tr class="separator:ab64e67ec373ca97edab12662190e36c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7ff235b904eecdd4d02d2025c4078980" name="a7ff235b904eecdd4d02d2025c4078980"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7ff235b904eecdd4d02d2025c4078980">&#9670;&#160;</a></span>AllCommandScript()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0ee3c6f24c51bac7da15c165ff93ab42" name="a0ee3c6f24c51bac7da15c165ff93ab42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee3c6f24c51bac7da15c165ff93ab42">&#9670;&#160;</a></span>ActivateObject() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
+<div class="memtemplate">
+template&lt;&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">AllCommandScript::AllCommandScript </td>
+          <td class="memname">void ActivePoolData::ActivateObject </td>
           <td>(</td>
-          <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td>
-          <td class="paramname"><em>enabledHooks</em> = <code>std::vector&lt;<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt;()</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -185,33 +205,188 @@ Protected Member Functions</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>    : <a class="code hl_class" href="../../d0/d93/a10162.html">ScriptObject</a>(name, <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812">ALLCOMMANDHOOK_END</a>)</div>
-<div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <span class="comment">// If empty - enable all available hooks.</span></div>
-<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">if</span> (enabledHooks.empty())</div>
-<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../df/dfb/a04472.html#a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812">ALLCOMMANDHOOK_END</a>; ++i)</div>
-<div class="line"><span class="lineno">   44</span>            enabledHooks.emplace_back(i);</div>
-<div class="line"><span class="lineno">   45</span> </div>
-<div class="line"><span class="lineno">   46</span>    <a class="code hl_function" href="../../d7/d7a/a10158.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry&lt;AllCommandScript&gt;::AddScript</a>(<span class="keyword">this</span>, std::move(enabledHooks));</div>
-<div class="line"><span class="lineno">   47</span>}</div>
-<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
-<div class="ttc" id="aa04472_html_a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812"><div class="ttname"><a href="../../df/dfb/a04472.html#a57c7df35e0370887ade698d62704997bac10a14231ce403ff1812e0ec03700812">ALLCOMMANDHOOK_END</a></div><div class="ttdeci">@ ALLCOMMANDHOOK_END</div><div class="ttdef"><b>Definition:</b> AllCommandScript.h:30</div></div>
-<div class="ttc" id="aa10158_html_a4a25c0e3b90f6af4563baf0e7a1c0622"><div class="ttname"><a href="../../d7/d7a/a10158.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script, std::vector&lt; uint16 &gt; enabledHooks={})</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:738</div></div>
-<div class="ttc" id="aa10162_html"><div class="ttname"><a href="../../d0/d93/a10162.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptObject.h:43</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">mSpawnedCreatures</a>.insert(db_guid);</div>
+<div class="line"><span class="lineno">   68</span>    ++<a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">   69</span>}</div>
+<div class="ttc" id="aa09958_html_a9873ca821d26606ee06011a02bf3e1f8"><div class="ttname"><a href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">ActivePoolData::mSpawnedCreatures</a></div><div class="ttdeci">ActivePoolObjects mSpawnedCreatures</div><div class="ttdef"><b>Definition:</b> PoolMgr.h:61</div></div>
+<div class="ttc" id="aa09958_html_ab64e67ec373ca97edab12662190e36c5"><div class="ttname"><a href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">ActivePoolData::mSpawnedPools</a></div><div class="ttdeci">ActivePoolPools mSpawnedPools</div><div class="ttdef"><b>Definition:</b> PoolMgr.h:64</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00738">ScriptRegistry&lt; TScript &gt;::AddScript()</a>, and <a class="el" href="../../#l00030">ALLCOMMANDHOOK_END</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00061">mSpawnedCreatures</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a89430678d5c88c562f1b0ac2b294fea4" name="a89430678d5c88c562f1b0ac2b294fea4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89430678d5c88c562f1b0ac2b294fea4">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
+<a id="a0ee3c6f24c51bac7da15c165ff93ab42" name="a0ee3c6f24c51bac7da15c165ff93ab42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ee3c6f24c51bac7da15c165ff93ab42">&#9670;&#160;</a></span>ActivateObject() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::ActivateObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   73</span>{</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">mSpawnedGameobjects</a>.insert(db_guid);</div>
+<div class="line"><span class="lineno">   75</span>    ++<a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">   76</span>}</div>
+<div class="ttc" id="aa09958_html_ae4e61f0da2ed8848c3afced7af36e761"><div class="ttname"><a href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">ActivePoolData::mSpawnedGameobjects</a></div><div class="ttdeci">ActivePoolObjects mSpawnedGameobjects</div><div class="ttdef"><b>Definition:</b> PoolMgr.h:62</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00062">mSpawnedGameobjects</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="ac23fc621fc12c77718d5a1b9b9d928c4" name="ac23fc621fc12c77718d5a1b9b9d928c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac23fc621fc12c77718d5a1b9b9d928c4">&#9670;&#160;</a></span>ActivateObject() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::ActivateObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid_or_pool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00306">PoolGroup&lt; T &gt;::SpawnObject()</a>.</p>
+
+</div>
+</div>
+<a id="aa11b01ff001992aa5dadf4291875c947" name="aa11b01ff001992aa5dadf4291875c947"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa11b01ff001992aa5dadf4291875c947">&#9670;&#160;</a></span>ActivateObject() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::ActivateObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>quest_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{</div>
+<div class="line"><span class="lineno">   88</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a>.insert(quest_id);</div>
+<div class="line"><span class="lineno">   89</span>    ++<a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">   90</span>}</div>
+<div class="ttc" id="aa09958_html_a04f133b25c58d462c35a62c57862af14"><div class="ttname"><a href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">ActivePoolData::mActiveQuests</a></div><div class="ttdeci">ActivePoolObjects mActiveQuests</div><div class="ttdef"><b>Definition:</b> PoolMgr.h:63</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00063">mActiveQuests</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="ac06d473e60ddb91e027dabbd64d64961" name="ac06d473e60ddb91e027dabbd64d64961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac06d473e60ddb91e027dabbd64d64961">&#9670;&#160;</a></span>ActivateObject() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::ActivateObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>sub_pool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{</div>
+<div class="line"><span class="lineno">   81</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[sub_pool_id] = 0;</div>
+<div class="line"><span class="lineno">   82</span>    ++<a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">   83</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="a27d8f244ad75cedce9d0a341411b48b6" name="a27d8f244ad75cedce9d0a341411b48b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a27d8f244ad75cedce9d0a341411b48b6">&#9670;&#160;</a></span>GetActiveObjectCount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> ActivePoolData::GetActiveObjectCount </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
+<div class="line"><span class="lineno">   32</span>    ActivePoolPools::const_iterator itr = <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>.find(pool_id);</div>
+<div class="line"><span class="lineno">   33</span>    <span class="keywordflow">return</span> itr != <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>.end() ? itr-&gt;second : 0;</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00306">PoolGroup&lt; T &gt;::SpawnObject()</a>.</p>
+
+</div>
+</div>
+<a id="ae5973d0bb86a4477a3471579c5697d51" name="ae5973d0bb86a4477a3471579c5697d51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5973d0bb86a4477a3471579c5697d51">&#9670;&#160;</a></span>GetActiveQuests()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -220,7 +395,7 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool AllCommandScript::IsDatabaseBound </td>
+          <td class="memname"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a> ActivePoolData::GetActiveQuests </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -228,18 +403,328 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+<div class="fragment"><div class="line"><span class="lineno">   59</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a>; } <span class="comment">// a copy of the set</span></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00063">mActiveQuests</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00459">PoolGroup&lt; T &gt;::SpawnObject()</a>.</p>
+
 </div>
 </div>
-<a id="a6f85dc271c1b61244978aa4474e708b0" name="a6f85dc271c1b61244978aa4474e708b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f85dc271c1b61244978aa4474e708b0">&#9670;&#160;</a></span>OnBeforeIsInvokerVisible()</h2>
+<a id="a3eaf8cdcdea5103a6f8d414a11b485d0" name="a3eaf8cdcdea5103a6f8d414a11b485d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eaf8cdcdea5103a6f8d414a11b485d0">&#9670;&#160;</a></span>IsActiveObject() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActivePoolData::IsActiveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">mSpawnedCreatures</a>.find(db_guid) != <a class="code hl_variable" href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">mSpawnedCreatures</a>.end();</div>
+<div class="line"><span class="lineno">   41</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">mSpawnedCreatures</a>.</p>
+
+</div>
+</div>
+<a id="a3eaf8cdcdea5103a6f8d414a11b485d0" name="a3eaf8cdcdea5103a6f8d414a11b485d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3eaf8cdcdea5103a6f8d414a11b485d0">&#9670;&#160;</a></span>IsActiveObject() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActivePoolData::IsActiveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">mSpawnedGameobjects</a>.find(db_guid) != <a class="code hl_variable" href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">mSpawnedGameobjects</a>.end();</div>
+<div class="line"><span class="lineno">   48</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00062">mSpawnedGameobjects</a>.</p>
+
+</div>
+</div>
+<a id="a092d75db230d224ef3e322994f1c0076" name="a092d75db230d224ef3e322994f1c0076"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a092d75db230d224ef3e322994f1c0076">&#9670;&#160;</a></span>IsActiveObject() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActivePoolData::IsActiveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid_or_pool_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00160">PoolGroup&lt; T &gt;::DespawnObject()</a>, <a class="el" href="../../#l00121">PoolMgr::IsSpawnedObject()</a>, and <a class="el" href="../../#l00306">PoolGroup&lt; T &gt;::SpawnObject()</a>.</p>
+
+</div>
+</div>
+<a id="ae6cf482063504094ce47271cf8097001" name="ae6cf482063504094ce47271cf8097001"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6cf482063504094ce47271cf8097001">&#9670;&#160;</a></span>IsActiveObject() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActivePoolData::IsActiveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>quest_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a>.find(quest_id) != <a class="code hl_variable" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a>.end();</div>
+<div class="line"><span class="lineno">   62</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00063">mActiveQuests</a>.</p>
+
+</div>
+</div>
+<a id="a904a2e30dd2c90c42efbd111fadb939b" name="a904a2e30dd2c90c42efbd111fadb939b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a904a2e30dd2c90c42efbd111fadb939b">&#9670;&#160;</a></span>IsActiveObject() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">bool ActivePoolData::IsActiveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>sub_pool_id</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   53</span>{</div>
+<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>.find(sub_pool_id) != <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>.end();</div>
+<div class="line"><span class="lineno">   55</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="ad305bcc1094ba640c2e961f2f56530b6" name="ad305bcc1094ba640c2e961f2f56530b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad305bcc1094ba640c2e961f2f56530b6">&#9670;&#160;</a></span>RemoveObject() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::RemoveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{</div>
+<div class="line"><span class="lineno">   95</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#a9873ca821d26606ee06011a02bf3e1f8">mSpawnedCreatures</a>.erase(db_guid);</div>
+<div class="line"><span class="lineno">   96</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; val = <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">   97</span>    <span class="keywordflow">if</span> (val &gt; 0)</div>
+<div class="line"><span class="lineno">   98</span>        --val;</div>
+<div class="line"><span class="lineno">   99</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">mSpawnedCreatures</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="ad305bcc1094ba640c2e961f2f56530b6" name="ad305bcc1094ba640c2e961f2f56530b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad305bcc1094ba640c2e961f2f56530b6">&#9670;&#160;</a></span>RemoveObject() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::RemoveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{</div>
+<div class="line"><span class="lineno">  104</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#ae4e61f0da2ed8848c3afced7af36e761">mSpawnedGameobjects</a>.erase(db_guid);</div>
+<div class="line"><span class="lineno">  105</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; val = <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">  106</span>    <span class="keywordflow">if</span> (val &gt; 0)</div>
+<div class="line"><span class="lineno">  107</span>        --val;</div>
+<div class="line"><span class="lineno">  108</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00062">mSpawnedGameobjects</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="a1aaeb7438df310b28e8c536a1ef83ebb" name="a1aaeb7438df310b28e8c536a1ef83ebb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aaeb7438df310b28e8c536a1ef83ebb">&#9670;&#160;</a></span>RemoveObject() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::RemoveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>db_guid_or_pool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00160">PoolGroup&lt; T &gt;::DespawnObject()</a>.</p>
+
+</div>
+</div>
+<a id="a8979fda780644f1e678b6569bc7ca6eb" name="a8979fda780644f1e678b6569bc7ca6eb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8979fda780644f1e678b6569bc7ca6eb">&#9670;&#160;</a></span>RemoveObject() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::RemoveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>quest_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  121</span>{</div>
+<div class="line"><span class="lineno">  122</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#a04f133b25c58d462c35a62c57862af14">mActiveQuests</a>.erase(quest_id);</div>
+<div class="line"><span class="lineno">  123</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; val = <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">  124</span>    <span class="keywordflow">if</span> (val &gt; 0)</div>
+<div class="line"><span class="lineno">  125</span>        --val;</div>
+<div class="line"><span class="lineno">  126</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00063">mActiveQuests</a>, and <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<a id="a1aadfb44076691257dfb9bf97f865957" name="a1aadfb44076691257dfb9bf97f865957"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1aadfb44076691257dfb9bf97f865957">&#9670;&#160;</a></span>RemoveObject() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">void ActivePoolData::RemoveObject </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>sub_pool_id</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>pool_id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{</div>
+<div class="line"><span class="lineno">  113</span>    <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>.erase(sub_pool_id);</div>
+<div class="line"><span class="lineno">  114</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&amp; val = <a class="code hl_variable" href="../../dd/dbc/a09958.html#ab64e67ec373ca97edab12662190e36c5">mSpawnedPools</a>[pool_id];</div>
+<div class="line"><span class="lineno">  115</span>    <span class="keywordflow">if</span> (val &gt; 0)</div>
+<div class="line"><span class="lineno">  116</span>        --val;</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">mSpawnedPools</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a04f133b25c58d462c35a62c57862af14" name="a04f133b25c58d462c35a62c57862af14"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04f133b25c58d462c35a62c57862af14">&#9670;&#160;</a></span>mActiveQuests</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -248,41 +733,22 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool AllCommandScript::OnBeforeIsInvokerVisible </td>
-          <td>(</td>
-          <td class="paramtype">std::string&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d5/df3/a07330.html">Acore::Impl::ChatCommands::CommandPermissions</a>&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a> ActivePoolData::mActiveQuests</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00086">ActivateObject()</a>, <a class="el" href="../../#l00059">GetActiveQuests()</a>, <a class="el" href="../../#l00059">IsActiveObject()</a>, and <a class="el" href="../../#l00120">RemoveObject()</a>.</p>
+
 </div>
 </div>
-<a id="aba983f0e052ece230617573f04a35c92" name="aba983f0e052ece230617573f04a35c92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aba983f0e052ece230617573f04a35c92">&#9670;&#160;</a></span>OnHandleDevCommand()</h2>
+<a id="a9873ca821d26606ee06011a02bf3e1f8" name="a9873ca821d26606ee06011a02bf3e1f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9873ca821d26606ee06011a02bf3e1f8">&#9670;&#160;</a></span>mSpawnedCreatures</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -291,35 +757,22 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void AllCommandScript::OnHandleDevCommand </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool &amp;&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a> ActivePoolData::mSpawnedCreatures</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>{ }</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l00065">ActivateObject()</a>, <a class="el" href="../../#l00038">IsActiveObject()</a>, and <a class="el" href="../../#l00093">RemoveObject()</a>.</p>
+
 </div>
 </div>
-<a id="a3a116836453073e77bbd8ab974f36f47" name="a3a116836453073e77bbd8ab974f36f47"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a116836453073e77bbd8ab974f36f47">&#9670;&#160;</a></span>OnTryExecuteCommand()</h2>
+<a id="ae4e61f0da2ed8848c3afced7af36e761" name="ae4e61f0da2ed8848c3afced7af36e761"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae4e61f0da2ed8848c3afced7af36e761">&#9670;&#160;</a></span>mSpawnedGameobjects</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -328,40 +781,42 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual bool AllCommandScript::OnTryExecuteCommand </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> &amp;&#160;</td>
-          <td class="paramname">, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname">&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="memname"><a class="el" href="../../dc/de3/a03326.html#a6fd2b29871e3f63cf9cc493968a0ab74">ActivePoolObjects</a> ActivePoolData::mSpawnedGameobjects</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>This hook is triggered when a command is parsed, but before it is executed. </p>
-<dl class="params"><dt>Parameters</dt><dd>
-  <table class="params">
-    <tr><td class="paramname">handler</td><td>Contains information about the <a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> </td></tr>
-    <tr><td class="paramname">cmdStr</td><td>Contains information about the command name </td></tr>
-  </table>
-  </dd>
-</dl>
-<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
-</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00072">ActivateObject()</a>, <a class="el" href="../../#l00045">IsActiveObject()</a>, and <a class="el" href="../../#l00102">RemoveObject()</a>.</p>
+
+</div>
+</div>
+<a id="ab64e67ec373ca97edab12662190e36c5" name="ab64e67ec373ca97edab12662190e36c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab64e67ec373ca97edab12662190e36c5">&#9670;&#160;</a></span>mSpawnedPools</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dc/de3/a03326.html#ad18a3f26065fec260d0281c5354067dd">ActivePoolPools</a> ActivePoolData::mSpawnedPools</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00065">ActivateObject()</a>, <a class="el" href="../../#l00030">GetActiveObjectCount()</a>, <a class="el" href="../../#l00052">IsActiveObject()</a>, and <a class="el" href="../../#l00093">RemoveObject()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -369,8 +824,8 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/dbc/a09958.html">AllCommandScript</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:06 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dd/dbc/a09958.html">ActivePoolData</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

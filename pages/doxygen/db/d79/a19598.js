@@ -1,8 +1,6 @@
 var a19598 =
 [
-    [ "FilterTargets", "db/d79/a19598.html#a93b41db0e89710c6e0e3c764d51d37ad", null ],
-    [ "HandleScript", "db/d79/a19598.html#a0c7d9007a9401b96a3c1f8614dc1a2db", null ],
-    [ "PrepareSpellScript", "db/d79/a19598.html#aea46762f43b31923617f740e0545fe98", null ],
-    [ "Register", "db/d79/a19598.html#a6ccde780ea9fba273b96d6fd9558a2d1", null ],
-    [ "Validate", "db/d79/a19598.html#af526a7a7a82ec7621f8842e884d7b14f", null ]
+    [ "npc_thorims_hammerAI", "dd/dad/a19602.html", "dd/dad/a19602" ],
+    [ "npc_thorims_hammer", "db/d79/a19598.html#a97cbcda73931e6119f8ab30fa4bb0806", null ],
+    [ "GetAI", "db/d79/a19598.html#aaee92d115d112ebf590cf690de8c6667", null ]
 ];

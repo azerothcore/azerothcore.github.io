@@ -1,7 +1,8 @@
 var a16014 =
 [
-    [ "HandleAfterHit", "d5/df2/a16014.html#a6fc446385881ddb4c94de73199649816", null ],
-    [ "PrepareSpellScript", "d5/df2/a16014.html#acaed5d5902194f8ba9d2b286cd47d8d0", null ],
-    [ "Register", "d5/df2/a16014.html#aaae368b2f647aa6a56827550e50dafe1", null ],
-    [ "Validate", "d5/df2/a16014.html#ad4c84071b538b657fa1302982f8799b4", null ]
+    [ "npc_announcer_toc5AI", "d5/df2/a16014.html#a96e1bd089dfd21fa252bc6422d20bada", null ],
+    [ "DamageTaken", "d5/df2/a16014.html#a53458483699ac026ff2cd36b5f061571", null ],
+    [ "MovementInform", "d5/df2/a16014.html#acdcf4110b3815635ad173a70e7a1e603", null ],
+    [ "Reset", "d5/df2/a16014.html#ab3dca17e0350d6d46a9069f97f2d12ef", null ],
+    [ "UpdateAI", "d5/df2/a16014.html#ad2c596253d67d051f497a8d77859846d", null ]
 ];

@@ -1,5 +1,5 @@
 var a26710 =
 [
-    [ "AreaTrigger_at_nats_landing", "d8/dee/a26710.html#ac366e5b1db489b4f8bb8a1d07caa83c2", null ],
-    [ "OnTrigger", "d8/dee/a26710.html#a67434f74300fa3463e679afb7d344467", null ]
+    [ "achievement_sa_defense_of_the_ancients", "d8/dee/a26710.html#a678cffdece32710a42a92db0c092f3a5", null ],
+    [ "OnCheck", "d8/dee/a26710.html#af23e346f9b022f490b84c8081f847a2f", null ]
 ];

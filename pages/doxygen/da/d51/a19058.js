@@ -1,12 +1,13 @@
 var a19058 =
 [
-    [ "npc_oculus_drakeAI", "da/d51/a19058.html#a214d9b77a5653f1a5f60106081eaf683", null ],
-    [ "IsSummonedBy", "da/d51/a19058.html#a151e59f7b6032d5ed62f9f0ed2923f40", null ],
-    [ "MovementInform", "da/d51/a19058.html#a5f6de11b9cd3c0d6593d7d249cb59555", null ],
-    [ "PassengerBoarded", "da/d51/a19058.html#a5efc6f166b5fd77fa329b17e1e143379", null ],
-    [ "SpellHitTarget", "da/d51/a19058.html#aebb8fb75777d7fc3ddc69dc558b08f7e", null ],
-    [ "UpdateAI", "da/d51/a19058.html#a8ecaebfcf1c1fbe8ed263be6148ccef6", null ],
-    [ "despawnTimer", "da/d51/a19058.html#a560dc0936a78267a4036b209c6718732", null ],
-    [ "JustSummoned", "da/d51/a19058.html#a8b656a464525e881944e72e9486b0eb9", null ],
-    [ "m_pInstance", "da/d51/a19058.html#a4df6c06ec857086f7a2747cab2c4703c", null ]
+    [ "boss_drakosAI", "da/d51/a19058.html#a75d771095897081457353be898b332c3", null ],
+    [ "JustDied", "da/d51/a19058.html#a7235760bd407f49802bc9e26e8f3f22c", null ],
+    [ "JustEngagedWith", "da/d51/a19058.html#a4bc15075d9e9a913783da482a7a167c7", null ],
+    [ "JustSummoned", "da/d51/a19058.html#a06e21c4e5bd1a882ada074b9595d4088", null ],
+    [ "KilledUnit", "da/d51/a19058.html#a4bd3e45b45660311d7510f58a1850648", null ],
+    [ "MoveInLineOfSight", "da/d51/a19058.html#a10b2ca39887e906e6e1e33df82afc1da", null ],
+    [ "Reset", "da/d51/a19058.html#a6fd78f4f45b9f2104acc481fb0f2763f", null ],
+    [ "UpdateAI", "da/d51/a19058.html#abf761c7cda4031c31354d8c8d42963e0", null ],
+    [ "events", "da/d51/a19058.html#ae86ad4fcc57cc1137411c881355f2f51", null ],
+    [ "pInstance", "da/d51/a19058.html#adc9461ae5334634a9140f338547688b4", null ]
 ];

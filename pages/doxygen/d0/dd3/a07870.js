@@ -1,10 +1,10 @@
 var a07870 =
 [
-    [ "FormationMgr", "d0/dd3/a07870.html#ade1aa22473c112aed65d537929b07908", null ],
-    [ "~FormationMgr", "d0/dd3/a07870.html#a8f3ee00e25ebacfb71b71b9e7d63f6e0", null ],
-    [ "AddCreatureToGroup", "d0/dd3/a07870.html#aef758bdbc8f93c8981aedd51d7e10a07", null ],
-    [ "instance", "d0/dd3/a07870.html#a871fec234a94e4adae07315a008acec3", null ],
-    [ "LoadCreatureFormations", "d0/dd3/a07870.html#af0ecde62fc5c4a3a2b3be16c58f51fde", null ],
-    [ "RemoveCreatureFromGroup", "d0/dd3/a07870.html#a6ecac2b9dcdc8db2cd7a0bd1be0fd364", null ],
-    [ "CreatureGroupMap", "d0/dd3/a07870.html#ac11a3dfbe6a4f7df01d966f14b0aecd9", null ]
+    [ "CreatureModel", "d0/dd3/a07870.html#afd3bf8cb5ff39b862a946eab9731b251", null ],
+    [ "CreatureModel", "d0/dd3/a07870.html#a02b05bf92c3341b90173b4aa998087ba", null ],
+    [ "CreatureDisplayID", "d0/dd3/a07870.html#a0f48fde2c8438ecf411d7f80d3bca1a9", null ],
+    [ "DefaultInvisibleModel", "d0/dd3/a07870.html#a4b729e5730c1fa0e5e4995f5dd65e9b3", null ],
+    [ "DefaultVisibleModel", "d0/dd3/a07870.html#a49bec3e0996adfb6ec5bd5a9b6e38448", null ],
+    [ "DisplayScale", "d0/dd3/a07870.html#ad842b73233b84c451710767f5e58f10a", null ],
+    [ "Probability", "d0/dd3/a07870.html#a7736d6480dca65a68afb82a830b35874", null ]
 ];

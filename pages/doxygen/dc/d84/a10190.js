@@ -1,7 +1,10 @@
 var a10190 =
 [
-    [ "ClientPacket", "dc/d84/a10190.html#aa1d1946c07e248bae5927e83fdad9500", null ],
-    [ "ClientPacket", "dc/d84/a10190.html#a1cdaaacca2695c4366647c7611073ff0", null ],
-    [ "GetOpcode", "dc/d84/a10190.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
-    [ "Write", "dc/d84/a10190.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
+    [ "VehicleScript", "dc/d84/a10190.html#a9f708a7e432fcb4abe15dcabb0e5a035", null ],
+    [ "OnAddPassenger", "dc/d84/a10190.html#a4495f8900ecb85546ac23ebe4783ae7c", null ],
+    [ "OnInstall", "dc/d84/a10190.html#abbb42dcbc5fad97ed1df45ea7b3afe54", null ],
+    [ "OnInstallAccessory", "dc/d84/a10190.html#ad59ae4c47404abb86e05ae983704f6ea", null ],
+    [ "OnRemovePassenger", "dc/d84/a10190.html#ad4094366aba1fb6a1ff19361d1be9210", null ],
+    [ "OnReset", "dc/d84/a10190.html#a38fca3fec8785f015084b832f9e3b08c", null ],
+    [ "OnUninstall", "dc/d84/a10190.html#a7d4bafe42756ee73b5ce79783842c243", null ]
 ];

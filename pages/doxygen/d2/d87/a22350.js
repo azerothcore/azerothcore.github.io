@@ -1,12 +1,8 @@
 var a22350 =
 [
-    [ "boss_gurtogg_bloodboil", "d2/d87/a22350.html#af6abec4e4db5ce939e4c9593656d16fb", null ],
-    [ "CanAIAttack", "d2/d87/a22350.html#a60e6439bab689eb88a18612b6b46c713", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "d2/d87/a22350.html#a42db4d9fab6edfc392e1886c7d2770cb", null ],
-    [ "JustDied", "d2/d87/a22350.html#a10456695efc6ea0b8eace24b94c37cc3", null ],
-    [ "JustEngagedWith", "d2/d87/a22350.html#a0847173efbae252c2fbbaf1be17097cb", null ],
-    [ "JustSummoned", "d2/d87/a22350.html#ae718666a1da0e93cb0965c42c40b51df", null ],
-    [ "KilledUnit", "d2/d87/a22350.html#ab2b8131fc06f0ff6dd9e3ac7799e72db", null ],
-    [ "Reset", "d2/d87/a22350.html#add25677d422b8bddcb753465451f0584", null ],
-    [ "_recentlySpoken", "d2/d87/a22350.html#a74af813b84f7787a5b764cfe574c087b", null ]
+    [ "FilterTargets", "d2/d87/a22350.html#a9e0a72530a8dc764269e8df6d9d1ed3d", null ],
+    [ "HandleDummyHitTarget", "d2/d87/a22350.html#ae892090a9bd48aa447224c9f96801d37", null ],
+    [ "PrepareSpellScript", "d2/d87/a22350.html#af08ab4fcc3705b07e89ed222794e70e9", null ],
+    [ "Register", "d2/d87/a22350.html#aeb1aad59b6b4767a63660c5fe0277392", null ],
+    [ "Validate", "d2/d87/a22350.html#a5a87a7c18a55caf5288b8ca8bbd2f361", null ]
 ];

@@ -1,6 +1,7 @@
 var a25066 =
 [
-    [ "OnRemove", "df/d9c/a25066.html#ac3a6d7bdc95605e3c73f8115b4a68da0", null ],
-    [ "PrepareAuraScript", "df/d9c/a25066.html#ab1e3a55a35dbbb4bd781ac8c51608e6a", null ],
-    [ "Register", "df/d9c/a25066.html#aecd068248e174c4b676ff9f43dd0856f", null ]
+    [ "HandleOnEffectApply", "df/d9c/a25066.html#a90359e3dbb5c2c8caf275f21c107ee0a", null ],
+    [ "HandleOnEffectRemove", "df/d9c/a25066.html#a094d788d157474a9683387d5c340538f", null ],
+    [ "PrepareAuraScript", "df/d9c/a25066.html#aad378b8c45f11af51faf9128878c01df", null ],
+    [ "Register", "df/d9c/a25066.html#a8fcc385f504b3b357e9ceab76f11ca46", null ]
 ];

@@ -1,8 +1,12 @@
 var a22286 =
 [
-    [ "boss_darkweaver_syth", "d3/d19/a22286.html#a4f719165e07206c5a378412b3f82ff86", null ],
-    [ "JustDied", "d3/d19/a22286.html#adf7e44e3fdc7241baa5f9eddafcb6d40", null ],
-    [ "JustEngagedWith", "d3/d19/a22286.html#aaf6dab75e66734e930c5732749f3d69a", null ],
-    [ "KilledUnit", "d3/d19/a22286.html#a1904c2596dd455f84625974beec4a2c8", null ],
-    [ "Reset", "d3/d19/a22286.html#a484a6dea12ca9e5a20f0a0761461c1f5", null ]
+    [ "boss_exarch_maladaar", "d3/d19/a22286.html#a5dac68e3dc6fc37736bf85b84eadd417", null ],
+    [ "JustDied", "d3/d19/a22286.html#ab1179a19af8948d430559db4074c41ed", null ],
+    [ "JustEngagedWith", "d3/d19/a22286.html#a69427e7a0ca70253ad8035b5e6b1e01e", null ],
+    [ "JustSummoned", "d3/d19/a22286.html#a8f59e1b093af8c85da8c2fd38e01ca1b", null ],
+    [ "KilledUnit", "d3/d19/a22286.html#adf35cb8b039676500d4040baa08b0d48", null ],
+    [ "MoveInLineOfSight", "d3/d19/a22286.html#a14baacd30b9186c7492c981313421d5b", null ],
+    [ "Reset", "d3/d19/a22286.html#accb21d3c4a6856d2de9641cf84c42ce9", null ],
+    [ "UpdateAI", "d3/d19/a22286.html#a7646c4477135d3d3b8580432902babd4", null ],
+    [ "_talked", "d3/d19/a22286.html#a15c4f122529b9f52823ea407c43433c5", null ]
 ];

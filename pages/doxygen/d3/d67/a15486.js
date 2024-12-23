@@ -1,14 +1,14 @@
 var a15486 =
 [
-    [ "npc_taldaram_flamesphere", "d3/d67/a15486.html#aad7d6696b54e39c6abd27a7252353360", null ],
-    [ "DoAction", "d3/d67/a15486.html#aa79e370c1c30eccb44a46b622e2d5f2a", null ],
-    [ "IsSummonedBy", "d3/d67/a15486.html#acb232931bc181eedf4b39d5519dd45e2", null ],
-    [ "JustDied", "d3/d67/a15486.html#ae6dfff3df39257c55495707934d5d38b", null ],
-    [ "MovementInform", "d3/d67/a15486.html#a785c491b7144420cd4975e62c9a8a711", null ],
-    [ "SetVictimPos", "d3/d67/a15486.html#a51f1683806095c760d4accff9e23f8b6", null ],
-    [ "UpdateAI", "d3/d67/a15486.html#a163341c0ff0f56986e2486e06e21b4b2", null ],
-    [ "instance", "d3/d67/a15486.html#afd0ff83cb5fba1fbeb85b7d600f1b1de", null ],
-    [ "moveTimer", "d3/d67/a15486.html#afe50ac59ec441ab11745ca9461158a00", null ],
-    [ "uiDespawnTimer", "d3/d67/a15486.html#a883b4c6429e8a8bf02878caa14e02537", null ],
-    [ "victimPos", "d3/d67/a15486.html#ae681d84f2324faf22296dcb6e08484b0", null ]
+    [ "boss_amanitar", "d3/d67/a15486.html#a660bdf8dd64bbffda4ee1ec603c41402", null ],
+    [ "EnterEvadeMode", "d3/d67/a15486.html#a6b3cf0ea01ce34b4281116ca8387732d", null ],
+    [ "ExecuteEvent", "d3/d67/a15486.html#a540fb447d261ccfcc77ac15888e8bb50", null ],
+    [ "JustDied", "d3/d67/a15486.html#a138049712649ff414950d9d0ca05d712", null ],
+    [ "JustEngagedWith", "d3/d67/a15486.html#ae2bace7f649626c68560d4a6d5aa4ea3", null ],
+    [ "JustSummoned", "d3/d67/a15486.html#a1199430b8ec2a27b136838c112a63c07", null ],
+    [ "Reset", "d3/d67/a15486.html#aab3faca4526947a72d8ca049a605f5be", null ],
+    [ "SummonedCreatureDies", "d3/d67/a15486.html#a2f897b4d32b8c67ff644675f08ac6353", null ],
+    [ "SummonMushroom", "d3/d67/a15486.html#afc5b4942931f6020b2894b901650fc35", null ],
+    [ "_mushroomsDeque", "d3/d67/a15486.html#a4ba2415d6134cdc435114cd3af235b6d", null ],
+    [ "mushroomsSummoned", "d3/d67/a15486.html#a57b207eaa8a4347bfb5cb51d46eead27", null ]
 ];

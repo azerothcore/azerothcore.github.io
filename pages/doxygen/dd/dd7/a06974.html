@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: BfCapturePoint Class Reference</title>
+<title>AzerothCore: SearchableAuctionEntry Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,1115 +106,545 @@ $(document).ready(function(){initNavTree('dd/dd7/a06974.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d8/d46/a06971.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">BfCapturePoint Class Reference</div></div>
+  <div class="headertitle"><div class="title">SearchableAuctionEntry Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Battlefield.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for BfCapturePoint:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../dd/dd7/a06974.png" usemap="#BfCapturePoint_map" alt=""/>
-  <map id="BfCapturePoint_map" name="BfCapturePoint_map">
-<area href="../../d2/d4e/a06998.html" alt="WintergraspCapturePoint" shape="rect" coords="0,56,153,80"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">AuctionHouseSearcher.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a1eac786bb758ef6f3295e2241045dc32"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a1eac786bb758ef6f3295e2241045dc32">BfCapturePoint</a> (<a class="el" href="../../dd/dde/a06982.html">Battlefield</a> *bf)</td></tr>
-<tr class="separator:a1eac786bb758ef6f3295e2241045dc32"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a309a0c2b2f3c5696aef46bb7bdf4dade"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a309a0c2b2f3c5696aef46bb7bdf4dade">~BfCapturePoint</a> ()</td></tr>
-<tr class="separator:a309a0c2b2f3c5696aef46bb7bdf4dade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e5304012825579a14703a6624a902ba"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a0e5304012825579a14703a6624a902ba">FillInitialWorldStates</a> (<a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;)</td></tr>
-<tr class="separator:a0e5304012825579a14703a6624a902ba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887af016c482f532f38b3aa10ce6e546"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a887af016c482f532f38b3aa10ce6e546">SendUpdateWorldState</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> field, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> value)</td></tr>
-<tr class="separator:a887af016c482f532f38b3aa10ce6e546"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab961bfe8934f89e6e454b8a74a280e3e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#ab961bfe8934f89e6e454b8a74a280e3e">SendObjectiveComplete</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid)</td></tr>
-<tr class="separator:ab961bfe8934f89e6e454b8a74a280e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a4ed58f9874900d822305dd406b1c67"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a1a4ed58f9874900d822305dd406b1c67">HandlePlayerEnter</a> (<a class="el" href="../../d9/d86/a08398.html">Player</a> *player)</td></tr>
-<tr class="separator:a1a4ed58f9874900d822305dd406b1c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a02eab1f489ee817d0b0263a57eb71ed2"><td class="memItemLeft" align="right" valign="top">virtual GuidUnorderedSet::iterator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a02eab1f489ee817d0b0263a57eb71ed2">HandlePlayerLeave</a> (<a class="el" href="../../d9/d86/a08398.html">Player</a> *player)</td></tr>
-<tr class="separator:a02eab1f489ee817d0b0263a57eb71ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5a375223e2be7103bf6d9b411bb95b2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a5a375223e2be7103bf6d9b411bb95b2c">IsInsideObjective</a> (<a class="el" href="../../d9/d86/a08398.html">Player</a> *player) const</td></tr>
-<tr class="separator:a5a375223e2be7103bf6d9b411bb95b2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3620c3873aca6e90594a4ddc8345102d"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a3620c3873aca6e90594a4ddc8345102d">Update</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> diff)</td></tr>
-<tr class="separator:a3620c3873aca6e90594a4ddc8345102d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a429037910b1a3108cdb753ba91230bf7"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a429037910b1a3108cdb753ba91230bf7">ChangeTeam</a> (<a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>)</td></tr>
-<tr class="separator:a429037910b1a3108cdb753ba91230bf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c727552544f98f3ace8e42c2d1cca02"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a7c727552544f98f3ace8e42c2d1cca02">SendChangePhase</a> ()</td></tr>
-<tr class="separator:a7c727552544f98f3ace8e42c2d1cca02"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a309d340d11c1712f5525438f31779671"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a309d340d11c1712f5525438f31779671">SetCapturePointData</a> (<a class="el" href="../../d8/de1/a07954.html">GameObject</a> *capturePoint, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> team)</td></tr>
-<tr class="separator:a309d340d11c1712f5525438f31779671"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a605d9ced3b467ff21c638490b1f089f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de1/a07954.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a> ()</td></tr>
-<tr class="separator:a605d9ced3b467ff21c638490b1f089f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a100e1b83863595f598cf40cfa6d9443f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/de1/a07954.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a100e1b83863595f598cf40cfa6d9443f">GetCapturePointGo</a> (<a class="el" href="../../db/df3/a08182.html">WorldObject</a> *obj)</td></tr>
-<tr class="separator:a100e1b83863595f598cf40cfa6d9443f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1963ac8eea7452b1bb89923a2e32b0f6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a1963ac8eea7452b1bb89923a2e32b0f6">GetTeamId</a> ()</td></tr>
-<tr class="separator:a1963ac8eea7452b1bb89923a2e32b0f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae220020b8cbb4e751bfa5798ea95d594"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#ae220020b8cbb4e751bfa5798ea95d594">BuildAuctionInfo</a> (<a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;data) const</td></tr>
+<tr class="separator:ae220020b8cbb4e751bfa5798ea95d594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d56d87bcd100bcb470bc7710c59bf9e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a7d56d87bcd100bcb470bc7710c59bf9e">SetItemNames</a> ()</td></tr>
+<tr class="separator:a7d56d87bcd100bcb470bc7710c59bf9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7daa9aa634bf2b589ef1906dfc0704d0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a7daa9aa634bf2b589ef1906dfc0704d0">CompareAuctionEntry</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> column, <a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a> const &amp;auc, int loc_idx) const</td></tr>
+<tr class="separator:a7daa9aa634bf2b589ef1906dfc0704d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
-Protected Member Functions</h2></td></tr>
-<tr class="memitem:a67d01513cc9f41ce103f214a85bcf5c6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a67d01513cc9f41ce103f214a85bcf5c6">DelCapturePoint</a> ()</td></tr>
-<tr class="separator:a67d01513cc9f41ce103f214a85bcf5c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a371349b157af4b8ecbacc8814f0bb2ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db0/a03467.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a> [2]</td></tr>
-<tr class="separator:a371349b157af4b8ecbacc8814f0bb2ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89bf5ddb47f47bb1129ec2256221dcb8"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a></td></tr>
-<tr class="separator:a89bf5ddb47f47bb1129ec2256221dcb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2d8624843a640445f04a6b17be63ae3d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">m_minValue</a></td></tr>
-<tr class="separator:a2d8624843a640445f04a6b17be63ae3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a53e231eae6e505a88e616244092a8ee6"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a53e231eae6e505a88e616244092a8ee6">m_maxSpeed</a></td></tr>
-<tr class="separator:a53e231eae6e505a88e616244092a8ee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7b3e3cb728347cd9783eea394245fcc0"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a></td></tr>
-<tr class="separator:a7b3e3cb728347cd9783eea394245fcc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd3c8e8fe970c160670bd5a7cdb9b1c4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a></td></tr>
-<tr class="separator:acd3c8e8fe970c160670bd5a7cdb9b1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a37792e377ac59c30e711a56239598da4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798">BattlefieldObjectiveStates</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a></td></tr>
-<tr class="separator:a37792e377ac59c30e711a56239598da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8b53252eb10615ff197e15ea620083"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798">BattlefieldObjectiveStates</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a></td></tr>
-<tr class="separator:acf8b53252eb10615ff197e15ea620083"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa96d823e5093e1baff06666c35c49932"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">m_neutralValuePct</a></td></tr>
-<tr class="separator:aa96d823e5093e1baff06666c35c49932"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f857e79dde01c3d966f7c7981e5f190"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dde/a06982.html">Battlefield</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a1f857e79dde01c3d966f7c7981e5f190">m_Bf</a></td></tr>
-<tr class="separator:a1f857e79dde01c3d966f7c7981e5f190"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d43160e2a96cdae295596756f770f74"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a9d43160e2a96cdae295596756f770f74">m_capturePointEntry</a></td></tr>
-<tr class="separator:a9d43160e2a96cdae295596756f770f74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bc808408161740eed6185c049e1414b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">m_capturePoint</a></td></tr>
-<tr class="separator:a3bc808408161740eed6185c049e1414b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa52368fdef3baed1aed4af459f764b8b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#aa52368fdef3baed1aed4af459f764b8b">Id</a></td></tr>
+<tr class="separator:aa52368fdef3baed1aed4af459f764b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75e8c535be797d015ed970d896a56c29"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a75e8c535be797d015ed970d896a56c29">ownerGuid</a></td></tr>
+<tr class="separator:a75e8c535be797d015ed970d896a56c29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaca6e4de9cfbc62eb1815c2cf79be123"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#aaca6e4de9cfbc62eb1815c2cf79be123">ownerName</a></td></tr>
+<tr class="separator:aaca6e4de9cfbc62eb1815c2cf79be123"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978fea69d5c823f71e681903a432ec51"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a></td></tr>
+<tr class="separator:a978fea69d5c823f71e681903a432ec51"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3556fd353c58fda259c7dec52bb3b90"><td class="memItemLeft" align="right" valign="top">time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#aa3556fd353c58fda259c7dec52bb3b90">expire_time</a></td></tr>
+<tr class="separator:aa3556fd353c58fda259c7dec52bb3b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3459d9794539591ae3727bdd6de3e2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#ae3459d9794539591ae3727bdd6de3e2b">startbid</a></td></tr>
+<tr class="separator:ae3459d9794539591ae3727bdd6de3e2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b2c836d635d9a170b2d70b763c4907b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a></td></tr>
+<tr class="separator:a0b2c836d635d9a170b2d70b763c4907b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada14d168bde5da2b39c93a240941a80a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#ada14d168bde5da2b39c93a240941a80a">bidderGuid</a></td></tr>
+<tr class="separator:ada14d168bde5da2b39c93a240941a80a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a988bdc1b8ae87c3797b24534e853213f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d44/a03065.html#af4f47e9bbd0faf17478c06dd0660bb84">AuctionHouseFaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a988bdc1b8ae87c3797b24534e853213f">listFaction</a></td></tr>
+<tr class="separator:a988bdc1b8ae87c3797b24534e853213f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05df9a39681c0014a1c398b9bca1cbfe"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/da7/a06970.html">SearchableAuctionEntryItem</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a></td></tr>
+<tr class="separator:a05df9a39681c0014a1c398b9bca1cbfe"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a1eac786bb758ef6f3295e2241045dc32" name="a1eac786bb758ef6f3295e2241045dc32"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eac786bb758ef6f3295e2241045dc32">&#9670;&#160;</a></span>BfCapturePoint()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae220020b8cbb4e751bfa5798ea95d594" name="ae220020b8cbb4e751bfa5798ea95d594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae220020b8cbb4e751bfa5798ea95d594">&#9670;&#160;</a></span>BuildAuctionInfo()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">BfCapturePoint::BfCapturePoint </td>
+          <td class="memname">void SearchableAuctionEntry::BuildAuctionInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dde/a06982.html">Battlefield</a> *&#160;</td>
-          <td class="paramname"><em>bf</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  868</span>                                                       : <a class="code hl_variable" href="../../dd/dd7/a06974.html#a1f857e79dde01c3d966f7c7981e5f190">m_Bf</a>(battlefield)</div>
-<div class="line"><span class="lineno">  869</span>{</div>
-<div class="line"><span class="lineno">  870</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno">  871</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> = 0;</div>
-<div class="line"><span class="lineno">  872</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">m_minValue</a> = 0.0f;</div>
-<div class="line"><span class="lineno">  873</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a> = 0.0f;</div>
-<div class="line"><span class="lineno">  874</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798afafb6299c9f30c2bd0d2caac21577178">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno">  875</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798afafb6299c9f30c2bd0d2caac21577178">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno">  876</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a9d43160e2a96cdae295596756f770f74">m_capturePointEntry</a> = 0;</div>
-<div class="line"><span class="lineno">  877</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">m_neutralValuePct</a> = 0;</div>
-<div class="line"><span class="lineno">  878</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a53e231eae6e505a88e616244092a8ee6">m_maxSpeed</a> = 0;</div>
-<div class="line"><span class="lineno">  879</span>}</div>
-<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a></div><div class="ttdeci">@ TEAM_NEUTRAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:762</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798afafb6299c9f30c2bd0d2caac21577178"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798afafb6299c9f30c2bd0d2caac21577178">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL</div><div class="ttdef"><b>Definition:</b> Battlefield.h:40</div></div>
-<div class="ttc" id="aa06974_html_a1f857e79dde01c3d966f7c7981e5f190"><div class="ttname"><a href="../../dd/dd7/a06974.html#a1f857e79dde01c3d966f7c7981e5f190">BfCapturePoint::m_Bf</a></div><div class="ttdeci">Battlefield * m_Bf</div><div class="ttdef"><b>Definition:</b> Battlefield.h:136</div></div>
-<div class="ttc" id="aa06974_html_a2d8624843a640445f04a6b17be63ae3d"><div class="ttname"><a href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">BfCapturePoint::m_minValue</a></div><div class="ttdeci">float m_minValue</div><div class="ttdef"><b>Definition:</b> Battlefield.h:119</div></div>
-<div class="ttc" id="aa06974_html_a37792e377ac59c30e711a56239598da4"><div class="ttname"><a href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">BfCapturePoint::m_OldState</a></div><div class="ttdeci">BattlefieldObjectiveStates m_OldState</div><div class="ttdef"><b>Definition:</b> Battlefield.h:129</div></div>
-<div class="ttc" id="aa06974_html_a53e231eae6e505a88e616244092a8ee6"><div class="ttname"><a href="../../dd/dd7/a06974.html#a53e231eae6e505a88e616244092a8ee6">BfCapturePoint::m_maxSpeed</a></div><div class="ttdeci">float m_maxSpeed</div><div class="ttdef"><b>Definition:</b> Battlefield.h:122</div></div>
-<div class="ttc" id="aa06974_html_a7b3e3cb728347cd9783eea394245fcc0"><div class="ttname"><a href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">BfCapturePoint::m_value</a></div><div class="ttdeci">float m_value</div><div class="ttdef"><b>Definition:</b> Battlefield.h:125</div></div>
-<div class="ttc" id="aa06974_html_a89bf5ddb47f47bb1129ec2256221dcb8"><div class="ttname"><a href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">BfCapturePoint::m_maxValue</a></div><div class="ttdeci">float m_maxValue</div><div class="ttdef"><b>Definition:</b> Battlefield.h:118</div></div>
-<div class="ttc" id="aa06974_html_a9d43160e2a96cdae295596756f770f74"><div class="ttname"><a href="../../dd/dd7/a06974.html#a9d43160e2a96cdae295596756f770f74">BfCapturePoint::m_capturePointEntry</a></div><div class="ttdeci">uint32 m_capturePointEntry</div><div class="ttdef"><b>Definition:</b> Battlefield.h:139</div></div>
-<div class="ttc" id="aa06974_html_aa96d823e5093e1baff06666c35c49932"><div class="ttname"><a href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">BfCapturePoint::m_neutralValuePct</a></div><div class="ttdeci">uint32 m_neutralValuePct</div><div class="ttdef"><b>Definition:</b> Battlefield.h:133</div></div>
-<div class="ttc" id="aa06974_html_acd3c8e8fe970c160670bd5a7cdb9b1c4"><div class="ttname"><a href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">BfCapturePoint::m_team</a></div><div class="ttdeci">TeamId m_team</div><div class="ttdef"><b>Definition:</b> Battlefield.h:126</div></div>
-<div class="ttc" id="aa06974_html_acf8b53252eb10615ff197e15ea620083"><div class="ttname"><a href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">BfCapturePoint::m_State</a></div><div class="ttdeci">BattlefieldObjectiveStates m_State</div><div class="ttdef"><b>Definition:</b> Battlefield.h:130</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00040">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL</a>, <a class="el" href="../../#l00139">m_capturePointEntry</a>, <a class="el" href="../../#l00122">m_maxSpeed</a>, <a class="el" href="../../#l00118">m_maxValue</a>, <a class="el" href="../../#l00119">m_minValue</a>, <a class="el" href="../../#l00133">m_neutralValuePct</a>, <a class="el" href="../../#l00129">m_OldState</a>, <a class="el" href="../../#l00130">m_State</a>, <a class="el" href="../../#l00126">m_team</a>, <a class="el" href="../../#l00125">m_value</a>, and <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>.</p>
-
-</div>
-</div>
-<a id="a309a0c2b2f3c5696aef46bb7bdf4dade" name="a309a0c2b2f3c5696aef46bb7bdf4dade"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a309a0c2b2f3c5696aef46bb7bdf4dade">&#9670;&#160;</a></span>~BfCapturePoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual BfCapturePoint::~BfCapturePoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   82</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a429037910b1a3108cdb753ba91230bf7" name="a429037910b1a3108cdb753ba91230bf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a429037910b1a3108cdb753ba91230bf7">&#9670;&#160;</a></span>ChangeTeam()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void BfCapturePoint::ChangeTeam </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../d2/d4e/a06998.html#a66564dd3237538b256ebeb76d236001f">WintergraspCapturePoint</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  102</span>{}</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="a67d01513cc9f41ce103f214a85bcf5c6" name="a67d01513cc9f41ce103f214a85bcf5c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67d01513cc9f41ce103f214a85bcf5c6">&#9670;&#160;</a></span>DelCapturePoint()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BfCapturePoint::DelCapturePoint </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  965</span>{</div>
-<div class="line"><span class="lineno">  966</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/de1/a07954.html">GameObject</a>* capturePoint = <a class="code hl_function" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a>())</div>
-<div class="line"><span class="lineno">  967</span>    {</div>
-<div class="line"><span class="lineno">  968</span>        capturePoint-&gt;SetRespawnTime(0);                  <span class="comment">// not save respawn time</span></div>
-<div class="line"><span class="lineno">  969</span>        capturePoint-&gt;Delete();</div>
-<div class="line"><span class="lineno">  970</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">m_capturePoint</a>.<a class="code hl_function" href="../../d9/d08/a08198.html#af6aafb4610723c7f14523fef243b1b65">Clear</a>();</div>
-<div class="line"><span class="lineno">  971</span>    }</div>
-<div class="line"><span class="lineno">  972</span> </div>
-<div class="line"><span class="lineno">  973</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  974</span>}</div>
-<div class="ttc" id="aa06974_html_a3bc808408161740eed6185c049e1414b"><div class="ttname"><a href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">BfCapturePoint::m_capturePoint</a></div><div class="ttdeci">ObjectGuid m_capturePoint</div><div class="ttdef"><b>Definition:</b> Battlefield.h:142</div></div>
-<div class="ttc" id="aa06974_html_a605d9ced3b467ff21c638490b1f089f0"><div class="ttname"><a href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">BfCapturePoint::GetCapturePointGo</a></div><div class="ttdeci">GameObject * GetCapturePointGo()</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:976</div></div>
-<div class="ttc" id="aa07954_html"><div class="ttname"><a href="../../d8/de1/a07954.html">GameObject</a></div><div class="ttdef"><b>Definition:</b> GameObject.h:120</div></div>
-<div class="ttc" id="aa08198_html_af6aafb4610723c7f14523fef243b1b65"><div class="ttname"><a href="../../d9/d08/a08198.html#af6aafb4610723c7f14523fef243b1b65">ObjectGuid::Clear</a></div><div class="ttdeci">void Clear()</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:138</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00138">ObjectGuid::Clear()</a>, <a class="el" href="../../#l00976">GetCapturePointGo()</a>, and <a class="el" href="../../#l00142">m_capturePoint</a>.</p>
-
-</div>
-</div>
-<a id="a0e5304012825579a14703a6624a902ba" name="a0e5304012825579a14703a6624a902ba"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e5304012825579a14703a6624a902ba">&#9670;&#160;</a></span>FillInitialWorldStates()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void BfCapturePoint::FillInitialWorldStates </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   84</span>{}</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a605d9ced3b467ff21c638490b1f089f0" name="a605d9ced3b467ff21c638490b1f089f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a605d9ced3b467ff21c638490b1f089f0">&#9670;&#160;</a></span>GetCapturePointGo() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/de1/a07954.html">GameObject</a> * BfCapturePoint::GetCapturePointGo </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  977</span>{</div>
-<div class="line"><span class="lineno">  978</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dd7/a06974.html#a1f857e79dde01c3d966f7c7981e5f190">m_Bf</a>-&gt;<a class="code hl_function" href="../../dd/dde/a06982.html#ad43eb209667d0b3b3779ea35f45f599c">GetGameObject</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">m_capturePoint</a>);</div>
-<div class="line"><span class="lineno">  979</span>}</div>
-<div class="ttc" id="aa06982_html_ad43eb209667d0b3b3779ea35f45f599c"><div class="ttname"><a href="../../dd/dde/a06982.html#ad43eb209667d0b3b3779ea35f45f599c">Battlefield::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:856</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00856">Battlefield::GetGameObject()</a>, <a class="el" href="../../#l00136">m_Bf</a>, and <a class="el" href="../../#l00142">m_capturePoint</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00964">DelCapturePoint()</a>, <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00892">HandlePlayerLeave()</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="a100e1b83863595f598cf40cfa6d9443f" name="a100e1b83863595f598cf40cfa6d9443f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a100e1b83863595f598cf40cfa6d9443f">&#9670;&#160;</a></span>GetCapturePointGo() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d8/de1/a07954.html">GameObject</a> * BfCapturePoint::GetCapturePointGo </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> *&#160;</td>
-          <td class="paramname"><em>obj</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  982</span>{</div>
-<div class="line"><span class="lineno">  983</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/d06/a04735.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a>(*obj, <a class="code hl_variable" href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">m_capturePoint</a>);</div>
-<div class="line"><span class="lineno">  984</span>}</div>
-<div class="ttc" id="aa04735_html_a424a63829a446dac6f97a464cc64ed48"><div class="ttname"><a href="../../d9/d06/a04735.html#a424a63829a446dac6f97a464cc64ed48">ObjectAccessor::GetGameObject</a></div><div class="ttdeci">GameObject * GetGameObject(WorldObject const &amp;u, ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:184</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00184">ObjectAccessor::GetGameObject()</a>, and <a class="el" href="../../#l00142">m_capturePoint</a>.</p>
-
-</div>
-</div>
-<a id="a1963ac8eea7452b1bb89923a2e32b0f6" name="a1963ac8eea7452b1bb89923a2e32b0f6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1963ac8eea7452b1bb89923a2e32b0f6">&#9670;&#160;</a></span>GetTeamId()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> BfCapturePoint::GetTeamId </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  110</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00126">m_team</a>.</p>
-
-</div>
-</div>
-<a id="a1a4ed58f9874900d822305dd406b1c67" name="a1a4ed58f9874900d822305dd406b1c67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a4ed58f9874900d822305dd406b1c67">&#9670;&#160;</a></span>HandlePlayerEnter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BfCapturePoint::HandlePlayerEnter </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  882</span>{</div>
-<div class="line"><span class="lineno">  883</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/de1/a07954.html">GameObject</a>* go = <a class="code hl_function" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a>(player))</div>
-<div class="line"><span class="lineno">  884</span>    {</div>
-<div class="line"><span class="lineno">  885</span>        player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(go-&gt;GetGOInfo()-&gt;capturePoint.worldState1, 1);</div>
-<div class="line"><span class="lineno">  886</span>        player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(go-&gt;GetGOInfo()-&gt;capturePoint.worldstate2, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(std::ceil((<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> + <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>) / (2 * <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>) * 100.0f)));</div>
-<div class="line"><span class="lineno">  887</span>        player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(go-&gt;GetGOInfo()-&gt;capturePoint.worldstate3, <a class="code hl_variable" href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">m_neutralValuePct</a>);</div>
-<div class="line"><span class="lineno">  888</span>    }</div>
-<div class="line"><span class="lineno">  889</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].insert(player-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>()).second;</div>
-<div class="line"><span class="lineno">  890</span>}</div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa06974_html_a371349b157af4b8ecbacc8814f0bb2ec"><div class="ttname"><a href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">BfCapturePoint::m_activePlayers</a></div><div class="ttdeci">GuidUnorderedSet m_activePlayers[2]</div><div class="ttdef"><b>Definition:</b> Battlefield.h:115</div></div>
-<div class="ttc" id="aa08150_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
-<div class="ttc" id="aa08398_html_a2a12863caf54ad9a8af56bda556d7a4b"><div class="ttname"><a href="../../d9/d86/a08398.html#a2a12863caf54ad9a8af56bda556d7a4b">Player::SendUpdateWorldState</a></div><div class="ttdeci">void SendUpdateWorldState(uint32 variable, uint32 value) const</div><div class="ttdef"><b>Definition:</b> PlayerUpdates.cpp:2197</div></div>
-<div class="ttc" id="aa08398_html_a4874f5c152e187c381c2a349f16aa0d4"><div class="ttname"><a href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">Player::GetTeamId</a></div><div class="ttdeci">TeamId GetTeamId(bool original=false) const</div><div class="ttdef"><b>Definition:</b> Player.h:2108</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00976">GetCapturePointGo()</a>, <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l02108">Player::GetTeamId()</a>, <a class="el" href="../../#l00115">m_activePlayers</a>, <a class="el" href="../../#l00118">m_maxValue</a>, <a class="el" href="../../#l00133">m_neutralValuePct</a>, <a class="el" href="../../#l00125">m_value</a>, and <a class="el" href="../../#l02197">Player::SendUpdateWorldState()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="a02eab1f489ee817d0b0263a57eb71ed2" name="a02eab1f489ee817d0b0263a57eb71ed2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a02eab1f489ee817d0b0263a57eb71ed2">&#9670;&#160;</a></span>HandlePlayerLeave()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">GuidUnorderedSet::iterator BfCapturePoint::HandlePlayerLeave </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  893</span>{</div>
-<div class="line"><span class="lineno">  894</span>    <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d8/de1/a07954.html">GameObject</a>* go = <a class="code hl_function" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a>(player))</div>
-<div class="line"><span class="lineno">  895</span>        player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a2a12863caf54ad9a8af56bda556d7a4b">SendUpdateWorldState</a>(go-&gt;GetGOInfo()-&gt;capturePoint.worldState1, 0);</div>
-<div class="line"><span class="lineno">  896</span> </div>
-<div class="line"><span class="lineno">  897</span>    GuidUnorderedSet::iterator current = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].find(player-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>());</div>
-<div class="line"><span class="lineno">  898</span> </div>
-<div class="line"><span class="lineno">  899</span>    <span class="keywordflow">if</span> (current == <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].end())</div>
-<div class="line"><span class="lineno">  900</span>        <span class="keywordflow">return</span> current; <span class="comment">// return end()</span></div>
-<div class="line"><span class="lineno">  901</span> </div>
-<div class="line"><span class="lineno">  902</span>    current = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].erase(current);</div>
-<div class="line"><span class="lineno">  903</span>    <span class="keywordflow">return</span> current;</div>
-<div class="line"><span class="lineno">  904</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00976">GetCapturePointGo()</a>, <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l02108">Player::GetTeamId()</a>, <a class="el" href="../../#l00115">m_activePlayers</a>, and <a class="el" href="../../#l02197">Player::SendUpdateWorldState()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="a5a375223e2be7103bf6d9b411bb95b2c" name="a5a375223e2be7103bf6d9b411bb95b2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5a375223e2be7103bf6d9b411bb95b2c">&#9670;&#160;</a></span>IsInsideObjective()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BfCapturePoint::IsInsideObjective </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>data</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1135</span>{</div>
-<div class="line"><span class="lineno"> 1136</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].find(player-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>()) != <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a4874f5c152e187c381c2a349f16aa0d4">GetTeamId</a>()].end();</div>
-<div class="line"><span class="lineno"> 1137</span>}</div>
+<div class="fragment"><div class="line"><span class="lineno">  435</span>{</div>
+<div class="line"><span class="lineno">  436</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#aa52368fdef3baed1aed4af459f764b8b">Id</a>);</div>
+<div class="line"><span class="lineno">  437</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#aa3332c4ea806c944c9c4e95ddb31efa9">entry</a>);</div>
+<div class="line"><span class="lineno">  438</span> </div>
+<div class="line"><span class="lineno">  439</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d6/d0e/a03395.html#af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0">MAX_INSPECTED_ENCHANTMENT_SLOT</a>; ++i)</div>
+<div class="line"><span class="lineno">  440</span>    {</div>
+<div class="line"><span class="lineno">  441</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#af076353ee7ce0fd3665e13449c248629">enchants</a>[i].<a class="code hl_variable" href="../../dc/dad/a06966.html#ab19975d2dd203aa1124f2e06fb637171">id</a>);</div>
+<div class="line"><span class="lineno">  442</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#af076353ee7ce0fd3665e13449c248629">enchants</a>[i].<a class="code hl_variable" href="../../dc/dad/a06966.html#a36445b0d9d75886a0697c75513eb6c41">duration</a>);</div>
+<div class="line"><span class="lineno">  443</span>        data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#af076353ee7ce0fd3665e13449c248629">enchants</a>[i].<a class="code hl_variable" href="../../dc/dad/a06966.html#a583aee5baaad873bcbcc2acad403d0bf">charges</a>);</div>
+<div class="line"><span class="lineno">  444</span>    }</div>
+<div class="line"><span class="lineno">  445</span> </div>
+<div class="line"><span class="lineno">  446</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#aa1c185178359f1cbd5afcedd38a0e69f">randomPropertyId</a>);                           <span class="comment">// Random item property id</span></div>
+<div class="line"><span class="lineno">  447</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a650acd7b902fd4038f1ea384f595b058">suffixFactor</a>);                              <span class="comment">// SuffixFactor</span></div>
+<div class="line"><span class="lineno">  448</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a3fc02342ec2cdd81de7ef378edf30b54">count</a>);                                     <span class="comment">// item-&gt;count</span></div>
+<div class="line"><span class="lineno">  449</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a73f9647b66aa316bdb97c50a20bc826f">spellCharges</a>);                              <span class="comment">// item-&gt;charge FFFFFFF</span></div>
+<div class="line"><span class="lineno">  450</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(0);                                              <span class="comment">// item-&gt;flags (client doesnt do anything with it)</span></div>
+<div class="line"><span class="lineno">  451</span>    data &lt;&lt; <a class="code hl_variable" href="../../dd/dd7/a06974.html#a75e8c535be797d015ed970d896a56c29">ownerGuid</a>;                                              <span class="comment">// Auction-&gt;owner</span></div>
+<div class="line"><span class="lineno">  452</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#ae3459d9794539591ae3727bdd6de3e2b">startbid</a>);                                       <span class="comment">// Auction-&gt;startbid (not sure if useful)</span></div>
+<div class="line"><span class="lineno">  453</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> ? <a class="code hl_function" href="../../d7/d30/a06950.html#aa6854cd3ccd30bafdac8e13f05f97c1d">AuctionEntry::CalculateAuctionOutBid</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a>) : 0);</div>
+<div class="line"><span class="lineno">  454</span>    <span class="comment">// Minimal outbid</span></div>
+<div class="line"><span class="lineno">  455</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a>);                                         <span class="comment">// Auction-&gt;buyout</span></div>
+<div class="line"><span class="lineno">  456</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>((<a class="code hl_variable" href="../../dd/dd7/a06974.html#aa3556fd353c58fda259c7dec52bb3b90">expire_time</a> - <a class="code hl_function" href="../../d0/dfa/a04759.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a>().count()) * <a class="code hl_variable" href="../../d4/d51/a00017.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a>); <span class="comment">// time left</span></div>
+<div class="line"><span class="lineno">  457</span>    data &lt;&lt; <a class="code hl_variable" href="../../dd/dd7/a06974.html#ada14d168bde5da2b39c93a240941a80a">bidderGuid</a>;                                             <span class="comment">// auction-&gt;bidder current</span></div>
+<div class="line"><span class="lineno">  458</span>    data &lt;&lt; <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a>);                                            <span class="comment">// current bid</span></div>
+<div class="line"><span class="lineno">  459</span>}</div>
+<div class="ttc" id="aa00017_html_a84190f79c8167211609f67284e066c58"><div class="ttname"><a href="../../d4/d51/a00017.html#a84190f79c8167211609f67284e066c58">IN_MILLISECONDS</a></div><div class="ttdeci">constexpr auto IN_MILLISECONDS</div><div class="ttdef"><b>Definition:</b> Common.h:53</div></div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03395_html_af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0"><div class="ttname"><a href="../../d6/d0e/a03395.html#af61f52556a9623cc79e50bc6fca5f593ac7ba72f08837b002efcd372d5ac6b4d0">MAX_INSPECTED_ENCHANTMENT_SLOT</a></div><div class="ttdeci">@ MAX_INSPECTED_ENCHANTMENT_SLOT</div><div class="ttdef"><b>Definition:</b> Item.h:176</div></div>
+<div class="ttc" id="aa04759_html_adbe1785d1327dedf2ac403b7cc8e99c2"><div class="ttname"><a href="../../d0/dfa/a04759.html#adbe1785d1327dedf2ac403b7cc8e99c2">GameTime::GetGameTime</a></div><div class="ttdeci">Seconds GetGameTime()</div><div class="ttdef"><b>Definition:</b> GameTime.cpp:38</div></div>
+<div class="ttc" id="aa06950_html_aa6854cd3ccd30bafdac8e13f05f97c1d"><div class="ttname"><a href="../../d7/d30/a06950.html#aa6854cd3ccd30bafdac8e13f05f97c1d">AuctionEntry::CalculateAuctionOutBid</a></div><div class="ttdeci">static uint32 CalculateAuctionOutBid(uint32 bid)</div><div class="ttdoc">the sum of outbid is (1% from current bid)*5, if bid is very small, it is 1c</div><div class="ttdef"><b>Definition:</b> AuctionHouseMgr.cpp:565</div></div>
+<div class="ttc" id="aa06966_html_a36445b0d9d75886a0697c75513eb6c41"><div class="ttname"><a href="../../dc/dad/a06966.html#a36445b0d9d75886a0697c75513eb6c41">AuctionEntryItemEnchants::duration</a></div><div class="ttdeci">uint32 duration</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:62</div></div>
+<div class="ttc" id="aa06966_html_a583aee5baaad873bcbcc2acad403d0bf"><div class="ttname"><a href="../../dc/dad/a06966.html#a583aee5baaad873bcbcc2acad403d0bf">AuctionEntryItemEnchants::charges</a></div><div class="ttdeci">uint32 charges</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:63</div></div>
+<div class="ttc" id="aa06966_html_ab19975d2dd203aa1124f2e06fb637171"><div class="ttname"><a href="../../dc/dad/a06966.html#ab19975d2dd203aa1124f2e06fb637171">AuctionEntryItemEnchants::id</a></div><div class="ttdeci">uint32 id</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:61</div></div>
+<div class="ttc" id="aa06970_html_a3fc02342ec2cdd81de7ef378edf30b54"><div class="ttname"><a href="../../d8/da7/a06970.html#a3fc02342ec2cdd81de7ef378edf30b54">SearchableAuctionEntryItem::count</a></div><div class="ttdeci">uint32 count</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:73</div></div>
+<div class="ttc" id="aa06970_html_a650acd7b902fd4038f1ea384f595b058"><div class="ttname"><a href="../../d8/da7/a06970.html#a650acd7b902fd4038f1ea384f595b058">SearchableAuctionEntryItem::suffixFactor</a></div><div class="ttdeci">uint32 suffixFactor</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:72</div></div>
+<div class="ttc" id="aa06970_html_a73f9647b66aa316bdb97c50a20bc826f"><div class="ttname"><a href="../../d8/da7/a06970.html#a73f9647b66aa316bdb97c50a20bc826f">SearchableAuctionEntryItem::spellCharges</a></div><div class="ttdeci">int32 spellCharges</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:74</div></div>
+<div class="ttc" id="aa06970_html_aa1c185178359f1cbd5afcedd38a0e69f"><div class="ttname"><a href="../../d8/da7/a06970.html#aa1c185178359f1cbd5afcedd38a0e69f">SearchableAuctionEntryItem::randomPropertyId</a></div><div class="ttdeci">int32 randomPropertyId</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:71</div></div>
+<div class="ttc" id="aa06970_html_aa3332c4ea806c944c9c4e95ddb31efa9"><div class="ttname"><a href="../../d8/da7/a06970.html#aa3332c4ea806c944c9c4e95ddb31efa9">SearchableAuctionEntryItem::entry</a></div><div class="ttdeci">uint32 entry</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:69</div></div>
+<div class="ttc" id="aa06970_html_af076353ee7ce0fd3665e13449c248629"><div class="ttname"><a href="../../d8/da7/a06970.html#af076353ee7ce0fd3665e13449c248629">SearchableAuctionEntryItem::enchants</a></div><div class="ttdeci">AuctionEntryItemEnchants enchants[MAX_INSPECTED_ENCHANTMENT_SLOT]</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:70</div></div>
+<div class="ttc" id="aa06974_html_a05df9a39681c0014a1c398b9bca1cbfe"><div class="ttname"><a href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">SearchableAuctionEntry::item</a></div><div class="ttdeci">SearchableAuctionEntryItem item</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:89</div></div>
+<div class="ttc" id="aa06974_html_a0b2c836d635d9a170b2d70b763c4907b"><div class="ttname"><a href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">SearchableAuctionEntry::bid</a></div><div class="ttdeci">uint32 bid</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:86</div></div>
+<div class="ttc" id="aa06974_html_a75e8c535be797d015ed970d896a56c29"><div class="ttname"><a href="../../dd/dd7/a06974.html#a75e8c535be797d015ed970d896a56c29">SearchableAuctionEntry::ownerGuid</a></div><div class="ttdeci">ObjectGuid ownerGuid</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:81</div></div>
+<div class="ttc" id="aa06974_html_a978fea69d5c823f71e681903a432ec51"><div class="ttname"><a href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">SearchableAuctionEntry::buyout</a></div><div class="ttdeci">uint32 buyout</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:83</div></div>
+<div class="ttc" id="aa06974_html_aa3556fd353c58fda259c7dec52bb3b90"><div class="ttname"><a href="../../dd/dd7/a06974.html#aa3556fd353c58fda259c7dec52bb3b90">SearchableAuctionEntry::expire_time</a></div><div class="ttdeci">time_t expire_time</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:84</div></div>
+<div class="ttc" id="aa06974_html_aa52368fdef3baed1aed4af459f764b8b"><div class="ttname"><a href="../../dd/dd7/a06974.html#aa52368fdef3baed1aed4af459f764b8b">SearchableAuctionEntry::Id</a></div><div class="ttdeci">uint32 Id</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:80</div></div>
+<div class="ttc" id="aa06974_html_ada14d168bde5da2b39c93a240941a80a"><div class="ttname"><a href="../../dd/dd7/a06974.html#ada14d168bde5da2b39c93a240941a80a">SearchableAuctionEntry::bidderGuid</a></div><div class="ttdeci">ObjectGuid bidderGuid</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:87</div></div>
+<div class="ttc" id="aa06974_html_ae3459d9794539591ae3727bdd6de3e2b"><div class="ttname"><a href="../../dd/dd7/a06974.html#ae3459d9794539591ae3727bdd6de3e2b">SearchableAuctionEntry::startbid</a></div><div class="ttdeci">uint32 startbid</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:85</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l02108">Player::GetTeamId()</a>, and <a class="el" href="../../#l00115">m_activePlayers</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00086">bid</a>, <a class="el" href="../../#l00087">bidderGuid</a>, <a class="el" href="../../#l00083">buyout</a>, <a class="el" href="../../#l00565">AuctionEntry::CalculateAuctionOutBid()</a>, <a class="el" href="../../#l00063">AuctionEntryItemEnchants::charges</a>, <a class="el" href="../../#l00073">SearchableAuctionEntryItem::count</a>, <a class="el" href="../../#l00062">AuctionEntryItemEnchants::duration</a>, <a class="el" href="../../#l00070">SearchableAuctionEntryItem::enchants</a>, <a class="el" href="../../#l00069">SearchableAuctionEntryItem::entry</a>, <a class="el" href="../../#l00084">expire_time</a>, <a class="el" href="../../#l00038">GameTime::GetGameTime()</a>, <a class="el" href="../../#l00061">AuctionEntryItemEnchants::id</a>, <a class="el" href="../../#l00080">Id</a>, <a class="el" href="../../#l00053">IN_MILLISECONDS</a>, <a class="el" href="../../#l00089">item</a>, <a class="el" href="../../#l00176">MAX_INSPECTED_ENCHANTMENT_SLOT</a>, <a class="el" href="../../#l00081">ownerGuid</a>, <a class="el" href="../../#l00071">SearchableAuctionEntryItem::randomPropertyId</a>, <a class="el" href="../../#l00074">SearchableAuctionEntryItem::spellCharges</a>, <a class="el" href="../../#l00085">startbid</a>, and <a class="el" href="../../#l00072">SearchableAuctionEntryItem::suffixFactor</a>.</p>
 
 </div>
 </div>
-<a id="a7c727552544f98f3ace8e42c2d1cca02" name="a7c727552544f98f3ace8e42c2d1cca02"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c727552544f98f3ace8e42c2d1cca02">&#9670;&#160;</a></span>SendChangePhase()</h2>
+<a id="a7daa9aa634bf2b589ef1906dfc0704d0" name="a7daa9aa634bf2b589ef1906dfc0704d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7daa9aa634bf2b589ef1906dfc0704d0">&#9670;&#160;</a></span>CompareAuctionEntry()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void BfCapturePoint::SendChangePhase </td>
+          <td class="memname">int SearchableAuctionEntry::CompareAuctionEntry </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>column</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a> const &amp;&#160;</td>
+          <td class="paramname"><em>auc</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>loc_idx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  521</span>{</div>
+<div class="line"><span class="lineno">  522</span>    <span class="keywordflow">switch</span> (column)</div>
+<div class="line"><span class="lineno">  523</span>    {</div>
+<div class="line"><span class="lineno">  524</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a>:                                             <span class="comment">// level = 0</span></div>
+<div class="line"><span class="lineno">  525</span>    {</div>
+<div class="line"><span class="lineno">  526</span>        <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto1 = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a356adde7f6574f697e02e6657f325baa">itemTemplate</a>;</div>
+<div class="line"><span class="lineno">  527</span>        <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto2 = auc.item.itemTemplate;</div>
+<div class="line"><span class="lineno">  528</span> </div>
+<div class="line"><span class="lineno">  529</span>        <span class="keywordflow">if</span> (itemProto1-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &gt; itemProto2-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>)</div>
+<div class="line"><span class="lineno">  530</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  531</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (itemProto1-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a> &lt; itemProto2-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a6e3121554bc0b3c829d300e7da4c5b15">RequiredLevel</a>)</div>
+<div class="line"><span class="lineno">  532</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  533</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  534</span>    }</div>
+<div class="line"><span class="lineno">  535</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a>:                                             <span class="comment">// quality = 1</span></div>
+<div class="line"><span class="lineno">  536</span>    {</div>
+<div class="line"><span class="lineno">  537</span>        <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto1 = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a356adde7f6574f697e02e6657f325baa">itemTemplate</a>;</div>
+<div class="line"><span class="lineno">  538</span>        <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* itemProto2 = auc.item.itemTemplate;</div>
+<div class="line"><span class="lineno">  539</span> </div>
+<div class="line"><span class="lineno">  540</span>        <span class="keywordflow">if</span> (itemProto1-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &lt; itemProto2-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>)</div>
+<div class="line"><span class="lineno">  541</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  542</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (itemProto1-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a> &gt; itemProto2-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a1b4b51353503f83db3be63f5a5786a1f">Quality</a>)</div>
+<div class="line"><span class="lineno">  543</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  544</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  545</span>    }</div>
+<div class="line"><span class="lineno">  546</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a>:                                             <span class="comment">// buyoutthenbid = 2 (UNUSED?)</span></div>
+<div class="line"><span class="lineno">  547</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> != auc.buyout)</div>
+<div class="line"><span class="lineno">  548</span>        {</div>
+<div class="line"><span class="lineno">  549</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &lt; auc.buyout)</div>
+<div class="line"><span class="lineno">  550</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  551</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &gt; auc.buyout)</div>
+<div class="line"><span class="lineno">  552</span>                <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  553</span>        }</div>
+<div class="line"><span class="lineno">  554</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  555</span>        {</div>
+<div class="line"><span class="lineno">  556</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> &lt; auc.bid)</div>
+<div class="line"><span class="lineno">  557</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  558</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> &gt; auc.bid)</div>
+<div class="line"><span class="lineno">  559</span>                <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  560</span>        }</div>
+<div class="line"><span class="lineno">  561</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  562</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a>:                                             <span class="comment">// duration = 3</span></div>
+<div class="line"><span class="lineno">  563</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#aa3556fd353c58fda259c7dec52bb3b90">expire_time</a> &lt; auc.expire_time)</div>
+<div class="line"><span class="lineno">  564</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  565</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#aa3556fd353c58fda259c7dec52bb3b90">expire_time</a> &gt; auc.expire_time)</div>
+<div class="line"><span class="lineno">  566</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  567</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  568</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a>:                                             <span class="comment">// status = 4 (WRONG)</span></div>
+<div class="line"><span class="lineno">  569</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#ada14d168bde5da2b39c93a240941a80a">bidderGuid</a>.<a class="code hl_function" href="../../d4/df2/a08266.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>() &lt; auc.bidderGuid.GetCounter())</div>
+<div class="line"><span class="lineno">  570</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  571</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#ada14d168bde5da2b39c93a240941a80a">bidderGuid</a>.<a class="code hl_function" href="../../d4/df2/a08266.html#a0df27b85c91a2c619e8f1d9c2cb31677">GetCounter</a>() &gt; auc.bidderGuid.GetCounter())</div>
+<div class="line"><span class="lineno">  572</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  573</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  574</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a>:                                             <span class="comment">// name = 5</span></div>
+<div class="line"><span class="lineno">  575</span>    {</div>
+<div class="line"><span class="lineno">  576</span>        <span class="keywordtype">int</span> comparison = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a9184925bad61ad58f35c4e4b3dbccd81">itemName</a>[loc_idx].compare(auc.item.itemName[loc_idx]);</div>
+<div class="line"><span class="lineno">  577</span>        <span class="keywordflow">if</span> (comparison &gt; 0)</div>
+<div class="line"><span class="lineno">  578</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  579</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (comparison &lt; 0)</div>
+<div class="line"><span class="lineno">  580</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  581</span> </div>
+<div class="line"><span class="lineno">  582</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  583</span>    }</div>
+<div class="line"><span class="lineno">  584</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a>:                                             <span class="comment">// minbidbuyout = 6</span></div>
+<div class="line"><span class="lineno">  585</span>    {</div>
+<div class="line"><span class="lineno">  586</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> != auc.buyout)</div>
+<div class="line"><span class="lineno">  587</span>        {</div>
+<div class="line"><span class="lineno">  588</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &gt; auc.buyout)</div>
+<div class="line"><span class="lineno">  589</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  590</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &lt; auc.buyout)</div>
+<div class="line"><span class="lineno">  591</span>                <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  592</span>        }</div>
+<div class="line"><span class="lineno">  593</span>        <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  594</span>        {</div>
+<div class="line"><span class="lineno">  595</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> &lt; auc.bid)</div>
+<div class="line"><span class="lineno">  596</span>                <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  597</span>            <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> &gt; auc.bid)</div>
+<div class="line"><span class="lineno">  598</span>                <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  599</span>        }</div>
+<div class="line"><span class="lineno">  600</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  601</span>    }</div>
+<div class="line"><span class="lineno">  602</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a>:                                             <span class="comment">// seller = 7</span></div>
+<div class="line"><span class="lineno">  603</span>    {</div>
+<div class="line"><span class="lineno">  604</span>        <span class="keywordtype">int</span> comparison = <a class="code hl_variable" href="../../dd/dd7/a06974.html#aaca6e4de9cfbc62eb1815c2cf79be123">ownerName</a>.compare(auc.ownerName);</div>
+<div class="line"><span class="lineno">  605</span>        <span class="keywordflow">if</span> (comparison &gt; 0)</div>
+<div class="line"><span class="lineno">  606</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  607</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (comparison &lt; 0)</div>
+<div class="line"><span class="lineno">  608</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  609</span> </div>
+<div class="line"><span class="lineno">  610</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  611</span>    }</div>
+<div class="line"><span class="lineno">  612</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a>:                                             <span class="comment">// bid = 8</span></div>
+<div class="line"><span class="lineno">  613</span>    {</div>
+<div class="line"><span class="lineno">  614</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> bid1 = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> ? <a class="code hl_variable" href="../../dd/dd7/a06974.html#a0b2c836d635d9a170b2d70b763c4907b">bid</a> : <a class="code hl_variable" href="../../dd/dd7/a06974.html#ae3459d9794539591ae3727bdd6de3e2b">startbid</a>;</div>
+<div class="line"><span class="lineno">  615</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> bid2 = auc.bid ? auc.bid : auc.startbid;</div>
+<div class="line"><span class="lineno">  616</span> </div>
+<div class="line"><span class="lineno">  617</span>        <span class="keywordflow">if</span> (bid1 &gt; bid2)</div>
+<div class="line"><span class="lineno">  618</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  619</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (bid1 &lt; bid2)</div>
+<div class="line"><span class="lineno">  620</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  621</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  622</span>    }</div>
+<div class="line"><span class="lineno">  623</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a>:                                             <span class="comment">// quantity = 9</span></div>
+<div class="line"><span class="lineno">  624</span>    {</div>
+<div class="line"><span class="lineno">  625</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a3fc02342ec2cdd81de7ef378edf30b54">count</a> &lt; auc.item.count)</div>
+<div class="line"><span class="lineno">  626</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  627</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a3fc02342ec2cdd81de7ef378edf30b54">count</a> &gt; auc.item.count)</div>
+<div class="line"><span class="lineno">  628</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  629</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  630</span>    }</div>
+<div class="line"><span class="lineno">  631</span>    <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a>:                                            <span class="comment">// buyout = 10 (UNUSED?)</span></div>
+<div class="line"><span class="lineno">  632</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &lt; auc.buyout)</div>
+<div class="line"><span class="lineno">  633</span>            <span class="keywordflow">return</span> -1;</div>
+<div class="line"><span class="lineno">  634</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a978fea69d5c823f71e681903a432ec51">buyout</a> &gt; auc.buyout)</div>
+<div class="line"><span class="lineno">  635</span>            <span class="keywordflow">return</span> +1;</div>
+<div class="line"><span class="lineno">  636</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  637</span>    <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  638</span>        <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  639</span>    }</div>
+<div class="line"><span class="lineno">  640</span> </div>
+<div class="line"><span class="lineno">  641</span>    <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">  642</span>}</div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a25b565bb3a4f39cecd688a6a95cbc595">AUCTION_SORT_TIMELEFT</a></div><div class="ttdeci">@ AUCTION_SORT_TIMELEFT</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:39</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a26c2c32eb02df2a5e1690e0ec6bf221a">AUCTION_SORT_BID</a></div><div class="ttdeci">@ AUCTION_SORT_BID</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:44</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a29d9f97d625896cd9e9729e0971ca215">AUCTION_SORT_BUYOUT</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:38</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a30585d5b267baaa6ff0ff1c1f2d900e4">AUCTION_SORT_MINLEVEL</a></div><div class="ttdeci">@ AUCTION_SORT_MINLEVEL</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:36</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a45cabc5fc139ebe5f9ab99ba04442ee4">AUCTION_SORT_UNK4</a></div><div class="ttdeci">@ AUCTION_SORT_UNK4</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:40</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420a83dbe3e4571275be914a9c72907895ef">AUCTION_SORT_MINBIDBUY</a></div><div class="ttdeci">@ AUCTION_SORT_MINBIDBUY</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:42</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ab092607020b20ea5308b1ea257df844e">AUCTION_SORT_OWNER</a></div><div class="ttdeci">@ AUCTION_SORT_OWNER</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:43</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ad941e54aa0ae31a89638b48d169f88ea">AUCTION_SORT_ITEM</a></div><div class="ttdeci">@ AUCTION_SORT_ITEM</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:41</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420add1499675819fe1f00e71390131dade4">AUCTION_SORT_STACK</a></div><div class="ttdeci">@ AUCTION_SORT_STACK</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:45</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420ae73234222b3a934423cb2c47827d9055">AUCTION_SORT_RARITY</a></div><div class="ttdeci">@ AUCTION_SORT_RARITY</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:37</div></div>
+<div class="ttc" id="aa03062_html_abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094"><div class="ttname"><a href="../../d6/d2a/a03062.html#abce5a6a07f5c4ef07bed8f8f5fba2420af48b05fc2213181717f3490c46c63094">AUCTION_SORT_BUYOUT_2</a></div><div class="ttdeci">@ AUCTION_SORT_BUYOUT_2</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:46</div></div>
+<div class="ttc" id="aa06970_html_a356adde7f6574f697e02e6657f325baa"><div class="ttname"><a href="../../d8/da7/a06970.html#a356adde7f6574f697e02e6657f325baa">SearchableAuctionEntryItem::itemTemplate</a></div><div class="ttdeci">ItemTemplate const  * itemTemplate</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:75</div></div>
+<div class="ttc" id="aa06970_html_a9184925bad61ad58f35c4e4b3dbccd81"><div class="ttname"><a href="../../d8/da7/a06970.html#a9184925bad61ad58f35c4e4b3dbccd81">SearchableAuctionEntryItem::itemName</a></div><div class="ttdeci">std::wstring itemName[TOTAL_LOCALES]</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:68</div></div>
+<div class="ttc" id="aa06974_html_aaca6e4de9cfbc62eb1815c2cf79be123"><div class="ttname"><a href="../../dd/dd7/a06974.html#aaca6e4de9cfbc62eb1815c2cf79be123">SearchableAuctionEntry::ownerName</a></div><div class="ttdeci">std::string ownerName</div><div class="ttdef"><b>Definition:</b> AuctionHouseSearcher.h:82</div></div>
+<div class="ttc" id="aa08198_html"><div class="ttname"><a href="../../d9/d08/a08198.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08198_html_a1b4b51353503f83db3be63f5a5786a1f"><div class="ttname"><a href="../../d9/d08/a08198.html#a1b4b51353503f83db3be63f5a5786a1f">ItemTemplate::Quality</a></div><div class="ttdeci">uint32 Quality</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:626</div></div>
+<div class="ttc" id="aa08198_html_a6e3121554bc0b3c829d300e7da4c5b15"><div class="ttname"><a href="../../d9/d08/a08198.html#a6e3121554bc0b3c829d300e7da4c5b15">ItemTemplate::RequiredLevel</a></div><div class="ttdeci">uint32 RequiredLevel</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:636</div></div>
+<div class="ttc" id="aa08266_html_a0df27b85c91a2c619e8f1d9c2cb31677"><div class="ttname"><a href="../../d4/df2/a08266.html#a0df27b85c91a2c619e8f1d9c2cb31677">ObjectGuid::GetCounter</a></div><div class="ttdeci">LowType GetCounter() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:145</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">AUCTION_SORT_BID</a>, <a class="el" href="../../#l00038">AUCTION_SORT_BUYOUT</a>, <a class="el" href="../../#l00046">AUCTION_SORT_BUYOUT_2</a>, <a class="el" href="../../#l00041">AUCTION_SORT_ITEM</a>, <a class="el" href="../../#l00042">AUCTION_SORT_MINBIDBUY</a>, <a class="el" href="../../#l00036">AUCTION_SORT_MINLEVEL</a>, <a class="el" href="../../#l00043">AUCTION_SORT_OWNER</a>, <a class="el" href="../../#l00037">AUCTION_SORT_RARITY</a>, <a class="el" href="../../#l00045">AUCTION_SORT_STACK</a>, <a class="el" href="../../#l00039">AUCTION_SORT_TIMELEFT</a>, <a class="el" href="../../#l00040">AUCTION_SORT_UNK4</a>, <a class="el" href="../../#l00086">bid</a>, <a class="el" href="../../#l00087">bidderGuid</a>, <a class="el" href="../../#l00083">buyout</a>, <a class="el" href="../../#l00073">SearchableAuctionEntryItem::count</a>, <a class="el" href="../../#l00084">expire_time</a>, <a class="el" href="../../#l00145">ObjectGuid::GetCounter()</a>, <a class="el" href="../../#l00089">item</a>, <a class="el" href="../../#l00068">SearchableAuctionEntryItem::itemName</a>, <a class="el" href="../../#l00075">SearchableAuctionEntryItem::itemTemplate</a>, <a class="el" href="../../#l00082">ownerName</a>, <a class="el" href="../../#l00626">ItemTemplate::Quality</a>, <a class="el" href="../../#l00636">ItemTemplate::RequiredLevel</a>, and <a class="el" href="../../#l00085">startbid</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00644">AuctionSorter::operator()()</a>.</p>
+
+</div>
+</div>
+<a id="a7d56d87bcd100bcb470bc7710c59bf9e" name="a7d56d87bcd100bcb470bc7710c59bf9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d56d87bcd100bcb470bc7710c59bf9e">&#9670;&#160;</a></span>SetItemNames()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void SearchableAuctionEntry::SetItemNames </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  907</span>{</div>
-<div class="line"><span class="lineno">  908</span>    <a class="code hl_class" href="../../d8/de1/a07954.html">GameObject</a>* capturePoint = <a class="code hl_function" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a>();</div>
-<div class="line"><span class="lineno">  909</span>    <span class="keywordflow">if</span> (!capturePoint)</div>
-<div class="line"><span class="lineno">  910</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  911</span> </div>
-<div class="line"><span class="lineno">  912</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> team = 0; team &lt; 2; ++team)</div>
-<div class="line"><span class="lineno">  913</span>        <span class="keywordflow">for</span> (GuidUnorderedSet::iterator itr = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].begin(); itr != <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].end(); ++itr)  <span class="comment">// send to all players present in the area</span></div>
-<div class="line"><span class="lineno">  914</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*itr))</div>
-<div class="line"><span class="lineno">  915</span>            {</div>
-<div class="line"><span class="lineno">  916</span>                <span class="comment">// send this too, sometimes the slider disappears, dunno why :(</span></div>
-<div class="line"><span class="lineno">  917</span>                player-&gt;SendUpdateWorldState(capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#afc807e66fd487510edaa21cfa5930e5e">worldState1</a>, 1);</div>
-<div class="line"><span class="lineno">  918</span>                <span class="comment">// send these updates to only the ones in this objective</span></div>
-<div class="line"><span class="lineno">  919</span>                player-&gt;SendUpdateWorldState(capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a08af1aef620d8dfa8c1ec9566f6c746e">worldstate2</a>, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) std::ceil((<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> + <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>) / (2 * <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>) * 100.0f));</div>
-<div class="line"><span class="lineno">  920</span>                <span class="comment">// send this too, sometimes it resets :S</span></div>
-<div class="line"><span class="lineno">  921</span>                player-&gt;SendUpdateWorldState(capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a050e002c4a6bf7eb71ea6027587db6ac">worldstate3</a>, <a class="code hl_variable" href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">m_neutralValuePct</a>);</div>
-<div class="line"><span class="lineno">  922</span>            }</div>
-<div class="line"><span class="lineno">  923</span>}</div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa04735_html_a9ede56180a13f102ad195136eadb97ee"><div class="ttname"><a href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a></div><div class="ttdeci">Player * FindPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:245</div></div>
-<div class="ttc" id="aa07954_html_a1415b5cb9b3b3f4f6691584c5b6d7324"><div class="ttname"><a href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GameObject::GetGOInfo</a></div><div class="ttdeci">GameObjectTemplate const * GetGOInfo() const</div><div class="ttdef"><b>Definition:</b> GameObject.h:136</div></div>
-<div class="ttc" id="aa07958_html_a050e002c4a6bf7eb71ea6027587db6ac"><div class="ttname"><a href="../../d0/d8c/a07958.html#a050e002c4a6bf7eb71ea6027587db6ac">GameObjectTemplate::worldstate3</a></div><div class="ttdeci">uint32 worldstate3</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:315</div></div>
-<div class="ttc" id="aa07958_html_a08af1aef620d8dfa8c1ec9566f6c746e"><div class="ttname"><a href="../../d0/d8c/a07958.html#a08af1aef620d8dfa8c1ec9566f6c746e">GameObjectTemplate::worldstate2</a></div><div class="ttdeci">uint32 worldstate2</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:305</div></div>
-<div class="ttc" id="aa07958_html_ab31c57b567ff28f92c4b35855dbc25ce"><div class="ttname"><a href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">GameObjectTemplate::capturePoint</a></div><div class="ttdeci">struct GameObjectTemplate::@230::@254 capturePoint</div></div>
-<div class="ttc" id="aa07958_html_afc807e66fd487510edaa21cfa5930e5e"><div class="ttname"><a href="../../d0/d8c/a07958.html#afc807e66fd487510edaa21cfa5930e5e">GameObjectTemplate::worldState1</a></div><div class="ttdeci">uint32 worldState1</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:223</div></div>
-<div class="ttc" id="aa08398_html"><div class="ttname"><a href="../../d9/d86/a08398.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1081</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  462</span>{</div>
+<div class="line"><span class="lineno">  463</span>    <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* proto = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a356adde7f6574f697e02e6657f325baa">itemTemplate</a>;</div>
+<div class="line"><span class="lineno">  464</span>    <a class="code hl_struct" href="../../d6/d03/a08202.html">ItemLocale</a> <span class="keyword">const</span>* il = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemLocale(proto-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#af8e238c0d7bc950b984de7ed656e5bae">ItemId</a>);</div>
+<div class="line"><span class="lineno">  465</span> </div>
+<div class="line"><span class="lineno">  466</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> locale = 0; locale &lt; <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>; ++locale)</div>
+<div class="line"><span class="lineno">  467</span>    {</div>
+<div class="line"><span class="lineno">  468</span>        <span class="keywordflow">if</span> (proto-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>.empty())</div>
+<div class="line"><span class="lineno">  469</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  470</span> </div>
+<div class="line"><span class="lineno">  471</span>        std::string itemName = proto-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">Name1</a>;</div>
+<div class="line"><span class="lineno">  472</span> </div>
+<div class="line"><span class="lineno">  473</span>        <span class="comment">// local name</span></div>
+<div class="line"><span class="lineno">  474</span>        <a class="code hl_enumeration" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locdbc_idx = <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;GetAvailableDbcLocale(<span class="keyword">static_cast&lt;</span><a class="code hl_enumeration" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a><span class="keyword">&gt;</span>(locale));</div>
+<div class="line"><span class="lineno">  475</span>        <span class="keywordflow">if</span> (locdbc_idx &gt;= <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a> &amp;&amp; il)</div>
+<div class="line"><span class="lineno">  476</span>            <a class="code hl_function" href="../../df/d30/a08890.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a>(il-&gt;<a class="code hl_variable" href="../../d6/d03/a08202.html#a787ca2c05ddac7ee5c3a5c28a02b8494">Name</a>, locale, itemName);</div>
+<div class="line"><span class="lineno">  477</span> </div>
+<div class="line"><span class="lineno">  478</span>        <span class="comment">// DO NOT use GetItemEnchantMod(proto-&gt;RandomProperty) as it may return a result</span></div>
+<div class="line"><span class="lineno">  479</span>        <span class="comment">//  that matches the search but it may not equal item-&gt;GetItemRandomPropertyId()</span></div>
+<div class="line"><span class="lineno">  480</span>        <span class="comment">//  used in BuildAuctionInfo() which then causes wrong items to be listed</span></div>
+<div class="line"><span class="lineno">  481</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> propRefID = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#aa1c185178359f1cbd5afcedd38a0e69f">randomPropertyId</a>;</div>
+<div class="line"><span class="lineno">  482</span> </div>
+<div class="line"><span class="lineno">  483</span>        <span class="keywordflow">if</span> (propRefID)</div>
+<div class="line"><span class="lineno">  484</span>        {</div>
+<div class="line"><span class="lineno">  485</span>            <span class="comment">// Append the suffix to the name (ie: of the Monkey) if one exists</span></div>
+<div class="line"><span class="lineno">  486</span>            <span class="comment">// These are found in ItemRandomSuffix.dbc and ItemRandomProperties.dbc</span></div>
+<div class="line"><span class="lineno">  487</span>            <span class="comment">// even though the DBC name seems misleading</span></div>
+<div class="line"><span class="lineno">  488</span>            std::array&lt;char const*, 16&gt; <span class="keyword">const</span>* suffix = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">  489</span> </div>
+<div class="line"><span class="lineno">  490</span>            <span class="keywordflow">if</span> (propRefID &lt; 0)</div>
+<div class="line"><span class="lineno">  491</span>            {</div>
+<div class="line"><span class="lineno">  492</span>                <a class="code hl_struct" href="../../d6/df2/a27878.html">ItemRandomSuffixEntry</a> <span class="keyword">const</span>* itemRandEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>.LookupEntry(-<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#aa1c185178359f1cbd5afcedd38a0e69f">randomPropertyId</a>);</div>
+<div class="line"><span class="lineno">  493</span>                <span class="keywordflow">if</span> (itemRandEntry)</div>
+<div class="line"><span class="lineno">  494</span>                    suffix = &amp;itemRandEntry-&gt;<a class="code hl_variable" href="../../d6/df2/a27878.html#a3ee4d8152817e10b873de5ec36ba062b">Name</a>;</div>
+<div class="line"><span class="lineno">  495</span>            }</div>
+<div class="line"><span class="lineno">  496</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  497</span>            {</div>
+<div class="line"><span class="lineno">  498</span>                <a class="code hl_struct" href="../../d9/d8a/a27874.html">ItemRandomPropertiesEntry</a> <span class="keyword">const</span>* itemRandEntry = <a class="code hl_variable" href="../../d7/da2/a03704.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a>.LookupEntry(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#aa1c185178359f1cbd5afcedd38a0e69f">randomPropertyId</a>);</div>
+<div class="line"><span class="lineno">  499</span>                <span class="keywordflow">if</span> (itemRandEntry)</div>
+<div class="line"><span class="lineno">  500</span>                    suffix = &amp;itemRandEntry-&gt;<a class="code hl_variable" href="../../d9/d8a/a27874.html#a3ad3a1b693922ff8264d90232abb3e35">Name</a>;</div>
+<div class="line"><span class="lineno">  501</span>            }</div>
+<div class="line"><span class="lineno">  502</span> </div>
+<div class="line"><span class="lineno">  503</span>            <span class="comment">// dbc local name</span></div>
+<div class="line"><span class="lineno">  504</span>            <span class="keywordflow">if</span> (suffix)</div>
+<div class="line"><span class="lineno">  505</span>            {</div>
+<div class="line"><span class="lineno">  506</span>                <span class="comment">// Append the suffix (ie: of the Monkey) to the name using localization</span></div>
+<div class="line"><span class="lineno">  507</span>                <span class="comment">// or default enUS if localization is invalid</span></div>
+<div class="line"><span class="lineno">  508</span>                itemName += <span class="charliteral">&#39; &#39;</span>;</div>
+<div class="line"><span class="lineno">  509</span>                itemName += (*suffix)[locdbc_idx &gt;= 0 ? locdbc_idx : <a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a>];</div>
+<div class="line"><span class="lineno">  510</span>            }</div>
+<div class="line"><span class="lineno">  511</span>        }</div>
+<div class="line"><span class="lineno">  512</span> </div>
+<div class="line"><span class="lineno">  513</span>        <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a>(itemName, <a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a9184925bad61ad58f35c4e4b3dbccd81">itemName</a>[locale]))</div>
+<div class="line"><span class="lineno">  514</span>            <span class="keywordflow">continue</span>;</div>
+<div class="line"><span class="lineno">  515</span> </div>
+<div class="line"><span class="lineno">  516</span>        <a class="code hl_function" href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a>(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a05df9a39681c0014a1c398b9bca1cbfe">item</a>.<a class="code hl_variable" href="../../d8/da7/a06970.html#a9184925bad61ad58f35c4e4b3dbccd81">itemName</a>[locale]);</div>
+<div class="line"><span class="lineno">  517</span>    }</div>
+<div class="line"><span class="lineno">  518</span>}</div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
+<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332ac07b7e8b5def3b0907685ac6c3566de3">LOCALE_enUS</a></div><div class="ttdeci">@ LOCALE_enUS</div><div class="ttdef"><b>Definition:</b> Common.h:66</div></div>
+<div class="ttc" id="aa00383_html_a096388bd1034eb78e43e5d60cc4f657a"><div class="ttname"><a href="../../da/dee/a00383.html#a096388bd1034eb78e43e5d60cc4f657a">Utf8toWStr</a></div><div class="ttdeci">bool Utf8toWStr(char const *utf8str, std::size_t csize, wchar_t *wstr, std::size_t &amp;wsize)</div><div class="ttdef"><b>Definition:</b> Util.cpp:281</div></div>
+<div class="ttc" id="aa00383_html_a58af07e1af657c56b4a20b6c7ef83615"><div class="ttname"><a href="../../da/dee/a00383.html#a58af07e1af657c56b4a20b6c7ef83615">wstrToLower</a></div><div class="ttdeci">void wstrToLower(std::wstring &amp;str)</div><div class="ttdef"><b>Definition:</b> Util.cpp:382</div></div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
+<div class="ttc" id="aa03704_html_a8f24671edcebdacd8a25038525cfde6b"><div class="ttname"><a href="../../d7/da2/a03704.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a></div><div class="ttdeci">DBCStorage&lt; ItemRandomSuffixEntry &gt; sItemRandomSuffixStore(ItemRandomSuffixfmt)</div></div>
+<div class="ttc" id="aa03704_html_aa4df01784442d67397299862629a06e9"><div class="ttname"><a href="../../d7/da2/a03704.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a></div><div class="ttdeci">DBCStorage&lt; ItemRandomPropertiesEntry &gt; sItemRandomPropertiesStore(ItemRandomPropertiesfmt)</div></div>
+<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:442</div></div>
+<div class="ttc" id="aa08198_html_a7a5bba25307f2ca6037d6c82a3cd3c3c"><div class="ttname"><a href="../../d9/d08/a08198.html#a7a5bba25307f2ca6037d6c82a3cd3c3c">ItemTemplate::Name1</a></div><div class="ttdeci">std::string Name1</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:624</div></div>
+<div class="ttc" id="aa08198_html_af8e238c0d7bc950b984de7ed656e5bae"><div class="ttname"><a href="../../d9/d08/a08198.html#af8e238c0d7bc950b984de7ed656e5bae">ItemTemplate::ItemId</a></div><div class="ttdeci">uint32 ItemId</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:620</div></div>
+<div class="ttc" id="aa08202_html"><div class="ttname"><a href="../../d6/d03/a08202.html">ItemLocale</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:838</div></div>
+<div class="ttc" id="aa08202_html_a787ca2c05ddac7ee5c3a5c28a02b8494"><div class="ttname"><a href="../../d6/d03/a08202.html#a787ca2c05ddac7ee5c3a5c28a02b8494">ItemLocale::Name</a></div><div class="ttdeci">std::vector&lt; std::string &gt; Name</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:839</div></div>
+<div class="ttc" id="aa08890_html_afaf0c44e499261c10276edc4c3cb15a0"><div class="ttname"><a href="../../df/d30/a08890.html#afaf0c44e499261c10276edc4c3cb15a0">ObjectMgr::GetLocaleString</a></div><div class="ttdeci">static std::string_view GetLocaleString(std::vector&lt; std::string &gt; const &amp;data, std::size_t locale)</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1407</div></div>
+<div class="ttc" id="aa27874_html"><div class="ttname"><a href="../../d9/d8a/a27874.html">ItemRandomPropertiesEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1206</div></div>
+<div class="ttc" id="aa27874_html_a3ad3a1b693922ff8264d90232abb3e35"><div class="ttname"><a href="../../d9/d8a/a27874.html#a3ad3a1b693922ff8264d90232abb3e35">ItemRandomPropertiesEntry::Name</a></div><div class="ttdeci">std::array&lt; char const  *, 16 &gt; Name</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1211</div></div>
+<div class="ttc" id="aa27878_html"><div class="ttname"><a href="../../d6/df2/a27878.html">ItemRandomSuffixEntry</a></div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1216</div></div>
+<div class="ttc" id="aa27878_html_a3ee4d8152817e10b873de5ec36ba062b"><div class="ttname"><a href="../../d6/df2/a27878.html#a3ee4d8152817e10b873de5ec36ba062b">ItemRandomSuffixEntry::Name</a></div><div class="ttdeci">std::array&lt; char const  *, 16 &gt; Name</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1218</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">GameObjectTemplate::capturePoint</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00976">GetCapturePointGo()</a>, <a class="el" href="../../#l00136">GameObject::GetGOInfo()</a>, <a class="el" href="../../#l00115">m_activePlayers</a>, <a class="el" href="../../#l00118">m_maxValue</a>, <a class="el" href="../../#l00133">m_neutralValuePct</a>, <a class="el" href="../../#l00125">m_value</a>, <a class="el" href="../../#l00223">GameObjectTemplate::worldState1</a>, <a class="el" href="../../#l00305">GameObjectTemplate::worldstate2</a>, and <a class="el" href="../../#l00315">GameObjectTemplate::worldstate3</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="ab961bfe8934f89e6e454b8a74a280e3e" name="ab961bfe8934f89e6e454b8a74a280e3e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab961bfe8934f89e6e454b8a74a280e3e">&#9670;&#160;</a></span>SendObjectiveComplete()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void BfCapturePoint::SendObjectiveComplete </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>id</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1114</span>{</div>
-<div class="line"><span class="lineno"> 1115</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> team;</div>
-<div class="line"><span class="lineno"> 1116</span>    <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a>)</div>
-<div class="line"><span class="lineno"> 1117</span>    {</div>
-<div class="line"><span class="lineno"> 1118</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>:</div>
-<div class="line"><span class="lineno"> 1119</span>            team = 0;</div>
-<div class="line"><span class="lineno"> 1120</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1121</span>        <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>:</div>
-<div class="line"><span class="lineno"> 1122</span>            team = 1;</div>
-<div class="line"><span class="lineno"> 1123</span>            <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno"> 1124</span>        <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno"> 1125</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno"> 1126</span>    }</div>
-<div class="line"><span class="lineno"> 1127</span> </div>
-<div class="line"><span class="lineno"> 1128</span>    <span class="comment">// send to all players present in the area</span></div>
-<div class="line"><span class="lineno"> 1129</span>    <span class="keywordflow">for</span> (GuidUnorderedSet::iterator itr = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].begin(); itr != <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].end(); ++itr)</div>
-<div class="line"><span class="lineno"> 1130</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*itr))</div>
-<div class="line"><span class="lineno"> 1131</span>            player-&gt;KilledMonsterCredit(<span class="keywordtype">id</span>, guid);</div>
-<div class="line"><span class="lineno"> 1132</span>}</div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:42</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:41</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00041">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>, <a class="el" href="../../#l00042">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00115">m_activePlayers</a>, and <a class="el" href="../../#l00130">m_State</a>.</p>
-
-</div>
-</div>
-<a id="a887af016c482f532f38b3aa10ce6e546" name="a887af016c482f532f38b3aa10ce6e546"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a887af016c482f532f38b3aa10ce6e546">&#9670;&#160;</a></span>SendUpdateWorldState()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void BfCapturePoint::SendUpdateWorldState </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>field</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1106</span>{</div>
-<div class="line"><span class="lineno"> 1107</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> team = 0; team &lt; 2; ++team)</div>
-<div class="line"><span class="lineno"> 1108</span>        <span class="keywordflow">for</span> (GuidUnorderedSet::iterator itr = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].begin(); itr != <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].end(); ++itr)  <span class="comment">// send to all players present in the area</span></div>
-<div class="line"><span class="lineno"> 1109</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*itr))</div>
-<div class="line"><span class="lineno"> 1110</span>                player-&gt;SendUpdateWorldState(field, value);</div>
-<div class="line"><span class="lineno"> 1111</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, and <a class="el" href="../../#l00115">m_activePlayers</a>.</p>
-
-</div>
-</div>
-<a id="a309d340d11c1712f5525438f31779671" name="a309d340d11c1712f5525438f31779671"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a309d340d11c1712f5525438f31779671">&#9670;&#160;</a></span>SetCapturePointData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BfCapturePoint::SetCapturePointData </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d8/de1/a07954.html">GameObject</a> *&#160;</td>
-          <td class="paramname"><em>capturePoint</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
-          <td class="paramname"><em>team</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  926</span>{</div>
-<div class="line"><span class="lineno">  927</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(capturePoint);</div>
-<div class="line"><span class="lineno">  928</span> </div>
-<div class="line"><span class="lineno">  929</span>    <span class="comment">//At first call using TEAM_NEUTRAL as a checker but never using it, after first call we reset the capturepoints to the new winner of the last WG war</span></div>
-<div class="line"><span class="lineno">  930</span>    <span class="keywordflow">if</span> (team == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>)</div>
-<div class="line"><span class="lineno">  931</span>        team = <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>;</div>
-<div class="line"><span class="lineno">  932</span>    <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;bg.battlefield&quot;</span>, <span class="stringliteral">&quot;Creating capture point {}&quot;</span>, capturePoint-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
-<div class="line"><span class="lineno">  933</span> </div>
-<div class="line"><span class="lineno">  934</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a3bc808408161740eed6185c049e1414b">m_capturePoint</a> = capturePoint-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  935</span> </div>
-<div class="line"><span class="lineno">  936</span>    <span class="comment">// check info existence</span></div>
-<div class="line"><span class="lineno">  937</span>    <a class="code hl_struct" href="../../d0/d8c/a07958.html">GameObjectTemplate</a> <span class="keyword">const</span>* goinfo = capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>();</div>
-<div class="line"><span class="lineno">  938</span>    <span class="keywordflow">if</span> (goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#a1c78664b7272010dac83e9f4ea132330">type</a> != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a>)</div>
-<div class="line"><span class="lineno">  939</span>    {</div>
-<div class="line"><span class="lineno">  940</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<span class="stringliteral">&quot;bg.battlefield&quot;</span>, <span class="stringliteral">&quot;OutdoorPvP: GO {} is not capture point!&quot;</span>, capturePoint-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>());</div>
-<div class="line"><span class="lineno">  941</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  942</span>    }</div>
-<div class="line"><span class="lineno">  943</span> </div>
-<div class="line"><span class="lineno">  944</span>    <span class="comment">// get the needed values from goinfo</span></div>
-<div class="line"><span class="lineno">  945</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a> = goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a912d251efbe00674ea9497f3b5e7f537">maxTime</a>;</div>
-<div class="line"><span class="lineno">  946</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a53e231eae6e505a88e616244092a8ee6">m_maxSpeed</a> = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a> / (goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a259bf0cf9e7817c1988cf53f28170440">minTime</a> ? goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a259bf0cf9e7817c1988cf53f28170440">minTime</a> : 60);</div>
-<div class="line"><span class="lineno">  947</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#aa96d823e5093e1baff06666c35c49932">m_neutralValuePct</a> = goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a8aec950d501fa71132f9a708c8e5d0d7">neutralPercent</a>;</div>
-<div class="line"><span class="lineno">  948</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">m_minValue</a> = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a> * goinfo-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a8aec950d501fa71132f9a708c8e5d0d7">neutralPercent</a> / 100;</div>
-<div class="line"><span class="lineno">  949</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a9d43160e2a96cdae295596756f770f74">m_capturePointEntry</a> = capturePoint-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">GetEntry</a>();</div>
-<div class="line"><span class="lineno">  950</span>    <span class="keywordflow">if</span> (team == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
-<div class="line"><span class="lineno">  951</span>    {</div>
-<div class="line"><span class="lineno">  952</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>;</div>
-<div class="line"><span class="lineno">  953</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>;</div>
-<div class="line"><span class="lineno">  954</span>    }</div>
-<div class="line"><span class="lineno">  955</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  956</span>    {</div>
-<div class="line"><span class="lineno">  957</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> = -<a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>;</div>
-<div class="line"><span class="lineno">  958</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>;</div>
-<div class="line"><span class="lineno">  959</span>    }</div>
-<div class="line"><span class="lineno">  960</span> </div>
-<div class="line"><span class="lineno">  961</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  962</span>}</div>
-<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
-<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
-<div class="ttc" id="aa02771_html_a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3"><div class="ttname"><a href="../../d0/dbd/a02771.html#a0233096c29a8a39f15373e06434985f9a15e0eaa2ecf827ab8f47b0768c2160b3">GAMEOBJECT_TYPE_CAPTURE_POINT</a></div><div class="ttdeci">@ GAMEOBJECT_TYPE_CAPTURE_POINT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:1589</div></div>
-<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a></div><div class="ttdeci">@ TEAM_ALLIANCE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:760</div></div>
-<div class="ttc" id="aa07958_html"><div class="ttname"><a href="../../d0/d8c/a07958.html">GameObjectTemplate</a></div><div class="ttdef"><b>Definition:</b> GameObjectData.h:31</div></div>
-<div class="ttc" id="aa07958_html_a1c78664b7272010dac83e9f4ea132330"><div class="ttname"><a href="../../d0/d8c/a07958.html#a1c78664b7272010dac83e9f4ea132330">GameObjectTemplate::type</a></div><div class="ttdeci">uint32 type</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:33</div></div>
-<div class="ttc" id="aa07958_html_a259bf0cf9e7817c1988cf53f28170440"><div class="ttname"><a href="../../d0/d8c/a07958.html#a259bf0cf9e7817c1988cf53f28170440">GameObjectTemplate::minTime</a></div><div class="ttdeci">uint32 minTime</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:318</div></div>
-<div class="ttc" id="aa07958_html_a8aec950d501fa71132f9a708c8e5d0d7"><div class="ttname"><a href="../../d0/d8c/a07958.html#a8aec950d501fa71132f9a708c8e5d0d7">GameObjectTemplate::neutralPercent</a></div><div class="ttdeci">uint32 neutralPercent</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:314</div></div>
-<div class="ttc" id="aa07958_html_a912d251efbe00674ea9497f3b5e7f537"><div class="ttname"><a href="../../d0/d8c/a07958.html#a912d251efbe00674ea9497f3b5e7f537">GameObjectTemplate::maxTime</a></div><div class="ttdeci">uint32 maxTime</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:319</div></div>
-<div class="ttc" id="aa08150_html_aa627fe2967ed0e0ed1d8aeeb4365a961"><div class="ttname"><a href="../../d6/d80/a08150.html#aa627fe2967ed0e0ed1d8aeeb4365a961">Object::GetEntry</a></div><div class="ttdeci">uint32 GetEntry() const</div><div class="ttdef"><b>Definition:</b> Object.h:115</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00041">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>, <a class="el" href="../../#l00042">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>, <a class="el" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">GameObjectTemplate::capturePoint</a>, <a class="el" href="../../#l01589">GAMEOBJECT_TYPE_CAPTURE_POINT</a>, <a class="el" href="../../#l00115">Object::GetEntry()</a>, <a class="el" href="../../#l00136">GameObject::GetGOInfo()</a>, <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00142">m_capturePoint</a>, <a class="el" href="../../#l00139">m_capturePointEntry</a>, <a class="el" href="../../#l00122">m_maxSpeed</a>, <a class="el" href="../../#l00118">m_maxValue</a>, <a class="el" href="../../#l00119">m_minValue</a>, <a class="el" href="../../#l00133">m_neutralValuePct</a>, <a class="el" href="../../#l00130">m_State</a>, <a class="el" href="../../#l00126">m_team</a>, <a class="el" href="../../#l00125">m_value</a>, <a class="el" href="../../#l00319">GameObjectTemplate::maxTime</a>, <a class="el" href="../../#l00318">GameObjectTemplate::minTime</a>, <a class="el" href="../../#l00314">GameObjectTemplate::neutralPercent</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>, and <a class="el" href="../../#l00033">GameObjectTemplate::type</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00673">BattlefieldWG::OnGameObjectCreate()</a>.</p>
-
-</div>
-</div>
-<a id="a3620c3873aca6e90594a4ddc8345102d" name="a3620c3873aca6e90594a4ddc8345102d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3620c3873aca6e90594a4ddc8345102d">&#9670;&#160;</a></span>Update()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool BfCapturePoint::Update </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>diff</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  987</span>{</div>
-<div class="line"><span class="lineno">  988</span>    <a class="code hl_class" href="../../d8/de1/a07954.html">GameObject</a>* capturePoint = <a class="code hl_function" href="../../dd/dd7/a06974.html#a605d9ced3b467ff21c638490b1f089f0">GetCapturePointGo</a>();</div>
-<div class="line"><span class="lineno">  989</span>    <span class="keywordflow">if</span> (!capturePoint)</div>
-<div class="line"><span class="lineno">  990</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  991</span> </div>
-<div class="line"><span class="lineno">  992</span>    <span class="keywordtype">float</span> radius = capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a1415b5cb9b3b3f4f6691584c5b6d7324">GetGOInfo</a>()-&gt;<a class="code hl_variable" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">capturePoint</a>.<a class="code hl_variable" href="../../d0/d8c/a07958.html#a303ebbf7423f0f937bd81f5e4039dede">radius</a>;</div>
-<div class="line"><span class="lineno">  993</span> </div>
-<div class="line"><span class="lineno">  994</span>    <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> team = 0; team &lt; 2; ++team)</div>
-<div class="line"><span class="lineno">  995</span>    {</div>
-<div class="line"><span class="lineno">  996</span>        <span class="keywordflow">for</span> (GuidUnorderedSet::iterator itr = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].begin(); itr != <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[team].end();)</div>
-<div class="line"><span class="lineno">  997</span>        {</div>
-<div class="line"><span class="lineno">  998</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a9ede56180a13f102ad195136eadb97ee">ObjectAccessor::FindPlayer</a>(*itr))</div>
-<div class="line"><span class="lineno">  999</span>                <span class="keywordflow">if</span> (!capturePoint-&gt;<a class="code hl_function" href="../../d8/de1/a07954.html#a0e472403802c7a862e22c769ef4f8378">IsWithinDistInMap</a>(player, radius) || !player-&gt;IsOutdoorPvPActive())</div>
-<div class="line"><span class="lineno"> 1000</span>                {</div>
-<div class="line"><span class="lineno"> 1001</span>                    itr = <a class="code hl_function" href="../../dd/dd7/a06974.html#a02eab1f489ee817d0b0263a57eb71ed2">HandlePlayerLeave</a>(player);</div>
-<div class="line"><span class="lineno"> 1002</span>                    <span class="keywordflow">continue</span>;</div>
-<div class="line"><span class="lineno"> 1003</span>                }</div>
-<div class="line"><span class="lineno"> 1004</span> </div>
-<div class="line"><span class="lineno"> 1005</span>            ++itr;</div>
-<div class="line"><span class="lineno"> 1006</span>        }</div>
-<div class="line"><span class="lineno"> 1007</span>    }</div>
-<div class="line"><span class="lineno"> 1008</span> </div>
-<div class="line"><span class="lineno"> 1009</span>    std::list&lt;Player*&gt; players;</div>
-<div class="line"><span class="lineno"> 1010</span>    <a class="code hl_class" href="../../d4/d6b/a09114.html">Acore::AnyPlayerInObjectRangeCheck</a> checker(capturePoint, radius);</div>
-<div class="line"><span class="lineno"> 1011</span>    <a class="code hl_struct" href="../../d1/d37/a08970.html">Acore::PlayerListSearcher&lt;Acore::AnyPlayerInObjectRangeCheck&gt;</a> searcher(capturePoint, players, checker);</div>
-<div class="line"><span class="lineno"> 1012</span>    <a class="code hl_function" href="../../d0/d2c/a08834.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a>(capturePoint, searcher, radius);</div>
-<div class="line"><span class="lineno"> 1013</span> </div>
-<div class="line"><span class="lineno"> 1014</span>    <span class="keywordflow">for</span> (std::list&lt;Player*&gt;::iterator itr = players.begin(); itr != players.end(); ++itr)</div>
-<div class="line"><span class="lineno"> 1015</span>        <span class="keywordflow">if</span> ((*itr)-&gt;IsOutdoorPvPActive())</div>
-<div class="line"><span class="lineno"> 1016</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[(*itr)-&gt;GetTeamId()].insert((*itr)-&gt;GetGUID()).second)</div>
-<div class="line"><span class="lineno"> 1017</span>                <a class="code hl_function" href="../../dd/dd7/a06974.html#a1a4ed58f9874900d822305dd406b1c67">HandlePlayerEnter</a>(*itr);</div>
-<div class="line"><span class="lineno"> 1018</span> </div>
-<div class="line"><span class="lineno"> 1019</span>    <span class="comment">// get the difference of numbers</span></div>
-<div class="line"><span class="lineno"> 1020</span>    <span class="keywordtype">float</span> fact_diff = ((float) <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[0].size() - (float) <a class="code hl_variable" href="../../dd/dd7/a06974.html#a371349b157af4b8ecbacc8814f0bb2ec">m_activePlayers</a>[1].size()) * diff / <a class="code hl_variable" href="../../d5/db0/a02777.html#a79df696836c3edc53ca1868aab7f6e76">BATTLEFIELD_OBJECTIVE_UPDATE_INTERVAL</a>;</div>
-<div class="line"><span class="lineno"> 1021</span>    <span class="keywordflow">if</span> (G3D::fuzzyEq(fact_diff, 0.0f))</div>
-<div class="line"><span class="lineno"> 1022</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1023</span> </div>
-<div class="line"><span class="lineno"> 1024</span>    <a class="code hl_enumeration" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> ChallengerId = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno"> 1025</span>    <span class="keywordtype">float</span> maxDiff = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a53e231eae6e505a88e616244092a8ee6">m_maxSpeed</a> * diff;</div>
-<div class="line"><span class="lineno"> 1026</span> </div>
-<div class="line"><span class="lineno"> 1027</span>    <span class="keywordflow">if</span> (fact_diff &lt; 0)</div>
-<div class="line"><span class="lineno"> 1028</span>    {</div>
-<div class="line"><span class="lineno"> 1029</span>        <span class="comment">// horde is in majority, but it&#39;s already horde-controlled -&gt; no change</span></div>
-<div class="line"><span class="lineno"> 1030</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a> &amp;&amp; <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &lt;= -<a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>)</div>
-<div class="line"><span class="lineno"> 1031</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1032</span> </div>
-<div class="line"><span class="lineno"> 1033</span>        <span class="keywordflow">if</span> (fact_diff &lt; -maxDiff)</div>
-<div class="line"><span class="lineno"> 1034</span>            fact_diff = -maxDiff;</div>
-<div class="line"><span class="lineno"> 1035</span> </div>
-<div class="line"><span class="lineno"> 1036</span>        ChallengerId = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>;</div>
-<div class="line"><span class="lineno"> 1037</span>    }</div>
-<div class="line"><span class="lineno"> 1038</span>    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno"> 1039</span>    {</div>
-<div class="line"><span class="lineno"> 1040</span>        <span class="comment">// ally is in majority, but it&#39;s already ally-controlled -&gt; no change</span></div>
-<div class="line"><span class="lineno"> 1041</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a> &amp;&amp; <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &gt;= <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>)</div>
-<div class="line"><span class="lineno"> 1042</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1043</span> </div>
-<div class="line"><span class="lineno"> 1044</span>        <span class="keywordflow">if</span> (fact_diff &gt; maxDiff)</div>
-<div class="line"><span class="lineno"> 1045</span>            fact_diff = maxDiff;</div>
-<div class="line"><span class="lineno"> 1046</span> </div>
-<div class="line"><span class="lineno"> 1047</span>        ChallengerId = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>;</div>
-<div class="line"><span class="lineno"> 1048</span>    }</div>
-<div class="line"><span class="lineno"> 1049</span> </div>
-<div class="line"><span class="lineno"> 1050</span>    <span class="keywordtype">float</span> oldValue = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a>;</div>
-<div class="line"><span class="lineno"> 1051</span>    <a class="code hl_enumeration" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> oldTeam = <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>;</div>
-<div class="line"><span class="lineno"> 1052</span> </div>
-<div class="line"><span class="lineno"> 1053</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> = <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a>;</div>
-<div class="line"><span class="lineno"> 1054</span> </div>
-<div class="line"><span class="lineno"> 1055</span>    <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> += fact_diff;</div>
-<div class="line"><span class="lineno"> 1056</span> </div>
-<div class="line"><span class="lineno"> 1057</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &lt; -<a class="code hl_variable" href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">m_minValue</a>)                              <span class="comment">// red</span></div>
-<div class="line"><span class="lineno"> 1058</span>    {</div>
-<div class="line"><span class="lineno"> 1059</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &lt; -<a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>)</div>
-<div class="line"><span class="lineno"> 1060</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> = -<a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>;</div>
-<div class="line"><span class="lineno"> 1061</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>;</div>
-<div class="line"><span class="lineno"> 1062</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>;</div>
-<div class="line"><span class="lineno"> 1063</span>    }</div>
-<div class="line"><span class="lineno"> 1064</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &gt; <a class="code hl_variable" href="../../dd/dd7/a06974.html#a2d8624843a640445f04a6b17be63ae3d">m_minValue</a>)                          <span class="comment">// blue</span></div>
-<div class="line"><span class="lineno"> 1065</span>    {</div>
-<div class="line"><span class="lineno"> 1066</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &gt; <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>)</div>
-<div class="line"><span class="lineno"> 1067</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> = <a class="code hl_variable" href="../../dd/dd7/a06974.html#a89bf5ddb47f47bb1129ec2256221dcb8">m_maxValue</a>;</div>
-<div class="line"><span class="lineno"> 1068</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>;</div>
-<div class="line"><span class="lineno"> 1069</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>;</div>
-<div class="line"><span class="lineno"> 1070</span>    }</div>
-<div class="line"><span class="lineno"> 1071</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (oldValue * <a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a> &lt;= 0)                       <span class="comment">// grey, go through mid point</span></div>
-<div class="line"><span class="lineno"> 1072</span>    {</div>
-<div class="line"><span class="lineno"> 1073</span>        <span class="comment">// if challenger is ally, then n-&gt;a challenge</span></div>
-<div class="line"><span class="lineno"> 1074</span>        <span class="keywordflow">if</span> (ChallengerId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a>)</div>
-<div class="line"><span class="lineno"> 1075</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a47f8021bf59a901b2a512d28cc044c7f">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a>;</div>
-<div class="line"><span class="lineno"> 1076</span>        <span class="comment">// if challenger is horde, then n-&gt;h challenge</span></div>
-<div class="line"><span class="lineno"> 1077</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ChallengerId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a>)</div>
-<div class="line"><span class="lineno"> 1078</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a28c520f0b5997a10c6e8c040d803a9d5">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a>;</div>
-<div class="line"><span class="lineno"> 1079</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno"> 1080</span>    }</div>
-<div class="line"><span class="lineno"> 1081</span>    <span class="keywordflow">else</span>                                                    <span class="comment">// grey, did not go through mid point</span></div>
-<div class="line"><span class="lineno"> 1082</span>    {</div>
-<div class="line"><span class="lineno"> 1083</span>        <span class="comment">// old phase and current are on the same side, so one team challenges the other</span></div>
-<div class="line"><span class="lineno"> 1084</span>        <span class="keywordflow">if</span> (ChallengerId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a77ec52d5d5f9771c1ac94fddaf7fb84e">TEAM_ALLIANCE</a> &amp;&amp; (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a683078aa231d432a72923b9eff4d5a29">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a> || <a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a28c520f0b5997a10c6e8c040d803a9d5">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a>))</div>
-<div class="line"><span class="lineno"> 1085</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798af7b31d0894d6b9bd950d9a48c86da7c4">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a>;</div>
-<div class="line"><span class="lineno"> 1086</span>        <span class="keywordflow">else</span> <span class="keywordflow">if</span> (ChallengerId == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a> &amp;&amp; (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798ac05149e43f48e8fbe687c2cb48a88ac7">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a> || <a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> == <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a47f8021bf59a901b2a512d28cc044c7f">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a>))</div>
-<div class="line"><span class="lineno"> 1087</span>            <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a> = <a class="code hl_enumvalue" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a9c9e1d966e139a18ba54ee2c2fa0bc2b">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a>;</div>
-<div class="line"><span class="lineno"> 1088</span>        <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a> = <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a1d009932a5dde84d818f627cfcfe3fe5">TEAM_NEUTRAL</a>;</div>
-<div class="line"><span class="lineno"> 1089</span>    }</div>
-<div class="line"><span class="lineno"> 1090</span> </div>
-<div class="line"><span class="lineno"> 1091</span>    <span class="keywordflow">if</span> (G3D::fuzzyNe(<a class="code hl_variable" href="../../dd/dd7/a06974.html#a7b3e3cb728347cd9783eea394245fcc0">m_value</a>, oldValue))</div>
-<div class="line"><span class="lineno"> 1092</span>        <a class="code hl_function" href="../../dd/dd7/a06974.html#a7c727552544f98f3ace8e42c2d1cca02">SendChangePhase</a>();</div>
-<div class="line"><span class="lineno"> 1093</span> </div>
-<div class="line"><span class="lineno"> 1094</span>    <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../dd/dd7/a06974.html#a37792e377ac59c30e711a56239598da4">m_OldState</a> != <a class="code hl_variable" href="../../dd/dd7/a06974.html#acf8b53252eb10615ff197e15ea620083">m_State</a>)</div>
-<div class="line"><span class="lineno"> 1095</span>    {</div>
-<div class="line"><span class="lineno"> 1096</span>        <span class="comment">//LOG_ERROR(&quot;bg.battlefield&quot;, &quot;{}-&gt;{}&quot;, m_OldState, m_State);</span></div>
-<div class="line"><span class="lineno"> 1097</span>        <span class="keywordflow">if</span> (oldTeam != <a class="code hl_variable" href="../../dd/dd7/a06974.html#acd3c8e8fe970c160670bd5a7cdb9b1c4">m_team</a>)</div>
-<div class="line"><span class="lineno"> 1098</span>            <a class="code hl_function" href="../../dd/dd7/a06974.html#a429037910b1a3108cdb753ba91230bf7">ChangeTeam</a>(oldTeam);</div>
-<div class="line"><span class="lineno"> 1099</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno"> 1100</span>    }</div>
-<div class="line"><span class="lineno"> 1101</span> </div>
-<div class="line"><span class="lineno"> 1102</span>    <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno"> 1103</span>}</div>
-<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a></div><div class="ttdeci">TeamId</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:759</div></div>
-<div class="ttc" id="aa02771_html_abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a"><div class="ttname"><a href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865a80bb98f9049563b07d3b738a0783366a">TEAM_HORDE</a></div><div class="ttdeci">@ TEAM_HORDE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:761</div></div>
-<div class="ttc" id="aa02777_html_a79df696836c3edc53ca1868aab7f6e76"><div class="ttname"><a href="../../d5/db0/a02777.html#a79df696836c3edc53ca1868aab7f6e76">BATTLEFIELD_OBJECTIVE_UPDATE_INTERVAL</a></div><div class="ttdeci">constexpr auto BATTLEFIELD_OBJECTIVE_UPDATE_INTERVAL</div><div class="ttdef"><b>Definition:</b> Battlefield.h:56</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798a28c520f0b5997a10c6e8c040d803a9d5"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a28c520f0b5997a10c6e8c040d803a9d5">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:44</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798a47f8021bf59a901b2a512d28cc044c7f"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a47f8021bf59a901b2a512d28cc044c7f">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:43</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798a9c9e1d966e139a18ba54ee2c2fa0bc2b"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798a9c9e1d966e139a18ba54ee2c2fa0bc2b">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:45</div></div>
-<div class="ttc" id="aa02777_html_af6db5a1d93982b261639cd12634a2798af7b31d0894d6b9bd950d9a48c86da7c4"><div class="ttname"><a href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798af7b31d0894d6b9bd950d9a48c86da7c4">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a></div><div class="ttdeci">@ BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</div><div class="ttdef"><b>Definition:</b> Battlefield.h:46</div></div>
-<div class="ttc" id="aa06974_html_a02eab1f489ee817d0b0263a57eb71ed2"><div class="ttname"><a href="../../dd/dd7/a06974.html#a02eab1f489ee817d0b0263a57eb71ed2">BfCapturePoint::HandlePlayerLeave</a></div><div class="ttdeci">virtual GuidUnorderedSet::iterator HandlePlayerLeave(Player *player)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:892</div></div>
-<div class="ttc" id="aa06974_html_a1a4ed58f9874900d822305dd406b1c67"><div class="ttname"><a href="../../dd/dd7/a06974.html#a1a4ed58f9874900d822305dd406b1c67">BfCapturePoint::HandlePlayerEnter</a></div><div class="ttdeci">virtual bool HandlePlayerEnter(Player *player)</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:881</div></div>
-<div class="ttc" id="aa06974_html_a429037910b1a3108cdb753ba91230bf7"><div class="ttname"><a href="../../dd/dd7/a06974.html#a429037910b1a3108cdb753ba91230bf7">BfCapturePoint::ChangeTeam</a></div><div class="ttdeci">virtual void ChangeTeam(TeamId)</div><div class="ttdef"><b>Definition:</b> Battlefield.h:102</div></div>
-<div class="ttc" id="aa06974_html_a7c727552544f98f3ace8e42c2d1cca02"><div class="ttname"><a href="../../dd/dd7/a06974.html#a7c727552544f98f3ace8e42c2d1cca02">BfCapturePoint::SendChangePhase</a></div><div class="ttdeci">virtual void SendChangePhase()</div><div class="ttdef"><b>Definition:</b> Battlefield.cpp:906</div></div>
-<div class="ttc" id="aa07954_html_a0e472403802c7a862e22c769ef4f8378"><div class="ttname"><a href="../../d8/de1/a07954.html#a0e472403802c7a862e22c769ef4f8378">GameObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(Player const *player) const</div><div class="ttdef"><b>Definition:</b> GameObject.cpp:3005</div></div>
-<div class="ttc" id="aa07958_html_a303ebbf7423f0f937bd81f5e4039dede"><div class="ttname"><a href="../../d0/d8c/a07958.html#a303ebbf7423f0f937bd81f5e4039dede">GameObjectTemplate::radius</a></div><div class="ttdeci">uint32 radius</div><div class="ttdef"><b>Definition:</b> GameObjectData.h:196</div></div>
-<div class="ttc" id="aa08834_html_a952f2c6008bbbc3b9ee1652ea5f9188a"><div class="ttname"><a href="../../d0/d2c/a08834.html#a952f2c6008bbbc3b9ee1652ea5f9188a">Cell::VisitWorldObjects</a></div><div class="ttdeci">static void VisitWorldObjects(WorldObject const *obj, T &amp;visitor, float radius, bool dont_load=true)</div><div class="ttdef"><b>Definition:</b> CellImpl.h:192</div></div>
-<div class="ttc" id="aa08970_html"><div class="ttname"><a href="../../d1/d37/a08970.html">Acore::PlayerListSearcher</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:525</div></div>
-<div class="ttc" id="aa09114_html"><div class="ttname"><a href="../../d4/d6b/a09114.html">Acore::AnyPlayerInObjectRangeCheck</a></div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1354</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00056">BATTLEFIELD_OBJECTIVE_UPDATE_INTERVAL</a>, <a class="el" href="../../#l00041">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE</a>, <a class="el" href="../../#l00045">BF_CAPTUREPOINT_OBJECTIVESTATE_ALLIANCE_HORDE_CHALLENGE</a>, <a class="el" href="../../#l00042">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE</a>, <a class="el" href="../../#l00046">BF_CAPTUREPOINT_OBJECTIVESTATE_HORDE_ALLIANCE_CHALLENGE</a>, <a class="el" href="../../#l00043">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_ALLIANCE_CHALLENGE</a>, <a class="el" href="../../#l00044">BF_CAPTUREPOINT_OBJECTIVESTATE_NEUTRAL_HORDE_CHALLENGE</a>, <a class="el" href="../../d0/d8c/a07958.html#ab31c57b567ff28f92c4b35855dbc25ce">GameObjectTemplate::capturePoint</a>, <a class="el" href="../../#l00102">ChangeTeam()</a>, <a class="el" href="../../#l00245">ObjectAccessor::FindPlayer()</a>, <a class="el" href="../../#l00976">GetCapturePointGo()</a>, <a class="el" href="../../#l00136">GameObject::GetGOInfo()</a>, <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00892">HandlePlayerLeave()</a>, <a class="el" href="../../#l03005">GameObject::IsWithinDistInMap()</a>, <a class="el" href="../../#l00115">m_activePlayers</a>, <a class="el" href="../../#l00122">m_maxSpeed</a>, <a class="el" href="../../#l00118">m_maxValue</a>, <a class="el" href="../../#l00119">m_minValue</a>, <a class="el" href="../../#l00129">m_OldState</a>, <a class="el" href="../../#l00130">m_State</a>, <a class="el" href="../../#l00126">m_team</a>, <a class="el" href="../../#l00125">m_value</a>, <a class="el" href="../../#l00196">GameObjectTemplate::radius</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, <a class="el" href="../../#l00760">TEAM_ALLIANCE</a>, <a class="el" href="../../#l00761">TEAM_HORDE</a>, <a class="el" href="../../#l00762">TEAM_NEUTRAL</a>, and <a class="el" href="../../#l00192">Cell::VisitWorldObjects()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01407">ObjectMgr::GetLocaleString()</a>, <a class="el" href="../../#l00089">item</a>, <a class="el" href="../../#l00620">ItemTemplate::ItemId</a>, <a class="el" href="../../#l00068">SearchableAuctionEntryItem::itemName</a>, <a class="el" href="../../#l00075">SearchableAuctionEntryItem::itemTemplate</a>, <a class="el" href="../../#l00066">LOCALE_enUS</a>, <a class="el" href="../../#l00839">ItemLocale::Name</a>, <a class="el" href="../../#l01211">ItemRandomPropertiesEntry::Name</a>, <a class="el" href="../../#l01218">ItemRandomSuffixEntry::Name</a>, <a class="el" href="../../#l00624">ItemTemplate::Name1</a>, <a class="el" href="../../#l00071">SearchableAuctionEntryItem::randomPropertyId</a>, <a class="el" href="../../d7/da2/a03704.html#aa4df01784442d67397299862629a06e9">sItemRandomPropertiesStore</a>, <a class="el" href="../../d7/da2/a03704.html#a8f24671edcebdacd8a25038525cfde6b">sItemRandomSuffixStore</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, <a class="el" href="../../#l00442">sWorld</a>, <a class="el" href="../../#l00076">TOTAL_LOCALES</a>, <a class="el" href="../../#l00281">Utf8toWStr()</a>, and <a class="el" href="../../#l00382">wstrToLower()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a371349b157af4b8ecbacc8814f0bb2ec" name="a371349b157af4b8ecbacc8814f0bb2ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a371349b157af4b8ecbacc8814f0bb2ec">&#9670;&#160;</a></span>m_activePlayers</h2>
+<a id="a0b2c836d635d9a170b2d70b763c4907b" name="a0b2c836d635d9a170b2d70b763c4907b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b2c836d635d9a170b2d70b763c4907b">&#9670;&#160;</a></span>bid</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d7/db0/a03467.html#a407d39fdbc20e1e06960539245ee6a25">GuidUnorderedSet</a> BfCapturePoint::m_activePlayers[2]</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SearchableAuctionEntry::bid</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00892">HandlePlayerLeave()</a>, <a class="el" href="../../#l01134">IsInsideObjective()</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, <a class="el" href="../../#l01113">SendObjectiveComplete()</a>, <a class="el" href="../../#l01105">SendUpdateWorldState()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, and <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
-<a id="a1f857e79dde01c3d966f7c7981e5f190" name="a1f857e79dde01c3d966f7c7981e5f190"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1f857e79dde01c3d966f7c7981e5f190">&#9670;&#160;</a></span>m_Bf</h2>
+<a id="ada14d168bde5da2b39c93a240941a80a" name="ada14d168bde5da2b39c93a240941a80a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada14d168bde5da2b39c93a240941a80a">&#9670;&#160;</a></span>bidderGuid</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../dd/dde/a06982.html">Battlefield</a>* BfCapturePoint::m_Bf</td>
+          <td class="memname"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> SearchableAuctionEntry::bidderGuid</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00976">GetCapturePointGo()</a>, and <a class="el" href="../../#l01200">WintergraspCapturePoint::WintergraspCapturePoint()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, and <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
-<a id="a3bc808408161740eed6185c049e1414b" name="a3bc808408161740eed6185c049e1414b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3bc808408161740eed6185c049e1414b">&#9670;&#160;</a></span>m_capturePoint</h2>
+<a id="a978fea69d5c823f71e681903a432ec51" name="a978fea69d5c823f71e681903a432ec51"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978fea69d5c823f71e681903a432ec51">&#9670;&#160;</a></span>buyout</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> BfCapturePoint::m_capturePoint</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SearchableAuctionEntry::buyout</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00964">DelCapturePoint()</a>, <a class="el" href="../../#l00976">GetCapturePointGo()</a>, and <a class="el" href="../../#l00925">SetCapturePointData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, and <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
-<a id="a9d43160e2a96cdae295596756f770f74" name="a9d43160e2a96cdae295596756f770f74"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d43160e2a96cdae295596756f770f74">&#9670;&#160;</a></span>m_capturePointEntry</h2>
+<a id="aa3556fd353c58fda259c7dec52bb3b90" name="aa3556fd353c58fda259c7dec52bb3b90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3556fd353c58fda259c7dec52bb3b90">&#9670;&#160;</a></span>expire_time</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BfCapturePoint::m_capturePointEntry</td>
+          <td class="memname">time_t SearchableAuctionEntry::expire_time</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, and <a class="el" href="../../#l00925">SetCapturePointData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, and <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
-<a id="a53e231eae6e505a88e616244092a8ee6" name="a53e231eae6e505a88e616244092a8ee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a53e231eae6e505a88e616244092a8ee6">&#9670;&#160;</a></span>m_maxSpeed</h2>
+<a id="aa52368fdef3baed1aed4af459f764b8b" name="aa52368fdef3baed1aed4af459f764b8b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa52368fdef3baed1aed4af459f764b8b">&#9670;&#160;</a></span>Id</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float BfCapturePoint::m_maxSpeed</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SearchableAuctionEntry::Id</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>.</p>
 
 </div>
 </div>
-<a id="a89bf5ddb47f47bb1129ec2256221dcb8" name="a89bf5ddb47f47bb1129ec2256221dcb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89bf5ddb47f47bb1129ec2256221dcb8">&#9670;&#160;</a></span>m_maxValue</h2>
+<a id="a05df9a39681c0014a1c398b9bca1cbfe" name="a05df9a39681c0014a1c398b9bca1cbfe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05df9a39681c0014a1c398b9bca1cbfe">&#9670;&#160;</a></span>item</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float BfCapturePoint::m_maxValue</td>
+          <td class="memname"><a class="el" href="../../d8/da7/a06970.html">SearchableAuctionEntryItem</a> SearchableAuctionEntry::item</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, <a class="el" href="../../#l00520">CompareAuctionEntry()</a>, and <a class="el" href="../../#l00461">SetItemNames()</a>.</p>
 
 </div>
 </div>
-<a id="a2d8624843a640445f04a6b17be63ae3d" name="a2d8624843a640445f04a6b17be63ae3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2d8624843a640445f04a6b17be63ae3d">&#9670;&#160;</a></span>m_minValue</h2>
+<a id="a988bdc1b8ae87c3797b24534e853213f" name="a988bdc1b8ae87c3797b24534e853213f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a988bdc1b8ae87c3797b24534e853213f">&#9670;&#160;</a></span>listFaction</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">float BfCapturePoint::m_minValue</td>
+          <td class="memname"><a class="el" href="../../d4/d44/a03065.html#af4f47e9bbd0faf17478c06dd0660bb84">AuctionHouseFaction</a> SearchableAuctionEntry::listFaction</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
-
 </div>
 </div>
-<a id="aa96d823e5093e1baff06666c35c49932" name="aa96d823e5093e1baff06666c35c49932"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa96d823e5093e1baff06666c35c49932">&#9670;&#160;</a></span>m_neutralValuePct</h2>
+<a id="a75e8c535be797d015ed970d896a56c29" name="a75e8c535be797d015ed970d896a56c29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75e8c535be797d015ed970d896a56c29">&#9670;&#160;</a></span>ownerGuid</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BfCapturePoint::m_neutralValuePct</td>
+          <td class="memname"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> SearchableAuctionEntry::ownerGuid</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, and <a class="el" href="../../#l00925">SetCapturePointData()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>.</p>
 
 </div>
 </div>
-<a id="a37792e377ac59c30e711a56239598da4" name="a37792e377ac59c30e711a56239598da4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37792e377ac59c30e711a56239598da4">&#9670;&#160;</a></span>m_OldState</h2>
+<a id="aaca6e4de9cfbc62eb1815c2cf79be123" name="aaca6e4de9cfbc62eb1815c2cf79be123"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaca6e4de9cfbc62eb1815c2cf79be123">&#9670;&#160;</a></span>ownerName</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798">BattlefieldObjectiveStates</a> BfCapturePoint::m_OldState</td>
+          <td class="memname">std::string SearchableAuctionEntry::ownerName</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
-<a id="acf8b53252eb10615ff197e15ea620083" name="acf8b53252eb10615ff197e15ea620083"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf8b53252eb10615ff197e15ea620083">&#9670;&#160;</a></span>m_State</h2>
+<a id="ae3459d9794539591ae3727bdd6de3e2b" name="ae3459d9794539591ae3727bdd6de3e2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3459d9794539591ae3727bdd6de3e2b">&#9670;&#160;</a></span>startbid</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/db0/a02777.html#af6db5a1d93982b261639cd12634a2798">BattlefieldObjectiveStates</a> BfCapturePoint::m_State</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> SearchableAuctionEntry::startbid</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l01113">SendObjectiveComplete()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
-
-</div>
-</div>
-<a id="acd3c8e8fe970c160670bd5a7cdb9b1c4" name="acd3c8e8fe970c160670bd5a7cdb9b1c4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd3c8e8fe970c160670bd5a7cdb9b1c4">&#9670;&#160;</a></span>m_team</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a> BfCapturePoint::m_team</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l01207">WintergraspCapturePoint::ChangeTeam()</a>, <a class="el" href="../../#l00264">WintergraspCapturePoint::GetTeam()</a>, <a class="el" href="../../#l00110">GetTeamId()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, <a class="el" href="../../#l00986">Update()</a>, and <a class="el" href="../../#l01200">WintergraspCapturePoint::WintergraspCapturePoint()</a>.</p>
-
-</div>
-</div>
-<a id="a7b3e3cb728347cd9783eea394245fcc0" name="a7b3e3cb728347cd9783eea394245fcc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b3e3cb728347cd9783eea394245fcc0">&#9670;&#160;</a></span>m_value</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">float BfCapturePoint::m_value</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00868">BfCapturePoint()</a>, <a class="el" href="../../#l00881">HandlePlayerEnter()</a>, <a class="el" href="../../#l00906">SendChangePhase()</a>, <a class="el" href="../../#l00925">SetCapturePointData()</a>, and <a class="el" href="../../#l00986">Update()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00434">BuildAuctionInfo()</a>, and <a class="el" href="../../#l00520">CompareAuctionEntry()</a>.</p>
 
 </div>
 </div>
@@ -1223,8 +653,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dd/dd7/a06974.html">BfCapturePoint</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:09 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dd/dd7/a06974.html">SearchableAuctionEntry</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:16 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

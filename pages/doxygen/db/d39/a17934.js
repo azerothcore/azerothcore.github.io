@@ -1,8 +1,10 @@
 var a17934 =
 [
-    [ "ChangeDamageAndGrow", "db/d39/a17934.html#a017ade08eca93f326d2e5115c4d88c33", null ],
-    [ "CorrectRange", "db/d39/a17934.html#a9022b9efab89bc562428520b3551ff37", null ],
-    [ "PrepareSpellScript", "db/d39/a17934.html#a3e1d1764add95728428cbf25f9b66dc4", null ],
-    [ "Register", "db/d39/a17934.html#a998b810cdbecbca2bf65f18cee14d286", null ],
-    [ "Validate", "db/d39/a17934.html#afe0910e903f6f8f466b272ce9ddc7a6b", null ]
+    [ "npc_shambling_horror_iccAI", "db/d39/a17934.html#a0d15c62bead7a4da3c8a8abd0b2ee612", null ],
+    [ "CanAIAttack", "db/d39/a17934.html#a6d77fdd16c4b089049ade7f7b081b4e9", null ],
+    [ "DamageTaken", "db/d39/a17934.html#aed90f2c487c28190c7af630f4ea2fa13", null ],
+    [ "Reset", "db/d39/a17934.html#ac5bab3d9f360e4e00dcab9abc3799865", null ],
+    [ "UpdateAI", "db/d39/a17934.html#abae6058591022057e93d48da3db1b8bc", null ],
+    [ "_events", "db/d39/a17934.html#af12b65fe4f77e8b2d3f5c87379dd69d2", null ],
+    [ "_frenzied", "db/d39/a17934.html#a34347cbecea4c6f538345b7285e8f1c0", null ]
 ];

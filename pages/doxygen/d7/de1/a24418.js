@@ -1,6 +1,6 @@
 var a24418 =
 [
-    [ "CheckCast", "d7/de1/a24418.html#aefa91f15300520de7cffad4f4ca82ccf", null ],
-    [ "PrepareSpellScript", "d7/de1/a24418.html#a605e7b8849186c3c2df731cac743a208", null ],
-    [ "Register", "d7/de1/a24418.html#a62533bff915db8323b53352f17c4825f", null ]
+    [ "CalculateAmount", "d7/de1/a24418.html#a66fd870eff0f2a225630e26047d36225", null ],
+    [ "PrepareAuraScript", "d7/de1/a24418.html#afde8a1734c57e01094077af3d3bdf757", null ],
+    [ "Register", "d7/de1/a24418.html#a8e5b9dd71dfccb224e92784725f2a8a9", null ]
 ];

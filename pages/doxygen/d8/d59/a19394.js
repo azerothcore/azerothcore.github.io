@@ -1,6 +1,6 @@
 var a19394 =
 [
-    [ "boss_steelbreakerAI", "db/d7f/a19398.html", "db/d7f/a19398" ],
-    [ "boss_steelbreaker", "d8/d59/a19394.html#af6e4c3729874e59959b35ca67a46aa44", null ],
-    [ "GetAI", "d8/d59/a19394.html#ac4189ffbba997719fb36a10ecdabd26c", null ]
+    [ "npc_algalon_worm_holeAI", "db/d7f/a19398.html", "db/d7f/a19398" ],
+    [ "npc_algalon_worm_hole", "d8/d59/a19394.html#a72516a4824fa61a331caff46d2784c64", null ],
+    [ "GetAI", "d8/d59/a19394.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
 ];

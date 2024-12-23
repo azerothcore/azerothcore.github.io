@@ -1,15 +1,10 @@
 var a12734 =
 [
-    [ "instance_scarlet_monastery_InstanceMapScript", "d6/d04/a12734.html#a4abdd53f735be815cb2d43497d1531e0", null ],
-    [ "GetData", "d6/d04/a12734.html#a07d9bcc1b1daa29f31be146aaa85993c", null ],
-    [ "GetGuidData", "d6/d04/a12734.html#a49ac1088399ef71b1fcd7c90c6a34fac", null ],
-    [ "OnCreatureCreate", "d6/d04/a12734.html#a71fcfc166f945325a4ee149645a9ccef", null ],
-    [ "OnGameObjectCreate", "d6/d04/a12734.html#a5e90e8cadff18b19c9a1d451dbe675c9", null ],
-    [ "OnPlayerAreaUpdate", "d6/d04/a12734.html#a542669592205682d96ff4f7915dffe89", null ],
-    [ "OnPlayerEnter", "d6/d04/a12734.html#abda4eed65fa6e53d7c5ebeaa2816dd19", null ],
-    [ "SetData", "d6/d04/a12734.html#aaf498d563d070d6250a182f583651777", null ],
-    [ "DoorHighInquisitorGUID", "d6/d04/a12734.html#a72e7f67a60edb4db52bb022291608ac3", null ],
-    [ "encounter", "d6/d04/a12734.html#a70730d88a5f7d3839a20d1eaca7147e7", null ],
-    [ "MograineGUID", "d6/d04/a12734.html#a07596cbc555d8569061b83400b41189f", null ],
-    [ "WhitemaneGUID", "d6/d04/a12734.html#aba9c99316b218f69683515da22a4c788", null ]
+    [ "npc_scarlet_courierAI", "d6/d04/a12734.html#a83c5e32659d38a513790322e46dcc283", null ],
+    [ "JustEngagedWith", "d6/d04/a12734.html#aa470197f0949a413c421bda8c7c09279", null ],
+    [ "MovementInform", "d6/d04/a12734.html#add19812d92d62b602f96ffc5fb513d6c", null ],
+    [ "Reset", "d6/d04/a12734.html#ab642188631b67ae5ff5fd312eaf37ff0", null ],
+    [ "UpdateAI", "d6/d04/a12734.html#ac37287a77e37785b606c742ff8d6eeeb", null ],
+    [ "uiStage", "d6/d04/a12734.html#a2f920922f8c6f1a878d0e4978e081257", null ],
+    [ "uiStage_timer", "d6/d04/a12734.html#a8ee22a276535a3a9c2f12a62e984d55b", null ]
 ];

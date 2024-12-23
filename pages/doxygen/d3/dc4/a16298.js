@@ -1,6 +1,6 @@
 var a16298 =
 [
-    [ "HandleDummy", "d3/dc4/a16298.html#a84fb6e08a523f375cd8bc43e9cc73eab", null ],
-    [ "PrepareSpellScript", "d3/dc4/a16298.html#accbf8f40b1ab123a2be81a514c94c836", null ],
-    [ "Register", "d3/dc4/a16298.html#a1805904d5e50bbf5aeccf37d2cadd09e", null ]
+    [ "boss_fjolaAI", "dd/da6/a16302.html", "dd/da6/a16302" ],
+    [ "boss_fjola", "d3/dc4/a16298.html#a44baccf91ab8c8bc5d5a9d0aa8ef943f", null ],
+    [ "GetAI", "d3/dc4/a16298.html#a96d9ea0716199758b60ad933ade28de4", null ]
 ];

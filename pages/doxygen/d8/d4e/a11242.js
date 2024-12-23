@@ -1,12 +1,7 @@
 var a11242 =
 [
-    [ "WardenMac", "d8/d4e/a11242.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "d8/d4e/a11242.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "d8/d4e/a11242.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "d8/d4e/a11242.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "d8/d4e/a11242.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "d8/d4e/a11242.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "d8/d4e/a11242.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "d8/d4e/a11242.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "d8/d4e/a11242.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "PlayerDumpReader", "d8/d4e/a11242.html#ad630b61e298fb1ddf165481c9a14e077", null ],
+    [ "LoadDump", "d8/d4e/a11242.html#a62ca90cbcb0d03ec0da52651d8c5f783", null ],
+    [ "LoadDumpFromFile", "d8/d4e/a11242.html#ae1ed88a6f181cf6ad952edb1285e192e", null ],
+    [ "LoadDumpFromString", "d8/d4e/a11242.html#abd4ce2c50a74922792a7b00d803f03b2", null ]
 ];

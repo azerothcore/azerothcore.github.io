@@ -1,7 +1,8 @@
 var a24318 =
 [
-    [ "AfterApply", "d9/d97/a24318.html#aee69eceead7e31cce2638ff252f6653d", null ],
-    [ "AfterRemove", "d9/d97/a24318.html#ad53d25cc04f1b6cc1f3d0a8d9fc69a89", null ],
-    [ "PrepareAuraScript", "d9/d97/a24318.html#a0ccde960cb328cd1c72b2504376e92b4", null ],
-    [ "Register", "d9/d97/a24318.html#ab5f8afbfa688ebd548a5508543498b55", null ]
+    [ "HandleEffectApply", "d9/d97/a24318.html#a9a93b47a1f24554a94e364b07f74ba55", null ],
+    [ "HandleEffectRemove", "d9/d97/a24318.html#abb7f01239b5a982ded0244d781c4d856", null ],
+    [ "PrepareAuraScript", "d9/d97/a24318.html#a9517667d1f79557b3ec2ef6fdfd1bc1b", null ],
+    [ "Register", "d9/d97/a24318.html#ae2847d4059ad2822be5703c4d0c79bdb", null ],
+    [ "Validate", "d9/d97/a24318.html#abc30fd53a7f9234755c292db533ba99c", null ]
 ];

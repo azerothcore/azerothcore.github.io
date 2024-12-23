@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt; Struct Template Reference</title>
+<title>AzerothCore: AddonChannelCommandHandler Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,50 +105,561 @@ $(document).ready(function(){initNavTree('d8/d4f/a07370.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/df9/a07367.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt; Struct Template Reference</div></div>
+  <div class="headertitle"><div class="title">AddonChannelCommandHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Chat.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for AddonChannelCommandHandler:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d8/d4f/a07370.png" usemap="#AddonChannelCommandHandler_map" alt=""/>
+  <map id="AddonChannelCommandHandler_map" name="AddonChannelCommandHandler_map">
+<area href="../../d4/d99/a07362.html" alt="ChatHandler" shape="rect" coords="0,0,196,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a3868b3d4e55cdcd1c1591d8bd09bae5d"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a3868b3d4e55cdcd1c1591d8bd09bae5d">TryConsume</a> (T &amp;val, <a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
-<tr class="separator:a3868b3d4e55cdcd1c1591d8bd09bae5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:abd1bb7d3ca143479bd50d908dc1f4136"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#abd1bb7d3ca143479bd50d908dc1f4136">ParseCommands</a> (std::string_view str) override</td></tr>
+<tr class="separator:abd1bb7d3ca143479bd50d908dc1f4136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a289a9806b8a083e063b8c83ea7016718"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a289a9806b8a083e063b8c83ea7016718">SendSysMessage</a> (std::string_view str, bool escapeCharacters) override</td></tr>
+<tr class="separator:a289a9806b8a083e063b8c83ea7016718"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd17995bc95b6e449d5e185bfe523b84"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#acd17995bc95b6e449d5e185bfe523b84">IsHumanReadable</a> () const override</td></tr>
+<tr class="separator:acd17995bc95b6e449d5e185bfe523b84"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ab2c0deb500bef6654274630815bb75"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a7ab2c0deb500bef6654274630815bb75">ChatHandler</a> (<a class="el" href="../../d9/d7c/a10810.html">WorldSession</a> *session)</td></tr>
+<tr class="separator:a7ab2c0deb500bef6654274630815bb75"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aae585fad45749fd46fa28d36fdad9760"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#aae585fad45749fd46fa28d36fdad9760">ChatHandler</a> ()</td></tr>
+<tr class="separator:aae585fad45749fd46fa28d36fdad9760"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ed346507097817b3f8e00f0ae657a0"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a> (std::string_view str, bool escapeCharacters=false)</td></tr>
+<tr class="separator:ac1ed346507097817b3f8e00f0ae657a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f915beeda589704808dc727c3edcb63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a1f915beeda589704808dc727c3edcb63">SendSysMessage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry)</td></tr>
+<tr class="separator:a1f915beeda589704808dc727c3edcb63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a07362"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a07362')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d4/d99/a07362.html">ChatHandler</a></td></tr>
+<tr class="memitem:a7ab2c0deb500bef6654274630815bb75 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a7ab2c0deb500bef6654274630815bb75">ChatHandler</a> (<a class="el" href="../../d9/d7c/a10810.html">WorldSession</a> *session)</td></tr>
+<tr class="separator:a7ab2c0deb500bef6654274630815bb75 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a6e1c0e80c356fc41360f2cc427c0f3 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a8a6e1c0e80c356fc41360f2cc427c0f3">~ChatHandler</a> ()</td></tr>
+<tr class="separator:a8a6e1c0e80c356fc41360f2cc427c0f3 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3052a0f476232a6d1e1e01264d5c985 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ab3052a0f476232a6d1e1e01264d5c985">SendNotification</a> (std::string_view str)</td></tr>
+<tr class="separator:ab3052a0f476232a6d1e1e01264d5c985 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e2e9ab17fe5f2ea814c9cd8305b6c3 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a82e2e9ab17fe5f2ea814c9cd8305b6c3 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a82e2e9ab17fe5f2ea814c9cd8305b6c3">SendNotification</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> strId, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a82e2e9ab17fe5f2ea814c9cd8305b6c3 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac95228492df6c9b9b3f296a5192d4fd0 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ac95228492df6c9b9b3f296a5192d4fd0 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac95228492df6c9b9b3f296a5192d4fd0">SendNotification</a> (char const *fmt, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ac95228492df6c9b9b3f296a5192d4fd0 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13e7c9678f7556e56f62de28ccb7940f inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a13e7c9678f7556e56f62de28ccb7940f">SendGMText</a> (std::string_view str)</td></tr>
+<tr class="separator:a13e7c9678f7556e56f62de28ccb7940f inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8fcb7fafcb93a1c35fb01c74f52f0f inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:abb8fcb7fafcb93a1c35fb01c74f52f0f inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#abb8fcb7fafcb93a1c35fb01c74f52f0f">SendGMText</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> strId, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:abb8fcb7fafcb93a1c35fb01c74f52f0f inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbeccdfa99d98175ce520f8eb5621dd inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:afdbeccdfa99d98175ce520f8eb5621dd inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#afdbeccdfa99d98175ce520f8eb5621dd">SendGMText</a> (char const *fmt, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:afdbeccdfa99d98175ce520f8eb5621dd inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad04fd84539ea2ab1596b40f2efdd906e inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ad04fd84539ea2ab1596b40f2efdd906e">SendWorldText</a> (std::string_view str)</td></tr>
+<tr class="separator:ad04fd84539ea2ab1596b40f2efdd906e inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a407d61f3770c8adc65c605b74004d3c4 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a407d61f3770c8adc65c605b74004d3c4 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a407d61f3770c8adc65c605b74004d3c4">SendWorldText</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> strId, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a407d61f3770c8adc65c605b74004d3c4 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac305cc34f7904158a6832bf2110e94e1 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ac305cc34f7904158a6832bf2110e94e1 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac305cc34f7904158a6832bf2110e94e1">SendWorldText</a> (char const *fmt, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ac305cc34f7904158a6832bf2110e94e1 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5123e186b501687e38dcde7ab51b42b4 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a5123e186b501687e38dcde7ab51b42b4">SendWorldTextOptional</a> (std::string_view str, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> flag)</td></tr>
+<tr class="separator:a5123e186b501687e38dcde7ab51b42b4 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24baacb6556d36625df4be583b8d675f inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a24baacb6556d36625df4be583b8d675f inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a24baacb6556d36625df4be583b8d675f">SendWorldTextOptional</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> strId, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> flag, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a24baacb6556d36625df4be583b8d675f inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4ce969c7140178f87e53e1db676b407 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ac4ce969c7140178f87e53e1db676b407 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac4ce969c7140178f87e53e1db676b407">SendWorldTextOptional</a> (char const *fmt, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> flag, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ac4ce969c7140178f87e53e1db676b407 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ca438da44d3f43db97a03d32a777dad inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual char const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a8ca438da44d3f43db97a03d32a777dad">GetAcoreString</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry) const</td></tr>
+<tr class="separator:a8ca438da44d3f43db97a03d32a777dad inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1ed346507097817b3f8e00f0ae657a0 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac1ed346507097817b3f8e00f0ae657a0">SendSysMessage</a> (std::string_view str, bool escapeCharacters=false)</td></tr>
+<tr class="separator:ac1ed346507097817b3f8e00f0ae657a0 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f915beeda589704808dc727c3edcb63 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a1f915beeda589704808dc727c3edcb63">SendSysMessage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry)</td></tr>
+<tr class="separator:a1f915beeda589704808dc727c3edcb63 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54305506d6194dfdd1c1a3f30c8d1d62 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a54305506d6194dfdd1c1a3f30c8d1d62">PSendSysMessage</a> (std::string_view str, bool escapeCharacters=false)</td></tr>
+<tr class="separator:a54305506d6194dfdd1c1a3f30c8d1d62 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2e685f37d4f0f3b763a6323cce7af25 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ab2e685f37d4f0f3b763a6323cce7af25 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ab2e685f37d4f0f3b763a6323cce7af25">PSendSysMessage</a> (char const *fmt, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:ab2e685f37d4f0f3b763a6323cce7af25 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afcaa57574b1d32eaf14a7ce688e52f77 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:afcaa57574b1d32eaf14a7ce688e52f77 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#afcaa57574b1d32eaf14a7ce688e52f77">PSendSysMessage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:afcaa57574b1d32eaf14a7ce688e52f77 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83f46323707f472799b6393c3184dc07 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a83f46323707f472799b6393c3184dc07 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a83f46323707f472799b6393c3184dc07">PGetParseString</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, Args &amp;&amp;... args) const</td></tr>
+<tr class="separator:a83f46323707f472799b6393c3184dc07 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a050e5644f350519a1f3d564c84d31108 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">std::string const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a050e5644f350519a1f3d564c84d31108">GetModuleString</a> (std::string module, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id) const</td></tr>
+<tr class="separator:a050e5644f350519a1f3d564c84d31108 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8fa00e6140e8bfe8551f8a3f5b48218e inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a8fa00e6140e8bfe8551f8a3f5b48218e inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a8fa00e6140e8bfe8551f8a3f5b48218e">PSendModuleSysMessage</a> (std::string module, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a8fa00e6140e8bfe8551f8a3f5b48218e inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad637608e6b89b2c32ff34a94a18a2d99 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:ad637608e6b89b2c32ff34a94a18a2d99 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ad637608e6b89b2c32ff34a94a18a2d99">PGetParseModuleString</a> (std::string module, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> id, Args &amp;&amp;... args) const</td></tr>
+<tr class="separator:ad637608e6b89b2c32ff34a94a18a2d99 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92dbe6ed87759b9ed247973178d99a80 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a92dbe6ed87759b9ed247973178d99a80">SendErrorMessage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry)</td></tr>
+<tr class="separator:a92dbe6ed87759b9ed247973178d99a80 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1f6d13efd06dc853be112de5cb6eb43 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ae1f6d13efd06dc853be112de5cb6eb43">SendErrorMessage</a> (std::string_view str, bool escapeCharacters)</td></tr>
+<tr class="separator:ae1f6d13efd06dc853be112de5cb6eb43 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49e489ae9f5a06082835cfa9bcb67b43 inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a49e489ae9f5a06082835cfa9bcb67b43 inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a49e489ae9f5a06082835cfa9bcb67b43">SendErrorMessage</a> (char const *fmt, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a49e489ae9f5a06082835cfa9bcb67b43 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9eb9fd8a86753697f7b978b80b6d7a7f inherit pub_methods_a07362"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a9eb9fd8a86753697f7b978b80b6d7a7f inherit pub_methods_a07362"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a9eb9fd8a86753697f7b978b80b6d7a7f">SendErrorMessage</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> entry, Args &amp;&amp;... args)</td></tr>
+<tr class="separator:a9eb9fd8a86753697f7b978b80b6d7a7f inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2eb23afa00d3651e0c8ca426e76cd6 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#adb2eb23afa00d3651e0c8ca426e76cd6">_ParseCommands</a> (std::string_view text)</td></tr>
+<tr class="separator:adb2eb23afa00d3651e0c8ca426e76cd6 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ff10db3aa0048ff04bad699507869c inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ab4ff10db3aa0048ff04bad699507869c">ParseCommands</a> (std::string_view text)</td></tr>
+<tr class="separator:ab4ff10db3aa0048ff04bad699507869c inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6667992ff46d34be574d10c74c8cb42b inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a6667992ff46d34be574d10c74c8cb42b">SendGlobalSysMessage</a> (const char *str)</td></tr>
+<tr class="separator:a6667992ff46d34be574d10c74c8cb42b inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2276cef4cca3c6f8bdd75cc0faf37b34 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a2276cef4cca3c6f8bdd75cc0faf37b34">IsHumanReadable</a> () const</td></tr>
+<tr class="separator:a2276cef4cca3c6f8bdd75cc0faf37b34 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e2b0a9da9e25f17c2f995505eeea940 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a0e2b0a9da9e25f17c2f995505eeea940">GetNameLink</a> () const</td></tr>
+<tr class="separator:a0e2b0a9da9e25f17c2f995505eeea940 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfb8fb0453dd4025de15a909f78b206c inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#acfb8fb0453dd4025de15a909f78b206c">needReportToTarget</a> (<a class="el" href="../../dc/d06/a08466.html">Player</a> *chr) const</td></tr>
+<tr class="separator:acfb8fb0453dd4025de15a909f78b206c inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cfa4cd171866cacb272e996aa75e487 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a6cfa4cd171866cacb272e996aa75e487">GetSessionDbcLocale</a> () const</td></tr>
+<tr class="separator:a6cfa4cd171866cacb272e996aa75e487 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8621cc03a3c12dcad208c11a9402c1c6 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a8621cc03a3c12dcad208c11a9402c1c6">GetSessionDbLocaleIndex</a> () const</td></tr>
+<tr class="separator:a8621cc03a3c12dcad208c11a9402c1c6 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacb4b59756372ec32810be0d46da49c inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#afacb4b59756372ec32810be0d46da49c">HasLowerSecurity</a> (<a class="el" href="../../dc/d06/a08466.html">Player</a> *target, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> guid=<a class="el" href="../../d4/df2/a08266.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>, bool strong=false)</td></tr>
+<tr class="separator:afacb4b59756372ec32810be0d46da49c inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf236510ed1d2b75305b49243af84c4 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#aedf236510ed1d2b75305b49243af84c4">HasLowerSecurityAccount</a> (<a class="el" href="../../d9/d7c/a10810.html">WorldSession</a> *target, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> account, bool strong=false)</td></tr>
+<tr class="separator:aedf236510ed1d2b75305b49243af84c4 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5886fc7866ef80ae4c66f176c8c3cc43 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a5886fc7866ef80ae4c66f176c8c3cc43">SendGlobalGMSysMessage</a> (const char *str)</td></tr>
+<tr class="separator:a5886fc7866ef80ae4c66f176c8c3cc43 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad948d4d7a2fe777df9d02f40201bcf4a inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ad948d4d7a2fe777df9d02f40201bcf4a">getSelectedPlayer</a> () const</td></tr>
+<tr class="separator:ad948d4d7a2fe777df9d02f40201bcf4a inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affa04b48f8ce2a0c11b9e245e200f68b inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d56/a07846.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#affa04b48f8ce2a0c11b9e245e200f68b">getSelectedCreature</a> () const</td></tr>
+<tr class="separator:affa04b48f8ce2a0c11b9e245e200f68b inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae88a523ef51a6d51d38a8d524e49b179 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d46/a08598.html">Unit</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ae88a523ef51a6d51d38a8d524e49b179">getSelectedUnit</a> () const</td></tr>
+<tr class="separator:ae88a523ef51a6d51d38a8d524e49b179 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ba050fe60067fcfb5fe02b4f2d5530 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../de/d0d/a08250.html">WorldObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#aa6ba050fe60067fcfb5fe02b4f2d5530">getSelectedObject</a> () const</td></tr>
+<tr class="separator:aa6ba050fe60067fcfb5fe02b4f2d5530 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac007a55e6fd322fb27b9351c70e32c42 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac007a55e6fd322fb27b9351c70e32c42">getSelectedPlayerOrSelf</a> () const</td></tr>
+<tr class="separator:ac007a55e6fd322fb27b9351c70e32c42 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85e675a33e68c0a03d12797ce8647c7c inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a85e675a33e68c0a03d12797ce8647c7c">HasSession</a> () const</td></tr>
+<tr class="separator:a85e675a33e68c0a03d12797ce8647c7c inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32d9594c0f5df4a72b00ec72a4547623 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a32d9594c0f5df4a72b00ec72a4547623">DoForAllValidSessions</a> (std::function&lt; void(<a class="el" href="../../dc/d06/a08466.html">Player</a> *)&gt; exec)</td></tr>
+<tr class="separator:a32d9594c0f5df4a72b00ec72a4547623 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ca0561c39cf8c5f34f00c37c3140350 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a0ca0561c39cf8c5f34f00c37c3140350">extractKeyFromLink</a> (char *text, char const *linkType, char **something1=nullptr)</td></tr>
+<tr class="separator:a0ca0561c39cf8c5f34f00c37c3140350 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50cde803fdedb545931d81453d3131b7 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a50cde803fdedb545931d81453d3131b7">extractKeyFromLink</a> (char *text, char const *const *linkTypes, int *found_idx, char **something1=nullptr)</td></tr>
+<tr class="separator:a50cde803fdedb545931d81453d3131b7 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56773f00c74d5aeb327d188b0015e126 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a56773f00c74d5aeb327d188b0015e126">extractQuotedArg</a> (char *args)</td></tr>
+<tr class="separator:a56773f00c74d5aeb327d188b0015e126 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9819eb4f3d8aecfe12d794fe87c811f4 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a9819eb4f3d8aecfe12d794fe87c811f4">extractSpellIdFromLink</a> (char *text)</td></tr>
+<tr class="separator:a9819eb4f3d8aecfe12d794fe87c811f4 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed537f61e8cbb15ebbe11243c0834744 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#aed537f61e8cbb15ebbe11243c0834744">extractLowGuidFromLink</a> (char *text, <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750">HighGuid</a> &amp;guidHigh)</td></tr>
+<tr class="separator:aed537f61e8cbb15ebbe11243c0834744 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac088da93123a1d564db3254b2a9deba7 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac088da93123a1d564db3254b2a9deba7">GetPlayerGroupAndGUIDByName</a> (const char *cname, <a class="el" href="../../dc/d06/a08466.html">Player</a> *&amp;player, <a class="el" href="../../da/d5b/a09282.html">Group</a> *&amp;group, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> &amp;guid, bool offline=false)</td></tr>
+<tr class="separator:ac088da93123a1d564db3254b2a9deba7 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad8f01e73ff069d46b3a8ec5a3fe3b008 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ad8f01e73ff069d46b3a8ec5a3fe3b008">extractPlayerNameFromLink</a> (char *text)</td></tr>
+<tr class="separator:ad8f01e73ff069d46b3a8ec5a3fe3b008 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2aadfd932dfb1f57cc7a0b2aeb5bd52 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ad2aadfd932dfb1f57cc7a0b2aeb5bd52">extractPlayerTarget</a> (char *args, <a class="el" href="../../dc/d06/a08466.html">Player</a> **player, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> *player_guid=nullptr, std::string *player_name=nullptr)</td></tr>
+<tr class="separator:ad2aadfd932dfb1f57cc7a0b2aeb5bd52 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c15179ec3eff1b6bb9551d96a8b901 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a52c15179ec3eff1b6bb9551d96a8b901">playerLink</a> (std::string const &amp;name) const</td></tr>
+<tr class="separator:a52c15179ec3eff1b6bb9551d96a8b901 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93c66f4db98f9fa0e8f09445f36acdac inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a93c66f4db98f9fa0e8f09445f36acdac">GetNameLink</a> (<a class="el" href="../../dc/d06/a08466.html">Player</a> *chr) const</td></tr>
+<tr class="separator:a93c66f4db98f9fa0e8f09445f36acdac inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac65d809c0ef89e094ece2258ab1cac7b inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/a08022.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac65d809c0ef89e094ece2258ab1cac7b">GetNearbyGameObject</a> () const</td></tr>
+<tr class="separator:ac65d809c0ef89e094ece2258ab1cac7b inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a951840fcd02a7b80eba052ff0639aad9 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dd1/a08022.html">GameObject</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a951840fcd02a7b80eba052ff0639aad9">GetObjectFromPlayerMapByDbGuid</a> (<a class="el" href="../../d4/df2/a08266.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> lowguid)</td></tr>
+<tr class="separator:a951840fcd02a7b80eba052ff0639aad9 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7f1f93fbd2856330821b565db4014cd3 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d56/a07846.html">Creature</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a7f1f93fbd2856330821b565db4014cd3">GetCreatureFromPlayerMapByDbGuid</a> (<a class="el" href="../../d4/df2/a08266.html#aa278d50613c05dc1333df5185a6993eb">ObjectGuid::LowType</a> lowguid)</td></tr>
+<tr class="separator:a7f1f93fbd2856330821b565db4014cd3 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69622145e2598da0ec2964761f03c0dc inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a69622145e2598da0ec2964761f03c0dc">HasSentErrorMessage</a> () const</td></tr>
+<tr class="separator:a69622145e2598da0ec2964761f03c0dc inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaabf84568161763e66bf375c14f100c5 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#aaabf84568161763e66bf375c14f100c5">SetSentErrorMessage</a> (bool val)</td></tr>
+<tr class="separator:aaabf84568161763e66bf375c14f100c5 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae10c7b226467f8e8e8eb149421f0fa51 inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ae10c7b226467f8e8e8eb149421f0fa51">IsConsole</a> () const</td></tr>
+<tr class="separator:ae10c7b226467f8e8e8eb149421f0fa51 inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1fd0ff3281702b870de2aac859e9ace inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ab1fd0ff3281702b870de2aac859e9ace">GetPlayer</a> () const</td></tr>
+<tr class="separator:ab1fd0ff3281702b870de2aac859e9ace inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a635eca3065c9464e0cdcedd9f0740daa inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d7c/a10810.html">WorldSession</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a> ()</td></tr>
+<tr class="separator:a635eca3065c9464e0cdcedd9f0740daa inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afdbe90fd350a062b2afae318284ce07d inherit pub_methods_a07362"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#afdbe90fd350a062b2afae318284ce07d">IsAvailable</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> securityLevel) const</td></tr>
+<tr class="separator:afdbe90fd350a062b2afae318284ce07d inherit pub_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a2961b609065a68245d1556d3b32af013"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a> (std::string const &amp;msg)</td></tr>
+<tr class="separator:a2961b609065a68245d1556d3b32af013"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e886c68796eb6a2a529186279dd778d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a0e886c68796eb6a2a529186279dd778d">SendAck</a> ()</td></tr>
+<tr class="separator:a0e886c68796eb6a2a529186279dd778d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8ece640cb81b50ed8e0b90c40ff71f47"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a8ece640cb81b50ed8e0b90c40ff71f47">SendOK</a> ()</td></tr>
+<tr class="separator:a8ece640cb81b50ed8e0b90c40ff71f47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3a06fffce2472b941163d062f1b3569"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#aa3a06fffce2472b941163d062f1b3569">SendFailed</a> ()</td></tr>
+<tr class="separator:aa3a06fffce2472b941163d062f1b3569"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a9c87777b4249795b41163b2294f44746"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a></td></tr>
+<tr class="separator:a9c87777b4249795b41163b2294f44746"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8262279e3e11d7abc952b2ab3b67a99f"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a8262279e3e11d7abc952b2ab3b67a99f">hadAck</a> = false</td></tr>
+<tr class="separator:a8262279e3e11d7abc952b2ab3b67a99f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a85407d3478890e8f4c43377de7eb0993"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d4f/a07370.html#a85407d3478890e8f4c43377de7eb0993">humanReadable</a> = false</td></tr>
+<tr class="separator:a85407d3478890e8f4c43377de7eb0993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_static_methods_a07362"><td colspan="2" onclick="javascript:toggleInherit('pub_static_methods_a07362')"><img src="../../closed.png" alt="-"/>&#160;Static Public Member Functions inherited from <a class="el" href="../../d4/d99/a07362.html">ChatHandler</a></td></tr>
+<tr class="memitem:a3295cee708d267aac165f9ee55d2e615 inherit pub_static_methods_a07362"><td class="memItemLeft" align="right" valign="top">static std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">BuildChatPacket</a> (<a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;data, <a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> chatType, <a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> language, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> senderGUID, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> receiverGUID, std::string_view message, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</td></tr>
+<tr class="separator:a3295cee708d267aac165f9ee55d2e615 inherit pub_static_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29884cdfd271e022362709b125e152f3 inherit pub_static_methods_a07362"><td class="memItemLeft" align="right" valign="top">static std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#a29884cdfd271e022362709b125e152f3">BuildChatPacket</a> (<a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;data, <a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> chatType, <a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> language, <a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *sender, <a class="el" href="../../de/d0d/a08250.html">WorldObject</a> const *receiver, std::string_view message, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> achievementId=0, std::string const &amp;channelName=&quot;&quot;, <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale=<a class="el" href="../../d4/d51/a00017.html#a900ed91bceba26c1e05048bd3a9ec4fd">DEFAULT_LOCALE</a>)</td></tr>
+<tr class="separator:a29884cdfd271e022362709b125e152f3 inherit pub_static_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1e660df0286be7cd7e97ed7ad6e3fe2 inherit pub_static_methods_a07362"><td class="memItemLeft" align="right" valign="top">static char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#ac1e660df0286be7cd7e97ed7ad6e3fe2">LineFromMessage</a> (char *&amp;pos)</td></tr>
+<tr class="separator:ac1e660df0286be7cd7e97ed7ad6e3fe2 inherit pub_static_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a07362"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a07362')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d4/d99/a07362.html">ChatHandler</a></td></tr>
+<tr class="memitem:aae585fad45749fd46fa28d36fdad9760 inherit pro_methods_a07362"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d99/a07362.html#aae585fad45749fd46fa28d36fdad9760">ChatHandler</a> ()</td></tr>
+<tr class="separator:aae585fad45749fd46fa28d36fdad9760 inherit pro_methods_a07362"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
-struct Acore::Impl::ChatCommands::ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3868b3d4e55cdcd1c1591d8bd09bae5d" name="a3868b3d4e55cdcd1c1591d8bd09bae5d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3868b3d4e55cdcd1c1591d8bd09bae5d">&#9670;&#160;</a></span>TryConsume()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="aae585fad45749fd46fa28d36fdad9760" name="aae585fad45749fd46fa28d36fdad9760"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae585fad45749fd46fa28d36fdad9760">&#9670;&#160;</a></span>ChatHandler() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a> <a class="el" href="../../d2/d7a/a07366.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;::TryConsume </td>
+          <td class="memname">ChatHandler::ChatHandler </td>
           <td>(</td>
-          <td class="paramtype">T &amp;&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *&#160;</td>
-          <td class="paramname"><em>handler</em>, </td>
         </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  245</span>: <a class="code hl_variable" href="../../d4/d99/a07362.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>(<span class="keyword">nullptr</span>), <a class="code hl_variable" href="../../d4/d99/a07362.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a>(<span class="keyword">false</span>) {}      <span class="comment">// for CLI subclass</span></div>
+<div class="ttc" id="aa07362_html_a7d91e1a37684e5794dd8cec360555ad4"><div class="ttname"><a href="../../d4/d99/a07362.html#a7d91e1a37684e5794dd8cec360555ad4">ChatHandler::m_session</a></div><div class="ttdeci">WorldSession * m_session</div><div class="ttdef"><b>Definition:</b> Chat.h:248</div></div>
+<div class="ttc" id="aa07362_html_ac3950d97f94ebc522133ea4a254924ca"><div class="ttname"><a href="../../d4/d99/a07362.html#ac3950d97f94ebc522133ea4a254924ca">ChatHandler::sentErrorMessage</a></div><div class="ttdeci">bool sentErrorMessage</div><div class="ttdef"><b>Definition:</b> Chat.h:251</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a7ab2c0deb500bef6654274630815bb75" name="a7ab2c0deb500bef6654274630815bb75"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ab2c0deb500bef6654274630815bb75">&#9670;&#160;</a></span>ChatHandler() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
         <tr>
-          <td class="paramkey"></td>
+          <td class="memname">ChatHandler::ChatHandler </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d7c/a10810.html">WorldSession</a> *&#160;</td>
+          <td class="paramname"><em>session</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   39</span>: <a class="code hl_variable" href="../../d4/d99/a07362.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>(session), <a class="code hl_variable" href="../../d4/d99/a07362.html#ac3950d97f94ebc522133ea4a254924ca">sentErrorMessage</a>(<span class="keyword">false</span>) {}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acd17995bc95b6e449d5e185bfe523b84" name="acd17995bc95b6e449d5e185bfe523b84"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd17995bc95b6e449d5e185bfe523b84">&#9670;&#160;</a></span>IsHumanReadable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AddonChannelCommandHandler::IsHumanReadable </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d4/d99/a07362.html#a2276cef4cca3c6f8bdd75cc0faf37b34">ChatHandler</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  284</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d8/d4f/a07370.html#a85407d3478890e8f4c43377de7eb0993">humanReadable</a>; }</div>
+<div class="ttc" id="aa07370_html_a85407d3478890e8f4c43377de7eb0993"><div class="ttname"><a href="../../d8/d4f/a07370.html#a85407d3478890e8f4c43377de7eb0993">AddonChannelCommandHandler::humanReadable</a></div><div class="ttdeci">bool humanReadable</div><div class="ttdef"><b>Definition:</b> Chat.h:294</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abd1bb7d3ca143479bd50d908dc1f4136" name="abd1bb7d3ca143479bd50d908dc1f4136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd1bb7d3ca143479bd50d908dc1f4136">&#9670;&#160;</a></span>ParseCommands()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AddonChannelCommandHandler::ParseCommands </td>
+          <td>(</td>
           <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>args</em>&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d4/d99/a07362.html#ab4ff10db3aa0048ff04bad699507869c">ChatHandler</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  978</span>{</div>
+<div class="line"><span class="lineno">  979</span>    <span class="keywordflow">if</span> (memcmp(str.data(), <span class="stringliteral">&quot;AzerothCore\t&quot;</span>, 12))</div>
+<div class="line"><span class="lineno">  980</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  981</span>    <span class="keywordtype">char</span> opcode = str[12];</div>
+<div class="line"><span class="lineno">  982</span>    <span class="keywordflow">if</span> (!opcode) <span class="comment">// str[12] is opcode</span></div>
+<div class="line"><span class="lineno">  983</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  984</span>    <span class="keywordflow">if</span> (!str[13] || !str[14] || !str[15] || !str[16]) <span class="comment">// str[13] through str[16] is 4-character command counter</span></div>
+<div class="line"><span class="lineno">  985</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  986</span>    <a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a> = str.substr(13);</div>
+<div class="line"><span class="lineno">  987</span> </div>
+<div class="line"><span class="lineno">  988</span>    <span class="keywordflow">switch</span> (opcode)</div>
+<div class="line"><span class="lineno">  989</span>    {</div>
+<div class="line"><span class="lineno">  990</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;p&#39;</span>: <span class="comment">// p Ping</span></div>
+<div class="line"><span class="lineno">  991</span>            <a class="code hl_function" href="../../d8/d4f/a07370.html#a0e886c68796eb6a2a529186279dd778d">SendAck</a>();</div>
+<div class="line"><span class="lineno">  992</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">  993</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;h&#39;</span>: <span class="comment">// h Issue human-readable command</span></div>
+<div class="line"><span class="lineno">  994</span>        <span class="keywordflow">case</span> <span class="charliteral">&#39;i&#39;</span>: <span class="comment">// i Issue command</span></div>
+<div class="line"><span class="lineno">  995</span>            <span class="keywordflow">if</span> (!str[17])</div>
+<div class="line"><span class="lineno">  996</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  997</span>            <a class="code hl_variable" href="../../d8/d4f/a07370.html#a85407d3478890e8f4c43377de7eb0993">humanReadable</a> = (opcode == <span class="charliteral">&#39;h&#39;</span>);</div>
+<div class="line"><span class="lineno">  998</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d99/a07362.html#adb2eb23afa00d3651e0c8ca426e76cd6">_ParseCommands</a>(str.substr(17))) <span class="comment">// actual command starts at str[17]</span></div>
+<div class="line"><span class="lineno">  999</span>            {</div>
+<div class="line"><span class="lineno"> 1000</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/d4f/a07370.html#a8262279e3e11d7abc952b2ab3b67a99f">hadAck</a>)</div>
+<div class="line"><span class="lineno"> 1001</span>                    <a class="code hl_function" href="../../d8/d4f/a07370.html#a0e886c68796eb6a2a529186279dd778d">SendAck</a>();</div>
+<div class="line"><span class="lineno"> 1002</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/d99/a07362.html#a69622145e2598da0ec2964761f03c0dc">HasSentErrorMessage</a>())</div>
+<div class="line"><span class="lineno"> 1003</span>                    <a class="code hl_function" href="../../d8/d4f/a07370.html#aa3a06fffce2472b941163d062f1b3569">SendFailed</a>();</div>
+<div class="line"><span class="lineno"> 1004</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1005</span>                    <a class="code hl_function" href="../../d8/d4f/a07370.html#a8ece640cb81b50ed8e0b90c40ff71f47">SendOK</a>();</div>
+<div class="line"><span class="lineno"> 1006</span>            }</div>
+<div class="line"><span class="lineno"> 1007</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno"> 1008</span>            {</div>
+<div class="line"><span class="lineno"> 1009</span>                <a class="code hl_function" href="../../d8/d4f/a07370.html#a289a9806b8a083e063b8c83ea7016718">SendSysMessage</a>(<a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104">LANG_CMD_INVALID</a>);</div>
+<div class="line"><span class="lineno"> 1010</span>                <a class="code hl_function" href="../../d8/d4f/a07370.html#aa3a06fffce2472b941163d062f1b3569">SendFailed</a>();</div>
+<div class="line"><span class="lineno"> 1011</span>            }</div>
+<div class="line"><span class="lineno"> 1012</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1013</span>        <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno"> 1014</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1015</span>    }</div>
+<div class="line"><span class="lineno"> 1016</span>}</div>
+<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aaa3e02e1033c42b37d720795559642104">LANG_CMD_INVALID</a></div><div class="ttdeci">@ LANG_CMD_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:38</div></div>
+<div class="ttc" id="aa07362_html_a69622145e2598da0ec2964761f03c0dc"><div class="ttname"><a href="../../d4/d99/a07362.html#a69622145e2598da0ec2964761f03c0dc">ChatHandler::HasSentErrorMessage</a></div><div class="ttdeci">bool HasSentErrorMessage() const</div><div class="ttdef"><b>Definition:</b> Chat.h:237</div></div>
+<div class="ttc" id="aa07362_html_adb2eb23afa00d3651e0c8ca426e76cd6"><div class="ttname"><a href="../../d4/d99/a07362.html#adb2eb23afa00d3651e0c8ca426e76cd6">ChatHandler::_ParseCommands</a></div><div class="ttdeci">bool _ParseCommands(std::string_view text)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:227</div></div>
+<div class="ttc" id="aa07370_html_a0e886c68796eb6a2a529186279dd778d"><div class="ttname"><a href="../../d8/d4f/a07370.html#a0e886c68796eb6a2a529186279dd778d">AddonChannelCommandHandler::SendAck</a></div><div class="ttdeci">void SendAck()</div><div class="ttdef"><b>Definition:</b> Chat.cpp:1025</div></div>
+<div class="ttc" id="aa07370_html_a289a9806b8a083e063b8c83ea7016718"><div class="ttname"><a href="../../d8/d4f/a07370.html#a289a9806b8a083e063b8c83ea7016718">AddonChannelCommandHandler::SendSysMessage</a></div><div class="ttdeci">void SendSysMessage(std::string_view str, bool escapeCharacters) override</div><div class="ttdef"><b>Definition:</b> Chat.cpp:1057</div></div>
+<div class="ttc" id="aa07370_html_a8262279e3e11d7abc952b2ab3b67a99f"><div class="ttname"><a href="../../d8/d4f/a07370.html#a8262279e3e11d7abc952b2ab3b67a99f">AddonChannelCommandHandler::hadAck</a></div><div class="ttdeci">bool hadAck</div><div class="ttdef"><b>Definition:</b> Chat.h:293</div></div>
+<div class="ttc" id="aa07370_html_a8ece640cb81b50ed8e0b90c40ff71f47"><div class="ttname"><a href="../../d8/d4f/a07370.html#a8ece640cb81b50ed8e0b90c40ff71f47">AddonChannelCommandHandler::SendOK</a></div><div class="ttdeci">void SendOK()</div><div class="ttdef"><b>Definition:</b> Chat.cpp:1036</div></div>
+<div class="ttc" id="aa07370_html_a9c87777b4249795b41163b2294f44746"><div class="ttname"><a href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">AddonChannelCommandHandler::echo</a></div><div class="ttdeci">std::string echo</div><div class="ttdef"><b>Definition:</b> Chat.h:292</div></div>
+<div class="ttc" id="aa07370_html_aa3a06fffce2472b941163d062f1b3569"><div class="ttname"><a href="../../d8/d4f/a07370.html#aa3a06fffce2472b941163d062f1b3569">AddonChannelCommandHandler::SendFailed</a></div><div class="ttdeci">void SendFailed()</div><div class="ttdef"><b>Definition:</b> Chat.cpp:1046</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00227">ChatHandler::_ParseCommands()</a>, <a class="el" href="../../#l00292">echo</a>, <a class="el" href="../../#l00293">hadAck</a>, <a class="el" href="../../#l00237">ChatHandler::HasSentErrorMessage()</a>, <a class="el" href="../../#l00294">humanReadable</a>, <a class="el" href="../../#l00038">LANG_CMD_INVALID</a>, <a class="el" href="../../#l01025">SendAck()</a>, <a class="el" href="../../#l01046">SendFailed()</a>, <a class="el" href="../../#l01036">SendOK()</a>, and <a class="el" href="../../#l01057">SendSysMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a2961b609065a68245d1556d3b32af013" name="a2961b609065a68245d1556d3b32af013"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2961b609065a68245d1556d3b32af013">&#9670;&#160;</a></span>Send()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddonChannelCommandHandler::Send </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>msg</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1019</span>{</div>
+<div class="line"><span class="lineno"> 1020</span>    <a class="code hl_class" href="../../dc/dc5/a10766.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno"> 1021</span>    <a class="code hl_function" href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a>(data, <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a79f5ed3a0d02f99bad2520dc879272bc">CHAT_MSG_WHISPER</a>, <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a>, <a class="code hl_function" href="../../d4/d99/a07362.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d4/d99/a07362.html#ab1fd0ff3281702b870de2aac859e9ace">GetPlayer</a>(), <a class="code hl_function" href="../../d4/d99/a07362.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d4/d99/a07362.html#ab1fd0ff3281702b870de2aac859e9ace">GetPlayer</a>(), msg);</div>
+<div class="line"><span class="lineno"> 1022</span>    <a class="code hl_function" href="../../d4/d99/a07362.html#a635eca3065c9464e0cdcedd9f0740daa">GetSession</a>()-&gt;<a class="code hl_function" href="../../d9/d7c/a10810.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno"> 1023</span>}</div>
+<div class="ttc" id="aa02771_html_a249e68b260c9857b5d0d4cf4697fae16a79f5ed3a0d02f99bad2520dc879272bc"><div class="ttname"><a href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a79f5ed3a0d02f99bad2520dc879272bc">CHAT_MSG_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3159</div></div>
+<div class="ttc" id="aa02771_html_a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18"><div class="ttname"><a href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705aa85e31bb25e43732ec93feb7e5355e18">LANG_ADDON</a></div><div class="ttdeci">@ LANG_ADDON</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:753</div></div>
+<div class="ttc" id="aa07362_html_a3295cee708d267aac165f9ee55d2e615"><div class="ttname"><a href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static std::size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:264</div></div>
+<div class="ttc" id="aa07362_html_a635eca3065c9464e0cdcedd9f0740daa"><div class="ttname"><a href="../../d4/d99/a07362.html#a635eca3065c9464e0cdcedd9f0740daa">ChatHandler::GetSession</a></div><div class="ttdeci">WorldSession * GetSession()</div><div class="ttdef"><b>Definition:</b> Chat.h:242</div></div>
+<div class="ttc" id="aa07362_html_ab1fd0ff3281702b870de2aac859e9ace"><div class="ttname"><a href="../../d4/d99/a07362.html#ab1fd0ff3281702b870de2aac859e9ace">ChatHandler::GetPlayer</a></div><div class="ttdeci">Player * GetPlayer() const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:35</div></div>
+<div class="ttc" id="aa10766_html"><div class="ttname"><a href="../../dc/dc5/a10766.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:26</div></div>
+<div class="ttc" id="aa10810_html_a2c74b80ca9b81765049e315813b29269"><div class="ttname"><a href="../../d9/d7c/a10810.html#a2c74b80ca9b81765049e315813b29269">WorldSession::SendPacket</a></div><div class="ttdeci">void SendPacket(WorldPacket const *packet)</div><div class="ttdoc">Send a packet to the client.</div><div class="ttdef"><b>Definition:</b> WorldSession.cpp:225</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00264">ChatHandler::BuildChatPacket()</a>, <a class="el" href="../../#l03159">CHAT_MSG_WHISPER</a>, <a class="el" href="../../#l00035">ChatHandler::GetPlayer()</a>, <a class="el" href="../../#l00242">ChatHandler::GetSession()</a>, <a class="el" href="../../#l00753">LANG_ADDON</a>, and <a class="el" href="../../#l00225">WorldSession::SendPacket()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01025">SendAck()</a>, <a class="el" href="../../#l01046">SendFailed()</a>, <a class="el" href="../../#l01036">SendOK()</a>, and <a class="el" href="../../#l01057">SendSysMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a0e886c68796eb6a2a529186279dd778d" name="a0e886c68796eb6a2a529186279dd778d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e886c68796eb6a2a529186279dd778d">&#9670;&#160;</a></span>SendAck()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddonChannelCommandHandler::SendAck </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1026</span>{</div>
+<div class="line"><span class="lineno"> 1027</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.size());</div>
+<div class="line"><span class="lineno"> 1028</span>    std::string ack = <span class="stringliteral">&quot;AzerothCore\ta&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1029</span>    ack.resize(18);</div>
+<div class="line"><span class="lineno"> 1030</span>    memcpy(&amp;ack[13], <a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.data(), 4);</div>
+<div class="line"><span class="lineno"> 1031</span>    ack[17] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1032</span>    <a class="code hl_function" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a>(ack);</div>
+<div class="line"><span class="lineno"> 1033</span>    <a class="code hl_variable" href="../../d8/d4f/a07370.html#a8262279e3e11d7abc952b2ab3b67a99f">hadAck</a> = <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1034</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa07370_html_a2961b609065a68245d1556d3b32af013"><div class="ttname"><a href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">AddonChannelCommandHandler::Send</a></div><div class="ttdeci">void Send(std::string const &amp;msg)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:1018</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00292">echo</a>, <a class="el" href="../../#l00293">hadAck</a>, and <a class="el" href="../../#l01018">Send()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>, and <a class="el" href="../../#l01057">SendSysMessage()</a>.</p>
+
+</div>
+</div>
+<a id="aa3a06fffce2472b941163d062f1b3569" name="aa3a06fffce2472b941163d062f1b3569"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3a06fffce2472b941163d062f1b3569">&#9670;&#160;</a></span>SendFailed()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddonChannelCommandHandler::SendFailed </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1047</span>{</div>
+<div class="line"><span class="lineno"> 1048</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.size());</div>
+<div class="line"><span class="lineno"> 1049</span>    std::string fail = <span class="stringliteral">&quot;AzerothCore\tf&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1050</span>    fail.resize(18);</div>
+<div class="line"><span class="lineno"> 1051</span>    memcpy(&amp;fail[13], <a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.data(), 4);</div>
+<div class="line"><span class="lineno"> 1052</span>    fail[17] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1053</span>    <a class="code hl_function" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a>(fail);</div>
+<div class="line"><span class="lineno"> 1054</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00292">echo</a>, and <a class="el" href="../../#l01018">Send()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>.</p>
+
+</div>
+</div>
+<a id="a8ece640cb81b50ed8e0b90c40ff71f47" name="a8ece640cb81b50ed8e0b90c40ff71f47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8ece640cb81b50ed8e0b90c40ff71f47">&#9670;&#160;</a></span>SendOK()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddonChannelCommandHandler::SendOK </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno"> 1037</span>{</div>
+<div class="line"><span class="lineno"> 1038</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.size());</div>
+<div class="line"><span class="lineno"> 1039</span>    std::string ok = <span class="stringliteral">&quot;AzerothCore\to&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1040</span>    ok.resize(18);</div>
+<div class="line"><span class="lineno"> 1041</span>    memcpy(&amp;ok[13], <a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.data(), 4);</div>
+<div class="line"><span class="lineno"> 1042</span>    ok[17] = <span class="charliteral">&#39;\0&#39;</span>;</div>
+<div class="line"><span class="lineno"> 1043</span>    <a class="code hl_function" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a>(ok);</div>
+<div class="line"><span class="lineno"> 1044</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00292">echo</a>, and <a class="el" href="../../#l01018">Send()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>.</p>
+
+</div>
+</div>
+<a id="a289a9806b8a083e063b8c83ea7016718" name="a289a9806b8a083e063b8c83ea7016718"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a289a9806b8a083e063b8c83ea7016718">&#9670;&#160;</a></span>SendSysMessage() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void AddonChannelCommandHandler::SendSysMessage </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>escapeCharacters</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -158,34 +669,196 @@ template&lt;typename T &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   56</span>        {</div>
-<div class="line"><span class="lineno">   57</span>            <span class="keyword">auto</span> [token, tail] = <a class="code hl_function" href="../../db/dfa/a04725.html#aeca95018e8d551d917cf69e0764ccef7">tokenize</a>(args);</div>
-<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">if</span> (token.empty())</div>
-<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">   60</span> </div>
-<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional&lt;T&gt;</a> v = StringTo&lt;T&gt;(token, 0))</div>
-<div class="line"><span class="lineno">   62</span>                val = *v;</div>
-<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   64</span>                <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, token, GetTypeName&lt;T&gt;());</div>
-<div class="line"><span class="lineno">   65</span> </div>
-<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">if</span> <span class="keyword">constexpr</span> (std::is_floating_point_v&lt;T&gt;)</div>
-<div class="line"><span class="lineno">   67</span>            {</div>
-<div class="line"><span class="lineno">   68</span>                <span class="keywordflow">if</span> (!std::isfinite(val))</div>
-<div class="line"><span class="lineno">   69</span>                    <span class="keywordflow">return</span> <a class="code hl_function" href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">FormatAcoreString</a>(handler, <a class="code hl_enumvalue" href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, token, GetTypeName&lt;T&gt;());</div>
-<div class="line"><span class="lineno">   70</span>            }</div>
-<div class="line"><span class="lineno">   71</span> </div>
-<div class="line"><span class="lineno">   72</span>            <span class="keywordflow">return</span> tail;</div>
-<div class="line"><span class="lineno">   73</span>        }</div>
-<div class="ttc" id="aa00314_html_aaf8f4d77efd311ec7818ab421294ef82"><div class="ttname"><a href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a></div><div class="ttdeci">std::optional&lt; T &gt; Optional</div><div class="ttdoc">Optional helper class to wrap optional values within.</div><div class="ttdef"><b>Definition:</b> Optional.h:24</div></div>
-<div class="ttc" id="aa03161_html_af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96"><div class="ttname"><a href="../../d0/d04/a03161.html#af9ee42b1cf006ecb2d2e74fe71c0761aa4e3203200e0c0fa812c218470c93ea96">LANG_CMDPARSER_STRING_VALUE_INVALID</a></div><div class="ttdeci">@ LANG_CMDPARSER_STRING_VALUE_INVALID</div><div class="ttdef"><b>Definition:</b> Language.h:993</div></div>
-<div class="ttc" id="aa04725_html_a496bce28eb0bf0ac4b5e1c54c19193b7"><div class="ttname"><a href="../../db/dfa/a04725.html#a496bce28eb0bf0ac4b5e1c54c19193b7">Acore::Impl::ChatCommands::FormatAcoreString</a></div><div class="ttdeci">std::string FormatAcoreString(ChatHandler const *handler, AcoreStrings which, Ts &amp;&amp;... args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:125</div></div>
-<div class="ttc" id="aa04725_html_aeca95018e8d551d917cf69e0764ccef7"><div class="ttname"><a href="../../db/dfa/a04725.html#aeca95018e8d551d917cf69e0764ccef7">Acore::Impl::ChatCommands::tokenize</a></div><div class="ttdeci">TokenizeResult tokenize(std::string_view args)</div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:54</div></div>
+
+<p>Reimplemented from <a class="el" href="../../d4/d99/a07362.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno"> 1058</span>{</div>
+<div class="line"><span class="lineno"> 1059</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(<a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.size());</div>
+<div class="line"><span class="lineno"> 1060</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d8/d4f/a07370.html#a8262279e3e11d7abc952b2ab3b67a99f">hadAck</a>)</div>
+<div class="line"><span class="lineno"> 1061</span>        <a class="code hl_function" href="../../d8/d4f/a07370.html#a0e886c68796eb6a2a529186279dd778d">SendAck</a>();</div>
+<div class="line"><span class="lineno"> 1062</span> </div>
+<div class="line"><span class="lineno"> 1063</span>    std::string msg = <span class="stringliteral">&quot;AzerothCore\tm&quot;</span>;</div>
+<div class="line"><span class="lineno"> 1064</span>    msg.append(<a class="code hl_variable" href="../../d8/d4f/a07370.html#a9c87777b4249795b41163b2294f44746">echo</a>.data(), 4);</div>
+<div class="line"><span class="lineno"> 1065</span>    std::string body(str);</div>
+<div class="line"><span class="lineno"> 1066</span>    <span class="keywordflow">if</span> (escapeCharacters)</div>
+<div class="line"><span class="lineno"> 1067</span>        boost::replace_all(body, <span class="stringliteral">&quot;|&quot;</span>, <span class="stringliteral">&quot;||&quot;</span>);</div>
+<div class="line"><span class="lineno"> 1068</span>    std::size_t pos, lastpos;</div>
+<div class="line"><span class="lineno"> 1069</span>    <span class="keywordflow">for</span> (lastpos = 0, pos = body.find(<span class="charliteral">&#39;\n&#39;</span>, lastpos); pos != std::string::npos; lastpos = pos + 1, pos = body.find(<span class="charliteral">&#39;\n&#39;</span>, lastpos))</div>
+<div class="line"><span class="lineno"> 1070</span>    {</div>
+<div class="line"><span class="lineno"> 1071</span>        std::string line(msg);</div>
+<div class="line"><span class="lineno"> 1072</span>        line.append(body, lastpos, pos - lastpos);</div>
+<div class="line"><span class="lineno"> 1073</span>        <a class="code hl_function" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a>(line);</div>
+<div class="line"><span class="lineno"> 1074</span>    }</div>
+<div class="line"><span class="lineno"> 1075</span>    msg.append(body, lastpos, pos - lastpos);</div>
+<div class="line"><span class="lineno"> 1076</span>    <a class="code hl_function" href="../../d8/d4f/a07370.html#a2961b609065a68245d1556d3b32af013">Send</a>(msg);</div>
+<div class="line"><span class="lineno"> 1077</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00125">Acore::Impl::ChatCommands::FormatAcoreString()</a>, <a class="el" href="../../#l00993">LANG_CMDPARSER_STRING_VALUE_INVALID</a>, and <a class="el" href="../../#l00054">Acore::Impl::ChatCommands::tokenize()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00292">echo</a>, <a class="el" href="../../#l00293">hadAck</a>, <a class="el" href="../../#l01018">Send()</a>, and <a class="el" href="../../#l01025">SendAck()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>.</p>
+
+</div>
+</div>
+<a id="ac1ed346507097817b3f8e00f0ae657a0" name="ac1ed346507097817b3f8e00f0ae657a0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1ed346507097817b3f8e00f0ae657a0">&#9670;&#160;</a></span>SendSysMessage() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChatHandler::SendSysMessage </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>escapeCharacters</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d4/d99/a07362.html#ac1ed346507097817b3f8e00f0ae657a0">ChatHandler</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  160</span>{</div>
+<div class="line"><span class="lineno">  161</span>    std::string msg{ str };</div>
+<div class="line"><span class="lineno">  162</span> </div>
+<div class="line"><span class="lineno">  163</span>    <span class="comment">// Replace every &quot;|&quot; with &quot;||&quot; in msg</span></div>
+<div class="line"><span class="lineno">  164</span>    <span class="keywordflow">if</span> (escapeCharacters &amp;&amp; msg.find(<span class="charliteral">&#39;|&#39;</span>) != std::string::npos)</div>
+<div class="line"><span class="lineno">  165</span>    {</div>
+<div class="line"><span class="lineno">  166</span>        std::vector&lt;std::string_view&gt; tokens = <a class="code hl_function" href="../../d8/d20/a04686.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(msg, <span class="charliteral">&#39;|&#39;</span>, <span class="keyword">true</span>);</div>
+<div class="line"><span class="lineno">  167</span>        std::ostringstream stream;</div>
+<div class="line"><span class="lineno">  168</span> </div>
+<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; tokens.size() - 1; ++i)</div>
+<div class="line"><span class="lineno">  170</span>            stream &lt;&lt; tokens[i] &lt;&lt; <span class="stringliteral">&quot;||&quot;</span>;</div>
+<div class="line"><span class="lineno">  171</span> </div>
+<div class="line"><span class="lineno">  172</span>        stream &lt;&lt; tokens[tokens.size() - 1];</div>
+<div class="line"><span class="lineno">  173</span> </div>
+<div class="line"><span class="lineno">  174</span>        msg = stream.str();</div>
+<div class="line"><span class="lineno">  175</span>    }</div>
+<div class="line"><span class="lineno">  176</span> </div>
+<div class="line"><span class="lineno">  177</span>    <a class="code hl_class" href="../../dc/dc5/a10766.html">WorldPacket</a> data;</div>
+<div class="line"><span class="lineno">  178</span>    <span class="keywordflow">for</span> (std::string_view line : <a class="code hl_function" href="../../d8/d20/a04686.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(str, <span class="charliteral">&#39;\n&#39;</span>, <span class="keyword">true</span>))</div>
+<div class="line"><span class="lineno">  179</span>    {</div>
+<div class="line"><span class="lineno">  180</span>        <a class="code hl_function" href="../../d4/d99/a07362.html#a3295cee708d267aac165f9ee55d2e615">BuildChatPacket</a>(data, <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a>, <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <span class="keyword">nullptr</span>, <span class="keyword">nullptr</span>, line);</div>
+<div class="line"><span class="lineno">  181</span>        <a class="code hl_variable" href="../../d4/d99/a07362.html#a7d91e1a37684e5794dd8cec360555ad4">m_session</a>-&gt;<a class="code hl_function" href="../../d9/d7c/a10810.html#a2c74b80ca9b81765049e315813b29269">SendPacket</a>(&amp;data);</div>
+<div class="line"><span class="lineno">  182</span>    }</div>
+<div class="line"><span class="lineno">  183</span>}</div>
+<div class="ttc" id="aa02771_html_a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96"><div class="ttname"><a href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a8fcd3e7170e686c1826b9f7fcdf5df96">CHAT_MSG_SYSTEM</a></div><div class="ttdeci">@ CHAT_MSG_SYSTEM</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3152</div></div>
+<div class="ttc" id="aa02771_html_a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a"><div class="ttname"><a href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></div><div class="ttdeci">@ LANG_UNIVERSAL</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:735</div></div>
+<div class="ttc" id="aa04686_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../d8/d20/a04686.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1f915beeda589704808dc727c3edcb63" name="a1f915beeda589704808dc727c3edcb63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f915beeda589704808dc727c3edcb63">&#9670;&#160;</a></span>SendSysMessage() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void ChatHandler::SendSysMessage </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>entry</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  206</span>{</div>
+<div class="line"><span class="lineno">  207</span>    <a class="code hl_function" href="../../d8/d4f/a07370.html#a289a9806b8a083e063b8c83ea7016718">SendSysMessage</a>(<a class="code hl_function" href="../../d4/d99/a07362.html#a8ca438da44d3f43db97a03d32a777dad">GetAcoreString</a>(entry));</div>
+<div class="line"><span class="lineno">  208</span>}</div>
+<div class="ttc" id="aa07362_html_a8ca438da44d3f43db97a03d32a777dad"><div class="ttname"><a href="../../d4/d99/a07362.html#a8ca438da44d3f43db97a03d32a777dad">ChatHandler::GetAcoreString</a></div><div class="ttdeci">virtual char const * GetAcoreString(uint32 entry) const</div><div class="ttdef"><b>Definition:</b> Chat.cpp:40</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a9c87777b4249795b41163b2294f44746" name="a9c87777b4249795b41163b2294f44746"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c87777b4249795b41163b2294f44746">&#9670;&#160;</a></span>echo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string AddonChannelCommandHandler::echo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>, <a class="el" href="../../#l01025">SendAck()</a>, <a class="el" href="../../#l01046">SendFailed()</a>, <a class="el" href="../../#l01036">SendOK()</a>, and <a class="el" href="../../#l01057">SendSysMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a8262279e3e11d7abc952b2ab3b67a99f" name="a8262279e3e11d7abc952b2ab3b67a99f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8262279e3e11d7abc952b2ab3b67a99f">&#9670;&#160;</a></span>hadAck</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AddonChannelCommandHandler::hadAck = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>, <a class="el" href="../../#l01025">SendAck()</a>, and <a class="el" href="../../#l01057">SendSysMessage()</a>.</p>
+
+</div>
+</div>
+<a id="a85407d3478890e8f4c43377de7eb0993" name="a85407d3478890e8f4c43377de7eb0993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a85407d3478890e8f4c43377de7eb0993">&#9670;&#160;</a></span>humanReadable</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AddonChannelCommandHandler::humanReadable = false</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00977">ParseCommands()</a>.</p>
 
 </div>
 </div>
@@ -194,8 +867,8 @@ template&lt;typename T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d8/d4f/a07370.html">ArgInfo&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt;||std::is_floating_point_v&lt; T &gt; &gt; &gt;</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d4f/a07370.html">AddonChannelCommandHandler</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

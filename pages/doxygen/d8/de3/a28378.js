@@ -1,11 +1,12 @@
 var a28378 =
 [
-    [ "material", "d8/de3/a28378.html#a7079e8817a9684602084eb224f2540fc", null ],
-    [ "pos_x", "d8/de3/a28378.html#ac4d971cc46506be14716124afbb5ad9c", null ],
-    [ "pos_y", "d8/de3/a28378.html#a6cd85f2a674d732e88371ffce5e46077", null ],
-    [ "pos_z", "d8/de3/a28378.html#a183ec8ec2d8d30726494c6b3d3b8606a", null ],
-    [ "xtiles", "d8/de3/a28378.html#aca34dfa64624cfe04c314c13bbed0062", null ],
-    [ "xverts", "d8/de3/a28378.html#aa5ad7ff660f7f0b5ddfd2d186496d928", null ],
-    [ "ytiles", "d8/de3/a28378.html#a9901a7e9828ac840bc290b0768831d66", null ],
-    [ "yverts", "d8/de3/a28378.html#abf24042b85692cd0df05d65d734dd99e", null ]
+    [ "Bounds", "d8/de3/a28378.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
+    [ "DoodadSet", "d8/de3/a28378.html#abbf6e50e76b120be17215cfcf227a524", null ],
+    [ "Flags", "d8/de3/a28378.html#a06f5e96119239356eea45b9acdadf6e1", null ],
+    [ "Id", "d8/de3/a28378.html#a952442c180e8d3710af31272b54eb6ec", null ],
+    [ "NameSet", "d8/de3/a28378.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
+    [ "Position", "d8/de3/a28378.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
+    [ "Rotation", "d8/de3/a28378.html#a2c04715e800b9f375c287cced96643d1", null ],
+    [ "Scale", "d8/de3/a28378.html#a142716fecae07abc013c7f3bd053c0ea", null ],
+    [ "UniqueId", "d8/de3/a28378.html#a749e920740b9e91547fe1f87933d1c7d", null ]
 ];

@@ -1,7 +1,6 @@
 var a19786 =
 [
-    [ "HandleAfterHit", "d7/df9/a19786.html#a75953cbb3a288fd373e602ed07d84441", null ],
-    [ "PrepareSpellScript", "d7/df9/a19786.html#a55c604f072fd0bbdcb886635fb53eaa8", null ],
-    [ "Register", "d7/df9/a19786.html#af963f0dcdf2a1bc040a597c06983f0a7", null ],
-    [ "Validate", "d7/df9/a19786.html#aea2b951dd2353800958f654df58d8fd8", null ]
+    [ "boss_freya_nature_bombAI", "d0/d4b/a19790.html", "d0/d4b/a19790" ],
+    [ "boss_freya_nature_bomb", "d7/df9/a19786.html#a18fa6ff862a1b367ac23eb1b7bda0ed4", null ],
+    [ "GetAI", "d7/df9/a19786.html#a73e24282c6bb29cf3f6a7da14a4de582", null ]
 ];

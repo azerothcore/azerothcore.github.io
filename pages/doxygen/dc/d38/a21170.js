@@ -1,12 +1,14 @@
 var a21170 =
 [
-    [ "npc_beryl_sorcererAI", "dc/d38/a21170.html#a8f99f5f2ad6ccb1b068a86904bb1b864", null ],
-    [ "Initialize", "dc/d38/a21170.html#a40400e4e993d20d9bbe4faf063102521", null ],
-    [ "JustEngagedWith", "dc/d38/a21170.html#afae877e8dac583c9420d214f77c2b438", null ],
-    [ "Reset", "dc/d38/a21170.html#a17a16337c09013483c58cae38576d969", null ],
-    [ "SpellHit", "dc/d38/a21170.html#a762ee3ae8df3757279821af13101e0be", null ],
-    [ "UpdateAI", "dc/d38/a21170.html#a42ec665b06988d13be6cbee646afc898", null ],
-    [ "_chainsCast", "dc/d38/a21170.html#ab6238d539b10a7db9191bdc685ea67eb", null ],
-    [ "_events", "dc/d38/a21170.html#ac640099ca01ae2183b84ae9ee3407cc1", null ],
-    [ "_playerGUID", "dc/d38/a21170.html#a96f9b39c09b7a5fb484ae9069412751f", null ]
+    [ "npc_azure_saboteurAI", "dc/d38/a21170.html#a09fc1e8f171209471c5403af33b05a58", null ],
+    [ "FinishPointReached", "dc/d38/a21170.html#a322380edef5dbefe5ac4ab0040183010", null ],
+    [ "MoveInLineOfSight", "dc/d38/a21170.html#a21868549892cdd0e67d6403dece9efce", null ],
+    [ "UpdateAI", "dc/d38/a21170.html#a9ccbb54a41aef3a252a46545649c2c91", null ],
+    [ "WaypointReached", "dc/d38/a21170.html#ac17dc46bfe75582a789a2056978218fb", null ],
+    [ "bAddedWPs", "dc/d38/a21170.html#a9cabb9053b3c6b51be184b2144e5ec54", null ],
+    [ "bOpening", "dc/d38/a21170.html#a924ceb13552f0f01d55375af0324bf5a", null ],
+    [ "count", "dc/d38/a21170.html#a38bf10a96c8eae45b4aa0bd095924f85", null ],
+    [ "pInstance", "dc/d38/a21170.html#a1375420fe4bf16f122aa93f5c847a464", null ],
+    [ "timer", "dc/d38/a21170.html#a30745320b9cc64fb690fa7bd6d7525f2", null ],
+    [ "uiBoss", "dc/d38/a21170.html#a36f60e44bd8f1de85429a75f3e928d77", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: DatabaseWorker Class Reference</title>
+<title>AzerothCore: PingOperation Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,115 +105,48 @@ $(document).ready(function(){initNavTree('d6/dea/a05610.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../db/de6/a05607.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DatabaseWorker Class Reference</div></div>
+  <div class="headertitle"><div class="title">PingOperation Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
-
-<p><code>#include &quot;<a class="el" href="../../">DatabaseWorker.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for PingOperation:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d6/dea/a05610.png" usemap="#PingOperation_map" alt=""/>
+  <map id="PingOperation_map" name="PingOperation_map">
+<area href="../../d2/d90/a05770.html" alt="SQLOperation" shape="rect" coords="0,0,93,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a64450680e7b6e31bb42ce4f79788eb27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a64450680e7b6e31bb42ce4f79788eb27">DatabaseWorker</a> (<a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *newQueue, <a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *connection)</td></tr>
-<tr class="separator:a64450680e7b6e31bb42ce4f79788eb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a170c873cbc917ece6a87591450dbe5a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a170c873cbc917ece6a87591450dbe5a9">~DatabaseWorker</a> ()</td></tr>
-<tr class="separator:a170c873cbc917ece6a87591450dbe5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:ab74cbccbb68bfbbab58550eced982d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">WorkerThread</a> ()</td></tr>
-<tr class="separator:ab74cbccbb68bfbbab58550eced982d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa43f1d875400b0ba6c031e0811397ed3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#aa43f1d875400b0ba6c031e0811397ed3">DatabaseWorker</a> (<a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
-<tr class="separator:aa43f1d875400b0ba6c031e0811397ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15e753c757da609b55a66380f526091a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a15e753c757da609b55a66380f526091a">operator=</a> (<a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a15e753c757da609b55a66380f526091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a90b33b3679699a6a20fcd1e61ed7f737"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a90b33b3679699a6a20fcd1e61ed7f737">Execute</a> () override</td></tr>
+<tr class="memdesc:a90b33b3679699a6a20fcd1e61ed7f737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Operation for idle delaythreads.  <a href="../../d6/dea/a05610.html#a90b33b3679699a6a20fcd1e61ed7f737">More...</a><br /></td></tr>
+<tr class="separator:a90b33b3679699a6a20fcd1e61ed7f737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a></td></tr>
-<tr class="separator:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a></td></tr>
-<tr class="separator:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad02a90f600f1996c053f36e186edf292"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a></td></tr>
-<tr class="separator:ad02a90f600f1996c053f36e186edf292"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a448c50212f5d532cb4c35619b993041a"><td class="memItemLeft" align="right" valign="top">std::atomic&lt; bool &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a></td></tr>
-<tr class="separator:a448c50212f5d532cb4c35619b993041a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pub_methods_a05770"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05770')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/d90/a05770.html">SQLOperation</a></td></tr>
+<tr class="memitem:a0f69657715b7d24458227b22a3b40b1a inherit pub_methods_a05770"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#a0f69657715b7d24458227b22a3b40b1a">SQLOperation</a> ()=default</td></tr>
+<tr class="separator:a0f69657715b7d24458227b22a3b40b1a inherit pub_methods_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa21cafba57dd35ed2b132ef3d18c71b inherit pub_methods_a05770"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#afa21cafba57dd35ed2b132ef3d18c71b">~SQLOperation</a> ()=default</td></tr>
+<tr class="separator:afa21cafba57dd35ed2b132ef3d18c71b inherit pub_methods_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56c06a313c4be5d0e45f5481996f1d1 inherit pub_methods_a05770"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a> ()</td></tr>
+<tr class="separator:ae56c06a313c4be5d0e45f5481996f1d1 inherit pub_methods_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1090554bc4a6fe7a33270e63416e19 inherit pub_methods_a05770"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#aff1090554bc4a6fe7a33270e63416e19">Execute</a> ()=0</td></tr>
+<tr class="separator:aff1090554bc4a6fe7a33270e63416e19 inherit pub_methods_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cbd1d9b8a298ab3eade0010b5e3166 inherit pub_methods_a05770"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a> (<a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *con)</td></tr>
+<tr class="separator:a52cbd1d9b8a298ab3eade0010b5e3166 inherit pub_methods_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_attribs_a05770"><td colspan="2" onclick="javascript:toggleInherit('pub_attribs_a05770')"><img src="../../closed.png" alt="-"/>&#160;Public Attributes inherited from <a class="el" href="../../d2/d90/a05770.html">SQLOperation</a></td></tr>
+<tr class="memitem:adf322db48064fcf4528f713f857f1b40 inherit pub_attribs_a05770"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">m_conn</a> {nullptr}</td></tr>
+<tr class="separator:adf322db48064fcf4528f713f857f1b40 inherit pub_attribs_a05770"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a64450680e7b6e31bb42ce4f79788eb27" name="a64450680e7b6e31bb42ce4f79788eb27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a64450680e7b6e31bb42ce4f79788eb27">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DatabaseWorker::DatabaseWorker </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a> * &gt; *&#160;</td>
-          <td class="paramname"><em>newQueue</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a> *&#160;</td>
-          <td class="paramname"><em>connection</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
-<div class="line"><span class="lineno">   24</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a> = connection;</div>
-<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a> = newQueue;</div>
-<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   27</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a> = std::thread(&amp;<a class="code hl_function" href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a>, <span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">   28</span>}</div>
-<div class="ttc" id="aa05610_html_a2f21d73b584d9e5f17afc7a0ac78f129"><div class="ttname"><a href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">DatabaseWorker::_connection</a></div><div class="ttdeci">MySQLConnection * _connection</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:39</div></div>
-<div class="ttc" id="aa05610_html_a448c50212f5d532cb4c35619b993041a"><div class="ttname"><a href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">DatabaseWorker::_cancelationToken</a></div><div class="ttdeci">std::atomic&lt; bool &gt; _cancelationToken</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:44</div></div>
-<div class="ttc" id="aa05610_html_a9c47ad6c0d4dca85a63be45c4e678a70"><div class="ttname"><a href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">DatabaseWorker::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; SQLOperation * &gt; * _queue</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:38</div></div>
-<div class="ttc" id="aa05610_html_ab74cbccbb68bfbbab58550eced982d1a"><div class="ttname"><a href="../../d6/dea/a05610.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a></div><div class="ttdeci">void WorkerThread()</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.cpp:39</div></div>
-<div class="ttc" id="aa05610_html_ad02a90f600f1996c053f36e186edf292"><div class="ttname"><a href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">DatabaseWorker::_workerThread</a></div><div class="ttdeci">std::thread _workerThread</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:42</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00042">_workerThread</a>, and <a class="el" href="../../#l00039">WorkerThread()</a>.</p>
-
-</div>
-</div>
-<a id="a170c873cbc917ece6a87591450dbe5a9" name="a170c873cbc917ece6a87591450dbe5a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a170c873cbc917ece6a87591450dbe5a9">&#9670;&#160;</a></span>~DatabaseWorker()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DatabaseWorker::~DatabaseWorker </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>{</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   33</span> </div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">Cancel</a>();</div>
-<div class="line"><span class="lineno">   35</span> </div>
-<div class="line"><span class="lineno">   36</span>    <a class="code hl_variable" href="../../d6/dea/a05610.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a>.join();</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa05306_html_a7e9de516e77945411ad4f8bfa161489d"><div class="ttname"><a href="../../d2/d63/a05306.html#a7e9de516e77945411ad4f8bfa161489d">ProducerConsumerQueue::Cancel</a></div><div class="ttdeci">void Cancel()</div><div class="ttdef"><b>Definition:</b> PCQueue.h:93</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00042">_workerThread</a>, and <a class="el" href="../../#l00093">ProducerConsumerQueue&lt; T &gt;::Cancel()</a>.</p>
-
-</div>
-</div>
-<a id="aa43f1d875400b0ba6c031e0811397ed3" name="aa43f1d875400b0ba6c031e0811397ed3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa43f1d875400b0ba6c031e0811397ed3">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[2/2]</span></h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a90b33b3679699a6a20fcd1e61ed7f737" name="a90b33b3679699a6a20fcd1e61ed7f737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a90b33b3679699a6a20fcd1e61ed7f737">&#9670;&#160;</a></span>Execute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -222,60 +155,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">DatabaseWorker::DatabaseWorker </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a15e753c757da609b55a66380f526091a" name="a15e753c757da609b55a66380f526091a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15e753c757da609b55a66380f526091a">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> &amp; DatabaseWorker::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab74cbccbb68bfbbab58550eced982d1a" name="ab74cbccbb68bfbbab58550eced982d1a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab74cbccbb68bfbbab58550eced982d1a">&#9670;&#160;</a></span>WorkerThread()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void DatabaseWorker::WorkerThread </td>
+          <td class="memname">bool PingOperation::Execute </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -283,134 +163,22 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">private</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>)</div>
-<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   43</span> </div>
-<div class="line"><span class="lineno">   44</span>    <span class="keywordflow">for</span> (;;)</div>
-<div class="line"><span class="lineno">   45</span>    {</div>
-<div class="line"><span class="lineno">   46</span>        <a class="code hl_class" href="../../d9/dc9/a05774.html">SQLOperation</a>* operation = <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>        <a class="code hl_variable" href="../../d6/dea/a05610.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">WaitAndPop</a>(operation);</div>
-<div class="line"><span class="lineno">   49</span> </div>
-<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d6/dea/a05610.html#a448c50212f5d532cb4c35619b993041a">_cancelationToken</a> || !operation)</div>
-<div class="line"><span class="lineno">   51</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   52</span> </div>
-<div class="line"><span class="lineno">   53</span>        operation-&gt;<a class="code hl_function" href="../../d9/dc9/a05774.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a>(<a class="code hl_variable" href="../../d6/dea/a05610.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a>);</div>
-<div class="line"><span class="lineno">   54</span>        operation-&gt;<a class="code hl_function" href="../../d9/dc9/a05774.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a>();</div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>        <span class="keyword">delete</span> operation;</div>
-<div class="line"><span class="lineno">   57</span>    }</div>
-<div class="line"><span class="lineno">   58</span>}</div>
-<div class="ttc" id="aa05306_html_a172ef4211bcb237478ec57531c8dcc4d"><div class="ttname"><a href="../../d2/d63/a05306.html#a172ef4211bcb237478ec57531c8dcc4d">ProducerConsumerQueue::WaitAndPop</a></div><div class="ttdeci">void WaitAndPop(T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:72</div></div>
-<div class="ttc" id="aa05774_html"><div class="ttname"><a href="../../d9/dc9/a05774.html">SQLOperation</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:42</div></div>
-<div class="ttc" id="aa05774_html_a52cbd1d9b8a298ab3eade0010b5e3166"><div class="ttname"><a href="../../d9/dc9/a05774.html#a52cbd1d9b8a298ab3eade0010b5e3166">SQLOperation::SetConnection</a></div><div class="ttdeci">virtual void SetConnection(MySQLConnection *con)</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:54</div></div>
-<div class="ttc" id="aa05774_html_ae56c06a313c4be5d0e45f5481996f1d1"><div class="ttname"><a href="../../d9/dc9/a05774.html#ae56c06a313c4be5d0e45f5481996f1d1">SQLOperation::call</a></div><div class="ttdeci">virtual int call()</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:47</div></div>
+
+<p>Operation for idle delaythreads. </p>
+
+<p>Implements <a class="el" href="../../d2/d90/a05770.html#aff1090554bc4a6fe7a33270e63416e19">SQLOperation</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_variable" href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">m_conn</a>-&gt;<a class="code hl_function" href="../../d9/d43/a05642.html#a690c6afae2cfa2938700a32fdce91d7d">Ping</a>();</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="ttc" id="aa05642_html_a690c6afae2cfa2938700a32fdce91d7d"><div class="ttname"><a href="../../d9/d43/a05642.html#a690c6afae2cfa2938700a32fdce91d7d">MySQLConnection::Ping</a></div><div class="ttdeci">void Ping()</div><div class="ttdef"><b>Definition:</b> MySQLConnection.cpp:461</div></div>
+<div class="ttc" id="aa05770_html_adf322db48064fcf4528f713f857f1b40"><div class="ttname"><a href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">SQLOperation::m_conn</a></div><div class="ttdeci">MySQLConnection * m_conn</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:56</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">_cancelationToken</a>, <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00047">SQLOperation::call()</a>, <a class="el" href="../../#l00054">SQLOperation::SetConnection()</a>, and <a class="el" href="../../#l00072">ProducerConsumerQueue&lt; T &gt;::WaitAndPop()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a448c50212f5d532cb4c35619b993041a" name="a448c50212f5d532cb4c35619b993041a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a448c50212f5d532cb4c35619b993041a">&#9670;&#160;</a></span>_cancelationToken</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::atomic&lt;bool&gt; DatabaseWorker::_cancelationToken</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, <a class="el" href="../../#l00039">WorkerThread()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
-
-</div>
-</div>
-<a id="a2f21d73b584d9e5f17afc7a0ac78f129" name="a2f21d73b584d9e5f17afc7a0ac78f129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f21d73b584d9e5f17afc7a0ac78f129">&#9670;&#160;</a></span>_connection</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/d00/a05646.html">MySQLConnection</a>* DatabaseWorker::_connection</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00039">WorkerThread()</a>.</p>
-
-</div>
-</div>
-<a id="a9c47ad6c0d4dca85a63be45c4e678a70" name="a9c47ad6c0d4dca85a63be45c4e678a70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c47ad6c0d4dca85a63be45c4e678a70">&#9670;&#160;</a></span>_queue</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d63/a05306.html">ProducerConsumerQueue</a>&lt;<a class="el" href="../../d9/dc9/a05774.html">SQLOperation</a>*&gt;* DatabaseWorker::_queue</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, <a class="el" href="../../#l00039">WorkerThread()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
-
-</div>
-</div>
-<a id="ad02a90f600f1996c053f36e186edf292" name="ad02a90f600f1996c053f36e186edf292"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad02a90f600f1996c053f36e186edf292">&#9670;&#160;</a></span>_workerThread</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::thread DatabaseWorker::_workerThread</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00030">~DatabaseWorker()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00056">SQLOperation::m_conn</a>, and <a class="el" href="../../#l00461">MySQLConnection::Ping()</a>.</p>
 
 </div>
 </div>
@@ -419,8 +187,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/dea/a05610.html">DatabaseWorker</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/dea/a05610.html">PingOperation</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,9 +1,11 @@
 var a25062 =
 [
-    [ "CheckProc", "d0/d31/a25062.html#a073ed3648f5fd15db73d1620ba7031e3", null ],
-    [ "HandleProc", "d0/d31/a25062.html#a5345da73b9c4c9fe4ae5d272e3574955", null ],
-    [ "OnRemove", "d0/d31/a25062.html#a27b1b744d88b4c870c0baa0b8f88317f", null ],
-    [ "PrepareAuraScript", "d0/d31/a25062.html#a2e13f63459342fb749594f7fbb517c80", null ],
-    [ "Register", "d0/d31/a25062.html#a6fc9a3945a736ba4a62ad754090d8525", null ],
-    [ "Validate", "d0/d31/a25062.html#a008ec43da50deb568ec453e992f89887", null ]
+    [ "CalcPeriodic", "d0/d31/a25062.html#ab5feede17fa79c9d02fa459586eaca41", null ],
+    [ "CalculateAPAmount", "d0/d31/a25062.html#af2b1da799f1b3c0373dc6782dabbf89c", null ],
+    [ "CalculateResistanceAmount", "d0/d31/a25062.html#a51828f07b0e099c5931161f7aeebaab7", null ],
+    [ "CalculateSPAmount", "d0/d31/a25062.html#a255ed8f5158e715313e44b13f30b099f", null ],
+    [ "CalculateStatAmount", "d0/d31/a25062.html#ade1b7256d19b526a7f4b1520f6b2f663", null ],
+    [ "HandlePeriodic", "d0/d31/a25062.html#a136c8cedca7630543b8937e77571ead1", null ],
+    [ "PrepareAuraScript", "d0/d31/a25062.html#a638a2544d9216bec90c433100c0663a0", null ],
+    [ "Register", "d0/d31/a25062.html#a55605257006d8218250932357f325bb8", null ]
 ];

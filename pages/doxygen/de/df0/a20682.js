@@ -1,6 +1,5 @@
 var a20682 =
 [
-    [ "HandleEffectPeriodic", "de/df0/a20682.html#a3dd6eaa3e5800b92e19c12e47b0ad132", null ],
-    [ "PrepareAuraScript", "de/df0/a20682.html#a0b24e94cfce6b57d2dc8b36c3fe1c39f", null ],
-    [ "Register", "de/df0/a20682.html#a4dd779cac93c2f847495dadc67c0beb2", null ]
+    [ "achievement_yogg_saron_drive_me_crazy", "de/df0/a20682.html#a381d8fd2e7b4806181959a1b915f3a8c", null ],
+    [ "OnCheck", "de/df0/a20682.html#a029fdd68e0643b53971efbb1056f19d8", null ]
 ];

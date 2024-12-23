@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: FactoryHolder&lt; T, O, Key &gt; Class Template Reference</title>
+<title>AzerothCore: Permissible&lt; T &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,116 +105,38 @@ $(document).ready(function(){initNavTree('d5/d8c/a05130.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d0/d42/a05127.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">FactoryHolder&lt; T, O, Key &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">Permissible&lt; T &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">FactoryHolder.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for FactoryHolder&lt; T, O, Key &gt;:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d5/d8c/a05130.png" usemap="#FactoryHolder_3C_20T_2C_20O_2C_20Key_20_3E_map" alt=""/>
-  <map id="FactoryHolder_3C_20T_2C_20O_2C_20Key_20_3E_map" name="FactoryHolder_3C_20T_2C_20O_2C_20Key_20_3E_map">
-<area href="../../d3/d01/a09690.html" alt="IdleMovementFactory" shape="rect" coords="0,56,253,80"/>
-<area href="../../dc/d7c/a09686.html" alt="MovementGeneratorFactory&lt; Movement &gt;" shape="rect" coords="263,56,516,80"/>
-<area href="../../d3/d26/a06078.html" alt="SelectableAI" shape="rect" coords="526,56,779,80"/>
-<area href="../../d4/dc6/a06094.html" alt="SelectableGameObjectAI" shape="rect" coords="789,56,1042,80"/>
-<area href="../../d6/d02/a06082.html" alt="CreatureAIFactory&lt; REAL_AI &gt;" shape="rect" coords="526,112,779,136"/>
-<area href="../../d7/d79/a06098.html" alt="GameObjectAIFactory&lt; REAL_GO_AI &gt;" shape="rect" coords="789,112,1042,136"/>
-  </map>
-</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a5384598eca62a35bc617a4c395353ecd"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../da/dee/a05158.html">ObjectRegistry</a>&lt; <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;, Key &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a5384598eca62a35bc617a4c395353ecd">FactoryHolderRegistry</a></td></tr>
-<tr class="separator:a5384598eca62a35bc617a4c395353ecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a5e7097c2a475378023f33ec430f4ca85"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a5e7097c2a475378023f33ec430f4ca85">FactoryHolder</a> (Key const &amp;k)</td></tr>
-<tr class="separator:a5e7097c2a475378023f33ec430f4ca85"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a78673bd2f3d857127c1a91c49e3cd62f"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a78673bd2f3d857127c1a91c49e3cd62f">~FactoryHolder</a> ()</td></tr>
-<tr class="separator:a78673bd2f3d857127c1a91c49e3cd62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9e173f9daaf5c2de36bb8b46da4249e1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a9e173f9daaf5c2de36bb8b46da4249e1">RegisterSelf</a> ()</td></tr>
-<tr class="separator:a9e173f9daaf5c2de36bb8b46da4249e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7072fb7dfe99890dea89b1ba661eb3ce"><td class="memItemLeft" align="right" valign="top">virtual T *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a7072fb7dfe99890dea89b1ba661eb3ce">Create</a> (O *object=nullptr) const =0</td></tr>
-<tr class="memdesc:a7072fb7dfe99890dea89b1ba661eb3ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Abstract Factory create method.  <a href="../../d5/d8c/a05130.html#a7072fb7dfe99890dea89b1ba661eb3ce">More...</a><br /></td></tr>
-<tr class="separator:a7072fb7dfe99890dea89b1ba661eb3ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a98c0e66f8caaa207771efd82b2c2f9aa"><td class="memItemLeft" align="right" valign="top">Key const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a98c0e66f8caaa207771efd82b2c2f9aa">_key</a></td></tr>
-<tr class="separator:a98c0e66f8caaa207771efd82b2c2f9aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ed19d14dda478fe1ff6cb092d684be2"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a9ed19d14dda478fe1ff6cb092d684be2">~Permissible</a> ()</td></tr>
+<tr class="separator:a9ed19d14dda478fe1ff6cb092d684be2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0fccdbc46c9bafea63757ceee62b0385"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d8c/a05130.html#a0fccdbc46c9bafea63757ceee62b0385">Permit</a> (T const *) const =0</td></tr>
+<tr class="separator:a0fccdbc46c9bafea63757ceee62b0385"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class O, class Key = std::string&gt;<br />
-class FactoryHolder&lt; T, O, Key &gt;</div><p ><a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a> holds a factory object of a specific type </p>
-</div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a5384598eca62a35bc617a4c395353ecd" name="a5384598eca62a35bc617a4c395353ecd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5384598eca62a35bc617a4c395353ecd">&#9670;&#160;</a></span>FactoryHolderRegistry</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T&gt;<br />
+class Permissible&lt; T &gt;</div><p ><a class="el" href="../../d5/d8c/a05130.html">Permissible</a> is a classic way of letting the object decide whether how good they handle things. This is not retricted to factory selectors. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a9ed19d14dda478fe1ff6cb092d684be2" name="a9ed19d14dda478fe1ff6cb092d684be2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ed19d14dda478fe1ff6cb092d684be2">&#9670;&#160;</a></span>~Permissible()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef <a class="el" href="../../da/dee/a05158.html">ObjectRegistry</a>&lt;<a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt;T, O, Key&gt;, Key&gt; <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;::FactoryHolderRegistry</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a5e7097c2a475378023f33ec430f4ca85" name="a5e7097c2a475378023f33ec430f4ca85"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e7097c2a475378023f33ec430f4ca85">&#9670;&#160;</a></span>FactoryHolder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;<a class="el" href="../../d5/d8c/a05130.html">::FactoryHolder</a> </td>
-          <td>(</td>
-          <td class="paramtype">Key const &amp;&#160;</td>
-          <td class="paramname"><em>k</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>: <a class="code hl_variable" href="../../d5/d8c/a05130.html#a98c0e66f8caaa207771efd82b2c2f9aa">_key</a>(k) { }</div>
-<div class="ttc" id="aa05130_html_a98c0e66f8caaa207771efd82b2c2f9aa"><div class="ttname"><a href="../../d5/d8c/a05130.html#a98c0e66f8caaa207771efd82b2c2f9aa">FactoryHolder::_key</a></div><div class="ttdeci">Key const _key</div><div class="ttdef"><b>Definition:</b> FactoryHolder.h:40</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a78673bd2f3d857127c1a91c49e3cd62f" name="a78673bd2f3d857127c1a91c49e3cd62f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a78673bd2f3d857127c1a91c49e3cd62f">&#9670;&#160;</a></span>~FactoryHolder()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;::~<a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a> </td>
+          <td class="memname">virtual <a class="el" href="../../d5/d8c/a05130.html">Permissible</a>&lt; T &gt;::~<a class="el" href="../../d5/d8c/a05130.html">Permissible</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -226,27 +148,27 @@ template&lt;class T , class O , class Key  = std::string&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   33</span>{ }</div>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ }</div>
 </div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7072fb7dfe99890dea89b1ba661eb3ce" name="a7072fb7dfe99890dea89b1ba661eb3ce"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7072fb7dfe99890dea89b1ba661eb3ce">&#9670;&#160;</a></span>Create()</h2>
+<a id="a0fccdbc46c9bafea63757ceee62b0385" name="a0fccdbc46c9bafea63757ceee62b0385"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fccdbc46c9bafea63757ceee62b0385">&#9670;&#160;</a></span>Permit()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
+template&lt;class T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual T * <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;::Create </td>
+          <td class="memname">virtual <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> <a class="el" href="../../d5/d8c/a05130.html">Permissible</a>&lt; T &gt;::Permit </td>
           <td>(</td>
-          <td class="paramtype">O *&#160;</td>
-          <td class="paramname"><em>object</em> = <code>nullptr</code></td><td>)</td>
+          <td class="paramtype">T const *&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -257,65 +179,9 @@ template&lt;class T , class O , class Key  = std::string&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Abstract Factory create method. </p>
+<p>Implemented in <a class="el" href="../../d3/d26/a06078.html#ae5e76ee1d1f8949214dd5421bf7e4deb">CreatureAIFactory&lt; REAL_AI &gt;</a>, and <a class="el" href="../../d4/dc6/a06094.html#ae8b7e45a73f87249e27a4dae596b0d52">GameObjectAIFactory&lt; REAL_GO_AI &gt;</a>.</p>
 
-</div>
-</div>
-<a id="a9e173f9daaf5c2de36bb8b46da4249e1" name="a9e173f9daaf5c2de36bb8b46da4249e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e173f9daaf5c2de36bb8b46da4249e1">&#9670;&#160;</a></span>RegisterSelf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;::RegisterSelf </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{ <a class="code hl_function" href="../../da/dee/a05158.html#a7a6582a84361d5ad1142f29c9e1d9cb5">FactoryHolderRegistry::instance</a>()-&gt;InsertItem(<span class="keyword">this</span>, <a class="code hl_variable" href="../../d5/d8c/a05130.html#a98c0e66f8caaa207771efd82b2c2f9aa">_key</a>); }</div>
-<div class="ttc" id="aa05158_html_a7a6582a84361d5ad1142f29c9e1d9cb5"><div class="ttname"><a href="../../da/dee/a05158.html#a7a6582a84361d5ad1142f29c9e1d9cb5">ObjectRegistry::instance</a></div><div class="ttdeci">static ObjectRegistry&lt; T, Key &gt; * instance()</div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:42</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00040">FactoryHolder&lt; T, O, Key &gt;::_key</a>, and <a class="el" href="../../#l00042">ObjectRegistry&lt; T, Key &gt;::instance()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a98c0e66f8caaa207771efd82b2c2f9aa" name="a98c0e66f8caaa207771efd82b2c2f9aa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a98c0e66f8caaa207771efd82b2c2f9aa">&#9670;&#160;</a></span>_key</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class O , class Key  = std::string&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Key const <a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a>&lt; T, O, Key &gt;::_key</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">FactoryHolder&lt; T, O, Key &gt;::RegisterSelf()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00031">FactorySelector::GetPermitFor()</a>.</p>
 
 </div>
 </div>
@@ -324,8 +190,8 @@ template&lt;class T , class O , class Key  = std::string&gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d8c/a05130.html">FactoryHolder</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:28 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d5/d8c/a05130.html">Permissible</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

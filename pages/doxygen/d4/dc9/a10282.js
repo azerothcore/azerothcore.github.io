@@ -1,7 +1,7 @@
 var a10282 =
 [
-    [ "QueryGuildInfoResponse", "d4/dc9/a10282.html#ae1f7b9f33e36821477a19439a3d4065d", null ],
-    [ "Write", "d4/dc9/a10282.html#abda9452eba38e76c460f910eb3aad5fa", null ],
-    [ "GuildId", "d4/dc9/a10282.html#a04eec0531238fa55a91afa11c394fbce", null ],
-    [ "Info", "d4/dc9/a10282.html#a749e992a19264b259f62d403b4925abe", null ]
+    [ "LogoutResponse", "d4/dc9/a10282.html#a434ee19fbc4d3e336444b1c62ac2be84", null ],
+    [ "Write", "d4/dc9/a10282.html#a0b08225b6ac303afd20ec213aafe4bcb", null ],
+    [ "Instant", "d4/dc9/a10282.html#aad6819dc426b91b6ad43f180a53e12ef", null ],
+    [ "LogoutResult", "d4/dc9/a10282.html#a5543bf1a6342e9a217cd906e4a185b2e", null ]
 ];

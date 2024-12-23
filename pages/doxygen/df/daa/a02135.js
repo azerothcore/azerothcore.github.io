@@ -1,6 +1,6 @@
 var a02135 =
 [
-    [ "spell_razelikh_teleport_group", "d6/dc0/a13182.html", "d6/dc0/a13182" ],
+    [ "spell_razelikh_teleport_group", "d8/d3b/a13238.html", "d8/d3b/a13238" ],
     [ "DeathlyUsher", "df/daa/a02135.html#aaff0e89586a03a5c2b80f93a4fe0ded7", [
       [ "SPELL_TELEPORT_SINGLE", "df/daa/a02135.html#aaff0e89586a03a5c2b80f93a4fe0ded7a3cdd675db7120b3a968f19df07485e7d", null ],
       [ "SPELL_TELEPORT_SINGLE_IN_GROUP", "df/daa/a02135.html#aaff0e89586a03a5c2b80f93a4fe0ded7a138ccf86c6441c7347a973d3e04c62a5", null ],

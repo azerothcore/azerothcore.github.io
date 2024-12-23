@@ -1,5 +1,6 @@
 var a14058 =
 [
-    [ "go_pumpkin_shrine", "d5/da0/a14058.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
-    [ "OnGossipSelect", "d5/da0/a14058.html#a35763a67d39c1d68974a9602ce26b699", null ]
+    [ "HandleDummy", "d5/da0/a14058.html#a7e6ecd28a6b1f161619e179bc386388e", null ],
+    [ "PrepareSpellScript", "d5/da0/a14058.html#a87a787c6ab3804847c90266f570381c6", null ],
+    [ "Register", "d5/da0/a14058.html#ad5c7ab8f3bb74882eed42c6e0868ab70", null ]
 ];

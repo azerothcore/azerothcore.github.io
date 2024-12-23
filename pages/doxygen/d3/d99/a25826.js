@@ -1,7 +1,6 @@
 var a25826 =
 [
-    [ "CalculateAmount", "d3/d99/a25826.html#a5d4549ac73b46382c1beddbb65257ad0", null ],
-    [ "HandleUpdateSpellclick", "d3/d99/a25826.html#a89956d7f3a6404d5b60e46034867c82c", null ],
-    [ "PrepareAuraScript", "d3/d99/a25826.html#a7cbdc79c63306a8fcfcc06180998a290", null ],
-    [ "Register", "d3/d99/a25826.html#a2252719e6ea995b85b7b0c5ecb6a26d3", null ]
+    [ "HandleDummy", "d3/d99/a25826.html#a1e9ecf50304f5ccd8578befea898bf81", null ],
+    [ "PrepareSpellScript", "d3/d99/a25826.html#a9cf7d1dd37f6df4651ffc83e6aa0b1c0", null ],
+    [ "Register", "d3/d99/a25826.html#a98a5ad12cdb54f48d6014fda3915fd70", null ]
 ];

@@ -1,7 +1,6 @@
 var a15230 =
 [
-    [ "npc_kaya_flathoofAI", "dc/d98/a15234.html", "dc/d98/a15234" ],
-    [ "npc_kaya_flathoof", "dc/d61/a15230.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
-    [ "GetAI", "dc/d61/a15230.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
-    [ "OnQuestAccept", "dc/d61/a15230.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
+    [ "Creature", "dc/d61/a15230.html#a77b33f8998f85808b58052079b1cab54", null ],
+    [ "TextId", "dc/d61/a15230.html#ad691f3cd40035e96547adf7528229119", null ],
+    [ "Timer", "dc/d61/a15230.html#accfccceaedffb3ad4d02231fb0bfeee5", null ]
 ];

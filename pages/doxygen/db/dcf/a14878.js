@@ -1,10 +1,8 @@
 var a14878 =
 [
-    [ "npc_anubisath_defender", "db/dcf/a14878.html#ae24a21ad3ebcaa4b8312a1fea66131ba", null ],
-    [ "DamageTaken", "db/dcf/a14878.html#a032714b16d3d77a19bec0f918d8ef8df", null ],
-    [ "JustDied", "db/dcf/a14878.html#a225ca1b3144953bcc5890caf0d32b606", null ],
-    [ "JustEngagedWith", "db/dcf/a14878.html#a6505fcae0e99cae44750f16daddc3309", null ],
-    [ "Reset", "db/dcf/a14878.html#ab10d9ac93aab97172f630e1d7d8faca0", null ],
-    [ "UpdateAI", "db/dcf/a14878.html#a1f190f45ffbaf20f5565221780dc5cc6", null ],
-    [ "_enraged", "db/dcf/a14878.html#a4adef63a5093e3c0ecb8b57283e94ff8", null ]
+    [ "boss_veklor", "db/dcf/a14878.html#acbbe1a2e6ffcb00a28f7ae5413cd02c1", null ],
+    [ "AttackStart", "db/dcf/a14878.html#a7ecfff13457bf177c1ec250bbee75cbf", null ],
+    [ "IAmVeklor", "db/dcf/a14878.html#a4c43713c24b5537f292be1e0fcaee703", null ],
+    [ "JustEngagedWith", "db/dcf/a14878.html#a05913da666b1715eac68441195dd9df4", null ],
+    [ "SpellHit", "db/dcf/a14878.html#ab5d9ec12c18e360ce2c8749dd97f2ab0", null ]
 ];

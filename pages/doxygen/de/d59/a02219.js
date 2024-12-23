@@ -1,7 +1,7 @@
 var a02219 =
 [
-    [ "boss_vanndar", "d7/d90/a11530.html", "d7/d90/a11530" ],
-    [ "boss_vanndar::boss_vanndarAI", "df/d71/a11534.html", "df/d71/a11534" ],
+    [ "boss_vanndar", "db/da1/a11586.html", "db/da1/a11586" ],
+    [ "boss_vanndar::boss_vanndarAI", "dc/ddc/a11590.html", "dc/ddc/a11590" ],
     [ "Spells", "de/d59/a02219.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

@@ -1,8 +1,9 @@
 var a14034 =
 [
-    [ "npc_hallows_end_train_fire", "d5/dee/a14034.html#a0aacc53a7410590e8d1f05aa8d3e37ba", null ],
-    [ "Reset", "d5/dee/a14034.html#afdda52e0adce23f56fa9d1357469a17d", null ],
-    [ "SpellHit", "d5/dee/a14034.html#a5767b2a5a2ca1813812cf078b0dd1189", null ],
-    [ "UpdateAI", "d5/dee/a14034.html#a686a565e1743c31166d8d57f67a0adce", null ],
-    [ "timer", "d5/dee/a14034.html#a7fa7d23a587ab632d1b9a2b803f83cd4", null ]
+    [ "entries", "d5/dee/a14034.html#a8c55bbd253d6bea01e83c0aa7380dee5", null ],
+    [ "entries", "d5/dee/a14034.html#a953850b267eb6f599bb49d82080bdf64", null ],
+    [ "revelerId", "d5/dee/a14034.html#a9e4069ef00c8b4e31d8af06f34e12ad5", null ],
+    [ "schedule", "d5/dee/a14034.html#a7fd78a5fa19a14ab1b002f5b6ef4e20f", null ],
+    [ "size", "d5/dee/a14034.html#ae6a3fa59e1eb384255c247abadc962d5", null ],
+    [ "spawns", "d5/dee/a14034.html#aa22c51469489fbb6551de2b751f06c94", null ]
 ];

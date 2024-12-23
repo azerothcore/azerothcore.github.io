@@ -1,7 +1,6 @@
 var a21498 =
 [
-    [ "HandleDummy", "d3/d0f/a21498.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
-    [ "PrepareSpellScript", "d3/d0f/a21498.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
-    [ "Register", "d3/d0f/a21498.html#a45f80e0436f93a597deb4653852df6a1", null ],
-    [ "Validate", "d3/d0f/a21498.html#ad13fdade1fb7455485bfd68687de53c5", null ]
+    [ "SACActivateEvent", "d3/d0f/a21498.html#a7e5ba22c5500337f14ae067e2b404c5a", null ],
+    [ "Execute", "d3/d0f/a21498.html#ad3e4092941e8cd8953fdc251e97c458a", null ],
+    [ "_owner", "d3/d0f/a21498.html#ae930bd1f603ea296c5ccabd6fbd299f8", null ]
 ];

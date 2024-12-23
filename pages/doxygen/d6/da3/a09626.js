@@ -1,13 +1,14 @@
 var a09626 =
 [
-    [ "GetDiff", "d6/da3/a09626.html#a7964d45d3289b982e8a2d1e30fb8a4e6", null ],
-    [ "GetList", "d6/da3/a09626.html#ac795cff0a8ff6aac53ef6c5aef1a6d32", null ],
-    [ "GetTempList", "d6/da3/a09626.html#ac39c84b0e6d8d048363898de9b000ce3", null ],
-    [ "GetTempLock", "d6/da3/a09626.html#a1de4c44c1cf2af6e517197a9b6fd9e0d", null ],
-    [ "ResetDiff", "d6/da3/a09626.html#a3fd3b60d639b28b5e89a8e6a48598b6b", null ],
-    [ "Update", "d6/da3/a09626.html#a0b141afeaf6ee0c3354d759b9cb77cfd", null ],
-    [ "auctionListingDiff", "d6/da3/a09626.html#a0bde4fa09977c0d4a9f0cade5e11efaf", null ],
-    [ "auctionListingList", "d6/da3/a09626.html#ad9665932deb7777789f862755eb32b1e", null ],
-    [ "auctionListingListTemp", "d6/da3/a09626.html#a807c7bd712bfc72a647c6cd9356c7007", null ],
-    [ "auctionListingTempLock", "d6/da3/a09626.html#a6f12f53958ae9176cb5a01f56d846cc7", null ]
+    [ "BattlegroundMap", "d6/da3/a09626.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
+    [ "~BattlegroundMap", "d6/da3/a09626.html#a327d241fd7930e9b3a98ba50014d5131", null ],
+    [ "AddPlayerToMap", "d6/da3/a09626.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
+    [ "CannotEnter", "d6/da3/a09626.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
+    [ "GetBG", "d6/da3/a09626.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
+    [ "InitVisibilityDistance", "d6/da3/a09626.html#af2d6847765d10fab527d77b26dd770ad", null ],
+    [ "RemoveAllPlayers", "d6/da3/a09626.html#a5093cbf8005d06452eeb202513323c1e", null ],
+    [ "RemovePlayerFromMap", "d6/da3/a09626.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
+    [ "SetBG", "d6/da3/a09626.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
+    [ "SetUnload", "d6/da3/a09626.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
+    [ "m_bg", "d6/da3/a09626.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
 ];

@@ -1,8 +1,8 @@
 var a05626 =
 [
-    [ "Statements", "df/d05/a05626.html#adaf49f7cb45d90cb041f979b1821e4a1", null ],
-    [ "WorldDatabaseConnection", "df/d05/a05626.html#a0c03387d2c019c86d1fe4933eca6aae5", null ],
-    [ "WorldDatabaseConnection", "df/d05/a05626.html#a015f79a049d37f742232bc5ac10e9551", null ],
-    [ "~WorldDatabaseConnection", "df/d05/a05626.html#a2feafa80fe8e838587d8f7b641c0ab09", null ],
-    [ "DoPrepareStatements", "df/d05/a05626.html#a280aa4a4571581c5cef8f9967631b484", null ]
+    [ "Statements", "df/d05/a05626.html#a7527387a1261a4307515ed0c56dd6520", null ],
+    [ "CharacterDatabaseConnection", "df/d05/a05626.html#aa7308d6978756861043c1c0c861bfffc", null ],
+    [ "CharacterDatabaseConnection", "df/d05/a05626.html#af7c6148029613ce06159b5867bba9cad", null ],
+    [ "~CharacterDatabaseConnection", "df/d05/a05626.html#a01224074cff69c86792d0b77e804d7f4", null ],
+    [ "DoPrepareStatements", "df/d05/a05626.html#afbbb8d2bb335119e5bc8b37764301db5", null ]
 ];

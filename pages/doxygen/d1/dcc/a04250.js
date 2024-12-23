@@ -1,6 +1,6 @@
 var a04250 =
 [
-    [ "GlobalScript", "d0/d65/a10062.html", "d0/d65/a10062" ],
+    [ "GlobalScript", "d6/d82/a10118.html", "d6/d82/a10118" ],
     [ "GlobalHook", "d1/dcc/a04250.html#a9442fcdfa182319eedd41c65183aa54f", [
       [ "GLOBALHOOK_ON_ITEM_DEL_FROM_DB", "d1/dcc/a04250.html#a9442fcdfa182319eedd41c65183aa54fa3fee3c5c76e67faee134aa5f3004fb3a", null ],
       [ "GLOBALHOOK_ON_MIRRORIMAGE_DISPLAY_ITEM", "d1/dcc/a04250.html#a9442fcdfa182319eedd41c65183aa54fa54996842f471924462c858b424771301", null ],

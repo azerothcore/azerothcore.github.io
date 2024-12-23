@@ -1,9 +1,9 @@
 var a03275 =
 [
-    [ "AchievementVisitor", "df/d93/a07346.html", "df/d93/a07346" ],
-    [ "GameTeleVisitor", "db/d42/a07350.html", "db/d42/a07350" ],
-    [ "ItemTemplateVisitor", "df/d7f/a07354.html", "df/d7f/a07354" ],
-    [ "SpellInfoVisitor", "d7/daf/a07358.html", "d7/daf/a07358" ],
-    [ "QuestVisitor", "d4/d99/a07362.html", "d4/d99/a07362" ],
+    [ "AchievementVisitor", "d4/da1/a07414.html", "d4/da1/a07414" ],
+    [ "GameTeleVisitor", "d8/d85/a07418.html", "d8/d85/a07418" ],
+    [ "ItemTemplateVisitor", "d4/dec/a07422.html", "d4/dec/a07422" ],
+    [ "SpellInfoVisitor", "dc/dad/a07426.html", "dc/dad/a07426" ],
+    [ "QuestVisitor", "d5/d8e/a07430.html", "d5/d8e/a07430" ],
     [ "ChatCommandResult", "d8/dbf/a03275.html#ad9c9d483b96ed400318aed8441ebe7f1", null ]
 ];

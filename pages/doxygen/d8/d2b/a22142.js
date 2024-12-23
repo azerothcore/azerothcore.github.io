@@ -1,5 +1,6 @@
 var a22142 =
 [
-    [ "OutdoorPvP_grizzly_hills", "d8/d2b/a22142.html#aa020d8120c62874fb15b4623bbb714d9", null ],
-    [ "GetOutdoorPvP", "d8/d2b/a22142.html#add8a0c81bcc55c7b382c25fa077b80ce", null ]
+    [ "npc_captured_rageclawAI", "d8/d2b/a22142.html#a5bb483a323330b0895f87c5381d73314", null ],
+    [ "Reset", "d8/d2b/a22142.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
+    [ "SpellHit", "d8/d2b/a22142.html#a2c63911d27435a2271a7c89d9d88318c", null ]
 ];

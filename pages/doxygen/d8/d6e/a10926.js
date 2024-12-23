@@ -1,7 +1,7 @@
 var a10926 =
 [
-    [ "ap_bonus", "d8/d6e/a10926.html#a98410b8bb89434cd7e1747462f8039dc", null ],
-    [ "ap_dot_bonus", "d8/d6e/a10926.html#a09caeec47b138d9eff3539795416a09a", null ],
-    [ "direct_damage", "d8/d6e/a10926.html#abab1af227a6c8e592b8a9bd15589535d", null ],
-    [ "dot_damage", "d8/d6e/a10926.html#a92491d8d1e61612d88c7c830d7912be5", null ]
+    [ "WorldObjectSpellAreaTargetCheck", "d8/d6e/a10926.html#a2b017300220426ac42de18e3a8699219", null ],
+    [ "operator()", "d8/d6e/a10926.html#a36a7194e3ffbdc2ea1c4bd5ed5997da4", null ],
+    [ "_position", "d8/d6e/a10926.html#a680c45dd148161657da011a1772375ca", null ],
+    [ "_range", "d8/d6e/a10926.html#a4ee3762b4a7f35d252cbb5337d61d92c", null ]
 ];

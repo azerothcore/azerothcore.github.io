@@ -1,12 +1,14 @@
 var a07114 =
 [
-    [ "BGQueueRemoveEvent", "d4/dff/a07114.html#ab751b728f64b2928eefb21f756539d81", null ],
-    [ "~BGQueueRemoveEvent", "d4/dff/a07114.html#aab9ea24041888975439aafb246c571c3", null ],
-    [ "Abort", "d4/dff/a07114.html#a7d1dc829e56398ad421cb53dd51e952e", null ],
-    [ "Execute", "d4/dff/a07114.html#a42482ff784da4b23b568888a74a0b531", null ],
-    [ "m_BgInstanceGUID", "d4/dff/a07114.html#a4732918e6d7c42dd068f5cb147a188fc", null ],
-    [ "m_BgQueueTypeId", "d4/dff/a07114.html#ac059a823ae49bd0250eec15845bf153b", null ],
-    [ "m_BgTypeId", "d4/dff/a07114.html#a8bc484087ef76d627d5ae912bc5de22c", null ],
-    [ "m_PlayerGuid", "d4/dff/a07114.html#a9a1e2c09896b4d7521954d810e7193cc", null ],
-    [ "m_RemoveTime", "d4/dff/a07114.html#a0c40a46749bff9caaf1a462d7bef701e", null ]
+    [ "ArenaTeamScore", "d4/dff/a07114.html#a017cd1a4d90a466b42aeab8ff1a12f3a", null ],
+    [ "~ArenaTeamScore", "d4/dff/a07114.html#ade081f31c498ee03a80f73fe70a56cc7", null ],
+    [ "Assign", "d4/dff/a07114.html#a28c3a055e1ad69693470f38fe676f0c6", null ],
+    [ "BuildRatingInfoBlock", "d4/dff/a07114.html#ae3e2b8e8a29c50ca20a42a0364349764", null ],
+    [ "BuildTeamInfoBlock", "d4/dff/a07114.html#aa876e0cf0b36f8fdb9efe8989092f143", null ],
+    [ "Reset", "d4/dff/a07114.html#a90611fd5e656d2d62917003ff0a5ff00", null ],
+    [ "Arena", "d4/dff/a07114.html#a5f488c25aa439166d145713c67e7d085", null ],
+    [ "Battleground", "d4/dff/a07114.html#a0c4048053f5f5cabe5bfbfdde8eded86", null ],
+    [ "MatchmakerRating", "d4/dff/a07114.html#a1e82169562a459371f973932d22e2f15", null ],
+    [ "RatingChange", "d4/dff/a07114.html#a61c85f158b767a6c81de87d7ad5007db", null ],
+    [ "TeamName", "d4/dff/a07114.html#ab99de3b9213f3ccab1791858df6aa3e8", null ]
 ];

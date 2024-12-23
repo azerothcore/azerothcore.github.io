@@ -1,9 +1,11 @@
 var a21566 =
 [
-    [ "npc_wounded_skirmisher", "dd/d8d/a21566.html#a30fe2d901df0cfd9b66f3dbd6a1e6aea", null ],
-    [ "Initialize", "dd/d8d/a21566.html#ae5fab920fcb16b57e0ed53a1177d319b", null ],
-    [ "JustEngagedWith", "dd/d8d/a21566.html#a80357b71a1eccdcdce8c8bea87de1b66", null ],
-    [ "Reset", "dd/d8d/a21566.html#acca266640c099718d2a0fd4f6a3c47ab", null ],
-    [ "SpellHit", "dd/d8d/a21566.html#a891e879af5da1f181c94e528c59a81f1", null ],
-    [ "UpdateAI", "dd/d8d/a21566.html#a52f8e7f8df05504cad4b4438c50814a4", null ]
+    [ "npc_torturer_lecraftAI", "dd/d8d/a21566.html#a0886d83c8ab8b7db728928ecf922031b", null ],
+    [ "JustEngagedWith", "dd/d8d/a21566.html#ac6fa83aa5673bd6c90e128f06e56049e", null ],
+    [ "Reset", "dd/d8d/a21566.html#a13177e318e7777ecb13ba71c4f10f425", null ],
+    [ "SpellHit", "dd/d8d/a21566.html#a837805efcb6c99de55646a232f151ae8", null ],
+    [ "UpdateAI", "dd/d8d/a21566.html#a45919da006b0e767ec38810a6fcbac5d", null ],
+    [ "_events", "dd/d8d/a21566.html#a7879e11a94c32266ed11dc352ae7e802", null ],
+    [ "_playerGUID", "dd/d8d/a21566.html#ab792ceb52fe5c04851f69b9c2922822d", null ],
+    [ "_textCounter", "dd/d8d/a21566.html#aa7560f419ca1486efb9d6c3bda3cedf1", null ]
 ];

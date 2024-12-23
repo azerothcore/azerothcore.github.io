@@ -1,15 +1,12 @@
 var a05154 =
 [
-    [ "iterator", "d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b", null ],
-    [ "RefMgr", "d9/dcb/a05154.html#a72110d71a275f564d31d2e6c84c331c3", null ],
-    [ "~RefMgr", "d9/dcb/a05154.html#ab386dd35fa62dbf7f1ba2131e6e99f7c", null ],
-    [ "begin", "d9/dcb/a05154.html#aacaf11c49931c87bd52b8382065447d3", null ],
-    [ "clearReferences", "d9/dcb/a05154.html#a912750f6257a33cd1f85079448b45928", null ],
-    [ "end", "d9/dcb/a05154.html#aab6573a792b9b24c3dc4a690c6ff77d9", null ],
-    [ "getFirst", "d9/dcb/a05154.html#a67de35d375c34c38db2b87481a141ebf", null ],
-    [ "getFirst", "d9/dcb/a05154.html#a2636030fdcd2312e7c2556c2da3ef948", null ],
-    [ "getLast", "d9/dcb/a05154.html#a6695bac4fd79bb428fd1f6a72ad6c3e3", null ],
-    [ "getLast", "d9/dcb/a05154.html#afab4e70c39d83e38048c5fe80166e5fa", null ],
-    [ "rbegin", "d9/dcb/a05154.html#a4c64b9aad3611aff0d1c419b5d5fa8f0", null ],
-    [ "rend", "d9/dcb/a05154.html#ae5ef045c8e3bbce625ffdc2c075b90c2", null ]
+    [ "RegistryMapType", "d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2", null ],
+    [ "ObjectRegistry", "d9/dcb/a05154.html#aa3bcc30791e82bc900eacf1c5833b7f8", null ],
+    [ "~ObjectRegistry", "d9/dcb/a05154.html#a2734a0e6001f597b43e006bc9d84a6b1", null ],
+    [ "GetRegisteredItems", "d9/dcb/a05154.html#aba4a4fcc7ee59afbb4dea6df7410dc02", null ],
+    [ "GetRegistryItem", "d9/dcb/a05154.html#a474bdff0ab0f0a3db5f914b9dfaa48d1", null ],
+    [ "HasItem", "d9/dcb/a05154.html#a3c95897734a780c1f299d24a058b3595", null ],
+    [ "InsertItem", "d9/dcb/a05154.html#a55416824a5dff4138f5d828e352e3d7c", null ],
+    [ "instance", "d9/dcb/a05154.html#a7a6582a84361d5ad1142f29c9e1d9cb5", null ],
+    [ "_registeredObjects", "d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65", null ]
 ];

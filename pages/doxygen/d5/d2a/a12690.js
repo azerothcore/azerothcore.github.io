@@ -1,6 +1,6 @@
 var a12690 =
 [
-    [ "npc_a_special_surpriseAI", "df/d35/a12694.html", "df/d35/a12694" ],
-    [ "npc_a_special_surprise", "d5/d2a/a12690.html#ab88d74a86049c53b1569bdcc263f3dd4", null ],
-    [ "GetAI", "d5/d2a/a12690.html#a930c7ba67a20fbfc55b40117ccd52c98", null ]
+    [ "npc_scarlet_minerAI", "df/d35/a12694.html", "df/d35/a12694" ],
+    [ "npc_scarlet_miner", "d5/d2a/a12690.html#a8948afd8a41c23ab3afbda9949d9019d", null ],
+    [ "GetAI", "d5/d2a/a12690.html#abd2973972788ce9b39572aaa819d0690", null ]
 ];

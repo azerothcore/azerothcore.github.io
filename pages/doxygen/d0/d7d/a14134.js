@@ -1,8 +1,7 @@
 var a14134 =
 [
-    [ "HandleEffectApply", "d0/d7d/a14134.html#a31d4e0da71893a8a673a2ac4f7c26c70", null ],
-    [ "HandleEffectRemove", "d0/d7d/a14134.html#af8661463589640c9550bc62e8f74afcd", null ],
-    [ "PrepareAuraScript", "d0/d7d/a14134.html#a2885eb37d4af8f1e90e2a4967f5acc75", null ],
-    [ "Register", "d0/d7d/a14134.html#ada4a148e0b50f5853eaf02c465f6e876", null ],
-    [ "torchGUID", "d0/d7d/a14134.html#a8ccf51241d3792c8c36d983bf471167e", null ]
+    [ "HandleScript", "d0/d7d/a14134.html#a78899a874a645d531dd4d89f2bd5478a", null ],
+    [ "PrepareSpellScript", "d0/d7d/a14134.html#adc96c1dbf0b561a72d26dca57d5bfcec", null ],
+    [ "Register", "d0/d7d/a14134.html#a76942c06492a48ce16bb85cf55d1e58d", null ],
+    [ "Validate", "d0/d7d/a14134.html#a727f7c6ab1a2b5635e0b8fbd071d863d", null ]
 ];

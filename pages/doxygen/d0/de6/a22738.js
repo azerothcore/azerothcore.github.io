@@ -1,11 +1,6 @@
 var a22738 =
 [
-    [ "boss_doomlordkazzakAI", "d0/de6/a22738.html#a86a942b48bf1146fb3ab445dc386cab9", null ],
-    [ "JustDied", "d0/de6/a22738.html#a33d0bc150c3c2701f4c0c4d8f39fce29", null ],
-    [ "JustEngagedWith", "d0/de6/a22738.html#a8086a5f8f6edd94525b9aedd083b7b00", null ],
-    [ "JustRespawned", "d0/de6/a22738.html#a174912c149657f4d88446f4ac0631598", null ],
-    [ "KilledUnit", "d0/de6/a22738.html#adb91f475b0e8cb73821860c3c5cc226b", null ],
-    [ "Reset", "d0/de6/a22738.html#a51b19c8e7c5f85c41b3168165bb8b40b", null ],
-    [ "UpdateAI", "d0/de6/a22738.html#a28a0a8345fcd5411491409854acef729", null ],
-    [ "_inBerserk", "d0/de6/a22738.html#a996d17128aca96c00c8416957ebc24d0", null ]
+    [ "HandleScriptEffect", "d0/de6/a22738.html#a0810dd4ad4d324c1a53e192fc99d1d35", null ],
+    [ "PrepareSpellScript", "d0/de6/a22738.html#a0ece61d7bed3e19ee6f6175a55c0733d", null ],
+    [ "Register", "d0/de6/a22738.html#a827cefe322562f0e8ea7cfa58b9a776b", null ]
 ];

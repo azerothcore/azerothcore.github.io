@@ -1,13 +1,10 @@
 var a05574 =
 [
-    [ "SOAPCommand", "d3/d27/a05574.html#a56d5e1a4b0e3abb0284c668e175a8d4b", null ],
-    [ "~SOAPCommand", "d3/d27/a05574.html#ab0a07da0bb379751d0d2812dfa98b607", null ],
-    [ "appendToPrintBuffer", "d3/d27/a05574.html#a116d4a9d85c536ca3866bf340b64b9d9", null ],
-    [ "commandFinished", "d3/d27/a05574.html#a18310d831429b084dc5cbf6310195001", null ],
-    [ "hasCommandSucceeded", "d3/d27/a05574.html#a251a0999a4b74ca8db7bbaa634f1d361", null ],
-    [ "print", "d3/d27/a05574.html#a69a3287df41392488dbcb1be2f0349f3", null ],
-    [ "setCommandSuccess", "d3/d27/a05574.html#ae6849ecbf940ac2baf92f3b7ca3d6cd2", null ],
-    [ "finishedPromise", "d3/d27/a05574.html#aec2e336644d004a59ad21431fbf80c83", null ],
-    [ "m_printBuffer", "d3/d27/a05574.html#aa823e9c8d3048d5780b11d168f5be0d9", null ],
-    [ "m_success", "d3/d27/a05574.html#aab7299bceae48c2066f1885b90a34c60", null ]
+    [ "FreezeDetector", "de/d69/a04679.html#gae4bea4699ff716ee22295d12bc9f1b9b", null ],
+    [ "Handler", "de/d69/a04679.html#gad4c4e5b291e0c6c2dc169a7dbffdfabb", null ],
+    [ "Start", "de/d69/a04679.html#ga6a90ff702a8d363bd23334c81e2e5770", null ],
+    [ "_lastChangeMsTime", "de/d69/a04679.html#ga0a2b971b7ea733d846be71abf7b5dc1d", null ],
+    [ "_maxCoreStuckTimeInMs", "de/d69/a04679.html#ga54077eab38ea5d0db27f08c50fd0652e", null ],
+    [ "_timer", "de/d69/a04679.html#ga2377cec7cca6dbb9133a3d48b4d376c3", null ],
+    [ "_worldLoopCounter", "de/d69/a04679.html#ga0ea988a0e070d056c16d7c9f3b1035f4", null ]
 ];

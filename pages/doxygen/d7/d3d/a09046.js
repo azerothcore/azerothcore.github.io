@@ -1,8 +1,9 @@
 var a09046 =
 [
-    [ "NearestAttackableNoTotemUnitInObjectRangeCheck", "d7/d3d/a09046.html#a1f0bf90a7b9c57d05c54e3db6827aec1", null ],
-    [ "operator()", "d7/d3d/a09046.html#a08f8e473914c8a7bddbf26568294c18b", null ],
-    [ "i_obj", "d7/d3d/a09046.html#a949ff3bcc3530206d83512d293647a2b", null ],
-    [ "i_owner", "d7/d3d/a09046.html#a64f58427bbab3276bdc53450b33eca12", null ],
-    [ "i_range", "d7/d3d/a09046.html#af52388830cec17e32b1d368739b4555a", null ]
+    [ "PlayerLastSearcher", "d7/d3d/a09046.html#a0a4c736bbde38ccb0a0a8ceafdb751c7", null ],
+    [ "Visit", "d7/d3d/a09046.html#a25785fbe4cb8ac9a8753705b9df3b507", null ],
+    [ "Visit", "d7/d3d/a09046.html#a19e60fc9fc43ad3a718132a2884e41b0", null ],
+    [ "i_check", "d7/d3d/a09046.html#a93f5e1dd1f680cc9467671b59d2c5a12", null ],
+    [ "i_object", "d7/d3d/a09046.html#a2d9af6a6ef1105b19c49852fce17b8e6", null ],
+    [ "i_phaseMask", "d7/d3d/a09046.html#ad5bfaa4154c99e34515da98db7dccadf", null ]
 ];

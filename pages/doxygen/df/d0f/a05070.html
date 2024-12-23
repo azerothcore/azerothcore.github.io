@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Crypto::SRP6 Class Reference</title>
+<title>AzerothCore: BigNumber Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,161 +105,268 @@ $(document).ready(function(){initNavTree('df/d0f/a05070.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
-<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
-<a href="#pri-static-methods">Static Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#pri-static-attribs">Static Private Attributes</a> &#124;
 <a href="../../d3/df0/a05067.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Crypto::SRP6 Class Reference</div></div>
+  <div class="headertitle"><div class="title">BigNumber Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SRP6.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">BigNumber.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a757f8fd19ebecda921e4e42f65586f9f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> = std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a> &gt;</td></tr>
-<tr class="separator:a757f8fd19ebecda921e4e42f65586f9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab771d05cb201bbdc3c20a5cb087a023e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> = std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a> &gt;</td></tr>
-<tr class="separator:ab771d05cb201bbdc3c20a5cb087a023e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afae4839b42283dc258817a0d300b4bca"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> = std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> &gt;</td></tr>
-<tr class="separator:afae4839b42283dc258817a0d300b4bca"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a75a70b4828e40146e59263a18527a77c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a75a70b4828e40146e59263a18527a77c">SRP6</a> (std::string const &amp;username, <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt, <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;verifier)</td></tr>
-<tr class="separator:a75a70b4828e40146e59263a18527a77c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2270520850359c1e401ba883ef19bc66"><td class="memItemLeft" align="right" valign="top">std::optional&lt; <a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a2270520850359c1e401ba883ef19bc66">VerifyChallengeResponse</a> (<a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;A, <a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;clientM)</td></tr>
-<tr class="separator:a2270520850359c1e401ba883ef19bc66"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a7b6fd9e89b01f65dcc8ff4a2bef189f5"><td class="memItemLeft" align="right" valign="top">static std::pair&lt; <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a>, <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a7b6fd9e89b01f65dcc8ff4a2bef189f5">MakeRegistrationData</a> (std::string const &amp;username, std::string const &amp;password)</td></tr>
-<tr class="separator:a7b6fd9e89b01f65dcc8ff4a2bef189f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a790d7883ae0685bf2135d83edeb29121"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a790d7883ae0685bf2135d83edeb29121">CheckLogin</a> (std::string const &amp;username, std::string const &amp;password, <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt, <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;verifier)</td></tr>
-<tr class="separator:a790d7883ae0685bf2135d83edeb29121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa44e4e9c88fcfff3fb6f8c4b24c10ab6"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#aa44e4e9c88fcfff3fb6f8c4b24c10ab6">GetSessionVerifier</a> (<a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;A, <a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;clientM, <a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;K)</td></tr>
-<tr class="separator:aa44e4e9c88fcfff3fb6f8c4b24c10ab6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:adddd53dfcb2d933c6fa7fd7956f6c7c3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a></td></tr>
-<tr class="separator:adddd53dfcb2d933c6fa7fd7956f6c7c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a508a8478810de9c7515ecd9311053010"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a508a8478810de9c7515ecd9311053010">B</a></td></tr>
-<tr class="separator:a508a8478810de9c7515ecd9311053010"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
-Static Public Attributes</h2></td></tr>
-<tr class="memitem:add5273640d1504c69395c71d495a3deb"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a> = 32</td></tr>
-<tr class="separator:add5273640d1504c69395c71d495a3deb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3a7f44395bcbc849665897c3d7db59d5"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a> = 32</td></tr>
-<tr class="separator:a3a7f44395bcbc849665897c3d7db59d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa40dc69a75bfd7c16f3d884c400aebb"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> = 32</td></tr>
-<tr class="separator:afa40dc69a75bfd7c16f3d884c400aebb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99e0339e5372c12d0a68e13c892d2b8b"><td class="memItemLeft" align="right" valign="top">static std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 1 &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a99e0339e5372c12d0a68e13c892d2b8b">g</a> = { 7 }</td></tr>
-<tr class="separator:a99e0339e5372c12d0a68e13c892d2b8b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e1619df2fd1dd9fa5ebba195c7adf2a"><td class="memItemLeft" align="right" valign="top">static std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 32 &gt; const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a> = <a class="el" href="../../d4/d13/a00377.html#a0a709bcf2ca40e60217ee113150a1ad8">HexStrToByteArray</a>&lt;32&gt;(&quot;894B645E89E1535BBDAD5B8B290650530801B18EBFBF5E8FAB3C82872A3E9BB7&quot;, true)</td></tr>
-<tr class="separator:a5e1619df2fd1dd9fa5ebba195c7adf2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-methods" name="pri-static-methods"></a>
-Static Private Member Functions</h2></td></tr>
-<tr class="memitem:a1d61f6a3ef4605658a6f01b2f2b9a733"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a> (std::string const &amp;username, std::string const &amp;password, <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;salt)</td></tr>
-<tr class="separator:a1d61f6a3ef4605658a6f01b2f2b9a733"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4bea2cb781fcda13809e79165f5c9821"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a4bea2cb781fcda13809e79165f5c9821">SHA1Interleave</a> (<a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;S)</td></tr>
-<tr class="separator:a4bea2cb781fcda13809e79165f5c9821"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac55fb807e4eeb5b2d0262618901125ad"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ac55fb807e4eeb5b2d0262618901125ad">_B</a> (<a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const &amp;b, <a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const &amp;v)</td></tr>
-<tr class="separator:ac55fb807e4eeb5b2d0262618901125ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d12fbec476322042ba36e61e1b0db82"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber</a> ()</td></tr>
+<tr class="separator:a0d12fbec476322042ba36e61e1b0db82"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cc54c13285f956529a2466d0747b3a1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a6cc54c13285f956529a2466d0747b3a1">BigNumber</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:a6cc54c13285f956529a2466d0747b3a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42fb2a297879384c536282ff3a51ccb1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a42fb2a297879384c536282ff3a51ccb1">BigNumber</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> v)</td></tr>
+<tr class="separator:a42fb2a297879384c536282ff3a51ccb1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d51f906638c88c3a0ba30078b4b30e8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a4d51f906638c88c3a0ba30078b4b30e8">BigNumber</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> v)</td></tr>
+<tr class="separator:a4d51f906638c88c3a0ba30078b4b30e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa57e0d9086a458da3926c4c10e1372a6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#aa57e0d9086a458da3926c4c10e1372a6">BigNumber</a> (std::string const &amp;v)</td></tr>
+<tr class="separator:aa57e0d9086a458da3926c4c10e1372a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f611607357080feb804bedf3d3a5fb6"><td class="memTemplParams" colspan="2">template&lt;std::size_t Size&gt; </td></tr>
+<tr class="memitem:a1f611607357080feb804bedf3d3a5fb6"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a1f611607357080feb804bedf3d3a5fb6">BigNumber</a> (std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, Size &gt; const &amp;v, bool littleEndian=true)</td></tr>
+<tr class="separator:a1f611607357080feb804bedf3d3a5fb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31f1042005ca4bb437c140474e42d5ee"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a31f1042005ca4bb437c140474e42d5ee">~BigNumber</a> ()</td></tr>
+<tr class="separator:a31f1042005ca4bb437c140474e42d5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c73ea11d02eb8261dcbffafdf20a0dd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a4c73ea11d02eb8261dcbffafdf20a0dd">SetDword</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>)</td></tr>
+<tr class="separator:a4c73ea11d02eb8261dcbffafdf20a0dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a23f11982d4cf977d3402720805d944ef"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a23f11982d4cf977d3402720805d944ef">SetDword</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a23f11982d4cf977d3402720805d944ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb31d31425a3b0ed50ffd828fc58b09d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#adb31d31425a3b0ed50ffd828fc58b09d">SetQword</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>)</td></tr>
+<tr class="separator:adb31d31425a3b0ed50ffd828fc58b09d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57746ee046901c640e1fc363b204b867"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a57746ee046901c640e1fc363b204b867">SetBinary</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *bytes, <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> len, bool littleEndian=true)</td></tr>
+<tr class="separator:a57746ee046901c640e1fc363b204b867"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b90bce7034febfe487215dd0b10478"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
+<tr class="memitem:a93b90bce7034febfe487215dd0b10478"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a93b90bce7034febfe487215dd0b10478">SetBinary</a> (<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;c, bool littleEndian=true) -&gt; std::enable_if_t&lt;!std::is_pointer_v&lt; std::decay_t&lt; <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; &gt; &gt;</td></tr>
+<tr class="separator:a93b90bce7034febfe487215dd0b10478"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeefbcfb38816531e8b4879be770f730"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#afeefbcfb38816531e8b4879be770f730">SetHexStr</a> (char const *str)</td></tr>
+<tr class="separator:afeefbcfb38816531e8b4879be770f730"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d46472a8b0fda9b8f8d36bc8c089955"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a9d46472a8b0fda9b8f8d36bc8c089955">SetHexStr</a> (std::string const &amp;str)</td></tr>
+<tr class="separator:a9d46472a8b0fda9b8f8d36bc8c089955"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a434f19ba1bf3d2be577cef8f18f9624a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a434f19ba1bf3d2be577cef8f18f9624a">SetRand</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> numbits)</td></tr>
+<tr class="separator:a434f19ba1bf3d2be577cef8f18f9624a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adeb36be6df38ff007a2a2ae8957e5c22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#adeb36be6df38ff007a2a2ae8957e5c22">operator=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:adeb36be6df38ff007a2a2ae8957e5c22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac537a97649017f18db924ba0a2d495b3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ac537a97649017f18db924ba0a2d495b3">operator+=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:ac537a97649017f18db924ba0a2d495b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88dfbc205089c41b5134b18839e8a0fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a88dfbc205089c41b5134b18839e8a0fa">operator+</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a88dfbc205089c41b5134b18839e8a0fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe6e46942aca36cc09a9ae8ba18b69a4"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#abe6e46942aca36cc09a9ae8ba18b69a4">operator-=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:abe6e46942aca36cc09a9ae8ba18b69a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59cb31175e9514bcb303a4c72903868e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a59cb31175e9514bcb303a4c72903868e">operator-</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a59cb31175e9514bcb303a4c72903868e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a948e4a418d123aae8fdfa1e5aa6ff455"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a948e4a418d123aae8fdfa1e5aa6ff455">operator*=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:a948e4a418d123aae8fdfa1e5aa6ff455"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51925260d8134756994a638e8b8d0ccd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a51925260d8134756994a638e8b8d0ccd">operator*</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a51925260d8134756994a638e8b8d0ccd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a403fa21099799b07445aff3ba8d1fd7f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a403fa21099799b07445aff3ba8d1fd7f">operator/=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:a403fa21099799b07445aff3ba8d1fd7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab654edbb625050d567970afb2d1021f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ab654edbb625050d567970afb2d1021f0">operator/</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:ab654edbb625050d567970afb2d1021f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa978bc7f4ae098f0a5c973dc0679da31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#aa978bc7f4ae098f0a5c973dc0679da31">operator%=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn)</td></tr>
+<tr class="separator:aa978bc7f4ae098f0a5c973dc0679da31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a23ad667552832044370678ccd5d2fb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a7a23ad667552832044370678ccd5d2fb">operator%</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a7a23ad667552832044370678ccd5d2fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01648adec08358efb8d5c2a4c9bf4d18"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a01648adec08358efb8d5c2a4c9bf4d18">operator&lt;&lt;=</a> (int n)</td></tr>
+<tr class="separator:a01648adec08358efb8d5c2a4c9bf4d18"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2b96d6cc00f428da07c7e966d4f7f0a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ac2b96d6cc00f428da07c7e966d4f7f0a">operator&lt;&lt;</a> (int n) const</td></tr>
+<tr class="separator:ac2b96d6cc00f428da07c7e966d4f7f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b599db0b63c6ba0d93f067b43b5ef3d"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a2b599db0b63c6ba0d93f067b43b5ef3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb698519f72a82df224deca5d336f961"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#acb698519f72a82df224deca5d336f961">operator&lt;=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:acb698519f72a82df224deca5d336f961"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac92d26609a40db09023a3a4ac34533a2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ac92d26609a40db09023a3a4ac34533a2">operator==</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:ac92d26609a40db09023a3a4ac34533a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a09c0956ffbc4413200140793ff353051"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a09c0956ffbc4413200140793ff353051">operator&gt;=</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a09c0956ffbc4413200140793ff353051"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52c53ce9edf6b75802a4d0c776e03790"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a52c53ce9edf6b75802a4d0c776e03790">operator&lt;</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a52c53ce9edf6b75802a4d0c776e03790"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d2f81b67b9299e1cab10c54fea9cc47"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a5d2f81b67b9299e1cab10c54fea9cc47">operator&gt;</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn) const</td></tr>
+<tr class="separator:a5d2f81b67b9299e1cab10c54fea9cc47"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3a70db29f7efa004bbe4c081c628b30"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ad3a70db29f7efa004bbe4c081c628b30">IsZero</a> () const</td></tr>
+<tr class="separator:ad3a70db29f7efa004bbe4c081c628b30"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6e40ba741513c0cbb29a05a3b6254029"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a6e40ba741513c0cbb29a05a3b6254029">IsNegative</a> () const</td></tr>
+<tr class="separator:a6e40ba741513c0cbb29a05a3b6254029"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20156698f9ba2361dd37c8239355d2da"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn1, <a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;bn2) const</td></tr>
+<tr class="separator:a20156698f9ba2361dd37c8239355d2da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c1cd151a38c6173c14ae0f9abe77b83"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a1c1cd151a38c6173c14ae0f9abe77b83">Exp</a> (<a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;) const</td></tr>
+<tr class="separator:a1c1cd151a38c6173c14ae0f9abe77b83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6e59df65e45251677cf033d9ca25c23"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ab6e59df65e45251677cf033d9ca25c23">GetNumBytes</a> () const</td></tr>
+<tr class="separator:ab6e59df65e45251677cf033d9ca25c23"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1dff830e1deda3434b194f806d8c7e38"><td class="memItemLeft" align="right" valign="top">struct bignum_st *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a1dff830e1deda3434b194f806d8c7e38">BN</a> ()</td></tr>
+<tr class="separator:a1dff830e1deda3434b194f806d8c7e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65b7c9ab7ebd7e537b87a4dde63a8e9b"><td class="memItemLeft" align="right" valign="top">struct bignum_st const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a65b7c9ab7ebd7e537b87a4dde63a8e9b">BN</a> () const</td></tr>
+<tr class="separator:a65b7c9ab7ebd7e537b87a4dde63a8e9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a335cd67c8f67317964ab50f0599a57d8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a335cd67c8f67317964ab50f0599a57d8">AsDword</a> () const</td></tr>
+<tr class="separator:a335cd67c8f67317964ab50f0599a57d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a395ec81b4c07472ec1e99c76077cc861"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a395ec81b4c07472ec1e99c76077cc861">GetBytes</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *buf, std::size_t bufsize, bool littleEndian=true) const</td></tr>
+<tr class="separator:a395ec81b4c07472ec1e99c76077cc861"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a277a30ac66e478839331339eff0284e4"><td class="memItemLeft" align="right" valign="top">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a277a30ac66e478839331339eff0284e4">ToByteVector</a> (<a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> minSize=0, bool littleEndian=true) const</td></tr>
+<tr class="separator:a277a30ac66e478839331339eff0284e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d8f945d5e123c4f81c10d3202b8d462"><td class="memTemplParams" colspan="2">template&lt;std::size_t Size&gt; </td></tr>
+<tr class="memitem:a2d8f945d5e123c4f81c10d3202b8d462"><td class="memTemplItemLeft" align="right" valign="top">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, Size &gt;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a2d8f945d5e123c4f81c10d3202b8d462">ToByteArray</a> (bool littleEndian=true) const</td></tr>
+<tr class="separator:a2d8f945d5e123c4f81c10d3202b8d462"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62c50843e3e140f998f4a872f40b8f6a"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a62c50843e3e140f998f4a872f40b8f6a">AsHexStr</a> () const</td></tr>
+<tr class="separator:a62c50843e3e140f998f4a872f40b8f6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a264db5871aec31b0f990f86ccc672ad6"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a264db5871aec31b0f990f86ccc672ad6">AsDecStr</a> () const</td></tr>
+<tr class="separator:a264db5871aec31b0f990f86ccc672ad6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a440a76a05a5847a081fbe35e582ee643"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a440a76a05a5847a081fbe35e582ee643">_used</a> = false</td></tr>
-<tr class="separator:a440a76a05a5847a081fbe35e582ee643"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf160be38247f3335e2790c13011e8eb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#adf160be38247f3335e2790c13011e8eb">_I</a></td></tr>
-<tr class="separator:adf160be38247f3335e2790c13011e8eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae10b48d44b72d117fdc0a8ad7b4d026f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a></td></tr>
-<tr class="separator:ae10b48d44b72d117fdc0a8ad7b4d026f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca8df898648a196d62d0d7c2f7f9769d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a></td></tr>
-<tr class="separator:aca8df898648a196d62d0d7c2f7f9769d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-static-attribs" name="pri-static-attribs"></a>
-Static Private Attributes</h2></td></tr>
-<tr class="memitem:ad2e325ecdd9cad99008b2663600e6180"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#ad2e325ecdd9cad99008b2663600e6180">_g</a></td></tr>
-<tr class="separator:ad2e325ecdd9cad99008b2663600e6180"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6467d93d9b2c57d6676c2351eb5a4e0a"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a></td></tr>
-<tr class="separator:a6467d93d9b2c57d6676c2351eb5a4e0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a97db62040b8cb3cdefeeee9e697b0cd2"><td class="memItemLeft" align="right" valign="top">struct bignum_st *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a></td></tr>
+<tr class="separator:a97db62040b8cb3cdefeeee9e697b0cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="afae4839b42283dc258817a0d300b4bca" name="afae4839b42283dc258817a0d300b4bca"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afae4839b42283dc258817a0d300b4bca">&#9670;&#160;</a></span>EphemeralKey</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0d12fbec476322042ba36e61e1b0db82" name="a0d12fbec476322042ba36e61e1b0db82"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d12fbec476322042ba36e61e1b0db82">&#9670;&#160;</a></span>BigNumber() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">Acore::Crypto::SRP6::EphemeralKey</a> =  std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a>&gt;</td>
+          <td class="memname">BigNumber::BigNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   26</span>    : <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>(BN_new())</div>
+<div class="line"><span class="lineno">   27</span>{ }</div>
+<div class="ttc" id="aa05070_html_a97db62040b8cb3cdefeeee9e697b0cd2"><div class="ttname"><a href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">BigNumber::_bn</a></div><div class="ttdeci">struct bignum_st * _bn</div><div class="ttdef"><b>Definition:</b> BigNumber.h:134</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="a757f8fd19ebecda921e4e42f65586f9f" name="a757f8fd19ebecda921e4e42f65586f9f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a757f8fd19ebecda921e4e42f65586f9f">&#9670;&#160;</a></span>Salt</h2>
+<a id="a6cc54c13285f956529a2466d0747b3a1" name="a6cc54c13285f956529a2466d0747b3a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cc54c13285f956529a2466d0747b3a1">&#9670;&#160;</a></span>BigNumber() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Acore::Crypto::SRP6::Salt</a> =  std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#add5273640d1504c69395c71d495a3deb">SALT_LENGTH</a>&gt;</td>
+          <td class="memname">BigNumber::BigNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   30</span>    : <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>(BN_dup(bn.BN()))</div>
+<div class="line"><span class="lineno">   31</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
-<a id="ab771d05cb201bbdc3c20a5cb087a023e" name="ab771d05cb201bbdc3c20a5cb087a023e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab771d05cb201bbdc3c20a5cb087a023e">&#9670;&#160;</a></span>Verifier</h2>
+<a id="a42fb2a297879384c536282ff3a51ccb1" name="a42fb2a297879384c536282ff3a51ccb1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42fb2a297879384c536282ff3a51ccb1">&#9670;&#160;</a></span>BigNumber() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Acore::Crypto::SRP6::Verifier</a> =  std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../df/d0f/a05070.html#a3a7f44395bcbc849665897c3d7db59d5">VERIFIER_LENGTH</a>&gt;</td>
+          <td class="memname">BigNumber::BigNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-
+<div class="fragment"><div class="line"><span class="lineno">   33</span>: <a class="code hl_function" href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber</a>() { <a class="code hl_function" href="../../df/d0f/a05070.html#a4c73ea11d02eb8261dcbffafdf20a0dd">SetDword</a>(v); }</div>
+<div class="ttc" id="aa05070_html_a0d12fbec476322042ba36e61e1b0db82"><div class="ttname"><a href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber::BigNumber</a></div><div class="ttdeci">BigNumber()</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:25</div></div>
+<div class="ttc" id="aa05070_html_a4c73ea11d02eb8261dcbffafdf20a0dd"><div class="ttname"><a href="../../df/d0f/a05070.html#a4c73ea11d02eb8261dcbffafdf20a0dd">BigNumber::SetDword</a></div><div class="ttdeci">void SetDword(int32)</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:38</div></div>
+</div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a75a70b4828e40146e59263a18527a77c" name="a75a70b4828e40146e59263a18527a77c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75a70b4828e40146e59263a18527a77c">&#9670;&#160;</a></span>SRP6()</h2>
+<a id="a4d51f906638c88c3a0ba30078b4b30e8" name="a4d51f906638c88c3a0ba30078b4b30e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d51f906638c88c3a0ba30078b4b30e8">&#9670;&#160;</a></span>BigNumber() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SRP6::SRP6 </td>
+          <td class="memname">BigNumber::BigNumber </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>: <a class="code hl_function" href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber</a>() { <a class="code hl_function" href="../../df/d0f/a05070.html#a4c73ea11d02eb8261dcbffafdf20a0dd">SetDword</a>(v); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa57e0d9086a458da3926c4c10e1372a6" name="aa57e0d9086a458da3926c4c10e1372a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa57e0d9086a458da3926c4c10e1372a6">&#9670;&#160;</a></span>BigNumber() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BigNumber::BigNumber </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>: <a class="code hl_function" href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber</a>() { <a class="code hl_function" href="../../df/d0f/a05070.html#afeefbcfb38816531e8b4879be770f730">SetHexStr</a>(v); }</div>
+<div class="ttc" id="aa05070_html_afeefbcfb38816531e8b4879be770f730"><div class="ttname"><a href="../../df/d0f/a05070.html#afeefbcfb38816531e8b4879be770f730">BigNumber::SetHexStr</a></div><div class="ttdeci">bool SetHexStr(char const *str)</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:65</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1f611607357080feb804bedf3d3a5fb6" name="a1f611607357080feb804bedf3d3a5fb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1f611607357080feb804bedf3d3a5fb6">&#9670;&#160;</a></span>BigNumber() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">BigNumber::BigNumber </td>
+          <td>(</td>
+          <td class="paramtype">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, Size &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;&#160;</td>
-          <td class="paramname"><em>verifier</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -267,65 +374,115 @@ Static Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   85</span>    : <a class="code hl_variable" href="../../df/d0f/a05070.html#adf160be38247f3335e2790c13011e8eb">_I</a>(<a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(username)), <a class="code hl_variable" href="../../df/d0f/a05070.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>(Crypto::GetRandomBytes&lt;32&gt;()), <a class="code hl_variable" href="../../df/d0f/a05070.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>(verifier), <a class="code hl_variable" href="../../df/d0f/a05070.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a>(salt), <a class="code hl_variable" href="../../df/d0f/a05070.html#a508a8478810de9c7515ecd9311053010">B</a>(<a class="code hl_function" href="../../df/d0f/a05070.html#ac55fb807e4eeb5b2d0262618901125ad">_B</a>(<a class="code hl_variable" href="../../df/d0f/a05070.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>)) {}</div>
-<div class="ttc" id="aa05070_html_a508a8478810de9c7515ecd9311053010"><div class="ttname"><a href="../../df/d0f/a05070.html#a508a8478810de9c7515ecd9311053010">Acore::Crypto::SRP6::B</a></div><div class="ttdeci">EphemeralKey const B</div><div class="ttdef"><b>Definition:</b> SRP6.h:79</div></div>
-<div class="ttc" id="aa05070_html_ac55fb807e4eeb5b2d0262618901125ad"><div class="ttname"><a href="../../df/d0f/a05070.html#ac55fb807e4eeb5b2d0262618901125ad">Acore::Crypto::SRP6::_B</a></div><div class="ttdeci">static EphemeralKey _B(BigNumber const &amp;b, BigNumber const &amp;v)</div><div class="ttdef"><b>Definition:</b> SRP6.h:70</div></div>
-<div class="ttc" id="aa05070_html_aca8df898648a196d62d0d7c2f7f9769d"><div class="ttname"><a href="../../df/d0f/a05070.html#aca8df898648a196d62d0d7c2f7f9769d">Acore::Crypto::SRP6::_v</a></div><div class="ttdeci">BigNumber const _v</div><div class="ttdef"><b>Definition:</b> SRP6.h:75</div></div>
-<div class="ttc" id="aa05070_html_adddd53dfcb2d933c6fa7fd7956f6c7c3"><div class="ttname"><a href="../../df/d0f/a05070.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">Acore::Crypto::SRP6::s</a></div><div class="ttdeci">Salt const s</div><div class="ttdef"><b>Definition:</b> SRP6.h:78</div></div>
-<div class="ttc" id="aa05070_html_adf160be38247f3335e2790c13011e8eb"><div class="ttname"><a href="../../df/d0f/a05070.html#adf160be38247f3335e2790c13011e8eb">Acore::Crypto::SRP6::_I</a></div><div class="ttdeci">SHA1::Digest const _I</div><div class="ttdef"><b>Definition:</b> SRP6.h:73</div></div>
-<div class="ttc" id="aa05070_html_ae10b48d44b72d117fdc0a8ad7b4d026f"><div class="ttname"><a href="../../df/d0f/a05070.html#ae10b48d44b72d117fdc0a8ad7b4d026f">Acore::Crypto::SRP6::_b</a></div><div class="ttdeci">BigNumber const _b</div><div class="ttdef"><b>Definition:</b> SRP6.h:74</div></div>
-<div class="ttc" id="aa05090_html_a42db9cd1a68778340bfdb7c7a8a049de"><div class="ttname"><a href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">Acore::Impl::GenericHash::GetDigestOf</a></div><div class="ttdeci">static Digest GetDigestOf(uint8 const *data, std::size_t len)</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:48</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>: <a class="code hl_function" href="../../df/d0f/a05070.html#a0d12fbec476322042ba36e61e1b0db82">BigNumber</a>() { <a class="code hl_function" href="../../df/d0f/a05070.html#a57746ee046901c640e1fc363b204b867">SetBinary</a>(v.data(), Size, littleEndian); }</div>
+<div class="ttc" id="aa05070_html_a57746ee046901c640e1fc363b204b867"><div class="ttname"><a href="../../df/d0f/a05070.html#a57746ee046901c640e1fc363b204b867">BigNumber::SetBinary</a></div><div class="ttdeci">void SetBinary(uint8 const *bytes, int32 len, bool littleEndian=true)</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:57</div></div>
 </div><!-- fragment -->
+</div>
+</div>
+<a id="a31f1042005ca4bb437c140474e42d5ee" name="a31f1042005ca4bb437c140474e42d5ee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31f1042005ca4bb437c140474e42d5ee">&#9670;&#160;</a></span>~BigNumber()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">BigNumber::~BigNumber </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   34</span>{</div>
+<div class="line"><span class="lineno">   35</span>    BN_free(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">   36</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ac55fb807e4eeb5b2d0262618901125ad" name="ac55fb807e4eeb5b2d0262618901125ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac55fb807e4eeb5b2d0262618901125ad">&#9670;&#160;</a></span>_B()</h2>
+<a id="a264db5871aec31b0f990f86ccc672ad6" name="a264db5871aec31b0f990f86ccc672ad6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a264db5871aec31b0f990f86ccc672ad6">&#9670;&#160;</a></span>AsDecStr()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> Acore::Crypto::SRP6::_B </td>
+          <td class="memname">std::string BigNumber::AsDecStr </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const &amp;&#160;</td>
-          <td class="paramname"><em>b</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const &amp;&#160;</td>
-          <td class="paramname"><em>v</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   70</span>{ <span class="keywordflow">return</span> ((<a class="code hl_variable" href="../../df/d0f/a05070.html#ad2e325ecdd9cad99008b2663600e6180">_g</a>.<a class="code hl_function" href="../../d9/d65/a05074.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(b, <a class="code hl_variable" href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>) + (v * 3)) % <a class="code hl_variable" href="../../df/d0f/a05070.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>).ToByteArray&lt;<a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a>&gt;(); }</div>
-<div class="ttc" id="aa05070_html_a5e1619df2fd1dd9fa5ebba195c7adf2a"><div class="ttname"><a href="../../df/d0f/a05070.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">Acore::Crypto::SRP6::N</a></div><div class="ttdeci">static std::array&lt; uint8, 32 &gt; const N</div><div class="ttdef"><b>Definition:</b> SRP6.h:41</div></div>
-<div class="ttc" id="aa05070_html_a6467d93d9b2c57d6676c2351eb5a4e0a"><div class="ttname"><a href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">Acore::Crypto::SRP6::_N</a></div><div class="ttdeci">static BigNumber const _N</div><div class="ttdef"><b>Definition:</b> SRP6.h:68</div></div>
-<div class="ttc" id="aa05070_html_ad2e325ecdd9cad99008b2663600e6180"><div class="ttname"><a href="../../df/d0f/a05070.html#ad2e325ecdd9cad99008b2663600e6180">Acore::Crypto::SRP6::_g</a></div><div class="ttdeci">static BigNumber const _g</div><div class="ttdef"><b>Definition:</b> SRP6.h:67</div></div>
-<div class="ttc" id="aa05070_html_afa40dc69a75bfd7c16f3d884c400aebb"><div class="ttname"><a href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">Acore::Crypto::SRP6::EPHEMERAL_KEY_LENGTH</a></div><div class="ttdeci">static constexpr std::size_t EPHEMERAL_KEY_LENGTH</div><div class="ttdef"><b>Definition:</b> SRP6.h:37</div></div>
-<div class="ttc" id="aa05074_html_a20156698f9ba2361dd37c8239355d2da"><div class="ttname"><a href="../../d9/d65/a05074.html#a20156698f9ba2361dd37c8239355d2da">BigNumber::ModExp</a></div><div class="ttdeci">BigNumber ModExp(BigNumber const &amp;bn1, BigNumber const &amp;bn2) const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:153</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  209</span>{</div>
+<div class="line"><span class="lineno">  210</span>    <span class="keywordtype">char</span>* ch = BN_bn2dec(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  211</span>    std::string ret = ch;</div>
+<div class="line"><span class="lineno">  212</span>    OPENSSL_free(ch);</div>
+<div class="line"><span class="lineno">  213</span>    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  214</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00153">BigNumber::ModExp()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
 
 </div>
 </div>
-<a id="a1d61f6a3ef4605658a6f01b2f2b9a733" name="a1d61f6a3ef4605658a6f01b2f2b9a733"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d61f6a3ef4605658a6f01b2f2b9a733">&#9670;&#160;</a></span>CalculateVerifier()</h2>
+<a id="a335cd67c8f67317964ab50f0599a57d8" name="a335cd67c8f67317964ab50f0599a57d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a335cd67c8f67317964ab50f0599a57d8">&#9670;&#160;</a></span>AsDword()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> BigNumber::AsDword </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  171</span>{</div>
+<div class="line"><span class="lineno">  172</span>    <span class="keywordflow">return</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)BN_get_word(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  173</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a62c50843e3e140f998f4a872f40b8f6a" name="a62c50843e3e140f998f4a872f40b8f6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62c50843e3e140f998f4a872f40b8f6a">&#9670;&#160;</a></span>AsHexStr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string BigNumber::AsHexStr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  201</span>{</div>
+<div class="line"><span class="lineno">  202</span>    <span class="keywordtype">char</span>* ch = BN_bn2hex(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  203</span>    std::string ret = ch;</div>
+<div class="line"><span class="lineno">  204</span>    OPENSSL_free(ch);</div>
+<div class="line"><span class="lineno">  205</span>    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  206</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a1dff830e1deda3434b194f806d8c7e38" name="a1dff830e1deda3434b194f806d8c7e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1dff830e1deda3434b194f806d8c7e38">&#9670;&#160;</a></span>BN() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -334,22 +491,823 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">SRP6::Verifier</a> SRP6::CalculateVerifier </td>
+          <td class="memname">struct bignum_st * BigNumber::BN </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  114</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a65b7c9ab7ebd7e537b87a4dde63a8e9b" name="a65b7c9ab7ebd7e537b87a4dde63a8e9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65b7c9ab7ebd7e537b87a4dde63a8e9b">&#9670;&#160;</a></span>BN() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">struct bignum_st const  * BigNumber::BN </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  115</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2b599db0b63c6ba0d93f067b43b5ef3d" name="a2b599db0b63c6ba0d93f067b43b5ef3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b599db0b63c6ba0d93f067b43b5ef3d">&#9670;&#160;</a></span>CompareTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int BigNumber::CompareTo </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  137</span>{</div>
+<div class="line"><span class="lineno">  138</span>    <span class="keywordflow">return</span> BN_cmp(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn);</div>
+<div class="line"><span class="lineno">  139</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a1c1cd151a38c6173c14ae0f9abe77b83" name="a1c1cd151a38c6173c14ae0f9abe77b83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1c1cd151a38c6173c14ae0f9abe77b83">&#9670;&#160;</a></span>Exp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::Exp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  142</span>{</div>
+<div class="line"><span class="lineno">  143</span>    <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> ret;</div>
+<div class="line"><span class="lineno">  144</span>    BN_CTX *bnctx;</div>
+<div class="line"><span class="lineno">  145</span> </div>
+<div class="line"><span class="lineno">  146</span>    bnctx = BN_CTX_new();</div>
+<div class="line"><span class="lineno">  147</span>    BN_exp(ret.<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn, bnctx);</div>
+<div class="line"><span class="lineno">  148</span>    BN_CTX_free(bnctx);</div>
+<div class="line"><span class="lineno">  149</span> </div>
+<div class="line"><span class="lineno">  150</span>    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  151</span>}</div>
+<div class="ttc" id="aa05070_html"><div class="ttname"><a href="../../df/d0f/a05070.html">BigNumber</a></div><div class="ttdef"><b>Definition:</b> BigNumber.h:29</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a395ec81b4c07472ec1e99c76077cc861" name="a395ec81b4c07472ec1e99c76077cc861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a395ec81b4c07472ec1e99c76077cc861">&#9670;&#160;</a></span>GetBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BigNumber::GetBytes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> *&#160;</td>
+          <td class="paramname"><em>buf</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>, </td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>bufsize</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">SRP6::Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  186</span>{</div>
+<div class="line"><span class="lineno">  187</span>    <span class="keywordtype">int</span> res = littleEndian ? BN_bn2lebinpad(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, buf, bufsize) : BN_bn2binpad(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, buf, bufsize);</div>
+<div class="line"><span class="lineno">  188</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(res &gt; 0, <span class="stringliteral">&quot;Buffer of size {} is too small to hold bignum with {} bytes.\n&quot;</span>, bufsize, BN_num_bytes(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>));</div>
+<div class="line"><span class="lineno">  189</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00191">ToByteVector()</a>.</p>
+
+</div>
+</div>
+<a id="ab6e59df65e45251677cf033d9ca25c23" name="ab6e59df65e45251677cf033d9ca25c23"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6e59df65e45251677cf033d9ca25c23">&#9670;&#160;</a></span>GetNumBytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> BigNumber::GetNumBytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  166</span>{</div>
+<div class="line"><span class="lineno">  167</span>    <span class="keywordflow">return</span> BN_num_bytes(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  168</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00057">GetCheckPacketSize()</a>, and <a class="el" href="../../#l00191">ToByteVector()</a>.</p>
+
+</div>
+</div>
+<a id="a6e40ba741513c0cbb29a05a3b6254029" name="a6e40ba741513c0cbb29a05a3b6254029"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e40ba741513c0cbb29a05a3b6254029">&#9670;&#160;</a></span>IsNegative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::IsNegative </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  181</span>{</div>
+<div class="line"><span class="lineno">  182</span>    <span class="keywordflow">return</span> BN_is_negative(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  183</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="ad3a70db29f7efa004bbe4c081c628b30" name="ad3a70db29f7efa004bbe4c081c628b30"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3a70db29f7efa004bbe4c081c628b30">&#9670;&#160;</a></span>IsZero()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::IsZero </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  176</span>{</div>
+<div class="line"><span class="lineno">  177</span>    <span class="keywordflow">return</span> BN_is_zero(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">  178</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a20156698f9ba2361dd37c8239355d2da" name="a20156698f9ba2361dd37c8239355d2da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20156698f9ba2361dd37c8239355d2da">&#9670;&#160;</a></span>ModExp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::ModExp </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  154</span>{</div>
+<div class="line"><span class="lineno">  155</span>    <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> ret;</div>
+<div class="line"><span class="lineno">  156</span>    BN_CTX *bnctx;</div>
+<div class="line"><span class="lineno">  157</span> </div>
+<div class="line"><span class="lineno">  158</span>    bnctx = BN_CTX_new();</div>
+<div class="line"><span class="lineno">  159</span>    BN_mod_exp(ret.<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn1._bn, bn2._bn, bnctx);</div>
+<div class="line"><span class="lineno">  160</span>    BN_CTX_free(bnctx);</div>
+<div class="line"><span class="lineno">  161</span> </div>
+<div class="line"><span class="lineno">  162</span>    <span class="keywordflow">return</span> ret;</div>
+<div class="line"><span class="lineno">  163</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00070">Acore::Crypto::SRP6::_B()</a>, <a class="el" href="../../#l00039">Acore::Crypto::SRP6::CalculateVerifier()</a>, and <a class="el" href="../../#l00087">Acore::Crypto::SRP6::VerifyChallengeResponse()</a>.</p>
+
+</div>
+</div>
+<a id="a7a23ad667552832044370678ccd5d2fb" name="a7a23ad667552832044370678ccd5d2fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a23ad667552832044370678ccd5d2fb">&#9670;&#160;</a></span>operator%()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator% </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>    {</div>
+<div class="line"><span class="lineno">   88</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   89</span>        <span class="keywordflow">return</span> t %= bn;</div>
+<div class="line"><span class="lineno">   90</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa978bc7f4ae098f0a5c973dc0679da31" name="aa978bc7f4ae098f0a5c973dc0679da31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa978bc7f4ae098f0a5c973dc0679da31">&#9670;&#160;</a></span>operator%=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator%= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{</div>
+<div class="line"><span class="lineno">  121</span>    BN_CTX *bnctx;</div>
+<div class="line"><span class="lineno">  122</span> </div>
+<div class="line"><span class="lineno">  123</span>    bnctx = BN_CTX_new();</div>
+<div class="line"><span class="lineno">  124</span>    BN_mod(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn, bnctx);</div>
+<div class="line"><span class="lineno">  125</span>    BN_CTX_free(bnctx);</div>
+<div class="line"><span class="lineno">  126</span> </div>
+<div class="line"><span class="lineno">  127</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  128</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a51925260d8134756994a638e8b8d0ccd" name="a51925260d8134756994a638e8b8d0ccd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51925260d8134756994a638e8b8d0ccd">&#9670;&#160;</a></span>operator*()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator* </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   75</span>        <span class="keywordflow">return</span> t *= bn;</div>
+<div class="line"><span class="lineno">   76</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a948e4a418d123aae8fdfa1e5aa6ff455" name="a948e4a418d123aae8fdfa1e5aa6ff455"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a948e4a418d123aae8fdfa1e5aa6ff455">&#9670;&#160;</a></span>operator*=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator*= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   98</span>{</div>
+<div class="line"><span class="lineno">   99</span>    BN_CTX *bnctx;</div>
+<div class="line"><span class="lineno">  100</span> </div>
+<div class="line"><span class="lineno">  101</span>    bnctx = BN_CTX_new();</div>
+<div class="line"><span class="lineno">  102</span>    BN_mul(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn, bnctx);</div>
+<div class="line"><span class="lineno">  103</span>    BN_CTX_free(bnctx);</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  106</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a88dfbc205089c41b5134b18839e8a0fa" name="a88dfbc205089c41b5134b18839e8a0fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88dfbc205089c41b5134b18839e8a0fa">&#9670;&#160;</a></span>operator+()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator+ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   59</span>    {</div>
+<div class="line"><span class="lineno">   60</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">return</span> t += bn;</div>
+<div class="line"><span class="lineno">   62</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac537a97649017f18db924ba0a2d495b3" name="ac537a97649017f18db924ba0a2d495b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac537a97649017f18db924ba0a2d495b3">&#9670;&#160;</a></span>operator+=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   86</span>{</div>
+<div class="line"><span class="lineno">   87</span>    BN_add(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn);</div>
+<div class="line"><span class="lineno">   88</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   89</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a59cb31175e9514bcb303a4c72903868e" name="a59cb31175e9514bcb303a4c72903868e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59cb31175e9514bcb303a4c72903868e">&#9670;&#160;</a></span>operator-()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>    {</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">return</span> t -= bn;</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="abe6e46942aca36cc09a9ae8ba18b69a4" name="abe6e46942aca36cc09a9ae8ba18b69a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe6e46942aca36cc09a9ae8ba18b69a4">&#9670;&#160;</a></span>operator-=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator-= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{</div>
+<div class="line"><span class="lineno">   93</span>    BN_sub(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn);</div>
+<div class="line"><span class="lineno">   94</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   95</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="ab654edbb625050d567970afb2d1021f0" name="ab654edbb625050d567970afb2d1021f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab654edbb625050d567970afb2d1021f0">&#9670;&#160;</a></span>operator/()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator/ </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">return</span> t /= bn;</div>
+<div class="line"><span class="lineno">   83</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a403fa21099799b07445aff3ba8d1fd7f" name="a403fa21099799b07445aff3ba8d1fd7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a403fa21099799b07445aff3ba8d1fd7f">&#9670;&#160;</a></span>operator/=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator/= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  109</span>{</div>
+<div class="line"><span class="lineno">  110</span>    BN_CTX *bnctx;</div>
+<div class="line"><span class="lineno">  111</span> </div>
+<div class="line"><span class="lineno">  112</span>    bnctx = BN_CTX_new();</div>
+<div class="line"><span class="lineno">  113</span>    BN_div(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <span class="keyword">nullptr</span>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn, bnctx);</div>
+<div class="line"><span class="lineno">  114</span>    BN_CTX_free(bnctx);</div>
+<div class="line"><span class="lineno">  115</span> </div>
+<div class="line"><span class="lineno">  116</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  117</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a52c53ce9edf6b75802a4d0c776e03790" name="a52c53ce9edf6b75802a4d0c776e03790"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52c53ce9edf6b75802a4d0c776e03790">&#9670;&#160;</a></span>operator&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a>(bn) &lt; 0); }</div>
+<div class="ttc" id="aa05070_html_a2b599db0b63c6ba0d93f067b43b5ef3d"><div class="ttname"><a href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">BigNumber::CompareTo</a></div><div class="ttdeci">int CompareTo(BigNumber const &amp;bn) const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:136</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ac2b96d6cc00f428da07c7e966d4f7f0a" name="ac2b96d6cc00f428da07c7e966d4f7f0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2b96d6cc00f428da07c7e966d4f7f0a">&#9670;&#160;</a></span>operator&lt;&lt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> BigNumber::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   94</span>    {</div>
+<div class="line"><span class="lineno">   95</span>        <a class="code hl_class" href="../../df/d0f/a05070.html">BigNumber</a> t(*<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   96</span>        <span class="keywordflow">return</span> t &lt;&lt;= n;</div>
+<div class="line"><span class="lineno">   97</span>    }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a01648adec08358efb8d5c2a4c9bf4d18" name="a01648adec08358efb8d5c2a4c9bf4d18"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01648adec08358efb8d5c2a4c9bf4d18">&#9670;&#160;</a></span>operator&lt;&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator&lt;&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  131</span>{</div>
+<div class="line"><span class="lineno">  132</span>    BN_lshift(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, n);</div>
+<div class="line"><span class="lineno">  133</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  134</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="acb698519f72a82df224deca5d336f961" name="acb698519f72a82df224deca5d336f961"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb698519f72a82df224deca5d336f961">&#9670;&#160;</a></span>operator&lt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  100</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a>(bn) &lt;= 0); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adeb36be6df38ff007a2a2ae8957e5c22" name="adeb36be6df38ff007a2a2ae8957e5c22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adeb36be6df38ff007a2a2ae8957e5c22">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> &amp; BigNumber::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   77</span>{</div>
+<div class="line"><span class="lineno">   78</span>    <span class="keywordflow">if</span> (<span class="keyword">this</span> == &amp;bn)</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   80</span> </div>
+<div class="line"><span class="lineno">   81</span>    BN_copy(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, bn._bn);</div>
+<div class="line"><span class="lineno">   82</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   83</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="ac92d26609a40db09023a3a4ac34533a2" name="ac92d26609a40db09023a3a4ac34533a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac92d26609a40db09023a3a4ac34533a2">&#9670;&#160;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  101</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a>(bn) == 0); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5d2f81b67b9299e1cab10c54fea9cc47" name="a5d2f81b67b9299e1cab10c54fea9cc47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d2f81b67b9299e1cab10c54fea9cc47">&#9670;&#160;</a></span>operator&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  104</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a>(bn) &gt; 0); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a09c0956ffbc4413200140793ff353051" name="a09c0956ffbc4413200140793ff353051"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a09c0956ffbc4413200140793ff353051">&#9670;&#160;</a></span>operator&gt;=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a> const &amp;&#160;</td>
+          <td class="paramname"><em>bn</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  102</span>{ <span class="keywordflow">return</span> (<a class="code hl_function" href="../../df/d0f/a05070.html#a2b599db0b63c6ba0d93f067b43b5ef3d">CompareTo</a>(bn) &gt;= 0); }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a93b90bce7034febfe487215dd0b10478" name="a93b90bce7034febfe487215dd0b10478"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93b90bce7034febfe487215dd0b10478">&#9670;&#160;</a></span>SetBinary() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto BigNumber::SetBinary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; std::enable_if_t&lt;!std::is_pointer_v&lt;std::decay_t&lt;<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a>&gt;&gt;&gt; </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   48</span>{ <a class="code hl_function" href="../../df/d0f/a05070.html#a57746ee046901c640e1fc363b204b867">SetBinary</a>(std::data(c), std::size(c), littleEndian); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00048">SetBinary()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00048">SetBinary()</a>.</p>
+
+</div>
+</div>
+<a id="a57746ee046901c640e1fc363b204b867" name="a57746ee046901c640e1fc363b204b867"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57746ee046901c640e1fc363b204b867">&#9670;&#160;</a></span>SetBinary() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BigNumber::SetBinary </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *&#160;</td>
+          <td class="paramname"><em>bytes</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>len</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -357,31 +1315,96 @@ Static Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{</div>
-<div class="line"><span class="lineno">   41</span>    <span class="comment">// v = g ^ H(s || H(u || &#39;:&#39; || p)) mod N</span></div>
-<div class="line"><span class="lineno">   42</span>    <span class="keywordflow">return</span> <a class="code hl_variable" href="../../df/d0f/a05070.html#ad2e325ecdd9cad99008b2663600e6180">_g</a>.<a class="code hl_function" href="../../d9/d65/a05074.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(</div>
-<div class="line"><span class="lineno">   43</span>        <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(</div>
-<div class="line"><span class="lineno">   44</span>            salt,</div>
-<div class="line"><span class="lineno">   45</span>            <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(username, <span class="stringliteral">&quot;:&quot;</span>, password)</div>
-<div class="line"><span class="lineno">   46</span>        )</div>
-<div class="line"><span class="lineno">   47</span>    ,<a class="code hl_variable" href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>).<a class="code hl_function" href="../../d9/d65/a05074.html#a2d8f945d5e123c4f81c10d3202b8d462">ToByteArray</a>&lt;32&gt;();</div>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{</div>
+<div class="line"><span class="lineno">   59</span>    <span class="keywordflow">if</span> (littleEndian)</div>
+<div class="line"><span class="lineno">   60</span>        BN_lebin2bn(bytes, len, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   62</span>        BN_bin2bn(bytes, len, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>);</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+</div>
+</div>
+<a id="a4c73ea11d02eb8261dcbffafdf20a0dd" name="a4c73ea11d02eb8261dcbffafdf20a0dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c73ea11d02eb8261dcbffafdf20a0dd">&#9670;&#160;</a></span>SetDword() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BigNumber::SetDword </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   39</span>{</div>
+<div class="line"><span class="lineno">   40</span>    <a class="code hl_function" href="../../df/d0f/a05070.html#a4c73ea11d02eb8261dcbffafdf20a0dd">SetDword</a>(<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(std::abs(val)));</div>
+<div class="line"><span class="lineno">   41</span>    <span class="keywordflow">if</span> (val &lt; 0)</div>
+<div class="line"><span class="lineno">   42</span>        BN_set_negative(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, 1);</div>
+<div class="line"><span class="lineno">   43</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>, and <a class="el" href="../../#l00038">SetDword()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00038">SetDword()</a>.</p>
+
+</div>
+</div>
+<a id="a23f11982d4cf977d3402720805d944ef" name="a23f11982d4cf977d3402720805d944ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a23f11982d4cf977d3402720805d944ef">&#9670;&#160;</a></span>SetDword() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void BigNumber::SetDword </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>{</div>
+<div class="line"><span class="lineno">   47</span>    BN_set_word(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, val);</div>
 <div class="line"><span class="lineno">   48</span>}</div>
-<div class="ttc" id="aa05074_html_a2d8f945d5e123c4f81c10d3202b8d462"><div class="ttname"><a href="../../d9/d65/a05074.html#a2d8f945d5e123c4f81c10d3202b8d462">BigNumber::ToByteArray</a></div><div class="ttdeci">std::array&lt; uint8, Size &gt; ToByteArray(bool littleEndian=true) const</div><div class="ttdef"><b>Definition:</b> BigNumber.h:123</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00067">_g</a>, <a class="el" href="../../#l00068">_N</a>, <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00153">BigNumber::ModExp()</a>, and <a class="el" href="../../#l00123">BigNumber::ToByteArray()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00031">MakeRegistrationData()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
 
 </div>
 </div>
-<a id="a790d7883ae0685bf2135d83edeb29121" name="a790d7883ae0685bf2135d83edeb29121"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a790d7883ae0685bf2135d83edeb29121">&#9670;&#160;</a></span>CheckLogin()</h2>
+<a id="afeefbcfb38816531e8b4879be770f730" name="afeefbcfb38816531e8b4879be770f730"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeefbcfb38816531e8b4879be770f730">&#9670;&#160;</a></span>SetHexStr() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool BigNumber::SetHexStr </td>
+          <td>(</td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{</div>
+<div class="line"><span class="lineno">   67</span>    <span class="keywordtype">int</span> n = BN_hex2bn(&amp;<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, str);</div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">return</span> (n &gt; 0);</div>
+<div class="line"><span class="lineno">   69</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00059">GetHexFromConfig()</a>, and <a class="el" href="../../#l00040">WardenCheckMgr::LoadWardenChecks()</a>.</p>
+
+</div>
+</div>
+<a id="a9d46472a8b0fda9b8f8d36bc8c089955" name="a9d46472a8b0fda9b8f8d36bc8c089955"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d46472a8b0fda9b8f8d36bc8c089955">&#9670;&#160;</a></span>SetHexStr() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -390,276 +1413,156 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static bool Acore::Crypto::SRP6::CheckLogin </td>
+          <td class="memname">bool BigNumber::SetHexStr </td>
           <td>(</td>
           <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"><em>str</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const &amp;&#160;</td>
-          <td class="paramname"><em>salt</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">Verifier</a> const &amp;&#160;</td>
-          <td class="paramname"><em>verifier</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
-<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">return</span> (verifier == <a class="code hl_function" href="../../df/d0f/a05070.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a>(username, password, salt));</div>
-<div class="line"><span class="lineno">   50</span>        }</div>
-<div class="ttc" id="aa05070_html_a1d61f6a3ef4605658a6f01b2f2b9a733"><div class="ttname"><a href="../../df/d0f/a05070.html#a1d61f6a3ef4605658a6f01b2f2b9a733">Acore::Crypto::SRP6::CalculateVerifier</a></div><div class="ttdeci">static Verifier CalculateVerifier(std::string const &amp;username, std::string const &amp;password, Salt const &amp;salt)</div><div class="ttdef"><b>Definition:</b> SRP6.cpp:39</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../df/d0f/a05070.html#afeefbcfb38816531e8b4879be770f730">SetHexStr</a>(str.c_str()); }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00155">RASession::CheckPassword()</a>, and <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00051">SetHexStr()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00051">SetHexStr()</a>.</p>
 
 </div>
 </div>
-<a id="aa44e4e9c88fcfff3fb6f8c4b24c10ab6" name="aa44e4e9c88fcfff3fb6f8c4b24c10ab6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa44e4e9c88fcfff3fb6f8c4b24c10ab6">&#9670;&#160;</a></span>GetSessionVerifier()</h2>
+<a id="adb31d31425a3b0ed50ffd828fc58b09d" name="adb31d31425a3b0ed50ffd828fc58b09d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb31d31425a3b0ed50ffd828fc58b09d">&#9670;&#160;</a></span>SetQword()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> Acore::Crypto::SRP6::GetSessionVerifier </td>
+          <td class="memname">void BigNumber::SetQword </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;&#160;</td>
-          <td class="paramname"><em>clientM</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>K</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   53</span>        {</div>
-<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">return</span> <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(A, clientM, K);</div>
-<div class="line"><span class="lineno">   55</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00456">AuthSession::HandleLogonProof()</a>.</p>
-
-</div>
-</div>
-<a id="a7b6fd9e89b01f65dcc8ff4a2bef189f5" name="a7b6fd9e89b01f65dcc8ff4a2bef189f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7b6fd9e89b01f65dcc8ff4a2bef189f5">&#9670;&#160;</a></span>MakeRegistrationData()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::pair&lt; <a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">SRP6::Salt</a>, <a class="el" href="../../df/d0f/a05070.html#ab771d05cb201bbdc3c20a5cb087a023e">SRP6::Verifier</a> &gt; SRP6::MakeRegistrationData </td>
-          <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>username</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>password</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    std::pair&lt;SRP6::Salt, SRP6::Verifier&gt; res;</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_function" href="../../d7/d11/a04696.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Crypto::GetRandomBytes</a>(res.first); <span class="comment">// random salt</span></div>
-<div class="line"><span class="lineno">   35</span>    res.second = <a class="code hl_function" href="../../df/d0f/a05070.html#a1d61f6a3ef4605658a6f01b2f2b9a733">CalculateVerifier</a>(username, password, res.first);</div>
-<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">return</span> res;</div>
-<div class="line"><span class="lineno">   37</span>}</div>
-<div class="ttc" id="aa04696_html_ab09d7cc2f8e11fc5fe6b2323d57b7184"><div class="ttname"><a href="../../d7/d11/a04696.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a></div><div class="ttdeci">std::array&lt; uint8, S &gt; GetRandomBytes()</div><div class="ttdef"><b>Definition:</b> CryptoRandom.h:35</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00039">CalculateVerifier()</a>, and <a class="el" href="../../#l00035">Acore::Crypto::GetRandomBytes()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00198">AccountMgr::ChangePassword()</a>, <a class="el" href="../../#l00164">AccountMgr::ChangeUsername()</a>, and <a class="el" href="../../#l00030">AccountMgr::CreateAccount()</a>.</p>
-
-</div>
-</div>
-<a id="a4bea2cb781fcda13809e79165f5c9821" name="a4bea2cb781fcda13809e79165f5c9821"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4bea2cb781fcda13809e79165f5c9821">&#9670;&#160;</a></span>SHA1Interleave()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> SRP6::SHA1Interleave </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">SRP6::EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>S</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   51</span>{</div>
-<div class="line"><span class="lineno">   52</span>    <span class="comment">// split S into two buffers</span></div>
-<div class="line"><span class="lineno">   53</span>    std::array&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2&gt; buf0{}, buf1{};</div>
-<div class="line"><span class="lineno">   54</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; <a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2; ++i)</div>
-<div class="line"><span class="lineno">   55</span>    {</div>
-<div class="line"><span class="lineno">   56</span>        buf0[i] = S[2 * i + 0];</div>
-<div class="line"><span class="lineno">   57</span>        buf1[i] = S[2 * i + 1];</div>
-<div class="line"><span class="lineno">   58</span>    }</div>
-<div class="line"><span class="lineno">   59</span> </div>
-<div class="line"><span class="lineno">   60</span>    <span class="comment">// find position of first nonzero byte</span></div>
-<div class="line"><span class="lineno">   61</span>    std::size_t p = 0;</div>
-<div class="line"><span class="lineno">   62</span>    <span class="keywordflow">while</span> (p &lt; <a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> &amp;&amp; !S[p])</div>
-<div class="line"><span class="lineno">   63</span>        ++p;</div>
-<div class="line"><span class="lineno">   64</span> </div>
-<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">if</span> (p &amp; 1)</div>
-<div class="line"><span class="lineno">   66</span>        ++p; <span class="comment">// skip one extra byte if p is odd</span></div>
-<div class="line"><span class="lineno">   67</span> </div>
-<div class="line"><span class="lineno">   68</span>    p /= 2; <span class="comment">// offset into buffers</span></div>
-<div class="line"><span class="lineno">   69</span> </div>
-<div class="line"><span class="lineno">   70</span>    <span class="comment">// hash each of the halves, starting at the first nonzero byte</span></div>
-<div class="line"><span class="lineno">   71</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> hash0 = <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(buf0.data() + p, <a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2 - p);</div>
-<div class="line"><span class="lineno">   72</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> hash1 = <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(buf1.data() + p, <a class="code hl_variable" href="../../df/d0f/a05070.html#afa40dc69a75bfd7c16f3d884c400aebb">EPHEMERAL_KEY_LENGTH</a> / 2 - p);</div>
-<div class="line"><span class="lineno">   73</span> </div>
-<div class="line"><span class="lineno">   74</span>    <span class="comment">// stick the two hashes back together</span></div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_typedef" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> K;</div>
-<div class="line"><span class="lineno">   76</span>    <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; <a class="code hl_variable" href="../../dd/dbd/a05090.html#af6e4303fbffe4f52dec13026532f0a87">SHA1::DIGEST_LENGTH</a>; ++i)</div>
-<div class="line"><span class="lineno">   77</span>    {</div>
-<div class="line"><span class="lineno">   78</span>        K[2 * i + 0] = hash0[i];</div>
-<div class="line"><span class="lineno">   79</span>        K[2 * i + 1] = hash1[i];</div>
-<div class="line"><span class="lineno">   80</span>    }</div>
-<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">return</span> K;</div>
-<div class="line"><span class="lineno">   82</span>}</div>
-<div class="ttc" id="aa00464_html_a7cbcb71452529a2addaab3b112dba4d7"><div class="ttname"><a href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a></div><div class="ttdeci">std::array&lt; uint8, SESSION_KEY_LENGTH &gt; SessionKey</div><div class="ttdef"><b>Definition:</b> AuthDefines.h:25</div></div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa05090_html_abf69027dd4096b1bda0e5d78fbceba05"><div class="ttname"><a href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Impl::GenericHash::Digest</a></div><div class="ttdeci">std::array&lt; uint8, DIGEST_LENGTH &gt; Digest</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:46</div></div>
-<div class="ttc" id="aa05090_html_af6e4303fbffe4f52dec13026532f0a87"><div class="ttname"><a href="../../dd/dbd/a05090.html#af6e4303fbffe4f52dec13026532f0a87">Acore::Impl::GenericHash::DIGEST_LENGTH</a></div><div class="ttdeci">static constexpr std::size_t DIGEST_LENGTH</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:45</div></div>
+<div class="line"><span class="lineno">   52</span>    BN_set_word(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)(val &gt;&gt; 32));</div>
+<div class="line"><span class="lineno">   53</span>    BN_lshift(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, 32);</div>
+<div class="line"><span class="lineno">   54</span>    BN_add_word(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)(val &amp; 0xFFFFFFFF));</div>
+<div class="line"><span class="lineno">   55</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00045">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::DIGEST_LENGTH</a>, <a class="el" href="../../#l00037">EPHEMERAL_KEY_LENGTH</a>, and <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
 
 </div>
 </div>
-<a id="a2270520850359c1e401ba883ef19bc66" name="a2270520850359c1e401ba883ef19bc66"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2270520850359c1e401ba883ef19bc66">&#9670;&#160;</a></span>VerifyChallengeResponse()</h2>
+<a id="a434f19ba1bf3d2be577cef8f18f9624a" name="a434f19ba1bf3d2be577cef8f18f9624a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a434f19ba1bf3d2be577cef8f18f9624a">&#9670;&#160;</a></span>SetRand()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::optional&lt; <a class="el" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> &gt; SRP6::VerifyChallengeResponse </td>
+          <td class="memname">void BigNumber::SetRand </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const &amp;&#160;</td>
-          <td class="paramname"><em>A</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>numbits</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
+<div class="line"><span class="lineno">   73</span>    BN_rand(<a class="code hl_variable" href="../../df/d0f/a05070.html#a97db62040b8cb3cdefeeee9e697b0cd2">_bn</a>, numbits, 0, 1);</div>
+<div class="line"><span class="lineno">   74</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">_bn</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00171">SecretMgr::AttemptTransition()</a>, and <a class="el" href="../../#l00118">main()</a>.</p>
+
+</div>
+</div>
+<a id="a2d8f945d5e123c4f81c10d3202b8d462" name="a2d8f945d5e123c4f81c10d3202b8d462"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d8f945d5e123c4f81c10d3202b8d462">&#9670;&#160;</a></span>ToByteArray()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;std::size_t Size&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, Size &gt; BigNumber::ToByteArray </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  124</span>    {</div>
+<div class="line"><span class="lineno">  125</span>        std::array&lt;uint8, Size&gt; buf;</div>
+<div class="line"><span class="lineno">  126</span>        <a class="code hl_function" href="../../df/d0f/a05070.html#a395ec81b4c07472ec1e99c76077cc861">GetBytes</a>(buf.data(), Size, littleEndian);</div>
+<div class="line"><span class="lineno">  127</span>        <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">  128</span>    }</div>
+<div class="ttc" id="aa05070_html_a395ec81b4c07472ec1e99c76077cc861"><div class="ttname"><a href="../../df/d0f/a05070.html#a395ec81b4c07472ec1e99c76077cc861">BigNumber::GetBytes</a></div><div class="ttdeci">void GetBytes(uint8 *buf, std::size_t bufsize, bool littleEndian=true) const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:185</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00106">Acore::Crypto::AEDecrypt()</a>, <a class="el" href="../../#l00082">Acore::Crypto::AEEncryptWithRandomIV()</a>, <a class="el" href="../../#l00039">Acore::Crypto::SRP6::CalculateVerifier()</a>, and <a class="el" href="../../#l00562">WardenWin::HandleData()</a>.</p>
+
+</div>
+</div>
+<a id="a277a30ac66e478839331339eff0284e4" name="a277a30ac66e478839331339eff0284e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a277a30ac66e478839331339eff0284e4">&#9670;&#160;</a></span>ToByteVector()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; BigNumber::ToByteVector </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td>
+          <td class="paramname"><em>minSize</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const &amp;&#160;</td>
-          <td class="paramname"><em>clientM</em>&#160;</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>littleEndian</em> = <code>true</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> const</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   88</span>{</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(!<a class="code hl_variable" href="../../df/d0f/a05070.html#a440a76a05a5847a081fbe35e582ee643">_used</a>, <span class="stringliteral">&quot;A single SRP6 object must only ever be used to verify ONCE!&quot;</span>);</div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_variable" href="../../df/d0f/a05070.html#a440a76a05a5847a081fbe35e582ee643">_used</a> = <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">   91</span> </div>
-<div class="line"><span class="lineno">   92</span>    <a class="code hl_class" href="../../d9/d65/a05074.html">BigNumber</a> <span class="keyword">const</span> _A(A);</div>
-<div class="line"><span class="lineno">   93</span>    <span class="keywordflow">if</span> ((_A % <a class="code hl_variable" href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>).IsZero())</div>
-<div class="line"><span class="lineno">   94</span>        <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">   95</span> </div>
-<div class="line"><span class="lineno">   96</span>    <a class="code hl_class" href="../../d9/d65/a05074.html">BigNumber</a> <span class="keyword">const</span> u(<a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(A, <a class="code hl_variable" href="../../df/d0f/a05070.html#a508a8478810de9c7515ecd9311053010">B</a>));</div>
-<div class="line"><span class="lineno">   97</span>    <a class="code hl_typedef" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> <span class="keyword">const</span> S = (_A * (<a class="code hl_variable" href="../../df/d0f/a05070.html#aca8df898648a196d62d0d7c2f7f9769d">_v</a>.<a class="code hl_function" href="../../d9/d65/a05074.html#a20156698f9ba2361dd37c8239355d2da">ModExp</a>(u, <a class="code hl_variable" href="../../df/d0f/a05070.html#a6467d93d9b2c57d6676c2351eb5a4e0a">_N</a>))).ModExp(<a class="code hl_variable" href="../../df/d0f/a05070.html#ae10b48d44b72d117fdc0a8ad7b4d026f">_b</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>).ToByteArray&lt;32&gt;();</div>
-<div class="line"><span class="lineno">   98</span> </div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_typedef" href="../../d2/d9d/a00464.html#a7cbcb71452529a2addaab3b112dba4d7">SessionKey</a> K = <a class="code hl_function" href="../../df/d0f/a05070.html#a4bea2cb781fcda13809e79165f5c9821">SHA1Interleave</a>(S);</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>    <span class="comment">// NgHash = H(N) xor H(g)</span></div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> NHash = <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(<a class="code hl_variable" href="../../df/d0f/a05070.html#a5e1619df2fd1dd9fa5ebba195c7adf2a">N</a>);</div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> gHash = <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(<a class="code hl_variable" href="../../df/d0f/a05070.html#a99e0339e5372c12d0a68e13c892d2b8b">g</a>);</div>
-<div class="line"><span class="lineno">  104</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> NgHash;</div>
-<div class="line"><span class="lineno">  105</span>    std::transform(NHash.begin(), NHash.end(), gHash.begin(), NgHash.begin(), std::bit_xor&lt;&gt;());</div>
-<div class="line"><span class="lineno">  106</span> </div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_typedef" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> <span class="keyword">const</span> ourM = <a class="code hl_function" href="../../dd/dbd/a05090.html#a42db9cd1a68778340bfdb7c7a8a049de">SHA1::GetDigestOf</a>(NgHash, <a class="code hl_variable" href="../../df/d0f/a05070.html#adf160be38247f3335e2790c13011e8eb">_I</a>, <a class="code hl_variable" href="../../df/d0f/a05070.html#adddd53dfcb2d933c6fa7fd7956f6c7c3">s</a>, A, <a class="code hl_variable" href="../../df/d0f/a05070.html#a508a8478810de9c7515ecd9311053010">B</a>, K);</div>
-<div class="line"><span class="lineno">  108</span>    <span class="keywordflow">if</span> (ourM == clientM)</div>
-<div class="line"><span class="lineno">  109</span>        <span class="keywordflow">return</span> K;</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">return</span> std::nullopt;</div>
-<div class="line"><span class="lineno">  112</span>}</div>
-<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-<div class="ttc" id="aa05070_html_a440a76a05a5847a081fbe35e582ee643"><div class="ttname"><a href="../../df/d0f/a05070.html#a440a76a05a5847a081fbe35e582ee643">Acore::Crypto::SRP6::_used</a></div><div class="ttdeci">bool _used</div><div class="ttdef"><b>Definition:</b> SRP6.h:61</div></div>
-<div class="ttc" id="aa05070_html_a4bea2cb781fcda13809e79165f5c9821"><div class="ttname"><a href="../../df/d0f/a05070.html#a4bea2cb781fcda13809e79165f5c9821">Acore::Crypto::SRP6::SHA1Interleave</a></div><div class="ttdeci">static SessionKey SHA1Interleave(EphemeralKey const &amp;S)</div><div class="ttdef"><b>Definition:</b> SRP6.cpp:50</div></div>
-<div class="ttc" id="aa05070_html_a99e0339e5372c12d0a68e13c892d2b8b"><div class="ttname"><a href="../../df/d0f/a05070.html#a99e0339e5372c12d0a68e13c892d2b8b">Acore::Crypto::SRP6::g</a></div><div class="ttdeci">static std::array&lt; uint8, 1 &gt; const g</div><div class="ttdef"><b>Definition:</b> SRP6.h:40</div></div>
-<div class="ttc" id="aa05070_html_afae4839b42283dc258817a0d300b4bca"><div class="ttname"><a href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">Acore::Crypto::SRP6::EphemeralKey</a></div><div class="ttdeci">std::array&lt; uint8, EPHEMERAL_KEY_LENGTH &gt; EphemeralKey</div><div class="ttdef"><b>Definition:</b> SRP6.h:38</div></div>
-<div class="ttc" id="aa05074_html"><div class="ttname"><a href="../../d9/d65/a05074.html">BigNumber</a></div><div class="ttdef"><b>Definition:</b> BigNumber.h:29</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  192</span>{</div>
+<div class="line"><span class="lineno">  193</span>    std::size_t length = std::max(<a class="code hl_function" href="../../df/d0f/a05070.html#ab6e59df65e45251677cf033d9ca25c23">GetNumBytes</a>(), minSize);</div>
+<div class="line"><span class="lineno">  194</span>    std::vector&lt;uint8&gt; v;</div>
+<div class="line"><span class="lineno">  195</span>    v.resize(length);</div>
+<div class="line"><span class="lineno">  196</span>    <a class="code hl_function" href="../../df/d0f/a05070.html#a395ec81b4c07472ec1e99c76077cc861">GetBytes</a>(v.data(), length, littleEndian);</div>
+<div class="line"><span class="lineno">  197</span>    <span class="keywordflow">return</span> v;</div>
+<div class="line"><span class="lineno">  198</span>}</div>
+<div class="ttc" id="aa05070_html_ab6e59df65e45251677cf033d9ca25c23"><div class="ttname"><a href="../../df/d0f/a05070.html#ab6e59df65e45251677cf033d9ca25c23">BigNumber::GetNumBytes</a></div><div class="ttdeci">int32 GetNumBytes() const</div><div class="ttdef"><b>Definition:</b> BigNumber.cpp:165</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00074">_b</a>, <a class="el" href="../../#l00073">_I</a>, <a class="el" href="../../#l00068">_N</a>, <a class="el" href="../../#l00061">_used</a>, <a class="el" href="../../#l00075">_v</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00079">B</a>, <a class="el" href="../../#l00040">g</a>, <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00153">BigNumber::ModExp()</a>, <a class="el" href="../../#l00041">N</a>, <a class="el" href="../../#l00078">s</a>, and <a class="el" href="../../#l00050">SHA1Interleave()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00185">GetBytes()</a>, and <a class="el" href="../../#l00165">GetNumBytes()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00562">WardenWin::HandleData()</a>, <a class="el" href="../../#l00021">Acore::Crypto::Argon2::Hash()</a>, and <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae10b48d44b72d117fdc0a8ad7b4d026f" name="ae10b48d44b72d117fdc0a8ad7b4d026f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae10b48d44b72d117fdc0a8ad7b4d026f">&#9670;&#160;</a></span>_b</h2>
+<a id="a97db62040b8cb3cdefeeee9e697b0cd2" name="a97db62040b8cb3cdefeeee9e697b0cd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a97db62040b8cb3cdefeeee9e697b0cd2">&#9670;&#160;</a></span>_bn</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -668,7 +1571,7 @@ Static Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const Acore::Crypto::SRP6::_b</td>
+          <td class="memname">struct bignum_st* BigNumber::_bn</td>
         </tr>
       </table>
   </td>
@@ -678,279 +1581,7 @@ Static Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="ad2e325ecdd9cad99008b2663600e6180" name="ad2e325ecdd9cad99008b2663600e6180"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2e325ecdd9cad99008b2663600e6180">&#9670;&#160;</a></span>_g</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const SRP6::_g</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00039">CalculateVerifier()</a>.</p>
-
-</div>
-</div>
-<a id="adf160be38247f3335e2790c13011e8eb" name="adf160be38247f3335e2790c13011e8eb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf160be38247f3335e2790c13011e8eb">&#9670;&#160;</a></span>_I</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/dbd/a05090.html#abf69027dd4096b1bda0e5d78fbceba05">SHA1::Digest</a> const Acore::Crypto::SRP6::_I</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a6467d93d9b2c57d6676c2351eb5a4e0a" name="a6467d93d9b2c57d6676c2351eb5a4e0a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6467d93d9b2c57d6676c2351eb5a4e0a">&#9670;&#160;</a></span>_N</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const SRP6::_N</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00039">CalculateVerifier()</a>, and <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a440a76a05a5847a081fbe35e582ee643" name="a440a76a05a5847a081fbe35e582ee643"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a440a76a05a5847a081fbe35e582ee643">&#9670;&#160;</a></span>_used</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool Acore::Crypto::SRP6::_used = false</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="aca8df898648a196d62d0d7c2f7f9769d" name="aca8df898648a196d62d0d7c2f7f9769d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca8df898648a196d62d0d7c2f7f9769d">&#9670;&#160;</a></span>_v</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/d65/a05074.html">BigNumber</a> const Acore::Crypto::SRP6::_v</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a508a8478810de9c7515ecd9311053010" name="a508a8478810de9c7515ecd9311053010"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a508a8478810de9c7515ecd9311053010">&#9670;&#160;</a></span>B</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d0f/a05070.html#afae4839b42283dc258817a0d300b4bca">EphemeralKey</a> const Acore::Crypto::SRP6::B</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="afa40dc69a75bfd7c16f3d884c400aebb" name="afa40dc69a75bfd7c16f3d884c400aebb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afa40dc69a75bfd7c16f3d884c400aebb">&#9670;&#160;</a></span>EPHEMERAL_KEY_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::EPHEMERAL_KEY_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00050">SHA1Interleave()</a>.</p>
-
-</div>
-</div>
-<a id="a99e0339e5372c12d0a68e13c892d2b8b" name="a99e0339e5372c12d0a68e13c892d2b8b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99e0339e5372c12d0a68e13c892d2b8b">&#9670;&#160;</a></span>g</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 1 &gt; const SRP6::g = { 7 }</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="a5e1619df2fd1dd9fa5ebba195c7adf2a" name="a5e1619df2fd1dd9fa5ebba195c7adf2a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e1619df2fd1dd9fa5ebba195c7adf2a">&#9670;&#160;</a></span>N</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, 32 &gt; const SRP6::N = <a class="el" href="../../d4/d13/a00377.html#a0a709bcf2ca40e60217ee113150a1ad8">HexStrToByteArray</a>&lt;32&gt;(&quot;894B645E89E1535BBDAD5B8B290650530801B18EBFBF5E8FAB3C82872A3E9BB7&quot;, true)</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="adddd53dfcb2d933c6fa7fd7956f6c7c3" name="adddd53dfcb2d933c6fa7fd7956f6c7c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adddd53dfcb2d933c6fa7fd7956f6c7c3">&#9670;&#160;</a></span>s</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../df/d0f/a05070.html#a757f8fd19ebecda921e4e42f65586f9f">Salt</a> const Acore::Crypto::SRP6::s</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00087">VerifyChallengeResponse()</a>.</p>
-
-</div>
-</div>
-<a id="add5273640d1504c69395c71d495a3deb" name="add5273640d1504c69395c71d495a3deb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add5273640d1504c69395c71d495a3deb">&#9670;&#160;</a></span>SALT_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::SALT_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00155">RASession::CheckPassword()</a>, <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
-
-</div>
-</div>
-<a id="a3a7f44395bcbc849665897c3d7db59d5" name="a3a7f44395bcbc849665897c3d7db59d5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3a7f44395bcbc849665897c3d7db59d5">&#9670;&#160;</a></span>VERIFIER_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr std::size_t Acore::Crypto::SRP6::VERIFIER_LENGTH = 32</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00155">RASession::CheckPassword()</a>, <a class="el" href="../../#l00272">AccountMgr::CheckPassword()</a>, and <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00208">AsDecStr()</a>, <a class="el" href="../../#l00170">AsDword()</a>, <a class="el" href="../../#l00200">AsHexStr()</a>, <a class="el" href="../../#l00136">CompareTo()</a>, <a class="el" href="../../#l00141">Exp()</a>, <a class="el" href="../../#l00185">GetBytes()</a>, <a class="el" href="../../#l00165">GetNumBytes()</a>, <a class="el" href="../../#l00180">IsNegative()</a>, <a class="el" href="../../#l00175">IsZero()</a>, <a class="el" href="../../#l00153">ModExp()</a>, <a class="el" href="../../#l00119">operator%=()</a>, <a class="el" href="../../#l00097">operator*=()</a>, <a class="el" href="../../#l00085">operator+=()</a>, <a class="el" href="../../#l00091">operator-=()</a>, <a class="el" href="../../#l00108">operator/=()</a>, <a class="el" href="../../#l00130">operator&lt;&lt;=()</a>, <a class="el" href="../../#l00076">operator=()</a>, <a class="el" href="../../#l00057">SetBinary()</a>, <a class="el" href="../../#l00038">SetDword()</a>, <a class="el" href="../../#l00065">SetHexStr()</a>, <a class="el" href="../../#l00050">SetQword()</a>, <a class="el" href="../../#l00071">SetRand()</a>, and <a class="el" href="../../#l00033">~BigNumber()</a>.</p>
 
 </div>
 </div>
@@ -959,8 +1590,8 @@ Static Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d11/a04696.html">Crypto</a></li><li class="navelem"><a class="el" href="../../df/d0f/a05070.html">SRP6</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d0f/a05070.html">BigNumber</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

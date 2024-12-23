@@ -1,8 +1,7 @@
 var a23546 =
 [
-    [ "boss_mechano_lord_capacitus", "dd/d8e/a23546.html#ab5867184d4e50a89a1afe25eb40e6bc3", null ],
-    [ "JustDied", "dd/d8e/a23546.html#a596314e7aebcc9e2e7311b4e0850b817", null ],
-    [ "JustEngagedWith", "dd/d8e/a23546.html#a4aa9ee50a942fe123acfdeee0350fa2d", null ],
-    [ "JustSummoned", "dd/d8e/a23546.html#a9a0b2cac08002db63162f95b9476c251", null ],
-    [ "KilledUnit", "dd/d8e/a23546.html#a6a408c654f91a44a40b3df52c0f2b093", null ]
+    [ "Load", "dd/d8e/a23546.html#aba7e1a0b87607386649bb842b5058c3e", null ],
+    [ "OnRemove", "dd/d8e/a23546.html#ac2f7a4532f62fb49f54c60b79aceb2e8", null ],
+    [ "PrepareAuraScript", "dd/d8e/a23546.html#ac62b18eedbadb0b3581d772909175e96", null ],
+    [ "Register", "dd/d8e/a23546.html#a17e8be131f01b2434b18740b20a08d6e", null ]
 ];

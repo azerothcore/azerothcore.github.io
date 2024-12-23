@@ -1,6 +1,6 @@
 var a16374 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "d6/d9f/a16378.html", "d6/d9f/a16378" ],
-    [ "instance_drak_tharon_keep", "d0/d21/a16374.html#a1f375185dba1619fee36160549eb91f4", null ],
-    [ "GetInstanceScript", "d0/d21/a16374.html#aca6364452dc39e747af152695d479bf8", null ]
+    [ "HandleEffectApply", "d0/d21/a16374.html#aaea2c3733dadc19072c81774468e345a", null ],
+    [ "PrepareAuraScript", "d0/d21/a16374.html#a3848997e9f775add50d40342b6211ff0", null ],
+    [ "Register", "d0/d21/a16374.html#a775b1cf494049ed13d149ca6318142c3", null ]
 ];

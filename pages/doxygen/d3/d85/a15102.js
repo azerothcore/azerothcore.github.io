@@ -1,7 +1,7 @@
 var a15102 =
 [
-    [ "HandleDummy", "d3/d85/a15102.html#a30a87266b89021caf7d05c45397f70d1", null ],
-    [ "PrepareSpellScript", "d3/d85/a15102.html#a43a92b346088d710719722e8feed9634", null ],
-    [ "Register", "d3/d85/a15102.html#ad7a53cc6a24197c050ed8577f6c6cc12", null ],
-    [ "Validate", "d3/d85/a15102.html#a8b5097b623adbc1d8a10d7b1c4c248ab", null ]
+    [ "npc_cork_gizeltonAI", "d0/d36/a15106.html", "d0/d36/a15106" ],
+    [ "npc_cork_gizelton", "d3/d85/a15102.html#a915aa2abc18109e7d0197863f59536f2", null ],
+    [ "GetAI", "d3/d85/a15102.html#a8a5fe5c46767aa37fd6e5b10e1bfc372", null ],
+    [ "OnQuestAccept", "d3/d85/a15102.html#a11dc1fea0a24add451272b537298fc13", null ]
 ];

@@ -1,5 +1,7 @@
 var a12914 =
 [
-    [ "at_malfurion_stormrage", "db/d73/a12914.html#ac5da3d1a7c2ccaffee68cfaee04fb63c", null ],
-    [ "OnTrigger", "db/d73/a12914.html#a0aa7818bd09b8a456d1ebbaa7d5f5c1d", null ]
+    [ "OnPeriodic", "db/d73/a12914.html#aa48b6f35302a8857465c6567f811dec6", null ],
+    [ "PrepareAuraScript", "db/d73/a12914.html#ad606a06f64b85c762f3c83bc9ca5b7b3", null ],
+    [ "Register", "db/d73/a12914.html#aa7708067531131738b86077638eda7ac", null ],
+    [ "Validate", "db/d73/a12914.html#a665698b54201184185d96bd33f53e584", null ]
 ];

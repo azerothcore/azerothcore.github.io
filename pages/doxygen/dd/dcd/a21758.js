@@ -1,12 +1,7 @@
 var a21758 =
 [
-    [ "npc_tournament_training_dummyAI", "dd/dcd/a21758.html#ab84a35b5145c74f16dfbbe020dd9a73b", null ],
-    [ "DamageTaken", "dd/dcd/a21758.html#a98c18794124922e6946a82a324410837", null ],
-    [ "EnterEvadeMode", "dd/dcd/a21758.html#a3f31d705284b0fad2f00c9210ff06646", null ],
-    [ "MoveInLineOfSight", "dd/dcd/a21758.html#a7a05c8682767f5a2d847e99eeed8e00f", null ],
-    [ "Reset", "dd/dcd/a21758.html#a7339ffe52dc789f9480afca7141a169e", null ],
-    [ "SpellHit", "dd/dcd/a21758.html#a5cd56075333fb59ddd8d4a48dc2eecdf", null ],
-    [ "UpdateAI", "dd/dcd/a21758.html#a8bba917f0e0d67cd7a0121ab71d5a419", null ],
-    [ "events", "dd/dcd/a21758.html#a77fa2ef2f15208ab8b284c71e0227fc4", null ],
-    [ "isVulnerable", "dd/dcd/a21758.html#a4a4d3029a329e6eb253bc57c5f7b2a98", null ]
+    [ "npc_tirions_gambit_tirionAI", "d7/d5f/a21762.html", "d7/d5f/a21762" ],
+    [ "npc_tirions_gambit_tirion", "dd/dcd/a21758.html#ad52abd46ccdd3b4409671679434c193c", null ],
+    [ "GetAI", "dd/dcd/a21758.html#a222c092c2e2136dbd7057a3f7ad7b5f4", null ],
+    [ "OnGossipSelect", "dd/dcd/a21758.html#a5af904a3394de9b3eedb52009bd6b0a9", null ]
 ];

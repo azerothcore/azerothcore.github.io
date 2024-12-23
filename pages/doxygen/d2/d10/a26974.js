@@ -1,6 +1,5 @@
 var a26974 =
 [
-    [ "go_amberpine_outhouse", "d2/d10/a26974.html#a953ea72b3954c89b6c391de5aca3b6ce", null ],
-    [ "OnGossipHello", "d2/d10/a26974.html#a7cbfc3a091ad2332fd46140a24ac4e37", null ],
-    [ "OnGossipSelect", "d2/d10/a26974.html#aa55fe049ba43dbd548ba55d982d89d51", null ]
+    [ "go_jump_a_tron", "d2/d10/a26974.html#a23306caf54a4282d290eec5daa3bfbc5", null ],
+    [ "OnGossipHello", "d2/d10/a26974.html#ae45085de26fc6ad4c3fa2bddf0bf20ec", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: M2Array Struct Reference</title>
+<title>AzerothCore: ThreatCalcHelper Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,52 +105,188 @@ $(document).ready(function(){initNavTree('db/def/a07678.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../db/d70/a07675.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">M2Array Struct Reference</div></div>
+  <div class="headertitle"><div class="title">ThreatCalcHelper Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">M2Structure.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ThreatMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:af111e542d7a276e27d2b14757293bc42"><td class="memItemLeft" align="right" valign="top">uint32_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a07678.html#af111e542d7a276e27d2b14757293bc42">number</a></td></tr>
-<tr class="separator:af111e542d7a276e27d2b14757293bc42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad633b2e9afc82762c6b43675844f8fea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a07678.html#ad633b2e9afc82762c6b43675844f8fea">offset_elements</a></td></tr>
-<tr class="separator:ad633b2e9afc82762c6b43675844f8fea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a0f3da2af1c68a535ac2396dd600ee00b"><td class="memItemLeft" align="right" valign="top">static float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a07678.html#a0f3da2af1c68a535ac2396dd600ee00b">calcThreat</a> (<a class="el" href="../../d4/d46/a08598.html">Unit</a> *hatedUnit, float threat, <a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a> schoolMask=<a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a>, <a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *threatSpell=nullptr)</td></tr>
+<tr class="separator:a0f3da2af1c68a535ac2396dd600ee00b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86dca4bc12138bef3dd53d4b3356f5d2"><td class="memItemLeft" align="right" valign="top">static bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/def/a07678.html#a86dca4bc12138bef3dd53d4b3356f5d2">isValidProcess</a> (<a class="el" href="../../d4/d46/a08598.html">Unit</a> *hatedUnit, <a class="el" href="../../d4/d46/a08598.html">Unit</a> *hatingUnit, <a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *threatSpell=nullptr)</td></tr>
+<tr class="separator:a86dca4bc12138bef3dd53d4b3356f5d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="af111e542d7a276e27d2b14757293bc42" name="af111e542d7a276e27d2b14757293bc42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af111e542d7a276e27d2b14757293bc42">&#9670;&#160;</a></span>number</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a0f3da2af1c68a535ac2396dd600ee00b" name="a0f3da2af1c68a535ac2396dd600ee00b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f3da2af1c68a535ac2396dd600ee00b">&#9670;&#160;</a></span>calcThreat()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">uint32_t M2Array::number</td>
+          <td class="memname">float ThreatCalcHelper::calcThreat </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d46/a08598.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>hatedUnit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>threat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8f">SpellSchoolMask</a>&#160;</td>
+          <td class="paramname"><em>schoolMask</em> = <code><a class="el" href="../../d0/dbd/a02771.html#aff6913cfd69489c107a071be9ec2ec8fa12667dd3f55738c93e1ddb1351779b42">SPELL_SCHOOL_MASK_NORMAL</a></code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname"><em>threatSpell</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (threatSpell)</div>
+<div class="line"><span class="lineno">   37</span>    {</div>
+<div class="line"><span class="lineno">   38</span>        <span class="keywordflow">if</span> (<a class="code hl_struct" href="../../d2/dc7/a10990.html">SpellThreatEntry</a> <span class="keyword">const</span>* threatEntry = <a class="code hl_define" href="../../d8/d96/a03116.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a>-&gt;GetSpellThreatEntry(threatSpell-&gt;Id))</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">if</span> (threatEntry-&gt;pctMod != 1.0f)</div>
+<div class="line"><span class="lineno">   40</span>                threat *= threatEntry-&gt;pctMod;</div>
+<div class="line"><span class="lineno">   41</span> </div>
+<div class="line"><span class="lineno">   42</span>        <span class="comment">// Energize is not affected by Mods</span></div>
+<div class="line"><span class="lineno">   43</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> i = 0; i &lt; <a class="code hl_define" href="../../d7/d14/a02750.html#ac5733f5b58bf8a23a1919a005b5ec895">MAX_SPELL_EFFECTS</a>; i++)</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">if</span> (threatSpell-&gt;Effects[i].Effect == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a292c893150c454dd75628b719db1fe97ab0727b6312cbc0d83b93ab5d5578fe8b">SPELL_EFFECT_ENERGIZE</a> || threatSpell-&gt;Effects[i].ApplyAuraName == <a class="code hl_enumvalue" href="../../d8/db1/a03098.html#a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2">SPELL_AURA_PERIODIC_ENERGIZE</a>)</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">return</span> threat;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dc/d06/a08466.html">Player</a>* modOwner = hatedUnit-&gt;<a class="code hl_function" href="../../d4/d46/a08598.html#a2e6a98844f96c211f47b911a2766ada8">GetSpellModOwner</a>())</div>
+<div class="line"><span class="lineno">   48</span>            modOwner-&gt;ApplySpellMod(threatSpell-&gt;Id, <a class="code hl_enumvalue" href="../../d9/d5e/a03086.html#a39b60e1f12cca9b6873cb817e7717351a89d11fccf6d29a9b12a0375c105b2105">SPELLMOD_THREAT</a>, threat);</div>
+<div class="line"><span class="lineno">   49</span>    }</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>    <span class="keywordflow">return</span> hatedUnit-&gt;<a class="code hl_function" href="../../d4/d46/a08598.html#a37bc079e17756196dd7dbb4f6722c1f9">ApplyTotalThreatModifier</a>(threat, schoolMask);</div>
+<div class="line"><span class="lineno">   52</span>}</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa02750_html_ac5733f5b58bf8a23a1919a005b5ec895"><div class="ttname"><a href="../../d7/d14/a02750.html#ac5733f5b58bf8a23a1919a005b5ec895">MAX_SPELL_EFFECTS</a></div><div class="ttdeci">#define MAX_SPELL_EFFECTS</div><div class="ttdef"><b>Definition:</b> DBCStructure.h:1636</div></div>
+<div class="ttc" id="aa02771_html_a292c893150c454dd75628b719db1fe97ab0727b6312cbc0d83b93ab5d5578fe8b"><div class="ttname"><a href="../../d0/dbd/a02771.html#a292c893150c454dd75628b719db1fe97ab0727b6312cbc0d83b93ab5d5578fe8b">SPELL_EFFECT_ENERGIZE</a></div><div class="ttdeci">@ SPELL_EFFECT_ENERGIZE</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:808</div></div>
+<div class="ttc" id="aa03086_html_a39b60e1f12cca9b6873cb817e7717351a89d11fccf6d29a9b12a0375c105b2105"><div class="ttname"><a href="../../d9/d5e/a03086.html#a39b60e1f12cca9b6873cb817e7717351a89d11fccf6d29a9b12a0375c105b2105">SPELLMOD_THREAT</a></div><div class="ttdeci">@ SPELLMOD_THREAT</div><div class="ttdef"><b>Definition:</b> SpellDefines.h:78</div></div>
+<div class="ttc" id="aa03098_html_a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2"><div class="ttname"><a href="../../d8/db1/a03098.html#a538cdc259460b365f406fe0b3a981799ab9f377f6e107ad1633d32a22da2ec7d2">SPELL_AURA_PERIODIC_ENERGIZE</a></div><div class="ttdeci">@ SPELL_AURA_PERIODIC_ENERGIZE</div><div class="ttdef"><b>Definition:</b> SpellAuraDefines.h:87</div></div>
+<div class="ttc" id="aa03116_html_aa21e14d8e1145507b746a69b5487109d"><div class="ttname"><a href="../../d8/d96/a03116.html#aa21e14d8e1145507b746a69b5487109d">sSpellMgr</a></div><div class="ttdeci">#define sSpellMgr</div><div class="ttdef"><b>Definition:</b> SpellMgr.h:825</div></div>
+<div class="ttc" id="aa08466_html"><div class="ttname"><a href="../../dc/d06/a08466.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1081</div></div>
+<div class="ttc" id="aa08598_html_a2e6a98844f96c211f47b911a2766ada8"><div class="ttname"><a href="../../d4/d46/a08598.html#a2e6a98844f96c211f47b911a2766ada8">Unit::GetSpellModOwner</a></div><div class="ttdeci">Player * GetSpellModOwner() const</div><div class="ttdef"><b>Definition:</b> Unit.cpp:16577</div></div>
+<div class="ttc" id="aa08598_html_a37bc079e17756196dd7dbb4f6722c1f9"><div class="ttname"><a href="../../d4/d46/a08598.html#a37bc079e17756196dd7dbb4f6722c1f9">Unit::ApplyTotalThreatModifier</a></div><div class="ttdeci">float ApplyTotalThreatModifier(float fThreat, SpellSchoolMask schoolMask=SPELL_SCHOOL_MASK_NORMAL)</div><div class="ttdef"><b>Definition:</b> Unit.cpp:14641</div></div>
+<div class="ttc" id="aa10990_html"><div class="ttname"><a href="../../d2/dc7/a10990.html">SpellThreatEntry</a></div><div class="ttdef"><b>Definition:</b> SpellMgr.h:385</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l14641">Unit::ApplyTotalThreatModifier()</a>, <a class="el" href="../../#l00393">SpellInfo::Effects</a>, <a class="el" href="../../#l16577">Unit::GetSpellModOwner()</a>, <a class="el" href="../../#l00320">SpellInfo::Id</a>, <a class="el" href="../../#l01636">MAX_SPELL_EFFECTS</a>, <a class="el" href="../../#l00087">SPELL_AURA_PERIODIC_ENERGIZE</a>, <a class="el" href="../../#l00808">SPELL_EFFECT_ENERGIZE</a>, <a class="el" href="../../#l00078">SPELLMOD_THREAT</a>, and <a class="el" href="../../#l00825">sSpellMgr</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00050">readCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00436">ThreatMgr::AddThreat()</a>, and <a class="el" href="../../#l00035">HostileRefMgr::threatAssist()</a>.</p>
 
 </div>
 </div>
-<a id="ad633b2e9afc82762c6b43675844f8fea" name="ad633b2e9afc82762c6b43675844f8fea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad633b2e9afc82762c6b43675844f8fea">&#9670;&#160;</a></span>offset_elements</h2>
+<a id="a86dca4bc12138bef3dd53d4b3356f5d2" name="a86dca4bc12138bef3dd53d4b3356f5d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86dca4bc12138bef3dd53d4b3356f5d2">&#9670;&#160;</a></span>isValidProcess()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> M2Array::offset_elements</td>
+          <td class="memname">bool ThreatCalcHelper::isValidProcess </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d46/a08598.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>hatedUnit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d46/a08598.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>hatingUnit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname"><em>threatSpell</em> = <code>nullptr</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   55</span>{</div>
+<div class="line"><span class="lineno">   56</span>    <span class="comment">//function deals with adding threat and adding players and pets into ThreatList</span></div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">//mobs, NPCs, guards have ThreatList and HateOfflineList</span></div>
+<div class="line"><span class="lineno">   58</span>    <span class="comment">//players and pets have only InHateListOf</span></div>
+<div class="line"><span class="lineno">   59</span>    <span class="comment">//HateOfflineList is used co contain unattackable victims (in-flight, in-water, GM etc.)</span></div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>    <span class="keywordflow">if</span> (!hatedUnit || !hatingUnit)</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   63</span> </div>
+<div class="line"><span class="lineno">   64</span>    <span class="comment">// not to self</span></div>
+<div class="line"><span class="lineno">   65</span>    <span class="keywordflow">if</span> (hatedUnit == hatingUnit)</div>
+<div class="line"><span class="lineno">   66</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <span class="comment">// not to GM</span></div>
+<div class="line"><span class="lineno">   69</span>    <span class="keywordflow">if</span> (hatedUnit-&gt;<a class="code hl_function" href="../../de/d68/a08218.html#a1b9ed00e8d7ac5fed698ef6431905296">IsPlayer</a>() &amp;&amp; hatedUnit-&gt;<a class="code hl_function" href="../../de/d68/a08218.html#a328d5f752cc33ed398b3d9861ef6929d">ToPlayer</a>()-&gt;<a class="code hl_function" href="../../dc/d06/a08466.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">IsGameMaster</a>())</div>
+<div class="line"><span class="lineno">   70</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   71</span> </div>
+<div class="line"><span class="lineno">   72</span>    <span class="comment">// not to dead and not for dead</span></div>
+<div class="line"><span class="lineno">   73</span>    <span class="keywordflow">if</span> (!hatedUnit-&gt;<a class="code hl_function" href="../../d4/d46/a08598.html#a5ea3f54af571493f7889220724667189">IsAlive</a>() || !hatingUnit-&gt;<a class="code hl_function" href="../../d4/d46/a08598.html#a5ea3f54af571493f7889220724667189">IsAlive</a>())</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   75</span> </div>
+<div class="line"><span class="lineno">   76</span>    <span class="comment">// not in same map or phase</span></div>
+<div class="line"><span class="lineno">   77</span>    <span class="keywordflow">if</span> (!hatedUnit-&gt;<a class="code hl_function" href="../../de/d0d/a08250.html#aedc362bb48f474ee7291f4c82f585837">IsInMap</a>(hatingUnit) || !hatedUnit-&gt;<a class="code hl_function" href="../../de/d0d/a08250.html#a9194d2edf982e08c6a17e2893d9969f9">InSamePhase</a>(hatingUnit))</div>
+<div class="line"><span class="lineno">   78</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   79</span> </div>
+<div class="line"><span class="lineno">   80</span>    <span class="comment">// spell not causing threat</span></div>
+<div class="line"><span class="lineno">   81</span>    <span class="keywordflow">if</span> (threatSpell &amp;&amp; threatSpell-&gt;HasAttribute(<a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a638f8f550e23b2e3180b481bb3f38076a02166cd30d63804b4175bdfe29ffd068">SPELL_ATTR1_NO_THREAT</a>))</div>
+<div class="line"><span class="lineno">   82</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   83</span> </div>
+<div class="line"><span class="lineno">   84</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(hatingUnit-&gt;<a class="code hl_function" href="../../de/d68/a08218.html#aacc8ee332f66effdc0d77c126dae1961">IsCreature</a>());</div>
+<div class="line"><span class="lineno">   85</span> </div>
+<div class="line"><span class="lineno">   86</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   87</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa02771_html_a638f8f550e23b2e3180b481bb3f38076a02166cd30d63804b4175bdfe29ffd068"><div class="ttname"><a href="../../d0/dbd/a02771.html#a638f8f550e23b2e3180b481bb3f38076a02166cd30d63804b4175bdfe29ffd068">SPELL_ATTR1_NO_THREAT</a></div><div class="ttdeci">@ SPELL_ATTR1_NO_THREAT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:429</div></div>
+<div class="ttc" id="aa08218_html_a1b9ed00e8d7ac5fed698ef6431905296"><div class="ttname"><a href="../../de/d68/a08218.html#a1b9ed00e8d7ac5fed698ef6431905296">Object::IsPlayer</a></div><div class="ttdeci">bool IsPlayer() const</div><div class="ttdef"><b>Definition:</b> Object.h:200</div></div>
+<div class="ttc" id="aa08218_html_a328d5f752cc33ed398b3d9861ef6929d"><div class="ttname"><a href="../../de/d68/a08218.html#a328d5f752cc33ed398b3d9861ef6929d">Object::ToPlayer</a></div><div class="ttdeci">Player * ToPlayer()</div><div class="ttdef"><b>Definition:</b> Object.h:201</div></div>
+<div class="ttc" id="aa08218_html_aacc8ee332f66effdc0d77c126dae1961"><div class="ttname"><a href="../../de/d68/a08218.html#aacc8ee332f66effdc0d77c126dae1961">Object::IsCreature</a></div><div class="ttdeci">bool IsCreature() const</div><div class="ttdef"><b>Definition:</b> Object.h:204</div></div>
+<div class="ttc" id="aa08250_html_a9194d2edf982e08c6a17e2893d9969f9"><div class="ttname"><a href="../../de/d0d/a08250.html#a9194d2edf982e08c6a17e2893d9969f9">WorldObject::InSamePhase</a></div><div class="ttdeci">bool InSamePhase(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.h:452</div></div>
+<div class="ttc" id="aa08250_html_aedc362bb48f474ee7291f4c82f585837"><div class="ttname"><a href="../../de/d0d/a08250.html#aedc362bb48f474ee7291f4c82f585837">WorldObject::IsInMap</a></div><div class="ttdeci">bool IsInMap(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1296</div></div>
+<div class="ttc" id="aa08466_html_a9f23cae8a3da0345a05c2a2bfedc2fe2"><div class="ttname"><a href="../../dc/d06/a08466.html#a9f23cae8a3da0345a05c2a2bfedc2fe2">Player::IsGameMaster</a></div><div class="ttdeci">bool IsGameMaster() const</div><div class="ttdef"><b>Definition:</b> Player.h:1175</div></div>
+<div class="ttc" id="aa08598_html_a5ea3f54af571493f7889220724667189"><div class="ttname"><a href="../../d4/d46/a08598.html#a5ea3f54af571493f7889220724667189">Unit::IsAlive</a></div><div class="ttdeci">bool IsAlive() const</div><div class="ttdef"><b>Definition:</b> Unit.h:1654</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00415">SpellInfo::HasAttribute()</a>, <a class="el" href="../../#l00452">WorldObject::InSamePhase()</a>, <a class="el" href="../../#l01654">Unit::IsAlive()</a>, <a class="el" href="../../#l00204">Object::IsCreature()</a>, <a class="el" href="../../#l01175">Player::IsGameMaster()</a>, <a class="el" href="../../#l01296">WorldObject::IsInMap()</a>, <a class="el" href="../../#l00200">Object::IsPlayer()</a>, <a class="el" href="../../#l00429">SPELL_ATTR1_NO_THREAT</a>, and <a class="el" href="../../#l00201">Object::ToPlayer()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00050">readCamera()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00436">ThreatMgr::AddThreat()</a>, <a class="el" href="../../#l00453">ThreatMgr::DoAddThreat()</a>, and <a class="el" href="../../#l00035">HostileRefMgr::threatAssist()</a>.</p>
 
 </div>
 </div>
@@ -159,8 +295,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../db/def/a07678.html">M2Array</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/def/a07678.html">ThreatCalcHelper</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

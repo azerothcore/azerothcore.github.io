@@ -71,7 +71,7 @@ var searchData=
   ['gossip_5fweapon_5funlearn_68',['GOSSIP_WEAPON_UNLEARN',['../dc/d0c/a01532.html#aafeab306b08ad544c0a0db08389a8f14',1,'npc_professions.cpp']]],
   ['gossip_5fweegli_69',['GOSSIP_WEEGLI',['../d7/d98/a00983.html#abd5fb74b4c5971cd2993555c6ac4d1eb',1,'zulfarrak.cpp']]],
   ['gossip_5fwrynn_70',['GOSSIP_WRYNN',['../d6/d90/a02492.html#a70b2c91975ba3cead73774bc8c80dbca',1,'zone_undercity.cpp']]],
-  ['group_5fupdate_5fflags_5fcount_71',['GROUP_UPDATE_FLAGS_COUNT',['../d2/df0/a03119.html#ad409013260cb0aea80c911d24d7b5d00',1,'Group.h']]],
+  ['group_5fupdate_5fflags_5fcount_71',['GROUP_UPDATE_FLAGS_COUNT',['../dc/d0a/a03125.html#ad409013260cb0aea80c911d24d7b5d00',1,'Group.h']]],
   ['gruulslairscriptname_72',['GruulsLairScriptName',['../d7/d92/a00887.html#a6cc1f699014ee48a56647e53e9d1440a',1,'gruuls_lair.h']]],
   ['gt_5fmax_5flevel_73',['GT_MAX_LEVEL',['../d7/d14/a02750.html#a7f11f6829a2ed728bfc49ad3b2f932ca',1,'DBCStructure.h']]],
   ['gt_5fmax_5frating_74',['GT_MAX_RATING',['../d7/d14/a02750.html#a99aa40e9a3a154a942515839010d79ff',1,'DBCStructure.h']]],

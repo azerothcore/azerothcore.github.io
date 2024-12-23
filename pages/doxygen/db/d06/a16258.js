@@ -1,9 +1,22 @@
 var a16258 =
 [
-    [ "npc_concentrated_ballAI", "db/d06/a16258.html#a5aae1554934d8e2aaa59d420a13517b6", null ],
-    [ "DoAction", "db/d06/a16258.html#ad3284ed37cdc503a688aa6fb2537387e", null ],
-    [ "MovementInform", "db/d06/a16258.html#a07845a436ded9c799b742ac9e27cc1bd", null ],
-    [ "MoveToNextPoint", "db/d06/a16258.html#a89d2697d5ccf6d783e973efc3b4669aa", null ],
-    [ "UpdateAI", "db/d06/a16258.html#a6509ff14639bca29b6877db54102d004", null ],
-    [ "despawning", "db/d06/a16258.html#a24145c6c4c38b5a1853647d24871090d", null ]
+    [ "boss_jormungarAI", "db/d06/a16258.html#ab5291ccd06b4a0601e3426a89a86d99d", null ],
+    [ "AttackStart", "db/d06/a16258.html#acabeffd2f9978b25a0b27abfbb3f5220", null ],
+    [ "DoAction", "db/d06/a16258.html#a5ce0f99d3889933633e1d88b4bacee88", null ],
+    [ "EnterEvadeMode", "db/d06/a16258.html#aa3cd34a173b92dd2b54a28bb1b17fae7", null ],
+    [ "JustDied", "db/d06/a16258.html#a2a9278b547776c84b756b6fb2fc89e67", null ],
+    [ "JustEngagedWith", "db/d06/a16258.html#af5a266b577c5bb8ef8f7bbd7fddc163e", null ],
+    [ "JustReachedHome", "db/d06/a16258.html#afd345729b079d2dacd8f37f4481968f1", null ],
+    [ "ScheduleEvents", "db/d06/a16258.html#a6fd24ecd0be5692e9e389833a6134de5", null ],
+    [ "UpdateAI", "db/d06/a16258.html#ad8e5bf4176dfa37c3af476f6f71e699e", null ],
+    [ "_MODEL_MOBILE", "db/d06/a16258.html#a4be09bf0ae4c96d77edd5b1577b8aa28", null ],
+    [ "_MODEL_STATIONARY", "db/d06/a16258.html#adb7d8c493523dadcd0168899621cd246", null ],
+    [ "_SPELL_BITE", "db/d06/a16258.html#a604bcb56112044c4e437a9c447f0db51", null ],
+    [ "_SPELL_SPEW", "db/d06/a16258.html#af8f47b7cbad0adb835c1bdcf40ca5288", null ],
+    [ "_SPELL_SPIT", "db/d06/a16258.html#a4bdfcadfd0ebcc98b0a2c221b3a387b2", null ],
+    [ "_SPELL_SPRAY", "db/d06/a16258.html#ac73edc1b85cd78b045657279335a7564", null ],
+    [ "_TYPE_OTHER", "db/d06/a16258.html#a4c341523dfc63b6c9b73f9e3a49ce854", null ],
+    [ "bIsStationary", "db/d06/a16258.html#a16e42748b51576e6acb7cb30794b47bf", null ],
+    [ "events", "db/d06/a16258.html#a08cfa4cc7bf270926bf1d3fc8089318f", null ],
+    [ "pInstance", "db/d06/a16258.html#a981495f258c2fdeec9d0139ab02cf044", null ]
 ];

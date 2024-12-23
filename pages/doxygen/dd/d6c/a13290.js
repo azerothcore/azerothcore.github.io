@@ -1,7 +1,10 @@
 var a13290 =
 [
-    [ "npc_greengill_slaveAI", "dd/d6c/a13290.html#a1a4268b745e63992f4d0fc2028b717aa", null ],
-    [ "JustEngagedWith", "dd/d6c/a13290.html#ad7fcb8c711782d3a76e9e4566334fc21", null ],
-    [ "SpellHit", "dd/d6c/a13290.html#a0e75a3e8eb3503fdb3aea12e65ccc6e4", null ],
-    [ "UpdateAI", "dd/d6c/a13290.html#a6fa27328cf47bef81c3465b8a3e2ace1", null ]
+    [ "npc_partygoer_pather", "dd/d6c/a13290.html#a15a0e517e8671afb9d636ebe781a4bcd", null ],
+    [ "Initialize", "dd/d6c/a13290.html#afb114b0587c550e39c41e131364da663", null ],
+    [ "PathEndReached", "dd/d6c/a13290.html#a55833d306716ba411f96ecd024cc7c72", null ],
+    [ "Reset", "dd/d6c/a13290.html#ade2cc36ff49001138eee5b607ec83b12", null ],
+    [ "UpdateAI", "dd/d6c/a13290.html#a4d222399b6b789e7a2a2faa4765116a6", null ],
+    [ "_events", "dd/d6c/a13290.html#ac210dc0286ded980e78743237a08bb23", null ],
+    [ "_path", "dd/d6c/a13290.html#a4da184c44858e99eca2b07193fd48f13", null ]
 ];

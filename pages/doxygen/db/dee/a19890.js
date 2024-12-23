@@ -1,6 +1,6 @@
 var a19890 =
 [
-    [ "FilterTargets", "db/dee/a19890.html#af15fc44e9bd5251aa70aaaa6657e0c29", null ],
-    [ "PrepareSpellScript", "db/dee/a19890.html#ae0ebd4c2ac0f91da5b2574ee7dac31ec", null ],
-    [ "Register", "db/dee/a19890.html#af6704b0789566b2b385ac573eaa50f06", null ]
+    [ "npc_ulduar_toasty_fireAI", "db/dee/a19890.html#a145001c6f1c1d505f810ae545ec62c69", null ],
+    [ "DoAction", "db/dee/a19890.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
+    [ "SpellHit", "db/dee/a19890.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
 ];

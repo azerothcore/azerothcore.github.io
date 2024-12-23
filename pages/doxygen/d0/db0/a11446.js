@@ -1,8 +1,6 @@
 var a11446 =
 [
-    [ "pet_commandscript", "d0/db0/a11446.html#a84595dcb908398e80deee0b0aa47e335", null ],
-    [ "GetCommands", "d0/db0/a11446.html#a01026a4936774d2225d10e0f6e27b08c", null ],
-    [ "HandlePetCreateCommand", "d0/db0/a11446.html#a993d06169aa0b0c4bbda38e124b6eea9", null ],
-    [ "HandlePetLearnCommand", "d0/db0/a11446.html#a59a2a6bd9af23fe3a775319216337bda", null ],
-    [ "HandlePetUnlearnCommand", "d0/db0/a11446.html#ae6d785cdde773b107ba5e619b039f7b8", null ]
+    [ "inventory_commandscript", "d0/db0/a11446.html#a765d3606093dd3e15bb59c058333dca7", null ],
+    [ "GetCommands", "d0/db0/a11446.html#ac002b65cbe2e5dafc7614c7afa4a20e6", null ],
+    [ "HandleInventoryCountCommand", "d0/db0/a11446.html#a60d05e2fd4e23fdb6bc6513a1dc67ba3", null ]
 ];

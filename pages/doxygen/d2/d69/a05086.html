@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::GenericHashImpl Struct Reference</title>
+<title>AzerothCore: Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,9 +106,12 @@ $(document).ready(function(){initNavTree('d2/d69/a05086.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d6/de9/a05083.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::GenericHashImpl Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,48 +119,308 @@ $(document).ready(function(){initNavTree('d2/d69/a05086.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a03a4f6e31f0cb838b857997a0272f90b"><td class="memItemLeft" align="right" valign="top">typedef EVP_MD const *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a03a4f6e31f0cb838b857997a0272f90b">HashCreator</a>) ()</td></tr>
-<tr class="separator:a03a4f6e31f0cb838b857997a0272f90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf69027dd4096b1bda0e5d78fbceba05"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> = std::array&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d2/d69/a05086.html#af6e4303fbffe4f52dec13026532f0a87">DIGEST_LENGTH</a> &gt;</td></tr>
+<tr class="separator:abf69027dd4096b1bda0e5d78fbceba05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a6eccaf97a504b613089a825baed128e6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a6eccaf97a504b613089a825baed128e6">GenericHash</a> ()</td></tr>
+<tr class="separator:a6eccaf97a504b613089a825baed128e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03d5bc2bc2e7366c407d95c5b84127d9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a03d5bc2bc2e7366c407d95c5b84127d9">GenericHash</a> (<a class="el" href="../../d2/d69/a05086.html">GenericHash</a> const &amp;right)</td></tr>
+<tr class="separator:a03d5bc2bc2e7366c407d95c5b84127d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b50d27bb0e3c3f3ef22abee357f3194"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a2b50d27bb0e3c3f3ef22abee357f3194">GenericHash</a> (<a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp;&amp;right) noexcept</td></tr>
+<tr class="separator:a2b50d27bb0e3c3f3ef22abee357f3194"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ef55147adf4d6957d62d9cc7e3544c"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a15ef55147adf4d6957d62d9cc7e3544c">~GenericHash</a> ()</td></tr>
+<tr class="separator:a15ef55147adf4d6957d62d9cc7e3544c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebfb39f72d9bd1e717f75d687ddad352"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#aebfb39f72d9bd1e717f75d687ddad352">operator=</a> (<a class="el" href="../../d2/d69/a05086.html">GenericHash</a> const &amp;right)</td></tr>
+<tr class="separator:aebfb39f72d9bd1e717f75d687ddad352"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3fab78ba706e1d71141d1baff733cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a9d3fab78ba706e1d71141d1baff733cb">operator=</a> (<a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp;&amp;right) noexcept</td></tr>
+<tr class="separator:a9d3fab78ba706e1d71141d1baff733cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1705975eec03929bd7c603bb563d19"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#abe1705975eec03929bd7c603bb563d19">UpdateData</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *data, std::size_t len)</td></tr>
+<tr class="separator:abe1705975eec03929bd7c603bb563d19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad09ad852820ff44378c09b245ae9e055"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#ad09ad852820ff44378c09b245ae9e055">UpdateData</a> (std::string_view str)</td></tr>
+<tr class="separator:ad09ad852820ff44378c09b245ae9e055"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9f8078da8ab86b94c5bdb6f683094e76"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a9f8078da8ab86b94c5bdb6f683094e76">UpdateData</a> (std::string const &amp;str)</td></tr>
+<tr class="separator:a9f8078da8ab86b94c5bdb6f683094e76"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbf1dbd8ed910f3a9ccd6c98d241085f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#adbf1dbd8ed910f3a9ccd6c98d241085f">UpdateData</a> (char const *str)</td></tr>
+<tr class="separator:adbf1dbd8ed910f3a9ccd6c98d241085f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2a76339e35dfeb87c134db2ffcd84c9"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
+<tr class="memitem:ae2a76339e35dfeb87c134db2ffcd84c9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#ae2a76339e35dfeb87c134db2ffcd84c9">UpdateData</a> (<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;c)</td></tr>
+<tr class="separator:ae2a76339e35dfeb87c134db2ffcd84c9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dc1415e2f1211753059ba2569fa049e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a8dc1415e2f1211753059ba2569fa049e">Finalize</a> ()</td></tr>
+<tr class="separator:a8dc1415e2f1211753059ba2569fa049e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae1ea3a430fe6f5659cfd28f93e67dbea"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#ae1ea3a430fe6f5659cfd28f93e67dbea">GetDigest</a> () const</td></tr>
+<tr class="separator:ae1ea3a430fe6f5659cfd28f93e67dbea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memItemLeft" align="right" valign="top">static EVP_MD_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a59487cdc54d416f8b2a88eb54ae21c8d">MakeCTX</a> () noexcept</td></tr>
-<tr class="separator:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e607b03e0758d10156e201e8d601db4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a7e607b03e0758d10156e201e8d601db4">DestroyCTX</a> (EVP_MD_CTX *ctx)</td></tr>
-<tr class="separator:a7e607b03e0758d10156e201e8d601db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42db9cd1a68778340bfdb7c7a8a049de"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a42db9cd1a68778340bfdb7c7a8a049de">GetDigestOf</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *data, std::size_t len)</td></tr>
+<tr class="separator:a42db9cd1a68778340bfdb7c7a8a049de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a363f6b4b036fb006f43040183eff37a4"><td class="memTemplParams" colspan="2">template&lt;typename... Ts&gt; </td></tr>
+<tr class="memitem:a363f6b4b036fb006f43040183eff37a4"><td class="memTemplItemLeft" align="right" valign="top">static auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a363f6b4b036fb006f43040183eff37a4">GetDigestOf</a> (Ts &amp;&amp;... pack) -&gt; std::enable_if_t&lt;!(std::is_integral_v&lt; std::decay_t&lt; Ts &gt; &gt;||...), <a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> &gt;</td></tr>
+<tr class="separator:a363f6b4b036fb006f43040183eff37a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-attribs" name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:af6e4303fbffe4f52dec13026532f0a87"><td class="memItemLeft" align="right" valign="top">static constexpr std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#af6e4303fbffe4f52dec13026532f0a87">DIGEST_LENGTH</a> = DigestLength</td></tr>
+<tr class="separator:af6e4303fbffe4f52dec13026532f0a87"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a5a7d841e6fba7ae09705261fb0ca0228"><td class="memItemLeft" align="right" valign="top">EVP_MD_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a> {}</td></tr>
+<tr class="separator:a5a7d841e6fba7ae09705261fb0ca0228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a162b593f942b5a1f18468ad76e56816c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">_digest</a> {}</td></tr>
+<tr class="separator:a162b593f942b5a1f18468ad76e56816c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a03a4f6e31f0cb838b857997a0272f90b" name="a03a4f6e31f0cb838b857997a0272f90b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03a4f6e31f0cb838b857997a0272f90b">&#9670;&#160;</a></span>HashCreator</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt;<br />
+class Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="abf69027dd4096b1bda0e5d78fbceba05" name="abf69027dd4096b1bda0e5d78fbceba05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf69027dd4096b1bda0e5d78fbceba05">&#9670;&#160;</a></span>Digest</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef EVP_MD const  *(* Acore::Impl::GenericHashImpl::HashCreator) ()</td>
+          <td class="memname">using <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::Digest =  std::array&lt;<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d2/d69/a05086.html#af6e4303fbffe4f52dec13026532f0a87">DIGEST_LENGTH</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a7e607b03e0758d10156e201e8d601db4" name="a7e607b03e0758d10156e201e8d601db4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7e607b03e0758d10156e201e8d601db4">&#9670;&#160;</a></span>DestroyCTX()</h2>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a6eccaf97a504b613089a825baed128e6" name="a6eccaf97a504b613089a825baed128e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6eccaf97a504b613089a825baed128e6">&#9670;&#160;</a></span>GenericHash() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Acore::Impl::GenericHashImpl::DestroyCTX </td>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GenericHash </td>
           <td>(</td>
-          <td class="paramtype">EVP_MD_CTX *&#160;</td>
-          <td class="paramname"><em>ctx</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   65</span>                          : <a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>(<a class="code hl_function" href="../../db/df6/a05082.html#a59487cdc54d416f8b2a88eb54ae21c8d">GenericHashImpl::MakeCTX</a>())</div>
+<div class="line"><span class="lineno">   66</span>            {</div>
+<div class="line"><span class="lineno">   67</span>                <span class="keywordtype">int</span> result = EVP_DigestInit_ex(<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>, HashCreator(), <span class="keyword">nullptr</span>);</div>
+<div class="line"><span class="lineno">   68</span>                <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">   69</span>            }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa05082_html_a59487cdc54d416f8b2a88eb54ae21c8d"><div class="ttname"><a href="../../db/df6/a05082.html#a59487cdc54d416f8b2a88eb54ae21c8d">Acore::Impl::GenericHashImpl::MakeCTX</a></div><div class="ttdeci">static EVP_MD_CTX * MakeCTX() noexcept</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:37</div></div>
+<div class="ttc" id="aa05086_html_a5a7d841e6fba7ae09705261fb0ca0228"><div class="ttname"><a href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">Acore::Impl::GenericHash::_ctx</a></div><div class="ttdeci">EVP_MD_CTX * _ctx</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:134</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="a03d5bc2bc2e7366c407d95c5b84127d9" name="a03d5bc2bc2e7366c407d95c5b84127d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03d5bc2bc2e7366c407d95c5b84127d9">&#9670;&#160;</a></span>GenericHash() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GenericHash </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a>&lt; HashCreator, DigestLength &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   71</span>                                                  : <a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>(<a class="code hl_function" href="../../db/df6/a05082.html#a59487cdc54d416f8b2a88eb54ae21c8d">GenericHashImpl::MakeCTX</a>())</div>
+<div class="line"><span class="lineno">   72</span>            {</div>
+<div class="line"><span class="lineno">   73</span>                *<span class="keyword">this</span> = right;</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a2b50d27bb0e3c3f3ef22abee357f3194" name="a2b50d27bb0e3c3f3ef22abee357f3194"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b50d27bb0e3c3f3ef22abee357f3194">&#9670;&#160;</a></span>GenericHash() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GenericHash </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a>&lt; HashCreator, DigestLength &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   77</span>            {</div>
+<div class="line"><span class="lineno">   78</span>                *<span class="keyword">this</span> = std::move(right);</div>
+<div class="line"><span class="lineno">   79</span>            }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a15ef55147adf4d6957d62d9cc7e3544c" name="a15ef55147adf4d6957d62d9cc7e3544c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ef55147adf4d6957d62d9cc7e3544c">&#9670;&#160;</a></span>~GenericHash()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::~<a class="el" href="../../d2/d69/a05086.html">GenericHash</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>            {</div>
+<div class="line"><span class="lineno">   83</span>                <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>)</div>
+<div class="line"><span class="lineno">   84</span>                    <span class="keywordflow">return</span>;</div>
+<div class="line"><span class="lineno">   85</span>                <a class="code hl_function" href="../../db/df6/a05082.html#a7e607b03e0758d10156e201e8d601db4">GenericHashImpl::DestroyCTX</a>(<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>);</div>
+<div class="line"><span class="lineno">   86</span>                <a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   87</span>            }</div>
+<div class="ttc" id="aa05082_html_a7e607b03e0758d10156e201e8d601db4"><div class="ttname"><a href="../../db/df6/a05082.html#a7e607b03e0758d10156e201e8d601db4">Acore::Impl::GenericHashImpl::DestroyCTX</a></div><div class="ttdeci">static void DestroyCTX(EVP_MD_CTX *ctx)</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:38</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, and <a class="el" href="../../#l00038">Acore::Impl::GenericHashImpl::DestroyCTX()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a8dc1415e2f1211753059ba2569fa049e" name="a8dc1415e2f1211753059ba2569fa049e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dc1415e2f1211753059ba2569fa049e">&#9670;&#160;</a></span>Finalize()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::Finalize </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  124</span>            {</div>
+<div class="line"><span class="lineno">  125</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> length;</div>
+<div class="line"><span class="lineno">  126</span>                <span class="keywordtype">int</span> result = EVP_DigestFinal_ex(<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>, <a class="code hl_variable" href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">_digest</a>.data(), &amp;length);</div>
+<div class="line"><span class="lineno">  127</span>                <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">  128</span>                <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(length == <a class="code hl_variable" href="../../d2/d69/a05086.html#af6e4303fbffe4f52dec13026532f0a87">DIGEST_LENGTH</a>);</div>
+<div class="line"><span class="lineno">  129</span>            }</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa05086_html_a162b593f942b5a1f18468ad76e56816c"><div class="ttname"><a href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">Acore::Impl::GenericHash::_digest</a></div><div class="ttdeci">Digest _digest</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:135</div></div>
+<div class="ttc" id="aa05086_html_af6e4303fbffe4f52dec13026532f0a87"><div class="ttname"><a href="../../d2/d69/a05086.html#af6e4303fbffe4f52dec13026532f0a87">Acore::Impl::GenericHash::DIGEST_LENGTH</a></div><div class="ttdeci">static constexpr std::size_t DIGEST_LENGTH</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:45</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, <a class="el" href="../../#l00135">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_digest</a>, <a class="el" href="../../#l00068">ASSERT</a>, and <a class="el" href="../../#l00045">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::DIGEST_LENGTH</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00552">WorldSocket::HandleAuthSessionCallback()</a>, <a class="el" href="../../#l00205">WardenMac::HandleData()</a>, <a class="el" href="../../#l00121">WardenMac::HandleHashResult()</a>, <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>, and <a class="el" href="../../#l00840">AuthSession::VerifyVersion()</a>.</p>
+
+</div>
+</div>
+<a id="ae1ea3a430fe6f5659cfd28f93e67dbea" name="ae1ea3a430fe6f5659cfd28f93e67dbea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae1ea3a430fe6f5659cfd28f93e67dbea">&#9670;&#160;</a></span>GetDigest()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> const  &amp; <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GetDigest </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  131</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">_digest</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00135">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_digest</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00552">WorldSocket::HandleAuthSessionCallback()</a>, <a class="el" href="../../#l00205">WardenMac::HandleData()</a>, <a class="el" href="../../#l00121">WardenMac::HandleHashResult()</a>, <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>, and <a class="el" href="../../#l00840">AuthSession::VerifyVersion()</a>.</p>
+
+</div>
+</div>
+<a id="a363f6b4b036fb006f43040183eff37a4" name="a363f6b4b036fb006f43040183eff37a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a363f6b4b036fb006f43040183eff37a4">&#9670;&#160;</a></span>GetDigestOf() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Ts&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static auto <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GetDigestOf </td>
+          <td>(</td>
+          <td class="paramtype">Ts &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>pack</em></td><td>)</td>
+          <td> -&gt; std::enable_if_t&lt;!(std::is_integral_v&lt;std::decay_t&lt;Ts&gt;&gt; || ...), <a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a>&gt;
+            </td>
         </tr>
       </table>
   </td>
@@ -166,37 +429,402 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ EVP_MD_CTX_free(ctx); }</div>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>            {</div>
+<div class="line"><span class="lineno">   59</span>                <a class="code hl_function" href="../../d2/d69/a05086.html#a6eccaf97a504b613089a825baed128e6">GenericHash</a> hash;</div>
+<div class="line"><span class="lineno">   60</span>                (hash.UpdateData(std::forward&lt;Ts&gt;(pack)), ...);</div>
+<div class="line"><span class="lineno">   61</span>                hash.Finalize();</div>
+<div class="line"><span class="lineno">   62</span>                <span class="keywordflow">return</span> hash.GetDigest();</div>
+<div class="line"><span class="lineno">   63</span>            }</div>
+<div class="ttc" id="aa05086_html_a6eccaf97a504b613089a825baed128e6"><div class="ttname"><a href="../../d2/d69/a05086.html#a6eccaf97a504b613089a825baed128e6">Acore::Impl::GenericHash::GenericHash</a></div><div class="ttdeci">GenericHash()</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:65</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00081">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::~GenericHash()</a>, and <a class="el" href="../../#l00076">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::~GenericHMAC()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00123">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::Finalize()</a>, <a class="el" href="../../#l00131">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigest()</a>, and <a class="el" href="../../#l00110">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
 
 </div>
 </div>
-<a id="a59487cdc54d416f8b2a88eb54ae21c8d" name="a59487cdc54d416f8b2a88eb54ae21c8d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59487cdc54d416f8b2a88eb54ae21c8d">&#9670;&#160;</a></span>MakeCTX()</h2>
+<a id="a42db9cd1a68778340bfdb7c7a8a049de" name="a42db9cd1a68778340bfdb7c7a8a049de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a42db9cd1a68778340bfdb7c7a8a049de">&#9670;&#160;</a></span>GetDigestOf() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static EVP_MD_CTX * Acore::Impl::GenericHashImpl::MakeCTX </td>
+          <td class="memname">static <a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::GetDigestOf </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   49</span>            {</div>
+<div class="line"><span class="lineno">   50</span>                <a class="code hl_function" href="../../d2/d69/a05086.html#a6eccaf97a504b613089a825baed128e6">GenericHash</a> hash;</div>
+<div class="line"><span class="lineno">   51</span>                hash.UpdateData(data, len);</div>
+<div class="line"><span class="lineno">   52</span>                hash.Finalize();</div>
+<div class="line"><span class="lineno">   53</span>                <span class="keywordflow">return</span> hash.GetDigest();</div>
+<div class="line"><span class="lineno">   54</span>            }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00123">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::Finalize()</a>, <a class="el" href="../../#l00131">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigest()</a>, and <a class="el" href="../../#l00110">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00167">Warden::BuildChecksum()</a>, <a class="el" href="../../#l00039">Acore::Crypto::SRP6::CalculateVerifier()</a>, <a class="el" href="../../#l00070">WardenMac::GetModuleForClient()</a>, <a class="el" href="../../#l00137">WardenWin::GetModuleForClient()</a>, <a class="el" href="../../#l00052">Acore::Crypto::SRP6::GetSessionVerifier()</a>, <a class="el" href="../../#l00205">WardenMac::HandleData()</a>, <a class="el" href="../../#l00039">AddonMgr::LoadFromDB()</a>, <a class="el" href="../../#l00050">Acore::Crypto::SRP6::SHA1Interleave()</a>, <a class="el" href="../../#l00232">UpdateFetcher::Update()</a>, and <a class="el" href="../../#l00087">Acore::Crypto::SRP6::VerifyChallengeResponse()</a>.</p>
+
+</div>
+</div>
+<a id="a9d3fab78ba706e1d71141d1baff733cb" name="a9d3fab78ba706e1d71141d1baff733cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3fab78ba706e1d71141d1baff733cb">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp; <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a>&lt; HashCreator, DigestLength &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> EVP_MD_CTX_new(); }</div>
+<div class="fragment"><div class="line"><span class="lineno">  101</span>            {</div>
+<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">if</span> (<span class="keyword">this</span> == &amp;right)</div>
+<div class="line"><span class="lineno">  103</span>                    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  104</span> </div>
+<div class="line"><span class="lineno">  105</span>                <a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a> = std::exchange(right._ctx, <a class="code hl_function" href="../../db/df6/a05082.html#a59487cdc54d416f8b2a88eb54ae21c8d">GenericHashImpl::MakeCTX</a>());</div>
+<div class="line"><span class="lineno">  106</span>                <a class="code hl_variable" href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">_digest</a> = std::exchange(right._digest, <a class="code hl_typedef" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a>{});</div>
+<div class="line"><span class="lineno">  107</span>                <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">  108</span>            }</div>
+<div class="ttc" id="aa05086_html_abf69027dd4096b1bda0e5d78fbceba05"><div class="ttname"><a href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Acore::Impl::GenericHash::Digest</a></div><div class="ttdeci">std::array&lt; uint8, DIGEST_LENGTH &gt; Digest</div><div class="ttdef"><b>Definition:</b> CryptoHash.h:46</div></div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00100">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::operator=()</a>, and <a class="el" href="../../#l00097">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::operator=()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, <a class="el" href="../../#l00135">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_digest</a>, and <a class="el" href="../../#l00037">Acore::Impl::GenericHashImpl::MakeCTX()</a>.</p>
+
+</div>
+</div>
+<a id="aebfb39f72d9bd1e717f75d687ddad352" name="aebfb39f72d9bd1e717f75d687ddad352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aebfb39f72d9bd1e717f75d687ddad352">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a> &amp; <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a>&lt; HashCreator, DigestLength &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   90</span>            {</div>
+<div class="line"><span class="lineno">   91</span>                <span class="keywordflow">if</span> (<span class="keyword">this</span> == &amp;right)</div>
+<div class="line"><span class="lineno">   92</span>                    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   93</span> </div>
+<div class="line"><span class="lineno">   94</span>                <span class="keywordtype">int</span> result = EVP_MD_CTX_copy_ex(<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>, right._ctx);</div>
+<div class="line"><span class="lineno">   95</span>                <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">   96</span>                <a class="code hl_variable" href="../../d2/d69/a05086.html#a162b593f942b5a1f18468ad76e56816c">_digest</a> = right._digest;</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
+<div class="line"><span class="lineno">   98</span>            }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, <a class="el" href="../../#l00135">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_digest</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+</div>
+</div>
+<a id="adbf1dbd8ed910f3a9ccd6c98d241085f" name="adbf1dbd8ed910f3a9ccd6c98d241085f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbf1dbd8ed910f3a9ccd6c98d241085f">&#9670;&#160;</a></span>UpdateData() <span class="overload">[1/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;<a class="el" href="../../da/dfc/a08314.html">::UpdateData</a> </td>
+          <td>(</td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  118</span>{ <a class="code hl_class" href="../../da/dfc/a08314.html">UpdateData</a>(std::string_view(str)); } <span class="comment">/* explicit overload to avoid using the container template */</span></div>
+<div class="ttc" id="aa08314_html"><div class="ttname"><a href="../../da/dfc/a08314.html">UpdateData</a></div><div class="ttdef"><b>Definition:</b> UpdateData.h:52</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00118">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00118">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+</div>
+</div>
+<a id="ae2a76339e35dfeb87c134db2ffcd84c9" name="ae2a76339e35dfeb87c134db2ffcd84c9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a76339e35dfeb87c134db2ffcd84c9">&#9670;&#160;</a></span>UpdateData() <span class="overload">[2/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<div class="memtemplate">
+template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;<a class="el" href="../../da/dfc/a08314.html">::UpdateData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  121</span>{ <a class="code hl_class" href="../../da/dfc/a08314.html">UpdateData</a>(std::data(c), std::size(c)); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00121">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00121">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+</div>
+</div>
+<a id="a9f8078da8ab86b94c5bdb6f683094e76" name="a9f8078da8ab86b94c5bdb6f683094e76"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9f8078da8ab86b94c5bdb6f683094e76">&#9670;&#160;</a></span>UpdateData() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;<a class="el" href="../../da/dfc/a08314.html">::UpdateData</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::string const &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  117</span>{ <a class="code hl_class" href="../../da/dfc/a08314.html">UpdateData</a>(std::string_view(str)); } <span class="comment">/* explicit overload to avoid using the container template */</span></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00117">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00117">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+</div>
+</div>
+<a id="ad09ad852820ff44378c09b245ae9e055" name="ad09ad852820ff44378c09b245ae9e055"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad09ad852820ff44378c09b245ae9e055">&#9670;&#160;</a></span>UpdateData() <span class="overload">[4/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;<a class="el" href="../../da/dfc/a08314.html">::UpdateData</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  116</span>{ <a class="code hl_class" href="../../da/dfc/a08314.html">UpdateData</a>(<span class="keyword">reinterpret_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const*<span class="keyword">&gt;</span>(str.data()), str.size()); }</div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00116">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00116">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>.</p>
+
+</div>
+</div>
+<a id="abe1705975eec03929bd7c603bb563d19" name="abe1705975eec03929bd7c603bb563d19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe1705975eec03929bd7c603bb563d19">&#9670;&#160;</a></span>UpdateData() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;<a class="el" href="../../da/dfc/a08314.html">::UpdateData</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> const *&#160;</td>
+          <td class="paramname"><em>data</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::size_t&#160;</td>
+          <td class="paramname"><em>len</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  111</span>            {</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordtype">int</span> result = EVP_DigestUpdate(<a class="code hl_variable" href="../../d2/d69/a05086.html#a5a7d841e6fba7ae09705261fb0ca0228">_ctx</a>, data, len);</div>
+<div class="line"><span class="lineno">  113</span>                <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(result == 1);</div>
+<div class="line"><span class="lineno">  114</span>            }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00134">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::_ctx</a>, and <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00048">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigestOf()</a>, <a class="el" href="../../#l00552">WorldSocket::HandleAuthSessionCallback()</a>, <a class="el" href="../../#l00205">WardenMac::HandleData()</a>, <a class="el" href="../../#l00121">WardenMac::HandleHashResult()</a>, <a class="el" href="../../#l00681">AuthSession::HandleReconnectProof()</a>, and <a class="el" href="../../#l00840">AuthSession::VerifyVersion()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a5a7d841e6fba7ae09705261fb0ca0228" name="a5a7d841e6fba7ae09705261fb0ca0228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5a7d841e6fba7ae09705261fb0ca0228">&#9670;&#160;</a></span>_ctx</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">EVP_MD_CTX* <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::_ctx {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00123">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::Finalize()</a>, <a class="el" href="../../#l00065">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GenericHash()</a>, <a class="el" href="../../#l00089">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::operator=()</a>, <a class="el" href="../../#l00110">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::UpdateData()</a>, and <a class="el" href="../../#l00081">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::~GenericHash()</a>.</p>
+
+</div>
+</div>
+<a id="a162b593f942b5a1f18468ad76e56816c" name="a162b593f942b5a1f18468ad76e56816c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a162b593f942b5a1f18468ad76e56816c">&#9670;&#160;</a></span>_digest</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d69/a05086.html#abf69027dd4096b1bda0e5d78fbceba05">Digest</a> <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::_digest {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00123">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::Finalize()</a>, <a class="el" href="../../#l00131">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::GetDigest()</a>, and <a class="el" href="../../#l00089">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::operator=()</a>.</p>
+
+</div>
+</div>
+<a id="af6e4303fbffe4f52dec13026532f0a87" name="af6e4303fbffe4f52dec13026532f0a87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6e4303fbffe4f52dec13026532f0a87">&#9670;&#160;</a></span>DIGEST_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;<a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">GenericHashImpl::HashCreator</a> HashCreator, std::size_t DigestLength&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr std::size_t <a class="el" href="../../d2/d69/a05086.html">Acore::Impl::GenericHash</a>&lt; HashCreator, DigestLength &gt;::DIGEST_LENGTH = DigestLength</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00123">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::Finalize()</a>, and <a class="el" href="../../#l00050">Acore::Crypto::SRP6::SHA1Interleave()</a>.</p>
 
 </div>
 </div>
@@ -205,8 +833,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../d2/d69/a05086.html">GenericHashImpl</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d7b/a04698.html">Impl</a></li><li class="navelem"><a class="el" href="../../d2/d69/a05086.html">GenericHash</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

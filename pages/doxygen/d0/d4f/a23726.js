@@ -1,5 +1,6 @@
 var a23726 =
 [
-    [ "go_warmaul_prison", "d0/d4f/a23726.html#adffbb532d7ee3c5a67543fe15ce5b67b", null ],
-    [ "OnGossipHello", "d0/d4f/a23726.html#ac9e66eeb30bf951d37f2d0917a295705", null ]
+    [ "npc_wounded_blood_elfAI", "d4/dc7/a23730.html", "d4/dc7/a23730" ],
+    [ "npc_wounded_blood_elf", "d0/d4f/a23726.html#a40e79d1412f5f399869a4d2c6fbb4260", null ],
+    [ "GetAI", "d0/d4f/a23726.html#a39d4bd877bdf6596c65e3cb834f124aa", null ]
 ];

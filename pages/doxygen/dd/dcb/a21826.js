@@ -1,7 +1,6 @@
 var a21826 =
 [
-    [ "npc_engineer_heliceAI", "db/ded/a21830.html", "db/ded/a21830" ],
-    [ "npc_engineer_helice", "dd/dcb/a21826.html#a445ed6b85e95db817c8117d5473a3c9d", null ],
-    [ "GetAI", "dd/dcb/a21826.html#ad48e3c1ed22a71e8a45273e1338dd0f8", null ],
-    [ "OnQuestAccept", "dd/dcb/a21826.html#ae0979d68744372d5d4669b6f014eb123", null ]
+    [ "npc_frostbrood_skytalonAI", "db/ded/a21830.html", "db/ded/a21830" ],
+    [ "npc_frostbrood_skytalon", "dd/dcb/a21826.html#a1bc95edf0e624709e3836bdcfb0c503c", null ],
+    [ "GetAI", "dd/dcb/a21826.html#af5b1c3e52076fb84b83e785762ff6b6d", null ]
 ];

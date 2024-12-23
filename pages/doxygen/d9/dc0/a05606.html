@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: DatabaseLoader Class Reference</title>
+<title>AzerothCore: DatabaseWorker Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,193 +105,60 @@ $(document).ready(function(){initNavTree('d9/dc0/a05606.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-types">Private Types</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../db/dd0/a05603.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">DatabaseLoader Class Reference</div></div>
+  <div class="headertitle"><div class="title">DatabaseWorker Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">DatabaseLoader.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">DatabaseWorker.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:a48b4a16db3575bc0e3885a6ffd11a8e5"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5">DatabaseTypeFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927">DATABASE_NONE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163">DATABASE_LOGIN</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c">DATABASE_CHARACTER</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886">DATABASE_WORLD</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b">DATABASE_MASK_ALL</a> = DATABASE_LOGIN | DATABASE_CHARACTER | DATABASE_WORLD
-<br />
- }</td></tr>
-<tr class="separator:a48b4a16db3575bc0e3885a6ffd11a8e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4d5850fad035cfc5a488154d830f8642"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a4d5850fad035cfc5a488154d830f8642">DatabaseLoader</a> (std::string const &amp;logger, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const defaultUpdateMask=7, std::string_view modulesList={})</td></tr>
-<tr class="separator:a4d5850fad035cfc5a488154d830f8642"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a90e78741afab5e8acae41e24ba256675"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a90e78741afab5e8acae41e24ba256675"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc0/a05606.html">DatabaseLoader</a> &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a90e78741afab5e8acae41e24ba256675">AddDatabase</a> (<a class="el" href="../../dd/dd6/a05602.html">DatabaseWorkerPool</a>&lt; T &gt; &amp;pool, std::string const &amp;name)</td></tr>
-<tr class="separator:a90e78741afab5e8acae41e24ba256675"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0ffcdb400e9e5d80598f89dddb3bea8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ab0ffcdb400e9e5d80598f89dddb3bea8">Load</a> ()</td></tr>
-<tr class="separator:ab0ffcdb400e9e5d80598f89dddb3bea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af0cd17307aa123f7e390aa67cab3d0d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#af0cd17307aa123f7e390aa67cab3d0d3">GetUpdateFlags</a> () const</td></tr>
-<tr class="separator:af0cd17307aa123f7e390aa67cab3d0d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-types" name="pri-types"></a>
-Private Types</h2></td></tr>
-<tr class="memitem:ab1d02ab7bac2f577a2472a931bfc81b8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> = std::function&lt; bool()&gt;</td></tr>
-<tr class="separator:ab1d02ab7bac2f577a2472a931bfc81b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a54f793710e2cb0264ac32ec21ce64db5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a54f793710e2cb0264ac32ec21ce64db5">Closer</a> = std::function&lt; void()&gt;</td></tr>
-<tr class="separator:a54f793710e2cb0264ac32ec21ce64db5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64450680e7b6e31bb42ce4f79788eb27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a64450680e7b6e31bb42ce4f79788eb27">DatabaseWorker</a> (<a class="el" href="../../db/dd7/a05302.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> * &gt; *newQueue, <a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *connection)</td></tr>
+<tr class="separator:a64450680e7b6e31bb42ce4f79788eb27"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a170c873cbc917ece6a87591450dbe5a9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a170c873cbc917ece6a87591450dbe5a9">~DatabaseWorker</a> ()</td></tr>
+<tr class="separator:a170c873cbc917ece6a87591450dbe5a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
-<tr class="memitem:afc1c97733db723e5dd01c889e91e5dcb"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#afc1c97733db723e5dd01c889e91e5dcb">OpenDatabases</a> ()</td></tr>
-<tr class="separator:afc1c97733db723e5dd01c889e91e5dcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d4e52215ebf500e0603153089127ad8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a4d4e52215ebf500e0603153089127ad8">PopulateDatabases</a> ()</td></tr>
-<tr class="separator:a4d4e52215ebf500e0603153089127ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a747f5a610fc5c960b2ba818a4a741799"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a747f5a610fc5c960b2ba818a4a741799">UpdateDatabases</a> ()</td></tr>
-<tr class="separator:a747f5a610fc5c960b2ba818a4a741799"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29da07080df4818e2ad57ee12361bfe9"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a29da07080df4818e2ad57ee12361bfe9">PrepareStatements</a> ()</td></tr>
-<tr class="separator:a29da07080df4818e2ad57ee12361bfe9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae0407015cdb8c50d778cb2075d185311"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">Process</a> (std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt; &amp;queue)</td></tr>
-<tr class="separator:ae0407015cdb8c50d778cb2075d185311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab74cbccbb68bfbbab58550eced982d1a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ab74cbccbb68bfbbab58550eced982d1a">WorkerThread</a> ()</td></tr>
+<tr class="separator:ab74cbccbb68bfbbab58550eced982d1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa43f1d875400b0ba6c031e0811397ed3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#aa43f1d875400b0ba6c031e0811397ed3">DatabaseWorker</a> (<a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
+<tr class="separator:aa43f1d875400b0ba6c031e0811397ed3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e753c757da609b55a66380f526091a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a15e753c757da609b55a66380f526091a">operator=</a> (<a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> const &amp;right)=delete</td></tr>
+<tr class="separator:a15e753c757da609b55a66380f526091a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a2cfecfa5c98f816deca6b1f8fd19f8ed"><td class="memItemLeft" align="right" valign="top">std::string const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a></td></tr>
-<tr class="separator:a2cfecfa5c98f816deca6b1f8fd19f8ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8a04dd529b60165d92e80c3690e0e56"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#aa8a04dd529b60165d92e80c3690e0e56">_modulesList</a></td></tr>
-<tr class="separator:aa8a04dd529b60165d92e80c3690e0e56"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3335a6486e3e65b1ca3cbe42167455c6"><td class="memItemLeft" align="right" valign="top">bool const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a3335a6486e3e65b1ca3cbe42167455c6">_autoSetup</a></td></tr>
-<tr class="separator:a3335a6486e3e65b1ca3cbe42167455c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5e34623110250746c5da5693c11facc6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">_updateFlags</a></td></tr>
-<tr class="separator:a5e34623110250746c5da5693c11facc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab3d8ecdebaa70141830f50a4a0f17d78"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ab3d8ecdebaa70141830f50a4a0f17d78">_open</a></td></tr>
-<tr class="separator:ab3d8ecdebaa70141830f50a4a0f17d78"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a236ce20d055e58a9e3de119c4dc2ff31"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a236ce20d055e58a9e3de119c4dc2ff31">_populate</a></td></tr>
-<tr class="separator:a236ce20d055e58a9e3de119c4dc2ff31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa0473ab9141855bd64a9dc5ac6e2bc83"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#aa0473ab9141855bd64a9dc5ac6e2bc83">_update</a></td></tr>
-<tr class="separator:aa0473ab9141855bd64a9dc5ac6e2bc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8f6f440ac4b3c1df8382b8395f740c7e"><td class="memItemLeft" align="right" valign="top">std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a8f6f440ac4b3c1df8382b8395f740c7e">_prepare</a></td></tr>
-<tr class="separator:a8f6f440ac4b3c1df8382b8395f740c7e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac63afc15ce746ed014f0e91832a6d1ea"><td class="memItemLeft" align="right" valign="top">std::stack&lt; <a class="el" href="../../d9/dc0/a05606.html#a54f793710e2cb0264ac32ec21ce64db5">Closer</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">_close</a></td></tr>
-<tr class="separator:ac63afc15ce746ed014f0e91832a6d1ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/dd7/a05302.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> * &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a></td></tr>
+<tr class="separator:a9c47ad6c0d4dca85a63be45c4e678a70"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a></td></tr>
+<tr class="separator:a2f21d73b584d9e5f17afc7a0ac78f129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad02a90f600f1996c053f36e186edf292"><td class="memItemLeft" align="right" valign="top">std::thread&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dc0/a05606.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a></td></tr>
+<tr class="separator:ad02a90f600f1996c053f36e186edf292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a54f793710e2cb0264ac32ec21ce64db5" name="a54f793710e2cb0264ac32ec21ce64db5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a54f793710e2cb0264ac32ec21ce64db5">&#9670;&#160;</a></span>Closer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d9/dc0/a05606.html#a54f793710e2cb0264ac32ec21ce64db5">DatabaseLoader::Closer</a> =  std::function&lt;void()&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab1d02ab7bac2f577a2472a931bfc81b8" name="ab1d02ab7bac2f577a2472a931bfc81b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab1d02ab7bac2f577a2472a931bfc81b8">&#9670;&#160;</a></span>Predicate</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">DatabaseLoader::Predicate</a> =  std::function&lt;bool()&gt;</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Enumeration Documentation</h2>
-<a id="a48b4a16db3575bc0e3885a6ffd11a8e5" name="a48b4a16db3575bc0e3885a6ffd11a8e5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a48b4a16db3575bc0e3885a6ffd11a8e5">&#9670;&#160;</a></span>DatabaseTypeFlags</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a64450680e7b6e31bb42ce4f79788eb27" name="a64450680e7b6e31bb42ce4f79788eb27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64450680e7b6e31bb42ce4f79788eb27">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">enum <a class="el" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5">DatabaseLoader::DatabaseTypeFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927" name="a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927"></a>DATABASE_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163" name="a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163"></a>DATABASE_LOGIN&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c" name="a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c"></a>DATABASE_CHARACTER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886" name="a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886"></a>DATABASE_WORLD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b" name="a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b"></a>DATABASE_MASK_ALL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   45</span>    {</div>
-<div class="line"><span class="lineno">   46</span>        <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927">DATABASE_NONE</a>       = 0,</div>
-<div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>        <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163">DATABASE_LOGIN</a>      = 1,</div>
-<div class="line"><span class="lineno">   49</span>        <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c">DATABASE_CHARACTER</a>  = 2,</div>
-<div class="line"><span class="lineno">   50</span>        <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886">DATABASE_WORLD</a>      = 4,</div>
-<div class="line"><span class="lineno">   51</span> </div>
-<div class="line"><span class="lineno">   52</span>        <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b">DATABASE_MASK_ALL</a>   = <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163">DATABASE_LOGIN</a> | <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c">DATABASE_CHARACTER</a> | <a class="code hl_enumvalue" href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886">DATABASE_WORLD</a></div>
-<div class="line"><span class="lineno">   53</span>    };</div>
-<div class="ttc" id="aa05606_html_a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c"><div class="ttname"><a href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a5161a0e808becff885fa27e98cb5341c">DatabaseLoader::DATABASE_CHARACTER</a></div><div class="ttdeci">@ DATABASE_CHARACTER</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:49</div></div>
-<div class="ttc" id="aa05606_html_a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886"><div class="ttname"><a href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5a714c8ecb6138cd56a8b1547ec0ad9886">DatabaseLoader::DATABASE_WORLD</a></div><div class="ttdeci">@ DATABASE_WORLD</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:50</div></div>
-<div class="ttc" id="aa05606_html_a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163"><div class="ttname"><a href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ac000a77a66232f40f1ed5877b3d6e163">DatabaseLoader::DATABASE_LOGIN</a></div><div class="ttdeci">@ DATABASE_LOGIN</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:48</div></div>
-<div class="ttc" id="aa05606_html_a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927"><div class="ttname"><a href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5ade00402102c878cff7f8344ca6020927">DatabaseLoader::DATABASE_NONE</a></div><div class="ttdeci">@ DATABASE_NONE</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:46</div></div>
-<div class="ttc" id="aa05606_html_a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b"><div class="ttname"><a href="../../d9/dc0/a05606.html#a48b4a16db3575bc0e3885a6ffd11a8e5af32e2f62e18c4336d9cc446665627f9b">DatabaseLoader::DATABASE_MASK_ALL</a></div><div class="ttdeci">@ DATABASE_MASK_ALL</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:52</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4d5850fad035cfc5a488154d830f8642" name="a4d5850fad035cfc5a488154d830f8642"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d5850fad035cfc5a488154d830f8642">&#9670;&#160;</a></span>DatabaseLoader()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">DatabaseLoader::DatabaseLoader </td>
+          <td class="memname">DatabaseWorker::DatabaseWorker </td>
           <td>(</td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>logger</em>, </td>
+          <td class="paramtype"><a class="el" href="../../db/dd7/a05302.html">ProducerConsumerQueue</a>&lt; <a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> * &gt; *&#160;</td>
+          <td class="paramname"><em>newQueue</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const&#160;</td>
-          <td class="paramname"><em>defaultUpdateMask</em> = <code>7</code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>modulesList</em> = <code>{}</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *&#160;</td>
+          <td class="paramname"><em>connection</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -300,441 +167,150 @@ Private Attributes</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   29</span>    : <a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>(logger),</div>
-<div class="line"><span class="lineno">   30</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#aa8a04dd529b60165d92e80c3690e0e56">_modulesList</a>(modulesList),</div>
-<div class="line"><span class="lineno">   31</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#a3335a6486e3e65b1ca3cbe42167455c6">_autoSetup</a>(<a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<span class="keywordtype">bool</span>&gt;(<span class="stringliteral">&quot;Updates.AutoSetup&quot;</span>, <span class="keyword">true</span>)),</div>
-<div class="line"><span class="lineno">   32</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">_updateFlags</a>(<a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&gt;(<span class="stringliteral">&quot;Updates.EnableDatabases&quot;</span>, defaultUpdateMask)) { }</div>
-<div class="ttc" id="aa00479_html_a7236988e98bdd405bf435a029b70a26f"><div class="ttname"><a href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a></div><div class="ttdeci">#define sConfigMgr</div><div class="ttdef"><b>Definition:</b> Config.h:74</div></div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa05606_html_a2cfecfa5c98f816deca6b1f8fd19f8ed"><div class="ttname"><a href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">DatabaseLoader::_logger</a></div><div class="ttdeci">std::string const _logger</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:73</div></div>
-<div class="ttc" id="aa05606_html_a3335a6486e3e65b1ca3cbe42167455c6"><div class="ttname"><a href="../../d9/dc0/a05606.html#a3335a6486e3e65b1ca3cbe42167455c6">DatabaseLoader::_autoSetup</a></div><div class="ttdeci">bool const _autoSetup</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:75</div></div>
-<div class="ttc" id="aa05606_html_a5e34623110250746c5da5693c11facc6"><div class="ttname"><a href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">DatabaseLoader::_updateFlags</a></div><div class="ttdeci">uint32 const _updateFlags</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:76</div></div>
-<div class="ttc" id="aa05606_html_aa8a04dd529b60165d92e80c3690e0e56"><div class="ttname"><a href="../../d9/dc0/a05606.html#aa8a04dd529b60165d92e80c3690e0e56">DatabaseLoader::_modulesList</a></div><div class="ttdeci">std::string_view _modulesList</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:74</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   23</span>{</div>
+<div class="line"><span class="lineno">   24</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a> = connection;</div>
+<div class="line"><span class="lineno">   25</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a> = newQueue;</div>
+<div class="line"><span class="lineno">   26</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a> = std::thread(&amp;<a class="code hl_function" href="../../d9/dc0/a05606.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a>, <span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   27</span>}</div>
+<div class="ttc" id="aa05606_html_a2f21d73b584d9e5f17afc7a0ac78f129"><div class="ttname"><a href="../../d9/dc0/a05606.html#a2f21d73b584d9e5f17afc7a0ac78f129">DatabaseWorker::_connection</a></div><div class="ttdeci">MySQLConnection * _connection</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:39</div></div>
+<div class="ttc" id="aa05606_html_a9c47ad6c0d4dca85a63be45c4e678a70"><div class="ttname"><a href="../../d9/dc0/a05606.html#a9c47ad6c0d4dca85a63be45c4e678a70">DatabaseWorker::_queue</a></div><div class="ttdeci">ProducerConsumerQueue&lt; SQLOperation * &gt; * _queue</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:38</div></div>
+<div class="ttc" id="aa05606_html_ab74cbccbb68bfbbab58550eced982d1a"><div class="ttname"><a href="../../d9/dc0/a05606.html#ab74cbccbb68bfbbab58550eced982d1a">DatabaseWorker::WorkerThread</a></div><div class="ttdeci">void WorkerThread()</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.cpp:34</div></div>
+<div class="ttc" id="aa05606_html_ad02a90f600f1996c053f36e186edf292"><div class="ttname"><a href="../../d9/dc0/a05606.html#ad02a90f600f1996c053f36e186edf292">DatabaseWorker::_workerThread</a></div><div class="ttdeci">std::thread _workerThread</div><div class="ttdef"><b>Definition:</b> DatabaseWorker.h:42</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00042">_workerThread</a>, and <a class="el" href="../../#l00034">WorkerThread()</a>.</p>
+
+</div>
+</div>
+<a id="a170c873cbc917ece6a87591450dbe5a9" name="a170c873cbc917ece6a87591450dbe5a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a170c873cbc917ece6a87591450dbe5a9">&#9670;&#160;</a></span>~DatabaseWorker()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">DatabaseWorker::~DatabaseWorker </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   30</span>{</div>
+<div class="line"><span class="lineno">   31</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#ad02a90f600f1996c053f36e186edf292">_workerThread</a>.join();</div>
+<div class="line"><span class="lineno">   32</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00042">_workerThread</a>.</p>
+
+</div>
+</div>
+<a id="aa43f1d875400b0ba6c031e0811397ed3" name="aa43f1d875400b0ba6c031e0811397ed3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa43f1d875400b0ba6c031e0811397ed3">&#9670;&#160;</a></span>DatabaseWorker() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">DatabaseWorker::DatabaseWorker </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a90e78741afab5e8acae41e24ba256675" name="a90e78741afab5e8acae41e24ba256675"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90e78741afab5e8acae41e24ba256675">&#9670;&#160;</a></span>AddDatabase()</h2>
+<a id="a15e753c757da609b55a66380f526091a" name="a15e753c757da609b55a66380f526091a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e753c757da609b55a66380f526091a">&#9670;&#160;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">template <a class="el" href="../../d4/d1e/a00497.html#a4239bd747d930d5084e8f6e489980585">AC_DATABASE_API</a> <a class="el" href="../../d9/dc0/a05606.html">DatabaseLoader</a> &amp; DatabaseLoader::AddDatabase&lt; <a class="el" href="../../de/df7/a05638.html">WorldDatabaseConnection</a> &gt; </td>
+          <td class="memname"><a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> &amp; DatabaseWorker::operator= </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../dd/dd6/a05602.html">DatabaseWorkerPool</a>&lt; T &gt; &amp;&#160;</td>
-          <td class="paramname"><em>pool</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype"><a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::string const &amp;&#160;</td>
-          <td class="paramname"><em>name</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>    <span class="keywordtype">bool</span> <span class="keyword">const</span> updatesEnabledForThis = <a class="code hl_function" href="../../dd/d3e/a05806.html#aa4bd2974f787e0ef294e82863f0b11c8">DBUpdater&lt;T&gt;::IsEnabled</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">_updateFlags</a>);</div>
+
+</div>
+</div>
+<a id="ab74cbccbb68bfbbab58550eced982d1a" name="ab74cbccbb68bfbbab58550eced982d1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab74cbccbb68bfbbab58550eced982d1a">&#9670;&#160;</a></span>WorkerThread()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void DatabaseWorker::WorkerThread </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{</div>
+<div class="line"><span class="lineno">   36</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/dc0/a05606.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>)</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">   38</span> </div>
-<div class="line"><span class="lineno">   39</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#ab3d8ecdebaa70141830f50a4a0f17d78">_open</a>.push([<span class="keyword">this</span>, name, updatesEnabledForThis, &amp;pool]() -&gt; <span class="keywordtype">bool</span></div>
+<div class="line"><span class="lineno">   39</span>    <span class="keywordflow">for</span> (;;)</div>
 <div class="line"><span class="lineno">   40</span>    {</div>
-<div class="line"><span class="lineno">   41</span>        std::string <span class="keyword">const</span> dbString = <a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;std::string&gt;(name + <span class="stringliteral">&quot;DatabaseInfo&quot;</span>, <span class="stringliteral">&quot;&quot;</span>);</div>
-<div class="line"><span class="lineno">   42</span>        <span class="keywordflow">if</span> (dbString.empty())</div>
-<div class="line"><span class="lineno">   43</span>        {</div>
-<div class="line"><span class="lineno">   44</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;Database {} not specified in configuration file!&quot;</span>, name);</div>
-<div class="line"><span class="lineno">   45</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   46</span>        }</div>
+<div class="line"><span class="lineno">   41</span>        <a class="code hl_class" href="../../d2/d90/a05770.html">SQLOperation</a>* operation = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   42</span> </div>
+<div class="line"><span class="lineno">   43</span>        <a class="code hl_variable" href="../../d9/dc0/a05606.html#a9c47ad6c0d4dca85a63be45c4e678a70">_queue</a>-&gt;<a class="code hl_function" href="../../db/dd7/a05302.html#a172ef4211bcb237478ec57531c8dcc4d">WaitAndPop</a>(operation);</div>
+<div class="line"><span class="lineno">   44</span> </div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">if</span> (!operation)</div>
+<div class="line"><span class="lineno">   46</span>            <span class="keywordflow">return</span>;</div>
 <div class="line"><span class="lineno">   47</span> </div>
-<div class="line"><span class="lineno">   48</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <span class="keyword">const</span> asyncThreads = <a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;(name + <span class="stringliteral">&quot;Database.WorkerThreads&quot;</span>, 1);</div>
-<div class="line"><span class="lineno">   49</span>        <span class="keywordflow">if</span> (asyncThreads &lt; 1 || asyncThreads &gt; 32)</div>
-<div class="line"><span class="lineno">   50</span>        {</div>
-<div class="line"><span class="lineno">   51</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;{} database: invalid number of worker threads specified. &quot;</span></div>
-<div class="line"><span class="lineno">   52</span>                      <span class="stringliteral">&quot;Please pick a value between 1 and 32.&quot;</span>, name);</div>
-<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">   54</span>        }</div>
-<div class="line"><span class="lineno">   55</span> </div>
-<div class="line"><span class="lineno">   56</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <span class="keyword">const</span> synchThreads = <a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;(name + <span class="stringliteral">&quot;Database.SynchThreads&quot;</span>, 1);</div>
-<div class="line"><span class="lineno">   57</span> </div>
-<div class="line"><span class="lineno">   58</span>        pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#a5d519cee643b1aa5f5837d3a288f7fdf">SetConnectionInfo</a>(dbString, asyncThreads, synchThreads);</div>
-<div class="line"><span class="lineno">   59</span> </div>
-<div class="line"><span class="lineno">   60</span>        <span class="keywordflow">if</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> error = pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#a3b14aba401eab1f610bacff590ce403e">Open</a>())</div>
-<div class="line"><span class="lineno">   61</span>        {</div>
-<div class="line"><span class="lineno">   62</span>            <span class="comment">// Try reconnect</span></div>
-<div class="line"><span class="lineno">   63</span>            <span class="keywordflow">if</span> (error == CR_CONNECTION_ERROR)</div>
-<div class="line"><span class="lineno">   64</span>            {</div>
-<div class="line"><span class="lineno">   65</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <span class="keyword">const</span> attempts = <a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;(<span class="stringliteral">&quot;Database.Reconnect.Attempts&quot;</span>, 20);</div>
-<div class="line"><span class="lineno">   66</span>                <a class="code hl_typedef" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> reconnectSeconds = <a class="code hl_typedef" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>(<a class="code hl_define" href="../../d9/d4a/a00479.html#a7236988e98bdd405bf435a029b70a26f">sConfigMgr</a>-&gt;GetOption&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&gt;(<span class="stringliteral">&quot;Database.Reconnect.Seconds&quot;</span>, 15));</div>
-<div class="line"><span class="lineno">   67</span>                <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> reconnectCount = 0;</div>
-<div class="line"><span class="lineno">   68</span> </div>
-<div class="line"><span class="lineno">   69</span>                <span class="keywordflow">while</span> (reconnectCount &lt; attempts)</div>
-<div class="line"><span class="lineno">   70</span>                {</div>
-<div class="line"><span class="lineno">   71</span>                    <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;&gt; Retrying after {} seconds&quot;</span>, <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a><span class="keyword">&gt;</span>(reconnectSeconds.count()));</div>
-<div class="line"><span class="lineno">   72</span>                    std::this_thread::sleep_for(reconnectSeconds);</div>
-<div class="line"><span class="lineno">   73</span>                    error = pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#a3b14aba401eab1f610bacff590ce403e">Open</a>();</div>
-<div class="line"><span class="lineno">   74</span> </div>
-<div class="line"><span class="lineno">   75</span>                    <span class="keywordflow">if</span> (error == CR_CONNECTION_ERROR)</div>
-<div class="line"><span class="lineno">   76</span>                    {</div>
-<div class="line"><span class="lineno">   77</span>                        reconnectCount++;</div>
-<div class="line"><span class="lineno">   78</span>                    }</div>
-<div class="line"><span class="lineno">   79</span>                    <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">   80</span>                    {</div>
-<div class="line"><span class="lineno">   81</span>                        <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">   82</span>                    }</div>
-<div class="line"><span class="lineno">   83</span>                }</div>
-<div class="line"><span class="lineno">   84</span>            }</div>
-<div class="line"><span class="lineno">   85</span> </div>
-<div class="line"><span class="lineno">   86</span>            <span class="comment">// Database does not exist</span></div>
-<div class="line"><span class="lineno">   87</span>            <span class="keywordflow">if</span> ((error == ER_BAD_DB_ERROR) &amp;&amp; updatesEnabledForThis &amp;&amp; <a class="code hl_variable" href="../../d9/dc0/a05606.html#a3335a6486e3e65b1ca3cbe42167455c6">_autoSetup</a>)</div>
-<div class="line"><span class="lineno">   88</span>            {</div>
-<div class="line"><span class="lineno">   89</span>                <span class="comment">// Try to create the database and connect again if auto setup is enabled</span></div>
-<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">if</span> (<a class="code hl_class" href="../../dd/d3e/a05806.html">DBUpdater&lt;T&gt;::Create</a>(pool) &amp;&amp; (!pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#a3b14aba401eab1f610bacff590ce403e">Open</a>()))</div>
-<div class="line"><span class="lineno">   91</span>                {</div>
-<div class="line"><span class="lineno">   92</span>                    error = 0;</div>
-<div class="line"><span class="lineno">   93</span>                }</div>
-<div class="line"><span class="lineno">   94</span>            }</div>
-<div class="line"><span class="lineno">   95</span> </div>
-<div class="line"><span class="lineno">   96</span>            <span class="comment">// If the error wasn&#39;t handled quit</span></div>
-<div class="line"><span class="lineno">   97</span>            <span class="keywordflow">if</span> (error)</div>
-<div class="line"><span class="lineno">   98</span>            {</div>
-<div class="line"><span class="lineno">   99</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;DatabasePool {} NOT opened. There were errors opening the MySQL connections. &quot;</span></div>
-<div class="line"><span class="lineno">  100</span>                          <span class="stringliteral">&quot;Check your log file for specific errors&quot;</span>, name);</div>
-<div class="line"><span class="lineno">  101</span> </div>
-<div class="line"><span class="lineno">  102</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  103</span>            }</div>
-<div class="line"><span class="lineno">  104</span>        }</div>
-<div class="line"><span class="lineno">  105</span>        <span class="comment">// Add the close operation</span></div>
-<div class="line"><span class="lineno">  106</span>        <a class="code hl_variable" href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">_close</a>.push([&amp;pool]</div>
-<div class="line"><span class="lineno">  107</span>        {</div>
-<div class="line"><span class="lineno">  108</span>            pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#af5b0984b23e9ea23d93deaaea85e17df">Close</a>();</div>
-<div class="line"><span class="lineno">  109</span>        });</div>
-<div class="line"><span class="lineno">  110</span> </div>
-<div class="line"><span class="lineno">  111</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  112</span>    });</div>
-<div class="line"><span class="lineno">  113</span> </div>
-<div class="line"><span class="lineno">  114</span>    <span class="comment">// Populate and update only if updates are enabled for this pool</span></div>
-<div class="line"><span class="lineno">  115</span>    <span class="keywordflow">if</span> (updatesEnabledForThis)</div>
-<div class="line"><span class="lineno">  116</span>    {</div>
-<div class="line"><span class="lineno">  117</span>        <a class="code hl_variable" href="../../d9/dc0/a05606.html#a236ce20d055e58a9e3de119c4dc2ff31">_populate</a>.push([<span class="keyword">this</span>, name, &amp;pool]() -&gt; <span class="keywordtype">bool</span></div>
-<div class="line"><span class="lineno">  118</span>        {</div>
-<div class="line"><span class="lineno">  119</span>            <span class="keywordflow">if</span> (!<a class="code hl_class" href="../../dd/d3e/a05806.html">DBUpdater&lt;T&gt;::Populate</a>(pool))</div>
-<div class="line"><span class="lineno">  120</span>            {</div>
-<div class="line"><span class="lineno">  121</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;Could not populate the {} database, see log for details.&quot;</span>, name);</div>
-<div class="line"><span class="lineno">  122</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  123</span>            }</div>
-<div class="line"><span class="lineno">  124</span> </div>
-<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  126</span>        });</div>
-<div class="line"><span class="lineno">  127</span> </div>
-<div class="line"><span class="lineno">  128</span>        <a class="code hl_variable" href="../../d9/dc0/a05606.html#aa0473ab9141855bd64a9dc5ac6e2bc83">_update</a>.push([<span class="keyword">this</span>, name, &amp;pool]() -&gt; <span class="keywordtype">bool</span></div>
-<div class="line"><span class="lineno">  129</span>        {</div>
-<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">if</span> (!<a class="code hl_class" href="../../dd/d3e/a05806.html">DBUpdater&lt;T&gt;::Update</a>(pool, <a class="code hl_variable" href="../../d9/dc0/a05606.html#aa8a04dd529b60165d92e80c3690e0e56">_modulesList</a>))</div>
-<div class="line"><span class="lineno">  131</span>            {</div>
-<div class="line"><span class="lineno">  132</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;Could not update the {} database, see log for details.&quot;</span>, name);</div>
-<div class="line"><span class="lineno">  133</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  134</span>            }</div>
-<div class="line"><span class="lineno">  135</span> </div>
-<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  137</span>        });</div>
-<div class="line"><span class="lineno">  138</span>    }</div>
-<div class="line"><span class="lineno">  139</span> </div>
-<div class="line"><span class="lineno">  140</span>    <a class="code hl_variable" href="../../d9/dc0/a05606.html#a8f6f440ac4b3c1df8382b8395f740c7e">_prepare</a>.push([<span class="keyword">this</span>, name, &amp;pool]() -&gt; <span class="keywordtype">bool</span></div>
-<div class="line"><span class="lineno">  141</span>    {</div>
-<div class="line"><span class="lineno">  142</span>        <span class="keywordflow">if</span> (!pool.<a class="code hl_function" href="../../dd/dd6/a05602.html#a35d89f51675306362c9dcb7332b148d5">PrepareStatements</a>())</div>
-<div class="line"><span class="lineno">  143</span>        {</div>
-<div class="line"><span class="lineno">  144</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2cfecfa5c98f816deca6b1f8fd19f8ed">_logger</a>, <span class="stringliteral">&quot;Could not prepare statements of the {} database, see log for details.&quot;</span>, name);</div>
-<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  146</span>        }</div>
-<div class="line"><span class="lineno">  147</span> </div>
-<div class="line"><span class="lineno">  148</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  149</span>    });</div>
-<div class="line"><span class="lineno">  150</span> </div>
-<div class="line"><span class="lineno">  151</span>    <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  152</span>}</div>
-<div class="ttc" id="aa00035_html_a43832e3fa8508deb4ce43e520005fcd9"><div class="ttname"><a href="../../d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9">LOG_ERROR</a></div><div class="ttdeci">#define LOG_ERROR(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:157</div></div>
-<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
-<div class="ttc" id="aa00338_html_a3cd82f1c195a0b935b4d66b02a41acd8"><div class="ttname"><a href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a></div><div class="ttdeci">std::chrono::seconds Seconds</div><div class="ttdoc">Seconds shorthand typedef.</div><div class="ttdef"><b>Definition:</b> Duration.h:30</div></div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa05602_html_a35d89f51675306362c9dcb7332b148d5"><div class="ttname"><a href="../../dd/dd6/a05602.html#a35d89f51675306362c9dcb7332b148d5">DatabaseWorkerPool::PrepareStatements</a></div><div class="ttdeci">bool PrepareStatements()</div><div class="ttdoc">Prepares all prepared statements.</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:133</div></div>
-<div class="ttc" id="aa05602_html_a3b14aba401eab1f610bacff590ce403e"><div class="ttname"><a href="../../dd/dd6/a05602.html#a3b14aba401eab1f610bacff590ce403e">DatabaseWorkerPool::Open</a></div><div class="ttdeci">uint32 Open()</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:87</div></div>
-<div class="ttc" id="aa05602_html_a5d519cee643b1aa5f5837d3a288f7fdf"><div class="ttname"><a href="../../dd/dd6/a05602.html#a5d519cee643b1aa5f5837d3a288f7fdf">DatabaseWorkerPool::SetConnectionInfo</a></div><div class="ttdeci">void SetConnectionInfo(std::string_view infoString, uint8 const asyncThreads, uint8 const synchThreads)</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:78</div></div>
-<div class="ttc" id="aa05602_html_af5b0984b23e9ea23d93deaaea85e17df"><div class="ttname"><a href="../../dd/dd6/a05602.html#af5b0984b23e9ea23d93deaaea85e17df">DatabaseWorkerPool::Close</a></div><div class="ttdeci">void Close()</div><div class="ttdef"><b>Definition:</b> DatabaseWorkerPool.cpp:113</div></div>
-<div class="ttc" id="aa05606_html_a236ce20d055e58a9e3de119c4dc2ff31"><div class="ttname"><a href="../../d9/dc0/a05606.html#a236ce20d055e58a9e3de119c4dc2ff31">DatabaseLoader::_populate</a></div><div class="ttdeci">std::queue&lt; Predicate &gt; _populate</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:78</div></div>
-<div class="ttc" id="aa05606_html_a8f6f440ac4b3c1df8382b8395f740c7e"><div class="ttname"><a href="../../d9/dc0/a05606.html#a8f6f440ac4b3c1df8382b8395f740c7e">DatabaseLoader::_prepare</a></div><div class="ttdeci">std::queue&lt; Predicate &gt; _prepare</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:78</div></div>
-<div class="ttc" id="aa05606_html_aa0473ab9141855bd64a9dc5ac6e2bc83"><div class="ttname"><a href="../../d9/dc0/a05606.html#aa0473ab9141855bd64a9dc5ac6e2bc83">DatabaseLoader::_update</a></div><div class="ttdeci">std::queue&lt; Predicate &gt; _update</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:78</div></div>
-<div class="ttc" id="aa05606_html_ab3d8ecdebaa70141830f50a4a0f17d78"><div class="ttname"><a href="../../d9/dc0/a05606.html#ab3d8ecdebaa70141830f50a4a0f17d78">DatabaseLoader::_open</a></div><div class="ttdeci">std::queue&lt; Predicate &gt; _open</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:78</div></div>
-<div class="ttc" id="aa05606_html_ac63afc15ce746ed014f0e91832a6d1ea"><div class="ttname"><a href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">DatabaseLoader::_close</a></div><div class="ttdeci">std::stack&lt; Closer &gt; _close</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.h:79</div></div>
-<div class="ttc" id="aa05806_html"><div class="ttname"><a href="../../dd/d3e/a05806.html">DBUpdater</a></div><div class="ttdef"><b>Definition:</b> DBUpdater.h:69</div></div>
-<div class="ttc" id="aa05806_html_aa4bd2974f787e0ef294e82863f0b11c8"><div class="ttname"><a href="../../dd/d3e/a05806.html#aa4bd2974f787e0ef294e82863f0b11c8">DBUpdater::IsEnabled</a></div><div class="ttdeci">static bool IsEnabled(uint32 const updateMask)</div></div>
+<div class="line"><span class="lineno">   48</span>        operation-&gt;<a class="code hl_function" href="../../d2/d90/a05770.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a2f21d73b584d9e5f17afc7a0ac78f129">_connection</a>);</div>
+<div class="line"><span class="lineno">   49</span>        operation-&gt;<a class="code hl_function" href="../../d2/d90/a05770.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a>();</div>
+<div class="line"><span class="lineno">   50</span> </div>
+<div class="line"><span class="lineno">   51</span>        <span class="keyword">delete</span> operation;</div>
+<div class="line"><span class="lineno">   52</span>    }</div>
+<div class="line"><span class="lineno">   53</span>}</div>
+<div class="ttc" id="aa05302_html_a172ef4211bcb237478ec57531c8dcc4d"><div class="ttname"><a href="../../db/dd7/a05302.html#a172ef4211bcb237478ec57531c8dcc4d">ProducerConsumerQueue::WaitAndPop</a></div><div class="ttdeci">void WaitAndPop(T &amp;value)</div><div class="ttdef"><b>Definition:</b> PCQueue.h:71</div></div>
+<div class="ttc" id="aa05770_html"><div class="ttname"><a href="../../d2/d90/a05770.html">SQLOperation</a></div><div class="ttdef"><b>Definition:</b> SQLOperation.h:42</div></div>
+<div class="ttc" id="aa05770_html_a52cbd1d9b8a298ab3eade0010b5e3166"><div class="ttname"><a href="../../d2/d90/a05770.html#a52cbd1d9b8a298ab3eade0010b5e3166">SQLOperation::SetConnection</a></div><div class="ttdeci">virtual void SetConnection(MySQLConnection *con)</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:54</div></div>
+<div class="ttc" id="aa05770_html_ae56c06a313c4be5d0e45f5481996f1d1"><div class="ttname"><a href="../../d2/d90/a05770.html#ae56c06a313c4be5d0e45f5481996f1d1">SQLOperation::call</a></div><div class="ttdeci">virtual int call()</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:47</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00075">_autoSetup</a>, <a class="el" href="../../#l00079">_close</a>, <a class="el" href="../../#l00073">_logger</a>, <a class="el" href="../../#l00074">_modulesList</a>, <a class="el" href="../../#l00078">_open</a>, <a class="el" href="../../#l00078">_populate</a>, <a class="el" href="../../#l00078">_prepare</a>, <a class="el" href="../../#l00078">_update</a>, <a class="el" href="../../#l00076">_updateFlags</a>, <a class="el" href="../../#l00113">DatabaseWorkerPool&lt; T &gt;::Close()</a>, <a class="el" href="../../dd/d3e/a05806.html#aa4bd2974f787e0ef294e82863f0b11c8">DBUpdater&lt; T &gt;::IsEnabled()</a>, <a class="el" href="../../#l00157">LOG_ERROR</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00087">DatabaseWorkerPool&lt; T &gt;::Open()</a>, <a class="el" href="../../#l00133">DatabaseWorkerPool&lt; T &gt;::PrepareStatements()</a>, <a class="el" href="../../#l00074">sConfigMgr</a>, and <a class="el" href="../../#l00078">DatabaseWorkerPool&lt; T &gt;::SetConnectionInfo()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00039">_connection</a>, <a class="el" href="../../#l00038">_queue</a>, <a class="el" href="../../#l00047">SQLOperation::call()</a>, <a class="el" href="../../#l00054">SQLOperation::SetConnection()</a>, and <a class="el" href="../../#l00071">ProducerConsumerQueue&lt; T &gt;::WaitAndPop()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00204">StartDB()</a>.</p>
-
-</div>
-</div>
-<a id="af0cd17307aa123f7e390aa67cab3d0d3" name="af0cd17307aa123f7e390aa67cab3d0d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af0cd17307aa123f7e390aa67cab3d0d3">&#9670;&#160;</a></span>GetUpdateFlags()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> DatabaseLoader::GetUpdateFlags </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   56</span>    {</div>
-<div class="line"><span class="lineno">   57</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">_updateFlags</a>;</div>
-<div class="line"><span class="lineno">   58</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00431">StartDB()</a>.</p>
-
-</div>
-</div>
-<a id="ab0ffcdb400e9e5d80598f89dddb3bea8" name="ab0ffcdb400e9e5d80598f89dddb3bea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab0ffcdb400e9e5d80598f89dddb3bea8">&#9670;&#160;</a></span>Load()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::Load </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  155</span>{</div>
-<div class="line"><span class="lineno">  156</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d9/dc0/a05606.html#a5e34623110250746c5da5693c11facc6">_updateFlags</a>)</div>
-<div class="line"><span class="lineno">  157</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.updates&quot;</span>, <span class="stringliteral">&quot;&gt; AUTOUPDATER: Automatic database updates are disabled for all databases in the config! This is not recommended!&quot;</span>);</div>
-<div class="line"><span class="lineno">  158</span> </div>
-<div class="line"><span class="lineno">  159</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/dc0/a05606.html#afc1c97733db723e5dd01c889e91e5dcb">OpenDatabases</a>())</div>
-<div class="line"><span class="lineno">  160</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  161</span> </div>
-<div class="line"><span class="lineno">  162</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/dc0/a05606.html#a4d4e52215ebf500e0603153089127ad8">PopulateDatabases</a>())</div>
-<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  164</span> </div>
-<div class="line"><span class="lineno">  165</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/dc0/a05606.html#a747f5a610fc5c960b2ba818a4a741799">UpdateDatabases</a>())</div>
-<div class="line"><span class="lineno">  166</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  167</span> </div>
-<div class="line"><span class="lineno">  168</span>    <span class="keywordflow">if</span> (!<a class="code hl_function" href="../../d9/dc0/a05606.html#a29da07080df4818e2ad57ee12361bfe9">PrepareStatements</a>())</div>
-<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  170</span> </div>
-<div class="line"><span class="lineno">  171</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  172</span>}</div>
-<div class="ttc" id="aa05606_html_a29da07080df4818e2ad57ee12361bfe9"><div class="ttname"><a href="../../d9/dc0/a05606.html#a29da07080df4818e2ad57ee12361bfe9">DatabaseLoader::PrepareStatements</a></div><div class="ttdeci">bool PrepareStatements()</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:189</div></div>
-<div class="ttc" id="aa05606_html_a4d4e52215ebf500e0603153089127ad8"><div class="ttname"><a href="../../d9/dc0/a05606.html#a4d4e52215ebf500e0603153089127ad8">DatabaseLoader::PopulateDatabases</a></div><div class="ttdeci">bool PopulateDatabases()</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:179</div></div>
-<div class="ttc" id="aa05606_html_a747f5a610fc5c960b2ba818a4a741799"><div class="ttname"><a href="../../d9/dc0/a05606.html#a747f5a610fc5c960b2ba818a4a741799">DatabaseLoader::UpdateDatabases</a></div><div class="ttdeci">bool UpdateDatabases()</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:184</div></div>
-<div class="ttc" id="aa05606_html_afc1c97733db723e5dd01c889e91e5dcb"><div class="ttname"><a href="../../d9/dc0/a05606.html#afc1c97733db723e5dd01c889e91e5dcb">DatabaseLoader::OpenDatabases</a></div><div class="ttdeci">bool OpenDatabases()</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:174</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00076">_updateFlags</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, <a class="el" href="../../#l00174">OpenDatabases()</a>, <a class="el" href="../../#l00179">PopulateDatabases()</a>, <a class="el" href="../../#l00189">PrepareStatements()</a>, and <a class="el" href="../../#l00184">UpdateDatabases()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00204">StartDB()</a>.</p>
-
-</div>
-</div>
-<a id="afc1c97733db723e5dd01c889e91e5dcb" name="afc1c97733db723e5dd01c889e91e5dcb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afc1c97733db723e5dd01c889e91e5dcb">&#9670;&#160;</a></span>OpenDatabases()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::OpenDatabases </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  175</span>{</div>
-<div class="line"><span class="lineno">  176</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">Process</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#ab3d8ecdebaa70141830f50a4a0f17d78">_open</a>);</div>
-<div class="line"><span class="lineno">  177</span>}</div>
-<div class="ttc" id="aa05606_html_ae0407015cdb8c50d778cb2075d185311"><div class="ttname"><a href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">DatabaseLoader::Process</a></div><div class="ttdeci">bool Process(std::queue&lt; Predicate &gt; &amp;queue)</div><div class="ttdef"><b>Definition:</b> DatabaseLoader.cpp:194</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00078">_open</a>, and <a class="el" href="../../#l00194">Process()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">Load()</a>.</p>
-
-</div>
-</div>
-<a id="a4d4e52215ebf500e0603153089127ad8" name="a4d4e52215ebf500e0603153089127ad8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d4e52215ebf500e0603153089127ad8">&#9670;&#160;</a></span>PopulateDatabases()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::PopulateDatabases </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  180</span>{</div>
-<div class="line"><span class="lineno">  181</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">Process</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a236ce20d055e58a9e3de119c4dc2ff31">_populate</a>);</div>
-<div class="line"><span class="lineno">  182</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00078">_populate</a>, and <a class="el" href="../../#l00194">Process()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">Load()</a>.</p>
-
-</div>
-</div>
-<a id="a29da07080df4818e2ad57ee12361bfe9" name="a29da07080df4818e2ad57ee12361bfe9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29da07080df4818e2ad57ee12361bfe9">&#9670;&#160;</a></span>PrepareStatements()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::PrepareStatements </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  190</span>{</div>
-<div class="line"><span class="lineno">  191</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">Process</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#a8f6f440ac4b3c1df8382b8395f740c7e">_prepare</a>);</div>
-<div class="line"><span class="lineno">  192</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00078">_prepare</a>, and <a class="el" href="../../#l00194">Process()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">Load()</a>.</p>
-
-</div>
-</div>
-<a id="ae0407015cdb8c50d778cb2075d185311" name="ae0407015cdb8c50d778cb2075d185311"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae0407015cdb8c50d778cb2075d185311">&#9670;&#160;</a></span>Process()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::Process </td>
-          <td>(</td>
-          <td class="paramtype">std::queue&lt; <a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>queue</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  195</span>{</div>
-<div class="line"><span class="lineno">  196</span>    <span class="keywordflow">while</span> (!queue.empty())</div>
-<div class="line"><span class="lineno">  197</span>    {</div>
-<div class="line"><span class="lineno">  198</span>        <span class="keywordflow">if</span> (!queue.front()())</div>
-<div class="line"><span class="lineno">  199</span>        {</div>
-<div class="line"><span class="lineno">  200</span>            <span class="comment">// Close all open databases which have a registered close operation</span></div>
-<div class="line"><span class="lineno">  201</span>            <span class="keywordflow">while</span> (!<a class="code hl_variable" href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">_close</a>.empty())</div>
-<div class="line"><span class="lineno">  202</span>            {</div>
-<div class="line"><span class="lineno">  203</span>                <a class="code hl_variable" href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">_close</a>.top()();</div>
-<div class="line"><span class="lineno">  204</span>                <a class="code hl_variable" href="../../d9/dc0/a05606.html#ac63afc15ce746ed014f0e91832a6d1ea">_close</a>.pop();</div>
-<div class="line"><span class="lineno">  205</span>            }</div>
-<div class="line"><span class="lineno">  206</span> </div>
-<div class="line"><span class="lineno">  207</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
-<div class="line"><span class="lineno">  208</span>        }</div>
-<div class="line"><span class="lineno">  209</span> </div>
-<div class="line"><span class="lineno">  210</span>        queue.pop();</div>
-<div class="line"><span class="lineno">  211</span>    }</div>
-<div class="line"><span class="lineno">  212</span> </div>
-<div class="line"><span class="lineno">  213</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
-<div class="line"><span class="lineno">  214</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00079">_close</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00174">OpenDatabases()</a>, <a class="el" href="../../#l00179">PopulateDatabases()</a>, <a class="el" href="../../#l00189">PrepareStatements()</a>, and <a class="el" href="../../#l00184">UpdateDatabases()</a>.</p>
-
-</div>
-</div>
-<a id="a747f5a610fc5c960b2ba818a4a741799" name="a747f5a610fc5c960b2ba818a4a741799"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a747f5a610fc5c960b2ba818a4a741799">&#9670;&#160;</a></span>UpdateDatabases()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool DatabaseLoader::UpdateDatabases </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  185</span>{</div>
-<div class="line"><span class="lineno">  186</span>    <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dc0/a05606.html#ae0407015cdb8c50d778cb2075d185311">Process</a>(<a class="code hl_variable" href="../../d9/dc0/a05606.html#aa0473ab9141855bd64a9dc5ac6e2bc83">_update</a>);</div>
-<div class="line"><span class="lineno">  187</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00078">_update</a>, and <a class="el" href="../../#l00194">Process()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00154">Load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3335a6486e3e65b1ca3cbe42167455c6" name="a3335a6486e3e65b1ca3cbe42167455c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3335a6486e3e65b1ca3cbe42167455c6">&#9670;&#160;</a></span>_autoSetup</h2>
+<a id="a2f21d73b584d9e5f17afc7a0ac78f129" name="a2f21d73b584d9e5f17afc7a0ac78f129"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f21d73b584d9e5f17afc7a0ac78f129">&#9670;&#160;</a></span>_connection</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -743,7 +319,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool const DatabaseLoader::_autoSetup</td>
+          <td class="memname"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a>* DatabaseWorker::_connection</td>
         </tr>
       </table>
   </td>
@@ -753,12 +329,12 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00034">WorkerThread()</a>.</p>
 
 </div>
 </div>
-<a id="ac63afc15ce746ed014f0e91832a6d1ea" name="ac63afc15ce746ed014f0e91832a6d1ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac63afc15ce746ed014f0e91832a6d1ea">&#9670;&#160;</a></span>_close</h2>
+<a id="a9c47ad6c0d4dca85a63be45c4e678a70" name="a9c47ad6c0d4dca85a63be45c4e678a70"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c47ad6c0d4dca85a63be45c4e678a70">&#9670;&#160;</a></span>_queue</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -767,7 +343,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::stack&lt;<a class="el" href="../../d9/dc0/a05606.html#a54f793710e2cb0264ac32ec21ce64db5">Closer</a>&gt; DatabaseLoader::_close</td>
+          <td class="memname"><a class="el" href="../../db/dd7/a05302.html">ProducerConsumerQueue</a>&lt;<a class="el" href="../../d2/d90/a05770.html">SQLOperation</a>*&gt;* DatabaseWorker::_queue</td>
         </tr>
       </table>
   </td>
@@ -777,12 +353,12 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00194">Process()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00034">WorkerThread()</a>.</p>
 
 </div>
 </div>
-<a id="a2cfecfa5c98f816deca6b1f8fd19f8ed" name="a2cfecfa5c98f816deca6b1f8fd19f8ed"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2cfecfa5c98f816deca6b1f8fd19f8ed">&#9670;&#160;</a></span>_logger</h2>
+<a id="ad02a90f600f1996c053f36e186edf292" name="ad02a90f600f1996c053f36e186edf292"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad02a90f600f1996c053f36e186edf292">&#9670;&#160;</a></span>_workerThread</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -791,7 +367,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string const DatabaseLoader::_logger</td>
+          <td class="memname">std::thread DatabaseWorker::_workerThread</td>
         </tr>
       </table>
   </td>
@@ -801,151 +377,7 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>.</p>
-
-</div>
-</div>
-<a id="aa8a04dd529b60165d92e80c3690e0e56" name="aa8a04dd529b60165d92e80c3690e0e56"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8a04dd529b60165d92e80c3690e0e56">&#9670;&#160;</a></span>_modulesList</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string_view DatabaseLoader::_modulesList</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>.</p>
-
-</div>
-</div>
-<a id="ab3d8ecdebaa70141830f50a4a0f17d78" name="ab3d8ecdebaa70141830f50a4a0f17d78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3d8ecdebaa70141830f50a4a0f17d78">&#9670;&#160;</a></span>_open</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::queue&lt;<a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a>&gt; DatabaseLoader::_open</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00174">OpenDatabases()</a>.</p>
-
-</div>
-</div>
-<a id="a236ce20d055e58a9e3de119c4dc2ff31" name="a236ce20d055e58a9e3de119c4dc2ff31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a236ce20d055e58a9e3de119c4dc2ff31">&#9670;&#160;</a></span>_populate</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::queue&lt;<a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a>&gt; DatabaseLoader::_populate</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00179">PopulateDatabases()</a>.</p>
-
-</div>
-</div>
-<a id="a8f6f440ac4b3c1df8382b8395f740c7e" name="a8f6f440ac4b3c1df8382b8395f740c7e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8f6f440ac4b3c1df8382b8395f740c7e">&#9670;&#160;</a></span>_prepare</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::queue&lt;<a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a>&gt; DatabaseLoader::_prepare</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00189">PrepareStatements()</a>.</p>
-
-</div>
-</div>
-<a id="aa0473ab9141855bd64a9dc5ac6e2bc83" name="aa0473ab9141855bd64a9dc5ac6e2bc83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa0473ab9141855bd64a9dc5ac6e2bc83">&#9670;&#160;</a></span>_update</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::queue&lt;<a class="el" href="../../d9/dc0/a05606.html#ab1d02ab7bac2f577a2472a931bfc81b8">Predicate</a>&gt; DatabaseLoader::_update</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00184">UpdateDatabases()</a>.</p>
-
-</div>
-</div>
-<a id="a5e34623110250746c5da5693c11facc6" name="a5e34623110250746c5da5693c11facc6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5e34623110250746c5da5693c11facc6">&#9670;&#160;</a></span>_updateFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> const DatabaseLoader::_updateFlags</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00035">AddDatabase()</a>, and <a class="el" href="../../#l00154">Load()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00022">DatabaseWorker()</a>, and <a class="el" href="../../#l00029">~DatabaseWorker()</a>.</p>
 
 </div>
 </div>
@@ -954,8 +386,8 @@ template&lt;class T &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/dc0/a05606.html">DatabaseLoader</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d9/dc0/a05606.html">DatabaseWorker</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

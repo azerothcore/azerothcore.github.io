@@ -1,5 +1,5 @@
 var a27034 =
 [
-    [ "item_petrov_cluster_bombs", "d2/dda/a27034.html#a1a76760f7c4617a40d96b9833e7466df", null ],
-    [ "OnUse", "d2/dda/a27034.html#a14e8a00a532b5aebc8469ff538848f53", null ]
+    [ "go_hive_pod", "d2/dda/a27034.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
+    [ "OnGossipHello", "d2/dda/a27034.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
 ];

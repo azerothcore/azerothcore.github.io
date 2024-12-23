@@ -1,9 +1,8 @@
 var a24106 =
 [
-    [ "npc_pet_shaman_earth_elemental", "de/d80/a24106.html#a07f3792cb3b5264d209f1b4726867773", null ],
-    [ "InitializeAI", "de/d80/a24106.html#a8bbca6686ae324a50cd1598125280446", null ],
-    [ "JustEngagedWith", "de/d80/a24106.html#ad9b48901b1d96e59ce60af6411a8baaf", null ],
-    [ "UpdateAI", "de/d80/a24106.html#ab28951b483cab31bf5672fc74e7323e1", null ],
-    [ "_events", "de/d80/a24106.html#ab7f72d0d574322965f1d0b23f144f1be", null ],
-    [ "_initAttack", "de/d80/a24106.html#a2af73c97ef60b5b0ade26c9760b8b379", null ]
+    [ "npc_pet_gen_valkyr_guardian", "de/d80/a24106.html#a546f0b0b4273de8216e9f688c2d68209", null ],
+    [ "InitializeAI", "de/d80/a24106.html#ac32c8bb1e1014015a0ab92417bbc78a9", null ],
+    [ "OwnerAttacked", "de/d80/a24106.html#a7f0bcedd78d88cdc802ba66c0ff7d927", null ],
+    [ "UpdateAI", "de/d80/a24106.html#a9a5a233763365c6cca5618459a23a816", null ],
+    [ "targetCheck", "de/d80/a24106.html#aa530b6b6415c85cd76f44d625329c2fb", null ]
 ];

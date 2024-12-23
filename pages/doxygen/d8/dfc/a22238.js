@@ -1,12 +1,14 @@
 var a22238 =
 [
-    [ "boss_shirrak_the_dead_watcher", "d8/dfc/a22238.html#aaa6826de3b6563342b89544b38386d93", null ],
-    [ "EnterEvadeMode", "d8/dfc/a22238.html#a23768629c4ab48954880c3c29099f432", null ],
-    [ "getStackCount", "d8/dfc/a22238.html#aabca8240dfdc6603f0c244286a4d2cfe", null ],
-    [ "JustEngagedWith", "d8/dfc/a22238.html#a095ce3401bf0e40255e3104c01ce5fb0", null ],
-    [ "JustSummoned", "d8/dfc/a22238.html#a0a8e0d5126d14bd6d15004320b311f36", null ],
-    [ "Reset", "d8/dfc/a22238.html#aa16810aeadfac21c53a28ffbca3babdc", null ],
-    [ "SpellHitTarget", "d8/dfc/a22238.html#a7cb51a74e53dd6a22a3dbfe4e2220d37", null ],
-    [ "UpdateAI", "d8/dfc/a22238.html#a855505f949f53f979187abcb5b2f617f", null ],
-    [ "focusGUID", "d8/dfc/a22238.html#a81a7eade42ef595c173d7828ce59ef88", null ]
+    [ "OutdoorPvPNA", "d8/dfc/a22238.html#acbdae42245c71e4274296649d8d08e9e", null ],
+    [ "FillInitialWorldStates", "d8/dfc/a22238.html#ac4eaab1f8d69ac45f168899267801198", null ],
+    [ "GetCapturePoint", "d8/dfc/a22238.html#a7bab429e723c0ac1eb2f8cd3501f13be", null ],
+    [ "HandleKill", "d8/dfc/a22238.html#ab55683b771104878c69239314a9782f4", null ],
+    [ "HandleKillImpl", "d8/dfc/a22238.html#a2ede6e7dc54424d9729a094557b14792", null ],
+    [ "HandlePlayerEnterZone", "d8/dfc/a22238.html#a312c5f2aaa35a9f83740c1bdd9772b9e", null ],
+    [ "HandlePlayerLeaveZone", "d8/dfc/a22238.html#ae7dd540746946513cd7bf8e29296c068", null ],
+    [ "SendRemoveWorldStates", "d8/dfc/a22238.html#ae9a93ddac1ca439f0f269d7ac7597593", null ],
+    [ "SetupOutdoorPvP", "d8/dfc/a22238.html#a09369a62ec5584dd6ce5eddf7b2bb80f", null ],
+    [ "Update", "d8/dfc/a22238.html#a4074a96974fe1b5e6d9149c8eee36e71", null ],
+    [ "m_obj", "d8/dfc/a22238.html#a7538d64bb494644eae3cc7db03dd631f", null ]
 ];

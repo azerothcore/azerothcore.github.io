@@ -1,5 +1,8 @@
 var a22034 =
 [
-    [ "achievement_wg_didnt_stand_a_chance", "df/dc1/a22034.html#afb397c74f00d1f5c59a24ef74b0cd1cd", null ],
-    [ "OnCheck", "df/dc1/a22034.html#ae575bae454689e05c161e8480a13fa18", null ]
+    [ "npc_wg_queueAI", "de/d61/a22038.html", "de/d61/a22038" ],
+    [ "npc_wg_queue", "df/dc1/a22034.html#a2cc9825e08e982ef195f117a4512c4ae", null ],
+    [ "GetAI", "df/dc1/a22034.html#ad2d7746a32b520d37ea826b03627de4e", null ],
+    [ "OnGossipHello", "df/dc1/a22034.html#a20fc6ae4e4377f237a620b7f5b1de8ee", null ],
+    [ "OnGossipSelect", "df/dc1/a22034.html#afb707da5d85affc65f7ab5a0fc018c93", null ]
 ];

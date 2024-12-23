@@ -1,12 +1,8 @@
 var a23810 =
 [
-    [ "npc_enslaved_netherwing_drake", "d2/ddf/a23810.html#a9f848fa3c68b8a269f0b6016058ec364", null ],
-    [ "_GetPlayer", "d2/ddf/a23810.html#af02a965e98f35134a3c40ed9cdfb723e", null ],
-    [ "JustDied", "d2/ddf/a23810.html#acde70c9d8c675a9a9dd14695dc752184", null ],
-    [ "MovementInform", "d2/ddf/a23810.html#afa030a380365daa33c156a0d6be6a6d9", null ],
-    [ "Reset", "d2/ddf/a23810.html#aec02b19d27a09f16ef06adb694c2e65e", null ],
-    [ "SpellHit", "d2/ddf/a23810.html#a195794e88870a0b1ca35473f5f0378a7", null ],
-    [ "UpdateAI", "d2/ddf/a23810.html#aa7ac2dd17bdf4939d74fe5af85c649b9", null ],
-    [ "_playerGUID", "d2/ddf/a23810.html#a2f9a6a6cbaa9cab0e6014f6fd1c54346", null ],
-    [ "_tapped", "d2/ddf/a23810.html#a9cbafd9536ff7eca33b0b44295aaec92", null ]
+    [ "npc_bessyAI", "d2/ddf/a23810.html#ad1300a563888b34689bedf97c387707c", null ],
+    [ "JustDied", "d2/ddf/a23810.html#af98e9235b2432b619e4cc01c0c1111ef", null ],
+    [ "JustSummoned", "d2/ddf/a23810.html#a4197fb122299fd152e5da335bb832ae5", null ],
+    [ "Reset", "d2/ddf/a23810.html#aed64386629e52c3b65abadde54a63cc4", null ],
+    [ "WaypointReached", "d2/ddf/a23810.html#a4611a8f41f66a1a846fb42ba1d4062c8", null ]
 ];

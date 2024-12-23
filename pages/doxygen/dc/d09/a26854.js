@@ -1,6 +1,5 @@
 var a26854 =
 [
-    [ "go_heatAI", "dc/d09/a26854.html#a40e4ec3294126aaf3fc6875aa8b39f0a", null ],
-    [ "UpdateAI", "dc/d09/a26854.html#a2332206ee47b2cea9e4707d16ea79325", null ],
-    [ "timer", "dc/d09/a26854.html#a4f01692c9f39e2a40d2d5f9c22e0ac43", null ]
+    [ "go_noblegarden_colored_egg", "dc/d09/a26854.html#a7e85d492a6c9f4e50a2c47d6e6dae535", null ],
+    [ "OnGossipHello", "dc/d09/a26854.html#ab3d349dfa5b4c0f58ed70f80cd084029", null ]
 ];

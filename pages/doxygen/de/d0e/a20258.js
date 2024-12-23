@@ -1,6 +1,6 @@
 var a20258 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d5/d11/a20262.html", "d5/d11/a20262" ],
-    [ "boss_thorim_sif_blizzard", "de/d0e/a20258.html#acc42b4c9434f9eece2d93c2e4f3697fc", null ],
-    [ "GetAI", "de/d0e/a20258.html#afbff96363951c952a195f5c2a105e279", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d5/d11/a20262.html", "d5/d11/a20262" ],
+    [ "npc_ulduar_dark_rune_watcher", "de/d0e/a20258.html#a0536c61d70d5c6d61496fc1720d37950", null ],
+    [ "GetAI", "de/d0e/a20258.html#a6677d6dc0d07b508e921064f3299b302", null ]
 ];

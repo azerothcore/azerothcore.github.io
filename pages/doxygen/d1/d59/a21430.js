@@ -1,6 +1,8 @@
 var a21430 =
 [
-    [ "npc_q24545_lich_kingAI", "d3/d7b/a21434.html", "d3/d7b/a21434" ],
-    [ "npc_q24545_lich_king", "d1/d59/a21430.html#a1864564dee4f66f1b29850b8b0f6fa29", null ],
-    [ "GetAI", "d1/d59/a21430.html#aade5ad8ba215d0571185596aa40cf9b2", null ]
+    [ "npc_future_youAI", "d1/d59/a21430.html#a7608c050dd198e3133050e222b42f62b", null ],
+    [ "EnterEvadeMode", "d1/d59/a21430.html#a0b15c8af6075e323e56b2170ce4eefc0", null ],
+    [ "MoveInLineOfSight", "d1/d59/a21430.html#a35b67f9e948f5ffbde8a423190ece603", null ],
+    [ "Reset", "d1/d59/a21430.html#a01a8cd8f94dd614de2ffefdb19cd9f29", null ],
+    [ "UpdateAI", "d1/d59/a21430.html#ac110daa6b4cf6bf26d9e9f9829577fa6", null ]
 ];

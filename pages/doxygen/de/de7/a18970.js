@@ -1,7 +1,6 @@
 var a18970 =
 [
-    [ "HandlePull", "de/de7/a18970.html#a05e6155abeb2720923ddf0d8cae54feb", null ],
-    [ "PrepareSpellScript", "de/de7/a18970.html#ac192245513e162a2842e47f5b0d64338", null ],
-    [ "Register", "de/de7/a18970.html#af6c7a881c2fcf07461006fef63074e5e", null ],
-    [ "SelectTarget", "de/de7/a18970.html#aabee5b6b8f3ba7e2cf91bcb05ce7929d", null ]
+    [ "npc_eoe_wyrmrest_skytalonAI", "de/de7/a18970.html#a0878695bc4179e3b6e92dde9f2b5cf19", null ],
+    [ "JustDied", "de/de7/a18970.html#aaa88ff236fd49a9c672ab29feb7377b8", null ],
+    [ "PassengerBoarded", "de/de7/a18970.html#aa3352276e87d805cc8722eb97d10ca46", null ]
 ];

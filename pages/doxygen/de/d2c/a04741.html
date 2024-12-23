@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Module Namespace Reference</title>
+<title>AzerothCore: anonymous_namespace{ModuleMgr.cpp} Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,74 +105,30 @@ $(document).ready(function(){initNavTree('de/d2c/a04741.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Module Namespace Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">anonymous_namespace{ModuleMgr.cpp} Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:ac16569c9333f642e54fa7a4ec6a948e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a04741.html#ac16569c9333f642e54fa7a4ec6a948e3">SetEnableModulesList</a> (std::string_view modulesList)</td></tr>
-<tr class="separator:ac16569c9333f642e54fa7a4ec6a948e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2a2aa3aabfbef586b9a1e63fbae0e0f7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::vector&lt; std::string_view &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a04741.html#a2a2aa3aabfbef586b9a1e63fbae0e0f7">GetEnableModulesList</a> ()</td></tr>
-<tr class="separator:a2a2aa3aabfbef586b9a1e63fbae0e0f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aa8df8c5e3d2ad2852ea850d12636d578"><td class="memItemLeft" align="right" valign="top">std::string_view&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../de/d2c/a04741.html#aa8df8c5e3d2ad2852ea850d12636d578">_modulesList</a> = {}</td></tr>
+<tr class="separator:aa8df8c5e3d2ad2852ea850d12636d578"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a2a2aa3aabfbef586b9a1e63fbae0e0f7" name="a2a2aa3aabfbef586b9a1e63fbae0e0f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a2aa3aabfbef586b9a1e63fbae0e0f7">&#9670;&#160;</a></span>GetEnableModulesList()</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aa8df8c5e3d2ad2852ea850d12636d578" name="aa8df8c5e3d2ad2852ea850d12636d578"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8df8c5e3d2ad2852ea850d12636d578">&#9670;&#160;</a></span>_modulesList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::string_view &gt; Acore::Module::GetEnableModulesList </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">std::string_view anonymous_namespace{ModuleMgr.cpp}::_modulesList = {}</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    std::vector&lt;std::string_view&gt; _list;</div>
-<div class="line"><span class="lineno">   34</span> </div>
-<div class="line"><span class="lineno">   35</span>    <span class="keywordflow">for</span> (<span class="keyword">auto</span> <span class="keyword">const</span>&amp; modName : <a class="code hl_function" href="../../d8/d20/a04686.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a>(<a class="code hl_variable" href="../../d9/dda/a04740.html#aa8df8c5e3d2ad2852ea850d12636d578">_modulesList</a>, <span class="charliteral">&#39;,&#39;</span>, <span class="keyword">false</span>))</div>
-<div class="line"><span class="lineno">   36</span>    {</div>
-<div class="line"><span class="lineno">   37</span>        _list.emplace_back(modName);</div>
-<div class="line"><span class="lineno">   38</span>    }</div>
-<div class="line"><span class="lineno">   39</span> </div>
-<div class="line"><span class="lineno">   40</span>    <span class="keywordflow">return</span> _list;</div>
-<div class="line"><span class="lineno">   41</span>}</div>
-<div class="ttc" id="aa04686_html_a6b121485ace4118b9006db1fb89f90f2"><div class="ttname"><a href="../../d8/d20/a04686.html#a6b121485ace4118b9006db1fb89f90f2">Acore::Tokenize</a></div><div class="ttdeci">std::vector&lt; std::string_view &gt; Tokenize(std::string_view str, char sep, bool keepEmpty)</div><div class="ttdef"><b>Definition:</b> Tokenize.cpp:20</div></div>
-<div class="ttc" id="aa04740_html_aa8df8c5e3d2ad2852ea850d12636d578"><div class="ttname"><a href="../../d9/dda/a04740.html#aa8df8c5e3d2ad2852ea850d12636d578">anonymous_namespace{ModuleMgr.cpp}::_modulesList</a></div><div class="ttdeci">std::string_view _modulesList</div><div class="ttdef"><b>Definition:</b> ModuleMgr.cpp:23</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00023">anonymous_namespace{ModuleMgr.cpp}::_modulesList</a>, and <a class="el" href="../../#l00020">Acore::Tokenize()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00114">server_commandscript::HandleServerDebugCommand()</a>.</p>
-
-</div>
-</div>
-<a id="ac16569c9333f642e54fa7a4ec6a948e3" name="ac16569c9333f642e54fa7a4ec6a948e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac16569c9333f642e54fa7a4ec6a948e3">&#9670;&#160;</a></span>SetEnableModulesList()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Module::SetEnableModulesList </td>
-          <td>(</td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>modulesList</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   27</span>{</div>
-<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../d9/dda/a04740.html#aa8df8c5e3d2ad2852ea850d12636d578">_modulesList</a> = modulesList;</div>
-<div class="line"><span class="lineno">   29</span>}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00023">anonymous_namespace{ModuleMgr.cpp}::_modulesList</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00120">main()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00031">Acore::Module::GetEnableModulesList()</a>, and <a class="el" href="../../#l00026">Acore::Module::SetEnableModulesList()</a>.</p>
 
 </div>
 </div>
@@ -181,8 +137,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../de/d2c/a04741.html">Module</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../de/d2c/a04741.html">anonymous_namespace{ModuleMgr.cpp}</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

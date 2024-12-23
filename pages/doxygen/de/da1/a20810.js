@@ -1,18 +1,14 @@
 var a20810 =
 [
-    [ "boss_svalaAI", "de/da1/a20810.html#a568466d621043157958bea38595d42a8", null ],
-    [ "EnterEvadeMode", "de/da1/a20810.html#a7808767e79ebe4c5ac784ff7a32874f6", null ],
-    [ "JustDied", "de/da1/a20810.html#aa85b0d305074d0df887fbb7ba42a3b20", null ],
-    [ "JustEngagedWith", "de/da1/a20810.html#ae36faacbbd22ddde8d8f25540e583c14", null ],
-    [ "JustSummoned", "de/da1/a20810.html#ad4bf163bf81dee06bead6f9a8aaa2a3a", null ],
-    [ "KilledUnit", "de/da1/a20810.html#a440053a21489b6e4691fc4a6e5984908", null ],
-    [ "Reset", "de/da1/a20810.html#a9c6fca6d70c7c53048b137b7d8cc0861", null ],
-    [ "SetData", "de/da1/a20810.html#a86f376743055f99c066ad1a7c960b6c7", null ],
-    [ "UpdateAI", "de/da1/a20810.html#a47b7405bd2fd6789f61172cbacd12fa0", null ],
-    [ "ArthasGUID", "de/da1/a20810.html#a42e1753c8a66cc292799c890b9177a3e", null ],
-    [ "events", "de/da1/a20810.html#abe87bb56b844c75dd9b24a4d45c94e7f", null ],
-    [ "events2", "de/da1/a20810.html#a542d2bc22970ee5835b2e15322dc2e58", null ],
-    [ "instance", "de/da1/a20810.html#a58f451d373d8336d5b8b38e33a1eeea8", null ],
-    [ "Started", "de/da1/a20810.html#a5d4b4c94062db7601fdc918f9727e03b", null ],
-    [ "summons", "de/da1/a20810.html#a3d14b708a8156a6c9025ff92aa3774c4", null ]
+    [ "npc_massive_jormungarAI", "de/da1/a20810.html#aa0b9acaec1aab155f7e4442d12d40c3e", null ],
+    [ "DoAction", "de/da1/a20810.html#a8084994ba056c907b2e487568fa7502a", null ],
+    [ "JustDied", "de/da1/a20810.html#a02b4e75227811250e2210f754e6e04f2", null ],
+    [ "JustEngagedWith", "de/da1/a20810.html#a93769dbb2f7d2136e5ab2603927a5f12", null ],
+    [ "JustReachedHome", "de/da1/a20810.html#a8ea0fe40cb4b113abadc091ab8085636", null ],
+    [ "MoveInLineOfSight", "de/da1/a20810.html#a55c817111fab479c3abcfca8942f16e8", null ],
+    [ "Reset", "de/da1/a20810.html#aca0d8ebe3b47a075a8b87666c0207620", null ],
+    [ "UpdateAI", "de/da1/a20810.html#a9201c4cdf74d55bb3cde52eb265aa3d9", null ],
+    [ "events", "de/da1/a20810.html#a92334b8178317a91a7d4336096d75f33", null ],
+    [ "m_pInstance", "de/da1/a20810.html#ad50a9852370798817fda318f71f27653", null ],
+    [ "summons", "de/da1/a20810.html#acfa84efc38b994706015e6d82fe1f653", null ]
 ];

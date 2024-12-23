@@ -1,8 +1,10 @@
 var a09094 =
 [
-    [ "NearestHostileUnitInAttackDistanceCheck", "d2/d3e/a09094.html#a0b1d14f1347a3749a91ef6e888ccb23e", null ],
-    [ "NearestHostileUnitInAttackDistanceCheck", "d2/d3e/a09094.html#a5645c9808db082b0301ec8b2ea93ce7f", null ],
-    [ "operator()", "d2/d3e/a09094.html#adc28281742cd1f6a49152481b48f944e", null ],
-    [ "m_range", "d2/d3e/a09094.html#ab79296a88ed07257edbe3449c2515b40", null ],
-    [ "me", "d2/d3e/a09094.html#a298d2489b9bf30aa510407afca79a374", null ]
+    [ "MostHPPercentMissingInRange", "d2/d3e/a09094.html#aaef0deb21e2470b45cafc22a8c4d18a5", null ],
+    [ "operator()", "d2/d3e/a09094.html#ab1734490a3db95ad715756e85ecfaf77", null ],
+    [ "i_hpPct", "d2/d3e/a09094.html#a41a3b1c4d1f27a2d727e7a18e2e30a7d", null ],
+    [ "i_maxHpPct", "d2/d3e/a09094.html#afd12795ef0cd99e05e4e21f869582416", null ],
+    [ "i_minHpPct", "d2/d3e/a09094.html#a11c197d3eea1a8ded0b20f707e6ed5d0", null ],
+    [ "i_obj", "d2/d3e/a09094.html#a724cf058a6bcf02864a49bb288e32ce6", null ],
+    [ "i_range", "d2/d3e/a09094.html#a021acff6bdb6aef9ab24c19d8798884f", null ]
 ];

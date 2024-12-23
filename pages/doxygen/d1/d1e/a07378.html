@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::ChatCommands::ArgInfo&lt; std::string, void &gt; Struct Reference</title>
+<title>AzerothCore: Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,38 +107,41 @@ $(document).ready(function(){initNavTree('d1/d1e/a07378.html','../../'); initRes
   <div class="summary">
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../df/d46/a07375.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::ArgInfo&lt; std::string, void &gt; Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatCommandArgs.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">ChatCommand.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afb6bc0250c190a2b52c031e3540ddf78"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1e/a07378.html#afb6bc0250c190a2b52c031e3540ddf78">TryConsume</a> (std::string &amp;val, <a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
-<tr class="separator:afb6bc0250c190a2b52c031e3540ddf78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad64b76886d0118c6997cae9ff27dfd34"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d13/a07518.html">ChatCommandResult</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d1e/a07378.html#ad64b76886d0118c6997cae9ff27dfd34">TryConsumeTo</a> (Tuple &amp;tuple, <a class="el" href="../../d4/d99/a07362.html">ChatHandler</a> const *handler, std::string_view args)</td></tr>
+<tr class="separator:ad64b76886d0118c6997cae9ff27dfd34"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="afb6bc0250c190a2b52c031e3540ddf78" name="afb6bc0250c190a2b52c031e3540ddf78"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb6bc0250c190a2b52c031e3540ddf78">&#9670;&#160;</a></span>TryConsume()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename Tuple, typename NextType, std::size_t offset&gt;<br />
+struct Acore::Impl::ChatCommands::MultiConsumer&lt; Tuple, NextType, offset &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="ad64b76886d0118c6997cae9ff27dfd34" name="ad64b76886d0118c6997cae9ff27dfd34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad64b76886d0118c6997cae9ff27dfd34">&#9670;&#160;</a></span>TryConsumeTo()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tuple , typename NextType , std::size_t offset&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../db/d60/a07450.html">ChatCommandResult</a> <a class="el" href="../../d2/d7a/a07366.html">Acore::Impl::ChatCommands::ArgInfo</a>&lt; std::string, void &gt;::TryConsume </td>
+          <td class="memname">static <a class="el" href="../../d0/d13/a07518.html">ChatCommandResult</a> <a class="el" href="../../d1/d1e/a07378.html">Acore::Impl::ChatCommands::MultiConsumer</a>&lt; Tuple, NextType, offset &gt;::TryConsumeTo </td>
           <td>(</td>
-          <td class="paramtype">std::string &amp;&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
+          <td class="paramtype">Tuple &amp;&#160;</td>
+          <td class="paramname"><em>tuple</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../dc/dcd/a07294.html">ChatHandler</a> const *&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d99/a07362.html">ChatHandler</a> const *&#160;</td>
           <td class="paramname"><em>handler</em>, </td>
         </tr>
         <tr>
@@ -159,14 +162,14 @@ Static Public Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   95</span>        {</div>
-<div class="line"><span class="lineno">   96</span>            std::string_view view;</div>
-<div class="line"><span class="lineno">   97</span>            <a class="code hl_struct" href="../../db/d60/a07450.html">ChatCommandResult</a> next = ArgInfo&lt;std::string_view&gt;::TryConsume(view, handler, args);</div>
-<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">if</span> (next)</div>
-<div class="line"><span class="lineno">   99</span>                val.assign(view);</div>
-<div class="line"><span class="lineno">  100</span>            <span class="keywordflow">return</span> next;</div>
-<div class="line"><span class="lineno">  101</span>        }</div>
-<div class="ttc" id="aa07450_html"><div class="ttname"><a href="../../db/d60/a07450.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:100</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   62</span>        {</div>
+<div class="line"><span class="lineno">   63</span>            <a class="code hl_struct" href="../../d0/d13/a07518.html">ChatCommandResult</a> next = ArgInfo&lt;NextType&gt;::TryConsume(std::get&lt;offset&gt;(tuple), handler, args);</div>
+<div class="line"><span class="lineno">   64</span>            <span class="keywordflow">if</span> (next)</div>
+<div class="line"><span class="lineno">   65</span>                <span class="keywordflow">return</span> ConsumeFromOffset&lt;Tuple, offset + 1&gt;(tuple, handler, *next);</div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   67</span>                <span class="keywordflow">return</span> next;</div>
+<div class="line"><span class="lineno">   68</span>        }</div>
+<div class="ttc" id="aa07518_html"><div class="ttname"><a href="../../d0/d13/a07518.html">Acore::Impl::ChatCommands::ChatCommandResult</a></div><div class="ttdef"><b>Definition:</b> ChatCommandHelpers.h:100</div></div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -175,8 +178,8 @@ Static Public Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/dfa/a04725.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d1/d1e/a07378.html">ArgInfo&lt; std::string, void &gt;</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d7b/a04698.html">Impl</a></li><li class="navelem"><a class="el" href="../../d4/dea/a04726.html">ChatCommands</a></li><li class="navelem"><a class="el" href="../../d1/d1e/a07378.html">MultiConsumer</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

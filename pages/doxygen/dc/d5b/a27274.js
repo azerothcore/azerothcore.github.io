@@ -1,6 +1,7 @@
 var a27274 =
 [
-    [ "npc_stable_masterAI", "d3/d40/a27278.html", "d3/d40/a27278" ],
-    [ "npc_stable_master", "dc/d5b/a27274.html#ad327340f47e10bec7f077192227b0899", null ],
-    [ "GetAI", "dc/d5b/a27274.html#a7e34e18d2dad465eb88b0388fa830490", null ]
+    [ "npc_guardianAI", "dc/d5b/a27274.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
+    [ "JustEngagedWith", "dc/d5b/a27274.html#a50257f80245bc59437e53083badcb056", null ],
+    [ "Reset", "dc/d5b/a27274.html#a217df9bae079f56ffd70d27958fb2756", null ],
+    [ "UpdateAI", "dc/d5b/a27274.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
 ];

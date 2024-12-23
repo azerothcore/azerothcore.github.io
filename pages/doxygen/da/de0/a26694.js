@@ -1,5 +1,6 @@
 var a26694 =
 [
-    [ "AreaTrigger_at_legion_teleporter", "da/de0/a26694.html#a2b648bd038f41025c19338367c696d25", null ],
-    [ "OnTrigger", "da/de0/a26694.html#ae8239e5ad56d93627102dbd02989353d", null ]
+    [ "achievement_arena_by_type", "da/de0/a26694.html#a2042c808304e8ddf1849820491b9f1a3", null ],
+    [ "OnCheck", "da/de0/a26694.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
+    [ "_arenaType", "da/de0/a26694.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
 ];

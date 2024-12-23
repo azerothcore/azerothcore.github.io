@@ -1,7 +1,6 @@
 var a16386 =
 [
-    [ "HandleScriptEffect", "d8/d28/a16386.html#a667e50b01f431dba025f692484f6e7ba", null ],
-    [ "PrepareSpellScript", "d8/d28/a16386.html#a9a5ffd28102a519c06f3715d7f2b1039", null ],
-    [ "Register", "d8/d28/a16386.html#a7ffa6eb498e9ec06d5cb4f81cff44389", null ],
-    [ "Validate", "d8/d28/a16386.html#a0ab270193a95f9043afd40c9ffd2a46b", null ]
+    [ "boss_tharon_jaAI", "dc/d0d/a16390.html", "dc/d0d/a16390" ],
+    [ "boss_tharon_ja", "d8/d28/a16386.html#ac34f8f33ea75dc0107222d3720788f7a", null ],
+    [ "GetAI", "d8/d28/a16386.html#ab24612418cb66ed0c1e64fba5ebaa50f", null ]
 ];

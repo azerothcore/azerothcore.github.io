@@ -1,5 +1,7 @@
 var a26934 =
 [
-    [ "go_tele_to_violet_stand", "d1/dca/a26934.html#a63350db1dfd400c565e30775378d48cc", null ],
-    [ "OnGossipHello", "d1/dca/a26934.html#a4d075584f065501a2c3be9ef82387f43", null ]
+    [ "go_brewfest_musicAI", "d1/dca/a26934.html#a832bd6353b3c466c197b8c90b5bee8a8", null ],
+    [ "UpdateAI", "d1/dca/a26934.html#a47ea5bbcd9d01b9eaf839bc779809aec", null ],
+    [ "_currentMusicEvent", "d1/dca/a26934.html#ad26a0309bdd4eafce4dfa310db929357", null ],
+    [ "_events", "d1/dca/a26934.html#ae741239bbebae9f93ad2d04c7487c32f", null ]
 ];

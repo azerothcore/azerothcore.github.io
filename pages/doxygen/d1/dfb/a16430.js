@@ -1,9 +1,6 @@
 var a16430 =
 [
-    [ "HandlePeriodicTick", "d1/dfb/a16430.html#a8d3713d113cbcfd610938544e52fe6ec", null ],
-    [ "Load", "d1/dfb/a16430.html#a6f2cb6a9dd83a887314cdd9f7741acae", null ],
-    [ "PrepareAuraScript", "d1/dfb/a16430.html#a0d00fd1bbc8dfce6cbc3234865bab42b", null ],
-    [ "Register", "d1/dfb/a16430.html#a75dbd486e1ccb8c12bbf8001434ae66a", null ],
-    [ "Validate", "d1/dfb/a16430.html#aae7b42d8e7fa2dc76d2584534877625c", null ],
-    [ "dir", "d1/dfb/a16430.html#a7dd1959596e8ad1628498215249eb7a2", null ]
+    [ "instance_drak_tharon_keep_InstanceScript", "d9/df1/a16434.html", "d9/df1/a16434" ],
+    [ "instance_drak_tharon_keep", "d1/dfb/a16430.html#a1f375185dba1619fee36160549eb91f4", null ],
+    [ "GetInstanceScript", "d1/dfb/a16430.html#aca6364452dc39e747af152695d479bf8", null ]
 ];

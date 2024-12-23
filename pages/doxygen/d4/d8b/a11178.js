@@ -1,5 +1,4 @@
 var a11178 =
 [
-    [ "PlayerDump", "d4/d8b/a11178.html#a457c89834631206d39453721e41af28e", null ],
-    [ "InitializeTables", "d4/d8b/a11178.html#a69c8e6c412ac09099752a3ad388f5467", null ]
+    [ "Text", "d4/d8b/a11178.html#ab4b16957cc9e845b0f763b4241ba5c89", null ]
 ];

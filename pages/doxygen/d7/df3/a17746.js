@@ -1,6 +1,6 @@
 var a17746 =
 [
-    [ "npc_spinestalkerAI", "dd/d8f/a17750.html", "dd/d8f/a17750" ],
-    [ "npc_spinestalker", "d7/df3/a17746.html#a477f951c79045d553901b1e6b6ad2d4f", null ],
-    [ "GetAI", "d7/df3/a17746.html#a725f1b1db90d700772bfb76e0f85f1f3", null ]
+    [ "FilterTargets", "d7/df3/a17746.html#aa7e731de9e5ab1078b8ff7022393c9a7", null ],
+    [ "PrepareSpellScript", "d7/df3/a17746.html#ae92968db6e5a1384f89e6aff9ab2d1f3", null ],
+    [ "Register", "d7/df3/a17746.html#ae6ab0b56688bfc07262cc83e84102ccb", null ]
 ];

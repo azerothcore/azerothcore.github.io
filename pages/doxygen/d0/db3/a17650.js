@@ -1,7 +1,6 @@
 var a17650 =
 [
-    [ "FrostwyrmLandEvent", "d0/db3/a17650.html#a6b6a467c474a5b03be40e4d9a86eddc8", null ],
-    [ "Execute", "d0/db3/a17650.html#a4da77796a223e6233ac6d908f7700623", null ],
-    [ "_dest", "d0/db3/a17650.html#a7f5b4c41c459b65e30dea66f7459a7e9", null ],
-    [ "_owner", "d0/db3/a17650.html#a6336050092606ebb27a180abff55dfa2", null ]
+    [ "npc_little_oozeAI", "d9/ddb/a17654.html", "d9/ddb/a17654" ],
+    [ "npc_little_ooze", "d0/db3/a17650.html#a9b0849057c1d3dd9f6507b9c80e67a66", null ],
+    [ "GetAI", "d0/db3/a17650.html#a3e56c6dbad6239485897655a4bfbbe07", null ]
 ];

@@ -1,6 +1,9 @@
 var a23578 =
 [
-    [ "instance_mechanar_InstanceMapScript", "d6/d19/a23582.html", "d6/d19/a23582" ],
-    [ "instance_mechanar", "d7/dde/a23578.html#ab31a66a0eb8b9ac6f79af479528ff4fd", null ],
-    [ "GetInstanceScript", "d7/dde/a23578.html#ae8e9810a9bfd6b0ec256dd6a288392ed", null ]
+    [ "boss_void_reaver", "d7/dde/a23578.html#aa6373ef5b27255eca4d85345ae5fa729", null ],
+    [ "JustDied", "d7/dde/a23578.html#a49e6f52b11177bdac07adff92c2675f5", null ],
+    [ "JustEngagedWith", "d7/dde/a23578.html#a9260d05e11f4dec6fc25432a0524706b", null ],
+    [ "KilledUnit", "d7/dde/a23578.html#adc234fc43308771a42d99049876cad1b", null ],
+    [ "Reset", "d7/dde/a23578.html#a02c36ea960de24991f879943991a93c6", null ],
+    [ "_recentlySpoken", "d7/dde/a23578.html#adc1bb9a6a3340f157c3ffcbd7dcd71ac", null ]
 ];

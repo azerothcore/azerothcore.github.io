@@ -1,6 +1,6 @@
 var a10314 =
 [
-    [ "GuildUpdateMotdText", "de/d84/a10314.html#ab3b248450b0dcdde6b51e381e910b15d", null ],
-    [ "Read", "de/d84/a10314.html#a55cfd6f4797e61ca01ee7aa5c65d9a69", null ],
-    [ "MotdText", "de/d84/a10314.html#a5b2ee458a919be7f912d49cf984490ac", null ]
+    [ "EmoteClient", "de/d84/a10314.html#af98c098cb1019057d8027f39c168e1a9", null ],
+    [ "Read", "de/d84/a10314.html#abad5fca865b7b99e595ce95137e8105c", null ],
+    [ "EmoteID", "de/d84/a10314.html#a24503de36535106220984ffbf6ba0338", null ]
 ];

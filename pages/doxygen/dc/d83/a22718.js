@@ -1,6 +1,6 @@
 var a22718 =
 [
-    [ "OnPeriodic", "dc/d83/a22718.html#aef6afe014ce90711cd7628563aada2a4", null ],
-    [ "PrepareAuraScript", "dc/d83/a22718.html#a40a98b79b445d3cebe3f195cb9c03a80", null ],
-    [ "Register", "dc/d83/a22718.html#a44c261ff549ddf0b1dad5ae6d0ff2432", null ]
+    [ "HandleSchoolDamage", "dc/d83/a22718.html#ab105ff1efd0fe20585ac3dc6c60f81a2", null ],
+    [ "PrepareSpellScript", "dc/d83/a22718.html#a0296aa3d00d0d12e213d95b8520c50dc", null ],
+    [ "Register", "dc/d83/a22718.html#a4cd7135ff9e4ef605635f1eccc01ba65", null ]
 ];

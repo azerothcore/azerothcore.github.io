@@ -1,7 +1,7 @@
 var a18082 =
 [
-    [ "AuraRemoveEvent", "dc/d33/a18082.html#a094b9437c7cadb465738daf5684c9725", null ],
-    [ "Execute", "dc/d33/a18082.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
-    [ "_spellId", "dc/d33/a18082.html#a6fad41839e07e9545859be7c3afcfc36", null ],
-    [ "_trigger", "dc/d33/a18082.html#aad8c27befc102dae6823d5d74fed50b4", null ]
+    [ "OnPeriodic", "dc/d33/a18082.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
+    [ "PrepareAuraScript", "dc/d33/a18082.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
+    [ "Register", "dc/d33/a18082.html#a0fc7ca43a0d82058fc04277742231388", null ],
+    [ "Validate", "dc/d33/a18082.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
 ];

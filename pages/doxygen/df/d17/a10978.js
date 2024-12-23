@@ -1,7 +1,7 @@
 var a10978 =
 [
-    [ "EffectNameCheck", "df/d17/a10978.html#aa82307388bdda7864bb085a349b63f29", null ],
-    [ "Check", "df/d17/a10978.html#a729d7f07669dedec50f009a87b8f32a4", null ],
-    [ "ToString", "df/d17/a10978.html#a31e545b0ae22cad4be815ea9e3b44377", null ],
-    [ "effName", "df/d17/a10978.html#a905224fb028ea0eab350773b7230f871", null ]
+    [ "attributeMask", "df/d17/a10978.html#a6bbb4046cd4c068c990aa28844e4588b", null ],
+    [ "customChance", "df/d17/a10978.html#ac5d048f7ee803d61d5d3c59bb80a015d", null ],
+    [ "PPMChance", "df/d17/a10978.html#adb76c11f0073a2738374c98c01fda009", null ],
+    [ "procEx", "df/d17/a10978.html#a28bcdd11e64ad96be5a3ca0e0dd447c7", null ]
 ];

@@ -1,9 +1,7 @@
 var a11354 =
 [
-    [ "event_commandscript", "d2/d98/a11354.html#a160db0ad8874b0834ef863043b1796ae", null ],
-    [ "GetCommands", "d2/d98/a11354.html#aac32a7f3d2d11dc73dfa3e9f8224560e", null ],
-    [ "HandleEventActiveListCommand", "d2/d98/a11354.html#a6752be35103bb585984083a449c85714", null ],
-    [ "HandleEventInfoCommand", "d2/d98/a11354.html#a1f0815bccd6cef61826ada4e349708d9", null ],
-    [ "HandleEventStartCommand", "d2/d98/a11354.html#ad46dbd8892db3548d889d4127461c8e3", null ],
-    [ "HandleEventStopCommand", "d2/d98/a11354.html#a1322b3206a1846dc0404a3fb5c74e025", null ]
+    [ "achievement_commandscript", "d2/d98/a11354.html#ac1c40d7b3b628cc206c44eae18592292", null ],
+    [ "GetCommands", "d2/d98/a11354.html#adeac4e6f74f006daa76b0ebb8ea1469c", null ],
+    [ "HandleAchievementAddCommand", "d2/d98/a11354.html#ac4f6addfb0c52d584bf8081436aa3d7a", null ],
+    [ "HandleAchievementCheckAllCommand", "d2/d98/a11354.html#a0e3b83961ff20899a8492c8d8b7c13be", null ]
 ];

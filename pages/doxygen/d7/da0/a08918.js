@@ -1,13 +1,11 @@
 var a08918 =
 [
-    [ "WorldObjectWorker", "d7/da0/a08918.html#a15dd68579f1a92f015cfac8577db7422", null ],
-    [ "Visit", "d7/da0/a08918.html#ae264461e49602fd0b8a17e30ed554c64", null ],
-    [ "Visit", "d7/da0/a08918.html#a3021825347d132f1368a77d29a8318df", null ],
-    [ "Visit", "d7/da0/a08918.html#a7b7869c7d151e8abc924f517ecfdef82", null ],
-    [ "Visit", "d7/da0/a08918.html#a7de6ea339a8113d242dd099ca4d36927", null ],
-    [ "Visit", "d7/da0/a08918.html#a29196fa36ce32a0cec68d0d67372a400", null ],
-    [ "Visit", "d7/da0/a08918.html#a17097541c49264c15ebfe474f54aeca2", null ],
-    [ "i_do", "d7/da0/a08918.html#aa16ce8cce21d4590ef6612e14fb48919", null ],
-    [ "i_mapTypeMask", "d7/da0/a08918.html#a6f8e447b9693154f56ce010869acadb9", null ],
-    [ "i_phaseMask", "d7/da0/a08918.html#affa6245985c5d271900be12104ab6bb6", null ]
+    [ "~Grid", "d7/da0/a08918.html#a86be65dc86f104566acd41078429e4c4", null ],
+    [ "AddGridObject", "d7/da0/a08918.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
+    [ "AddWorldObject", "d7/da0/a08918.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
+    [ "Visit", "d7/da0/a08918.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
+    [ "Visit", "d7/da0/a08918.html#aebdcac90d763779775dbc0f0492e5279", null ],
+    [ "GridLoader", "d7/da0/a08918.html#a06e47216bdac43edea86c507c93a6ed4", null ],
+    [ "i_container", "d7/da0/a08918.html#a510723553d7206edb25792856c6c369b", null ],
+    [ "i_objects", "d7/da0/a08918.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
 ];

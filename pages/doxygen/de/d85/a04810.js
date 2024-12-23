@@ -1,7 +1,6 @@
 var a04810 =
 [
-    [ "indices", "de/d85/a04810.html#a23cadbd54502fb4edc68e052e5774664", null ],
-    [ "maxPrims", "de/d85/a04810.html#a0c46f35977fe683a19e7cb1e580a814b", null ],
-    [ "numPrims", "de/d85/a04810.html#a623b9ee05707ecdbaa816c797e358e86", null ],
-    [ "primBound", "de/d85/a04810.html#a3304ad5d821f178941fd44da897213de", null ]
+    [ "node", "de/d85/a04810.html#a5b76f0ea514d55ed9ba8ea6c4bdf7491", null ],
+    [ "tfar", "de/d85/a04810.html#ad53b746617dd5a46930dae493d7488d9", null ],
+    [ "tnear", "de/d85/a04810.html#a938ca2ace2aa498abdda93ee824b6f09", null ]
 ];

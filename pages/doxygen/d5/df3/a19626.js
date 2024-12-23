@@ -1,7 +1,7 @@
 var a19626 =
 [
-    [ "OnPeriodic", "d5/df3/a19626.html#a9407d5477a40e36863e5fb5775dda122", null ],
-    [ "PrepareAuraScript", "d5/df3/a19626.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
-    [ "Register", "d5/df3/a19626.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
-    [ "Validate", "d5/df3/a19626.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
+    [ "npc_storm_beacon_spawnAI", "d5/df3/a19626.html#a031c1941f177a18af58efcf4a1270654", null ],
+    [ "UpdateAI", "d5/df3/a19626.html#a249bf56b905ef0c8b34c737d95518c91", null ],
+    [ "_amount", "d5/df3/a19626.html#a3d2286247853cb04b9cc23cd8c0bfdd6", null ],
+    [ "_checkTimer", "d5/df3/a19626.html#a7fd6d449b6a20ba9463896244c513a67", null ]
 ];

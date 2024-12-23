@@ -1,6 +1,8 @@
 var a10398 =
 [
-    [ "GuildOfficerRemoveMember", "de/da5/a10398.html#acd0f767ff61006c7b3c78f3dbb6da558", null ],
-    [ "Read", "de/da5/a10398.html#aa0c3cd629b73cb079cc3cf90bf6f8067", null ],
-    [ "Removee", "de/da5/a10398.html#a18ece7d865fa1b5da005c7c03397b4e2", null ]
+    [ "OtherGUID", "de/da5/a10398.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
+    [ "PlayerGUID", "de/da5/a10398.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
+    [ "RankID", "de/da5/a10398.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
+    [ "TransactionDate", "de/da5/a10398.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
+    [ "TransactionType", "de/da5/a10398.html#aa48b69aa9078fb150470d66201b34786", null ]
 ];

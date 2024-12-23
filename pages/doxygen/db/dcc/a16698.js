@@ -1,9 +1,16 @@
 var a16698 =
 [
-    [ "npc_pos_after_first_bossAI", "db/dcc/a16698.html#a622df71849da1e10e2b73068f0adea98", null ],
-    [ "MovementInform", "db/dcc/a16698.html#a1751506f27d4b2fc9ddb2f8a6a82dc9e", null ],
-    [ "Reset", "db/dcc/a16698.html#ad248aa4cbfbd24e4fe47b99b38c4dd8c", null ],
-    [ "UpdateAI", "db/dcc/a16698.html#ac45111887fd7833a041355658dd26158", null ],
-    [ "events", "db/dcc/a16698.html#a3aaf303ee389a10edc4feeec7c38a2a6", null ],
-    [ "pInstance", "db/dcc/a16698.html#a17a0e1e7a35f608a9ec86ce4e959b52e", null ]
+    [ "boss_ickAI", "db/dcc/a16698.html#a72c90af745b63202edc36b84b3f4df12", null ],
+    [ "CanAIAttack", "db/dcc/a16698.html#afa3a7ef19f014ed9c46be4a3adc83aa3", null ],
+    [ "DamageTaken", "db/dcc/a16698.html#a96d39b533a96503d59c41c9e7cdd4ac4", null ],
+    [ "GetKrick", "db/dcc/a16698.html#a2d6192f314e76886204c7248d141260a", null ],
+    [ "JustDied", "db/dcc/a16698.html#afd7752ee19dcc6be0b28181bb4485146", null ],
+    [ "JustEngagedWith", "db/dcc/a16698.html#a27598604e65417225acd41d6f05cc717", null ],
+    [ "JustSummoned", "db/dcc/a16698.html#abf700d993e1cfaa0cc64d90903bfa842", null ],
+    [ "KilledUnit", "db/dcc/a16698.html#a618c4e704d9a90d8bf4fac2d22bda6b3", null ],
+    [ "Reset", "db/dcc/a16698.html#a9ba668208cda4dd33fd4eacb04476e2e", null ],
+    [ "SpellHitTarget", "db/dcc/a16698.html#a5d90395d45509f8aeb244f4a4743d07d", null ],
+    [ "UpdateAI", "db/dcc/a16698.html#a74bd63ac9558ecec52affaa7440360a1", null ],
+    [ "events", "db/dcc/a16698.html#aab514bb5f930d9eb545a279181632796", null ],
+    [ "pInstance", "db/dcc/a16698.html#a1ad5a6809ffe750a5538dc650a437b81", null ]
 ];

@@ -1,9 +1,4 @@
 var a22678 =
 [
-    [ "HandleEffectApply", "d3/d3d/a22678.html#aca8ff864832d30e45bccfca12256560a", null ],
-    [ "HandleEffectRemove", "d3/d3d/a22678.html#a2e16e86ce6e3231cf3fabc1d5bb1a6e7", null ],
-    [ "Load", "d3/d3d/a22678.html#a3b9838f26673ce344ca40f9f487ef878", null ],
-    [ "PrepareAuraScript", "d3/d3d/a22678.html#a79b93c86a01d31d08cba15436856b794", null ],
-    [ "Register", "d3/d3d/a22678.html#aa6c04279944abd31c42bb5dc4319aaf2", null ],
-    [ "_turtleSet", "d3/d3d/a22678.html#a308b9e032576ae058e9f2469dcc8ff23", null ]
+    [ "operator()", "d3/d3d/a22678.html#a3c91b315ce6d6c523d4bdb8a8206a3c8", null ]
 ];

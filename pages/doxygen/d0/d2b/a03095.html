@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuraEffects.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Spells/Auras/SpellAuras.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,88 +105,62 @@ $(document).ready(function(){initNavTree('d0/d2b/a03095.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a> &#124;
-<a href="#enum-members">Enumerations</a>  </div>
-  <div class="headertitle"><div class="title">SpellAuraEffects.h File Reference</div></div>
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">SpellAuras.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">SpellAuras.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">ArenaSpectator.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">CellImpl.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Common.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiers.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectAccessor.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Spell.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellAuraEffects.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Unit.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Vehicle.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GridNotifiersImpl.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d4a/a10794.html">AuraEffect</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d87/a10798.html">Acore::AbsorbAuraOrderPred</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="namespaces" name="namespaces"></a>
-Namespaces</h2></td></tr>
-<tr class="memitem:d8/d20/a04686"><td class="memItemLeft" align="right" valign="top">namespace &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d20/a04686.html">Acore</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
-Typedefs</h2></td></tr>
-<tr class="memitem:a9e98d9a1c1cc41922f386b184fd7ce67"><td class="memItemLeft" align="right" valign="top">typedef void(AuraEffect::*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/a03095.html#a9e98d9a1c1cc41922f386b184fd7ce67">pAuraEffectHandler</a>) (<a class="el" href="../../d3/d9a/a10802.html">AuraApplication</a> const *aurApp, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> mode, bool apply) const</td></tr>
-<tr class="separator:a9e98d9a1c1cc41922f386b184fd7ce67"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a4ee83f582e4ebba3a5aea9ab1a5c9354"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354">BrewfestEntries</a> { <br />
-&#160;&#160;<a class="el" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a> = 30507
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a> = 27707
-, <br />
-&#160;&#160;<a class="el" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a> = 66052
-<br />
- }</td></tr>
-<tr class="separator:a4ee83f582e4ebba3a5aea9ab1a5c9354"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a49c1eff45f8eb67e523f8593923a5df0"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d2b/a03095.html#a49c1eff45f8eb67e523f8593923a5df0">UPDATE_TARGET_MAP_INTERVAL</a> = 500</td></tr>
+<tr class="separator:a49c1eff45f8eb67e523f8593923a5df0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Typedef Documentation</h2>
-<a id="a9e98d9a1c1cc41922f386b184fd7ce67" name="a9e98d9a1c1cc41922f386b184fd7ce67"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9e98d9a1c1cc41922f386b184fd7ce67">&#9670;&#160;</a></span>pAuraEffectHandler</h2>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a49c1eff45f8eb67e523f8593923a5df0" name="a49c1eff45f8eb67e523f8593923a5df0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49c1eff45f8eb67e523f8593923a5df0">&#9670;&#160;</a></span>UPDATE_TARGET_MAP_INTERVAL</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">typedef void(AuraEffect::* pAuraEffectHandler) (<a class="el" href="../../d3/d9a/a10802.html">AuraApplication</a> const  *aurApp, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> mode, bool apply) const</td>
+          <td class="memname">constexpr <a class="el" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a> UPDATE_TARGET_MAP_INTERVAL = 500</td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="a4ee83f582e4ebba3a5aea9ab1a5c9354" name="a4ee83f582e4ebba3a5aea9ab1a5c9354"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ee83f582e4ebba3a5aea9ab1a5c9354">&#9670;&#160;</a></span>BrewfestEntries</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354">BrewfestEntries</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5" name="a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5"></a>BREWFEST_KODO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa" name="a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa"></a>GREAT_BREWFEST_KODO&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf" name="a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf"></a>FRESH_BREWFEST_HOPS&#160;</td><td class="fielddoc"></td></tr>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
+  </tr>
 </table>
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
-<div class="line"><span class="lineno">   33</span>    <a class="code hl_enumvalue" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a> = 30507,</div>
-<div class="line"><span class="lineno">   34</span>    <a class="code hl_enumvalue" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a> = 27707,</div>
-<div class="line"><span class="lineno">   35</span>    <a class="code hl_enumvalue" href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a> = 66052</div>
-<div class="line"><span class="lineno">   36</span>};</div>
-<div class="ttc" id="aa03095_html_a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf"><div class="ttname"><a href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a62ef26e3a60fddc8cbadbd349cb054bf">FRESH_BREWFEST_HOPS</a></div><div class="ttdeci">@ FRESH_BREWFEST_HOPS</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:35</div></div>
-<div class="ttc" id="aa03095_html_a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa"><div class="ttname"><a href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354a9e68ffb636426417370cc6b94b7b46aa">GREAT_BREWFEST_KODO</a></div><div class="ttdeci">@ GREAT_BREWFEST_KODO</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:34</div></div>
-<div class="ttc" id="aa03095_html_a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5"><div class="ttname"><a href="../../d0/d2b/a03095.html#a4ee83f582e4ebba3a5aea9ab1a5c9354acbc7617ce19ea8d214518ab0335275c5">BREWFEST_KODO</a></div><div class="ttdeci">@ BREWFEST_KODO</div><div class="ttdef"><b>Definition:</b> SpellAuraEffects.h:33</div></div>
-</div><!-- fragment -->
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="../../d5/def/a04676.html#_todo000116">Todo:</a></b></dt><dd>: this import is not necessary for compilation and marked as unused by the IDE </dd></dl>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00588">Aura::UpdateTargetMap()</a>.</p>
+
 </div>
 </div>
 </div><!-- contents -->
@@ -194,8 +168,8 @@ Enumerations</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../dir_8af33554ddafa3432455437cc558c9c8.html">Auras</a></li><li class="navelem"><a class="el" href="../../d0/d2b/a03095.html">SpellAuraEffects.h</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:42:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_ef7aca743453a8310aabb86ba904b3f6.html">Spells</a></li><li class="navelem"><a class="el" href="../../dir_8af33554ddafa3432455437cc558c9c8.html">Auras</a></li><li class="navelem"><a class="el" href="../../d0/d2b/a03095.html">SpellAuras.cpp</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:38:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

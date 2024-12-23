@@ -1,7 +1,6 @@
 var a11938 =
 [
-    [ "HandleScript", "da/d2b/a11938.html#a0d244cc1785b136bae0960d697dc761d", null ],
-    [ "PrepareSpellScript", "da/d2b/a11938.html#a13f3ebef30c315c02090ee3a19a156e4", null ],
-    [ "Register", "da/d2b/a11938.html#a3871fb036ec6e0ea006f869c21e88c8f", null ],
-    [ "Validate", "da/d2b/a11938.html#a1413754f3a79caf8ec57d394c68f3499", null ]
+    [ "near_scarshield_infiltrator", "da/d2b/a11938.html#a38d2e75946c429b4d80b007f190406bc", null ],
+    [ "OnTrigger", "da/d2b/a11938.html#aeb761433e3210ce85c1de4dab653a87c", null ],
+    [ "whisperedTargets", "da/d2b/a11938.html#a5655e241d2551798a960cb6375c7df23", null ]
 ];

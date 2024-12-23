@@ -6,7 +6,7 @@ var searchData=
   ['bankpackets_2ecpp_3',['BankPackets.cpp',['../df/d4e/a04094.html',1,'']]],
   ['bankpackets_2eh_4',['BankPackets.h',['../db/dfa/a04049.html',1,'']]],
   ['banmgr_2ecpp_5',['BanMgr.cpp',['../dc/d9b/a03155.html',1,'']]],
-  ['banmgr_2eh_6',['BanMgr.h',['../d4/d43/a03143.html',1,'']]],
+  ['banmgr_2eh_6',['BanMgr.h',['../dc/df0/a03146.html',1,'']]],
   ['banner_2ecpp_7',['Banner.cpp',['../d4/d1f/a00506.html',1,'']]],
   ['banner_2eh_8',['Banner.h',['../d5/d0f/a00494.html',1,'']]],
   ['base32_2ecpp_9',['Base32.cpp',['../d5/ddf/a00224.html',1,'']]],

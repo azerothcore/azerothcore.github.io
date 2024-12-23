@@ -1,6 +1,6 @@
 var a23518 =
 [
-    [ "HandleScriptEffect", "dc/dbf/a23518.html#a9a7f29cde26344fb9af222a69ddbd4fa", null ],
-    [ "PrepareSpellScript", "dc/dbf/a23518.html#af475c0968aabaf56e8ca38950ad651f0", null ],
-    [ "Register", "dc/dbf/a23518.html#a86cd62582cc8b7c7fa10e0cd2da63822", null ]
+    [ "npc_capernian", "dc/dbf/a23518.html#a0acb568664c777797eeb7104f454699d", null ],
+    [ "AttackStart", "dc/dbf/a23518.html#a81e89eacbae30a1229fda5e9fe924e2b", null ],
+    [ "ScheduleEvents", "dc/dbf/a23518.html#a6bd26f5584a1c960b84b574abd723ad1", null ]
 ];

@@ -1,7 +1,6 @@
 var a22950 =
 [
-    [ "PeriodicTick", "d0/d0a/a22950.html#afb5cc6129423cb4f7c3da50977da01f2", null ],
-    [ "PrepareAuraScript", "d0/d0a/a22950.html#aea6ca9c5d490f62ae737bfc07751da42", null ],
-    [ "Register", "d0/d0a/a22950.html#ad0eb66e0bab8441e1bb3db42967df7ff", null ],
-    [ "Validate", "d0/d0a/a22950.html#ae07f6e7de08ada74b4cb9ac890c70c35", null ]
+    [ "HandleApplyAura", "d0/d0a/a22950.html#a4fde347d339f08cd01e2a47883d4b988", null ],
+    [ "PrepareSpellScript", "d0/d0a/a22950.html#ab22bd56638a6adc8d111250780221cb9", null ],
+    [ "Register", "d0/d0a/a22950.html#a1dd967ad59159faf694b8e0bfcd369ac", null ]
 ];

@@ -1,6 +1,7 @@
 var a20058 =
 [
-    [ "npc_ulduar_aerial_command_unitAI", "d2/daa/a20062.html", "d2/daa/a20062" ],
-    [ "npc_ulduar_aerial_command_unit", "d8/d35/a20058.html#ac0c1ecef78b92dd4ae072f6eeca9f733", null ],
-    [ "GetAI", "d8/d35/a20058.html#a406e828a902d75bb1946fd8f5090044f", null ]
+    [ "FilterTargetsInitial", "d8/d35/a20058.html#a2477349cffb8da02936545ba0bd03d0f", null ],
+    [ "Load", "d8/d35/a20058.html#a4606d10a2699e3fb5290cefdc0876505", null ],
+    [ "PrepareSpellScript", "d8/d35/a20058.html#aa28f3565bddf70b98c945be7a7a37bad", null ],
+    [ "Register", "d8/d35/a20058.html#ae9bbe2d4ce5413f040b8b5f73f985822", null ]
 ];

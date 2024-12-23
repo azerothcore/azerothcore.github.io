@@ -1,6 +1,7 @@
 var a24026 =
 [
-    [ "HandleDamageCalc", "d4/d05/a24026.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
-    [ "PrepareSpellScript", "d4/d05/a24026.html#a183477b6269dbc705a10e60ab36c13b1", null ],
-    [ "Register", "d4/d05/a24026.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
+    [ "npc_isla_starmaneAI", "df/d4b/a24030.html", "df/d4b/a24030" ],
+    [ "npc_isla_starmane", "d4/d05/a24026.html#af30b3658d8f19be0dc07cb35eeb04668", null ],
+    [ "GetAI", "d4/d05/a24026.html#a0ea2dbaab4115772f92849e06aa85575", null ],
+    [ "OnQuestAccept", "d4/d05/a24026.html#afeda3da3761e96e2901ea06c5a26fa3a", null ]
 ];

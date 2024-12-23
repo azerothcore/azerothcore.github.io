@@ -1,9 +1,6 @@
 var a17314 =
 [
-    [ "CalculatePower", "d6/d89/a17314.html#a66acc23548f88c31e9fe45db76af2bcc", null ],
-    [ "Load", "d6/d89/a17314.html#a820032e169929fd9969ecf1ee2c7f1be", null ],
-    [ "PrepareSpellScript", "d6/d89/a17314.html#a49489a8e4e39735efa560f53236dfc2c", null ],
-    [ "PreventPowerGainOnHit", "d6/d89/a17314.html#a5eebe6f82a6d7306d6e232b755531939", null ],
-    [ "Register", "d6/d89/a17314.html#a67b59c096848adaad5566cbc2140da59", null ],
-    [ "Validate", "d6/d89/a17314.html#a355500a6f3bfed084030738041d0e3b9", null ]
+    [ "npc_gunship_rocketeerAI", "dc/d7c/a17318.html", "dc/d7c/a17318" ],
+    [ "npc_gunship_rocketeer", "d6/d89/a17314.html#a7ed2cf258269f239bb73f2f06411db07", null ],
+    [ "GetAI", "d6/d89/a17314.html#a4f9c1b09e9e5b9dd337fe9210ab7038c", null ]
 ];

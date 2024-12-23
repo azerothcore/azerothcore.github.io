@@ -1,6 +1,6 @@
 var a14258 =
 [
-    [ "HandleHit", "df/dd5/a14258.html#aec32d6b45bdcfe3a6a32c2fb7558edd1", null ],
-    [ "PrepareSpellScript", "df/dd5/a14258.html#a31fdc4d630a4a6647d2a9b1100aecdad", null ],
-    [ "Register", "df/dd5/a14258.html#a64a861b5c25df5780390aa55899393d7", null ]
+    [ "HandleTriggerSpell", "df/dd5/a14258.html#a7e5a03d304f0f6fe8d06ed5df12259dd", null ],
+    [ "PrepareSpellScript", "df/dd5/a14258.html#a76a070da8e719198463010499f595599", null ],
+    [ "Register", "df/dd5/a14258.html#ae237c4972167a5a17b59800983496a9d", null ]
 ];

@@ -1,6 +1,6 @@
 var a18218 =
 [
-    [ "CaptainSurviveTalk", "de/d6b/a18218.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
-    [ "Execute", "de/d6b/a18218.html#a871cf08e8c7fced2971cae8abbc20454", null ],
-    [ "_owner", "de/d6b/a18218.html#ac8de506afb4688560ea637918d07b01e", null ]
+    [ "npc_gluttonous_abominationAI", "d0/d6f/a18222.html", "d0/d6f/a18222" ],
+    [ "npc_gluttonous_abomination", "de/d6b/a18218.html#a895d1afcfc62bcaac6cc0d20465f1e7a", null ],
+    [ "GetAI", "de/d6b/a18218.html#aedbd808da5e8ea0e2111e78be9d846ce", null ]
 ];

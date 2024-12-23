@@ -1,11 +1,11 @@
 var a02237 =
 [
-    [ "boss_sacrolash", "d4/d97/a12950.html", "d4/d97/a12950" ],
-    [ "boss_alythess", "df/d9f/a12954.html", "df/d9f/a12954" ],
-    [ "spell_eredar_twins_apply_touch", "dd/d57/a12958.html", "dd/d57/a12958" ],
-    [ "spell_eredar_twins_handle_touch", "d0/d95/a12962.html", "d0/d95/a12962" ],
-    [ "spell_eredar_twins_blaze", "d7/d03/a12966.html", "d7/d03/a12966" ],
-    [ "at_sunwell_eredar_twins", "d2/de1/a12970.html", "d2/de1/a12970" ],
+    [ "boss_sacrolash", "d2/de5/a13006.html", "d2/de5/a13006" ],
+    [ "boss_alythess", "d8/d58/a13010.html", "d8/d58/a13010" ],
+    [ "spell_eredar_twins_apply_touch", "df/d75/a13014.html", "df/d75/a13014" ],
+    [ "spell_eredar_twins_handle_touch", "d1/d5c/a13018.html", "d1/d5c/a13018" ],
+    [ "spell_eredar_twins_blaze", "d4/d3f/a13022.html", "d4/d3f/a13022" ],
+    [ "at_sunwell_eredar_twins", "d8/dc5/a13026.html", "d8/dc5/a13026" ],
     [ "Misc", "d9/d13/a02237.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

@@ -1,5 +1,6 @@
 var a09690 =
 [
-    [ "IdleMovementFactory", "d3/d01/a09690.html#af2bb5ef9fe67f3dda64d6ce44e825f52", null ],
-    [ "Create", "d3/d01/a09690.html#a5e99eab3436482927bc83100f85581cd", null ]
+    [ "aiNotifyDelay", "d3/d01/a09690.html#af70453021c5ded85c73a4d5559dca2ea", null ],
+    [ "requiredMoveDistanceSq", "d3/d01/a09690.html#aaa4faa0170181e409940b5441eb2f586", null ],
+    [ "visibilityNotifyDelay", "d3/d01/a09690.html#ad566fd5eff102929247b75cf5092a60b", null ]
 ];

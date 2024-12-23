@@ -1,9 +1,11 @@
 var a13978 =
 [
-    [ "entries", "df/d6a/a13978.html#a8c55bbd253d6bea01e83c0aa7380dee5", null ],
-    [ "entries", "df/d6a/a13978.html#a953850b267eb6f599bb49d82080bdf64", null ],
-    [ "revelerId", "df/d6a/a13978.html#a9e4069ef00c8b4e31d8af06f34e12ad5", null ],
-    [ "schedule", "df/d6a/a13978.html#a7fd78a5fa19a14ab1b002f5b6ef4e20f", null ],
-    [ "size", "df/d6a/a13978.html#ae6a3fa59e1eb384255c247abadc962d5", null ],
-    [ "spawns", "df/d6a/a13978.html#aa22c51469489fbb6551de2b751f06c94", null ]
+    [ "npc_snowfall_glade_playmate", "df/d6a/a13978.html#aa31b472ad55b240faff4bc2c1ee02ebc", null ],
+    [ "MoveInLineOfSight", "df/d6a/a13978.html#a92143d0bd0eb57b59069ca7a66e16195", null ],
+    [ "Reset", "df/d6a/a13978.html#a89040d9843852b01123e102b49509857", null ],
+    [ "UpdateAI", "df/d6a/a13978.html#a6dedc1cae1e568a792341842e8a922e8", null ],
+    [ "orphanGUID", "df/d6a/a13978.html#ad9bdbee8ec178b0a6c7ff125dc698279", null ],
+    [ "phase", "df/d6a/a13978.html#a9a5b2348313063bc389b99158fc72e3f", null ],
+    [ "playerGUID", "df/d6a/a13978.html#a4ca4198fdbf3c98291255916ee53c637", null ],
+    [ "timer", "df/d6a/a13978.html#ac3d736f2cd62289b88940e0a6ddcd957", null ]
 ];

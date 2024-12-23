@@ -1,7 +1,8 @@
 var a17342 =
 [
-    [ "DamageGunship", "dc/dd5/a17342.html#a1dc0145cfff777b18b9241dfc0966f32", null ],
-    [ "PrepareSpellScript", "dc/dd5/a17342.html#aa698d016ae58d665c081976f20ec0385", null ],
-    [ "Register", "dc/dd5/a17342.html#ab8836babdea1fd963fdd53415db0a3ba", null ],
-    [ "Validate", "dc/dd5/a17342.html#ae80cd93b2f01ddb83493f9f818fc0ea1", null ]
+    [ "Load", "dc/dd5/a17342.html#ad1105149d5e42318382af6c07149d522", null ],
+    [ "PeriodicTick", "dc/dd5/a17342.html#a8e675178256746d08af50a6b75ec582e", null ],
+    [ "PrepareAuraScript", "dc/dd5/a17342.html#a88f4baca7ceac44e5d148b73386a10a7", null ],
+    [ "Register", "dc/dd5/a17342.html#a0fa7d86214827711edd019dd3b40c667", null ],
+    [ "_tickNo", "dc/dd5/a17342.html#a418212d2daa873d69a83b4c1341a8903", null ]
 ];

@@ -1,12 +1,7 @@
 var a28418 =
 [
-    [ "Bounds", "d3/d57/a28418.html#a1e982b341ac3859fad38b2efc81ab8ea", null ],
-    [ "DoodadSet", "d3/d57/a28418.html#abbf6e50e76b120be17215cfcf227a524", null ],
-    [ "Flags", "d3/d57/a28418.html#a06f5e96119239356eea45b9acdadf6e1", null ],
-    [ "Id", "d3/d57/a28418.html#a952442c180e8d3710af31272b54eb6ec", null ],
-    [ "NameSet", "d3/d57/a28418.html#a55df9aed38d8cf1503b21f5fd9d5e5d0", null ],
-    [ "Position", "d3/d57/a28418.html#a7e6463db89eaf53bc20832afb1842a5b", null ],
-    [ "Rotation", "d3/d57/a28418.html#a2c04715e800b9f375c287cced96643d1", null ],
-    [ "Scale", "d3/d57/a28418.html#a142716fecae07abc013c7f3bd053c0ea", null ],
-    [ "UniqueId", "d3/d57/a28418.html#a749e920740b9e91547fe1f87933d1c7d", null ]
+    [ "_pad", "d3/d57/a28418.html#ad6e8aff776dfb6fa95c30d0318b3af25", null ],
+    [ "Count", "d3/d57/a28418.html#ac90dd584efc679554d4cee31c988c7c8", null ],
+    [ "Name", "d3/d57/a28418.html#ae93b772cbbe91b9ed55c78e22317c8dd", null ],
+    [ "StartIndex", "d3/d57/a28418.html#a2ab3e4bac4c3b7e6b4ed7a72042d05fa", null ]
 ];

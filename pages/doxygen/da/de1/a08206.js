@@ -1,10 +1,5 @@
 var a08206 =
 [
-    [ "ObjectGuidGeneratorBase", "da/de1/a08206.html#a8af6741cc884915ee86b489fc970fed1", null ],
-    [ "~ObjectGuidGeneratorBase", "da/de1/a08206.html#aaa4430614e899fb1186f52875cf8d2ea", null ],
-    [ "Generate", "da/de1/a08206.html#a7a6d9e5a78eef31007a46c10805c3fbe", null ],
-    [ "GetNextAfterMaxUsed", "da/de1/a08206.html#abf1f20b97af8071459bd850e7106a442", null ],
-    [ "HandleCounterOverflow", "da/de1/a08206.html#ada7a44ac47b112491c575c38465740fc", null ],
-    [ "Set", "da/de1/a08206.html#a18b016edddec211c9cc4b0ff8682cb30", null ],
-    [ "_nextGuid", "da/de1/a08206.html#a4a14102e019aa10f41b050054cacca22", null ]
+    [ "InventoryType", "da/de1/a08206.html#a5d2733f6b8e3fda906f18fb45330d437", null ],
+    [ "name", "da/de1/a08206.html#a67245cff18aad700717b7b7af9f07458", null ]
 ];

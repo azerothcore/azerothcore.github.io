@@ -1,6 +1,5 @@
 var a10430 =
 [
-    [ "GuildBankRemainingWithdrawMoney", "d7/d21/a10430.html#afdb4e226091e8280b4ef26bd51edebdd", null ],
-    [ "Write", "d7/d21/a10430.html#aecc28f8734a66c562c7baa1575b07ff9", null ],
-    [ "RemainingWithdrawMoney", "d7/d21/a10430.html#a015ba615ebe4ea09df8233f6a85332f4", null ]
+    [ "GuildDeleteRank", "d7/d21/a10430.html#ae21057ea5cc30ed07deaa736149617b3", null ],
+    [ "Read", "d7/d21/a10430.html#a91a7883299fe09e08c247c96987a8333", null ]
 ];

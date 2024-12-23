@@ -1,6 +1,8 @@
 var a13598 =
 [
-    [ "OnEffect", "dd/d76/a13598.html#a50c7e1c65315b5d46749b335e85e15e4", null ],
-    [ "PrepareSpellScript", "dd/d76/a13598.html#ab99c723bb71c5fdd844898eaf21cc520", null ],
-    [ "Register", "dd/d76/a13598.html#a892faa83f748d36c9c8638a12ac7f2aa", null ]
+    [ "npc_zulaman_hostageAI", "d6/d95/a13602.html", "d6/d95/a13602" ],
+    [ "npc_zulaman_hostage", "dd/d76/a13598.html#a12f9ad1889cacb60103c1e921c2fa0e9", null ],
+    [ "GetAI", "dd/d76/a13598.html#a0ae144dc154dd028b409c9d2393f890c", null ],
+    [ "OnGossipHello", "dd/d76/a13598.html#a89d68a976f916a4de2196b57ec0026b0", null ],
+    [ "OnGossipSelect", "dd/d76/a13598.html#a114f6fbfab90944fd49babcba4b48a11", null ]
 ];

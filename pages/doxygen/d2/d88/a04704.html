@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ByteConverter Namespace Reference</title>
+<title>AzerothCore: advstd Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,163 +104,16 @@ $(document).ready(function(){initNavTree('d2/d88/a04704.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">ByteConverter Namespace Reference</div></div>
+  <div class="headertitle"><div class="title">advstd Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplParams" colspan="2">template&lt;std::size_t T&gt; </td></tr>
-<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d88/a04704.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> (char *val)</td></tr>
-<tr class="separator:a5628479f846d755da3ff53b0e2a66c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d88/a04704.html#aa8017307aa0aa935f062b4f701563d09">convert&lt; 0 &gt;</a> (char *)</td></tr>
-<tr class="separator:aa8017307aa0aa935f062b4f701563d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
-<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d88/a04704.html#a3717e304a2b8b074fcd513ca8e0db116">convert&lt; 1 &gt;</a> (char *)</td></tr>
-<tr class="separator:a3717e304a2b8b074fcd513ca8e0db116"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d2/d88/a04704.html#a6177d7ac84a4ea6819c57a124345540e">apply</a> (T *val)</td></tr>
-<tr class="separator:a6177d7ac84a4ea6819c57a124345540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p ><a class="el" href="../../d2/d88/a04704.html">ByteConverter</a> reverse your byte order. This is use for cross platform where they have different endians. </p>
-</div><h2 class="groupheader">Function Documentation</h2>
-<a id="a6177d7ac84a4ea6819c57a124345540e" name="a6177d7ac84a4ea6819c57a124345540e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6177d7ac84a4ea6819c57a124345540e">&#9670;&#160;</a></span>apply()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ByteConverter::apply </td>
-          <td>(</td>
-          <td class="paramtype">T *&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   41</span>    {</div>
-<div class="line"><span class="lineno">   42</span>        convert&lt;sizeof(T)&gt;((<span class="keywordtype">char</span>*)(val));</div>
-<div class="line"><span class="lineno">   43</span>    }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a5628479f846d755da3ff53b0e2a66c26" name="a5628479f846d755da3ff53b0e2a66c26"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5628479f846d755da3ff53b0e2a66c26">&#9670;&#160;</a></span>convert()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;std::size_t T&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void ByteConverter::convert </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>val</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
-<div class="line"><span class="lineno">   33</span>        std::swap(*val, *(val + T - 1));</div>
-<div class="line"><span class="lineno">   34</span>        <a class="code hl_function" href="../../d2/d88/a04704.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> &lt; T - 2 &gt; (val + 1);</div>
-<div class="line"><span class="lineno">   35</span>    }</div>
-<div class="ttc" id="aa04704_html_a5628479f846d755da3ff53b0e2a66c26"><div class="ttname"><a href="../../d2/d88/a04704.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a></div><div class="ttdeci">void convert(char *val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:31</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">convert()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00031">convert()</a>.</p>
-
-</div>
-</div>
-<a id="aa8017307aa0aa935f062b4f701563d09" name="aa8017307aa0aa935f062b4f701563d09"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8017307aa0aa935f062b4f701563d09">&#9670;&#160;</a></span>convert&lt; 0 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d88/a04704.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 0 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3717e304a2b8b074fcd513ca8e0db116" name="a3717e304a2b8b074fcd513ca8e0db116"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3717e304a2b8b074fcd513ca8e0db116">&#9670;&#160;</a></span>convert&lt; 1 &gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d2/d88/a04704.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 1 &gt; </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ }            <span class="comment">// ignore central byte</span></div>
-</div><!-- fragment -->
-</div>
-</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/d88/a04704.html">ByteConverter</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/d88/a04704.html">advstd</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

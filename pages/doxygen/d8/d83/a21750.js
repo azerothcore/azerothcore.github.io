@@ -1,5 +1,6 @@
 var a21750 =
 [
-    [ "npc_guardian_pavilionAI", "d8/d83/a21750.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
-    [ "MoveInLineOfSight", "d8/d83/a21750.html#aeae26e28be93120062d9f77c069ff32a", null ]
+    [ "npc_boneguard_footmanAI", "d1/d70/a21754.html", "d1/d70/a21754" ],
+    [ "npc_boneguard_footman", "d8/d83/a21750.html#aba17f89b9546deff5401ad33224b2b3e", null ],
+    [ "GetAI", "d8/d83/a21750.html#ab0b28f61e26f701db17a0d19bbde4492", null ]
 ];

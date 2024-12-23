@@ -1,9 +1,6 @@
 var a15874 =
 [
-    [ "npc_memoryAI", "dd/dd6/a15874.html#ad927d377d60b44f43808469042f5feb9", null ],
-    [ "JustDied", "dd/dd6/a15874.html#a7b0484919d671877f29dfa05ca1265d9", null ],
-    [ "Reset", "dd/dd6/a15874.html#a985c51bbfa2cceeb7601432491253aaf", null ],
-    [ "UpdateAI", "dd/dd6/a15874.html#a6cb74389f5aea91d2062e007ea08acd7", null ],
-    [ "events", "dd/dd6/a15874.html#a2ed2993e89728a3723456a67e13581f7", null ],
-    [ "pInstance", "dd/dd6/a15874.html#a31bcb5041844ea5e3a076ad1366897e1", null ]
+    [ "npc_living_infernoAI", "d3/db4/a15878.html", "d3/db4/a15878" ],
+    [ "npc_living_inferno", "dd/dd6/a15874.html#a7df2bb522e67b6f1864604c7b0182078", null ],
+    [ "GetAI", "dd/dd6/a15874.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
 ];

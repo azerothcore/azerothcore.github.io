@@ -1,7 +1,6 @@
 var a26314 =
 [
-    [ "HandleDispel", "d3/d08/a26314.html#aeab02cfd37c20aaf57e70aca62c82d99", null ],
-    [ "PrepareAuraScript", "d3/d08/a26314.html#a9dc5d5dc34bc9aed6094c0c55533ad5e", null ],
-    [ "Register", "d3/d08/a26314.html#a9cfb0fe1465c55b97032ae528ce00bcb", null ],
-    [ "Validate", "d3/d08/a26314.html#ad29fdb4b99e9782cf8bace07384fa87c", null ]
+    [ "HandlePeriodic", "d3/d08/a26314.html#af875d62dd47650c9f2e9c3a4508ed05b", null ],
+    [ "PrepareAuraScript", "d3/d08/a26314.html#a2efdcd0902e9cb5c47e285492dd93789", null ],
+    [ "Register", "d3/d08/a26314.html#ac90afe9f5d9d55faba2282a875469311", null ]
 ];

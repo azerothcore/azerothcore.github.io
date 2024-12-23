@@ -1,6 +1,7 @@
 var a24894 =
 [
-    [ "HandleCast", "d2/d96/a24894.html#ac6f7b9650d0a55834dafb09555692243", null ],
-    [ "PrepareSpellScript", "d2/d96/a24894.html#ab3dc21aa63f0fb9202233603106eef87", null ],
-    [ "Register", "d2/d96/a24894.html#ad6c2dc91d0973c0b8d57151dff3d9499", null ]
+    [ "HandleProc", "d2/d96/a24894.html#ac88c41bcfcedd9194d9d3f958d605d37", null ],
+    [ "PrepareAuraScript", "d2/d96/a24894.html#a66c3458e88ab5802e10445df3aeb52f6", null ],
+    [ "Register", "d2/d96/a24894.html#af02b0af51a1fece0780414ab45c8d31e", null ],
+    [ "Validate", "d2/d96/a24894.html#a9f955b53e5905cfb3742a58c8bedab96", null ]
 ];

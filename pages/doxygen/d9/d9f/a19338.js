@@ -1,6 +1,8 @@
 var a19338 =
 [
-    [ "npc_algalon_worm_holeAI", "df/d41/a19342.html", "df/d41/a19342" ],
-    [ "npc_algalon_worm_hole", "d9/d9f/a19338.html#a72516a4824fa61a331caff46d2784c64", null ],
-    [ "GetAI", "d9/d9f/a19338.html#aac6ff3a41f08f5a11baa78c0526a3556", null ]
+    [ "iron_golem_custodianAI", "d9/d9f/a19338.html#aeeeed1383f5d221eb7b5cd5d3a6ea4fb", null ],
+    [ "JustEngagedWith", "d9/d9f/a19338.html#acd67b8d4df95eb8b0d0365184e47a29c", null ],
+    [ "Reset", "d9/d9f/a19338.html#af3193696d665746eecd9c62128d8684d", null ],
+    [ "UpdateAI", "d9/d9f/a19338.html#ab1d3910b07a6c5c53f5388a10dc48775", null ],
+    [ "events", "d9/d9f/a19338.html#a9e0bcc9ae6918f9fa40cbf8085d4ec42", null ]
 ];

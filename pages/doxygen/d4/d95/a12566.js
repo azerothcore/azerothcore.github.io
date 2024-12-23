@@ -1,8 +1,6 @@
 var a12566 =
 [
-    [ "npc_death_knight_initiateAI", "d7/d2f/a12570.html", "d7/d2f/a12570" ],
-    [ "npc_death_knight_initiate", "d4/d95/a12566.html#a0c1b552035bed7be9af1fbdf8205b4b6", null ],
-    [ "GetAI", "d4/d95/a12566.html#ac38e0ed0ea1eac8e0de6f08664cb095a", null ],
-    [ "OnGossipHello", "d4/d95/a12566.html#a24f1b91ad0a69e4468e812747225d303", null ],
-    [ "OnGossipSelect", "d4/d95/a12566.html#ab0712bc84003b5eb72f11b49ef6e57a7", null ]
+    [ "boss_kagani_nightstrike", "d4/d95/a12566.html#aeb4cfab6c4caafcf64d5e54cf481fd6a", null ],
+    [ "JustEngagedWith", "d4/d95/a12566.html#aba5ca4ce6fe6b39bb85aadddbcd9891e", null ],
+    [ "MovementInform", "d4/d95/a12566.html#af1010b7aa7434a92f1168eceda47cc2e", null ]
 ];

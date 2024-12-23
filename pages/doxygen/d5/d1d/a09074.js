@@ -1,10 +1,8 @@
 var a09074 =
 [
-    [ "AnyAoETargetUnitInObjectRangeCheck", "d5/d1d/a09074.html#a93d850e2d5f094b97ca5c09bf1d236a9", null ],
-    [ "operator()", "d5/d1d/a09074.html#af9a0c32593544a73aae22cd397eef63a", null ],
-    [ "_spellInfo", "d5/d1d/a09074.html#a1317c9df0d5792ad3122ff1ed1a31458", null ],
-    [ "i_funit", "d5/d1d/a09074.html#aa00b184a24ea73293114f92126f58f24", null ],
-    [ "i_obj", "d5/d1d/a09074.html#aa4acf0089c978408e30b08d539f2512f", null ],
-    [ "i_range", "d5/d1d/a09074.html#ad386efa8206906fd99816694a6a8d69b", null ],
-    [ "i_targetForPlayer", "d5/d1d/a09074.html#af5ce329f3493b97f59c61c3e87af48b1", null ]
+    [ "NearestGameObjectFishingHole", "d5/d1d/a09074.html#ab0e4734202edf26b69881ab85abe1d93", null ],
+    [ "NearestGameObjectFishingHole", "d5/d1d/a09074.html#a256c64e6c82d98349b958647d98bf4ce", null ],
+    [ "operator()", "d5/d1d/a09074.html#a52e2c64f8209ab364f4e85e1f4e947dc", null ],
+    [ "i_obj", "d5/d1d/a09074.html#a182fbf6b5cc68fb0eba6be26568c9d78", null ],
+    [ "i_range", "d5/d1d/a09074.html#af27a870fb654a130bf1e4ac1472fdffc", null ]
 ];

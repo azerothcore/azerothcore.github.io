@@ -1,5 +1,6 @@
 var a27298 =
 [
-    [ "npc_controller", "da/d4f/a27298.html#a3c75fb509d5cf4b4d417c97b409615b1", null ],
-    [ "OnCharmed", "da/d4f/a27298.html#a69628677de225d76a8c89b4626e0f32b", null ]
+    [ "npc_pet_trainerAI", "d6/d4d/a27302.html", "d6/d4d/a27302" ],
+    [ "npc_pet_trainer", "da/d4f/a27298.html#ac2279bce52e911b1c339da5e68aa2501", null ],
+    [ "GetAI", "da/d4f/a27298.html#a4ecf9ac0abf43a00dc6bff2d2283eb37", null ]
 ];

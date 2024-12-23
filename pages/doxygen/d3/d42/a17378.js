@@ -1,10 +1,6 @@
 var a17378 =
 [
-    [ "npc_cult_fanaticAI", "d3/d42/a17378.html#a766e536288b84110f88a8bd282e97932", null ],
-    [ "JustEngagedWith", "d3/d42/a17378.html#a709b75f4b1519bc7c6988985a22d076f", null ],
-    [ "Reset", "d3/d42/a17378.html#a772830df1d16d0463c8c00f14c337db0", null ],
-    [ "SpellHit", "d3/d42/a17378.html#a17c02a83b522c9717de3d89517104e42", null ],
-    [ "UpdateAI", "d3/d42/a17378.html#ac79afdab3721d78d2b7e5da360083cea", null ],
-    [ "_instance", "d3/d42/a17378.html#a7448fdf85cccfcb12509b0274205bff4", null ],
-    [ "events", "d3/d42/a17378.html#a9576978141062fa1babbbc5ed42483c4", null ]
+    [ "BurningPitchFilterCheck", "d3/d42/a17378.html#a11a4816f3d29cb1a6c4845cdaaeaa3cf", null ],
+    [ "operator()", "d3/d42/a17378.html#a24be987c8471d8a7096025debf6e60b1", null ],
+    [ "_entry", "d3/d42/a17378.html#a7bd20aed2db0e24ad34cbcc94d9a89d6", null ]
 ];

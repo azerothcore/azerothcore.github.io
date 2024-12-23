@@ -1,6 +1,9 @@
 var a12130 =
 [
-    [ "boss_lucifronAI", "d2/d87/a12134.html", "d2/d87/a12134" ],
-    [ "boss_lucifron", "d1/de7/a12130.html#aa54be5c49a77524b036c167dbb6d81ea", null ],
-    [ "GetAI", "d1/de7/a12130.html#a885366d4190bbc77dc696ee6910435ed", null ]
+    [ "HandleAfterApply", "d1/de7/a12130.html#ab5dea2b9154ea73e9f159f6899f71d1d", null ],
+    [ "HandleAfterRemove", "d1/de7/a12130.html#a07bfb9395c738a197bafbaa0a43b9d48", null ],
+    [ "PeriodicTick", "d1/de7/a12130.html#a1ea9275cf310f95e9f8351892dce0a21", null ],
+    [ "PrepareAuraScript", "d1/de7/a12130.html#a8f13734ec4eb2dfda64be4ed3410e9a7", null ],
+    [ "Register", "d1/de7/a12130.html#a778da1e0ae7d5cab576b55bff93c923f", null ],
+    [ "Validate", "d1/de7/a12130.html#a205b4cc0f5c513680573b41a786a0b5e", null ]
 ];

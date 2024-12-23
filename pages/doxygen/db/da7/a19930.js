@@ -1,5 +1,7 @@
 var a19930 =
 [
-    [ "achievement_staying_buffed_all_winter_10", "db/da7/a19930.html#a40afd6db0bf6cff2b9b6163b7d4c31da", null ],
-    [ "OnCheck", "db/da7/a19930.html#a67587b1659a8d026e73b42311148541a", null ]
+    [ "HandleEffectPeriodic", "db/da7/a19930.html#a428d1251465cc9947e7474eab83494e3", null ],
+    [ "PrepareAuraScript", "db/da7/a19930.html#aa6bfb37f305531f67fa5fad67c83acb9", null ],
+    [ "Register", "db/da7/a19930.html#a3ccee6d2c8ac244f5370d11b6a4492b6", null ],
+    [ "Validate", "db/da7/a19930.html#a7d4ede9af946be71bbc5531164ed3f17", null ]
 ];

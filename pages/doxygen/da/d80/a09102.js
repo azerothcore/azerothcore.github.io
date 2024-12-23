@@ -1,8 +1,8 @@
 var a09102 =
 [
-    [ "AnyAssistCreatureInRangeCheck", "da/d80/a09102.html#a2e9cbff4e627fe8ccf67997123afe0a6", null ],
-    [ "operator()", "da/d80/a09102.html#a314a4800047f7e661cd011010b3f148e", null ],
-    [ "i_enemy", "da/d80/a09102.html#a37318ae783e6cf4a658063aab149e8a3", null ],
-    [ "i_funit", "da/d80/a09102.html#add1071091d1696c3f537483810dcb6f1", null ],
-    [ "i_range", "da/d80/a09102.html#a4bcf67be5bae4649d82586349d30be04", null ]
+    [ "FriendlyMissingBuffInRange", "da/d80/a09102.html#a628fe94ce054a868977ef2a981bc5d6c", null ],
+    [ "operator()", "da/d80/a09102.html#a6dce8a1248ebb4f3e57cd12a3d94b7b9", null ],
+    [ "i_obj", "da/d80/a09102.html#aba43edf48b2b0184b52143707c3531f4", null ],
+    [ "i_range", "da/d80/a09102.html#a54ba98f393a8bdf710f6bd65abee526c", null ],
+    [ "i_spell", "da/d80/a09102.html#a7f34521e8789a1e1dabb867ed82ff438", null ]
 ];

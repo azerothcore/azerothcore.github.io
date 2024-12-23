@@ -1,6 +1,7 @@
 var a17382 =
 [
-    [ "npc_cult_adherentAI", "de/da3/a17386.html", "de/da3/a17386" ],
-    [ "npc_cult_adherent", "d8/df3/a17382.html#a74496518cf30674044a4a8a166e4c345", null ],
-    [ "GetAI", "d8/df3/a17382.html#a2bfe464c738c983b9539f9216cabd63a", null ]
+    [ "FilterTargets", "d8/df3/a17382.html#a77afd0b56c9bddd74999d5df30457b7f", null ],
+    [ "HandleDummy", "d8/df3/a17382.html#a04166e4e5a4ba082755433555855cb30", null ],
+    [ "PrepareSpellScript", "d8/df3/a17382.html#aaefa58014db12fb76e3416ae807c69e8", null ],
+    [ "Register", "d8/df3/a17382.html#a497ee30669d45341023abe549c91ddaf", null ]
 ];

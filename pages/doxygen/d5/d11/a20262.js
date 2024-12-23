@@ -1,10 +1,9 @@
 var a20262 =
 [
-    [ "boss_thorim_sif_blizzardAI", "d5/d11/a20262.html#a99d1c529126452e580ebc7e3e513b367", null ],
-    [ "AttackStart", "d5/d11/a20262.html#a1f05551f323fa410a699497f3875b21f", null ],
-    [ "InitWaypoint", "d5/d11/a20262.html#a1e0a384081750bdf38cc8e0065070ec8", null ],
-    [ "JustEngagedWith", "d5/d11/a20262.html#a9fea5617dccb493c7af435c485462ff3", null ],
-    [ "MoveInLineOfSight", "d5/d11/a20262.html#ab91a2a71ff00e38d2eca50ccc654d9f3", null ],
-    [ "Reset", "d5/d11/a20262.html#a193ba575c4f3f16d850e56f12f190c77", null ],
-    [ "WaypointReached", "d5/d11/a20262.html#a961f90068f25d81f55159763fe2677f8", null ]
+    [ "npc_ulduar_dark_rune_watcherAI", "d5/d11/a20262.html#a2239253c2c4760b130ace4a07ef1e8c4", null ],
+    [ "CanAIAttack", "d5/d11/a20262.html#a891e354dc27f0d53e06a0cf2eea46970", null ],
+    [ "Reset", "d5/d11/a20262.html#a79a1081a50ded7afc5f81ed4234be59d", null ],
+    [ "UpdateAI", "d5/d11/a20262.html#a58c5f53f74055b89c11ed27ffe908732", null ],
+    [ "timer1", "d5/d11/a20262.html#aab38ff79ca8fc867a3d6c6512d0376c8", null ],
+    [ "timer2", "d5/d11/a20262.html#a7b4eb188939c15f11a6b2532853ad798", null ]
 ];

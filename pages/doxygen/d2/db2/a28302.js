@@ -1,17 +1,13 @@
 var a28302 =
 [
-    [ "TileBuilder", "d2/db2/a28302.html#acf61f0eada3f4cc5e88ef7d36c6d0c36", null ],
-    [ "TileBuilder", "d2/db2/a28302.html#ac7ed1b1c9fdff7fc933fa6029fa9ff9d", null ],
-    [ "~TileBuilder", "d2/db2/a28302.html#a7fabcd86a5679f19ad69e9c69f1d5885", null ],
-    [ "buildMoveMapTile", "d2/db2/a28302.html#add45abc9c1f79f95dae9d7616b100dc0", null ],
-    [ "buildTile", "d2/db2/a28302.html#ab7eca8778fd61ecbfe5f07bba0b38857", null ],
-    [ "shouldSkipTile", "d2/db2/a28302.html#a77ecbab0c34dfe69c414304768b20ea3", null ],
-    [ "WaitCompletion", "d2/db2/a28302.html#ae386f742fed7d2b66bcf3750abf91daf", null ],
-    [ "WorkerThread", "d2/db2/a28302.html#a4c0497cde74883557ec841233376f95c", null ],
-    [ "m_bigBaseUnit", "d2/db2/a28302.html#a5b5313e24c00e58940067d53be93a3de", null ],
-    [ "m_debugOutput", "d2/db2/a28302.html#a4c881a6e6ec66b315f72f84da5c534c2", null ],
-    [ "m_mapBuilder", "d2/db2/a28302.html#aa83fbc484835a6d1a4c7bf6201b46639", null ],
-    [ "m_rcContext", "d2/db2/a28302.html#a160c3ad76146488175c6ae228ad4ef83", null ],
-    [ "m_terrainBuilder", "d2/db2/a28302.html#ade1605fb1b68693516c9fb27f94b278d", null ],
-    [ "m_workerThread", "d2/db2/a28302.html#a4e03cb818b108400737e3a54df24945d", null ]
+    [ "MPQArchive", "d2/db2/a28302.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/db2/a28302.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "MPQArchive", "d2/db2/a28302.html#a58d57322334966ca16a22e52e5198d9f", null ],
+    [ "~MPQArchive", "d2/db2/a28302.html#a5bce22525ca16381fbb4729540a165e2", null ],
+    [ "close", "d2/db2/a28302.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "close", "d2/db2/a28302.html#ac40182c8e52d70aa1f53325f1b48f259", null ],
+    [ "GetFileListTo", "d2/db2/a28302.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "GetFileListTo", "d2/db2/a28302.html#ab91bd82370a1ebcf6b46fc3047188640", null ],
+    [ "isOpened", "d2/db2/a28302.html#a2026335b9ede29197acfaac8513456d5", null ],
+    [ "mpq_a", "d2/db2/a28302.html#a72b9fb96b1e3db6c7be652e426978b4a", null ]
 ];

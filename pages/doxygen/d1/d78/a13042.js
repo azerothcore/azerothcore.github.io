@@ -1,12 +1,9 @@
 var a13042 =
 [
-    [ "npc_kiljaeden_controller", "d1/d78/a13042.html#aabe4e5af5ad142bac6cdaa4f6787a7bc", null ],
-    [ "JustDied", "d1/d78/a13042.html#a86c4d79a8caf8a838e353bbf1b78c56d", null ],
-    [ "JustSummoned", "d1/d78/a13042.html#af28211012d8398a450439b8e24bf60ce", null ],
-    [ "Reset", "d1/d78/a13042.html#a11f6f8e86c3ecdecf8e4c5bcb76f8664", null ],
-    [ "ResetOrbs", "d1/d78/a13042.html#a4daacfe92ddb39ade57df3a1bbcd79fd", null ],
-    [ "SummonedCreatureDies", "d1/d78/a13042.html#aed2772552dd500c180c3db4aeef8359a", null ],
-    [ "UpdateAI", "d1/d78/a13042.html#a9f24328d9ffd94ecf3d15303a71acb9b", null ],
-    [ "instance", "d1/d78/a13042.html#a2cb872334b9dd6a4f87468b41f164fc4", null ],
-    [ "summons", "d1/d78/a13042.html#a116a739b2bff3257b35ff7946a3d1995", null ]
+    [ "npc_demonic_vapor_trail", "d1/d78/a13042.html#a5bd024ea050372e982a183da59b45904", null ],
+    [ "JustSummoned", "d1/d78/a13042.html#a2e18ab340bfcc5ae2f1c80b92b0b5d3d", null ],
+    [ "Reset", "d1/d78/a13042.html#a9da762ab640abfaf5092034f284239af", null ],
+    [ "SpellHitTarget", "d1/d78/a13042.html#a21e2223f58156da2fbe1803554623ecd", null ],
+    [ "UpdateAI", "d1/d78/a13042.html#a90810fcfc4f27a457917cb79f4320fe3", null ],
+    [ "timer", "d1/d78/a13042.html#ac73d55019f44f702843e22a442c2e432", null ]
 ];

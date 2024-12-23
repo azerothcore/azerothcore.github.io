@@ -1,7 +1,12 @@
 var a09322 =
 [
-    [ "InstancePlayerBind", "d1/d6c/a09322.html#abc20bba094d04eb724d03b8290102981", null ],
-    [ "extended", "d1/d6c/a09322.html#a9327f62b74eea3a1a525b2fec6d90b69", null ],
-    [ "perm", "d1/d6c/a09322.html#ab35249eb791941b484ecc321b1102b24", null ],
-    [ "save", "d1/d6c/a09322.html#a24ef1e0e0a38033a16b697c32e3d8234", null ]
+    [ "EventLogEntry", "d1/d6c/a09322.html#a31726d40f7b89077b45ffbaca8396a9d", null ],
+    [ "EventLogEntry", "d1/d6c/a09322.html#a96a2e3a6d565db452e7d0f1a152f63c7", null ],
+    [ "~EventLogEntry", "d1/d6c/a09322.html#a8d6bf0a5a53fdc8e99ad53293d96af7c", null ],
+    [ "SaveToDB", "d1/d6c/a09322.html#a2ca71e291a44f95bb42d51083aa84985", null ],
+    [ "WritePacket", "d1/d6c/a09322.html#adffe90bd0265dea0ca2fd6bc83f3056e", null ],
+    [ "m_eventType", "d1/d6c/a09322.html#a00216643e6856591402c21df490c1fec", null ],
+    [ "m_newRank", "d1/d6c/a09322.html#ab733c92f478dc36e3b5ffc61799a6ce7", null ],
+    [ "m_playerGuid1", "d1/d6c/a09322.html#a06a2b45d16860c711829f49f97624272", null ],
+    [ "m_playerGuid2", "d1/d6c/a09322.html#a1f66e71f9536e484663e437bbcbcefca", null ]
 ];

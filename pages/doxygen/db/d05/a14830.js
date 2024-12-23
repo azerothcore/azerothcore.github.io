@@ -1,7 +1,10 @@
 var a14830 =
 [
-    [ "FilterTargets", "db/d05/a14830.html#a76e8285baf1d14d560ad764eeab86cd5", null ],
-    [ "HandleOnHit", "db/d05/a14830.html#a587db6fa1dc5788e0cc9ec5e486e9393", null ],
-    [ "PrepareSpellScript", "db/d05/a14830.html#ad7372e543391a23c003b4121e0dd8a09", null ],
-    [ "Register", "db/d05/a14830.html#a9749c72e2c7964cd4a2b2f9a77da69ec", null ]
+    [ "boss_huhuran", "db/d05/a14830.html#a64e0b20891992764c708cbb661c18196", null ],
+    [ "DamageTaken", "db/d05/a14830.html#adb47086f29b41f4168ad5d1b2728547d", null ],
+    [ "JustEngagedWith", "db/d05/a14830.html#a08f1d6550680d5bcf07332eade115730", null ],
+    [ "Reset", "db/d05/a14830.html#a45571aa6bd0c7915fb666cae1c5c4544", null ],
+    [ "UpdateAI", "db/d05/a14830.html#a23962e668f046b373f94ea6a2d75574a", null ],
+    [ "_berserk", "db/d05/a14830.html#a5f3f17d0b239f95ed4eb0bfac85c4463", null ],
+    [ "_hardEnrage", "db/d05/a14830.html#a5612bf8b1eedec159b316b28e6f4c915", null ]
 ];

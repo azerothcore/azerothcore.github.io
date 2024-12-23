@@ -1,7 +1,6 @@
 var a22602 =
 [
-    [ "npc_ashtongue_channeler", "da/dce/a22602.html#af7217d00f87e56e5cdb411fcad161b51", null ],
-    [ "Reset", "da/dce/a22602.html#ab935559c19b18f9c94dd36c85be5b3b2", null ],
-    [ "UpdateAI", "da/dce/a22602.html#af855dfa521404c4e6127a9bf12a75604", null ],
-    [ "scheduler", "da/dce/a22602.html#a4f58bbd2c44f7a3f9835fd55408ffaf4", null ]
+    [ "boss_essence_of_desireAI", "df/d77/a22606.html", "df/d77/a22606" ],
+    [ "boss_essence_of_desire", "da/dce/a22602.html#a5006ce57dd19c2a80e961dedca8c503d", null ],
+    [ "GetAI", "da/dce/a22602.html#a14b66470c508fa24e214062aeec0aae6", null ]
 ];

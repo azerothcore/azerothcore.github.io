@@ -1,12 +1,7 @@
 var a10822 =
 [
-    [ "SpellDestination", "db/d67/a10822.html#aa91f31101de3139b2e2d2976dac94686", null ],
-    [ "SpellDestination", "db/d67/a10822.html#aa27cefe3e93fedd557174a3cc8f49fe1", null ],
-    [ "SpellDestination", "db/d67/a10822.html#a12f65757f20436b02b7aa00bb1682c8e", null ],
-    [ "SpellDestination", "db/d67/a10822.html#a7b8949fa80249aee8bebc56620ec746c", null ],
-    [ "Relocate", "db/d67/a10822.html#ab565861d5013130639013e3c4d22d712", null ],
-    [ "RelocateOffset", "db/d67/a10822.html#a0bf1d731787bfed47b593d8cb4943f2a", null ],
-    [ "_position", "db/d67/a10822.html#a6c4587b85e295d86f3479e4feeb662e5", null ],
-    [ "_transportGUID", "db/d67/a10822.html#ad3456cf591eb32a5dd390ffbb7b27387", null ],
-    [ "_transportOffset", "db/d67/a10822.html#a52f0f9f741985bb4d78289145fe66ba0", null ]
+    [ "IsValidOpcode", "db/d67/a10822.html#afdba55f89a1c7ffb9e7c302f2269687f", null ],
+    [ "IsValidSize", "db/d67/a10822.html#aec5192f7f57a16c9dfa244ff3874e693", null ],
+    [ "cmd", "db/d67/a10822.html#ad0a112cb2a8a71e6e8c20e320af63f49", null ],
+    [ "size", "db/d67/a10822.html#ac1d551036381db4f85b8dc92ea55d4ee", null ]
 ];

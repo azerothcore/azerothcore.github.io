@@ -1,6 +1,7 @@
 var a15642 =
 [
-    [ "HandleLeapBack", "d2/de8/a15642.html#a71a9b9967528c1153ad1215635bc7d01", null ],
-    [ "PrepareSpellScript", "d2/de8/a15642.html#a25a2db5c19e721b112b7bc84b3ac0968", null ],
-    [ "Register", "d2/de8/a15642.html#a6ef11d0538616315fa7cf098748aa01f", null ]
+    [ "OnRemove", "d2/de8/a15642.html#afb0821bc8774e634eefdd87efe6af945", null ],
+    [ "PrepareAuraScript", "d2/de8/a15642.html#a54b1de501bdf3193cdb89125bc1ceb0e", null ],
+    [ "Register", "d2/de8/a15642.html#a985ad6d7eca06fbaf869e591136f46a3", null ],
+    [ "Validate", "d2/de8/a15642.html#aa794b76c4d9590b867dda57f02724d95", null ]
 ];

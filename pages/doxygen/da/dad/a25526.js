@@ -1,6 +1,7 @@
 var a25526 =
 [
-    [ "CheckCast", "da/dad/a25526.html#a14bd28450fb989b1deb1854e2118cb6b", null ],
-    [ "PrepareSpellScript", "da/dad/a25526.html#a2a53af0cc911e1a68b365d692df1f0af", null ],
-    [ "Register", "da/dad/a25526.html#a67c43c4dabfb72ca54c160228b4b21c0", null ]
+    [ "HandleHeal", "da/dad/a25526.html#ae24fd6305b5d17c2fbb6f03238b385c6", null ],
+    [ "Load", "da/dad/a25526.html#a4dd5016439e8798083fe3d4fa5458731", null ],
+    [ "PrepareSpellScript", "da/dad/a25526.html#a248ae6d2c8f8d6c014a0164105773836", null ],
+    [ "Register", "da/dad/a25526.html#af2e80d64787ad31e33d0d3c239f62c81", null ]
 ];

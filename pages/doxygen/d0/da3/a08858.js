@@ -1,10 +1,10 @@
 var a08858 =
 [
-    [ "iterator", "d0/da3/a08858.html#a6bf9d06cfe6cb2e7df465ebf2acc099f", null ],
-    [ "begin", "d0/da3/a08858.html#a1e4e67ba11ac8da077942a6581647bf3", null ],
-    [ "end", "d0/da3/a08858.html#a266acb421cfc6ccc56dc2acff3202971", null ],
-    [ "getFirst", "d0/da3/a08858.html#aa0156c2ad3ec5ca0df6f6a4c55d71a05", null ],
-    [ "getLast", "d0/da3/a08858.html#a46a36813eaf752815a3f8c739db88a5d", null ],
-    [ "rbegin", "d0/da3/a08858.html#ae69734978b5eec009a696861b7b7152b", null ],
-    [ "rend", "d0/da3/a08858.html#a3f7b88b333f1da3a6ffdfc8ec31d8f52", null ]
+    [ "Flags", "d0/da3/a08858.html#a5292a64de662f608915844d58199542f", null ],
+    [ "Icon", "d0/da3/a08858.html#ab7460f125e05509baf9331e424b8bacf", null ],
+    [ "ID", "d0/da3/a08858.html#a94b184ecd7c82419fa6d59a59c1d95da", null ],
+    [ "Importance", "d0/da3/a08858.html#a623d8bdc2bf5eea161466340ae8e3cd1", null ],
+    [ "Name", "d0/da3/a08858.html#a45c6eb50f0d56bbdabd6c3b3469c607c", null ],
+    [ "PositionX", "d0/da3/a08858.html#a561763556f1ac77e988c350c37a3a0a1", null ],
+    [ "PositionY", "d0/da3/a08858.html#abec7b2b3e649263f0b963f3fedef60fe", null ]
 ];

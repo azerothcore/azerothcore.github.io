@@ -1,7 +1,11 @@
 var a11638 =
 [
-    [ "boss_gorosh_the_dervishAI", "d3/d73/a11638.html#adac003c51a2d1d0a8daa6ba552114c25", null ],
-    [ "JustEngagedWith", "d3/d73/a11638.html#a52bc5f76baff626b8834aa604fdd8e6a", null ],
-    [ "UpdateAI", "d3/d73/a11638.html#aa17e26419a8e3f7cd99c5e9b44be8ed8", null ],
-    [ "nextWhirlwindTime", "d3/d73/a11638.html#a07f1af63bc54d1b4c8d8e1cd87a787a1", null ]
+    [ "npc_rocknotAI", "d3/d73/a11638.html#a4daa5104eabb6d38c22274b48a8514be", null ],
+    [ "DoGo", "d3/d73/a11638.html#a7591520e06782feddb98a86107fbcb27", null ],
+    [ "Reset", "d3/d73/a11638.html#a4d855a23c638e835de6f1c4644350166", null ],
+    [ "UpdateAI", "d3/d73/a11638.html#a1d3bce3248766393be5f84c5ca5030b1", null ],
+    [ "WaypointReached", "d3/d73/a11638.html#ae7d6f0b1e52767c61ad014accb1cec7a", null ],
+    [ "BreakDoor_Timer", "d3/d73/a11638.html#a3ae6edef4812fd3161c3b8ad5aa5cac2", null ],
+    [ "BreakKeg_Timer", "d3/d73/a11638.html#a6f380ad58cf55fe2ea9fc1f56118b454", null ],
+    [ "instance", "d3/d73/a11638.html#a4328c25f12f562cfdf41740e908cb3bd", null ]
 ];

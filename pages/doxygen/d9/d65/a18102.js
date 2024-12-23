@@ -1,14 +1,8 @@
 var a18102 =
 [
-    [ "npc_green_dragon_combat_triggerAI", "d9/d65/a18102.html#a4d4bd899a40ff44f8ee517b2a0328538", null ],
-    [ "AttackStart", "d9/d65/a18102.html#a5457c18c60a8301ea60ef34d810a14c9", null ],
-    [ "CanAIAttack", "d9/d65/a18102.html#aaf12ae21dddfa6b47ffa7880f65487a4", null ],
-    [ "DoAction", "d9/d65/a18102.html#abbd08537ed245084ca7d4cf852a749a2", null ],
-    [ "EnterEvadeMode", "d9/d65/a18102.html#a32bd4ed61bc62206ccedcf4acaeb8df8", null ],
-    [ "JustEngagedWith", "d9/d65/a18102.html#ad7385306f8058699ee004b7bc5f1b538", null ],
-    [ "JustReachedHome", "d9/d65/a18102.html#a2ae1c178a84c6d6899cf6400cb963e44", null ],
-    [ "MoveInLineOfSight", "d9/d65/a18102.html#ab2465cf3e5950d827eb0a30e9fc2ea47", null ],
-    [ "Reset", "d9/d65/a18102.html#a3dfe1f28c9301c30186beb27ab76f9a9", null ],
-    [ "UpdateAI", "d9/d65/a18102.html#a89ce158e08b3da1e54b0be6caa3950b8", null ],
-    [ "checkTimer", "d9/d65/a18102.html#ae5c238e2e201c431ceccc59a3a26078b", null ]
+    [ "npc_lk_spirit_bombAI", "d9/d65/a18102.html#a366fb54e68c0e603000183cd68daf6b7", null ],
+    [ "IsSummonedBy", "d9/d65/a18102.html#a9b3de8c6e2006a19ee1289455163f52c", null ],
+    [ "MovementInform", "d9/d65/a18102.html#a0e4aa94a199439962095c1d2026b2a5f", null ],
+    [ "UpdateAI", "d9/d65/a18102.html#a61b4f7c3a1dd9b9b2850b05f2117e55a", null ],
+    [ "timer", "d9/d65/a18102.html#aa0d370113b753127d4f0fd7bd3a3ba11", null ]
 ];

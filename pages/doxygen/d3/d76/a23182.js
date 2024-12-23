@@ -1,12 +1,11 @@
 var a23182 =
 [
-    [ "boss_omor_the_unscarred", "d3/d76/a23182.html#aeef6af0274425d9af5b5ada0d6aa7a2b", null ],
-    [ "JustDied", "d3/d76/a23182.html#a9ddae483a0f8cefd8a19975b60002660", null ],
-    [ "JustEngagedWith", "d3/d76/a23182.html#aa874d266d9a5ced45ea2ceb750370b1a", null ],
-    [ "JustSummoned", "d3/d76/a23182.html#a3503f9d13a5191c71013d77b79a8a4a3", null ],
-    [ "KilledUnit", "d3/d76/a23182.html#afc5c12a69d51638b67fcdf8098ff7da6", null ],
-    [ "Reset", "d3/d76/a23182.html#a0ec22c50cd096677a20299ab45a3c344", null ],
-    [ "UpdateAI", "d3/d76/a23182.html#aeb478325ea00f996b4c3c1584fe3965d", null ],
-    [ "_hasSpoken", "d3/d76/a23182.html#a3fe7684742f783cb1e68fcc7cfc0de7a", null ],
-    [ "_targetGUID", "d3/d76/a23182.html#a5ea9161b949e99f0a61498ed05d66d27", null ]
+    [ "boss_high_king_maulgar", "d3/d76/a23182.html#a8a835570bd4ff5361b2025b2aaeec91f", null ],
+    [ "DoAction", "d3/d76/a23182.html#a210e9c3d42e9201b9fbee0d7776cbcc5", null ],
+    [ "JustDied", "d3/d76/a23182.html#ad235febd755745313b72394c633c3723", null ],
+    [ "JustEngagedWith", "d3/d76/a23182.html#a6ad48aba60a01df62c1ae62e6480a14d", null ],
+    [ "KilledUnit", "d3/d76/a23182.html#a2059016597039929103c053d6524ebf7", null ],
+    [ "Reset", "d3/d76/a23182.html#adf1bf1c8c75fc9bbed871af157c6663c", null ],
+    [ "UpdateAI", "d3/d76/a23182.html#ae540909dbbb3cf93e37503cd755c3001", null ],
+    [ "_recentlySpoken", "d3/d76/a23182.html#a306f8492d83703b339a8fbe044e0cbbd", null ]
 ];

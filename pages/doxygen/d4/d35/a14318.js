@@ -1,6 +1,7 @@
 var a14318 =
 [
-    [ "HandleHeal", "d4/d35/a14318.html#a953536a9a393af9472bdd89018449df0", null ],
-    [ "PrepareSpellScript", "d4/d35/a14318.html#a70503fc6042001a860d361f2597b7153", null ],
-    [ "Register", "d4/d35/a14318.html#a383479896e6deb96e50b827370ccfd4d", null ]
+    [ "PeriodicTick", "d4/d35/a14318.html#aa94e4d6a31a08959a5287b863737c2e2", null ],
+    [ "PrepareAuraScript", "d4/d35/a14318.html#a59a9c4dfe06859daac5bb69fa5d20e95", null ],
+    [ "Register", "d4/d35/a14318.html#a24058b120f4fa06b89f6d582c53a365a", null ],
+    [ "Validate", "d4/d35/a14318.html#a093b09be5abde91a1487d67a7a554d30", null ]
 ];

@@ -1,7 +1,17 @@
 var a12562 =
 [
-    [ "HandleScriptEffect", "d7/d2b/a12562.html#a1b196f3817c16fac48392981b58c1a05", null ],
-    [ "PrepareSpellScript", "d7/d2b/a12562.html#ad44566ff9a44057679e7ce8e1959776d", null ],
-    [ "Register", "d7/d2b/a12562.html#aef3bfdaff9f0b5080d83805a1a962a79", null ],
-    [ "Validate", "d7/d2b/a12562.html#a70a1f0d2666921ccbad62c1fd06fe4b6", null ]
+    [ "boss_priestess_lackey_commonAI", "d7/d2b/a12562.html#acf122076823631cef5d66e03a9f607aa", null ],
+    [ "AttackStart", "d7/d2b/a12562.html#a6056ef3425f39208e5731b25fc94a335", null ],
+    [ "EnterEvadeMode", "d7/d2b/a12562.html#a6935410d7a4ce8e9dec9feed9f5351d7", null ],
+    [ "GetThreatMod", "d7/d2b/a12562.html#a2e0e387ae4645c9bbd4625d1469403a8", null ],
+    [ "JustDied", "d7/d2b/a12562.html#a8b06ee0a3e22d495a41ccf4c7009ad2d", null ],
+    [ "JustEngagedWith", "d7/d2b/a12562.html#a4d47aacc653ab0e4b74fa3bcbcfdbbc7", null ],
+    [ "JustSummoned", "d7/d2b/a12562.html#a9a7bcf641bae31827872faf7666635d5", null ],
+    [ "KilledUnit", "d7/d2b/a12562.html#a23aaa0a619470898dd617a18130ca17b", null ],
+    [ "RecalculateThreat", "d7/d2b/a12562.html#a7daa8f2b2ddfbbd0d0f267dac7e0c2c2", null ],
+    [ "Reset", "d7/d2b/a12562.html#aa2ef03d73c43668c97205fa72414e71b", null ],
+    [ "UpdateAI", "d7/d2b/a12562.html#adf87bd797da345e49700265319d808cc", null ],
+    [ "aiType", "d7/d2b/a12562.html#a2b7ccbf195658e402ba6f276b18e3551", null ],
+    [ "instance", "d7/d2b/a12562.html#ac71aa86c97fe11d934f09d62c4ed8eab", null ],
+    [ "summons", "d7/d2b/a12562.html#a498ef73fcc7995113318c5f0b6efa23e", null ]
 ];

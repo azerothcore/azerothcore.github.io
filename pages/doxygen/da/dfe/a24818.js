@@ -1,7 +1,7 @@
 var a24818 =
 [
-    [ "PrepareSpellScript", "da/dfe/a24818.html#aad8061898087fbf5eb6527cbaa70927d", null ],
-    [ "RecalculateDamage", "da/dfe/a24818.html#a6f03ccb77ce43c4e36996ae344780ee3", null ],
-    [ "Register", "da/dfe/a24818.html#abc7e406244a1a5ea9d7c3d8feb10b8ae", null ],
-    [ "_damagePct", "da/dfe/a24818.html#a3ab5f5ec279f30dda50fa3ca3f5e6715", null ]
+    [ "HandleDummy", "da/dfe/a24818.html#ab00358dc50fa943685fdd87e5a8ac224", null ],
+    [ "Load", "da/dfe/a24818.html#a31075533c24011797bd0f99dce5e8330", null ],
+    [ "PrepareSpellScript", "da/dfe/a24818.html#abf0acc8765f6e02674b8e93aca575a98", null ],
+    [ "Register", "da/dfe/a24818.html#ad1bd05a154b506424954ef879e5b9fba", null ]
 ];

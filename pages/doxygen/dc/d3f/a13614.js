@@ -1,11 +1,9 @@
 var a13614 =
 [
-    [ "boss_hakkarAI", "dc/d3f/a13614.html#ae29c8c0816fc3efb83d7912c559747e4", null ],
-    [ "ApplyHakkarPowerStacks", "dc/d3f/a13614.html#aca5b7ee8d026ff7ee808e9ebd64c8dcf", null ],
-    [ "CheckInRoom", "dc/d3f/a13614.html#a8a70e82f6c72760143148d9c9f8095cc", null ],
-    [ "EnterEvadeMode", "dc/d3f/a13614.html#a6ca87d663714ddecfe562f0c705fa6f8", null ],
-    [ "JustDied", "dc/d3f/a13614.html#ae6b8c72ad3d36ee6eea624a7d79ca26b", null ],
-    [ "JustEngagedWith", "dc/d3f/a13614.html#ae023eb68fc066ba5713baaf3b0595f0c", null ],
-    [ "Reset", "dc/d3f/a13614.html#a52db5743c09088e2e9f1aff1513960f2", null ],
-    [ "UpdateAI", "dc/d3f/a13614.html#a1119212465bcf293991d7a520c6ffe42", null ]
+    [ "npc_amanishi_lookout", "dc/d3f/a13614.html#adf34c160c531164a459092f45588a7be", null ],
+    [ "DoAction", "dc/d3f/a13614.html#ab43e3372000af268c81e2701070e1b03", null ],
+    [ "MoveInLineOfSight", "dc/d3f/a13614.html#ab94c8563d7c79279ed4922f1d0411ec9", null ],
+    [ "MovementInform", "dc/d3f/a13614.html#ae9e6d22a781392107a7e50e5815c116c", null ],
+    [ "Reset", "dc/d3f/a13614.html#a42f8e96876f07e37fc4533b7eb732db3", null ],
+    [ "_instance", "dc/d3f/a13614.html#ab1557ad1a2cc6574c200ef691596b0c6", null ]
 ];

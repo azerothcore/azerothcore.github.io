@@ -1,9 +1,7 @@
 var a12074 =
 [
-    [ "HandleAfterApply", "d5/daa/a12074.html#ab5dea2b9154ea73e9f159f6899f71d1d", null ],
-    [ "HandleAfterRemove", "d5/daa/a12074.html#a07bfb9395c738a197bafbaa0a43b9d48", null ],
-    [ "PeriodicTick", "d5/daa/a12074.html#a1ea9275cf310f95e9f8351892dce0a21", null ],
-    [ "PrepareAuraScript", "d5/daa/a12074.html#a8f13734ec4eb2dfda64be4ed3410e9a7", null ],
-    [ "Register", "d5/daa/a12074.html#a778da1e0ae7d5cab576b55bff93c923f", null ],
-    [ "Validate", "d5/daa/a12074.html#a205b4cc0f5c513680573b41a786a0b5e", null ]
+    [ "HandleDummy", "d5/daa/a12074.html#a21c5eb1511cb4035f795ff1d22797e34", null ],
+    [ "PrepareSpellScript", "d5/daa/a12074.html#a5308de47023b89e4ff8680158a502ac0", null ],
+    [ "Register", "d5/daa/a12074.html#a5f148d259b1102b1046e6a3ac096fea8", null ],
+    [ "Validate", "d5/daa/a12074.html#a75f89d90b9e68288e54e1e0bd3b2ce98", null ]
 ];

@@ -1,6 +1,8 @@
 var a23898 =
 [
-    [ "CheckRequirement", "d2/db5/a23898.html#aa53bdc1b4b57150dbebce61ac87d2b88", null ],
-    [ "PrepareSpellScript", "d2/db5/a23898.html#a8e3d6659174d4c920e65f85afb9308b1", null ],
-    [ "Register", "d2/db5/a23898.html#aa4f62292b32347179a5534e4bc0417f8", null ]
+    [ "CreatureId", "d2/db5/a23898.html#a127341c70f8785ceb556b1c11b23f477", null ],
+    [ "SpawnCount", "d2/db5/a23898.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
+    [ "SpawnTimer", "d2/db5/a23898.html#aa57ff686c5fde12269e231333d8a8bef", null ],
+    [ "UsedSpawnPoint", "d2/db5/a23898.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
+    [ "YellTimer", "d2/db5/a23898.html#a6346259269af7f2936f959f87288dd69", null ]
 ];

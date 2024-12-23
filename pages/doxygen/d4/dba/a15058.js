@@ -1,7 +1,7 @@
 var a15058 =
 [
-    [ "npc_aged_dying_ancient_kodoAI", "d4/dba/a15058.html#aaed19d0c915891d8afecda7df75a8a75", null ],
-    [ "JustRespawned", "d4/dba/a15058.html#a9353ac81b0c209a56313b52f2257ddd2", null ],
-    [ "MoveInLineOfSight", "d4/dba/a15058.html#a295d4bef97b97c7deb31a81274f0818d", null ],
-    [ "SpellHit", "d4/dba/a15058.html#a021b82aa6bd2e118fe810f18349fda42", null ]
+    [ "npc_webbed_creatureAI", "d4/dba/a15058.html#a6b7507eda84c29d6bd557b1b424ee10a", null ],
+    [ "JustDied", "d4/dba/a15058.html#a153d461124ec9266ffcac147a217f6d9", null ],
+    [ "JustEngagedWith", "d4/dba/a15058.html#ac52ad6512bcaee35932f856abdac80d4", null ],
+    [ "Reset", "d4/dba/a15058.html#a459eaadd7f0145b7a1a6caf99d1e8a5d", null ]
 ];

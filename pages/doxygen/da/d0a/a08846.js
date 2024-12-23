@@ -1,11 +1,10 @@
 var a08846 =
 [
-    [ "~Grid", "da/d0a/a08846.html#a86be65dc86f104566acd41078429e4c4", null ],
-    [ "AddGridObject", "da/d0a/a08846.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
-    [ "AddWorldObject", "da/d0a/a08846.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
-    [ "Visit", "da/d0a/a08846.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
-    [ "Visit", "da/d0a/a08846.html#aebdcac90d763779775dbc0f0492e5279", null ],
-    [ "GridLoader", "da/d0a/a08846.html#a06e47216bdac43edea86c507c93a6ed4", null ],
-    [ "i_container", "da/d0a/a08846.html#a510723553d7206edb25792856c6c369b", null ],
-    [ "i_objects", "da/d0a/a08846.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
+    [ "creatureRate", "da/d0a/a08846.html#aa9c27c19179b8a7bdfdc11d906cd1c06", null ],
+    [ "questDailyRate", "da/d0a/a08846.html#a1798044bdf25ce774191b00e261add1e", null ],
+    [ "questMonthlyRate", "da/d0a/a08846.html#a0db34ed7420bc376cfe64a0d12434fea", null ],
+    [ "questRate", "da/d0a/a08846.html#a914118aa28b3736ff4e6c5b61d738834", null ],
+    [ "questRepeatableRate", "da/d0a/a08846.html#a2b050d4cf6555e824d59a3ffc0558b21", null ],
+    [ "questWeeklyRate", "da/d0a/a08846.html#a0fb31ebc33d0ce11f392be845907e043", null ],
+    [ "spellRate", "da/d0a/a08846.html#a508485f1e6833c58a11706667a2c24fd", null ]
 ];

@@ -1,6 +1,6 @@
 var a11826 =
 [
-    [ "OrcDeathEvent", "d0/d10/a11826.html#ae4088ee95c3c0de9ae524a82803b0ea2", null ],
-    [ "Execute", "d0/d10/a11826.html#a293ec6667da669a27fe75965f919cd68", null ],
-    [ "_me", "d0/d10/a11826.html#a56cdf23ed08cbb800ba6fe7fb5e284b7", null ]
+    [ "boss_overlordwyrmthalakAI", "da/db3/a11830.html", "da/db3/a11830" ],
+    [ "boss_overlord_wyrmthalak", "d0/d10/a11826.html#a2af6edf776c189d43cb82cc35bb838fe", null ],
+    [ "GetAI", "d0/d10/a11826.html#a56de538f25cbabc9346b987dbfe680a1", null ]
 ];

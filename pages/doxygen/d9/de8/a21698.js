@@ -1,6 +1,7 @@
 var a21698 =
 [
-    [ "npc_boneguard_footmanAI", "d9/de8/a21698.html#a04eff1976824724b321f0c0d95e0940a", null ],
-    [ "UpdateAI", "d9/de8/a21698.html#a9cba65867824daeb50cb2b39d68ad84b", null ],
-    [ "checkTimer", "d9/de8/a21698.html#a46dd1fa8d111dca0584a8e6fb7a6a566", null ]
+    [ "npc_Apothecary_HanesAI", "dc/deb/a21702.html", "dc/deb/a21702" ],
+    [ "npc_apothecary_hanes", "d9/de8/a21698.html#a90480bee491e8fe1c9e7b2c71aac28c8", null ],
+    [ "GetAI", "d9/de8/a21698.html#a7f3f86efb9a6146b86aa5d882b751e1f", null ],
+    [ "OnQuestAccept", "d9/de8/a21698.html#ae116e49b0e8865f9b5735e72c8c850fd", null ]
 ];

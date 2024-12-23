@@ -1,10 +1,19 @@
 var a13874 =
 [
-    [ "npc_coren_direbrew_sisters", "d6/dae/a13874.html#a415ea0ebd044236f5f4c4d6c28896e00", null ],
-    [ "GetGUID", "d6/dae/a13874.html#a61863117e71ebfb7f1c4c83780ece7bc", null ],
-    [ "JustEngagedWith", "d6/dae/a13874.html#a34e0b6af032240c152c463c221d99335", null ],
-    [ "SetGUID", "d6/dae/a13874.html#ada2e446a929bbba088d3c7e09d117f93", null ],
-    [ "UpdateAI", "d6/dae/a13874.html#a7434b08d12d3f0902d1944b75323560c", null ],
-    [ "_scheduler", "d6/dae/a13874.html#a9d8ca85e7bbd3cc9c61c2bbb38b7d222", null ],
-    [ "_targetGUID", "d6/dae/a13874.html#a801a6811124a7db3a31ec492ef954b20", null ]
+    [ "npc_dark_iron_guzzler", "d6/dae/a13874.html#a53ce152d0bf8e727ed0b385bb2293363", null ],
+    [ "AttackStart", "d6/dae/a13874.html#a47295b69eaecf3c001c43a1550dd1a80", null ],
+    [ "DamageTaken", "d6/dae/a13874.html#affd1f78b5c1df26824b08416d6bd03a1", null ],
+    [ "FindNextKeg", "d6/dae/a13874.html#ac063799097f89c09f30bed79151e8ed6", null ],
+    [ "GetTarget", "d6/dae/a13874.html#a076305d37ce348b24b35f7956385e8fc", null ],
+    [ "JustEngagedWith", "d6/dae/a13874.html#ae8142b745e493ab4a77b9df12ea9474d", null ],
+    [ "KilledUnit", "d6/dae/a13874.html#a018513f23158fcd6f929a90cfecfde4c", null ],
+    [ "MoveInLineOfSight", "d6/dae/a13874.html#aaa4df56f1f587029b24626ae1aca552a", null ],
+    [ "MovementInform", "d6/dae/a13874.html#ada6c7f97e25eb545926d6531495bb397", null ],
+    [ "Reset", "d6/dae/a13874.html#af608024d4b41fa218a7baeae9bee72ef", null ],
+    [ "SayText", "d6/dae/a13874.html#a872bdd2e2ff2b72c983658c63d74e2c3", null ],
+    [ "SpellHit", "d6/dae/a13874.html#ae195867416885e570c2c9a4837ac33c1", null ],
+    [ "UpdateAI", "d6/dae/a13874.html#a5decab6f76369ec9ce037dd050898423", null ],
+    [ "attacking", "d6/dae/a13874.html#a18a1d7e61b99819666366c6791154e01", null ],
+    [ "targetGUID", "d6/dae/a13874.html#a620df1502373954020a910853cb6dd3a", null ],
+    [ "timer", "d6/dae/a13874.html#a9748d587b61c148a27be690a6354473f", null ]
 ];

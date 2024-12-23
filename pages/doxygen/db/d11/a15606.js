@@ -1,11 +1,11 @@
 var a15606 =
 [
-    [ "boss_sartharion_tenebronAI", "db/d11/a15606.html#a9996fce9320390ead967ad82bcef9554", null ],
-    [ "ClearInstance", "db/d11/a15606.html#af9e0459fff845bf4f6e53d06e4a9447f", null ],
-    [ "ExecuteEvent", "db/d11/a15606.html#a6a7f8255aa1dcbb979354467d0e6949d", null ],
-    [ "HandleExtraEvent", "db/d11/a15606.html#ad78a939f0584b775e29341ff08f0eee1", null ],
-    [ "JustDied", "db/d11/a15606.html#ac3e03263a174dd147854fa6d714ec003", null ],
-    [ "JustSummoned", "db/d11/a15606.html#a50d000b322e3d3a61cc02dea96c2979d", null ],
-    [ "Reset", "db/d11/a15606.html#a1aa8277ddc91989ed7480d4221a6e534", null ],
-    [ "summons2", "db/d11/a15606.html#a5060b01175ece5ad782e96bdf3d2c82d", null ]
+    [ "spell_hadronox_summon_periodic_aura", "db/d11/a15606.html#afcca15cddf71c0d46bd811eab9174f1a", null ],
+    [ "HandlePeriodic", "db/d11/a15606.html#a048695baf71d307e5aaa00e54586c9f7", null ],
+    [ "OnApply", "db/d11/a15606.html#a4466547bc1a5259a33354f2008d6cce7", null ],
+    [ "PrepareAuraScript", "db/d11/a15606.html#a4205560054e5baed86aecba3b98fc202", null ],
+    [ "Register", "db/d11/a15606.html#a09efdcddaed4af2833139ca20ef94376", null ],
+    [ "Validate", "db/d11/a15606.html#a20827683249c17625242e205bb51f9e8", null ],
+    [ "_delay", "db/d11/a15606.html#a191d7eec948e0753835bd41eef66f1ec", null ],
+    [ "_spellEntry", "db/d11/a15606.html#a52e45512e2bbe34b0bdbfaa273aeb997", null ]
 ];

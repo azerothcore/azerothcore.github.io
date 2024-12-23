@@ -1,9 +1,5 @@
 var a23890 =
 [
-    [ "npc_korkron_or_wildhammer", "d6/d23/a23890.html#a3d2252865e0e540dd76aaf87ff62a83c", null ],
-    [ "IsSummonedBy", "d6/d23/a23890.html#aa63e935c2d64716f22f4e74e43e6b639", null ],
-    [ "JustDied", "d6/d23/a23890.html#a2b216f372b3681b4c96a711568c2a93b", null ],
-    [ "MovementInform", "d6/d23/a23890.html#a598dada110aff99a3c36f3037dcf8bf4", null ],
-    [ "Reset", "d6/d23/a23890.html#a67d5cf4a8418ab3f07a387f1021080df", null ],
-    [ "_playerGUID", "d6/d23/a23890.html#a5f1a79c10b5363ee24b3941c54ff10d7", null ]
+    [ "creature", "d6/d23/a23890.html#ab4b8f837dbfb42bcbb161f81f846aad9", null ],
+    [ "Timer", "d6/d23/a23890.html#a2be497dc190c1f01f939e12083739882", null ]
 ];

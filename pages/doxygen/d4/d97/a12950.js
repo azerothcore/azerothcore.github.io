@@ -1,12 +1,14 @@
 var a12950 =
 [
-    [ "boss_sacrolash", "d4/d97/a12950.html#a6e251340b2ba8a8300611cf229b93095", null ],
-    [ "DoAction", "d4/d97/a12950.html#adbcbd24a90549978032d31d1beeaa4e6", null ],
-    [ "EnterEvadeMode", "d4/d97/a12950.html#a84d7f8764eb5b6816cdd095158a434b1", null ],
-    [ "JustDied", "d4/d97/a12950.html#a17c995220572cf803c36470ca80840e2", null ],
-    [ "JustEngagedWith", "d4/d97/a12950.html#a822576bf8588d4e45f1532e1980cc7c7", null ],
-    [ "JustSummoned", "d4/d97/a12950.html#a94214bc45414f61ff53102d6136b7b5c", null ],
-    [ "KilledUnit", "d4/d97/a12950.html#a4d99da498db0e5a60c7c25fcb91e5270", null ],
-    [ "Reset", "d4/d97/a12950.html#aa3128dae87d181e7ab93cf3a13723982", null ],
-    [ "_isSisterDead", "d4/d97/a12950.html#a248d37df91c82069321fc5ea8b1e885d", null ]
+    [ "boss_sothos", "d4/d97/a12950.html#a2e7283078d4049ff339f29c3fdfc69cf", null ],
+    [ "DoAction", "d4/d97/a12950.html#a1433dddccb71896016bc014bdf92b453", null ],
+    [ "IsSummonedBy", "d4/d97/a12950.html#aaaf7e317f146bb296c4ba6f57c5f72d4", null ],
+    [ "JustDied", "d4/d97/a12950.html#a2d634aade37ea887f6bbf4b43baf061d", null ],
+    [ "JustEngagedWith", "d4/d97/a12950.html#ace8a0c92ec3ab3e76cceb63c5b4a277b", null ],
+    [ "Reset", "d4/d97/a12950.html#a042578148cae9a0b9befb7c5747a8e99", null ],
+    [ "UpdateAI", "d4/d97/a12950.html#a35e247fa9bfe00927b844af8d0ef916f", null ],
+    [ "_jarienDied", "d4/d97/a12950.html#a74725d8a4b3ce9fbfb9f06868fa02055", null ],
+    [ "_phase", "d4/d97/a12950.html#a5719cd4a85527c256fb7f048be6489f7", null ],
+    [ "_scheduler", "d4/d97/a12950.html#a5e18256858cd594b45628508500e5f1a", null ],
+    [ "_talked", "d4/d97/a12950.html#a3f3c0d0a079aad1306b638e8ff34f2f6", null ]
 ];

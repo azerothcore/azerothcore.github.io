@@ -1,5 +1,6 @@
 var a14706 =
 [
-    [ "boss_kri", "d6/d68/a14706.html#a0a95f8d2a380ab48ffd5a034e012cc2c", null ],
-    [ "JustEngagedWith", "d6/d68/a14706.html#ab2169ec49ecbff2ee1460e38bd1a163e", null ]
+    [ "go_ossirian_crystalAI", "d4/de3/a14710.html", "d4/de3/a14710" ],
+    [ "go_ossirian_crystal", "d6/d68/a14706.html#a783f0f0570ee0f667920e29613b565b2", null ],
+    [ "GetAI", "d6/d68/a14706.html#a2f7b12eddc6504917614913e347ec0a0", null ]
 ];

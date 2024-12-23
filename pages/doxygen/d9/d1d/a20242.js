@@ -1,6 +1,11 @@
 var a20242 =
 [
-    [ "boss_thorim_lightning_orbAI", "d2/d9b/a20246.html", "d2/d9b/a20246" ],
-    [ "boss_thorim_lightning_orb", "d9/d1d/a20242.html#a2aa29e8d2b3fb10e8be39d8fc3112ac2", null ],
-    [ "GetAI", "d9/d1d/a20242.html#ad24d28866145c4fccf7a3971856fa87f", null ]
+    [ "npc_ulduar_expedition_engineerAI", "d9/d1d/a20242.html#a48e29edad38f8ecbab54579203c93044", null ],
+    [ "Reset", "d9/d1d/a20242.html#a8a68e3a58133913d0eb0bf9fd2532db2", null ],
+    [ "SetData", "d9/d1d/a20242.html#a31db1ae61777b8f1a38d381e785ce158", null ],
+    [ "UpdateAI", "d9/d1d/a20242.html#ab6d29aaae95038282fece78479448459", null ],
+    [ "fixingGUID", "d9/d1d/a20242.html#ae0ba3ddbff054a948709e70f0bf9961a", null ],
+    [ "pInstance", "d9/d1d/a20242.html#a6b858d46eda05493ec0cac22e174854c", null ],
+    [ "timer", "d9/d1d/a20242.html#a926b343da3d3953d386b18f24bc72867", null ],
+    [ "working", "d9/d1d/a20242.html#ab8e436472efd91f2d400c02c1b500746", null ]
 ];

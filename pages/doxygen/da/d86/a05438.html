@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::StringConvertImpl::For&lt; T, typename &gt; Struct Template Reference</title>
+<title>AzerothCore: Acore::Impl::StringConvertImpl::For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt; Struct Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,20 +104,151 @@ $(document).ready(function(){initNavTree('da/d86/a05438.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">Acore::Impl::StringConvertImpl::For&lt; T, typename &gt; Struct Template Reference</div></div>
+  <div class="summary">
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="../../d1/dd6/a05435.html">List of all members</a>  </div>
+  <div class="headertitle"><div class="title">Acore::Impl::StringConvertImpl::For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt; Struct Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">StringConvert.h</a>&quot;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a6992aa92f56607d9546dae7ab5d1af74"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; T &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/a05438.html#a6992aa92f56607d9546dae7ab5d1af74">FromString</a> (std::string_view str, int base=10)</td></tr>
+<tr class="separator:a6992aa92f56607d9546dae7ab5d1af74"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8940ea78f2f947274a2653da04b0a3"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/d86/a05438.html#abf8940ea78f2f947274a2653da04b0a3">ToString</a> (T val)</td></tr>
+<tr class="separator:abf8940ea78f2f947274a2653da04b0a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;typename T, typename = void&gt;<br />
-struct Acore::Impl::StringConvertImpl::For&lt; T, typename &gt;</div></div></div><!-- contents -->
+<div class="textblock"><div class="compoundTemplParams">template&lt;typename T&gt;<br />
+struct Acore::Impl::StringConvertImpl::For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6992aa92f56607d9546dae7ab5d1af74" name="a6992aa92f56607d9546dae7ab5d1af74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6992aa92f56607d9546dae7ab5d1af74">&#9670;&#160;</a></span>FromString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d0/d39/a00314.html#aaf8f4d77efd311ec7818ab421294ef82">Optional</a>&lt; T &gt; <a class="el" href="../../d9/da5/a05434.html">Acore::Impl::StringConvertImpl::For</a>&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;::FromString </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em> = <code>10</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   42</span>        {</div>
+<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">if</span> (base == 0)</div>
+<div class="line"><span class="lineno">   44</span>            {</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/dee/a00383.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(str.substr(0, 2), <span class="stringliteral">&quot;0x&quot;</span>))</div>
+<div class="line"><span class="lineno">   46</span>                {</div>
+<div class="line"><span class="lineno">   47</span>                    base = 16;</div>
+<div class="line"><span class="lineno">   48</span>                    str.remove_prefix(2);</div>
+<div class="line"><span class="lineno">   49</span>                }</div>
+<div class="line"><span class="lineno">   50</span>                <span class="keywordflow">else</span> <span class="keywordflow">if</span> (<a class="code hl_function" href="../../da/dee/a00383.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a>(str.substr(0, 2), <span class="stringliteral">&quot;0b&quot;</span>))</div>
+<div class="line"><span class="lineno">   51</span>                {</div>
+<div class="line"><span class="lineno">   52</span>                    base = 2;</div>
+<div class="line"><span class="lineno">   53</span>                    str.remove_prefix(2);</div>
+<div class="line"><span class="lineno">   54</span>                }</div>
+<div class="line"><span class="lineno">   55</span>                <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   56</span>                {</div>
+<div class="line"><span class="lineno">   57</span>                    base = 10;</div>
+<div class="line"><span class="lineno">   58</span>                }</div>
+<div class="line"><span class="lineno">   59</span> </div>
+<div class="line"><span class="lineno">   60</span>                <span class="keywordflow">if</span> (str.empty())</div>
+<div class="line"><span class="lineno">   61</span>                {</div>
+<div class="line"><span class="lineno">   62</span>                    <span class="keywordflow">return</span> std::nullopt;</div>
+<div class="line"><span class="lineno">   63</span>                }</div>
+<div class="line"><span class="lineno">   64</span>            }</div>
+<div class="line"><span class="lineno">   65</span> </div>
+<div class="line"><span class="lineno">   66</span>            <span class="keywordtype">char</span> <span class="keyword">const</span>* <span class="keyword">const</span> start = str.data();</div>
+<div class="line"><span class="lineno">   67</span>            <span class="keywordtype">char</span> <span class="keyword">const</span>* <span class="keyword">const</span> end = (start + str.length());</div>
+<div class="line"><span class="lineno">   68</span> </div>
+<div class="line"><span class="lineno">   69</span>            T val;</div>
+<div class="line"><span class="lineno">   70</span>            std::from_chars_result <span class="keyword">const</span> res = std::from_chars(start, end, val, base);</div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">if</span> ((res.ptr == end) &amp;&amp; (res.ec == std::errc()))</div>
+<div class="line"><span class="lineno">   72</span>            {</div>
+<div class="line"><span class="lineno">   73</span>                <span class="keywordflow">return</span> val;</div>
+<div class="line"><span class="lineno">   74</span>            }</div>
+<div class="line"><span class="lineno">   75</span>            <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">   76</span>            {</div>
+<div class="line"><span class="lineno">   77</span>                <span class="keywordflow">return</span> std::nullopt;</div>
+<div class="line"><span class="lineno">   78</span>            }</div>
+<div class="line"><span class="lineno">   79</span>        }</div>
+<div class="ttc" id="aa00383_html_a131b997858d0d4c6825222d64948db73"><div class="ttname"><a href="../../da/dee/a00383.html#a131b997858d0d4c6825222d64948db73">StringEqualI</a></div><div class="ttdeci">bool StringEqualI(std::string_view a, std::string_view b)</div><div class="ttdef"><b>Definition:</b> Util.cpp:592</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00592">StringEqualI()</a>.</p>
+
+</div>
+</div>
+<a id="abf8940ea78f2f947274a2653da04b0a3" name="abf8940ea78f2f947274a2653da04b0a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8940ea78f2f947274a2653da04b0a3">&#9670;&#160;</a></span>ToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string <a class="el" href="../../d9/da5/a05434.html">Acore::Impl::StringConvertImpl::For</a>&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;::ToString </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>        {</div>
+<div class="line"><span class="lineno">   83</span>            std::string buf(20, <span class="charliteral">&#39;\0&#39;</span>); <span class="comment">/* 2^64 is 20 decimal characters, -(2^63) is 20 including the sign */</span></div>
+<div class="line"><span class="lineno">   84</span>            <span class="keywordtype">char</span>* <span class="keyword">const</span> start = buf.data();</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordtype">char</span>* <span class="keyword">const</span> end = (start + buf.length());</div>
+<div class="line"><span class="lineno">   86</span>            std::to_chars_result <span class="keyword">const</span> res = std::to_chars(start, end, val);</div>
+<div class="line"><span class="lineno">   87</span>            <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(res.ec == std::errc());</div>
+<div class="line"><span class="lineno">   88</span>            buf.resize(res.ptr - start);</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">return</span> buf;</div>
+<div class="line"><span class="lineno">   90</span>        }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../d6/d7d/a04707.html">StringConvertImpl</a></li><li class="navelem"><a class="el" href="../../da/d86/a05438.html">For</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d7b/a04698.html">Impl</a></li><li class="navelem"><a class="el" href="../../d8/d7a/a04708.html">StringConvertImpl</a></li><li class="navelem"><a class="el" href="../../da/d86/a05438.html">For&lt; T, std::enable_if_t&lt; std::is_integral_v&lt; T &gt; &amp;&amp;!std::is_same_v&lt; T, bool &gt; &gt; &gt;</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

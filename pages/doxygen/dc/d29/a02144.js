@@ -1,7 +1,7 @@
 var a02144 =
 [
-    [ "boss_mr_smite", "d9/d21/a12246.html", "d9/d21/a12246" ],
-    [ "boss_mr_smite::boss_mr_smiteAI", "d5/d45/a12250.html", "d5/d45/a12250" ],
+    [ "boss_mr_smite", "d2/d7b/a12302.html", "d2/d7b/a12302" ],
+    [ "boss_mr_smite::boss_mr_smiteAI", "d4/d9f/a12306.html", "d4/d9f/a12306" ],
     [ "Spells", "dc/d29/a02144.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

@@ -1,8 +1,8 @@
 var a22002 =
 [
-    [ "go_wg_vehicle_teleporterAI", "d5/def/a22002.html#af84e73765b1a4d810b41613824999186", null ],
-    [ "IsFriendly", "d5/def/a22002.html#adca817c8919958db888d5e9c759ad545", null ],
-    [ "IsValidVehicle", "d5/def/a22002.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
-    [ "UpdateAI", "d5/def/a22002.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
-    [ "_checkTimer", "d5/def/a22002.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
+    [ "npc_hyldsmeet_protodrakeAI", "d5/def/a22002.html#a30794392a32b1323fb0a86615b341741", null ],
+    [ "PassengerBoarded", "d5/def/a22002.html#acb699d519bf79702a34b7d9910fe7c9e", null ],
+    [ "UpdateAI", "d5/def/a22002.html#afd2168f8dc7328898f5e769c31c6da5a", null ],
+    [ "_accessoryRespawnTimer", "d5/def/a22002.html#a4c6b4236bf35278d05c4b78f1eda6b75", null ],
+    [ "_vehicleKit", "d5/def/a22002.html#aba68a138ef44af7d012c8c7dd4c06c6d", null ]
 ];

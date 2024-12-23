@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SQLElementData Struct Reference</title>
+<title>AzerothCore: SQLOperation Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,52 +105,263 @@ $(document).ready(function(){initNavTree('d2/d90/a05770.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="../../d5/d1a/a05767.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SQLElementData Struct Reference</div></div>
+  <div class="headertitle"><div class="title">SQLOperation Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &quot;<a class="el" href="../../">SQLOperation.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for SQLOperation:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d2/d90/a05770.png" usemap="#SQLOperation_map" alt=""/>
+  <map id="SQLOperation_map" name="SQLOperation_map">
+<area href="../../df/da8/a05582.html" alt="BasicStatementTask" shape="rect" coords="0,56,162,80"/>
+<area href="../../d6/dea/a05610.html" alt="PingOperation" shape="rect" coords="172,56,334,80"/>
+<area href="../../d6/dcf/a05722.html" alt="PreparedStatementTask" shape="rect" coords="344,56,506,80"/>
+<area href="../../d3/d16/a05746.html" alt="SQLQueryHolderTask" shape="rect" coords="516,56,678,80"/>
+<area href="../../de/db9/a05778.html" alt="TransactionTask" shape="rect" coords="688,56,850,80"/>
+<area href="../../d4/d98/a05782.html" alt="TransactionWithResultTask" shape="rect" coords="688,112,850,136"/>
+  </map>
+</div></div>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
+Public Member Functions</h2></td></tr>
+<tr class="memitem:a0f69657715b7d24458227b22a3b40b1a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#a0f69657715b7d24458227b22a3b40b1a">SQLOperation</a> ()=default</td></tr>
+<tr class="separator:a0f69657715b7d24458227b22a3b40b1a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa21cafba57dd35ed2b132ef3d18c71b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#afa21cafba57dd35ed2b132ef3d18c71b">~SQLOperation</a> ()=default</td></tr>
+<tr class="separator:afa21cafba57dd35ed2b132ef3d18c71b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae56c06a313c4be5d0e45f5481996f1d1"><td class="memItemLeft" align="right" valign="top">virtual int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#ae56c06a313c4be5d0e45f5481996f1d1">call</a> ()</td></tr>
+<tr class="separator:ae56c06a313c4be5d0e45f5481996f1d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff1090554bc4a6fe7a33270e63416e19"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#aff1090554bc4a6fe7a33270e63416e19">Execute</a> ()=0</td></tr>
+<tr class="separator:aff1090554bc4a6fe7a33270e63416e19"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52cbd1d9b8a298ab3eade0010b5e3166"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#a52cbd1d9b8a298ab3eade0010b5e3166">SetConnection</a> (<a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *con)</td></tr>
+<tr class="separator:a52cbd1d9b8a298ab3eade0010b5e3166"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:ae5400b2932fe1a8c514c38fb6bab392f"><td class="memItemLeft" align="right" valign="top">std::variant&lt; <a class="el" href="../../d6/dcf/a05722.html">PreparedStatementBase</a> *, std::string &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#ae5400b2932fe1a8c514c38fb6bab392f">element</a></td></tr>
-<tr class="separator:ae5400b2932fe1a8c514c38fb6bab392f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb3f8dc82da740b1aaae165cb6a5b218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d1/dce/a04559.html#abb4a6cfcce013f18b29779f1f435e627">SQLElementDataType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#afb3f8dc82da740b1aaae165cb6a5b218">type</a></td></tr>
-<tr class="separator:afb3f8dc82da740b1aaae165cb6a5b218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf322db48064fcf4528f713f857f1b40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">m_conn</a> {nullptr}</td></tr>
+<tr class="separator:adf322db48064fcf4528f713f857f1b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a91b34b81ed99ca0da54d825fec98ab6e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#a91b34b81ed99ca0da54d825fec98ab6e">SQLOperation</a> (<a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> const &amp;right)=delete</td></tr>
+<tr class="separator:a91b34b81ed99ca0da54d825fec98ab6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac31349ed45ea051540ac345bd4b814d5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d90/a05770.html#ac31349ed45ea051540ac345bd4b814d5">operator=</a> (<a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> const &amp;right)=delete</td></tr>
+<tr class="separator:ac31349ed45ea051540ac345bd4b814d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="ae5400b2932fe1a8c514c38fb6bab392f" name="ae5400b2932fe1a8c514c38fb6bab392f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5400b2932fe1a8c514c38fb6bab392f">&#9670;&#160;</a></span>element</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a0f69657715b7d24458227b22a3b40b1a" name="a0f69657715b7d24458227b22a3b40b1a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f69657715b7d24458227b22a3b40b1a">&#9670;&#160;</a></span>SQLOperation() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SQLOperation::SQLOperation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afa21cafba57dd35ed2b132ef3d18c71b" name="afa21cafba57dd35ed2b132ef3d18c71b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa21cafba57dd35ed2b132ef3d18c71b">&#9670;&#160;</a></span>~SQLOperation()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual SQLOperation::~SQLOperation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a91b34b81ed99ca0da54d825fec98ab6e" name="a91b34b81ed99ca0da54d825fec98ab6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91b34b81ed99ca0da54d825fec98ab6e">&#9670;&#160;</a></span>SQLOperation() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">SQLOperation::SQLOperation </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ae56c06a313c4be5d0e45f5481996f1d1" name="ae56c06a313c4be5d0e45f5481996f1d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae56c06a313c4be5d0e45f5481996f1d1">&#9670;&#160;</a></span>call()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual int SQLOperation::call </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   48</span>    {</div>
+<div class="line"><span class="lineno">   49</span>        <a class="code hl_function" href="../../d2/d90/a05770.html#aff1090554bc4a6fe7a33270e63416e19">Execute</a>();</div>
+<div class="line"><span class="lineno">   50</span>        <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   51</span>    }</div>
+<div class="ttc" id="aa05770_html_aff1090554bc4a6fe7a33270e63416e19"><div class="ttname"><a href="../../d2/d90/a05770.html#aff1090554bc4a6fe7a33270e63416e19">SQLOperation::Execute</a></div><div class="ttdeci">virtual bool Execute()=0</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00034">DatabaseWorker::WorkerThread()</a>.</p>
+
+</div>
+</div>
+<a id="aff1090554bc4a6fe7a33270e63416e19" name="aff1090554bc4a6fe7a33270e63416e19"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff1090554bc4a6fe7a33270e63416e19">&#9670;&#160;</a></span>Execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool SQLOperation::Execute </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/da8/a05582.html#a7f500736cc0ec4cddf94510927989d4d">BasicStatementTask</a>, <a class="el" href="../../d6/dea/a05610.html#a90b33b3679699a6a20fcd1e61ed7f737">PingOperation</a>, <a class="el" href="../../d6/dcf/a05722.html#ad4058410f5eba4f0f935696d38ba85ab">PreparedStatementTask</a>, <a class="el" href="../../d3/d16/a05746.html#a1dc2cdfee574ecbb8fd7bc595ca2f170">SQLQueryHolderTask</a>, <a class="el" href="../../de/db9/a05778.html#aa1c1df059d15fe2077ceea5cfb51ba22">TransactionTask</a>, and <a class="el" href="../../d4/d98/a05782.html#a2a05fb2aa69032797f2065cb46fe7dc4">TransactionWithResultTask</a>.</p>
+
+</div>
+</div>
+<a id="ac31349ed45ea051540ac345bd4b814d5" name="ac31349ed45ea051540ac345bd4b814d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac31349ed45ea051540ac345bd4b814d5">&#9670;&#160;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> &amp; SQLOperation::operator= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d2/d90/a05770.html">SQLOperation</a> const &amp;&#160;</td>
+          <td class="paramname"><em>right</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a52cbd1d9b8a298ab3eade0010b5e3166" name="a52cbd1d9b8a298ab3eade0010b5e3166"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52cbd1d9b8a298ab3eade0010b5e3166">&#9670;&#160;</a></span>SetConnection()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void SQLOperation::SetConnection </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a> *&#160;</td>
+          <td class="paramname"><em>con</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   54</span>{ <a class="code hl_variable" href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">m_conn</a> = con; }</div>
+<div class="ttc" id="aa05770_html_adf322db48064fcf4528f713f857f1b40"><div class="ttname"><a href="../../d2/d90/a05770.html#adf322db48064fcf4528f713f857f1b40">SQLOperation::m_conn</a></div><div class="ttdeci">MySQLConnection * m_conn</div><div class="ttdef"><b>Definition:</b> SQLOperation.h:56</div></div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00034">DatabaseWorker::WorkerThread()</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="adf322db48064fcf4528f713f857f1b40" name="adf322db48064fcf4528f713f857f1b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf322db48064fcf4528f713f857f1b40">&#9670;&#160;</a></span>m_conn</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::variant&lt;<a class="el" href="../../d6/dcf/a05722.html">PreparedStatementBase</a>*, std::string&gt; SQLElementData::element</td>
+          <td class="memname"><a class="el" href="../../d9/d43/a05642.html">MySQLConnection</a>* SQLOperation::m_conn {nullptr}</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00033">TransactionBase::Append()</a>, and <a class="el" href="../../#l00033">Transaction&lt; T &gt;::Append()</a>.</p>
-
-</div>
-</div>
-<a id="afb3f8dc82da740b1aaae165cb6a5b218" name="afb3f8dc82da740b1aaae165cb6a5b218"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb3f8dc82da740b1aaae165cb6a5b218">&#9670;&#160;</a></span>type</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d1/dce/a04559.html#abb4a6cfcce013f18b29779f1f435e627">SQLElementDataType</a> SQLElementData::type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00033">TransactionBase::Append()</a>, and <a class="el" href="../../#l00033">Transaction&lt; T &gt;::Append()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00039">BasicStatementTask::Execute()</a>, <a class="el" href="../../#l00047">PingOperation::Execute()</a>, <a class="el" href="../../#l00084">PreparedStatementTask::Execute()</a>, <a class="el" href="../../#l00077">SQLQueryHolderTask::Execute()</a>, and <a class="el" href="../../#l00131">TransactionTask::TryExecute()</a>.</p>
 
 </div>
 </div>
@@ -159,8 +370,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/d90/a05770.html">SQLElementData</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/d90/a05770.html">SQLOperation</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

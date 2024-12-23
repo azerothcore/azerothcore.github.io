@@ -1,13 +1,13 @@
 var a02231 =
 [
-    [ "boss_muru", "dc/d4a/a13102.html", "dc/d4a/a13102" ],
-    [ "boss_entropius", "d8/d6d/a13106.html", "d8/d6d/a13106" ],
-    [ "npc_singularity", "d8/d4f/a13110.html", "d8/d4f/a13110" ],
-    [ "spell_muru_summon_blood_elves_periodic_aura", "de/d72/a13114.html", "de/d72/a13114" ],
-    [ "spell_muru_darkness_aura", "de/dfc/a13118.html", "de/dfc/a13118" ],
-    [ "spell_entropius_void_zone_visual_aura", "d2/dd9/a13122.html", "d2/dd9/a13122" ],
-    [ "spell_entropius_black_hole_effect", "d3/d1e/a13126.html", "d3/d1e/a13126" ],
-    [ "spell_entropius_negative_energy_periodic", "d9/d61/a13130.html", "d9/d61/a13130" ],
+    [ "boss_muru", "d1/d2d/a13158.html", "d1/d2d/a13158" ],
+    [ "boss_entropius", "df/df0/a13162.html", "df/df0/a13162" ],
+    [ "npc_singularity", "d8/d9e/a13166.html", "d8/d9e/a13166" ],
+    [ "spell_muru_summon_blood_elves_periodic_aura", "de/d6b/a13170.html", "de/d6b/a13170" ],
+    [ "spell_muru_darkness_aura", "db/d69/a13174.html", "db/d69/a13174" ],
+    [ "spell_entropius_void_zone_visual_aura", "df/d50/a13178.html", "df/d50/a13178" ],
+    [ "spell_entropius_black_hole_effect", "d6/dc0/a13182.html", "d6/dc0/a13182" ],
+    [ "spell_entropius_negative_energy_periodic", "de/d78/a13186.html", "de/d78/a13186" ],
     [ "Spells", "d7/da1/a02231.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

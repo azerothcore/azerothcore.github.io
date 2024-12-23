@@ -1,6 +1,7 @@
 var a15326 =
 [
-    [ "HandleDummy", "da/dff/a15326.html#a2750ae788168e7496ea2345c5535509c", null ],
-    [ "PrepareSpellScript", "da/dff/a15326.html#a66b4187decbfb0b5623ce5630a8fa9d3", null ],
-    [ "Register", "da/dff/a15326.html#ab6c961d89d22761402eb4f5881cbd318", null ]
+    [ "npc_giltharesAI", "d4/d74/a15330.html", "d4/d74/a15330" ],
+    [ "npc_gilthares", "da/dff/a15326.html#af1e0746350b32b68825710e1c3ed91a5", null ],
+    [ "GetAI", "da/dff/a15326.html#a96293e28237a092c64f6a91d91bc7ff3", null ],
+    [ "OnQuestAccept", "da/dff/a15326.html#a018cc6240a79216acb371241f63e3234", null ]
 ];

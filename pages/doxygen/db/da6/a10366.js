@@ -1,11 +1,9 @@
 var a10366 =
 [
-    [ "GuildSetRankPermissions", "db/da6/a10366.html#a8b3fd3e4da77c6fb70db28721ec46714", null ],
-    [ "Read", "db/da6/a10366.html#a534550862a3c634697e8277f31ad4c25", null ],
-    [ "Flags", "db/da6/a10366.html#adea48131efa7c05b84c4de596933bfbe", null ],
-    [ "RankID", "db/da6/a10366.html#a0c4a8b29918d69580c749e3b48485515", null ],
-    [ "RankName", "db/da6/a10366.html#a24dde2aa8dd0ae1b9e8b37317334e0d4", null ],
-    [ "TabFlags", "db/da6/a10366.html#af19e6fd8ddfe980f8c1f1110e9332bad", null ],
-    [ "TabWithdrawItemLimit", "db/da6/a10366.html#a9f5ddb30858ae9eca7fcd2ad9fa8ea0c", null ],
-    [ "WithdrawGoldLimit", "db/da6/a10366.html#a1c02002facce05010028ac8dcae7fa3f", null ]
+    [ "GuildRoster", "db/da6/a10366.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
+    [ "Write", "db/da6/a10366.html#a544a539999827d4eb8923cbbcdf42bac", null ],
+    [ "InfoText", "db/da6/a10366.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
+    [ "MemberData", "db/da6/a10366.html#a964fc72bf3ada77c171fd1f691449241", null ],
+    [ "RankData", "db/da6/a10366.html#a67b0a12fae93c5807030c1062f328abb", null ],
+    [ "WelcomeText", "db/da6/a10366.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
 ];

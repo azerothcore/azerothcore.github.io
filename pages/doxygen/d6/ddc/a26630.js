@@ -1,5 +1,6 @@
 var a26630 =
 [
-    [ "achievement_bg_ic_mowed_down", "d6/ddc/a26630.html#ab05387d1e14958e87123bd0fc2188445", null ],
-    [ "OnCheck", "d6/ddc/a26630.html#a385e09c605084900f374090e5e19c24f", null ]
+    [ "FilterTargets", "d6/ddc/a26630.html#af85da0bcf8c311472e6a75667fa125d0", null ],
+    [ "PrepareSpellScript", "d6/ddc/a26630.html#ad7478a1a70ebc52eda1c57dd4f143b67", null ],
+    [ "Register", "d6/ddc/a26630.html#a2fab1592d19331239b1ef63045389886", null ]
 ];

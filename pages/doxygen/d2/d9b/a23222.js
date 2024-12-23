@@ -1,17 +1,10 @@
 var a23222 =
 [
-    [ "boss_magtheridon", "d2/d9b/a23222.html#a3d718a101047cd90448577ee520adf5e", null ],
-    [ "DoAction", "d2/d9b/a23222.html#a3015fd8503a0da84e7b78c551587f8a3", null ],
-    [ "JustDied", "d2/d9b/a23222.html#adca91ab2fbfe88cc79b19aaa4bff74cf", null ],
-    [ "JustEngagedWith", "d2/d9b/a23222.html#a93fb4d888ebd6273bca0a128c8303996", null ],
-    [ "KilledUnit", "d2/d9b/a23222.html#a42aa45e199f76f567bc7a677f3d3aedf", null ],
-    [ "Reset", "d2/d9b/a23222.html#a0999e13f434699bb14c2ef6d2467a043", null ],
-    [ "ScheduleCombatEvents", "d2/d9b/a23222.html#ae9b2f0929c2309e6bd57cc1241452d61", null ],
-    [ "UpdateAI", "d2/d9b/a23222.html#a656e9595b30d014c54cc456d7f81f657", null ],
-    [ "_castingQuake", "d2/d9b/a23222.html#ad1c95705a7018b4eb62cbee6f20fb65a", null ],
-    [ "_channelersKilled", "d2/d9b/a23222.html#a305f71322dbe10e12588ebe0c45eff5f", null ],
-    [ "_currentPhase", "d2/d9b/a23222.html#a2871d60efe88d3901bad9a4c5249fcfb", null ],
-    [ "_interruptScheduler", "d2/d9b/a23222.html#aae56fde097d925bcf58be1d8e6bf50f4", null ],
-    [ "_magReleased", "d2/d9b/a23222.html#a6dd4891771771acf5456a129113e864e", null ],
-    [ "_recentlySpoken", "d2/d9b/a23222.html#af860281db4d20e3d3b9589657c921a50", null ]
+    [ "boss_kelidan_the_breaker", "d2/d9b/a23222.html#a6774e4a0315b30266f6c55da608cd193", null ],
+    [ "ApplyImmunities", "d2/d9b/a23222.html#adc84fae23d68c0c75ac21c3f3b32973a", null ],
+    [ "DoAction", "d2/d9b/a23222.html#a3fa0117ce1079f651025116684f5e2f4", null ],
+    [ "JustDied", "d2/d9b/a23222.html#a4d3f0171b7889a96f19999b28e549866", null ],
+    [ "JustEngagedWith", "d2/d9b/a23222.html#a12eb8fb73353042e4bb4ea31cbdc1c3c", null ],
+    [ "KilledUnit", "d2/d9b/a23222.html#a1c1613b165c25025a2a11bf3c38d6747", null ],
+    [ "Reset", "d2/d9b/a23222.html#a46c592f6c46ea568ad368702e1640e06", null ]
 ];

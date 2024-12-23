@@ -1,7 +1,9 @@
 var a26330 =
 [
-    [ "HandleProc", "d2/db0/a26330.html#a7e358f231f3ee72fcb95432a4705312a", null ],
-    [ "PrepareAuraScript", "d2/db0/a26330.html#acda7b1b6e91a433b72c2a5dd0e165685", null ],
-    [ "Register", "d2/db0/a26330.html#a33cd336a6ca68e66e6046cfdac776fee", null ],
-    [ "Validate", "d2/db0/a26330.html#a5f2c7d754a37e6ae02d4aaec758841e5", null ]
+    [ "Absorb", "d2/db0/a26330.html#adf0783559d4ca95bc09a5ef217291bc9", null ],
+    [ "CalculateAmount", "d2/db0/a26330.html#a820c27c2161063307a10903cbbc5c0fa", null ],
+    [ "Load", "d2/db0/a26330.html#a7b71990051faaa083110408c13b8401f", null ],
+    [ "PrepareAuraScript", "d2/db0/a26330.html#ad7a3e297fcd38fc9d020a3c3db32ace2", null ],
+    [ "Register", "d2/db0/a26330.html#aa443ab0eed74229883884fbced0426d7", null ],
+    [ "absorbPct", "d2/db0/a26330.html#a55c4409f74c86853d0bf5b157f6c194c", null ]
 ];

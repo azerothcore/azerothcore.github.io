@@ -1,8 +1,9 @@
 var a21978 =
 [
-    [ "npc_wg_queueAI", "da/d93/a21982.html", "da/d93/a21982" ],
-    [ "npc_wg_queue", "da/d10/a21978.html#a2cc9825e08e982ef195f117a4512c4ae", null ],
-    [ "GetAI", "da/d10/a21978.html#ad2d7746a32b520d37ea826b03627de4e", null ],
-    [ "OnGossipHello", "da/d10/a21978.html#a20fc6ae4e4377f237a620b7f5b1de8ee", null ],
-    [ "OnGossipSelect", "da/d10/a21978.html#afb707da5d85affc65f7ab5a0fc018c93", null ]
+    [ "npc_brunnhildar_prisonerAI", "da/d10/a21978.html#ad650885c7f615f8b27ba20203c9fbb6f", null ],
+    [ "JustRespawned", "da/d10/a21978.html#a15843fcdc5d9eb34df7869b56a0b16ac", null ],
+    [ "Reset", "da/d10/a21978.html#ac9ba0806b9702cebe9171d9ba8962b0f", null ],
+    [ "SpellHit", "da/d10/a21978.html#af2835ec5b951e2f4bb176ebe6bb958fd", null ],
+    [ "UpdateAI", "da/d10/a21978.html#a0702d4cf577ac00688a7b93bfe656952", null ],
+    [ "freed", "da/d10/a21978.html#a46e03a19bac91a800154e3c873235800", null ]
 ];

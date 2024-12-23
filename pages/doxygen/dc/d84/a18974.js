@@ -1,5 +1,5 @@
 var a18974 =
 [
-    [ "achievement_split_personality", "dc/d84/a18974.html#aac29ae7c321306a663e55493987af45d", null ],
-    [ "OnCheck", "dc/d84/a18974.html#ab5379f3c1191eeb747cb6762fc42ce01", null ]
+    [ "go_the_focusing_iris", "dc/d84/a18974.html#a9c2fa1e739ff98ebdd9b9fdcc2ab5ece", null ],
+    [ "OnGossipHello", "dc/d84/a18974.html#a7f3f1170713d63f912ca5732453a7e33", null ]
 ];

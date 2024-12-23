@@ -1,10 +1,12 @@
 var a10122 =
 [
-    [ "ArgsType", "d7/dfe/a10122.html#a4ea4d3b165a196482ebe96af9c462658", null ],
-    [ "AuraScriptType", "d7/dfe/a10122.html#a7b2a19d6c7c75c0df22eae17b0c8e90a", null ],
-    [ "SpellScriptType", "d7/dfe/a10122.html#a790a8ef2b59bfe6298486648858506ed", null ],
-    [ "GenericSpellAndAuraScriptLoader", "d7/dfe/a10122.html#ab1bd69d57c6e2322044b8f7cf46cedb6", null ],
-    [ "GetAuraScript", "d7/dfe/a10122.html#a5f3c898a0dc6d9085589b88eb5571528", null ],
-    [ "GetSpellScript", "d7/dfe/a10122.html#a913fa28d2a2cf100ce73cf641e333e01", null ],
-    [ "_args", "d7/dfe/a10122.html#aad6527f64ede0d896880ffa90d05a378", null ]
+    [ "GroupScript", "d7/dfe/a10122.html#a0680f82522424afc364e9b94e1c6f686", null ],
+    [ "CanGroupJoinBattlegroundQueue", "d7/dfe/a10122.html#a931b4a94a2f95958579b37c0af6ece03", null ],
+    [ "IsDatabaseBound", "d7/dfe/a10122.html#acb561e8a2d5b3542e228a7beb8122fbf", null ],
+    [ "OnAddMember", "d7/dfe/a10122.html#adb279c4c0ba60ffea994f35cd7e91ad1", null ],
+    [ "OnChangeLeader", "d7/dfe/a10122.html#a64a1441fd3db3f25236691efcff4a80b", null ],
+    [ "OnCreate", "d7/dfe/a10122.html#a18973a7e5f260712f032ca1129d4a0bc", null ],
+    [ "OnDisband", "d7/dfe/a10122.html#a3cb94966ba1d02180fb3e7cf95000e5f", null ],
+    [ "OnInviteMember", "d7/dfe/a10122.html#a2ae925dc27708fdaa4d5909b582b77a7", null ],
+    [ "OnRemoveMember", "d7/dfe/a10122.html#adf640b01746ee92fed31670ee5cc8d0f", null ]
 ];

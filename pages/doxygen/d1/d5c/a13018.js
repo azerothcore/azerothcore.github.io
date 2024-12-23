@@ -1,6 +1,7 @@
 var a13018 =
 [
-    [ "SpectralBlastCheck", "d1/d5c/a13018.html#ada2eda8781891a4049ee30c5ecb81c3c", null ],
-    [ "operator()", "d1/d5c/a13018.html#afbe13a5f90a5b95832e14fe9d7affc9f", null ],
-    [ "_victim", "d1/d5c/a13018.html#ab96456159d61e781aa8d691dd0b1fec1", null ]
+    [ "CheckCast", "d1/d5c/a13018.html#a6ac00101ced46cebd1dd6a32c89374d2", null ],
+    [ "PrepareSpellScript", "d1/d5c/a13018.html#a07973000e8a4b0ff66d4f4d1fd9f327e", null ],
+    [ "Register", "d1/d5c/a13018.html#a7deecb2b7dfc410af30d8b14d941f74a", null ],
+    [ "Validate", "d1/d5c/a13018.html#a9208b9c010bb9cc379c195939351aa45", null ]
 ];

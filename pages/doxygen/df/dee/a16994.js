@@ -1,6 +1,10 @@
 var a16994 =
 [
-    [ "PrepareSpellScript", "df/dee/a16994.html#a37899f12707930d038de38bae92c9aff", null ],
-    [ "Register", "df/dee/a16994.html#a3677d2e7db842f899e6e2d2c8c9a3d42", null ],
-    [ "SelectDest", "df/dee/a16994.html#a4caabf8afac621ef70bbbac1a2b5177e", null ]
+    [ "npc_dark_nucleusAI", "df/dee/a16994.html#a9558da93ec684d5c4e79e686e6bfb142", null ],
+    [ "AttackStart", "df/dee/a16994.html#a3dec28dd13257b944df0c559d26a76e0", null ],
+    [ "DamageTaken", "df/dee/a16994.html#adfb2ad6f6b36fa122511a6ed10e22b99", null ],
+    [ "JustDied", "df/dee/a16994.html#a464d479ad80d55e54c7ea2c8b8c03a81", null ],
+    [ "Reset", "df/dee/a16994.html#ac84f79f84e721ab1306c8eed8658b143", null ],
+    [ "UpdateAI", "df/dee/a16994.html#a3a08457c34d4dd904a99a78875d6318c", null ],
+    [ "timer", "df/dee/a16994.html#ac5f9824276987b81aef5cfee05158049", null ]
 ];

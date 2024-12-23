@@ -1,6 +1,6 @@
 var a18238 =
 [
-    [ "npc_frost_freeze_trapAI", "dc/d54/a18242.html", "dc/d54/a18242" ],
-    [ "npc_frost_freeze_trap", "d7/d5d/a18238.html#ac58ed2598fd4250f220208a91343f9b8", null ],
-    [ "GetAI", "d7/d5d/a18238.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
+    [ "PeriodicTick", "d7/d5d/a18238.html#ac0b2cf06027c2f658745d6a90dfc76a1", null ],
+    [ "PrepareAuraScript", "d7/d5d/a18238.html#a0767ac60151517b803e871a0fcb25967", null ],
+    [ "Register", "d7/d5d/a18238.html#afd1e28b224035aef5ac109f38d7e118d", null ]
 ];

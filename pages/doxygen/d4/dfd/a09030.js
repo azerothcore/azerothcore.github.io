@@ -1,7 +1,8 @@
 var a09030 =
 [
-    [ "FriendlyCCedInRange", "d4/dfd/a09030.html#ae8dcff3f285f208b0db8aa3efed202a1", null ],
-    [ "operator()", "d4/dfd/a09030.html#a0e241f930cee855664aeac3604d5c023", null ],
-    [ "i_obj", "d4/dfd/a09030.html#a73d3e29bbdc7fd4aa162be3cb7ecbe08", null ],
-    [ "i_range", "d4/dfd/a09030.html#a49e79f3aea0c7e8c321c9f297b71a9b2", null ]
+    [ "CreatureWorker", "d4/dfd/a09030.html#a4b4dc219d034565cd83748c5f1cab2a5", null ],
+    [ "Visit", "d4/dfd/a09030.html#ae67044250380c521055f80c55de0bba5", null ],
+    [ "Visit", "d4/dfd/a09030.html#aa9a450b147aafe46a49135f5c5be668e", null ],
+    [ "i_do", "d4/dfd/a09030.html#ac22f86d9a41701e7527d4840da256f11", null ],
+    [ "i_phaseMask", "d4/dfd/a09030.html#adf514c89c894cdf2b44fc75d14c4f5b0", null ]
 ];

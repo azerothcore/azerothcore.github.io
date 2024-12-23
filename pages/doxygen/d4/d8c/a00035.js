@@ -1,6 +1,6 @@
 var a00035 =
 [
-    [ "Log", "d8/d44/a05258.html", "d8/d44/a05258" ],
+    [ "Log", "d2/dbd/a05254.html", "d2/dbd/a05254" ],
     [ "LOG_DEBUG", "d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161", null ],
     [ "LOG_ERROR", "d4/d8c/a00035.html#a43832e3fa8508deb4ce43e520005fcd9", null ],
     [ "LOG_EXCEPTION_FREE", "d4/d8c/a00035.html#aa30f9aa89655372730e1d6fec2e40c5e", null ],

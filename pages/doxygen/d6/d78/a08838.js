@@ -1,11 +1,10 @@
 var a08838 =
 [
-    [ "~Grid", "d6/d78/a08838.html#a86be65dc86f104566acd41078429e4c4", null ],
-    [ "AddGridObject", "d6/d78/a08838.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
-    [ "AddWorldObject", "d6/d78/a08838.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
-    [ "Visit", "d6/d78/a08838.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
-    [ "Visit", "d6/d78/a08838.html#aebdcac90d763779775dbc0f0492e5279", null ],
-    [ "GridLoader", "d6/d78/a08838.html#a06e47216bdac43edea86c507c93a6ed4", null ],
-    [ "i_container", "d6/d78/a08838.html#a510723553d7206edb25792856c6c369b", null ],
-    [ "i_objects", "d6/d78/a08838.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
+    [ "PetLevelInfo", "d6/d78/a08838.html#ad8e757abeae500063e963ffef5469809", null ],
+    [ "armor", "d6/d78/a08838.html#ab7097f75cf86bd6f135f21dace61a89e", null ],
+    [ "health", "d6/d78/a08838.html#a322dcab3af8f98726aa6addf38e8891b", null ],
+    [ "mana", "d6/d78/a08838.html#a27352e73d6ed3945e398e0634dee1e96", null ],
+    [ "max_dmg", "d6/d78/a08838.html#a092f2600f64f2af885142b2e96d1fe64", null ],
+    [ "min_dmg", "d6/d78/a08838.html#a299d1c7f4c28893e09de79cd816afa95", null ],
+    [ "stats", "d6/d78/a08838.html#a897aabacdbe9cbc4afcc40ab059c12be", null ]
 ];

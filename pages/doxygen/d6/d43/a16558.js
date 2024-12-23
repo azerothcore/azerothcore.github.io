@@ -1,5 +1,6 @@
 var a16558 =
 [
-    [ "at_hor_shadow_throne", "d6/d43/a16558.html#a342808808be75079acf6a2f930afe930", null ],
-    [ "OnTrigger", "d6/d43/a16558.html#a0166b1a58f4171c4d9893010df5831c4", null ]
+    [ "npc_phantom_mageAI", "dd/df1/a16562.html", "dd/df1/a16562" ],
+    [ "npc_phantom_mage", "d6/d43/a16558.html#ad57414231c40917bf55d6155fa9c05db", null ],
+    [ "GetAI", "d6/d43/a16558.html#ae2134b8be3052da659390bde7c2aac2e", null ]
 ];

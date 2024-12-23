@@ -1,10 +1,7 @@
 var a29290 =
 [
-    [ "npc_prof_blacksmith", "d1/d18/a29290.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "d1/d18/a29290.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "d1/d18/a29290.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "d1/d18/a29290.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "d1/d18/a29290.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "d1/d18/a29290.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "d1/d18/a29290.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "MPQArchive", "d2/db2/a28302.html", "d2/db2/a28302" ],
+    [ "MPQFile", "d1/d97/a28306.html", "d1/d97/a28306" ],
+    [ "ArchiveSet", "d1/d18/a29290.html#a8d76af4bfff910da40b4f93a1c465744", null ],
+    [ "flipcc", "d1/d18/a29290.html#aff3add09c98fece7ace91b0e7c90435e", null ]
 ];

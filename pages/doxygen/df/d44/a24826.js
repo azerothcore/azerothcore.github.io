@@ -1,8 +1,6 @@
 var a24826 =
 [
-    [ "CheckCast", "df/d44/a24826.html#a459b6aa2fd05ffc5cb97815a53e2797c", null ],
-    [ "HandleScript", "df/d44/a24826.html#a2c1702398e4cbdcc106679d534a27743", null ],
-    [ "PrepareSpellScript", "df/d44/a24826.html#a613bdf7841744632c1e6de147e0352b9", null ],
-    [ "Register", "df/d44/a24826.html#ada961aaa5679aa00cc650d6e97487ca4", null ],
-    [ "Validate", "df/d44/a24826.html#a0a9de0825edf5c82b91dbe7326a65de9", null ]
+    [ "HandleDummy", "df/d44/a24826.html#a0bcbef8a2d5978498556a217ac618fed", null ],
+    [ "PrepareSpellScript", "df/d44/a24826.html#a5901c22f3a10fdbd21d934f5cb8cd76d", null ],
+    [ "Register", "df/d44/a24826.html#a2c6d9c273a3d281dacefc20970912166", null ]
 ];

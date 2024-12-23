@@ -1,6 +1,6 @@
 var a19910 =
 [
-    [ "HandleAfterEffectApply", "d6/d1d/a19910.html#af655bb31dc24a3cede08ca371f784913", null ],
-    [ "PrepareAuraScript", "d6/d1d/a19910.html#a1824853d0b369deac0745fabe2df657c", null ],
-    [ "Register", "d6/d1d/a19910.html#a33e7c6cab2c99789661e6bb2d6b9a593", null ]
+    [ "npc_ulduar_hodir_shamanAI", "d6/d63/a19914.html", "d6/d63/a19914" ],
+    [ "npc_ulduar_hodir_shaman", "d6/d1d/a19910.html#ae73a416c72441ab531d8a5db88183d47", null ],
+    [ "GetAI", "d6/d1d/a19910.html#ab06a67b72a3954c65792a478ac90672c", null ]
 ];

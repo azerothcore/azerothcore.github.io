@@ -1,6 +1,6 @@
 var a14270 =
 [
-    [ "FilterTargets", "d8/d13/a14270.html#ab4e32c78307df1d0ea7e0a71ace11734", null ],
-    [ "PrepareSpellScript", "d8/d13/a14270.html#a54fb8b4b7abd1c92d7d98f3b911a7cec", null ],
-    [ "Register", "d8/d13/a14270.html#a164b8b946dc801db878603488c978adb", null ]
+    [ "instance_blackfathom_deeps_InstanceMapScript", "d0/d8b/a14274.html", "d0/d8b/a14274" ],
+    [ "instance_blackfathom_deeps", "d8/d13/a14270.html#a4600a7e6191582c1bee684989a970e0f", null ],
+    [ "GetInstanceScript", "d8/d13/a14270.html#a62cdab4f3118ab030b4ef55243690f73", null ]
 ];

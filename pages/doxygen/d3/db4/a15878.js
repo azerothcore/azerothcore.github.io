@@ -1,6 +1,6 @@
 var a15878 =
 [
-    [ "npc_argent_soldierAI", "db/d4e/a15882.html", "db/d4e/a15882" ],
-    [ "npc_argent_soldier", "d3/db4/a15878.html#aa308b4cf1df6edf0666d06e0ddab0797", null ],
-    [ "GetAI", "d3/db4/a15878.html#adfeed3d533104b9617dfbb06925a3d44", null ]
+    [ "npc_living_infernoAI", "d3/db4/a15878.html#ab33eeac6aab8e18778fc7d4ffe5038f1", null ],
+    [ "IsSummonedBy", "d3/db4/a15878.html#a4b6986a392aee0741ba47651e809c76c", null ],
+    [ "JustDied", "d3/db4/a15878.html#a60b2e31d24e182e97d604d91223e2dc8", null ]
 ];

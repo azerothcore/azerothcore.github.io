@@ -1,8 +1,15 @@
 var a19594 =
 [
-    [ "OnApply", "d4/d20/a19594.html#a3f2ef4882bcd52e091a0bcfabfc352cd", null ],
-    [ "OnRemove", "d4/d20/a19594.html#ab967233994aa3ff07b272f010b2c1545", null ],
-    [ "PrepareAuraScript", "d4/d20/a19594.html#a788480ec4aaa57e643f55daca17c6ded", null ],
-    [ "Register", "d4/d20/a19594.html#a63a3e30704b282a430dcdbb9073a66df", null ],
-    [ "Validate", "d4/d20/a19594.html#a6ccb698445ce30c5224dcacc3dc8136b", null ]
+    [ "npc_mimirons_infernoAI", "d4/d20/a19594.html#ae412b49c76e76b322e779665d895080f", null ],
+    [ "AttackStart", "d4/d20/a19594.html#a5676eb2a790be80e539dd71a3b8e140a", null ],
+    [ "DoAction", "d4/d20/a19594.html#a499301a57e57a54aa8f1249c12247be7", null ],
+    [ "JustSummoned", "d4/d20/a19594.html#a586f15a02d77ed6831eb787e2bdf477c", null ],
+    [ "MoveInLineOfSight", "d4/d20/a19594.html#a6ae48c92d9fec13d66c445a2176b58eb", null ],
+    [ "Reset", "d4/d20/a19594.html#adf35df754ce212e9937f4b7833b81bf6", null ],
+    [ "SummonedCreatureDespawn", "d4/d20/a19594.html#a8019ef0c505c6b71a44da13ed0dd081b", null ],
+    [ "UpdateAI", "d4/d20/a19594.html#a661199c38d5bce921632191132767c32", null ],
+    [ "WaypointReached", "d4/d20/a19594.html#a9619ab9bb68a3da71a6c78e4092632f4", null ],
+    [ "_recastTimer", "d4/d20/a19594.html#ad6f7e7f6a745ba9b7b860030a9a22e9a", null ],
+    [ "_spellTimer", "d4/d20/a19594.html#adc8ed31e1d0d2aac5bd75391b21b7bfb", null ],
+    [ "summons", "d4/d20/a19594.html#ad3a5853ee86922f5854ddf757dada8e9", null ]
 ];

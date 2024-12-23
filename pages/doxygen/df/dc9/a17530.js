@@ -1,7 +1,6 @@
 var a17530 =
 [
-    [ "HandleDummy", "df/dc9/a17530.html#aa61db53d7395fd45b8569e12978fed0b", null ],
-    [ "PrepareSpellScript", "df/dc9/a17530.html#ab63054debe6763027ab52ad122277719", null ],
-    [ "Register", "df/dc9/a17530.html#a6dee5fc9fafd7faa3eadbf9431568dcc", null ],
-    [ "Validate", "df/dc9/a17530.html#adb7e30d10c2071de5d5070b64a10af30", null ]
+    [ "boss_professor_putricideAI", "df/df8/a17534.html", "df/df8/a17534" ],
+    [ "boss_professor_putricide", "df/dc9/a17530.html#a80776dad5c0205aa6a98752f43e85e32", null ],
+    [ "GetAI", "df/dc9/a17530.html#a7c84089d24bb0c77a5203884254e0925", null ]
 ];

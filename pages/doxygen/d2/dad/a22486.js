@@ -1,7 +1,7 @@
 var a22486 =
 [
-    [ "PrepareAuraScript", "d2/dad/a22486.html#ae6879f1d8c27f19cf3e3ada0b34d568f", null ],
-    [ "ReflectDamage", "d2/dad/a22486.html#acde2cbf4d196cba1fa2c02393c08fe9f", null ],
-    [ "Register", "d2/dad/a22486.html#aa1f27d25209f14dd8bf711bc15cb9165", null ],
-    [ "Validate", "d2/dad/a22486.html#aa730b912aadcde53f6cd94c2a8c99493", null ]
+    [ "HandleScriptEffect", "d2/dad/a22486.html#a16f131e42272bc75c99df2a9cf43470e", null ],
+    [ "PrepareSpellScript", "d2/dad/a22486.html#a510e80ef85ae3057e30c7c710aaf187b", null ],
+    [ "Register", "d2/dad/a22486.html#ae26ff6be3b2d4a1975ace3734603ab41", null ],
+    [ "Validate", "d2/dad/a22486.html#a58ff628906f3077a354ed486d3c56d23", null ]
 ];

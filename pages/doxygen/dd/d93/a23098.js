@@ -1,11 +1,7 @@
 var a23098 =
 [
-    [ "boss_gruul", "dd/d93/a23098.html#a9a14e75144c79d7ad4f65192edd385f9", null ],
-    [ "JustDied", "dd/d93/a23098.html#a92d9e524dfaa0e4a22daf9b7bc6ac10d", null ],
-    [ "JustEngagedWith", "dd/d93/a23098.html#afb0cc9bb5acad80cea8d3e572d45da94", null ],
-    [ "KilledUnit", "dd/d93/a23098.html#afec4bb1b631cab0b167afb7cc2578b7d", null ],
-    [ "Reset", "dd/d93/a23098.html#ace9cf892fc1cc345d6f82d6e9816e301", null ],
-    [ "UpdateAI", "dd/d93/a23098.html#a3503b84f4fb896d439ccd49a997e4087", null ],
-    [ "_caveInTimer", "dd/d93/a23098.html#a66766f93a5ff543bbb0c9b805aaf253c", null ],
-    [ "_recentlySpoken", "dd/d93/a23098.html#a411ec67153dd4715eb397a420c45bb12", null ]
+    [ "npc_underbog_mushroom", "dd/d93/a23098.html#a2b77b2590d46c14c783d2df4a3699c44", null ],
+    [ "InitializeAI", "dd/d93/a23098.html#a7c192010cc63715eaa3f38b1d1372936", null ],
+    [ "UpdateAI", "dd/d93/a23098.html#a9a8ed51b12809152ebe78dda69944d77", null ],
+    [ "_scheduler", "dd/d93/a23098.html#a407cdb1096e5212dd0a50ea4fa401112", null ]
 ];

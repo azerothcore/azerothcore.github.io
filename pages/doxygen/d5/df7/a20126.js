@@ -1,6 +1,12 @@
 var a20126 =
 [
-    [ "npc_ulduar_emergency_fire_botAI", "de/d45/a20130.html", "de/d45/a20130" ],
-    [ "npc_ulduar_emergency_fire_bot", "d5/df7/a20126.html#a1adc05ac4602ab2b297b18f605bfd2cd", null ],
-    [ "GetAI", "d5/df7/a20126.html#afb3ab952495175c5f571d4e39a5acea4", null ]
+    [ "npc_ulduar_proximity_mineAI", "d5/df7/a20126.html#aa3001a71c8a298be688631d618745495", null ],
+    [ "AttackStart", "d5/df7/a20126.html#afe5572c8fd1f8acc64ca57304d8be254", null ],
+    [ "CanAIAttack", "d5/df7/a20126.html#a0216f41bf596eb43a9b9eea13152d262", null ],
+    [ "MoveInLineOfSight", "d5/df7/a20126.html#afe07e3cd341d6a84592ab9b33e02d6d5", null ],
+    [ "SpellHitTarget", "d5/df7/a20126.html#aaf6c9c8843a61d29326ab6c662b174f9", null ],
+    [ "UpdateAI", "d5/df7/a20126.html#adadc4c33ff356bd5eed6d82115dc888a", null ],
+    [ "exploded", "d5/df7/a20126.html#a1706ff0cfd7192040c32f13a37610c43", null ],
+    [ "timer", "d5/df7/a20126.html#a4c743646055b4c95bf379a751eb5892e", null ],
+    [ "timer2", "d5/df7/a20126.html#a446b7658fa4c165f43947a05562827b2", null ]
 ];

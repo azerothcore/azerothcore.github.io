@@ -1,6 +1,7 @@
 var a23986 =
 [
-    [ "npc_pet_dk_ebon_gargoyleAI", "d1/daf/a23990.html", "d1/daf/a23990" ],
-    [ "npc_pet_dk_ebon_gargoyle", "d7/d87/a23986.html#ae4dcaff120a52c20a8b73d97a08604d7", null ],
-    [ "GetAI", "d7/d87/a23986.html#a19ff9fd627aab738c91ce23cf6acfffd", null ]
+    [ "HandleEffectRemove", "d7/d87/a23986.html#a63c0fede080591df9ebf8b3de2cd2fc3", null ],
+    [ "PrepareAuraScript", "d7/d87/a23986.html#a19ce53b5731b0789896612fa55f38849", null ],
+    [ "Register", "d7/d87/a23986.html#a7d60c5b18bbf77a18ab683a101782ada", null ],
+    [ "Validate", "d7/d87/a23986.html#ae3c3c1bce38882cd5de32295813b1a47", null ]
 ];

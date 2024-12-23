@@ -1,10 +1,13 @@
 var a08938 =
 [
-    [ "UnitSearcher", "df/d6e/a08938.html#a4c50b4594650d9f3f83a40ac02f1a954", null ],
-    [ "Visit", "df/d6e/a08938.html#a5e419d2cb0de5ae58373e521d3a84ac6", null ],
-    [ "Visit", "df/d6e/a08938.html#a4bf8a315ab9464bbc5b0c8cae5c27fed", null ],
-    [ "Visit", "df/d6e/a08938.html#ac65516ed337b509ff5c316fb29727854", null ],
-    [ "i_check", "df/d6e/a08938.html#a3618df5a6ae33e76b802eae9cac1e1bd", null ],
-    [ "i_object", "df/d6e/a08938.html#a3029760131a6f50883246afe2533c062", null ],
-    [ "i_phaseMask", "df/d6e/a08938.html#ab94911f3f275de6a9ce9f15f1169c81c", null ]
+    [ "VisibleNotifier", "df/d6e/a08938.html#af6b878aad8873a7e34670af7ed84188e", null ],
+    [ "SendToSelf", "df/d6e/a08938.html#a95d1c60911cfed9e4f0e034afbf11482", null ],
+    [ "Visit", "df/d6e/a08938.html#a77d110af6b97c2a4d93ff53a8771273d", null ],
+    [ "Visit", "df/d6e/a08938.html#a8dafcbc64e004aea196aec47fb2bb175", null ],
+    [ "i_data", "df/d6e/a08938.html#a6cfba0f042e117cfdb7bdf1f1168c0ce", null ],
+    [ "i_gobjOnly", "df/d6e/a08938.html#a019182fa8a629d796982f9cc565d9bc3", null ],
+    [ "i_largeOnly", "df/d6e/a08938.html#a6954721b71a55874c7f708bf822613bd", null ],
+    [ "i_player", "df/d6e/a08938.html#aaa324b9a9cffd59c7cbab0c08cf68395", null ],
+    [ "i_visibleNow", "df/d6e/a08938.html#a34d766816baaad7b1b3623360ec9abeb", null ],
+    [ "vis_guids", "df/d6e/a08938.html#ab1a5c16d224e61ccfb60e3f1e5fdff1c", null ]
 ];

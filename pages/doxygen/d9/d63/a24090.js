@@ -1,6 +1,6 @@
 var a24090 =
 [
-    [ "DeathEvent", "d9/d63/a24090.html#a2fb9a98c077d715c4648aede6597276e", null ],
-    [ "Execute", "d9/d63/a24090.html#a497ac46ab1acf95816020fc6be8ce03a", null ],
-    [ "_owner", "d9/d63/a24090.html#a099d0d5ae50126f00220b3ed90907617", null ]
+    [ "achievement", "d9/d63/a24090.html#abb6071e172abbcbc65020a0ad9554a03", null ],
+    [ "spell", "d9/d63/a24090.html#a740f9162b10d31d1677a4ac4f5926db6", null ],
+    [ "text", "d9/d63/a24090.html#aa92e42bc2c54c3b4b1022d5767fcf10c", null ]
 ];

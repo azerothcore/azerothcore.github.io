@@ -1,6 +1,6 @@
 var a12278 =
 [
-    [ "HandleTriggerSpell", "d0/d48/a12278.html#a5f30f2af73eae022b9596939b2f88c0b", null ],
-    [ "PrepareSpellScript", "d0/d48/a12278.html#a4fa2709a456e9e75f5c11b7f2e04912b", null ],
-    [ "Register", "d0/d48/a12278.html#a7e9c140aecea892ee6971bc97d385640", null ]
+    [ "instance_molten_core_InstanceMapScript", "de/db5/a12282.html", "de/db5/a12282" ],
+    [ "instance_molten_core", "d0/d48/a12278.html#ad83dac834feb2fcae872dfe09b833950", null ],
+    [ "GetInstanceScript", "d0/d48/a12278.html#ab7c794f1503f0ecad8d41ace72737a5d", null ]
 ];

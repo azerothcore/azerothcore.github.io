@@ -1,5 +1,7 @@
 var a27350 =
 [
-    [ "ID", "d4/d7c/a27350.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
-    [ "parentCategory", "d4/d7c/a27350.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
+    [ "npc_crashin_thrashin_robot", "d4/d7c/a27350.html#ad21336d212498b1c9ef5d46979d147ab", null ],
+    [ "IsSummonedBy", "d4/d7c/a27350.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
+    [ "UpdateAI", "d4/d7c/a27350.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
+    [ "_scheduler", "d4/d7c/a27350.html#a55778501d154d0a9e77f76054e926f85", null ]
 ];

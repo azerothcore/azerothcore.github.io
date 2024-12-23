@@ -1,11 +1,14 @@
 var a13214 =
 [
-    [ "npc_balance_of_light_and_shadowAI", "d2/d65/a13214.html#a00cc1f78fa8fe26bf472d99a490d05ad", null ],
-    [ "CanBeSeen", "d2/d65/a13214.html#af336c2afbf6c2850679fd7d8d1f0d5e9", null ],
-    [ "JustDied", "d2/d65/a13214.html#ae862f8763614a98dae6b982414caf30a", null ],
-    [ "MovementInform", "d2/d65/a13214.html#ad426816ae3c4d5a95587787d28f57ed8", null ],
-    [ "SpellHit", "d2/d65/a13214.html#abfddfff72b63fd05673584915d647958", null ],
-    [ "UpdateAI", "d2/d65/a13214.html#a540e3c28cc36917cde0153dd372d0287", null ],
-    [ "_targetGUID", "d2/d65/a13214.html#adaf2340aa5fe7b96c8f5cacc1c8d5545", null ],
-    [ "timer", "d2/d65/a13214.html#a204e0a809e9c392f20ec900e9a90a075", null ]
+    [ "instance_uldaman_InstanceMapScript", "d2/d65/a13214.html#ab2607f229d1e34852c82139ddb597712", null ],
+    [ "GetData", "d2/d65/a13214.html#adef5f6d2dcaa50dbb615c4c134e7ecfb", null ],
+    [ "Initialize", "d2/d65/a13214.html#a2424bcb1aec0ffc6235a8e8b384f0ed1", null ],
+    [ "OnCreatureCreate", "d2/d65/a13214.html#a49b5562743910dc1b6b55efa8c44b6a0", null ],
+    [ "OnGameObjectCreate", "d2/d65/a13214.html#aacb9db5f66f1f9be0d993aacc3cf4348", null ],
+    [ "ReadSaveDataMore", "d2/d65/a13214.html#a8e0e03189463039dd31d883ad9c40e51", null ],
+    [ "SetData", "d2/d65/a13214.html#ab24fc2db74ef83f2b3be9603d4728385", null ],
+    [ "WriteSaveDataMore", "d2/d65/a13214.html#a3345c117f5e2ceca773843c3f51cb76f", null ],
+    [ "_encounters", "d2/d65/a13214.html#a6840bd04d25fd1f365e0c28c725cde97", null ],
+    [ "ancientVaultDoorGUID", "d2/d65/a13214.html#adf83ba0b0a1650462dbc3bc56182bed9", null ],
+    [ "archaedasTempleDoorGUID", "d2/d65/a13214.html#a6bad33c43ceaa23990544e4a8feefb34", null ]
 ];

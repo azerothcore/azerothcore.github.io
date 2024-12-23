@@ -1,7 +1,5 @@
 var a13510 =
 [
-    [ "spell", "d4/df0/a13510.html#a55423d09b2f1775dc386a36168ad764d", null ],
-    [ "spiritEntry", "d4/df0/a13510.html#a987f010c8577c193898fbfcc4a55c0ee", null ],
-    [ "text", "d4/df0/a13510.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
-    [ "unaura", "d4/df0/a13510.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
+    [ "npc_mikhail", "d4/df0/a13510.html#ab63d49e91b0d4b6ca0f00ff0992f5bad", null ],
+    [ "OnQuestAccept", "d4/df0/a13510.html#a3e1d81aa9e610b73c3d856b355338d3b", null ]
 ];

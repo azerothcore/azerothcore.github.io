@@ -1,6 +1,6 @@
 var a24590 =
 [
-    [ "ModDest", "da/d59/a24590.html#a99d08536d2555390a7399a6d2fc199e6", null ],
-    [ "PrepareSpellScript", "da/d59/a24590.html#a361aed7e74a9f01d665018fd0c3addb1", null ],
-    [ "Register", "da/d59/a24590.html#aa96b1ff5297d670481d1d8afa9356ef9", null ]
+    [ "CheckProc", "da/d59/a24590.html#af742bdfd97c9202d50ed7aa1cf8e7d49", null ],
+    [ "PrepareAuraScript", "da/d59/a24590.html#a255a58ad99059ba28ab09a94e7cc683a", null ],
+    [ "Register", "da/d59/a24590.html#a4ec4dd2342a5b75c975dc6ffe0b02b79", null ]
 ];

@@ -1,6 +1,7 @@
 var a26582 =
 [
-    [ "HandleScript", "d8/d5f/a26582.html#ab2bad52272a5cd7167a7601fdfa02b1d", null ],
-    [ "PrepareSpellScript", "d8/d5f/a26582.html#a60454f2c1ba8d1ea160350b5e02bf56d", null ],
-    [ "Register", "d8/d5f/a26582.html#a22b9877e2cd27c925ae7b351d3d6f41b", null ]
+    [ "FilterTargets", "d8/d5f/a26582.html#aeebe9395cefab1b87196a7ef466aa2c8", null ],
+    [ "PrepareSpellScript", "d8/d5f/a26582.html#a954f00317eab544dd57e657368aab7fb", null ],
+    [ "Register", "d8/d5f/a26582.html#a1804684c8685372faf2e88e56b48f5be", null ],
+    [ "Validate", "d8/d5f/a26582.html#ab08386023ed3b3c8e51178da8973ef1a", null ]
 ];

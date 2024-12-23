@@ -1,6 +1,6 @@
 var a21866 =
 [
-    [ "HandleScript", "dd/daf/a21866.html#acb343eafcfddf6fedcdef26c9b86e0ec", null ],
-    [ "PrepareSpellScript", "dd/daf/a21866.html#a5a4ce9453638d61fe52514240f0a9384", null ],
-    [ "Register", "dd/daf/a21866.html#a889f931aaa37d3a283f4d585b384a68e", null ]
+    [ "npc_vekjik", "dd/daf/a21866.html#a7439c6038237b77ba8623ae92d6cf708", null ],
+    [ "OnGossipHello", "dd/daf/a21866.html#acdbba5b4970049e72477eccf6672b0e8", null ],
+    [ "OnGossipSelect", "dd/daf/a21866.html#a0bcdcb6cd57264e664c449e261d3580b", null ]
 ];

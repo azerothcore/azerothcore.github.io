@@ -1,7 +1,8 @@
 var a16010 =
 [
-    [ "HandleEffectPeriodic", "d3/d99/a16010.html#a58336f6a693d91b4fcb151b7eb5c1201", null ],
-    [ "PrepareAuraScript", "d3/d99/a16010.html#a6dffb84e2c65f030e24a86e23f42c7e3", null ],
-    [ "Register", "d3/d99/a16010.html#ad3485b1ab83d4a49713dfd3335b672fd", null ],
-    [ "Validate", "d3/d99/a16010.html#a5f3c8e5ddcdcefc4e335e604416890d5", null ]
+    [ "npc_announcer_toc5AI", "d5/df2/a16014.html", "d5/df2/a16014" ],
+    [ "npc_announcer_toc5", "d3/d99/a16010.html#abf50bb7deb9e0bb04d9ac802aff5fa41", null ],
+    [ "GetAI", "d3/d99/a16010.html#a06767a8fd1e940d4efee6dd752520e9e", null ],
+    [ "OnGossipHello", "d3/d99/a16010.html#ad2cc55ddc6696b9bfb22e68eab965fb0", null ],
+    [ "OnGossipSelect", "d3/d99/a16010.html#a9017488c652fd75882db75914f4a2db2", null ]
 ];

@@ -1,6 +1,9 @@
 var a19302 =
 [
-    [ "CosmicSmashDamageEvent", "dd/d8e/a19302.html#a5c9606791b560d8be1825a9c73f2393e", null ],
-    [ "Execute", "dd/d8e/a19302.html#a2d4b301e1b7e0852ec47280ad97871f2", null ],
-    [ "_caster", "dd/d8e/a19302.html#ab7af2459d3962831812ee2362ee9de2b", null ]
+    [ "boss_sjonnir_malformed_oozeAI", "dd/d8e/a19302.html#a0624f769d0ce5a95ea2bb877811b0409", null ],
+    [ "JustEngagedWith", "dd/d8e/a19302.html#a9e6527bc46d7b685d938833d18796cee", null ],
+    [ "MoveInLineOfSight", "dd/d8e/a19302.html#a7449e135f088a2d4b22a423c71118093", null ],
+    [ "MovementInform", "dd/d8e/a19302.html#ac04d90e974f85282737bb5081a123106", null ],
+    [ "UpdateAI", "dd/d8e/a19302.html#afccd77c8e90d129fb3a347205a2102db", null ],
+    [ "events", "dd/d8e/a19302.html#a73c135ec94b41a752fc203c5e20128d0", null ]
 ];

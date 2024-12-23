@@ -1,6 +1,7 @@
 var a19682 =
 [
-    [ "boss_freya_elder_brightleafAI", "d3/d1f/a19686.html", "d3/d1f/a19686" ],
-    [ "boss_freya_elder_brightleaf", "df/ddb/a19682.html#a9b1539b37912ef5ae46d5926bf2e0f40", null ],
-    [ "GetAI", "df/ddb/a19682.html#a3c39424ecf97ced8c2a962baff5ae342", null ]
+    [ "OnPeriodic", "df/ddb/a19682.html#a9407d5477a40e36863e5fb5775dda122", null ],
+    [ "PrepareAuraScript", "df/ddb/a19682.html#a1ecb6e617976cdfbeb534849db41d57a", null ],
+    [ "Register", "df/ddb/a19682.html#a34a31e96b21de9b9320d8276f7beb45e", null ],
+    [ "Validate", "df/ddb/a19682.html#a2c2ca2c0425ab3b815d246b1caebf588", null ]
 ];

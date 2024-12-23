@@ -1,6 +1,6 @@
 var a13806 =
 [
-    [ "npc_brewfest_bark_trigger", "dd/dd9/a13806.html#a110d654792e1f5dae8b17f014ea3d425", null ],
-    [ "GetTextFor", "dd/dd9/a13806.html#aca27445a1d9868a2cbd3a6a89dd806df", null ],
-    [ "MoveInLineOfSight", "dd/dd9/a13806.html#a271a440f21b4abddd9aa087e1e64a3d0", null ]
+    [ "boss_renatakiAI", "db/d93/a13810.html", "db/d93/a13810" ],
+    [ "boss_renataki", "dd/dd9/a13806.html#a8504ed2df8c8f8a85fc9d0e99cc24ec6", null ],
+    [ "GetAI", "dd/dd9/a13806.html#a386b7ef3d1fc4070eb300cf4fdaa4d9a", null ]
 ];

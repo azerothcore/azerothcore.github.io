@@ -1,7 +1,7 @@
 var a11906 =
 [
-    [ "boss_broodlordAI", "da/df4/a11906.html#aa7a5b16b22633439e5d20f9d47a91041", null ],
-    [ "JustDied", "da/df4/a11906.html#ab0c4dfdd5abc8edcf039d5207e8a63e8", null ],
-    [ "JustEngagedWith", "da/df4/a11906.html#ae6e26d9cd6e22426caf6ce031551f8a8", null ],
-    [ "UpdateAI", "da/df4/a11906.html#aea6fbbe31c96e94c2116733c3c66b59b", null ]
+    [ "boss_urok_doomhowlAI", "da/df4/a11906.html#ade3d87a05eed0fd077b2e3245099ed74", null ],
+    [ "InitializeAI", "da/df4/a11906.html#a530bef523a27523827d3a94aa5f88698", null ],
+    [ "JustEngagedWith", "da/df4/a11906.html#abd74d844bcae5f9bd8fdd3797323af2c", null ],
+    [ "UpdateAI", "da/df4/a11906.html#a6ab5793a48534b7c338a915a7ed8faf9", null ]
 ];

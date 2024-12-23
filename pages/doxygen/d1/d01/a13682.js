@@ -1,6 +1,5 @@
 var a13682 =
 [
-    [ "HandleOnHit", "d1/d01/a13682.html#a76b09288d14d399735250607e2105eb3", null ],
-    [ "PrepareSpellScript", "d1/d01/a13682.html#a2270ce546ae286ffa701d094df591aa2", null ],
-    [ "Register", "d1/d01/a13682.html#a710f2a60bf6ae00909d279b98ac6b7d6", null ]
+    [ "at_zulgurub_temple_speech", "d1/d01/a13682.html#ab727ad7cb7f0a0e8309bbab233766cde", null ],
+    [ "_OnTrigger", "d1/d01/a13682.html#afd42cd408df7562a9dcd91e33750f3d4", null ]
 ];

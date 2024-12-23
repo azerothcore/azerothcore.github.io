@@ -1,7 +1,5 @@
 var a19758 =
 [
-    [ "npc_ulduar_saronite_vaporsAI", "da/dbf/a19758.html#a8f811c588aeca2cd4a12d4d345907bd2", null ],
-    [ "IsSummonedBy", "da/dbf/a19758.html#a4692bb5c3ffadcfd133db665566c66e5", null ],
-    [ "JustDied", "da/dbf/a19758.html#a5be637500e7b5735d90e19fa40fde467", null ],
-    [ "pInstance", "da/dbf/a19758.html#a25cf8dd22f05566ae99b14a596039f5e", null ]
+    [ "boss_freya_iron_rootAI", "da/dbf/a19758.html#a5e982f5f41433f43a7a0e1d18e009b7b", null ],
+    [ "JustDied", "da/dbf/a19758.html#ad35297f0fa2039749b89d38c2b4f08b9", null ]
 ];

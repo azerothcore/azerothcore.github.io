@@ -1,6 +1,6 @@
 var a03767 =
 [
-    [ "BattlegroundNA", "d7/dc6/a07210.html", "d7/dc6/a07210" ],
+    [ "BattlegroundNA", "da/dc9/a07278.html", "da/dc9/a07278" ],
     [ "BattlegroundNAGameObjects", "d1/d2f/a03767.html#add49f720fa08ffa96e26473cae2b61a9", [
       [ "BG_NA_OBJECT_TYPE_DOOR_1", "d1/d2f/a03767.html#add49f720fa08ffa96e26473cae2b61a9a1316dbe197353489e03213d3277f32ff", null ],
       [ "BG_NA_OBJECT_TYPE_DOOR_2", "d1/d2f/a03767.html#add49f720fa08ffa96e26473cae2b61a9a20f05476fbcb6371766b7ae3ed489890", null ],

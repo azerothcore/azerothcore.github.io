@@ -1,9 +1,7 @@
 var a18454 =
 [
-    [ "npc_icc_severed_essenceAI", "da/dec/a18454.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
-    [ "CanAIAttack", "da/dec/a18454.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
-    [ "DoAction", "da/dec/a18454.html#a938af3a7de5b26432e1ad515a326a032", null ],
-    [ "UpdateAI", "da/dec/a18454.html#a66e3324baa87ba109dd968a517ee82a5", null ],
-    [ "Class", "da/dec/a18454.html#aa627713be3a2ac01336d158d96aaccc7", null ],
-    [ "events", "da/dec/a18454.html#a1bab216925c4123d633d9613bb80365c", null ]
+    [ "HandleDummyLaunch", "da/dec/a18454.html#a4991dab04ed9cb8cfd846588a8ef01bf", null ],
+    [ "PrepareSpellScript", "da/dec/a18454.html#a8926bc8e228eaaa4a7d554643b50e48d", null ],
+    [ "Register", "da/dec/a18454.html#add5dc6c0a3b618fba3d3a73b6c76235b", null ],
+    [ "Validate", "da/dec/a18454.html#a577166695c1479e3730a70637bc18cf1", null ]
 ];

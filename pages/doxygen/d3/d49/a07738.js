@@ -1,8 +1,6 @@
 var a07738 =
 [
-    [ "cancelTime", "d3/d49/a07738.html#a5fe6d6ede54a1f1228e29fc7ef55a413", null ],
-    [ "inProgress", "d3/d49/a07738.html#a8f3eddc8fbca950f184b6fb8b400344e", null ],
-    [ "reason", "d3/d49/a07738.html#a279a5575ca0956266ae81b7a165874cf", null ],
-    [ "victim", "d3/d49/a07738.html#a949262b4b3cbe0f813aae4fab704e7d2", null ],
-    [ "votes", "d3/d49/a07738.html#a7619305fea30cc7fdc47f0a7ee365304", null ]
+    [ "p0", "d3/d49/a07738.html#aaf1df5d479ef12c6bfa9b02c8d9a54ad", null ],
+    [ "p1", "d3/d49/a07738.html#a8c5a9c6371f264469203575be48684fa", null ],
+    [ "p2", "d3/d49/a07738.html#a40d46738768d6c2037e5978ce32a9fb8", null ]
 ];

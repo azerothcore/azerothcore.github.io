@@ -1,9 +1,8 @@
 var a25726 =
 [
-    [ "Load", "d2/d44/a25726.html#ae8329a18e94b3830e19bcbcbdf055dd2", null ],
-    [ "PrepareSpellScript", "d2/d44/a25726.html#a7a082f577937bf9f794bfb21bbc416f1", null ],
-    [ "Register", "d2/d44/a25726.html#a7b8f209bff9c2f1dff96f3d90c66cad4", null ],
-    [ "TriggerHeal", "d2/d44/a25726.html#acad9295c5c6b46bd969a4fb528a8ec25", null ],
-    [ "Validate", "d2/d44/a25726.html#a5f53a97e97f7959c51e1b5947f7c4418", null ],
-    [ "healPct", "d2/d44/a25726.html#a33b4d26c34903e45b7274e369f096ce1", null ]
+    [ "HandleDummy", "d2/d44/a25726.html#a04ff6beb930b65395ebc3df99bc53dfa", null ],
+    [ "PrepareSpellScript", "d2/d44/a25726.html#a73eabf1e68c966f31fe8d83c2fd925c1", null ],
+    [ "Register", "d2/d44/a25726.html#a6b03fbcf18612d9bb7361c3e4f022dc0", null ],
+    [ "Validate", "d2/d44/a25726.html#a9df13e3e8895854bc086fbfaccfb1b2c", null ],
+    [ "PolymorhForms", "d2/d44/a25726.html#a1443d2532a060514e697a8d5e0c21b20", null ]
 ];

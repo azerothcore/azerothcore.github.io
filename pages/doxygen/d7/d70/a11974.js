@@ -1,6 +1,6 @@
 var a11974 =
 [
-    [ "boss_victor_nefariusAI", "d8/dd5/a11978.html", "d8/dd5/a11978" ],
-    [ "boss_victor_nefarius", "d7/d70/a11974.html#a85c529c49a0373a553bc59818fb18f49", null ],
-    [ "GetAI", "d7/d70/a11974.html#a6ea19bde6980cbb4ca627d17cf57ae24", null ]
+    [ "FilterTargets", "d7/d70/a11974.html#ac630fb5f068e4d26adb078b118994c45", null ],
+    [ "PrepareSpellScript", "d7/d70/a11974.html#a5f4986bfad79573e65d56ff276c49914", null ],
+    [ "Register", "d7/d70/a11974.html#aa1f5838d43871fd7908ea3b914666000", null ]
 ];

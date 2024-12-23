@@ -1,6 +1,6 @@
 var a13190 =
 [
-    [ "npc_maredis_firestarAI", "da/d13/a13190.html#ac2d4ed4b205146524dcf11585d65ae12", null ],
-    [ "sGossipHello", "da/d13/a13190.html#a72790dc9525249a4b558c37c4a0bd03f", null ],
-    [ "sGossipSelect", "da/d13/a13190.html#acefb2bc09fe8f7ad77d53ee6eb8bbb71", null ]
+    [ "instance_sunwell_plateau_InstanceMapScript", "d7/d81/a13194.html", "d7/d81/a13194" ],
+    [ "instance_sunwell_plateau", "da/d13/a13190.html#a31d2245a9237c8dc4480b9d26ff3557c", null ],
+    [ "GetInstanceScript", "da/d13/a13190.html#a5960785a845c87e2e1730cfd865b44b4", null ]
 ];

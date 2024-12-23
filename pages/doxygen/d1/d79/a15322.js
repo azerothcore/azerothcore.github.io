@@ -1,9 +1,12 @@
 var a15322 =
 [
-    [ "npc_pluckyAI", "d1/d79/a15322.html#a490198dfcf06b04f7ee9a6a5354dec7e", null ],
-    [ "ReceiveEmote", "d1/d79/a15322.html#a4a4a09d6a462011154a8d871562dcaf5", null ],
-    [ "Reset", "d1/d79/a15322.html#a1a6c4a479bbbfced1ad17f2604bdba32", null ],
-    [ "UpdateAI", "d1/d79/a15322.html#a4775a736e3568940c1b92e0cdae4de4b", null ],
-    [ "NormFaction", "d1/d79/a15322.html#afd9c6fccf4c30b4fbc62bfa951665949", null ],
-    [ "ResetTimer", "d1/d79/a15322.html#ac9808c21666cd17b0603e7e67a61d015", null ]
+    [ "npc_toogaAI", "d1/d79/a15322.html#a4db363c7e787f5fbbd61b418cfa87367", null ],
+    [ "MoveInLineOfSight", "d1/d79/a15322.html#aff15508b97bce5f5fad9cf9750e89ff1", null ],
+    [ "MovementInform", "d1/d79/a15322.html#a9315e8ba2688903aaf5b871a7490a700", null ],
+    [ "Reset", "d1/d79/a15322.html#acfedaf5cc989451a4259a65661685f66", null ],
+    [ "UpdateFollowerAI", "d1/d79/a15322.html#a742791e714be1ff713ab87e7d515bd9e", null ],
+    [ "CheckSpeechTimer", "d1/d79/a15322.html#a938852d834c5eb8ba4abceaf49e9a5da", null ],
+    [ "PhasePostEvent", "d1/d79/a15322.html#a4996291afa64e35f3604b2a85ea03dda", null ],
+    [ "PostEventTimer", "d1/d79/a15322.html#abea9fa4d2623dab4f14978a7f94b595f", null ],
+    [ "TortaGUID", "d1/d79/a15322.html#a4531aa0e2c7fe7f3207e56fc2ed67c25", null ]
 ];

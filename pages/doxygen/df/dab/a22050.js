@@ -1,14 +1,7 @@
 var a22050 =
 [
-    [ "npc_finklesteinAI", "df/dab/a22050.html#a075481689af110f8c20cd5ca13258ba3", null ],
-    [ "ClearPlayerOnTask", "df/dab/a22050.html#ad6ec9c020ba2f8eae9250a89fbe9490d", null ],
-    [ "GetTaskAura", "df/dab/a22050.html#ae3a1b7fbdd9aba64e8f853f53d9c261c", null ],
-    [ "GetTaskCounter", "df/dab/a22050.html#a240e8f556176b9571bd08407276402be", null ],
-    [ "GetTaskItemEntry", "df/dab/a22050.html#a08a3005db6d192663a835b9ee192352b", null ],
-    [ "GetTaskItemName", "df/dab/a22050.html#adce990629aa1833dc07c7dbb1297cead", null ],
-    [ "IsPlayerOnTask", "df/dab/a22050.html#ad815f0d79ab73d95e9fbf3a659aea2ce", null ],
-    [ "RightClickCauldron", "df/dab/a22050.html#a71fea2fdf5079fbc1d8baa72e7e4ae82", null ],
-    [ "SelectRandomCode", "df/dab/a22050.html#a16c9ddf6f2f858f4147a0188e0df7250", null ],
-    [ "StartNextTask", "df/dab/a22050.html#a89c5c3a90fad1719bc4d2e2cb611e8c7", null ],
-    [ "questList", "df/dab/a22050.html#a5c3a3237579721b94dd433841b83bb02", null ]
+    [ "npc_wg_siege_machineAI", "df/dab/a22050.html#aaeca9e73520701ce28f2cc9d1483cc6b", null ],
+    [ "CanControlVehicle", "df/dab/a22050.html#a7ce79406da48e245a0baa2fdd23622b9", null ],
+    [ "UpdateAI", "df/dab/a22050.html#a8ddd21047a857facc767a9edc0ec5408", null ],
+    [ "checkTimer", "df/dab/a22050.html#abf4b06eae50adeefedba02e2186ea48a", null ]
 ];

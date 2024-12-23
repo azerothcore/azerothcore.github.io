@@ -1,7 +1,6 @@
 var a13118 =
 [
-    [ "OnPeriodic", "de/dfc/a13118.html#a25e7a59384f262a36c74696a1befa01d", null ],
-    [ "PrepareAuraScript", "de/dfc/a13118.html#a9b82fde3e38054b686f9b2a110cfaa1e", null ],
-    [ "Register", "de/dfc/a13118.html#a65e469ba04d8cd2aa23d934bf2915721", null ],
-    [ "Validate", "de/dfc/a13118.html#a6843deda5be8b684c06a86920714f255", null ]
+    [ "HandlePeriodic", "de/dfc/a13118.html#aec1ff41f0051a6c6dfbd11ea7741b1af", null ],
+    [ "PrepareAuraScript", "de/dfc/a13118.html#a7ac99d626990f068a00f403847bfa6bc", null ],
+    [ "Register", "de/dfc/a13118.html#ad3c0a2c270d1b8c31761674f89500b8a", null ]
 ];

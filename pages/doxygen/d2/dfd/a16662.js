@@ -1,6 +1,5 @@
 var a16662 =
 [
-    [ "boss_tyrannusAI", "da/df8/a16666.html", "da/df8/a16666" ],
-    [ "boss_tyrannus", "d2/dfd/a16662.html#a81373192ffea8817cb72b80f4629da43", null ],
-    [ "GetAI", "d2/dfd/a16662.html#ad107030de1427d070305f5dcef96c016", null ]
+    [ "at_hor_battered_hilt_start", "d2/dfd/a16662.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
+    [ "OnTrigger", "d2/dfd/a16662.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
 ];

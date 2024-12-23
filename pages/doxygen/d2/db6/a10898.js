@@ -1,8 +1,10 @@
 var a10898 =
 [
-    [ "DirectionType", "d2/db6/a10898.html#a8491033c0286895c2d4d3280cfd529f0", null ],
-    [ "ObjectType", "d2/db6/a10898.html#a20c29be1005aa52993d4ec0a13c36f4d", null ],
-    [ "ReferenceType", "d2/db6/a10898.html#a44e310a789c4c5a288f07c9254ad389a", null ],
-    [ "SelectionCategory", "d2/db6/a10898.html#a4a42ef329b6cfcfcd7fd4ce59e8f597c", null ],
-    [ "SelectionCheckType", "d2/db6/a10898.html#a35c8d221b47de13408a0256598fa9d63", null ]
+    [ "TriggeredByAuraSpellData", "d2/db6/a10898.html#a3f4704eed73af1e37a3d09434cfcddae", null ],
+    [ "Init", "d2/db6/a10898.html#a782e0056967e006748318af3112c0e43", null ],
+    [ "operator bool", "d2/db6/a10898.html#a85d4782b76b060c172aaa6f914d400da", null ],
+    [ "operator!", "d2/db6/a10898.html#af7290a4c37b1829a98e436486fa8b6cd", null ],
+    [ "effectIndex", "d2/db6/a10898.html#a9bbee8d48d4beb8a21721a10e0380c41", null ],
+    [ "spellInfo", "d2/db6/a10898.html#af58f62fb168e9da7011f7b570f08e977", null ],
+    [ "tickNumber", "d2/db6/a10898.html#afbb1ffd006dc6eb00ccd65add87b1b22", null ]
 ];

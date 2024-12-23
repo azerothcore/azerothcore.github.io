@@ -1,6 +1,7 @@
 var a26842 =
 [
-    [ "go_flamesAI", "d0/d4c/a26846.html", "d0/d4c/a26846" ],
-    [ "go_flames", "d3/d8e/a26842.html#a75d49202eaf2078b8276e59944d1ec89", null ],
-    [ "GetAI", "d3/d8e/a26842.html#aea11412e7d17b744b4e70ec754a1e6cc", null ]
+    [ "HandlePeriodic", "d3/d8e/a26842.html#a3da4cc5322f2e34244729fe3b3876482", null ],
+    [ "PrepareAuraScript", "d3/d8e/a26842.html#aab7f5c5bdfdd2b440f59f16ab321765a", null ],
+    [ "Register", "d3/d8e/a26842.html#a53b6067f46912648413fc6d6f107b0d8", null ],
+    [ "Validate", "d3/d8e/a26842.html#aa03222717b3c06316b232a6ac0270ec0", null ]
 ];

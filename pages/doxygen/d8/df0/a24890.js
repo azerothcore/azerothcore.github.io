@@ -1,7 +1,7 @@
 var a24890 =
 [
-    [ "EjectPassenger", "d8/df0/a24890.html#a17ead3b25e5cebda3c9d5008f54f27ef", null ],
-    [ "PrepareSpellScript", "d8/df0/a24890.html#abada0f860ea3cd6c16fbe4d73263d95a", null ],
-    [ "Register", "d8/df0/a24890.html#ad5af65bc326aebcc1a2e19dabe624ad1", null ],
-    [ "Validate", "d8/df0/a24890.html#a24ad6ca59f4f38cfa34de16c4167944e", null ]
+    [ "HandleEffectApply", "d8/df0/a24890.html#abf780eeca61aef7e44617aa0ed2ff8b8", null ],
+    [ "OnRemove", "d8/df0/a24890.html#af2cfa66cd7dbc7c671efa06c497cc03e", null ],
+    [ "PrepareAuraScript", "d8/df0/a24890.html#ab6c5d1fd94c763126ef77f9efd4a7116", null ],
+    [ "Register", "d8/df0/a24890.html#a473189971d0a03e7305b7b9e41dc5207", null ]
 ];

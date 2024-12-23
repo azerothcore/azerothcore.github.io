@@ -1,10 +1,10 @@
 var a27062 =
 [
-    [ "npc_prof_blacksmith", "d4/df5/a27062.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
-    [ "HasWeaponSub", "d4/df5/a27062.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
-    [ "OnGossipHello", "d4/df5/a27062.html#a9a432c1ec33578949110c877fc6a686d", null ],
-    [ "OnGossipSelect", "d4/df5/a27062.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
-    [ "SendActionMenu", "d4/df5/a27062.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
-    [ "SendConfirmLearn", "d4/df5/a27062.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
-    [ "SendConfirmUnlearn", "d4/df5/a27062.html#a851dc241d944bc888a00df85bff17e3a", null ]
+    [ "guard_shattrath_scryerAI", "d4/df5/a27062.html#a97accbf467ca1190f8a05512b3857164", null ],
+    [ "Reset", "d4/df5/a27062.html#adfcd8bce42148d303fe6ec9b615ffdb1", null ],
+    [ "UpdateAI", "d4/df5/a27062.html#ad759cca08b0093522e190ddc038e2c73", null ],
+    [ "banishTimer", "d4/df5/a27062.html#aa9aa3c2e7e69df5899c84ebde1e357bd", null ],
+    [ "canTeleport", "d4/df5/a27062.html#a84188b40b44deae5714466bb23bf2f0d", null ],
+    [ "exileTimer", "d4/df5/a27062.html#a97fbc3f54c23049fd91ad432cd560698", null ],
+    [ "playerGUID", "d4/df5/a27062.html#adb40d8bbc97a6a1fa0f4e303db470db2", null ]
 ];

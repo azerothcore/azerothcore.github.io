@@ -1,14 +1,11 @@
 var a11762 =
 [
-    [ "boss_lord_valthalakAI", "d1/db5/a11762.html#a7f10837eafefefb87b338410c5994362", null ],
-    [ "DamageTaken", "d1/db5/a11762.html#a6fe691c8dd5c5b387eed08e3a010bec7", null ],
-    [ "IsSummonedBy", "d1/db5/a11762.html#a852589ca84562ad1a9dcdd403fe5aa83", null ],
-    [ "JustDied", "d1/db5/a11762.html#a4c9bd060e62f1c4d3819350bf549a39a", null ],
-    [ "JustEngagedWith", "d1/db5/a11762.html#acee7b1758b670a688fe1afcdef3b9f8c", null ],
-    [ "Reset", "d1/db5/a11762.html#abcc993a205602484fb46a67bc68dbbd9", null ],
-    [ "StartFighting", "d1/db5/a11762.html#af06da24e8bedf922895c8c591c1def04", null ],
-    [ "StartTalking", "d1/db5/a11762.html#ac1d7b3844f9019ea6485de7616caff95", null ],
-    [ "UpdateAI", "d1/db5/a11762.html#a2b39a384ac7133aa013e21b0e873c4e2", null ],
-    [ "frenzy15", "d1/db5/a11762.html#aabd65fc1a1bdbbc9c3a46c918bc7dff5", null ],
-    [ "frenzy40", "d1/db5/a11762.html#a75aa55580bed475e88e9071fa5284267", null ]
+    [ "boss_doomrelAI", "d1/db5/a11762.html#a231cc3989d1c575af941a5462ad94cbd", null ],
+    [ "EnterEvadeMode", "d1/db5/a11762.html#ae633f4cc1747f291a3911ca50ee39370", null ],
+    [ "JustEngagedWith", "d1/db5/a11762.html#a622f673548b0a6f1db2a59ef69f31ac7", null ],
+    [ "Reset", "d1/db5/a11762.html#aec30616ad3c84ee4b6dd92f6ac8b4fbc", null ],
+    [ "UpdateAI", "d1/db5/a11762.html#a3d851f7bd5a78858fd228cac78c05f27", null ],
+    [ "_events", "d1/db5/a11762.html#aaf800dd1d20dc8288cad5aa21cd602b0", null ],
+    [ "instance", "d1/db5/a11762.html#aa0fc44bb955e83c2ef7b7373751fc2c2", null ],
+    [ "Voidwalkers", "d1/db5/a11762.html#af29d871a370a534f508f225d49c3dc9f", null ]
 ];

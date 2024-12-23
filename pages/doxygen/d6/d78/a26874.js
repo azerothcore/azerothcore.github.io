@@ -1,6 +1,5 @@
 var a26874 =
 [
-    [ "go_brewfest_musicAI", "d5/d4e/a26878.html", "d5/d4e/a26878" ],
-    [ "go_brewfest_music", "d6/d78/a26874.html#a787963a5ee591933d62fdb52911f9a77", null ],
-    [ "GetAI", "d6/d78/a26874.html#a50f36a6d0a72e7188dbe1bdaa09f1888", null ]
+    [ "go_arena_ready_marker", "d6/d78/a26874.html#a614ee8efff31d928a9f4547d60b6a6a6", null ],
+    [ "OnGossipHello", "d6/d78/a26874.html#a9f51ead2b56d51427ff23be9688388d8", null ]
 ];

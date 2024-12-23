@@ -1,9 +1,9 @@
 var a21830 =
 [
-    [ "npc_engineer_heliceAI", "db/ded/a21830.html#ab9d82a7d2886a0cc4edbc2f4c4c81341", null ],
-    [ "JustDied", "db/ded/a21830.html#aba224727b86a2bfc39a47b70b424ccef", null ],
-    [ "Reset", "db/ded/a21830.html#ade3f7f526dd8973c155aafb939db3778", null ],
-    [ "UpdateAI", "db/ded/a21830.html#a1c333511dd6e82cd22af111e12a701c4", null ],
-    [ "WaypointReached", "db/ded/a21830.html#a065698e61f0b7769ad2f58614c02ad5b", null ],
-    [ "m_uiChatTimer", "db/ded/a21830.html#aa305bc2b5711d0745650f80275204ea8", null ]
+    [ "npc_frostbrood_skytalonAI", "db/ded/a21830.html#afc14c60466f9f0f1b20062758f18c00d", null ],
+    [ "IsSummonedBy", "db/ded/a21830.html#a2c5729ee3371e562869878ff3a7b84bd", null ],
+    [ "MovementInform", "db/ded/a21830.html#ae763333503176eb7e8ce407868243958", null ],
+    [ "SpellHit", "db/ded/a21830.html#a24bb49f47dcf85c95039d0495a89e126", null ],
+    [ "UpdateAI", "db/ded/a21830.html#a0ffc4cd2e9b61ad17c516f062d161feb", null ],
+    [ "events", "db/ded/a21830.html#a8575d258d63e28626cffd7fc2160bee6", null ]
 ];

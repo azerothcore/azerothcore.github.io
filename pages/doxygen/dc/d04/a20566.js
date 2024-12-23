@@ -1,7 +1,6 @@
 var a20566 =
 [
-    [ "OnApply", "dc/d04/a20566.html#a7dd5b6217db77373dfba5958a2376ff1", null ],
-    [ "OnRemove", "dc/d04/a20566.html#a39510971a0e1dbd800efc37c2e09c74f", null ],
-    [ "PrepareAuraScript", "dc/d04/a20566.html#a35c1e8f81229565e5d333ec42aa2e92c", null ],
-    [ "Register", "dc/d04/a20566.html#a27fdfe00e5201b6472a282f4589a66cc", null ]
+    [ "boss_yoggsaron_influence_tentacleAI", "dc/d04/a20566.html#ae7457ed8084888b1074a44dd9a7ed0c7", null ],
+    [ "DamageTaken", "dc/d04/a20566.html#ad46e93ffb89c9c3ee9bfbe0f27c7117c", null ],
+    [ "JustDied", "dc/d04/a20566.html#ab09c96d167b9502098b9a7a2fa1b82ec", null ]
 ];

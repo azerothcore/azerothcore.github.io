@@ -1,6 +1,6 @@
 var a16406 =
 [
-    [ "PrepareSpellScript", "dc/dab/a16406.html#a5ed268ac2642b2df3c5eb1dc93a675fc", null ],
-    [ "RecalculateDamage", "dc/dab/a16406.html#a3fae6ceaa67716004c664dd40a4679ed", null ],
-    [ "Register", "dc/dab/a16406.html#a1a740e697fc84f5f035f2ec251872009", null ]
+    [ "boss_trollgoreAI", "d5/d5f/a16410.html", "d5/d5f/a16410" ],
+    [ "boss_trollgore", "dc/dab/a16406.html#a95102f1fae6c667e0780b8b388fc156b", null ],
+    [ "GetAI", "dc/dab/a16406.html#a6da1349da296a3dc3d29527a8e3c2b7d", null ]
 ];

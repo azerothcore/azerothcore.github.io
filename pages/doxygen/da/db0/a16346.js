@@ -1,6 +1,10 @@
 var a16346 =
 [
-    [ "HandleScript", "da/db0/a16346.html#a4786e0c38f03f7e671174d0641526681", null ],
-    [ "PrepareSpellScript", "da/db0/a16346.html#a7d260468f409a7fb41a39f80db5f9d63", null ],
-    [ "Register", "da/db0/a16346.html#a943117bfb56b846e99d04bd9a348af8d", null ]
+    [ "boss_dredAI", "da/db0/a16346.html#a4ad04fe31990a37fd6d3a23329350248", null ],
+    [ "GetData", "da/db0/a16346.html#a7a93506d77eaf40c6f7be9e433f211e1", null ],
+    [ "JustEngagedWith", "da/db0/a16346.html#ae6e1181dcdea763460ca72148abfcb3f", null ],
+    [ "Reset", "da/db0/a16346.html#a5fe153ab58b1feedce5afa6b10a0d3de", null ],
+    [ "SetData", "da/db0/a16346.html#a884f48aabc26b054dcd303a91cb88301", null ],
+    [ "UpdateAI", "da/db0/a16346.html#afc12ced9b5026fe3b297560c30e129ed", null ],
+    [ "_raptorCount", "da/db0/a16346.html#a95aa63c18d7e1f2dec2491ac4649a378", null ]
 ];

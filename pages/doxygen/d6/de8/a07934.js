@@ -1,13 +1,11 @@
 var a07934 =
 [
-    [ "AnimationInfo", "d6/de8/a07934.html#aa443028e95ae416e09f1acfef0575803", null ],
-    [ "Building", "d6/de8/a07934.html#a0bd07a1a7536659ef9ee34f07006737d", null ],
-    [ "CapturePoint", "d6/de8/a07934.html#a11596cf934a9391400e5368d9038a7c1", null ],
-    [ "FishingHole", "d6/de8/a07934.html#a3d2d6f1c1b4393c6b9f1de10afcace8b", null ],
-    [ "Health", "d6/de8/a07934.html#af70b72663064c9c4b88c93a824f1e14b", null ],
-    [ "MaxHealth", "d6/de8/a07934.html#ab606f11596c1dd3d1cf7588346338721", null ],
-    [ "MaxOpens", "d6/de8/a07934.html#a07ed76d692ae0af008e2373f3f9fd3e9", null ],
-    [ "OPvPObj", "d6/de8/a07934.html#a565624b690fa7fabf21b175548765652", null ],
-    [ "PathProgress", "d6/de8/a07934.html#a9e07a147b2be08a78f052e0cdb817111", null ],
-    [ "Transport", "d6/de8/a07934.html#a6fece97e8a0909d72bde8e9bbf0e73b6", null ]
+    [ "FormationInfo", "d6/de8/a07934.html#ad00d7dd0ac811a3805a8ba2c9c1e73df", null ],
+    [ "HasGroupFlag", "d6/de8/a07934.html#afc612acf30e8d0a047aac5b0fc2dc07b", null ],
+    [ "follow_angle", "d6/de8/a07934.html#a928ce7047d511c316a5367faf7f96673", null ],
+    [ "follow_dist", "d6/de8/a07934.html#a3b59ee5129e208cc3df407a921362393", null ],
+    [ "groupAI", "d6/de8/a07934.html#af9f6dc52999efef6f0819bb8d1670fec", null ],
+    [ "leaderGUID", "d6/de8/a07934.html#ad5af23397ae1ae835a72ce125d102ef0", null ],
+    [ "point_1", "d6/de8/a07934.html#a84298ff533bebc633689742c7f9299ae", null ],
+    [ "point_2", "d6/de8/a07934.html#acc308b497de18211b99eec4311b256a4", null ]
 ];

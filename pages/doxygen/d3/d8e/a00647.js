@@ -1,6 +1,6 @@
 var a00647 =
 [
-    [ "boss_wrath_scryer_soccothrates", "df/d06/a23354.html", "df/d06/a23354" ],
+    [ "boss_wrath_scryer_soccothrates", "de/d80/a23410.html", "de/d80/a23410" ],
     [ "Events", "d3/d8e/a00647.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

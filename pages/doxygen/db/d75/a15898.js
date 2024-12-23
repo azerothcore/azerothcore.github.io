@@ -1,6 +1,6 @@
 var a15898 =
 [
-    [ "boss_black_knightAI", "dc/d8f/a15902.html", "dc/d8f/a15902" ],
-    [ "boss_black_knight", "db/d75/a15898.html#af55a307f282a68bc83e45c6de647ebf4", null ],
-    [ "GetAI", "db/d75/a15898.html#a3f7ac72f69cebdab0a13c61c0b9b2ed2", null ]
+    [ "instance_ruby_sanctum_InstanceMapScript", "dc/d8f/a15902.html", "dc/d8f/a15902" ],
+    [ "instance_ruby_sanctum", "db/d75/a15898.html#a9fc9d56cfcd7d0163f25f49e1ed0baeb", null ],
+    [ "GetInstanceScript", "db/d75/a15898.html#ad0329f328d4be2c475d8bcd5ccefd4e1", null ]
 ];

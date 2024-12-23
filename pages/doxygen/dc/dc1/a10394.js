@@ -1,6 +1,8 @@
 var a10394 =
 [
-    [ "GuildPromoteMember", "dc/dc1/a10394.html#af623a381aa80e827c2c29987501626ae", null ],
-    [ "Read", "dc/dc1/a10394.html#a3350c1a8c81aa1368a254288849b462b", null ],
-    [ "Promotee", "dc/dc1/a10394.html#af8addf6e9bc45364f595582e8f285cde", null ]
+    [ "GuildEvent", "dc/dc1/a10394.html#a78be16122c01d4c68d67e050ede92006", null ],
+    [ "Write", "dc/dc1/a10394.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
+    [ "Guid", "dc/dc1/a10394.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
+    [ "Params", "dc/dc1/a10394.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
+    [ "Type", "dc/dc1/a10394.html#a961ae90991fa23bfc94a054dba357392", null ]
 ];

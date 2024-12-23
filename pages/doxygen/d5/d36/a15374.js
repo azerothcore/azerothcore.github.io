@@ -1,5 +1,8 @@
 var a15374 =
 [
-    [ "go_elune_fire", "d5/d36/a15374.html#a84d1b8e5a10e57cf717e10e413cb6027", null ],
-    [ "OnGossipHello", "d5/d36/a15374.html#a31e3cad89090bb7d2933e8758dbb56c4", null ]
+    [ "npc_pluckyAI", "d4/ddf/a15378.html", "d4/ddf/a15378" ],
+    [ "npc_plucky", "d5/d36/a15374.html#a86bb2992b8af5893987145117aaf3608", null ],
+    [ "GetAI", "d5/d36/a15374.html#a51e73f4e1f618aee5a000e31328efefc", null ],
+    [ "OnGossipHello", "d5/d36/a15374.html#a3443f3e8c2b3fcc96955ab2e55e7fd61", null ],
+    [ "OnGossipSelect", "d5/d36/a15374.html#a88fa465246b4c657b921ebdc96f7a112", null ]
 ];

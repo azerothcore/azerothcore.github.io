@@ -1,6 +1,7 @@
 var a10246 =
 [
-    [ "PlayedTimeClient", "db/d0e/a10246.html#a1c82d4d153606da9887d64599f319883", null ],
-    [ "Read", "db/d0e/a10246.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3", null ],
-    [ "TriggerScriptEvent", "db/d0e/a10246.html#a092b32f76df529a4f1284d7231b8fc6b", null ]
+    [ "ClientPacket", "db/d0e/a10246.html#aa1d1946c07e248bae5927e83fdad9500", null ],
+    [ "ClientPacket", "db/d0e/a10246.html#a1cdaaacca2695c4366647c7611073ff0", null ],
+    [ "GetOpcode", "db/d0e/a10246.html#aa51558bb8faa96a665fe40b1bddf9d14", null ],
+    [ "Write", "db/d0e/a10246.html#a16e5b9fa05e35fa1e32e33bef2688487", null ]
 ];

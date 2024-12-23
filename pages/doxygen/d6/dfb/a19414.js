@@ -1,6 +1,6 @@
 var a19414 =
 [
-    [ "npc_assembly_lightningAI", "de/d0d/a19418.html", "de/d0d/a19418" ],
-    [ "npc_assembly_lightning", "d6/dfb/a19414.html#ac9776fc8cb3dd3f8bfecb1d367afefd2", null ],
-    [ "GetAI", "d6/dfb/a19414.html#a4054ea8bb68b2742847b359e19b477df", null ]
+    [ "HandlePeriodic", "d6/dfb/a19414.html#a0a77c0b232e24e5cb8b3392ac8adbd3a", null ],
+    [ "PrepareAuraScript", "d6/dfb/a19414.html#a7c6b6839da4a93f656800c9ae174c832", null ],
+    [ "Register", "d6/dfb/a19414.html#ae28e67baa12488e248efd46ef5a7cb11", null ]
 ];

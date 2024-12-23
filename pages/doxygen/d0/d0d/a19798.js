@@ -1,5 +1,6 @@
 var a19798 =
 [
-    [ "go_ulduar_pure_saronite_deposit", "d0/d0d/a19798.html#a39da51a78b9f27392ed7494e18e89b93", null ],
-    [ "OnGossipHello", "d0/d0d/a19798.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
+    [ "achievement_freya_knock_on_wood", "d0/d0d/a19798.html#ae28517e151cc9ec2b25ff57513f32d29", null ],
+    [ "OnCheck", "d0/d0d/a19798.html#a07e5edf9d53d200506ab1b0d0b2eaa9e", null ],
+    [ "_elderCount", "d0/d0d/a19798.html#a5a3cc4dedbc2cc6be825579cbb0a09b5", null ]
 ];

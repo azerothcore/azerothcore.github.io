@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: lfg::LFGGroupScript Class Reference</title>
+<title>AzerothCore: lfg::RBInternalInfo Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,210 +106,125 @@ $(document).ready(function(){initNavTree('d1/d66/a07770.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d7/d72/a07767.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">lfg::LFGGroupScript Class Reference</div></div>
+  <div class="headertitle"><div class="title">lfg::RBInternalInfo Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">LFGScripts.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for lfg::LFGGroupScript:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d1/d66/a07770.png" usemap="#lfg::LFGGroupScript_map" alt=""/>
-  <map id="lfg::LFGGroupScript_map" name="lfg::LFGGroupScript_map">
-<area href="../../d8/d5b/a10066.html" alt="GroupScript" shape="rect" coords="0,56,124,80"/>
-<area href="../../d0/d93/a10162.html" alt="ScriptObject" shape="rect" coords="0,0,124,24"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:adb7730ba67910121a255a6da535d2fc2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#adb7730ba67910121a255a6da535d2fc2">LFGGroupScript</a> ()</td></tr>
-<tr class="separator:adb7730ba67910121a255a6da535d2fc2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a43c29f1c4b0f78b203a8798e34e9bc4c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a43c29f1c4b0f78b203a8798e34e9bc4c">OnAddMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *group, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid) override</td></tr>
-<tr class="separator:a43c29f1c4b0f78b203a8798e34e9bc4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1385adec817221a83653a6fa03e57858"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a1385adec817221a83653a6fa03e57858">OnRemoveMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *group, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid, <a class="el" href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34">RemoveMethod</a> method, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> kicker, char const *reason) override</td></tr>
-<tr class="separator:a1385adec817221a83653a6fa03e57858"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7d8d28f1919e407ed93474d970733d86"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a7d8d28f1919e407ed93474d970733d86">OnDisband</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *group) override</td></tr>
-<tr class="separator:a7d8d28f1919e407ed93474d970733d86"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3616c537eb39fe130c8fb24d93a0ead9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a3616c537eb39fe130c8fb24d93a0ead9">OnChangeLeader</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *group, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> newLeaderGuid, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> oldLeaderGuid) override</td></tr>
-<tr class="separator:a3616c537eb39fe130c8fb24d93a0ead9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a25add922fa708babe08c3bdaaa0c0d92"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a25add922fa708babe08c3bdaaa0c0d92">OnInviteMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *group, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> guid) override</td></tr>
-<tr class="separator:a25add922fa708babe08c3bdaaa0c0d92"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10066"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10066')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d8/d5b/a10066.html">GroupScript</a></td></tr>
-<tr class="memitem:acb561e8a2d5b3542e228a7beb8122fbf inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#acb561e8a2d5b3542e228a7beb8122fbf">IsDatabaseBound</a> () const override</td></tr>
-<tr class="separator:acb561e8a2d5b3542e228a7beb8122fbf inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adb279c4c0ba60ffea994f35cd7e91ad1 inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#adb279c4c0ba60ffea994f35cd7e91ad1">OnAddMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>)</td></tr>
-<tr class="separator:adb279c4c0ba60ffea994f35cd7e91ad1 inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ae925dc27708fdaa4d5909b582b77a7 inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a2ae925dc27708fdaa4d5909b582b77a7">OnInviteMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>)</td></tr>
-<tr class="separator:a2ae925dc27708fdaa4d5909b582b77a7 inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf640b01746ee92fed31670ee5cc8d0f inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#adf640b01746ee92fed31670ee5cc8d0f">OnRemoveMember</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>, <a class="el" href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34">RemoveMethod</a>, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>, const char *)</td></tr>
-<tr class="separator:adf640b01746ee92fed31670ee5cc8d0f inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a64a1441fd3db3f25236691efcff4a80b inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a64a1441fd3db3f25236691efcff4a80b">OnChangeLeader</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>, <a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>)</td></tr>
-<tr class="separator:a64a1441fd3db3f25236691efcff4a80b inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cb94966ba1d02180fb3e7cf95000e5f inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a3cb94966ba1d02180fb3e7cf95000e5f">OnDisband</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *)</td></tr>
-<tr class="separator:a3cb94966ba1d02180fb3e7cf95000e5f inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a931b4a94a2f95958579b37c0af6ece03 inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a931b4a94a2f95958579b37c0af6ece03">CanGroupJoinBattlegroundQueue</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> const *, <a class="el" href="../../d9/d86/a08398.html">Player</a> *, <a class="el" href="../../d4/db3/a07082.html">Battleground</a> const *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, bool, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
-<tr class="separator:a931b4a94a2f95958579b37c0af6ece03 inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a18973a7e5f260712f032ca1129d4a0bc inherit pub_methods_a10066"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a18973a7e5f260712f032ca1129d4a0bc">OnCreate</a> (<a class="el" href="../../db/dd5/a09214.html">Group</a> *, <a class="el" href="../../d9/d86/a08398.html">Player</a> *)</td></tr>
-<tr class="separator:a18973a7e5f260712f032ca1129d4a0bc inherit pub_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
-<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
-<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
-<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
-<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
-<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16f7daa165cc0521e928bf6c755f2231"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a16f7daa165cc0521e928bf6c755f2231">RBInternalInfo</a> ()=default</td></tr>
+<tr class="separator:a16f7daa165cc0521e928bf6c755f2231"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc97adaf8a962c054a2eb86f04727f0e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#adc97adaf8a962c054a2eb86f04727f0e">RBInternalInfo</a> (<a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> <a class="el" href="../../d1/d66/a07770.html#aa6453cf331b783401b1103f6e83c0f7c">guid</a>, std::string <a class="el" href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">comment</a>, bool <a class="el" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a>, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> <a class="el" href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">groupGuid</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">roles</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">encounterMask</a>, <a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> <a class="el" href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">instanceGuid</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">_online</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">_level</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">_class</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">_race</a>, float <a class="el" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(&amp;_talents)[3], <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a>, float <a class="el" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a>, float <a class="el" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> <a class="el" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a>)</td></tr>
+<tr class="separator:adc97adaf8a962c054a2eb86f04727f0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e00d22d5af47d0df2c193163652b656"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a0e00d22d5af47d0df2c193163652b656">PlayerSameAs</a> (<a class="el" href="../../d1/d66/a07770.html">RBInternalInfo</a> const &amp;i) const</td></tr>
+<tr class="separator:a0e00d22d5af47d0df2c193163652b656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a641ab60e9f29479afc24efa03d81371e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a641ab60e9f29479afc24efa03d81371e">CopyStats</a> (<a class="el" href="../../d1/d66/a07770.html">RBInternalInfo</a> const &amp;i)</td></tr>
+<tr class="separator:a641ab60e9f29479afc24efa03d81371e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
-Additional Inherited Members</h2></td></tr>
-<tr class="inherit_header pro_methods_a10066"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10066')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d8/d5b/a10066.html">GroupScript</a></td></tr>
-<tr class="memitem:a0680f82522424afc364e9b94e1c6f686 inherit pro_methods_a10066"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d8/d5b/a10066.html#a0680f82522424afc364e9b94e1c6f686">GroupScript</a> (const char *name, std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; enabledHooks=std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;())</td></tr>
-<tr class="separator:a0680f82522424afc364e9b94e1c6f686 inherit pro_methods_a10066"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
-<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
-<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:aa6453cf331b783401b1103f6e83c0f7c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#aa6453cf331b783401b1103f6e83c0f7c">guid</a></td></tr>
+<tr class="separator:aa6453cf331b783401b1103f6e83c0f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afa673b3f18580c0a8cb282227ba80cbc"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">comment</a></td></tr>
+<tr class="separator:afa673b3f18580c0a8cb282227ba80cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8934f0a7c25e50e43eaaa53befb304de"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a></td></tr>
+<tr class="separator:a8934f0a7c25e50e43eaaa53befb304de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa7fe150d7667deece4a50a9f5ba285a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">groupGuid</a></td></tr>
+<tr class="separator:aa7fe150d7667deece4a50a9f5ba285a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a043a7f93451c0bdf269568d11e0fad31"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">roles</a></td></tr>
+<tr class="separator:a043a7f93451c0bdf269568d11e0fad31"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a32ab4f15d9ab7962edc021a42fae038f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">encounterMask</a></td></tr>
+<tr class="separator:a32ab4f15d9ab7962edc021a42fae038f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad302f7a95b252dfe7f0a1bd9e475764e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">instanceGuid</a></td></tr>
+<tr class="separator:ad302f7a95b252dfe7f0a1bd9e475764e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2384f094759df9206881d4c3935c6d59"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">_online</a></td></tr>
+<tr class="separator:a2384f094759df9206881d4c3935c6d59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afad0fca26cc3f669f597cff1a4a0dd78"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">_level</a></td></tr>
+<tr class="separator:afad0fca26cc3f669f597cff1a4a0dd78"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a939f54efc9bfc2b30231ba2c9a263c11"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">_class</a></td></tr>
+<tr class="separator:a939f54efc9bfc2b30231ba2c9a263c11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47c4f98eb9991e0370891a2c15bc1828"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">_race</a></td></tr>
+<tr class="separator:a47c4f98eb9991e0370891a2c15bc1828"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ffc6ee82fbe40674d66c1437182db69"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a></td></tr>
+<tr class="separator:a3ffc6ee82fbe40674d66c1437182db69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdfa05f4e666e62538d696d32ac8e0a8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#abdfa05f4e666e62538d696d32ac8e0a8">_talents0</a></td></tr>
+<tr class="separator:abdfa05f4e666e62538d696d32ac8e0a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a95521738def88a689d368adbd1a106"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a8a95521738def88a689d368adbd1a106">_talents1</a></td></tr>
+<tr class="separator:a8a95521738def88a689d368adbd1a106"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e86832b189b07e5307c78bc9b673d22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a1e86832b189b07e5307c78bc9b673d22">_talents2</a></td></tr>
+<tr class="separator:a1e86832b189b07e5307c78bc9b673d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91f11701e04f4ab88feb7ce8049d2370"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a></td></tr>
+<tr class="separator:a91f11701e04f4ab88feb7ce8049d2370"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ea4d3baefdc07cd438aa7ae77fdacd8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a></td></tr>
+<tr class="separator:a6ea4d3baefdc07cd438aa7ae77fdacd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab759c5db7247927dd232da8b1fefbd6f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a></td></tr>
+<tr class="separator:ab759c5db7247927dd232da8b1fefbd6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2581afeb0d3d5a085aaa8b348a07fd16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a></td></tr>
+<tr class="separator:a2581afeb0d3d5a085aaa8b348a07fd16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad468f2456cf834e787b4a1fa4926f84e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a></td></tr>
+<tr class="separator:ad468f2456cf834e787b4a1fa4926f84e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2aaaa7434843d147ebf81b8991a0a3d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a></td></tr>
+<tr class="separator:a2aaaa7434843d147ebf81b8991a0a3d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abded2be63cec5f5eac77798a7e3a8d05"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a></td></tr>
+<tr class="separator:abded2be63cec5f5eac77798a7e3a8d05"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b572b3b26e771f9b5d83a5271005548"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a></td></tr>
+<tr class="separator:a6b572b3b26e771f9b5d83a5271005548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b66f69f20d62d6ebbfad7687e899831"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a></td></tr>
+<tr class="separator:a0b66f69f20d62d6ebbfad7687e899831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a524026fa3056ce36759291092f87591d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a></td></tr>
+<tr class="separator:a524026fa3056ce36759291092f87591d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a414f588ac48948c295d03c2bada0ea53"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a></td></tr>
+<tr class="separator:a414f588ac48948c295d03c2bada0ea53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef6c112df1fc941552c663a928d1b62f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a></td></tr>
+<tr class="separator:aef6c112df1fc941552c663a928d1b62f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2af9361d4daa7751f499572c71e12100"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a></td></tr>
+<tr class="separator:a2af9361d4daa7751f499572c71e12100"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae054e980b0874ed79177ccf4d01ee153"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a></td></tr>
+<tr class="separator:ae054e980b0874ed79177ccf4d01ee153"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae71be8a35d63654baa76cf77eec5f5cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a></td></tr>
+<tr class="separator:ae71be8a35d63654baa76cf77eec5f5cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6ca0d039d9ee48dc0237d461fcbe0ac"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a></td></tr>
+<tr class="separator:ab6ca0d039d9ee48dc0237d461fcbe0ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6fe42cd654ae0c0f37e609764c92198a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a></td></tr>
+<tr class="separator:a6fe42cd654ae0c0f37e609764c92198a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a02483fe9a8752e5fd3dfb73b700e5d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a></td></tr>
+<tr class="separator:a9a02483fe9a8752e5fd3dfb73b700e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef904d37ae69b5a306603cfd34eb351e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a></td></tr>
+<tr class="separator:aef904d37ae69b5a306603cfd34eb351e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="adb7730ba67910121a255a6da535d2fc2" name="adb7730ba67910121a255a6da535d2fc2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adb7730ba67910121a255a6da535d2fc2">&#9670;&#160;</a></span>LFGGroupScript()</h2>
+<a id="a16f7daa165cc0521e928bf6c755f2231" name="a16f7daa165cc0521e928bf6c755f2231"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16f7daa165cc0521e928bf6c755f2231">&#9670;&#160;</a></span>RBInternalInfo() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">lfg::LFGGroupScript::LFGGroupScript </td>
+          <td class="memname">lfg::RBInternalInfo::RBInternalInfo </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  143</span>                                   :</div>
-<div class="line"><span class="lineno">  144</span>        <a class="code hl_class" href="../../d8/d5b/a10066.html">GroupScript</a>(<span class="stringliteral">&quot;LFGGroupScript&quot;</span>,</div>
-<div class="line"><span class="lineno">  145</span>        {</div>
-<div class="line"><span class="lineno">  146</span>            <a class="code hl_enumvalue" href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681">GROUPHOOK_ON_ADD_MEMBER</a>,</div>
-<div class="line"><span class="lineno">  147</span>            <a class="code hl_enumvalue" href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3">GROUPHOOK_ON_REMOVE_MEMBER</a>,</div>
-<div class="line"><span class="lineno">  148</span>            <a class="code hl_enumvalue" href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353">GROUPHOOK_ON_DISBAND</a>,</div>
-<div class="line"><span class="lineno">  149</span>            <a class="code hl_enumvalue" href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23">GROUPHOOK_ON_CHANGE_LEADER</a>,</div>
-<div class="line"><span class="lineno">  150</span>            <a class="code hl_enumvalue" href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe">GROUPHOOK_ON_INVITE_MEMBER</a></div>
-<div class="line"><span class="lineno">  151</span>        })</div>
-<div class="line"><span class="lineno">  152</span>    {</div>
-<div class="line"><span class="lineno">  153</span>    }</div>
-<div class="ttc" id="aa04223_html_a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23"><div class="ttname"><a href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da32d5ef38f2a877e2d36cdf20e9bb6d23">GROUPHOOK_ON_CHANGE_LEADER</a></div><div class="ttdeci">@ GROUPHOOK_ON_CHANGE_LEADER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:30</div></div>
-<div class="ttc" id="aa04223_html_a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681"><div class="ttname"><a href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da3800aeea2a91eebb3ccdd533a8dfc681">GROUPHOOK_ON_ADD_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_ADD_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:27</div></div>
-<div class="ttc" id="aa04223_html_a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe"><div class="ttname"><a href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5da4f30d67b987f0ade961e34bce95e85fe">GROUPHOOK_ON_INVITE_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_INVITE_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:28</div></div>
-<div class="ttc" id="aa04223_html_a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3"><div class="ttname"><a href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5daee0f42175b42d95f45380c1b70c786c3">GROUPHOOK_ON_REMOVE_MEMBER</a></div><div class="ttdeci">@ GROUPHOOK_ON_REMOVE_MEMBER</div><div class="ttdef"><b>Definition:</b> GroupScript.h:29</div></div>
-<div class="ttc" id="aa04223_html_a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353"><div class="ttname"><a href="../../d1/dde/a04223.html#a373b3fe6b402e8321892b8c1be74ab5dafe9e82d7bdea3097607de1e375b0e353">GROUPHOOK_ON_DISBAND</a></div><div class="ttdeci">@ GROUPHOOK_ON_DISBAND</div><div class="ttdef"><b>Definition:</b> GroupScript.h:31</div></div>
-<div class="ttc" id="aa10066_html"><div class="ttname"><a href="../../d8/d5b/a10066.html">GroupScript</a></div><div class="ttdef"><b>Definition:</b> GroupScript.h:40</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00027">GROUPHOOK_ON_ADD_MEMBER</a>, <a class="el" href="../../#l00030">GROUPHOOK_ON_CHANGE_LEADER</a>, <a class="el" href="../../#l00031">GROUPHOOK_ON_DISBAND</a>, <a class="el" href="../../#l00028">GROUPHOOK_ON_INVITE_MEMBER</a>, and <a class="el" href="../../#l00029">GROUPHOOK_ON_REMOVE_MEMBER</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a43c29f1c4b0f78b203a8798e34e9bc4c" name="a43c29f1c4b0f78b203a8798e34e9bc4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a43c29f1c4b0f78b203a8798e34e9bc4c">&#9670;&#160;</a></span>OnAddMember()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lfg::LFGGroupScript::OnAddMember </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd5/a09214.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented from <a class="el" href="../../d8/d5b/a10066.html#adb279c4c0ba60ffea994f35cd7e91ad1">GroupScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  156</span>    {</div>
-<div class="line"><span class="lineno">  157</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;isOptionEnabled(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">LFG_OPTION_ENABLE_DUNGEON_FINDER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">LFG_OPTION_ENABLE_RAID_BROWSER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>))</div>
-<div class="line"><span class="lineno">  158</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  159</span> </div>
-<div class="line"><span class="lineno">  160</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> gguid = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  161</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> leader = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#ae13d8553fff889200d9ab2fa660adc5b">GetLeaderGUID</a>();</div>
-<div class="line"><span class="lineno">  162</span> </div>
-<div class="line"><span class="lineno">  163</span>        <span class="keywordflow">if</span> (leader == guid)</div>
-<div class="line"><span class="lineno">  164</span>        {</div>
-<div class="line"><span class="lineno">  165</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnAddMember [{}]: added [{}] leader [{}]&quot;</span>, gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), guid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), leader.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
-<div class="line"><span class="lineno">  166</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetLeader(gguid, guid);</div>
-<div class="line"><span class="lineno">  167</span>        }</div>
-<div class="line"><span class="lineno">  168</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  169</span>        {</div>
-<div class="line"><span class="lineno">  170</span>            <a class="code hl_enumeration" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> gstate = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(gguid);</div>
-<div class="line"><span class="lineno">  171</span>            <a class="code hl_enumeration" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> state = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(guid);</div>
-<div class="line"><span class="lineno">  172</span>            <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnAddMember [{}]: added [{}] leader [{}] gstate: {}, state: {}&quot;</span>,</div>
-<div class="line"><span class="lineno">  173</span>                gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), guid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), leader.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), gstate, state);</div>
-<div class="line"><span class="lineno">  174</span> </div>
-<div class="line"><span class="lineno">  175</span>            <span class="keywordflow">if</span> (state == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdaea7c189e5c3292416cbd788e048b8915">LFG_STATE_QUEUED</a>)</div>
-<div class="line"><span class="lineno">  176</span>                <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(guid);</div>
-<div class="line"><span class="lineno">  177</span> </div>
-<div class="line"><span class="lineno">  178</span>            <span class="keywordflow">if</span> (gstate == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdaea7c189e5c3292416cbd788e048b8915">LFG_STATE_QUEUED</a>)</div>
-<div class="line"><span class="lineno">  179</span>                <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(gguid);</div>
-<div class="line"><span class="lineno">  180</span>        }</div>
-<div class="line"><span class="lineno">  181</span> </div>
-<div class="line"><span class="lineno">  182</span>        <span class="keywordflow">if</span> (!group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a262e3bb23b71f40a2df56198f9921e9d">isLFGGroup</a>())</div>
-<div class="line"><span class="lineno">  183</span>        {</div>
-<div class="line"><span class="lineno">  184</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveAllLfgQueues(leader, <span class="keyword">true</span>, gguid); <span class="comment">// pussywizard: invited, queued, party formed, neither party nor new member are queued, but leader is in queue solo!</span></div>
-<div class="line"><span class="lineno">  185</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveAllLfgQueues(guid, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  186</span>        }</div>
-<div class="line"><span class="lineno">  187</span> </div>
-<div class="line"><span class="lineno">  188</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetGroup(guid, gguid);</div>
-<div class="line"><span class="lineno">  189</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;AddPlayerToGroup(gguid, guid);</div>
-<div class="line"><span class="lineno">  190</span> </div>
-<div class="line"><span class="lineno">  191</span>        <span class="comment">// pussywizard: after all necessary actions handle raid browser</span></div>
-<div class="line"><span class="lineno">  192</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(guid) == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda07544e99a884feb5e7d9bc8d9b336167">LFG_STATE_RAIDBROWSER</a>)</div>
-<div class="line"><span class="lineno">  193</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(guid);</div>
-<div class="line"><span class="lineno">  194</span>    }</div>
-<div class="ttc" id="aa00035_html_a47ac782b14a7531c6232777165a1a161"><div class="ttname"><a href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a></div><div class="ttdeci">#define LOG_DEBUG(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:169</div></div>
-<div class="ttc" id="aa03200_html_a9876016115774ddaf27fca5cc9adb96e"><div class="ttname"><a href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a></div><div class="ttdeci">#define sLFGMgr</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:641</div></div>
-<div class="ttc" id="aa04731_html_a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913"><div class="ttname"><a href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a></div><div class="ttdeci">@ LFG_OPTION_ENABLE_SEASONAL_BOSSES</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:43</div></div>
-<div class="ttc" id="aa04731_html_a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76"><div class="ttname"><a href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a></div><div class="ttdeci">@ LFG_OPTION_ENABLE_DUNGEON_FINDER</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:41</div></div>
-<div class="ttc" id="aa04731_html_a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668"><div class="ttname"><a href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a></div><div class="ttdeci">@ LFG_OPTION_ENABLE_RAID_BROWSER</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:42</div></div>
-<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bd"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">lfg::LfgState</a></div><div class="ttdeci">LfgState</div><div class="ttdef"><b>Definition:</b> LFG.h:67</div></div>
-<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bda07544e99a884feb5e7d9bc8d9b336167"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda07544e99a884feb5e7d9bc8d9b336167">lfg::LFG_STATE_RAIDBROWSER</a></div><div class="ttdeci">@ LFG_STATE_RAIDBROWSER</div><div class="ttdef"><b>Definition:</b> LFG.h:75</div></div>
-<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bdaea7c189e5c3292416cbd788e048b8915"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bdaea7c189e5c3292416cbd788e048b8915">lfg::LFG_STATE_QUEUED</a></div><div class="ttdeci">@ LFG_STATE_QUEUED</div><div class="ttdef"><b>Definition:</b> LFG.h:70</div></div>
-<div class="ttc" id="aa08198_html"><div class="ttname"><a href="../../d9/d08/a08198.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:118</div></div>
-<div class="ttc" id="aa08198_html_a78f5fb47e3b35addf8984000c175125b"><div class="ttname"><a href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ObjectGuid::ToString</a></div><div class="ttdeci">std::string ToString() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.cpp:47</div></div>
-<div class="ttc" id="aa09214_html_a262e3bb23b71f40a2df56198f9921e9d"><div class="ttname"><a href="../../db/dd5/a09214.html#a262e3bb23b71f40a2df56198f9921e9d">Group::isLFGGroup</a></div><div class="ttdeci">bool isLFGGroup(bool restricted=false) const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2261</div></div>
-<div class="ttc" id="aa09214_html_a68c38a89619391cc85eeac2bf2b96ac4"><div class="ttname"><a href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">Group::GetGUID</a></div><div class="ttdeci">ObjectGuid GetGUID() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2302</div></div>
-<div class="ttc" id="aa09214_html_ae13d8553fff889200d9ab2fa660adc5b"><div class="ttname"><a href="../../db/dd5/a09214.html#ae13d8553fff889200d9ab2fa660adc5b">Group::GetLeaderGUID</a></div><div class="ttdeci">ObjectGuid GetLeaderGUID() const</div><div class="ttdef"><b>Definition:</b> Group.cpp:2292</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l02292">Group::GetLeaderGUID()</a>, <a class="el" href="../../#l02261">Group::isLFGGroup()</a>, <a class="el" href="../../#l00041">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a>, <a class="el" href="../../#l00042">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a>, <a class="el" href="../../#l00043">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>, <a class="el" href="../../#l00070">lfg::LFG_STATE_QUEUED</a>, <a class="el" href="../../#l00075">lfg::LFG_STATE_RAIDBROWSER</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00641">sLFGMgr</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
-
 </div>
 </div>
-<a id="a3616c537eb39fe130c8fb24d93a0ead9" name="a3616c537eb39fe130c8fb24d93a0ead9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3616c537eb39fe130c8fb24d93a0ead9">&#9670;&#160;</a></span>OnChangeLeader()</h2>
+<a id="adc97adaf8a962c054a2eb86f04727f0e" name="adc97adaf8a962c054a2eb86f04727f0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc97adaf8a962c054a2eb86f04727f0e">&#9670;&#160;</a></span>RBInternalInfo() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -318,196 +233,196 @@ Additional Inherited Members</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void lfg::LFGGroupScript::OnChangeLeader </td>
+          <td class="memname">lfg::RBInternalInfo::RBInternalInfo </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd5/a09214.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>newLeaderGuid</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>oldLeaderGuid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d8/d5b/a10066.html#a64a1441fd3db3f25236691efcff4a80b">GroupScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  283</span>    {</div>
-<div class="line"><span class="lineno">  284</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;isOptionEnabled(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">LFG_OPTION_ENABLE_DUNGEON_FINDER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">LFG_OPTION_ENABLE_RAID_BROWSER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>))</div>
-<div class="line"><span class="lineno">  285</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  286</span> </div>
-<div class="line"><span class="lineno">  287</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> gguid = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  288</span> </div>
-<div class="line"><span class="lineno">  289</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnChangeLeader [{}]: old [{}] new [{}]&quot;</span>,</div>
-<div class="line"><span class="lineno">  290</span>            gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), newLeaderGuid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), oldLeaderGuid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
-<div class="line"><span class="lineno">  291</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetLeader(gguid, newLeaderGuid);</div>
-<div class="line"><span class="lineno">  292</span> </div>
-<div class="line"><span class="lineno">  293</span>        <span class="comment">// pussywizard: after all necessary actions handle raid browser</span></div>
-<div class="line"><span class="lineno">  294</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(oldLeaderGuid) == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda07544e99a884feb5e7d9bc8d9b336167">LFG_STATE_RAIDBROWSER</a>)</div>
-<div class="line"><span class="lineno">  295</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(oldLeaderGuid);</div>
-<div class="line"><span class="lineno">  296</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l00041">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a>, <a class="el" href="../../#l00042">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a>, <a class="el" href="../../#l00043">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>, <a class="el" href="../../#l00075">lfg::LFG_STATE_RAIDBROWSER</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00641">sLFGMgr</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
-
-</div>
-</div>
-<a id="a7d8d28f1919e407ed93474d970733d86" name="a7d8d28f1919e407ed93474d970733d86"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d8d28f1919e407ed93474d970733d86">&#9670;&#160;</a></span>OnDisband()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lfg::LFGGroupScript::OnDisband </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd5/a09214.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d8/d5b/a10066.html#a3cb94966ba1d02180fb3e7cf95000e5f">GroupScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  268</span>    {</div>
-<div class="line"><span class="lineno">  269</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;isOptionEnabled(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">LFG_OPTION_ENABLE_DUNGEON_FINDER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">LFG_OPTION_ENABLE_RAID_BROWSER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>))</div>
-<div class="line"><span class="lineno">  270</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  271</span> </div>
-<div class="line"><span class="lineno">  272</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> gguid = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  273</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnDisband [{}]&quot;</span>, gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
-<div class="line"><span class="lineno">  274</span> </div>
-<div class="line"><span class="lineno">  275</span>        <span class="comment">// pussywizard: after all necessary actions handle raid browser</span></div>
-<div class="line"><span class="lineno">  276</span>        <span class="keywordflow">if</span> (<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#ae13d8553fff889200d9ab2fa660adc5b">GetLeaderGUID</a>()) == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda07544e99a884feb5e7d9bc8d9b336167">LFG_STATE_RAIDBROWSER</a>)</div>
-<div class="line"><span class="lineno">  277</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#ae13d8553fff889200d9ab2fa660adc5b">GetLeaderGUID</a>());</div>
-<div class="line"><span class="lineno">  278</span> </div>
-<div class="line"><span class="lineno">  279</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;RemoveGroupData(gguid);</div>
-<div class="line"><span class="lineno">  280</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l02292">Group::GetLeaderGUID()</a>, <a class="el" href="../../#l00041">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a>, <a class="el" href="../../#l00042">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a>, <a class="el" href="../../#l00043">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>, <a class="el" href="../../#l00075">lfg::LFG_STATE_RAIDBROWSER</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00641">sLFGMgr</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
-
-</div>
-</div>
-<a id="a25add922fa708babe08c3bdaaa0c0d92" name="a25add922fa708babe08c3bdaaa0c0d92"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a25add922fa708babe08c3bdaaa0c0d92">&#9670;&#160;</a></span>OnInviteMember()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lfg::LFGGroupScript::OnInviteMember </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd5/a09214.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>guid</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d8/d5b/a10066.html#a2ae925dc27708fdaa4d5909b582b77a7">GroupScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  299</span>    {</div>
-<div class="line"><span class="lineno">  300</span>        <span class="comment">// used only with EXTRA_LOGS</span></div>
-<div class="line"><span class="lineno">  301</span>        (void)guid;</div>
-<div class="line"><span class="lineno">  302</span> </div>
-<div class="line"><span class="lineno">  303</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;isOptionEnabled(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">LFG_OPTION_ENABLE_DUNGEON_FINDER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">LFG_OPTION_ENABLE_RAID_BROWSER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>))</div>
-<div class="line"><span class="lineno">  304</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  305</span> </div>
-<div class="line"><span class="lineno">  306</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> gguid = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  307</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> leader = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#ae13d8553fff889200d9ab2fa660adc5b">GetLeaderGUID</a>();</div>
-<div class="line"><span class="lineno">  308</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnInviteMember [{}]: invite [{}] leader [{}]&quot;</span>, gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), guid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), leader.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>());</div>
-<div class="line"><span class="lineno">  309</span>        <span class="comment">// No gguid ==  new group being formed</span></div>
-<div class="line"><span class="lineno">  310</span>        <span class="comment">// No leader == after group creation first invite is new leader</span></div>
-<div class="line"><span class="lineno">  311</span>        <span class="comment">// leader and no gguid == first invite after leader is added to new group (this is the real invite)</span></div>
-<div class="line"><span class="lineno">  312</span>        <span class="keywordflow">if</span> (leader &amp;&amp; !gguid)</div>
-<div class="line"><span class="lineno">  313</span>        {</div>
-<div class="line"><span class="lineno">  314</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(leader);</div>
-<div class="line"><span class="lineno">  315</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveAllLfgQueues(leader, <span class="keyword">true</span>);</div>
-<div class="line"><span class="lineno">  316</span>        }</div>
-<div class="line"><span class="lineno">  317</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l02292">Group::GetLeaderGUID()</a>, <a class="el" href="../../#l00041">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a>, <a class="el" href="../../#l00042">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a>, <a class="el" href="../../#l00043">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00641">sLFGMgr</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
-
-</div>
-</div>
-<a id="a1385adec817221a83653a6fa03e57858" name="a1385adec817221a83653a6fa03e57858"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1385adec817221a83653a6fa03e57858">&#9670;&#160;</a></span>OnRemoveMember()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void lfg::LFGGroupScript::OnRemoveMember </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/dd5/a09214.html">Group</a> *&#160;</td>
-          <td class="paramname"><em>group</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td>
           <td class="paramname"><em>guid</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34">RemoveMethod</a>&#160;</td>
-          <td class="paramname"><em>method</em>, </td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>comment</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>kicker</em>, </td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isGroupLeader</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>reason</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>groupGuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>roles</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>encounterMask</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>instanceGuid</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_online</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_level</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_class</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_race</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_avgItemLevel</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>(&amp;)&#160;</td>
+          <td class="paramname"><em>_talents</em>[3], </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_armor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_spellDamage</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_spellHeal</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_critRatingMelee</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_critRatingRanged</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_critRatingSpell</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_mp5</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>_mp5combat</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_attackPower</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_agility</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_health</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_mana</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_defenseSkill</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_dodgeRating</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_blockRating</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_parryRating</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_hasteRating</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>_expertiseRating</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -517,98 +432,686 @@ Additional Inherited Members</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p>Reimplemented from <a class="el" href="../../d8/d5b/a10066.html#adf640b01746ee92fed31670ee5cc8d0f">GroupScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  197</span>    {</div>
-<div class="line"><span class="lineno">  198</span>        <span class="comment">// used only with EXTRA_LOGS</span></div>
-<div class="line"><span class="lineno">  199</span>        (void)kicker;</div>
-<div class="line"><span class="lineno">  200</span>        (void)reason;</div>
-<div class="line"><span class="lineno">  201</span> </div>
-<div class="line"><span class="lineno">  202</span>        <span class="keywordflow">if</span> (!<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;isOptionEnabled(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a60b973ec0c197664894bba68e8d86c76">LFG_OPTION_ENABLE_DUNGEON_FINDER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4ac6454c0e227f8e7d4f50c87341117668">LFG_OPTION_ENABLE_RAID_BROWSER</a> | <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a07e4718e8cf678327c72b7deb48ccdb4a3d8245a21e83ed011bc8c88f087cb913">LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>))</div>
-<div class="line"><span class="lineno">  203</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  204</span> </div>
-<div class="line"><span class="lineno">  205</span>        <a class="code hl_class" href="../../d9/d08/a08198.html">ObjectGuid</a> gguid = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a68c38a89619391cc85eeac2bf2b96ac4">GetGUID</a>();</div>
-<div class="line"><span class="lineno">  206</span>        <a class="code hl_define" href="../../d4/d8c/a00035.html#a47ac782b14a7531c6232777165a1a161">LOG_DEBUG</a>(<span class="stringliteral">&quot;lfg&quot;</span>, <span class="stringliteral">&quot;LFGScripts::OnRemoveMember [{}]: remove [{}] Method: {} Kicker: [{}] Reason: {}&quot;</span>,</div>
-<div class="line"><span class="lineno">  207</span>            gguid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), guid.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), method, kicker.<a class="code hl_function" href="../../d9/d08/a08198.html#a78f5fb47e3b35addf8984000c175125b">ToString</a>(), (reason ? reason : <span class="stringliteral">&quot;&quot;</span>));</div>
-<div class="line"><span class="lineno">  208</span> </div>
-<div class="line"><span class="lineno">  209</span>        <span class="keywordtype">bool</span> isLFG = group-&gt;<a class="code hl_function" href="../../db/dd5/a09214.html#a262e3bb23b71f40a2df56198f9921e9d">isLFGGroup</a>();</div>
-<div class="line"><span class="lineno">  210</span>        <a class="code hl_enumeration" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bd">LfgState</a> state = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetState(gguid);</div>
-<div class="line"><span class="lineno">  211</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> dungeonId = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetDungeon(gguid, <span class="keyword">false</span>);</div>
-<div class="line"><span class="lineno">  212</span> </div>
-<div class="line"><span class="lineno">  213</span>        <span class="comment">// If group is being formed after proposal success do nothing more</span></div>
-<div class="line"><span class="lineno">  214</span>        <span class="keywordflow">if</span> (state == <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda81ff40b31f8218c064e20184df97ea45">LFG_STATE_PROPOSAL</a> &amp;&amp; method == <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34a76e2310a1496ab2a033f8bfd026096d5">GROUP_REMOVEMETHOD_DEFAULT</a>)</div>
-<div class="line"><span class="lineno">  215</span>        {</div>
-<div class="line"><span class="lineno">  216</span>            <span class="comment">// LfgData: Remove player from group</span></div>
-<div class="line"><span class="lineno">  217</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetGroup(guid, <a class="code hl_variable" href="../../d9/d08/a08198.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
-<div class="line"><span class="lineno">  218</span>            <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;RemovePlayerFromGroup(gguid, guid);</div>
-<div class="line"><span class="lineno">  219</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  220</span>        }</div>
-<div class="line"><span class="lineno">  221</span> </div>
-<div class="line"><span class="lineno">  222</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveLfg(guid);</div>
-<div class="line"><span class="lineno">  223</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;LeaveAllLfgQueues(guid, <span class="keyword">true</span>, gguid);</div>
-<div class="line"><span class="lineno">  224</span>        <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetGroup(guid, <a class="code hl_variable" href="../../d9/d08/a08198.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a>);</div>
-<div class="line"><span class="lineno">  225</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> players = <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;RemovePlayerFromGroup(gguid, guid);</div>
-<div class="line"><span class="lineno">  226</span> </div>
-<div class="line"><span class="lineno">  227</span>        <span class="comment">// pussywizard: after all necessary actions handle raid browser</span></div>
-<div class="line"><span class="lineno">  228</span>        <span class="comment">// pussywizard: already done above</span></div>
-<div class="line"><span class="lineno">  229</span>        <span class="comment">//if (sLFGMgr-&gt;GetState(guid) == LFG_STATE_RAIDBROWSER)</span></div>
-<div class="line"><span class="lineno">  230</span>        <span class="comment">//  sLFGMgr-&gt;LeaveLfg(guid);</span></div>
-<div class="line"><span class="lineno">  231</span> </div>
-<div class="line"><span class="lineno">  232</span>        <span class="comment">// Xinef: only LFG groups can go below</span></div>
-<div class="line"><span class="lineno">  233</span>        <span class="keywordflow">if</span> (!isLFG)</div>
-<div class="line"><span class="lineno">  234</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">  235</span> </div>
-<div class="line"><span class="lineno">  236</span>        <span class="keywordflow">if</span> (state != <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">LFG_STATE_FINISHED_DUNGEON</a> &amp;&amp; group) <span class="comment">// Need more players to finish the dungeon</span></div>
-<div class="line"><span class="lineno">  237</span>        {</div>
-<div class="line"><span class="lineno">  238</span>            <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* leader = <a class="code hl_function" href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetLeader(gguid)))</div>
-<div class="line"><span class="lineno">  239</span>            {</div>
-<div class="line"><span class="lineno">  240</span>                <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;SetDungeon(gguid, dungeonId);</div>
-<div class="line"><span class="lineno">  241</span>                leader-&gt;GetSession()-&gt;SendLfgOfferContinue(<a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetDungeon(gguid, <span class="keyword">false</span>));</div>
-<div class="line"><span class="lineno">  242</span>            }</div>
-<div class="line"><span class="lineno">  243</span>        }</div>
-<div class="line"><span class="lineno">  244</span> </div>
-<div class="line"><span class="lineno">  245</span>        <span class="keywordflow">if</span> (<a class="code hl_class" href="../../d9/d86/a08398.html">Player</a>* player = <a class="code hl_function" href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a>(guid))</div>
-<div class="line"><span class="lineno">  246</span>        {</div>
-<div class="line"><span class="lineno">  247</span>            <span class="comment">// xinef: fixed dungeon deserter</span></div>
-<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">if</span> (method != <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34a62ff073a5f6e7083e947e80535d759f0">GROUP_REMOVEMETHOD_KICK_LFG</a> &amp;&amp; state != <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">LFG_STATE_FINISHED_DUNGEON</a> &amp;&amp;</div>
-<div class="line"><span class="lineno">  249</span>                    player-&gt;HasAura(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7ca3ae4cb3e189406d52dcacbb4f110b158">LFG_SPELL_DUNGEON_COOLDOWN</a>) &amp;&amp; players &gt;= <a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7ca87c8d7f48e3aefe68a3f779d7abb0d25">LFG_GROUP_KICK_VOTES_NEEDED</a> &amp;&amp;</div>
-<div class="line"><span class="lineno">  250</span>                    <a class="code hl_define" href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a>-&gt;getBoolConfig(<a class="code hl_enumvalue" href="../../d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a290ab8e560e2bcdd3bdf64396ef4c823">CONFIG_LFG_CAST_DESERTER</a>))</div>
-<div class="line"><span class="lineno">  251</span>            {</div>
-<div class="line"><span class="lineno">  252</span>                player-&gt;AddAura(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7cad66eeedac753103a97f53bb7e31ac898">LFG_SPELL_DUNGEON_DESERTER</a>, player);</div>
-<div class="line"><span class="lineno">  253</span>            }</div>
-<div class="line"><span class="lineno">  254</span>            <span class="comment">//else if (state == LFG_STATE_BOOT)</span></div>
-<div class="line"><span class="lineno">  255</span>            <span class="comment">// Update internal kick cooldown of kicked</span></div>
-<div class="line"><span class="lineno">  256</span> </div>
-<div class="line"><span class="lineno">  257</span>            player-&gt;GetSession()-&gt;SendLfgUpdateParty(LfgUpdateData(<a class="code hl_enumvalue" href="../../dc/d6b/a04731.html#a253373c800edd65165575f01c960a500a5a246cd808c6b25e3ac9cf68452a9f3b">LFG_UPDATETYPE_LEADER_UNK1</a>));</div>
-<div class="line"><span class="lineno">  258</span>            <span class="keywordflow">if</span> (player-&gt;GetMap()-&gt;IsDungeon())            <span class="comment">// Teleport player out the dungeon</span></div>
-<div class="line"><span class="lineno">  259</span>            {</div>
-<div class="line"><span class="lineno">  260</span>                <span class="comment">// Xinef: no longer valid sLFGMgr-&gt;TeleportPlayer(player, true);</span></div>
-<div class="line"><span class="lineno">  261</span>                <span class="keywordflow">if</span> (!player-&gt;IsBeingTeleportedFar() &amp;&amp; player-&gt;GetMapId() == <a class="code hl_define" href="../../de/d3a/a03200.html#a9876016115774ddaf27fca5cc9adb96e">sLFGMgr</a>-&gt;GetDungeonMapId(gguid))</div>
-<div class="line"><span class="lineno">  262</span>                    player-&gt;TeleportToEntryPoint();</div>
-<div class="line"><span class="lineno">  263</span>            }</div>
-<div class="line"><span class="lineno">  264</span>        }</div>
-<div class="line"><span class="lineno">  265</span>    }</div>
-<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-<div class="ttc" id="aa02771_html_af1c66bfbd0322ba300c7dcafe61e3b34a62ff073a5f6e7083e947e80535d759f0"><div class="ttname"><a href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34a62ff073a5f6e7083e947e80535d759f0">GROUP_REMOVEMETHOD_KICK_LFG</a></div><div class="ttdeci">@ GROUP_REMOVEMETHOD_KICK_LFG</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3590</div></div>
-<div class="ttc" id="aa02771_html_af1c66bfbd0322ba300c7dcafe61e3b34a76e2310a1496ab2a033f8bfd026096d5"><div class="ttname"><a href="../../d0/dbd/a02771.html#af1c66bfbd0322ba300c7dcafe61e3b34a76e2310a1496ab2a033f8bfd026096d5">GROUP_REMOVEMETHOD_DEFAULT</a></div><div class="ttdeci">@ GROUP_REMOVEMETHOD_DEFAULT</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3587</div></div>
-<div class="ttc" id="aa03317_html_a1b4b88c03b7d0124998b4c22e957baf0a290ab8e560e2bcdd3bdf64396ef4c823"><div class="ttname"><a href="../../d8/ddd/a03317.html#a1b4b88c03b7d0124998b4c22e957baf0a290ab8e560e2bcdd3bdf64396ef4c823">CONFIG_LFG_CAST_DESERTER</a></div><div class="ttdeci">@ CONFIG_LFG_CAST_DESERTER</div><div class="ttdef"><b>Definition:</b> IWorld.h:137</div></div>
-<div class="ttc" id="aa04681_html_ga05dfb35c344e5b947a19e4284e7f5fa7"><div class="ttname"><a href="../../d2/db6/a04681.html#ga05dfb35c344e5b947a19e4284e7f5fa7">sWorld</a></div><div class="ttdeci">#define sWorld</div><div class="ttdef"><b>Definition:</b> World.h:443</div></div>
-<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda6a43b274b2bb76912ca0fff4b7fc024d">lfg::LFG_STATE_FINISHED_DUNGEON</a></div><div class="ttdeci">@ LFG_STATE_FINISHED_DUNGEON</div><div class="ttdef"><b>Definition:</b> LFG.h:74</div></div>
-<div class="ttc" id="aa04731_html_a246dcd646c556ecaff639514ef9a80bda81ff40b31f8218c064e20184df97ea45"><div class="ttname"><a href="../../dc/d6b/a04731.html#a246dcd646c556ecaff639514ef9a80bda81ff40b31f8218c064e20184df97ea45">lfg::LFG_STATE_PROPOSAL</a></div><div class="ttdeci">@ LFG_STATE_PROPOSAL</div><div class="ttdef"><b>Definition:</b> LFG.h:71</div></div>
-<div class="ttc" id="aa04731_html_a253373c800edd65165575f01c960a500a5a246cd808c6b25e3ac9cf68452a9f3b"><div class="ttname"><a href="../../dc/d6b/a04731.html#a253373c800edd65165575f01c960a500a5a246cd808c6b25e3ac9cf68452a9f3b">lfg::LFG_UPDATETYPE_LEADER_UNK1</a></div><div class="ttdeci">@ LFG_UPDATETYPE_LEADER_UNK1</div><div class="ttdef"><b>Definition:</b> LFG.h:49</div></div>
-<div class="ttc" id="aa04731_html_a2b5cf5a4940992366122159776b67c7ca3ae4cb3e189406d52dcacbb4f110b158"><div class="ttname"><a href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7ca3ae4cb3e189406d52dcacbb4f110b158">lfg::LFG_SPELL_DUNGEON_COOLDOWN</a></div><div class="ttdeci">@ LFG_SPELL_DUNGEON_COOLDOWN</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:52</div></div>
-<div class="ttc" id="aa04731_html_a2b5cf5a4940992366122159776b67c7ca87c8d7f48e3aefe68a3f779d7abb0d25"><div class="ttname"><a href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7ca87c8d7f48e3aefe68a3f779d7abb0d25">lfg::LFG_GROUP_KICK_VOTES_NEEDED</a></div><div class="ttdeci">@ LFG_GROUP_KICK_VOTES_NEEDED</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:55</div></div>
-<div class="ttc" id="aa04731_html_a2b5cf5a4940992366122159776b67c7cad66eeedac753103a97f53bb7e31ac898"><div class="ttname"><a href="../../dc/d6b/a04731.html#a2b5cf5a4940992366122159776b67c7cad66eeedac753103a97f53bb7e31ac898">lfg::LFG_SPELL_DUNGEON_DESERTER</a></div><div class="ttdeci">@ LFG_SPELL_DUNGEON_DESERTER</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:53</div></div>
-<div class="ttc" id="aa04735_html_a354f7e7aaf4b12d6ad8fe8ef6291eaa0"><div class="ttname"><a href="../../d9/d06/a04735.html#a354f7e7aaf4b12d6ad8fe8ef6291eaa0">ObjectAccessor::FindConnectedPlayer</a></div><div class="ttdeci">Player * FindConnectedPlayer(ObjectGuid const guid)</div><div class="ttdef"><b>Definition:</b> ObjectAccessor.cpp:257</div></div>
-<div class="ttc" id="aa08198_html_a14039d3f3df79203693f713495503165"><div class="ttname"><a href="../../d9/d08/a08198.html#a14039d3f3df79203693f713495503165">ObjectGuid::Empty</a></div><div class="ttdeci">static ObjectGuid const Empty</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:120</div></div>
-<div class="ttc" id="aa08398_html"><div class="ttname"><a href="../../d9/d86/a08398.html">Player</a></div><div class="ttdef"><b>Definition:</b> Player.h:1081</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  212</span>            : <a class="code hl_variable" href="../../d1/d66/a07770.html#aa6453cf331b783401b1103f6e83c0f7c">guid</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#aa6453cf331b783401b1103f6e83c0f7c">guid</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">comment</a>(std::move(<a class="code hl_variable" href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">comment</a>)), <a class="code hl_variable" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">groupGuid</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">groupGuid</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">roles</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">roles</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">encounterMask</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">encounterMask</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">instanceGuid</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">instanceGuid</a>),</div>
+<div class="line"><span class="lineno">  213</span>              <a class="code hl_variable" href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">_online</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">_online</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">_level</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">_level</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">_class</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">_class</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">_race</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">_race</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a>),</div>
+<div class="line"><span class="lineno">  214</span>              <a class="code hl_variable" href="../../d1/d66/a07770.html#abdfa05f4e666e62538d696d32ac8e0a8">_talents0</a>(_talents[0]), <a class="code hl_variable" href="../../d1/d66/a07770.html#a8a95521738def88a689d368adbd1a106">_talents1</a>(_talents[1]), <a class="code hl_variable" href="../../d1/d66/a07770.html#a1e86832b189b07e5307c78bc9b673d22">_talents2</a>(_talents[2]), <a class="code hl_variable" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a>),</div>
+<div class="line"><span class="lineno">  215</span>              <a class="code hl_variable" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a>),</div>
+<div class="line"><span class="lineno">  216</span>              <a class="code hl_variable" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a>),</div>
+<div class="line"><span class="lineno">  217</span>              <a class="code hl_variable" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a>), <a class="code hl_variable" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a>(<a class="code hl_variable" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a>)</div>
+<div class="line"><span class="lineno">  218</span>        {}</div>
+<div class="ttc" id="aa07770_html_a043a7f93451c0bdf269568d11e0fad31"><div class="ttname"><a href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">lfg::RBInternalInfo::roles</a></div><div class="ttdeci">uint8 roles</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:168</div></div>
+<div class="ttc" id="aa07770_html_a0b66f69f20d62d6ebbfad7687e899831"><div class="ttname"><a href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">lfg::RBInternalInfo::_mp5combat</a></div><div class="ttdeci">float _mp5combat</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:191</div></div>
+<div class="ttc" id="aa07770_html_a1e86832b189b07e5307c78bc9b673d22"><div class="ttname"><a href="../../d1/d66/a07770.html#a1e86832b189b07e5307c78bc9b673d22">lfg::RBInternalInfo::_talents2</a></div><div class="ttdeci">uint8 _talents2</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:181</div></div>
+<div class="ttc" id="aa07770_html_a2384f094759df9206881d4c3935c6d59"><div class="ttname"><a href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">lfg::RBInternalInfo::_online</a></div><div class="ttdeci">uint8 _online</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:173</div></div>
+<div class="ttc" id="aa07770_html_a2581afeb0d3d5a085aaa8b348a07fd16"><div class="ttname"><a href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">lfg::RBInternalInfo::_spellHeal</a></div><div class="ttdeci">uint32 _spellHeal</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:185</div></div>
+<div class="ttc" id="aa07770_html_a2aaaa7434843d147ebf81b8991a0a3d3"><div class="ttname"><a href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">lfg::RBInternalInfo::_critRatingRanged</a></div><div class="ttdeci">uint32 _critRatingRanged</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:188</div></div>
+<div class="ttc" id="aa07770_html_a2af9361d4daa7751f499572c71e12100"><div class="ttname"><a href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">lfg::RBInternalInfo::_mana</a></div><div class="ttdeci">uint32 _mana</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:196</div></div>
+<div class="ttc" id="aa07770_html_a32ab4f15d9ab7962edc021a42fae038f"><div class="ttname"><a href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">lfg::RBInternalInfo::encounterMask</a></div><div class="ttdeci">uint32 encounterMask</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:169</div></div>
+<div class="ttc" id="aa07770_html_a3ffc6ee82fbe40674d66c1437182db69"><div class="ttname"><a href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">lfg::RBInternalInfo::_avgItemLevel</a></div><div class="ttdeci">float _avgItemLevel</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:177</div></div>
+<div class="ttc" id="aa07770_html_a414f588ac48948c295d03c2bada0ea53"><div class="ttname"><a href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">lfg::RBInternalInfo::_agility</a></div><div class="ttdeci">uint32 _agility</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:194</div></div>
+<div class="ttc" id="aa07770_html_a47c4f98eb9991e0370891a2c15bc1828"><div class="ttname"><a href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">lfg::RBInternalInfo::_race</a></div><div class="ttdeci">uint8 _race</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:176</div></div>
+<div class="ttc" id="aa07770_html_a524026fa3056ce36759291092f87591d"><div class="ttname"><a href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">lfg::RBInternalInfo::_attackPower</a></div><div class="ttdeci">uint32 _attackPower</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:193</div></div>
+<div class="ttc" id="aa07770_html_a6b572b3b26e771f9b5d83a5271005548"><div class="ttname"><a href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">lfg::RBInternalInfo::_mp5</a></div><div class="ttdeci">float _mp5</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:190</div></div>
+<div class="ttc" id="aa07770_html_a6ea4d3baefdc07cd438aa7ae77fdacd8"><div class="ttname"><a href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">lfg::RBInternalInfo::_armor</a></div><div class="ttdeci">uint32 _armor</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:183</div></div>
+<div class="ttc" id="aa07770_html_a6fe42cd654ae0c0f37e609764c92198a"><div class="ttname"><a href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">lfg::RBInternalInfo::_parryRating</a></div><div class="ttdeci">uint32 _parryRating</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:201</div></div>
+<div class="ttc" id="aa07770_html_a8934f0a7c25e50e43eaaa53befb304de"><div class="ttname"><a href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">lfg::RBInternalInfo::isGroupLeader</a></div><div class="ttdeci">bool isGroupLeader</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:166</div></div>
+<div class="ttc" id="aa07770_html_a8a95521738def88a689d368adbd1a106"><div class="ttname"><a href="../../d1/d66/a07770.html#a8a95521738def88a689d368adbd1a106">lfg::RBInternalInfo::_talents1</a></div><div class="ttdeci">uint8 _talents1</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:180</div></div>
+<div class="ttc" id="aa07770_html_a91f11701e04f4ab88feb7ce8049d2370"><div class="ttname"><a href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">lfg::RBInternalInfo::_area</a></div><div class="ttdeci">uint32 _area</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:182</div></div>
+<div class="ttc" id="aa07770_html_a939f54efc9bfc2b30231ba2c9a263c11"><div class="ttname"><a href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">lfg::RBInternalInfo::_class</a></div><div class="ttdeci">uint8 _class</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:175</div></div>
+<div class="ttc" id="aa07770_html_a9a02483fe9a8752e5fd3dfb73b700e5d"><div class="ttname"><a href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">lfg::RBInternalInfo::_hasteRating</a></div><div class="ttdeci">uint32 _hasteRating</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:202</div></div>
+<div class="ttc" id="aa07770_html_aa6453cf331b783401b1103f6e83c0f7c"><div class="ttname"><a href="../../d1/d66/a07770.html#aa6453cf331b783401b1103f6e83c0f7c">lfg::RBInternalInfo::guid</a></div><div class="ttdeci">ObjectGuid guid</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:164</div></div>
+<div class="ttc" id="aa07770_html_aa7fe150d7667deece4a50a9f5ba285a1"><div class="ttname"><a href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">lfg::RBInternalInfo::groupGuid</a></div><div class="ttdeci">ObjectGuid groupGuid</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:167</div></div>
+<div class="ttc" id="aa07770_html_ab6ca0d039d9ee48dc0237d461fcbe0ac"><div class="ttname"><a href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">lfg::RBInternalInfo::_blockRating</a></div><div class="ttdeci">uint32 _blockRating</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:200</div></div>
+<div class="ttc" id="aa07770_html_ab759c5db7247927dd232da8b1fefbd6f"><div class="ttname"><a href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">lfg::RBInternalInfo::_spellDamage</a></div><div class="ttdeci">uint32 _spellDamage</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:184</div></div>
+<div class="ttc" id="aa07770_html_abded2be63cec5f5eac77798a7e3a8d05"><div class="ttname"><a href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">lfg::RBInternalInfo::_critRatingSpell</a></div><div class="ttdeci">uint32 _critRatingSpell</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:189</div></div>
+<div class="ttc" id="aa07770_html_abdfa05f4e666e62538d696d32ac8e0a8"><div class="ttname"><a href="../../d1/d66/a07770.html#abdfa05f4e666e62538d696d32ac8e0a8">lfg::RBInternalInfo::_talents0</a></div><div class="ttdeci">uint8 _talents0</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:179</div></div>
+<div class="ttc" id="aa07770_html_ad302f7a95b252dfe7f0a1bd9e475764e"><div class="ttname"><a href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">lfg::RBInternalInfo::instanceGuid</a></div><div class="ttdeci">ObjectGuid instanceGuid</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:170</div></div>
+<div class="ttc" id="aa07770_html_ad468f2456cf834e787b4a1fa4926f84e"><div class="ttname"><a href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">lfg::RBInternalInfo::_critRatingMelee</a></div><div class="ttdeci">uint32 _critRatingMelee</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:187</div></div>
+<div class="ttc" id="aa07770_html_ae054e980b0874ed79177ccf4d01ee153"><div class="ttname"><a href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">lfg::RBInternalInfo::_defenseSkill</a></div><div class="ttdeci">uint32 _defenseSkill</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:197</div></div>
+<div class="ttc" id="aa07770_html_ae71be8a35d63654baa76cf77eec5f5cb"><div class="ttname"><a href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">lfg::RBInternalInfo::_dodgeRating</a></div><div class="ttdeci">uint32 _dodgeRating</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:199</div></div>
+<div class="ttc" id="aa07770_html_aef6c112df1fc941552c663a928d1b62f"><div class="ttname"><a href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">lfg::RBInternalInfo::_health</a></div><div class="ttdeci">uint32 _health</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:195</div></div>
+<div class="ttc" id="aa07770_html_aef904d37ae69b5a306603cfd34eb351e"><div class="ttname"><a href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">lfg::RBInternalInfo::_expertiseRating</a></div><div class="ttdeci">uint32 _expertiseRating</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:203</div></div>
+<div class="ttc" id="aa07770_html_afa673b3f18580c0a8cb282227ba80cbc"><div class="ttname"><a href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">lfg::RBInternalInfo::comment</a></div><div class="ttdeci">std::string comment</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:165</div></div>
+<div class="ttc" id="aa07770_html_afad0fca26cc3f669f597cff1a4a0dd78"><div class="ttname"><a href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">lfg::RBInternalInfo::_level</a></div><div class="ttdeci">uint8 _level</div><div class="ttdef"><b>Definition:</b> LFGMgr.h:174</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00137">CONFIG_LFG_CAST_DESERTER</a>, <a class="el" href="../../#l00120">ObjectGuid::Empty</a>, <a class="el" href="../../#l00257">ObjectAccessor::FindConnectedPlayer()</a>, <a class="el" href="../../#l02302">Group::GetGUID()</a>, <a class="el" href="../../#l03587">GROUP_REMOVEMETHOD_DEFAULT</a>, <a class="el" href="../../#l03590">GROUP_REMOVEMETHOD_KICK_LFG</a>, <a class="el" href="../../#l02261">Group::isLFGGroup()</a>, <a class="el" href="../../#l00055">lfg::LFG_GROUP_KICK_VOTES_NEEDED</a>, <a class="el" href="../../#l00041">lfg::LFG_OPTION_ENABLE_DUNGEON_FINDER</a>, <a class="el" href="../../#l00042">lfg::LFG_OPTION_ENABLE_RAID_BROWSER</a>, <a class="el" href="../../#l00043">lfg::LFG_OPTION_ENABLE_SEASONAL_BOSSES</a>, <a class="el" href="../../#l00052">lfg::LFG_SPELL_DUNGEON_COOLDOWN</a>, <a class="el" href="../../#l00053">lfg::LFG_SPELL_DUNGEON_DESERTER</a>, <a class="el" href="../../#l00074">lfg::LFG_STATE_FINISHED_DUNGEON</a>, <a class="el" href="../../#l00071">lfg::LFG_STATE_PROPOSAL</a>, <a class="el" href="../../#l00049">lfg::LFG_UPDATETYPE_LEADER_UNK1</a>, <a class="el" href="../../#l00169">LOG_DEBUG</a>, <a class="el" href="../../#l00641">sLFGMgr</a>, <a class="el" href="../../#l00443">sWorld</a>, and <a class="el" href="../../#l00047">ObjectGuid::ToString()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a641ab60e9f29479afc24efa03d81371e" name="a641ab60e9f29479afc24efa03d81371e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a641ab60e9f29479afc24efa03d81371e">&#9670;&#160;</a></span>CopyStats()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void lfg::RBInternalInfo::CopyStats </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d66/a07770.html">RBInternalInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  229</span>        {</div>
+<div class="line"><span class="lineno">  230</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a> = i._avgItemLevel;</div>
+<div class="line"><span class="lineno">  231</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#abdfa05f4e666e62538d696d32ac8e0a8">_talents0</a> = i._talents0;</div>
+<div class="line"><span class="lineno">  232</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a8a95521738def88a689d368adbd1a106">_talents1</a> = i._talents1;</div>
+<div class="line"><span class="lineno">  233</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a1e86832b189b07e5307c78bc9b673d22">_talents2</a> = i._talents2;</div>
+<div class="line"><span class="lineno">  234</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a> = i._area;</div>
+<div class="line"><span class="lineno">  235</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a> = i._armor;</div>
+<div class="line"><span class="lineno">  236</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a> = i._spellDamage;</div>
+<div class="line"><span class="lineno">  237</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a> = i._spellHeal;</div>
+<div class="line"><span class="lineno">  238</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a> = i._critRatingMelee;</div>
+<div class="line"><span class="lineno">  239</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a> = i._critRatingRanged;</div>
+<div class="line"><span class="lineno">  240</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a> = i._critRatingSpell;</div>
+<div class="line"><span class="lineno">  241</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a> = i._mp5;</div>
+<div class="line"><span class="lineno">  242</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a> = i._mp5combat;</div>
+<div class="line"><span class="lineno">  243</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a> = i._attackPower;</div>
+<div class="line"><span class="lineno">  244</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a> = i._agility;</div>
+<div class="line"><span class="lineno">  245</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a> = i._health;</div>
+<div class="line"><span class="lineno">  246</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a> = i._mana;</div>
+<div class="line"><span class="lineno">  247</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a> = i._defenseSkill;</div>
+<div class="line"><span class="lineno">  248</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a> = i._dodgeRating;</div>
+<div class="line"><span class="lineno">  249</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a> = i._blockRating;</div>
+<div class="line"><span class="lineno">  250</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a> = i._parryRating;</div>
+<div class="line"><span class="lineno">  251</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a> = i._hasteRating;</div>
+<div class="line"><span class="lineno">  252</span>            <a class="code hl_variable" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a> = i._expertiseRating;</div>
+<div class="line"><span class="lineno">  253</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00194">_agility</a>, <a class="el" href="../../#l00182">_area</a>, <a class="el" href="../../#l00183">_armor</a>, <a class="el" href="../../#l00193">_attackPower</a>, <a class="el" href="../../#l00177">_avgItemLevel</a>, <a class="el" href="../../#l00200">_blockRating</a>, <a class="el" href="../../#l00187">_critRatingMelee</a>, <a class="el" href="../../#l00188">_critRatingRanged</a>, <a class="el" href="../../#l00189">_critRatingSpell</a>, <a class="el" href="../../#l00197">_defenseSkill</a>, <a class="el" href="../../#l00199">_dodgeRating</a>, <a class="el" href="../../#l00203">_expertiseRating</a>, <a class="el" href="../../#l00202">_hasteRating</a>, <a class="el" href="../../#l00195">_health</a>, <a class="el" href="../../#l00196">_mana</a>, <a class="el" href="../../#l00190">_mp5</a>, <a class="el" href="../../#l00191">_mp5combat</a>, <a class="el" href="../../#l00201">_parryRating</a>, <a class="el" href="../../#l00184">_spellDamage</a>, <a class="el" href="../../#l00185">_spellHeal</a>, <a class="el" href="../../#l00179">_talents0</a>, <a class="el" href="../../#l00180">_talents1</a>, and <a class="el" href="../../#l00181">_talents2</a>.</p>
+
+</div>
+</div>
+<a id="a0e00d22d5af47d0df2c193163652b656" name="a0e00d22d5af47d0df2c193163652b656"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e00d22d5af47d0df2c193163652b656">&#9670;&#160;</a></span>PlayerSameAs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lfg::RBInternalInfo::PlayerSameAs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d66/a07770.html">RBInternalInfo</a> const &amp;&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  220</span>        {</div>
+<div class="line"><span class="lineno">  221</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a> == i.isGroupLeader &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#aa7fe150d7667deece4a50a9f5ba285a1">groupGuid</a> == i.groupGuid &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a043a7f93451c0bdf269568d11e0fad31">roles</a> == i.roles &amp;&amp; (<a class="code hl_variable" href="../../d1/d66/a07770.html#a8934f0a7c25e50e43eaaa53befb304de">isGroupLeader</a> || (<a class="code hl_variable" href="../../d1/d66/a07770.html#afa673b3f18580c0a8cb282227ba80cbc">comment</a> == i.comment &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a32ab4f15d9ab7962edc021a42fae038f">encounterMask</a> == i.encounterMask &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ad302f7a95b252dfe7f0a1bd9e475764e">instanceGuid</a> == i.instanceGuid))</div>
+<div class="line"><span class="lineno">  222</span>                   &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a2384f094759df9206881d4c3935c6d59">_online</a> == i._online &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#afad0fca26cc3f669f597cff1a4a0dd78">_level</a> == i._level &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a939f54efc9bfc2b30231ba2c9a263c11">_class</a> == i._class &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a47c4f98eb9991e0370891a2c15bc1828">_race</a> == i._race &amp;&amp; std::fabs(<a class="code hl_variable" href="../../d1/d66/a07770.html#a3ffc6ee82fbe40674d66c1437182db69">_avgItemLevel</a> - i._avgItemLevel) &lt; 0.01f</div>
+<div class="line"><span class="lineno">  223</span>                   &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#abdfa05f4e666e62538d696d32ac8e0a8">_talents0</a> == i._talents0 &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a8a95521738def88a689d368adbd1a106">_talents1</a> == i._talents1 &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a1e86832b189b07e5307c78bc9b673d22">_talents2</a> == i._talents2 &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a91f11701e04f4ab88feb7ce8049d2370">_area</a> == i._area &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a6ea4d3baefdc07cd438aa7ae77fdacd8">_armor</a> == i._armor &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ab759c5db7247927dd232da8b1fefbd6f">_spellDamage</a> == i._spellDamage &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a2581afeb0d3d5a085aaa8b348a07fd16">_spellHeal</a> == i._spellHeal</div>
+<div class="line"><span class="lineno">  224</span>                   &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ad468f2456cf834e787b4a1fa4926f84e">_critRatingMelee</a> == i._critRatingMelee &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a2aaaa7434843d147ebf81b8991a0a3d3">_critRatingRanged</a> == i._critRatingRanged &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#abded2be63cec5f5eac77798a7e3a8d05">_critRatingSpell</a> == i._critRatingSpell &amp;&amp; std::fabs(<a class="code hl_variable" href="../../d1/d66/a07770.html#a6b572b3b26e771f9b5d83a5271005548">_mp5</a> - i._mp5) &lt; 0.01f &amp;&amp; std::fabs(<a class="code hl_variable" href="../../d1/d66/a07770.html#a0b66f69f20d62d6ebbfad7687e899831">_mp5combat</a> - i._mp5combat) &lt; 0.01f</div>
+<div class="line"><span class="lineno">  225</span>                   &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a524026fa3056ce36759291092f87591d">_attackPower</a> == i._attackPower &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a414f588ac48948c295d03c2bada0ea53">_agility</a> == i._agility &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#aef6c112df1fc941552c663a928d1b62f">_health</a> == i._health &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a2af9361d4daa7751f499572c71e12100">_mana</a> == i._mana &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ae054e980b0874ed79177ccf4d01ee153">_defenseSkill</a> == i._defenseSkill</div>
+<div class="line"><span class="lineno">  226</span>                   &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ae71be8a35d63654baa76cf77eec5f5cb">_dodgeRating</a> == i._dodgeRating &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#ab6ca0d039d9ee48dc0237d461fcbe0ac">_blockRating</a> == i._blockRating &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a6fe42cd654ae0c0f37e609764c92198a">_parryRating</a> == i._parryRating &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#a9a02483fe9a8752e5fd3dfb73b700e5d">_hasteRating</a> == i._hasteRating &amp;&amp; <a class="code hl_variable" href="../../d1/d66/a07770.html#aef904d37ae69b5a306603cfd34eb351e">_expertiseRating</a> == i._expertiseRating;</div>
+<div class="line"><span class="lineno">  227</span>        }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00194">_agility</a>, <a class="el" href="../../#l00182">_area</a>, <a class="el" href="../../#l00183">_armor</a>, <a class="el" href="../../#l00193">_attackPower</a>, <a class="el" href="../../#l00177">_avgItemLevel</a>, <a class="el" href="../../#l00200">_blockRating</a>, <a class="el" href="../../#l00175">_class</a>, <a class="el" href="../../#l00187">_critRatingMelee</a>, <a class="el" href="../../#l00188">_critRatingRanged</a>, <a class="el" href="../../#l00189">_critRatingSpell</a>, <a class="el" href="../../#l00197">_defenseSkill</a>, <a class="el" href="../../#l00199">_dodgeRating</a>, <a class="el" href="../../#l00203">_expertiseRating</a>, <a class="el" href="../../#l00202">_hasteRating</a>, <a class="el" href="../../#l00195">_health</a>, <a class="el" href="../../#l00174">_level</a>, <a class="el" href="../../#l00196">_mana</a>, <a class="el" href="../../#l00190">_mp5</a>, <a class="el" href="../../#l00191">_mp5combat</a>, <a class="el" href="../../#l00173">_online</a>, <a class="el" href="../../#l00201">_parryRating</a>, <a class="el" href="../../#l00176">_race</a>, <a class="el" href="../../#l00184">_spellDamage</a>, <a class="el" href="../../#l00185">_spellHeal</a>, <a class="el" href="../../#l00179">_talents0</a>, <a class="el" href="../../#l00180">_talents1</a>, <a class="el" href="../../#l00181">_talents2</a>, <a class="el" href="../../#l00165">comment</a>, <a class="el" href="../../#l00169">encounterMask</a>, <a class="el" href="../../#l00167">groupGuid</a>, <a class="el" href="../../#l00170">instanceGuid</a>, <a class="el" href="../../#l00166">isGroupLeader</a>, and <a class="el" href="../../#l00168">roles</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a414f588ac48948c295d03c2bada0ea53" name="a414f588ac48948c295d03c2bada0ea53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a414f588ac48948c295d03c2bada0ea53">&#9670;&#160;</a></span>_agility</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_agility</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a91f11701e04f4ab88feb7ce8049d2370" name="a91f11701e04f4ab88feb7ce8049d2370"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91f11701e04f4ab88feb7ce8049d2370">&#9670;&#160;</a></span>_area</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_area</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a6ea4d3baefdc07cd438aa7ae77fdacd8" name="a6ea4d3baefdc07cd438aa7ae77fdacd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ea4d3baefdc07cd438aa7ae77fdacd8">&#9670;&#160;</a></span>_armor</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_armor</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a524026fa3056ce36759291092f87591d" name="a524026fa3056ce36759291092f87591d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a524026fa3056ce36759291092f87591d">&#9670;&#160;</a></span>_attackPower</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_attackPower</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a3ffc6ee82fbe40674d66c1437182db69" name="a3ffc6ee82fbe40674d66c1437182db69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ffc6ee82fbe40674d66c1437182db69">&#9670;&#160;</a></span>_avgItemLevel</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float lfg::RBInternalInfo::_avgItemLevel</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ab6ca0d039d9ee48dc0237d461fcbe0ac" name="ab6ca0d039d9ee48dc0237d461fcbe0ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6ca0d039d9ee48dc0237d461fcbe0ac">&#9670;&#160;</a></span>_blockRating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_blockRating</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a939f54efc9bfc2b30231ba2c9a263c11" name="a939f54efc9bfc2b30231ba2c9a263c11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a939f54efc9bfc2b30231ba2c9a263c11">&#9670;&#160;</a></span>_class</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_class</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ad468f2456cf834e787b4a1fa4926f84e" name="ad468f2456cf834e787b4a1fa4926f84e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad468f2456cf834e787b4a1fa4926f84e">&#9670;&#160;</a></span>_critRatingMelee</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_critRatingMelee</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a2aaaa7434843d147ebf81b8991a0a3d3" name="a2aaaa7434843d147ebf81b8991a0a3d3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2aaaa7434843d147ebf81b8991a0a3d3">&#9670;&#160;</a></span>_critRatingRanged</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_critRatingRanged</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="abded2be63cec5f5eac77798a7e3a8d05" name="abded2be63cec5f5eac77798a7e3a8d05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abded2be63cec5f5eac77798a7e3a8d05">&#9670;&#160;</a></span>_critRatingSpell</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_critRatingSpell</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ae054e980b0874ed79177ccf4d01ee153" name="ae054e980b0874ed79177ccf4d01ee153"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae054e980b0874ed79177ccf4d01ee153">&#9670;&#160;</a></span>_defenseSkill</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_defenseSkill</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ae71be8a35d63654baa76cf77eec5f5cb" name="ae71be8a35d63654baa76cf77eec5f5cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae71be8a35d63654baa76cf77eec5f5cb">&#9670;&#160;</a></span>_dodgeRating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_dodgeRating</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="aef904d37ae69b5a306603cfd34eb351e" name="aef904d37ae69b5a306603cfd34eb351e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef904d37ae69b5a306603cfd34eb351e">&#9670;&#160;</a></span>_expertiseRating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_expertiseRating</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a9a02483fe9a8752e5fd3dfb73b700e5d" name="a9a02483fe9a8752e5fd3dfb73b700e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a02483fe9a8752e5fd3dfb73b700e5d">&#9670;&#160;</a></span>_hasteRating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_hasteRating</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="aef6c112df1fc941552c663a928d1b62f" name="aef6c112df1fc941552c663a928d1b62f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef6c112df1fc941552c663a928d1b62f">&#9670;&#160;</a></span>_health</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_health</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="afad0fca26cc3f669f597cff1a4a0dd78" name="afad0fca26cc3f669f597cff1a4a0dd78"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afad0fca26cc3f669f597cff1a4a0dd78">&#9670;&#160;</a></span>_level</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_level</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a2af9361d4daa7751f499572c71e12100" name="a2af9361d4daa7751f499572c71e12100"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2af9361d4daa7751f499572c71e12100">&#9670;&#160;</a></span>_mana</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_mana</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a6b572b3b26e771f9b5d83a5271005548" name="a6b572b3b26e771f9b5d83a5271005548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b572b3b26e771f9b5d83a5271005548">&#9670;&#160;</a></span>_mp5</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float lfg::RBInternalInfo::_mp5</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a0b66f69f20d62d6ebbfad7687e899831" name="a0b66f69f20d62d6ebbfad7687e899831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b66f69f20d62d6ebbfad7687e899831">&#9670;&#160;</a></span>_mp5combat</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">float lfg::RBInternalInfo::_mp5combat</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a2384f094759df9206881d4c3935c6d59" name="a2384f094759df9206881d4c3935c6d59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2384f094759df9206881d4c3935c6d59">&#9670;&#160;</a></span>_online</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_online</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a6fe42cd654ae0c0f37e609764c92198a" name="a6fe42cd654ae0c0f37e609764c92198a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fe42cd654ae0c0f37e609764c92198a">&#9670;&#160;</a></span>_parryRating</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_parryRating</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a47c4f98eb9991e0370891a2c15bc1828" name="a47c4f98eb9991e0370891a2c15bc1828"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47c4f98eb9991e0370891a2c15bc1828">&#9670;&#160;</a></span>_race</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_race</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ab759c5db7247927dd232da8b1fefbd6f" name="ab759c5db7247927dd232da8b1fefbd6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab759c5db7247927dd232da8b1fefbd6f">&#9670;&#160;</a></span>_spellDamage</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_spellDamage</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a2581afeb0d3d5a085aaa8b348a07fd16" name="a2581afeb0d3d5a085aaa8b348a07fd16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2581afeb0d3d5a085aaa8b348a07fd16">&#9670;&#160;</a></span>_spellHeal</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::_spellHeal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="abdfa05f4e666e62538d696d32ac8e0a8" name="abdfa05f4e666e62538d696d32ac8e0a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abdfa05f4e666e62538d696d32ac8e0a8">&#9670;&#160;</a></span>_talents0</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_talents0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a8a95521738def88a689d368adbd1a106" name="a8a95521738def88a689d368adbd1a106"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a95521738def88a689d368adbd1a106">&#9670;&#160;</a></span>_talents1</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_talents1</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a1e86832b189b07e5307c78bc9b673d22" name="a1e86832b189b07e5307c78bc9b673d22"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e86832b189b07e5307c78bc9b673d22">&#9670;&#160;</a></span>_talents2</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::_talents2</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00228">CopyStats()</a>, <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="afa673b3f18580c0a8cb282227ba80cbc" name="afa673b3f18580c0a8cb282227ba80cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa673b3f18580c0a8cb282227ba80cbc">&#9670;&#160;</a></span>comment</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string lfg::RBInternalInfo::comment</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, <a class="el" href="../../#l01232">lfg::LFGMgr::RBPacketAppendGroup()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a32ab4f15d9ab7962edc021a42fae038f" name="a32ab4f15d9ab7962edc021a42fae038f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a32ab4f15d9ab7962edc021a42fae038f">&#9670;&#160;</a></span>encounterMask</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> lfg::RBInternalInfo::encounterMask</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, <a class="el" href="../../#l01232">lfg::LFGMgr::RBPacketAppendGroup()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="aa7fe150d7667deece4a50a9f5ba285a1" name="aa7fe150d7667deece4a50a9f5ba285a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa7fe150d7667deece4a50a9f5ba285a1">&#9670;&#160;</a></span>groupGuid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> lfg::RBInternalInfo::groupGuid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, <a class="el" href="../../#l01232">lfg::LFGMgr::RBPacketAppendGroup()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="aa6453cf331b783401b1103f6e83c0f7c" name="aa6453cf331b783401b1103f6e83c0f7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6453cf331b783401b1103f6e83c0f7c">&#9670;&#160;</a></span>guid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> lfg::RBInternalInfo::guid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="ad302f7a95b252dfe7f0a1bd9e475764e" name="ad302f7a95b252dfe7f0a1bd9e475764e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad302f7a95b252dfe7f0a1bd9e475764e">&#9670;&#160;</a></span>instanceGuid</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> lfg::RBInternalInfo::instanceGuid</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, <a class="el" href="../../#l01232">lfg::LFGMgr::RBPacketAppendGroup()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a8934f0a7c25e50e43eaaa53befb304de" name="a8934f0a7c25e50e43eaaa53befb304de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8934f0a7c25e50e43eaaa53befb304de">&#9670;&#160;</a></span>isGroupLeader</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool lfg::RBInternalInfo::isGroupLeader</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="a043a7f93451c0bdf269568d11e0fad31" name="a043a7f93451c0bdf269568d11e0fad31"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a043a7f93451c0bdf269568d11e0fad31">&#9670;&#160;</a></span>roles</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> lfg::RBInternalInfo::roles</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00219">PlayerSameAs()</a>, and <a class="el" href="../../#l01248">lfg::LFGMgr::RBPacketAppendPlayer()</a>.</p>
 
 </div>
 </div>
@@ -617,8 +1120,8 @@ Additional Inherited Members</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dc/d6b/a04731.html">lfg</a></li><li class="navelem"><a class="el" href="../../d1/d66/a07770.html">LFGGroupScript</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/deb/a04732.html">lfg</a></li><li class="navelem"><a class="el" href="../../d1/d66/a07770.html">RBInternalInfo</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

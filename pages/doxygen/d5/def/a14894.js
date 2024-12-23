@@ -1,8 +1,7 @@
 var a14894 =
 [
-    [ "npc_obsidian_nullifier", "d5/def/a14894.html#a9dbb6d681e348057564750fcd7e8050a", null ],
-    [ "JustEngagedWith", "d5/def/a14894.html#ad3e30a214a9bcb6ea13d3a78716b5cb1", null ],
-    [ "Reset", "d5/def/a14894.html#a9897eab3b71dd0a6a2ea598951b095cd", null ],
-    [ "UpdateAI", "d5/def/a14894.html#a37cf1d335dd3735b262e82828c4f904a", null ],
-    [ "_targetGUIDs", "d5/def/a14894.html#aaf125742bf9d17ec0b605b78dee39c7c", null ]
+    [ "boss_glob_of_viscidus", "d5/def/a14894.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
+    [ "InitializeAI", "d5/def/a14894.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
+    [ "MovementInform", "d5/def/a14894.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
+    [ "UpdateAI", "d5/def/a14894.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
 ];

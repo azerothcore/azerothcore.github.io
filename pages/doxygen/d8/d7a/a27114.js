@@ -1,8 +1,10 @@
 var a27114 =
 [
-    [ "npc_franklinAI", "d1/d22/a27118.html", "d1/d22/a27118" ],
-    [ "npc_franklin", "d8/d7a/a27114.html#aab059dfa69e52083892e3170c8838e0a", null ],
-    [ "GetAI", "d8/d7a/a27114.html#a10933878afe9d0cc78fa1113341fd522", null ],
-    [ "OnGossipHello", "d8/d7a/a27114.html#a318d512914b135800caabe0efbb1c467", null ],
-    [ "OnGossipSelect", "d8/d7a/a27114.html#a8c37ff7ff15cc9ac49dadabd1650964d", null ]
+    [ "npc_prof_alchemy", "d8/d7a/a27114.html#a43ea842214fc507c34586d12df8f7fea", null ],
+    [ "HasAlchemySpell", "d8/d7a/a27114.html#ac9df824e0923ca86189a53ae391b43c0", null ],
+    [ "OnGossipHello", "d8/d7a/a27114.html#add760c538c7882e1ad8331b8ded74f5c", null ],
+    [ "OnGossipSelect", "d8/d7a/a27114.html#a2377df97a293fb3fcbe7f70d4d815b75", null ],
+    [ "SendActionMenu", "d8/d7a/a27114.html#a2d4c7337b40be323a384a9e755fc3145", null ],
+    [ "SendConfirmLearn", "d8/d7a/a27114.html#a548224b30494636b9ee292a533fc7b39", null ],
+    [ "SendConfirmUnlearn", "d8/d7a/a27114.html#ae4c861cf383f39d2e5ceebc9be4b568c", null ]
 ];

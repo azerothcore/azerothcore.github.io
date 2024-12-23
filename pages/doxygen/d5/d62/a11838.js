@@ -1,5 +1,12 @@
 var a11838 =
 [
-    [ "at_trigger_the_beast_movement", "d5/d62/a11838.html#a9534f4b71deab4a2a9a94a36e2946fc7", null ],
-    [ "OnTrigger", "d5/d62/a11838.html#a333d685d765497a950fde35067d876a1", null ]
+    [ "boss_pyroguard_emberseerAI", "d5/d62/a11838.html#ac08deea0d151d109f36bb3cf66a34f29", null ],
+    [ "JustDied", "d5/d62/a11838.html#aa35fc50d327c0bf7506bfd166d098522", null ],
+    [ "JustEngagedWith", "d5/d62/a11838.html#a9eff335ff04e3da1e4488e00b55ecbaa", null ],
+    [ "OpenDoors", "d5/d62/a11838.html#a8002f8d7b6b06b970d38d9824d57d737", null ],
+    [ "Reset", "d5/d62/a11838.html#ab82a2bc6e9596d14dd2fd65b859af74d", null ],
+    [ "SetData", "d5/d62/a11838.html#a5892ccaf9107e2da47c22c21bf5b2ed9", null ],
+    [ "SpellHit", "d5/d62/a11838.html#a236f20c40eb1c37a25b04b5cf83e2488", null ],
+    [ "UpdateAI", "d5/d62/a11838.html#a075147c4409174652e732293426b732d", null ],
+    [ "UpdateRunes", "d5/d62/a11838.html#a87d7d63893a9feb6bb6c44adf1c637eb", null ]
 ];

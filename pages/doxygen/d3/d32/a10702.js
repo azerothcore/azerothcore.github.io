@@ -1,12 +1,10 @@
 var a10702 =
 [
-    [ "PacketLog", "d3/d32/a10702.html#a75215d454393ecd3fce0ea07b5d673ee", null ],
-    [ "~PacketLog", "d3/d32/a10702.html#a595a42f9aaa94d6c46d185955df801e0", null ],
-    [ "CanLogPacket", "d3/d32/a10702.html#a322cf3a0d8707becb9dcc64548d4cce5", null ],
-    [ "Initialize", "d3/d32/a10702.html#aea6ccfd41bc147557b7c5066fe18afa6", null ],
-    [ "instance", "d3/d32/a10702.html#a484418a51ca0bf150d17b23d97979bf4", null ],
-    [ "LogPacket", "d3/d32/a10702.html#ac0323a6ac3856412b765d0b31dbbb37e", null ],
-    [ "_file", "d3/d32/a10702.html#a03346a709f7586f6445e03b9a3b6af04", null ],
-    [ "_initializeFlag", "d3/d32/a10702.html#a490cafe009f7b2ecb303a76c781f8960", null ],
-    [ "_logPacketLock", "d3/d32/a10702.html#aeffb6309ef859cbb346b15dc1fca5cbe", null ]
+    [ "WorldStateInfo", "d2/da2/a10706.html", "d2/da2/a10706" ],
+    [ "InitWorldStates", "d3/d32/a10702.html#a9b1f27c7a07df6629473a6e9d6aa45b5", null ],
+    [ "Write", "d3/d32/a10702.html#ad40588a16c7430a633c0537c82ea3a5b", null ],
+    [ "AreaID", "d3/d32/a10702.html#a98ac08c68b5c004fd352f38c7084531f", null ],
+    [ "MapID", "d3/d32/a10702.html#a657c3043204c6957e8438c3c3c7068f3", null ],
+    [ "Worldstates", "d3/d32/a10702.html#a29ffba2a130f0b93d61b2025255502fb", null ],
+    [ "ZoneID", "d3/d32/a10702.html#add07a226b1fe8ea752306b0e04d4ef71", null ]
 ];

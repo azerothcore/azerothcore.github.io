@@ -1,7 +1,10 @@
 var a24902 =
 [
-    [ "OnApply", "d6/df5/a24902.html#afda219a18001505ae7a2d01b1d5b25c0", null ],
-    [ "OnRemove", "d6/df5/a24902.html#a54bcd84599d6e5a6d7f538e2b40b890b", null ],
-    [ "PrepareAuraScript", "d6/df5/a24902.html#a9a7b549e059b6bd2d22802f60e952658", null ],
-    [ "Register", "d6/df5/a24902.html#aae603735281daf02ceca157e218d5c9f", null ]
+    [ "spell_gen_summon_elemental", "d6/df5/a24902.html#ae2dece3ac20afe16430e741fab909fa1", null ],
+    [ "AfterApply", "d6/df5/a24902.html#a97fbc7e3f60b6aae5d9783bbd9a2415d", null ],
+    [ "AfterRemove", "d6/df5/a24902.html#aeec3688e66a7e9f0207b219e9dcdb265", null ],
+    [ "PrepareAuraScript", "d6/df5/a24902.html#a3ad6e5615bb080abae4e18673cd40b6d", null ],
+    [ "Register", "d6/df5/a24902.html#ac364e1a3c4b5a1cfd35d8dcec0a42345", null ],
+    [ "Validate", "d6/df5/a24902.html#ac2284d4f192fe402ebcf6ad75e777c2a", null ],
+    [ "_spellId", "d6/df5/a24902.html#a6ac27b65f909a8c832cf3d301c8db0ce", null ]
 ];

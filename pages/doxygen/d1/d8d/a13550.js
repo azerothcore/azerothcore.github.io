@@ -1,14 +1,20 @@
 var a13550 =
 [
-    [ "npc_harrison_jones", "d1/d8d/a13550.html#ae408c9533166f8919c121053a3efff6c", null ],
-    [ "DoAction", "d1/d8d/a13550.html#a2ecf8a9f807e879530ee6a094475e67b", null ],
-    [ "JustEngagedWith", "d1/d8d/a13550.html#a884e5973ed597eeeb606f5b8a2b1c028", null ],
-    [ "MovementInform", "d1/d8d/a13550.html#a5ee27ccc1aea33ecc8aee5b703e05174", null ],
-    [ "OpenMassiveGateAndCallGuards", "d1/d8d/a13550.html#a8f15098ad66e2d13ddfababc2ad2e33b", null ],
-    [ "Reset", "d1/d8d/a13550.html#a11b1b2da283ddaa475f3f42534702f5b", null ],
-    [ "sGossipSelect", "d1/d8d/a13550.html#ae56b80041fa198063a9ce87729142420", null ],
-    [ "SpellHit", "d1/d8d/a13550.html#ad3ead59986b9340529bb6c6f42dbc137", null ],
-    [ "UpdateAI", "d1/d8d/a13550.html#a0c64f294257e98522e0f32171aee6080", null ],
-    [ "_instance", "d1/d8d/a13550.html#adb995a4b18607a5bd7555ce6989c2525", null ],
-    [ "_phase", "d1/d8d/a13550.html#a1620b4f7407aa49c3e16876148c49ba7", null ]
+    [ "boss_janalai", "d1/d8d/a13550.html#a6a049cb60b475b6c496862205d91c39f", null ],
+    [ "Boom", "d1/d8d/a13550.html#a902814fa472af7dde6096e6e1901bfd4", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d1/d8d/a13550.html#a9320a91d93f1fc82ec863ecf767c0a8a", null ],
+    [ "DamageDealt", "d1/d8d/a13550.html#a1bd1d7567bf59c066b380d5b6fbbb9bf", null ],
+    [ "FireWall", "d1/d8d/a13550.html#ac3cd768db0abbbe4b03a08f214afc5ba", null ],
+    [ "HatchAllEggs", "d1/d8d/a13550.html#a7caee2554fe4f6211589e3346d1865fd", null ],
+    [ "JustDied", "d1/d8d/a13550.html#a1dd381dbf7bdc25e6a5fc519b132c5e4", null ],
+    [ "JustEngagedWith", "d1/d8d/a13550.html#af16f7db848ff2ddcf060ba770d0df836", null ],
+    [ "JustSummoned", "d1/d8d/a13550.html#a37aacd788ee8206a8ffbaad7ba702736", null ],
+    [ "Reset", "d1/d8d/a13550.html#a8f42138403eb2ef6d1737539dd352e80", null ],
+    [ "SetData", "d1/d8d/a13550.html#a48636a0186d7a09e4e98d960bab5530e", null ],
+    [ "SpawnBombs", "d1/d8d/a13550.html#ab352cc1bb7f2fc04505de30fe041c9bd", null ],
+    [ "StartBombing", "d1/d8d/a13550.html#a9a32cbc9bb1c1542a19aea32f9a9addf", null ],
+    [ "ThrowBombs", "d1/d8d/a13550.html#a9a927462879c6c81b2c919c62336a08c", null ],
+    [ "_isBombing", "d1/d8d/a13550.html#a881f564fe75051c1c10e645d3f0b243b", null ],
+    [ "_isFlameBreathing", "d1/d8d/a13550.html#a0fc79fcdfdd27baa047d22b86135a653", null ],
+    [ "_sideHatched", "d1/d8d/a13550.html#ae5cb2bcdfd54a66f62dc807946249528", null ]
 ];

@@ -1,7 +1,6 @@
 var a18086 =
 [
-    [ "ValithriaDespawner", "d6/d5e/a18086.html#adf6f71ad9b97489f1e35781e491b28d8", null ],
-    [ "Execute", "d6/d5e/a18086.html#a4f8c63f52996da14078a7196cae3a00d", null ],
-    [ "operator()", "d6/d5e/a18086.html#a05bae39d642f294f2ef98151d66ba382", null ],
-    [ "_creature", "d6/d5e/a18086.html#a64bf6181ad867efd987edec141ca3bf0", null ]
+    [ "npc_icc_lk_checktargetAI", "d4/d3a/a18090.html", "d4/d3a/a18090" ],
+    [ "npc_icc_lk_checktarget", "d6/d5e/a18086.html#a3a2cc943e731e472694dcb13417090da", null ],
+    [ "GetAI", "d6/d5e/a18086.html#a2cd9a5c7fec791ba8786cf1bb5b7c8bd", null ]
 ];

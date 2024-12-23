@@ -1,12 +1,9 @@
 var a09846 =
 [
-    [ "delay", "de/d8a/a09846.html#aa05ef99c3e04589501362a07d0dd032a", null ],
-    [ "event_chance", "de/d8a/a09846.html#af54f2d38ca1a11664f516799f3bb80c8", null ],
-    [ "event_id", "de/d8a/a09846.html#a083020691278af836e48f0a0c2feff96", null ],
-    [ "id", "de/d8a/a09846.html#af7248c313ceefedb5b7ff6ed4c2ffd6b", null ],
-    [ "move_type", "de/d8a/a09846.html#afb1a57b423a258e99c6921727a27e2e7", null ],
-    [ "orientation", "de/d8a/a09846.html#a971411811b0e60839538f82cd55dcfb7", null ],
-    [ "x", "de/d8a/a09846.html#a2dfd7f1f946ebef0b67d8f1542198b4b", null ],
-    [ "y", "de/d8a/a09846.html#a574c5ba7eb5e6bd55f6c55bb511c03f7", null ],
-    [ "z", "de/d8a/a09846.html#a013fa650f43e790e652016fbce2e1bd5", null ]
+    [ "counter", "de/d8a/a09846.html#a0efb94229f4a9370dc5b256ba623385b", null ],
+    [ "getCurrent", "de/d8a/a09846.html#afff6411c2b7f1c07d72ad26dc77d4780", null ],
+    [ "Increase", "de/d8a/a09846.html#a463e0ba077c8398a6125e715afcd8860", null ],
+    [ "init", "de/d8a/a09846.html#a0369662be009b781174021a2eb6b3202", null ],
+    [ "NewId", "de/d8a/a09846.html#a06d5bc4ea248173316ed4d1ce96d6281", null ],
+    [ "m_counter", "de/d8a/a09846.html#a297f1ba5e072e4c90b62c7242ee1b01c", null ]
 ];

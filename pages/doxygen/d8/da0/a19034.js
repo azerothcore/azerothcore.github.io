@@ -1,14 +1,11 @@
 var a19034 =
 [
-    [ "boss_varosAI", "d8/da0/a19034.html#a3e6815b80a3f9f5e8c53bb762e9058f2", null ],
-    [ "EnterEvadeMode", "d8/da0/a19034.html#a0b7eeef4529b47357d729852cdeab002", null ],
-    [ "JustDied", "d8/da0/a19034.html#a2724167a66a059e1c0ca1612d8405d68", null ],
-    [ "JustEngagedWith", "d8/da0/a19034.html#a2f25555ca2884f6bffb289d209e87740", null ],
-    [ "JustSummoned", "d8/da0/a19034.html#a24b2a1e438b02c67e64b79adb0cfeafe", null ],
-    [ "MoveInLineOfSight", "d8/da0/a19034.html#a87f743f03dc19659d0e77ee23cd2c327", null ],
-    [ "Reset", "d8/da0/a19034.html#aef24d04954a26bb6381c860403e84288", null ],
-    [ "UpdateAI", "d8/da0/a19034.html#acc1ac3c2bf5cb1a7732f375285467423", null ],
-    [ "events", "d8/da0/a19034.html#a36746118770c936e7606962365e102d8", null ],
-    [ "pInstance", "d8/da0/a19034.html#a9cf7c0159753512ae7dea8a2f6a9da74", null ],
-    [ "ZapAngle", "d8/da0/a19034.html#aef225fcf580c5e500d3242ac4be24260", null ]
+    [ "boss_ormorok", "d8/da0/a19034.html#aa4862339ed41d5c593a93ef605d85a39", null ],
+    [ "JustDied", "d8/da0/a19034.html#af84a958b2f16b082fe3b2e1dc70dd8fa", null ],
+    [ "JustEngagedWith", "d8/da0/a19034.html#a22ac203db7c3b445e653798743e48764", null ],
+    [ "JustSummoned", "d8/da0/a19034.html#acc149b49e6658454610a7871e3c82b5e", null ],
+    [ "KilledUnit", "d8/da0/a19034.html#a65a1512bad7c773a0aede6ba2cb9700e", null ],
+    [ "Reset", "d8/da0/a19034.html#a88a1c308790e45a6fa09f0d740116f4e", null ],
+    [ "UpdateAI", "d8/da0/a19034.html#a15f2e30fa1780aadba6673f6537fc16f", null ],
+    [ "_spikesCount", "d8/da0/a19034.html#a29cc8c3db5ba3d528ea873d66be619cd", null ]
 ];

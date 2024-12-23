@@ -1,10 +1,5 @@
 var a25014 =
 [
-    [ "Load", "d6/d28/a25014.html#a04526f30ad35af3f629cdd0c8312e33c", null ],
-    [ "OnApply", "d6/d28/a25014.html#a83d922c434442e22482410d61aa0198f", null ],
-    [ "OnPetApply", "d6/d28/a25014.html#a6df5e59e29cb89310a1c78bf93029545", null ],
-    [ "OnRemove", "d6/d28/a25014.html#aa4efa4ed7d98c63989353c398bb2b128", null ],
-    [ "PrepareAuraScript", "d6/d28/a25014.html#a1b4d8f636c01f01bc9380c290de91a0e", null ],
-    [ "Register", "d6/d28/a25014.html#a265726c9bfa180c3b8f470eb1eee837b", null ],
-    [ "Validate", "d6/d28/a25014.html#ab318472ea9f4aaa79e45f18783586eed", null ]
+    [ "PrepareSpellScript", "d6/d28/a25014.html#a5e100554f868649d4edea011fe767b8b", null ],
+    [ "Register", "d6/d28/a25014.html#a0ffb1cb313060770227621edb16c3a0d", null ]
 ];

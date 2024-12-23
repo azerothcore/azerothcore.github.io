@@ -1,6 +1,5 @@
 var a16306 =
 [
-    [ "boss_novosAI", "d6/d76/a16310.html", "d6/d76/a16310" ],
-    [ "boss_novos", "d7/dfc/a16306.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
-    [ "GetAI", "d7/dfc/a16306.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
+    [ "npc_essence_of_twin", "d7/dfc/a16306.html#a019de64e5e01e611acfda5db4c279b19", null ],
+    [ "OnGossipHello", "d7/dfc/a16306.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
 ];

@@ -1,13 +1,12 @@
 var a13006 =
 [
-    [ "boss_kalecgos", "d2/de5/a13006.html#a9a3eaee76ada967445cc0ed3d5ed21d2", null ],
-    [ "CanAIAttack", "d2/de5/a13006.html#aa810a7eae5a6b1102e2e96022eaf5085", null ],
-    [ "CheckInRoom", "d2/de5/a13006.html#a99cf385b11044c364b23fa8fc7e755ee", null ],
-    [ "ClearPlayerAuras", "d2/de5/a13006.html#a17ffb7ec1b591acb0e5c359cb73ed2f6", null ],
-    [ "DoAction", "d2/de5/a13006.html#aaccfa519a7290eb56990e43de4beea97", null ],
-    [ "JustEngagedWith", "d2/de5/a13006.html#ab4d440dd0b66002b840bc4b3d3a8f7ef", null ],
-    [ "JustReachedHome", "d2/de5/a13006.html#ad3890c81f73ee82c1b44cef5554210c9", null ],
-    [ "KilledUnit", "d2/de5/a13006.html#a9844d54a8334ae5d20689593cd8a5e1a", null ],
-    [ "Reset", "d2/de5/a13006.html#ad30cbd6d6fe343b9eb44fb96b0779551", null ],
-    [ "_sathBanished", "d2/de5/a13006.html#a595eb66eb6f820efa29fcc5d631fe159", null ]
+    [ "boss_sacrolash", "d2/de5/a13006.html#a6e251340b2ba8a8300611cf229b93095", null ],
+    [ "DoAction", "d2/de5/a13006.html#adbcbd24a90549978032d31d1beeaa4e6", null ],
+    [ "EnterEvadeMode", "d2/de5/a13006.html#a84d7f8764eb5b6816cdd095158a434b1", null ],
+    [ "JustDied", "d2/de5/a13006.html#a17c995220572cf803c36470ca80840e2", null ],
+    [ "JustEngagedWith", "d2/de5/a13006.html#a822576bf8588d4e45f1532e1980cc7c7", null ],
+    [ "JustSummoned", "d2/de5/a13006.html#a94214bc45414f61ff53102d6136b7b5c", null ],
+    [ "KilledUnit", "d2/de5/a13006.html#a4d99da498db0e5a60c7c25fcb91e5270", null ],
+    [ "Reset", "d2/de5/a13006.html#aa3128dae87d181e7ab93cf3a13723982", null ],
+    [ "_isSisterDead", "d2/de5/a13006.html#a248d37df91c82069321fc5ea8b1e885d", null ]
 ];

@@ -1,8 +1,7 @@
 var a16438 =
 [
-    [ "npc_fos_leaderAI", "d0/dfb/a16438.html#ae6a80f77558e0f5a62efc3b5ef1f61d6", null ],
-    [ "DoAction", "d0/dfb/a16438.html#a1fd8cea6f8a6d8f76ba3c484b15c4054", null ],
-    [ "Reset", "d0/dfb/a16438.html#a33364da3af4681de9f9e21b9dcf7f16c", null ],
-    [ "UpdateAI", "d0/dfb/a16438.html#ac6f2aedc40e415ac0f7e8c212d4deae5", null ],
-    [ "events", "d0/dfb/a16438.html#ac02a0c34096086e7baf1dc004811f4c1", null ]
+    [ "HandleEffectRemove", "d0/dfb/a16438.html#aa6a118f956cbdc5ad1ce0109c3a0e8e3", null ],
+    [ "Load", "d0/dfb/a16438.html#a71a31b421f192662c14bd6bf3d5eed9f", null ],
+    [ "PrepareAuraScript", "d0/dfb/a16438.html#a97411ddf89a10a962ba74d294eb653e7", null ],
+    [ "Register", "d0/dfb/a16438.html#a1207c9b2ba2e110c3f6c1309f5329d2a", null ]
 ];

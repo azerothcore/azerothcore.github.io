@@ -1,8 +1,7 @@
 var a19766 =
 [
-    [ "npc_ulduar_saronite_animusAI", "de/da9/a19766.html#a2b94427feb24a7bda075b6a8f403433a", null ],
-    [ "JustDied", "de/da9/a19766.html#a30abcab01de3732bc5525864576615b0", null ],
-    [ "UpdateAI", "de/da9/a19766.html#a1490961adc8fc03ab28a992aff55b43b", null ],
-    [ "pInstance", "de/da9/a19766.html#a5d3b297355f286b0ad08ed38dbd5b0d2", null ],
-    [ "timer", "de/da9/a19766.html#a3d0345d4c503eb3f0e4acbe346f1c5e5", null ]
+    [ "boss_freya_lifebinderAI", "de/da9/a19766.html#ae421aa209690e4a2908995b6b7d322cd", null ],
+    [ "Reset", "de/da9/a19766.html#a972bd7d390d444e0ea2bc513d5d3816a", null ],
+    [ "UpdateAI", "de/da9/a19766.html#afb06c217c1012d6463e44689359eada9", null ],
+    [ "_healTimer", "de/da9/a19766.html#a7021d13dceb9af343f0e820cf086046e", null ]
 ];

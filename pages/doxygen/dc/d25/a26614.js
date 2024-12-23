@@ -1,5 +1,6 @@
 var a26614 =
 [
-    [ "achievement_bg_control_all_nodes", "dc/d25/a26614.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
-    [ "OnCheck", "dc/d25/a26614.html#a69609eb5488519fa5a1f43b13a80e280", null ]
+    [ "HandleDummy", "dc/d25/a26614.html#a68a86f7f86324336dc837622e01fa6af", null ],
+    [ "PrepareSpellScript", "dc/d25/a26614.html#a8c0a4b3b96a93b6977c2d3077fdfff1d", null ],
+    [ "Register", "dc/d25/a26614.html#ad168c9164d1edd23abfbf05141b96de4", null ]
 ];

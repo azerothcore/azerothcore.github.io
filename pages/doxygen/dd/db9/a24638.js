@@ -1,6 +1,6 @@
 var a24638 =
 [
-    [ "HandleScript", "dd/db9/a24638.html#aa6104370d5700e43223c7138e941ba05", null ],
-    [ "PrepareSpellScript", "dd/db9/a24638.html#ae4177c84bf0c63aadaa7486603df04d0", null ],
-    [ "Register", "dd/db9/a24638.html#a88a8534a1dd825a14fd6b10933986eb7", null ]
+    [ "CheckProc", "dd/db9/a24638.html#a21cda631d861161c370a44a2fd2fd2f7", null ],
+    [ "PrepareAuraScript", "dd/db9/a24638.html#a861caa47c502c42fa84d9f9de74df024", null ],
+    [ "Register", "dd/db9/a24638.html#ab4275de186b6841a1f424863cb6c128c", null ]
 ];

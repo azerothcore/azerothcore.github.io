@@ -1,8 +1,6 @@
 var a17030 =
 [
-    [ "OnApply", "dc/d13/a17030.html#a4741bfaaea8bc956fd1020aca13a51c2", null ],
-    [ "OnRemove", "dc/d13/a17030.html#a21aad38fe91580d3b8e0cc71dce7b1ad", null ],
-    [ "PrepareAuraScript", "dc/d13/a17030.html#a54b2ab23915e84b9c9728eb624dae47b", null ],
-    [ "Register", "dc/d13/a17030.html#a6d552ff58f7bb267cf4d20f2f5aedc7a", null ],
-    [ "Validate", "dc/d13/a17030.html#a5542dca73b5cc2ec1c724fe536e8a15f", null ]
+    [ "ModAuraStack", "dc/d13/a17030.html#a7535ef148e047e32a5f7a1944585e396", null ],
+    [ "PrepareSpellScript", "dc/d13/a17030.html#ad5305dd5a32a18802a9fce5daccf3051", null ],
+    [ "Register", "dc/d13/a17030.html#ab44b362197e74b98b3ffeb98eff52742", null ]
 ];

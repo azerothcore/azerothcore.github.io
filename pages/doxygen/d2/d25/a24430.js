@@ -1,6 +1,7 @@
 var a24430 =
 [
-    [ "OnHit", "d2/d25/a24430.html#a56ecd2ea05f48b874b2890d7f15cc362", null ],
-    [ "PrepareSpellScript", "d2/d25/a24430.html#a0d74ce7c43f0cb7329ca990f1b0eecdf", null ],
-    [ "Register", "d2/d25/a24430.html#a7cd2cc858eeb7805a3efb72b081c284e", null ]
+    [ "HandleProc", "d2/d25/a24430.html#a1982ba611c17042d0bff8bac66280218", null ],
+    [ "PrepareAuraScript", "d2/d25/a24430.html#a459fde61325e3aeb1e339670138aacce", null ],
+    [ "Register", "d2/d25/a24430.html#a151f0e7f04a9ee01189de20686a15bc4", null ],
+    [ "Validate", "d2/d25/a24430.html#af57da6008a6ff796487b2da68644104b", null ]
 ];

@@ -1,6 +1,6 @@
 var a19206 =
 [
-    [ "CalculateDamage", "df/d28/a19206.html#a3b9afc712f9091273e9abc5079a90eb8", null ],
-    [ "PrepareSpellScript", "df/d28/a19206.html#a59e56fb107cca4952c5e94ed371f73dd", null ],
-    [ "Register", "df/d28/a19206.html#a02851f0b94687512a8e016bfb9b826e3", null ]
+    [ "boss_lokenAI", "de/d47/a19210.html", "de/d47/a19210" ],
+    [ "boss_loken", "df/d28/a19206.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
+    [ "GetAI", "df/d28/a19206.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
 ];

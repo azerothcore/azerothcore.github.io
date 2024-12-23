@@ -1,6 +1,7 @@
 var a15610 =
 [
-    [ "boss_sartharion_shadronAI", "de/db3/a15614.html", "de/db3/a15614" ],
-    [ "boss_sartharion_shadron", "dc/d91/a15610.html#ac297719abff8c795af10973492fc6fbe", null ],
-    [ "GetAI", "dc/d91/a15610.html#a95c7184ee7589f01920adc57a7df963b", null ]
+    [ "HandleEffectRemove", "dc/d91/a15610.html#a45ed6d3f1c80dcef3ee6c59e744f13c6", null ],
+    [ "PrepareAuraScript", "dc/d91/a15610.html#a34b88963dd81e6a8855daaedb9c238d4", null ],
+    [ "Register", "dc/d91/a15610.html#a7c0533650e772713233ea45b0264cbff", null ],
+    [ "Validate", "dc/d91/a15610.html#a7690603bd7b01ca6da2a73ac8ed36114", null ]
 ];

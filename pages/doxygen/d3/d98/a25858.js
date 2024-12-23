@@ -1,7 +1,6 @@
 var a25858 =
 [
-    [ "HandleHeal", "d3/d98/a25858.html#a22e3dd3ac57c7cb95162ee56ab43bc93", null ],
-    [ "PrepareSpellScript", "d3/d98/a25858.html#a9de9260bc1e2582138c58a708e5d899c", null ],
-    [ "Register", "d3/d98/a25858.html#ab613ce86521f1381b79f6f9f3eaea3cc", null ],
-    [ "Validate", "d3/d98/a25858.html#aa300822cf5455404482124a6853fb314", null ]
+    [ "FilterTargets", "d3/d98/a25858.html#a81212064e51b7dfd148a1b18b69aafe0", null ],
+    [ "PrepareSpellScript", "d3/d98/a25858.html#a10d26377442d7a5d0c2986a65fcb57d6", null ],
+    [ "Register", "d3/d98/a25858.html#a4db02c58be57a797c26b07656d1b5409", null ]
 ];

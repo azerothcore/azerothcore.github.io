@@ -1,10 +1,9 @@
 var a21278 =
 [
-    [ "npc_preparations_for_war_vehicle", "dc/df1/a21278.html#a56b37aa1c2b50cac4dfb6b907ffb6d48", null ],
-    [ "InitializeAI", "dc/df1/a21278.html#a85eaba9e51498313f8498eaaf0e7d0d1", null ],
-    [ "MovementInform", "dc/df1/a21278.html#ac78c5675b42563f46cc2af0f0c97bee0", null ],
-    [ "UpdateAI", "dc/df1/a21278.html#ae40a23070d96ecf122e9de5571a845ef", null ],
-    [ "pointId", "dc/df1/a21278.html#ae75d286eb6116b41adb346861b3c1365", null ],
-    [ "searchForShipTimer", "dc/df1/a21278.html#a49f8a43891d61460b1d6cdde610a2e88", null ],
-    [ "transportEntry", "dc/df1/a21278.html#aa0083566387cd42750aaa56b1fa23fed", null ]
+    [ "npc_warmage_coldarraAI", "dc/df1/a21278.html#a9a8c2afff61ad8457aab8a9c23a4b755", null ],
+    [ "AttackStart", "dc/df1/a21278.html#a41277824ae3f6bd9a099894b6dfc7537", null ],
+    [ "JustEngagedWith", "dc/df1/a21278.html#a23a8999e34142201c6ceadc64a3df6c2", null ],
+    [ "Reset", "dc/df1/a21278.html#adf5094ba2bee34ec793124e798d5af8f", null ],
+    [ "UpdateAI", "dc/df1/a21278.html#a14b221265cc38b4061c52b687274a398", null ],
+    [ "m_uiTimer", "dc/df1/a21278.html#a338ad26d40d395dfc6ed7e8fedcc6d60", null ]
 ];

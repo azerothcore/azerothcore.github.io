@@ -1,6 +1,7 @@
 var a14366 =
 [
-    [ "boss_meathookAI", "d1/d38/a14370.html", "d1/d38/a14370" ],
-    [ "boss_meathook", "d6/d05/a14366.html#a044c8ec4a419e5c5a8b290df9c0ad169", null ],
-    [ "GetAI", "d6/d05/a14366.html#ae8ee3631ff1f80f4fad99e4eca042ad8", null ]
+    [ "hyjalTyrandeAI", "d1/d38/a14370.html", "d1/d38/a14370" ],
+    [ "npc_hyjal_tyrande", "d6/d05/a14366.html#abd2ba500d8e2bbf20c00905012d47d12", null ],
+    [ "GetAI", "d6/d05/a14366.html#a2f863e616352a98763eef9a717d73388", null ],
+    [ "OnGossipSelect", "d6/d05/a14366.html#a014a63098e18b08b6f5cd33a0cba2072", null ]
 ];

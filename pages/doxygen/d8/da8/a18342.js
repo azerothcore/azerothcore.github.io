@@ -1,7 +1,6 @@
 var a18342 =
 [
-    [ "HandleQuestComplete", "d8/da8/a18342.html#a5f1e6c4358df4e0910b2227f90b39d24", null ],
-    [ "HandleScript", "d8/da8/a18342.html#a309052e9b7c3d3747d15ab5e9c0d25fd", null ],
-    [ "PrepareSpellScript", "d8/da8/a18342.html#ac9b2786ba2dbb8d1c74af05153bb0a6f", null ],
-    [ "Register", "d8/da8/a18342.html#a3258d4517cfc758080691bab429624d7", null ]
+    [ "npc_captain_grondelAI", "d8/da8/a18342.html#afbc971fc03584b87229318309d51a2f5", null ],
+    [ "Reset", "d8/da8/a18342.html#a7d3878822e77fba66891e87e23bd3740", null ],
+    [ "UpdateAI", "d8/da8/a18342.html#a4af8548092b49653805224bd4c0ac0a2", null ]
 ];

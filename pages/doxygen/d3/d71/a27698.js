@@ -1,8 +1,7 @@
 var a27698 =
 [
-    [ "DamagedDisplayId", "d3/d71/a27698.html#a84d606d69c51f5e1fdecf9bc0f5705be", null ],
-    [ "DestroyedDisplayId", "d3/d71/a27698.html#afc891df0c9491a34f784e8f141434be5", null ],
-    [ "Id", "d3/d71/a27698.html#a65d7e0933cb53864413781cdeb56b6c2", null ],
-    [ "RebuildingDisplayId", "d3/d71/a27698.html#aa4e1e6be7b5b1d15872fb310c1c299af", null ],
-    [ "SmokeDisplayId", "d3/d71/a27698.html#a1a06c3e04bc2bb7d5bc29592d40b9239", null ]
+    [ "Class", "d3/d71/a27698.html#abaaa0cd4d1b7f3ef5b297c5afdbc99fe", null ],
+    [ "Gender", "d3/d71/a27698.html#aba6251a7020c6e66b9fc7a21859df271", null ],
+    [ "ItemId", "d3/d71/a27698.html#a7d17ef6151f6b746223e44164ab5c20d", null ],
+    [ "Race", "d3/d71/a27698.html#aee768679c4b8ee7cd28ea3fa899206e3", null ]
 ];

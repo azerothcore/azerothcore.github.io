@@ -1,6 +1,7 @@
 var a16902 =
 [
-    [ "boss_prince_kelesethAI", "d2/d99/a16906.html", "d2/d99/a16906" ],
-    [ "boss_prince_keleseth_icc", "d5/d69/a16902.html#a0df14bbfc96b1d6eff19633716cea9f9", null ],
-    [ "GetAI", "d5/d69/a16902.html#ae5a03bbe1d85b9bc865026f05a99545e", null ]
+    [ "HandleScriptEffect", "d5/d69/a16902.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
+    [ "PrepareSpellScript", "d5/d69/a16902.html#aac410690d906867216b40a49d8f15318", null ],
+    [ "Register", "d5/d69/a16902.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
+    [ "Validate", "d5/d69/a16902.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
 ];

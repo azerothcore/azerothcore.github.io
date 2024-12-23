@@ -1,6 +1,5 @@
 var a12590 =
 [
-    [ "npc_dkc1_gothikAI", "db/da5/a12594.html", "db/da5/a12594" ],
-    [ "npc_dkc1_gothik", "da/d34/a12590.html#ae4a6aec0235b01044ebd5c9c71d400d9", null ],
-    [ "GetAI", "da/d34/a12590.html#aeb285cf6977cfab5d337f51ae41907ec", null ]
+    [ "boss_apoko", "da/d34/a12590.html#a3ae4752839f47bbfce5f7df03c427cd2", null ],
+    [ "JustEngagedWith", "da/d34/a12590.html#a7ad52b258863bd818b3e5d1143de7629", null ]
 ];

@@ -1,6 +1,6 @@
 var a19614 =
 [
-    [ "HandleScript", "db/dd8/a19614.html#a84a4d92a5dff57f612d3e45db41010d3", null ],
-    [ "PrepareSpellScript", "db/dd8/a19614.html#adc3bb6bd763905857d84ccaf456b3a2f", null ],
-    [ "Register", "db/dd8/a19614.html#a04a5b3a4f768200d74f4641508633d35", null ]
+    [ "npc_brann_radioAI", "d3/d95/a19618.html", "d3/d95/a19618" ],
+    [ "npc_brann_radio", "db/dd8/a19614.html#a22b5231f643c287d8e32d88a3b0728b2", null ],
+    [ "GetAI", "db/dd8/a19614.html#aa2ea91337262fb886e7535ba013f4b10", null ]
 ];

@@ -1,5 +1,6 @@
 var a15570 =
 [
-    [ "achievement_watch_him_die", "dd/dae/a15570.html#a0d885871eac61d859780e08c8518bb15", null ],
-    [ "OnCheck", "dd/dae/a15570.html#a6ca8851bdf8cae50084ca87c1958fb53", null ]
+    [ "boss_anub_arakAI", "db/da1/a15574.html", "db/da1/a15574" ],
+    [ "boss_anub_arak", "dd/dae/a15570.html#ac2594f561b07069a312ed38c01d9c7da", null ],
+    [ "GetAI", "dd/dae/a15570.html#a8687594354d514b99e026797ee71c70d", null ]
 ];

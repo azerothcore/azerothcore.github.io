@@ -1,5 +1,6 @@
 var a27870 =
 [
-    [ "id", "dd/d22/a27870.html#a22e48015dd880199e131089e35b1ce05", null ],
-    [ "spellId", "dd/d22/a27870.html#a956d683b42f34eae3a1ea3f8882716fd", null ]
+    [ "ID", "dd/d22/a27870.html#a7d40e334785d96a2e57d28f87a59778a", null ],
+    [ "maxCount", "dd/d22/a27870.html#a5edc6442e026b12dae654fa86440a11a", null ],
+    [ "mode", "dd/d22/a27870.html#a76553ecf9f880a5e5967f818123742fd", null ]
 ];

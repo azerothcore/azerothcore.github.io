@@ -1,8 +1,6 @@
 var a16362 =
 [
-    [ "HandleRemove", "da/d34/a16362.html#a362b16f69a19adae6b673bd9ead55a83", null ],
-    [ "PeriodicTick", "da/d34/a16362.html#aa432052d61dc48066433b41b84ffbe5f", null ],
-    [ "PrepareAuraScript", "da/d34/a16362.html#a3ffbd618820adf77b2c64a29816f5204", null ],
-    [ "Register", "da/d34/a16362.html#ac2ac207d2e193a9c2f9904b394113c4d", null ],
-    [ "Validate", "da/d34/a16362.html#abed6574398a7d005e95feba6b54243a1", null ]
+    [ "boss_novosAI", "d6/d10/a16366.html", "d6/d10/a16366" ],
+    [ "boss_novos", "da/d34/a16362.html#a898a5ee1de69df17fde66c84dd065ac1", null ],
+    [ "GetAI", "da/d34/a16362.html#aaf28e2a23a8139197dccc92ae29a8be4", null ]
 ];

@@ -1,11 +1,12 @@
 var a08850 =
 [
-    [ "~Grid", "dd/d67/a08850.html#a86be65dc86f104566acd41078429e4c4", null ],
-    [ "AddGridObject", "dd/d67/a08850.html#ad78b74974ec1f4a361096c8f4d7500d7", null ],
-    [ "AddWorldObject", "dd/d67/a08850.html#aac7dc4f1c3024b2286fed2ae51688a99", null ],
-    [ "Visit", "dd/d67/a08850.html#aa69a55ee52da73b9ec3c62406cb4a595", null ],
-    [ "Visit", "dd/d67/a08850.html#aebdcac90d763779775dbc0f0492e5279", null ],
-    [ "GridLoader", "dd/d67/a08850.html#a06e47216bdac43edea86c507c93a6ed4", null ],
-    [ "i_container", "dd/d67/a08850.html#a510723553d7206edb25792856c6c369b", null ],
-    [ "i_objects", "dd/d67/a08850.html#a3bf441ec395e8e4cecdb8d63b6600bef", null ]
+    [ "IsTeamAward1", "dd/d67/a08850.html#a25f928a8f8c3a19b1aa9a5c41b0ba612", null ],
+    [ "IsTeamAward2", "dd/d67/a08850.html#a053bd7825d0464ac322b449f3d243722", null ],
+    [ "RepFaction1", "dd/d67/a08850.html#a4e75bb4149f8bb0b83a5aacba47800dd", null ],
+    [ "RepFaction2", "dd/d67/a08850.html#a5934590811c666d06b68216428574d8a", null ],
+    [ "ReputationMaxCap1", "dd/d67/a08850.html#a292b78f629723c3993a796eb256dd9b8", null ],
+    [ "ReputationMaxCap2", "dd/d67/a08850.html#ac90d17e82d6c8a763d3ea868250b44a7", null ],
+    [ "RepValue1", "dd/d67/a08850.html#a4c5f965e028c45d6ad4d5875f76b2458", null ],
+    [ "RepValue2", "dd/d67/a08850.html#a74f46afc59593d7ae71ab65aa9e1f1c2", null ],
+    [ "TeamDependent", "dd/d67/a08850.html#a66e60a90f166e5fc12ea4dbe615c998f", null ]
 ];

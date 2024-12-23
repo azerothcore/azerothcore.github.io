@@ -1,5 +1,6 @@
 var a27706 =
 [
-    [ "Itemlvl", "d1/d1c/a27706.html#a39d9dcee397a1f5984184c769f9b8b17", null ],
-    [ "multiplier", "d1/d1c/a27706.html#a5c6c206a6185a546223de7501ff846f6", null ]
+    [ "ChannelID", "d1/d1c/a27706.html#a51753c36711e100fd8dca1cd5b1e7e94", null ],
+    [ "flags", "d1/d1c/a27706.html#aa77db644555e336ccbb8dd138c192425", null ],
+    [ "pattern", "d1/d1c/a27706.html#ad8b550cf444d66eede00abcf2cefec22", null ]
 ];

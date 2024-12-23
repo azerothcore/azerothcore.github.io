@@ -1,10 +1,6 @@
 var a14298 =
 [
-    [ "hyjalJainaAI", "d2/dea/a14298.html#aa7532b691e85fd9bd467e20db39c59da", null ],
-    [ "IsSummonedBy", "d2/dea/a14298.html#a5003e3a1ccb955b209c1ab91a49d217f", null ],
-    [ "JustDied", "d2/dea/a14298.html#a605687080e5149b3f08ce8349ba9b336", null ],
-    [ "JustEngagedWith", "d2/dea/a14298.html#a187efe775b1e2a35637638507e77352e", null ],
-    [ "PathEndReached", "d2/dea/a14298.html#a0f7dd1512694d284c1f83b3403c421e6", null ],
-    [ "Reset", "d2/dea/a14298.html#a585baff53f5d57ca0dc9002181e8d2bc", null ],
-    [ "UpdateAI", "d2/dea/a14298.html#ac86fb8a5a55654ff7697abd9162135c1", null ]
+    [ "FilterTargets", "d2/dea/a14298.html#ae2d33bee9d8d8c29f07ed60bbaf3e7b0", null ],
+    [ "PrepareSpellScript", "d2/dea/a14298.html#a2b7ec1db13418f2e369faab6ec8422b4", null ],
+    [ "Register", "d2/dea/a14298.html#a6375482bd9d1fc6c6941607273c506dc", null ]
 ];

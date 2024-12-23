@@ -1,5 +1,5 @@
 var a27302 =
 [
-    [ "QuestApprenticeAnglerPlayerScript", "d6/d4d/a27302.html#afaa929276f8b131005c9b94daa9a09f9", null ],
-    [ "OnPlayerCompleteQuest", "d6/d4d/a27302.html#a029ef1ccdd42af2ff9223ab699c3942f", null ]
+    [ "npc_pet_trainerAI", "d6/d4d/a27302.html#aa5c01fd7cf2b9fad15a3059b4fe38d13", null ],
+    [ "sGossipSelect", "d6/d4d/a27302.html#a6768c8f8f5e37058f85cb40d35caad72", null ]
 ];

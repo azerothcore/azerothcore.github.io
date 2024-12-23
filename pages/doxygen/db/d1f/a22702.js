@@ -1,7 +1,7 @@
 var a22702 =
 [
-    [ "PrepareAuraScript", "db/d1f/a22702.html#a30ec063aa1ddbc3a32066e1f868bf742", null ],
-    [ "Register", "db/d1f/a22702.html#a1e62c60bfc2b72811950b627ce1202c3", null ],
-    [ "Update", "db/d1f/a22702.html#a3f98767367564734c9877d1870aac31b", null ],
-    [ "Validate", "db/d1f/a22702.html#a450460769e0e54e06f1b64b3c63ba0de", null ]
+    [ "HandleEffectApply", "db/d1f/a22702.html#aff0dbed165d0e751db725f7eaaf76a11", null ],
+    [ "Load", "db/d1f/a22702.html#a1dfb5b2004041e7165cc9f5deb4b1e82", null ],
+    [ "PrepareAuraScript", "db/d1f/a22702.html#a3dbd01e52ed2a630f0c014f941fc1b5e", null ],
+    [ "Register", "db/d1f/a22702.html#a647f21e79e3fef72cf84439fc84e708f", null ]
 ];

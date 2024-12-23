@@ -1,6 +1,5 @@
 var a18554 =
 [
-    [ "npc_four_car_garageAI", "d9/d62/a18554.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
-    [ "JustDied", "d9/d62/a18554.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
-    [ "PassengerBoarded", "d9/d62/a18554.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
+    [ "at_icc_gauntlet_event", "d9/d62/a18554.html#ae8790bad655661aeda887f56b9393847", null ],
+    [ "OnTrigger", "d9/d62/a18554.html#a9329ec078db088b1c13144ac7ed7a13a", null ]
 ];

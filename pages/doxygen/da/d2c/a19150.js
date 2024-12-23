@@ -1,6 +1,6 @@
 var a19150 =
 [
-    [ "boss_lokenAI", "d0/d2e/a19154.html", "d0/d2e/a19154" ],
-    [ "boss_loken", "da/d2c/a19150.html#a44ba0ee009dcdfca6ff8739e297ec786", null ],
-    [ "GetAI", "da/d2c/a19150.html#affb73db8ecdc2d035f8076ecca0c9a99", null ]
+    [ "PrepareSpellScript", "da/d2c/a19150.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
+    [ "Register", "da/d2c/a19150.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
+    [ "SetDest", "da/d2c/a19150.html#a24341aae14ed77101d4c31f2fbe11463", null ]
 ];

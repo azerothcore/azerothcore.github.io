@@ -1,5 +1,5 @@
 var a16302 =
 [
-    [ "achievement_better_off_dred", "dd/da6/a16302.html#a1ff3442ab3e166a4001c4c10777bdf8a", null ],
-    [ "OnCheck", "dd/da6/a16302.html#a9aab68b43fbf9f3c71c237b149f23b2d", null ]
+    [ "boss_fjolaAI", "dd/da6/a16302.html#aa46fdff841d01f28ef50aa5363082f71", null ],
+    [ "JustSummoned", "dd/da6/a16302.html#a59a3f2453f923d4f19c63e88402d1a76", null ]
 ];

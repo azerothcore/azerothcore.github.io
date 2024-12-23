@@ -1,5 +1,6 @@
 var a12834 =
 [
-    [ "npc_apothecary_frye", "d3/dd3/a12834.html#a5546099958a9a267d237e65720588456", null ],
-    [ "JustDied", "d3/dd3/a12834.html#ab1dc310e90c591b44ce4d5bcf1bac930", null ]
+    [ "boss_kirtonos_the_heraldAI", "df/d72/a12838.html", "df/d72/a12838" ],
+    [ "boss_kirtonos_the_herald", "d3/dd3/a12834.html#a0e81153a0da7910cda4c9b6d32544318", null ],
+    [ "GetAI", "d3/dd3/a12834.html#aa5e0fe2386aae52fd53ff309282db652", null ]
 ];

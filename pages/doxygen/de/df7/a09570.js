@@ -1,12 +1,7 @@
 var a09570 =
 [
-    [ "MapReference", "de/df7/a09570.html#abfbeb2ab5831f1f2a52bcb506318d85e", null ],
-    [ "~MapReference", "de/df7/a09570.html#a1e93b44871737991140718322fd1cd69", null ],
-    [ "next", "de/df7/a09570.html#a352ef695a8968a17e921861b7d6242c1", null ],
-    [ "next", "de/df7/a09570.html#ae0383c7748749a344bb2395fd6e8baa4", null ],
-    [ "nocheck_prev", "de/df7/a09570.html#a6cfff18295cf049ff554b0f140680890", null ],
-    [ "nockeck_prev", "de/df7/a09570.html#adcb903a8a67951fe3da8e99e270b5c91", null ],
-    [ "sourceObjectDestroyLink", "de/df7/a09570.html#ade5aa7b9b67ab49e523e4885460c3917", null ],
-    [ "targetObjectBuildLink", "de/df7/a09570.html#acc64fa182a97583a2d9b78d54ec07ca0", null ],
-    [ "targetObjectDestroyLink", "de/df7/a09570.html#aaa51bc8d8b47e0bbe5cfa828e4ae6604", null ]
+    [ "ownerGUID", "de/df7/a09570.html#a3c89974ea78b732cbffb8a9d482d403b", null ],
+    [ "script", "de/df7/a09570.html#ad995c862431acd9d45cc12c9d5c8b319", null ],
+    [ "sourceGUID", "de/df7/a09570.html#acafb40cbd1e73152f9dbf390f1fc98f3", null ],
+    [ "targetGUID", "de/df7/a09570.html#a1505a3b9a6de23dcd6b2847207a279ca", null ]
 ];

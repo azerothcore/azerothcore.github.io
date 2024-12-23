@@ -1,11 +1,12 @@
 var a22614 =
 [
-    [ "boss_supremus", "dc/d09/a22614.html#af1f094534b0e2dec70422839a02327cd", null ],
-    [ "CheckEvadeIfOutOfCombatArea", "dc/d09/a22614.html#a2654bf5b1d5b6da723d4968219e069a9", null ],
-    [ "FindHatefulStrikeTarget", "dc/d09/a22614.html#af560466902d0d372662020e1a67b627c", null ],
-    [ "JustEngagedWith", "dc/d09/a22614.html#a7d3a5e2c183db7639a7c25f309359ed1", null ],
-    [ "JustSummoned", "dc/d09/a22614.html#a7265a01fa79213ab6d8b82a4c92b7661", null ],
-    [ "Reset", "dc/d09/a22614.html#a0eaa29849a2571417d4826d238d72e25", null ],
-    [ "SchedulePhase", "dc/d09/a22614.html#a87e3943d6c645138853aa97644f9df0e", null ],
-    [ "SummonedCreatureDespawn", "dc/d09/a22614.html#a2ae72bfef577654e676a64eb2e4efa7a", null ]
+    [ "boss_essence_of_angerAI", "dc/d09/a22614.html#a25eed717395b4e1ca5504d2d473e2500", null ],
+    [ "DoAction", "dc/d09/a22614.html#a81576aaf465dfc99d199aaf6a182df52", null ],
+    [ "JustDied", "dc/d09/a22614.html#a997d75ad388e790f9863e1b15fa1c899", null ],
+    [ "JustEngagedWith", "dc/d09/a22614.html#a16d2b13fcf3dfa513813669b44712c4c", null ],
+    [ "KilledUnit", "dc/d09/a22614.html#a6a900f9a9dc5509c36e5bdaaaacc197d", null ],
+    [ "Reset", "dc/d09/a22614.html#ade57a575bd84e8e095b1ab5a5c81d3f6", null ],
+    [ "UpdateAI", "dc/d09/a22614.html#a67e9f5a361894aa227f2a74f9222740d", null ],
+    [ "_recentlySpoken", "dc/d09/a22614.html#a056aa8fd704d832e83735cf2a1a22888", null ],
+    [ "targetGUID", "dc/d09/a22614.html#adc3867a4446375f1217809299f3dd9bb", null ]
 ];

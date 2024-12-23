@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::CustomChatTextBuilder Class Reference</title>
+<title>AzerothCore: AuraScript::EffectUpdatePeriodicHandler Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,72 +108,93 @@ $(document).ready(function(){initNavTree('d3/ddb/a11102.html','../../'); initRes
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d1/d88/a11099.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::CustomChatTextBuilder Class Reference</div></div>
+  <div class="headertitle"><div class="title">AuraScript::EffectUpdatePeriodicHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ChatTextBuilder.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for AuraScript::EffectUpdatePeriodicHandler:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d3/ddb/a11102.png" usemap="#AuraScript::EffectUpdatePeriodicHandler_map" alt=""/>
+  <map id="AuraScript::EffectUpdatePeriodicHandler_map" name="AuraScript::EffectUpdatePeriodicHandler_map">
+<area href="../../d9/d27/a11094.html" alt="AuraScript::EffectBase" shape="rect" coords="126,56,369,80"/>
+<area href="../../d0/d6c/a11038.html" alt="_SpellScript::EffectAuraNameCheck" shape="rect" coords="0,0,243,24"/>
+<area href="../../d3/dae/a11030.html" alt="_SpellScript::EffectHook" shape="rect" coords="253,0,496,24"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a47b3e24f7100d13180ad1946647999ae"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a47b3e24f7100d13180ad1946647999ae">CustomChatTextBuilder</a> (<a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *obj, <a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> msgType, std::string_view text, <a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> language=<a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a>, <a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *target=nullptr)</td></tr>
-<tr class="separator:a47b3e24f7100d13180ad1946647999ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad80555f063e7de15df3c434bc90d2ca9"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#ad80555f063e7de15df3c434bc90d2ca9">operator()</a> (<a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;data, <a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> locale) const</td></tr>
-<tr class="separator:ad80555f063e7de15df3c434bc90d2ca9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b18a259aa84c847bcc064c5243eb590"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a6b18a259aa84c847bcc064c5243eb590">EffectUpdatePeriodicHandler</a> (AuraEffectUpdatePeriodicFnType _pEffectHandlerScript, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _effName)</td></tr>
+<tr class="separator:a6b18a259aa84c847bcc064c5243eb590"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38802863e7859453cbbe58ad91018c67"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a38802863e7859453cbbe58ad91018c67">Call</a> (<a class="el" href="../../d6/d53/a11082.html">AuraScript</a> *auraScript, <a class="el" href="../../d1/d17/a10850.html">AuraEffect</a> *aurEff)</td></tr>
+<tr class="separator:a38802863e7859453cbbe58ad91018c67"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a11094"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a11094')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d27/a11094.html">AuraScript::EffectBase</a></td></tr>
+<tr class="memitem:ab02f9f344e2f32ad59b35993d5c8f819 inherit pub_methods_a11094"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/a11094.html#ab02f9f344e2f32ad59b35993d5c8f819">EffectBase</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _effName)</td></tr>
+<tr class="separator:ab02f9f344e2f32ad59b35993d5c8f819 inherit pub_methods_a11094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6f5b2a7ec1183206110eac9a21a7de5 inherit pub_methods_a11094"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/a11094.html#ab6f5b2a7ec1183206110eac9a21a7de5">ToString</a> ()</td></tr>
+<tr class="separator:ab6f5b2a7ec1183206110eac9a21a7de5 inherit pub_methods_a11094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c300ca68c3ff6f74b230835c566fd60 inherit pub_methods_a11094"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d27/a11094.html#a8c300ca68c3ff6f74b230835c566fd60">CheckEffect</a> (<a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d3/dae/a11030.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>) override</td></tr>
+<tr class="separator:a8c300ca68c3ff6f74b230835c566fd60 inherit pub_methods_a11094"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a11038"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a11038')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d6c/a11038.html">_SpellScript::EffectAuraNameCheck</a></td></tr>
+<tr class="memitem:a4b10ec0fcb3ffd841cf790574875017d inherit pub_methods_a11038"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a11038.html#a4b10ec0fcb3ffd841cf790574875017d">EffectAuraNameCheck</a> (<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> _effAurName)</td></tr>
+<tr class="separator:a4b10ec0fcb3ffd841cf790574875017d inherit pub_methods_a11038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7fff405a99c65d3e846463ca29a8ddfd inherit pub_methods_a11038"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a11038.html#a7fff405a99c65d3e846463ca29a8ddfd">Check</a> (<a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> effIndex)</td></tr>
+<tr class="separator:a7fff405a99c65d3e846463ca29a8ddfd inherit pub_methods_a11038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a602fc1ddafe663e2e5ddceaeaec8b118 inherit pub_methods_a11038"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d6c/a11038.html#a602fc1ddafe663e2e5ddceaeaec8b118">ToString</a> ()</td></tr>
+<tr class="separator:a602fc1ddafe663e2e5ddceaeaec8b118 inherit pub_methods_a11038"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a11030"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a11030')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/dae/a11030.html">_SpellScript::EffectHook</a></td></tr>
+<tr class="memitem:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#a4a197e061d918dfba2bc486f3393b00d">EffectHook</a> (<a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> _effIndex)</td></tr>
+<tr class="separator:a4a197e061d918dfba2bc486f3393b00d inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#aa234f63b530764d12064acbe3f5c9299">~EffectHook</a> ()</td></tr>
+<tr class="separator:aa234f63b530764d12064acbe3f5c9299 inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#a31faa86590e22f5ab3ca518f4df02840">GetAffectedEffectsMask</a> (<a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *spellInfo)</td></tr>
+<tr class="separator:a31faa86590e22f5ab3ca518f4df02840 inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#a697041ffa562bb6fff792beb159c7af2">IsEffectAffected</a> (<a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d3/dae/a11030.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)</td></tr>
+<tr class="separator:a697041ffa562bb6fff792beb159c7af2 inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#ae8823c5d649d182f572818bf3db72902">CheckEffect</a> (<a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *spellInfo, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> <a class="el" href="../../d3/dae/a11030.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a>)=0</td></tr>
+<tr class="separator:ae8823c5d649d182f572818bf3db72902 inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a11030"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#ab818ed274cfd66ecc565b8535b751517">EffIndexToString</a> ()</td></tr>
+<tr class="separator:ab818ed274cfd66ecc565b8535b751517 inherit pub_methods_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:ad75f22d7eb6a62d59730918f4336768c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#ad75f22d7eb6a62d59730918f4336768c">_source</a></td></tr>
-<tr class="separator:ad75f22d7eb6a62d59730918f4336768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0db1501da33fde77ab3c50943666b1fd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a></td></tr>
-<tr class="separator:a0db1501da33fde77ab3c50943666b1fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab59c9b938b564329483e38466169a92c"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#ab59c9b938b564329483e38466169a92c">_text</a></td></tr>
-<tr class="separator:ab59c9b938b564329483e38466169a92c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a92d1c58d76d5d450892338d0e1856dc0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a></td></tr>
-<tr class="separator:a92d1c58d76d5d450892338d0e1856dc0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa45be322836be588d8df2b253a22ee5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#aa45be322836be588d8df2b253a22ee5c">_target</a></td></tr>
-<tr class="separator:aa45be322836be588d8df2b253a22ee5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e51245e089fcd9532d5789056ab944c"><td class="memItemLeft" align="right" valign="top">AuraEffectUpdatePeriodicFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/ddb/a11102.html#a0e51245e089fcd9532d5789056ab944c">pEffectHandlerScript</a></td></tr>
+<tr class="separator:a0e51245e089fcd9532d5789056ab944c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="inherited" name="inherited"></a>
+Additional Inherited Members</h2></td></tr>
+<tr class="inherit_header pro_attribs_a11030"><td colspan="2" onclick="javascript:toggleInherit('pro_attribs_a11030')"><img src="../../closed.png" alt="-"/>&#160;Protected Attributes inherited from <a class="el" href="../../d3/dae/a11030.html">_SpellScript::EffectHook</a></td></tr>
+<tr class="memitem:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a11030"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/dae/a11030.html#ab5eb48ef7ac903938f92db0e856e0295">effIndex</a></td></tr>
+<tr class="separator:ab5eb48ef7ac903938f92db0e856e0295 inherit pro_attribs_a11030"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a47b3e24f7100d13180ad1946647999ae" name="a47b3e24f7100d13180ad1946647999ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a47b3e24f7100d13180ad1946647999ae">&#9670;&#160;</a></span>CustomChatTextBuilder()</h2>
+<a id="a6b18a259aa84c847bcc064c5243eb590" name="a6b18a259aa84c847bcc064c5243eb590"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b18a259aa84c847bcc064c5243eb590">&#9670;&#160;</a></span>EffectUpdatePeriodicHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Acore::CustomChatTextBuilder::CustomChatTextBuilder </td>
+          <td class="memname">AuraScript::EffectUpdatePeriodicHandler::EffectUpdatePeriodicHandler </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>obj</em>, </td>
+          <td class="paramtype">AuraEffectUpdatePeriodicFnType&#160;</td>
+          <td class="paramname"><em>_pEffectHandlerScript</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td>
-          <td class="paramname"><em>msgType</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>_effIndex</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">std::string_view&#160;</td>
-          <td class="paramname"><em>text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a>&#160;</td>
-          <td class="paramname"><em>language</em> = <code><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705a15adb0ab094ffe068674ecc6ea720d3a">LANG_UNIVERSAL</a></code>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>target</em> = <code>nullptr</code>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
+          <td class="paramname"><em>_effName</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -181,59 +202,53 @@ Private Attributes</h2></td></tr>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   52</span>                : <a class="code hl_variable" href="../../d3/ddb/a11102.html#ad75f22d7eb6a62d59730918f4336768c">_source</a>(obj), <a class="code hl_variable" href="../../d3/ddb/a11102.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a>(msgType), <a class="code hl_variable" href="../../d3/ddb/a11102.html#ab59c9b938b564329483e38466169a92c">_text</a>(text), <a class="code hl_variable" href="../../d3/ddb/a11102.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a>(language), <a class="code hl_variable" href="../../d3/ddb/a11102.html#aa45be322836be588d8df2b253a22ee5c">_target</a>(target) { }</div>
-<div class="ttc" id="aa11102_html_a0db1501da33fde77ab3c50943666b1fd"><div class="ttname"><a href="../../d3/ddb/a11102.html#a0db1501da33fde77ab3c50943666b1fd">Acore::CustomChatTextBuilder::_msgType</a></div><div class="ttdeci">ChatMsg _msgType</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:58</div></div>
-<div class="ttc" id="aa11102_html_a92d1c58d76d5d450892338d0e1856dc0"><div class="ttname"><a href="../../d3/ddb/a11102.html#a92d1c58d76d5d450892338d0e1856dc0">Acore::CustomChatTextBuilder::_language</a></div><div class="ttdeci">Language _language</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:60</div></div>
-<div class="ttc" id="aa11102_html_aa45be322836be588d8df2b253a22ee5c"><div class="ttname"><a href="../../d3/ddb/a11102.html#aa45be322836be588d8df2b253a22ee5c">Acore::CustomChatTextBuilder::_target</a></div><div class="ttdeci">WorldObject const  * _target</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:61</div></div>
-<div class="ttc" id="aa11102_html_ab59c9b938b564329483e38466169a92c"><div class="ttname"><a href="../../d3/ddb/a11102.html#ab59c9b938b564329483e38466169a92c">Acore::CustomChatTextBuilder::_text</a></div><div class="ttdeci">std::string _text</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:59</div></div>
-<div class="ttc" id="aa11102_html_ad75f22d7eb6a62d59730918f4336768c"><div class="ttname"><a href="../../d3/ddb/a11102.html#ad75f22d7eb6a62d59730918f4336768c">Acore::CustomChatTextBuilder::_source</a></div><div class="ttdeci">WorldObject const  * _source</div><div class="ttdef"><b>Definition:</b> ChatTextBuilder.h:57</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  810</span>    : <a class="code hl_class" href="../../d9/d27/a11094.html">AuraScript::EffectBase</a>(_effIndex, _effName)</div>
+<div class="line"><span class="lineno">  811</span>{</div>
+<div class="line"><span class="lineno">  812</span>    <a class="code hl_variable" href="../../d3/ddb/a11102.html#a0e51245e089fcd9532d5789056ab944c">pEffectHandlerScript</a> = _pEffectHandlerScript;</div>
+<div class="line"><span class="lineno">  813</span>}</div>
+<div class="ttc" id="aa11094_html"><div class="ttname"><a href="../../d9/d27/a11094.html">AuraScript::EffectBase</a></div><div class="ttdef"><b>Definition:</b> SpellScript.h:556</div></div>
+<div class="ttc" id="aa11102_html_a0e51245e089fcd9532d5789056ab944c"><div class="ttname"><a href="../../d3/ddb/a11102.html#a0e51245e089fcd9532d5789056ab944c">AuraScript::EffectUpdatePeriodicHandler::pEffectHandlerScript</a></div><div class="ttdeci">AuraEffectUpdatePeriodicFnType pEffectHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:576</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00576">pEffectHandlerScript</a>.</p>
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad80555f063e7de15df3c434bc90d2ca9" name="ad80555f063e7de15df3c434bc90d2ca9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad80555f063e7de15df3c434bc90d2ca9">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a38802863e7859453cbbe58ad91018c67" name="a38802863e7859453cbbe58ad91018c67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38802863e7859453cbbe58ad91018c67">&#9670;&#160;</a></span>Call()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void Acore::CustomChatTextBuilder::operator() </td>
+          <td class="memname">void AuraScript::EffectUpdatePeriodicHandler::Call </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d6/d53/a11082.html">AuraScript</a> *&#160;</td>
+          <td class="paramname"><em>auraScript</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a>&#160;</td>
-          <td class="paramname"><em>locale</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../d1/d17/a10850.html">AuraEffect</a> *&#160;</td>
+          <td class="paramname"><em>aurEff</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> const</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>{</div>
-<div class="line"><span class="lineno">   37</span>    <a class="code hl_function" href="../../dc/dcd/a07294.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a>(data, <a class="code hl_variable" href="../../d3/ddb/a11102.html#a0db1501da33fde77ab3c50943666b1fd">_msgType</a>, <a class="code hl_variable" href="../../d3/ddb/a11102.html#a92d1c58d76d5d450892338d0e1856dc0">_language</a>, <a class="code hl_variable" href="../../d3/ddb/a11102.html#ad75f22d7eb6a62d59730918f4336768c">_source</a>, <a class="code hl_variable" href="../../d3/ddb/a11102.html#aa45be322836be588d8df2b253a22ee5c">_target</a>, <a class="code hl_variable" href="../../d3/ddb/a11102.html#ab59c9b938b564329483e38466169a92c">_text</a>, 0, <span class="stringliteral">&quot;&quot;</span>, locale);</div>
-<div class="line"><span class="lineno">   38</span>}</div>
-<div class="ttc" id="aa07294_html_a3295cee708d267aac165f9ee55d2e615"><div class="ttname"><a href="../../dc/dcd/a07294.html#a3295cee708d267aac165f9ee55d2e615">ChatHandler::BuildChatPacket</a></div><div class="ttdeci">static std::size_t BuildChatPacket(WorldPacket &amp;data, ChatMsg chatType, Language language, ObjectGuid senderGUID, ObjectGuid receiverGUID, std::string_view message, uint8 chatTag, std::string const &amp;senderName=&quot;&quot;, std::string const &amp;receiverName=&quot;&quot;, uint32 achievementId=0, bool gmMessage=false, std::string const &amp;channelName=&quot;&quot;)</div><div class="ttdef"><b>Definition:</b> Chat.cpp:264</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  816</span>{</div>
+<div class="line"><span class="lineno">  817</span>    (auraScript-&gt;*<a class="code hl_variable" href="../../d3/ddb/a11102.html#a0e51245e089fcd9532d5789056ab944c">pEffectHandlerScript</a>)(aurEff);</div>
+<div class="line"><span class="lineno">  818</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00264">ChatHandler::BuildChatPacket()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a92d1c58d76d5d450892338d0e1856dc0" name="a92d1c58d76d5d450892338d0e1856dc0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a92d1c58d76d5d450892338d0e1856dc0">&#9670;&#160;</a></span>_language</h2>
+<a id="a0e51245e089fcd9532d5789056ab944c" name="a0e51245e089fcd9532d5789056ab944c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e51245e089fcd9532d5789056ab944c">&#9670;&#160;</a></span>pEffectHandlerScript</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +257,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a315ca917ad583797f709ea477dd28705">Language</a> Acore::CustomChatTextBuilder::_language</td>
+          <td class="memname">AuraEffectUpdatePeriodicFnType AuraScript::EffectUpdatePeriodicHandler::pEffectHandlerScript</td>
         </tr>
       </table>
   </td>
@@ -252,93 +267,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a0db1501da33fde77ab3c50943666b1fd" name="a0db1501da33fde77ab3c50943666b1fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0db1501da33fde77ab3c50943666b1fd">&#9670;&#160;</a></span>_msgType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> Acore::CustomChatTextBuilder::_msgType</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad75f22d7eb6a62d59730918f4336768c" name="ad75f22d7eb6a62d59730918f4336768c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad75f22d7eb6a62d59730918f4336768c">&#9670;&#160;</a></span>_source</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const* Acore::CustomChatTextBuilder::_source</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa45be322836be588d8df2b253a22ee5c" name="aa45be322836be588d8df2b253a22ee5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa45be322836be588d8df2b253a22ee5c">&#9670;&#160;</a></span>_target</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const* Acore::CustomChatTextBuilder::_target</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab59c9b938b564329483e38466169a92c" name="ab59c9b938b564329483e38466169a92c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab59c9b938b564329483e38466169a92c">&#9670;&#160;</a></span>_text</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::string Acore::CustomChatTextBuilder::_text</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">Referenced by <a class="el" href="../../#l00809">EffectUpdatePeriodicHandler()</a>.</p>
 
 </div>
 </div>
@@ -347,8 +276,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/ddb/a11102.html">CustomChatTextBuilder</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:28 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/d53/a11082.html">AuraScript</a></li><li class="navelem"><a class="el" href="../../d3/ddb/a11102.html">EffectUpdatePeriodicHandler</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

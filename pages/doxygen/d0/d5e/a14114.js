@@ -1,8 +1,5 @@
 var a14114 =
 [
-    [ "OnApply", "d0/d5e/a14114.html#a6bc23ff885f4fbc25d00fe35173bad3e", null ],
-    [ "OnRemove", "d0/d5e/a14114.html#aed62006fe08bfaad0a8bb51d5e739c67", null ],
-    [ "PrepareAuraScript", "d0/d5e/a14114.html#ac7388aa4c0746ce963cbbb97dbfb4765", null ],
-    [ "Register", "d0/d5e/a14114.html#a95c3af6d3f1d510ad8a2d9be7e28b2dc", null ],
-    [ "Validate", "d0/d5e/a14114.html#a0ed19bc16fa8e2da2332766bbc1110e5", null ]
+    [ "go_pumpkin_shrine", "d0/d5e/a14114.html#ab9b05caa7ef7d740a0c46171c2160a19", null ],
+    [ "OnGossipSelect", "d0/d5e/a14114.html#a35763a67d39c1d68974a9602ce26b699", null ]
 ];

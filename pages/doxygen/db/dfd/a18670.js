@@ -1,17 +1,18 @@
 var a18670 =
 [
-    [ "boss_grobbulusAI", "db/dfd/a18670.html#ad9e7cd519e30eded06f76bcc69189117", null ],
-    [ "JustDied", "db/dfd/a18670.html#aa717d51aa10c139473031072065064ce", null ],
-    [ "JustEngagedWith", "db/dfd/a18670.html#a4c74d53fe029d02df9652dbb87a09242", null ],
-    [ "JustSummoned", "db/dfd/a18670.html#af266d40889fbecd50a118a579b711757", null ],
-    [ "KilledUnit", "db/dfd/a18670.html#a266ef5135e09ee6a0b0b9ae0aaac822b", null ],
-    [ "PullChamberAdds", "db/dfd/a18670.html#ad215f20452cd48c2c2bca394410d739b", null ],
-    [ "Reset", "db/dfd/a18670.html#a6bd34fcdcfa47b19f366ba85e7f420cb", null ],
-    [ "SpellHitTarget", "db/dfd/a18670.html#a996175b70b9a69175988350fc09edd79", null ],
-    [ "SummonedCreatureDespawn", "db/dfd/a18670.html#ae939b029565ef9a075c0d9f0f94b76f3", null ],
-    [ "UpdateAI", "db/dfd/a18670.html#aafd79debbe76b02a1478c03daf235b05", null ],
-    [ "dropSludgeTimer", "db/dfd/a18670.html#a5fdcf157f498b8e47d6380b03fe819d6", null ],
-    [ "events", "db/dfd/a18670.html#a810a91ffbcc3caa7c31e17afbd615392", null ],
-    [ "pInstance", "db/dfd/a18670.html#a26a4a5bb98800fb968cf9b30ffa299dc", null ],
-    [ "summons", "db/dfd/a18670.html#a39ce39397f845a4fddf20da5f5812713", null ]
+    [ "boss_four_horsemenAI", "db/dfd/a18670.html#a828a858c3337791bd2acb3d6ba730233", null ],
+    [ "AttackStart", "db/dfd/a18670.html#aeb7e82fe20d4f6c4c5379c060beee161", null ],
+    [ "IsInRoom", "db/dfd/a18670.html#afaf17721189ab5b202a7dfbcd7f363e3", null ],
+    [ "JustDied", "db/dfd/a18670.html#a3ba69ed84d129a1a48952880c77bcf53", null ],
+    [ "JustEngagedWith", "db/dfd/a18670.html#a17b8ca30ceb0efb87be77f970c526444", null ],
+    [ "KilledUnit", "db/dfd/a18670.html#a87bdde27a69a020a26da31f01286593a", null ],
+    [ "MovementInform", "db/dfd/a18670.html#aa900c075c04673341b3100488c45f9e7", null ],
+    [ "MoveToCorner", "db/dfd/a18670.html#a7891dc79980c67d82867f6181685b359", null ],
+    [ "Reset", "db/dfd/a18670.html#a8f41a8eadb6b01d32b177640b91d929f", null ],
+    [ "UpdateAI", "db/dfd/a18670.html#ac3a1f33bf9823e2171180c3311f647f1", null ],
+    [ "currentWaypoint", "db/dfd/a18670.html#ab3c2643e1b3c58452661255979e67e63", null ],
+    [ "events", "db/dfd/a18670.html#a5c135d69b30853e2eb8a52a1a5e230f7", null ],
+    [ "horsemanId", "db/dfd/a18670.html#ab0c4162177096e7bd007996e8677fd8b", null ],
+    [ "movementPhase", "db/dfd/a18670.html#a09b826c28e9bf6c417a650dfe710a2dd", null ],
+    [ "pInstance", "db/dfd/a18670.html#aba63b1e9909380aa93d583a191113c54", null ]
 ];

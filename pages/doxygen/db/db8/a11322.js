@@ -1,14 +1,18 @@
 var a11322 =
 [
-    [ "cast_commandscript", "db/db8/a11322.html#a9c657d2c5404149a45a2db748d23fc2f", null ],
-    [ "CheckSpellCastResult", "db/db8/a11322.html#a244b2d11a07fdcbb72f3207ab1e46ea5", null ],
-    [ "CheckSpellExistsAndIsValid", "db/db8/a11322.html#a14da4e4674b065c8e8f3d1946a037bda", null ],
-    [ "GetCommands", "db/db8/a11322.html#ab0890c036a8d301b382fdd1b6371f671", null ],
-    [ "GetTriggerFlags", "db/db8/a11322.html#a26e6986c45a99e6a94d7ba2d9a810aa3", null ],
-    [ "HandleCastBackCommand", "db/db8/a11322.html#a964a40278f609a5c5a0bae651484c726", null ],
-    [ "HandleCastCommand", "db/db8/a11322.html#ac28430cc0623209b891bacbb4845509b", null ],
-    [ "HandleCastDestCommand", "db/db8/a11322.html#a156ca81fba7155205dae106aa4c221d6", null ],
-    [ "HandleCastDistCommand", "db/db8/a11322.html#aabbcac8e85c6a64a647d71bb22bebede", null ],
-    [ "HandleCastSelfCommand", "db/db8/a11322.html#a69e88bb174c2518584a9ae622e2850bf", null ],
-    [ "HandleCastTargetCommad", "db/db8/a11322.html#aa72bd317a3498ef07007c1a9e81e2796", null ]
+    [ "Weather", "d2/db6/a04681.html#gaf4ec787c400c0e90101f00d022c2c9fd", null ],
+    [ "~Weather", "d2/db6/a04681.html#ga8db480edb9459ebf73a1363c6fea0b27", null ],
+    [ "GetScriptId", "d2/db6/a04681.html#ga07ff1c03b6fb225388d418496c18d3be", null ],
+    [ "GetWeatherState", "d2/db6/a04681.html#gaed38cecb6af95222638b2177fa48757c", null ],
+    [ "GetZone", "d2/db6/a04681.html#ga5cf53e440c7da53eb6524ea1d658b0e6", null ],
+    [ "ReGenerate", "d2/db6/a04681.html#gaea61d86d9a64dd5dbc8ea843aad97eb6", null ],
+    [ "SendWeatherUpdateToPlayer", "d2/db6/a04681.html#gaf9ff2442cc875af4b6ca4bec7f41c965", null ],
+    [ "SetWeather", "d2/db6/a04681.html#ga32e650a32fc1e01bdb6fbfd960fd022f", null ],
+    [ "Update", "d2/db6/a04681.html#gaf7a3484daa8221287a4c325fb3a8080c", null ],
+    [ "UpdateWeather", "d2/db6/a04681.html#gad4885daeab81309a42c2c1fdebcf33ad", null ],
+    [ "m_grade", "d2/db6/a04681.html#ga5638d204d5986f64eed9d343d086895e", null ],
+    [ "m_timer", "d2/db6/a04681.html#gadba1100bafe6db8a242bdad35663e909", null ],
+    [ "m_type", "d2/db6/a04681.html#ga19d9ed53043ba2b9eb3bdc27921501eb", null ],
+    [ "m_weatherChances", "d2/db6/a04681.html#gaeb74bbd4568c726a2443318aea6313d0", null ],
+    [ "m_zone", "d2/db6/a04681.html#ga1fd12588331e8f86399378b7bb12317b", null ]
 ];

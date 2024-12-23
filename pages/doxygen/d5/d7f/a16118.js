@@ -1,6 +1,6 @@
 var a16118 =
 [
-    [ "npc_toc_enh_shamanAI", "de/dcc/a16122.html", "de/dcc/a16122" ],
-    [ "npc_toc_enh_shaman", "d5/d7f/a16118.html#ac328b63a988d2cd8640237b250c338a8", null ],
-    [ "GetAI", "d5/d7f/a16118.html#a4501c9289a06750d8f153f89565b12f3", null ]
+    [ "npc_toc_warlockAI", "de/dcc/a16122.html", "de/dcc/a16122" ],
+    [ "npc_toc_warlock", "d5/d7f/a16118.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
+    [ "GetAI", "d5/d7f/a16118.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
 ];

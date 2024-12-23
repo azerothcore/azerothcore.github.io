@@ -1,6 +1,6 @@
 var a13038 =
 [
-    [ "CastArmageddon", "d6/d1c/a13038.html#a2e90929b63e6151252aa01a55dbd801f", null ],
-    [ "Execute", "d6/d1c/a13038.html#a4f0651a38eaf03a07bcd73d0f88dda16", null ],
-    [ "_caster", "d6/d1c/a13038.html#a1e70887099a7a47b7c26517d4363ad93", null ]
+    [ "npc_demonic_vapor", "d6/d1c/a13038.html#aee2e1b7372b8125b49e8466a2406ff00", null ],
+    [ "Reset", "d6/d1c/a13038.html#a7d2b88ab26904cedaac34f03567806bc", null ],
+    [ "UpdateAI", "d6/d1c/a13038.html#ae80c50c2599e607b54349a87dda5f6f6", null ]
 ];

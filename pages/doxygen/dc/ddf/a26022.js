@@ -1,7 +1,6 @@
 var a26022 =
 [
-    [ "HandleDummy", "dc/ddf/a26022.html#ad2367c1fd551187b6f19f795abb15ea6", null ],
-    [ "PrepareSpellScript", "dc/ddf/a26022.html#a125f7550ce826f74ac14902bc82d5021", null ],
-    [ "Register", "dc/ddf/a26022.html#a35e9132e2414383caafbde699de6061d", null ],
-    [ "Validate", "dc/ddf/a26022.html#a530489a10287a6dd281d518683b1a3f3", null ]
+    [ "CheckProc", "dc/ddf/a26022.html#aa9cf64a1965bd7924ce5a9c639d85fb3", null ],
+    [ "PrepareAuraScript", "dc/ddf/a26022.html#a87d2959523a306f85c69aa5a7a5b3de5", null ],
+    [ "Register", "dc/ddf/a26022.html#a9dee4c4568f36f82b82148cb847d50ca", null ]
 ];

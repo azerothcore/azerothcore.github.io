@@ -1,6 +1,6 @@
 var a19566 =
 [
-    [ "npc_storm_beacon_spawnAI", "d8/d11/a19570.html", "d8/d11/a19570" ],
-    [ "npc_storm_beacon_spawn", "d6/df4/a19566.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
-    [ "GetAI", "d6/df4/a19566.html#a780dd823962e259dbeda7089224aa23e", null ]
+    [ "boss_flame_leviathan_overload_deviceAI", "d8/d11/a19570.html", "d8/d11/a19570" ],
+    [ "boss_flame_leviathan_overload_device", "d6/df4/a19566.html#ad00f601170c1af833aadb17eab5d19a8", null ],
+    [ "GetAI", "d6/df4/a19566.html#a73988d2b1cfe61d0356ec1f317d90162", null ]
 ];

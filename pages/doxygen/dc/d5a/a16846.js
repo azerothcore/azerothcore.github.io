@@ -1,7 +1,6 @@
 var a16846 =
 [
-    [ "HandleScriptEffect", "dc/d5a/a16846.html#a6469efa0e1fabaf1cb366f119a1158c1", null ],
-    [ "PrepareSpellScript", "dc/d5a/a16846.html#aac410690d906867216b40a49d8f15318", null ],
-    [ "Register", "dc/d5a/a16846.html#ae8c7acabe93fc33d13f0b8848415eabf", null ],
-    [ "Validate", "dc/d5a/a16846.html#a88c3961d5757dd0c75be4acc7de6e45b", null ]
+    [ "boss_drakkari_colossusAI", "da/d72/a16850.html", "da/d72/a16850" ],
+    [ "boss_drakkari_colossus", "dc/d5a/a16846.html#abe1bf28b9147b72c81e5c5efcdeeaf84", null ],
+    [ "GetAI", "dc/d5a/a16846.html#a75c6c9c56fe11342dd8aece031059e77", null ]
 ];

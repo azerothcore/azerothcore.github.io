@@ -1,6 +1,7 @@
 var a15890 =
 [
-    [ "FilterTargets", "d8/dad/a15890.html#a40c4d2b624fe87e21263d1b137994cc3", null ],
-    [ "PrepareSpellScript", "d8/dad/a15890.html#a697a52cbc50eafd2b0377621afb01557", null ],
-    [ "Register", "d8/dad/a15890.html#a3d523f92cb8123f30cb068cbac39a9c3", null ]
+    [ "HandleDummy", "d8/dad/a15890.html#a687cff5dcfcd7d9253182eb604d7a780", null ],
+    [ "PrepareSpellScript", "d8/dad/a15890.html#ab8544e2c9e3bea229abd270c108bfa14", null ],
+    [ "Register", "d8/dad/a15890.html#a144224b42aabc0402b729dcc808d779d", null ],
+    [ "Validate", "d8/dad/a15890.html#a985e843e856a7322bccf8544c45df48c", null ]
 ];

@@ -1,7 +1,7 @@
 var a27294 =
 [
-    [ "npc_crashin_thrashin_robot", "d1/d8c/a27294.html#ad21336d212498b1c9ef5d46979d147ab", null ],
-    [ "IsSummonedBy", "d1/d8c/a27294.html#a0652cd455791461f613ab4ebf77d2c3c", null ],
-    [ "UpdateAI", "d1/d8c/a27294.html#a1d21cd2075f3aeba2c7f1e735a33dfec", null ],
-    [ "_scheduler", "d1/d8c/a27294.html#a55778501d154d0a9e77f76054e926f85", null ]
+    [ "npc_wormholeAI", "d1/d8c/a27294.html#a75c28ce9bcbb5ef6fb4213d000d5596a", null ],
+    [ "GetData", "d1/d8c/a27294.html#ad4c9f2265f126c7f2b5538bab6b75cb3", null ],
+    [ "InitializeAI", "d1/d8c/a27294.html#aa0a903014ec7243036604ffcc67e0a36", null ],
+    [ "_showUnderground", "d1/d8c/a27294.html#a6a2fbf623b8fc55cfd48a12e2c515134", null ]
 ];

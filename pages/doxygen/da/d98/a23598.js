@@ -1,6 +1,7 @@
 var a23598 =
 [
-    [ "npc_deaths_fel_cannonAI", "da/d98/a23598.html#a29d298bd85c78e2fbf0a4019aa7fbce7", null ],
-    [ "Reset", "da/d98/a23598.html#a4096d75a98dc8a1c95920710fb48d6ff", null ],
-    [ "UpdateAI", "da/d98/a23598.html#a942a8b1153b4ae6fde3b474cc909daad", null ]
+    [ "boss_gatewatcher_iron_hand", "da/d98/a23598.html#aef70e713007af38b510f0a3b8c082b24", null ],
+    [ "JustDied", "da/d98/a23598.html#a36b10cd02b35b6e106687b08bc80bfa6", null ],
+    [ "JustEngagedWith", "da/d98/a23598.html#aa6a9f456d158e4c0332816c7e65ec155", null ],
+    [ "KilledUnit", "da/d98/a23598.html#a1973142412b4094dbd9fa51600741148", null ]
 ];

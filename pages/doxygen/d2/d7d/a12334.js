@@ -1,6 +1,6 @@
 var a12334 =
 [
-    [ "HandleApply", "d2/d7d/a12334.html#ac9f6f1927c9f66682892c32d4a431cc4", null ],
-    [ "PrepareAuraScript", "d2/d7d/a12334.html#ae908ad87781553cc3bed05ea510a4447", null ],
-    [ "Register", "d2/d7d/a12334.html#a391dff720ed9d2d48aa69e48e69ba8df", null ]
+    [ "HandleTriggerSpell", "d2/d7d/a12334.html#a5f30f2af73eae022b9596939b2f88c0b", null ],
+    [ "PrepareSpellScript", "d2/d7d/a12334.html#a4fa2709a456e9e75f5c11b7f2e04912b", null ],
+    [ "Register", "d2/d7d/a12334.html#a7e9c140aecea892ee6971bc97d385640", null ]
 ];

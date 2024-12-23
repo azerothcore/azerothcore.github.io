@@ -1,6 +1,6 @@
 var a19458 =
 [
-    [ "npc_auriaya_sanctum_sentryAI", "d7/d58/a19462.html", "d7/d58/a19462" ],
-    [ "npc_auriaya_sanctum_sentry", "dc/d3f/a19458.html#aa275374ba3a19a2e6a8768d4f01752b2", null ],
-    [ "GetAI", "dc/d3f/a19458.html#a6a8843d3f24378a2fd334e773618ab72", null ]
+    [ "CastRunesEvent", "dc/d3f/a19458.html#aa3c5912362a4ce8a5b463da626f277b0", null ],
+    [ "Execute", "dc/d3f/a19458.html#ad86f17817c8a5accb1cc90e0e5d362f3", null ],
+    [ "_owner", "dc/d3f/a19458.html#a308c679c6e427e89734b5f506ad9d0d6", null ]
 ];

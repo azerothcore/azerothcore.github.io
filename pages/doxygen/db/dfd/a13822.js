@@ -1,10 +1,10 @@
 var a13822 =
 [
-    [ "npc_brewfest_super_brew_trigger", "db/dfd/a13822.html#a3d2189978683150b1c431fa0fd637358", null ],
-    [ "AttackStart", "db/dfd/a13822.html#a9ca158a2317a599cd4af64dad6ef04cc", null ],
-    [ "JustEngagedWith", "db/dfd/a13822.html#a61be52cb8ba0cc10285820ad5324816e", null ],
-    [ "MoveInLineOfSight", "db/dfd/a13822.html#aedd26ea4a274df9eb27f9f4a22670f1e", null ],
-    [ "Reset", "db/dfd/a13822.html#a5abf05543247a4f1209fe2a5bebb5d64", null ],
-    [ "UpdateAI", "db/dfd/a13822.html#a46db84e1eab29e7f4bf99d377962ad12", null ],
-    [ "timer", "db/dfd/a13822.html#a2ebb06175e3142cca156e57e8386fe02", null ]
+    [ "npc_zealot_zath", "db/dfd/a13822.html#a845840d0a45dd6c4b6368ee4ecf6917b", null ],
+    [ "JustDied", "db/dfd/a13822.html#ae56e2e89a6ba623200e9ee36977cee13", null ],
+    [ "JustEngagedWith", "db/dfd/a13822.html#a25e059f40de51d880f4ec209ff4dd924", null ],
+    [ "Reset", "db/dfd/a13822.html#abc4e40afd644f2c89444f3fe475817c0", null ],
+    [ "UpdateAI", "db/dfd/a13822.html#a467ce2437ec112b42f864ef412c0c976", null ],
+    [ "_scheduler", "db/dfd/a13822.html#a146679c4eb3eec444ff1dcd9a780110a", null ],
+    [ "instance", "db/dfd/a13822.html#a66dfe3182b45e984b4d81d40051e5ecc", null ]
 ];

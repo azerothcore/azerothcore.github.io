@@ -1,6 +1,6 @@
 var a19218 =
 [
-    [ "boss_sjonnirAI", "df/d38/a19222.html", "df/d38/a19222" ],
-    [ "boss_sjonnir", "d3/db9/a19218.html#a8bb9b10778a2dedcde3d4ced44bc13f1", null ],
-    [ "GetAI", "d3/db9/a19218.html#a0bb79667d9d80f0c49e30fa0547c6062", null ]
+    [ "boss_volkhanAI", "df/d38/a19222.html", "df/d38/a19222" ],
+    [ "boss_volkhan", "d3/db9/a19218.html#a9dcb6026fbf3116df9abf5acaf1bfcc2", null ],
+    [ "GetAI", "d3/db9/a19218.html#aa0f76b387f9f74e0eb6dedd1b44ce34a", null ]
 ];

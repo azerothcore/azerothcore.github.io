@@ -1,7 +1,7 @@
 var a10522 =
 [
-    [ "RandomRollClient", "d5/dea/a10522.html#a6d2edee5a6dbafd5b6194b60eeb0aafb", null ],
-    [ "Read", "d5/dea/a10522.html#ab682763f35a40f776b1742927df0a336", null ],
-    [ "Max", "d5/dea/a10522.html#a45a1e140ed402f54deb4c0798360a43a", null ],
-    [ "Min", "d5/dea/a10522.html#a3cd07e7891b43b453b56013d76f51f71", null ]
+    [ "GuildBankLogQueryResults", "d5/dea/a10522.html#a878f9545b3141a327de85771de4f1779", null ],
+    [ "Write", "d5/dea/a10522.html#aafdb5114c7d0e8a2d18a848f3c94aa38", null ],
+    [ "Entry", "d5/dea/a10522.html#a5f3704df5311f06833c3243201d35930", null ],
+    [ "Tab", "d5/dea/a10522.html#a214db612bb08e557dd41d3962c827dca", null ]
 ];

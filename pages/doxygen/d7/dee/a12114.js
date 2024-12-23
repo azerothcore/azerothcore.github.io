@@ -1,6 +1,7 @@
 var a12114 =
 [
-    [ "boss_golemaggAI", "d4/dff/a12118.html", "d4/dff/a12118" ],
-    [ "boss_golemagg", "d7/dee/a12114.html#a66720a143f8987dfa5d6e2acb7cd73cd", null ],
-    [ "GetAI", "d7/dee/a12114.html#a6899f30975e0984306feabe47bbc8317", null ]
+    [ "HandleEffectScriptEffect", "d7/dee/a12114.html#a8157c4b213b3b4e260222976e283e2ae", null ],
+    [ "PrepareSpellScript", "d7/dee/a12114.html#aa8a4fdd0dc5c06a836ac05cec0dccd75", null ],
+    [ "Register", "d7/dee/a12114.html#aeda056b568b4956ba35b32a3f20c053e", null ],
+    [ "Validate", "d7/dee/a12114.html#a29a7f51f01e1ccf71dcc53ad68f032ae", null ]
 ];

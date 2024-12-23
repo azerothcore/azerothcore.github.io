@@ -1,6 +1,8 @@
 var a18246 =
 [
-    [ "npc_crok_scourgebaneAI", "dd/d8c/a18250.html", "dd/d8c/a18250" ],
-    [ "npc_crok_scourgebane", "d2/d14/a18246.html#a5f560e2c62aa618eadb5a11e2c9b90a3", null ],
-    [ "GetAI", "d2/d14/a18246.html#afa4fcbb9d7281fbee3f8bc0f318d2e6b", null ]
+    [ "FilterTargets", "d2/d14/a18246.html#aed8b741160cbf50dde84cf059c8b52cb", null ],
+    [ "HandleForceCast", "d2/d14/a18246.html#ae783cf255be823bf7c9125f288479e97", null ],
+    [ "Load", "d2/d14/a18246.html#ac8f92e9284abc56d55ecf3aa73d350f8", null ],
+    [ "PrepareSpellScript", "d2/d14/a18246.html#a68074978fe2c1b137c6ddfd7b9082bfc", null ],
+    [ "Register", "d2/d14/a18246.html#a454a8909be4bb85f255ea696041ea447", null ]
 ];

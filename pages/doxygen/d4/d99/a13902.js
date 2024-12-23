@@ -1,7 +1,7 @@
 var a13902 =
 [
-    [ "HandleScriptEffect", "d4/d99/a13902.html#ae758c224878aebdde0124b5d4ec902a5", null ],
-    [ "PrepareSpellScript", "d4/d99/a13902.html#ac3755ef09a905d90ce7df328b83d51aa", null ],
-    [ "Register", "d4/d99/a13902.html#a051d0fe383e5675e39e4ac8ed7a6e329", null ],
-    [ "Validate", "d4/d99/a13902.html#a56f71954e122f651c6e2ec68453e16cc", null ]
+    [ "GetEmptyEntry", "d4/d99/a13902.html#a46dfe7b2f8598d24f17868266d1571c6", null ],
+    [ "HandleAfterHit", "d4/d99/a13902.html#a4f8ab6e42ddf2188ccca2640363b9925", null ],
+    [ "PrepareSpellScript", "d4/d99/a13902.html#a35f0ab4b36df3d9ec1191cbd9ba88c9e", null ],
+    [ "Register", "d4/d99/a13902.html#a25e1858e1f81891443f4b7de50a5d495", null ]
 ];

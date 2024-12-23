@@ -1,6 +1,6 @@
 var a14622 =
 [
-    [ "HandleDummyHitTarget", "d5/def/a14622.html#ae773d73496578170061baedd8f7daec1", null ],
-    [ "PrepareSpellScript", "d5/def/a14622.html#a822fe6d19c2ee0d02dc5561b4f910cf9", null ],
-    [ "Register", "d5/def/a14622.html#a651cc94581130224ba23e864f8ad7060", null ]
+    [ "npc_idol_room_spawnerAI", "d2/d67/a14626.html", "d2/d67/a14626" ],
+    [ "npc_idol_room_spawner", "d5/def/a14622.html#ac51fed89c27ebf6ae3cf65ca8909eab1", null ],
+    [ "GetAI", "d5/def/a14622.html#a3017caa645e98a7647ec42a43c025624", null ]
 ];

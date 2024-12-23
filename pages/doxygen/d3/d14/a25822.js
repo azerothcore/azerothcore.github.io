@@ -1,7 +1,10 @@
 var a25822 =
 [
-    [ "HandleScriptEffect", "d3/d14/a25822.html#ad3497a9c986f65978d4b2553b0c9958f", null ],
-    [ "Load", "d3/d14/a25822.html#a33d46e5ebd418ea0242d958345cb44d2", null ],
-    [ "PrepareSpellScript", "d3/d14/a25822.html#ade09cd376d00df8b5e709026e353f409", null ],
-    [ "Register", "d3/d14/a25822.html#ad04bf0d88a3e1fde3c11b91d5ef1c7ae", null ]
+    [ "spell_pal_judgement", "d3/d14/a25822.html#a497aed8c1d8c6a2af22e9e8daae96e14", null ],
+    [ "HandleScriptEffect", "d3/d14/a25822.html#add419a824dbebdc168d2b6dc49d07913", null ],
+    [ "PrepareSpellScript", "d3/d14/a25822.html#a2cffed69c16a1a6189048ed52af35152", null ],
+    [ "Register", "d3/d14/a25822.html#ad8e65beb41a1bb41a2dd307f3b1da839", null ],
+    [ "SealApplication", "d3/d14/a25822.html#a0bb55f122d560c70f416e448d03d2184", null ],
+    [ "Validate", "d3/d14/a25822.html#a3971c195a279338253771675131b4802", null ],
+    [ "_spellId", "d3/d14/a25822.html#ad49ea02800078c672747f4fdbbab1d20", null ]
 ];

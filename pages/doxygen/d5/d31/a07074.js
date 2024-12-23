@@ -1,7 +1,9 @@
 var a07074 =
 [
-    [ "BattlegroundObjectInfo", "d5/d31/a07074.html#a848f2b15f47ceeb91c40e916d5659486", null ],
-    [ "object", "d5/d31/a07074.html#a6722b83d6969c1a34b4846f19865075a", null ],
-    [ "spellid", "d5/d31/a07074.html#ae0233a1078bc735e40855ea7608f5f11", null ],
-    [ "timer", "d5/d31/a07074.html#a7eaf1fbe40f3a7918965da8d5ac81a50", null ]
+    [ "entryAlliance", "d5/d31/a07074.html#a0e5dba26d6d335a9d1e5f40e737acddd", null ],
+    [ "entryHorde", "d5/d31/a07074.html#a374fff4b069e89489395246f378b4900", null ],
+    [ "o", "d5/d31/a07074.html#af8a4ec46795bcdbc77c76302a4cfe639", null ],
+    [ "x", "d5/d31/a07074.html#ab557bbe497fc769b390cf0799b6aaed9", null ],
+    [ "y", "d5/d31/a07074.html#a44a8f3fd8d3cac7cfe61471d8b785ad4", null ],
+    [ "z", "d5/d31/a07074.html#adebb903a00687e17d9088f5da2c97f4a", null ]
 ];

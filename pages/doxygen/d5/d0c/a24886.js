@@ -1,6 +1,7 @@
 var a24886 =
 [
-    [ "PrepareSpellScript", "d5/d0c/a24886.html#abb178100d4e5fa4032118f86aa34127d", null ],
-    [ "Register", "d5/d0c/a24886.html#a50e902cc281b909259097a8bed5651f2", null ],
-    [ "RemoveVehicleAuras", "d5/d0c/a24886.html#a4ec803f3164d6e38ddf10f4a0ca392e0", null ]
+    [ "HandleStun", "d5/d0c/a24886.html#aec7b18c9fe4d03e6e61dd2e43c842a93", null ],
+    [ "PrepareAuraScript", "d5/d0c/a24886.html#a26bf4bfdbe5ccf890d75bc663f228639", null ],
+    [ "Register", "d5/d0c/a24886.html#a660a0e41ac5918cd365f4c47fea9c230", null ],
+    [ "Validate", "d5/d0c/a24886.html#a4e89cdbc719b32576f57dd6f7e5d3f2a", null ]
 ];

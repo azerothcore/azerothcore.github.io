@@ -1,13 +1,13 @@
 var a14022 =
 [
-    [ "npc_costumed_orphan_matron", "d0/dcb/a14022.html#a0b913090588613ac00ea928f6273d56f", null ],
-    [ "DoAction", "d0/dcb/a14022.html#a7a7739f89604ffb5afc6bab75118340e", null ],
-    [ "GetInitXYZ", "d0/dcb/a14022.html#a3c6d0e6cecd1c4ef85b3d77c45ef6533", null ],
-    [ "Reset", "d0/dcb/a14022.html#a962de50b13079f3337c4e41eb2d98b55", null ],
-    [ "sGossipHello", "d0/dcb/a14022.html#a1a9c58c087b8addf8e482375737d6c49", null ],
-    [ "sQuestAccept", "d0/dcb/a14022.html#adac5d514261a210a701442da13ba1587", null ],
-    [ "UpdateAI", "d0/dcb/a14022.html#a4679d807df8749265ba0453c5b7588f1", null ],
-    [ "allowQuest", "d0/dcb/a14022.html#a722f4bfd0fb8b2665ff2b79d3208bc90", null ],
-    [ "eventStarted", "d0/dcb/a14022.html#a5292ab4e45fe3a858b3a59ef4a79bb34", null ],
-    [ "horseGUID", "d0/dcb/a14022.html#a92cfd09cefd26933ae322f2cc2716927", null ]
+    [ "go_firework_show", "d0/dcb/a14022.html#a42123490a9752f2187023f3f3ae56333", null ],
+    [ "InitShow", "d0/dcb/a14022.html#a27dc501894beaeb88b2ff0d940c7d129", null ],
+    [ "SpawnNextFirework", "d0/dcb/a14022.html#a6e9ce552bf040f2acce49c2e3eb70bab", null ],
+    [ "StartShow", "d0/dcb/a14022.html#af637d1436655e44738b55040196533d3", null ],
+    [ "StopShow", "d0/dcb/a14022.html#ad84f3dbb4692d03933d972ec7be6287d", null ],
+    [ "UpdateAI", "d0/dcb/a14022.html#ad1bcb7a47652d62ed8633abdafc56881", null ],
+    [ "_curIdx", "d0/dcb/a14022.html#a92613337cf2473e585b98b92bdcbce92", null ],
+    [ "_scheduler", "d0/dcb/a14022.html#a6248d36087d8fae9cfa47f473613f886", null ],
+    [ "_show", "d0/dcb/a14022.html#a4392d7e2cffa2342b53092cbd9ccea3f", null ],
+    [ "_showRunning", "d0/dcb/a14022.html#ae7e870de692c61630d0fd2f44d487aa4", null ]
 ];

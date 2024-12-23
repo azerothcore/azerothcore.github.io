@@ -1,7 +1,7 @@
 var a23002 =
 [
-    [ "boss_hydromancer_thespia", "d7/d5b/a23002.html#a5747c2da9914dcf4118ee0fb37a3a3fd", null ],
-    [ "JustDied", "d7/d5b/a23002.html#ad0662daabd636bbf544a6791187d71fa", null ],
-    [ "JustEngagedWith", "d7/d5b/a23002.html#af230e57ec259e5c92c4034a674d1b6a5", null ],
-    [ "KilledUnit", "d7/d5b/a23002.html#ae1bb4819867ef5718cb5d9130d62fa20", null ]
+    [ "PeriodicTick", "d7/d5b/a23002.html#a789d2d4d2bc75e412abe80a33102fa06", null ],
+    [ "PrepareAuraScript", "d7/d5b/a23002.html#a49db8ade3bc3a3da9e043e8b9ad1759d", null ],
+    [ "Register", "d7/d5b/a23002.html#aec2d7f564107f5b294a5d5c3dd3f9b25", null ],
+    [ "Validate", "d7/d5b/a23002.html#a7c2309d3192b2a18d8035c8067849d6d", null ]
 ];

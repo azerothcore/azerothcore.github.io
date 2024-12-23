@@ -1,13 +1,7 @@
 var a05782 =
 [
-    [ "TransactionTask", "d4/d98/a05782.html#a13573f827891ad172847dc0e466b0b9e", null ],
-    [ "~TransactionTask", "d4/d98/a05782.html#a68bc982f025d40bbc3a7323cd8c96786", null ],
-    [ "CleanupOnFailure", "d4/d98/a05782.html#adc2f1534bce5a7ce198eeeb510fcb533", null ],
-    [ "Execute", "d4/d98/a05782.html#aa1c1df059d15fe2077ceea5cfb51ba22", null ],
-    [ "TryExecute", "d4/d98/a05782.html#a28c9ca1d9d3fdc6a722dcec68e46a38f", null ],
-    [ "DatabaseWorker", "d4/d98/a05782.html#ac8984f2167ec797d478f3a771d1c1c3f", null ],
-    [ "DatabaseWorkerPool", "d4/d98/a05782.html#a5d89109a06fa4fca3057b99bbfa84e58", null ],
-    [ "TransactionCallback", "d4/d98/a05782.html#ac3345f3314b133d53268f53e222cdc74", null ],
-    [ "_deadlockLock", "d4/d98/a05782.html#a84b48dbb670dd884e9b44ea53c8b0008", null ],
-    [ "m_trans", "d4/d98/a05782.html#a242f0cb47bc6b456b6bea9aa372df4b6", null ]
+    [ "TransactionWithResultTask", "d4/d98/a05782.html#a98dfb255e7be9d5cf9ed9215b0d5e0e4", null ],
+    [ "Execute", "d4/d98/a05782.html#a2a05fb2aa69032797f2065cb46fe7dc4", null ],
+    [ "GetFuture", "d4/d98/a05782.html#a5bc976207b1d695c8e8c052b0eacc7a6", null ],
+    [ "m_result", "d4/d98/a05782.html#aaf4d587b83977e65089bdbf92fa09ae1", null ]
 ];

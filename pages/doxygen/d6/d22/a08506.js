@@ -1,19 +1,13 @@
 var a08506 =
 [
-    [ "absorb", "d6/d22/a08506.html#a7298afcc76b856c5427f5e123030a797", null ],
-    [ "attacker", "d6/d22/a08506.html#aebe14d91f54da0b25a07ff3d59df6ec2", null ],
-    [ "attackType", "d6/d22/a08506.html#afd18e43bd78a9144c02ba0493921c506", null ],
-    [ "blocked_amount", "d6/d22/a08506.html#a0ce1e1ff406264c7283979fe4fc70148", null ],
-    [ "cleanDamage", "d6/d22/a08506.html#a452ac9be1f6e9c10616a62a128573358", null ],
-    [ "damage", "d6/d22/a08506.html#ab95e1e4746b966f1301d997fdac99c94", null ],
-    [ "damages", "d6/d22/a08506.html#a6c0592aa91373a8ceb1421389a064771", null ],
-    [ "damageSchoolMask", "d6/d22/a08506.html#a01f1cc6661ef5f4e7d657ba59d06108f", null ],
-    [ "HitInfo", "d6/d22/a08506.html#ae42a8a3750633d94e661ac9d5a9aa8df", null ],
-    [ "hitOutCome", "d6/d22/a08506.html#a114dcabcb8bff10c2452cb27e75da115", null ],
-    [ "procAttacker", "d6/d22/a08506.html#a21bed657c7e3d2338f30fb5237884d5f", null ],
-    [ "procEx", "d6/d22/a08506.html#ad629b9aad4d88247ef4dfaadd79dc1c8", null ],
-    [ "procVictim", "d6/d22/a08506.html#a236b06649e715fab9dbddb074ef2f075", null ],
-    [ "resist", "d6/d22/a08506.html#ab57d348b500203649bf532405cd9ceec", null ],
-    [ "target", "d6/d22/a08506.html#af2976fa1245b3e3177dcbac464345829", null ],
-    [ "TargetState", "d6/d22/a08506.html#a73ef30ca87444da617b8c2e05b70e9fc", null ]
+    [ "PassengerSet", "d6/d22/a08506.html#aa6421ebd51e84c819604e18e93729d27", null ],
+    [ "Transport", "d6/d22/a08506.html#a36928c178aa490c02aa25b4b12e2bf63", null ],
+    [ "AddPassenger", "d6/d22/a08506.html#ac5c328f816b0358a68265322219357c1", null ],
+    [ "CalculatePassengerOffset", "d6/d22/a08506.html#a327d37eef797c4197b8bba503bd8a3f8", null ],
+    [ "CalculatePassengerPosition", "d6/d22/a08506.html#ae4e716194ce5e9c466a8fe5c53ee0980", null ],
+    [ "GetPassengers", "d6/d22/a08506.html#a3f70c977ba2450d4244e54e4260f6ea1", null ],
+    [ "GetPathProgress", "d6/d22/a08506.html#a4ecab9f8617918aea3a26cc0feb9c021", null ],
+    [ "RemovePassenger", "d6/d22/a08506.html#a1d70745a16a1cbf3307a25ff4a53c75d", null ],
+    [ "SetPathProgress", "d6/d22/a08506.html#acb68e75a78fa196a4b514abd24c0e322", null ],
+    [ "_passengers", "d6/d22/a08506.html#adc2089495aadaab23414ecae3b2df180", null ]
 ];

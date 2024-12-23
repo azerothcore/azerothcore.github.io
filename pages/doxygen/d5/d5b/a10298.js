@@ -1,5 +1,5 @@
 var a10298 =
 [
-    [ "GuildGetRoster", "d5/d5b/a10298.html#a9beccc6ee2416633c57d2da31fdc021a", null ],
-    [ "Read", "d5/d5b/a10298.html#af795ad992ec1b55d741227bd2d4a62d1", null ]
+    [ "PlayerLogout", "d5/d5b/a10298.html#afacee5b02c2adc4bec608b6f280fbcf1", null ],
+    [ "Read", "d5/d5b/a10298.html#accbe1ced6a10ea2fa699df5e74575795", null ]
 ];

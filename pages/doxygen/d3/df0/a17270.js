@@ -1,9 +1,6 @@
 var a17270 =
 [
-    [ "CheckAreaTarget", "d3/df0/a17270.html#afd45699e853a5b57f3e9ae7bc4165bfb", null ],
-    [ "HandleApply", "d3/df0/a17270.html#a9ce86d32957af07313af379b4176d0b3", null ],
-    [ "HandleRemove", "d3/df0/a17270.html#a04f449a062b20e6f9ebc35857a051ed3", null ],
-    [ "Load", "d3/df0/a17270.html#aa10821981f3e80262850e5c46449d5d0", null ],
-    [ "PrepareAuraScript", "d3/df0/a17270.html#ac98e9c47a7cb177c0624cda37d1836e2", null ],
-    [ "Register", "d3/df0/a17270.html#ab5b7bc1cc347ea368a9f2753b4c020a7", null ]
+    [ "npc_igb_ship_crewAI", "d3/df0/a17270.html#a3ca741b305e3235b0521f094d7abe732", null ],
+    [ "CanAIAttack", "d3/df0/a17270.html#a2c834dc151493957fc116865699ae7f5", null ],
+    [ "_instance", "d3/df0/a17270.html#a288bd5f8b4eaed7b1a960ed738330ae4", null ]
 ];

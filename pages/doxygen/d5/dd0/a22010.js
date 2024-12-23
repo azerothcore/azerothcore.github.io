@@ -1,6 +1,6 @@
 var a22010 =
 [
-    [ "HandleSummon", "d5/dd0/a22010.html#ac2f7b0d0772d72d69d58bb4b66616e21", null ],
-    [ "PrepareSpellScript", "d5/dd0/a22010.html#ae7f071e9d9a82892be31090385679c9f", null ],
-    [ "Register", "d5/dd0/a22010.html#a516ab0801cc93f15da434a0f0952c7e4", null ]
+    [ "HandleScriptEffect", "d5/dd0/a22010.html#a66849cb61f056e861d8887dc98f6ccbf", null ],
+    [ "PrepareSpellScript", "d5/dd0/a22010.html#afa4ad1b205bf963b4230881738baf938", null ],
+    [ "Register", "d5/dd0/a22010.html#a0d8925effced854471e2fbec9c631b91", null ]
 ];

@@ -1,5 +1,7 @@
 var a13198 =
 [
-    [ "at_twilight_grove", "db/ddf/a13198.html#a2ef32dbac0a35aa7dc6ebbafe926125f", null ],
-    [ "OnTrigger", "db/ddf/a13198.html#a8ee7239b8429df38a237926a7252322b", null ]
+    [ "HandleAfterCast", "db/ddf/a13198.html#a251ddadd9d26039da542c402e4ee254f", null ],
+    [ "PrepareSpellScript", "db/ddf/a13198.html#a91114aeb4f917ec5138a0c7b20688174", null ],
+    [ "Register", "db/ddf/a13198.html#a42960206e2444d8e6fb8fdc4d80a534b", null ],
+    [ "Validate", "db/ddf/a13198.html#ad4012436a41537fc5ae854c0c48f09b1", null ]
 ];

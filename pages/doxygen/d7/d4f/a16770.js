@@ -1,6 +1,7 @@
 var a16770 =
 [
-    [ "HandleEffectPeriodic", "d7/d4f/a16770.html#a8a165d3931353fefc2e6a7c7f309150e", null ],
-    [ "PrepareAuraScript", "d7/d4f/a16770.html#a2de3b6d4e32832ec7ce4548df23d3d5c", null ],
-    [ "Register", "d7/d4f/a16770.html#a3593ab75583bb5b9b31b29ba2c3cdd76", null ]
+    [ "npc_pos_icicle_triggerAI", "d7/d4f/a16770.html#a28477c5f88b5ec77dc3e021ec01401ce", null ],
+    [ "UpdateAI", "d7/d4f/a16770.html#a32d9b6bd2f0b994adb33e2bd99dd34ce", null ],
+    [ "pInstance", "d7/d4f/a16770.html#ad4ed0e2380c62cc6dd7d309edfd34ac1", null ],
+    [ "timer", "d7/d4f/a16770.html#a91277c41ddebffed7e9dac7098cd78bd", null ]
 ];

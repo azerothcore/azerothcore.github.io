@@ -1,9 +1,7 @@
 var a13238 =
 [
-    [ "npc_partygoer", "d8/d3b/a13238.html#af053caedfd1fa8173b875f521d279418", null ],
-    [ "Initialize", "d8/d3b/a13238.html#a9012ff95e5cead3c02f9eeb30f29a9f6", null ],
-    [ "Reset", "d8/d3b/a13238.html#ad1936099ec5696a2a593e5041b0360c6", null ],
-    [ "UpdateAI", "d8/d3b/a13238.html#a423df8a3de7d23221ea4d62a0c65fefc", null ],
-    [ "_events", "d8/d3b/a13238.html#ad5095ee005ecb89ca54b0663d41e20ac", null ],
-    [ "_facing", "d8/d3b/a13238.html#a9e934091894987ec091b03090bf733e5", null ]
+    [ "HandleScriptEffect", "d8/d3b/a13238.html#aa537704c2066df4f5b4c60a775026a83", null ],
+    [ "PrepareSpellScript", "d8/d3b/a13238.html#ac500902c22102ebfc6dcf6f78f0dd8c1", null ],
+    [ "Register", "d8/d3b/a13238.html#a1d9cfdc65bd5ae76376e709d0ac891c0", null ],
+    [ "Validate", "d8/d3b/a13238.html#a9ef5a491b5a06c31cdb0249dc086e32f", null ]
 ];

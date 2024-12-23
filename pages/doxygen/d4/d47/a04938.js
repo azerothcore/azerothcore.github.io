@@ -1,11 +1,11 @@
 var a04938 =
 [
-    [ "material", "d4/d47/a04938.html#a29addcb613bc63a100633e612d1dc2d2", null ],
-    [ "pos_x", "d4/d47/a04938.html#a02e9d8789336d77e34bffa19adbab394", null ],
-    [ "pos_y", "d4/d47/a04938.html#ac3162ce321a1f21e4e6fe35041e49a6a", null ],
-    [ "pos_z", "d4/d47/a04938.html#a6e2a2d5d9151d5c6d70fd0d47e6c18e3", null ],
-    [ "xtiles", "d4/d47/a04938.html#a94789843c68d705184e6332ac46bd69d", null ],
-    [ "xverts", "d4/d47/a04938.html#a0548c3fdb216c115a7d3843e4fbc6de3", null ],
-    [ "ytiles", "d4/d47/a04938.html#ac50224cdce231460c78c3e0f077b555d", null ],
-    [ "yverts", "d4/d47/a04938.html#aa9ecb62b53af527b3bd855b8e93ba604", null ]
+    [ "ModelPosition", "d4/d47/a04938.html#ac611d964ae36e4ccd5a3bf385457a0ac", null ],
+    [ "init", "d4/d47/a04938.html#a5b7df306c28a7985fd3ab17d48350a27", null ],
+    [ "moveToBasePos", "d4/d47/a04938.html#a2fe1b48319a056f110ef700877257731", null ],
+    [ "transform", "d4/d47/a04938.html#add4c2efec70be75d8ffcd1009b6c2699", null ],
+    [ "iDir", "d4/d47/a04938.html#a24ba62281166e60036ac8a57b26c6abd", null ],
+    [ "iPos", "d4/d47/a04938.html#a36a3bd930273e0313e3b09c1289e9317", null ],
+    [ "iRotation", "d4/d47/a04938.html#ae53c5b044021f5ef04ecb5d8898fd8b3", null ],
+    [ "iScale", "d4/d47/a04938.html#a81bb029dce2aadec2f147a1329ee285e", null ]
 ];

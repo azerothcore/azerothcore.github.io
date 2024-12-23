@@ -1,6 +1,6 @@
 var a13478 =
 [
-    [ "cooldown", "d8/d7d/a13478.html#aaf4772a0ac55280355e61d8c50198b3f", null ],
-    [ "spell", "d8/d7d/a13478.html#a00ee3238030686e1cc66562f7cefb27a", null ],
-    [ "target", "d8/d7d/a13478.html#a16e54dbd059baac1b6e7229621339d83", null ]
+    [ "npc_the_scourge_cauldronAI", "d2/d6f/a13482.html", "d2/d6f/a13482" ],
+    [ "npc_the_scourge_cauldron", "d8/d7d/a13478.html#a7ff5315293c4917dec3b0fe0aade2016", null ],
+    [ "GetAI", "d8/d7d/a13478.html#ae4e35f1cac0c0f35333ba6113d3c1ad0", null ]
 ];

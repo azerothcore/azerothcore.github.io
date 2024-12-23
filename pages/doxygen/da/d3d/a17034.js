@@ -1,7 +1,6 @@
 var a17034 =
 [
-    [ "OnProc", "da/d3d/a17034.html#a5b6e96abb900da33657cdbbd137138e3", null ],
-    [ "PrepareAuraScript", "da/d3d/a17034.html#a5502476536a923e77af67c4bbcf005e3", null ],
-    [ "Register", "da/d3d/a17034.html#aca08edf219504156d6157c95702bb815", null ],
-    [ "Validate", "da/d3d/a17034.html#a52b1231f37e8b3d810614365659a98b6", null ]
+    [ "ChangeSummonPos", "da/d3d/a17034.html#a2c3d69419762c7f78688a22017a8c535", null ],
+    [ "PrepareSpellScript", "da/d3d/a17034.html#a97c48254a0d7a0bd4bcf40f614bc5373", null ],
+    [ "Register", "da/d3d/a17034.html#a9c1aad0131ebe9635c9fdbb3d71c9cdd", null ]
 ];

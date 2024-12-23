@@ -1,6 +1,6 @@
 var a16474 =
 [
-    [ "boss_marwynAI", "d9/db4/a16478.html", "d9/db4/a16478" ],
-    [ "boss_marwyn", "dc/d7b/a16474.html#a4be337e1a6b4ab6d48aa1380f3956ad4", null ],
-    [ "GetAI", "dc/d7b/a16474.html#af1c83878d2121163994bc327ae8e04f7", null ]
+    [ "FilterTargets", "dc/d7b/a16474.html#a36879a2920f43562bb0ff89c76d758e4", null ],
+    [ "PrepareSpellScript", "dc/d7b/a16474.html#afeb95c5fe970ebc147d509981b026e98", null ],
+    [ "Register", "dc/d7b/a16474.html#a800bd9ffab41ccf860844a129ec3b03c", null ]
 ];

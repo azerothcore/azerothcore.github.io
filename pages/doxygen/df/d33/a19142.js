@@ -1,6 +1,6 @@
 var a19142 =
 [
-    [ "npc_spark_of_ionarAI", "df/db6/a19146.html", "df/db6/a19146" ],
-    [ "npc_spark_of_ionar", "df/d33/a19142.html#a63578a0d77331849b7a48272870af04d", null ],
-    [ "GetAI", "df/d33/a19142.html#aa1e524327b76ddc11a32e7a094e39dd1", null ]
+    [ "HandleDamageCalc", "df/d33/a19142.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
+    [ "PrepareSpellScript", "df/d33/a19142.html#a754da297cd5801616e24bf2d802d0b38", null ],
+    [ "Register", "df/d33/a19142.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
 ];

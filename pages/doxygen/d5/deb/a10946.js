@@ -1,14 +1,7 @@
 var a10946 =
 [
-    [ "IsFitToRequirements", "d5/deb/a10946.html#af1585273701356a591bf9d9483e996a3", null ],
-    [ "areaId", "d5/deb/a10946.html#af7e6f7b027388447a1f99e759975ca09", null ],
-    [ "auraSpell", "d5/deb/a10946.html#adaf2f6f7c56701fe42a2674aca74fba0", null ],
-    [ "autocast", "d5/deb/a10946.html#a38b42b82e4a588e102eb393cc907cd27", null ],
-    [ "gender", "d5/deb/a10946.html#af4314cba9c91fd1e2c09905c17c67d22", null ],
-    [ "questEnd", "d5/deb/a10946.html#a075cc2bc4d8c9663b2bdb2cf8ba77f5f", null ],
-    [ "questEndStatus", "d5/deb/a10946.html#ac6c7ed326628642da138bb3835db9a1d", null ],
-    [ "questStart", "d5/deb/a10946.html#afc99b14a3724fef7c5dd70e976a479a8", null ],
-    [ "questStartStatus", "d5/deb/a10946.html#a7f4466dfd9ab56850a36d0d09ff84798", null ],
-    [ "raceMask", "d5/deb/a10946.html#a402373ff841bd2aa47b4b36a581624cc", null ],
-    [ "spellId", "d5/deb/a10946.html#a8a299d901e2c13cdc3c00d6cf0a856d3", null ]
+    [ "SpellImmune", "d5/deb/a10946.html#a70ebcde656db6c4d7c21fb03af44978a", null ],
+    [ "blockType", "d5/deb/a10946.html#a13a353d02a7330820df170eb46e7a26d", null ],
+    [ "spellId", "d5/deb/a10946.html#a6aeb1bebf2f079424ebfa5192c568adc", null ],
+    [ "type", "d5/deb/a10946.html#ae1a414f35b2cce61cd4f5640c761f7ea", null ]
 ];

@@ -1,7 +1,7 @@
 var a10982 =
 [
-    [ "EffectAuraNameCheck", "da/db8/a10982.html#a4b10ec0fcb3ffd841cf790574875017d", null ],
-    [ "Check", "da/db8/a10982.html#a7fff405a99c65d3e846463ca29a8ddfd", null ],
-    [ "ToString", "da/db8/a10982.html#a602fc1ddafe663e2e5ddceaeaec8b118", null ],
-    [ "effAurName", "da/db8/a10982.html#abcf90ed5a832b5fe5ce3913a812da05d", null ]
+    [ "ap_bonus", "da/db8/a10982.html#a98410b8bb89434cd7e1747462f8039dc", null ],
+    [ "ap_dot_bonus", "da/db8/a10982.html#a09caeec47b138d9eff3539795416a09a", null ],
+    [ "direct_damage", "da/db8/a10982.html#abab1af227a6c8e592b8a9bd15589535d", null ],
+    [ "dot_damage", "da/db8/a10982.html#a92491d8d1e61612d88c7c830d7912be5", null ]
 ];

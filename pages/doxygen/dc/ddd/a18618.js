@@ -1,7 +1,7 @@
 var a18618 =
 [
-    [ "OnApply", "dc/ddd/a18618.html#a72a01dea703436b2a220a9976da60fa6", null ],
-    [ "PrepareAuraScript", "dc/ddd/a18618.html#adb17425258d4fb2c0c464236e15f32d7", null ],
-    [ "Register", "dc/ddd/a18618.html#af026c126029c68ed8b7c6c1886720e4c", null ],
-    [ "Validate", "dc/ddd/a18618.html#a5674396828adf4e80102ed2277f1e08a", null ]
+    [ "npc_ioc_gunship_captainAI", "dc/ddd/a18618.html#a23477a6f29b13308067c1f42ced1e9fe", null ],
+    [ "DoAction", "dc/ddd/a18618.html#a89fb251869d6bfbefbca1e2d3178178a", null ],
+    [ "UpdateAI", "dc/ddd/a18618.html#a222b304633143bba47d3edde67ea093b", null ],
+    [ "_events", "dc/ddd/a18618.html#aa8b7c262641a5f1f86c5ae39f8b62dca", null ]
 ];

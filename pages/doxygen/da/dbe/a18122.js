@@ -1,6 +1,5 @@
 var a18122 =
 [
-    [ "npc_valithria_portalAI", "d5/dff/a18126.html", "d5/dff/a18126" ],
-    [ "npc_valithria_portal", "da/dbe/a18122.html#a6014d7a57dfe5d21f63c03b3efcbdfc8", null ],
-    [ "GetAI", "da/dbe/a18122.html#a9770ad0bc3732f2271876bbc84885dc0", null ]
+    [ "achievement_neck_deep_in_vile", "da/dbe/a18122.html#af0e54c236e7637d8c1a8cf7dbed5a195", null ],
+    [ "OnCheck", "da/dbe/a18122.html#a9861c008f302279a4ac5f4ddc14ca2d0", null ]
 ];

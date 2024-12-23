@@ -1,6 +1,5 @@
 var a19854 =
 [
-    [ "npc_ulduar_hodir_shamanAI", "db/d58/a19858.html", "db/d58/a19858" ],
-    [ "npc_ulduar_hodir_shaman", "d1/da2/a19854.html#ae73a416c72441ab531d8a5db88183d47", null ],
-    [ "GetAI", "d1/da2/a19854.html#ab06a67b72a3954c65792a478ac90672c", null ]
+    [ "go_ulduar_pure_saronite_deposit", "d1/da2/a19854.html#a39da51a78b9f27392ed7494e18e89b93", null ],
+    [ "OnGossipHello", "d1/da2/a19854.html#ab69c5b514e0b79ff7155e0080841d4a2", null ]
 ];

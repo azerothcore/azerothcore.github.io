@@ -1,10 +1,9 @@
 var a14522 =
 [
-    [ "CurrId", "da/d82/a14522.html#a126d1c0e7d475a07acd91de471cb7cab", null ],
-    [ "DestId", "da/d82/a14522.html#a7b12c520ee50ab29e5047a1c71b22729", null ],
-    [ "o", "da/d82/a14522.html#a94c284d63e66765c4d484c8edea8fdb8", null ],
-    [ "spellId", "da/d82/a14522.html#a7240ecd6f50a6db0e2be4eb4e55b3a48", null ],
-    [ "x", "da/d82/a14522.html#a41c7bdb057d984f552a41835651d84f5", null ],
-    [ "y", "da/d82/a14522.html#abe083129d7a4e514e97eeae7cff40af5", null ],
-    [ "z", "da/d82/a14522.html#ac49d886d09e2ebf8ccf8abd59a9649ec", null ]
+    [ "boss_chrono_lord_deja", "da/d82/a14522.html#a85f82d4bde99b7e1d05fba82177916e6", null ],
+    [ "JustDied", "da/d82/a14522.html#a68eb4941364f9fac121aa3d610d45f48", null ],
+    [ "JustEngagedWith", "da/d82/a14522.html#ab5324b2993f2fd1ec3290eb962ef6065", null ],
+    [ "KilledUnit", "da/d82/a14522.html#a02c279fb1cfccd38dc60ba7c610cf859", null ],
+    [ "MoveInLineOfSight", "da/d82/a14522.html#a535c0c157c60804188ad8c4413c277dd", null ],
+    [ "OwnTalk", "da/d82/a14522.html#acdef53bd447c30d87bd15af3bf4200bc", null ]
 ];

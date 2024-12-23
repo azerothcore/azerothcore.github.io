@@ -1,6 +1,6 @@
 var a17570 =
 [
-    [ "FilterTargetsInitial", "d0/da3/a17570.html#a92cc71f268793c616bed66d9a489a145", null ],
-    [ "PrepareSpellScript", "d0/da3/a17570.html#ae27e6ceab6b92e59c97307ed10f24ab2", null ],
-    [ "Register", "d0/da3/a17570.html#a91b96940a9e72e632989b49f7e475dba", null ]
+    [ "HandleScript", "d0/da3/a17570.html#aefdd306b81b44a0a5564eab5a0491e09", null ],
+    [ "PrepareSpellScript", "d0/da3/a17570.html#a68c0462bd108b04621f8288328f78b18", null ],
+    [ "Register", "d0/da3/a17570.html#aedaec0afc414800bc481a434592ffb5d", null ]
 ];

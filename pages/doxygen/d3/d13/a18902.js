@@ -1,6 +1,7 @@
 var a18902 =
 [
-    [ "npc_alexstraszaAI", "df/df6/a18906.html", "df/df6/a18906" ],
-    [ "npc_alexstrasza", "d3/d13/a18902.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
-    [ "GetAI", "d3/d13/a18902.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
+    [ "boss_naxxramas_miscAI", "d3/d13/a18902.html#affd990236c101d91b31f60eea7135cdf", null ],
+    [ "JustDied", "d3/d13/a18902.html#aae92d4b538907ef829f5f534f16feef1", null ],
+    [ "UpdateAI", "d3/d13/a18902.html#a02fabc7b8669f3e9358a623b4cf0e84c", null ],
+    [ "timer", "d3/d13/a18902.html#a39af06c7bc635bf85eebf4ed40798006", null ]
 ];

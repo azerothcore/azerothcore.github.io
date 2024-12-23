@@ -1,8 +1,7 @@
 var a10338 =
 [
-    [ "GuildEvent", "d5/d54/a10338.html#a78be16122c01d4c68d67e050ede92006", null ],
-    [ "Write", "d5/d54/a10338.html#a4ae1c0daaec964981ad982b97c1b0408", null ],
-    [ "Guid", "d5/d54/a10338.html#a35bcac3da7db22a22b4e8dba21ae1d0a", null ],
-    [ "Params", "d5/d54/a10338.html#a8f0faa70581ca04c26f87ebcd25cee80", null ],
-    [ "Type", "d5/d54/a10338.html#a961ae90991fa23bfc94a054dba357392", null ]
+    [ "QueryGuildInfoResponse", "d5/d54/a10338.html#ae1f7b9f33e36821477a19439a3d4065d", null ],
+    [ "Write", "d5/d54/a10338.html#abda9452eba38e76c460f910eb3aad5fa", null ],
+    [ "GuildId", "d5/d54/a10338.html#a04eec0531238fa55a91afa11c394fbce", null ],
+    [ "Info", "d5/d54/a10338.html#a749e992a19264b259f62d403b4925abe", null ]
 ];

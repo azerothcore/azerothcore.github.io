@@ -1,6 +1,7 @@
 var a16378 =
 [
-    [ "instance_drak_tharon_keep_InstanceScript", "d6/d9f/a16378.html#a15f13e67c33a7d5cfb4793b6b641842c", null ],
-    [ "OnGameObjectCreate", "d6/d9f/a16378.html#ab727f29fc768c00ab48bfd7e7717a29a", null ],
-    [ "OnGameObjectRemove", "d6/d9f/a16378.html#ad8115d5e1ee45a586ec0c1149d690db5", null ]
+    [ "HandleScript", "d6/d9f/a16378.html#a927cc2ab0e5bba58a2b49e3e4e52ebaa", null ],
+    [ "PrepareSpellScript", "d6/d9f/a16378.html#a71b28156c628aacbc6cb481038c0e76c", null ],
+    [ "Register", "d6/d9f/a16378.html#a6f036bb2d42f248e0c252158a5ecedf1", null ],
+    [ "Validate", "d6/d9f/a16378.html#a7c8a5a7c47bd7a9624028f92b1d9cf9c", null ]
 ];

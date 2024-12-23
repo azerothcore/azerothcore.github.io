@@ -1,6 +1,6 @@
 var a24382 =
 [
-    [ "CalculateAmount", "df/da7/a24382.html#a60d451e6b359501b138564085c87a99f", null ],
-    [ "PrepareAuraScript", "df/da7/a24382.html#a22059b71bcfdfb9a3be59feaf8005d3f", null ],
-    [ "Register", "df/da7/a24382.html#ab33586608d444404c07edc4ffbb717ee", null ]
+    [ "CheckProc", "df/da7/a24382.html#a1b7b855383b04bd1b627c6f1e33ad7a5", null ],
+    [ "PrepareAuraScript", "df/da7/a24382.html#a204655e4eea1cf8694c62ddae6d5a760", null ],
+    [ "Register", "df/da7/a24382.html#a23e8088d6d9626ec4c3f8fc6e66c1e24", null ]
 ];

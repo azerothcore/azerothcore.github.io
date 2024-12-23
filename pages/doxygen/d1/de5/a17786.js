@@ -1,6 +1,6 @@
 var a17786 =
 [
-    [ "HandleScript", "d1/de5/a17786.html#a038a827f7fe179ff56ab581efdf08790", null ],
-    [ "PrepareSpellScript", "d1/de5/a17786.html#a9ffd37bb54ce5e4a73d7d93eaddda2dd", null ],
-    [ "Register", "d1/de5/a17786.html#a6018f3a74a1b61042bb0ff6c02b76611", null ]
+    [ "MysticBuffetTargetFilter", "d1/de5/a17786.html#a5cc25dc0c6de036ec8fa3e7f10ffb2ea", null ],
+    [ "operator()", "d1/de5/a17786.html#a76536b8960aa5e64fa8f7a02939d4295", null ],
+    [ "_caster", "d1/de5/a17786.html#a60ef55fa8d6f511bba566ac3c8f8328a", null ]
 ];

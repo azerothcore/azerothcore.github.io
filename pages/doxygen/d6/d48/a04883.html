@@ -104,23 +104,35 @@ $(document).ready(function(){initNavTree('d1/d58/a04886.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">MMAP::MMapData Member List</div></div>
+  <div class="headertitle"><div class="title">MMAP::MMapMgr Member List</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p>This is the complete list of members for <a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a>, including all inherited members.</p>
+<p>This is the complete list of members for <a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a>, including all inherited members.</p>
 <table class="directory">
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#afa8799db33459dd5e36b7a43eae7d16b">loadedTileRefs</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#ab6aa577df2b8bc749e68515b7b5ef96c">MMapData</a>(dtNavMesh *mesh)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a786a4b43773e4402451bed82cf221f66">navMesh</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#abb7a9f9131b3657eff54ed17fc329b43">navMeshQueries</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a28ad87f05014c49373557369e9177df5">~MMapData</a>()</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapData</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a8b087a39387a10c17dca364b9db537f9">getLoadedMapsCount</a>() const</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a14fe8d762bac4d5d179af1acf8bfe84e">getLoadedTilesCount</a>() const</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">inline</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a755d34666349eba1d7665e510afa3453">GetMMapData</a>(uint32 mapId) const</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#aeae84fe910639b71a40949de59e41c91">GetNavMesh</a>(uint32 mapId)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#af9b97f1e32233fef4e4828a4c8907abc">GetNavMeshQuery</a>(uint32 mapId, uint32 instanceId)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a88c7145d0475a2e5d9be5baa72a2ca7e">InitializeThreadUnsafe</a>(const std::vector&lt; uint32 &gt; &amp;mapIds)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a98a7d0bf952eb80340863f2336ae84d1">loadedMMaps</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a9e2154958fcfa78d8906ccb5ccf2597c">loadedTiles</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#aa27722de47fd0f5ea0d0afac8b08e161">loadMap</a>(uint32 mapId, int32 x, int32 y)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#ac677ea014721d0631195ba64b05c66a0">loadMapData</a>(uint32 mapId)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#abd4bd2ef84d57be5000ab37ed36ded8c">MMapMgr</a>()=default</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#ace3265c248ccf2a34ca4b7c43f294e43">packTileID</a>(int32 x, int32 y)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a89c7b087891d313e69437504dc0e449f">thread_safe_environment</a></td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a2d933fd783126e48423d81d1c06fb3f9">unloadMap</a>(uint32 mapId, int32 x, int32 y)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a83acf8ce1357052ccb8aa6b63f6860ca">unloadMap</a>(uint32 mapId)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#aa97a8352cad200ea1243e968dc1629a6">unloadMapInstance</a>(uint32 mapId, uint32 instanceId)</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="../../d1/d58/a04886.html#a09b83a0d5246838d42a49c5103957480">~MMapMgr</a>()</td><td class="entry"><a class="el" href="../../d1/d58/a04886.html">MMAP::MMapMgr</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

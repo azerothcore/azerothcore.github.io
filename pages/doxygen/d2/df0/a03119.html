@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: azerothcore-wotlk/src/server/game/Groups/Group.h File Reference</title>
+<title>AzerothCore: azerothcore-wotlk/src/server/game/Groups/Group.cpp File Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,593 +105,99 @@ $(document).ready(function(){initNavTree('d2/df0/a03119.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#enum-members">Enumerations</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">Group.h File Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Group.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="../../">DBCEnums.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">DataMap.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">GroupRefMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">LootMgr.h</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="../../">QueryResult.h</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="../../">Group.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Battleground.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">BattlegroundMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Config.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">DatabaseEnv.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GameTime.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">GroupMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">InstanceSaveMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFG.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">LFGMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Log.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">MapMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ObjectMgr.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Opcodes.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ScriptMgr.h</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="../../">SharedDefines.h</a>&quot;</code><br />
-<code>#include &lt;functional&gt;</code><br />
+<code>#include &quot;<a class="el" href="../../">UpdateFieldFlags.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">Util.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">World.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldPacket.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">WorldSession.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeam.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="../../">ArenaTeamMgr.h</a>&quot;</code><br />
 </div>
 <p><a href="">Go to the source code of this file.</a></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
-Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/dd6/a09210.html">Roll</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/dd5/a09214.html">Group</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d09/a09218.html">Group::MemberSlot</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a41ded42f25275d85cb15f89e0cb21745"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a41ded42f25275d85cb15f89e0cb21745">MAXGROUPSIZE</a>&#160;&#160;&#160;5</td></tr>
-<tr class="separator:a41ded42f25275d85cb15f89e0cb21745"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abe79d73a0524988ef836a72c9fab0afc"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#abe79d73a0524988ef836a72c9fab0afc">MAXRAIDSIZE</a>&#160;&#160;&#160;40</td></tr>
-<tr class="separator:abe79d73a0524988ef836a72c9fab0afc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afb58b37bfbd0e4d75c26cc40d4066a43"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#afb58b37bfbd0e4d75c26cc40d4066a43">MAX_RAID_SUBGROUPS</a>&#160;&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#abe79d73a0524988ef836a72c9fab0afc">MAXRAIDSIZE</a>/<a class="el" href="../../d2/df0/a03119.html#a41ded42f25275d85cb15f89e0cb21745">MAXGROUPSIZE</a></td></tr>
-<tr class="separator:afb58b37bfbd0e4d75c26cc40d4066a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0b29644629b2e396bfc5582dd979a657"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a0b29644629b2e396bfc5582dd979a657">TARGETICONCOUNT</a>&#160;&#160;&#160;8</td></tr>
-<tr class="separator:a0b29644629b2e396bfc5582dd979a657"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad409013260cb0aea80c911d24d7b5d00"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#ad409013260cb0aea80c911d24d7b5d00">GROUP_UPDATE_FLAGS_COUNT</a>&#160;&#160;&#160;20</td></tr>
-<tr class="separator:ad409013260cb0aea80c911d24d7b5d00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
-Enumerations</h2></td></tr>
-<tr class="memitem:a1cf1e13f9c5c24c7e321364f6d349d5f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5f">RollVote</a> : uint8 { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f">PASS</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a">NEED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10">GREED</a> = 2
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13">DISENCHANT</a> = 3
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a">NOT_EMITED_YET</a> = 4
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e">NOT_VALID</a> = 5
-<br />
- }</td></tr>
-<tr class="separator:a1cf1e13f9c5c24c7e321364f6d349d5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a330da2ab05c167f677e54f82a222ef9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9d">GroupMemberOnlineStatus</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c">MEMBER_STATUS_OFFLINE</a> = 0x0000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec">MEMBER_STATUS_ONLINE</a> = 0x0001
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd">MEMBER_STATUS_PVP</a> = 0x0002
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53">MEMBER_STATUS_DEAD</a> = 0x0004
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c">MEMBER_STATUS_GHOST</a> = 0x0008
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961">MEMBER_STATUS_PVP_FFA</a> = 0x0010
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039">MEMBER_STATUS_UNK3</a> = 0x0020
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777">MEMBER_STATUS_AFK</a> = 0x0040
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f">MEMBER_STATUS_DND</a> = 0x0080
-<br />
- }</td></tr>
-<tr class="separator:a330da2ab05c167f677e54f82a222ef9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7199c0fc3344f944250290234c6110bd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bd">GroupMemberFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf">MEMBER_FLAG_ASSISTANT</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b">MEMBER_FLAG_MAINTANK</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a">MEMBER_FLAG_MAINASSIST</a> = 0x04
-<br />
- }</td></tr>
-<tr class="separator:a7199c0fc3344f944250290234c6110bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a265440bc60acb489a6d25239d788b783"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783">GroupMemberAssignment</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192">GROUP_ASSIGN_MAINTANK</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143">GROUP_ASSIGN_MAINASSIST</a> = 1
-<br />
- }</td></tr>
-<tr class="separator:a265440bc60acb489a6d25239d788b783"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3de1267c3b87dda21863fd739439d918"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918">GroupType</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71">GROUPTYPE_NORMAL</a> = 0x00
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139">GROUPTYPE_BG</a> = 0x01
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea">GROUPTYPE_RAID</a> = 0x02
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860">GROUPTYPE_BGRAID</a> = GROUPTYPE_BG | GROUPTYPE_RAID
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc">GROUPTYPE_LFG_RESTRICTED</a> = 0x04
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900">GROUPTYPE_LFG</a> = 0x08
-<br />
- }</td></tr>
-<tr class="separator:a3de1267c3b87dda21863fd739439d918"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a914819bad74fbd5e30a14b5250e00e22"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22">GroupUpdateFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c">GROUP_UPDATE_FLAG_NONE</a> = 0x00000000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39">GROUP_UPDATE_FLAG_STATUS</a> = 0x00000001
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5">GROUP_UPDATE_FLAG_CUR_HP</a> = 0x00000002
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290">GROUP_UPDATE_FLAG_MAX_HP</a> = 0x00000004
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec">GROUP_UPDATE_FLAG_POWER_TYPE</a> = 0x00000008
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647">GROUP_UPDATE_FLAG_CUR_POWER</a> = 0x00000010
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806">GROUP_UPDATE_FLAG_MAX_POWER</a> = 0x00000020
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721">GROUP_UPDATE_FLAG_LEVEL</a> = 0x00000040
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec">GROUP_UPDATE_FLAG_ZONE</a> = 0x00000080
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db">GROUP_UPDATE_FLAG_POSITION</a> = 0x00000100
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e">GROUP_UPDATE_FLAG_AURAS</a> = 0x00000200
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81">GROUP_UPDATE_FLAG_PET_GUID</a> = 0x00000400
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e">GROUP_UPDATE_FLAG_PET_NAME</a> = 0x00000800
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd">GROUP_UPDATE_FLAG_PET_MODEL_ID</a> = 0x00001000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a">GROUP_UPDATE_FLAG_PET_CUR_HP</a> = 0x00002000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067">GROUP_UPDATE_FLAG_PET_MAX_HP</a> = 0x00004000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8">GROUP_UPDATE_FLAG_PET_POWER_TYPE</a> = 0x00008000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e">GROUP_UPDATE_FLAG_PET_CUR_POWER</a> = 0x00010000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436">GROUP_UPDATE_FLAG_PET_MAX_POWER</a> = 0x00020000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af">GROUP_UPDATE_FLAG_PET_AURAS</a> = 0x00040000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109">GROUP_UPDATE_FLAG_VEHICLE_SEAT</a> = 0x00080000
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65">GROUP_UPDATE_PET</a> = 0x0007FC00
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6">GROUP_UPDATE_FULL</a> = 0x0007FFFF
-<br />
- }</td></tr>
-<tr class="separator:a914819bad74fbd5e30a14b5250e00e22"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a76b58859b594b12f70d10ee9ee17345f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345f">lfgGroupFlags</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590">GROUP_LFG_FLAG_APPLY_RANDOM_BUFF</a> = 0x001
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e">GROUP_LFG_FLAG_IS_RANDOM_INSTANCE</a> = 0x002
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc">GROUP_LFG_FLAG_IS_HEROIC</a> = 0x004
-<br />
- }</td></tr>
-<tr class="separator:a76b58859b594b12f70d10ee9ee17345f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac137f3554eda30ca651f91eec6e2f1ff"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ff">DifficultyPreventionChangeType</a> { <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f">DIFFICULTY_PREVENTION_CHANGE_NONE</a> = 0
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be">DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED</a> = 1
-, <br />
-&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37">DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</a> = 2
-<br />
- }</td></tr>
-<tr class="separator:ac137f3554eda30ca651f91eec6e2f1ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:a65e699af45b8fc9a4a8bac43fe403d5c"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#a65e699af45b8fc9a4a8bac43fe403d5c">GroupUpdateLength</a> [<a class="el" href="../../d2/df0/a03119.html#ad409013260cb0aea80c911d24d7b5d00">GROUP_UPDATE_FLAGS_COUNT</a>] = { 0, 2, 2, 2, 1, 2, 2, 2, 2, 4, 8, 8, 1, 2, 2, 2, 1, 2, 2, 8}</td></tr>
-<tr class="separator:a65e699af45b8fc9a4a8bac43fe403d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:afbaf3417177da71d9f3c8be9eab09c2b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/df0/a03119.html#afbaf3417177da71d9f3c8be9eab09c2b">CanRollOnItem</a> (<a class="el" href="../../d1/d73/a09466.html">LootItem</a> const &amp;item, <a class="el" href="../../dc/d06/a08466.html">Player</a> const *player, <a class="el" href="../../dd/d60/a09490.html">Loot</a> *loot)</td></tr>
+<tr class="separator:afbaf3417177da71d9f3c8be9eab09c2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="ad409013260cb0aea80c911d24d7b5d00" name="ad409013260cb0aea80c911d24d7b5d00"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad409013260cb0aea80c911d24d7b5d00">&#9670;&#160;</a></span>GROUP_UPDATE_FLAGS_COUNT</h2>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="afbaf3417177da71d9f3c8be9eab09c2b" name="afbaf3417177da71d9f3c8be9eab09c2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afbaf3417177da71d9f3c8be9eab09c2b">&#9670;&#160;</a></span>CanRollOnItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define GROUP_UPDATE_FLAGS_COUNT&#160;&#160;&#160;20</td>
+          <td class="memname">bool CanRollOnItem </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d1/d73/a09466.html">LootItem</a> const &amp;&#160;</td>
+          <td class="paramname"><em>item</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="afb58b37bfbd0e4d75c26cc40d4066a43" name="afb58b37bfbd0e4d75c26cc40d4066a43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb58b37bfbd0e4d75c26cc40d4066a43">&#9670;&#160;</a></span>MAX_RAID_SUBGROUPS</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">#define MAX_RAID_SUBGROUPS&#160;&#160;&#160;<a class="el" href="../../d2/df0/a03119.html#abe79d73a0524988ef836a72c9fab0afc">MAXRAIDSIZE</a>/<a class="el" href="../../d2/df0/a03119.html#a41ded42f25275d85cb15f89e0cb21745">MAXGROUPSIZE</a></td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> const *&#160;</td>
+          <td class="paramname"><em>player</em>, </td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a41ded42f25275d85cb15f89e0cb21745" name="a41ded42f25275d85cb15f89e0cb21745"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41ded42f25275d85cb15f89e0cb21745">&#9670;&#160;</a></span>MAXGROUPSIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">#define MAXGROUPSIZE&#160;&#160;&#160;5</td>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dd/d60/a09490.html">Loot</a> *&#160;</td>
+          <td class="paramname"><em>loot</em>&#160;</td>
         </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="abe79d73a0524988ef836a72c9fab0afc" name="abe79d73a0524988ef836a72c9fab0afc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abe79d73a0524988ef836a72c9fab0afc">&#9670;&#160;</a></span>MAXRAIDSIZE</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
         <tr>
-          <td class="memname">#define MAXRAIDSIZE&#160;&#160;&#160;40</td>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="a0b29644629b2e396bfc5582dd979a657" name="a0b29644629b2e396bfc5582dd979a657"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0b29644629b2e396bfc5582dd979a657">&#9670;&#160;</a></span>TARGETICONCOUNT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define TARGETICONCOUNT&#160;&#160;&#160;8</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Enumeration Type Documentation</h2>
-<a id="ac137f3554eda30ca651f91eec6e2f1ff" name="ac137f3554eda30ca651f91eec6e2f1ff"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac137f3554eda30ca651f91eec6e2f1ff">&#9670;&#160;</a></span>DifficultyPreventionChangeType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ff">DifficultyPreventionChangeType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f" name="ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f"></a>DIFFICULTY_PREVENTION_CHANGE_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be" name="ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be"></a>DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37" name="ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37"></a>DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  132</span>{</div>
-<div class="line"><span class="lineno">  133</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f">DIFFICULTY_PREVENTION_CHANGE_NONE</a>                   = 0,</div>
-<div class="line"><span class="lineno">  134</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be">DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED</a>       = 1,</div>
-<div class="line"><span class="lineno">  135</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37">DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</a>            = 2</div>
-<div class="line"><span class="lineno">  136</span>};</div>
-<div class="ttc" id="aa03119_html_ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f"><div class="ttname"><a href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffa9510357088e05a0d39cc541ece12e19f">DIFFICULTY_PREVENTION_CHANGE_NONE</a></div><div class="ttdeci">@ DIFFICULTY_PREVENTION_CHANGE_NONE</div><div class="ttdef"><b>Definition:</b> Group.h:133</div></div>
-<div class="ttc" id="aa03119_html_ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be"><div class="ttname"><a href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaaf1cf9fc0dc14727c5370fb741ed02be">DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED</a></div><div class="ttdeci">@ DIFFICULTY_PREVENTION_CHANGE_RECENTLY_CHANGED</div><div class="ttdef"><b>Definition:</b> Group.h:134</div></div>
-<div class="ttc" id="aa03119_html_ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37"><div class="ttname"><a href="../../d2/df0/a03119.html#ac137f3554eda30ca651f91eec6e2f1ffaf7daa8b9c866100c71f1ff356bca9d37">DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</a></div><div class="ttdeci">@ DIFFICULTY_PREVENTION_CHANGE_BOSS_KILLED</div><div class="ttdef"><b>Definition:</b> Group.h:135</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  986</span>{</div>
+<div class="line"><span class="lineno">  987</span>    <span class="comment">// Players can&#39;t roll on unique items if they already reached the maximum quantity of that item</span></div>
+<div class="line"><span class="lineno">  988</span>    <a class="code hl_struct" href="../../d9/d08/a08198.html">ItemTemplate</a> <span class="keyword">const</span>* proto = <a class="code hl_define" href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a>-&gt;GetItemTemplate(item.itemid);</div>
+<div class="line"><span class="lineno">  989</span>    <span class="keywordflow">if</span> (!proto)</div>
+<div class="line"><span class="lineno">  990</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  991</span> </div>
+<div class="line"><span class="lineno">  992</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> itemCount = player-&gt;GetItemCount(item.itemid);</div>
+<div class="line"><span class="lineno">  993</span>    <span class="keywordflow">if</span> ((proto-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a2c13c4c1edbd3add9c6e0e2263f6c717">MaxCount</a> &gt; 0 &amp;&amp; <span class="keyword">static_cast&lt;</span><a class="code hl_typedef" href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a><span class="keyword">&gt;</span>(itemCount) &gt;= proto-&gt;<a class="code hl_variable" href="../../d9/d08/a08198.html#a2c13c4c1edbd3add9c6e0e2263f6c717">MaxCount</a>))</div>
+<div class="line"><span class="lineno">  994</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  995</span> </div>
+<div class="line"><span class="lineno">  996</span>    <span class="keywordflow">if</span> (!item.AllowedForPlayer(player, loot-&gt;<a class="code hl_variable" href="../../dd/d60/a09490.html#a462871d75b43fa25808d3a1893eb4118">sourceWorldObjectGUID</a>))</div>
+<div class="line"><span class="lineno">  997</span>        <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">  998</span> </div>
+<div class="line"><span class="lineno">  999</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1000</span>}</div>
+<div class="ttc" id="aa00497_html_a0bf9964a3ce962c07ad3d8b5432bbbcd"><div class="ttname"><a href="../../d4/d1e/a00497.html#a0bf9964a3ce962c07ad3d8b5432bbbcd">int32</a></div><div class="ttdeci">std::int32_t int32</div><div class="ttdef"><b>Definition:</b> Define.h:103</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa02843_html_a736e30da2b5261060ac6cdbb5de3b787"><div class="ttname"><a href="../../d0/d45/a02843.html#a736e30da2b5261060ac6cdbb5de3b787">sObjectMgr</a></div><div class="ttdeci">#define sObjectMgr</div><div class="ttdef"><b>Definition:</b> ObjectMgr.h:1635</div></div>
+<div class="ttc" id="aa08198_html"><div class="ttname"><a href="../../d9/d08/a08198.html">ItemTemplate</a></div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:619</div></div>
+<div class="ttc" id="aa08198_html_a2c13c4c1edbd3add9c6e0e2263f6c717"><div class="ttname"><a href="../../d9/d08/a08198.html#a2c13c4c1edbd3add9c6e0e2263f6c717">ItemTemplate::MaxCount</a></div><div class="ttdeci">int32 MaxCount</div><div class="ttdef"><b>Definition:</b> ItemTemplate.h:644</div></div>
+<div class="ttc" id="aa09490_html_a462871d75b43fa25808d3a1893eb4118"><div class="ttname"><a href="../../dd/d60/a09490.html#a462871d75b43fa25808d3a1893eb4118">Loot::sourceWorldObjectGUID</a></div><div class="ttdeci">ObjectGuid sourceWorldObjectGUID</div><div class="ttdef"><b>Definition:</b> LootMgr.h:330</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a265440bc60acb489a6d25239d788b783" name="a265440bc60acb489a6d25239d788b783"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a265440bc60acb489a6d25239d788b783">&#9670;&#160;</a></span>GroupMemberAssignment</h2>
+<p class="reference">References <a class="el" href="../../#l00416">LootItem::AllowedForPlayer()</a>, <a class="el" href="../../#l00327">Player::GetItemCount()</a>, <a class="el" href="../../#l00155">LootItem::itemid</a>, <a class="el" href="../../#l00644">ItemTemplate::MaxCount</a>, <a class="el" href="../../#l01635">sObjectMgr</a>, and <a class="el" href="../../#l00330">Loot::sourceWorldObjectGUID</a>.</p>
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783">GroupMemberAssignment</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192" name="a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192"></a>GROUP_ASSIGN_MAINTANK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143" name="a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143"></a>GROUP_ASSIGN_MAINASSIST&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   79</span>{</div>
-<div class="line"><span class="lineno">   80</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192">GROUP_ASSIGN_MAINTANK</a>   = 0,</div>
-<div class="line"><span class="lineno">   81</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143">GROUP_ASSIGN_MAINASSIST</a> = 1,</div>
-<div class="line"><span class="lineno">   82</span>};</div>
-<div class="ttc" id="aa03119_html_a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143"><div class="ttname"><a href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a365361d3311869df05371342f7082143">GROUP_ASSIGN_MAINASSIST</a></div><div class="ttdeci">@ GROUP_ASSIGN_MAINASSIST</div><div class="ttdef"><b>Definition:</b> Group.h:81</div></div>
-<div class="ttc" id="aa03119_html_a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192"><div class="ttname"><a href="../../d2/df0/a03119.html#a265440bc60acb489a6d25239d788b783a81801fe8320b2182ad7c70d0d028d192">GROUP_ASSIGN_MAINTANK</a></div><div class="ttdeci">@ GROUP_ASSIGN_MAINTANK</div><div class="ttdef"><b>Definition:</b> Group.h:80</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7199c0fc3344f944250290234c6110bd" name="a7199c0fc3344f944250290234c6110bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7199c0fc3344f944250290234c6110bd">&#9670;&#160;</a></span>GroupMemberFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bd">GroupMemberFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf" name="a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf"></a>MEMBER_FLAG_ASSISTANT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b" name="a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b"></a>MEMBER_FLAG_MAINTANK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a" name="a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a"></a>MEMBER_FLAG_MAINASSIST&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
-<div class="line"><span class="lineno">   73</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf">MEMBER_FLAG_ASSISTANT</a>   = 0x01,</div>
-<div class="line"><span class="lineno">   74</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b">MEMBER_FLAG_MAINTANK</a>    = 0x02,</div>
-<div class="line"><span class="lineno">   75</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a">MEMBER_FLAG_MAINASSIST</a>  = 0x04,</div>
-<div class="line"><span class="lineno">   76</span>};</div>
-<div class="ttc" id="aa03119_html_a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf"><div class="ttname"><a href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda0b79d2026cebf021e0df83bf82e1e3bf">MEMBER_FLAG_ASSISTANT</a></div><div class="ttdeci">@ MEMBER_FLAG_ASSISTANT</div><div class="ttdef"><b>Definition:</b> Group.h:73</div></div>
-<div class="ttc" id="aa03119_html_a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a"><div class="ttname"><a href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bda5977481471e2d61bda65201ddf3db54a">MEMBER_FLAG_MAINASSIST</a></div><div class="ttdeci">@ MEMBER_FLAG_MAINASSIST</div><div class="ttdef"><b>Definition:</b> Group.h:75</div></div>
-<div class="ttc" id="aa03119_html_a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b"><div class="ttname"><a href="../../d2/df0/a03119.html#a7199c0fc3344f944250290234c6110bdab4244bc75cc8b303dab133abe583dd7b">MEMBER_FLAG_MAINTANK</a></div><div class="ttdeci">@ MEMBER_FLAG_MAINTANK</div><div class="ttdef"><b>Definition:</b> Group.h:74</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a330da2ab05c167f677e54f82a222ef9d" name="a330da2ab05c167f677e54f82a222ef9d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a330da2ab05c167f677e54f82a222ef9d">&#9670;&#160;</a></span>GroupMemberOnlineStatus</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9d">GroupMemberOnlineStatus</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c" name="a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c"></a>MEMBER_STATUS_OFFLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec" name="a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec"></a>MEMBER_STATUS_ONLINE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd" name="a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd"></a>MEMBER_STATUS_PVP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53" name="a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53"></a>MEMBER_STATUS_DEAD&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c" name="a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c"></a>MEMBER_STATUS_GHOST&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961" name="a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961"></a>MEMBER_STATUS_PVP_FFA&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039" name="a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039"></a>MEMBER_STATUS_UNK3&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777" name="a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777"></a>MEMBER_STATUS_AFK&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f" name="a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f"></a>MEMBER_STATUS_DND&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   59</span>{</div>
-<div class="line"><span class="lineno">   60</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c">MEMBER_STATUS_OFFLINE</a>   = 0x0000,</div>
-<div class="line"><span class="lineno">   61</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec">MEMBER_STATUS_ONLINE</a>    = 0x0001,                       <span class="comment">// Lua_UnitIsConnected</span></div>
-<div class="line"><span class="lineno">   62</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd">MEMBER_STATUS_PVP</a>       = 0x0002,                       <span class="comment">// Lua_UnitIsPVP</span></div>
-<div class="line"><span class="lineno">   63</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53">MEMBER_STATUS_DEAD</a>      = 0x0004,                       <span class="comment">// Lua_UnitIsDead</span></div>
-<div class="line"><span class="lineno">   64</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c">MEMBER_STATUS_GHOST</a>     = 0x0008,                       <span class="comment">// Lua_UnitIsGhost</span></div>
-<div class="line"><span class="lineno">   65</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961">MEMBER_STATUS_PVP_FFA</a>   = 0x0010,                       <span class="comment">// Lua_UnitIsPVPFreeForAll</span></div>
-<div class="line"><span class="lineno">   66</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039">MEMBER_STATUS_UNK3</a>      = 0x0020,                       <span class="comment">// used in calls from Lua_GetPlayerMapPosition/Lua_GetBattlefieldFlagPosition</span></div>
-<div class="line"><span class="lineno">   67</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777">MEMBER_STATUS_AFK</a>       = 0x0040,                       <span class="comment">// Lua_UnitIsAFK</span></div>
-<div class="line"><span class="lineno">   68</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f">MEMBER_STATUS_DND</a>       = 0x0080,                       <span class="comment">// Lua_UnitIsDND</span></div>
-<div class="line"><span class="lineno">   69</span>};</div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da0fd180911ad96ed8d444b6dfc6fd8777">MEMBER_STATUS_AFK</a></div><div class="ttdeci">@ MEMBER_STATUS_AFK</div><div class="ttdef"><b>Definition:</b> Group.h:67</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da3d85c38ccfdc94eda5fe36f186dcb75c">MEMBER_STATUS_OFFLINE</a></div><div class="ttdeci">@ MEMBER_STATUS_OFFLINE</div><div class="ttdef"><b>Definition:</b> Group.h:60</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da56b0705f4b91684e2bc6536d45c628bd">MEMBER_STATUS_PVP</a></div><div class="ttdeci">@ MEMBER_STATUS_PVP</div><div class="ttdef"><b>Definition:</b> Group.h:62</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da5b80950bd3340d7de2b5a769001b9fec">MEMBER_STATUS_ONLINE</a></div><div class="ttdeci">@ MEMBER_STATUS_ONLINE</div><div class="ttdef"><b>Definition:</b> Group.h:61</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da68c1ec7408566a34bc264bd9eca1cb53">MEMBER_STATUS_DEAD</a></div><div class="ttdeci">@ MEMBER_STATUS_DEAD</div><div class="ttdef"><b>Definition:</b> Group.h:63</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9da795eafeca5cb33a35458e5d646975039">MEMBER_STATUS_UNK3</a></div><div class="ttdeci">@ MEMBER_STATUS_UNK3</div><div class="ttdef"><b>Definition:</b> Group.h:66</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daab8058da6edb35b7c3c459a000e9dd0c">MEMBER_STATUS_GHOST</a></div><div class="ttdeci">@ MEMBER_STATUS_GHOST</div><div class="ttdef"><b>Definition:</b> Group.h:64</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9dacd9a792ab0f7517ea210ea164e3f8b9f">MEMBER_STATUS_DND</a></div><div class="ttdeci">@ MEMBER_STATUS_DND</div><div class="ttdef"><b>Definition:</b> Group.h:68</div></div>
-<div class="ttc" id="aa03119_html_a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961"><div class="ttname"><a href="../../d2/df0/a03119.html#a330da2ab05c167f677e54f82a222ef9daff365b501c0206847eac2c3d02b21961">MEMBER_STATUS_PVP_FFA</a></div><div class="ttdeci">@ MEMBER_STATUS_PVP_FFA</div><div class="ttdef"><b>Definition:</b> Group.h:65</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a3de1267c3b87dda21863fd739439d918" name="a3de1267c3b87dda21863fd739439d918"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3de1267c3b87dda21863fd739439d918">&#9670;&#160;</a></span>GroupType</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918">GroupType</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71" name="a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71"></a>GROUPTYPE_NORMAL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139" name="a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139"></a>GROUPTYPE_BG&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea" name="a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea"></a>GROUPTYPE_RAID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860" name="a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860"></a>GROUPTYPE_BGRAID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc" name="a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc"></a>GROUPTYPE_LFG_RESTRICTED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900" name="a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900"></a>GROUPTYPE_LFG&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   85</span>{</div>
-<div class="line"><span class="lineno">   86</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71">GROUPTYPE_NORMAL</a>         = 0x00,</div>
-<div class="line"><span class="lineno">   87</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139">GROUPTYPE_BG</a>             = 0x01,</div>
-<div class="line"><span class="lineno">   88</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea">GROUPTYPE_RAID</a>           = 0x02,</div>
-<div class="line"><span class="lineno">   89</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860">GROUPTYPE_BGRAID</a>         = <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139">GROUPTYPE_BG</a> | <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea">GROUPTYPE_RAID</a>, <span class="comment">// mask</span></div>
-<div class="line"><span class="lineno">   90</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc">GROUPTYPE_LFG_RESTRICTED</a> = 0x04, <span class="comment">// Script_HasLFGRestrictions()</span></div>
-<div class="line"><span class="lineno">   91</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900">GROUPTYPE_LFG</a>            = 0x08,</div>
-<div class="line"><span class="lineno">   92</span>    <span class="comment">// 0x10, leave/change group?, I saw this flag when leaving group and after leaving BG while in group</span></div>
-<div class="line"><span class="lineno">   93</span>    <span class="comment">// GROUPTYPE_ONE_PERSON_PARTY   = 0x20, 4.x Script_IsOnePersonParty()</span></div>
-<div class="line"><span class="lineno">   94</span>    <span class="comment">// GROUPTYPE_EVERYONE_ASSISTANT = 0x40  4.x Script_IsEveryoneAssistant()</span></div>
-<div class="line"><span class="lineno">   95</span>};</div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a06d2671866631d30309707bd4a233b71">GROUPTYPE_NORMAL</a></div><div class="ttdeci">@ GROUPTYPE_NORMAL</div><div class="ttdef"><b>Definition:</b> Group.h:86</div></div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a071dd896c0ef9e458b00ceece61212dc">GROUPTYPE_LFG_RESTRICTED</a></div><div class="ttdeci">@ GROUPTYPE_LFG_RESTRICTED</div><div class="ttdef"><b>Definition:</b> Group.h:90</div></div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918a1d64f52216490e026252bf5be0ce72ea">GROUPTYPE_RAID</a></div><div class="ttdeci">@ GROUPTYPE_RAID</div><div class="ttdef"><b>Definition:</b> Group.h:88</div></div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ab0ab78acc1d675d1a7b3285b29c92900">GROUPTYPE_LFG</a></div><div class="ttdeci">@ GROUPTYPE_LFG</div><div class="ttdef"><b>Definition:</b> Group.h:91</div></div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918ae34858409fbfe501ddd8500da4154860">GROUPTYPE_BGRAID</a></div><div class="ttdeci">@ GROUPTYPE_BGRAID</div><div class="ttdef"><b>Definition:</b> Group.h:89</div></div>
-<div class="ttc" id="aa03119_html_a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139"><div class="ttname"><a href="../../d2/df0/a03119.html#a3de1267c3b87dda21863fd739439d918aed783b5eaca8785fa2448debdec0b139">GROUPTYPE_BG</a></div><div class="ttdeci">@ GROUPTYPE_BG</div><div class="ttdef"><b>Definition:</b> Group.h:87</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a914819bad74fbd5e30a14b5250e00e22" name="a914819bad74fbd5e30a14b5250e00e22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a914819bad74fbd5e30a14b5250e00e22">&#9670;&#160;</a></span>GroupUpdateFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22">GroupUpdateFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c" name="a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c"></a>GROUP_UPDATE_FLAG_NONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39" name="a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39"></a>GROUP_UPDATE_FLAG_STATUS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5" name="a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5"></a>GROUP_UPDATE_FLAG_CUR_HP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290" name="a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290"></a>GROUP_UPDATE_FLAG_MAX_HP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec" name="a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec"></a>GROUP_UPDATE_FLAG_POWER_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647" name="a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647"></a>GROUP_UPDATE_FLAG_CUR_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806" name="a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806"></a>GROUP_UPDATE_FLAG_MAX_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721" name="a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721"></a>GROUP_UPDATE_FLAG_LEVEL&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec" name="a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec"></a>GROUP_UPDATE_FLAG_ZONE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db" name="a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db"></a>GROUP_UPDATE_FLAG_POSITION&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e" name="a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e"></a>GROUP_UPDATE_FLAG_AURAS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81" name="a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81"></a>GROUP_UPDATE_FLAG_PET_GUID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e" name="a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e"></a>GROUP_UPDATE_FLAG_PET_NAME&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd" name="a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd"></a>GROUP_UPDATE_FLAG_PET_MODEL_ID&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a" name="a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a"></a>GROUP_UPDATE_FLAG_PET_CUR_HP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067" name="a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067"></a>GROUP_UPDATE_FLAG_PET_MAX_HP&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8" name="a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8"></a>GROUP_UPDATE_FLAG_PET_POWER_TYPE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e" name="a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e"></a>GROUP_UPDATE_FLAG_PET_CUR_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436" name="a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436"></a>GROUP_UPDATE_FLAG_PET_MAX_POWER&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af" name="a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af"></a>GROUP_UPDATE_FLAG_PET_AURAS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109" name="a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109"></a>GROUP_UPDATE_FLAG_VEHICLE_SEAT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65" name="a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65"></a>GROUP_UPDATE_PET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6" name="a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6"></a>GROUP_UPDATE_FULL&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   98</span>{</div>
-<div class="line"><span class="lineno">   99</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c">GROUP_UPDATE_FLAG_NONE</a>              = 0x00000000,       <span class="comment">// nothing</span></div>
-<div class="line"><span class="lineno">  100</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39">GROUP_UPDATE_FLAG_STATUS</a>            = 0x00000001,       <span class="comment">// uint16, flags</span></div>
-<div class="line"><span class="lineno">  101</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5">GROUP_UPDATE_FLAG_CUR_HP</a>            = 0x00000002,       <span class="comment">// uint32</span></div>
-<div class="line"><span class="lineno">  102</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290">GROUP_UPDATE_FLAG_MAX_HP</a>            = 0x00000004,       <span class="comment">// uint32</span></div>
-<div class="line"><span class="lineno">  103</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec">GROUP_UPDATE_FLAG_POWER_TYPE</a>        = 0x00000008,       <span class="comment">// uint8</span></div>
-<div class="line"><span class="lineno">  104</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647">GROUP_UPDATE_FLAG_CUR_POWER</a>         = 0x00000010,       <span class="comment">// uint16</span></div>
-<div class="line"><span class="lineno">  105</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806">GROUP_UPDATE_FLAG_MAX_POWER</a>         = 0x00000020,       <span class="comment">// uint16</span></div>
-<div class="line"><span class="lineno">  106</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721">GROUP_UPDATE_FLAG_LEVEL</a>             = 0x00000040,       <span class="comment">// uint16</span></div>
-<div class="line"><span class="lineno">  107</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec">GROUP_UPDATE_FLAG_ZONE</a>              = 0x00000080,       <span class="comment">// uint16</span></div>
-<div class="line"><span class="lineno">  108</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db">GROUP_UPDATE_FLAG_POSITION</a>          = 0x00000100,       <span class="comment">// uint16, uint16</span></div>
-<div class="line"><span class="lineno">  109</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e">GROUP_UPDATE_FLAG_AURAS</a>             = 0x00000200,       <span class="comment">// uint64 mask, for each bit set uint32 spellid + uint8 unk</span></div>
-<div class="line"><span class="lineno">  110</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81">GROUP_UPDATE_FLAG_PET_GUID</a>          = 0x00000400,       <span class="comment">// uint64 pet guid</span></div>
-<div class="line"><span class="lineno">  111</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e">GROUP_UPDATE_FLAG_PET_NAME</a>          = 0x00000800,       <span class="comment">// pet name, nullptr terminated string</span></div>
-<div class="line"><span class="lineno">  112</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd">GROUP_UPDATE_FLAG_PET_MODEL_ID</a>      = 0x00001000,       <span class="comment">// uint16, model id</span></div>
-<div class="line"><span class="lineno">  113</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a">GROUP_UPDATE_FLAG_PET_CUR_HP</a>        = 0x00002000,       <span class="comment">// uint32 pet cur health</span></div>
-<div class="line"><span class="lineno">  114</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067">GROUP_UPDATE_FLAG_PET_MAX_HP</a>        = 0x00004000,       <span class="comment">// uint32 pet max health</span></div>
-<div class="line"><span class="lineno">  115</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8">GROUP_UPDATE_FLAG_PET_POWER_TYPE</a>    = 0x00008000,       <span class="comment">// uint8 pet power type</span></div>
-<div class="line"><span class="lineno">  116</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e">GROUP_UPDATE_FLAG_PET_CUR_POWER</a>     = 0x00010000,       <span class="comment">// uint16 pet cur power</span></div>
-<div class="line"><span class="lineno">  117</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436">GROUP_UPDATE_FLAG_PET_MAX_POWER</a>     = 0x00020000,       <span class="comment">// uint16 pet max power</span></div>
-<div class="line"><span class="lineno">  118</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af">GROUP_UPDATE_FLAG_PET_AURAS</a>         = 0x00040000,       <span class="comment">// uint64 mask, for each bit set uint32 spellid + uint8 unk, pet auras...</span></div>
-<div class="line"><span class="lineno">  119</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109">GROUP_UPDATE_FLAG_VEHICLE_SEAT</a>      = 0x00080000,       <span class="comment">// uint32 vehicle_seat_id (index from VehicleSeat.dbc)</span></div>
-<div class="line"><span class="lineno">  120</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65">GROUP_UPDATE_PET</a>                    = 0x0007FC00,       <span class="comment">// all pet flags</span></div>
-<div class="line"><span class="lineno">  121</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6">GROUP_UPDATE_FULL</a>                   = 0x0007FFFF,       <span class="comment">// all known flags</span></div>
-<div class="line"><span class="lineno">  122</span>};</div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a053bf2b40e15c99b4d87212b6224edf5">GROUP_UPDATE_FLAG_CUR_HP</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_CUR_HP</div><div class="ttdef"><b>Definition:</b> Group.h:101</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a0828c5fe18a98dcec2e52be5a6faf62a">GROUP_UPDATE_FLAG_PET_CUR_HP</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_CUR_HP</div><div class="ttdef"><b>Definition:</b> Group.h:113</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a18568d1a780d4ee8bd1261f04789ddec">GROUP_UPDATE_FLAG_POWER_TYPE</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_POWER_TYPE</div><div class="ttdef"><b>Definition:</b> Group.h:103</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a23d5a8a1b2b3ff72c3fc74d801590ef6">GROUP_UPDATE_FULL</a></div><div class="ttdeci">@ GROUP_UPDATE_FULL</div><div class="ttdef"><b>Definition:</b> Group.h:121</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a356f93308e4e05d59544bb68adeff09e">GROUP_UPDATE_FLAG_PET_CUR_POWER</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_CUR_POWER</div><div class="ttdef"><b>Definition:</b> Group.h:116</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a4110160e7fd5360f13bf4527effcf436">GROUP_UPDATE_FLAG_PET_MAX_POWER</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_MAX_POWER</div><div class="ttdef"><b>Definition:</b> Group.h:117</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a51f854cd0a192b6a26f2ad93cb04f290">GROUP_UPDATE_FLAG_MAX_HP</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_MAX_HP</div><div class="ttdef"><b>Definition:</b> Group.h:102</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8055f4324e3e38e102f8ae430283f109">GROUP_UPDATE_FLAG_VEHICLE_SEAT</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_VEHICLE_SEAT</div><div class="ttdef"><b>Definition:</b> Group.h:119</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a84be5c25600d56528690fa6c4f693c39">GROUP_UPDATE_FLAG_STATUS</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_STATUS</div><div class="ttdef"><b>Definition:</b> Group.h:100</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8654981d5a32b737e43bb9f799891ab8">GROUP_UPDATE_FLAG_PET_POWER_TYPE</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_POWER_TYPE</div><div class="ttdef"><b>Definition:</b> Group.h:115</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8e989903a18a03c2c1b04c93a6f7b806">GROUP_UPDATE_FLAG_MAX_POWER</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_MAX_POWER</div><div class="ttdef"><b>Definition:</b> Group.h:105</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22a8ff7f1354cb854bfd7acc1a15572e1ec">GROUP_UPDATE_FLAG_ZONE</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_ZONE</div><div class="ttdef"><b>Definition:</b> Group.h:107</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aabf53171e29489386fb5f82c83b8291c">GROUP_UPDATE_FLAG_NONE</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_NONE</div><div class="ttdef"><b>Definition:</b> Group.h:99</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab08e141bb44f5282877077ceef93f4db">GROUP_UPDATE_FLAG_POSITION</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_POSITION</div><div class="ttdef"><b>Definition:</b> Group.h:108</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab29f0639aa4364f2937eafa3cf3c9bfd">GROUP_UPDATE_FLAG_PET_MODEL_ID</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_MODEL_ID</div><div class="ttdef"><b>Definition:</b> Group.h:112</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ab34868446bbc6c7214746ae0ee07298e">GROUP_UPDATE_FLAG_PET_NAME</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_NAME</div><div class="ttdef"><b>Definition:</b> Group.h:111</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abb4365d738698af44649fda4435825af">GROUP_UPDATE_FLAG_PET_AURAS</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_AURAS</div><div class="ttdef"><b>Definition:</b> Group.h:118</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22abfc7c4cf05e71e2c6a263d14c50c300e">GROUP_UPDATE_FLAG_AURAS</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_AURAS</div><div class="ttdef"><b>Definition:</b> Group.h:109</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac3d0e3f073f9bd3b10dfe6815879d721">GROUP_UPDATE_FLAG_LEVEL</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_LEVEL</div><div class="ttdef"><b>Definition:</b> Group.h:106</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ac4eec7ebcdd88fe72703af3fbcdeef65">GROUP_UPDATE_PET</a></div><div class="ttdeci">@ GROUP_UPDATE_PET</div><div class="ttdef"><b>Definition:</b> Group.h:120</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22ae059ba28d829c215698fb53fb9c46b81">GROUP_UPDATE_FLAG_PET_GUID</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_GUID</div><div class="ttdef"><b>Definition:</b> Group.h:110</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22afc364631361127107eede68c44672067">GROUP_UPDATE_FLAG_PET_MAX_HP</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_PET_MAX_HP</div><div class="ttdef"><b>Definition:</b> Group.h:114</div></div>
-<div class="ttc" id="aa03119_html_a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647"><div class="ttname"><a href="../../d2/df0/a03119.html#a914819bad74fbd5e30a14b5250e00e22aff7d60d1b0cadfb6faf0a9cc0fb4c647">GROUP_UPDATE_FLAG_CUR_POWER</a></div><div class="ttdeci">@ GROUP_UPDATE_FLAG_CUR_POWER</div><div class="ttdef"><b>Definition:</b> Group.h:104</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a76b58859b594b12f70d10ee9ee17345f" name="a76b58859b594b12f70d10ee9ee17345f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a76b58859b594b12f70d10ee9ee17345f">&#9670;&#160;</a></span>lfgGroupFlags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345f">lfgGroupFlags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590" name="a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590"></a>GROUP_LFG_FLAG_APPLY_RANDOM_BUFF&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e" name="a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e"></a>GROUP_LFG_FLAG_IS_RANDOM_INSTANCE&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc" name="a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc"></a>GROUP_LFG_FLAG_IS_HEROIC&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">  125</span>{</div>
-<div class="line"><span class="lineno">  126</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590">GROUP_LFG_FLAG_APPLY_RANDOM_BUFF</a>        = 0x001,</div>
-<div class="line"><span class="lineno">  127</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e">GROUP_LFG_FLAG_IS_RANDOM_INSTANCE</a>       = 0x002,</div>
-<div class="line"><span class="lineno">  128</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc">GROUP_LFG_FLAG_IS_HEROIC</a>                = 0x004</div>
-<div class="line"><span class="lineno">  129</span>};</div>
-<div class="ttc" id="aa03119_html_a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc"><div class="ttname"><a href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa1ed91d7e1faa0986f9353cad3ddf1cfc">GROUP_LFG_FLAG_IS_HEROIC</a></div><div class="ttdeci">@ GROUP_LFG_FLAG_IS_HEROIC</div><div class="ttdef"><b>Definition:</b> Group.h:128</div></div>
-<div class="ttc" id="aa03119_html_a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590"><div class="ttname"><a href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345fa7531c04c229a92e02108024d2d5e3590">GROUP_LFG_FLAG_APPLY_RANDOM_BUFF</a></div><div class="ttdeci">@ GROUP_LFG_FLAG_APPLY_RANDOM_BUFF</div><div class="ttdef"><b>Definition:</b> Group.h:126</div></div>
-<div class="ttc" id="aa03119_html_a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e"><div class="ttname"><a href="../../d2/df0/a03119.html#a76b58859b594b12f70d10ee9ee17345faebe9e5142f049394b9311d27ab5d1f2e">GROUP_LFG_FLAG_IS_RANDOM_INSTANCE</a></div><div class="ttdeci">@ GROUP_LFG_FLAG_IS_RANDOM_INSTANCE</div><div class="ttdef"><b>Definition:</b> Group.h:127</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a1cf1e13f9c5c24c7e321364f6d349d5f" name="a1cf1e13f9c5c24c7e321364f6d349d5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1cf1e13f9c5c24c7e321364f6d349d5f">&#9670;&#160;</a></span>RollVote</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5f">RollVote</a> : <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f" name="a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f"></a>PASS&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a" name="a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a"></a>NEED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10" name="a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10"></a>GREED&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13" name="a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13"></a>DISENCHANT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a" name="a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a"></a>NOT_EMITED_YET&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e" name="a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e"></a>NOT_VALID&#160;</td><td class="fielddoc"></td></tr>
-</table>
-<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
-<div class="line"><span class="lineno">   50</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f">PASS</a>              = 0,</div>
-<div class="line"><span class="lineno">   51</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a">NEED</a>              = 1,</div>
-<div class="line"><span class="lineno">   52</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10">GREED</a>             = 2,</div>
-<div class="line"><span class="lineno">   53</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13">DISENCHANT</a>        = 3,</div>
-<div class="line"><span class="lineno">   54</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a">NOT_EMITED_YET</a>    = 4,</div>
-<div class="line"><span class="lineno">   55</span>    <a class="code hl_enumvalue" href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e">NOT_VALID</a>         = 5</div>
-<div class="line"><span class="lineno">   56</span>};</div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa0afa825567e442a46d131be6c71cb40f">PASS</a></div><div class="ttdeci">@ PASS</div><div class="ttdef"><b>Definition:</b> Group.h:50</div></div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa1b7e37d6dc247df81321e83d0ffe008a">NOT_EMITED_YET</a></div><div class="ttdeci">@ NOT_EMITED_YET</div><div class="ttdef"><b>Definition:</b> Group.h:54</div></div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa79a6b7f188a0c6c0f32beb8d40d5804a">NEED</a></div><div class="ttdeci">@ NEED</div><div class="ttdef"><b>Definition:</b> Group.h:51</div></div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa7f1ec5eb59564ae05005b9260e1d974e">NOT_VALID</a></div><div class="ttdeci">@ NOT_VALID</div><div class="ttdef"><b>Definition:</b> Group.h:55</div></div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fa899d0f089060a2adb6d35bde6c361d13">DISENCHANT</a></div><div class="ttdeci">@ DISENCHANT</div><div class="ttdef"><b>Definition:</b> Group.h:53</div></div>
-<div class="ttc" id="aa03119_html_a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10"><div class="ttname"><a href="../../d2/df0/a03119.html#a1cf1e13f9c5c24c7e321364f6d349d5fac623c8a2364508457861e33034f25d10">GREED</a></div><div class="ttdeci">@ GREED</div><div class="ttdef"><b>Definition:</b> Group.h:52</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="a65e699af45b8fc9a4a8bac43fe403d5c" name="a65e699af45b8fc9a4a8bac43fe403d5c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65e699af45b8fc9a4a8bac43fe403d5c">&#9670;&#160;</a></span>GroupUpdateLength</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> GroupUpdateLength[<a class="el" href="../../d2/df0/a03119.html#ad409013260cb0aea80c911d24d7b5d00">GROUP_UPDATE_FLAGS_COUNT</a>] = { 0, 2, 2, 2, 1, 2, 2, 2, 2, 4, 8, 8, 1, 2, 2, 2, 1, 2, 2, 8}</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00767">WorldSession::BuildPartyMemberStatsChangedPacket()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01002">Group::GroupLoot()</a>, and <a class="el" href="../../#l01156">Group::NeedBeforeGreed()</a>.</p>
 
 </div>
 </div>
@@ -700,8 +206,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e130f032a9c2fe76630794320043c894.html">Groups</a></li><li class="navelem"><a class="el" href="../../d2/df0/a03119.html">Group.h</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:42:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../dir_f7e0c1f1a42fff32e0ff6393fb6a6d60.html">azerothcore-wotlk</a></li><li class="navelem"><a class="el" href="../../dir_ee82ee7794f367a672177b3bd595def7.html">src</a></li><li class="navelem"><a class="el" href="../../dir_cfd62069f43c6d31c3f6e771507ef478.html">server</a></li><li class="navelem"><a class="el" href="../../dir_355661791026b33f9301c754e4db8b50.html">game</a></li><li class="navelem"><a class="el" href="../../dir_e130f032a9c2fe76630794320043c894.html">Groups</a></li><li class="navelem"><a class="el" href="../../d2/df0/a03119.html">Group.cpp</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:38:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

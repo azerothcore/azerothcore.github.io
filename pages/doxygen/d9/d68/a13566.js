@@ -1,6 +1,7 @@
 var a13566 =
 [
-    [ "npc_eagle_trash_aggro_trigger", "d9/d68/a13566.html#a9d41e8abe764fd0f8cedd888418aafb2", null ],
-    [ "MoveInLineOfSight", "d9/d68/a13566.html#aa8892e7f2bec9f26320cd9749e648ebd", null ],
-    [ "_instance", "d9/d68/a13566.html#a39a222e1eb0a3378c8fcaf1da5629547", null ]
+    [ "spell", "d9/d68/a13566.html#a55423d09b2f1775dc386a36168ad764d", null ],
+    [ "spiritEntry", "d9/d68/a13566.html#a987f010c8577c193898fbfcc4a55c0ee", null ],
+    [ "text", "d9/d68/a13566.html#ab604ad9429083f2e94f6a8d026bc46a5", null ],
+    [ "unaura", "d9/d68/a13566.html#a1b71fc628793ccb9027687b31d9ebcb0", null ]
 ];

@@ -1,5 +1,5 @@
 var a27022 =
 [
-    [ "item_incendiary_explosives", "dd/d9c/a27022.html#a3a10f4e40374cae75a5ed320385a67f9", null ],
-    [ "OnUse", "dd/d9c/a27022.html#a1e566a6a5b6cfb8b7e331a6ea94f77b4", null ]
+    [ "go_soulwellAI", "dd/d9c/a27022.html#af8c28f9d3ddf5fa3591433268d14fc98", null ],
+    [ "GossipHello", "dd/d9c/a27022.html#a3df147478af8930d9b6108a183e9478f", null ]
 ];

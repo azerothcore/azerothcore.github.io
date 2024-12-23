@@ -1,6 +1,6 @@
 var a26174 =
 [
-    [ "HandleSendEvent", "da/d24/a26174.html#a8126102215aa6eedd638b89d1a6b7110", null ],
-    [ "PrepareSpellScript", "da/d24/a26174.html#abc57ba05637e2c51bf2d1fb918a93667", null ],
-    [ "Register", "da/d24/a26174.html#ac37abad48c398bdb22529c1a44327d34", null ]
+    [ "PrepareSpellScript", "da/d24/a26174.html#ac0322966abdb57fbe19c3e2117caa56b", null ],
+    [ "Register", "da/d24/a26174.html#a7ddfa827654b6bb0a11aaddf41dc62f9", null ],
+    [ "SetDest", "da/d24/a26174.html#ad1012e0f8ae1cf2ff18d886e10d6fca6", null ]
 ];

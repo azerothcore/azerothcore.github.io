@@ -1,7 +1,8 @@
 var a07862 =
 [
-    [ "CreatureSpellCooldown", "d4/dad/a07862.html#a6d234a93951992640df5720a2885be3e", null ],
-    [ "CreatureSpellCooldown", "d4/dad/a07862.html#a53364a501b0ce66e05ec0e6638f6cb6e", null ],
-    [ "category", "d4/dad/a07862.html#a27330a80d711087f1894b2ce816c33b8", null ],
-    [ "end", "d4/dad/a07862.html#a9c1c5f2b6e9a6cd015085e79b043e483", null ]
+    [ "TemporaryThreatModifierEvent", "d4/dad/a07862.html#afd58a1128ac6629d7541ba1bfd4ef886", null ],
+    [ "Execute", "d4/dad/a07862.html#a2bbd75ad5e293e78e4bffe880f371d1e", null ],
+    [ "m_owner", "d4/dad/a07862.html#ab786c99d73f0048a993ce7cee8c3b875", null ],
+    [ "m_threatValue", "d4/dad/a07862.html#aacb0f6e66d22a93ff074b4cbcf12b788", null ],
+    [ "m_threatVictimGUID", "d4/dad/a07862.html#aeae82bd80c9b8b08573c6e3baf359f55", null ]
 ];

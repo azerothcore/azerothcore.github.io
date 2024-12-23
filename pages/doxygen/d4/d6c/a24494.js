@@ -1,7 +1,7 @@
 var a24494 =
 [
-    [ "CheckRequirement", "d4/d6c/a24494.html#a6be5f335a15226db87a04548490f488d", null ],
-    [ "PrepareSpellScript", "d4/d6c/a24494.html#a25463eda0ce51a124e8715baf305c8f6", null ],
-    [ "Register", "d4/d6c/a24494.html#a8db5a5597d8f6fe4064799766fb61502", null ],
-    [ "_level", "d4/d6c/a24494.html#a3d6867e8eae9afde2b03acc2e6ebe961", null ]
+    [ "FilterTargets", "d4/d6c/a24494.html#a9abf4baaba572636dba3980e5ae777c5", null ],
+    [ "Load", "d4/d6c/a24494.html#a812e4e461c0ebed6f7c4cc36e88a3367", null ],
+    [ "PrepareSpellScript", "d4/d6c/a24494.html#a4e98fbf669c030263ed2e5759a5bd6e8", null ],
+    [ "Register", "d4/d6c/a24494.html#a2d72f5771d6563260a6e81122e4a2be5", null ]
 ];

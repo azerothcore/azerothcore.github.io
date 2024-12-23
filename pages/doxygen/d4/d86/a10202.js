@@ -1,6 +1,10 @@
 var a10202 =
 [
-    [ "BuyBankSlot", "d4/d86/a10202.html#a0bc11087e9359c6ac762f915b11287d8", null ],
-    [ "Read", "d4/d86/a10202.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb", null ],
-    [ "Banker", "d4/d86/a10202.html#aa9ae5777ab337f37b1c372d39a8474bf", null ]
+    [ "WorldObjectScript", "d4/d86/a10202.html#af044c3699a591c137abc5e03c772890b", null ],
+    [ "IsDatabaseBound", "d4/d86/a10202.html#a48f037dd6152ff68ebef672de68df45e", null ],
+    [ "OnWorldObjectCreate", "d4/d86/a10202.html#a2b32bc661e5a377de98902f3bc16679b", null ],
+    [ "OnWorldObjectDestroy", "d4/d86/a10202.html#a7856d4b561cd99a7f405f86fffd57fef", null ],
+    [ "OnWorldObjectResetMap", "d4/d86/a10202.html#a32e6b907a20d84377e1ddfce79b5cfe1", null ],
+    [ "OnWorldObjectSetMap", "d4/d86/a10202.html#a12cf83d65dded66b41ca54a3c1bd31cb", null ],
+    [ "OnWorldObjectUpdate", "d4/d86/a10202.html#abc139d1aa728f8a70886eed65d28f566", null ]
 ];

@@ -1,5 +1,6 @@
 var a21438 =
 [
-    [ "at_q24545_frostmourne_cavern", "d8/d4b/a21438.html#a76e2d8424b5fcd037fabfa9b878d21e1", null ],
-    [ "OnTrigger", "d8/d4b/a21438.html#a9016ef31fde1bbcaf57a17e64ea8d503", null ]
+    [ "npc_mindless_ghoulAI", "d8/d4b/a21438.html#a4cc0dbd4aa2366115348bc1db273a5e2", null ],
+    [ "CanAIAttack", "d8/d4b/a21438.html#a18fbc44ad760a69d952d003622ec75b2", null ],
+    [ "JustDied", "d8/d4b/a21438.html#a272067bef6dbab24024f7de990c10b64", null ]
 ];

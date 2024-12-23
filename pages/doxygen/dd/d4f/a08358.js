@@ -1,8 +1,7 @@
 var a08358 =
 [
-    [ "EnchantDuration", "dd/d4f/a08358.html#a1ce5f81deaa60494c247673c113632d8", null ],
-    [ "EnchantDuration", "dd/d4f/a08358.html#a52448f2bb8b788193a69fe9a2d8729f3", null ],
-    [ "item", "dd/d4f/a08358.html#ae803f6a9ce9cdb0dbb133bc85b6613ab", null ],
-    [ "leftduration", "dd/d4f/a08358.html#a3f4edafbc9b09cb5ab660bc68af435f3", null ],
-    [ "slot", "dd/d4f/a08358.html#a3de1a8d64aea4c5c1f984a74c6bb017d", null ]
+    [ "IsInSpec", "dd/d4f/a08358.html#a17668f5b6ea479c9e6c0fd2593853a1d", null ],
+    [ "Active", "dd/d4f/a08358.html#a7ddfb4a1cbd77fe84e49b42b9a28bb90", null ],
+    [ "specMask", "dd/d4f/a08358.html#af178fb95c99f0c961bf12435fc7a3fd5", null ],
+    [ "State", "dd/d4f/a08358.html#a54331e3ecac0d39a4fc7a6b8c2c9f532", null ]
 ];

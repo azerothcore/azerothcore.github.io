@@ -1,7 +1,7 @@
 var a10474 =
 [
-    [ "GuildBankTextQueryResult", "d1/df0/a10474.html#aa1e25895e246c3a688d7850e517858d3", null ],
-    [ "Write", "d1/df0/a10474.html#acb6b28dcf56b821e3c0d5b58f6baa2dd", null ],
-    [ "Tab", "d1/df0/a10474.html#abfc5522a0f94086474493db85ed1ef73", null ],
-    [ "Text", "d1/df0/a10474.html#ae78c1d1b802e12efd058987117158ec3", null ]
+    [ "GuildBankDepositMoney", "d1/df0/a10474.html#a967628850b85038d917be69dc71e6a0e", null ],
+    [ "Read", "d1/df0/a10474.html#aa1d4274b057cc4ecec6b078ac4925a94", null ],
+    [ "Banker", "d1/df0/a10474.html#afdeb7ea381853078d515d8a0f157533b", null ],
+    [ "Money", "d1/df0/a10474.html#a41258345b9f83dcf8e374145f517251e", null ]
 ];

@@ -1,10 +1,10 @@
 var a08698 =
 [
-    [ "AnyDeadUnitObjectInRangeCheck", "d3/dfd/a08698.html#ad51c7d9c256d8d769e7e5df2a618f233", null ],
-    [ "operator()", "d3/dfd/a08698.html#a71355418a935e1e4c4f5294c0e6a244f", null ],
-    [ "operator()", "d3/dfd/a08698.html#ae885f49537043421a92b44c201bec358", null ],
-    [ "operator()", "d3/dfd/a08698.html#a92b2dcfedf97677e84f46ee0e3affb91", null ],
-    [ "operator()", "d3/dfd/a08698.html#ae7a76a9bcc28c6e4705a2885b02be20d", null ],
-    [ "i_range", "d3/dfd/a08698.html#a1a95cfd469f27284e6ff35e9856bddcb", null ],
-    [ "i_searchObj", "d3/dfd/a08698.html#acf10f61f95961ff4b9fd4a8c162fa029", null ]
+    [ "mapId", "d3/dfd/a08698.html#a828d8b93918ea8ba695e0c5e597c855d", null ],
+    [ "name", "d3/dfd/a08698.html#a9dd0dacb5825cf3afd117c22ac5ebf21", null ],
+    [ "orientation", "d3/dfd/a08698.html#a49b4a83290dbe39ab0be79a8ae2f03a6", null ],
+    [ "position_x", "d3/dfd/a08698.html#a65e7390a1dbb615a155c4f163b830e11", null ],
+    [ "position_y", "d3/dfd/a08698.html#a3d3f398cd23566dce721fefeae7af33c", null ],
+    [ "position_z", "d3/dfd/a08698.html#a9ff9a74b00016df6df7c27ebce8ff3fb", null ],
+    [ "wnameLow", "d3/dfd/a08698.html#ac63cbb609eadc584fe61d33fb709c4d6", null ]
 ];

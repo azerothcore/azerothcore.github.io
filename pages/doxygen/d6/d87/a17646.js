@@ -1,12 +1,16 @@
 var a17646 =
 [
-    [ "npc_precious_iccAI", "d6/d87/a17646.html#a90dff89c652339ecf7479d2c9233962a", null ],
-    [ "JustDied", "d6/d87/a17646.html#a06671144929a3783f17397b818016032", null ],
-    [ "JustEngagedWith", "d6/d87/a17646.html#a05cd30f0bf149d16c75ad3f717cb9dcc", null ],
-    [ "JustSummoned", "d6/d87/a17646.html#adafed6974cbd70ccfc0f9ee83732d162", null ],
-    [ "Reset", "d6/d87/a17646.html#a9ecb9771140d1248c08c56886c8d4ca9", null ],
-    [ "SummonedCreatureDespawn", "d6/d87/a17646.html#af59e24c588861fe7d1bcd456780f571a", null ],
-    [ "UpdateAI", "d6/d87/a17646.html#a1fd3a4d7d16bb93be68d8b135546ab1e", null ],
-    [ "events", "d6/d87/a17646.html#a4ac57f4ffe0886f463378b42525e2e4d", null ],
-    [ "summons", "d6/d87/a17646.html#ab752e504c7cf463a4447a07fbb67211c", null ]
+    [ "boss_rotfaceAI", "d6/d87/a17646.html#abe4c4df1732127814a507b0f99203ebb", null ],
+    [ "EnterEvadeMode", "d6/d87/a17646.html#a8b166241350c7437c0baab2bc783dc93", null ],
+    [ "JustDied", "d6/d87/a17646.html#ab5ba6f23e4a0f097386452bdd497ef5a", null ],
+    [ "JustEngagedWith", "d6/d87/a17646.html#aa34831a7c2986451ff518a76547edecc", null ],
+    [ "JustReachedHome", "d6/d87/a17646.html#adac69ee7aca11d5d355ef71a11a39a1d", null ],
+    [ "JustSummoned", "d6/d87/a17646.html#aaa273c65b0545931797057ca4cdab1eb", null ],
+    [ "KilledUnit", "d6/d87/a17646.html#a9356f21962b312eccfba1b3e75afaba0", null ],
+    [ "Reset", "d6/d87/a17646.html#aed06635aabcb47fd700ab1a894bad13c", null ],
+    [ "SpellHitTarget", "d6/d87/a17646.html#a99d88373a20464fac3ebf035430c2e75", null ],
+    [ "UpdateAI", "d6/d87/a17646.html#aaf47878572d23bfb22f2ae77fed8d95e", null ],
+    [ "_oozeFloodDummyGUIDs", "d6/d87/a17646.html#a28e859c796fc210cba9a1ac7bfd0124a", null ],
+    [ "_oozeFloodStage", "d6/d87/a17646.html#aa007ed2c05914b1ce664d347bb04abaa", null ],
+    [ "infectionCooldown", "d6/d87/a17646.html#ae6fb76012902540a55870ed7b2f3fc7b", null ]
 ];

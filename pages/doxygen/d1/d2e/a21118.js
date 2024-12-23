@@ -1,6 +1,6 @@
 var a21118 =
 [
-    [ "HandleEffectPeriodic", "d1/d2e/a21118.html#affa7fb949d4b1a05813df0da17fef3bb", null ],
-    [ "PrepareAuraScript", "d1/d2e/a21118.html#a79dbb866c06cd1c031cae2f1370146d5", null ],
-    [ "Register", "d1/d2e/a21118.html#a1fb46036f0860440f3a9201e0d86cdc4", null ]
+    [ "npc_azure_mage_slayerAI", "de/def/a21122.html", "de/def/a21122" ],
+    [ "npc_azure_mage_slayer", "d1/d2e/a21118.html#ad5e5453235c224f4fac40244516dd1ad", null ],
+    [ "GetAI", "d1/d2e/a21118.html#a9b795915100f47b11a65abdfdcbf39f4", null ]
 ];

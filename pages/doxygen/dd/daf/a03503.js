@@ -1,9 +1,9 @@
 var a03503 =
 [
-    [ "GlobalCooldown", "df/dc7/a08450.html", "df/dc7/a08450" ],
-    [ "GlobalCooldownMgr", "d1/d8b/a08454.html", "d1/d8b/a08454" ],
-    [ "UnitActionBarEntry", "dd/da3/a08458.html", "dd/da3/a08458" ],
-    [ "CharmInfo", "d8/dea/a08462.html", "d8/dea/a08462" ],
+    [ "GlobalCooldown", "db/df9/a08518.html", "db/df9/a08518" ],
+    [ "GlobalCooldownMgr", "d0/d32/a08522.html", "d0/d32/a08522" ],
+    [ "UnitActionBarEntry", "d6/d15/a08526.html", "d6/d15/a08526" ],
+    [ "CharmInfo", "de/d71/a08530.html", "de/d71/a08530" ],
     [ "MAKE_UNIT_ACTION_BUTTON", "dd/daf/a03503.html#aa4580ef0cb84c2cc5983e75cb92e3ed1", null ],
     [ "MAX_SPELL_CHARM", "dd/daf/a03503.html#a05307279d313f131c83ace9bf30d5722", null ],
     [ "MAX_SPELL_CONTROL_BAR", "dd/daf/a03503.html#af3f4a89bfde2856dbf998cc7d89f8c51", null ],

@@ -1,6 +1,6 @@
 var a20074 =
 [
-    [ "npc_ulduar_mimiron_rocketAI", "d8/da5/a20078.html", "d8/da5/a20078" ],
-    [ "npc_ulduar_mimiron_rocket", "d2/d24/a20074.html#afcd90dbd893ec5e8424eb4197e7dec6d", null ],
-    [ "GetAI", "d2/d24/a20074.html#ad1c6162db0f69a1a6b5016ae505e5535", null ]
+    [ "OnPeriodic", "d2/d24/a20074.html#a8a12342f694499043e8ed4446fd92d36", null ],
+    [ "PrepareAuraScript", "d2/d24/a20074.html#a9294210ece0c3bcda0639d1fc486cc9a", null ],
+    [ "Register", "d2/d24/a20074.html#a381709d53101832de6b2161c4a33a0d4", null ]
 ];

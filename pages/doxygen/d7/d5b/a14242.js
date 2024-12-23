@@ -1,6 +1,5 @@
 var a14242 =
 [
-    [ "FilterTargets", "d7/d5b/a14242.html#ae2d33bee9d8d8c29f07ed60bbaf3e7b0", null ],
-    [ "PrepareSpellScript", "d7/d5b/a14242.html#a2b7ec1db13418f2e369faab6ec8422b4", null ],
-    [ "Register", "d7/d5b/a14242.html#a6375482bd9d1fc6c6941607273c506dc", null ]
+    [ "achievement_pb_pilgrims_peril", "d7/d5b/a14242.html#a9516eab18d7e1401a5637913d8ec9595", null ],
+    [ "OnCheck", "d7/d5b/a14242.html#a78c92eab532448080c1d28dc8fcabaca", null ]
 ];

@@ -1,6 +1,7 @@
 var a18406 =
 [
-    [ "npc_icc_skybreaker_hierophantAI", "dc/d16/a18410.html", "dc/d16/a18410" ],
-    [ "npc_icc_skybreaker_hierophant", "d8/dfd/a18406.html#a4cd3b2aa3d71c30853c687da8b8ca959", null ],
-    [ "GetAI", "d8/dfd/a18406.html#a2b0627bf059dfbce556bfa3ed4e97552", null ]
+    [ "Land", "d8/dfd/a18406.html#ad2fd3d7c81e3ef22cb3767914f649fd0", null ],
+    [ "PrepareSpellScript", "d8/dfd/a18406.html#a31e45adb87719c311fb5b94b2b744487", null ],
+    [ "Register", "d8/dfd/a18406.html#a652eca6ec8079b2835d911807857c8a8", null ],
+    [ "RemoveAliveTarget", "d8/dfd/a18406.html#abdb5f624b30a046eed9ca6ad7c347010", null ]
 ];

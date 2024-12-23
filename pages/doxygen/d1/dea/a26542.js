@@ -1,7 +1,7 @@
 var a26542 =
 [
-    [ "HandleDummy", "d1/dea/a26542.html#a3af91500357eb127f813334bdf538dbd", null ],
-    [ "PrepareSpellScript", "d1/dea/a26542.html#ae34ff5e6027efecc34fa770690df5887", null ],
-    [ "Register", "d1/dea/a26542.html#add4e4d484008d1e1cf63e36c6b6e9757", null ],
-    [ "Validate", "d1/dea/a26542.html#a0b107442c0b76a018cc019f776c0b785", null ]
+    [ "HandleProc", "d1/dea/a26542.html#a2a1d6c4a6fdcfbb0ab34769649dbe321", null ],
+    [ "PrepareAuraScript", "d1/dea/a26542.html#afa1f4cba7a02cb4a92a67c6e41d3349c", null ],
+    [ "Register", "d1/dea/a26542.html#ae3711d9dff0acd196b1fae8e2285fb2a", null ],
+    [ "Validate", "d1/dea/a26542.html#a77b31ab1d2952c5d77e8a1ca9cf18405", null ]
 ];

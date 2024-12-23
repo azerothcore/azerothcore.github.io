@@ -1,7 +1,8 @@
 var a20254 =
 [
-    [ "boss_thorim_trapAI", "da/d29/a20254.html#aaab278dc6557a49624099b0064b8d6f3", null ],
-    [ "Reset", "da/d29/a20254.html#ab0715e75a475409ffb6c623bf363a65d", null ],
-    [ "UpdateAI", "da/d29/a20254.html#a40078609a67aa029f71df7971449b056", null ],
-    [ "_checkTimer", "da/d29/a20254.html#ad3ed8edb4d06e5b98a5afc82170f3233", null ]
+    [ "npc_ulduar_dark_rune_guardianAI", "da/d29/a20254.html#aedb43124c923621aadecb77511204fc6", null ],
+    [ "CanAIAttack", "da/d29/a20254.html#af23cb4a19d28f5aa57ba96de95f87c87", null ],
+    [ "Reset", "da/d29/a20254.html#a4c1f53fbbc6189ca9ee0420bc4198684", null ],
+    [ "UpdateAI", "da/d29/a20254.html#ad21127654d5511b6b1d9b22cdd77bd08", null ],
+    [ "timer2", "da/d29/a20254.html#aa66f1aa48cf928ac12751cb3ca2358f3", null ]
 ];

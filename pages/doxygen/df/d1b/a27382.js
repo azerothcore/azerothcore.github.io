@@ -1,6 +1,6 @@
 var a27382 =
 [
-    [ "npc_stable_masterAI", "dd/d50/a27386.html", "dd/d50/a27386" ],
-    [ "npc_stable_master", "df/d1b/a27382.html#ad327340f47e10bec7f077192227b0899", null ],
-    [ "GetAI", "df/d1b/a27382.html#a7e34e18d2dad465eb88b0388fa830490", null ]
+    [ "X", "df/d1b/a27382.html#a55bda49b2eb919415afaf780ca1977de", null ],
+    [ "Y", "df/d1b/a27382.html#a0bf22799258050a9b12ddc14bb2b4b11", null ],
+    [ "Z", "df/d1b/a27382.html#a7f0ceece775146d825d19a3cd22e5da3", null ]
 ];

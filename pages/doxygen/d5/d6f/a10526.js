@@ -1,9 +1,6 @@
 var a10526 =
 [
-    [ "RandomRoll", "d5/d6f/a10526.html#abc64acf498b3dc70b9afd23c399e3db8", null ],
-    [ "Write", "d5/d6f/a10526.html#aab5879874745603dd448a7f5084d60d4", null ],
-    [ "Max", "d5/d6f/a10526.html#a21460b09eddfbee6ba022f88b5f37cc7", null ],
-    [ "Min", "d5/d6f/a10526.html#aee5564c9fc17613b9f30fc8ce88944c6", null ],
-    [ "Result", "d5/d6f/a10526.html#a34fd2c1d018bb292836724671163ff07", null ],
-    [ "Roller", "d5/d6f/a10526.html#af02aa97826259885791d0f4afc0c1a84", null ]
+    [ "GuildBankTextQuery", "d5/d6f/a10526.html#ab74c6b61182349e3697d6b8f2f3393d2", null ],
+    [ "Read", "d5/d6f/a10526.html#af20bd5c8e58b891028613625fb14807d", null ],
+    [ "Tab", "d5/d6f/a10526.html#a368054d83fb99317ffd14b4d79ffd0af", null ]
 ];

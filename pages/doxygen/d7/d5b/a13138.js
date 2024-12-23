@@ -1,6 +1,7 @@
 var a13138 =
 [
-    [ "instance_sunwell_plateau_InstanceMapScript", "d7/d5b/a13138.html#aae99b35ff990fd7486d5b70693b6729a", null ],
-    [ "OnCreatureCreate", "d7/d5b/a13138.html#a7a81957fbb79b8ac77be7e9f1c5f8d00", null ],
-    [ "OnPlayerEnter", "d7/d5b/a13138.html#ab45827eaa92aea4746378b3c11fda219", null ]
+    [ "HandleScriptEffect", "d7/d5b/a13138.html#ae631c634c77cc207338e3549a664969b", null ],
+    [ "PrepareSpellScript", "d7/d5b/a13138.html#ac9f825f10512be5849c46460e9cdbec8", null ],
+    [ "Register", "d7/d5b/a13138.html#ac8a4d26de8c78942efc5cfbf78c64633", null ],
+    [ "Validate", "d7/d5b/a13138.html#ab05236bc29c00cfc7a5dfb88a8c2ee98", null ]
 ];

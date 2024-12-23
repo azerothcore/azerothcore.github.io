@@ -1,10 +1,12 @@
 var a07106 =
 [
-    [ "SelectionPool", "dc/da2/a07106.html#a9ddcca26fb3f4c635d7bcbb045542885", null ],
-    [ "AddGroup", "dc/da2/a07106.html#a87fe4747536355ad7affda76640a082e", null ],
-    [ "GetPlayerCount", "dc/da2/a07106.html#af344a6e6bb42609887ee8a3022e9d8e5", null ],
-    [ "Init", "dc/da2/a07106.html#a84c3fe684033e8744ce6d6bc50526ee7", null ],
-    [ "KickGroup", "dc/da2/a07106.html#a74fb708546a8612ca52b24b8472b71ef", null ],
-    [ "PlayerCount", "dc/da2/a07106.html#a0c08c47f68dbb45175efc524f4553e16", null ],
-    [ "SelectedGroups", "dc/da2/a07106.html#a4387ef77c341f90758d6c64c4ef2c475", null ]
+    [ "Arena", "dc/da2/a07106.html#a74f105bc709d4728fb07f1984abfd345", null ],
+    [ "AddPlayer", "dc/da2/a07106.html#ae24fe304d35c0c09379203135e936450", null ],
+    [ "CheckWinConditions", "dc/da2/a07106.html#a886b586f7ab6fc89d76e86cb811989b8", null ],
+    [ "EndBattleground", "dc/da2/a07106.html#a2be61602189b530a16a9ca954d180914", null ],
+    [ "FillInitialWorldStates", "dc/da2/a07106.html#a41e53f03488058fb635e42b525db5068", null ],
+    [ "HandleKillPlayer", "dc/da2/a07106.html#ae0a56f524bfc9eec6753874ce35d0466", null ],
+    [ "RemovePlayer", "dc/da2/a07106.html#ab5348b8bd4bfd58c01cdf61f16f72db1", null ],
+    [ "RemovePlayerAtLeave", "dc/da2/a07106.html#acae21233e11b21b612e5c051bfa7720e", null ],
+    [ "UpdateArenaWorldState", "dc/da2/a07106.html#a422925ee29e9a5f64aeb4264169ff2d6", null ]
 ];

@@ -1,8 +1,10 @@
 var a28014 =
 [
-    [ "TimeSeg", "d6/d14/a28014.html#ab94639ba8e26b215ebd31163967574d3", null ],
-    [ "TransportEntry", "d6/d14/a28014.html#a859d25b3c11839ad7e37facd40dc79df", null ],
-    [ "X", "d6/d14/a28014.html#a8fbd166503396e33a4ad77448bf307ea", null ],
-    [ "Y", "d6/d14/a28014.html#a67c279b26cebd8e5c81c36576b145af6", null ],
-    [ "Z", "d6/d14/a28014.html#a680689c57479a2cc1ec72ab97204d3e7", null ]
+    [ "attackSpeed", "d6/d14/a28014.html#ab5242f7367e8799a556176178c72fc88", null ],
+    [ "creatureType", "d6/d14/a28014.html#a3dff9074b85261932ed8a8a550c5395b", null ],
+    [ "flags1", "d6/d14/a28014.html#a026745f2ce754d754858d69ee219b518", null ],
+    [ "ID", "d6/d14/a28014.html#a72853ed36016e05e4cd14a9d89e9d6a8", null ],
+    [ "modelID_A", "d6/d14/a28014.html#a86dfa61342583d920b7d8496bce4b49d", null ],
+    [ "modelID_H", "d6/d14/a28014.html#a1ee597d6fd02507b682874929645e01d", null ],
+    [ "stanceSpell", "d6/d14/a28014.html#a08f54b905e905fb5a59e449f8c613c08", null ]
 ];

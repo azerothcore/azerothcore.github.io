@@ -1,15 +1,12 @@
 var a14490 =
 [
-    [ "npc_time_rift", "d5/d04/a14490.html#ab553bcc40699a63310feaaa7b1bd2604", null ],
-    [ "DoSelectSummon", "d5/d04/a14490.html#af2932c60efaea64d27d52b118b9a8095", null ],
-    [ "DoSummonAtRift", "d5/d04/a14490.html#a6cb4717848efe7e5e0b0113a9ff7dcb5", null ],
-    [ "JustSummoned", "d5/d04/a14490.html#a1d96b081db3cb2a9c40f5adb1c9b109d", null ],
-    [ "Reset", "d5/d04/a14490.html#ad08ca716f120a45ee1688e03d2049aba", null ],
-    [ "SummonedCreatureDies", "d5/d04/a14490.html#ae0ebd0268454ac0cac83235afd7f6363", null ],
-    [ "UpdateAI", "d5/d04/a14490.html#ab5924378c7978c6fae95f9861040c63d", null ],
-    [ "_events", "d5/d04/a14490.html#a12ffd459f8d63f299269da5b65f60128", null ],
-    [ "_instance", "d5/d04/a14490.html#a8eab9c3011c885321d59e2884318d0e8", null ],
-    [ "_riftKeeperGUID", "d5/d04/a14490.html#ad554d8266ded70cadd8c00a3ff5a3321", null ],
-    [ "waveMobIndex", "d5/d04/a14490.html#aa312223ece9f0f1c4ac2861aed3988a9", null ],
-    [ "waveMobs", "d5/d04/a14490.html#a7872706f9b5bdee7e6ca2d94e39e592f", null ]
+    [ "boss_lieutenant_drake", "d5/d04/a14490.html#a67e00ef68d5b07023cc9dc7bd6a2289b", null ],
+    [ "InitializeAI", "d5/d04/a14490.html#a2b3eb857c0711b89b6e7a6f3f5f05441", null ],
+    [ "JustDied", "d5/d04/a14490.html#aca7654e30aac96fa509f99f3447121ec", null ],
+    [ "JustEngagedWith", "d5/d04/a14490.html#ae31ac13106d09b8b447aa8fd9d864e41", null ],
+    [ "KilledUnit", "d5/d04/a14490.html#a833c889c28ea35a6198fe753b604a8ed", null ],
+    [ "MovementInform", "d5/d04/a14490.html#aec6e332bc5739552cbbec27569c55759", null ],
+    [ "UpdateAI", "d5/d04/a14490.html#ad898722dfe01c2e4f814fc5af9f057b8", null ],
+    [ "pathId", "d5/d04/a14490.html#ac63f9c885296a797799c0cd83b0ade64", null ],
+    [ "runSecondPath", "d5/d04/a14490.html#a3ea53e2048224ac3bbc4dceda316d7c4", null ]
 ];

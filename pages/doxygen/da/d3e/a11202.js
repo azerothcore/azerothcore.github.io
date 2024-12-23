@@ -1,6 +1,25 @@
 var a11202 =
 [
-    [ "Command", "da/d3e/a11202.html#a65dc9a4861ab63743146c65a0a6249f2", null ],
-    [ "Data", "da/d3e/a11202.html#abda0f8cc15c7fb45fa81fcf5ccad8d08", null ],
-    [ "DataSize", "da/d3e/a11202.html#a279f37acfa44c06ae14c5a544dd7baf6", null ]
+    [ "DiffTableArray", "da/d3e/a11202.html#a38ae34827b0de71df0eeb31c1af9e07e", null ],
+    [ "UpdateTime", "da/d3e/a11202.html#a5ca37c4eb70f9131276099b65256243b", null ],
+    [ "GetAverageUpdateTime", "da/d3e/a11202.html#a12ec461e5d33845ed375c0965fb024ae", null ],
+    [ "GetDatasetSize", "da/d3e/a11202.html#a2073ed7e673a5db381432267861d64ec", null ],
+    [ "GetLastUpdateTime", "da/d3e/a11202.html#a28ab3fb6bd445bf1b36f7cb3b73acff2", null ],
+    [ "GetMaxUpdateTime", "da/d3e/a11202.html#ab5b77fcf7746e613e2997601fac659fc", null ],
+    [ "GetMaxUpdateTimeOfCurrentTable", "da/d3e/a11202.html#ab5f1c144429d1a8fe3937fd22cab8206", null ],
+    [ "GetPercentile", "da/d3e/a11202.html#a45b460f5fec335763e20bfe06fa33980", null ],
+    [ "GetTimeWeightedAverageUpdateTime", "da/d3e/a11202.html#a29b8d4c5394820b71aaf8864ba4b8327", null ],
+    [ "RecordUpdateTimeReset", "da/d3e/a11202.html#a9089665d344f9b0b4e85351dd04e0a5b", null ],
+    [ "SortUpdateTimeDataTable", "da/d3e/a11202.html#a451d39365491ae8d38816783865d2a75", null ],
+    [ "UpdateWithDiff", "da/d3e/a11202.html#a8837b608acde446f1eda813ca530c63f", null ],
+    [ "_averageUpdateTime", "da/d3e/a11202.html#a61337ef6e640cd4ce48019ba6cd4fafd", null ],
+    [ "_maxUpdateTime", "da/d3e/a11202.html#a65ff51e1503e11ac8f218876afb7afce", null ],
+    [ "_maxUpdateTimeOfCurrentTable", "da/d3e/a11202.html#ad44ab22d8f9cdbad920887109e52609a", null ],
+    [ "_maxUpdateTimeOfLastTable", "da/d3e/a11202.html#ae013fcb0d7df86c35d9caf355a6968ff", null ],
+    [ "_needsReorder", "da/d3e/a11202.html#ac3ccabe6dee6e0e2343fab39a971e888", null ],
+    [ "_orderedUpdateTimeDataTable", "da/d3e/a11202.html#a6cf15deccacbceff85216c7ceecd98b3", null ],
+    [ "_recordedTime", "da/d3e/a11202.html#a8736328e4f88bad027298a6d0bbf416c", null ],
+    [ "_totalUpdateTime", "da/d3e/a11202.html#a1158e0c65b46bd16c782b007bfc2fa3e", null ],
+    [ "_updateTimeDataTable", "da/d3e/a11202.html#abb8749ed72a0bd159034132fb2a8b628", null ],
+    [ "_updateTimeTableIndex", "da/d3e/a11202.html#acee0682ebe0d6c2097209262ebee6f80", null ]
 ];

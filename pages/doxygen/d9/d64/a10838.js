@@ -1,13 +1,8 @@
 var a10838 =
 [
-    [ "alive", "d9/d64/a10838.html#aebeb2f67bf8646770570e5564fb01d4d", null ],
-    [ "crit", "d9/d64/a10838.html#a908278bd46f9be3e1191f4883f9eb32f", null ],
-    [ "damage", "d9/d64/a10838.html#a5bdf23f41a4a748f96dd9fffa8e8a838", null ],
-    [ "effectMask", "d9/d64/a10838.html#afb839b2b409a61e4d63de03dbce2abcb", null ],
-    [ "missCondition", "d9/d64/a10838.html#a6c17740427f4f90c7c2e4fb4854ab4b3", null ],
-    [ "processed", "d9/d64/a10838.html#a2de96d62297ff614fc3702bec035ce5b", null ],
-    [ "reflectResult", "d9/d64/a10838.html#add2beb55eb3313e474d947fd3eb1fc65", null ],
-    [ "scaleAura", "d9/d64/a10838.html#a89bba366b26686d41288e9b2e725eb75", null ],
-    [ "targetGUID", "d9/d64/a10838.html#acf55c1dd6f00c94296c592d988f959cf", null ],
-    [ "timeDelay", "d9/d64/a10838.html#abcf1acd0c3d50c2264253dc9c052795a", null ]
+    [ "SkillDiscoveryEntry", "d9/d64/a10838.html#a54c0f12153c6e63a37e5da44d233b271", null ],
+    [ "SkillDiscoveryEntry", "d9/d64/a10838.html#a301cae078fe1943cae045e94dc3d38ad", null ],
+    [ "chance", "d9/d64/a10838.html#a71cf2c48937e5a2a3c6dd8c499a860a7", null ],
+    [ "reqSkillValue", "d9/d64/a10838.html#a61e0edc8fee1fa4045d846668d08449c", null ],
+    [ "spellId", "d9/d64/a10838.html#a75ca40729917317173b2953c8f47f833", null ]
 ];

@@ -1,7 +1,6 @@
 var a17562 =
 [
-    [ "HandleSummon", "d6/dc8/a17562.html#a8a96bd3a1b3cfaff09e05535eca927a9", null ],
-    [ "PrepareSpellScript", "d6/dc8/a17562.html#a0213cd8e5e79aba8ba80583ceda88b95", null ],
-    [ "Register", "d6/dc8/a17562.html#a01281869dc98a0af5027695391f1221f", null ],
-    [ "Validate", "d6/dc8/a17562.html#a26675411e5f86e6d31f62762a3fdcd70", null ]
+    [ "PrepareSpellScript", "d6/dc8/a17562.html#a16eadb50b6038f16ea28464d00df3381", null ],
+    [ "Register", "d6/dc8/a17562.html#ac6e304d391011863b8eff8105fab5191", null ],
+    [ "SelectDest", "d6/dc8/a17562.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
 ];

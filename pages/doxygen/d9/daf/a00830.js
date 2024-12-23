@@ -1,6 +1,6 @@
 var a00830 =
 [
-    [ "boss_pandemonius", "df/d55/a22262.html", "df/d55/a22262" ],
+    [ "boss_pandemonius", "d0/d8c/a22318.html", "d0/d8c/a22318" ],
     [ "Groups", "d9/daf/a00830.html#aab072245ab577ff0e12efe20a536b99a", [
       [ "GROUP_PRECOMBAT_TALK", "d1/df7/a02501.html#aab072245ab577ff0e12efe20a536b99aa3e7953992f23b2eba8d8498bfc66e01d", null ],
       [ "PORTAL_PHASE", "dc/de1/a02513.html#aab072245ab577ff0e12efe20a536b99aa8f7d8b62b79ce76fc356b355521db829", null ],

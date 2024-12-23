@@ -1,6 +1,8 @@
 var a21570 =
 [
-    [ "CheckRequirement", "d9/d1a/a21570.html#ad58d71b5c2bc10d9ffbfe472bd5b1a32", null ],
-    [ "PrepareSpellScript", "d9/d1a/a21570.html#ae621e95feb69b54f9aef5d77577a15ae", null ],
-    [ "Register", "d9/d1a/a21570.html#ab0b03fd2d1a0ed6720acc45221a582f6", null ]
+    [ "AfterApply", "d9/d1a/a21570.html#a57279552b867251e9d2ee6a4ff5d7914", null ],
+    [ "PeriodicTick", "d9/d1a/a21570.html#a2e86aa6efe6ab137926c1dfd1bd26a95", null ],
+    [ "PrepareAuraScript", "d9/d1a/a21570.html#a9e1b74bf2d28a367caefdc90c34743c8", null ],
+    [ "Register", "d9/d1a/a21570.html#a69eb0ca43a15d4995ad219459c2b39d6", null ],
+    [ "Validate", "d9/d1a/a21570.html#a946248656cb755f85dd93fd4d607c9a7", null ]
 ];

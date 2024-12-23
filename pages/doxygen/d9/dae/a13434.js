@@ -1,5 +1,8 @@
 var a13434 =
 [
-    [ "npc_andorhal_towerAI", "d9/dae/a13434.html#ad2f8a14f2adfe1418a23de274493f85e", null ],
-    [ "MoveInLineOfSight", "d9/dae/a13434.html#a1165ee0e066dcaeb300096e55758389b", null ]
+    [ "npc_varian_wrynnAI", "d3/d87/a13438.html", "d3/d87/a13438" ],
+    [ "npc_varian_wrynn", "d9/dae/a13434.html#a1dd8e4664da693f3e4ecdd4581b96c87", null ],
+    [ "GetAI", "d9/dae/a13434.html#aa5aa46f24a128e84ac2a837c012b2e02", null ],
+    [ "OnGossipHello", "d9/dae/a13434.html#a95f6ff3f2a7db807b278d019e187ddec", null ],
+    [ "OnGossipSelect", "d9/dae/a13434.html#a65d02bafebe9c5a45d707f8990d680a3", null ]
 ];

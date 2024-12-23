@@ -1,7 +1,6 @@
 var a24798 =
 [
-    [ "HandleScriptEffect", "d9/d05/a24798.html#a4444d5f146e875bae40edbcc8ed408cb", null ],
-    [ "PrepareSpellScript", "d9/d05/a24798.html#af4320dd6567d8c9cb2a1492095a98459", null ],
-    [ "Register", "d9/d05/a24798.html#ab9360c3a883dd5a7df9836306d9762ec", null ],
-    [ "Validate", "d9/d05/a24798.html#a51ebef5e7fff9dfaab553ecae7be732f", null ]
+    [ "CheckSeat", "d9/d05/a24798.html#ab4e2376e084bc2cf0e30a91e3e5a270c", null ],
+    [ "PrepareSpellScript", "d9/d05/a24798.html#aaa9a6f31ec57542dcd657874c4eb52aa", null ],
+    [ "Register", "d9/d05/a24798.html#a6feb7c77ba258688a83bdb86e9ee53f8", null ]
 ];

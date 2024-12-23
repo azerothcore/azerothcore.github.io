@@ -1,7 +1,6 @@
 var a21718 =
 [
-    [ "Absorb", "d8/d88/a21718.html#a784b48553696734abac77545df2fc045", null ],
-    [ "CalculateAmount", "d8/d88/a21718.html#a456ee99a71062f6217bda7561e4e7766", null ],
-    [ "PrepareAuraScript", "d8/d88/a21718.html#a456b1b70fd6d9b6642ec959677fe08ff", null ],
-    [ "Register", "d8/d88/a21718.html#aa3260fa9a1a918e13ccfc9cd57f59d19", null ]
+    [ "npc_black_knight_graveyardAI", "d6/d28/a21722.html", "d6/d28/a21722" ],
+    [ "npc_black_knight_graveyard", "d8/d88/a21718.html#a2ce61ba254916f1f8b7a7658f96b67d5", null ],
+    [ "GetAI", "d8/d88/a21718.html#aab382cd1b7561c0db9c9f4c81247e540", null ]
 ];

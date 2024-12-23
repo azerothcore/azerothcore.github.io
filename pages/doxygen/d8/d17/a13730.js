@@ -1,11 +1,9 @@
 var a13730 =
 [
-    [ "boss_marli", "d8/d17/a13730.html#abba94b400523047bfa9e3a5b34b1ee54", null ],
-    [ "_chargePlayer", "d8/d17/a13730.html#a54efa8663716fb32d6e390b76dc89ee1", null ],
-    [ "_schedulePhaseSpider", "d8/d17/a13730.html#aff86376080fdcb9773e0a4b2751d3ae6", null ],
-    [ "_schedulePhaseTroll", "d8/d17/a13730.html#ad6977930dac1cddd2162f7db1b239c83", null ],
-    [ "JustDied", "d8/d17/a13730.html#a10ab29949ef17e0f9ebd991dc70262c7", null ],
-    [ "JustEngagedWith", "d8/d17/a13730.html#ac74bd382c3dc826f7e4426bec3557094", null ],
-    [ "Reset", "d8/d17/a13730.html#ada18ae0feb0c512267ec6bd83b8ac591", null ],
-    [ "_phase", "d8/d17/a13730.html#af2b3f0e75ad60b6a9d013a3e9654021e", null ]
+    [ "npc_healing_ward", "d8/d17/a13730.html#a3d3c35f61502d3a83cb2581119e08903", null ],
+    [ "JustEngagedWith", "d8/d17/a13730.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
+    [ "Reset", "d8/d17/a13730.html#a756d27a43d86c7ecde859df255c6bd62", null ],
+    [ "UpdateAI", "d8/d17/a13730.html#a8b8635af33ce814602206064e0815520", null ],
+    [ "_instance", "d8/d17/a13730.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
+    [ "_scheduler", "d8/d17/a13730.html#a0c62fe945b491cab76175217a7d10c06", null ]
 ];

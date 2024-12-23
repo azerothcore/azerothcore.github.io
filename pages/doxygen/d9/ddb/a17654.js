@@ -1,7 +1,11 @@
 var a17654 =
 [
-    [ "FrostBombExplosion", "d9/ddb/a17654.html#ac7d318e241e6442e8aa084b27ea50236", null ],
-    [ "Execute", "d9/ddb/a17654.html#a0b6521266f18b621260286c530ff3f36", null ],
-    [ "_owner", "d9/ddb/a17654.html#aa9ff39ce43c351e8815f895896fa759b", null ],
-    [ "_sindragosaGUID", "d9/ddb/a17654.html#a5afc3d543c8fa457c90735f841aa161c", null ]
+    [ "npc_little_oozeAI", "d9/ddb/a17654.html#a6fb3ac6e3f2c39b96ee4fe265e4940dd", null ],
+    [ "EnterEvadeMode", "d9/ddb/a17654.html#a0bd4bfcc8c373a449f297011289e5530", null ],
+    [ "IsSummonedBy", "d9/ddb/a17654.html#afb9763ade36bd742398a8bca961c136b", null ],
+    [ "JustDied", "d9/ddb/a17654.html#a37e5898e3dc1704be9fba2178567fd2a", null ],
+    [ "UpdateAI", "d9/ddb/a17654.html#a6ee56789d528c2b6dcb04abaff6806cb", null ],
+    [ "events", "d9/ddb/a17654.html#aa0d2113458887b73fe2af36f9d3ab0f1", null ],
+    [ "firstUpdate", "d9/ddb/a17654.html#aa3aca24bc97bcd9a2030fccf6782cf9c", null ],
+    [ "instance", "d9/ddb/a17654.html#a8a4ec828f144f071c0c6f2bf48b69cc0", null ]
 ];

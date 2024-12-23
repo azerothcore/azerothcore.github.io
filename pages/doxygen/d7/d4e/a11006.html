@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: SpellScript::HitHandler Class Reference</title>
+<title>AzerothCore: SpellChainNode Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,93 +105,106 @@ $(document).ready(function(){initNavTree('d7/d4e/a11006.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
+<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dc/d65/a11003.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">SpellScript::HitHandler Class Reference</div></div>
+  <div class="headertitle"><div class="title">SpellChainNode Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">SpellMgr.h</a>&quot;</code></p>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
-Public Member Functions</h2></td></tr>
-<tr class="memitem:a41c5a6853bf72c113388995dc3ebaba7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a41c5a6853bf72c113388995dc3ebaba7">HitHandler</a> (SpellHitFnType _pHitHandlerScript)</td></tr>
-<tr class="separator:a41c5a6853bf72c113388995dc3ebaba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a157baaa3ceba62a9910cba5377bd7699"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a157baaa3ceba62a9910cba5377bd7699">Call</a> (<a class="el" href="../../d6/d66/a10986.html">SpellScript</a> *spellScript)</td></tr>
-<tr class="separator:a157baaa3ceba62a9910cba5377bd7699"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:ac24144e49930a01a3049740a4072f626"><td class="memItemLeft" align="right" valign="top">SpellHitFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#ac24144e49930a01a3049740a4072f626">pHitHandlerScript</a></td></tr>
-<tr class="separator:ac24144e49930a01a3049740a4072f626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
+Public Attributes</h2></td></tr>
+<tr class="memitem:ae27b7d0aa5a2ae5cb75a7f0d397c849f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#ae27b7d0aa5a2ae5cb75a7f0d397c849f">prev</a></td></tr>
+<tr class="separator:ae27b7d0aa5a2ae5cb75a7f0d397c849f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a7791b7069912a013299e7afaf4142f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a0a7791b7069912a013299e7afaf4142f">next</a></td></tr>
+<tr class="separator:a0a7791b7069912a013299e7afaf4142f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49aea8bfed353c2c552f6195b8e9f60a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a49aea8bfed353c2c552f6195b8e9f60a">first</a></td></tr>
+<tr class="separator:a49aea8bfed353c2c552f6195b8e9f60a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05a8077c7ec39bcca66fe84aa1da7040"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a05a8077c7ec39bcca66fe84aa1da7040">last</a></td></tr>
+<tr class="separator:a05a8077c7ec39bcca66fe84aa1da7040"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b58cef8fc18f91fa59b8c7d7b9f9872"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d4e/a11006.html#a0b58cef8fc18f91fa59b8c7d7b9f9872">rank</a></td></tr>
+<tr class="separator:a0b58cef8fc18f91fa59b8c7d7b9f9872"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a41c5a6853bf72c113388995dc3ebaba7" name="a41c5a6853bf72c113388995dc3ebaba7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a41c5a6853bf72c113388995dc3ebaba7">&#9670;&#160;</a></span>HitHandler()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Data Documentation</h2>
+<a id="a49aea8bfed353c2c552f6195b8e9f60a" name="a49aea8bfed353c2c552f6195b8e9f60a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49aea8bfed353c2c552f6195b8e9f60a">&#9670;&#160;</a></span>first</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">SpellScript::HitHandler::HitHandler </td>
-          <td>(</td>
-          <td class="paramtype">SpellHitFnType&#160;</td>
-          <td class="paramname"><em>_pHitHandlerScript</em></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const* SpellChainNode::first</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  218</span>{</div>
-<div class="line"><span class="lineno">  219</span>    <a class="code hl_variable" href="../../d7/d4e/a11006.html#ac24144e49930a01a3049740a4072f626">pHitHandlerScript</a> = _pHitHandlerScript;</div>
-<div class="line"><span class="lineno">  220</span>}</div>
-<div class="ttc" id="aa11006_html_ac24144e49930a01a3049740a4072f626"><div class="ttname"><a href="../../d7/d4e/a11006.html#ac24144e49930a01a3049740a4072f626">SpellScript::HitHandler::pHitHandlerScript</a></div><div class="ttdeci">SpellHitFnType pHitHandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:243</div></div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l02501">SpellInfo::GetFirstRankSpell()</a>, <a class="el" href="../../#l02581">SpellInfo::IsHighRankOf()</a>, and <a class="el" href="../../#l01231">SpellMgr::LoadSpellTalentRanks()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a157baaa3ceba62a9910cba5377bd7699" name="a157baaa3ceba62a9910cba5377bd7699"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a157baaa3ceba62a9910cba5377bd7699">&#9670;&#160;</a></span>Call()</h2>
+<a id="a05a8077c7ec39bcca66fe84aa1da7040" name="a05a8077c7ec39bcca66fe84aa1da7040"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05a8077c7ec39bcca66fe84aa1da7040">&#9670;&#160;</a></span>last</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void SpellScript::HitHandler::Call </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d6/d66/a10986.html">SpellScript</a> *&#160;</td>
-          <td class="paramname"><em>spellScript</em></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const* SpellChainNode::last</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  223</span>{</div>
-<div class="line"><span class="lineno">  224</span>    (spellScript-&gt;*<a class="code hl_variable" href="../../d7/d4e/a11006.html#ac24144e49930a01a3049740a4072f626">pHitHandlerScript</a>)();</div>
-<div class="line"><span class="lineno">  225</span>}</div>
-</div><!-- fragment -->
+
+<p class="reference">Referenced by <a class="el" href="../../#l02507">SpellInfo::GetLastRankSpell()</a>, <a class="el" href="../../#l06589">Unit::HandleDummyAuraProc()</a>, and <a class="el" href="../../#l01231">SpellMgr::LoadSpellTalentRanks()</a>.</p>
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ac24144e49930a01a3049740a4072f626" name="ac24144e49930a01a3049740a4072f626"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac24144e49930a01a3049740a4072f626">&#9670;&#160;</a></span>pHitHandlerScript</h2>
+<a id="a0a7791b7069912a013299e7afaf4142f" name="a0a7791b7069912a013299e7afaf4142f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a7791b7069912a013299e7afaf4142f">&#9670;&#160;</a></span>next</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">SpellHitFnType SpellScript::HitHandler::pHitHandlerScript</td>
+          <td class="memname"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const* SpellChainNode::next</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02513">SpellInfo::GetNextRankSpell()</a>, and <a class="el" href="../../#l01231">SpellMgr::LoadSpellTalentRanks()</a>.</p>
+
+</div>
+</div>
+<a id="ae27b7d0aa5a2ae5cb75a7f0d397c849f" name="ae27b7d0aa5a2ae5cb75a7f0d397c849f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae27b7d0aa5a2ae5cb75a7f0d397c849f">&#9670;&#160;</a></span>prev</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const* SpellChainNode::prev</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02519">SpellInfo::GetPrevRankSpell()</a>, and <a class="el" href="../../#l01231">SpellMgr::LoadSpellTalentRanks()</a>.</p>
+
+</div>
+</div>
+<a id="a0b58cef8fc18f91fa59b8c7d7b9f9872" name="a0b58cef8fc18f91fa59b8c7d7b9f9872"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b58cef8fc18f91fa59b8c7d7b9f9872">&#9670;&#160;</a></span>rank</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> SpellChainNode::rank</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l02494">SpellInfo::GetRank()</a>, <a class="el" href="../../#l06589">Unit::HandleDummyAuraProc()</a>, <a class="el" href="../../#l02581">SpellInfo::IsHighRankOf()</a>, and <a class="el" href="../../#l01231">SpellMgr::LoadSpellTalentRanks()</a>.</p>
 
 </div>
 </div>
@@ -200,8 +213,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d66/a10986.html">SpellScript</a></li><li class="navelem"><a class="el" href="../../d7/d4e/a11006.html">HitHandler</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:22 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/d4e/a11006.html">SpellChainNode</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:33 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,6 +1,8 @@
 var a20498 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "da/db3/a20502.html", "da/db3/a20502" ],
-    [ "boss_yoggsaron_descend_portal", "d7/d3e/a20498.html#aaf546e4e546d87818bd501b4934e8ab2", null ],
-    [ "GetAI", "d7/d3e/a20498.html#aceb50c808eed17ca468a80b823af1907", null ]
+    [ "boss_yoggsaron_guardian_of_ysAI", "d7/d3e/a20498.html#a5542a4fd68a012049a79047f47dccc68", null ],
+    [ "JustDied", "d7/d3e/a20498.html#ad75f0baeef73a79cdb9bf62463bc8e50", null ],
+    [ "Reset", "d7/d3e/a20498.html#a43d12c19425f3caa56a9732774b6f943", null ],
+    [ "UpdateAI", "d7/d3e/a20498.html#a8e1d0b14747db6ce06b882f3f9d61963", null ],
+    [ "_spellTimer", "d7/d3e/a20498.html#a45dec8609328d65413ae6c88f693ba15", null ]
 ];

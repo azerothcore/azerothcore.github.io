@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: CommandScript Class Reference</title>
+<title>AzerothCore: AllBattlegroundScript Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,97 +108,91 @@ $(document).ready(function(){initNavTree('d9/db8/a10010.html','../../'); initRes
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../df/de2/a10007.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CommandScript Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">AllBattlegroundScript Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">CommandScript.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">AllBattlegroundScript.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for CommandScript:</div>
+Inheritance diagram for AllBattlegroundScript:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d9/db8/a10010.png" usemap="#CommandScript_map" alt=""/>
-  <map id="CommandScript_map" name="CommandScript_map">
-<area href="../../d0/d93/a10162.html" alt="ScriptObject" shape="rect" coords="0,0,188,24"/>
-<area href="../../d0/d74/a11294.html" alt="account_commandscript" shape="rect" coords="198,112,386,136"/>
-<area href="../../d5/d6a/a11298.html" alt="achievement_commandscript" shape="rect" coords="198,168,386,192"/>
-<area href="../../d2/da2/a11302.html" alt="arena_commandscript" shape="rect" coords="198,224,386,248"/>
-<area href="../../d0/d02/a11310.html" alt="ban_commandscript" shape="rect" coords="198,280,386,304"/>
-<area href="../../d5/dd9/a11314.html" alt="bf_commandscript" shape="rect" coords="198,336,386,360"/>
-<area href="../../d2/dfa/a11306.html" alt="bg_commandscript" shape="rect" coords="198,392,386,416"/>
-<area href="../../d5/d08/a11318.html" alt="cache_commandscript" shape="rect" coords="198,448,386,472"/>
-<area href="../../db/db8/a11322.html" alt="cast_commandscript" shape="rect" coords="198,504,386,528"/>
-<area href="../../d0/dfa/a11326.html" alt="character_commandscript" shape="rect" coords="198,560,386,584"/>
-<area href="../../de/d98/a11334.html" alt="cheat_commandscript" shape="rect" coords="198,616,386,640"/>
-<area href="../../d9/d07/a11338.html" alt="debug_commandscript" shape="rect" coords="198,672,386,696"/>
-<area href="../../d2/d11/a11346.html" alt="deserter_commandscript" shape="rect" coords="198,728,386,752"/>
-<area href="../../d8/db4/a11350.html" alt="disable_commandscript" shape="rect" coords="198,784,386,808"/>
-<area href="../../d2/d98/a11354.html" alt="event_commandscript" shape="rect" coords="198,840,386,864"/>
-<area href="../../df/d0d/a11358.html" alt="gear_commandscript" shape="rect" coords="198,896,386,920"/>
-<area href="../../d0/d60/a11362.html" alt="gm_commandscript" shape="rect" coords="198,952,386,976"/>
-<area href="../../d0/de6/a11366.html" alt="go_commandscript" shape="rect" coords="198,1008,386,1032"/>
-<area href="../../da/d75/a11370.html" alt="gobject_commandscript" shape="rect" coords="198,1064,386,1088"/>
-<area href="../../de/dfc/a11374.html" alt="group_commandscript" shape="rect" coords="198,1120,386,1144"/>
-<area href="../../d2/dbf/a11378.html" alt="guild_commandscript" shape="rect" coords="198,1176,386,1200"/>
-<area href="../../d8/d58/a11382.html" alt="honor_commandscript" shape="rect" coords="198,1232,386,1256"/>
-<area href="../../d4/d18/a11386.html" alt="instance_commandscript" shape="rect" coords="198,1288,386,1312"/>
-<area href="../../d9/d4f/a11390.html" alt="inventory_commandscript" shape="rect" coords="198,1344,386,1368"/>
-<area href="../../d7/d69/a11394.html" alt="item_commandscript" shape="rect" coords="198,1400,386,1424"/>
-<area href="../../d6/d0f/a11398.html" alt="learn_commandscript" shape="rect" coords="198,1456,386,1480"/>
-<area href="../../d2/d1a/a11402.html" alt="lfg_commandscript" shape="rect" coords="198,1512,386,1536"/>
-<area href="../../da/dab/a11406.html" alt="list_commandscript" shape="rect" coords="198,1568,386,1592"/>
-<area href="../../db/d8f/a11410.html" alt="lookup_commandscript" shape="rect" coords="198,1624,386,1648"/>
-<area href="../../d8/dc8/a11414.html" alt="message_commandscript" shape="rect" coords="198,1680,386,1704"/>
-<area href="../../d0/de1/a11418.html" alt="misc_commandscript" shape="rect" coords="198,1736,386,1760"/>
-<area href="../../db/d65/a11422.html" alt="mmaps_commandscript" shape="rect" coords="198,1792,386,1816"/>
-<area href="../../d4/d19/a11426.html" alt="modify_commandscript" shape="rect" coords="198,1848,386,1872"/>
-<area href="../../d1/dbe/a11442.html" alt="npc_commandscript" shape="rect" coords="198,1904,386,1928"/>
-<area href="../../d0/db0/a11446.html" alt="pet_commandscript" shape="rect" coords="198,1960,386,1984"/>
-<area href="../../d5/df9/a11450.html" alt="player_commandscript" shape="rect" coords="198,2016,386,2040"/>
-<area href="../../d2/d16/a11454.html" alt="player_settings_commandscript" shape="rect" coords="198,2072,386,2096"/>
-<area href="../../d7/d97/a11458.html" alt="quest_commandscript" shape="rect" coords="198,2128,386,2152"/>
-<area href="../../da/d10/a11462.html" alt="reload_commandscript" shape="rect" coords="198,2184,386,2208"/>
-<area href="../../d5/db4/a11466.html" alt="reset_commandscript" shape="rect" coords="198,2240,386,2264"/>
-<area href="../../da/ddf/a11470.html" alt="send_commandscript" shape="rect" coords="198,2296,386,2320"/>
-<area href="../../d4/d57/a11474.html" alt="server_commandscript" shape="rect" coords="198,2352,386,2376"/>
-<area href="../../d6/d8c/a11478.html" alt="spectator_commandscript" shape="rect" coords="198,2408,386,2432"/>
-<area href="../../d2/d54/a11482.html" alt="tele_commandscript" shape="rect" coords="198,2464,386,2488"/>
-<area href="../../d3/d9c/a11486.html" alt="ticket_commandscript" shape="rect" coords="198,2520,386,2544"/>
-<area href="../../d6/d9d/a11490.html" alt="titles_commandscript" shape="rect" coords="198,2576,386,2600"/>
-<area href="../../d5/df1/a11494.html" alt="wp_commandscript" shape="rect" coords="198,2632,386,2656"/>
+  <img src="../../d9/db8/a10010.png" usemap="#AllBattlegroundScript_map" alt=""/>
+  <map id="AllBattlegroundScript_map" name="AllBattlegroundScript_map">
+<area href="../../d9/d16/a10218.html" alt="ScriptObject" shape="rect" coords="0,0,131,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a97dc7d00b78e0030ba2a950d23b2ebd2"><td class="memItemLeft" align="right" valign="top">virtual std::vector&lt; <a class="el" href="../../d5/d3e/a07338.html">Acore::ChatCommands::ChatCommandBuilder</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a97dc7d00b78e0030ba2a950d23b2ebd2">GetCommands</a> () const =0</td></tr>
-<tr class="separator:a97dc7d00b78e0030ba2a950d23b2ebd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
-<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
-<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
-<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
-<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
-<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91c57b646aae6467e06b4cc13b89cfb4"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a91c57b646aae6467e06b4cc13b89cfb4">IsDatabaseBound</a> () const override</td></tr>
+<tr class="separator:a91c57b646aae6467e06b4cc13b89cfb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e6e5d7ec0925a28b84719f1ef32b8d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a00e6e5d7ec0925a28b84719f1ef32b8d">OnBattlegroundStart</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *)</td></tr>
+<tr class="memdesc:a00e6e5d7ec0925a28b84719f1ef32b8d"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs before start <a class="el" href="../../df/ddd/a07150.html">Battleground</a>.  <a href="../../d9/db8/a10010.html#a00e6e5d7ec0925a28b84719f1ef32b8d">More...</a><br /></td></tr>
+<tr class="separator:a00e6e5d7ec0925a28b84719f1ef32b8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91225952a9567a2408ea8b1f52660599"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a91225952a9567a2408ea8b1f52660599">OnBattlegroundEndReward</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>)</td></tr>
+<tr class="separator:a91225952a9567a2408ea8b1f52660599"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4a5c88793e3147af07482f5081106173"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a4a5c88793e3147af07482f5081106173">OnBattlegroundUpdate</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a4a5c88793e3147af07482f5081106173"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6affc2d98448a93ac15a2a54327cba9"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#aa6affc2d98448a93ac15a2a54327cba9">OnBattlegroundAddPlayer</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *)</td></tr>
+<tr class="separator:aa6affc2d98448a93ac15a2a54327cba9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30ec158dc1fdc13712de9db261eac589"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a30ec158dc1fdc13712de9db261eac589">OnBattlegroundBeforeAddPlayer</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *)</td></tr>
+<tr class="separator:a30ec158dc1fdc13712de9db261eac589"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf48de938b3535c1d64d5e69b7e4c3cc"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#acf48de938b3535c1d64d5e69b7e4c3cc">OnBattlegroundRemovePlayerAtLeave</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *)</td></tr>
+<tr class="separator:acf48de938b3535c1d64d5e69b7e4c3cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46675aeb8e2d066d0efaf2559ec6754c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a46675aeb8e2d066d0efaf2559ec6754c">OnQueueUpdate</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>, <a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, bool, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a46675aeb8e2d066d0efaf2559ec6754c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39a66e14a6e18f233ce33a86492142f7"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a39a66e14a6e18f233ce33a86492142f7">OnQueueUpdateValidity</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>, <a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, bool, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a39a66e14a6e18f233ce33a86492142f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae315ebbf606d85f59b6c0e6558283088"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#ae315ebbf606d85f59b6c0e6558283088">OnAddGroup</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;, <a class="el" href="../../dc/d06/a08466.html">Player</a> *, <a class="el" href="../../da/d5b/a09282.html">Group</a> *, <a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>, <a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, bool, bool, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:ae315ebbf606d85f59b6c0e6558283088"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c70c7c71f2b941cf42607806ea19874"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a3c70c7c71f2b941cf42607806ea19874">CanFillPlayersToBG</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>)</td></tr>
+<tr class="separator:a3c70c7c71f2b941cf42607806ea19874"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a638cd6beb9edf2c538f4ac079560a07c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a638cd6beb9edf2c538f4ac079560a07c">IsCheckNormalMatch</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a638cd6beb9edf2c538f4ac079560a07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1407ab7e2b4630ec8def2f7e6e532831"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a1407ab7e2b4630ec8def2f7e6e532831">CanSendMessageBGQueue</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *, <a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *)</td></tr>
+<tr class="separator:a1407ab7e2b4630ec8def2f7e6e532831"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a159e7e138cb75f57f013cd50a4a16a49"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a159e7e138cb75f57f013cd50a4a16a49">OnBeforeSendJoinMessageArenaQueue</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *, <a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *, <a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *, bool)</td></tr>
+<tr class="memdesc:a159e7e138cb75f57f013cd50a4a16a49"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs before sending the join message during the arena queue, allowing you to run extra operations or disabling the join message.  <a href="../../d9/db8/a10010.html#a159e7e138cb75f57f013cd50a4a16a49">More...</a><br /></td></tr>
+<tr class="separator:a159e7e138cb75f57f013cd50a4a16a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a53eb5af1d9dc2a4bfbba33ce75170f34"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a53eb5af1d9dc2a4bfbba33ce75170f34">OnBeforeSendExitMessageArenaQueue</a> (<a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *, <a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *)</td></tr>
+<tr class="memdesc:a53eb5af1d9dc2a4bfbba33ce75170f34"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs before sending the exit message during the arena queue, allowing you to run extra operations or disabling the exit message.  <a href="../../d9/db8/a10010.html#a53eb5af1d9dc2a4bfbba33ce75170f34">More...</a><br /></td></tr>
+<tr class="separator:a53eb5af1d9dc2a4bfbba33ce75170f34"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c2588bb5b7c193b0c85b26de5210dd5"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a8c2588bb5b7c193b0c85b26de5210dd5">OnBattlegroundEnd</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *, <a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>)</td></tr>
+<tr class="memdesc:a8c2588bb5b7c193b0c85b26de5210dd5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs after end <a class="el" href="../../df/ddd/a07150.html">Battleground</a>.  <a href="../../d9/db8/a10010.html#a8c2588bb5b7c193b0c85b26de5210dd5">More...</a><br /></td></tr>
+<tr class="separator:a8c2588bb5b7c193b0c85b26de5210dd5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1991c567eb8578f1874613987526ce10"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#a1991c567eb8578f1874613987526ce10">OnBattlegroundDestroy</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *)</td></tr>
+<tr class="memdesc:a1991c567eb8578f1874613987526ce10"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs before <a class="el" href="../../df/ddd/a07150.html">Battleground</a> destroy.  <a href="../../d9/db8/a10010.html#a1991c567eb8578f1874613987526ce10">More...</a><br /></td></tr>
+<tr class="separator:a1991c567eb8578f1874613987526ce10"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adea000f8e6470a2d69843c2894102086"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#adea000f8e6470a2d69843c2894102086">OnBattlegroundCreate</a> (<a class="el" href="../../df/ddd/a07150.html">Battleground</a> *)</td></tr>
+<tr class="memdesc:adea000f8e6470a2d69843c2894102086"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook runs after <a class="el" href="../../df/ddd/a07150.html">Battleground</a> create.  <a href="../../d9/db8/a10010.html#adea000f8e6470a2d69843c2894102086">More...</a><br /></td></tr>
+<tr class="separator:adea000f8e6470a2d69843c2894102086"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
+<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
+<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
+<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
+<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
+<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:afb9ef0145bb5eedee7fd61609868ba20"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#afb9ef0145bb5eedee7fd61609868ba20">CommandScript</a> (const char *name)</td></tr>
-<tr class="separator:afb9ef0145bb5eedee7fd61609868ba20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pro_methods_a10162"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10162')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></td></tr>
-<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
-<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
-<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10162"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c4a52b8bfc4a0ac7ac1a081e4cdd03"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/db8/a10010.html#af2c4a52b8bfc4a0ac7ac1a081e4cdd03">AllBattlegroundScript</a> (const char *name, std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; enabledHooks=std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;())</td></tr>
+<tr class="separator:af2c4a52b8bfc4a0ac7ac1a081e4cdd03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
+<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
+<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="afb9ef0145bb5eedee7fd61609868ba20" name="afb9ef0145bb5eedee7fd61609868ba20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afb9ef0145bb5eedee7fd61609868ba20">&#9670;&#160;</a></span>CommandScript()</h2>
+<a id="af2c4a52b8bfc4a0ac7ac1a081e4cdd03" name="af2c4a52b8bfc4a0ac7ac1a081e4cdd03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c4a52b8bfc4a0ac7ac1a081e4cdd03">&#9670;&#160;</a></span>AllBattlegroundScript()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,11 +201,21 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">CommandScript::CommandScript </td>
+          <td class="memname">AllBattlegroundScript::AllBattlegroundScript </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
-          <td class="paramname"><em>name</em></td><td>)</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td>
+          <td class="paramname"><em>enabledHooks</em> = <code>std::vector&lt;<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt;()</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -220,20 +224,28 @@ Protected Member Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>    : <a class="code hl_class" href="../../d0/d93/a10162.html">ScriptObject</a>(name)</div>
-<div class="line"><span class="lineno">   37</span>{</div>
-<div class="line"><span class="lineno">   38</span>    <a class="code hl_function" href="../../d7/d7a/a10158.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry&lt;CommandScript&gt;::AddScript</a>(<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">   39</span>}</div>
-<div class="ttc" id="aa10158_html_a4a25c0e3b90f6af4563baf0e7a1c0622"><div class="ttname"><a href="../../d7/d7a/a10158.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script, std::vector&lt; uint16 &gt; enabledHooks={})</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:738</div></div>
-<div class="ttc" id="aa10162_html"><div class="ttname"><a href="../../d0/d93/a10162.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptObject.h:43</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  107</span>                                                                                             :</div>
+<div class="line"><span class="lineno">  108</span>    <a class="code hl_class" href="../../d9/d16/a10218.html">ScriptObject</a>(name, <a class="code hl_enumvalue" href="../../d6/d4e/a04271.html#a17a6e2af65c8cf024623d584c7f3a11fa0e3bc87a05b030bbdb15eda213d5b6af">ALLBATTLEGROUNDHOOK_END</a>)</div>
+<div class="line"><span class="lineno">  109</span>{</div>
+<div class="line"><span class="lineno">  110</span>    <span class="comment">// If empty - enable all available hooks.</span></div>
+<div class="line"><span class="lineno">  111</span>    <span class="keywordflow">if</span> (enabledHooks.empty())</div>
+<div class="line"><span class="lineno">  112</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d6/d4e/a04271.html#a17a6e2af65c8cf024623d584c7f3a11fa0e3bc87a05b030bbdb15eda213d5b6af">ALLBATTLEGROUNDHOOK_END</a>; ++i)</div>
+<div class="line"><span class="lineno">  113</span>            enabledHooks.emplace_back(i);</div>
+<div class="line"><span class="lineno">  114</span> </div>
+<div class="line"><span class="lineno">  115</span>    <a class="code hl_function" href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry&lt;AllBattlegroundScript&gt;::AddScript</a>(<span class="keyword">this</span>, std::move(enabledHooks));</div>
+<div class="line"><span class="lineno">  116</span>}</div>
+<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa04271_html_a17a6e2af65c8cf024623d584c7f3a11fa0e3bc87a05b030bbdb15eda213d5b6af"><div class="ttname"><a href="../../d6/d4e/a04271.html#a17a6e2af65c8cf024623d584c7f3a11fa0e3bc87a05b030bbdb15eda213d5b6af">ALLBATTLEGROUNDHOOK_END</a></div><div class="ttdeci">@ ALLBATTLEGROUNDHOOK_END</div><div class="ttdef"><b>Definition:</b> AllBattlegroundScript.h:43</div></div>
+<div class="ttc" id="aa10214_html_a4a25c0e3b90f6af4563baf0e7a1c0622"><div class="ttname"><a href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script, std::vector&lt; uint16 &gt; enabledHooks={})</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:738</div></div>
+<div class="ttc" id="aa10218_html"><div class="ttname"><a href="../../d9/d16/a10218.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptObject.h:43</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00738">ScriptRegistry&lt; TScript &gt;::AddScript()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00738">ScriptRegistry&lt; TScript &gt;::AddScript()</a>, and <a class="el" href="../../#l00043">ALLBATTLEGROUNDHOOK_END</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a97dc7d00b78e0030ba2a950d23b2ebd2" name="a97dc7d00b78e0030ba2a950d23b2ebd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a97dc7d00b78e0030ba2a950d23b2ebd2">&#9670;&#160;</a></span>GetCommands()</h2>
+<a id="a3c70c7c71f2b941cf42607806ea19874" name="a3c70c7c71f2b941cf42607806ea19874"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c70c7c71f2b941cf42607806ea19874">&#9670;&#160;</a></span>CanFillPlayersToBG()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,7 +254,154 @@ Protected Member Functions</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual std::vector&lt; <a class="el" href="../../d5/d3e/a07338.html">Acore::ChatCommands::ChatCommandBuilder</a> &gt; CommandScript::GetCommands </td>
+          <td class="memname">virtual bool AllBattlegroundScript::CanFillPlayersToBG </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1407ab7e2b4630ec8def2f7e6e532831" name="a1407ab7e2b4630ec8def2f7e6e532831"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1407ab7e2b4630ec8def2f7e6e532831">&#9670;&#160;</a></span>CanSendMessageBGQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AllBattlegroundScript::CanSendMessageBGQueue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a638cd6beb9edf2c538f4ac079560a07c" name="a638cd6beb9edf2c538f4ac079560a07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a638cd6beb9edf2c538f4ac079560a07c">&#9670;&#160;</a></span>IsCheckNormalMatch()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AllBattlegroundScript::IsCheckNormalMatch </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; };</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a91c57b646aae6467e06b4cc13b89cfb4" name="a91c57b646aae6467e06b4cc13b89cfb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91c57b646aae6467e06b4cc13b89cfb4">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AllBattlegroundScript::IsDatabaseBound </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>
@@ -250,13 +409,714 @@ Protected Member Functions</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Implemented in <a class="el" href="../../d0/d74/a11294.html#a28baac859fcc2ee8bbf00dcdf7b38f4d">account_commandscript</a>, <a class="el" href="../../d5/d6a/a11298.html#adeac4e6f74f006daa76b0ebb8ea1469c">achievement_commandscript</a>, <a class="el" href="../../d2/da2/a11302.html#a3a5e95fca957fd1898d6a7acea98931e">arena_commandscript</a>, <a class="el" href="../../d2/dfa/a11306.html#a911ccd6445b08c05069f7f196556c891">bg_commandscript</a>, <a class="el" href="../../d0/d02/a11310.html#a3079102518edbfd0e16576083e053a19">ban_commandscript</a>, <a class="el" href="../../d5/dd9/a11314.html#a97f0192d7ccd3532cfceaebff9f242be">bf_commandscript</a>, <a class="el" href="../../d5/d08/a11318.html#ae62aed5b701a408460d8fedcd08bb3a4">cache_commandscript</a>, <a class="el" href="../../db/db8/a11322.html#ab0890c036a8d301b382fdd1b6371f671">cast_commandscript</a>, <a class="el" href="../../d0/dfa/a11326.html#a54c43684b16e3a8e857817a566bf754a">character_commandscript</a>, <a class="el" href="../../de/d98/a11334.html#a7cc6ca0c216a4ff497b60dc7622623fd">cheat_commandscript</a>, <a class="el" href="../../d9/d07/a11338.html#af661244d384f7ba7a4c4d4c21be301cc">debug_commandscript</a>, <a class="el" href="../../d2/d11/a11346.html#ab5b48b9dde89c9215c51560f26324649">deserter_commandscript</a>, <a class="el" href="../../d8/db4/a11350.html#a5c0400ab0321c2d181f6288fd828c56a">disable_commandscript</a>, <a class="el" href="../../d2/d98/a11354.html#aac32a7f3d2d11dc73dfa3e9f8224560e">event_commandscript</a>, <a class="el" href="../../df/d0d/a11358.html#a9212aa39f13c646b1b8cf8be78cc8a6a">gear_commandscript</a>, <a class="el" href="../../d0/d60/a11362.html#a17c725e18324de7aadff260c77d75c45">gm_commandscript</a>, <a class="el" href="../../d0/de6/a11366.html#a672e84a91c30f7378adce918608a6a94">go_commandscript</a>, <a class="el" href="../../da/d75/a11370.html#a75124102670615a7b3a0ecd457ab631a">gobject_commandscript</a>, <a class="el" href="../../de/dfc/a11374.html#a5e7e069c58ecc5baca4ef1118e6c143e">group_commandscript</a>, <a class="el" href="../../d2/dbf/a11378.html#a6b0a700e7fa3251373c1405d245f6931">guild_commandscript</a>, <a class="el" href="../../d8/d58/a11382.html#a29a0068f9dd1e9b3f0adf80bddaadbbc">honor_commandscript</a>, <a class="el" href="../../d4/d18/a11386.html#a092d62969c835f6bf2a08ca3e05f04d5">instance_commandscript</a>, <a class="el" href="../../d9/d4f/a11390.html#ac002b65cbe2e5dafc7614c7afa4a20e6">inventory_commandscript</a>, <a class="el" href="../../d7/d69/a11394.html#aab60aa980ef0f86938cfcb51e7ee20a8">item_commandscript</a>, <a class="el" href="../../d6/d0f/a11398.html#a8c8f73f3c1d5dbddd5a3d2e89ea326d8">learn_commandscript</a>, <a class="el" href="../../d2/d1a/a11402.html#a324310f9b04675c277ceae44ea09fbaf">lfg_commandscript</a>, <a class="el" href="../../da/dab/a11406.html#a949c6e6f372afb50e1116b6414acdd7c">list_commandscript</a>, <a class="el" href="../../db/d8f/a11410.html#afb1833fb396c6f811fa24020f22460d4">lookup_commandscript</a>, <a class="el" href="../../d8/dc8/a11414.html#a9fc83cb2d161a4158f98ec0b580bcc32">message_commandscript</a>, <a class="el" href="../../d0/de1/a11418.html#a621e036c56caa93a63b27b1c317aa39c">misc_commandscript</a>, <a class="el" href="../../db/d65/a11422.html#aec91072f9e651c9136bf1a405a9bb95a">mmaps_commandscript</a>, <a class="el" href="../../d4/d19/a11426.html#aa64f4f3e75561ed7212abc3d0f640fb2">modify_commandscript</a>, <a class="el" href="../../d1/dbe/a11442.html#ad789c3fb6523abddf4d07d38952e04a8">npc_commandscript</a>, <a class="el" href="../../d0/db0/a11446.html#a01026a4936774d2225d10e0f6e27b08c">pet_commandscript</a>, <a class="el" href="../../d5/df9/a11450.html#a0e1e8eec0fe449c95c5cf9dd06a0fced">player_commandscript</a>, <a class="el" href="../../d2/d16/a11454.html#ae545918310d22b4e66e4a668bbb7ba58">player_settings_commandscript</a>, <a class="el" href="../../d7/d97/a11458.html#afaf8c4b169a2bc7457b8ab97d13a367c">quest_commandscript</a>, <a class="el" href="../../da/d10/a11462.html#abe09f0ff98d5b327fd6b176afeacef91">reload_commandscript</a>, <a class="el" href="../../d5/db4/a11466.html#ac19cfe7c8192194024fb38ad93a64056">reset_commandscript</a>, <a class="el" href="../../da/ddf/a11470.html#a2dc60c8c414c9131b4cda1ff82f7beed">send_commandscript</a>, <a class="el" href="../../d4/d57/a11474.html#a850c21f1ece40c576d3bf622f1c3e18f">server_commandscript</a>, <a class="el" href="../../d6/d8c/a11478.html#a3451bcda07b51a33fd8368cf00ac190f">spectator_commandscript</a>, <a class="el" href="../../d2/d54/a11482.html#a296b26e39d5d575ebe68728ff1b49f68">tele_commandscript</a>, <a class="el" href="../../d3/d9c/a11486.html#a8db36489c60473f6f3fed73011c5f7ab">ticket_commandscript</a>, <a class="el" href="../../d6/d9d/a11490.html#af7d00111b3190f8bc9c46cedda3621d6">titles_commandscript</a>, and <a class="el" href="../../d5/df1/a11494.html#a55ecc8d67d7c240df1b177f755fc5850">wp_commandscript</a>.</p>
+<p>Reimplemented from <a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   56</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ae315ebbf606d85f59b6c0e6558283088" name="ae315ebbf606d85f59b6c0e6558283088"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae315ebbf606d85f59b6c0e6558283088">&#9670;&#160;</a></span>OnAddGroup()</h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnAddGroup </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> &amp;&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../da/d5b/a09282.html">Group</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   85</span>                                                                             { }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="aa6affc2d98448a93ac15a2a54327cba9" name="aa6affc2d98448a93ac15a2a54327cba9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa6affc2d98448a93ac15a2a54327cba9">&#9670;&#160;</a></span>OnBattlegroundAddPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundAddPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a30ec158dc1fdc13712de9db261eac589" name="a30ec158dc1fdc13712de9db261eac589"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30ec158dc1fdc13712de9db261eac589">&#9670;&#160;</a></span>OnBattlegroundBeforeAddPlayer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundBeforeAddPlayer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   75</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="adea000f8e6470a2d69843c2894102086" name="adea000f8e6470a2d69843c2894102086"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adea000f8e6470a2d69843c2894102086">&#9670;&#160;</a></span>OnBattlegroundCreate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundCreate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs after <a class="el" href="../../df/ddd/a07150.html">Battleground</a> create. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bg</td><td>Contains information about the <a class="el" href="../../df/ddd/a07150.html">Battleground</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  134</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1991c567eb8578f1874613987526ce10" name="a1991c567eb8578f1874613987526ce10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1991c567eb8578f1874613987526ce10">&#9670;&#160;</a></span>OnBattlegroundDestroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundDestroy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs before <a class="el" href="../../df/ddd/a07150.html">Battleground</a> destroy. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bg</td><td>Contains information about the <a class="el" href="../../df/ddd/a07150.html">Battleground</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  127</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a8c2588bb5b7c193b0c85b26de5210dd5" name="a8c2588bb5b7c193b0c85b26de5210dd5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8c2588bb5b7c193b0c85b26de5210dd5">&#9670;&#160;</a></span>OnBattlegroundEnd()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundEnd </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs after end <a class="el" href="../../df/ddd/a07150.html">Battleground</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bg</td><td>Contains information about the <a class="el" href="../../df/ddd/a07150.html">Battleground</a> </td></tr>
+    <tr><td class="paramname">TeamId</td><td>Contains information about the winneer team </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">  120</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a91225952a9567a2408ea8b1f52660599" name="a91225952a9567a2408ea8b1f52660599"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91225952a9567a2408ea8b1f52660599">&#9670;&#160;</a></span>OnBattlegroundEndReward()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundEndReward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#abfb349736a7699bdfcdb134035ef7865">TeamId</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   66</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="acf48de938b3535c1d64d5e69b7e4c3cc" name="acf48de938b3535c1d64d5e69b7e4c3cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf48de938b3535c1d64d5e69b7e4c3cc">&#9670;&#160;</a></span>OnBattlegroundRemovePlayerAtLeave()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundRemovePlayerAtLeave </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   78</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a00e6e5d7ec0925a28b84719f1ef32b8d" name="a00e6e5d7ec0925a28b84719f1ef32b8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e6e5d7ec0925a28b84719f1ef32b8d">&#9670;&#160;</a></span>OnBattlegroundStart()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundStart </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs before start <a class="el" href="../../df/ddd/a07150.html">Battleground</a>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">bg</td><td>Contains information about the <a class="el" href="../../df/ddd/a07150.html">Battleground</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">   63</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a4a5c88793e3147af07482f5081106173" name="a4a5c88793e3147af07482f5081106173"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4a5c88793e3147af07482f5081106173">&#9670;&#160;</a></span>OnBattlegroundUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnBattlegroundUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../df/ddd/a07150.html">Battleground</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   69</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a53eb5af1d9dc2a4bfbba33ce75170f34" name="a53eb5af1d9dc2a4bfbba33ce75170f34"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a53eb5af1d9dc2a4bfbba33ce75170f34">&#9670;&#160;</a></span>OnBeforeSendExitMessageArenaQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AllBattlegroundScript::OnBeforeSendExitMessageArenaQueue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs before sending the exit message during the arena queue, allowing you to run extra operations or disabling the exit message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">queue</td><td>Contains information about the <a class="el" href="../../dc/da2/a07106.html">Arena</a> queue </td></tr>
+    <tr><td class="paramname">ginfo</td><td>Contains information about the group of the queue </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if you want to continue sending the message, false if you want to disable the message </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  112</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a159e7e138cb75f57f013cd50a4a16a49" name="a159e7e138cb75f57f013cd50a4a16a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a159e7e138cb75f57f013cd50a4a16a49">&#9670;&#160;</a></span>OnBeforeSendJoinMessageArenaQueue()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AllBattlegroundScript::OnBeforeSendJoinMessageArenaQueue </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d2/d5c/a07166.html">GroupQueueInfo</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d7/d30/a27934.html">PvPDifficultyEntry</a> const *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This hook runs before sending the join message during the arena queue, allowing you to run extra operations or disabling the join message. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">queue</td><td>Contains information about the <a class="el" href="../../dc/da2/a07106.html">Arena</a> queue </td></tr>
+    <tr><td class="paramname">leader</td><td>Contains information about the player leader </td></tr>
+    <tr><td class="paramname">ginfo</td><td>Contains information about the group of the queue </td></tr>
+    <tr><td class="paramname">bracketEntry</td><td>Contains information about the bracket </td></tr>
+    <tr><td class="paramname">isRated</td><td>Contains information about rated arena or skirmish </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>True if you want to continue sending the message, false if you want to disable the message </dd></dl>
+<div class="fragment"><div class="line"><span class="lineno">  103</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a46675aeb8e2d066d0efaf2559ec6754c" name="a46675aeb8e2d066d0efaf2559ec6754c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46675aeb8e2d066d0efaf2559ec6754c">&#9670;&#160;</a></span>OnQueueUpdate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void AllBattlegroundScript::OnQueueUpdate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   80</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a39a66e14a6e18f233ce33a86492142f7" name="a39a66e14a6e18f233ce33a86492142f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39a66e14a6e18f233ce33a86492142f7">&#9670;&#160;</a></span>OnQueueUpdateValidity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool AllBattlegroundScript::OnQueueUpdateValidity </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d0/d0f/a07170.html">BattlegroundQueue</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#aaef9ddb244c12d22800aee24c3b637a2">BattlegroundTypeId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d80/a02756.html#a1ce5a7d59f519e0e96d66c360886e3eb">BattlegroundBracketId</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -264,8 +1124,8 @@ Protected Member Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/db8/a10010.html">CommandScript</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:25 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d9/db8/a10010.html">AllBattlegroundScript</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:21 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

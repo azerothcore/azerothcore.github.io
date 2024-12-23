@@ -1,5 +1,6 @@
 var a20138 =
 [
-    [ "npc_ulduar_rocket_strike_triggerAI", "df/d7d/a20138.html#a6308129d11989dadf0a5948c4a268e4b", null ],
-    [ "SpellHitTarget", "df/d7d/a20138.html#a3c254e16f62e7d2414d81062c91c2468", null ]
+    [ "npc_ulduar_magnetic_coreAI", "da/d98/a20142.html", "da/d98/a20142" ],
+    [ "npc_ulduar_magnetic_core", "df/d7d/a20138.html#a788a1a6d3ec28c866d6b8cb112fe8071", null ],
+    [ "GetAI", "df/d7d/a20138.html#a3adcc5c7650e2b016f02a1160c3fa6ab", null ]
 ];

@@ -1,7 +1,5 @@
 var a27946 =
 [
-    [ "ID", "dd/db5/a27946.html#aa5db020808990dc98fc143e4a5e0d2b2", null ],
-    [ "RadiusMax", "dd/db5/a27946.html#ab82c1acb9309b17104958182d80b01d1", null ],
-    [ "RadiusMin", "dd/db5/a27946.html#acaee7da373b94a262e01d4bd3bea4f08", null ],
-    [ "RadiusPerLevel", "dd/db5/a27946.html#a74bb59afb808af45ceff6367468fca1e", null ]
+    [ "id", "dd/db5/a27946.html#a4667f55651f20c85f5b3da9384bac078", null ],
+    [ "QuestRewFactionValue", "dd/db5/a27946.html#a9a42feddeef8e054cd52b72cfc812867", null ]
 ];

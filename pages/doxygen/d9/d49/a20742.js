@@ -1,6 +1,5 @@
 var a20742 =
 [
-    [ "boss_palehoofAI", "dc/d7e/a20746.html", "dc/d7e/a20746" ],
-    [ "boss_palehoof", "d9/d49/a20742.html#ac0e541befaad7e1e6e318d64ca4a1d94", null ],
-    [ "GetAI", "d9/d49/a20742.html#ae33ca6e71b251214be50168a5940d058", null ]
+    [ "AreaTrigger_at_celestial_planetarium_enterance", "d9/d49/a20742.html#ae1503a754a05a77991d9955a2fb74265", null ],
+    [ "OnTrigger", "d9/d49/a20742.html#aa7aa93e00170313de251af4e562c422c", null ]
 ];

@@ -1,8 +1,7 @@
 var a12154 =
 [
-    [ "boss_majordomoAI", "da/d62/a12158.html", "da/d62/a12158" ],
-    [ "boss_majordomo", "da/da0/a12154.html#a77a1ff3d2c7aafecad9f78fcd87536b1", null ],
-    [ "GetAI", "da/da0/a12154.html#aceae0dc662e93bf68556073e8b324964", null ],
-    [ "OnGossipHello", "da/da0/a12154.html#a8d1b625df61b27fef0bfe6f635a3b7ae", null ],
-    [ "OnGossipSelect", "da/da0/a12154.html#a69c2c5fc557b02c9a0b26bdb7b57443c", null ]
+    [ "HandlePeriodic", "da/da0/a12154.html#a758b588fb02e9cdf2544dd52ceee1055", null ],
+    [ "PrepareAuraScript", "da/da0/a12154.html#aae9d31049889eea5c5f09dd5437de950", null ],
+    [ "Register", "da/da0/a12154.html#a5de6428e3359c4498f5630f85ae3fcc8", null ],
+    [ "Validate", "da/da0/a12154.html#a462b882e41932f99e3501f32368cf4de", null ]
 ];

@@ -1,7 +1,6 @@
 var a10262 =
 [
-    [ "ChatServerMessage", "d0/d6c/a10262.html#aa649857ceeba6b2f9e060f7d502cdb7a", null ],
-    [ "Write", "d0/d6c/a10262.html#af8bad4d39693290674bda2e2ad8685bf", null ],
-    [ "MessageID", "d0/d6c/a10262.html#afde854fc17313d214fa0f0cdc48ca9a9", null ],
-    [ "StringParam", "d0/d6c/a10262.html#ac39a08d84c8f5934d0fe26e91809e60a", null ]
+    [ "BuyBankSlotResult", "d0/d6c/a10262.html#a93b60814becc451c38f06f9702a9e027", null ],
+    [ "Write", "d0/d6c/a10262.html#a55a6609863b0d3ef966f222526268acb", null ],
+    [ "Result", "d0/d6c/a10262.html#ad7bf499ad8d5f0a7e1a580dd02b84c68", null ]
 ];

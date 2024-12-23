@@ -1,8 +1,6 @@
 var a10342 =
 [
-    [ "OtherGUID", "d6/d4e/a10342.html#a3f7486a2e4e07fef318414eaaa9037da", null ],
-    [ "PlayerGUID", "d6/d4e/a10342.html#ae3d1217ddbfccd601fcbc57b78739a94", null ],
-    [ "RankID", "d6/d4e/a10342.html#a1aebcb39f85c2b44101a311a6ccefdfd", null ],
-    [ "TransactionDate", "d6/d4e/a10342.html#a4a8054876b35134e5dfe2cf84887e66f", null ],
-    [ "TransactionType", "d6/d4e/a10342.html#aa48b69aa9078fb150470d66201b34786", null ]
+    [ "GuildCreate", "d6/d4e/a10342.html#a4dd11d2c4d009b1e495f792f4842d598", null ],
+    [ "Read", "d6/d4e/a10342.html#a7d4573196f53d1f068c43b4e7e466fce", null ],
+    [ "GuildName", "d6/d4e/a10342.html#a95a0859dd32b6eaf31ea53311ffaa293", null ]
 ];

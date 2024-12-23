@@ -1,11 +1,13 @@
 var a16930 =
 [
-    [ "npc_blood_queen_lana_thelAI", "d6/d32/a16930.html#a7b099b90600e433e304dee1f356a9909", null ],
-    [ "MoveInLineOfSight", "d6/d32/a16930.html#af1aafdc45abcdfbdbea7f5b67f3bc620", null ],
-    [ "MovementInform", "d6/d32/a16930.html#a004a878ccb5fe68b249342f6a0fce31d", null ],
-    [ "Reset", "d6/d32/a16930.html#a539b0e158c800e1aade54f37aa99751e", null ],
-    [ "UpdateAI", "d6/d32/a16930.html#ae9d2f6b53898db04da58efe0deeceea5", null ],
-    [ "_events", "d6/d32/a16930.html#a8ec7641bab991fc584b066fae55690bf", null ],
-    [ "_instance", "d6/d32/a16930.html#a9058ce72bb956d7e90eff740c0f9633a", null ],
-    [ "_introDone", "d6/d32/a16930.html#a40c642758a751e072e41343bb75ad306", null ]
+    [ "boss_slad_ranAI", "d6/d32/a16930.html#ad85e2fd51d67739026a96bc757bc7801", null ],
+    [ "GetData", "d6/d32/a16930.html#a58e1188a418acdc1f327e7df90c5c122", null ],
+    [ "JustDied", "d6/d32/a16930.html#a636ca76497c33a5175986e80bbcda44a", null ],
+    [ "JustEngagedWith", "d6/d32/a16930.html#ac30b38805d0421b1be509c7d5609c648", null ],
+    [ "JustSummoned", "d6/d32/a16930.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
+    [ "KilledUnit", "d6/d32/a16930.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
+    [ "Reset", "d6/d32/a16930.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
+    [ "SetData", "d6/d32/a16930.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
+    [ "UpdateAI", "d6/d32/a16930.html#a9eeb3281456779edd9570119ba8a2105", null ],
+    [ "_achievement", "d6/d32/a16930.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
 ];

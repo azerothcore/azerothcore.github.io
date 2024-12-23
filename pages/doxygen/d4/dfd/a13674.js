@@ -1,9 +1,5 @@
 var a13674 =
 [
-    [ "npc_healing_ward", "d4/dfd/a13674.html#a3d3c35f61502d3a83cb2581119e08903", null ],
-    [ "JustEngagedWith", "d4/dfd/a13674.html#a5faf7c5633c44ec1fa70b60b2071b97b", null ],
-    [ "Reset", "d4/dfd/a13674.html#a756d27a43d86c7ecde859df255c6bd62", null ],
-    [ "UpdateAI", "d4/dfd/a13674.html#a8b8635af33ce814602206064e0815520", null ],
-    [ "_instance", "d4/dfd/a13674.html#a65f227041ad4bdc7240637dd6cb680ec", null ],
-    [ "_scheduler", "d4/dfd/a13674.html#a0c62fe945b491cab76175217a7d10c06", null ]
+    [ "at_zulgurub_entrance_speech", "d4/dfd/a13674.html#afef11c6a7e97befd07072826fa13be55", null ],
+    [ "_OnTrigger", "d4/dfd/a13674.html#a55cda55ed70c63f2a0b2ce39b2ffc0a5", null ]
 ];

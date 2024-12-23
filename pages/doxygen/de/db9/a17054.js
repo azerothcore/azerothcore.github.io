@@ -1,6 +1,6 @@
 var a17054 =
 [
-    [ "boss_deathbringer_saurfangAI", "db/db5/a17058.html", "db/db5/a17058" ],
-    [ "boss_deathbringer_saurfang", "de/db9/a17054.html#ad19893be7dc3b4290d9b1ed3bb992e08", null ],
-    [ "GetAI", "de/db9/a17054.html#a6bc1ef44b3ea9e860d62bf78cfa38c92", null ]
+    [ "PrepareSpellScript", "de/db9/a17054.html#a86609d6cd708de9ead02c6134cbb6f64", null ],
+    [ "Register", "de/db9/a17054.html#aceb3da4aec68cb44bcbee36f599afd62", null ],
+    [ "SetDest", "de/db9/a17054.html#a9ed93e44df4e759fda72a63474e01b3b", null ]
 ];

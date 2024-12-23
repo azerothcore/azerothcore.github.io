@@ -1,11 +1,12 @@
 var a12694 =
 [
-    [ "npc_a_special_surpriseAI", "df/d35/a12694.html#acf062337317d98e491e40cf6ae9bb3ea", null ],
-    [ "MeetQuestCondition", "df/d35/a12694.html#a35f4db17e0301ceaaab49727d1ca8289", null ],
-    [ "MoveInLineOfSight", "df/d35/a12694.html#af0b183b951f1eba8114da1f7a1284d09", null ],
-    [ "Reset", "df/d35/a12694.html#a9526f6b257eade275b828d2b30328533", null ],
-    [ "UpdateAI", "df/d35/a12694.html#a8572ec4b4fdcaab93666f581edf1c852", null ],
-    [ "ExecuteSpeech_Counter", "df/d35/a12694.html#ae1ff67fb743b4125b015c1ecce4bc9db", null ],
-    [ "ExecuteSpeech_Timer", "df/d35/a12694.html#a8761840d6abdc0b195b5860b95f59b1c", null ],
-    [ "PlayerGUID", "df/d35/a12694.html#a683cdbd0ef9d0562842aace5b440594f", null ]
+    [ "npc_scarlet_minerAI", "df/d35/a12694.html#a7f5ca173103eb4498ce41912bda5da66", null ],
+    [ "InitCartQuest", "df/d35/a12694.html#a5d3ece8f2f02a2bae4550a41f55348b0", null ],
+    [ "InitWaypoint", "df/d35/a12694.html#a7fe048368b6e0a43b5be501a24773b8c", null ],
+    [ "Reset", "df/d35/a12694.html#a2a8660173dc32c38de917049eb33fff8", null ],
+    [ "UpdateAI", "df/d35/a12694.html#a48d2c92a4d45d5e59252f9455b82cbbd", null ],
+    [ "WaypointReached", "df/d35/a12694.html#a31f4363e269b51d3a002a132b5516dd0", null ],
+    [ "carGUID", "df/d35/a12694.html#a963f9c0ca58ce160b43f36f5a9f7dee7", null ],
+    [ "IntroPhase", "df/d35/a12694.html#a094c2ee20d13c88805c3de7f9f94b86e", null ],
+    [ "IntroTimer", "df/d35/a12694.html#adae2103753dd62699359ff01ac3ba865", null ]
 ];

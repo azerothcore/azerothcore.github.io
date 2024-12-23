@@ -1,7 +1,9 @@
 var a21702 =
 [
-    [ "npc_tirions_gambit_tirionAI", "d4/dc0/a21706.html", "d4/dc0/a21706" ],
-    [ "npc_tirions_gambit_tirion", "dc/deb/a21702.html#ad52abd46ccdd3b4409671679434c193c", null ],
-    [ "GetAI", "dc/deb/a21702.html#a222c092c2e2136dbd7057a3f7ad7b5f4", null ],
-    [ "OnGossipSelect", "dc/deb/a21702.html#a5af904a3394de9b3eedb52009bd6b0a9", null ]
+    [ "npc_Apothecary_HanesAI", "dc/deb/a21702.html#a8e209b142a58b3b3c0d84c430a086ade", null ],
+    [ "JustDied", "dc/deb/a21702.html#a4c681936d8e7053ace5cdeeaa1ee5ca9", null ],
+    [ "Reset", "dc/deb/a21702.html#a23d54542e6debf39798c2a2d6e2a255d", null ],
+    [ "UpdateEscortAI", "dc/deb/a21702.html#ab54eb5115b9c41b39f0de0f8f4412ef9", null ],
+    [ "WaypointReached", "dc/deb/a21702.html#a7105ea4c83ddd0fd08c96a0b0ff40bd2", null ],
+    [ "PotTimer", "dc/deb/a21702.html#a252858818b61cf15e2e031ceaaadc6b8", null ]
 ];

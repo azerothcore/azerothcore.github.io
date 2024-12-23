@@ -1,7 +1,7 @@
 var a18326 =
 [
-    [ "OnApply", "dc/df9/a18326.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
-    [ "OnRemove", "dc/df9/a18326.html#a697a7c76f944b5df956a9de07746b7a9", null ],
-    [ "PrepareAuraScript", "dc/df9/a18326.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
-    [ "Register", "dc/df9/a18326.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
+    [ "npc_captain_arnathAI", "dc/df9/a18326.html#a34e3d17b89010569bf7e9cb28361c2af", null ],
+    [ "FindFriendlyCreature", "dc/df9/a18326.html#ad6411d2a87d2552bea2051f80ca16e14", null ],
+    [ "Reset", "dc/df9/a18326.html#a016fbe51f31e1c5ec1636e8d20d8cb30", null ],
+    [ "UpdateAI", "dc/df9/a18326.html#a020efd7adc0d60152007906e3229988d", null ]
 ];

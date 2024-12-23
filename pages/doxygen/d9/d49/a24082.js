@@ -1,8 +1,6 @@
 var a24082 =
 [
-    [ "npc_pet_darting_hatchling", "d9/d49/a24082.html#a7ae5973061068396bf382dc21e88cd44", null ],
-    [ "SpellHit", "d9/d49/a24082.html#a29ea5438bab7e606175c02165a607f9b", null ],
-    [ "UpdateAI", "d9/d49/a24082.html#a23196d05aebe5fa4a65455c55368820a", null ],
-    [ "checkTimer", "d9/d49/a24082.html#a3539276158abb5fd183ed1aa03a8ead8", null ],
-    [ "goFast", "d9/d49/a24082.html#aaf80b40200f2b8eb2861c69b1dbd2dde", null ]
+    [ "HandleDamageCalc", "d9/d49/a24082.html#a9e0f6fe8bb10950c2130fb7d1f07017a", null ],
+    [ "PrepareSpellScript", "d9/d49/a24082.html#a183477b6269dbc705a10e60ab36c13b1", null ],
+    [ "Register", "d9/d49/a24082.html#ae93d958a3a439e3401685b0d2a570f0e", null ]
 ];

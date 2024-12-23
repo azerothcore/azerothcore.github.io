@@ -1,5 +1,6 @@
 var a12030 =
 [
-    [ "go_orb_of_domination", "d5/d88/a12030.html#a1d4659e21344a12ec6084ef7ef5df7d0", null ],
-    [ "OnGossipHello", "d5/d88/a12030.html#aa88cebf1bd539b55cf63f10a25cc1bbb", null ]
+    [ "boss_victor_nefariusAI", "df/d72/a12034.html", "df/d72/a12034" ],
+    [ "boss_victor_nefarius", "d5/d88/a12030.html#a85c529c49a0373a553bc59818fb18f49", null ],
+    [ "GetAI", "d5/d88/a12030.html#a6ea19bde6980cbb4ca627d17cf57ae24", null ]
 ];

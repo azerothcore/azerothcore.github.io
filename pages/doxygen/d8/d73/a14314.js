@@ -1,8 +1,6 @@
 var a14314 =
 [
-    [ "hyjalTyrandeAI", "d8/d73/a14314.html#ac2f5449b60cd137dbc1f6ddc8afe5309", null ],
-    [ "JustDied", "d8/d73/a14314.html#af5c7b843b8e1a7c0864b55853bc62097", null ],
-    [ "JustEngagedWith", "d8/d73/a14314.html#a158589b567d22c8f6e0be462bad8299d", null ],
-    [ "Reset", "d8/d73/a14314.html#a5ea52a1ee3730630d1efbdac4ad24c80", null ],
-    [ "UpdateAI", "d8/d73/a14314.html#a9e825f9d87df6227b73eb965488eff8a", null ]
+    [ "HandleHit", "d8/d73/a14314.html#aec32d6b45bdcfe3a6a32c2fb7558edd1", null ],
+    [ "PrepareSpellScript", "d8/d73/a14314.html#a31fdc4d630a4a6647d2a9b1100aecdad", null ],
+    [ "Register", "d8/d73/a14314.html#a64a861b5c25df5780390aa55899393d7", null ]
 ];

@@ -1,10 +1,8 @@
 var a18874 =
 [
-    [ "npc_power_sparkAI", "dd/d10/a18874.html#a3f0fd553d859c5709ed2dbd9051db3d3", null ],
-    [ "DamageTaken", "dd/d10/a18874.html#aebd86516e17e77711d3877a11a159105", null ],
-    [ "DoAction", "dd/d10/a18874.html#a54b4578be614da76cc886dedbe3d853e", null ],
-    [ "UpdateAI", "dd/d10/a18874.html#a7e9b2a161fc88d269e631d47c38bfd5e", null ],
-    [ "CheckTimer", "dd/d10/a18874.html#af98dff7dd45c258d45ce81b8520e56a8", null ],
-    [ "MoveTimer", "dd/d10/a18874.html#af16a57b82fb94eb464c51b6006f2a66b", null ],
-    [ "pInstance", "dd/d10/a18874.html#a4142b3872dd17015eeabb2eaee0c3369", null ]
+    [ "HandleAfterCast", "dd/d10/a18874.html#ac816f81a668ac3018be8f5dc4698039b", null ],
+    [ "HandleDummy", "dd/d10/a18874.html#a3009faa525c22779a0b2534b96821cfd", null ],
+    [ "PrepareSpellScript", "dd/d10/a18874.html#aca38f23f080314ab73ec2494bf877716", null ],
+    [ "Register", "dd/d10/a18874.html#aa87e57dabec6e83029f4dd84913f22ca", null ],
+    [ "Validate", "dd/d10/a18874.html#af945e399992deb3aef5c81ad393ee50f", null ]
 ];

@@ -1,8 +1,7 @@
 var a25702 =
 [
-    [ "CalculateAmount", "d8/d63/a25702.html#a8751483423726ffa8a33c70b7e55db23", null ],
-    [ "CheckProc", "d8/d63/a25702.html#a046cd1087342cdcbd2e6b0f8ded7c03a", null ],
-    [ "HandleProc", "d8/d63/a25702.html#abda070e7dfbb4ddc8d18cb3d180edc2e", null ],
-    [ "PrepareAuraScript", "d8/d63/a25702.html#a6bb54cea419145875c4086a69e1e55e8", null ],
-    [ "Register", "d8/d63/a25702.html#a8e92638bbdd786ef77b17f00dcf0f643", null ]
+    [ "CalculateAmount", "d8/d63/a25702.html#a0934aa8eaf442314aa6050d85304c15b", null ],
+    [ "CalculateSpellAmount", "d8/d63/a25702.html#ab765b87350bd3e73ac43879abef72d98", null ],
+    [ "PrepareAuraScript", "d8/d63/a25702.html#a627c6a88ed6ce051b0d6a06d94288498", null ],
+    [ "Register", "d8/d63/a25702.html#ae1b5265f817f1f4ec011d4e2607686eb", null ]
 ];

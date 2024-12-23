@@ -1,7 +1,8 @@
 var a13078 =
 [
-    [ "HandleRemove", "d4/d99/a13078.html#a4484cf33e423f23cad9559a6a16ed9b4", null ],
-    [ "PrepareAuraScript", "d4/d99/a13078.html#a6fa407996b59d98d0eeef877ee89784d", null ],
-    [ "Register", "d4/d99/a13078.html#a7dc81b47954ee8c10b99f389740de0be", null ],
-    [ "Validate", "d4/d99/a13078.html#afd94a159c0f429f2a63ffbd0a38d32e3", null ]
+    [ "FilterTargets", "d4/d99/a13078.html#a3aac5e364d04a4a086aaa911051417d5", null ],
+    [ "HandleDummy", "d4/d99/a13078.html#aa0705dee3edeca7b61f82581f367e94a", null ],
+    [ "PrepareSpellScript", "d4/d99/a13078.html#a1efa036eac25d789850849dc1b209379", null ],
+    [ "Register", "d4/d99/a13078.html#a656b512d5bef657004a72acbf7875760", null ],
+    [ "Validate", "d4/d99/a13078.html#a33534d9fd70af99bbde1e4a908d22084", null ]
 ];

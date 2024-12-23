@@ -1,6 +1,8 @@
 var a28010 =
 [
-    [ "categoryMask", "d1/d75/a28010.html#abd8816e5dda7bda455ccd6932647c4be", null ],
-    [ "categoryType", "d1/d75/a28010.html#a954f9fca8d0d84d5aec66f4a3f642f96", null ],
-    [ "ID", "d1/d75/a28010.html#a2e0f0cb7a05da77dee49bd7221c01d60", null ]
+    [ "NoRuneCost", "d1/d75/a28010.html#a599b2089d52bf4a009c5fbac3b0d3279", null ],
+    [ "NoRunicPowerGain", "d1/d75/a28010.html#a97da075ecd116ef27fd4265bb8380667", null ],
+    [ "ID", "d1/d75/a28010.html#aed245962cf1830cfa66e369b22a7ba6f", null ],
+    [ "RuneCost", "d1/d75/a28010.html#a18c2e6daaaefe1c8be4a83c55a3670ff", null ],
+    [ "runePowerGain", "d1/d75/a28010.html#ac5f9c69d83ff9cf230124b9dad10008b", null ]
 ];

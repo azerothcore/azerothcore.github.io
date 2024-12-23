@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: PlayerClassLevelInfo Struct Reference</title>
+<title>AzerothCore: UpdateData Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,30 +106,227 @@ $(document).ready(function(){initNavTree('da/dfc/a08314.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="../../db/d42/a08311.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">PlayerClassLevelInfo Struct Reference</div></div>
+  <div class="headertitle"><div class="title">UpdateData Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Player.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">UpdateData.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a60153094e3179bfc6c028d2b76775805"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a60153094e3179bfc6c028d2b76775805">PlayerClassLevelInfo</a> ()=default</td></tr>
-<tr class="separator:a60153094e3179bfc6c028d2b76775805"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7164bb9338d6362f427d75025c9026b6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a7164bb9338d6362f427d75025c9026b6">UpdateData</a> ()</td></tr>
+<tr class="separator:a7164bb9338d6362f427d75025c9026b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c68f187e2f6e65da3bdb6a443ebcacf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a4c68f187e2f6e65da3bdb6a443ebcacf">AddOutOfRangeGUID</a> (<a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a> guid)</td></tr>
+<tr class="separator:a4c68f187e2f6e65da3bdb6a443ebcacf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a620f0036078833a3b5ce1245274595f8"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a620f0036078833a3b5ce1245274595f8">AddUpdateBlock</a> (const <a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a> &amp;block)</td></tr>
+<tr class="separator:a620f0036078833a3b5ce1245274595f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af770dbf9bc4e4da1b97aba73b152b23b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#af770dbf9bc4e4da1b97aba73b152b23b">AddUpdateBlock</a> (const <a class="el" href="../../da/dfc/a08314.html">UpdateData</a> &amp;block)</td></tr>
+<tr class="separator:af770dbf9bc4e4da1b97aba73b152b23b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bea592b01b6c9e41b863c26fd602d45"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a3bea592b01b6c9e41b863c26fd602d45">BuildPacket</a> (<a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;packet)</td></tr>
+<tr class="separator:a3bea592b01b6c9e41b863c26fd602d45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a067577372028ad59aea7942f0cd4a5c2"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a067577372028ad59aea7942f0cd4a5c2">HasData</a> () const</td></tr>
+<tr class="separator:a067577372028ad59aea7942f0cd4a5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc0750db190d94fed3bfef72da75066c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#adc0750db190d94fed3bfef72da75066c">Clear</a> ()</td></tr>
+<tr class="separator:adc0750db190d94fed3bfef72da75066c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:a034ae3d2b5b14ce454710ca8f92ffee0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a034ae3d2b5b14ce454710ca8f92ffee0">basehealth</a> {0}</td></tr>
-<tr class="separator:a034ae3d2b5b14ce454710ca8f92ffee0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a939a8d8739a553c919d84e399ce17d22"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a939a8d8739a553c919d84e399ce17d22">basemana</a> {0}</td></tr>
-<tr class="separator:a939a8d8739a553c919d84e399ce17d22"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
+Protected Attributes</h2></td></tr>
+<tr class="memitem:a791f9606867a40d018f67600e338a08e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a></td></tr>
+<tr class="separator:a791f9606867a40d018f67600e338a08e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a60f7b1745f84b24b25c94625145dd5a2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d7/db0/a03467.html#a173958393e55b3150391dfb3a6d387ed">GuidVector</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a></td></tr>
+<tr class="separator:a60f7b1745f84b24b25c94625145dd5a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac21a3bda51f8d1d2b71be6d00d760e38"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a></td></tr>
+<tr class="separator:ac21a3bda51f8d1d2b71be6d00d760e38"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a60153094e3179bfc6c028d2b76775805" name="a60153094e3179bfc6c028d2b76775805"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60153094e3179bfc6c028d2b76775805">&#9670;&#160;</a></span>PlayerClassLevelInfo()</h2>
+<a id="a7164bb9338d6362f427d75025c9026b6" name="a7164bb9338d6362f427d75025c9026b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7164bb9338d6362f427d75025c9026b6">&#9670;&#160;</a></span>UpdateData()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">UpdateData::UpdateData </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   26</span>                       : <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a>(0)</div>
+<div class="line"><span class="lineno">   27</span>{</div>
+<div class="line"><span class="lineno">   28</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.reserve(15);</div>
+<div class="line"><span class="lineno">   29</span>}</div>
+<div class="ttc" id="aa08314_html_a60f7b1745f84b24b25c94625145dd5a2"><div class="ttname"><a href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">UpdateData::m_outOfRangeGUIDs</a></div><div class="ttdeci">GuidVector m_outOfRangeGUIDs</div><div class="ttdef"><b>Definition:</b> UpdateData.h:65</div></div>
+<div class="ttc" id="aa08314_html_a791f9606867a40d018f67600e338a08e"><div class="ttname"><a href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">UpdateData::m_blockCount</a></div><div class="ttdeci">uint32 m_blockCount</div><div class="ttdef"><b>Definition:</b> UpdateData.h:64</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">m_outOfRangeGUIDs</a>.</p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4c68f187e2f6e65da3bdb6a443ebcacf" name="a4c68f187e2f6e65da3bdb6a443ebcacf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c68f187e2f6e65da3bdb6a443ebcacf">&#9670;&#160;</a></span>AddOutOfRangeGUID()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateData::AddOutOfRangeGUID </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/df2/a08266.html">ObjectGuid</a>&#160;</td>
+          <td class="paramname"><em>guid</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{</div>
+<div class="line"><span class="lineno">   33</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.push_back(guid);</div>
+<div class="line"><span class="lineno">   34</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00065">m_outOfRangeGUIDs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00269">Object::BuildOutOfRangeUpdateBlock()</a>, <a class="el" href="../../#l02580">Map::SendRemoveTransports()</a>, and <a class="el" href="../../#l00040">Acore::VisibleNotifier::SendToSelf()</a>.</p>
+
+</div>
+</div>
+<a id="a620f0036078833a3b5ce1245274595f8" name="a620f0036078833a3b5ce1245274595f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a620f0036078833a3b5ce1245274595f8">&#9670;&#160;</a></span>AddUpdateBlock() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateData::AddUpdateBlock </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{</div>
+<div class="line"><span class="lineno">   38</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>.<a class="code hl_function" href="../../d6/df2/a28138.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(block);</div>
+<div class="line"><span class="lineno">   39</span>    ++<a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a>;</div>
+<div class="line"><span class="lineno">   40</span>}</div>
+<div class="ttc" id="aa08314_html_ac21a3bda51f8d1d2b71be6d00d760e38"><div class="ttname"><a href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">UpdateData::m_data</a></div><div class="ttdeci">ByteBuffer m_data</div><div class="ttdef"><b>Definition:</b> UpdateData.h:66</div></div>
+<div class="ttc" id="aa28138_html_a5811e6da355e8c3d0f45997a557a666b"><div class="ttname"><a href="../../d6/df2/a28138.html#a5811e6da355e8c3d0f45997a557a666b">ByteBuffer::append</a></div><div class="ttdeci">void append(T value)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:129</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00064">m_blockCount</a>, and <a class="el" href="../../#l00066">m_data</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00189">Object::BuildCreateUpdateBlockForPlayer()</a>, <a class="el" href="../../#l00177">Object::BuildMovementUpdateBlock()</a>, and <a class="el" href="../../#l00257">Object::BuildValuesUpdateBlockForPlayer()</a>.</p>
+
+</div>
+</div>
+<a id="af770dbf9bc4e4da1b97aba73b152b23b" name="af770dbf9bc4e4da1b97aba73b152b23b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af770dbf9bc4e4da1b97aba73b152b23b">&#9670;&#160;</a></span>AddUpdateBlock() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateData::AddUpdateBlock </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="../../da/dfc/a08314.html">UpdateData</a> &amp;&#160;</td>
+          <td class="paramname"><em>block</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{</div>
+<div class="line"><span class="lineno">   44</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>.<a class="code hl_function" href="../../d6/df2/a28138.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(block.<a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>);</div>
+<div class="line"><span class="lineno">   45</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a> += block.<a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a>;</div>
+<div class="line"><span class="lineno">   46</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00064">m_blockCount</a>, and <a class="el" href="../../#l00066">m_data</a>.</p>
+
+</div>
+</div>
+<a id="a3bea592b01b6c9e41b863c26fd602d45" name="a3bea592b01b6c9e41b863c26fd602d45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bea592b01b6c9e41b863c26fd602d45">&#9670;&#160;</a></span>BuildPacket()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool UpdateData::BuildPacket </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/dc5/a10766.html">WorldPacket</a> &amp;&#160;</td>
+          <td class="paramname"><em>packet</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{</div>
+<div class="line"><span class="lineno">   50</span>    <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(packet.<a class="code hl_function" href="../../d6/df2/a28138.html#ac1bd3fa1333a0b1140398dca94582bf9">empty</a>());</div>
+<div class="line"><span class="lineno">   51</span> </div>
+<div class="line"><span class="lineno">   52</span>    packet.<a class="code hl_function" href="../../d6/df2/a28138.html#a48480d6c90375176acff4348a0ad1e55">reserve</a>(4 + (<a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.empty() ? 0 : 1 + 4 + 9 * <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.size()) + <a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>.<a class="code hl_function" href="../../d6/df2/a28138.html#a6e9aaf9195c43a9a03ee4a55c435e24f">wpos</a>());</div>
+<div class="line"><span class="lineno">   53</span> </div>
+<div class="line"><span class="lineno">   54</span>    packet &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) (!<a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.empty() ? <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a> + 1 : <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a>);</div>
+<div class="line"><span class="lineno">   55</span> </div>
+<div class="line"><span class="lineno">   56</span>    <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.empty())</div>
+<div class="line"><span class="lineno">   57</span>    {</div>
+<div class="line"><span class="lineno">   58</span>        packet &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>) <a class="code hl_enumvalue" href="../../d1/d07/a03482.html#aa0f2952f4b375c0e91f5276ff267cbada5e1317f5c975a9e3a19c37922f49e089">UPDATETYPE_OUT_OF_RANGE_OBJECTS</a>;</div>
+<div class="line"><span class="lineno">   59</span>        packet &lt;&lt; (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>) <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.size();</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        <span class="keywordflow">for</span> (<a class="code hl_class" href="../../d4/df2/a08266.html">ObjectGuid</a> <span class="keyword">const</span>&amp; guid : <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>)</div>
+<div class="line"><span class="lineno">   62</span>            packet &lt;&lt; guid.WriteAsPacked();</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>    packet.<a class="code hl_function" href="../../d6/df2/a28138.html#a5811e6da355e8c3d0f45997a557a666b">append</a>(<a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>);</div>
+<div class="line"><span class="lineno">   66</span>    packet.<a class="code hl_function" href="../../dc/dc5/a10766.html#acb55a3f9540c39bf88300473c29605ed">SetOpcode</a>(<a class="code hl_enumvalue" href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9baa19f59dc85b16985e439758bae166f55">SMSG_UPDATE_OBJECT</a>);</div>
+<div class="line"><span class="lineno">   67</span> </div>
+<div class="line"><span class="lineno">   68</span>    <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   69</span>}</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa00497_html_a15a8d014fadf85c99a2268d8cbd00767"><div class="ttname"><a href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a></div><div class="ttdeci">std::uint8_t uint8</div><div class="ttdef"><b>Definition:</b> Define.h:109</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa03482_html_aa0f2952f4b375c0e91f5276ff267cbada5e1317f5c975a9e3a19c37922f49e089"><div class="ttname"><a href="../../d1/d07/a03482.html#aa0f2952f4b375c0e91f5276ff267cbada5e1317f5c975a9e3a19c37922f49e089">UPDATETYPE_OUT_OF_RANGE_OBJECTS</a></div><div class="ttdeci">@ UPDATETYPE_OUT_OF_RANGE_OBJECTS</div><div class="ttdef"><b>Definition:</b> UpdateData.h:32</div></div>
+<div class="ttc" id="aa04680_html_gga1073b6abb3a749f18bf1633020879e9baa19f59dc85b16985e439758bae166f55"><div class="ttname"><a href="../../d5/dfd/a04680.html#gga1073b6abb3a749f18bf1633020879e9baa19f59dc85b16985e439758bae166f55">SMSG_UPDATE_OBJECT</a></div><div class="ttdeci">@ SMSG_UPDATE_OBJECT</div><div class="ttdef"><b>Definition:</b> Opcodes.h:199</div></div>
+<div class="ttc" id="aa08266_html"><div class="ttname"><a href="../../d4/df2/a08266.html">ObjectGuid</a></div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:118</div></div>
+<div class="ttc" id="aa10766_html_acb55a3f9540c39bf88300473c29605ed"><div class="ttname"><a href="../../dc/dc5/a10766.html#acb55a3f9540c39bf88300473c29605ed">WorldPacket::SetOpcode</a></div><div class="ttdeci">void SetOpcode(uint16 opcode)</div><div class="ttdef"><b>Definition:</b> WorldPacket.h:76</div></div>
+<div class="ttc" id="aa28138_html_a48480d6c90375176acff4348a0ad1e55"><div class="ttname"><a href="../../d6/df2/a28138.html#a48480d6c90375176acff4348a0ad1e55">ByteBuffer::reserve</a></div><div class="ttdeci">void reserve(std::size_t ressize)</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:454</div></div>
+<div class="ttc" id="aa28138_html_a6e9aaf9195c43a9a03ee4a55c435e24f"><div class="ttname"><a href="../../d6/df2/a28138.html#a6e9aaf9195c43a9a03ee4a55c435e24f">ByteBuffer::wpos</a></div><div class="ttdeci">std::size_t wpos() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:330</div></div>
+<div class="ttc" id="aa28138_html_ac1bd3fa1333a0b1140398dca94582bf9"><div class="ttname"><a href="../../d6/df2/a28138.html#ac1bd3fa1333a0b1140398dca94582bf9">ByteBuffer::empty</a></div><div class="ttdeci">bool empty() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:445</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00129">ByteBuffer::append()</a>, <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00445">ByteBuffer::empty()</a>, <a class="el" href="../../#l00064">m_blockCount</a>, <a class="el" href="../../#l00066">m_data</a>, <a class="el" href="../../#l00065">m_outOfRangeGUIDs</a>, <a class="el" href="../../#l00454">ByteBuffer::reserve()</a>, <a class="el" href="../../#l00076">WorldPacket::SetOpcode()</a>, <a class="el" href="../../#l00199">SMSG_UPDATE_OBJECT</a>, <a class="el" href="../../#l00032">UPDATETYPE_OUT_OF_RANGE_OBJECTS</a>, and <a class="el" href="../../#l00330">ByteBuffer::wpos()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00615">Map::AddToMap()</a>, <a class="el" href="../../#l00367">spell_madrigosa_activate_barrier::HandleActivateObject()</a>, <a class="el" href="../../#l00394">spell_madrigosa_deactivate_barrier::HandleActivateObject()</a>, <a class="el" href="../../#l00432">spell_pri_lightwell_renew::HandleUpdateSpellclick()</a>, <a class="el" href="../../#l00962">Map::RemoveFromMap()</a>, <a class="el" href="../../#l02532">Map::SendInitSelf()</a>, <a class="el" href="../../#l02567">Map::SendInitTransports()</a>, <a class="el" href="../../#l02580">Map::SendRemoveTransports()</a>, <a class="el" href="../../#l00040">Acore::VisibleNotifier::SendToSelf()</a>, <a class="el" href="../../#l01131">BattlegroundSA::SendTransportInit()</a>, <a class="el" href="../../#l01146">BattlegroundSA::SendTransportsRemove()</a>, <a class="el" href="../../#l00246">Object::SendUpdateToPlayer()</a>, <a class="el" href="../../#l10573">Unit::SetOwnerGUID()</a>, <a class="el" href="../../#l00294">BattlegroundSA::StartShips()</a>, <a class="el" href="../../#l00447">GameObject::Update()</a>, <a class="el" href="../../#l01746">Player::UpdateForQuestWorldObjects()</a>, and <a class="el" href="../../#l01700">Player::UpdateTriggerVisibility()</a>.</p>
+
+</div>
+</div>
+<a id="adc0750db190d94fed3bfef72da75066c" name="adc0750db190d94fed3bfef72da75066c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc0750db190d94fed3bfef72da75066c">&#9670;&#160;</a></span>Clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void UpdateData::Clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   72</span>{</div>
+<div class="line"><span class="lineno">   73</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#ac21a3bda51f8d1d2b71be6d00d760e38">m_data</a>.<a class="code hl_function" href="../../d6/df2/a28138.html#ab9fbbcf0abe4049e2016c1262795c97e">clear</a>();</div>
+<div class="line"><span class="lineno">   74</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.clear();</div>
+<div class="line"><span class="lineno">   75</span>    <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a> = 0;</div>
+<div class="line"><span class="lineno">   76</span>}</div>
+<div class="ttc" id="aa28138_html_ab9fbbcf0abe4049e2016c1262795c97e"><div class="ttname"><a href="../../d6/df2/a28138.html#ab9fbbcf0abe4049e2016c1262795c97e">ByteBuffer::clear</a></div><div class="ttdeci">void clear()</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:122</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00122">ByteBuffer::clear()</a>, <a class="el" href="../../#l00064">m_blockCount</a>, <a class="el" href="../../#l00066">m_data</a>, and <a class="el" href="../../#l00065">m_outOfRangeGUIDs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02532">Map::SendInitSelf()</a>.</p>
+
+</div>
+</div>
+<a id="a067577372028ad59aea7942f0cd4a5c2" name="a067577372028ad59aea7942f0cd4a5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a067577372028ad59aea7942f0cd4a5c2">&#9670;&#160;</a></span>HasData()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,51 +335,96 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">PlayerClassLevelInfo::PlayerClassLevelInfo </td>
+          <td class="memname">bool UpdateData::HasData </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   60</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../da/dfc/a08314.html#a791f9606867a40d018f67600e338a08e">m_blockCount</a> &gt; 0 || !<a class="code hl_variable" href="../../da/dfc/a08314.html#a60f7b1745f84b24b25c94625145dd5a2">m_outOfRangeGUIDs</a>.empty(); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00064">m_blockCount</a>, and <a class="el" href="../../#l00065">m_outOfRangeGUIDs</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00388">Group::AddMember()</a>, <a class="el" href="../../#l00040">Acore::VisibleNotifier::SendToSelf()</a>, and <a class="el" href="../../#l01700">Player::UpdateTriggerVisibility()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a034ae3d2b5b14ce454710ca8f92ffee0" name="a034ae3d2b5b14ce454710ca8f92ffee0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a034ae3d2b5b14ce454710ca8f92ffee0">&#9670;&#160;</a></span>basehealth</h2>
+<a id="a791f9606867a40d018f67600e338a08e" name="a791f9606867a40d018f67600e338a08e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a791f9606867a40d018f67600e338a08e">&#9670;&#160;</a></span>m_blockCount</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PlayerClassLevelInfo::basehealth {0}</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> UpdateData::m_blockCount</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l02470">Player::GiveLevel()</a>, <a class="el" href="../../#l02595">Player::InitStatsForLevel()</a>, and <a class="el" href="../../#l03683">ObjectMgr::LoadPlayerInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00036">AddUpdateBlock()</a>, <a class="el" href="../../#l00048">BuildPacket()</a>, <a class="el" href="../../#l00071">Clear()</a>, and <a class="el" href="../../#l00060">HasData()</a>.</p>
 
 </div>
 </div>
-<a id="a939a8d8739a553c919d84e399ce17d22" name="a939a8d8739a553c919d84e399ce17d22"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a939a8d8739a553c919d84e399ce17d22">&#9670;&#160;</a></span>basemana</h2>
+<a id="ac21a3bda51f8d1d2b71be6d00d760e38" name="ac21a3bda51f8d1d2b71be6d00d760e38"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac21a3bda51f8d1d2b71be6d00d760e38">&#9670;&#160;</a></span>m_data</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> PlayerClassLevelInfo::basemana {0}</td>
+          <td class="memname"><a class="el" href="../../d6/df2/a28138.html">ByteBuffer</a> UpdateData::m_data</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l02470">Player::GiveLevel()</a>, <a class="el" href="../../#l02595">Player::InitStatsForLevel()</a>, and <a class="el" href="../../#l03683">ObjectMgr::LoadPlayerInfo()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00036">AddUpdateBlock()</a>, <a class="el" href="../../#l00048">BuildPacket()</a>, and <a class="el" href="../../#l00071">Clear()</a>.</p>
+
+</div>
+</div>
+<a id="a60f7b1745f84b24b25c94625145dd5a2" name="a60f7b1745f84b24b25c94625145dd5a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a60f7b1745f84b24b25c94625145dd5a2">&#9670;&#160;</a></span>m_outOfRangeGUIDs</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d7/db0/a03467.html#a173958393e55b3150391dfb3a6d387ed">GuidVector</a> UpdateData::m_outOfRangeGUIDs</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00031">AddOutOfRangeGUID()</a>, <a class="el" href="../../#l00048">BuildPacket()</a>, <a class="el" href="../../#l00071">Clear()</a>, <a class="el" href="../../#l00060">HasData()</a>, and <a class="el" href="../../#l00026">UpdateData()</a>.</p>
 
 </div>
 </div>
@@ -191,8 +433,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../da/dfc/a08314.html">PlayerClassLevelInfo</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:01 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../da/dfc/a08314.html">UpdateData</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:38 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

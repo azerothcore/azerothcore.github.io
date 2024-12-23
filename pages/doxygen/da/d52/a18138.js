@@ -1,6 +1,7 @@
 var a18138 =
 [
-    [ "npc_blazing_skeletonAI", "dd/de1/a18142.html", "dd/de1/a18142" ],
-    [ "npc_blazing_skeleton", "da/d52/a18138.html#a158720704479946048472ffe0beec492", null ],
-    [ "GetAI", "da/d52/a18138.html#af29ea4620ebafaa4d47ec9f37758af77", null ]
+    [ "AuraRemoveEvent", "da/d52/a18138.html#a094b9437c7cadb465738daf5684c9725", null ],
+    [ "Execute", "da/d52/a18138.html#a14ac906a0fcff86f61983c570b0bd6ad", null ],
+    [ "_spellId", "da/d52/a18138.html#a6fad41839e07e9545859be7c3afcfc36", null ],
+    [ "_trigger", "da/d52/a18138.html#aad8c27befc102dae6823d5d74fed50b4", null ]
 ];

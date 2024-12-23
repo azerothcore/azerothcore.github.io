@@ -1,6 +1,6 @@
 var a23534 =
 [
-    [ "PrepareAuraScript", "d1/d9e/a23534.html#a14d4d1a75130a77e7e59e41720491bec", null ],
-    [ "PrepareProc", "d1/d9e/a23534.html#abea217f4bfdffc70007fbc29849e9a49", null ],
-    [ "Register", "d1/d9e/a23534.html#a9dbcd4c940f5941472bebb64829125e3", null ]
+    [ "HandleScriptEffect", "d1/d9e/a23534.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
+    [ "PrepareSpellScript", "d1/d9e/a23534.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
+    [ "Register", "d1/d9e/a23534.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
 ];

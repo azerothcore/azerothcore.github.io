@@ -1,6 +1,6 @@
 var a18334 =
 [
-    [ "HandleEvent", "d6/d73/a18334.html#a7936a64a1142a47b2addfd746dccfcef", null ],
-    [ "PrepareSpellScript", "d6/d73/a18334.html#a00e2be07131c674558d0364df98849ab", null ],
-    [ "Register", "d6/d73/a18334.html#a89364583504d2eaa75473586850bc3d5", null ]
+    [ "npc_captain_brandonAI", "d6/d73/a18334.html#a1fe09b93be658660ba3c127c142e2ee6", null ],
+    [ "Reset", "d6/d73/a18334.html#a13226b321707eee9faf5f073c81403e4", null ],
+    [ "UpdateAI", "d6/d73/a18334.html#a721f8f7395cd57d4dba74f66ae40169f", null ]
 ];

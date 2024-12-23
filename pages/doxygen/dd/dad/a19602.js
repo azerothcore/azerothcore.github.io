@@ -1,8 +1,9 @@
 var a19602 =
 [
-    [ "OnApply", "dd/dad/a19602.html#a5aec8606684637bbdb1e819254f5d483", null ],
-    [ "OnRemove", "dd/dad/a19602.html#add485a2fd5fdd068d7258d3c9c0d9c2b", null ],
-    [ "PrepareAuraScript", "dd/dad/a19602.html#adcc21606209dc2f32c1173c7ab4c5579", null ],
-    [ "Register", "dd/dad/a19602.html#af1db6ca387cf0733ba4b9c324172d692", null ],
-    [ "Validate", "dd/dad/a19602.html#a332d01b39295ea9a11773be9aa9c3fb3", null ]
+    [ "npc_thorims_hammerAI", "dd/dad/a19602.html#aafda36c8d784252d271ef031ab6a3d34", null ],
+    [ "Reset", "dd/dad/a19602.html#a57975d0dc00c86946e547ba43c7151ec", null ],
+    [ "UpdateAI", "dd/dad/a19602.html#a4e01a61d09c11647e06c3547d6fa91fa", null ],
+    [ "_beamTimer", "dd/dad/a19602.html#aba7c6c078977a8187a7e673ba3126bfd", null ],
+    [ "_finishTime", "dd/dad/a19602.html#a218bd28d18a2c2f0aef6906619437209", null ],
+    [ "_removeTimer", "dd/dad/a19602.html#a958e4c975d1ae634745107af7d204f82", null ]
 ];

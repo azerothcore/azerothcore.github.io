@@ -1,7 +1,6 @@
 var a14838 =
 [
-    [ "boss_glob_of_viscidus", "d4/d58/a14838.html#a1ba72393766110382dc4ce4122dfd1ee", null ],
-    [ "InitializeAI", "d4/d58/a14838.html#a0247055fc4f3a60c880ffb78e96edcb9", null ],
-    [ "MovementInform", "d4/d58/a14838.html#abe0cd95930fe52fdb5a40c704d092b90", null ],
-    [ "UpdateAI", "d4/d58/a14838.html#a2e8e38ccdf4ab5e32bd750d73daf1605", null ]
+    [ "FilterTargets", "d4/d58/a14838.html#a15ebe9125f5f4a8f66241ee4da1ac83e", null ],
+    [ "PrepareSpellScript", "d4/d58/a14838.html#a32b0be74a9127f920e22aa03c910a005", null ],
+    [ "Register", "d4/d58/a14838.html#a80efa2858d4270c497e49a1fe6a7472e", null ]
 ];

@@ -1,6 +1,6 @@
 var a17634 =
 [
-    [ "CheckTarget", "dd/d7a/a17634.html#afce64ba75f8370cab6b8f1e561b10587", null ],
-    [ "PrepareSpellScript", "dd/d7a/a17634.html#a6b6eaf3e761f2c173c2e72f46b25595a", null ],
-    [ "Register", "dd/d7a/a17634.html#a6964ca668f02a8b5b1c3015503a41eef", null ]
+    [ "ExtraEffect", "dd/d7a/a17634.html#a10dfb36a835589208482e1c8833d8f46", null ],
+    [ "PrepareSpellScript", "dd/d7a/a17634.html#a972ff2bdc7d3660820e05326600be6f6", null ],
+    [ "Register", "dd/d7a/a17634.html#ae337e67a220b72b44878d02be33e3888", null ]
 ];

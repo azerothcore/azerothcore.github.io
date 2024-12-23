@@ -1,18 +1,12 @@
 var a10758 =
 [
-    [ "PacketThrottlingMap", "d2/d7a/a10758.html#aa41dd21032403490c49a400651c98855", null ],
-    [ "Policy", "d2/d7a/a10758.html#abdee2870dbaa3341ecd6f682f87a63aa", [
-      [ "POLICY_LOG", "d2/d7a/a10758.html#abdee2870dbaa3341ecd6f682f87a63aaaefd19afe4205198f20dd897afd24996e", null ],
-      [ "POLICY_KICK", "d2/d7a/a10758.html#abdee2870dbaa3341ecd6f682f87a63aaa46c5cdf37fe50456fb3e0e70cfeeab69", null ],
-      [ "POLICY_BAN", "d2/d7a/a10758.html#abdee2870dbaa3341ecd6f682f87a63aaab6a123819ec45a697fa1e8a986603aef", null ]
-    ] ],
-    [ "DosProtection", "d2/d7a/a10758.html#a8e43f21b9c729db604c9afd90f68dc20", null ],
-    [ "DosProtection", "d2/d7a/a10758.html#a8850d18ae254633f6bde5c85cbcef830", null ],
-    [ "EvaluateOpcode", "d2/d7a/a10758.html#a43840320a5f11f297497e7622b2c9338", null ],
-    [ "GetMaxPacketCounterAllowed", "d2/d7a/a10758.html#a586300e9ac27181b15a7e2b11ae31e5f", null ],
-    [ "operator=", "d2/d7a/a10758.html#a98394089b867ff6e8107b7975a67737d", null ],
-    [ "World", "d2/d7a/a10758.html#a7b4bcdf992c21ae83363f25df05b1d25", null ],
-    [ "_PacketThrottlingMap", "d2/d7a/a10758.html#ab74f0cf257d3db9076e3a8771de63eb3", null ],
-    [ "_policy", "d2/d7a/a10758.html#a2ea3ba91a8fac42f269542fd369a5da6", null ],
-    [ "Session", "d2/d7a/a10758.html#a3f3f5397fb30cdf14141480659b18208", null ]
+    [ "PacketLog", "d2/d7a/a10758.html#a75215d454393ecd3fce0ea07b5d673ee", null ],
+    [ "~PacketLog", "d2/d7a/a10758.html#a595a42f9aaa94d6c46d185955df801e0", null ],
+    [ "CanLogPacket", "d2/d7a/a10758.html#a322cf3a0d8707becb9dcc64548d4cce5", null ],
+    [ "Initialize", "d2/d7a/a10758.html#aea6ccfd41bc147557b7c5066fe18afa6", null ],
+    [ "instance", "d2/d7a/a10758.html#a484418a51ca0bf150d17b23d97979bf4", null ],
+    [ "LogPacket", "d2/d7a/a10758.html#ac0323a6ac3856412b765d0b31dbbb37e", null ],
+    [ "_file", "d2/d7a/a10758.html#a03346a709f7586f6445e03b9a3b6af04", null ],
+    [ "_initializeFlag", "d2/d7a/a10758.html#a490cafe009f7b2ecb303a76c781f8960", null ],
+    [ "_logPacketLock", "d2/d7a/a10758.html#aeffb6309ef859cbb346b15dc1fca5cbe", null ]
 ];

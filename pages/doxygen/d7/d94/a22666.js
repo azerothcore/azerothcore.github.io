@@ -1,6 +1,6 @@
 var a22666 =
 [
-    [ "PrepareSpellScript", "d7/d94/a22666.html#a7e03b63174511ed4c3e78c99b781f8f2", null ],
-    [ "Register", "d7/d94/a22666.html#aaed4b5d67dbd06cb0a1adc91aa873247", null ],
-    [ "RemoveSpines", "d7/d94/a22666.html#a076b056328ba6181a6ec907f21258f9d", null ]
+    [ "PrepareSpellScript", "d7/d94/a22666.html#ad786920d6180b8e2829f3a56ec50c488", null ],
+    [ "Register", "d7/d94/a22666.html#a857be9f0017e0013f3e30e1d026eaf5a", null ],
+    [ "SetDest", "d7/d94/a22666.html#a0ea9f9513ad607f639b28d5f8162e629", null ]
 ];

@@ -1,10 +1,9 @@
 var a12358 =
 [
-    [ "npc_netherspite_infernal", "d5/de3/a12358.html#af9837d7a671533523ce323c083c4e847", null ],
-    [ "DamageTaken", "d5/de3/a12358.html#aee9b38f3590e08b16de1789576986a09", null ],
-    [ "JustEngagedWith", "d5/de3/a12358.html#a76d8944ca2d9b2f1aa5b635ce94bacfb", null ],
-    [ "KilledUnit", "d5/de3/a12358.html#a49c37fbebed2951c493962c1a3bd0339", null ],
-    [ "MoveInLineOfSight", "d5/de3/a12358.html#a7ecce97cef0adda03910e87d9fd82f71", null ],
-    [ "SpellHit", "d5/de3/a12358.html#abb6c7d0b5e231e460b069198b16106b7", null ],
-    [ "UpdateAI", "d5/de3/a12358.html#a575040456c0eb4d343e7c0c5f75159b4", null ]
+    [ "boss_curator", "d5/de3/a12358.html#a41b65078d0822ba87f3e40fc7bb10a40", null ],
+    [ "JustDied", "d5/de3/a12358.html#a5617f51f51304682d48af11fdb0c6b8b", null ],
+    [ "JustEngagedWith", "d5/de3/a12358.html#a848f477a101956662389cab5ffcc0727", null ],
+    [ "JustSummoned", "d5/de3/a12358.html#ac779d275e03e6ba190617d215b217ce5", null ],
+    [ "KilledUnit", "d5/de3/a12358.html#a9bfb89a8747251e4a84eb2f94a547f0d", null ],
+    [ "Reset", "d5/de3/a12358.html#af6fbf3c3d77f9f052f11974f7b54feab", null ]
 ];

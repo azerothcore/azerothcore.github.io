@@ -1,7 +1,7 @@
 var a01964 =
 [
-    [ "instance_violet_hold", "dd/d3f/a21018.html", "dd/d3f/a21018" ],
-    [ "instance_violet_hold::instance_violet_hold_InstanceMapScript", "d8/d49/a21022.html", "d8/d49/a21022" ],
+    [ "instance_violet_hold", "d5/d82/a21074.html", "d5/d82/a21074" ],
+    [ "instance_violet_hold::instance_violet_hold_InstanceMapScript", "dd/de4/a21078.html", "dd/de4/a21078" ],
     [ "vYells", "d6/d90/a01964.html#af81bfaea39a160ddb9422869d6637d65", [
       [ "CYANIGOSA_SAY_SPAWN", "d6/d90/a01964.html#af81bfaea39a160ddb9422869d6637d65ad55452f43eb6c2a7803dd3a6914ff586", null ],
       [ "SAY_SINCLARI_LEAVING", "d6/d90/a01964.html#af81bfaea39a160ddb9422869d6637d65a98abfd4974743840603721fea2cd0192", null ],

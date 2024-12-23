@@ -1,16 +1,8 @@
 var a24282 =
 [
-    [ "CheckCast", "dd/d1c/a24282.html#a28e769267a83e4c499dca83a3f5708eb", null ],
-    [ "CheckReagents", "dd/d1c/a24282.html#aa8a2efb4807c29aeb5bf786e05113b61", null ],
-    [ "CheckTarget", "dd/d1c/a24282.html#ae339cf884f1d2f877e988ef6f6b555bf", null ],
-    [ "CheckTargets", "dd/d1c/a24282.html#af1013668080685cd86ae6abb52258fb1", null ],
-    [ "ConsumeReagents", "dd/d1c/a24282.html#aa5df00ed970db696b92b51566e098f3f", null ],
-    [ "GetGhoulSpellId", "dd/d1c/a24282.html#a9f94b3d279c036fb4b1c5b69934e63f2", null ],
-    [ "HandleRaiseDead", "dd/d1c/a24282.html#a3d1e0191d99e970f42d825632fe0f7e2", null ],
-    [ "Load", "dd/d1c/a24282.html#a05ea44a20f08f9010faca13a0f4d0f39", null ],
-    [ "PrepareSpellScript", "dd/d1c/a24282.html#a9565c8459a6d8cfed85c9120aca9715f", null ],
-    [ "Register", "dd/d1c/a24282.html#a0ebef363de4a802b242c806517ad0fb5", null ],
-    [ "Validate", "dd/d1c/a24282.html#a0ab8ee639fa83e954e964994c75451c8", null ],
-    [ "_corpse", "dd/d1c/a24282.html#adbc699b3bfd33f595ea287ca833ea2d4", null ],
-    [ "_result", "dd/d1c/a24282.html#aefebf79fa61b9f4d12929d54bd48389f", null ]
+    [ "CheckCast", "dd/d1c/a24282.html#a94851a2b6a62138e28466317e9e88480", null ],
+    [ "HandleDummy", "dd/d1c/a24282.html#a970684d219c99519512c437a8efd8d43", null ],
+    [ "PrepareSpellScript", "dd/d1c/a24282.html#a39b726e6c5809a6f8100970e8b71fc71", null ],
+    [ "Register", "dd/d1c/a24282.html#a7acf718f0a1109d384fd2b9dd23ca62c", null ],
+    [ "Validate", "dd/d1c/a24282.html#a59cca008a97447e257bf24071301b366", null ]
 ];

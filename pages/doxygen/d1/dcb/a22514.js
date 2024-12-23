@@ -1,7 +1,10 @@
 var a22514 =
 [
-    [ "CheckProc", "d1/dcb/a22514.html#a0968b7b32f2d2bef6035e030f544088a", null ],
-    [ "PrepareAuraScript", "d1/dcb/a22514.html#ac424e41948196a6e60b790ebcf40783f", null ],
-    [ "Register", "d1/dcb/a22514.html#a06bdac68e36b43ee534e937ffd974086", null ],
-    [ "Update", "d1/dcb/a22514.html#af6c228840f6af96e353ba964fdd01e54", null ]
+    [ "boss_gathios_the_shatterer", "d1/dcb/a22514.html#a34708f52c610e567c5acf62962e90d4e", null ],
+    [ "JustEngagedWith", "d1/dcb/a22514.html#a98ad625cf2ac9b1d8d9b41001ba4fb34", null ],
+    [ "SelectCouncilMember", "d1/dcb/a22514.html#a3d33c1a29b7ba2feb22ea9d3941b39ed", null ],
+    [ "UpdateAI", "d1/dcb/a22514.html#a1541f1efd3978a4c91b80e411aec6442", null ],
+    [ "_toggleAura", "d1/dcb/a22514.html#aa983e2d9018a9e53ee29840781f47c33", null ],
+    [ "_toggleBlessing", "d1/dcb/a22514.html#a52e9b7d3b1af46d3ecb6ca9432ee3957", null ],
+    [ "_toggleSeal", "d1/dcb/a22514.html#ad7e6f9e03968e2abac570d0c7a5de9e2", null ]
 ];

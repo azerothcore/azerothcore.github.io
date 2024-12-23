@@ -1,7 +1,10 @@
 var a25146 =
 [
-    [ "HandleScriptEffect", "d1/df0/a25146.html#acbcc05fa433f5bf75998b15e4e25fdad", null ],
-    [ "PrepareSpellScript", "d1/df0/a25146.html#adf5a3b94012ac871c70f5782d57ae1cd", null ],
-    [ "Register", "d1/df0/a25146.html#a00596a3f8f0699c25e52a5778d59a2b2", null ],
-    [ "SelectTarget", "d1/df0/a25146.html#a6a59b7ce696f959b2026cf8088079e89", null ]
+    [ "ApplyMarker", "d1/df0/a25146.html#aae1bd2f5f21a389e8d110cabecc9d94d", null ],
+    [ "CheckTrapProc", "d1/df0/a25146.html#a00f06f18b6874302f88c3af193d8e4ed", null ],
+    [ "HandleProcs", "d1/df0/a25146.html#a81abe76c24a6a6320811d99ce8f5fb4f", null ],
+    [ "IsTargetValid", "d1/df0/a25146.html#a02590da9b97a4d6bc7a6cbd0e670480f", null ],
+    [ "PrepareAuraScript", "d1/df0/a25146.html#a475320d20875b2d710ed3734b78f4645", null ],
+    [ "Register", "d1/df0/a25146.html#aca7649a87ace4e22793ca33705b1500c", null ],
+    [ "Validate", "d1/df0/a25146.html#a45630b6dc703996321286ff16a17e3e3", null ]
 ];

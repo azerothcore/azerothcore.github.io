@@ -1,6 +1,6 @@
 var a16990 =
 [
-    [ "KnockIntoAir", "d6/db5/a16990.html#a1f9fb1f258613ca6657abba26969961f", null ],
-    [ "PrepareSpellScript", "d6/db5/a16990.html#acf66a4b14ffce76b6c8dc7cc5906f229", null ],
-    [ "Register", "d6/db5/a16990.html#a35a7758630c1769228fedff84ad929e8", null ]
+    [ "npc_dark_nucleusAI", "df/dee/a16994.html", "df/dee/a16994" ],
+    [ "npc_dark_nucleus", "d6/db5/a16990.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
+    [ "GetAI", "d6/db5/a16990.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
 ];

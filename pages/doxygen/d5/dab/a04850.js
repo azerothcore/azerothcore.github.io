@@ -1,8 +1,10 @@
 var a04850 =
 [
-    [ "DynamicTreeAreaInfoCallback", "d5/dab/a04850.html#ad3f3d57e011439d9900afffa8d9c6ed7", null ],
-    [ "GetAreaInfo", "d5/dab/a04850.html#a22cc8c47b3c93bd9ba396861a5bbea99", null ],
-    [ "operator()", "d5/dab/a04850.html#adf7f147bb4b4f3a5252ac15ffd1b80ea", null ],
-    [ "_areaInfo", "d5/dab/a04850.html#a59781066b5b1a7e970f4dcf6f05a7dcb", null ],
-    [ "_phaseMask", "d5/dab/a04850.html#a9ad7b4de03c8baa6190a5ef57f2eecf2", null ]
+    [ "DynamicTreeLocationInfoCallback", "d5/dab/a04850.html#a3fcb6d535b2207e2bfedb961de856e6d", null ],
+    [ "GetHitModel", "d5/dab/a04850.html#ac939625c44c7be8ba8b96d55545b657c", null ],
+    [ "GetLocationInfo", "d5/dab/a04850.html#ac1c3839aa1f0e9b64390502c4ce7bb3e", null ],
+    [ "operator()", "d5/dab/a04850.html#a4d2569c48cfa431282119ed5bd53ffb4", null ],
+    [ "_hitModel", "d5/dab/a04850.html#adef79d7627daa66d88c7146704984622", null ],
+    [ "_locationInfo", "d5/dab/a04850.html#a3c9be93de73520942a8d52b78fe72438", null ],
+    [ "_phaseMask", "d5/dab/a04850.html#aebe4c7cfc47b3bd2701b2b9cda2ed71e", null ]
 ];

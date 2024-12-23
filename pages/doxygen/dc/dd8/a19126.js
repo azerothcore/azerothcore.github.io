@@ -1,6 +1,7 @@
 var a19126 =
 [
-    [ "npc_stormforged_lieutenantAI", "d8/d0e/a19130.html", "d8/d0e/a19130" ],
-    [ "npc_stormforged_lieutenant", "dc/dd8/a19126.html#ab58a73d33c6545815511c5c4f0ecfd9e", null ],
-    [ "GetAI", "dc/dd8/a19126.html#ae3aba4b53e73097c261eaaed19f17950", null ]
+    [ "Apply", "dc/dd8/a19126.html#add8e95d38b0c437833c11cded72fe2a7", null ],
+    [ "PrepareAuraScript", "dc/dd8/a19126.html#ad2112b571d97e537983b4d11207015e6", null ],
+    [ "Register", "dc/dd8/a19126.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
+    [ "Validate", "dc/dd8/a19126.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
 ];

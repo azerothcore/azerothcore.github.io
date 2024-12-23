@@ -1,6 +1,7 @@
 var a23894 =
 [
-    [ "PrepareSpellScript", "d9/dd6/a23894.html#aa858fff409e5c75d865c91cb5fbef679", null ],
-    [ "Register", "d9/dd6/a23894.html#a0deddf7497d3bdb82901d612dce28dc9", null ],
-    [ "SetDest", "d9/dd6/a23894.html#a7b9a31e79d13af130566cda1fcb5dac1", null ]
+    [ "o", "d9/dd6/a23894.html#a3785e9b55ea3a7140086ce1f86232109", null ],
+    [ "x", "d9/dd6/a23894.html#ac81cc1119b7ac8ac70ee635f2e3d4bb7", null ],
+    [ "y", "d9/dd6/a23894.html#a10fbad67977d8dd3911eb629c1797684", null ],
+    [ "z", "d9/dd6/a23894.html#a69fc2438e52f6c0de3af13900ff38166", null ]
 ];

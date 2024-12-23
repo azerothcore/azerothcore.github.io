@@ -1,5 +1,5 @@
 var a26978 =
 [
-    [ "go_hive_pod", "d8/dc5/a26978.html#a7ec01a399e75ff2e64746166d1aa3539", null ],
-    [ "OnGossipHello", "d8/dc5/a26978.html#a4cfb09789edf6699444a7d817e4ccc70", null ]
+    [ "go_sacred_fire_of_life", "d8/dc5/a26978.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
+    [ "OnGossipHello", "d8/dc5/a26978.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
 ];

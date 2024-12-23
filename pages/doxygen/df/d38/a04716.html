@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: boost::filesystem Namespace Reference</title>
+<title>AzerothCore: anonymous_namespace{QueryResult.cpp} Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -104,16 +104,297 @@ $(document).ready(function(){initNavTree('df/d38/a04716.html','../../'); initRes
 </div>
 
 <div class="header">
-  <div class="headertitle"><div class="title">boost::filesystem Namespace Reference</div></div>
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">anonymous_namespace{QueryResult.cpp} Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:ae077e892df09ce687a0a50be949ad69f"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/a04716.html#ae077e892df09ce687a0a50be949ad69f">SizeForType</a> (MYSQL_FIELD *field)</td></tr>
+<tr class="separator:ae077e892df09ce687a0a50be949ad69f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a26932646b97d033efdf53078561a90"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/a04716.html#a1a26932646b97d033efdf53078561a90">MysqlTypeToFieldType</a> (enum_field_types type)</td></tr>
+<tr class="separator:a1a26932646b97d033efdf53078561a90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b1d39b7abfe176191c0ed27188ed310"><td class="memItemLeft" align="right" valign="top">static std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/a04716.html#a9b1d39b7abfe176191c0ed27188ed310">FieldTypeToString</a> (enum_field_types type)</td></tr>
+<tr class="separator:a9b1d39b7abfe176191c0ed27188ed310"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5e0e57902060d1fcd32688acb949b98e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d38/a04716.html#a5e0e57902060d1fcd32688acb949b98e">InitializeDatabaseFieldMetadata</a> (<a class="el" href="../../dc/d69/a05614.html">QueryResultFieldMetadata</a> *meta, <a class="el" href="../../d1/d96/a05654.html">MySQLField</a> const *field, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> fieldIndex)</td></tr>
+<tr class="separator:a5e0e57902060d1fcd32688acb949b98e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a9b1d39b7abfe176191c0ed27188ed310" name="a9b1d39b7abfe176191c0ed27188ed310"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b1d39b7abfe176191c0ed27188ed310">&#9670;&#160;</a></span>FieldTypeToString()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static std::string anonymous_namespace{QueryResult.cpp}::FieldTypeToString </td>
+          <td>(</td>
+          <td class="paramtype">enum_field_types&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  122</span>    {</div>
+<div class="line"><span class="lineno">  123</span>        <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">  124</span>        {</div>
+<div class="line"><span class="lineno">  125</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BIT:         <span class="keywordflow">return</span> <span class="stringliteral">&quot;BIT&quot;</span>;</div>
+<div class="line"><span class="lineno">  126</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BLOB:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;BLOB&quot;</span>;</div>
+<div class="line"><span class="lineno">  127</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATE:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;DATE&quot;</span>;</div>
+<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATETIME:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;DATETIME&quot;</span>;</div>
+<div class="line"><span class="lineno">  129</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NEWDECIMAL:  <span class="keywordflow">return</span> <span class="stringliteral">&quot;NEWDECIMAL&quot;</span>;</div>
+<div class="line"><span class="lineno">  130</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DECIMAL:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;DECIMAL&quot;</span>;</div>
+<div class="line"><span class="lineno">  131</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DOUBLE:      <span class="keywordflow">return</span> <span class="stringliteral">&quot;DOUBLE&quot;</span>;</div>
+<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">case</span> MYSQL_TYPE_ENUM:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;ENUM&quot;</span>;</div>
+<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">case</span> MYSQL_TYPE_FLOAT:       <span class="keywordflow">return</span> <span class="stringliteral">&quot;FLOAT&quot;</span>;</div>
+<div class="line"><span class="lineno">  134</span>            <span class="keywordflow">case</span> MYSQL_TYPE_GEOMETRY:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;GEOMETRY&quot;</span>;</div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">case</span> MYSQL_TYPE_INT24:       <span class="keywordflow">return</span> <span class="stringliteral">&quot;INT24&quot;</span>;</div>
+<div class="line"><span class="lineno">  136</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;LONG&quot;</span>;</div>
+<div class="line"><span class="lineno">  137</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONGLONG:    <span class="keywordflow">return</span> <span class="stringliteral">&quot;LONGLONG&quot;</span>;</div>
+<div class="line"><span class="lineno">  138</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG_BLOB:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;LONG_BLOB&quot;</span>;</div>
+<div class="line"><span class="lineno">  139</span>            <span class="keywordflow">case</span> MYSQL_TYPE_MEDIUM_BLOB: <span class="keywordflow">return</span> <span class="stringliteral">&quot;MEDIUM_BLOB&quot;</span>;</div>
+<div class="line"><span class="lineno">  140</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NEWDATE:     <span class="keywordflow">return</span> <span class="stringliteral">&quot;NEWDATE&quot;</span>;</div>
+<div class="line"><span class="lineno">  141</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NULL:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;NULL&quot;</span>;</div>
+<div class="line"><span class="lineno">  142</span>            <span class="keywordflow">case</span> MYSQL_TYPE_SET:         <span class="keywordflow">return</span> <span class="stringliteral">&quot;SET&quot;</span>;</div>
+<div class="line"><span class="lineno">  143</span>            <span class="keywordflow">case</span> MYSQL_TYPE_SHORT:       <span class="keywordflow">return</span> <span class="stringliteral">&quot;SHORT&quot;</span>;</div>
+<div class="line"><span class="lineno">  144</span>            <span class="keywordflow">case</span> MYSQL_TYPE_STRING:      <span class="keywordflow">return</span> <span class="stringliteral">&quot;STRING&quot;</span>;</div>
+<div class="line"><span class="lineno">  145</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIME:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;TIME&quot;</span>;</div>
+<div class="line"><span class="lineno">  146</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIMESTAMP:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;TIMESTAMP&quot;</span>;</div>
+<div class="line"><span class="lineno">  147</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;TINY&quot;</span>;</div>
+<div class="line"><span class="lineno">  148</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY_BLOB:   <span class="keywordflow">return</span> <span class="stringliteral">&quot;TINY_BLOB&quot;</span>;</div>
+<div class="line"><span class="lineno">  149</span>            <span class="keywordflow">case</span> MYSQL_TYPE_VAR_STRING:  <span class="keywordflow">return</span> <span class="stringliteral">&quot;VAR_STRING&quot;</span>;</div>
+<div class="line"><span class="lineno">  150</span>            <span class="keywordflow">case</span> MYSQL_TYPE_YEAR:        <span class="keywordflow">return</span> <span class="stringliteral">&quot;YEAR&quot;</span>;</div>
+<div class="line"><span class="lineno">  151</span>            <span class="keywordflow">default</span>:                     <span class="keywordflow">return</span> <span class="stringliteral">&quot;-Unknown-&quot;</span>;</div>
+<div class="line"><span class="lineno">  152</span>        }</div>
+<div class="line"><span class="lineno">  153</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00155">InitializeDatabaseFieldMetadata()</a>.</p>
+
+</div>
+</div>
+<a id="a5e0e57902060d1fcd32688acb949b98e" name="a5e0e57902060d1fcd32688acb949b98e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5e0e57902060d1fcd32688acb949b98e">&#9670;&#160;</a></span>InitializeDatabaseFieldMetadata()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void anonymous_namespace{QueryResult.cpp}::InitializeDatabaseFieldMetadata </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d69/a05614.html">QueryResultFieldMetadata</a> *&#160;</td>
+          <td class="paramname"><em>meta</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d96/a05654.html">MySQLField</a> const *&#160;</td>
+          <td class="paramname"><em>field</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname"><em>fieldIndex</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  156</span>    {</div>
+<div class="line"><span class="lineno">  157</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#ada6594cc2aa67c8d34bdb45e757fda8c">TableName</a> = field-&gt;org_table;</div>
+<div class="line"><span class="lineno">  158</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#aa9ca2448829defe395b479a9a4ca3c3e">TableAlias</a> = field-&gt;table;</div>
+<div class="line"><span class="lineno">  159</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#af8b9f87733157401cff6b0846a545fa4">Name</a> = field-&gt;org_name;</div>
+<div class="line"><span class="lineno">  160</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#ac885c365760ade7b0c74e5fead82a210">Alias</a> = field-&gt;name;</div>
+<div class="line"><span class="lineno">  161</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#aba1b90e43c4f4c545f76568cae86ad43">TypeName</a> = <a class="code hl_function" href="../../df/d38/a04716.html#a9b1d39b7abfe176191c0ed27188ed310">FieldTypeToString</a>(field-&gt;type);</div>
+<div class="line"><span class="lineno">  162</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#ad841e71a9394fc114a35f0234ef581b6">Index</a> = fieldIndex;</div>
+<div class="line"><span class="lineno">  163</span>        meta-&gt;<a class="code hl_variable" href="../../dc/d69/a05614.html#a76dec8aee42dce6698e4fda0ee1e3eba">Type</a> = <a class="code hl_function" href="../../df/d38/a04716.html#a1a26932646b97d033efdf53078561a90">MysqlTypeToFieldType</a>(field-&gt;type);</div>
+<div class="line"><span class="lineno">  164</span>    }</div>
+<div class="ttc" id="aa04716_html_a1a26932646b97d033efdf53078561a90"><div class="ttname"><a href="../../df/d38/a04716.html#a1a26932646b97d033efdf53078561a90">anonymous_namespace{QueryResult.cpp}::MysqlTypeToFieldType</a></div><div class="ttdeci">DatabaseFieldTypes MysqlTypeToFieldType(enum_field_types type)</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:77</div></div>
+<div class="ttc" id="aa04716_html_a9b1d39b7abfe176191c0ed27188ed310"><div class="ttname"><a href="../../df/d38/a04716.html#a9b1d39b7abfe176191c0ed27188ed310">anonymous_namespace{QueryResult.cpp}::FieldTypeToString</a></div><div class="ttdeci">static std::string FieldTypeToString(enum_field_types type)</div><div class="ttdef"><b>Definition:</b> QueryResult.cpp:121</div></div>
+<div class="ttc" id="aa05614_html_a76dec8aee42dce6698e4fda0ee1e3eba"><div class="ttname"><a href="../../dc/d69/a05614.html#a76dec8aee42dce6698e4fda0ee1e3eba">QueryResultFieldMetadata::Type</a></div><div class="ttdeci">DatabaseFieldTypes Type</div><div class="ttdef"><b>Definition:</b> Field.h:64</div></div>
+<div class="ttc" id="aa05614_html_aa9ca2448829defe395b479a9a4ca3c3e"><div class="ttname"><a href="../../dc/d69/a05614.html#aa9ca2448829defe395b479a9a4ca3c3e">QueryResultFieldMetadata::TableAlias</a></div><div class="ttdeci">std::string TableAlias</div><div class="ttdef"><b>Definition:</b> Field.h:59</div></div>
+<div class="ttc" id="aa05614_html_aba1b90e43c4f4c545f76568cae86ad43"><div class="ttname"><a href="../../dc/d69/a05614.html#aba1b90e43c4f4c545f76568cae86ad43">QueryResultFieldMetadata::TypeName</a></div><div class="ttdeci">std::string TypeName</div><div class="ttdef"><b>Definition:</b> Field.h:62</div></div>
+<div class="ttc" id="aa05614_html_ac885c365760ade7b0c74e5fead82a210"><div class="ttname"><a href="../../dc/d69/a05614.html#ac885c365760ade7b0c74e5fead82a210">QueryResultFieldMetadata::Alias</a></div><div class="ttdeci">std::string Alias</div><div class="ttdef"><b>Definition:</b> Field.h:61</div></div>
+<div class="ttc" id="aa05614_html_ad841e71a9394fc114a35f0234ef581b6"><div class="ttname"><a href="../../dc/d69/a05614.html#ad841e71a9394fc114a35f0234ef581b6">QueryResultFieldMetadata::Index</a></div><div class="ttdeci">uint32 Index</div><div class="ttdef"><b>Definition:</b> Field.h:63</div></div>
+<div class="ttc" id="aa05614_html_ada6594cc2aa67c8d34bdb45e757fda8c"><div class="ttname"><a href="../../dc/d69/a05614.html#ada6594cc2aa67c8d34bdb45e757fda8c">QueryResultFieldMetadata::TableName</a></div><div class="ttdeci">std::string TableName</div><div class="ttdef"><b>Definition:</b> Field.h:58</div></div>
+<div class="ttc" id="aa05614_html_af8b9f87733157401cff6b0846a545fa4"><div class="ttname"><a href="../../dc/d69/a05614.html#af8b9f87733157401cff6b0846a545fa4">QueryResultFieldMetadata::Name</a></div><div class="ttdeci">std::string Name</div><div class="ttdef"><b>Definition:</b> Field.h:60</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00061">QueryResultFieldMetadata::Alias</a>, <a class="el" href="../../#l00121">FieldTypeToString()</a>, <a class="el" href="../../#l00063">QueryResultFieldMetadata::Index</a>, <a class="el" href="../../#l00077">MysqlTypeToFieldType()</a>, <a class="el" href="../../#l00060">QueryResultFieldMetadata::Name</a>, <a class="el" href="../../#l00059">QueryResultFieldMetadata::TableAlias</a>, <a class="el" href="../../#l00058">QueryResultFieldMetadata::TableName</a>, <a class="el" href="../../#l00064">QueryResultFieldMetadata::Type</a>, and <a class="el" href="../../#l00062">QueryResultFieldMetadata::TypeName</a>.</p>
+
+</div>
+</div>
+<a id="a1a26932646b97d033efdf53078561a90" name="a1a26932646b97d033efdf53078561a90"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a26932646b97d033efdf53078561a90">&#9670;&#160;</a></span>MysqlTypeToFieldType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091">DatabaseFieldTypes</a> anonymous_namespace{QueryResult.cpp}::MysqlTypeToFieldType </td>
+          <td>(</td>
+          <td class="paramtype">enum_field_types&#160;</td>
+          <td class="paramname"><em>type</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   78</span>    {</div>
+<div class="line"><span class="lineno">   79</span>        <span class="keywordflow">switch</span> (type)</div>
+<div class="line"><span class="lineno">   80</span>        {</div>
+<div class="line"><span class="lineno">   81</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NULL:</div>
+<div class="line"><span class="lineno">   82</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">DatabaseFieldTypes::Null</a>;</div>
+<div class="line"><span class="lineno">   83</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY:</div>
+<div class="line"><span class="lineno">   84</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">DatabaseFieldTypes::Int8</a>;</div>
+<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">case</span> MYSQL_TYPE_YEAR:</div>
+<div class="line"><span class="lineno">   86</span>            <span class="keywordflow">case</span> MYSQL_TYPE_SHORT:</div>
+<div class="line"><span class="lineno">   87</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">DatabaseFieldTypes::Int16</a>;</div>
+<div class="line"><span class="lineno">   88</span>            <span class="keywordflow">case</span> MYSQL_TYPE_INT24:</div>
+<div class="line"><span class="lineno">   89</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG:</div>
+<div class="line"><span class="lineno">   90</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">DatabaseFieldTypes::Int32</a>;</div>
+<div class="line"><span class="lineno">   91</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONGLONG:</div>
+<div class="line"><span class="lineno">   92</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BIT:</div>
+<div class="line"><span class="lineno">   93</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">DatabaseFieldTypes::Int64</a>;</div>
+<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">case</span> MYSQL_TYPE_FLOAT:</div>
+<div class="line"><span class="lineno">   95</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">DatabaseFieldTypes::Float</a>;</div>
+<div class="line"><span class="lineno">   96</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DOUBLE:</div>
+<div class="line"><span class="lineno">   97</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">DatabaseFieldTypes::Double</a>;</div>
+<div class="line"><span class="lineno">   98</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DECIMAL:</div>
+<div class="line"><span class="lineno">   99</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NEWDECIMAL:</div>
+<div class="line"><span class="lineno">  100</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">DatabaseFieldTypes::Decimal</a>;</div>
+<div class="line"><span class="lineno">  101</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIMESTAMP:</div>
+<div class="line"><span class="lineno">  102</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATE:</div>
+<div class="line"><span class="lineno">  103</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIME:</div>
+<div class="line"><span class="lineno">  104</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATETIME:</div>
+<div class="line"><span class="lineno">  105</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">DatabaseFieldTypes::Date</a>;</div>
+<div class="line"><span class="lineno">  106</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY_BLOB:</div>
+<div class="line"><span class="lineno">  107</span>            <span class="keywordflow">case</span> MYSQL_TYPE_MEDIUM_BLOB:</div>
+<div class="line"><span class="lineno">  108</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG_BLOB:</div>
+<div class="line"><span class="lineno">  109</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BLOB:</div>
+<div class="line"><span class="lineno">  110</span>            <span class="keywordflow">case</span> MYSQL_TYPE_STRING:</div>
+<div class="line"><span class="lineno">  111</span>            <span class="keywordflow">case</span> MYSQL_TYPE_VAR_STRING:</div>
+<div class="line"><span class="lineno">  112</span>                <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd">DatabaseFieldTypes::Binary</a>;</div>
+<div class="line"><span class="lineno">  113</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">  114</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;MysqlTypeToFieldType(): invalid field type {}&quot;</span>, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(type));</div>
+<div class="line"><span class="lineno">  115</span>                <span class="keywordflow">break</span>;</div>
+<div class="line"><span class="lineno">  116</span>        }</div>
+<div class="line"><span class="lineno">  117</span> </div>
+<div class="line"><span class="lineno">  118</span>        <span class="keywordflow">return</span> <a class="code hl_enumvalue" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">DatabaseFieldTypes::Null</a>;</div>
+<div class="line"><span class="lineno">  119</span>    }</div>
+<div class="ttc" id="aa00035_html_adf09840a666e1d86bcd3439105db6edc"><div class="ttname"><a href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a></div><div class="ttdeci">#define LOG_WARN(filterType__,...)</div><div class="ttdef"><b>Definition:</b> Log.h:161</div></div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">DatabaseFieldTypes::Float</a></div><div class="ttdeci">@ Float</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">DatabaseFieldTypes::Int16</a></div><div class="ttdeci">@ Int16</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">DatabaseFieldTypes::Date</a></div><div class="ttdeci">@ Date</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd">DatabaseFieldTypes::Binary</a></div><div class="ttdeci">@ Binary</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">DatabaseFieldTypes::Int8</a></div><div class="ttdeci">@ Int8</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">DatabaseFieldTypes::Decimal</a></div><div class="ttdeci">@ Decimal</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">DatabaseFieldTypes::Null</a></div><div class="ttdeci">@ Null</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">DatabaseFieldTypes::Int32</a></div><div class="ttdeci">@ Int32</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">DatabaseFieldTypes::Double</a></div><div class="ttdeci">@ Double</div></div>
+<div class="ttc" id="aa04595_html_a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487"><div class="ttname"><a href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">DatabaseFieldTypes::Int64</a></div><div class="ttdeci">@ Int64</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a6ce976e8f061b2b5cfe4d0c50c3405dd">Binary</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a44749712dbec183e983dcd78a7736c41">Date</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a937504f318f04eaf0f1d701df4c4d7f3">Decimal</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ad909d38d705ce75386dd86e611a82f5b">Double</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a22ae0e2b89e5e3d477f988cc36d3272b">Float</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a39bc2ae44b184207f560ff8619823208">Int16</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091ac06129f6e6e15c09328365e553f1dc31">Int32</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091afbde23b11d7e59af7828e81144c8b487">Int64</a>, <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091a7d839b2c12bfd40ac121b4cc9e81c539">Int8</a>, <a class="el" href="../../#l00161">LOG_WARN</a>, and <a class="el" href="../../dd/dec/a04595.html#a52858f4c2cc23ac9372ab466fb82c091abbb93ef26e3c101ff11cdd21cab08a94">Null</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00155">InitializeDatabaseFieldMetadata()</a>.</p>
+
+</div>
+</div>
+<a id="ae077e892df09ce687a0a50be949ad69f" name="ae077e892df09ce687a0a50be949ad69f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae077e892df09ce687a0a50be949ad69f">&#9670;&#160;</a></span>SizeForType()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> anonymous_namespace{QueryResult.cpp}::SizeForType </td>
+          <td>(</td>
+          <td class="paramtype">MYSQL_FIELD *&#160;</td>
+          <td class="paramname"><em>field</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   28</span>    {</div>
+<div class="line"><span class="lineno">   29</span>        <span class="keywordflow">switch</span> (field-&gt;type)</div>
+<div class="line"><span class="lineno">   30</span>        {</div>
+<div class="line"><span class="lineno">   31</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NULL:</div>
+<div class="line"><span class="lineno">   32</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   33</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY:</div>
+<div class="line"><span class="lineno">   34</span>                <span class="keywordflow">return</span> 1;</div>
+<div class="line"><span class="lineno">   35</span>            <span class="keywordflow">case</span> MYSQL_TYPE_YEAR:</div>
+<div class="line"><span class="lineno">   36</span>            <span class="keywordflow">case</span> MYSQL_TYPE_SHORT:</div>
+<div class="line"><span class="lineno">   37</span>                <span class="keywordflow">return</span> 2;</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">case</span> MYSQL_TYPE_INT24:</div>
+<div class="line"><span class="lineno">   39</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG:</div>
+<div class="line"><span class="lineno">   40</span>            <span class="keywordflow">case</span> MYSQL_TYPE_FLOAT:</div>
+<div class="line"><span class="lineno">   41</span>                <span class="keywordflow">return</span> 4;</div>
+<div class="line"><span class="lineno">   42</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DOUBLE:</div>
+<div class="line"><span class="lineno">   43</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONGLONG:</div>
+<div class="line"><span class="lineno">   44</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BIT:</div>
+<div class="line"><span class="lineno">   45</span>                <span class="keywordflow">return</span> 8;</div>
+<div class="line"><span class="lineno">   46</span> </div>
+<div class="line"><span class="lineno">   47</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIMESTAMP:</div>
+<div class="line"><span class="lineno">   48</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATE:</div>
+<div class="line"><span class="lineno">   49</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TIME:</div>
+<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DATETIME:</div>
+<div class="line"><span class="lineno">   51</span>                <span class="keywordflow">return</span> <span class="keyword">sizeof</span>(MYSQL_TIME);</div>
+<div class="line"><span class="lineno">   52</span> </div>
+<div class="line"><span class="lineno">   53</span>            <span class="keywordflow">case</span> MYSQL_TYPE_TINY_BLOB:</div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">case</span> MYSQL_TYPE_MEDIUM_BLOB:</div>
+<div class="line"><span class="lineno">   55</span>            <span class="keywordflow">case</span> MYSQL_TYPE_LONG_BLOB:</div>
+<div class="line"><span class="lineno">   56</span>            <span class="keywordflow">case</span> MYSQL_TYPE_BLOB:</div>
+<div class="line"><span class="lineno">   57</span>            <span class="keywordflow">case</span> MYSQL_TYPE_STRING:</div>
+<div class="line"><span class="lineno">   58</span>            <span class="keywordflow">case</span> MYSQL_TYPE_VAR_STRING:</div>
+<div class="line"><span class="lineno">   59</span>                <span class="keywordflow">return</span> field-&gt;max_length + 1;</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>            <span class="keywordflow">case</span> MYSQL_TYPE_DECIMAL:</div>
+<div class="line"><span class="lineno">   62</span>            <span class="keywordflow">case</span> MYSQL_TYPE_NEWDECIMAL:</div>
+<div class="line"><span class="lineno">   63</span>                <span class="keywordflow">return</span> 64;</div>
+<div class="line"><span class="lineno">   64</span> </div>
+<div class="line"><span class="lineno">   65</span>            <span class="keywordflow">case</span> MYSQL_TYPE_GEOMETRY:</div>
+<div class="line"><span class="lineno">   66</span>                <span class="comment">/*</span></div>
+<div class="line"><span class="lineno">   67</span><span class="comment">                Following types are not sent over the wire:</span></div>
+<div class="line"><span class="lineno">   68</span><span class="comment">                MYSQL_TYPE_ENUM:</span></div>
+<div class="line"><span class="lineno">   69</span><span class="comment">                MYSQL_TYPE_SET:</span></div>
+<div class="line"><span class="lineno">   70</span><span class="comment">                */</span></div>
+<div class="line"><span class="lineno">   71</span>            <span class="keywordflow">default</span>:</div>
+<div class="line"><span class="lineno">   72</span>                <a class="code hl_define" href="../../d4/d8c/a00035.html#adf09840a666e1d86bcd3439105db6edc">LOG_WARN</a>(<span class="stringliteral">&quot;sql.sql&quot;</span>, <span class="stringliteral">&quot;SQL::SizeForType(): invalid field type {}&quot;</span>, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(field-&gt;type));</div>
+<div class="line"><span class="lineno">   73</span>                <span class="keywordflow">return</span> 0;</div>
+<div class="line"><span class="lineno">   74</span>        }</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00161">LOG_WARN</a>.</p>
+
+</div>
+</div>
 </div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/d49/a04682.html">boost</a></li><li class="navelem"><a class="el" href="../../df/d38/a04716.html">filesystem</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d38/a04716.html">anonymous_namespace{QueryResult.cpp}</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

@@ -1,7 +1,7 @@
 var a28046 =
 [
-    [ "TalentSpellPos", "df/d29/a28046.html#a1f28fdb07c5f3bc3a417a2d50d57481c", null ],
-    [ "TalentSpellPos", "df/d29/a28046.html#afcdb60f43c619209f8c7d9d8d118a89d", null ],
-    [ "rank", "df/d29/a28046.html#a46a495cd1d17302d074037ad5ea9c89e", null ],
-    [ "talent_id", "df/d29/a28046.html#a06421cba633b9ea52cb4b95d4ce4527d", null ]
+    [ "ClassMask", "df/d29/a28046.html#acae4582c147b5fd95780ae7b55d36fdc", null ],
+    [ "petTalentMask", "df/d29/a28046.html#a22ab1cf8ad05e57d91a63e3876ae2b77", null ],
+    [ "tabpage", "df/d29/a28046.html#aa6389276582adeb4cae76c257734795c", null ],
+    [ "TalentTabID", "df/d29/a28046.html#ae3a71c61223b59185365819164715dc2", null ]
 ];

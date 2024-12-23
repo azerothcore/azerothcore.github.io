@@ -1,7 +1,7 @@
 var a27950 =
 [
-    [ "Flags", "df/d04/a27950.html#a12b3cb0e28ed0f47ff5ccea09fc8b860", null ],
-    [ "ID", "df/d04/a27950.html#ab6ccf4a64672a6ade01f59cdeeeb85cb", null ],
-    [ "RangeMax", "df/d04/a27950.html#a9691134e5cb1e15e3c93ea05a653975d", null ],
-    [ "RangeMin", "df/d04/a27950.html#a127a46f2382edea750ca567d5ea3d304", null ]
+    [ "EpicPropertiesPoints", "df/d04/a27950.html#a35dc60a15091357e03032226621340f7", null ],
+    [ "itemLevel", "df/d04/a27950.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
+    [ "RarePropertiesPoints", "df/d04/a27950.html#a9359171635ef3e9a0029820fad286368", null ],
+    [ "UncommonPropertiesPoints", "df/d04/a27950.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
 ];

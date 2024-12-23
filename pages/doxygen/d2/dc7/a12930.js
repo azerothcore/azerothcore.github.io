@@ -1,8 +1,8 @@
 var a12930 =
 [
-    [ "npc_madrigosa", "d2/dc7/a12930.html#a7624e25e00c1e7505ba171d0be40beb3", null ],
-    [ "DoAction", "d2/dc7/a12930.html#aaf481ec840e679a9633bd3ecdb4eb3df", null ],
-    [ "UpdateAI", "d2/dc7/a12930.html#a3431d13ea4ebd97d3fc6e542f89e033d", null ],
-    [ "events", "d2/dc7/a12930.html#a5859e4c8454371eb71740616d4763c0e", null ],
-    [ "instance", "d2/dc7/a12930.html#a09525d3bb35d1da4246bd84bbadea304", null ]
+    [ "CalcPeriodic", "d2/dc7/a12930.html#a9aaca3bb1d762c9bddf3b91205f48d00", null ],
+    [ "HandleDummyTick", "d2/dc7/a12930.html#acd3616df94f888ad5fb1c5b0607f6f25", null ],
+    [ "HandleUpdatePeriodic", "d2/dc7/a12930.html#a70ef86fd58eec1422bac6b61a4123842", null ],
+    [ "PrepareAuraScript", "d2/dc7/a12930.html#a9a97a6ab249728dbad4d3603640a7963", null ],
+    [ "Register", "d2/dc7/a12930.html#ab6b223ed68a521ea9a3cbc2a6e21ac49", null ]
 ];

@@ -1,11 +1,17 @@
 var a10106 =
 [
-    [ "PetScript", "d7/d08/a10106.html#acccf0b5fa2e346c800925142ed52c917", null ],
-    [ "CanResetTalents", "d7/d08/a10106.html#ab4e5e0b19285573753ef6e9b7e8fd535", null ],
-    [ "CanUnlearnSpellDefault", "d7/d08/a10106.html#af150efd719bbb619df792ebc6705bb0a", null ],
-    [ "CanUnlearnSpellSet", "d7/d08/a10106.html#a84cba94813ffa26e1a245b814feb0349", null ],
-    [ "IsDatabaseBound", "d7/d08/a10106.html#a16fae7cdf068c6e3d9e46882548d4c20", null ],
-    [ "OnCalculateMaxTalentPointsForLevel", "d7/d08/a10106.html#a1263b06233902fbede9fc5df80cc8ad4", null ],
-    [ "OnInitStatsForLevel", "d7/d08/a10106.html#a65a33c4f374f2e9739680ad172118c26", null ],
-    [ "OnPetAddToWorld", "d7/d08/a10106.html#a3012323c5c1424512b611b6956a32554", null ]
+    [ "GameObjectScript", "d7/d08/a10106.html#a9d9cf73435a16d7fef450134c03980bb", null ],
+    [ "GetAI", "d7/d08/a10106.html#a05492473fa28c0f7c80770aa3445ce4e", null ],
+    [ "GetDialogStatus", "d7/d08/a10106.html#ac526fbe66b9b1e9edca51f9fd20a40b9", null ],
+    [ "IsDatabaseBound", "d7/d08/a10106.html#a020e07dfd6e99b55bf5c8e56cfdd3948", null ],
+    [ "OnDamaged", "d7/d08/a10106.html#a2fb7d0f8f01ce083643bc0cb810fc612", null ],
+    [ "OnDestroyed", "d7/d08/a10106.html#a042676e98453494ab49bb90216755052", null ],
+    [ "OnGameObjectStateChanged", "d7/d08/a10106.html#a4992d88f026bf906852f085db4e8768e", null ],
+    [ "OnGossipHello", "d7/d08/a10106.html#a58b56fc92ae87aea0530eceba1f3088d", null ],
+    [ "OnGossipSelect", "d7/d08/a10106.html#a612884c70eed9c56958ab49dc1e2bb1f", null ],
+    [ "OnGossipSelectCode", "d7/d08/a10106.html#ac9c9feb4d08ea0e5ad202ada205a9772", null ],
+    [ "OnLootStateChanged", "d7/d08/a10106.html#ab93c178f2137e92da28665d28bfec1d5", null ],
+    [ "OnModifyHealth", "d7/d08/a10106.html#a1ff457beae2b6249a9d3ecd08fd1b5a4", null ],
+    [ "OnQuestAccept", "d7/d08/a10106.html#afd22217feca39340d68b9c7fd6c1caa8", null ],
+    [ "OnQuestReward", "d7/d08/a10106.html#a233712ff412081583a8295cf512da48d", null ]
 ];

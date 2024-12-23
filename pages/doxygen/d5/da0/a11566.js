@@ -1,6 +1,12 @@
 var a11566 =
 [
-    [ "npc_phalanxAI", "db/d6c/a11570.html", "db/d6c/a11570" ],
-    [ "npc_phalanx", "d5/da0/a11566.html#a947ee4659fe2a46d775119ddcefeb939", null ],
-    [ "GetAI", "d5/da0/a11566.html#ab1e2a0950ab286d5abae3d46aef3c623", null ]
+    [ "boss_balinda", "d5/da0/a11566.html#a2f3ce696dbc66843cddc13196800866b", null ],
+    [ "DamageTaken", "d5/da0/a11566.html#a826ad90ac15b3421e16fc3faa96784e7", null ],
+    [ "JustDied", "d5/da0/a11566.html#aeb10053198b9b4c43e963d23957ba9ba", null ],
+    [ "JustEngagedWith", "d5/da0/a11566.html#aa0b78302a92bf39ffee51ce3a71fb534", null ],
+    [ "JustSummoned", "d5/da0/a11566.html#a3c2306326d2f85fbb6766352117a1f91", null ],
+    [ "Reset", "d5/da0/a11566.html#a1ecfa5d743682997076a47cce44b19f5", null ],
+    [ "UpdateAI", "d5/da0/a11566.html#af3506dd75baef12fd0328aed21636978", null ],
+    [ "_hasCastIceBlock", "d5/da0/a11566.html#a05c24746060d7c9a3712d9f269b4af8e", null ],
+    [ "summons", "d5/da0/a11566.html#a83df5856391f0ba62dcb0538b7f44e2d", null ]
 ];

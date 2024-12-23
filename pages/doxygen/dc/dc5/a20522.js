@@ -1,6 +1,6 @@
 var a20522 =
 [
-    [ "boss_yoggsaron_lich_kingAI", "d2/d97/a20526.html", "d2/d97/a20526" ],
-    [ "boss_yoggsaron_lich_king", "dc/dc5/a20522.html#a1655d608683e90ccafd350204eed2d31", null ],
-    [ "GetAI", "dc/dc5/a20522.html#aa65cd9c9eafba12ae065903868ee5319", null ]
+    [ "boss_yoggsaron_death_orbAI", "dc/dc5/a20522.html#a6e87b98e89748585a9f28c6f0e3a85e9", null ],
+    [ "UpdateAI", "dc/dc5/a20522.html#afde5311434966ff0459dca8ce0d6b8b0", null ],
+    [ "_startTimer", "dc/dc5/a20522.html#aebc8edef5f84219e1c50f2394d129443", null ]
 ];

@@ -1,6 +1,7 @@
 var a22022 =
 [
-    [ "CheckCast", "d2/dab/a22022.html#afde7c1e90f2faa9c587490ce358a59b2", null ],
-    [ "PrepareSpellScript", "d2/dab/a22022.html#a5139e3e9cb1c9079798cefc3cb04d387", null ],
-    [ "Register", "d2/dab/a22022.html#a01225e48eaf2a6dfe13da245725b0a64", null ]
+    [ "npc_wg_demolisher_engineer", "d2/dab/a22022.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
+    [ "canBuild", "d2/dab/a22022.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
+    [ "OnGossipHello", "d2/dab/a22022.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
+    [ "OnGossipSelect", "d2/dab/a22022.html#a3ecf69f45918bef0cb51023327ac9693", null ]
 ];

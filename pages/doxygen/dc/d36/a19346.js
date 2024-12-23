@@ -1,6 +1,6 @@
 var a19346 =
 [
-    [ "go_celestial_planetarium_accessAI", "de/da7/a19350.html", "de/da7/a19350" ],
-    [ "go_celestial_planetarium_access", "dc/d36/a19346.html#a20b7c895dd0fc2cb37bf3c113bf91278", null ],
-    [ "GetAI", "dc/d36/a19346.html#a4fc9ac64f7dceefbdda02297f7dfc42b", null ]
+    [ "HandleApplyTouch", "dc/d36/a19346.html#a0c46c506f78f46f17c0de6caae774316", null ],
+    [ "PrepareSpellScript", "dc/d36/a19346.html#a2f32b735a8a72a6ef52744d3ce8ada8b", null ],
+    [ "Register", "dc/d36/a19346.html#a70382055564e4ead8b5da0d6bd20c67f", null ]
 ];

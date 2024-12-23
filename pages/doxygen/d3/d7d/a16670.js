@@ -1,6 +1,7 @@
 var a16670 =
 [
-    [ "instance_pit_of_saron_InstanceScript", "d2/df6/a16674.html", "d2/df6/a16674" ],
-    [ "instance_pit_of_saron", "d3/d7d/a16670.html#a84526dbb5ac7eb6ff5ebe24ed339826b", null ],
-    [ "GetInstanceScript", "d3/d7d/a16670.html#a2a1bc125bfe653a1da8b8c36b86aae67", null ]
+    [ "UtherBatteredHiltEvent", "d3/d7d/a16670.html#a7bb34b75a3e371260a231aea72f75b40", null ],
+    [ "Execute", "d3/d7d/a16670.html#ad2eb37877155b6dbc9916338e30d0306", null ],
+    [ "_eventId", "d3/d7d/a16670.html#a5045e057b2c5d468aa579751d2c799b8", null ],
+    [ "_owner", "d3/d7d/a16670.html#a588974708f4a48f5a7b097a63a0c0899", null ]
 ];

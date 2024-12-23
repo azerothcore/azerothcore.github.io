@@ -1,5 +1,6 @@
 var a18958 =
 [
-    [ "achievement_intense_cold", "de/d27/a18958.html#a2377357d6bfc03e5b91354428d3da3de", null ],
-    [ "OnCheck", "de/d27/a18958.html#ab8a774af80a7fb1764df97c9eea57ffc", null ]
+    [ "npc_alexstraszaAI", "d0/d85/a18962.html", "d0/d85/a18962" ],
+    [ "npc_alexstrasza", "de/d27/a18958.html#aa28858e8368031c2882e7e3c1c5968dd", null ],
+    [ "GetAI", "de/d27/a18958.html#ad155ccc4f7bca786229ee015d365e3ce", null ]
 ];

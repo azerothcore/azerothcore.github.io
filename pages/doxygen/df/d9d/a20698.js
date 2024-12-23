@@ -1,7 +1,6 @@
 var a20698 =
 [
-    [ "npc_frost_tomb", "df/d9d/a20698.html#a9c7abe1dc25b807d34f1ed818ab639ef", null ],
-    [ "JustDied", "df/d9d/a20698.html#a40a14647eaf9f2c5bd11c094f0aadb79", null ],
-    [ "UpdateAI", "df/d9d/a20698.html#af2122e9c8cb206151f631659c7d167da", null ],
-    [ "PrisonerGUID", "df/d9d/a20698.html#a456fcd5dd3f504954a74fc068f253dc2", null ]
+    [ "instance_ulduar_InstanceMapScript", "d1/d64/a20702.html", "d1/d64/a20702" ],
+    [ "instance_ulduar", "df/d9d/a20698.html#a32c2a76d1cd20f2ad1ab441eafe1b682", null ],
+    [ "GetInstanceScript", "df/d9d/a20698.html#ad15f003a90e656910fc32d661ca9baba", null ]
 ];

@@ -1,14 +1,10 @@
 var a09698 =
 [
-    [ "EscortMovementGenerator", "d5/d58/a09698.html#a9d653e50662103f5f6661da5226ae99e", null ],
-    [ "DoFinalize", "d5/d58/a09698.html#a4c191a86f5ecc30ae5b34d7578d58d3e", null ],
-    [ "DoInitialize", "d5/d58/a09698.html#ad068798c6e186c1eb1a79f3872955e97", null ],
-    [ "DoReset", "d5/d58/a09698.html#ac4934d70ab62e08488cfc29c13355a7f", null ],
-    [ "DoUpdate", "d5/d58/a09698.html#a524bb8f72836dc5d1b63e429436b3a77", null ],
-    [ "GetMovementGeneratorType", "d5/d58/a09698.html#a0733162a5a0cab2593150f288edeb27b", null ],
-    [ "GetSplineId", "d5/d58/a09698.html#a61d74b098d1ae692ce305fa493aaa6d2", null ],
-    [ "unitSpeedChanged", "d5/d58/a09698.html#a235e330c4c3368af00d37028915684ff", null ],
-    [ "_splineId", "d5/d58/a09698.html#af6286fa4ed6afcc8a6c5f03575c774e6", null ],
-    [ "i_recalculateSpeed", "d5/d58/a09698.html#a9f7048c5e49cc09f809496312a0c6550", null ],
-    [ "m_precomputedPath", "d5/d58/a09698.html#a46eb2812a1b2a56e584b925cae2169eb", null ]
+    [ "ID", "d5/d58/a09698.html#a3bd2bf63526b6ee4a15cf7a2244ff06b", null ],
+    [ "Map", "d5/d58/a09698.html#af4e60380e8434e5b8f573d2172ddf656", null ],
+    [ "name", "d5/d58/a09698.html#ae1dd7ba1294653756ea4af9d9b66fa2c", null ],
+    [ "wnameLow", "d5/d58/a09698.html#a148ead3270ad02213204792d6063cead", null ],
+    [ "x", "d5/d58/a09698.html#ae8f23fc9e53f6357d56b3a25ed514330", null ],
+    [ "y", "d5/d58/a09698.html#af2e239c4c76dff49090f8f1d8eb4d455", null ],
+    [ "z", "d5/d58/a09698.html#adf56d09898752230a4fa1629849ac945", null ]
 ];

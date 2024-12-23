@@ -1,21 +1,12 @@
 var a11562 =
 [
-    [ "npc_grimstoneAI", "d7/dc0/a11562.html#af5a78c00f2df9a6e7f810821e478b334", null ],
-    [ "HandleGameObject", "d7/dc0/a11562.html#aeb8bb46e75506889ddb1f32c7846618d", null ],
-    [ "JustSummoned", "d7/dc0/a11562.html#a152416e33edf5117ecb11946bae31059", null ],
-    [ "Reset", "d7/dc0/a11562.html#ad7b769ce27c4cd22a2383762426a5792", null ],
-    [ "SpawnWave", "d7/dc0/a11562.html#ad83bf99a15a8a80fe572e8927f533921", null ],
-    [ "SummonBoss", "d7/dc0/a11562.html#ac019b66c330d228a4baa4c81b14f825a", null ],
-    [ "SummonedCreatureDies", "d7/dc0/a11562.html#a6cf74375a89074ebfdaef1f189f58f57", null ],
-    [ "UpdateEscortAI", "d7/dc0/a11562.html#a1442439a8e8ea38fc46e65160f2fbe40", null ],
-    [ "updateReset", "d7/dc0/a11562.html#a7c28d3cca183390116a7f6e3c094aa6b", null ],
-    [ "WaypointReached", "d7/dc0/a11562.html#a73452b365d3095ce584d7a2bcd38d275", null ],
-    [ "BossSpawnId", "d7/dc0/a11562.html#a31f7ff1c08dd33abdae1414f385e5d9e", null ],
-    [ "eventPhase", "d7/dc0/a11562.html#a2e68549ad81f51bf596a7727a32c6e03", null ],
-    [ "eventTimer", "d7/dc0/a11562.html#a48a153973c4a5d8b911a5f89d3c968eb", null ],
-    [ "instance", "d7/dc0/a11562.html#ae9c1e204ed846b77a118bae352a16a0a", null ],
-    [ "MobSpawnId", "d7/dc0/a11562.html#ab17115539c7778849eb7a5d7b3c14955", null ],
-    [ "resetTimer", "d7/dc0/a11562.html#ac22a90e5fcf04dae8cbf5aea715a5412", null ],
-    [ "summons", "d7/dc0/a11562.html#acc981f16561558187a4f73f30477087e", null ],
-    [ "theldrenEvent", "d7/dc0/a11562.html#ad3811c9392c8849770d60398f5c9ed5b", null ]
+    [ "npc_av_marshal_or_warmasterAI", "d7/dc0/a11562.html#af3620678992778edbb859622e057893a", null ],
+    [ "AttackStart", "d7/dc0/a11562.html#aed39eaed8648ce78349c49ee33918b93", null ],
+    [ "EnterEvadeMode", "d7/dc0/a11562.html#a4ac6045b3f3dfd6e3f9e0ea757f4d2c6", null ],
+    [ "JustRespawned", "d7/dc0/a11562.html#a460c6912063587214ba0f2e01878d827", null ],
+    [ "Reset", "d7/dc0/a11562.html#a56d99bcf5038c372399f16a07a2e5d31", null ],
+    [ "UpdateAI", "d7/dc0/a11562.html#a7bf1631810c8446bc157f8ff220199b7", null ],
+    [ "_attacked", "d7/dc0/a11562.html#a56d7211a3565c19b499f7de2eda6c862", null ],
+    [ "_hasAura", "d7/dc0/a11562.html#a1c0049100cde1c62daf80779d1135156", null ],
+    [ "events", "d7/dc0/a11562.html#a49b8e01897cd5347bbd06cac254163f4", null ]
 ];

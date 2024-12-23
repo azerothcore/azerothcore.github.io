@@ -1,8 +1,10 @@
 var a09802 =
 [
-    [ "Location", "d5/d32/a09802.html#a0c601d413eeb398eb75d386c264ef5ab", null ],
-    [ "Location", "d5/d32/a09802.html#ae013ab2bf44bb250644573625bf93265", null ],
-    [ "Location", "d5/d32/a09802.html#a0d50c28ba40b409a0c5a9776bfe8ef42", null ],
-    [ "Location", "d5/d32/a09802.html#a1270aec177f47a607cb5a1472819c738", null ],
-    [ "orientation", "d5/d32/a09802.html#a9fc2637d4441d90c528eaef0f0414b98", null ]
+    [ "EffectMovementGenerator", "d5/d32/a09802.html#a4b574eb9865cffe1277d9012db653d98", null ],
+    [ "Finalize", "d5/d32/a09802.html#a50cad77c4261bea67428b9dcd5a37ea1", null ],
+    [ "GetMovementGeneratorType", "d5/d32/a09802.html#a42c56bc35cf3d752e24ccc36adcd2e82", null ],
+    [ "Initialize", "d5/d32/a09802.html#a376f554231bc5dc4c95790e6c85dcb01", null ],
+    [ "Reset", "d5/d32/a09802.html#a9627573a7206e12ff469e8e6e076862b", null ],
+    [ "Update", "d5/d32/a09802.html#adff45ee4ce3cc72b6cc88e626c3bd0a5", null ],
+    [ "m_Id", "d5/d32/a09802.html#a56f483336fe5c86c6d186ec4d7772d4b", null ]
 ];

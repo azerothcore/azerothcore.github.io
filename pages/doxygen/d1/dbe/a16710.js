@@ -1,6 +1,7 @@
 var a16710 =
 [
-    [ "npc_pos_icicle_triggerAI", "d4/ddf/a16714.html", "d4/ddf/a16714" ],
-    [ "npc_pos_icicle_trigger", "d1/dbe/a16710.html#ae38155ce579f50ff7de0fa5ca50a1c3e", null ],
-    [ "GetAI", "d1/dbe/a16710.html#ad2f984f5b2b713b8307efdf4bcbcf8da", null ]
+    [ "HandlePeriodicTick", "d1/dbe/a16710.html#ac8b3f1a826e3491d4315983a89d23d2e", null ],
+    [ "PrepareAuraScript", "d1/dbe/a16710.html#ad54c3014195c5b848ab1f9cc978f72b3", null ],
+    [ "Register", "d1/dbe/a16710.html#af8e1ee8ddf7ed8290eb71fb7697428fb", null ],
+    [ "Validate", "d1/dbe/a16710.html#a6de2140f17790b63314f653b7dd0ddd3", null ]
 ];

@@ -1,9 +1,9 @@
 var a08966 =
 [
-    [ "PlayerSearcher", "d0/d59/a08966.html#a7247fcab3841996ed5d699696fb21557", null ],
-    [ "Visit", "d0/d59/a08966.html#ab2544b79869ba4de9772b1bff7c40704", null ],
-    [ "Visit", "d0/d59/a08966.html#abdb4dfeb80101e9e4bf0e46cab5a1f7b", null ],
-    [ "i_check", "d0/d59/a08966.html#a58c24b81eec33c9ba8fe8145ee3679b4", null ],
-    [ "i_object", "d0/d59/a08966.html#a70b071a2fccb4ff29fd614d1447e87ad", null ],
-    [ "i_phaseMask", "d0/d59/a08966.html#a6dd83612b7f0d00035a7efb8d970afc6", null ]
+    [ "ObjectUpdater", "d0/d59/a08966.html#ad907a266bcf4c059a49195eae4758541", null ],
+    [ "Visit", "d0/d59/a08966.html#a7dc639f90a38e6156a436ef6ff1204ec", null ],
+    [ "Visit", "d0/d59/a08966.html#a2ca08c1a3f3f23111bffbd423ca47b1c", null ],
+    [ "Visit", "d0/d59/a08966.html#a283b656ac784e64b98929eca83326027", null ],
+    [ "i_largeOnly", "d0/d59/a08966.html#a8f3e4ed206f6793edf9bf358d1bdf2c2", null ],
+    [ "i_timeDiff", "d0/d59/a08966.html#a4f1acae57c44d33449a8f040b02fa5e4", null ]
 ];

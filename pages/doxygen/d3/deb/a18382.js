@@ -1,7 +1,7 @@
 var a18382 =
 [
-    [ "OnPeriodic", "d3/deb/a18382.html#a32c4b856d6248062fbdc1dea13d876ac", null ],
-    [ "PrepareAuraScript", "d3/deb/a18382.html#a87260a1cd06190f5412f3cab0f448a01", null ],
-    [ "Register", "d3/deb/a18382.html#a00827210671b959a030655f6be5edac6", null ],
-    [ "Validate", "d3/deb/a18382.html#a7163fb09fd8568a7ef5a5c37147ed5b0", null ]
+    [ "OnApply", "d3/deb/a18382.html#a5f62c11ef96edbf6f2906bd5f41109d5", null ],
+    [ "OnRemove", "d3/deb/a18382.html#a697a7c76f944b5df956a9de07746b7a9", null ],
+    [ "PrepareAuraScript", "d3/deb/a18382.html#a338d0fa22368d01fe7523b7cc1acea4b", null ],
+    [ "Register", "d3/deb/a18382.html#ab915b3ede10526b3e7ccbe33f2568fae", null ]
 ];

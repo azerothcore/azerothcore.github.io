@@ -1,7 +1,9 @@
 var a23714 =
 [
-    [ "npc_creditmarker_visit_with_ancestorsAI", "db/d68/a23714.html#a483e8fb0d73561e34a1078fdde1a1b5b", null ],
-    [ "JustEngagedWith", "db/d68/a23714.html#a4038d707731f64f588e307c22c859902", null ],
-    [ "MoveInLineOfSight", "db/d68/a23714.html#a40d92122cd4f879f52ff78a4f172c3b8", null ],
-    [ "Reset", "db/d68/a23714.html#a29132346f117ba785039057619edb9e7", null ]
+    [ "npc_aeranasAI", "db/d68/a23714.html#a2142cebc84e64919fa5c2ef630453282", null ],
+    [ "Reset", "db/d68/a23714.html#a2c1bbe079c065745782adfa13b030515", null ],
+    [ "UpdateAI", "db/d68/a23714.html#ae192a3b38c0ec65cddfce3b95d15555a", null ],
+    [ "envelopingWinds_Timer", "db/d68/a23714.html#a566b5d648abe630efc191f9d6d4938a2", null ],
+    [ "faction_Timer", "db/d68/a23714.html#aac071887c100f91cc7ffc545ea6439d9", null ],
+    [ "shock_Timer", "db/d68/a23714.html#aba8ad016f0e470b07163fef07b603380", null ]
 ];

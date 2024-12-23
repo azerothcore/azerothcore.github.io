@@ -1,8 +1,9 @@
 var a09130 =
 [
-    [ "AllGameObjectsWithEntryInRange", "de/d1c/a09130.html#ab5a57e9a5f8b927b28f1fc9d6f6fce56", null ],
-    [ "operator()", "de/d1c/a09130.html#a342aa18d98413620fce4c676fcf75305", null ],
-    [ "m_fRange", "de/d1c/a09130.html#a7cce16670c95c19f3eb68e5914160513", null ],
-    [ "m_pObject", "de/d1c/a09130.html#a5c898c20992999f11204aab6479d71f6", null ],
-    [ "m_uiEntry", "de/d1c/a09130.html#a64ff0c14c71e218b8f9a8888b1017fec", null ]
+    [ "AnyGroupedUnitInObjectRangeCheck", "de/d1c/a09130.html#a2c775f62eeabcb8af5306cbcedae322e", null ],
+    [ "operator()", "de/d1c/a09130.html#a3c316eacdd1c74c69d8297871f84d7b9", null ],
+    [ "_raid", "de/d1c/a09130.html#a6a9cffd02435913a5d7ee53cd1e8cc0b", null ],
+    [ "_range", "de/d1c/a09130.html#a01b4592ac61d58ff39e5bb2eb1a1b997", null ],
+    [ "_refUnit", "de/d1c/a09130.html#ad083243ef5487aa374b19e3c82b0457c", null ],
+    [ "_source", "de/d1c/a09130.html#a91de967d2376ea96b1fc0838094915cf", null ]
 ];

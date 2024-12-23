@@ -1,11 +1,11 @@
 var a02333 =
 [
-    [ "MajordomoAddData", "d2/dd3/a12150.html", "d2/dd3/a12150" ],
-    [ "boss_majordomo", "da/da0/a12154.html", "da/da0/a12154" ],
-    [ "boss_majordomo::boss_majordomoAI", "da/d62/a12158.html", "da/d62/a12158" ],
-    [ "spell_hate_to_zero", "d2/d85/a12162.html", "d2/d85/a12162" ],
-    [ "spell_majordomo_separation_anxiety_aura", "d8/da4/a12166.html", "d8/da4/a12166" ],
-    [ "spell_summon_ragnaros", "dc/d79/a12170.html", "dc/d79/a12170" ],
+    [ "MajordomoAddData", "d4/d19/a12206.html", "d4/d19/a12206" ],
+    [ "boss_majordomo", "d9/dfa/a12210.html", "d9/dfa/a12210" ],
+    [ "boss_majordomo::boss_majordomoAI", "dd/d16/a12214.html", "dd/d16/a12214" ],
+    [ "spell_hate_to_zero", "d4/d2d/a12218.html", "d4/d2d/a12218" ],
+    [ "spell_majordomo_separation_anxiety_aura", "d4/d0c/a12222.html", "d4/d0c/a12222" ],
+    [ "spell_summon_ragnaros", "da/de9/a12226.html", "da/de9/a12226" ],
     [ "Events", "d7/dbe/a02333.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

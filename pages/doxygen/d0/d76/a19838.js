@@ -1,6 +1,7 @@
 var a19838 =
 [
-    [ "npc_ulduar_hodir_priestAI", "df/ddb/a19842.html", "df/ddb/a19842" ],
-    [ "npc_ulduar_hodir_priest", "d0/d76/a19838.html#a30d7f1b68f9a1d10bc47288b81fc517c", null ],
-    [ "GetAI", "d0/d76/a19838.html#a276046b974666c1462440a46a8096de7", null ]
+    [ "HandleAfterEffectApply", "d0/d76/a19838.html#a672526de2c71dcae79bacef88f34dc26", null ],
+    [ "PrepareAuraScript", "d0/d76/a19838.html#a1da221b63cb7fcd0dbb580e8cf0003ce", null ],
+    [ "Register", "d0/d76/a19838.html#a9ba7c109fe96881dd47ba47366890e2b", null ],
+    [ "Validate", "d0/d76/a19838.html#ab5833f6218760a7d9829b5d453436302", null ]
 ];

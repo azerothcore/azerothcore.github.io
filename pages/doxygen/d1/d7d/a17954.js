@@ -1,6 +1,7 @@
 var a17954 =
 [
-    [ "ModDest", "d1/d7d/a17954.html#a71638bdecb0f580dceff7858441056d8", null ],
-    [ "PrepareSpellScript", "d1/d7d/a17954.html#a741227928e07585b156ec716ae8b13da", null ],
-    [ "Register", "d1/d7d/a17954.html#a19221c8453f23a7d384f6a2cb24c2fc2", null ]
+    [ "OnRemove", "d1/d7d/a17954.html#a106935d92ef6ba7909c57264e26b5522", null ],
+    [ "PrepareAuraScript", "d1/d7d/a17954.html#a8ce8f5d4ebd4279fdfd192ba3b01b894", null ],
+    [ "Register", "d1/d7d/a17954.html#a095e7530a0f2e7a76dc8bd3f75759089", null ],
+    [ "Validate", "d1/d7d/a17954.html#a0b4283bdb19a4ceef505aab41c99abe8", null ]
 ];

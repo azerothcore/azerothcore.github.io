@@ -1,6 +1,5 @@
 var a17770 =
 [
-    [ "npc_sindragosa_trashAI", "d1/d62/a17774.html", "d1/d62/a17774" ],
-    [ "npc_sindragosa_trash", "da/d45/a17770.html#a9634ea10e767b4d6e293fc3fdd491702", null ],
-    [ "GetAI", "da/d45/a17770.html#ab1de715d98236a853a793d830bc601d7", null ]
+    [ "operator()", "da/d45/a17770.html#a6a8c02f9b797ed7df8960e5ddc44f93f", null ],
+    [ "operator()", "da/d45/a17770.html#a3847988d35a9cb0c5aab4ad73ff1a427", null ]
 ];

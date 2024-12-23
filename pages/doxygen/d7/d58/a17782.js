@@ -1,8 +1,9 @@
 var a17782 =
 [
-    [ "FilterTargets", "d7/d58/a17782.html#a14e392760361b95578bc95de10cdd8aa", null ],
-    [ "HandleForcedCast", "d7/d58/a17782.html#afbf6d0ee66d192a81ed12f2e28e195f1", null ],
-    [ "PrepareSpellScript", "d7/d58/a17782.html#a8bb53a933c5a2ec33966c6acd1a6da65", null ],
-    [ "Register", "d7/d58/a17782.html#ac2105e66f692c6a991ac9190b1901505", null ],
-    [ "Validate", "d7/d58/a17782.html#a1746786ad6daaac11aefd32e00c8d1ea", null ]
+    [ "AfterApply", "d7/d58/a17782.html#a0ee1a701f75e9f0a70dc21528ffea683", null ],
+    [ "ExtraRemoveEffect", "d7/d58/a17782.html#a9f427761fcca9029eb75d586e5876fcd", null ],
+    [ "PeriodicTick", "d7/d58/a17782.html#a82430399e44001343f322b2c3b7769a5", null ],
+    [ "PrepareAuraScript", "d7/d58/a17782.html#a9c8e0ed8fde28588e11ebf5e8abd02dc", null ],
+    [ "Register", "d7/d58/a17782.html#a68be7f7edecd1bae8c962aaa9d556c3e", null ],
+    [ "Validate", "d7/d58/a17782.html#ae20873e93fbace6272a793993fb45349", null ]
 ];

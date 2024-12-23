@@ -1,7 +1,7 @@
 var a24962 =
 [
-    [ "HandleScript", "df/d37/a24962.html#a27e2575e538732ac76add53f2f8f6832", null ],
-    [ "PrepareSpellScript", "df/d37/a24962.html#ad7c98be6cca23fb1484a6b77bcc7bc9d", null ],
-    [ "Register", "df/d37/a24962.html#a4ee74f6d8a61a8ba38ece33176c18f84", null ],
-    [ "Validate", "df/d37/a24962.html#aef9eef1819652e0fce1cd4b3ba9c387c", null ]
+    [ "PrepareAuraScript", "df/d37/a24962.html#afeac0a8393b7d7bf787fca59988d0e14", null ],
+    [ "Register", "df/d37/a24962.html#a7cbcf46dbdddea12fd6ce04bcbcea097", null ],
+    [ "TriggerFoodBuff", "df/d37/a24962.html#a5d125413491dd377d61b8e30c4979fdd", null ],
+    [ "Validate", "df/d37/a24962.html#a6b69d7358eb8cfe6a8f9efd47882eb80", null ]
 ];

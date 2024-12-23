@@ -1,9 +1,10 @@
 var a21106 =
 [
-    [ "npc_azure_sorcerorAI", "dc/dc7/a21106.html#a474a7144908d4820341dc56f77436b90", null ],
-    [ "Reset", "dc/dc7/a21106.html#a4c637288f79e1da4bdace6516cd887b1", null ],
-    [ "UpdateAI", "dc/dc7/a21106.html#a928d789e2cbd35b228857a23c4204ea1", null ],
-    [ "uiArcaneStreamTimer", "dc/dc7/a21106.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
-    [ "uiArcaneStreamTimerStartingValueHolder", "dc/dc7/a21106.html#af044879e8e064e28a491c87d0c6cde74", null ],
-    [ "uiManaDetonationTimer", "dc/dc7/a21106.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
+    [ "npc_azure_invaderAI", "dc/dc7/a21106.html#a85f164a6ba24d7a14d77264441a78f46", null ],
+    [ "Reset", "dc/dc7/a21106.html#ada44600272b19d9416d957bc52bc3be4", null ],
+    [ "UpdateAI", "dc/dc7/a21106.html#a7dfdcb2a88930c6b4150f7f7c825a2df", null ],
+    [ "uiBrutalStrikeTimer", "dc/dc7/a21106.html#a4b88a85f3344edbdadde0104668509aa", null ],
+    [ "uiCleaveTimer", "dc/dc7/a21106.html#a8b1792a8a405651d602d9ed634f52689", null ],
+    [ "uiImpaleTimer", "dc/dc7/a21106.html#aa709ee8919a2d0317d563259c7630c99", null ],
+    [ "uiSunderArmorTimer", "dc/dc7/a21106.html#ab2e6d01df033985ac29e963cf2895466", null ]
 ];

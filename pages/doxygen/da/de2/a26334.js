@@ -1,8 +1,8 @@
 var a26334 =
 [
-    [ "CheckProc", "da/de2/a26334.html#a33412f2b5abb1ce2160408ef13e7f0cb", null ],
-    [ "HandleProc", "da/de2/a26334.html#ab24c3d3f697a7ebd146d6135305c7741", null ],
-    [ "PrepareAuraScript", "da/de2/a26334.html#a8eccfbb749b85bbb850874324f17bbde", null ],
-    [ "Register", "da/de2/a26334.html#a482dd09de6cba9f5a36a6cdad1b82a0a", null ],
-    [ "Validate", "da/de2/a26334.html#a0c3020d44608920a2820e73e0b9e4b42", null ]
+    [ "ApplyDebuff", "da/de2/a26334.html#ac22ae27019de6bd951bb00262c6df9a3", null ],
+    [ "PrepareSpellScript", "da/de2/a26334.html#aa37525d089348f58e3d871830caa3417", null ],
+    [ "Register", "da/de2/a26334.html#ac37a48d9742ab6b07c5e6a8dd7f23bd9", null ],
+    [ "RemoveInvalidTargets", "da/de2/a26334.html#a0451b75aa962065a01a5806992e01b16", null ],
+    [ "Validate", "da/de2/a26334.html#ac69d777fdf7a2d3c527621dee256690c", null ]
 ];

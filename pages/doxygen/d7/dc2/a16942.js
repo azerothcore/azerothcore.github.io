@@ -1,6 +1,6 @@
 var a16942 =
 [
-    [ "npc_ball_of_flameAI", "d6/d3a/a16946.html", "d6/d3a/a16946" ],
-    [ "npc_ball_of_flame", "d7/dc2/a16942.html#a353bf8385dea6c2e4a489bd14c87e0fe", null ],
-    [ "GetAI", "d7/dc2/a16942.html#ac0309668f9f0ca85a644d4928966e577", null ]
+    [ "instance_gundrak_InstanceMapScript", "d6/d3a/a16946.html", "d6/d3a/a16946" ],
+    [ "instance_gundrak", "d7/dc2/a16942.html#ad6acbbcd96740a011f2a72a63fb211c3", null ],
+    [ "GetInstanceScript", "d7/dc2/a16942.html#a738b4ea54d1e0d7b1db90b9cc3a9c83c", null ]
 ];

@@ -1,5 +1,5 @@
 var a27362 =
 [
-    [ "ID", "df/d11/a27362.html#a4a79da5825cf01d38d6ab9d98e033964", null ],
-    [ "parentCategory", "df/d11/a27362.html#a705e301dff461a8d7aefdc6fb29d39cc", null ]
+    [ "ServerMailReward", "df/d11/a27362.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
+    [ "OnLogin", "df/d11/a27362.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
 ];

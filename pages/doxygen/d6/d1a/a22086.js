@@ -1,6 +1,6 @@
 var a22086 =
 [
-    [ "npc_captured_rageclawAI", "d6/d1a/a22086.html#a5bb483a323330b0895f87c5381d73314", null ],
-    [ "Reset", "d6/d1a/a22086.html#a9cde0a0e5015334ec8dcd277fcd99dc3", null ],
-    [ "SpellHit", "d6/d1a/a22086.html#a2c63911d27435a2271a7c89d9d88318c", null ]
+    [ "PrepareSpellScript", "d6/d1a/a22086.html#ae9a4734c9b12473f86c91a49860d56dd", null ],
+    [ "RecalculateDamage", "d6/d1a/a22086.html#ad47d51e68c6ffe60f15beceaffc60b19", null ],
+    [ "Register", "d6/d1a/a22086.html#a0dbeb30ba0eb22f4eb762f0a14cc6f39", null ]
 ];

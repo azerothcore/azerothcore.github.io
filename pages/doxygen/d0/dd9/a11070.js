@@ -1,6 +1,6 @@
 var a11070 =
 [
-    [ "EffectManaShieldHandler", "d0/dd9/a11070.html#a234fb0f6749072f9cc6310f80b3b9583", null ],
-    [ "Call", "d0/dd9/a11070.html#a30ac72ee0a22ac3e71bcb2eeda903dbc", null ],
-    [ "pEffectHandlerScript", "d0/dd9/a11070.html#a1aec2af2a69a90b8038d612d9ebddc2b", null ]
+    [ "ObjectAreaTargetSelectHandler", "d0/dd9/a11070.html#a89b86436bb1de38223165e7ef60f2b61", null ],
+    [ "Call", "d0/dd9/a11070.html#a11d2070610d178006231bac274d1f311", null ],
+    [ "pObjectAreaTargetSelectHandlerScript", "d0/dd9/a11070.html#a118ca963c6319802806913762c4d1fec", null ]
 ];

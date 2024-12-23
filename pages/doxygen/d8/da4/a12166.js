@@ -1,7 +1,6 @@
 var a12166 =
 [
-    [ "HandlePeriodic", "d8/da4/a12166.html#a5651e7ecab22d2286f85e56b8eccc003", null ],
-    [ "PrepareAuraScript", "d8/da4/a12166.html#a5dca8e116c05d11961cbd7995314441e", null ],
-    [ "Register", "d8/da4/a12166.html#a5972e66a8c05c5ae64e6666d0f35cb6e", null ],
-    [ "Validate", "d8/da4/a12166.html#a689b93dcf39828f507ef2b7f72d1ca01", null ]
+    [ "boss_gehennasAI", "d8/da4/a12166.html#aaefd1f10d03957477863df95143a95a9", null ],
+    [ "ExecuteEvent", "d8/da4/a12166.html#a1568cecdacc6afee23b4661c3dc0ae2b", null ],
+    [ "JustEngagedWith", "d8/da4/a12166.html#ad932bb3d7079f53cf1bb2b7ad143b15d", null ]
 ];

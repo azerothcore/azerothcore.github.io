@@ -1,6 +1,7 @@
 var a23814 =
 [
-    [ "npc_dragonmaw_peonAI", "d2/d9c/a23818.html", "d2/d9c/a23818" ],
-    [ "npc_dragonmaw_peon", "dc/dad/a23814.html#a356f8f1181d62dd5a4bc41c98ab21720", null ],
-    [ "GetAI", "dc/dad/a23814.html#aab1e4aee65a5465bc545a9c067200d2a", null ]
+    [ "npc_maxx_a_million_escortAI", "d2/d9c/a23818.html", "d2/d9c/a23818" ],
+    [ "npc_maxx_a_million_escort", "dc/dad/a23814.html#a958a88b495594dd8e14919d950ac917a", null ],
+    [ "GetAI", "dc/dad/a23814.html#af79619087908d442f503e0b0d633937d", null ],
+    [ "OnQuestAccept", "dc/dad/a23814.html#af3c2f2708702f7d25e712c63a45e69e0", null ]
 ];

@@ -1,9 +1,7 @@
 var a11994 =
 [
-    [ "FilterTargets", "dd/d2f/a11994.html#ae1029dd58a48c099e8bbd071898f1b12", null ],
-    [ "HandleOnHitRogue", "dd/d2f/a11994.html#a57cd6d2c45a9a73bb284272db21d1fce", null ],
-    [ "HandleOnHitWarlock", "dd/d2f/a11994.html#a76f9e5e11a6f2e25868dba567d798002", null ],
-    [ "PrepareSpellScript", "dd/d2f/a11994.html#a4792a25aa6fe6126a94900784798dbee", null ],
-    [ "Register", "dd/d2f/a11994.html#a0f6146c64a86e953c042f8404bbfe683", null ],
-    [ "Validate", "dd/d2f/a11994.html#af65d372cdbb365eff73edb8cf18734c8", null ]
+    [ "HandleScript", "dd/d2f/a11994.html#a0d244cc1785b136bae0960d697dc761d", null ],
+    [ "PrepareSpellScript", "dd/d2f/a11994.html#a13f3ebef30c315c02090ee3a19a156e4", null ],
+    [ "Register", "dd/d2f/a11994.html#a3871fb036ec6e0ea006f869c21e88c8f", null ],
+    [ "Validate", "dd/d2f/a11994.html#a1413754f3a79caf8ec57d394c68f3499", null ]
 ];

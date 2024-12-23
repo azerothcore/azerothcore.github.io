@@ -1,7 +1,8 @@
 var a23398 =
 [
-    [ "boss_warp_splinter", "d2/d7c/a23398.html#a1d0e8720baaadd1f6f4f6026597c9f63", null ],
-    [ "JustDied", "d2/d7c/a23398.html#a7e7850cf545e57f9fcd8d1aff42f8eb3", null ],
-    [ "JustEngagedWith", "d2/d7c/a23398.html#afc05b2f366e518d5e9ea3fbbfcba05cc", null ],
-    [ "KilledUnit", "d2/d7c/a23398.html#a0e974eb2bfae50383040fe9c7ccf74c1", null ]
+    [ "HandleEffectApply", "d2/d7c/a23398.html#ad75c8c6279e606d6a557a61d97ee8f42", null ],
+    [ "HandleEffectRemove", "d2/d7c/a23398.html#a7cd59f7ca82a6507024842ebcb1ba093", null ],
+    [ "PrepareAuraScript", "d2/d7c/a23398.html#a438a8ba3688e0832853bae4183695494", null ],
+    [ "Register", "d2/d7c/a23398.html#a52a86cce0afa66203cc5982ddbe5de4f", null ],
+    [ "Validate", "d2/d7c/a23398.html#ab07b244e53b397bc9e9842655617a80d", null ]
 ];

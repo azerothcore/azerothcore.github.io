@@ -1,11 +1,10 @@
 var a27118 =
 [
-    [ "npc_franklinAI", "d1/d22/a27118.html#a8385d2e39f2d051553cf84a54f3bc5ad", null ],
-    [ "DamageTaken", "d1/d22/a27118.html#afa494098126ce3291e234cfc2b36336f", null ],
-    [ "JustEngagedWith", "d1/d22/a27118.html#ab15fc7bcd912a6c583d4c219ba37c756", null ],
-    [ "Reset", "d1/d22/a27118.html#a51a260460facf06ec6bb1486f434d885", null ],
-    [ "ScheduleEncounterStart", "d1/d22/a27118.html#a2dcd6d0467eada6bd0d244e275c07d22", null ],
-    [ "SpellHit", "d1/d22/a27118.html#aed6b5cfccbbe258f501b2da5c9dadb40", null ],
-    [ "UpdateAI", "d1/d22/a27118.html#a8c3158b1e6c482dd82a6326954b8bbc5", null ],
-    [ "events", "d1/d22/a27118.html#a2f72f9659aa62f80c5d8159df0d14e9f", null ]
+    [ "npc_prof_blacksmith", "d1/d22/a27118.html#af9bd62c4c2514d79daf467e4d6d7a92e", null ],
+    [ "HasWeaponSub", "d1/d22/a27118.html#a7ee47d061de5e2f482406469b4eaac3b", null ],
+    [ "OnGossipHello", "d1/d22/a27118.html#a9a432c1ec33578949110c877fc6a686d", null ],
+    [ "OnGossipSelect", "d1/d22/a27118.html#ab1edaf3dc0a8dddf064368d26930a2af", null ],
+    [ "SendActionMenu", "d1/d22/a27118.html#af2ac8f9bfa212c34be3e45cc358dd773", null ],
+    [ "SendConfirmLearn", "d1/d22/a27118.html#acbec7fe3eebf7eaed09e5755c6775eaa", null ],
+    [ "SendConfirmUnlearn", "d1/d22/a27118.html#a851dc241d944bc888a00df85bff17e3a", null ]
 ];

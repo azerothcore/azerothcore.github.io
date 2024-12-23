@@ -1,7 +1,6 @@
 var a12854 =
 [
-    [ "HandleScript", "df/d9a/a12854.html#ab705220b48be16090107135f9e2272cf", null ],
-    [ "PrepareSpellScript", "df/d9a/a12854.html#a8bf22d62d6e7f50315e4c14714b8457f", null ],
-    [ "Register", "df/d9a/a12854.html#ac969bf9f37d02f2b3d78d31d7f8c4625", null ],
-    [ "Validate", "df/d9a/a12854.html#ad1d90693a427a52fa728e5ae455932a3", null ]
+    [ "instance_scholomance_InstanceMapScript", "d2/d64/a12858.html", "d2/d64/a12858" ],
+    [ "instance_scholomance", "df/d9a/a12854.html#ace7a781c45623419daad6143480d8fe2", null ],
+    [ "GetInstanceScript", "df/d9a/a12854.html#a9e2030e41154c92dbe45d7895ddf37b8", null ]
 ];

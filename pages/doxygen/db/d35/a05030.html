@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell Struct Reference</title>
+<title>AzerothCore: VMAP::IntersectionCallBack&lt; TValue &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,59 +106,65 @@ $(document).ready(function(){initNavTree('db/d35/a05030.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../d1/d82/a05027.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell Struct Reference</div></div>
+  <div class="headertitle"><div class="title">VMAP::IntersectionCallBack&lt; TValue &gt; Class Template Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">RegularGrid.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">VMapTools.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a13e8b2fcda561f185777e4d8b48da3f5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a13e8b2fcda561f185777e4d8b48da3f5">operator==</a> (const <a class="el" href="../../db/d35/a05030.html">Cell</a> &amp;c2) const</td></tr>
-<tr class="separator:a13e8b2fcda561f185777e4d8b48da3f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afe64d87e738675f1c8cb0fa6d440029c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#afe64d87e738675f1c8cb0fa6d440029c">isValid</a> () const</td></tr>
-<tr class="separator:afe64d87e738675f1c8cb0fa6d440029c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
-Static Public Member Functions</h2></td></tr>
-<tr class="memitem:a32a8b5ab15a28fb06672fcf62ac63d1e"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../db/d35/a05030.html">Cell</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a32a8b5ab15a28fb06672fcf62ac63d1e">ComputeCell</a> (float fx, float fy)</td></tr>
-<tr class="separator:a32a8b5ab15a28fb06672fcf62ac63d1e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af1b2d9b7517b57a5a0a598f58b470c33"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#af1b2d9b7517b57a5a0a598f58b470c33">operator()</a> (const G3D::Ray &amp;ray, const TValue *entity, bool StopAtFirstHit, float &amp;distance)</td></tr>
+<tr class="separator:af1b2d9b7517b57a5a0a598f58b470c33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a8435f7d7b8f529dfe397ada59e3405a1"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a></td></tr>
-<tr class="separator:a8435f7d7b8f529dfe397ada59e3405a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af3d5ae020727d58286ef7725958063a9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a></td></tr>
-<tr class="separator:af3d5ae020727d58286ef7725958063a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab377424b7edd0274f61967619700f841"><td class="memItemLeft" align="right" valign="top">TValue *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#ab377424b7edd0274f61967619700f841">closestEntity</a></td></tr>
+<tr class="separator:ab377424b7edd0274f61967619700f841"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00e778dd78dca96391d200e18dfc2c9d"><td class="memItemLeft" align="right" valign="top">G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a00e778dd78dca96391d200e18dfc2c9d">hitLocation</a></td></tr>
+<tr class="separator:a00e778dd78dca96391d200e18dfc2c9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57f40f48c26829f7da9e48efd839d773"><td class="memItemLeft" align="right" valign="top">G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d35/a05030.html#a57f40f48c26829f7da9e48efd839d773">hitNormal</a></td></tr>
+<tr class="separator:a57f40f48c26829f7da9e48efd839d773"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class Node, class NodeCreatorFunc = NodeCreator&lt;Node&gt;, class PositionFunc = PositionTrait&lt;T&gt;&gt;<br />
-struct RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell</div></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a32a8b5ab15a28fb06672fcf62ac63d1e" name="a32a8b5ab15a28fb06672fcf62ac63d1e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32a8b5ab15a28fb06672fcf62ac63d1e">&#9670;&#160;</a></span>ComputeCell()</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class TValue&gt;<br />
+class VMAP::IntersectionCallBack&lt; TValue &gt;</div></div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="af1b2d9b7517b57a5a0a598f58b470c33" name="af1b2d9b7517b57a5a0a598f58b470c33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af1b2d9b7517b57a5a0a598f58b470c33">&#9670;&#160;</a></span>operator()()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+template&lt;class TValue &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static <a class="el" href="../../db/d35/a05030.html">Cell</a> <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::ComputeCell </td>
+          <td class="memname">void <a class="el" href="../../db/d35/a05030.html">VMAP::IntersectionCallBack</a>&lt; TValue &gt;::operator() </td>
           <td>(</td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>fx</em>, </td>
+          <td class="paramtype">const G3D::Ray &amp;&#160;</td>
+          <td class="paramname"><em>ray</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
-          <td class="paramname"><em>fy</em>&#160;</td>
+          <td class="paramtype">const TValue *&#160;</td>
+          <td class="paramname"><em>entity</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>StopAtFirstHit</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float &amp;&#160;</td>
+          <td class="paramname"><em>distance</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -168,123 +174,70 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  151</span>        {</div>
-<div class="line"><span class="lineno">  152</span>            <a class="code hl_struct" href="../../d0/d2c/a08834.html">Cell</a> c = { int(fx * (1.f / <a class="code hl_define" href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)), int(fy * (1.f / <a class="code hl_define" href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a>) + (<a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a> / 2)) };</div>
-<div class="line"><span class="lineno">  153</span>            <span class="keywordflow">return</span> c;</div>
-<div class="line"><span class="lineno">  154</span>        }</div>
-<div class="ttc" id="aa00116_html_a7a4127f14f16563da90eb3c836bc404f"><div class="ttname"><a href="../../d4/d3e/a00116.html#a7a4127f14f16563da90eb3c836bc404f">CELL_SIZE</a></div><div class="ttdeci">#define CELL_SIZE</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:52</div></div>
-<div class="ttc" id="aa05026_html_a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60"><div class="ttname"><a href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">RegularGrid2D::CELL_NUMBER</a></div><div class="ttdeci">@ CELL_NUMBER</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:48</div></div>
-<div class="ttc" id="aa08834_html"><div class="ttname"><a href="../../d0/d2c/a08834.html">Cell</a></div><div class="ttdef"><b>Definition:</b> Cell.h:45</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::CELL_NUMBER</a>, and <a class="el" href="../../#l00052">CELL_SIZE</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00073">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::insert()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, and <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>.</p>
-
-</div>
-</div>
-<a id="afe64d87e738675f1c8cb0fa6d440029c" name="afe64d87e738675f1c8cb0fa6d440029c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe64d87e738675f1c8cb0fa6d440029c">&#9670;&#160;</a></span>isValid()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  156</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> &gt;= 0 &amp;&amp; x &lt; CELL_NUMBER &amp;&amp; y &gt;= 0 &amp;&amp; <a class="code hl_variable" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a> &lt; <a class="code hl_enumvalue" href="../../d2/df7/a05026.html#a81322b12079e0e46cd2d62a402d1feb2ac99125975cf608fa0b0ec9671758bb60">CELL_NUMBER</a>;}</div>
-<div class="ttc" id="aa05030_html_a8435f7d7b8f529dfe397ada59e3405a1"><div class="ttname"><a href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">RegularGrid2D::Cell::x</a></div><div class="ttdeci">int x</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:147</div></div>
-<div class="ttc" id="aa05030_html_af3d5ae020727d58286ef7725958063a9"><div class="ttname"><a href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">RegularGrid2D::Cell::y</a></div><div class="ttdeci">int y</div><div class="ttdef"><b>Definition:</b> RegularGrid.h:147</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>        {</div>
+<div class="line"><span class="lineno">   42</span>            entity-&gt;intersect(ray, distance, StopAtFirstHit, <a class="code hl_variable" href="../../db/d35/a05030.html#a00e778dd78dca96391d200e18dfc2c9d">hitLocation</a>, <a class="code hl_variable" href="../../db/d35/a05030.html#a57f40f48c26829f7da9e48efd839d773">hitNormal</a>);</div>
+<div class="line"><span class="lineno">   43</span>        }</div>
+<div class="ttc" id="aa05030_html_a00e778dd78dca96391d200e18dfc2c9d"><div class="ttname"><a href="../../db/d35/a05030.html#a00e778dd78dca96391d200e18dfc2c9d">VMAP::IntersectionCallBack::hitLocation</a></div><div class="ttdeci">G3D::Vector3 hitLocation</div><div class="ttdef"><b>Definition:</b> VMapTools.h:37</div></div>
+<div class="ttc" id="aa05030_html_a57f40f48c26829f7da9e48efd839d773"><div class="ttname"><a href="../../db/d35/a05030.html#a57f40f48c26829f7da9e48efd839d773">VMAP::IntersectionCallBack::hitNormal</a></div><div class="ttdeci">G3D::Vector3 hitNormal</div><div class="ttdef"><b>Definition:</b> VMapTools.h:38</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00048">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::CELL_NUMBER</a>, <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</a>, and <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00073">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::insert()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, and <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>.</p>
-
-</div>
-</div>
-<a id="a13e8b2fcda561f185777e4d8b48da3f5" name="a13e8b2fcda561f185777e4d8b48da3f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a13e8b2fcda561f185777e4d8b48da3f5">&#9670;&#160;</a></span>operator==()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator== </td>
-          <td>(</td>
-          <td class="paramtype">const <a class="el" href="../../db/d35/a05030.html">Cell</a> &amp;&#160;</td>
-          <td class="paramname"><em>c2</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  148</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1">x</a> == c2.x &amp;&amp; <a class="code hl_variable" href="../../db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9">y</a> == c2.y;}</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</a>, and <a class="el" href="../../#l00147">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00037">VMAP::IntersectionCallBack&lt; TValue &gt;::hitLocation</a>, and <a class="el" href="../../#l00038">VMAP::IntersectionCallBack&lt; TValue &gt;::hitNormal</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a8435f7d7b8f529dfe397ada59e3405a1" name="a8435f7d7b8f529dfe397ada59e3405a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8435f7d7b8f529dfe397ada59e3405a1">&#9670;&#160;</a></span>x</h2>
+<a id="ab377424b7edd0274f61967619700f841" name="ab377424b7edd0274f61967619700f841"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab377424b7edd0274f61967619700f841">&#9670;&#160;</a></span>closestEntity</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+template&lt;class TValue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::x</td>
+          <td class="memname">TValue* <a class="el" href="../../db/d35/a05030.html">VMAP::IntersectionCallBack</a>&lt; TValue &gt;::closestEntity</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>, <a class="el" href="../../#l00156">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid()</a>, and <a class="el" href="../../#l00148">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator==()</a>.</p>
-
 </div>
 </div>
-<a id="af3d5ae020727d58286ef7725958063a9" name="af3d5ae020727d58286ef7725958063a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af3d5ae020727d58286ef7725958063a9">&#9670;&#160;</a></span>y</h2>
+<a id="a00e778dd78dca96391d200e18dfc2c9d" name="a00e778dd78dca96391d200e18dfc2c9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00e778dd78dca96391d200e18dfc2c9d">&#9670;&#160;</a></span>hitLocation</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&gt;, class PositionFunc  = PositionTrait&lt;T&gt;&gt; </div>
+template&lt;class TValue &gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">int <a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a>&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::y</td>
+          <td class="memname">G3D::Vector3 <a class="el" href="../../db/d35/a05030.html">VMAP::IntersectionCallBack</a>&lt; TValue &gt;::hitLocation</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00159">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::getGridFor()</a>, <a class="el" href="../../#l00264">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectPoint()</a>, <a class="el" href="../../#l00182">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectRay()</a>, <a class="el" href="../../#l00279">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::intersectZAllignedRay()</a>, <a class="el" href="../../#l00156">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::isValid()</a>, and <a class="el" href="../../#l00148">RegularGrid2D&lt; T, Node, NodeCreatorFunc, PositionFunc &gt;::Cell::operator==()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00040">VMAP::IntersectionCallBack&lt; TValue &gt;::operator()()</a>.</p>
+
+</div>
+</div>
+<a id="a57f40f48c26829f7da9e48efd839d773" name="a57f40f48c26829f7da9e48efd839d773"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57f40f48c26829f7da9e48efd839d773">&#9670;&#160;</a></span>hitNormal</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TValue &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">G3D::Vector3 <a class="el" href="../../db/d35/a05030.html">VMAP::IntersectionCallBack</a>&lt; TValue &gt;::hitNormal</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00040">VMAP::IntersectionCallBack&lt; TValue &gt;::operator()()</a>.</p>
 
 </div>
 </div>
@@ -293,8 +246,8 @@ template&lt;class T , class Node , class NodeCreatorFunc  = NodeCreator&lt;Node&
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d2/df7/a05026.html">RegularGrid2D</a></li><li class="navelem"><a class="el" href="../../db/d35/a05030.html">Cell</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d9/d45/a04693.html">VMAP</a></li><li class="navelem"><a class="el" href="../../db/d35/a05030.html">IntersectionCallBack</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:42 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

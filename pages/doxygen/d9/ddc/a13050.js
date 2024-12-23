@@ -1,10 +1,8 @@
 var a13050 =
 [
-    [ "MoveDelayed", "d9/ddc/a13050.html#a3bf695ce31bb531b134c6c7018f4f197", null ],
-    [ "Execute", "d9/ddc/a13050.html#aa0db97475196b58bbed1f6bff1440fc6", null ],
-    [ "_o", "d9/ddc/a13050.html#ad0d76a04b7e85ea8667b05ec438316a0", null ],
-    [ "_owner", "d9/ddc/a13050.html#a2f7baa4bc22adeac8136df7269eb2895", null ],
-    [ "_x", "d9/ddc/a13050.html#aa490d19022c27932e76af38281fe158b", null ],
-    [ "_y", "d9/ddc/a13050.html#a195fc5719683ad645f36b06fd4f60d9f", null ],
-    [ "_z", "d9/ddc/a13050.html#a6aafdee829472bf22102645e1ff5e7a6", null ]
+    [ "HandleApply", "d9/ddc/a13050.html#a2e07ffc92d44757fe2b074244048dbf4", null ],
+    [ "HandleRemove", "d9/ddc/a13050.html#ae0d8cb63cf62e5015daa56463524aa27", null ],
+    [ "PrepareAuraScript", "d9/ddc/a13050.html#a4a59bd5c9ce7b74d29cdd6132f94c0bf", null ],
+    [ "Register", "d9/ddc/a13050.html#a3b91d692ad34b7ce965887590780e146", null ],
+    [ "Validate", "d9/ddc/a13050.html#aa3ee5b49e9e1009d5be34214eefd2a6d", null ]
 ];

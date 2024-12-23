@@ -1,6 +1,6 @@
 var a10610 =
 [
-    [ "DismissCritter", "d6/d02/a10610.html#a87e35583063b340f014d21cd02c54cab", null ],
-    [ "Read", "d6/d02/a10610.html#a411b65505e8a332ecf9291a670dc38c4", null ],
-    [ "CritterGUID", "d6/d02/a10610.html#a89c071e81c9d39c099c32c4976f15304", null ]
+    [ "InvalidStringValueException", "d6/d02/a10610.html#a4b5442d97f2bc8005cb20eefa6c13dc8", null ],
+    [ "GetInvalidValue", "d6/d02/a10610.html#a5ef59243610de6d0a9db22ddb9cd7bdd", null ],
+    [ "_value", "d6/d02/a10610.html#a8a8c86a63c34789ab7cce999455eb4bb", null ]
 ];

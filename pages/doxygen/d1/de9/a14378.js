@@ -1,13 +1,11 @@
 var a14378 =
 [
-    [ "boss_salrammAI", "d1/de9/a14378.html#ae1055878b3919e29d44ee26efcbe044f", null ],
-    [ "ExplodeGhoul", "d1/de9/a14378.html#adc64d8b10b28b98254c528732fff0516", null ],
-    [ "JustDied", "d1/de9/a14378.html#a59bc42afcbb0ed2c2629bd0280836194", null ],
-    [ "JustEngagedWith", "d1/de9/a14378.html#a8d3287cc74cc9d756a879c4ac796f860", null ],
-    [ "JustSummoned", "d1/de9/a14378.html#afd70403a8644f310f37335c6c9bf5b55", null ],
-    [ "KilledUnit", "d1/de9/a14378.html#ad3f4161c0e18c911a931d65e25693cdd", null ],
-    [ "Reset", "d1/de9/a14378.html#a9ddecc950cac3fc392078df2810ec2a2", null ],
-    [ "UpdateAI", "d1/de9/a14378.html#aa2350dc05884593b1361f9f09b8d9392", null ],
-    [ "events", "d1/de9/a14378.html#a55c0bba93a90b5a3770c81b9c4d2fe5b", null ],
-    [ "summons", "d1/de9/a14378.html#a813c09e121730d4ae2e623ac3c37d570", null ]
+    [ "npc_hyjal_ground_trash", "d1/de9/a14378.html#a06b590bf9ef983b1ef2b94058144fc7d", null ],
+    [ "AttackStart", "d1/de9/a14378.html#a0ab86d651644dcc579585176c2b5c07e", null ],
+    [ "DoAction", "d1/de9/a14378.html#aa92481bcf993c4eda5ef271145200d77", null ],
+    [ "GetNearbyFriendlyTrashCreature", "d1/de9/a14378.html#ad94fe6d4dca64fa8eec183481f82bb39", null ],
+    [ "JustEngagedWith", "d1/de9/a14378.html#a576b909d65ae862af5dcc6500d2ff7e1", null ],
+    [ "PathEndReached", "d1/de9/a14378.html#a035610284a56e690200f978b0fd496ab", null ],
+    [ "Reset", "d1/de9/a14378.html#aa38b45f63841c049a2add0a9832268ef", null ],
+    [ "UpdateAI", "d1/de9/a14378.html#a91b3ee049bf199271618afd3ad0c5f77", null ]
 ];

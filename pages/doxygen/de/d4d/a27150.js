@@ -1,10 +1,12 @@
 var a27150 =
 [
-    [ "npc_training_dummyAI", "de/d4d/a27150.html#a2f10fd0b4365e99446f728883a47eb6a", null ],
-    [ "DamageTaken", "de/d4d/a27150.html#a641c40906a6365f068ccbdba9d033923", null ],
-    [ "EnterEvadeMode", "de/d4d/a27150.html#adb1de124bdb2a986efcfcfc287b6d824", null ],
-    [ "MoveInLineOfSight", "de/d4d/a27150.html#a52f3516e9da6895eeddcdef7a198a6b1", null ],
-    [ "Reset", "de/d4d/a27150.html#af63f500cb3179964c90afab0d4a2c9b7", null ],
-    [ "UpdateAI", "de/d4d/a27150.html#a5e7892a64cd1a5cf678b401b62497bfb", null ],
-    [ "resetTimer", "de/d4d/a27150.html#a443f2f7de257af473d6e9793f34a2071", null ]
+    [ "npc_preciousAI", "de/d4d/a27150.html#ade66f3aa2ff9ac85c99a9d31591fcabf", null ],
+    [ "FlagForDespawn", "de/d4d/a27150.html#a934a5147c1cc9937189011fb061657da", null ],
+    [ "InitializeAI", "de/d4d/a27150.html#aa15843c4029f2df2ee04d21b5157602a", null ],
+    [ "JustEngagedWith", "de/d4d/a27150.html#a58bc4149111605850f070a77ee776313", null ],
+    [ "JustReachedHome", "de/d4d/a27150.html#a31893e9441b24398554370a58ef8bd78", null ],
+    [ "Reset", "de/d4d/a27150.html#aa1c39ce0110827d35ae2d5ea794e1744", null ],
+    [ "UpdateAI", "de/d4d/a27150.html#a2f3428807957bd60fdbe6f694bb6d3ef", null ],
+    [ "events", "de/d4d/a27150.html#a69a20e759b1bcb631cef0bf1e4dd8a1b", null ],
+    [ "flaggedForDespawn", "de/d4d/a27150.html#a48e891f8afce9408ed38c51a0e2d4005", null ]
 ];

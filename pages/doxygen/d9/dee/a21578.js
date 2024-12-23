@@ -1,9 +1,10 @@
 var a21578 =
 [
-    [ "npc_venture_co_stragglerAI", "d9/dee/a21578.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
-    [ "Reset", "d9/dee/a21578.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
-    [ "SpellHit", "d9/dee/a21578.html#ae1919454c270d10342079b60a727a306", null ],
-    [ "UpdateAI", "d9/dee/a21578.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
-    [ "_events", "d9/dee/a21578.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
-    [ "_playerGUID", "d9/dee/a21578.html#a649493944b143782d995b5bdda3714b4", null ]
+    [ "npc_emilyAI", "d9/dee/a21578.html#afd1e82e36c8850fbe118ab6abbdb73ce", null ],
+    [ "JustEngagedWith", "d9/dee/a21578.html#a498ddc6969d398fe7a44824f4f8c8893", null ],
+    [ "JustSummoned", "d9/dee/a21578.html#a4730c94b54d2ee5160011557704b35f2", null ],
+    [ "Reset", "d9/dee/a21578.html#a8f196a6e1b21bef162b7ba4d7aeae208", null ],
+    [ "WaypointReached", "d9/dee/a21578.html#a0a68676a6eac8fbe2b634098268eb516", null ],
+    [ "_mrfloppyGUID", "d9/dee/a21578.html#a12a1fbe1ef4767698ab969e51e2f0e8e", null ],
+    [ "_RavenousworgGUID", "d9/dee/a21578.html#aa2a5e45366be9f89221453e00179e1a3", null ]
 ];

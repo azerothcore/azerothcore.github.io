@@ -1,10 +1,14 @@
 var a20490 =
 [
-    [ "boss_yoggsaron_constrictor_tentacleAI", "dc/d56/a20490.html#a351df0050661628e3ab0be2f636f9c4e", null ],
-    [ "DoAction", "dc/d56/a20490.html#ad84c2b479a2d7df7aec40f17287a2438", null ],
-    [ "JustDied", "dc/d56/a20490.html#a832d1b1154b158c348f9d5883ad0fbd7", null ],
-    [ "SelectConstrictTarget", "dc/d56/a20490.html#a174be8d1673e332f9dceb10d2917bb4a", null ],
-    [ "UpdateAI", "dc/d56/a20490.html#a00c137429f2b565bf195dab4e9902a7c", null ],
-    [ "_checkTimer", "dc/d56/a20490.html#ae5c189401dd04823449e7a16c197e65f", null ],
-    [ "_playerGUID", "dc/d56/a20490.html#a01d889af8d8fe5712cde73cdc2bf3c95", null ]
+    [ "boss_yoggsaron_cloudAI", "dc/d56/a20490.html#a6a13c31fb0649387ac411ed7ec2fb66a", null ],
+    [ "AttackStart", "dc/d56/a20490.html#a3ecf6a1c74780aa250be3f4e2dd04ea1", null ],
+    [ "DoAction", "dc/d56/a20490.html#a68caf08c015a0048be7858e435bbc84d", null ],
+    [ "InitWaypoint", "dc/d56/a20490.html#ae68d5d5f5c1edb74596761dccecb614d", null ],
+    [ "JustSummoned", "dc/d56/a20490.html#a70e74c2a1c19468e25edcc3d0e41df06", null ],
+    [ "MoveInLineOfSight", "dc/d56/a20490.html#a48fb6de45d47ab4fbe02da835056f4ce", null ],
+    [ "Reset", "dc/d56/a20490.html#adffbc99bb2fff0ce2082cd9e2d3608d7", null ],
+    [ "UpdateEscortAI", "dc/d56/a20490.html#a3661ecf52a93c7d769eaa9dcfa2ac202", null ],
+    [ "WaypointReached", "dc/d56/a20490.html#a3933d6c39c060db0da18d174e5b2e01a", null ],
+    [ "_checkTimer", "dc/d56/a20490.html#a883307a4134b269fb2bbe6efa371b945", null ],
+    [ "_isSummoning", "dc/d56/a20490.html#a118ccef4158c49bddf2b503f3a3090d0", null ]
 ];

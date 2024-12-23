@@ -1,6 +1,6 @@
 var a19382 =
 [
-    [ "PrepareSpellScript", "d5/d41/a19382.html#af280f3880e2e567188ba8ca3e45c00c0", null ],
-    [ "RecalculateDamage", "d5/d41/a19382.html#a54c26d24f62c36108f9fceb7a0c53e37", null ],
-    [ "Register", "d5/d41/a19382.html#aac131aa2d2e5342cf0303b918a077b45", null ]
+    [ "npc_collapsing_starAI", "d5/d41/a19382.html#ac389b380a8f315ae50a8cd809393a773", null ],
+    [ "DamageTaken", "d5/d41/a19382.html#a424fac98093eb9d02cda5027523ad06a", null ],
+    [ "JustSummoned", "d5/d41/a19382.html#ae70fcb66171fe5f87d96aaf2f52e35bc", null ]
 ];

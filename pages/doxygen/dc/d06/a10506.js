@@ -1,9 +1,13 @@
 var a10506 =
 [
-    [ "LevelUpInfo", "dc/d06/a10506.html#ae856bb717d6ae4b03775b7bfb026850d", null ],
-    [ "Write", "dc/d06/a10506.html#af09dd1c6470516ea9422d22ed22e6d10", null ],
-    [ "HealthDelta", "dc/d06/a10506.html#ab654fc42947c0c783d3a26e6df32b29d", null ],
-    [ "Level", "dc/d06/a10506.html#a1765f693918fdd1f51d7b8dc7b2494a2", null ],
-    [ "PowerDelta", "dc/d06/a10506.html#a697da64ac234c24fe73e68d408697ee6", null ],
-    [ "StatDelta", "dc/d06/a10506.html#a580e4a3cd77631e960b7753542375d6d", null ]
+    [ "GuildBankQueryResults", "dc/d06/a10506.html#a8203a35b76fdc674794c5bd3c1acb9ed", null ],
+    [ "SetWithdrawalsRemaining", "dc/d06/a10506.html#a52af0d2b4e092daf0719bdf325c51652", null ],
+    [ "Write", "dc/d06/a10506.html#a4598c0c9d1f94c5aa0671f210e1597d4", null ],
+    [ "_withdrawalsRemainingPos", "dc/d06/a10506.html#abe711cd2da225fdc73eabe2ad6bd3f5d", null ],
+    [ "FullUpdate", "dc/d06/a10506.html#a42ca9b48981d7d338aecb7840c248f0f", null ],
+    [ "ItemInfo", "dc/d06/a10506.html#ad799195b259f92aa4e71e1ee8fd99741", null ],
+    [ "Money", "dc/d06/a10506.html#ad401eb3444f5ae50781e634e1f55eba1", null ],
+    [ "Tab", "dc/d06/a10506.html#a72ac06ace5e7974d666e3fc3d626e3c0", null ],
+    [ "TabInfo", "dc/d06/a10506.html#ad36f0ae1d897ef504ad9761c00db77ca", null ],
+    [ "WithdrawalsRemaining", "dc/d06/a10506.html#a211288bde5a15f2d21df65acf087c7d0", null ]
 ];

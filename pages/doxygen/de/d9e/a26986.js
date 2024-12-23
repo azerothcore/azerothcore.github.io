@@ -1,5 +1,5 @@
 var a26986 =
 [
-    [ "go_veil_skith_cage", "de/d9e/a26986.html#ac3fe1fdf2f12571fafc56e71a932994e", null ],
-    [ "OnGossipHello", "de/d9e/a26986.html#a6724dc73ecf83305e5234eb0a2ad1d3c", null ]
+    [ "go_tele_to_dalaran_crystal", "de/d9e/a26986.html#ab41268b7d568e8f189338f27cd90a62c", null ],
+    [ "OnGossipHello", "de/d9e/a26986.html#a7f754a29249653ca7848494310ef1a8d", null ]
 ];

@@ -1,6 +1,9 @@
 var a21634 =
 [
-    [ "npc_your_inner_turmoilAI", "d0/d79/a21638.html", "d0/d79/a21638" ],
-    [ "npc_your_inner_turmoil", "d4/dff/a21634.html#a72856ef469bb8f6ff4a89a16159479af", null ],
-    [ "GetAI", "d4/dff/a21634.html#a29c8f76b072e891face1225770688ca6", null ]
+    [ "npc_venture_co_stragglerAI", "d4/dff/a21634.html#abc3cc04b89b95fd45969ba5859bf810c", null ],
+    [ "Reset", "d4/dff/a21634.html#acfeaad9db95d0b391a64cc65ca3a1cee", null ],
+    [ "SpellHit", "d4/dff/a21634.html#ae1919454c270d10342079b60a727a306", null ],
+    [ "UpdateAI", "d4/dff/a21634.html#a0846336d8d1333e2c2f50731a722c3b7", null ],
+    [ "_events", "d4/dff/a21634.html#a9cd6e6b549e10900f35838f04e10e0f5", null ],
+    [ "_playerGUID", "d4/dff/a21634.html#a649493944b143782d995b5bdda3714b4", null ]
 ];

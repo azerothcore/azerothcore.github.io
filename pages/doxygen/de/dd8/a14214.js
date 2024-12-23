@@ -1,6 +1,5 @@
 var a14214 =
 [
-    [ "instance_blackfathom_deeps_InstanceMapScript", "d4/dbc/a14218.html", "d4/dbc/a14218" ],
-    [ "instance_blackfathom_deeps", "de/dd8/a14214.html#a4600a7e6191582c1bee684989a970e0f", null ],
-    [ "GetInstanceScript", "de/dd8/a14214.html#a62cdab4f3118ab030b4ef55243690f73", null ]
+    [ "npc_pilgrims_bounty_plate", "de/dd8/a14214.html#ac0217b8fb3a0fbf418ce2d3ca286f2eb", null ],
+    [ "SpellHit", "de/dd8/a14214.html#a7797b7a532336542ef37f0643df8dec0", null ]
 ];

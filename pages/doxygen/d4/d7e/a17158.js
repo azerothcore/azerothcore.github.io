@@ -1,6 +1,6 @@
 var a17158 =
 [
-    [ "Cooldown", "d4/d7e/a17158.html#ac2f21814be8269023a2069f3eb03dfe2", null ],
-    [ "Entry", "d4/d7e/a17158.html#a28ff8bdab669f7b4aec95857cc460a2f", null ],
-    [ "TargetPosition", "d4/d7e/a17158.html#ac47af49622012b4ad40357cadc5214b3", null ]
+    [ "PrepareAuraScript", "d4/d7e/a17158.html#abbcd0a9a63908a875bcdbc66fb5e1218", null ],
+    [ "RecalculateHook", "d4/d7e/a17158.html#a829e96cabbb565922f7183adb3edf13c", null ],
+    [ "Register", "d4/d7e/a17158.html#a7ded7cbe8c5cbffd6798bbb66d8a5d1a", null ]
 ];

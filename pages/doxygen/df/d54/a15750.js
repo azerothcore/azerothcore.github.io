@@ -1,8 +1,6 @@
 var a15750 =
 [
-    [ "OnApply", "df/d54/a15750.html#a96321003a002be0e4838901f03f8a5d8", null ],
-    [ "OnRemove", "df/d54/a15750.html#af616afe7bf87eb7fdb44bf15e9ad85d4", null ],
-    [ "PrepareAuraScript", "df/d54/a15750.html#ae5c880210cb50cf5320ee3595791eaa8", null ],
-    [ "Register", "df/d54/a15750.html#aaa2a16cff2e9aae77cdc1bb75c38f26a", null ],
-    [ "Validate", "df/d54/a15750.html#ad09a31813a7a03f8abf6dc9c151bb002", null ]
+    [ "boss_general_zarithrianAI", "d2/d8f/a15754.html", "d2/d8f/a15754" ],
+    [ "boss_general_zarithrian", "df/d54/a15750.html#a030c53b6ef1d75027ddfd298d49ab330", null ],
+    [ "GetAI", "df/d54/a15750.html#a22ba4e0769dd9404ae043fb9c16233ff", null ]
 ];

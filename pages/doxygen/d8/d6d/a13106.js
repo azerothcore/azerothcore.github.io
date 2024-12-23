@@ -1,9 +1,10 @@
 var a13106 =
 [
-    [ "boss_entropius", "d8/d6d/a13106.html#a458deaa80c9694cd2608150bc5519c76", null ],
-    [ "EnterEvadeMode", "d8/d6d/a13106.html#a01889b192525af082471d092bff28c88", null ],
-    [ "JustDied", "d8/d6d/a13106.html#aed1313073a44bc15f87432a85e6c2d8e", null ],
-    [ "JustEngagedWith", "d8/d6d/a13106.html#afb07fc44fd14b9f78fbc97b2670b8b5e", null ],
-    [ "Reset", "d8/d6d/a13106.html#ad9da990a540703d38cb45dd2da72c179", null ],
-    [ "UpdateAI", "d8/d6d/a13106.html#ab7fbeb67059c48b5f1aff071990ece5e", null ]
+    [ "MoveDelayed", "d8/d6d/a13106.html#a3bf695ce31bb531b134c6c7018f4f197", null ],
+    [ "Execute", "d8/d6d/a13106.html#aa0db97475196b58bbed1f6bff1440fc6", null ],
+    [ "_o", "d8/d6d/a13106.html#ad0d76a04b7e85ea8667b05ec438316a0", null ],
+    [ "_owner", "d8/d6d/a13106.html#a2f7baa4bc22adeac8136df7269eb2895", null ],
+    [ "_x", "d8/d6d/a13106.html#aa490d19022c27932e76af38281fe158b", null ],
+    [ "_y", "d8/d6d/a13106.html#a195fc5719683ad645f36b06fd4f60d9f", null ],
+    [ "_z", "d8/d6d/a13106.html#a6aafdee829472bf22102645e1ff5e7a6", null ]
 ];

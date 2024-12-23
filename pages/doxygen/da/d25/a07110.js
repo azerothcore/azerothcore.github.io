@@ -1,12 +1,9 @@
 var a07110 =
 [
-    [ "BGQueueInviteEvent", "da/d25/a07110.html#acee27900339fdcebbfd21bb0e602654d", null ],
-    [ "~BGQueueInviteEvent", "da/d25/a07110.html#a09f9f27ecbc273b25e5941966a4fa925", null ],
-    [ "Abort", "da/d25/a07110.html#a07f5520ab61cdfd4eadc5d0815067135", null ],
-    [ "Execute", "da/d25/a07110.html#a444aceb1c29c951271bab5186a7f3064", null ],
-    [ "m_ArenaType", "da/d25/a07110.html#a1b7d1161d46578606396efd515ab1739", null ],
-    [ "m_BgInstanceGUID", "da/d25/a07110.html#ad9adc44cc1cde3b0b820740852bdb3ce", null ],
-    [ "m_BgTypeId", "da/d25/a07110.html#a608c24288f24bc4da77124257320c741", null ],
-    [ "m_PlayerGuid", "da/d25/a07110.html#a200b4bcd336846df60ec11de8d829d7d", null ],
-    [ "m_RemoveTime", "da/d25/a07110.html#a4c78e5a74eaf859db40772008557201f", null ]
+    [ "ArenaScore", "da/d25/a07110.html#a58f1391de4e67750dad211b10704499f", null ],
+    [ "AppendToPacket", "da/d25/a07110.html#a3fe2ab34a9abc4d8c4ff863334cf2c84", null ],
+    [ "BuildObjectivesBlock", "da/d25/a07110.html#ac96461b865fc7a9ba0cdfad6ae3fa96f", null ],
+    [ "ToString", "da/d25/a07110.html#ab04b30f4bfa6b1aa89e08e3195ad3b0b", null ],
+    [ "Arena", "da/d25/a07110.html#a5f488c25aa439166d145713c67e7d085", null ],
+    [ "PvPTeamId", "da/d25/a07110.html#a486ee0e05ac5160f0fb174e2a1e061bb", null ]
 ];

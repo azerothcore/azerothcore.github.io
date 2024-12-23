@@ -1,7 +1,6 @@
 var a27066 =
 [
-    [ "npc_engineering_tele_trinket", "dd/d39/a27066.html#ab891a8378a7b1b63151d05801b8b2fd1", null ],
-    [ "CanLearn", "dd/d39/a27066.html#a8a35f1c09a9df609561e76f4ed578647", null ],
-    [ "OnGossipHello", "dd/d39/a27066.html#ad11f576fb7efad0f6ea4cf22d3bc4e59", null ],
-    [ "OnGossipSelect", "dd/d39/a27066.html#a4d7125cf0333d4e5ebc299019c8feb1a", null ]
+    [ "guard_shattrath_aldorAI", "de/d60/a27070.html", "de/d60/a27070" ],
+    [ "guard_shattrath_aldor", "dd/d39/a27066.html#ab965295d9c3828ad814f658670b5f185", null ],
+    [ "GetAI", "dd/d39/a27066.html#a3459a6a85c7e7286e3cbdd7f56fee704", null ]
 ];

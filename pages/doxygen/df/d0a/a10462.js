@@ -1,10 +1,7 @@
 var a10462 =
 [
-    [ "Count", "df/d0a/a10462.html#a97b56650a40ff3d39c6281d43261f06f", null ],
-    [ "EntryType", "df/d0a/a10462.html#a7c4db5da5d5e501172b8581e4e7bb865", null ],
-    [ "ItemID", "df/d0a/a10462.html#a1daad03864355f94d90315fea68892d4", null ],
-    [ "Money", "df/d0a/a10462.html#a856d32f52e85b2b7329f85b8e04ad0ee", null ],
-    [ "OtherTab", "df/d0a/a10462.html#a359c633cc0034dc8ae8b7db69d3dd739", null ],
-    [ "PlayerGUID", "df/d0a/a10462.html#a90e01e455d373204617b2747ca95fe04", null ],
-    [ "TimeOffset", "df/d0a/a10462.html#a11cf13b65aafbd4dc70399362f4f87fe", null ]
+    [ "GuildBankActivate", "df/d0a/a10462.html#a5b27541a26ada694d9635f6d6873ef20", null ],
+    [ "Read", "df/d0a/a10462.html#a8dbde75aaa3102024aa0ff3a8f3625da", null ],
+    [ "Banker", "df/d0a/a10462.html#a9b79075c6ee6a4f73ae18c6956eead7c", null ],
+    [ "FullUpdate", "df/d0a/a10462.html#a50b9a5333e2296e654c90fc6394bdbd3", null ]
 ];

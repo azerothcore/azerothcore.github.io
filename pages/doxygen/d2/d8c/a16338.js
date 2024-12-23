@@ -1,6 +1,6 @@
 var a16338 =
 [
-    [ "OnPeriodic", "d2/d8c/a16338.html#ab71faf6fb2900e176aac245317113758", null ],
-    [ "PrepareAuraScript", "d2/d8c/a16338.html#a5b4bf1fe2987cdebedaa2e7d048742d6", null ],
-    [ "Register", "d2/d8c/a16338.html#a8b90810bfc5416cdfeac2f6a72c55d3e", null ]
+    [ "npc_announcer_toc10", "d2/d8c/a16338.html#ae495b19328c6a743dfd8f1cbf37a0bd6", null ],
+    [ "OnGossipHello", "d2/d8c/a16338.html#afcc5262e7c49b7456af146de14805a06", null ],
+    [ "OnGossipSelect", "d2/d8c/a16338.html#a9a2bf1d3a215332744ca473041cc0520", null ]
 ];

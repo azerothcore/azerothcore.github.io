@@ -1,6 +1,6 @@
 var a15478 =
 [
-    [ "ModDestHeight", "d3/d76/a15478.html#a8bda9327c4244af41c513528ad5c818c", null ],
-    [ "PrepareSpellScript", "d3/d76/a15478.html#aba5a03c94fa5d87c46a91369875c0ab2", null ],
-    [ "Register", "d3/d76/a15478.html#a62b0ce71caeff96705b15aa240ddd09f", null ]
+    [ "npc_shadowpriest_sezzizAI", "d5/d85/a15482.html", "d5/d85/a15482" ],
+    [ "npc_shadowpriest_sezziz", "d3/d76/a15478.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
+    [ "GetAI", "d3/d76/a15478.html#a1513b766f18dbc290b6682582fd33b1d", null ]
 ];

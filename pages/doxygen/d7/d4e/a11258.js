@@ -1,6 +1,6 @@
 var a11258 =
 [
-    [ "rainChance", "d2/db6/a04681.html#ga8c3d9f1d251a9b167c9adc99101e5612", null ],
-    [ "snowChance", "d2/db6/a04681.html#ga474650c5237c4a7428e858775fea7b86", null ],
-    [ "stormChance", "d2/db6/a04681.html#gaa50e5243877e8283f30ee9376b2d519e", null ]
+    [ "Command", "d7/d4e/a11258.html#a65dc9a4861ab63743146c65a0a6249f2", null ],
+    [ "Data", "d7/d4e/a11258.html#abda0f8cc15c7fb45fa81fcf5ccad8d08", null ],
+    [ "DataSize", "d7/d4e/a11258.html#a279f37acfa44c06ae14c5a544dd7baf6", null ]
 ];

@@ -1,13 +1,14 @@
 var a19010 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d8/d44/a19010.html#a800ccd2508f8ec0e53bd185b8944acb0", null ],
-    [ "AttackStart", "d8/d44/a19010.html#a1dac85f0dae65d12740b54fe5d140a25", null ],
-    [ "MoveInLineOfSight", "d8/d44/a19010.html#a248dad12dc76b4efa2a64c02d4af4b3c", null ],
-    [ "MovementInform", "d8/d44/a19010.html#a1d6a80a4f7e9239a781bebaedfd389d7", null ],
-    [ "PickNewLocation", "d8/d44/a19010.html#a5afcf52182ed8d90aae71d46a9d33a92", null ],
-    [ "Reset", "d8/d44/a19010.html#ac2e391d0149b62823ac9074d45c694cf", null ],
-    [ "UpdateAI", "d8/d44/a19010.html#acd8fd7a6353642c8e4a61eae0150c07f", null ],
-    [ "gonext", "d8/d44/a19010.html#a6b1d2ce8ec85e5a063c215c0adef9e0e", null ],
-    [ "located", "d8/d44/a19010.html#ab8a13498d8c9926c3d6496a0d4707557", null ],
-    [ "timer", "d8/d44/a19010.html#a8e62f1613ccaba5d93758d6573f4dd6c", null ]
+    [ "boss_keristrasza", "d8/d44/a19010.html#a5f83fee9a5616751601f0c1155afab36", null ],
+    [ "CanRemovePrison", "d8/d44/a19010.html#a900a4a8428a04b880462b20196e94858", null ],
+    [ "GetData", "d8/d44/a19010.html#aa1e7f5b0c0fe89d0e67ccfd198d235ba", null ],
+    [ "JustDied", "d8/d44/a19010.html#a3f962a6c7a65d458f1b05a15e6f53951", null ],
+    [ "JustEngagedWith", "d8/d44/a19010.html#a26d6559cc92841f8f76544cdbbf2cbaf", null ],
+    [ "KilledUnit", "d8/d44/a19010.html#a67b50805b9e01cd1d0fb7966b3288b9f", null ],
+    [ "RemovePrison", "d8/d44/a19010.html#a97b6fe26a5bbc4a7c528939e82cd0ca5", null ],
+    [ "Reset", "d8/d44/a19010.html#a13dce974fa83577397a80ff52de5d835", null ],
+    [ "SetData", "d8/d44/a19010.html#ac32f3e8f568535d4d197d383f9e51c5f", null ],
+    [ "UpdateAI", "d8/d44/a19010.html#a46a2e61e27cc72710c7aa14212673eae", null ],
+    [ "aGuids", "d8/d44/a19010.html#aa4c06ad8d599192c2f4ecb52f92e3a31", null ]
 ];

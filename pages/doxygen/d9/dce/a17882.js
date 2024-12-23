@@ -1,7 +1,6 @@
 var a17882 =
 [
-    [ "OnPeriodic", "d9/dce/a17882.html#accd12b06341f3168c74cb18926614f7f", null ],
-    [ "OnUpdate", "d9/dce/a17882.html#abd725d08f2ef14cd375b6b94e9c1dcf0", null ],
-    [ "PrepareAuraScript", "d9/dce/a17882.html#aa7dea3d079ae88aafd145ce949a6eb02", null ],
-    [ "Register", "d9/dce/a17882.html#aa4a548a222dd79554e3e4e8f837c1d49", null ]
+    [ "LichKingDeathEvent", "d9/dce/a17882.html#a9aa328b60358034355b1eed5caacb9f8", null ],
+    [ "Execute", "d9/dce/a17882.html#a06b9a77d3c5efb228368a1e423a620ae", null ],
+    [ "_owner", "d9/dce/a17882.html#a75ccb1b2bd5a8149aff85404b5e0ce21", null ]
 ];

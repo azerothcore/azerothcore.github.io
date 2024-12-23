@@ -1,7 +1,6 @@
 var a19378 =
 [
-    [ "HandlePeriodic", "d3/d16/a19378.html#a14fd25f78c9e2bfbdaeb07f3233628b6", null ],
-    [ "PrepareAuraScript", "d3/d16/a19378.html#ad78b06733a8609dd39e885db2f23edba", null ],
-    [ "Register", "d3/d16/a19378.html#ac9ae9be546964752869163896c4045dd", null ],
-    [ "Validate", "d3/d16/a19378.html#afcca84d03b29ef7569c03f973a6c191b", null ]
+    [ "npc_collapsing_starAI", "d5/d41/a19382.html", "d5/d41/a19382" ],
+    [ "npc_collapsing_star", "d3/d16/a19378.html#a8d57987c9b4622746d4f42a2b4845b9e", null ],
+    [ "GetAI", "d3/d16/a19378.html#a346af96d122e64c68defdeccb9183cd4", null ]
 ];

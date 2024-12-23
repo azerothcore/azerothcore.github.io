@@ -1,10 +1,10 @@
 var a13714 =
 [
-    [ "npc_vilebranch_speaker", "de/da9/a13714.html#acd8dfc95c5969fe67e1386d5dbd5884b", null ],
-    [ "JustDied", "de/da9/a13714.html#aa7708f176879db3acd50399b74e4a90c", null ],
-    [ "JustEngagedWith", "de/da9/a13714.html#a236afb8512c2d941479f8a7c18f688a6", null ],
-    [ "Reset", "de/da9/a13714.html#a248195a137cb91f10a882ec12974c7c5", null ],
-    [ "UpdateAI", "de/da9/a13714.html#a75f263fa9241319b58bf77cbf1b75088", null ],
-    [ "_scheduler", "de/da9/a13714.html#abd52bbd2ce88b011176d93ae92b851d0", null ],
-    [ "instance", "de/da9/a13714.html#a88fb28d2c39f0da967ab6706872e68b2", null ]
+    [ "boss_jeklik", "de/da9/a13714.html#a826bdba66fee3bb82b64ca6174b66c44", null ],
+    [ "EnterEvadeMode", "de/da9/a13714.html#a70dc363e0690e72846db5f779375edc1", null ],
+    [ "JustDied", "de/da9/a13714.html#ae648ba9ff49f4970612a8c3351789b66", null ],
+    [ "JustEngagedWith", "de/da9/a13714.html#aeb57cfc66104f6e2b2e36b6551207dd8", null ],
+    [ "PathEndReached", "de/da9/a13714.html#a689e8f91361de45e6f885fea0dec900a", null ],
+    [ "Reset", "de/da9/a13714.html#a7959106123e60e3584b32b50a272746c", null ],
+    [ "batRidersCount", "de/da9/a13714.html#a3d81395ec4518d4e2ca7f273fc658395", null ]
 ];

@@ -1,7 +1,6 @@
 var a18354 =
 [
-    [ "HandleScript", "d7/d4b/a18354.html#a87a2b32a9a20f032157df5ddb2cd9979", null ],
-    [ "PrepareSpellScript", "d7/d4b/a18354.html#a9aca3a2a981a0cb61569200d77ca527a", null ],
-    [ "Register", "d7/d4b/a18354.html#afb0289c9906d0383a22dfd0e848573f8", null ],
-    [ "Validate", "d7/d4b/a18354.html#a69344370af56f033e1c1ba16f4dee174", null ]
+    [ "npc_frostwing_vrykulAI", "d4/d91/a18358.html", "d4/d91/a18358" ],
+    [ "npc_frostwing_vrykul", "d7/d4b/a18354.html#ab915aa094ddebd9201a1c626e6427409", null ],
+    [ "GetAI", "d7/d4b/a18354.html#a11678e59b6db9a41c7b6a575339995fd", null ]
 ];

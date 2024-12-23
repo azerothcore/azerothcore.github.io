@@ -1,6 +1,7 @@
 var a12974 =
 [
-    [ "CorruptTriggers", "d6/d40/a12974.html#a5ec60254ee2ac299ce99164189087a1c", null ],
-    [ "Execute", "d6/d40/a12974.html#a9929f3518f307e0b753782967f06c6c1", null ],
-    [ "_caster", "d6/d40/a12974.html#a2b9e4c3d292b7e3deea57e1542b3ba12", null ]
+    [ "OnRemove", "d6/d40/a12974.html#a55460c6393c165e3096c967c81136032", null ],
+    [ "PrepareAuraScript", "d6/d40/a12974.html#afd4e4483f704169e6d213ced134d4c62", null ],
+    [ "Register", "d6/d40/a12974.html#a8458f77fde6eaddc273b3fe5f4e49ae0", null ],
+    [ "Validate", "d6/d40/a12974.html#af580258d287f5db6103b89d3085669bc", null ]
 ];

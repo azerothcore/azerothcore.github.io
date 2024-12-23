@@ -1,13 +1,13 @@
 var a13538 =
 [
-    [ "npc_forest_frog", "d1/d68/a13538.html#a6a5e24a11f8d2add6a3e9d71e2e647bb", null ],
-    [ "DoSpawnRandom", "d1/d68/a13538.html#aac140826b8c4b7ce55925b5abeee936e", null ],
-    [ "JustEngagedWith", "d1/d68/a13538.html#aa22c4eb7eb3a84db94ce8eb38afd18f5", null ],
-    [ "MovementInform", "d1/d68/a13538.html#a8260157062b3e4ef48ad47b4f9bf66ac", null ],
-    [ "SpellHit", "d1/d68/a13538.html#a9501955507e1f236bb48384928fd6a32", null ],
-    [ "UpdateAI", "d1/d68/a13538.html#a5e6785d71bfb7f1d7b915723898a99fc", null ],
-    [ "events", "d1/d68/a13538.html#a8ef7e1eb3d7196c070cc3b6618291dc0", null ],
-    [ "eventTimer", "d1/d68/a13538.html#ac6bf7433f79a9c2803072e7b5370a1c7", null ],
-    [ "instance", "d1/d68/a13538.html#a6294f89eccdb9e5f9edbe8bccb164690", null ],
-    [ "PlayerGUID", "d1/d68/a13538.html#a3544a83bb22e12d247e562ef32e378c0", null ]
+    [ "boss_hexlord_malacrass", "d1/d68/a13538.html#aaf3fdf0b34904d1c5798ebcc291cdcde", null ],
+    [ "JustEngagedWith", "d1/d68/a13538.html#ac5af0a5ec11ab8529e74a1ea7f0b4b66", null ],
+    [ "KilledUnit", "d1/d68/a13538.html#a69e7a3aa2cb068706651bad34363099f", null ],
+    [ "Reset", "d1/d68/a13538.html#af00159c9e2c54033f52f46d60881f22e", null ],
+    [ "ScheduleClassAbility", "d1/d68/a13538.html#aefffbab821a4abb4ab0e6779ba73d5ac", null ],
+    [ "SpawnAdds", "d1/d68/a13538.html#a8ffb01ebe267b4eb935e373bd0d99eed", null ],
+    [ "UseAbility", "d1/d68/a13538.html#afdad8cc36235f11dc5c4b4f579f5b46b", null ],
+    [ "_classAbilityTimer", "d1/d68/a13538.html#a40ccd2e586895ab1cde3c51bcd56c11b", null ],
+    [ "_creatureIndex", "d1/d68/a13538.html#ac13b0f08fec4270ed372f00ae540fdc3", null ],
+    [ "_currentClass", "d1/d68/a13538.html#ab7e531fccbb486b7b429d77d804841c2", null ]
 ];

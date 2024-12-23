@@ -1,7 +1,6 @@
 var a17554 =
 [
-    [ "CheckRequirement", "d2/d4b/a17554.html#a1568599758bdc757ae448ab5a77c1cc7", null ],
-    [ "CheckRequirementInternal", "d2/d4b/a17554.html#ac2559b4a925fc0960a902fa2b306dc54", null ],
-    [ "PrepareSpellScript", "d2/d4b/a17554.html#a0d6745dab09cdd228fc802e482c3d15c", null ],
-    [ "Register", "d2/d4b/a17554.html#a95a250aeb3a41922c529f476d39f18e4", null ]
+    [ "npc_gas_cloudAI", "d2/d4b/a17554.html#a44e6f92ed3731beb8a36db66da9fbdef", null ],
+    [ "CastMainSpell", "d2/d4b/a17554.html#a61681f6f9616fe33274302d4160c709b", null ],
+    [ "_newTargetSelectTimer", "d2/d4b/a17554.html#a6989b904abaa5b71362e43664f4b084d", null ]
 ];

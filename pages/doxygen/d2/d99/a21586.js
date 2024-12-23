@@ -1,11 +1,9 @@
 var a21586 =
 [
-    [ "npc_lake_frogAI", "d2/d99/a21586.html#ac08eeed39d046ce35d7d6aa65d53cab5", null ],
-    [ "ReceiveEmote", "d2/d99/a21586.html#abd58e65b6829c70818c578ed615a980b", null ],
-    [ "Reset", "d2/d99/a21586.html#a3773b3a21ea25db316481f1da5e6dd3c", null ],
-    [ "sGossipSelect", "d2/d99/a21586.html#a95906677ff65e004408ae65df3f49b5c", null ],
-    [ "UpdateAI", "d2/d99/a21586.html#aed8368ec27fed5cd14e4a54091aa9584", null ],
-    [ "_events", "d2/d99/a21586.html#a314d7d7891c05bda288ea0d590f0cfa4", null ],
-    [ "_following", "d2/d99/a21586.html#a0078f9134a61f0ec2465ce103523e341", null ],
-    [ "_runningScript", "d2/d99/a21586.html#af76102ba6c9ffd80baa95623b7312980", null ]
+    [ "npc_mrfloppyAI", "d2/d99/a21586.html#a2994e5658035bb2cfe6f3cdab4c507fc", null ],
+    [ "EnterEvadeMode", "d2/d99/a21586.html#af0f11f715cac553c772c0dca7e5e3a22", null ],
+    [ "JustEngagedWith", "d2/d99/a21586.html#a490bf07de00cc5c59b5f0024317d8125", null ],
+    [ "MoveInLineOfSight", "d2/d99/a21586.html#af0b376c5f10b6cb43f3bb63376012a0d", null ],
+    [ "Reset", "d2/d99/a21586.html#ac2dc6204b0579e1aaf7e670f0fcb4ec5", null ],
+    [ "UpdateAI", "d2/d99/a21586.html#afad6db1ccd903fd18192f832a10a32f4", null ]
 ];

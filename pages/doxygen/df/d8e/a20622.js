@@ -1,7 +1,7 @@
 var a20622 =
 [
-    [ "HandleProc", "df/d8e/a20622.html#a1b8782a4f22522cfe224073515abdf45", null ],
-    [ "PrepareAuraScript", "df/d8e/a20622.html#ab4a8a98564d561082243c0f7a2dda1bf", null ],
-    [ "Register", "df/d8e/a20622.html#a8e9b7613131ef7ea05b853df337faa4e", null ],
-    [ "Validate", "df/d8e/a20622.html#ab3a99392d06ba0bea8e3f4b345acb23d", null ]
+    [ "OnApply", "df/d8e/a20622.html#a7dd5b6217db77373dfba5958a2376ff1", null ],
+    [ "OnRemove", "df/d8e/a20622.html#a39510971a0e1dbd800efc37c2e09c74f", null ],
+    [ "PrepareAuraScript", "df/d8e/a20622.html#a35c1e8f81229565e5d333ec42aa2e92c", null ],
+    [ "Register", "df/d8e/a20622.html#a27fdfe00e5201b6472a282f4589a66cc", null ]
 ];

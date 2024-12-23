@@ -1,6 +1,6 @@
 var a21474 =
 [
-    [ "npc_q24545_vegardAI", "d1/d45/a21478.html", "d1/d45/a21478" ],
-    [ "npc_q24545_vegard", "db/d19/a21474.html#ac12e2f143fab6b93950eaea06f5f7d85", null ],
-    [ "GetAI", "db/d19/a21474.html#a9a7accfb3eea9f08efbb82fbd4bd7e76", null ]
+    [ "HandleSendEvent", "db/d19/a21474.html#a8b8276833404f3f69c3b7f97d95b6982", null ],
+    [ "PrepareSpellScript", "db/d19/a21474.html#aa632d381ac415feaf226f55fc2cd8520", null ],
+    [ "Register", "db/d19/a21474.html#a72673f5054cf269cc8da511441f7bd66", null ]
 ];

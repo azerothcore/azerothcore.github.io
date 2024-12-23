@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Impl::CryptoGenericsImpl Struct Reference</title>
+<title>AzerothCore: Acore::Impl::GenericHashImpl Struct Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,55 +105,59 @@ $(document).ready(function(){initNavTree('db/df6/a05082.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-static-methods">Static Public Member Functions</a> &#124;
 <a href="../../dd/d78/a05079.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Impl::CryptoGenericsImpl Struct Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::Impl::GenericHashImpl Struct Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">CryptoGenerics.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">CryptoHash.h</a>&quot;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a03a4f6e31f0cb838b857997a0272f90b"><td class="memItemLeft" align="right" valign="top">typedef EVP_MD const *(*&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#a03a4f6e31f0cb838b857997a0272f90b">HashCreator</a>) ()</td></tr>
+<tr class="separator:a03a4f6e31f0cb838b857997a0272f90b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
 Static Public Member Functions</h2></td></tr>
-<tr class="memitem:afd4b9dd6223e8bd48810b88adc24a4b7"><td class="memTemplParams" colspan="2">template&lt;typename Cipher &gt; </td></tr>
-<tr class="memitem:afd4b9dd6223e8bd48810b88adc24a4b7"><td class="memTemplItemLeft" align="right" valign="top">static Cipher::IV&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#afd4b9dd6223e8bd48810b88adc24a4b7">GenerateRandomIV</a> ()</td></tr>
-<tr class="separator:afd4b9dd6223e8bd48810b88adc24a4b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a631dbb5771929cb72bd090e3ced49523"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
-<tr class="memitem:a631dbb5771929cb72bd090e3ced49523"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#a631dbb5771929cb72bd090e3ced49523">AppendToBack</a> (std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;tail)</td></tr>
-<tr class="separator:a631dbb5771929cb72bd090e3ced49523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac27f3335f0fadf98dbd0bedebbfd8390"><td class="memTemplParams" colspan="2">template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </td></tr>
-<tr class="memitem:ac27f3335f0fadf98dbd0bedebbfd8390"><td class="memTemplItemLeft" align="right" valign="top">static void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#ac27f3335f0fadf98dbd0bedebbfd8390">SplitFromBack</a> (std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;data, <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;tail)</td></tr>
-<tr class="separator:ac27f3335f0fadf98dbd0bedebbfd8390"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memItemLeft" align="right" valign="top">static EVP_MD_CTX *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#a59487cdc54d416f8b2a88eb54ae21c8d">MakeCTX</a> () noexcept</td></tr>
+<tr class="separator:a59487cdc54d416f8b2a88eb54ae21c8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e607b03e0758d10156e201e8d601db4"><td class="memItemLeft" align="right" valign="top">static void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/df6/a05082.html#a7e607b03e0758d10156e201e8d601db4">DestroyCTX</a> (EVP_MD_CTX *ctx)</td></tr>
+<tr class="separator:a7e607b03e0758d10156e201e8d601db4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"></div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a631dbb5771929cb72bd090e3ced49523" name="a631dbb5771929cb72bd090e3ced49523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a631dbb5771929cb72bd090e3ced49523">&#9670;&#160;</a></span>AppendToBack()</h2>
+<div class="textblock"></div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a03a4f6e31f0cb838b857997a0272f90b" name="a03a4f6e31f0cb838b857997a0272f90b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03a4f6e31f0cb838b857997a0272f90b">&#9670;&#160;</a></span>HashCreator</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef EVP_MD const  *(* Acore::Impl::GenericHashImpl::HashCreator) ()</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a7e607b03e0758d10156e201e8d601db4" name="a7e607b03e0758d10156e201e8d601db4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e607b03e0758d10156e201e8d601db4">&#9670;&#160;</a></span>DestroyCTX()</h2>
+
+<div class="memitem">
+<div class="memproto">
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static void Acore::Impl::CryptoGenericsImpl::AppendToBack </td>
+          <td class="memname">static void Acore::Impl::GenericHashImpl::DestroyCTX </td>
           <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">EVP_MD_CTX *&#160;</td>
+          <td class="paramname"><em>ctx</em></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> const &amp;&#160;</td>
-          <td class="paramname"><em>tail</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -162,27 +166,23 @@ template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   42</span>        {</div>
-<div class="line"><span class="lineno">   43</span>            data.insert(data.end(), std::begin(tail), std::end(tail));</div>
-<div class="line"><span class="lineno">   44</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{ EVP_MD_CTX_free(ctx); }</div>
 </div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00062">Acore::Crypto::AEEncryptWithRandomIV()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00081">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::~GenericHash()</a>, and <a class="el" href="../../#l00076">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::~GenericHMAC()</a>.</p>
 
 </div>
 </div>
-<a id="afd4b9dd6223e8bd48810b88adc24a4b7" name="afd4b9dd6223e8bd48810b88adc24a4b7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afd4b9dd6223e8bd48810b88adc24a4b7">&#9670;&#160;</a></span>GenerateRandomIV()</h2>
+<a id="a59487cdc54d416f8b2a88eb54ae21c8d" name="a59487cdc54d416f8b2a88eb54ae21c8d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a59487cdc54d416f8b2a88eb54ae21c8d">&#9670;&#160;</a></span>MakeCTX()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;typename Cipher &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">static Cipher::IV Acore::Impl::CryptoGenericsImpl::GenerateRandomIV </td>
+          <td class="memname">static EVP_MD_CTX * Acore::Impl::GenericHashImpl::MakeCTX </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -190,69 +190,13 @@ template&lt;typename Cipher &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>        {</div>
-<div class="line"><span class="lineno">   35</span>            <span class="keyword">typename</span> Cipher::IV iv;</div>
-<div class="line"><span class="lineno">   36</span>            <a class="code hl_function" href="../../d7/d11/a04696.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a>(iv);</div>
-<div class="line"><span class="lineno">   37</span>            <span class="keywordflow">return</span> iv;</div>
-<div class="line"><span class="lineno">   38</span>        }</div>
-<div class="ttc" id="aa04696_html_ab09d7cc2f8e11fc5fe6b2323d57b7184"><div class="ttname"><a href="../../d7/d11/a04696.html#ab09d7cc2f8e11fc5fe6b2323d57b7184">Acore::Crypto::GetRandomBytes</a></div><div class="ttdeci">std::array&lt; uint8, S &gt; GetRandomBytes()</div><div class="ttdef"><b>Definition:</b> CryptoRandom.h:35</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> EVP_MD_CTX_new(); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00035">Acore::Crypto::GetRandomBytes()</a>.</p>
-
-</div>
-</div>
-<a id="ac27f3335f0fadf98dbd0bedebbfd8390" name="ac27f3335f0fadf98dbd0bedebbfd8390"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac27f3335f0fadf98dbd0bedebbfd8390">&#9670;&#160;</a></span>SplitFromBack()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">static void Acore::Impl::CryptoGenericsImpl::SplitFromBack </td>
-          <td>(</td>
-          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &gt; &amp;&#160;</td>
-          <td class="paramname"><em>data</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&#160;</td>
-          <td class="paramname"><em>tail</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   48</span>        {</div>
-<div class="line"><span class="lineno">   49</span>            <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(data.size() &gt;= std::size(tail));</div>
-<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">for</span> (std::size_t i = 1, N = std::size(tail); i &lt;= N; ++i)</div>
-<div class="line"><span class="lineno">   51</span>            {</div>
-<div class="line"><span class="lineno">   52</span>                tail[N - i] = data.back();</div>
-<div class="line"><span class="lineno">   53</span>                data.pop_back();</div>
-<div class="line"><span class="lineno">   54</span>            }</div>
-<div class="line"><span class="lineno">   55</span>        }</div>
-<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00088">Acore::Crypto::AEDecrypt()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00100">Acore::Impl::GenericHash&lt; HashCreator, DigestLength &gt;::operator=()</a>, and <a class="el" href="../../#l00097">Acore::Impl::GenericHMAC&lt; HashCreator, DigestLength &gt;::operator=()</a>.</p>
 
 </div>
 </div>
@@ -261,8 +205,8 @@ template&lt;typename <a class="el" href="../../d7/db0/a03467.html#abe8666ac87665
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d2/d91/a04697.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/df6/a05082.html">CryptoGenericsImpl</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d7b/a04698.html">Impl</a></li><li class="navelem"><a class="el" href="../../db/df6/a05082.html">GenericHashImpl</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

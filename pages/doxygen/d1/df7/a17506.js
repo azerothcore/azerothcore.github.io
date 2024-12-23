@@ -1,6 +1,6 @@
 var a17506 =
 [
-    [ "PrepareSpellScript", "d1/df7/a17506.html#a16eadb50b6038f16ea28464d00df3381", null ],
-    [ "Register", "d1/df7/a17506.html#ac6e304d391011863b8eff8105fab5191", null ],
-    [ "SelectDest", "d1/df7/a17506.html#a8ff5d684c0b91d0f068d03698c1ee92c", null ]
+    [ "HandleScriptEffect", "d1/df7/a17506.html#ac6017cbe86b328aef00f707051c67e5f", null ],
+    [ "PrepareSpellScript", "d1/df7/a17506.html#a3e21794652b0ffea67571f9b294b4961", null ],
+    [ "Register", "d1/df7/a17506.html#a4d070dff98fed842e0a3839e918f7c5a", null ]
 ];

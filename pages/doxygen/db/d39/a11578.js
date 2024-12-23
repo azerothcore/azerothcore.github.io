@@ -1,7 +1,6 @@
 var a11578 =
 [
-    [ "npc_rocknotAI", "de/d1a/a11582.html", "de/d1a/a11582" ],
-    [ "npc_rocknot", "db/d39/a11578.html#a64a0cd215c1f4881948e5a49cf1b86d7", null ],
-    [ "GetAI", "db/d39/a11578.html#ac8a90d54e9303c40f0313fda1dcfea86", null ],
-    [ "OnQuestReward", "db/d39/a11578.html#abd8ad3d7e6dd1e557398e268409a2c98", null ]
+    [ "boss_galvangarAI", "de/d1a/a11582.html", "de/d1a/a11582" ],
+    [ "boss_galvangar", "db/d39/a11578.html#a3949cfd3c987bdf52d313568de9379ba", null ],
+    [ "GetAI", "db/d39/a11578.html#a9fd978eb38ae3e2d8d65cf4214e673e3", null ]
 ];

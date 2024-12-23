@@ -1,9 +1,8 @@
 var a13826 =
 [
-    [ "HandleEffectPeriodic", "d3/d2f/a13826.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
-    [ "HandleEffectRemove", "d3/d2f/a13826.html#a96ed7366e568b70e82d622586740aa56", null ],
-    [ "Load", "d3/d2f/a13826.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
-    [ "PrepareAuraScript", "d3/d2f/a13826.html#abd1f851112a50b79e815cdd894275bab", null ],
-    [ "Register", "d3/d2f/a13826.html#aa3cd85aed063017c4737e7660fa81f37", null ],
-    [ "questTick", "d3/d2f/a13826.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
+    [ "boss_venoxis", "d3/d2f/a13826.html#a3e91a9022163a726cbc077d38459a5f5", null ],
+    [ "InitializeAI", "d3/d2f/a13826.html#a1373b5fc673fce6aea1de40d970ac00d", null ],
+    [ "JustDied", "d3/d2f/a13826.html#a63ccc5a9520ee30b0ebaf8c4d31e59b8", null ],
+    [ "JustEngagedWith", "d3/d2f/a13826.html#afaa68ffbd5fecae48a044009326bcaed", null ],
+    [ "Reset", "d3/d2f/a13826.html#a40cbcd4d41ff85ff71d5d913d8e62368", null ]
 ];

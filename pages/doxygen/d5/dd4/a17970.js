@@ -1,8 +1,9 @@
 var a17970 =
 [
-    [ "Load", "d5/dd4/a17970.html#add67e02f44e3658bff98faf7a9466ba3", null ],
-    [ "OnPeriodic", "d5/dd4/a17970.html#a3e523e0bb23e4aba279ba6704206bfc4", null ],
-    [ "PrepareAuraScript", "d5/dd4/a17970.html#a399fc30c23c03d3c4964ec23faed7c18", null ],
-    [ "Register", "d5/dd4/a17970.html#a4ee6fe23e45481eea16f77d8de72742e", null ],
-    [ "_is25Man", "d5/dd4/a17970.html#ab7776e2d8eff0de1176d5d5efa853c6d", null ]
+    [ "npc_icc_ice_sphereAI", "d5/dd4/a17970.html#a685f45e5cd15b005646e596ff61088e8", null ],
+    [ "DoAction", "d5/dd4/a17970.html#ac056ecdd93bc716964054f38ab81014e", null ],
+    [ "SelectNewTarget", "d5/dd4/a17970.html#a9274e05e45c07d14c7df5c623e2769d4", null ],
+    [ "UpdateAI", "d5/dd4/a17970.html#a5a4117de9e45cea9e9086b3b4daed404", null ],
+    [ "targetGUID", "d5/dd4/a17970.html#a3e202f9bde2a202d329066f7aab8897c", null ],
+    [ "timer", "d5/dd4/a17970.html#a42842e92926e18ef2589687d81a7d0d4", null ]
 ];

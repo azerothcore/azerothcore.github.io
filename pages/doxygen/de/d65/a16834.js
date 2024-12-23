@@ -1,6 +1,5 @@
 var a16834 =
 [
-    [ "boss_gal_darahAI", "dc/dc7/a16838.html", "dc/dc7/a16838" ],
-    [ "boss_gal_darah", "de/d65/a16834.html#a687bb98f9de9cd838c57511dc6b3d086", null ],
-    [ "GetAI", "de/d65/a16834.html#a8f709568f5a06265056571061ff3a26b", null ]
+    [ "endPosition", "de/d65/a16834.html#a8a88b0191d28ef6af8f41db627552602", null ],
+    [ "entry", "de/d65/a16834.html#ac4e55af666e269440953ced038c1a8de", null ]
 ];

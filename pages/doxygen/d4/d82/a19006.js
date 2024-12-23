@@ -1,6 +1,7 @@
 var a19006 =
 [
-    [ "npc_oculus_unstable_sphereAI", "d8/d44/a19010.html", "d8/d44/a19010" ],
-    [ "npc_oculus_unstable_sphere", "d4/d82/a19006.html#a5167370a6d3fd32a5673bbeb95ed3f3c", null ],
-    [ "GetAI", "d4/d82/a19006.html#adda2a9e7eab03444742e85729673ab2f", null ]
+    [ "boss_commander_stoutbeard", "d4/d82/a19006.html#a9489874e93ea9f425ff4e3748ba10ded", null ],
+    [ "JustDied", "d4/d82/a19006.html#a2fd835408045715058ba476aa56cb4f7", null ],
+    [ "JustEngagedWith", "d4/d82/a19006.html#af960c10b2b98d43b4b1311a0a7616aa8", null ],
+    [ "KilledUnit", "d4/d82/a19006.html#acf7016c65f020dca9228bd2d2fd89299", null ]
 ];

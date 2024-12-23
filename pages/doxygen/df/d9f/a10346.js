@@ -1,5 +1,5 @@
 var a10346 =
 [
-    [ "GuildEventLogQuery", "df/d9f/a10346.html#af66d667a4b722745fa4f855870ef332c", null ],
-    [ "Read", "df/d9f/a10346.html#a48881f116070d5a7c03e7cace86656f6", null ]
+    [ "GuildGetInfo", "df/d9f/a10346.html#a585a6a49fe9747d5044ac185f1236cf5", null ],
+    [ "Read", "df/d9f/a10346.html#aa2b107f35fcf348fb7f84c2971c5fa00", null ]
 ];

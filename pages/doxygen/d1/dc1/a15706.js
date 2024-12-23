@@ -1,14 +1,14 @@
 var a15706 =
 [
-    [ "npc_onyx_flamecallerAI", "d1/dc1/a15706.html#aa0633855e57f6681cfc68a8dfee9a733", null ],
-    [ "AddWaypoints", "d1/dc1/a15706.html#a308b99ee4d07ed1de0cabd94dafd5dd8", null ],
-    [ "EnterEvadeMode", "d1/dc1/a15706.html#ac29163e2e69cffbf21249eb3828b5b72", null ],
-    [ "IsSummonedBy", "d1/dc1/a15706.html#afc6c4faffd83b2fa4ddbb4ae78b622d9", null ],
-    [ "JustEngagedWith", "d1/dc1/a15706.html#a3cba2cd9a920816bee993ae2986639a0", null ],
-    [ "Reset", "d1/dc1/a15706.html#a756a44feb79eb56f443ee16995a2566d", null ],
-    [ "UpdateEscortAI", "d1/dc1/a15706.html#aab57193b332fdde2dd237a9cb15a06c1", null ],
-    [ "WaypointReached", "d1/dc1/a15706.html#a8b510bce47929e85741f5debd857de8d", null ],
-    [ "_events", "d1/dc1/a15706.html#a9280b604135308078860c20667da9819", null ],
-    [ "_instance", "d1/dc1/a15706.html#a3fb01e6a8df3b8205f494f03faf8ace8", null ],
-    [ "_lavaGoutCount", "d1/dc1/a15706.html#a1f46c988316c1870f506a66f2390e79b", null ]
+    [ "instance_obsidian_sanctum_InstanceMapScript", "d1/dc1/a15706.html#a17e64475b7433b3dc0d87028c11c9c7f", null ],
+    [ "CheckAchievementCriteriaMeet", "d1/dc1/a15706.html#a62a5603b9063b4cbb773eb177aa2d0bc", null ],
+    [ "DoAction", "d1/dc1/a15706.html#abc08b37f23721ff2ce7a6662605a66ab", null ],
+    [ "GetGuidData", "d1/dc1/a15706.html#a01da8216f57e19b5bf8697700089118c", null ],
+    [ "OnCreatureCreate", "d1/dc1/a15706.html#aa0fd6fae9a274e483765c0b5c1ff7ba3", null ],
+    [ "m_uiPortalGUID", "d1/dc1/a15706.html#a166db22fd409d0387085053852e5ad30", null ],
+    [ "m_uiSartharionGUID", "d1/dc1/a15706.html#a17b8e9a050eb6302258119c3b4f5f1bf", null ],
+    [ "m_uiShadronGUID", "d1/dc1/a15706.html#a5c6a46069a87340f9e8d5e4830b8a2ed", null ],
+    [ "m_uiTenebronGUID", "d1/dc1/a15706.html#afc7daf2b0eb18fa999ff3dae42fc4da2", null ],
+    [ "m_uiVesperonGUID", "d1/dc1/a15706.html#a7408fc1c0d61c7db01bdd4f517080139", null ],
+    [ "portalCount", "d1/dc1/a15706.html#ab7cec8a8a80713e436e4e4e80c5c1383", null ]
 ];

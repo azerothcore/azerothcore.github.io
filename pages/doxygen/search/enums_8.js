@@ -1,7 +1,7 @@
 var searchData=
 [
   ['icbroadcasttexts_0',['ICBroadcastTexts',['../d4/dd0/a03749.html#a163d58c7546aa69935e9eea8eeb4233f',1,'BattlegroundIC.h']]],
-  ['iccbuff_1',['ICCBuff',['../df/d64/a03110.html#a955c2f2d6134701c932a636512d7fbd4',1,'SpellMgr.h']]],
+  ['iccbuff_1',['ICCBuff',['../d8/d96/a03116.html#a955c2f2d6134701c932a636512d7fbd4',1,'SpellMgr.h']]],
   ['iccteleportoption_2',['ICCTeleportOption',['../da/dd5/a01580.html#a6fd4f2624c3269860a58fdcfbb273928',1,'icecrown_citadel_teleport.cpp']]],
   ['icdoorlist_3',['ICDoorList',['../d4/dd0/a03749.html#a4de866ad416f136477ab9f3596030f83',1,'BattlegroundIC.h']]],
   ['icehowlevents_4',['IcehowlEvents',['../d7/d38/a02054.html#afcf45c0e220933d21eea67e54cda5d14',1,'boss_northrend_beasts.cpp']]],
@@ -13,7 +13,7 @@ var searchData=
   ['impaleleviroth_10',['ImpaleLeviroth',['../d6/d0f/a01256.html#ae9a550713785ef6ce3ffbb78cfbf0063',1,'spell_item.cpp']]],
   ['imprisionedberylsorcerer_11',['ImprisionedBerylSorcerer',['../d6/d3d/a01784.html#a6f2fd2620ffdf295515afcd78e32b178',1,'zone_borean_tundra.cpp']]],
   ['incarceratordata_12',['IncarceratorData',['../da/d5c/a02432.html#a3a116dbb2bbf5fc03d6cb7d000bc005c',1,'boss_pyroguard_emberseer.cpp']]],
-  ['index_13',['Index',['../d7/df7/a08402.html#a28b25d822326a1b7d5ec7f95ce084bac',1,'Player::ChatFloodThrottle']]],
+  ['index_13',['Index',['../d9/d62/a08470.html#a28b25d822326a1b7d5ec7f95ce084bac',1,'Player::ChatFloodThrottle']]],
   ['infectedworgenbite_14',['InfectedWorgenBite',['../d6/d27/a01781.html#a42ff7cedc8c70364f479dfe29cfe6b9f',1,'zone_grizzly_hills.cpp']]],
   ['infernaloversoul_15',['InfernalOversoul',['../d3/dcd/a00965.html#a8d4967324c50feaf8e302ea3abcd2450',1,'zone_shadowmoon_valley.cpp']]],
   ['infragreenbomberquests_16',['infraGreenBomberQuests',['../db/d29/a01895.html#adb47ccee11b7adba160adeac2db87c6d',1,'zone_icecrown.cpp']]],
@@ -28,7 +28,7 @@ var searchData=
   ['instancespell_25',['InstanceSpell',['../d6/d18/a01925.html#abd5c064ef0f388f63e0c43e917b05273',1,'ruby_sanctum.h']]],
   ['instantflightgossipaction_26',['InstantFlightGossipAction',['../d7/d13/a03365.html#a514c5df95b0c6a0bc4b13808f94d8f82',1,'Player.h']]],
   ['instantstatue_27',['InstantStatue',['../d6/d0f/a01256.html#a5009822b241b572e55f82d5ca8081af7',1,'spell_item.cpp']]],
-  ['internalindex_28',['InternalIndex',['../dd/dd6/a05602.html#ae15d4d3ffe735226b82d1dcc2cdc65e1',1,'DatabaseWorkerPool']]],
+  ['internalindex_28',['InternalIndex',['../dd/d82/a05598.html#ae15d4d3ffe735226b82d1dcc2cdc65e1',1,'DatabaseWorkerPool']]],
   ['inventorypackslots_29',['InventoryPackSlots',['../d7/d13/a03365.html#a3f01594f5f05965df25a0f1ebba196f4',1,'Player.h']]],
   ['inventoryresult_30',['InventoryResult',['../d6/d0e/a03395.html#a240a18445bd2335a1829e130126f20fa',1,'Item.h']]],
   ['inventoryslot_31',['InventorySlot',['../d6/d0e/a03395.html#aadcc1e3338f8cbbe511ad060db42dfb5',1,'Item.h']]],

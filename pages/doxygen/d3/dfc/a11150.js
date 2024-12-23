@@ -1,11 +1,7 @@
 var a11150 =
 [
-    [ "WorldUpdateTime", "d3/dfc/a11150.html#a97552c4ce99bd40919f199c17fe203ed", null ],
-    [ "LoadFromConfig", "d3/dfc/a11150.html#acb2b9d56504fc760e7df1c93621ab788", null ],
-    [ "RecordUpdateTime", "d3/dfc/a11150.html#a88d773c8029cebeab6b99444c25c8379", null ],
-    [ "RecordUpdateTimeDuration", "d3/dfc/a11150.html#a3ae299cfba6adcbb4e38af40313428fc", null ],
-    [ "SetRecordUpdateTimeInterval", "d3/dfc/a11150.html#ada81050229ccacc49d5b6a9f6101174c", null ],
-    [ "_lastRecordTime", "d3/dfc/a11150.html#a7bc68a1a700deb4bc4d19992edf3ffa7", null ],
-    [ "_recordUpdateTimeInverval", "d3/dfc/a11150.html#a5486477b0a604f0207336e423f42c2b1", null ],
-    [ "_recordUpdateTimeMin", "d3/dfc/a11150.html#a6b8a8d1b61f9ecec591165fa334972fc", null ]
+    [ "ScriptStateStore", "d3/dfc/a11150.html#a51baffee5c9dbf255591db8ea13ee516", null ],
+    [ "_auraApplication", "d3/dfc/a11150.html#af5098bcedac048808e11bf2f82d705a7", null ],
+    [ "_currentScriptState", "d3/dfc/a11150.html#adddf594d9468b16455da6e2aef683d44", null ],
+    [ "_defaultActionPrevented", "d3/dfc/a11150.html#a63cf373d469af72bc96a3e72351e3256", null ]
 ];

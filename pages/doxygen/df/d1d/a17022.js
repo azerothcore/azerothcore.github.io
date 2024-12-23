@@ -1,6 +1,6 @@
 var a17022 =
 [
-    [ "BloodboltHitCheck", "df/d1d/a17022.html#a84873f1ec2c1e214e35d32954622e9af", null ],
-    [ "operator()", "df/d1d/a17022.html#a1eddfd7bbea8def20dcc080413af6364", null ],
-    [ "_ai", "df/d1d/a17022.html#a0a5d115c464b6e88bc1158cd858bcbec", null ]
+    [ "HandleScript", "df/d1d/a17022.html#ace45b0d9ce3815046e842d462fdcc9b6", null ],
+    [ "PrepareSpellScript", "df/d1d/a17022.html#a0257968b3a4d9ef3241420bbc5abb63a", null ],
+    [ "Register", "df/d1d/a17022.html#aed524436eacc6f1dddcc2f3cb6f502fc", null ]
 ];

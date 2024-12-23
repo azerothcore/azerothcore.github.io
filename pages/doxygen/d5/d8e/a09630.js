@@ -1,12 +1,19 @@
 var a09630 =
 [
-    [ "BanAccount", "d5/d8e/a09630.html#af85ceffee2ae6a143df5e36f6a004f07", null ],
-    [ "BanAccountByPlayerName", "d5/d8e/a09630.html#a35f92762d69fe32e49b9b239c74e4734", null ],
-    [ "BanCharacter", "d5/d8e/a09630.html#ad5048b36828bfe20a95dfb85515de831", null ],
-    [ "BanIP", "d5/d8e/a09630.html#a404890eab19b97773e6c9aef8cc65707", null ],
-    [ "instance", "d5/d8e/a09630.html#aa495dfaab6af98c43f645acf516a5630", null ],
-    [ "RemoveBanAccount", "d5/d8e/a09630.html#ae831e6227442edc70469229d5d73fa3f", null ],
-    [ "RemoveBanAccountByPlayerName", "d5/d8e/a09630.html#a7b5e1ae6d34ae4f6a15e03c434953aea", null ],
-    [ "RemoveBanCharacter", "d5/d8e/a09630.html#afbde6c0b26802f684ecf78c2f493cc67", null ],
-    [ "RemoveBanIP", "d5/d8e/a09630.html#afcf4857007432ebff042c85c5daf2325", null ]
+    [ "InstancedMaps", "d5/d8e/a09630.html#a2d08c599bf826c4c98aaa9109e3b7a57", null ],
+    [ "MapInstanced", "d5/d8e/a09630.html#af30e91e40c171ddbf7400f310283c43c", null ],
+    [ "~MapInstanced", "d5/d8e/a09630.html#aa27d6f90288f23d34117c7d68160e04c", null ],
+    [ "CannotEnter", "d5/d8e/a09630.html#a29f973e3e4bdfcfb0ea9bf6639b38108", null ],
+    [ "CreateBattleground", "d5/d8e/a09630.html#ad57ef8f1654b494b8c20f6af461653f4", null ],
+    [ "CreateInstance", "d5/d8e/a09630.html#ad83d8860fcc67f41208f73f7938eb513", null ],
+    [ "CreateInstanceForPlayer", "d5/d8e/a09630.html#a9151fb7f7438abddf7aa17d015c600ab", null ],
+    [ "DelayedUpdate", "d5/d8e/a09630.html#a8f58a4c872089f8fce60ddc31623611e", null ],
+    [ "DestroyInstance", "d5/d8e/a09630.html#aaff2d76ae18bb7416e0cc8c16e0375d7", null ],
+    [ "FindInstanceMap", "d5/d8e/a09630.html#a6ec8d0547ce589613f53a2c8d0f4a7fa", null ],
+    [ "GetInstancedMaps", "d5/d8e/a09630.html#aff2cc0a1f57f06ead9a3e999c1c7dba0", null ],
+    [ "InitVisibilityDistance", "d5/d8e/a09630.html#a29380bc11b3e33278338bcff32b3cbec", null ],
+    [ "UnloadAll", "d5/d8e/a09630.html#a7fb86dd2f4b60721aabf3923c461f1fc", null ],
+    [ "Update", "d5/d8e/a09630.html#a0fce5af3a96e35e9cbe44d73bac8b2df", null ],
+    [ "MapMgr", "d5/d8e/a09630.html#ae6ac74470769d45e3c75291134ab77df", null ],
+    [ "m_InstancedMaps", "d5/d8e/a09630.html#a655e624aad00ec0345aa17ce635666bf", null ]
 ];

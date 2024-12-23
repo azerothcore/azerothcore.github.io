@@ -1,6 +1,10 @@
 var a20234 =
 [
-    [ "boss_thorim_sifAI", "de/d5b/a20238.html", "de/d5b/a20238" ],
-    [ "boss_thorim_sif", "d7/d5d/a20234.html#a71ef8a92f648cbea6553ed1cc657f13d", null ],
-    [ "GetAI", "d7/d5d/a20234.html#ae4eadf2bf83c41a8f05b853267b5fcf9", null ]
+    [ "npc_ulduar_harpoonfirestateAI", "d7/d5d/a20234.html#acc6853671f37e35c746ffa3807ae10b2", null ],
+    [ "GetData", "d7/d5d/a20234.html#ac23f2c901ef8c2160ceea43a0a15e185", null ],
+    [ "GetHarpoonGunIdForThisHFS", "d7/d5d/a20234.html#af21c4d50febac02eb0572efe564a19b1", null ],
+    [ "Reset", "d7/d5d/a20234.html#af300a8271762fe1b5582384114902ee8", null ],
+    [ "SetData", "d7/d5d/a20234.html#abf485123f0a73aa84ad5178e23c4192e", null ],
+    [ "pInstance", "d7/d5d/a20234.html#af576864ded6610daad973ac420d2fdb8", null ],
+    [ "repairPoints", "d7/d5d/a20234.html#a5e9bcd384285b9046da93bd18804d07b", null ]
 ];

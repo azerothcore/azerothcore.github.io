@@ -1,6 +1,5 @@
 var a20194 =
 [
-    [ "npc_ulduar_dark_rune_guardianAI", "d5/d80/a20198.html", "d5/d80/a20198" ],
-    [ "npc_ulduar_dark_rune_guardian", "df/da1/a20194.html#a6266dd5c096402b5383af09ac361a634", null ],
-    [ "GetAI", "df/da1/a20194.html#a9ed188491483548658ce682bf36e6fd2", null ]
+    [ "npc_ulduar_rocket_strike_triggerAI", "df/da1/a20194.html#a6308129d11989dadf0a5948c4a268e4b", null ],
+    [ "SpellHitTarget", "df/da1/a20194.html#a3c254e16f62e7d2414d81062c91c2468", null ]
 ];

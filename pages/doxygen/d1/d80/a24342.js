@@ -1,6 +1,6 @@
 var a24342 =
 [
-    [ "CheckCast", "d1/d80/a24342.html#a583e19667a83ada4cd793fbf391f9e93", null ],
-    [ "PrepareSpellScript", "d1/d80/a24342.html#ac6adda0dbe544cf2457060647c01de0f", null ],
-    [ "Register", "d1/d80/a24342.html#a50d1284f1113bfdd0b39690efabe6b9b", null ]
+    [ "CheckTargets", "d1/d80/a24342.html#abb6ffb41731b05b868f82498b373d8b9", null ],
+    [ "PrepareSpellScript", "d1/d80/a24342.html#a4ce2790448bd39c19daf8caae7ef5a9d", null ],
+    [ "Register", "d1/d80/a24342.html#aeefc7910c2960dbf3a49da6ed3c15523", null ]
 ];

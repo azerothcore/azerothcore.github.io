@@ -1,7 +1,6 @@
 var a17622 =
 [
-    [ "HandleScript", "d6/d62/a17622.html#a802f667b20bccd3395c233482aa2485b", null ],
-    [ "PrepareSpellScript", "d6/d62/a17622.html#ad371e6387d5df422eaa05acc9efe2f46", null ],
-    [ "Register", "d6/d62/a17622.html#a730fded490df68f501010f952ceea40b", null ],
-    [ "Validate", "d6/d62/a17622.html#a8ec4a10d4d3c348029256fec28a19ed6", null ]
+    [ "OnRemove", "d6/d62/a17622.html#a5b9f23b815b1c85ecf2e56c626ce5077", null ],
+    [ "PrepareAuraScript", "d6/d62/a17622.html#a9207d9f59026e1beb7c266ee3a1ef884", null ],
+    [ "Register", "d6/d62/a17622.html#ad9eb03a09fc13f6b2b30e9f6cc1990bc", null ]
 ];

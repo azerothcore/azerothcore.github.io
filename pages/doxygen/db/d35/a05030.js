@@ -1,8 +1,7 @@
 var a05030 =
 [
-    [ "ComputeCell", "db/d35/a05030.html#a32a8b5ab15a28fb06672fcf62ac63d1e", null ],
-    [ "isValid", "db/d35/a05030.html#afe64d87e738675f1c8cb0fa6d440029c", null ],
-    [ "operator==", "db/d35/a05030.html#a13e8b2fcda561f185777e4d8b48da3f5", null ],
-    [ "x", "db/d35/a05030.html#a8435f7d7b8f529dfe397ada59e3405a1", null ],
-    [ "y", "db/d35/a05030.html#af3d5ae020727d58286ef7725958063a9", null ]
+    [ "operator()", "db/d35/a05030.html#af1b2d9b7517b57a5a0a598f58b470c33", null ],
+    [ "closestEntity", "db/d35/a05030.html#ab377424b7edd0274f61967619700f841", null ],
+    [ "hitLocation", "db/d35/a05030.html#a00e778dd78dca96391d200e18dfc2c9d", null ],
+    [ "hitNormal", "db/d35/a05030.html#a57f40f48c26829f7da9e48efd839d773", null ]
 ];

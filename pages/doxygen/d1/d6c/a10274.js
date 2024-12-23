@@ -1,6 +1,6 @@
 var a10274 =
 [
-    [ "QueryGuildInfo", "d1/d6c/a10274.html#a34b129b3c9fef61aa4211a9bc2783aef", null ],
-    [ "Read", "d1/d6c/a10274.html#a0396a58ca114706f7de91f51c5ab949d", null ],
-    [ "GuildId", "d1/d6c/a10274.html#ad221eecdb16233251306fff3d9801f38", null ]
+    [ "ShowingHelm", "d1/d6c/a10274.html#a67e25a4a39b14e488b5176b02e8dc995", null ],
+    [ "Read", "d1/d6c/a10274.html#a9e6d525a7104f2a8f81564d3796c6211", null ],
+    [ "ShowHelm", "d1/d6c/a10274.html#a9f3d52d5d6a6fa76b29afbd5a56d5622", null ]
 ];

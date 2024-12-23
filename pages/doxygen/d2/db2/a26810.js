@@ -1,6 +1,6 @@
 var a26810 =
 [
-    [ "go_witherbark_totem_bundleAI", "d8/da7/a26814.html", "d8/da7/a26814" ],
-    [ "go_witherbark_totem_bundle", "d2/db2/a26810.html#affcdff7ec6894add0acec842028efd2e", null ],
-    [ "GetAI", "d2/db2/a26810.html#a5ac2b3b572d67fdcc587f242f3d50f97", null ]
+    [ "npc_spirit_shadeAI", "d8/da7/a26814.html", "d8/da7/a26814" ],
+    [ "npc_spirit_shade", "d2/db2/a26810.html#a891ede5651789274496d6426daf9937d", null ],
+    [ "GetAI", "d2/db2/a26810.html#a166f6a9abf7c0e33374c2f998c0524c3", null ]
 ];

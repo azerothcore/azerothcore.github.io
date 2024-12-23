@@ -1,7 +1,6 @@
 var a19622 =
 [
-    [ "HandleScript", "dd/d8b/a19622.html#a9580f04e1543262026818f0944bb96c3", null ],
-    [ "PrepareSpellScript", "dd/d8b/a19622.html#a924ae640d448da777ce3ecb059c1c9b6", null ],
-    [ "Register", "dd/d8b/a19622.html#ac05e58e9b5618b1f079bd1c4924a0f9f", null ],
-    [ "Validate", "dd/d8b/a19622.html#a8fc8712a76939dea6831a9eb5b95f946", null ]
+    [ "npc_storm_beacon_spawnAI", "d5/df3/a19626.html", "d5/df3/a19626" ],
+    [ "npc_storm_beacon_spawn", "dd/d8b/a19622.html#a0316646f43fd0ed6fe4576bf691116a0", null ],
+    [ "GetAI", "dd/d8b/a19622.html#a780dd823962e259dbeda7089224aa23e", null ]
 ];

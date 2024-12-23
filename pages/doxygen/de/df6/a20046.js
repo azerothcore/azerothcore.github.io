@@ -1,18 +1,10 @@
 var a20046 =
 [
-    [ "npc_ulduar_leviathan_mkiiAI", "de/df6/a20046.html#a5502ef972b889513a3d3d9b85d256af4", null ],
-    [ "DamageTaken", "de/df6/a20046.html#a773f86b23d373bae4e57d4d67b270b6d", null ],
-    [ "EnterEvadeMode", "de/df6/a20046.html#ab6d02d90b4fe5f6bda0eed4f8f05c001", null ],
-    [ "GetS3", "de/df6/a20046.html#af76019911ce9bb993ebb7c658d30188d", null ],
-    [ "KilledUnit", "de/df6/a20046.html#a53acdf5b1703a3feca814184a018cc3d", null ],
-    [ "MoveInLineOfSight", "de/df6/a20046.html#a0f4f1b5876d608b01376430444e472e3", null ],
-    [ "PassengerBoarded", "de/df6/a20046.html#a55f76a830084d7aaa3df0d6bf0630121", null ],
-    [ "Reset", "de/df6/a20046.html#a63174d9dcdf5a0d433f9694bda6d7086", null ],
-    [ "SetData", "de/df6/a20046.html#a214491b36ca047f666d5931365649c4c", null ],
-    [ "SpellHit", "de/df6/a20046.html#ad9c47de936a986e6698a1b8ed6caf68f", null ],
-    [ "UpdateAI", "de/df6/a20046.html#a4267062c75d3bee348c946be6f8d5878", null ],
-    [ "bIsEvading", "de/df6/a20046.html#ac142b9abf799b944cd5e20cc0e9979c8", null ],
-    [ "events", "de/df6/a20046.html#a6f12f0d68459399cf85ce030cb633d4f", null ],
-    [ "Phase", "de/df6/a20046.html#ad9e8d511cbd34ff024799f6ec61fe1ff", null ],
-    [ "pInstance", "de/df6/a20046.html#aa991c7f1cf64ca7e0963323222ffc1dd", null ]
+    [ "boss_kologarn_eyebeamAI", "de/df6/a20046.html#add083b2a9067753458de1eeb6bdca4c0", null ],
+    [ "DamageDealt", "de/df6/a20046.html#a94a9181da10ffe737611cb281d60a952", null ],
+    [ "UpdateAI", "de/df6/a20046.html#add60a709a1edf1684bd21358769590b4", null ],
+    [ "_damaged", "de/df6/a20046.html#a7b49d9826efcf492c6e7ee003f481ccb", null ],
+    [ "_timer", "de/df6/a20046.html#a766ad3e10016d97235499d1512c4da27", null ],
+    [ "justSpawned", "de/df6/a20046.html#a8f01309b6533ea0adf85f43ba1ba1c26", null ],
+    [ "m_pInstance", "de/df6/a20046.html#a4145bd7e5c80c4e62144b437d38624a4", null ]
 ];

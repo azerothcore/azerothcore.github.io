@@ -1,7 +1,6 @@
 var a12714 =
 [
-    [ "OnApply", "df/d93/a12714.html#a21450cd59487a927bbc0a5a5e1ffa72b", null ],
-    [ "OnRemove", "df/d93/a12714.html#a810203874163cf04798c3edbe69b747e", null ],
-    [ "PrepareAuraScript", "df/d93/a12714.html#a3c17a7366acd9bd1863bae0f9218930a", null ],
-    [ "Register", "df/d93/a12714.html#af2ad52165de188897fdeb8d62646b7cc", null ]
+    [ "npc_crusade_persuadedAI", "da/d4f/a12718.html", "da/d4f/a12718" ],
+    [ "npc_crusade_persuaded", "df/d93/a12714.html#a4048e164fc99b9dfff41fd168fb542b6", null ],
+    [ "GetAI", "df/d93/a12714.html#a004833d7e6312b23eb6a07c0a6e41db6", null ]
 ];

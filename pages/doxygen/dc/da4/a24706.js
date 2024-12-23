@@ -1,8 +1,7 @@
 var a24706 =
 [
-    [ "HandleScript", "dc/da4/a24706.html#af7330c1b586b809c78e0bc080cb92c65", null ],
-    [ "Load", "dc/da4/a24706.html#a262fc7f4bc3f1fae07f69dde765d8228", null ],
-    [ "PrepareSpellScript", "dc/da4/a24706.html#af0fda52cff0361cf6c4a69957459ddf3", null ],
-    [ "Register", "dc/da4/a24706.html#a41225a9f5d9304df4a02a681e8b73ff6", null ],
-    [ "Validate", "dc/da4/a24706.html#a520341dc41dcce5fd9346e3f5ed6ee51", null ]
+    [ "HandleScript", "dc/da4/a24706.html#a2e323378559d8f11cbdbcb76e86a25ca", null ],
+    [ "PrepareSpellScript", "dc/da4/a24706.html#ad511986b26dccd1be8206f01458c2b40", null ],
+    [ "Register", "dc/da4/a24706.html#aa8ea297d751913def150dc1e29d37664", null ],
+    [ "Validate", "dc/da4/a24706.html#a81222d8ac4f55175d1dc4d7c359cc331", null ]
 ];

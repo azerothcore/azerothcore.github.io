@@ -1,5 +1,6 @@
 var a26634 =
 [
-    [ "achievement_bg_sa_artillery", "d1/dd7/a26634.html#aa81ae215bc91fd4598d7c9a1b02e3fcc", null ],
-    [ "OnCheck", "d1/dd7/a26634.html#ac24f32f872ae32e90f06f642ea2dfebc", null ]
+    [ "CalculateAmount", "d1/dd7/a26634.html#a94b6fab25e8cb298650f2a1e2d0b4347", null ],
+    [ "PrepareAuraScript", "d1/dd7/a26634.html#a845476e27b3751fd5aab505d41d8696d", null ],
+    [ "Register", "d1/dd7/a26634.html#aa5141f11bcd97cc501297a5309df1079", null ]
 ];

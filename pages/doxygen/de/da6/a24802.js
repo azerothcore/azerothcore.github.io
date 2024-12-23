@@ -1,7 +1,7 @@
 var a24802 =
 [
-    [ "CheckIfLanceEquipped", "de/da6/a24802.html#aae1fe4d0329b7a2db5e4f2a28e3f04c5", null ],
-    [ "PrepareSpellScript", "de/da6/a24802.html#a2af9ee2ccd34c97734c58bfcbb83c8b5", null ],
-    [ "Register", "de/da6/a24802.html#a4421ceaedce16777f8f04b9c40855782", null ],
-    [ "Validate", "de/da6/a24802.html#ab0908d7a15e7554c735d8e5554f7cd65", null ]
+    [ "CalculateAmount", "de/da6/a24802.html#a40ba021accd581745f07f2586545853c", null ],
+    [ "Load", "de/da6/a24802.html#aa963b658637360305bb5f3d59eb9d061", null ],
+    [ "PrepareAuraScript", "de/da6/a24802.html#a8fedbff305709145a7c004787ee50402", null ],
+    [ "Register", "de/da6/a24802.html#ade9b6a408a1d5a83bdadd5bd2b0fbb2a", null ]
 ];

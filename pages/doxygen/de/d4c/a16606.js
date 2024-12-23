@@ -1,5 +1,6 @@
 var a16606 =
 [
-    [ "at_hor_battered_hilt_start", "de/d4c/a16606.html#a1b9e6d892525cf28d71757f7861e1d1a", null ],
-    [ "OnTrigger", "de/d4c/a16606.html#a5d2d0a05b17dafe7ebb5447cfd168f69", null ]
+    [ "npc_hor_spiritual_reflectionAI", "d6/df0/a16610.html", "d6/df0/a16610" ],
+    [ "npc_hor_spiritual_reflection", "de/d4c/a16606.html#a5f43c7b336335698468092f72c804fea", null ],
+    [ "GetAI", "de/d4c/a16606.html#ab6aafc6db10943662fb66b0f77fc34ec", null ]
 ];

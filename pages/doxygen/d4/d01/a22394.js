@@ -1,7 +1,6 @@
 var a22394 =
 [
-    [ "HandleEffectRemove", "d4/d01/a22394.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
-    [ "PrepareAuraScript", "d4/d01/a22394.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
-    [ "Register", "d4/d01/a22394.html#a9ee8e71020c17f593472de5a9c130753", null ],
-    [ "Validate", "d4/d01/a22394.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "df/d77/a22398.html", "df/d77/a22398" ],
+    [ "instance_shadow_labyrinth", "d4/d01/a22394.html#a16a3acdfd9b1053374dfa5f27e5f3c19", null ],
+    [ "GetInstanceScript", "d4/d01/a22394.html#af9edf624413593a5cdf025dd9a1c3631", null ]
 ];

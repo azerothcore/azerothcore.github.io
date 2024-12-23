@@ -1,10 +1,8 @@
 var a15034 =
 [
-    [ "npc_rabid_thistle_bearAI", "d9/dc6/a15034.html#a7fb4b6e26dd2fe66fb3e444c260999a6", null ],
-    [ "Initialize", "d9/dc6/a15034.html#a466ec20c65535777c60b5c4aac4e45bd", null ],
-    [ "Reset", "d9/dc6/a15034.html#aedc6834fef78ad7a0e5ab99bb844ace1", null ],
-    [ "SpellHit", "d9/dc6/a15034.html#a62bde5a122748564cc806046bf9dcbaa", null ],
-    [ "UpdateAI", "d9/dc6/a15034.html#a8f6c5b873756a58760b2861bc8b86804", null ],
-    [ "_events", "d9/dc6/a15034.html#ad3852bf4588c453642e75fcdc544767b", null ],
-    [ "_playerGUID", "d9/dc6/a15034.html#ac4df0c9b8be03ce4e45fbb4efcad6892", null ]
+    [ "npc_death_ravagerAI", "d9/dc6/a15034.html#ad18242b078db0883029537562a41cc20", null ],
+    [ "Reset", "d9/dc6/a15034.html#ac0fdbfe2f324785569fa742e0b244b83", null ],
+    [ "UpdateAI", "d9/dc6/a15034.html#ac3dce7d79e67f20d7a8fe161da9d5279", null ],
+    [ "EnragingBiteTimer", "d9/dc6/a15034.html#af33898ebd9bea6b1a58b673373de3c64", null ],
+    [ "RendTimer", "d9/dc6/a15034.html#ad7ff02fe6e11a0fb0d8a3ae869ed5f6d", null ]
 ];

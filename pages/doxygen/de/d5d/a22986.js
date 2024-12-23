@@ -1,6 +1,7 @@
 var a22986 =
 [
-    [ "boss_rokmar_the_crackler", "de/d5d/a22986.html#a0aca6a30d045bbea6f434979f4f1d2e9", null ],
-    [ "JustEngagedWith", "de/d5d/a22986.html#ae376e6a96fa07136790f3ed04ee1023b", null ],
-    [ "Reset", "de/d5d/a22986.html#aed9cf4a866d5e70647125a08885fb809", null ]
+    [ "npc_ahune_ice_spear_bunny", "de/d5d/a22986.html#aecc30efddcf4ae9bd93504e1d727ee87", null ],
+    [ "InitializeAI", "de/d5d/a22986.html#a5e7eb38f6bf4a947bd1e09ee198eb45d", null ],
+    [ "UpdateAI", "de/d5d/a22986.html#ac7fd9b174f2ee1b1adf9d20d59c67bc2", null ],
+    [ "_scheduler", "de/d5d/a22986.html#a1a1a8b066a3cab9e15710fa97a8c83e6", null ]
 ];

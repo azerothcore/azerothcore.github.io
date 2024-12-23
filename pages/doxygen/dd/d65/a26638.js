@@ -1,6 +1,6 @@
 var a26638 =
 [
-    [ "achievement_arena_by_type", "dd/d65/a26638.html#a2042c808304e8ddf1849820491b9f1a3", null ],
-    [ "OnCheck", "dd/d65/a26638.html#abebdbf19fbf1b79c30114a9cf4ff98a4", null ],
-    [ "_arenaType", "dd/d65/a26638.html#a5c38e5fef5eaf3d037864ba2aa80584a", null ]
+    [ "HandleScript", "dd/d65/a26638.html#ab2bad52272a5cd7167a7601fdfa02b1d", null ],
+    [ "PrepareSpellScript", "dd/d65/a26638.html#a60454f2c1ba8d1ea160350b5e02bf56d", null ],
+    [ "Register", "dd/d65/a26638.html#a22b9877e2cd27c925ae7b351d3d6f41b", null ]
 ];

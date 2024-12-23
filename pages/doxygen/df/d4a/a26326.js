@@ -1,7 +1,8 @@
 var a26326 =
 [
-    [ "HandleProc", "df/d4a/a26326.html#a3878044c77e9560bcc7d531d5c119e0f", null ],
-    [ "PrepareAuraScript", "df/d4a/a26326.html#a3a496539a6adddca91724d9cc77f81c3", null ],
-    [ "Register", "df/d4a/a26326.html#a096f4ecd857cc642ff1d1e5119933921", null ],
-    [ "Validate", "df/d4a/a26326.html#a1592084736ebe5b10a343aee4dba8050", null ]
+    [ "FilterTargets", "df/d4a/a26326.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
+    [ "HandleDummy", "df/d4a/a26326.html#a2214b10da042a3af2fd3311872cc5286", null ],
+    [ "PrepareSpellScript", "df/d4a/a26326.html#a9959966856601f79a83931a7a7ecff91", null ],
+    [ "Register", "df/d4a/a26326.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
+    [ "Validate", "df/d4a/a26326.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
 ];

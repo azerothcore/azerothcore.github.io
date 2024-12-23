@@ -1,5 +1,8 @@
 var a12622 =
 [
-    [ "go_acherus_soul_prison", "df/dba/a12622.html#a13c858f74080b8f7963fdacc4b554019", null ],
-    [ "OnGossipHello", "df/dba/a12622.html#a904059cbeac3ddb3acf07ec1afe78c37", null ]
+    [ "npc_death_knight_initiateAI", "da/d03/a12626.html", "da/d03/a12626" ],
+    [ "npc_death_knight_initiate", "df/dba/a12622.html#a0c1b552035bed7be9af1fbdf8205b4b6", null ],
+    [ "GetAI", "df/dba/a12622.html#ac38e0ed0ea1eac8e0de6f08664cb095a", null ],
+    [ "OnGossipHello", "df/dba/a12622.html#a24f1b91ad0a69e4468e812747225d303", null ],
+    [ "OnGossipSelect", "df/dba/a12622.html#ab0712bc84003b5eb72f11b49ef6e57a7", null ]
 ];

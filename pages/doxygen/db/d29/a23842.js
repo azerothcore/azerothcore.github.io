@@ -1,8 +1,6 @@
 var a23842 =
 [
-    [ "CreatureId", "db/d29/a23842.html#a127341c70f8785ceb556b1c11b23f477", null ],
-    [ "SpawnCount", "db/d29/a23842.html#ad51fb68e41e04490f658a4c4f62612bd", null ],
-    [ "SpawnTimer", "db/d29/a23842.html#aa57ff686c5fde12269e231333d8a8bef", null ],
-    [ "UsedSpawnPoint", "db/d29/a23842.html#a2d5f42a6b1a309c8db74febcedf457eb", null ],
-    [ "YellTimer", "db/d29/a23842.html#a6346259269af7f2936f959f87288dd69", null ]
+    [ "npc_invis_infernal_casterAI", "d8/ded/a23846.html", "d8/ded/a23846" ],
+    [ "npc_invis_infernal_caster", "db/d29/a23842.html#a9aed081ef904075830428bbc76f53874", null ],
+    [ "GetAI", "db/d29/a23842.html#aede0c5cc390ea423169b1cba66d929cd", null ]
 ];

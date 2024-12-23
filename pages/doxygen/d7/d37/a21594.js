@@ -1,7 +1,8 @@
 var a21594 =
 [
-    [ "HandleAfterEffectApply", "d7/d37/a21594.html#ab54795dc49ca453db40494a694158a98", null ],
-    [ "PrepareAuraScript", "d7/d37/a21594.html#a3e5902a79b9d2c5cad69ad2ece8592ec", null ],
-    [ "Register", "d7/d37/a21594.html#addd4fac4cc8a93d800abacb144e3303c", null ],
-    [ "Validate", "d7/d37/a21594.html#a3ee65a1391c340e471adfc7ac653dd50", null ]
+    [ "npc_ravenous_worgAI", "d7/d37/a21594.html#a5404516869e171c84b774f2a7b8be15d", null ],
+    [ "AttackStart", "d7/d37/a21594.html#a593d218d8cb083a7e37f81d3952c6d4c", null ],
+    [ "UpdateAI", "d7/d37/a21594.html#aeb64d5bde5ef9d8c2a62662bb72d3049", null ],
+    [ "_attack", "d7/d37/a21594.html#a3df5c98821ba33a40e25e7b050858b96", null ],
+    [ "_pacified", "d7/d37/a21594.html#a0da1f59a6fc9cdf39c9cced1eb52acba", null ]
 ];

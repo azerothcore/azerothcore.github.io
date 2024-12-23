@@ -1,9 +1,10 @@
 var a09062 =
 [
-    [ "AnyGroupedUnitInObjectRangeCheck", "dd/d89/a09062.html#a2c775f62eeabcb8af5306cbcedae322e", null ],
-    [ "operator()", "dd/d89/a09062.html#a3c316eacdd1c74c69d8297871f84d7b9", null ],
-    [ "_raid", "dd/d89/a09062.html#a6a9cffd02435913a5d7ee53cd1e8cc0b", null ],
-    [ "_range", "dd/d89/a09062.html#a01b4592ac61d58ff39e5bb2eb1a1b997", null ],
-    [ "_refUnit", "dd/d89/a09062.html#ad083243ef5487aa374b19e3c82b0457c", null ],
-    [ "_source", "dd/d89/a09062.html#a91de967d2376ea96b1fc0838094915cf", null ]
+    [ "AnyDeadUnitSpellTargetInRangeCheck", "dd/d89/a09062.html#a212c308a02716ff382e820e86e233ed3", null ],
+    [ "operator()", "dd/d89/a09062.html#af328df880d17a62e2dbed0ff4231fc39", null ],
+    [ "operator()", "dd/d89/a09062.html#adcc69b9ef03a68aa235e40449a80b701", null ],
+    [ "operator()", "dd/d89/a09062.html#a2f2483cf7078681cb3acf28560e61184", null ],
+    [ "operator()", "dd/d89/a09062.html#aba0bf4c320a684b68743a06e724a369e", null ],
+    [ "i_check", "dd/d89/a09062.html#aa2223ad31acf47a1608ded6b5cbc2f03", null ],
+    [ "i_spellInfo", "dd/d89/a09062.html#afeb889f6cee596b2c2229f86e0a8a3f1", null ]
 ];

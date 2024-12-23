@@ -1,6 +1,6 @@
 var a22146 =
 [
-    [ "OutdoorPvPGH", "da/d7b/a22146.html#a619492e0a1fdf75f37554a2f19268660", null ],
-    [ "SendRemoveWorldStates", "da/d7b/a22146.html#a92c7e489717072ddc34f707fbe462cb2", null ],
-    [ "SetupOutdoorPvP", "da/d7b/a22146.html#a3d62cb27cfa415c9ba7fe5c18384a75d", null ]
+    [ "npc_released_offspring_harkoaAI", "d2/d82/a22150.html", "d2/d82/a22150" ],
+    [ "npc_released_offspring_harkoa", "da/d7b/a22146.html#a10f583320e3b617cf2b327cfb6fed6f5", null ],
+    [ "GetAI", "da/d7b/a22146.html#ae3d2a02c496be1b2606fce596625d12e", null ]
 ];

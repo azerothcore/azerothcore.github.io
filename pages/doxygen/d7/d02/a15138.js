@@ -1,17 +1,11 @@
 var a15138 =
 [
-    [ "npc_clintar_spiritAI", "d7/d02/a15138.html#ab64c9da6af7246e1665a5264a26d75ab", null ],
-    [ "EnterEvadeMode", "d7/d02/a15138.html#a2ccffe81e2bd7cddcab10746bc9311bf", null ],
-    [ "IsSummonedBy", "d7/d02/a15138.html#af55bc32b17bfd45968e668c5591325ae", null ],
-    [ "JustDied", "d7/d02/a15138.html#a4e90511d9daf0545f0fee471f3ab0d5e", null ],
-    [ "Reset", "d7/d02/a15138.html#afd59b5e50deb65f7175138272f439740", null ],
-    [ "StartEvent", "d7/d02/a15138.html#ae3bbfd8374bf667d4eeb26e047ee2186", null ],
-    [ "UpdateAI", "d7/d02/a15138.html#a4b780f14cb2aa08c06e39a58501a21fe", null ],
-    [ "WaypointReached", "d7/d02/a15138.html#a98315f3202daaac261a1e7f0222b01c5", null ],
-    [ "checkPlayerTimer", "d7/d02/a15138.html#a10165a369bb8a7775050ae425cb94123", null ],
-    [ "CurrWP", "d7/d02/a15138.html#ae3b4588a2dfd337ffc71456652fa136f", null ],
-    [ "EventOnWait", "d7/d02/a15138.html#a7473dff3417d3e7510bc4fb7acbeb494", null ],
-    [ "EventTimer", "d7/d02/a15138.html#a27b0a90757df63df276b1e26bfbaba83", null ],
-    [ "PlayerGUID", "d7/d02/a15138.html#ad721852353215d46bc623efca358981f", null ],
-    [ "Step", "d7/d02/a15138.html#af9b65e2de0dcce5844fbc642b32f5a3f", null ]
+    [ "npc_troll_volunteerAI", "d7/d02/a15138.html#a7eb0c508122616a6781c8b23210e4062", null ],
+    [ "GetMountId", "d7/d02/a15138.html#a5edc586ded0a1146bb1bd82ca14062cc", null ],
+    [ "InitializeAI", "d7/d02/a15138.html#a1c758c7601624e0620778e13e8ec60a0", null ],
+    [ "MovementInform", "d7/d02/a15138.html#aa1d34a4f3701354899ebdd9b38670b31", null ],
+    [ "Reset", "d7/d02/a15138.html#a31439533de41c2a459af2b4d3af76139", null ],
+    [ "SpellHit", "d7/d02/a15138.html#a0604cdade2ce4da23915ca1fc4a4f475", null ],
+    [ "_complete", "d7/d02/a15138.html#ac7e1cc5f0e4f675d6aad0f6e9b449c15", null ],
+    [ "_mountModel", "d7/d02/a15138.html#ae226345bd324b9c337dc96570117d82b", null ]
 ];

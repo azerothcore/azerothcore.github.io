@@ -1,10 +1,10 @@
 var a02669 =
 [
-    [ "AUTH_LOGON_CHALLENGE_C", "df/de9/a05538.html", "df/de9/a05538" ],
-    [ "AUTH_LOGON_PROOF_C", "dc/df9/a05542.html", "dc/df9/a05542" ],
-    [ "AUTH_LOGON_PROOF_S", "d1/d22/a05546.html", "d1/d22/a05546" ],
-    [ "AUTH_LOGON_PROOF_S_OLD", "da/d41/a05550.html", "da/d41/a05550" ],
-    [ "AUTH_RECONNECT_PROOF_C", "d4/d74/a05554.html", "d4/d74/a05554" ],
+    [ "AUTH_LOGON_CHALLENGE_C", "dd/d66/a05534.html", "dd/d66/a05534" ],
+    [ "AUTH_LOGON_PROOF_C", "df/de9/a05538.html", "df/de9/a05538" ],
+    [ "AUTH_LOGON_PROOF_S", "dc/df9/a05542.html", "dc/df9/a05542" ],
+    [ "AUTH_LOGON_PROOF_S_OLD", "d1/d22/a05546.html", "d1/d22/a05546" ],
+    [ "AUTH_RECONNECT_PROOF_C", "da/d41/a05550.html", "da/d41/a05550" ],
     [ "AUTH_LOGON_CHALLENGE_INITIAL_SIZE", "d6/dbb/a02669.html#a38c5f396c839f5f22ec0ec7a5b2a5019", null ],
     [ "MAX_ACCEPTED_CHALLENGE_SIZE", "d6/dbb/a02669.html#a2507a44fb848704cf4f3624207c18ebe", null ],
     [ "REALM_LIST_PACKET_SIZE", "d6/dbb/a02669.html#af848fed368789960f3d9e059f8002e11", null ],

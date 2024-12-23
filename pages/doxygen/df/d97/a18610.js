@@ -1,6 +1,6 @@
 var a18610 =
 [
-    [ "boss_four_horsemenAI", "d9/dde/a18614.html", "d9/dde/a18614" ],
-    [ "boss_four_horsemen", "df/d97/a18610.html#a6bcaf9a12d854a322f50ac2f98dbb72b", null ],
-    [ "GetAI", "df/d97/a18610.html#a3ee27da1d0da48306cc10c17c9411d1a", null ]
+    [ "npc_four_car_garageAI", "df/d97/a18610.html#a2eedf5934e12d33cda0ac173d82220d5", null ],
+    [ "JustDied", "df/d97/a18610.html#a1fba9f03dca2db37b5cb969079b25d22", null ],
+    [ "PassengerBoarded", "df/d97/a18610.html#a144bc36a5c4ff227c8a7dc146d4167b6", null ]
 ];

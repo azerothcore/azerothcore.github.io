@@ -1,12 +1,14 @@
 var a11378 =
 [
-    [ "guild_commandscript", "d2/dbf/a11378.html#a4394d242740505ad128e4cebf4b617f0", null ],
-    [ "GetCommands", "d2/dbf/a11378.html#a6b0a700e7fa3251373c1405d245f6931", null ],
-    [ "HandleGuildCreateCommand", "d2/dbf/a11378.html#a2d2c2414b9b08a5d510fccd223b34a36", null ],
-    [ "HandleGuildDeleteCommand", "d2/dbf/a11378.html#a4bbef641c86de37611e7ff1c906b4048", null ],
-    [ "HandleGuildInfoCommand", "d2/dbf/a11378.html#adbe43a3a362608e37dd7d6652a83adfc", null ],
-    [ "HandleGuildInviteCommand", "d2/dbf/a11378.html#a67210b9845ca4475e6ab3d0d7cc0dbab", null ],
-    [ "HandleGuildRankCommand", "d2/dbf/a11378.html#adbea3b610c98354866fec52a43fedda0", null ],
-    [ "HandleGuildRenameCommand", "d2/dbf/a11378.html#ac946b4284c85e43b1ca29f69df9a8f27", null ],
-    [ "HandleGuildUninviteCommand", "d2/dbf/a11378.html#aa7b134de9c3632cc1e147064c9ffcb5f", null ]
+    [ "cast_commandscript", "d2/dbf/a11378.html#a9c657d2c5404149a45a2db748d23fc2f", null ],
+    [ "CheckSpellCastResult", "d2/dbf/a11378.html#a244b2d11a07fdcbb72f3207ab1e46ea5", null ],
+    [ "CheckSpellExistsAndIsValid", "d2/dbf/a11378.html#a14da4e4674b065c8e8f3d1946a037bda", null ],
+    [ "GetCommands", "d2/dbf/a11378.html#ab0890c036a8d301b382fdd1b6371f671", null ],
+    [ "GetTriggerFlags", "d2/dbf/a11378.html#a26e6986c45a99e6a94d7ba2d9a810aa3", null ],
+    [ "HandleCastBackCommand", "d2/dbf/a11378.html#a964a40278f609a5c5a0bae651484c726", null ],
+    [ "HandleCastCommand", "d2/dbf/a11378.html#ac28430cc0623209b891bacbb4845509b", null ],
+    [ "HandleCastDestCommand", "d2/dbf/a11378.html#a156ca81fba7155205dae106aa4c221d6", null ],
+    [ "HandleCastDistCommand", "d2/dbf/a11378.html#aabbcac8e85c6a64a647d71bb22bebede", null ],
+    [ "HandleCastSelfCommand", "d2/dbf/a11378.html#a69e88bb174c2518584a9ae622e2850bf", null ],
+    [ "HandleCastTargetCommad", "d2/dbf/a11378.html#aa72bd317a3498ef07007c1a9e81e2796", null ]
 ];

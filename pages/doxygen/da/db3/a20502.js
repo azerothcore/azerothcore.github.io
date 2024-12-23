@@ -1,6 +1,6 @@
 var a20502 =
 [
-    [ "boss_yoggsaron_descend_portalAI", "da/db3/a20502.html#a50ddd1d7b1d4a2e729657e53dfee43f2", null ],
-    [ "OnSpellClick", "da/db3/a20502.html#aba032a7347230db028d1e939944d3f46", null ],
-    [ "_instance", "da/db3/a20502.html#a477abf19a0b5bf9865550541877a29d7", null ]
+    [ "boss_yoggsaronAI", "d9/d21/a20506.html", "d9/d21/a20506" ],
+    [ "boss_yoggsaron", "da/db3/a20502.html#a3fa3ada3979b55100b8ca9e21ec655a1", null ],
+    [ "GetAI", "da/db3/a20502.html#a113eb034acc46a2edd4a84598413a63e", null ]
 ];

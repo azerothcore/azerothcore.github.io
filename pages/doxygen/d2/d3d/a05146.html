@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: LinkedListHead::Iterator&lt; _Ty &gt; Class Template Reference</title>
+<title>AzerothCore: Reference&lt; TO, FROM &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,222 +105,134 @@ $(document).ready(function(){initNavTree('d2/d3d/a05146.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../db/d58/a05143.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">LinkedListHead::Iterator&lt; _Ty &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">Reference&lt; TO, FROM &gt; Class Template Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">LinkedList.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">Reference.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for Reference&lt; TO, FROM &gt;:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../d2/d3d/a05146.png" usemap="#Reference_3C_20TO_2C_20FROM_20_3E_map" alt=""/>
+  <map id="Reference_3C_20TO_2C_20FROM_20_3E_map" name="Reference_3C_20TO_2C_20FROM_20_3E_map">
+<area href="../../d2/dc4/a05134.html" alt="LinkedListElement" shape="rect" coords="1809,0,2402,24"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; Corpse &gt;" shape="rect" coords="0,112,593,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; Creature &gt;" shape="rect" coords="603,112,1196,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; DynamicObject &gt;" shape="rect" coords="1206,112,1799,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; GameObject &gt;" shape="rect" coords="1809,112,2402,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; Player &gt;" shape="rect" coords="2412,112,3005,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; T &gt;" shape="rect" coords="3015,112,3608,136"/>
+<area href="../../d9/d07/a08930.html" alt="GridReference&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;" shape="rect" coords="3618,112,4211,136"/>
+  </map>
+</div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
-Public Types</h2></td></tr>
-<tr class="memitem:ab6021884f43941a43a3343e294e92f4e"><td class="memItemLeft" align="right" valign="top">typedef std::bidirectional_iterator_tag&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ab6021884f43941a43a3343e294e92f4e">iterator_category</a></td></tr>
-<tr class="separator:ab6021884f43941a43a3343e294e92f4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a0ee578f4db480c4a2b7000975adf13"><td class="memItemLeft" align="right" valign="top">typedef _Ty&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a4a0ee578f4db480c4a2b7000975adf13">value_type</a></td></tr>
-<tr class="separator:a4a0ee578f4db480c4a2b7000975adf13"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad9960b552714f9d608e1a3d1b42b4d1f"><td class="memItemLeft" align="right" valign="top">typedef ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ad9960b552714f9d608e1a3d1b42b4d1f">difference_type</a></td></tr>
-<tr class="separator:ad9960b552714f9d608e1a3d1b42b4d1f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae9542dfc90ba68a923d41092a7b56c76"><td class="memItemLeft" align="right" valign="top">typedef ptrdiff_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ae9542dfc90ba68a923d41092a7b56c76">distance_type</a></td></tr>
-<tr class="separator:ae9542dfc90ba68a923d41092a7b56c76"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff5cd5ea86459f0924cec0a48ba5e840"><td class="memItemLeft" align="right" valign="top">typedef _Ty *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a></td></tr>
-<tr class="separator:aff5cd5ea86459f0924cec0a48ba5e840"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac036f8ac7b4ff2112eb77d23de5140d6"><td class="memItemLeft" align="right" valign="top">typedef _Ty const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ac036f8ac7b4ff2112eb77d23de5140d6">const_pointer</a></td></tr>
-<tr class="separator:ac036f8ac7b4ff2112eb77d23de5140d6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a70eac4878b3b65e97e1af190b5085280"><td class="memItemLeft" align="right" valign="top">typedef _Ty &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a70eac4878b3b65e97e1af190b5085280">reference</a></td></tr>
-<tr class="separator:a70eac4878b3b65e97e1af190b5085280"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08df6fce951ba2b79a28b60ba4a99866"><td class="memItemLeft" align="right" valign="top">typedef _Ty const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a08df6fce951ba2b79a28b60ba4a99866">const_reference</a></td></tr>
-<tr class="separator:a08df6fce951ba2b79a28b60ba4a99866"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ab70906c697c6f234bc703f6a66a86496"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ab70906c697c6f234bc703f6a66a86496">Iterator</a> ()</td></tr>
-<tr class="separator:ab70906c697c6f234bc703f6a66a86496"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af8973cfac54d15555fb5eec9f6c42f70"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#af8973cfac54d15555fb5eec9f6c42f70">Iterator</a> (<a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> _Pnode)</td></tr>
-<tr class="separator:af8973cfac54d15555fb5eec9f6c42f70"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9ec3c8ac13511b4b294d1ea31ab5c46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ab9ec3c8ac13511b4b294d1ea31ab5c46">operator=</a> (<a class="el" href="../../d2/d3d/a05146.html">Iterator</a> const &amp;_Right)</td></tr>
-<tr class="separator:ab9ec3c8ac13511b4b294d1ea31ab5c46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5c36796e002431ddde621c6775b16f46"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a5c36796e002431ddde621c6775b16f46">operator=</a> (<a class="el" href="../../d2/d3d/a05146.html#ac036f8ac7b4ff2112eb77d23de5140d6">const_pointer</a> const &amp;_Right)</td></tr>
-<tr class="separator:a5c36796e002431ddde621c6775b16f46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac3207463bfe747a59fe31257185478ec"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html#a70eac4878b3b65e97e1af190b5085280">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ac3207463bfe747a59fe31257185478ec">operator*</a> ()</td></tr>
-<tr class="separator:ac3207463bfe747a59fe31257185478ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7077ed836fee057a3666ec16ba14ce01"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a7077ed836fee057a3666ec16ba14ce01">operator-&gt;</a> ()</td></tr>
-<tr class="separator:a7077ed836fee057a3666ec16ba14ce01"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af47b128c02fd9c806de9432e3adef40a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#af47b128c02fd9c806de9432e3adef40a">operator++</a> ()</td></tr>
-<tr class="separator:af47b128c02fd9c806de9432e3adef40a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c830fe0c8386711c5a8e3839a20ddbd"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a4c830fe0c8386711c5a8e3839a20ddbd">operator++</a> (int)</td></tr>
-<tr class="separator:a4c830fe0c8386711c5a8e3839a20ddbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff33d5992d301471ff7705359f69ad36"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#aff33d5992d301471ff7705359f69ad36">operator--</a> ()</td></tr>
-<tr class="separator:aff33d5992d301471ff7705359f69ad36"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9ea2ddbb10a0cb1371da508b14644e4d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a9ea2ddbb10a0cb1371da508b14644e4d">operator--</a> (int)</td></tr>
-<tr class="separator:a9ea2ddbb10a0cb1371da508b14644e4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2e95b080e86f7fb956940aaf7940e55"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ae2e95b080e86f7fb956940aaf7940e55">operator==</a> (<a class="el" href="../../d2/d3d/a05146.html">Iterator</a> const &amp;_Right) const</td></tr>
-<tr class="separator:ae2e95b080e86f7fb956940aaf7940e55"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6ef8a273fb7c7a6fcc930ff3c7b9f995"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a6ef8a273fb7c7a6fcc930ff3c7b9f995">operator!=</a> (<a class="el" href="../../d2/d3d/a05146.html">Iterator</a> const &amp;_Right) const</td></tr>
-<tr class="separator:a6ef8a273fb7c7a6fcc930ff3c7b9f995"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7c52129ec69cce82cf5151257cadcce8"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a7c52129ec69cce82cf5151257cadcce8">operator==</a> (<a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> const &amp;_Right) const</td></tr>
-<tr class="separator:a7c52129ec69cce82cf5151257cadcce8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad0871764d1b071e7120841c9d1633d2c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ad0871764d1b071e7120841c9d1633d2c">operator!=</a> (<a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> const &amp;_Right) const</td></tr>
-<tr class="separator:ad0871764d1b071e7120841c9d1633d2c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56333c672e75a65c0ffebd4df6736fe6"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a56333c672e75a65c0ffebd4df6736fe6">operator==</a> (<a class="el" href="../../d2/d3d/a05146.html#a08df6fce951ba2b79a28b60ba4a99866">const_reference</a> _Right) const</td></tr>
-<tr class="separator:a56333c672e75a65c0ffebd4df6736fe6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af25b8f6f1861de395d1442c39642a8b0"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#af25b8f6f1861de395d1442c39642a8b0">operator!=</a> (<a class="el" href="../../d2/d3d/a05146.html#a08df6fce951ba2b79a28b60ba4a99866">const_reference</a> _Right) const</td></tr>
-<tr class="separator:af25b8f6f1861de395d1442c39642a8b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d60ac6ee6ebd2cd0a3601eb91539f40"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a6d60ac6ee6ebd2cd0a3601eb91539f40">_Mynode</a> ()</td></tr>
-<tr class="separator:a6d60ac6ee6ebd2cd0a3601eb91539f40"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc406e22a90966f120011f7a4ccd9a8f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#adc406e22a90966f120011f7a4ccd9a8f">Reference</a> ()</td></tr>
+<tr class="separator:adc406e22a90966f120011f7a4ccd9a8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86e109e2d5a080e2d03826a8fb2a834b"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a86e109e2d5a080e2d03826a8fb2a834b">~Reference</a> ()=default</td></tr>
+<tr class="separator:a86e109e2d5a080e2d03826a8fb2a834b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c7a8395a8f77e33772959f068296aaf"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a6c7a8395a8f77e33772959f068296aaf">link</a> (TO *toObj, FROM *fromObj)</td></tr>
+<tr class="separator:a6c7a8395a8f77e33772959f068296aaf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d526083a41a1297b65cc0883cdac514"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a0d526083a41a1297b65cc0883cdac514">unlink</a> ()</td></tr>
+<tr class="separator:a0d526083a41a1297b65cc0883cdac514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0fd9597c01faa17a3065cad736a9fdb"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ad0fd9597c01faa17a3065cad736a9fdb">invalidate</a> ()</td></tr>
+<tr class="separator:ad0fd9597c01faa17a3065cad736a9fdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7442537bff6150984bac268a456c642d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a7442537bff6150984bac268a456c642d">isValid</a> () const</td></tr>
+<tr class="separator:a7442537bff6150984bac268a456c642d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa46342588ec728398747f253a38ea5c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#aa46342588ec728398747f253a38ea5c2">next</a> ()</td></tr>
+<tr class="separator:aa46342588ec728398747f253a38ea5c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a445818b89801126a3c554979fa4f2d5c"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a445818b89801126a3c554979fa4f2d5c">next</a> () const</td></tr>
+<tr class="separator:a445818b89801126a3c554979fa4f2d5c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11737e30bd5e1cd55a685ec37b27d4f5"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a11737e30bd5e1cd55a685ec37b27d4f5">prev</a> ()</td></tr>
+<tr class="separator:a11737e30bd5e1cd55a685ec37b27d4f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f6b8a68c4e4ab2aa7a333b81fe7ec2b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a0f6b8a68c4e4ab2aa7a333b81fe7ec2b">prev</a> () const</td></tr>
+<tr class="separator:a0f6b8a68c4e4ab2aa7a333b81fe7ec2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e555b953124c7a5d182fe6d46a48af"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a92e555b953124c7a5d182fe6d46a48af">nocheck_next</a> ()</td></tr>
+<tr class="separator:a92e555b953124c7a5d182fe6d46a48af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a50fdc647f84c35ac8efba921d070aee9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a50fdc647f84c35ac8efba921d070aee9">nocheck_next</a> () const</td></tr>
+<tr class="separator:a50fdc647f84c35ac8efba921d070aee9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfab51315197a0731fe630da2ec2522"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a8dfab51315197a0731fe630da2ec2522">nocheck_prev</a> ()</td></tr>
+<tr class="separator:a8dfab51315197a0731fe630da2ec2522"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afeefe7d7eb64f04200ffb1adb9e54858"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#afeefe7d7eb64f04200ffb1adb9e54858">nocheck_prev</a> () const</td></tr>
+<tr class="separator:afeefe7d7eb64f04200ffb1adb9e54858"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6b72c9c0638f5cc700907496c093e03"><td class="memItemLeft" align="right" valign="top">TO *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ae6b72c9c0638f5cc700907496c093e03">operator-&gt;</a> () const</td></tr>
+<tr class="separator:ae6b72c9c0638f5cc700907496c093e03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0c80169399d27b402ff3ad97305cd337"><td class="memItemLeft" align="right" valign="top">TO *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a0c80169399d27b402ff3ad97305cd337">getTarget</a> () const</td></tr>
+<tr class="separator:a0c80169399d27b402ff3ad97305cd337"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ef762721fcc58e9655c57fab05899b"><td class="memItemLeft" align="right" valign="top">FROM *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a95ef762721fcc58e9655c57fab05899b">GetSource</a> () const</td></tr>
+<tr class="separator:a95ef762721fcc58e9655c57fab05899b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a05134"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05134')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a></td></tr>
+<tr class="memitem:ac1194068a8be3b5633aee45147bdcdc3 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#ac1194068a8be3b5633aee45147bdcdc3">LinkedListElement</a> ()=default</td></tr>
+<tr class="separator:ac1194068a8be3b5633aee45147bdcdc3 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c4918a1ef71822c094efab28cd18c33 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a3c4918a1ef71822c094efab28cd18c33">~LinkedListElement</a> ()</td></tr>
+<tr class="separator:a3c4918a1ef71822c094efab28cd18c33 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a31a6cb9b48a00ceeb0c05506020fad inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a6a31a6cb9b48a00ceeb0c05506020fad">hasNext</a> () const</td></tr>
+<tr class="separator:a6a31a6cb9b48a00ceeb0c05506020fad inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9aa9698ff9aab072a12bb38fab4533b5 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a9aa9698ff9aab072a12bb38fab4533b5">hasPrev</a> () const</td></tr>
+<tr class="separator:a9aa9698ff9aab072a12bb38fab4533b5 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1f61be0f1b485899870ddafec4f0daf inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#ac1f61be0f1b485899870ddafec4f0daf">isInList</a> () const</td></tr>
+<tr class="separator:ac1f61be0f1b485899870ddafec4f0daf inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acbcdd7cb06a928d4d3c23b017abd715d inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#acbcdd7cb06a928d4d3c23b017abd715d">next</a> ()</td></tr>
+<tr class="separator:acbcdd7cb06a928d4d3c23b017abd715d inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e17b9a27128db95781737096401ae6f inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a7e17b9a27128db95781737096401ae6f">next</a> () const</td></tr>
+<tr class="separator:a7e17b9a27128db95781737096401ae6f inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a78fb6e3984ca951c45fb48781f2a6861 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a78fb6e3984ca951c45fb48781f2a6861">prev</a> ()</td></tr>
+<tr class="separator:a78fb6e3984ca951c45fb48781f2a6861 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad9ba71b4169621a6be2881c5883d147 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#aad9ba71b4169621a6be2881c5883d147">prev</a> () const</td></tr>
+<tr class="separator:aad9ba71b4169621a6be2881c5883d147 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36ba2530546c52b5ef3ea91bb45f7c9c inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a36ba2530546c52b5ef3ea91bb45f7c9c">nocheck_next</a> ()</td></tr>
+<tr class="separator:a36ba2530546c52b5ef3ea91bb45f7c9c inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5de440f42d0df69d021d1fdbde96dee inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#aa5de440f42d0df69d021d1fdbde96dee">nocheck_next</a> () const</td></tr>
+<tr class="separator:aa5de440f42d0df69d021d1fdbde96dee inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe1be90c1bf7b22096e611ef46b5dfb4 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#abe1be90c1bf7b22096e611ef46b5dfb4">nocheck_prev</a> ()</td></tr>
+<tr class="separator:abe1be90c1bf7b22096e611ef46b5dfb4 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8c8580dfa196cc39385d8d171375545 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#ae8c8580dfa196cc39385d8d171375545">nocheck_prev</a> () const</td></tr>
+<tr class="separator:ae8c8580dfa196cc39385d8d171375545 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56583d2ad1e6e3b9b37d1dcbf55d2a10 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">delink</a> ()</td></tr>
+<tr class="separator:a56583d2ad1e6e3b9b37d1dcbf55d2a10 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1a009d1d2f1c782d7882e5990854bf9 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#ac1a009d1d2f1c782d7882e5990854bf9">insertBefore</a> (<a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *pElem)</td></tr>
+<tr class="separator:ac1a009d1d2f1c782d7882e5990854bf9 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5815d1c7015ca4671993137703dc3fc1 inherit pub_methods_a05134"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/dc4/a05134.html#a5815d1c7015ca4671993137703dc3fc1">insertAfter</a> (<a class="el" href="../../d2/dc4/a05134.html">LinkedListElement</a> *pElem)</td></tr>
+<tr class="separator:a5815d1c7015ca4671993137703dc3fc1 inherit pub_methods_a05134"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a782629b43ea96169aab42f895e79c473"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a></td></tr>
-<tr class="separator:a782629b43ea96169aab42f895e79c473"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:ab736ba370b22c03d17452681dd29c272"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ab736ba370b22c03d17452681dd29c272">targetObjectBuildLink</a> ()=0</td></tr>
+<tr class="separator:ab736ba370b22c03d17452681dd29c272"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a3c2641e37ee5b214f3a453996af13"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a52a3c2641e37ee5b214f3a453996af13">targetObjectDestroyLink</a> ()=0</td></tr>
+<tr class="separator:a52a3c2641e37ee5b214f3a453996af13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62d3b40e39167ed69ba52c102d6d0e1c"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#a62d3b40e39167ed69ba52c102d6d0e1c">sourceObjectDestroyLink</a> ()=0</td></tr>
+<tr class="separator:a62d3b40e39167ed69ba52c102d6d0e1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:ad83d93dae57a788a2a792c6848131059"><td class="memItemLeft" align="right" valign="top">TO *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a></td></tr>
+<tr class="separator:ad83d93dae57a788a2a792c6848131059"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2e195ca96921a8914dadad14bb87375"><td class="memItemLeft" align="right" valign="top">FROM *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">iRefFrom</a></td></tr>
+<tr class="separator:af2e195ca96921a8914dadad14bb87375"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class _Ty&gt;<br />
-class LinkedListHead::Iterator&lt; _Ty &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="ac036f8ac7b4ff2112eb77d23de5140d6" name="ac036f8ac7b4ff2112eb77d23de5140d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac036f8ac7b4ff2112eb77d23de5140d6">&#9670;&#160;</a></span>const_pointer</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class TO, class FROM&gt;<br />
+class Reference&lt; TO, FROM &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="adc406e22a90966f120011f7a4ccd9a8f" name="adc406e22a90966f120011f7a4ccd9a8f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc406e22a90966f120011f7a4ccd9a8f">&#9670;&#160;</a></span>Reference()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef _Ty const* <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::const_pointer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a08df6fce951ba2b79a28b60ba4a99866" name="a08df6fce951ba2b79a28b60ba4a99866"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08df6fce951ba2b79a28b60ba4a99866">&#9670;&#160;</a></span>const_reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef _Ty const&amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::const_reference</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ad9960b552714f9d608e1a3d1b42b4d1f" name="ad9960b552714f9d608e1a3d1b42b4d1f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad9960b552714f9d608e1a3d1b42b4d1f">&#9670;&#160;</a></span>difference_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef ptrdiff_t <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::difference_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ae9542dfc90ba68a923d41092a7b56c76" name="ae9542dfc90ba68a923d41092a7b56c76"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae9542dfc90ba68a923d41092a7b56c76">&#9670;&#160;</a></span>distance_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef ptrdiff_t <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::distance_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab6021884f43941a43a3343e294e92f4e" name="ab6021884f43941a43a3343e294e92f4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6021884f43941a43a3343e294e92f4e">&#9670;&#160;</a></span>iterator_category</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef std::bidirectional_iterator_tag <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::iterator_category</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aff5cd5ea86459f0924cec0a48ba5e840" name="aff5cd5ea86459f0924cec0a48ba5e840"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff5cd5ea86459f0924cec0a48ba5e840">&#9670;&#160;</a></span>pointer</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef _Ty* <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::pointer</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a70eac4878b3b65e97e1af190b5085280" name="a70eac4878b3b65e97e1af190b5085280"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a70eac4878b3b65e97e1af190b5085280">&#9670;&#160;</a></span>reference</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef _Ty&amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::reference</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a4a0ee578f4db480c4a2b7000975adf13" name="a4a0ee578f4db480c4a2b7000975adf13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a0ee578f4db480c4a2b7000975adf13">&#9670;&#160;</a></span>value_type</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">typedef _Ty <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::value_type</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ab70906c697c6f234bc703f6a66a86496" name="ab70906c697c6f234bc703f6a66a86496"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab70906c697c6f234bc703f6a66a86496">&#9670;&#160;</a></span>Iterator() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::Iterator </td>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;<a class="el" href="../../d2/d3d/a05146.html">::Reference</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -332,96 +244,57 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  150</span>                   : <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>(0)</div>
-<div class="line"><span class="lineno">  151</span>        {</div>
-<div class="line"><span class="lineno">  152</span>            <span class="comment">// construct with null node pointer</span></div>
-<div class="line"><span class="lineno">  153</span>        }</div>
-<div class="ttc" id="aa05146_html_a782629b43ea96169aab42f895e79c473"><div class="ttname"><a href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">LinkedListHead::Iterator::_Ptr</a></div><div class="ttdeci">pointer _Ptr</div><div class="ttdef"><b>Definition:</b> LinkedList.h:257</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a> = <span class="keyword">nullptr</span>; <a class="code hl_variable" href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">iRefFrom</a> = <span class="keyword">nullptr</span>; }</div>
+<div class="ttc" id="aa05146_html_ad83d93dae57a788a2a792c6848131059"><div class="ttname"><a href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">Reference::iRefTo</a></div><div class="ttdeci">TO * iRefTo</div><div class="ttdef"><b>Definition:</b> Reference.h:29</div></div>
+<div class="ttc" id="aa05146_html_af2e195ca96921a8914dadad14bb87375"><div class="ttname"><a href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">Reference::iRefFrom</a></div><div class="ttdeci">FROM * iRefFrom</div><div class="ttdef"><b>Definition:</b> Reference.h:30</div></div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00030">Reference&lt; TO, FROM &gt;::iRefFrom</a>, and <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>.</p>
+
 </div>
 </div>
-<a id="af8973cfac54d15555fb5eec9f6c42f70" name="af8973cfac54d15555fb5eec9f6c42f70"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af8973cfac54d15555fb5eec9f6c42f70">&#9670;&#160;</a></span>Iterator() <span class="overload">[2/2]</span></h2>
+<a id="a86e109e2d5a080e2d03826a8fb2a834b" name="a86e109e2d5a080e2d03826a8fb2a834b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86e109e2d5a080e2d03826a8fb2a834b">&#9670;&#160;</a></span>~Reference()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::Iterator </td>
+          <td class="memname">virtual <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::~<a class="el" href="../../d2/d3d/a05146.html">Reference</a> </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a>&#160;</td>
-          <td class="paramname"><em>_Pnode</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  155</span>                                 : <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>(_Pnode)</div>
-<div class="line"><span class="lineno">  156</span>        {</div>
-<div class="line"><span class="lineno">  157</span>            <span class="comment">// construct with node pointer _Pnode</span></div>
-<div class="line"><span class="lineno">  158</span>        }</div>
-</div><!-- fragment -->
+
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a6d60ac6ee6ebd2cd0a3601eb91539f40" name="a6d60ac6ee6ebd2cd0a3601eb91539f40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d60ac6ee6ebd2cd0a3601eb91539f40">&#9670;&#160;</a></span>_Mynode()</h2>
+<a id="a95ef762721fcc58e9655c57fab05899b" name="a95ef762721fcc58e9655c57fab05899b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a95ef762721fcc58e9655c57fab05899b">&#9670;&#160;</a></span>GetSource()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::_Mynode </td>
+          <td class="memname">FROM * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::GetSource </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  251</span>        {</div>
-<div class="line"><span class="lineno">  252</span>            <span class="comment">// return node pointer</span></div>
-<div class="line"><span class="lineno">  253</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>);</div>
-<div class="line"><span class="lineno">  254</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="af25b8f6f1861de395d1442c39642a8b0" name="af25b8f6f1861de395d1442c39642a8b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af25b8f6f1861de395d1442c39642a8b0">&#9670;&#160;</a></span>operator!=() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator!= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#a08df6fce951ba2b79a28b60ba4a99866">const_reference</a>&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -431,31 +304,29 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  245</span>        {</div>
-<div class="line"><span class="lineno">  246</span>            <span class="comment">// test for reference equality</span></div>
-<div class="line"><span class="lineno">  247</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> != &amp;_Right);</div>
-<div class="line"><span class="lineno">  248</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   97</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">iRefFrom</a>; }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00030">Reference&lt; TO, FROM &gt;::iRefFrom</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01926">Group::CanJoinBattlegroundQueue()</a>, <a class="el" href="../../#l00301">instance_culling_of_stratholme::instance_culling_of_stratholme_InstanceMapScript::ChromieWhisper()</a>, <a class="el" href="../../#l00180">HostileRefMgr::deleteReference()</a>, <a class="el" href="../../#l00125">HostileRefMgr::deleteReferences()</a>, <a class="el" href="../../#l00162">HostileRefMgr::deleteReferencesForFaction()</a>, <a class="el" href="../../#l00199">HostileRefMgr::deleteReferencesOutOfRange()</a>, <a class="el" href="../../#l00414">npc_arthas::npc_arthasAI::DoAction()</a>, <a class="el" href="../../#l00085">instance_pit_of_saron::instance_pit_of_saron_InstanceScript::GetCreatureEntry()</a>, <a class="el" href="../../#l00550">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::GetCreatureEntry()</a>, <a class="el" href="../../#l00595">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::GetGameObjectEntry()</a>, <a class="el" href="../../#l00862">debug_commandscript::HandleDebugHostileRefListCommand()</a>, <a class="el" href="../../#l00066">npc_pet_mage_mirror_image::InitializeAI()</a>, <a class="el" href="../../#l00221">boss_apothecary_hummel::boss_apothecary_hummelAI::JustDied()</a>, <a class="el" href="../../#l01645">npc_coren_direbrew::JustDied()</a>, <a class="el" href="../../#l01024">boss_headless_horseman::JustDied()</a>, <a class="el" href="../../#l00202">boss_ahune::JustDied()</a>, <a class="el" href="../../#l00271">boss_four_horsemen::boss_four_horsemenAI::JustDied()</a>, <a class="el" href="../../#l00110">instance_trial_of_the_champion::instance_trial_of_the_champion_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00082">instance_forge_of_souls::instance_forge_of_souls_InstanceScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00111">instance_pit_of_saron::instance_pit_of_saron_InstanceScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00296">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00053">instance_nexus::instance_nexus_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00072">instance_shattered_halls::instance_shattered_halls_InstanceMapScript::OnCreatureCreate()</a>, <a class="el" href="../../#l00699">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::OnGameObjectCreate()</a>, <a class="el" href="../../#l00219">HostileRefMgr::setOnlineOfflineState()</a>, <a class="el" href="../../#l19049">Unit::SetPhaseMask()</a>, <a class="el" href="../../#l00035">HostileRefMgr::threatAssist()</a>, <a class="el" href="../../#l00739">Map::Update()</a>, <a class="el" href="../../#l01696">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::Update()</a>, <a class="el" href="../../#l00666">npc_arthas::npc_arthasAI::UpdateAI()</a>, and <a class="el" href="../../#l00236">HostileRefMgr::UpdateVisibility()</a>.</p>
 
 </div>
 </div>
-<a id="a6ef8a273fb7c7a6fcc930ff3c7b9f995" name="a6ef8a273fb7c7a6fcc930ff3c7b9f995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ef8a273fb7c7a6fcc930ff3c7b9f995">&#9670;&#160;</a></span>operator!=() <span class="overload">[2/3]</span></h2>
+<a id="a0c80169399d27b402ff3ad97305cd337" name="a0c80169399d27b402ff3ad97305cd337"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0c80169399d27b402ff3ad97305cd337">&#9670;&#160;</a></span>getTarget()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator!= </td>
+          <td class="memname">TO * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::getTarget </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&lt; _Ty &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -465,29 +336,65 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  221</span>        {</div>
-<div class="line"><span class="lineno">  222</span>            <span class="comment">// test for iterator inequality</span></div>
-<div class="line"><span class="lineno">  223</span>            <span class="keywordflow">return</span> (!(*<span class="keyword">this</span> == _Right));</div>
-<div class="line"><span class="lineno">  224</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   95</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a>; }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l02885">InstanceMap::CannotEnter()</a>, <a class="el" href="../../#l03260">BattlegroundMap::CannotEnter()</a>, <a class="el" href="../../#l02471">Player::GetGroup()</a>, <a class="el" href="../../#l00515">ThreatMgr::getHostileTarget()</a>, <a class="el" href="../../#l02486">Player::GetOriginalGroup()</a>, <a class="el" href="../../#l00056">ChaseMovementGenerator&lt; T &gt;::GetTarget()</a>, <a class="el" href="../../#l00090">FollowMovementGenerator&lt; T &gt;::GetTarget()</a>, and <a class="el" href="../../#l00317">ThreatContainer::SelectNextVictim()</a>.</p>
+
 </div>
 </div>
-<a id="ad0871764d1b071e7120841c9d1633d2c" name="ad0871764d1b071e7120841c9d1633d2c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0871764d1b071e7120841c9d1633d2c">&#9670;&#160;</a></span>operator!=() <span class="overload">[3/3]</span></h2>
+<a id="ad0fd9597c01faa17a3065cad736a9fdb" name="ad0fd9597c01faa17a3065cad736a9fdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0fd9597c01faa17a3065cad736a9fdb">&#9670;&#160;</a></span>invalidate()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator!= </td>
+          <td class="memname">void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::invalidate </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <a class="code hl_function" href="../../d2/d3d/a05146.html#a62d3b40e39167ed69ba52c102d6d0e1c">sourceObjectDestroyLink</a>();</div>
+<div class="line"><span class="lineno">   75</span>        <a class="code hl_function" href="../../d2/dc4/a05134.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">delink</a>();</div>
+<div class="line"><span class="lineno">   76</span>        <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   77</span>    }</div>
+<div class="ttc" id="aa05134_html_a56583d2ad1e6e3b9b37d1dcbf55d2a10"><div class="ttname"><a href="../../d2/dc4/a05134.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">LinkedListElement::delink</a></div><div class="ttdeci">void delink()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:52</div></div>
+<div class="ttc" id="aa05146_html_a62d3b40e39167ed69ba52c102d6d0e1c"><div class="ttname"><a href="../../d2/d3d/a05146.html#a62d3b40e39167ed69ba52c102d6d0e1c">Reference::sourceObjectDestroyLink</a></div><div class="ttdeci">virtual void sourceObjectDestroyLink()=0</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">LinkedListElement::delink()</a>, <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>, and <a class="el" href="../../d2/d3d/a05146.html#a62d3b40e39167ed69ba52c102d6d0e1c">Reference&lt; TO, FROM &gt;::sourceObjectDestroyLink()</a>.</p>
+
+</div>
+</div>
+<a id="a7442537bff6150984bac268a456c642d" name="a7442537bff6150984bac268a456c642d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7442537bff6150984bac268a456c642d">&#9670;&#160;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -497,26 +404,88 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  233</span>        {</div>
-<div class="line"><span class="lineno">  234</span>            <span class="comment">// test for pointer equality</span></div>
-<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">return</span> (!(*<span class="keyword">this</span> == _Right));</div>
-<div class="line"><span class="lineno">  236</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
+<div class="line"><span class="lineno">   81</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a> != <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   82</span>    }</div>
 </div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l01421">Group::CountTheRoll()</a>, <a class="el" href="../../#l00354">GridObject&lt; T &gt;::IsInGrid()</a>, and <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>.</p>
+
 </div>
 </div>
-<a id="ac3207463bfe747a59fe31257185478ec" name="ac3207463bfe747a59fe31257185478ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac3207463bfe747a59fe31257185478ec">&#9670;&#160;</a></span>operator*()</h2>
+<a id="a6c7a8395a8f77e33772959f068296aaf" name="a6c7a8395a8f77e33772959f068296aaf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c7a8395a8f77e33772959f068296aaf">&#9670;&#160;</a></span>link()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html#a70eac4878b3b65e97e1af190b5085280">reference</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator* </td>
+          <td class="memname">void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::link </td>
+          <td>(</td>
+          <td class="paramtype">TO *&#160;</td>
+          <td class="paramname"><em>toObj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">FROM *&#160;</td>
+          <td class="paramname"><em>fromObj</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   46</span>    {</div>
+<div class="line"><span class="lineno">   47</span>        <a class="code hl_define" href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a>(fromObj);                                <span class="comment">// fromObj MUST not be nullptr</span></div>
+<div class="line"><span class="lineno">   48</span>        <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d2/d3d/a05146.html#a7442537bff6150984bac268a456c642d">isValid</a>())</div>
+<div class="line"><span class="lineno">   49</span>        {</div>
+<div class="line"><span class="lineno">   50</span>            <a class="code hl_function" href="../../d2/d3d/a05146.html#a0d526083a41a1297b65cc0883cdac514">unlink</a>();</div>
+<div class="line"><span class="lineno">   51</span>        }</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">if</span> (toObj != <span class="keyword">nullptr</span>)</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a> = toObj;</div>
+<div class="line"><span class="lineno">   55</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">iRefFrom</a> = fromObj;</div>
+<div class="line"><span class="lineno">   56</span>            <a class="code hl_function" href="../../d2/d3d/a05146.html#ab736ba370b22c03d17452681dd29c272">targetObjectBuildLink</a>();</div>
+<div class="line"><span class="lineno">   57</span>        }</div>
+<div class="line"><span class="lineno">   58</span>    }</div>
+<div class="ttc" id="aa00011_html_af343b20373ba49a92fce523e948f2ab3"><div class="ttname"><a href="../../da/d45/a00011.html#af343b20373ba49a92fce523e948f2ab3">ASSERT</a></div><div class="ttdeci">#define ASSERT</div><div class="ttdef"><b>Definition:</b> Errors.h:68</div></div>
+<div class="ttc" id="aa05146_html_a0d526083a41a1297b65cc0883cdac514"><div class="ttname"><a href="../../d2/d3d/a05146.html#a0d526083a41a1297b65cc0883cdac514">Reference::unlink</a></div><div class="ttdeci">void unlink()</div><div class="ttdef"><b>Definition:</b> Reference.h:62</div></div>
+<div class="ttc" id="aa05146_html_a7442537bff6150984bac268a456c642d"><div class="ttname"><a href="../../d2/d3d/a05146.html#a7442537bff6150984bac268a456c642d">Reference::isValid</a></div><div class="ttdeci">bool isValid() const</div><div class="ttdef"><b>Definition:</b> Reference.h:79</div></div>
+<div class="ttc" id="aa05146_html_ab736ba370b22c03d17452681dd29c272"><div class="ttname"><a href="../../d2/d3d/a05146.html#ab736ba370b22c03d17452681dd29c272">Reference::targetObjectBuildLink</a></div><div class="ttdeci">virtual void targetObjectBuildLink()=0</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00068">ASSERT</a>, <a class="el" href="../../#l00030">Reference&lt; TO, FROM &gt;::iRefFrom</a>, <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>, <a class="el" href="../../#l00079">Reference&lt; TO, FROM &gt;::isValid()</a>, <a class="el" href="../../d2/d3d/a05146.html#ab736ba370b22c03d17452681dd29c272">Reference&lt; TO, FROM &gt;::targetObjectBuildLink()</a>, and <a class="el" href="../../#l00062">Reference&lt; TO, FROM &gt;::unlink()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00355">GridObject&lt; T &gt;::AddToGrid()</a>, <a class="el" href="../../#l00060">NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt;::link()</a>, <a class="el" href="../../#l13135">Player::RemoveFromBattlegroundOrBattlefieldRaid()</a>, <a class="el" href="../../#l13119">Player::SetBattlegroundOrBattlefieldRaid()</a>, <a class="el" href="../../#l11595">Player::SetGroup()</a>, <a class="el" href="../../#l14707">Player::SetMap()</a>, <a class="el" href="../../#l13147">Player::SetOriginalGroup()</a>, and <a class="el" href="../../#l00031">TargetedMovementGeneratorBase::TargetedMovementGeneratorBase()</a>.</p>
+
+</div>
+</div>
+<a id="aa46342588ec728398747f253a38ea5c2" name="aa46342588ec728398747f253a38ea5c2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa46342588ec728398747f253a38ea5c2">&#9670;&#160;</a></span>next() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::next </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -528,270 +497,31 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  173</span>        {</div>
-<div class="line"><span class="lineno">  174</span>            <span class="comment">// return designated value</span></div>
-<div class="line"><span class="lineno">  175</span>            <span class="keywordflow">return</span> *<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>;</div>
-<div class="line"><span class="lineno">  176</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   84</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#acbcdd7cb06a928d4d3c23b017abd715d">LinkedListElement::next</a>()); }</div>
+<div class="ttc" id="aa05134_html_acbcdd7cb06a928d4d3c23b017abd715d"><div class="ttname"><a href="../../d2/dc4/a05134.html#acbcdd7cb06a928d4d3c23b017abd715d">LinkedListElement::next</a></div><div class="ttdeci">LinkedListElement * next()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:42</div></div>
+<div class="ttc" id="aa05146_html"><div class="ttname"><a href="../../d2/d3d/a05146.html">Reference</a></div><div class="ttdef"><b>Definition:</b> Reference.h:27</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00042">LinkedListElement::next()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00036">GroupReference::next()</a>, and <a class="el" href="../../#l00046">MapReference::next()</a>.</p>
 
 </div>
 </div>
-<a id="af47b128c02fd9c806de9432e3adef40a" name="af47b128c02fd9c806de9432e3adef40a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af47b128c02fd9c806de9432e3adef40a">&#9670;&#160;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+<a id="a445818b89801126a3c554979fa4f2d5c" name="a445818b89801126a3c554979fa4f2d5c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a445818b89801126a3c554979fa4f2d5c">&#9670;&#160;</a></span>next() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator++ </td>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::next </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  185</span>        {</div>
-<div class="line"><span class="lineno">  186</span>            <span class="comment">// preincrement</span></div>
-<div class="line"><span class="lineno">  187</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> = <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>-&gt;next();</div>
-<div class="line"><span class="lineno">  188</span>            <span class="keywordflow">return</span> (*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  189</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="a4c830fe0c8386711c5a8e3839a20ddbd" name="a4c830fe0c8386711c5a8e3839a20ddbd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c830fe0c8386711c5a8e3839a20ddbd">&#9670;&#160;</a></span>operator++() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator++ </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  192</span>        {</div>
-<div class="line"><span class="lineno">  193</span>            <span class="comment">// postincrement</span></div>
-<div class="line"><span class="lineno">  194</span>            <a class="code hl_typedef" href="../../d5/d6d/a05142.html#a57ec2565e503df8ef86e1df2889c8ee3">iterator</a> _Tmp = *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  195</span>            ++*<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  196</span>            <span class="keywordflow">return</span> (_Tmp);</div>
-<div class="line"><span class="lineno">  197</span>        }</div>
-<div class="ttc" id="aa05142_html_a57ec2565e503df8ef86e1df2889c8ee3"><div class="ttname"><a href="../../d5/d6d/a05142.html#a57ec2565e503df8ef86e1df2889c8ee3">LinkedListHead::iterator</a></div><div class="ttdeci">Iterator&lt; LinkedListElement &gt; iterator</div><div class="ttdef"><b>Definition:</b> LinkedList.h:260</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="aff33d5992d301471ff7705359f69ad36" name="aff33d5992d301471ff7705359f69ad36"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff33d5992d301471ff7705359f69ad36">&#9670;&#160;</a></span>operator--() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  200</span>        {</div>
-<div class="line"><span class="lineno">  201</span>            <span class="comment">// predecrement</span></div>
-<div class="line"><span class="lineno">  202</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> = <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>-&gt;prev();</div>
-<div class="line"><span class="lineno">  203</span>            <span class="keywordflow">return</span> (*<span class="keyword">this</span>);</div>
-<div class="line"><span class="lineno">  204</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="a9ea2ddbb10a0cb1371da508b14644e4d" name="a9ea2ddbb10a0cb1371da508b14644e4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ea2ddbb10a0cb1371da508b14644e4d">&#9670;&#160;</a></span>operator--() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator-- </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  207</span>        {</div>
-<div class="line"><span class="lineno">  208</span>            <span class="comment">// postdecrement</span></div>
-<div class="line"><span class="lineno">  209</span>            <a class="code hl_typedef" href="../../d5/d6d/a05142.html#a57ec2565e503df8ef86e1df2889c8ee3">iterator</a> _Tmp = *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  210</span>            --*<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  211</span>            <span class="keywordflow">return</span> (_Tmp);</div>
-<div class="line"><span class="lineno">  212</span>        }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a7077ed836fee057a3666ec16ba14ce01" name="a7077ed836fee057a3666ec16ba14ce01"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7077ed836fee057a3666ec16ba14ce01">&#9670;&#160;</a></span>operator-&gt;()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator-&gt; </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  179</span>        {</div>
-<div class="line"><span class="lineno">  180</span>            <span class="comment">// return pointer to class object</span></div>
-<div class="line"><span class="lineno">  181</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a>;</div>
-<div class="line"><span class="lineno">  182</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="a5c36796e002431ddde621c6775b16f46" name="a5c36796e002431ddde621c6775b16f46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5c36796e002431ddde621c6775b16f46">&#9670;&#160;</a></span>operator=() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#ac036f8ac7b4ff2112eb77d23de5140d6">const_pointer</a> const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  167</span>        {</div>
-<div class="line"><span class="lineno">  168</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> = <a class="code hl_typedef" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a>(_Right);</div>
-<div class="line"><span class="lineno">  169</span>            <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  170</span>        }</div>
-<div class="ttc" id="aa05146_html_aff5cd5ea86459f0924cec0a48ba5e840"><div class="ttname"><a href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">LinkedListHead::Iterator::pointer</a></div><div class="ttdeci">_Ty * pointer</div><div class="ttdef"><b>Definition:</b> LinkedList.h:145</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="ab9ec3c8ac13511b4b294d1ea31ab5c46" name="ab9ec3c8ac13511b4b294d1ea31ab5c46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ec3c8ac13511b4b294d1ea31ab5c46">&#9670;&#160;</a></span>operator=() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a> &amp; <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&lt; _Ty &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  161</span>        {</div>
-<div class="line"><span class="lineno">  162</span>            <a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> = _Right._Ptr;</div>
-<div class="line"><span class="lineno">  163</span>            <span class="keywordflow">return</span> *<span class="keyword">this</span>;</div>
-<div class="line"><span class="lineno">  164</span>        }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
-
-</div>
-</div>
-<a id="a56333c672e75a65c0ffebd4df6736fe6" name="a56333c672e75a65c0ffebd4df6736fe6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56333c672e75a65c0ffebd4df6736fe6">&#9670;&#160;</a></span>operator==() <span class="overload">[1/3]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class _Ty &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator== </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#a08df6fce951ba2b79a28b60ba4a99866">const_reference</a>&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -801,31 +531,58 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  239</span>        {</div>
-<div class="line"><span class="lineno">  240</span>            <span class="comment">// test for reference equality</span></div>
-<div class="line"><span class="lineno">  241</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> == &amp;_Right);</div>
-<div class="line"><span class="lineno">  242</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   85</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#acbcdd7cb06a928d4d3c23b017abd715d">LinkedListElement::next</a>()); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00042">LinkedListElement::next()</a>.</p>
 
 </div>
 </div>
-<a id="ae2e95b080e86f7fb956940aaf7940e55" name="ae2e95b080e86f7fb956940aaf7940e55"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2e95b080e86f7fb956940aaf7940e55">&#9670;&#160;</a></span>operator==() <span class="overload">[2/3]</span></h2>
+<a id="a92e555b953124c7a5d182fe6d46a48af" name="a92e555b953124c7a5d182fe6d46a48af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a92e555b953124c7a5d182fe6d46a48af">&#9670;&#160;</a></span>nocheck_next() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator== </td>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::nocheck_next </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&lt; _Ty &gt; const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   89</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#a36ba2530546c52b5ef3ea91bb45f7c9c">LinkedListElement::nocheck_next</a>()); }</div>
+<div class="ttc" id="aa05134_html_a36ba2530546c52b5ef3ea91bb45f7c9c"><div class="ttname"><a href="../../d2/dc4/a05134.html#a36ba2530546c52b5ef3ea91bb45f7c9c">LinkedListElement::nocheck_next</a></div><div class="ttdeci">LinkedListElement * nocheck_next()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:47</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00047">LinkedListElement::nocheck_next()</a>.</p>
+
+</div>
+</div>
+<a id="a50fdc647f84c35ac8efba921d070aee9" name="a50fdc647f84c35ac8efba921d070aee9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a50fdc647f84c35ac8efba921d070aee9">&#9670;&#160;</a></span>nocheck_next() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::nocheck_next </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -835,31 +592,60 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  215</span>        {</div>
-<div class="line"><span class="lineno">  216</span>            <span class="comment">// test for iterator equality</span></div>
-<div class="line"><span class="lineno">  217</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> == _Right._Ptr);</div>
-<div class="line"><span class="lineno">  218</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   90</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#a36ba2530546c52b5ef3ea91bb45f7c9c">LinkedListElement::nocheck_next</a>()); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00047">LinkedListElement::nocheck_next()</a>.</p>
 
 </div>
 </div>
-<a id="a7c52129ec69cce82cf5151257cadcce8" name="a7c52129ec69cce82cf5151257cadcce8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7c52129ec69cce82cf5151257cadcce8">&#9670;&#160;</a></span>operator==() <span class="overload">[3/3]</span></h2>
+<a id="a8dfab51315197a0731fe630da2ec2522" name="a8dfab51315197a0731fe630da2ec2522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfab51315197a0731fe630da2ec2522">&#9670;&#160;</a></span>nocheck_prev() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::operator== </td>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::nocheck_prev </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> const &amp;&#160;</td>
-          <td class="paramname"><em>_Right</em></td><td>)</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   91</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#abe1be90c1bf7b22096e611ef46b5dfb4">LinkedListElement::nocheck_prev</a>()); }</div>
+<div class="ttc" id="aa05134_html_abe1be90c1bf7b22096e611ef46b5dfb4"><div class="ttname"><a href="../../d2/dc4/a05134.html#abe1be90c1bf7b22096e611ef46b5dfb4">LinkedListElement::nocheck_prev</a></div><div class="ttdeci">LinkedListElement * nocheck_prev()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:49</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">LinkedListElement::nocheck_prev()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00049">MapReference::nocheck_prev()</a>, and <a class="el" href="../../#l00048">MapReference::nockeck_prev()</a>.</p>
+
+</div>
+</div>
+<a id="afeefe7d7eb64f04200ffb1adb9e54858" name="afeefe7d7eb64f04200ffb1adb9e54858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afeefe7d7eb64f04200ffb1adb9e54858">&#9670;&#160;</a></span>nocheck_prev() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::nocheck_prev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
           <td> const</td>
         </tr>
       </table>
@@ -869,39 +655,284 @@ template&lt;class _Ty &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  227</span>        {</div>
-<div class="line"><span class="lineno">  228</span>            <span class="comment">// test for pointer equality</span></div>
-<div class="line"><span class="lineno">  229</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d2/d3d/a05146.html#a782629b43ea96169aab42f895e79c473">_Ptr</a> != _Right);</div>
-<div class="line"><span class="lineno">  230</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno">   92</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#abe1be90c1bf7b22096e611ef46b5dfb4">LinkedListElement::nocheck_prev</a>()); }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00257">LinkedListHead::Iterator&lt; _Ty &gt;::_Ptr</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00049">LinkedListElement::nocheck_prev()</a>.</p>
+
+</div>
+</div>
+<a id="ae6b72c9c0638f5cc700907496c093e03" name="ae6b72c9c0638f5cc700907496c093e03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae6b72c9c0638f5cc700907496c093e03">&#9670;&#160;</a></span>operator-&gt;()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TO * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::operator-&gt; </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   94</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a>; }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>.</p>
+
+</div>
+</div>
+<a id="a11737e30bd5e1cd55a685ec37b27d4f5" name="a11737e30bd5e1cd55a685ec37b27d4f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11737e30bd5e1cd55a685ec37b27d4f5">&#9670;&#160;</a></span>prev() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::prev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   86</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#a78fb6e3984ca951c45fb48781f2a6861">LinkedListElement::prev</a>()); }</div>
+<div class="ttc" id="aa05134_html_a78fb6e3984ca951c45fb48781f2a6861"><div class="ttname"><a href="../../d2/dc4/a05134.html#a78fb6e3984ca951c45fb48781f2a6861">LinkedListElement::prev</a></div><div class="ttdeci">LinkedListElement * prev()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:44</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">LinkedListElement::prev()</a>.</p>
+
+</div>
+</div>
+<a id="a0f6b8a68c4e4ab2aa7a333b81fe7ec2b" name="a0f6b8a68c4e4ab2aa7a333b81fe7ec2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f6b8a68c4e4ab2aa7a333b81fe7ec2b">&#9670;&#160;</a></span>prev() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::prev </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   87</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../d2/d3d/a05146.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d2/dc4/a05134.html#a78fb6e3984ca951c45fb48781f2a6861">LinkedListElement::prev</a>()); }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00044">LinkedListElement::prev()</a>.</p>
+
+</div>
+</div>
+<a id="a62d3b40e39167ed69ba52c102d6d0e1c" name="a62d3b40e39167ed69ba52c102d6d0e1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62d3b40e39167ed69ba52c102d6d0e1c">&#9670;&#160;</a></span>sourceObjectDestroyLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::sourceObjectDestroyLink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d7f/a07682.html#a8c708097d72791957ffc93f4d0fcb742">HostileReference</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; OBJECT &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; Corpse &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; Creature &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; DynamicObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; GameObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; Player &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; T &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a96cb6e8287ceba4de31681bddb1e5838">GridReference&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;</a>, <a class="el" href="../../dc/d37/a09294.html#a458157654c27def9b36b68ae099ca7b3">GroupReference</a>, <a class="el" href="../../d4/db0/a09482.html#a8833022cf1acf786c06f1580fbe11c24">LootValidatorRef</a>, <a class="el" href="../../d0/df8/a09638.html#ade5aa7b9b67ab49e523e4885460c3917">MapReference</a>, and <a class="el" href="../../da/d38/a09714.html#a575a5bac090f5bc5b3f2a721aa64ef42">FollowerReference</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00072">Reference&lt; TO, FROM &gt;::invalidate()</a>.</p>
+
+</div>
+</div>
+<a id="ab736ba370b22c03d17452681dd29c272" name="ab736ba370b22c03d17452681dd29c272"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab736ba370b22c03d17452681dd29c272">&#9670;&#160;</a></span>targetObjectBuildLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::targetObjectBuildLink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../dd/dc7/a09278.html#a2dc422a05158521f857caf7dce005f72">Roll</a>, <a class="el" href="../../df/d7f/a07682.html#a6a14c74aa1fa05efdc330a7570c99910">HostileReference</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; OBJECT &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; Corpse &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; Creature &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; DynamicObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; GameObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; Player &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; T &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#a16dc6dc9a5a7bfcd5de9691ad469f5f8">GridReference&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;</a>, <a class="el" href="../../dc/d37/a09294.html#aa7c8acd113fefc7b6d2b9dff94bb047c">GroupReference</a>, <a class="el" href="../../d0/df8/a09638.html#acc64fa182a97583a2d9b78d54ec07ca0">MapReference</a>, and <a class="el" href="../../da/d38/a09714.html#abf8c86604c3ef4349567c736090402f6">FollowerReference</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>.</p>
+
+</div>
+</div>
+<a id="a52a3c2641e37ee5b214f3a453996af13" name="a52a3c2641e37ee5b214f3a453996af13"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a3c2641e37ee5b214f3a453996af13">&#9670;&#160;</a></span>targetObjectDestroyLink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::targetObjectDestroyLink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d7f/a07682.html#a2fbcd4b88a86e22e3cf805cf199b1fd7">HostileReference</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; OBJECT &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; Corpse &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; Creature &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; DynamicObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; GameObject &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; Player &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; T &gt;</a>, <a class="el" href="../../d9/d07/a08930.html#ac4c863d059b5c826e9597056dc7c887a">GridReference&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;</a>, <a class="el" href="../../dc/d37/a09294.html#a4c15e8dbb9f990f9ab66c5e1466d0616">GroupReference</a>, <a class="el" href="../../d4/db0/a09482.html#a93baac45dcb801215c28ac0dba097eba">LootValidatorRef</a>, <a class="el" href="../../d0/df8/a09638.html#aaa51bc8d8b47e0bbe5cfa828e4ae6604">MapReference</a>, and <a class="el" href="../../da/d38/a09714.html#a5cb0bab8be8116b9a489a4922c44c5c8">FollowerReference</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00062">Reference&lt; TO, FROM &gt;::unlink()</a>.</p>
+
+</div>
+</div>
+<a id="a0d526083a41a1297b65cc0883cdac514" name="a0d526083a41a1297b65cc0883cdac514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0d526083a41a1297b65cc0883cdac514">&#9670;&#160;</a></span>unlink()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::unlink </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   63</span>    {</div>
+<div class="line"><span class="lineno">   64</span>        <a class="code hl_function" href="../../d2/d3d/a05146.html#a52a3c2641e37ee5b214f3a453996af13">targetObjectDestroyLink</a>();</div>
+<div class="line"><span class="lineno">   65</span>        <a class="code hl_function" href="../../d2/dc4/a05134.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">delink</a>();</div>
+<div class="line"><span class="lineno">   66</span>        <a class="code hl_variable" href="../../d2/d3d/a05146.html#ad83d93dae57a788a2a792c6848131059">iRefTo</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   67</span>        <a class="code hl_variable" href="../../d2/d3d/a05146.html#af2e195ca96921a8914dadad14bb87375">iRefFrom</a> = <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   68</span>    }</div>
+<div class="ttc" id="aa05146_html_a52a3c2641e37ee5b214f3a453996af13"><div class="ttname"><a href="../../d2/d3d/a05146.html#a52a3c2641e37ee5b214f3a453996af13">Reference::targetObjectDestroyLink</a></div><div class="ttdeci">virtual void targetObjectDestroyLink()=0</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00052">LinkedListElement::delink()</a>, <a class="el" href="../../#l00030">Reference&lt; TO, FROM &gt;::iRefFrom</a>, <a class="el" href="../../#l00029">Reference&lt; TO, FROM &gt;::iRefTo</a>, and <a class="el" href="../../d2/d3d/a05146.html#a52a3c2641e37ee5b214f3a453996af13">Reference&lt; TO, FROM &gt;::targetObjectDestroyLink()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>, <a class="el" href="../../#l13135">Player::RemoveFromBattlegroundOrBattlefieldRaid()</a>, <a class="el" href="../../#l00356">GridObject&lt; T &gt;::RemoveFromGrid()</a>, <a class="el" href="../../#l14695">Player::ResetMap()</a>, <a class="el" href="../../#l13119">Player::SetBattlegroundOrBattlefieldRaid()</a>, <a class="el" href="../../#l11595">Player::SetGroup()</a>, and <a class="el" href="../../#l13147">Player::SetOriginalGroup()</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a782629b43ea96169aab42f895e79c473" name="a782629b43ea96169aab42f895e79c473"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a782629b43ea96169aab42f895e79c473">&#9670;&#160;</a></span>_Ptr</h2>
+<a id="af2e195ca96921a8914dadad14bb87375" name="af2e195ca96921a8914dadad14bb87375"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2e195ca96921a8914dadad14bb87375">&#9670;&#160;</a></span>iRefFrom</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class _Ty &gt; </div>
+template&lt;class TO , class FROM &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d2/d3d/a05146.html#aff5cd5ea86459f0924cec0a48ba5e840">pointer</a> <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; _Ty &gt;::_Ptr</td>
+          <td class="memname">FROM* <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::iRefFrom</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00250">LinkedListHead::Iterator&lt; _Ty &gt;::_Mynode()</a>, <a class="el" href="../../#l00244">LinkedListHead::Iterator&lt; _Ty &gt;::operator!=()</a>, <a class="el" href="../../#l00172">LinkedListHead::Iterator&lt; _Ty &gt;::operator*()</a>, <a class="el" href="../../#l00184">LinkedListHead::Iterator&lt; _Ty &gt;::operator++()</a>, <a class="el" href="../../#l00199">LinkedListHead::Iterator&lt; _Ty &gt;::operator--()</a>, <a class="el" href="../../#l00178">LinkedListHead::Iterator&lt; _Ty &gt;::operator-&gt;()</a>, <a class="el" href="../../#l00160">LinkedListHead::Iterator&lt; _Ty &gt;::operator=()</a>, and <a class="el" href="../../#l00214">LinkedListHead::Iterator&lt; _Ty &gt;::operator==()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00097">Reference&lt; TO, FROM &gt;::GetSource()</a>, <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>, <a class="el" href="../../#l00041">Reference&lt; TO, FROM &gt;::Reference()</a>, and <a class="el" href="../../#l00062">Reference&lt; TO, FROM &gt;::unlink()</a>.</p>
+
+</div>
+</div>
+<a id="ad83d93dae57a788a2a792c6848131059" name="ad83d93dae57a788a2a792c6848131059"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad83d93dae57a788a2a792c6848131059">&#9670;&#160;</a></span>iRefTo</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class TO , class FROM &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">TO* <a class="el" href="../../d2/d3d/a05146.html">Reference</a>&lt; TO, FROM &gt;::iRefTo</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p class="reference">Referenced by <a class="el" href="../../#l00095">Reference&lt; TO, FROM &gt;::getTarget()</a>, <a class="el" href="../../#l00072">Reference&lt; TO, FROM &gt;::invalidate()</a>, <a class="el" href="../../#l00079">Reference&lt; TO, FROM &gt;::isValid()</a>, <a class="el" href="../../#l00045">Reference&lt; TO, FROM &gt;::link()</a>, <a class="el" href="../../#l00094">Reference&lt; TO, FROM &gt;::operator-&gt;()</a>, <a class="el" href="../../#l00041">Reference&lt; TO, FROM &gt;::Reference()</a>, and <a class="el" href="../../#l00062">Reference&lt; TO, FROM &gt;::unlink()</a>.</p>
 
 </div>
 </div>
@@ -910,8 +941,8 @@ template&lt;class _Ty &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d5/d6d/a05142.html">LinkedListHead</a></li><li class="navelem"><a class="el" href="../../d2/d3d/a05146.html">Iterator</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:34 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d2/d3d/a05146.html">Reference</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:15 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

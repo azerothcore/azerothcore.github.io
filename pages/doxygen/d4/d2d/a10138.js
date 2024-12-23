@@ -1,6 +1,6 @@
 var a10138 =
 [
-    [ "WeatherScript", "d4/d2d/a10138.html#a4f86b051364c95f5389d7ed473429b7b", null ],
-    [ "IsDatabaseBound", "d4/d2d/a10138.html#a2547902149ce080711ccacb709b10e8a", null ],
-    [ "OnChange", "d4/d2d/a10138.html#a10c105f1e1bff1e9fe484e98b00cf76c", null ]
+    [ "LootScript", "d4/d2d/a10138.html#a57fd5dffc97f62a595f0ff4c2856dbd4", null ],
+    [ "IsDatabaseBound", "d4/d2d/a10138.html#ad60b605eac89be48efd339127e9cb9cd", null ],
+    [ "OnLootMoney", "d4/d2d/a10138.html#a56a57baead49f6815a9979b181a55375", null ]
 ];

@@ -1,8 +1,6 @@
 var a19266 =
 [
-    [ "dark_rune_protectorsAI", "d6/d4c/a19266.html#ae2f3cfd19e565ede132e38f439a930ba", null ],
-    [ "JustEngagedWith", "d6/d4c/a19266.html#aa71514efa488ff8f9276cb2a4c166759", null ],
-    [ "Reset", "d6/d4c/a19266.html#a88305b8ac016175d61a0387d1888671f", null ],
-    [ "UpdateAI", "d6/d4c/a19266.html#a0e27fc91a01362ee58a0eb10fb9a5176", null ],
-    [ "events", "d6/d4c/a19266.html#a2836d6f142a322dae0aed9ff6a4888e2", null ]
+    [ "boss_maiden_of_griefAI", "da/da3/a19270.html", "da/da3/a19270" ],
+    [ "boss_maiden_of_grief", "d6/d4c/a19266.html#a8361e4961ac1da09b803ca9e7fc67f95", null ],
+    [ "GetAI", "d6/d4c/a19266.html#af8d2e6392a0c73add801910945b2558e", null ]
 ];

@@ -1,6 +1,7 @@
 var a16934 =
 [
-    [ "npc_dark_nucleusAI", "dc/d7d/a16938.html", "dc/d7d/a16938" ],
-    [ "npc_dark_nucleus", "d1/d23/a16934.html#a14459f4f41ef568decbc952fdcd4ffd5", null ],
-    [ "GetAI", "d1/d23/a16934.html#a1f59ae45c1a84a6faca5a8bb62fc16fc", null ]
+    [ "HandlePeriodic", "d1/d23/a16934.html#a2087e4de62f7aabb72315e92c28c7bd6", null ],
+    [ "PrepareAuraScript", "d1/d23/a16934.html#ab71db011b1cc1f3a2e85cd6b6f115242", null ],
+    [ "Register", "d1/d23/a16934.html#ad8a16d599a11fa4409d132f66e37e04e", null ],
+    [ "Validate", "d1/d23/a16934.html#afe821a7eb4eaf959d803c7c846f3bdf0", null ]
 ];

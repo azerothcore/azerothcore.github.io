@@ -4,7 +4,7 @@ var searchData=
   ['base_5fmaxdamage_1',['BASE_MAXDAMAGE',['../de/d3d/a03515.html#ab29c54715d6bd3adbe462b0a9773530c',1,'Unit.h']]],
   ['base_5fmindamage_2',['BASE_MINDAMAGE',['../de/d3d/a03515.html#af86b0f98f2f6241146c8006a7a9f6f4c',1,'Unit.h']]],
   ['battleground_5fupdate_5finterval_3',['BATTLEGROUND_UPDATE_INTERVAL',['../db/d49/a03737.html#a0d902c83a67b6fe19e8257bb23cef6bc',1,'Battleground.h']]],
-  ['beforespellhitfn_4',['BeforeSpellHitFn',['../d5/dd8/a03083.html#a1c689e0b0dba326dd700a7ad62303d26',1,'SpellScript.h']]],
+  ['beforespellhitfn_4',['BeforeSpellHitFn',['../d7/d54/a03089.html#a1c689e0b0dba326dd700a7ad62303d26',1,'SpellScript.h']]],
   ['berserking_5fbuff_5frespawn_5ftime_5',['BERSERKING_BUFF_RESPAWN_TIME',['../db/d49/a03737.html#ab01c53aafb7c5dd0eab9a4ba908cda4c',1,'Battleground.h']]],
   ['bg_5fav_5fcaptime_6',['BG_AV_CAPTIME',['../de/d79/a03761.html#adba9089f02e391f1f399363010d17252',1,'BattlegroundAV.h']]],
   ['bg_5fav_5fget_5fcommander_7',['BG_AV_GET_COMMANDER',['../de/d79/a03761.html#a3864f63a19a39505b3a45326ddb31d21',1,'BattlegroundAV.h']]],

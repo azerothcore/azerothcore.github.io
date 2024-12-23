@@ -1,6 +1,6 @@
 var a21442 =
 [
-    [ "SACActivateEvent", "d4/dfe/a21442.html#a7e5ba22c5500337f14ae067e2b404c5a", null ],
-    [ "Execute", "d4/dfe/a21442.html#ad3e4092941e8cd8953fdc251e97c458a", null ],
-    [ "_owner", "d4/dfe/a21442.html#ae930bd1f603ea296c5ccabd6fbd299f8", null ]
+    [ "npc_injured_7th_legion_soldierAI", "d5/de1/a21446.html", "d5/de1/a21446" ],
+    [ "npc_injured_7th_legion_soldier", "d4/dfe/a21442.html#a9d3c647f485dbca5efeec8f784efba1b", null ],
+    [ "GetAI", "d4/dfe/a21442.html#a0feca7aedcf3c07253d4d402266189cc", null ]
 ];

@@ -1,7 +1,6 @@
 var a15894 =
 [
-    [ "HandleAfterEffectAbsorb", "d2/dc0/a15894.html#ab3d9f3679931b4b3b29713602d08701d", null ],
-    [ "PrepareAuraScript", "d2/dc0/a15894.html#a10ee3cda9edfec8140b94e13b88266bd", null ],
-    [ "Register", "d2/dc0/a15894.html#ab68a5ccfb0d96390bb83c329eb849cdd", null ],
-    [ "Validate", "d2/dc0/a15894.html#a87750183d2b2d6adb67bba4a1f767029", null ]
+    [ "HandleScript", "d2/dc0/a15894.html#a647f39eb125537cd7545ab4115be1091", null ],
+    [ "PrepareSpellScript", "d2/dc0/a15894.html#a55dec84643f9bd536c7c73b5909ab303", null ],
+    [ "Register", "d2/dc0/a15894.html#a0077abbe11092b9636c3bb7b5c367946", null ]
 ];

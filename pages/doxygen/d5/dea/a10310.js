@@ -1,9 +1,7 @@
 var a10310 =
 [
-    [ "GuildRoster", "d5/dea/a10310.html#a2161128d6fb6fa53a5129a95ded2b5fc", null ],
-    [ "Write", "d5/dea/a10310.html#a544a539999827d4eb8923cbbcdf42bac", null ],
-    [ "InfoText", "d5/dea/a10310.html#a9d457ee8feb6c173d960b360aca90fc6", null ],
-    [ "MemberData", "d5/dea/a10310.html#a964fc72bf3ada77c171fd1f691449241", null ],
-    [ "RankData", "d5/dea/a10310.html#a67b0a12fae93c5807030c1062f328abb", null ],
-    [ "WelcomeText", "d5/dea/a10310.html#a5ec2c209558d2c34feee4bfd8cda201c", null ]
+    [ "Emote", "d5/dea/a10310.html#acb1620d125ffb11fe43caf4ebf27d1be", null ],
+    [ "Write", "d5/dea/a10310.html#a3f5532f40b59f47423d2b4e3749da88e", null ],
+    [ "EmoteID", "d5/dea/a10310.html#a7f4d3ee4353b408f8c795e6fdc552e76", null ],
+    [ "Guid", "d5/dea/a10310.html#ab96a1c0933e90872f54eb0995098274a", null ]
 ];

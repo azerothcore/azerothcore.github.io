@@ -1,7 +1,7 @@
 var a27894 =
 [
-    [ "EpicPropertiesPoints", "dd/dc2/a27894.html#a35dc60a15091357e03032226621340f7", null ],
-    [ "itemLevel", "dd/dc2/a27894.html#a35506e3235c2c24230058dc2fb9abc4f", null ],
-    [ "RarePropertiesPoints", "dd/dc2/a27894.html#a9359171635ef3e9a0029820fad286368", null ],
-    [ "UncommonPropertiesPoints", "dd/dc2/a27894.html#a74acb6861a84d5d193038eaa5ac9b12f", null ]
+    [ "Id", "dd/dc2/a27894.html#a94843a6f0cb39332f39a9630945f1fc8", null ],
+    [ "SoundBank", "dd/dc2/a27894.html#a1dd2e40caf515186c831dc8cc82c095b", null ],
+    [ "SpellId", "dd/dc2/a27894.html#aa010947f5fbec6867b005b25728e720b", null ],
+    [ "Type", "dd/dc2/a27894.html#a7f610dd6a9944b4634bb981c0cb8e230", null ]
 ];

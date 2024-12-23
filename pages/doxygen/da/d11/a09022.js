@@ -1,8 +1,9 @@
 var a09022 =
 [
-    [ "MostHPMissingInRange", "da/d11/a09022.html#afaa26b685d4e6b0b8d3e7f062ae9fe72", null ],
-    [ "operator()", "da/d11/a09022.html#a420388204d8a1420552b902fbcb2bebe", null ],
-    [ "i_hp", "da/d11/a09022.html#a4a70531f3dc19e7a2eedde0a03142297", null ],
-    [ "i_obj", "da/d11/a09022.html#a6f803fd737b4cc81c7b9c890c49b497e", null ],
-    [ "i_range", "da/d11/a09022.html#acef63da9004997c7f25056651284efa9", null ]
+    [ "CreatureLastSearcher", "da/d11/a09022.html#a422c7a5a2cd4e93f7b0ad31cc4c6555d", null ],
+    [ "Visit", "da/d11/a09022.html#ae6774df4ffff18cd4f3b4c07724db4f4", null ],
+    [ "Visit", "da/d11/a09022.html#a08635cefbba5dca34734569816d2edb8", null ],
+    [ "i_check", "da/d11/a09022.html#a2b9afe2c43af6e68f7fa5ba661790ef9", null ],
+    [ "i_object", "da/d11/a09022.html#ab8a14acb8d0fc9835d1325430fa1a367", null ],
+    [ "i_phaseMask", "da/d11/a09022.html#a9dd25e3437e1c1e5e4c8d68ab3548500", null ]
 ];

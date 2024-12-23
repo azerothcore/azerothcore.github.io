@@ -1,5 +1,5 @@
 var a10222 =
 [
-    [ "LogoutRequest", "d3/d57/a10222.html#ab92b0a8a5d3d076adbd465fcf24b7975", null ],
-    [ "Read", "d3/d57/a10222.html#a84701a16603f8b0f1e8dda1020ec1161", null ]
+    [ "UpdatableScript", "d3/d57/a10222.html#a2d6cf85d1eb98438b5022804296eff11", null ],
+    [ "OnUpdate", "d3/d57/a10222.html#abf328325e08aa0d6adf36e6f70b02328", null ]
 ];

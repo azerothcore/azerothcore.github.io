@@ -1,6 +1,6 @@
 var a17454 =
 [
-    [ "PrepareSpellScript", "de/d40/a17454.html#a9041ce6139de9a48621d6898ddcca673", null ],
-    [ "RecalculateDamage", "de/d40/a17454.html#abfb7c002577a59864fb2aa069b713c0a", null ],
-    [ "Register", "de/d40/a17454.html#a4308449e8cbe7ed59598a837024141cb", null ]
+    [ "npc_darnavanAI", "dc/d9e/a17458.html", "dc/d9e/a17458" ],
+    [ "npc_darnavan", "de/d40/a17454.html#ac358ca123155165395fa5f7ec02c9dab", null ],
+    [ "GetAI", "de/d40/a17454.html#a9eeb6e5fba1e6d671af1f23f443c509a", null ]
 ];

@@ -1,6 +1,6 @@
 var a19834 =
 [
-    [ "npc_ulduar_toasty_fireAI", "d5/d70/a19834.html#a145001c6f1c1d505f810ae545ec62c69", null ],
-    [ "DoAction", "d5/d70/a19834.html#a8ab71582cc5d8386f788fb95203fbab5", null ],
-    [ "SpellHit", "d5/d70/a19834.html#a0e4475382dfd754dc119d2e8dba61b7e", null ]
+    [ "FilterTargets", "d5/d70/a19834.html#adb438b9bcf4be347aeabf6608fbfb8a4", null ],
+    [ "PrepareSpellScript", "d5/d70/a19834.html#a88f5ca3aaa575cff0ba778f9b575d656", null ],
+    [ "Register", "d5/d70/a19834.html#ac7337b4ee8511f72b129fccc83b3241e", null ]
 ];

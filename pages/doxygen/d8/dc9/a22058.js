@@ -1,6 +1,8 @@
 var a22058 =
 [
-    [ "npc_feedin_da_goolzAI", "d6/dbe/a22062.html", "d6/dbe/a22062" ],
-    [ "npc_feedin_da_goolz", "d8/dc9/a22058.html#ace9fd4ca5809c0d47b49fc63ca8363be", null ],
-    [ "GetAI", "d8/dc9/a22058.html#a61ab3189e2525a995a87eec06d45e355", null ]
+    [ "go_wg_vehicle_teleporterAI", "d8/dc9/a22058.html#af84e73765b1a4d810b41613824999186", null ],
+    [ "IsFriendly", "d8/dc9/a22058.html#adca817c8919958db888d5e9c759ad545", null ],
+    [ "IsValidVehicle", "d8/dc9/a22058.html#a3f790a651d5f0c67c5d528828a6bb398", null ],
+    [ "UpdateAI", "d8/dc9/a22058.html#a8d8197cbfa6ab36d269f18020acbc565", null ],
+    [ "_checkTimer", "d8/dc9/a22058.html#a9cbb42b4f29f94e41e80caccd87d95f4", null ]
 ];

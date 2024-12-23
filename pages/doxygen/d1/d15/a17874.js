@@ -1,6 +1,6 @@
 var a17874 =
 [
-    [ "npc_shambling_horror_iccAI", "d2/de8/a17878.html", "d2/de8/a17878" ],
-    [ "npc_shambling_horror_icc", "d1/d15/a17874.html#a68219e0c6e79f5e7bed1f353d7bb5bcb", null ],
-    [ "GetAI", "d1/d15/a17874.html#a96fd525fcb34e793b1fc3fc5179e92ec", null ]
+    [ "VileSpiritActivateEvent", "d1/d15/a17874.html#ac7d37d3b7b3173015a2af9ce93b8f2f9", null ],
+    [ "Execute", "d1/d15/a17874.html#a858892424e1f22fda9a7c519b6a7e0b6", null ],
+    [ "_owner", "d1/d15/a17874.html#a385fc75b5d77d8776d5a8e948fa69724", null ]
 ];

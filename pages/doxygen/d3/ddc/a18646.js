@@ -1,6 +1,7 @@
 var a18646 =
 [
-    [ "npc_boss_gothik_minionAI", "d5/d3d/a18650.html", "d5/d3d/a18650" ],
-    [ "npc_boss_gothik_minion", "d3/ddc/a18646.html#a6cabeae812639ac179133245d85a0e15", null ],
-    [ "GetAI", "d3/ddc/a18646.html#a8abb1ec265f9eeb646a858bee06cfb92", null ]
+    [ "HandleScript", "d3/ddc/a18646.html#a2e5311b631a4cbf6002e27e4a806280c", null ],
+    [ "Launch", "d3/ddc/a18646.html#a575a7bf98b629dd91e7ca96e388eb8fd", null ],
+    [ "PrepareSpellScript", "d3/ddc/a18646.html#ad65642fd7e8b7793f69d041d458fa33f", null ],
+    [ "Register", "d3/ddc/a18646.html#aa8800d8fc050f2914d63c24e555aad4b", null ]
 ];

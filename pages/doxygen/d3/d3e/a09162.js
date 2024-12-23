@@ -1,7 +1,8 @@
 var a09162 =
 [
-    [ "ObjectGUIDCheck", "d3/d3e/a09162.html#a4932b3610ddc148ee5a30a6ce91c6f27", null ],
-    [ "operator()", "d3/d3e/a09162.html#a0f3f6e89a9e621a208cd6795722ae4ef", null ],
-    [ "_equals", "d3/d3e/a09162.html#a413d991eeee0294a54f3c803e296c3ac", null ],
-    [ "_GUID", "d3/d3e/a09162.html#a0e97bfe0e160177549a831df8e9b4555", null ]
+    [ "NearestHostileUnitInAttackDistanceCheck", "d3/d3e/a09162.html#a0b1d14f1347a3749a91ef6e888ccb23e", null ],
+    [ "NearestHostileUnitInAttackDistanceCheck", "d3/d3e/a09162.html#a5645c9808db082b0301ec8b2ea93ce7f", null ],
+    [ "operator()", "d3/d3e/a09162.html#adc28281742cd1f6a49152481b48f944e", null ],
+    [ "m_range", "d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40", null ],
+    [ "me", "d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374", null ]
 ];

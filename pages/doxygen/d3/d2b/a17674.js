@@ -1,6 +1,7 @@
 var a17674 =
 [
-    [ "npc_ice_tombAI", "d8/dc3/a17678.html", "d8/dc3/a17678" ],
-    [ "npc_ice_tomb", "d3/d2b/a17674.html#a939c6083a77a6f4cb2a940ec9c1df55e", null ],
-    [ "GetAI", "d3/d2b/a17674.html#ac99b7c9887e54a1764310bd3e079811a", null ]
+    [ "HandleScript", "d3/d2b/a17674.html#a37b261d0df2829788d8290a9194913f5", null ],
+    [ "PrepareSpellScript", "d3/d2b/a17674.html#a69386dbef57322393a38eec90662135f", null ],
+    [ "Register", "d3/d2b/a17674.html#a5b85b01100d7f7c672c437e4bdfd7a7c", null ],
+    [ "Validate", "d3/d2b/a17674.html#a63c446574c700a895d7fbc5bb2b81508", null ]
 ];

@@ -1,6 +1,6 @@
 var a11074 =
 [
-    [ "EffectSplitHandler", "df/d30/a11074.html#a1e31c0f06961aba66f6737c4b4aca7f6", null ],
-    [ "Call", "df/d30/a11074.html#ae0ef79af01cce82ed3cbe208d98b325a", null ],
-    [ "pEffectHandlerScript", "df/d30/a11074.html#a181c0f987789f3725e7ba7e023cfc4e7", null ]
+    [ "ObjectTargetSelectHandler", "df/d30/a11074.html#abe96c3e266375ab64f8dec54a047a5b8", null ],
+    [ "Call", "df/d30/a11074.html#a7e18103fb5c68b2cf85f54bf7caf4b3b", null ],
+    [ "pObjectTargetSelectHandlerScript", "df/d30/a11074.html#a6982985537c0ddb8dd79647766c9ae70", null ]
 ];

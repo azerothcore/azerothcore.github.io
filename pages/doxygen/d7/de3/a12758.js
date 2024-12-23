@@ -1,7 +1,8 @@
 var a12758 =
 [
-    [ "npc_fairbanksAI", "d7/de3/a12758.html#a7b0b6eb7aafc2a2a793e578b4dca73a7", null ],
-    [ "MoveInLineOfSight", "d7/de3/a12758.html#ab1200fe381ad08c1fe1181d1ba939460", null ],
-    [ "Reset", "d7/de3/a12758.html#a2290dd6189572cddd0597f622582c3a8", null ],
-    [ "SayAshbringer", "d7/de3/a12758.html#a1ae615c8aa568d0cba3bf5259fbd3daf", null ]
+    [ "DelayedSummonEvent", "d7/de3/a12758.html#a5cfa870b670fff17d2241ecb85b2ba6c", null ],
+    [ "Execute", "d7/de3/a12758.html#a65ba0f1a1dc14e07b7b93a71c92ace6b", null ],
+    [ "_entry", "d7/de3/a12758.html#a24d72110a070eb0bd03af081ef616de4", null ],
+    [ "_owner", "d7/de3/a12758.html#a2a21cc6387b3605ed4f09cad80a6168a", null ],
+    [ "_pos", "d7/de3/a12758.html#aef19987803a1cce47cbd8d9005a288ac", null ]
 ];

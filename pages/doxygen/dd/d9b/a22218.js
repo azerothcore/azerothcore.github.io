@@ -1,12 +1,17 @@
 var a22218 =
 [
-    [ "OPvPCapturePointZM_Beacon", "dd/d9b/a22218.html#a9efdfd232e9aa6dd390800bbf0373442", null ],
-    [ "ChangeState", "dd/d9b/a22218.html#a5bbe87c18c814358596a9648fd92b129", null ],
-    [ "FillInitialWorldStates", "dd/d9b/a22218.html#aedeeea5a7c1424a0dff51fe06dfaa23a", null ],
-    [ "HandlePlayerEnter", "dd/d9b/a22218.html#a7042cd6b4c3d57de89e3ae9e0b2cee2a", null ],
-    [ "HandlePlayerLeave", "dd/d9b/a22218.html#a6e5bfb2751f157fc4ebc8338b7cce802", null ],
-    [ "SendChangePhase", "dd/d9b/a22218.html#a0b5ad48fa0d6ddd6c768fb7454b5fb55", null ],
-    [ "UpdateTowerState", "dd/d9b/a22218.html#a9622620e5b969e19ea049ebd3cc4a3dc", null ],
-    [ "m_TowerState", "dd/d9b/a22218.html#a3a41cc34e7a8bd9f0d9d6f86f42a3312", null ],
-    [ "m_TowerType", "dd/d9b/a22218.html#a481e79d61fcdd011632f8f0d37f940bc", null ]
+    [ "OutdoorPvPHP", "dd/d9b/a22218.html#a19118d7facc4a745e391491fb7d95421", null ],
+    [ "FillInitialWorldStates", "dd/d9b/a22218.html#adf60b6367470edb799b18e70f705a757", null ],
+    [ "GetAllianceTowersControlled", "dd/d9b/a22218.html#ae6d3a1561b94d92539a5dd8b5ac56689", null ],
+    [ "GetHordeTowersControlled", "dd/d9b/a22218.html#a9395b6966bcdd36b448ca1c403f17873", null ],
+    [ "HandleKillImpl", "dd/d9b/a22218.html#aad7804f10c42f6643397d673ba4e9bee", null ],
+    [ "HandlePlayerEnterZone", "dd/d9b/a22218.html#a117149e3db7fa02fdcfab05a6ff6de18", null ],
+    [ "HandlePlayerLeaveZone", "dd/d9b/a22218.html#abf21499824ad64aa7a26a4b33090783e", null ],
+    [ "SendRemoveWorldStates", "dd/d9b/a22218.html#ac94c44783b2141c751d5c16a24bce8d4", null ],
+    [ "SetAllianceTowersControlled", "dd/d9b/a22218.html#a1f9bbc083ae0bb7c00a303909ab043f5", null ],
+    [ "SetHordeTowersControlled", "dd/d9b/a22218.html#ae5de375e1ec88dc5ce0059490596a935", null ],
+    [ "SetupOutdoorPvP", "dd/d9b/a22218.html#aee60f1d1da4d6eecd0e66cf975272979", null ],
+    [ "Update", "dd/d9b/a22218.html#aeec44f41e6d6fe7c768bb738a3eafb47", null ],
+    [ "m_AllianceTowersControlled", "dd/d9b/a22218.html#a90c41df874abfee0a4861cf923de9ab5", null ],
+    [ "m_HordeTowersControlled", "dd/d9b/a22218.html#ada8244f57fe3a693d167689d3f921025", null ]
 ];

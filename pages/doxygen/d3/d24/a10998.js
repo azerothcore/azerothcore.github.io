@@ -1,8 +1,13 @@
 var a10998 =
 [
-    [ "EffectHandler", "d3/d24/a10998.html#aebdff9758b3ec51a75220be43b0d7b44", null ],
-    [ "Call", "d3/d24/a10998.html#a7696d64688fa8b10cd58220fdd5fa5ba", null ],
-    [ "CheckEffect", "d3/d24/a10998.html#a8eeff14be65159b6f9a88b04abe14e8b", null ],
-    [ "ToString", "d3/d24/a10998.html#a5b583dc87f0146f06c9a38a5db92f4fb", null ],
-    [ "pEffectHandlerScript", "d3/d24/a10998.html#a88fbf00b2e35c462423ddeff55ac3dee", null ]
+    [ "PetAuraMap", "d3/d24/a10998.html#a6c020340ff467b5f2d00c3b5f9fee817", null ],
+    [ "PetAura", "d3/d24/a10998.html#a8cd7e3284837b30a8a3c6739ab5cb9b3", null ],
+    [ "PetAura", "d3/d24/a10998.html#a79a2f086e2d8dbe1af47716b53df0524", null ],
+    [ "AddAura", "d3/d24/a10998.html#ae33bb99ab341f66fb2f296ccd6617e63", null ],
+    [ "GetAura", "d3/d24/a10998.html#a6f8318410229a89e0b3aa2af28d6cb2b", null ],
+    [ "GetDamage", "d3/d24/a10998.html#a38087712cef92ad55dc84f96e2b9e300", null ],
+    [ "IsRemovedOnChangePet", "d3/d24/a10998.html#adc1b329e1f303b5ad3f353abb4343cdf", null ],
+    [ "auras", "d3/d24/a10998.html#abacd738dfb04687810b981297b1a1567", null ],
+    [ "damage", "d3/d24/a10998.html#a216021a7ad893ae6ca65ea068dd6eedb", null ],
+    [ "removeOnChangePet", "d3/d24/a10998.html#aa5b3219cd2021341ce0910dce81d8b56", null ]
 ];

@@ -1,6 +1,6 @@
 var a01016 =
 [
-    [ "boss_fankriss", "da/df0/a14770.html", "da/df0/a14770" ],
+    [ "boss_fankriss", "d2/d7a/a14826.html", "d2/d7a/a14826" ],
     [ "Misc", "de/def/a01016.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6", [
       [ "DATA_SKILLPOINT_MIN", "d6/dff/a02390.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a3093ddfcacf2742f4fb344843e2e7ce6", null ],
       [ "NEFARIUS_PATH_2", "d5/d2b/a02420.html#a3329d9d369a4ae5cfa5d8eac33a0c0c6a09833188939fe77088ed4fb2cfedb875", null ],

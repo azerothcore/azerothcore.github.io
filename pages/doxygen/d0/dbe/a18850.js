@@ -1,5 +1,6 @@
 var a18850 =
 [
-    [ "at_naxxramas_hub_portal", "d0/dbe/a18850.html#a946086e8a4651240b84526a1b2d54065", null ],
-    [ "OnTrigger", "d0/dbe/a18850.html#af967b0f61b3257c8b8d802d4ed3af1da", null ]
+    [ "FilterTargets", "d0/dbe/a18850.html#a4d5340e7b2e3326ff36b4d61d1faeaa9", null ],
+    [ "PrepareSpellScript", "d0/dbe/a18850.html#a452937a4e95b40366f915213ec475a84", null ],
+    [ "Register", "d0/dbe/a18850.html#a883e383928a9b0ad0aeccf7afee4f15e", null ]
 ];

@@ -1,6 +1,7 @@
 var a16062 =
 [
-    [ "npc_toc_warlockAI", "da/d7e/a16066.html", "da/d7e/a16066" ],
-    [ "npc_toc_warlock", "db/db5/a16062.html#a75ac1d6f6835860fed8a9197fa1cf3c2", null ],
-    [ "GetAI", "db/db5/a16062.html#ad3162c9414be83d53d9513c7aa6b75d7", null ]
+    [ "HandleEffectPeriodic", "db/db5/a16062.html#a7d6d15b8eecfcfb4c36d6504920bd119", null ],
+    [ "PrepareAuraScript", "db/db5/a16062.html#a4506f7d723b85c7555296f5ade11cd29", null ],
+    [ "Register", "db/db5/a16062.html#aeac7e6abc89209e14451439cdf1d416e", null ],
+    [ "Validate", "db/db5/a16062.html#a9d6f9cd0495de03878ed5137542ea89d", null ]
 ];

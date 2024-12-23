@@ -1,6 +1,5 @@
 var a19646 =
 [
-    [ "CheckCast", "d3/d67/a19646.html#a866fd47d51b5fc4c07c3733739d07c02", null ],
-    [ "PrepareSpellScript", "d3/d67/a19646.html#a09cbe962ae1f18811db8c1d32b856c0d", null ],
-    [ "Register", "d3/d67/a19646.html#a240989af43e5ad6eb81d600a2f1d4769", null ]
+    [ "go_ulduar_tower", "d3/d67/a19646.html#afc1add1a0543921f52afe1eb907f5de3", null ],
+    [ "OnDestroyed", "d3/d67/a19646.html#aa72ebefe52d49e5b07fb36232efd7e95", null ]
 ];

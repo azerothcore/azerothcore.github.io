@@ -1,6 +1,9 @@
 var a22398 =
 [
-    [ "HandleScriptEffect", "df/d77/a22398.html#aa60961c2609184e739dea3be8ba992d5", null ],
-    [ "PrepareSpellScript", "df/d77/a22398.html#aacde592314399112786b024153389024", null ],
-    [ "Register", "df/d77/a22398.html#a3a2299da6fd73d14c7771e7a2c8a4ebd", null ]
+    [ "instance_shadow_labyrinth_InstanceMapScript", "df/d77/a22398.html#ada5f19c96bfe623b110389ede032ef53", null ],
+    [ "GetData", "df/d77/a22398.html#ad876ebd581c470f5a3075129076bd1fb", null ],
+    [ "Initialize", "df/d77/a22398.html#a9dc908fdaef98aa6eb81fd1709eee9e4", null ],
+    [ "OnCreatureCreate", "df/d77/a22398.html#a118b4a7a7c872327ec2868c5b0417636", null ],
+    [ "OnUnitDeath", "df/d77/a22398.html#a4275afcc93c5281d9865601a2d9dabaa", null ],
+    [ "_ritualistsAliveCount", "df/d77/a22398.html#a7752d5bfe1d1c5eef2c450df7677a69e", null ]
 ];

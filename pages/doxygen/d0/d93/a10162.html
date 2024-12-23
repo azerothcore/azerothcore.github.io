@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: ScriptObject Class Reference</title>
+<title>AzerothCore: PetScript Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,106 +107,65 @@ $(document).ready(function(){initNavTree('d0/d93/a10162.html','../../'); initRes
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pro-methods">Protected Member Functions</a> &#124;
-<a href="#pri-attribs">Private Attributes</a> &#124;
-<a href="#friends">Friends</a> &#124;
 <a href="../../da/d3a/a10159.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">ScriptObject Class Reference</div></div>
+  <div class="headertitle"><div class="title">PetScript Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">ScriptObject.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">PetScript.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for ScriptObject:</div>
+Inheritance diagram for PetScript:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../d0/d93/a10162.png" usemap="#ScriptObject_map" alt=""/>
-  <map id="ScriptObject_map" name="ScriptObject_map">
-<area href="../../d7/d6a/a09942.html" alt="AccountScript" shape="rect" coords="170,56,330,80"/>
-<area href="../../db/d43/a09946.html" alt="AchievementCriteriaScript" shape="rect" coords="170,112,330,136"/>
-<area href="../../db/da4/a09950.html" alt="AchievementScript" shape="rect" coords="170,168,330,192"/>
-<area href="../../da/d73/a09954.html" alt="AllBattlegroundScript" shape="rect" coords="170,224,330,248"/>
-<area href="../../dd/dbc/a09958.html" alt="AllCommandScript" shape="rect" coords="170,280,330,304"/>
-<area href="../../d2/d5e/a09962.html" alt="AllCreatureScript" shape="rect" coords="170,336,330,360"/>
-<area href="../../df/d5b/a09966.html" alt="AllGameObjectScript" shape="rect" coords="170,392,330,416"/>
-<area href="../../d6/d21/a09970.html" alt="AllItemScript" shape="rect" coords="170,448,330,472"/>
-<area href="../../d9/da8/a09974.html" alt="AllMapScript" shape="rect" coords="170,504,330,528"/>
-<area href="../../d7/db2/a09978.html" alt="AllSpellScript" shape="rect" coords="170,560,330,584"/>
-<area href="../../d1/d52/a09982.html" alt="AreaTriggerScript" shape="rect" coords="170,616,330,640"/>
-<area href="../../d2/d97/a09990.html" alt="ArenaScript" shape="rect" coords="170,672,330,696"/>
-<area href="../../de/dad/a09994.html" alt="ArenaTeamScript" shape="rect" coords="170,728,330,752"/>
-<area href="../../d8/dd6/a09998.html" alt="AuctionHouseScript" shape="rect" coords="170,784,330,808"/>
-<area href="../../dd/daa/a10002.html" alt="BattlegroundMapScript" shape="rect" coords="170,840,330,864"/>
-<area href="../../dd/d45/a10006.html" alt="BattlegroundScript" shape="rect" coords="170,896,330,920"/>
-<area href="../../d9/db8/a10010.html" alt="CommandScript" shape="rect" coords="170,952,330,976"/>
-<area href="../../d0/dcf/a10014.html" alt="ConditionScript" shape="rect" coords="170,1008,330,1032"/>
-<area href="../../d3/d77/a10018.html" alt="CreatureScript" shape="rect" coords="170,1064,330,1088"/>
-<area href="../../d8/d23/a10030.html" alt="DatabaseScript" shape="rect" coords="170,1120,330,1144"/>
-<area href="../../de/d67/a10034.html" alt="DynamicObjectScript" shape="rect" coords="170,1176,330,1200"/>
-<area href="../../da/d8a/a10038.html" alt="ElunaScript" shape="rect" coords="170,1232,330,1256"/>
-<area href="../../df/d1c/a10042.html" alt="FormulaScript" shape="rect" coords="170,1288,330,1312"/>
-<area href="../../dc/d25/a10046.html" alt="GameEventScript" shape="rect" coords="170,1344,330,1368"/>
-<area href="../../de/dff/a10050.html" alt="GameObjectScript" shape="rect" coords="170,1400,330,1424"/>
-<area href="../../d0/d65/a10062.html" alt="GlobalScript" shape="rect" coords="170,1456,330,1480"/>
-<area href="../../d8/d5b/a10066.html" alt="GroupScript" shape="rect" coords="170,1512,330,1536"/>
-<area href="../../df/d2c/a10070.html" alt="GuildScript" shape="rect" coords="170,1568,330,1592"/>
-<area href="../../de/df4/a10074.html" alt="InstanceMapScript" shape="rect" coords="170,1624,330,1648"/>
-<area href="../../d6/dd8/a10078.html" alt="ItemScript" shape="rect" coords="170,1680,330,1704"/>
-<area href="../../d2/d7a/a10082.html" alt="LootScript" shape="rect" coords="170,1736,330,1760"/>
-<area href="../../d7/de1/a10086.html" alt="MailScript" shape="rect" coords="170,1792,330,1816"/>
-<area href="../../d2/dc1/a10090.html" alt="MiscScript" shape="rect" coords="170,1848,330,1872"/>
-<area href="../../d6/d08/a10094.html" alt="ModuleScript" shape="rect" coords="170,1904,330,1928"/>
-<area href="../../d9/dbb/a10098.html" alt="MovementHandlerScript" shape="rect" coords="170,1960,330,1984"/>
-<area href="../../dc/d01/a10102.html" alt="OutdoorPvPScript" shape="rect" coords="170,2016,330,2040"/>
-<area href="../../d7/d08/a10106.html" alt="PetScript" shape="rect" coords="170,2072,330,2096"/>
-<area href="../../d9/d77/a10110.html" alt="PlayerScript" shape="rect" coords="170,2128,330,2152"/>
-<area href="../../d4/d79/a10114.html" alt="ServerScript" shape="rect" coords="170,2184,330,2208"/>
-<area href="../../d6/d82/a10118.html" alt="SpellScriptLoader" shape="rect" coords="170,2240,330,2264"/>
-<area href="../../d1/dab/a10126.html" alt="TransportScript" shape="rect" coords="170,2296,330,2320"/>
-<area href="../../d8/d8e/a10130.html" alt="UnitScript" shape="rect" coords="170,2352,330,2376"/>
-<area href="../../d0/daa/a10134.html" alt="VehicleScript" shape="rect" coords="170,2408,330,2432"/>
-<area href="../../d4/d2d/a10138.html" alt="WeatherScript" shape="rect" coords="170,2464,330,2488"/>
-<area href="../../d6/dd4/a10142.html" alt="WorldMapScript" shape="rect" coords="170,2520,330,2544"/>
-<area href="../../db/d3e/a10146.html" alt="WorldObjectScript" shape="rect" coords="170,2576,330,2600"/>
-<area href="../../d8/d61/a10150.html" alt="WorldScript" shape="rect" coords="170,2632,330,2656"/>
+  <img src="../../d0/d93/a10162.png" usemap="#PetScript_map" alt=""/>
+  <map id="PetScript_map" name="PetScript_map">
+<area href="../../d9/d16/a10218.html" alt="ScriptObject" shape="rect" coords="0,0,82,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
-<tr class="separator:a37da453729d5c8fbe2d06f905563f47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
-<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
-<tr class="separator:a585e75e34aed7aa32205daad85f8fe08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79588d839860d2f5caab60c5f1368f10"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
-<tr class="separator:a79588d839860d2f5caab60c5f1368f10"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69ee35ec7d54226264efef558022c1c0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
-<tr class="separator:a69ee35ec7d54226264efef558022c1c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16fae7cdf068c6e3d9e46882548d4c20"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a16fae7cdf068c6e3d9e46882548d4c20">IsDatabaseBound</a> () const override</td></tr>
+<tr class="separator:a16fae7cdf068c6e3d9e46882548d4c20"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a65a33c4f374f2e9739680ad172118c26"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a65a33c4f374f2e9739680ad172118c26">OnInitStatsForLevel</a> (<a class="el" href="../../dc/da9/a07982.html">Guardian</a> *, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>)</td></tr>
+<tr class="separator:a65a33c4f374f2e9739680ad172118c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1263b06233902fbede9fc5df80cc8ad4"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a1263b06233902fbede9fc5df80cc8ad4">OnCalculateMaxTalentPointsForLevel</a> (<a class="el" href="../../db/d14/a08330.html">Pet</a> *, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;)</td></tr>
+<tr class="separator:a1263b06233902fbede9fc5df80cc8ad4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84cba94813ffa26e1a245b814feb0349"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a84cba94813ffa26e1a245b814feb0349">CanUnlearnSpellSet</a> (<a class="el" href="../../db/d14/a08330.html">Pet</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:a84cba94813ffa26e1a245b814feb0349"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af150efd719bbb619df792ebc6705bb0a"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#af150efd719bbb619df792ebc6705bb0a">CanUnlearnSpellDefault</a> (<a class="el" href="../../db/d14/a08330.html">Pet</a> *, <a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *)</td></tr>
+<tr class="separator:af150efd719bbb619df792ebc6705bb0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4e5e0b19285573753ef6e9b7e8fd535"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ab4e5e0b19285573753ef6e9b7e8fd535">CanResetTalents</a> (<a class="el" href="../../db/d14/a08330.html">Pet</a> *)</td></tr>
+<tr class="separator:ab4e5e0b19285573753ef6e9b7e8fd535"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3012323c5c1424512b611b6956a32554"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a3012323c5c1424512b611b6956a32554">OnPetAddToWorld</a> (<a class="el" href="../../db/d14/a08330.html">Pet</a> *)</td></tr>
+<tr class="memdesc:a3012323c5c1424512b611b6956a32554"><td class="mdescLeft">&#160;</td><td class="mdescRight">This hook called after add pet in world.  <a href="../../d0/d93/a10162.html#a3012323c5c1424512b611b6956a32554">More...</a><br /></td></tr>
+<tr class="separator:a3012323c5c1424512b611b6956a32554"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
+<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
+<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
+<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
+<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
+<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
-<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a80c704c939f54eee6655d68509598c42"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
-<tr class="separator:a80c704c939f54eee6655d68509598c42"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
-Private Attributes</h2></td></tr>
-<tr class="memitem:a90b63e382cac17922ae57fe22b84718c"><td class="memItemLeft" align="right" valign="top">const std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a90b63e382cac17922ae57fe22b84718c">_name</a></td></tr>
-<tr class="separator:a90b63e382cac17922ae57fe22b84718c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab9ecac7620b4319c634d7e5f30c30f49"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a></td></tr>
-<tr class="separator:ab9ecac7620b4319c634d7e5f30c30f49"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="friends" name="friends"></a>
-Friends</h2></td></tr>
-<tr class="memitem:a7a753f61d57353451e90f3f23fec4851"><td class="memItemLeft" align="right" valign="top">class&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#a7a753f61d57353451e90f3f23fec4851">ScriptMgr</a></td></tr>
-<tr class="separator:a7a753f61d57353451e90f3f23fec4851"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccf0b5fa2e346c800925142ed52c917"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d0/d93/a10162.html#acccf0b5fa2e346c800925142ed52c917">PetScript</a> (const char *name, std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt; enabledHooks=std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;())</td></tr>
+<tr class="separator:acccf0b5fa2e346c800925142ed52c917"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
+<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
+<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="ae4ca97cf587379c94354e4889ff8c0c2" name="ae4ca97cf587379c94354e4889ff8c0c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4ca97cf587379c94354e4889ff8c0c2">&#9670;&#160;</a></span>ScriptObject()</h2>
+<a id="acccf0b5fa2e346c800925142ed52c917" name="acccf0b5fa2e346c800925142ed52c917"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acccf0b5fa2e346c800925142ed52c917">&#9670;&#160;</a></span>PetScript()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -215,7 +174,7 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">ScriptObject::ScriptObject </td>
+          <td class="memname">PetScript::PetScript </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>name</em>, </td>
@@ -223,8 +182,8 @@ Friends</h2></td></tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td>
-          <td class="paramname"><em>totalAvailableHooks</em> = <code>0</code>&#160;</td>
+          <td class="paramtype">std::vector&lt; <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> &gt;&#160;</td>
+          <td class="paramname"><em>enabledHooks</em> = <code>std::vector&lt;<a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&gt;()</code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -234,46 +193,31 @@ Friends</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">protected</span></span>  </td>
+<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   58</span>                                                                   : <a class="code hl_variable" href="../../d0/d93/a10162.html#a90b63e382cac17922ae57fe22b84718c">_name</a>(std::string(name)), <a class="code hl_variable" href="../../d0/d93/a10162.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a>(totalAvailableHooks)</div>
-<div class="line"><span class="lineno">   59</span>    {</div>
-<div class="line"><span class="lineno">   60</span>    }</div>
-<div class="ttc" id="aa10162_html_a90b63e382cac17922ae57fe22b84718c"><div class="ttname"><a href="../../d0/d93/a10162.html#a90b63e382cac17922ae57fe22b84718c">ScriptObject::_name</a></div><div class="ttdeci">const std::string _name</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:65</div></div>
-<div class="ttc" id="aa10162_html_ab9ecac7620b4319c634d7e5f30c30f49"><div class="ttname"><a href="../../d0/d93/a10162.html#ab9ecac7620b4319c634d7e5f30c30f49">ScriptObject::_totalAvailableHooks</a></div><div class="ttdeci">const uint16 _totalAvailableHooks</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:66</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   55</span>    : <a class="code hl_class" href="../../d9/d16/a10218.html">ScriptObject</a>(name, <a class="code hl_enumvalue" href="../../d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911">PETHOOK_END</a>)</div>
+<div class="line"><span class="lineno">   56</span>{</div>
+<div class="line"><span class="lineno">   57</span>    <span class="comment">// If empty - enable all available hooks.</span></div>
+<div class="line"><span class="lineno">   58</span>    <span class="keywordflow">if</span> (enabledHooks.empty())</div>
+<div class="line"><span class="lineno">   59</span>        <span class="keywordflow">for</span> (<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> i = 0; i &lt; <a class="code hl_enumvalue" href="../../d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911">PETHOOK_END</a>; ++i)</div>
+<div class="line"><span class="lineno">   60</span>            enabledHooks.emplace_back(i);</div>
+<div class="line"><span class="lineno">   61</span> </div>
+<div class="line"><span class="lineno">   62</span>    <a class="code hl_function" href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry&lt;PetScript&gt;::AddScript</a>(<span class="keyword">this</span>, std::move(enabledHooks));</div>
+<div class="line"><span class="lineno">   63</span>}</div>
+<div class="ttc" id="aa00497_html_ad9c79638db63f1dfe2b085743b5cbf7b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a></div><div class="ttdeci">std::uint16_t uint16</div><div class="ttdef"><b>Definition:</b> Define.h:108</div></div>
+<div class="ttc" id="aa04406_html_a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911"><div class="ttname"><a href="../../d4/d61/a04406.html#a2e6398af59b176e045eece50b1a5d404aa71e862274b6066ffe8af41bccdac911">PETHOOK_END</a></div><div class="ttdeci">@ PETHOOK_END</div><div class="ttdef"><b>Definition:</b> PetScript.h:32</div></div>
+<div class="ttc" id="aa10214_html_a4a25c0e3b90f6af4563baf0e7a1c0622"><div class="ttname"><a href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script, std::vector&lt; uint16 &gt; enabledHooks={})</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:738</div></div>
+<div class="ttc" id="aa10218_html"><div class="ttname"><a href="../../d9/d16/a10218.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptObject.h:43</div></div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a80c704c939f54eee6655d68509598c42" name="a80c704c939f54eee6655d68509598c42"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a80c704c939f54eee6655d68509598c42">&#9670;&#160;</a></span>~ScriptObject()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual ScriptObject::~ScriptObject </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
+<p class="reference">References <a class="el" href="../../#l00738">ScriptRegistry&lt; TScript &gt;::AddScript()</a>, and <a class="el" href="../../#l00032">PETHOOK_END</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a585e75e34aed7aa32205daad85f8fe08" name="a585e75e34aed7aa32205daad85f8fe08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a585e75e34aed7aa32205daad85f8fe08">&#9670;&#160;</a></span>checkValidity()</h2>
+<a id="ab4e5e0b19285573753ef6e9b7e8fd535" name="ab4e5e0b19285573753ef6e9b7e8fd535"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4e5e0b19285573753ef6e9b7e8fd535">&#9670;&#160;</a></span>CanResetTalents()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -282,8 +226,224 @@ Friends</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">virtual void ScriptObject::checkValidity </td>
+          <td class="memname">virtual bool PetScript::CanResetTalents </td>
           <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d14/a08330.html">Pet</a> *&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   51</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af150efd719bbb619df792ebc6705bb0a" name="af150efd719bbb619df792ebc6705bb0a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af150efd719bbb619df792ebc6705bb0a">&#9670;&#160;</a></span>CanUnlearnSpellDefault()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PetScript::CanUnlearnSpellDefault </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d14/a08330.html">Pet</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d5/d44/a10966.html">SpellInfo</a> const *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a84cba94813ffa26e1a245b814feb0349" name="a84cba94813ffa26e1a245b814feb0349"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84cba94813ffa26e1a245b814feb0349">&#9670;&#160;</a></span>CanUnlearnSpellSet()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool PetScript::CanUnlearnSpellSet </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d14/a08330.html">Pet</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   47</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a16fae7cdf068c6e3d9e46882548d4c20" name="a16fae7cdf068c6e3d9e46882548d4c20"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16fae7cdf068c6e3d9e46882548d4c20">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool PetScript::IsDatabaseBound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a1263b06233902fbede9fc5df80cc8ad4" name="a1263b06233902fbede9fc5df80cc8ad4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1263b06233902fbede9fc5df80cc8ad4">&#9670;&#160;</a></span>OnCalculateMaxTalentPointsForLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PetScript::OnCalculateMaxTalentPointsForLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d14/a08330.html">Pet</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> &amp;&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   45</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a65a33c4f374f2e9739680ad172118c26" name="a65a33c4f374f2e9739680ad172118c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a65a33c4f374f2e9739680ad172118c26">&#9670;&#160;</a></span>OnInitStatsForLevel()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PetScript::OnInitStatsForLevel </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/da9/a07982.html">Guardian</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   43</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a3012323c5c1424512b611b6956a32554" name="a3012323c5c1424512b611b6956a32554"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3012323c5c1424512b611b6956a32554">&#9670;&#160;</a></span>OnPetAddToWorld()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void PetScript::OnPetAddToWorld </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../db/d14/a08330.html">Pet</a> *&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -295,200 +455,15 @@ Friends</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Reimplemented in <a class="el" href="../../dd/daa/a10002.html#a90584770132eb71cffc6e25a674750ad">BattlegroundMapScript</a>, <a class="el" href="../../de/df4/a10074.html#a221dd91e2d2f761e66d990a6cae42306">InstanceMapScript</a>, and <a class="el" href="../../d6/dd4/a10142.html#aa212e582764d2cfbc5e7e600a54f2cb4">WorldMapScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   51</span>{ }</div>
+<p>This hook called after add pet in world. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">pet</td><td>Contains information about the <a class="el" href="../../db/d14/a08330.html">Pet</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<div class="fragment"><div class="line"><span class="lineno">   58</span>{ }</div>
 </div><!-- fragment -->
-</div>
-</div>
-<a id="a79588d839860d2f5caab60c5f1368f10" name="a79588d839860d2f5caab60c5f1368f10"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79588d839860d2f5caab60c5f1368f10">&#9670;&#160;</a></span>GetName()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string &amp; ScriptObject::GetName </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   53</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d93/a10162.html#a90b63e382cac17922ae57fe22b84718c">_name</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00065">_name</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00043">ScriptMgr::CreateAuraScripts()</a>, and <a class="el" href="../../#l00022">ScriptMgr::CreateSpellScripts()</a>.</p>
-
-</div>
-</div>
-<a id="a69ee35ec7d54226264efef558022c1c0" name="a69ee35ec7d54226264efef558022c1c0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69ee35ec7d54226264efef558022c1c0">&#9670;&#160;</a></span>GetTotalAvailableHooks()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> ScriptObject::GetTotalAvailableHooks </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   55</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d0/d93/a10162.html#ab9ecac7620b4319c634d7e5f30c30f49">_totalAvailableHooks</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00066">_totalAvailableHooks</a>.</p>
-
-</div>
-</div>
-<a id="a2f66339b1cdf1fde795c61cd24c8b0a2" name="a2f66339b1cdf1fde795c61cd24c8b0a2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2f66339b1cdf1fde795c61cd24c8b0a2">&#9670;&#160;</a></span>isAfterLoadScript()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool ScriptObject::isAfterLoadScript </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../dd/daa/a10002.html#a0148a79556f82c990fe0fc494d03c7ab">BattlegroundMapScript</a>, and <a class="el" href="../../d6/dd4/a10142.html#a6aeda6e4c8328d7334527cbe69311ddc">WorldMapScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   50</span>{ <span class="keywordflow">return</span> <a class="code hl_function" href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a>(); }</div>
-<div class="ttc" id="aa10162_html_a37da453729d5c8fbe2d06f905563f47c"><div class="ttname"><a href="../../d0/d93/a10162.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject::IsDatabaseBound</a></div><div class="ttdeci">virtual bool IsDatabaseBound() const</div><div class="ttdef"><b>Definition:</b> ScriptObject.h:49</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00049">IsDatabaseBound()</a>.</p>
-
-</div>
-</div>
-<a id="a37da453729d5c8fbe2d06f905563f47c" name="a37da453729d5c8fbe2d06f905563f47c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a37da453729d5c8fbe2d06f905563f47c">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual bool ScriptObject::IsDatabaseBound </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Reimplemented in <a class="el" href="../../db/d43/a09946.html#a2fe9a4224304d62c5c4920dbf09aab52">AchievementCriteriaScript</a>, <a class="el" href="../../db/da4/a09950.html#a9ea2ed91c281e881404c31a948de0fc9">AchievementScript</a>, <a class="el" href="../../da/d73/a09954.html#a91c57b646aae6467e06b4cc13b89cfb4">AllBattlegroundScript</a>, <a class="el" href="../../dd/dbc/a09958.html#a89430678d5c88c562f1b0ac2b294fea4">AllCommandScript</a>, <a class="el" href="../../d7/db2/a09978.html#a0854a57b62e310575a3e5cd8d35e8532">AllSpellScript</a>, <a class="el" href="../../d1/d52/a09982.html#ac5234a2cd020cd8f90b6d19c28ad46ae">AreaTriggerScript</a>, <a class="el" href="../../d2/d97/a09990.html#ab6c90bb55c238fada3e9ddc993333d0d">ArenaScript</a>, <a class="el" href="../../de/dad/a09994.html#a4d30f94084ae63eadd952c05b13f3ff4">ArenaTeamScript</a>, <a class="el" href="../../dd/d45/a10006.html#a35b571d570c85a861af6f949b51453cb">BattlegroundScript</a>, <a class="el" href="../../d0/dcf/a10014.html#ac4f8325e3fa1e11437056818a0267342">ConditionScript</a>, <a class="el" href="../../d3/d77/a10018.html#af19c64d23391f8b835f79bc6cf315caa">CreatureScript</a>, <a class="el" href="../../d8/d23/a10030.html#af4321bb95ed9bb3bb0e5a8a93c89c235">DatabaseScript</a>, <a class="el" href="../../de/dff/a10050.html#a020e07dfd6e99b55bf5c8e56cfdd3948">GameObjectScript</a>, <a class="el" href="../../d8/d5b/a10066.html#acb561e8a2d5b3542e228a7beb8122fbf">GroupScript</a>, <a class="el" href="../../df/d2c/a10070.html#aae0601f04ec90533bb7699c68f68fe8f">GuildScript</a>, <a class="el" href="../../de/df4/a10074.html#ab77651bb427813a7e119057c3dc53ca8">InstanceMapScript</a>, <a class="el" href="../../d6/dd8/a10078.html#ae0ae6754a17b88deaf3648b74a58bb9d">ItemScript</a>, <a class="el" href="../../d2/d7a/a10082.html#ad60b605eac89be48efd339127e9cb9cd">LootScript</a>, <a class="el" href="../../d2/dc1/a10090.html#a6eb3eb8a451ddc1abdf4a238b4e08253">MiscScript</a>, <a class="el" href="../../dc/d01/a10102.html#ac22c6a9945738270452848f997d2818f">OutdoorPvPScript</a>, <a class="el" href="../../d7/d08/a10106.html#a16fae7cdf068c6e3d9e46882548d4c20">PetScript</a>, <a class="el" href="../../d6/d82/a10118.html#ae60bf9957b950c7f5c9927f71510dc06">SpellScriptLoader</a>, <a class="el" href="../../d1/dab/a10126.html#a956f0d757e5d974566fa8fac0df731e5">TransportScript</a>, <a class="el" href="../../d4/d2d/a10138.html#a2547902149ce080711ccacb709b10e8a">WeatherScript</a>, and <a class="el" href="../../db/d3e/a10146.html#a48f037dd6152ff68ebef672de68df45e">WorldObjectScript</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">   49</span>{ <span class="keywordflow">return</span> <span class="keyword">false</span>; }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00050">isAfterLoadScript()</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Friends And Related Function Documentation</h2>
-<a id="a7a753f61d57353451e90f3f23fec4851" name="a7a753f61d57353451e90f3f23fec4851"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a753f61d57353451e90f3f23fec4851">&#9670;&#160;</a></span>ScriptMgr</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">friend class <a class="el" href="../../df/d8b/a10154.html">ScriptMgr</a></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">friend</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a90b63e382cac17922ae57fe22b84718c" name="a90b63e382cac17922ae57fe22b84718c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a90b63e382cac17922ae57fe22b84718c">&#9670;&#160;</a></span>_name</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const std::string ScriptObject::_name</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00053">GetName()</a>.</p>
-
-</div>
-</div>
-<a id="ab9ecac7620b4319c634d7e5f30c30f49" name="ab9ecac7620b4319c634d7e5f30c30f49"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab9ecac7620b4319c634d7e5f30c30f49">&#9670;&#160;</a></span>_totalAvailableHooks</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">const <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> ScriptObject::_totalAvailableHooks</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00055">GetTotalAvailableHooks()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -496,8 +471,8 @@ Friends</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d0/d93/a10162.html">ScriptObject</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:03 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d0/d93/a10162.html">PetScript</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:12 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

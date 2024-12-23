@@ -1,7 +1,6 @@
 var a17906 =
 [
-    [ "CheckTargetCount", "d0/d9b/a17906.html#a637ba0717ae0f6f736f5532ed65ca301", null ],
-    [ "PrepareSpellScript", "d0/d9b/a17906.html#af560e5c4e985e9b139999f5ef618fe3c", null ],
-    [ "Register", "d0/d9b/a17906.html#a86e7512496fd38201d458c03a7a60296", null ],
-    [ "Validate", "d0/d9b/a17906.html#a744c4aa76387be4aa76a69fbcaa7932e", null ]
+    [ "npc_tirion_fordringAI", "d5/d25/a17910.html", "d5/d25/a17910" ],
+    [ "npc_tirion_fordring_tft", "d0/d9b/a17906.html#a04036d958e7ac643c9ba8d9073bca404", null ],
+    [ "GetAI", "d0/d9b/a17906.html#a41dcfa415831091531cbf46e946f442d", null ]
 ];

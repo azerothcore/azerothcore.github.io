@@ -1,6 +1,7 @@
 var a12066 =
 [
-    [ "boss_baron_geddonAI", "d5/d30/a12070.html", "d5/d30/a12070" ],
-    [ "boss_baron_geddon", "dd/d80/a12066.html#ad72caf30219b4295c0be4289b9d25498", null ],
-    [ "GetAI", "dd/d80/a12066.html#a8f328680a5f99fb275cb0b3e8adf9c63", null ]
+    [ "HandleDummy", "dd/d80/a12066.html#a7fca477ef5c86d543cd59571ad8dc7de", null ],
+    [ "PrepareSpellScript", "dd/d80/a12066.html#a6ec124990f202af0c6063c285bf04d88", null ],
+    [ "Register", "dd/d80/a12066.html#a5adf9f0bbe5b72c4c22f569086582f0f", null ],
+    [ "Validate", "dd/d80/a12066.html#ae35efa08f507aac5b72166a216d01870", null ]
 ];

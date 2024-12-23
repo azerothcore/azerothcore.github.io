@@ -1,6 +1,6 @@
 var a24626 =
 [
-    [ "CheckAreaTarget", "d1/dbc/a24626.html#a90761b0145ea9d4178e77eb5e15a8ba6", null ],
-    [ "PrepareAuraScript", "d1/dbc/a24626.html#afbc45652033397067a439b45afd2e90e", null ],
-    [ "Register", "d1/dbc/a24626.html#aa24679e1243470056f74249e1b26767d", null ]
+    [ "OnPeriodic", "d1/dbc/a24626.html#a3bcef6bd4501489320ef1242a66c50e8", null ],
+    [ "PrepareAuraScript", "d1/dbc/a24626.html#ab18f839ab70cc61e52c5e9ddb4847140", null ],
+    [ "Register", "d1/dbc/a24626.html#afbc707f30b7db0329f24b9ab8e8134e0", null ]
 ];

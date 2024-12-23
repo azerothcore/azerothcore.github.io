@@ -1,6 +1,8 @@
 var a24102 =
 [
-    [ "npc_pet_pri_shadowfiend", "dc/d8e/a24102.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
-    [ "JustDied", "dc/d8e/a24102.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
-    [ "Reset", "dc/d8e/a24102.html#aeff1bada59ee80ae0166a82207729bad", null ]
+    [ "npc_pet_gen_gnomish_flame_turret", "dc/d8e/a24102.html#a6e79c0ad6219d0beb23cfb086e6d3eaf", null ],
+    [ "AttackStart", "dc/d8e/a24102.html#a2aab464c099e8e5e760a9ae4f28ac33f", null ],
+    [ "Reset", "dc/d8e/a24102.html#a46fe5703a5859d5583e7df3a57b3910a", null ],
+    [ "UpdateAI", "dc/d8e/a24102.html#ae3db08323af4b82009ffd660b3e78474", null ],
+    [ "checkTimer", "dc/d8e/a24102.html#ac6705f4980ca561a5fd33c2917488439", null ]
 ];

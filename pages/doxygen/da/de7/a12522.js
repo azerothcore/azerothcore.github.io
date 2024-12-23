@@ -1,5 +1,5 @@
 var a12522 =
 [
-    [ "boss_yazzai", "da/de7/a12522.html#a6c92ffeff3e56f98cb1bd08f1835fe10", null ],
-    [ "JustEngagedWith", "da/de7/a12522.html#ab504de0e51a3715485eb65e006352a6f", null ]
+    [ "textid", "da/de7/a12522.html#a7dac5c31d7df501f28eee3e1dec0523a", null ],
+    [ "timer", "da/de7/a12522.html#ab7851f383e7221c6ff2700ee345d9504", null ]
 ];

@@ -1,18 +1,8 @@
 var a08602 =
 [
-    [ "GameEventData", "d1/dab/a08602.html#ab7963b01d9e138d79f06274ea57b9590", null ],
-    [ "isValid", "d1/dab/a08602.html#a7a91c9c9cc68593812b13f6efd2ea4ff", null ],
-    [ "announce", "d1/dab/a08602.html#a7271996d66a36e41b21502fa4d5305fe", null ],
-    [ "conditions", "d1/dab/a08602.html#adca87b4b2205273a29dd2a547be90da6", null ],
-    [ "description", "d1/dab/a08602.html#aebdadbaadbba367601674146a27a283f", null ],
-    [ "end", "d1/dab/a08602.html#a1bf3980d02cd0dc304b2ffbd5afb7b9f", null ],
-    [ "eventId", "d1/dab/a08602.html#a858501847212a8771f676641ad61aacd", null ],
-    [ "holiday_id", "d1/dab/a08602.html#aa13c2c2eacb9475e18c1d1370566e988", null ],
-    [ "holidayStage", "d1/dab/a08602.html#a23a3f6d7f036f6c5b47b84ef1242d056", null ],
-    [ "length", "d1/dab/a08602.html#ac45297bad99ddb339b3aa18ec5912c1c", null ],
-    [ "nextstart", "d1/dab/a08602.html#ae0259f021337b3ad47dfbbc1f361965f", null ],
-    [ "occurence", "d1/dab/a08602.html#a04c813525fef572000608f32650565ff", null ],
-    [ "prerequisite_events", "d1/dab/a08602.html#acd7a8d00e76cd09cbbbd345987b8644f", null ],
-    [ "start", "d1/dab/a08602.html#ac4da43ddbb3b95f00589f49ed250092d", null ],
-    [ "state", "d1/dab/a08602.html#a54a6e90fd4b68093a99e32b198eab2fb", null ]
+    [ "PowerPctOrderPred", "d1/dab/a08602.html#a4e765952cfbc1c83413a8f1c148b1fe4", null ],
+    [ "operator()", "d1/dab/a08602.html#a215b641a9364c7fcb82778c98f214271", null ],
+    [ "operator()", "d1/dab/a08602.html#a42cec64c5eaf01f8b6b7e334f57b1d4a", null ],
+    [ "_ascending", "d1/dab/a08602.html#aed7be288f876fdd35c1cdba53626b03c", null ],
+    [ "_power", "d1/dab/a08602.html#ad3d61a7c5c84d91bc26c99e778105b7c", null ]
 ];

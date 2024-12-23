@@ -1,15 +1,6 @@
 var a23286 =
 [
-    [ "npc_shattered_hand_scout", "db/dd3/a23286.html#a51a57eaaad75817a9b5a81210e01ed51", null ],
-    [ "DamageTaken", "db/dd3/a23286.html#ad37c34ae2dee082f1b4eed90bc4a3618", null ],
-    [ "FireArrows", "db/dd3/a23286.html#aa3043011d7d9e7b7c5826b9afc7581d1", null ],
-    [ "GetPorung", "db/dd3/a23286.html#a575b12c40aeccd6d0cdd63f71a3b93d6", null ],
-    [ "MoveInLineOfSight", "db/dd3/a23286.html#a2ddb6fd6aa6221768ff71257f4bdd81b", null ],
-    [ "MovementInform", "db/dd3/a23286.html#a6f6198c2faf68823b1d4c8237044784b", null ],
-    [ "Reset", "db/dd3/a23286.html#a1fcf0da2cc4a0554f04b3624b68de598", null ],
-    [ "SetData", "db/dd3/a23286.html#a9416dd89c4728538971abc5975c7080f", null ],
-    [ "UpdateAI", "db/dd3/a23286.html#a91c2c7eca064d6eaafe5ecaeca4344b4", null ],
-    [ "_firstZealots", "db/dd3/a23286.html#a2b5fd63b01e4ecb96b006e3870b37609", null ],
-    [ "_scheduler", "db/dd3/a23286.html#a376f6eab11f8399493d5d33b5c4ea35a", null ],
-    [ "_zealotGUIDs", "db/dd3/a23286.html#a26381a05bb007fdb4b7da97a19a878da", null ]
+    [ "HandleScriptEffect", "db/dd3/a23286.html#af0841e5c67c981b792a8d8f0d0d18edc", null ],
+    [ "PrepareSpellScript", "db/dd3/a23286.html#a287bff28e57a86f0176921500de78fa9", null ],
+    [ "Register", "db/dd3/a23286.html#ad5fb101794dfdef0c08551dd9397b965", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: RefMgr&lt; TO, FROM &gt; Class Template Reference</title>
+<title>AzerothCore: ObjectRegistry&lt; T, Key &gt; Class Template Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -107,103 +107,67 @@ $(document).ready(function(){initNavTree('d9/dcb/a05154.html','../../'); initRes
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-methods">Static Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
+<a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../df/dc5/a05151.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">RefMgr&lt; TO, FROM &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">ObjectRegistry&lt; T, Key &gt; Class Template Reference<span class="mlabels"><span class="mlabel">final</span></span></div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">RefMgr.h</a>&quot;</code></p>
-<div class="dynheader">
-Inheritance diagram for RefMgr&lt; TO, FROM &gt;:</div>
-<div class="dyncontent">
- <div class="center">
-  <img src="../../d9/dcb/a05154.png" usemap="#RefMgr_3C_20TO_2C_20FROM_20_3E_map" alt=""/>
-  <map id="RefMgr_3C_20TO_2C_20FROM_20_3E_map" name="RefMgr_3C_20TO_2C_20FROM_20_3E_map">
-<area href="../../d5/d6d/a05142.html" alt="LinkedListHead" shape="rect" coords="0,0,576,24"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; Corpse &gt;" shape="rect" coords="586,112,1162,136"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; Creature &gt;" shape="rect" coords="586,168,1162,192"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; DynamicObject &gt;" shape="rect" coords="586,224,1162,248"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; GameObject &gt;" shape="rect" coords="586,280,1162,304"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; NGridType &gt;" shape="rect" coords="586,336,1162,360"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; Player &gt;" shape="rect" coords="586,392,1162,416"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; T &gt;" shape="rect" coords="586,448,1162,472"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; H &gt;" shape="rect" coords="586,504,1162,528"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; GRID_OBJECT_TYPES &gt;" shape="rect" coords="586,560,1162,584"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; WORLD_OBJECT_TYPES &gt;" shape="rect" coords="586,616,1162,640"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; NGrid&lt; N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES &gt; &gt;" shape="rect" coords="586,672,1162,696"/>
-<area href="../../d0/da3/a08858.html" alt="GridRefMgr&lt; OBJECT_TYPES &gt;" shape="rect" coords="586,728,1162,752"/>
-  </map>
-</div></div>
+<p><code>#include &quot;<a class="el" href="../../">ObjectRegistry.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-types" name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a301cf316e15e5f55046c1c25ef2a4f5b"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; <a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a></td></tr>
-<tr class="separator:a301cf316e15e5f55046c1c25ef2a4f5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_types_a05142"><td colspan="2" onclick="javascript:toggleInherit('pub_types_a05142')"><img src="../../closed.png" alt="-"/>&#160;Public Types inherited from <a class="el" href="../../d5/d6d/a05142.html">LinkedListHead</a></td></tr>
-<tr class="memitem:a57ec2565e503df8ef86e1df2889c8ee3 inherit pub_types_a05142"><td class="memItemLeft" align="right" valign="top">typedef <a class="el" href="../../d2/d3d/a05146.html">Iterator</a>&lt; <a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a57ec2565e503df8ef86e1df2889c8ee3">iterator</a></td></tr>
-<tr class="separator:a57ec2565e503df8ef86e1df2889c8ee3 inherit pub_types_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a131bc0c7d0ddcb9ad34044b9c8ac2"><td class="memItemLeft" align="right" valign="top">typedef std::map&lt; Key, std::unique_ptr&lt; T &gt; &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">RegistryMapType</a></td></tr>
+<tr class="separator:ab6a131bc0c7d0ddcb9ad34044b9c8ac2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a72110d71a275f564d31d2e6c84c331c3"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a72110d71a275f564d31d2e6c84c331c3">RefMgr</a> ()=default</td></tr>
-<tr class="separator:a72110d71a275f564d31d2e6c84c331c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab386dd35fa62dbf7f1ba2131e6e99f7c"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#ab386dd35fa62dbf7f1ba2131e6e99f7c">~RefMgr</a> ()</td></tr>
-<tr class="separator:ab386dd35fa62dbf7f1ba2131e6e99f7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67de35d375c34c38db2b87481a141ebf"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a67de35d375c34c38db2b87481a141ebf">getFirst</a> ()</td></tr>
-<tr class="separator:a67de35d375c34c38db2b87481a141ebf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2636030fdcd2312e7c2556c2da3ef948"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a2636030fdcd2312e7c2556c2da3ef948">getFirst</a> () const</td></tr>
-<tr class="separator:a2636030fdcd2312e7c2556c2da3ef948"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6695bac4fd79bb428fd1f6a72ad6c3e3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a6695bac4fd79bb428fd1f6a72ad6c3e3">getLast</a> ()</td></tr>
-<tr class="separator:a6695bac4fd79bb428fd1f6a72ad6c3e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afab4e70c39d83e38048c5fe80166e5fa"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#afab4e70c39d83e38048c5fe80166e5fa">getLast</a> () const</td></tr>
-<tr class="separator:afab4e70c39d83e38048c5fe80166e5fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aacaf11c49931c87bd52b8382065447d3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#aacaf11c49931c87bd52b8382065447d3">begin</a> ()</td></tr>
-<tr class="separator:aacaf11c49931c87bd52b8382065447d3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab6573a792b9b24c3dc4a690c6ff77d9"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#aab6573a792b9b24c3dc4a690c6ff77d9">end</a> ()</td></tr>
-<tr class="separator:aab6573a792b9b24c3dc4a690c6ff77d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c64b9aad3611aff0d1c419b5d5fa8f0"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a4c64b9aad3611aff0d1c419b5d5fa8f0">rbegin</a> ()</td></tr>
-<tr class="separator:a4c64b9aad3611aff0d1c419b5d5fa8f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae5ef045c8e3bbce625ffdc2c075b90c2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#ae5ef045c8e3bbce625ffdc2c075b90c2">rend</a> ()</td></tr>
-<tr class="separator:ae5ef045c8e3bbce625ffdc2c075b90c2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a912750f6257a33cd1f85079448b45928"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a912750f6257a33cd1f85079448b45928">clearReferences</a> ()</td></tr>
-<tr class="separator:a912750f6257a33cd1f85079448b45928"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="inherit_header pub_methods_a05142"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a05142')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d5/d6d/a05142.html">LinkedListHead</a></td></tr>
-<tr class="memitem:ab9a10897505b9315f7abef37ca53ae3d inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#ab9a10897505b9315f7abef37ca53ae3d">LinkedListHead</a> ()</td></tr>
-<tr class="separator:ab9a10897505b9315f7abef37ca53ae3d inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f450b83a615d010bedc7b0c6aa18d70 inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a5f450b83a615d010bedc7b0c6aa18d70">IsEmpty</a> () const</td></tr>
-<tr class="separator:a5f450b83a615d010bedc7b0c6aa18d70 inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3bdb6df345043767ce9b319593102371 inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a3bdb6df345043767ce9b319593102371">getFirst</a> ()</td></tr>
-<tr class="separator:a3bdb6df345043767ce9b319593102371 inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b67ea8030683685e442b534f6ac14ae inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a2b67ea8030683685e442b534f6ac14ae">getFirst</a> () const</td></tr>
-<tr class="separator:a2b67ea8030683685e442b534f6ac14ae inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a523c918451eb358014e821b11f000b9b inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a523c918451eb358014e821b11f000b9b">getLast</a> ()</td></tr>
-<tr class="separator:a523c918451eb358014e821b11f000b9b inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f858b06a17f5bc17db10aebd3493142 inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a4f858b06a17f5bc17db10aebd3493142">getLast</a> () const</td></tr>
-<tr class="separator:a4f858b06a17f5bc17db10aebd3493142 inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28714c2195a3609871f42fa7a9dc74b inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#af28714c2195a3609871f42fa7a9dc74b">insertFirst</a> (<a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> *pElem)</td></tr>
-<tr class="separator:af28714c2195a3609871f42fa7a9dc74b inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a20c91c0ace1d4404b55802fbc7704bb5 inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a20c91c0ace1d4404b55802fbc7704bb5">insertLast</a> (<a class="el" href="../../d4/d85/a05138.html">LinkedListElement</a> *pElem)</td></tr>
-<tr class="separator:a20c91c0ace1d4404b55802fbc7704bb5 inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa9c03e05aa61c1fc9fad84efd8f82db7 inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#aa9c03e05aa61c1fc9fad84efd8f82db7">getSize</a> () const</td></tr>
-<tr class="separator:aa9c03e05aa61c1fc9fad84efd8f82db7 inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a46d97d5710de2958555d37687df58fcb inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#a46d97d5710de2958555d37687df58fcb">incSize</a> ()</td></tr>
-<tr class="separator:a46d97d5710de2958555d37687df58fcb inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ada0bbfaadb9944b904fd023291d7454e inherit pub_methods_a05142"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d5/d6d/a05142.html#ada0bbfaadb9944b904fd023291d7454e">decSize</a> ()</td></tr>
-<tr class="separator:ada0bbfaadb9944b904fd023291d7454e inherit pub_methods_a05142"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a474bdff0ab0f0a3db5f914b9dfaa48d1"><td class="memItemLeft" align="right" valign="top">T const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a474bdff0ab0f0a3db5f914b9dfaa48d1">GetRegistryItem</a> (Key const &amp;key) const</td></tr>
+<tr class="memdesc:a474bdff0ab0f0a3db5f914b9dfaa48d1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a registry item.  <a href="../../d9/dcb/a05154.html#a474bdff0ab0f0a3db5f914b9dfaa48d1">More...</a><br /></td></tr>
+<tr class="separator:a474bdff0ab0f0a3db5f914b9dfaa48d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55416824a5dff4138f5d828e352e3d7c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a55416824a5dff4138f5d828e352e3d7c">InsertItem</a> (T *obj, Key const &amp;key, bool force=false)</td></tr>
+<tr class="memdesc:a55416824a5dff4138f5d828e352e3d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a registry item.  <a href="../../d9/dcb/a05154.html#a55416824a5dff4138f5d828e352e3d7c">More...</a><br /></td></tr>
+<tr class="separator:a55416824a5dff4138f5d828e352e3d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c95897734a780c1f299d24a058b3595"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a3c95897734a780c1f299d24a058b3595">HasItem</a> (Key const &amp;key) const</td></tr>
+<tr class="memdesc:a3c95897734a780c1f299d24a058b3595"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if registry contains an item.  <a href="../../d9/dcb/a05154.html#a3c95897734a780c1f299d24a058b3595">More...</a><br /></td></tr>
+<tr class="separator:a3c95897734a780c1f299d24a058b3595"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba4a4fcc7ee59afbb4dea6df7410dc02"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">RegistryMapType</a> const &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#aba4a4fcc7ee59afbb4dea6df7410dc02">GetRegisteredItems</a> () const</td></tr>
+<tr class="memdesc:aba4a4fcc7ee59afbb4dea6df7410dc02"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the map of registered items.  <a href="../../d9/dcb/a05154.html#aba4a4fcc7ee59afbb4dea6df7410dc02">More...</a><br /></td></tr>
+<tr class="separator:aba4a4fcc7ee59afbb4dea6df7410dc02"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-static-methods" name="pub-static-methods"></a>
+Static Public Member Functions</h2></td></tr>
+<tr class="memitem:a7a6582a84361d5ad1142f29c9e1d9cb5"><td class="memItemLeft" align="right" valign="top">static <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt; *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a7a6582a84361d5ad1142f29c9e1d9cb5">instance</a> ()</td></tr>
+<tr class="separator:a7a6582a84361d5ad1142f29c9e1d9cb5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:aa3bcc30791e82bc900eacf1c5833b7f8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#aa3bcc30791e82bc900eacf1c5833b7f8">ObjectRegistry</a> ()</td></tr>
+<tr class="separator:aa3bcc30791e82bc900eacf1c5833b7f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2734a0e6001f597b43e006bc9d84a6b1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a2734a0e6001f597b43e006bc9d84a6b1">~ObjectRegistry</a> ()</td></tr>
+<tr class="separator:a2734a0e6001f597b43e006bc9d84a6b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
+Private Attributes</h2></td></tr>
+<tr class="memitem:a61e6a6eb75512241e82092abfeba7a65"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">RegistryMapType</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a></td></tr>
+<tr class="separator:a61e6a6eb75512241e82092abfeba7a65"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class TO, class FROM&gt;<br />
-class RefMgr&lt; TO, FROM &gt;</div></div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a301cf316e15e5f55046c1c25ef2a4f5b" name="a301cf316e15e5f55046c1c25ef2a4f5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a301cf316e15e5f55046c1c25ef2a4f5b">&#9670;&#160;</a></span>iterator</h2>
+<div class="textblock"><div class="compoundTemplParams">template&lt;class T, class Key = std::string&gt;<br />
+class ObjectRegistry&lt; T, Key &gt;</div><p ><a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a> holds all registry item of the same type </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="ab6a131bc0c7d0ddcb9ad34044b9c8ac2" name="ab6a131bc0c7d0ddcb9ad34044b9c8ac2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">&#9670;&#160;</a></span>RegistryMapType</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
+template&lt;class T , class Key  = std::string&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">typedef <a class="el" href="../../d2/d3d/a05146.html">LinkedListHead::Iterator</a>&lt; <a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt;TO, FROM&gt; &gt; <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::iterator</td>
+          <td class="memname">typedef std::map&lt;Key, std::unique_ptr&lt;T&gt; &gt; <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::RegistryMapType</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -211,19 +175,19 @@ template&lt;class TO , class FROM &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a72110d71a275f564d31d2e6c84c331c3" name="a72110d71a275f564d31d2e6c84c331c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72110d71a275f564d31d2e6c84c331c3">&#9670;&#160;</a></span>RefMgr()</h2>
+<a id="aa3bcc30791e82bc900eacf1c5833b7f8" name="aa3bcc30791e82bc900eacf1c5833b7f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3bcc30791e82bc900eacf1c5833b7f8">&#9670;&#160;</a></span>ObjectRegistry()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
+template&lt;class T , class Key  = std::string&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;<a class="el" href="../../d9/dcb/a05154.html">::RefMgr</a> </td>
+          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;<a class="el" href="../../d9/dcb/a05154.html">::ObjectRegistry</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -231,61 +195,59 @@ template&lt;class TO , class FROM &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-
-</div>
-</div>
-<a id="ab386dd35fa62dbf7f1ba2131e6e99f7c" name="ab386dd35fa62dbf7f1ba2131e6e99f7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab386dd35fa62dbf7f1ba2131e6e99f7c">&#9670;&#160;</a></span>~RefMgr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::~<a class="el" href="../../d9/dcb/a05154.html">RefMgr</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   30</span>{ <a class="code hl_function" href="../../d9/dcb/a05154.html#a912750f6257a33cd1f85079448b45928">clearReferences</a>(); }</div>
-<div class="ttc" id="aa05154_html_a912750f6257a33cd1f85079448b45928"><div class="ttname"><a href="../../d9/dcb/a05154.html#a912750f6257a33cd1f85079448b45928">RefMgr::clearReferences</a></div><div class="ttdeci">void clearReferences()</div><div class="ttdef"><b>Definition:</b> RefMgr.h:42</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   81</span>{ }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00042">RefMgr&lt; TO, FROM &gt;::clearReferences()</a>.</p>
+</div>
+</div>
+<a id="a2734a0e6001f597b43e006bc9d84a6b1" name="a2734a0e6001f597b43e006bc9d84a6b1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2734a0e6001f597b43e006bc9d84a6b1">&#9670;&#160;</a></span>~ObjectRegistry()</h2>
 
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Key  = std::string&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::~<a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   82</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aacaf11c49931c87bd52b8382065447d3" name="aacaf11c49931c87bd52b8382065447d3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aacaf11c49931c87bd52b8382065447d3">&#9670;&#160;</a></span>begin()</h2>
+<a id="aba4a4fcc7ee59afbb4dea6df7410dc02" name="aba4a4fcc7ee59afbb4dea6df7410dc02"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba4a4fcc7ee59afbb4dea6df7410dc02">&#9670;&#160;</a></span>GetRegisteredItems()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
+template&lt;class T , class Key  = std::string&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a> <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::begin </td>
+          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">RegistryMapType</a> const  &amp; <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::GetRegisteredItems </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -294,27 +256,167 @@ template&lt;class TO , class FROM &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   37</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>(<a class="code hl_function" href="../../d9/dcb/a05154.html#a67de35d375c34c38db2b87481a141ebf">getFirst</a>()); }</div>
-<div class="ttc" id="aa05154_html_a301cf316e15e5f55046c1c25ef2a4f5b"><div class="ttname"><a href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">RefMgr::iterator</a></div><div class="ttdeci">LinkedListHead::Iterator&lt; Reference&lt; TO, FROM &gt; &gt; iterator</div><div class="ttdef"><b>Definition:</b> RefMgr.h:28</div></div>
-<div class="ttc" id="aa05154_html_a67de35d375c34c38db2b87481a141ebf"><div class="ttname"><a href="../../d9/dcb/a05154.html#a67de35d375c34c38db2b87481a141ebf">RefMgr::getFirst</a></div><div class="ttdeci">Reference&lt; TO, FROM &gt; * getFirst()</div><div class="ttdef"><b>Definition:</b> RefMgr.h:32</div></div>
+
+<p>Return the map of registered items. </p>
+<div class="fragment"><div class="line"><span class="lineno">   73</span>    {</div>
+<div class="line"><span class="lineno">   74</span>        <span class="keywordflow">return</span> <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>;</div>
+<div class="line"><span class="lineno">   75</span>    }</div>
+<div class="ttc" id="aa05154_html_a61e6a6eb75512241e82092abfeba7a65"><div class="ttname"><a href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">ObjectRegistry::_registeredObjects</a></div><div class="ttdeci">RegistryMapType _registeredObjects</div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:78</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00032">RefMgr&lt; TO, FROM &gt;::getFirst()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00078">ObjectRegistry&lt; T, Key &gt;::_registeredObjects</a>.</p>
 
 </div>
 </div>
-<a id="a912750f6257a33cd1f85079448b45928" name="a912750f6257a33cd1f85079448b45928"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a912750f6257a33cd1f85079448b45928">&#9670;&#160;</a></span>clearReferences()</h2>
+<a id="a474bdff0ab0f0a3db5f914b9dfaa48d1" name="a474bdff0ab0f0a3db5f914b9dfaa48d1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a474bdff0ab0f0a3db5f914b9dfaa48d1">&#9670;&#160;</a></span>GetRegistryItem()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
+template&lt;class T , class Key  = std::string&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::clearReferences </td>
+          <td class="memname">T const  * <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::GetRegistryItem </td>
+          <td>(</td>
+          <td class="paramtype">Key const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a registry item. </p>
+<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
+<div class="line"><span class="lineno">   36</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.find(key);</div>
+<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">if</span> (itr == <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.end())</div>
+<div class="line"><span class="lineno">   38</span>            <span class="keywordflow">return</span> <span class="keyword">nullptr</span>;</div>
+<div class="line"><span class="lineno">   39</span>        <span class="keywordflow">return</span> itr-&gt;second.get();</div>
+<div class="line"><span class="lineno">   40</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00078">ObjectRegistry&lt; T, Key &gt;::_registeredObjects</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00054">FactorySelector::SelectFactory()</a>.</p>
+
+</div>
+</div>
+<a id="a3c95897734a780c1f299d24a058b3595" name="a3c95897734a780c1f299d24a058b3595"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c95897734a780c1f299d24a058b3595">&#9670;&#160;</a></span>HasItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Key  = std::string&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::HasItem </td>
+          <td>(</td>
+          <td class="paramtype">Key const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if registry contains an item. </p>
+<div class="fragment"><div class="line"><span class="lineno">   67</span>    {</div>
+<div class="line"><span class="lineno">   68</span>        <span class="keywordflow">return</span> (<a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.count(key) &gt; 0);</div>
+<div class="line"><span class="lineno">   69</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00078">ObjectRegistry&lt; T, Key &gt;::_registeredObjects</a>.</p>
+
+</div>
+</div>
+<a id="a55416824a5dff4138f5d828e352e3d7c" name="a55416824a5dff4138f5d828e352e3d7c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55416824a5dff4138f5d828e352e3d7c">&#9670;&#160;</a></span>InsertItem()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Key  = std::string&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::InsertItem </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Key const &amp;&#160;</td>
+          <td class="paramname"><em>key</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>force</em> = <code>false</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts a registry item. </p>
+<div class="fragment"><div class="line"><span class="lineno">   50</span>    {</div>
+<div class="line"><span class="lineno">   51</span>        <span class="keyword">auto</span> itr = <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.find(key);</div>
+<div class="line"><span class="lineno">   52</span>        <span class="keywordflow">if</span> (itr != <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.end())</div>
+<div class="line"><span class="lineno">   53</span>        {</div>
+<div class="line"><span class="lineno">   54</span>            <span class="keywordflow">if</span> (!force)</div>
+<div class="line"><span class="lineno">   55</span>            {</div>
+<div class="line"><span class="lineno">   56</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno">   57</span>            }</div>
+<div class="line"><span class="lineno">   58</span>            <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.erase(itr);</div>
+<div class="line"><span class="lineno">   59</span>        }</div>
+<div class="line"><span class="lineno">   60</span> </div>
+<div class="line"><span class="lineno">   61</span>        <a class="code hl_variable" href="../../d9/dcb/a05154.html#a61e6a6eb75512241e82092abfeba7a65">_registeredObjects</a>.emplace(std::piecewise_construct, std::forward_as_tuple(key), std::forward_as_tuple(obj));</div>
+<div class="line"><span class="lineno">   62</span>        <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno">   63</span>    }</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00078">ObjectRegistry&lt; T, Key &gt;::_registeredObjects</a>.</p>
+
+</div>
+</div>
+<a id="a7a6582a84361d5ad1142f29c9e1d9cb5" name="a7a6582a84361d5ad1142f29c9e1d9cb5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a6582a84361d5ad1142f29c9e1d9cb5">&#9670;&#160;</a></span>instance()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class Key  = std::string&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt; * <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::instance </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -322,239 +424,48 @@ template&lt;class TO , class FROM &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 <div class="fragment"><div class="line"><span class="lineno">   43</span>    {</div>
-<div class="line"><span class="lineno">   44</span>        <a class="code hl_class" href="../../d4/d85/a05138.html">LinkedListElement</a>* ref;</div>
-<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">while</span> ((ref = <a class="code hl_function" href="../../d9/dcb/a05154.html#a67de35d375c34c38db2b87481a141ebf">getFirst</a>()) != <span class="keyword">nullptr</span>)</div>
-<div class="line"><span class="lineno">   46</span>        {</div>
-<div class="line"><span class="lineno">   47</span>            ((<a class="code hl_class" href="../../dd/d48/a05150.html">Reference&lt;TO, FROM&gt;</a>*) ref)-&gt;invalidate();</div>
-<div class="line"><span class="lineno">   48</span>            ref-&gt;<a class="code hl_function" href="../../d4/d85/a05138.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">delink</a>();                              <span class="comment">// the delink might be already done by invalidate(), but doing it here again does not hurt and insures an empty list</span></div>
-<div class="line"><span class="lineno">   49</span>        }</div>
-<div class="line"><span class="lineno">   50</span>    }</div>
-<div class="ttc" id="aa05138_html"><div class="ttname"><a href="../../d4/d85/a05138.html">LinkedListElement</a></div><div class="ttdef"><b>Definition:</b> LinkedList.h:28</div></div>
-<div class="ttc" id="aa05138_html_a56583d2ad1e6e3b9b37d1dcbf55d2a10"><div class="ttname"><a href="../../d4/d85/a05138.html#a56583d2ad1e6e3b9b37d1dcbf55d2a10">LinkedListElement::delink</a></div><div class="ttdeci">void delink()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:52</div></div>
-<div class="ttc" id="aa05150_html"><div class="ttname"><a href="../../dd/d48/a05150.html">Reference</a></div><div class="ttdef"><b>Definition:</b> Reference.h:27</div></div>
+<div class="line"><span class="lineno">   44</span>        <span class="keyword">static</span> <a class="code hl_class" href="../../d9/dcb/a05154.html">ObjectRegistry&lt;T, Key&gt;</a>* <a class="code hl_function" href="../../d9/dcb/a05154.html#a7a6582a84361d5ad1142f29c9e1d9cb5">instance</a> = <span class="keyword">new</span> <a class="code hl_class" href="../../d9/dcb/a05154.html">ObjectRegistry&lt;T, Key&gt;</a>();</div>
+<div class="line"><span class="lineno">   45</span>        <span class="keywordflow">return</span> <a class="code hl_function" href="../../d9/dcb/a05154.html#a7a6582a84361d5ad1142f29c9e1d9cb5">instance</a>;</div>
+<div class="line"><span class="lineno">   46</span>    }</div>
+<div class="ttc" id="aa05154_html"><div class="ttname"><a href="../../d9/dcb/a05154.html">ObjectRegistry</a></div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:29</div></div>
+<div class="ttc" id="aa05154_html_a7a6582a84361d5ad1142f29c9e1d9cb5"><div class="ttname"><a href="../../d9/dcb/a05154.html#a7a6582a84361d5ad1142f29c9e1d9cb5">ObjectRegistry::instance</a></div><div class="ttdeci">static ObjectRegistry&lt; T, Key &gt; * instance()</div><div class="ttdef"><b>Definition:</b> ObjectRegistry.h:42</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00052">LinkedListElement::delink()</a>, and <a class="el" href="../../#l00032">RefMgr&lt; TO, FROM &gt;::getFirst()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00042">ObjectRegistry&lt; T, Key &gt;::instance()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00343">Loot::clear()</a>, and <a class="el" href="../../#l00030">RefMgr&lt; TO, FROM &gt;::~RefMgr()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00042">ObjectRegistry&lt; T, Key &gt;::instance()</a>, and <a class="el" href="../../#l00035">FactoryHolder&lt; T, O, Key &gt;::RegisterSelf()</a>.</p>
 
 </div>
 </div>
-<a id="aab6573a792b9b24c3dc4a690c6ff77d9" name="aab6573a792b9b24c3dc4a690c6ff77d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab6573a792b9b24c3dc4a690c6ff77d9">&#9670;&#160;</a></span>end()</h2>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a61e6a6eb75512241e82092abfeba7a65" name="a61e6a6eb75512241e82092abfeba7a65"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61e6a6eb75512241e82092abfeba7a65">&#9670;&#160;</a></span>_registeredObjects</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
+template&lt;class T , class Key  = std::string&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a> <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::end </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#ab6a131bc0c7d0ddcb9ad34044b9c8ac2">RegistryMapType</a> <a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a>&lt; T, Key &gt;::_registeredObjects</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>(<span class="keyword">nullptr</span>); }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a67de35d375c34c38db2b87481a141ebf" name="a67de35d375c34c38db2b87481a141ebf"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67de35d375c34c38db2b87481a141ebf">&#9670;&#160;</a></span>getFirst() <span class="overload">[1/2]</span></h2>
 
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::getFirst </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   32</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../dd/d48/a05150.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d5/d6d/a05142.html#a3bdb6df345043767ce9b319593102371">LinkedListHead::getFirst</a>()); }</div>
-<div class="ttc" id="aa05142_html_a3bdb6df345043767ce9b319593102371"><div class="ttname"><a href="../../d5/d6d/a05142.html#a3bdb6df345043767ce9b319593102371">LinkedListHead::getFirst</a></div><div class="ttdeci">LinkedListElement * getFirst()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:99</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00099">LinkedListHead::getFirst()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00072">ObjectRegistry&lt; T, Key &gt;::GetRegisteredItems()</a>, <a class="el" href="../../#l00034">ObjectRegistry&lt; T, Key &gt;::GetRegistryItem()</a>, <a class="el" href="../../#l00066">ObjectRegistry&lt; T, Key &gt;::HasItem()</a>, and <a class="el" href="../../#l00049">ObjectRegistry&lt; T, Key &gt;::InsertItem()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00037">RefMgr&lt; TO, FROM &gt;::begin()</a>, <a class="el" href="../../#l00042">RefMgr&lt; TO, FROM &gt;::clearReferences()</a>, <a class="el" href="../../#l00297">LootValidatorRefMgr::getFirst()</a>, and <a class="el" href="../../#l00031">MapRefMgr::getFirst()</a>.</p>
-
-</div>
-</div>
-<a id="a2636030fdcd2312e7c2556c2da3ef948" name="a2636030fdcd2312e7c2556c2da3ef948"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2636030fdcd2312e7c2556c2da3ef948">&#9670;&#160;</a></span>getFirst() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::getFirst </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   33</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../dd/d48/a05150.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d5/d6d/a05142.html#a3bdb6df345043767ce9b319593102371">LinkedListHead::getFirst</a>()); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00099">LinkedListHead::getFirst()</a>.</p>
-
-</div>
-</div>
-<a id="a6695bac4fd79bb428fd1f6a72ad6c3e3" name="a6695bac4fd79bb428fd1f6a72ad6c3e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6695bac4fd79bb428fd1f6a72ad6c3e3">&#9670;&#160;</a></span>getLast() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; * <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::getLast </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../dd/d48/a05150.html">Reference&lt;TO, FROM&gt;</a>*) <a class="code hl_function" href="../../d5/d6d/a05142.html#a523c918451eb358014e821b11f000b9b">LinkedListHead::getLast</a>()); }</div>
-<div class="ttc" id="aa05142_html_a523c918451eb358014e821b11f000b9b"><div class="ttname"><a href="../../d5/d6d/a05142.html#a523c918451eb358014e821b11f000b9b">LinkedListHead::getLast</a></div><div class="ttdeci">LinkedListElement * getLast()</div><div class="ttdef"><b>Definition:</b> LinkedList.h:102</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00102">LinkedListHead::getLast()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00298">LootValidatorRefMgr::getLast()</a>, <a class="el" href="../../#l00033">MapRefMgr::getLast()</a>, and <a class="el" href="../../#l00039">RefMgr&lt; TO, FROM &gt;::rbegin()</a>.</p>
-
-</div>
-</div>
-<a id="afab4e70c39d83e38048c5fe80166e5fa" name="afab4e70c39d83e38048c5fe80166e5fa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afab4e70c39d83e38048c5fe80166e5fa">&#9670;&#160;</a></span>getLast() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../dd/d48/a05150.html">Reference</a>&lt; TO, FROM &gt; const  * <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::getLast </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   35</span>{ <span class="keywordflow">return</span> ((<a class="code hl_class" href="../../dd/d48/a05150.html">Reference&lt;TO, FROM&gt;</a> <span class="keyword">const</span>*) <a class="code hl_function" href="../../d5/d6d/a05142.html#a523c918451eb358014e821b11f000b9b">LinkedListHead::getLast</a>()); }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00102">LinkedListHead::getLast()</a>.</p>
-
-</div>
-</div>
-<a id="a4c64b9aad3611aff0d1c419b5d5fa8f0" name="a4c64b9aad3611aff0d1c419b5d5fa8f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c64b9aad3611aff0d1c419b5d5fa8f0">&#9670;&#160;</a></span>rbegin()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a> <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::rbegin </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>(<a class="code hl_function" href="../../d9/dcb/a05154.html#a6695bac4fd79bb428fd1f6a72ad6c3e3">getLast</a>()); }</div>
-<div class="ttc" id="aa05154_html_a6695bac4fd79bb428fd1f6a72ad6c3e3"><div class="ttname"><a href="../../d9/dcb/a05154.html#a6695bac4fd79bb428fd1f6a72ad6c3e3">RefMgr::getLast</a></div><div class="ttdeci">Reference&lt; TO, FROM &gt; * getLast()</div><div class="ttdef"><b>Definition:</b> RefMgr.h:34</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00034">RefMgr&lt; TO, FROM &gt;::getLast()</a>.</p>
-
-</div>
-</div>
-<a id="ae5ef045c8e3bbce625ffdc2c075b90c2" name="ae5ef045c8e3bbce625ffdc2c075b90c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae5ef045c8e3bbce625ffdc2c075b90c2">&#9670;&#160;</a></span>rend()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class TO , class FROM &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a> <a class="el" href="../../d9/dcb/a05154.html">RefMgr</a>&lt; TO, FROM &gt;::rend </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   40</span>{ <span class="keywordflow">return</span> <a class="code hl_typedef" href="../../d9/dcb/a05154.html#a301cf316e15e5f55046c1c25ef2a4f5b">iterator</a>(<span class="keyword">nullptr</span>); }</div>
-</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -562,8 +473,8 @@ template&lt;class TO , class FROM &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d9/dcb/a05154.html">RefMgr</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:02 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d9/dcb/a05154.html">ObjectRegistry</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:11 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

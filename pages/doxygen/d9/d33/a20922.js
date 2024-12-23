@@ -1,6 +1,6 @@
 var a20922 =
 [
-    [ "npc_frozen_orb_stalkerAI", "d9/d33/a20922.html#afd8d187ecbf508d02824d1ff8f3cb5cf", null ],
-    [ "JustSummoned", "d9/d33/a20922.html#a73d7d5e55d2a00c9aee6f595e2678b17", null ],
-    [ "Reset", "d9/d33/a20922.html#a064ccb90afeb9b36d501850482c60bc4", null ]
+    [ "boss_emalonAI", "de/d94/a20926.html", "de/d94/a20926" ],
+    [ "boss_emalon", "d9/d33/a20922.html#a2dd481292e02337bebd450f5c9821886", null ],
+    [ "GetAI", "d9/d33/a20922.html#a345b0663ba89de5e37b87a436c48e446", null ]
 ];

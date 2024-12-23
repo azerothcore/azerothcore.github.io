@@ -1,5 +1,6 @@
 var a26622 =
 [
-    [ "achievement_bg_ic_resource_glut", "d1/da8/a26622.html#ace247962dccee2601ceade593b0874d4", null ],
-    [ "OnCheck", "d1/da8/a26622.html#a9910cf8b16b8c956df382161cc5f2c84", null ]
+    [ "HandleHeal", "d1/da8/a26622.html#a03afbdbdc8555fc2d558a5e48f7340a0", null ],
+    [ "PrepareSpellScript", "d1/da8/a26622.html#a61a601108cd59e5d87634c02b002e20d", null ],
+    [ "Register", "d1/da8/a26622.html#ae46c965fc77aa61aaa3c426c8ecc585c", null ]
 ];

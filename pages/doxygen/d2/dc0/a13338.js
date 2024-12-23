@@ -1,9 +1,10 @@
 var a13338 =
 [
-    [ "npc_marzon_silent_bladeAI", "d2/dc0/a13338.html#a9f29c3b56e26421dabc2c95b8cd0407e", null ],
-    [ "EnterEvadeMode", "d2/dc0/a13338.html#a0b42596550d045f5ca0096ceee80c0ac", null ],
-    [ "JustEngagedWith", "d2/dc0/a13338.html#a116b3458f342811e378713e6a67f76a6", null ],
-    [ "MovementInform", "d2/dc0/a13338.html#a32201d45f0c19212becb6319a48366f8", null ],
-    [ "Reset", "d2/dc0/a13338.html#a51c2b16c767ce2922564dc9e4048e089", null ],
-    [ "UpdateAI", "d2/dc0/a13338.html#aa6686399b41d32429d530dcc2ec41185", null ]
+    [ "npc_grand_magister_rommathAI", "d2/dc0/a13338.html#a5e9404dd8bf4b513e05daac53c076314", null ],
+    [ "DoAction", "d2/dc0/a13338.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
+    [ "MoveInLineOfSight", "d2/dc0/a13338.html#ad35b64b37915484b133bcd185a832011", null ],
+    [ "UpdateAI", "d2/dc0/a13338.html#ac687bd20f0ae66b21ce52c21561af417", null ],
+    [ "announced", "d2/dc0/a13338.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
+    [ "events", "d2/dc0/a13338.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
+    [ "playerGUID", "d2/dc0/a13338.html#ad0ac0647feb998e837a44b0a688694e9", null ]
 ];

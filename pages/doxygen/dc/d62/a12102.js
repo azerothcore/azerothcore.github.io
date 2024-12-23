@@ -1,7 +1,7 @@
 var a12102 =
 [
-    [ "HandleHit", "dc/d62/a12102.html#a18f86449945ade16140ee934a7d8703e", null ],
-    [ "PrepareSpellScript", "dc/d62/a12102.html#abaf09043858db27b05fbe544d7a15a8f", null ],
-    [ "Register", "dc/d62/a12102.html#abe0733be2e32ff616c48acaeeb1d39e9", null ],
-    [ "Validate", "dc/d62/a12102.html#abc970a8b4a8f27f81f392cebf81dc574", null ]
+    [ "HandleRemove", "dc/d62/a12102.html#a754b44b62c131e20e1be94b3407e2006", null ],
+    [ "PrepareAuraScript", "dc/d62/a12102.html#a92a58e6bcde5f80c6962ce1da47aca2d", null ],
+    [ "Register", "dc/d62/a12102.html#a02cd375ec140f7614104b7e56df13430", null ],
+    [ "Validate", "dc/d62/a12102.html#a4dd592093c1b00388a54fd8aa1b86904", null ]
 ];

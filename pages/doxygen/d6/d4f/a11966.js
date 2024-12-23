@@ -1,6 +1,7 @@
 var a11966 =
 [
-    [ "boss_flamegorAI", "d6/d4f/a11966.html#a4b3d46c3faa566095b0cedad3df9f057", null ],
-    [ "JustEngagedWith", "d6/d4f/a11966.html#a6005dca71e2f20ee599e053e531377d6", null ],
-    [ "UpdateAI", "d6/d4f/a11966.html#a2e5146815e533cf62e0084a54aa222d5", null ]
+    [ "go_suppression_deviceAI", "db/d54/a11970.html", "db/d54/a11970" ],
+    [ "go_suppression_device", "d6/d4f/a11966.html#a900713d6b029015f8868a96e5e1b9018", null ],
+    [ "GetAI", "d6/d4f/a11966.html#aa51bb6f9616022c1f4e1e711ca1130e8", null ],
+    [ "OnLootStateChanged", "d6/d4f/a11966.html#a684546c3ce0c0785d52a87eb011ef313", null ]
 ];

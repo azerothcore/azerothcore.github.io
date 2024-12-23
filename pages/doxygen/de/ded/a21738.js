@@ -1,6 +1,8 @@
 var a21738 =
 [
-    [ "ChangeSummonPos", "de/ded/a21738.html#aeb2cf0a5d2e563e4983ddd237a2b1001", null ],
-    [ "PrepareSpellScript", "de/ded/a21738.html#a1654fec971696e613b5102b3ca5030f1", null ],
-    [ "Register", "de/ded/a21738.html#ab1e7d44914952dfb7f7ccf2de4da286f", null ]
+    [ "npc_llod_genericAI", "de/ded/a21738.html#ac75d85ae4b59416952788102cd1db132", null ],
+    [ "Reset", "de/ded/a21738.html#a15bd7442fef36a551cc8797f7919f57c", null ],
+    [ "UpdateAI", "de/ded/a21738.html#aa7dce553fb699127f63281b2c47a2f02", null ],
+    [ "attackTimer", "de/ded/a21738.html#a28a6e700d24995e477e7e7c4cc8b5d68", null ],
+    [ "summonTimer", "de/ded/a21738.html#aeeeef545aee565c14d86d8587923c677", null ]
 ];

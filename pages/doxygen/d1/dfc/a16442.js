@@ -1,6 +1,7 @@
 var a16442 =
 [
-    [ "npc_fos_leader_secondAI", "dc/d4d/a16446.html", "dc/d4d/a16446" ],
-    [ "npc_fos_leader_second", "d1/dfc/a16442.html#a0e24659ef6e834da5a3adc8d79f0db4e", null ],
-    [ "GetAI", "d1/dfc/a16442.html#a96082888ccbb1c81be8327e5e0d84e03", null ]
+    [ "HandleScriptEffect", "d1/dfc/a16442.html#a667e50b01f431dba025f692484f6e7ba", null ],
+    [ "PrepareSpellScript", "d1/dfc/a16442.html#a9a5ffd28102a519c06f3715d7f2b1039", null ],
+    [ "Register", "d1/dfc/a16442.html#a7ffa6eb498e9ec06d5cb4f81cff44389", null ],
+    [ "Validate", "d1/dfc/a16442.html#a0ab270193a95f9043afd40c9ffd2a46b", null ]
 ];

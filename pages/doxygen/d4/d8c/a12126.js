@@ -1,10 +1,9 @@
 var a12126 =
 [
-    [ "npc_core_ragerAI", "d4/d8c/a12126.html#a3c5125e0a10043f6181c10ba749fa579", null ],
-    [ "DamageTaken", "d4/d8c/a12126.html#a758eb158eb9d232d74514281028efcb3", null ],
-    [ "Reset", "d4/d8c/a12126.html#acf83e469d3d8108276227a942fda28b3", null ],
-    [ "UpdateAI", "d4/d8c/a12126.html#a2183cf5ab22b737413b86a657fde6d3c", null ],
-    [ "instance", "d4/d8c/a12126.html#a7cfddba62f737214b8cfc7fbffa8c2e2", null ],
-    [ "mangleTimer", "d4/d8c/a12126.html#a081333b967abb3812b9ddae2f933a324", null ],
-    [ "rangeCheckTimer", "d4/d8c/a12126.html#ade427bdd9ec99807b6f190c890136414", null ]
+    [ "boss_baron_geddonAI", "d4/d8c/a12126.html#a3a85b2a6e958a965e52a9fde87c08177", null ],
+    [ "DamageTaken", "d4/d8c/a12126.html#ad339cb7149b50cf5accc24b5a2d0bf82", null ],
+    [ "ExecuteEvent", "d4/d8c/a12126.html#a2c3ed57dd0336ce8ac1a85c957da9e4a", null ],
+    [ "JustEngagedWith", "d4/d8c/a12126.html#a8c5e43b4b4e0583db7dcc93694202bd8", null ],
+    [ "Reset", "d4/d8c/a12126.html#aaf47fc993e672877f51b5095f682906c", null ],
+    [ "armageddonCasted", "d4/d8c/a12126.html#a1a034601a7dda94becbf1801bda63d55", null ]
 ];

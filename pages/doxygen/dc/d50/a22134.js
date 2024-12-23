@@ -1,13 +1,11 @@
 var a22134 =
 [
-    [ "OPvPCapturePointEP_PWT", "dc/d50/a22134.html#a17e3d11c9b282f203bb0e1511fb5af02", null ],
-    [ "ChangeState", "dc/d50/a22134.html#a1e26a3ed8d700533df0a51d8db510a4f", null ],
-    [ "FillInitialWorldStates", "dc/d50/a22134.html#a823b74c3f4e2dac7e02b060ccfb93c89", null ],
-    [ "HandlePlayerEnter", "dc/d50/a22134.html#ab9bf289c0814e60fd75902b4e87d1e46", null ],
-    [ "HandlePlayerLeave", "dc/d50/a22134.html#a5772e54263c613eee365856def5e74e6", null ],
-    [ "SendChangePhase", "dc/d50/a22134.html#af1cffc64adac5b64c04175ad1685d0b8", null ],
-    [ "SummonFlightMaster", "dc/d50/a22134.html#ab3808f8d756cc5f0b48db9375ae2fa1c", null ],
-    [ "UpdateTowerState", "dc/d50/a22134.html#af30325b43d2861eb667b33dcb23ffc1e", null ],
-    [ "m_FlightMasterSpawnedId", "dc/d50/a22134.html#afeefd804849b925e6d0a880d8efb5319", null ],
-    [ "m_TowerState", "dc/d50/a22134.html#a914dcbb37baf457750cfe9829d95d88c", null ]
+    [ "npc_drakuru_shacklesAI", "dc/d50/a22134.html#aeb55bf23d97e963b0fb9a18596bb58b1", null ],
+    [ "LockRageclaw", "dc/d50/a22134.html#aa58fff9ee8e6cbe4d2dd0d391215f1f4", null ],
+    [ "Reset", "dc/d50/a22134.html#a566fba51edcddab8c5b0bf5688571f80", null ],
+    [ "SpellHit", "dc/d50/a22134.html#a04a9f0cc28cd8cab89120e66972b74cf", null ],
+    [ "UnlockRageclaw", "dc/d50/a22134.html#a65a4b408ac09ffa3155b955dc054d971", null ],
+    [ "UpdateAI", "dc/d50/a22134.html#a8a04ac89e5ec9ce841445913765a1a73", null ],
+    [ "_rageclawGUID", "dc/d50/a22134.html#a1c991305f4ef30146930747881e57de4", null ],
+    [ "timer", "dc/d50/a22134.html#a2a6484216abd731ad016284a79575e1c", null ]
 ];

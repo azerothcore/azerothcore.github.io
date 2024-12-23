@@ -1,6 +1,6 @@
 var a19242 =
 [
-    [ "boss_sjonnir_malformed_oozeAI", "de/dcd/a19246.html", "de/dcd/a19246" ],
-    [ "boss_sjonnir_malformed_ooze", "d5/dea/a19242.html#ad151bc07b032b6cceed046d1b25ecc08", null ],
-    [ "GetAI", "d5/dea/a19242.html#a22807bb07692511c5ec87073d98c2604", null ]
+    [ "instance_halls_of_lightning_InstanceMapScript", "de/dcd/a19246.html", "de/dcd/a19246" ],
+    [ "instance_halls_of_lightning", "d5/dea/a19242.html#a24395866efe2c7d1f7727be2557a8b46", null ],
+    [ "GetInstanceScript", "d5/dea/a19242.html#a5ce157aeaf2ed78e98e864059a599b36", null ]
 ];

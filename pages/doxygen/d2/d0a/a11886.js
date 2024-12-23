@@ -1,5 +1,6 @@
 var a11886 =
 [
-    [ "at_scarshield_infiltrator", "d2/d0a/a11886.html#a2d1df47353c9a7e0d506b7c54e7be58e", null ],
-    [ "OnTrigger", "d2/d0a/a11886.html#a607c3ee2bd4716cf1e0499e202d379fc", null ]
+    [ "boss_thebeastAI", "dc/d03/a11890.html", "dc/d03/a11890" ],
+    [ "boss_the_beast", "d2/d0a/a11886.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
+    [ "GetAI", "d2/d0a/a11886.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
 ];

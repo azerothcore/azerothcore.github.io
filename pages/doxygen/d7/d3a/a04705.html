@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::Containers Namespace Reference</title>
+<title>AzerothCore: ByteConverter Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,368 +106,44 @@ $(document).ready(function(){initNavTree('d7/d3a/a04705.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">Acore::Containers Namespace Reference</div></div>
+  <div class="headertitle"><div class="title">ByteConverter Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#ad8b2c621f5a22f8ae253a1c9733794b9">RandomResize</a> (C &amp;container, std::size_t requestedSize)</td></tr>
-<tr class="separator:ad8b2c621f5a22f8ae253a1c9733794b9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
-<tr class="memitem:a356dc36492769fc1473e5f5214bd6a11"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a356dc36492769fc1473e5f5214bd6a11">RandomResize</a> (C &amp;container, Predicate &amp;&amp;predicate, std::size_t requestedSize)</td></tr>
-<tr class="separator:a356dc36492769fc1473e5f5214bd6a11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a8ca673d18562735d4ed20a11519b3d46"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a8ca673d18562735d4ed20a11519b3d46">SelectRandomContainerElement</a> (C const &amp;container) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
-<tr class="separator:a8ca673d18562735d4ed20a11519b3d46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplParams" colspan="2">template&lt;class C , class Predicate &gt; </td></tr>
-<tr class="memitem:a51f93a1269545c4116969ba141a79738"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a51f93a1269545c4116969ba141a79738">SelectRandomContainerElementIf</a> (C const &amp;container, Predicate &amp;&amp;predicate) -&gt; typename std::add_const&lt; decltype(*std::begin(container))&gt;::type &amp;</td></tr>
-<tr class="separator:a51f93a1269545c4116969ba141a79738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a220cb6c43559036273f478f15d047eb9"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a220cb6c43559036273f478f15d047eb9">SelectRandomWeightedContainerElement</a> (C const &amp;container, std::vector&lt; double &gt; weights) -&gt; decltype(std::begin(container))</td></tr>
-<tr class="separator:a220cb6c43559036273f478f15d047eb9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplParams" colspan="2">template&lt;class C , class Fn &gt; </td></tr>
-<tr class="memitem:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a4e1de71c76e525a6fdf4c76b0d09c94b">SelectRandomWeightedContainerElement</a> (C const &amp;container, Fn weightExtractor) -&gt; decltype(std::begin(container))</td></tr>
-<tr class="separator:a4e1de71c76e525a6fdf4c76b0d09c94b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplParams" colspan="2">template&lt;class M &gt; </td></tr>
-<tr class="memitem:a288324cfca487d8ecc2eab8a6014c513"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a288324cfca487d8ecc2eab8a6014c513">MapGetValuePtr</a> (M &amp;map, typename M::key_type const &amp;key) -&gt; decltype(<a class="el" href="../../d8/d20/a04686.html#aa676a34e943f3ea366194be6f31da865">AddressOrSelf</a>(map.find(key) -&gt;second))</td></tr>
-<tr class="separator:a288324cfca487d8ecc2eab8a6014c513"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
-<tr class="memitem:a4585a27b1f592547062d7bc039cff3b4"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a4585a27b1f592547062d7bc039cff3b4">RandomShuffle</a> (C &amp;container)</td></tr>
-<tr class="separator:a4585a27b1f592547062d7bc039cff3b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplParams" colspan="2">template&lt;class K , class V , template&lt; class, class, class... &gt; class M, class... Rest&gt; </td></tr>
-<tr class="memitem:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a965e5e257e71e0d1a8c708fbd00867a7">MultimapErasePair</a> (M&lt; K, V, Rest... &gt; &amp;multimap, K const &amp;key, V const &amp;value)</td></tr>
-<tr class="separator:a965e5e257e71e0d1a8c708fbd00867a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7821713bb3723db62da8a4d0e3711407"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a7821713bb3723db62da8a4d0e3711407">EraseIf</a> (<a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;c, Predicate p)</td></tr>
-<tr class="separator:a7821713bb3723db62da8a4d0e3711407"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8700eb31c04be5cf6c6ecc86e76cadad"><td class="memTemplParams" colspan="2">template&lt;class M &gt; </td></tr>
-<tr class="memitem:a8700eb31c04be5cf6c6ecc86e76cadad"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a8700eb31c04be5cf6c6ecc86e76cadad">MapEqualRange</a> (M &amp;map, typename M::key_type const &amp;key) -&gt; <a class="el" href="../../d1/df3/a05390.html">IteratorPair</a>&lt; decltype(map.begin())&gt;</td></tr>
-<tr class="separator:a8700eb31c04be5cf6c6ecc86e76cadad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplParams" colspan="2">template&lt;std::size_t T&gt; </td></tr>
+<tr class="memitem:a5628479f846d755da3ff53b0e2a66c26"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> (char *val)</td></tr>
+<tr class="separator:a5628479f846d755da3ff53b0e2a66c26"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:aa8017307aa0aa935f062b4f701563d09"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#aa8017307aa0aa935f062b4f701563d09">convert&lt; 0 &gt;</a> (char *)</td></tr>
+<tr class="separator:aa8017307aa0aa935f062b4f701563d09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memItemLeft" align="right" valign="top">template&lt;&gt; </td></tr>
+<tr class="memitem:a3717e304a2b8b074fcd513ca8e0db116"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a3717e304a2b8b074fcd513ca8e0db116">convert&lt; 1 &gt;</a> (char *)</td></tr>
+<tr class="separator:a3717e304a2b8b074fcd513ca8e0db116"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a6177d7ac84a4ea6819c57a124345540e"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d7/d3a/a04705.html#a6177d7ac84a4ea6819c57a124345540e">apply</a> (T *val)</td></tr>
+<tr class="separator:a6177d7ac84a4ea6819c57a124345540e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a7821713bb3723db62da8a4d0e3711407" name="a7821713bb3723db62da8a4d0e3711407"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7821713bb3723db62da8a4d0e3711407">&#9670;&#160;</a></span>EraseIf()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Containers::EraseIf </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d7/db0/a03467.html#abe8666ac87665ba963053cdd2b014750a0e7278cda02a9c0446dcc75a4df34eb2">Container</a> &amp;&#160;</td>
-          <td class="paramname"><em>c</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Predicate&#160;</td>
-          <td class="paramname"><em>p</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  244</span>    {</div>
-<div class="line"><span class="lineno">  245</span>        <span class="keyword">auto</span> wpos = c.begin();</div>
-<div class="line"><span class="lineno">  246</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> rpos = c.begin(), end = c.end(); rpos != end; ++rpos)</div>
-<div class="line"><span class="lineno">  247</span>        {</div>
-<div class="line"><span class="lineno">  248</span>            <span class="keywordflow">if</span> (!p(*rpos))</div>
-<div class="line"><span class="lineno">  249</span>            {</div>
-<div class="line"><span class="lineno">  250</span>                <span class="keywordflow">if</span> (rpos != wpos)</div>
-<div class="line"><span class="lineno">  251</span>                {</div>
-<div class="line"><span class="lineno">  252</span>                    std::swap(*rpos, *wpos);</div>
-<div class="line"><span class="lineno">  253</span>                }</div>
-<div class="line"><span class="lineno">  254</span>                ++wpos;</div>
-<div class="line"><span class="lineno">  255</span>            }</div>
-<div class="line"><span class="lineno">  256</span>        }</div>
-<div class="line"><span class="lineno">  257</span>        c.erase(wpos, c.end());</div>
-<div class="line"><span class="lineno">  258</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00276">WardenWin::RequestChecks()</a>.</p>
-
-</div>
-</div>
-<a id="a8700eb31c04be5cf6c6ecc86e76cadad" name="a8700eb31c04be5cf6c6ecc86e76cadad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8700eb31c04be5cf6c6ecc86e76cadad">&#9670;&#160;</a></span>MapEqualRange()</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p ><a class="el" href="../../d7/d3a/a04705.html">ByteConverter</a> reverse your byte order. This is use for cross platform where they have different endians. </p>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a6177d7ac84a4ea6819c57a124345540e" name="a6177d7ac84a4ea6819c57a124345540e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6177d7ac84a4ea6819c57a124345540e">&#9670;&#160;</a></span>apply()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class M &gt; </div>
+template&lt;typename T &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto Acore::Containers::MapEqualRange </td>
+          <td class="memname">void ByteConverter::apply </td>
           <td>(</td>
-          <td class="paramtype">M &amp;&#160;</td>
-          <td class="paramname"><em>map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename M::key_type const &amp;&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="../../d1/df3/a05390.html">IteratorPair</a>&lt;decltype(map.begin())&gt;
-        </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   49</span>        {</div>
-<div class="line"><span class="lineno">   50</span>            <span class="keywordflow">return</span> { map.equal_range(key) };</div>
-<div class="line"><span class="lineno">   51</span>        }</div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a288324cfca487d8ecc2eab8a6014c513" name="a288324cfca487d8ecc2eab8a6014c513"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a288324cfca487d8ecc2eab8a6014c513">&#9670;&#160;</a></span>MapGetValuePtr()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class M &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto Acore::Containers::MapGetValuePtr </td>
-          <td>(</td>
-          <td class="paramtype">M &amp;&#160;</td>
-          <td class="paramname"><em>map</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">typename M::key_type const &amp;&#160;</td>
-          <td class="paramname"><em>key</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; decltype(<a class="el" href="../../d8/d20/a04686.html#aa676a34e943f3ea366194be6f31da865">AddressOrSelf</a>(map.find(key)-&gt;second))
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p >Returns a pointer to mapped value (or the value itself if map stores pointers) </p>
-<div class="fragment"><div class="line"><span class="lineno">  207</span>    {</div>
-<div class="line"><span class="lineno">  208</span>        <span class="keyword">auto</span> itr = map.find(key);</div>
-<div class="line"><span class="lineno">  209</span>        <span class="keywordflow">return</span> itr != map.end() ? <a class="code hl_function" href="../../d8/d20/a04686.html#aa676a34e943f3ea366194be6f31da865">AddressOrSelf</a>(itr-&gt;second) : nullptr;</div>
-<div class="line"><span class="lineno">  210</span>    }</div>
-<div class="ttc" id="aa04686_html_aa676a34e943f3ea366194be6f31da865"><div class="ttname"><a href="../../d8/d20/a04686.html#aa676a34e943f3ea366194be6f31da865">Acore::AddressOrSelf</a></div><div class="ttdeci">constexpr T * AddressOrSelf(T *ptr)</div><div class="ttdef"><b>Definition:</b> Containers.h:31</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00031">Acore::AddressOrSelf()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l01452">ObjectMgr::GetCreatureMovementOverride()</a>, <a class="el" href="../../#l00254">GetFlyByCameras()</a>, and <a class="el" href="../../#l00172">Arena::RemovePlayerAtLeave()</a>.</p>
-
-</div>
-</div>
-<a id="a965e5e257e71e0d1a8c708fbd00867a7" name="a965e5e257e71e0d1a8c708fbd00867a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a965e5e257e71e0d1a8c708fbd00867a7">&#9670;&#160;</a></span>MultimapErasePair()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class K , class V , template&lt; class, class, class... &gt; class M, class... Rest&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Containers::MultimapErasePair </td>
-          <td>(</td>
-          <td class="paramtype">M&lt; K, V, Rest... &gt; &amp;&#160;</td>
-          <td class="paramname"><em>multimap</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">K const &amp;&#160;</td>
-          <td class="paramname"><em>key</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">V const &amp;&#160;</td>
-          <td class="paramname"><em>value</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  227</span>    {</div>
-<div class="line"><span class="lineno">  228</span>        <span class="keyword">auto</span> range = multimap.equal_range(key);</div>
-<div class="line"><span class="lineno">  229</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span> itr = range.first; itr != range.second;)</div>
-<div class="line"><span class="lineno">  230</span>        {</div>
-<div class="line"><span class="lineno">  231</span>            <span class="keywordflow">if</span> (itr-&gt;second == value)</div>
-<div class="line"><span class="lineno">  232</span>            {</div>
-<div class="line"><span class="lineno">  233</span>                itr = multimap.erase(itr);</div>
-<div class="line"><span class="lineno">  234</span>            }</div>
-<div class="line"><span class="lineno">  235</span>            <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  236</span>            {</div>
-<div class="line"><span class="lineno">  237</span>                ++itr;</div>
-<div class="line"><span class="lineno">  238</span>            }</div>
-<div class="line"><span class="lineno">  239</span>        }</div>
-<div class="line"><span class="lineno">  240</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l00346">Creature::RemoveFromWorld()</a>, and <a class="el" href="../../#l00168">GameObject::RemoveFromWorld()</a>.</p>
-
-</div>
-</div>
-<a id="a356dc36492769fc1473e5f5214bd6a11" name="a356dc36492769fc1473e5f5214bd6a11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a356dc36492769fc1473e5f5214bd6a11">&#9670;&#160;</a></span>RandomResize() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C , class Predicate &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Containers::RandomResize </td>
-          <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Predicate &amp;&amp;&#160;</td>
-          <td class="paramname"><em>predicate</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>requestedSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<p >First use predicate filter</p>
-<div class="fragment"><div class="line"><span class="lineno">  114</span>    {</div>
-<div class="line"><span class="lineno">  116</span>        C containerCopy;</div>
-<div class="line"><span class="lineno">  117</span>        std::copy_if(std::begin(container), std::end(container), std::inserter(containerCopy, std::end(containerCopy)), predicate);</div>
-<div class="line"><span class="lineno">  118</span> </div>
-<div class="line"><span class="lineno">  119</span>        <span class="keywordflow">if</span> (requestedSize)</div>
-<div class="line"><span class="lineno">  120</span>        {</div>
-<div class="line"><span class="lineno">  121</span>            <a class="code hl_function" href="../../d7/d3a/a04705.html#ad8b2c621f5a22f8ae253a1c9733794b9">RandomResize</a>(containerCopy, requestedSize);</div>
-<div class="line"><span class="lineno">  122</span>        }</div>
-<div class="line"><span class="lineno">  123</span> </div>
-<div class="line"><span class="lineno">  124</span>        container = std::move(containerCopy);</div>
-<div class="line"><span class="lineno">  125</span>    }</div>
-<div class="ttc" id="aa04705_html_ad8b2c621f5a22f8ae253a1c9733794b9"><div class="ttname"><a href="../../d7/d3a/a04705.html#ad8b2c621f5a22f8ae253a1c9733794b9">Acore::Containers::RandomResize</a></div><div class="ttdeci">void RandomResize(C &amp;container, std::size_t requestedSize)</div><div class="ttdef"><b>Definition:</b> Containers.h:79</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00079">RandomResize()</a>.</p>
-
-</div>
-</div>
-<a id="ad8b2c621f5a22f8ae253a1c9733794b9" name="ad8b2c621f5a22f8ae253a1c9733794b9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8b2c621f5a22f8ae253a1c9733794b9">&#9670;&#160;</a></span>RandomResize() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Containers::RandomResize </td>
-          <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">std::size_t&#160;</td>
-          <td class="paramname"><em>requestedSize</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   80</span>    {</div>
-<div class="line"><span class="lineno">   81</span>        <span class="keyword">static_assert</span>(std::is_base_of&lt;std::forward_iterator_tag, typename std::iterator_traits&lt;typename C::iterator&gt;::iterator_category&gt;::value, <span class="stringliteral">&quot;Invalid container passed to Acore::Containers::RandomResize&quot;</span>);</div>
-<div class="line"><span class="lineno">   82</span> </div>
-<div class="line"><span class="lineno">   83</span>        <span class="keywordflow">if</span> (std::size(container) &lt;= requestedSize)</div>
-<div class="line"><span class="lineno">   84</span>        {</div>
-<div class="line"><span class="lineno">   85</span>            <span class="keywordflow">return</span>;</div>
-<div class="line"><span class="lineno">   86</span>        }</div>
-<div class="line"><span class="lineno">   87</span> </div>
-<div class="line"><span class="lineno">   88</span>        <span class="keyword">auto</span> keepIt = std::begin(container), curIt = std::begin(container);</div>
-<div class="line"><span class="lineno">   89</span>        <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> elementsToKeep = requestedSize, elementsToProcess = std::size(container);</div>
-<div class="line"><span class="lineno">   90</span> </div>
-<div class="line"><span class="lineno">   91</span>        <span class="keywordflow">while</span> (elementsToProcess)</div>
-<div class="line"><span class="lineno">   92</span>        {</div>
-<div class="line"><span class="lineno">   93</span>            <span class="comment">// this element has chance (elementsToKeep / elementsToProcess) of being kept</span></div>
-<div class="line"><span class="lineno">   94</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="../../d4/def/a00359.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(1, elementsToProcess) &lt;= elementsToKeep)</div>
-<div class="line"><span class="lineno">   95</span>            {</div>
-<div class="line"><span class="lineno">   96</span>                <span class="keywordflow">if</span> (keepIt != curIt)</div>
-<div class="line"><span class="lineno">   97</span>                {</div>
-<div class="line"><span class="lineno">   98</span>                    *keepIt = std::move(*curIt);</div>
-<div class="line"><span class="lineno">   99</span>                }</div>
-<div class="line"><span class="lineno">  100</span> </div>
-<div class="line"><span class="lineno">  101</span>                ++keepIt;</div>
-<div class="line"><span class="lineno">  102</span>                --elementsToKeep;</div>
-<div class="line"><span class="lineno">  103</span>            }</div>
-<div class="line"><span class="lineno">  104</span> </div>
-<div class="line"><span class="lineno">  105</span>            ++curIt;</div>
-<div class="line"><span class="lineno">  106</span>            --elementsToProcess;</div>
-<div class="line"><span class="lineno">  107</span>        }</div>
-<div class="line"><span class="lineno">  108</span> </div>
-<div class="line"><span class="lineno">  109</span>        container.erase(keepIt, std::end(container));</div>
-<div class="line"><span class="lineno">  110</span>    }</div>
-<div class="ttc" id="aa00359_html_ab17def34ccbbd868dc87a16bf35acdbd"><div class="ttname"><a href="../../d4/def/a00359.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a></div><div class="ttdeci">uint32 urand(uint32 min, uint32 max)</div><div class="ttdef"><b>Definition:</b> Random.cpp:44</div></div>
-<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">urand()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00080">boss_chromaggus::boss_chromaggusAI::boss_chromaggusAI()</a>, <a class="el" href="../../#l00240">boss_victor_nefarius::boss_victor_nefariusAI::boss_victor_nefariusAI()</a>, <a class="el" href="../../#l00787">npc_hallows_end_soh::CastFires()</a>, <a class="el" href="../../#l00594">spell_pal_divine_storm_dummy::CountTargets()</a>, <a class="el" href="../../#l01113">spell_class_call_polymorph::FilterTargets()</a>, <a class="el" href="../../#l00121">spell_shazzrah_gate_dummy::FilterTargets()</a>, <a class="el" href="../../#l00370">spell_malchezaar_enfeeble::FilterTargets()</a>, <a class="el" href="../../#l00409">spell_flamewreath::FilterTargets()</a>, <a class="el" href="../../#l00483">spell_kalecgos_spectral_blast_dummy::FilterTargets()</a>, <a class="el" href="../../#l00362">spell_blood_siphon::FilterTargets()</a>, <a class="el" href="../../#l00031">spell_axe_flurry::FilterTargets()</a>, <a class="el" href="../../#l00146">spell_anetheron_sleep::FilterTargets()</a>, <a class="el" href="../../#l00152">spell_moam_mana_drain_filter::FilterTargets()</a>, <a class="el" href="../../#l00443">spell_mutate_explode_bug::FilterTargets()</a>, <a class="el" href="../../#l00696">spell_blood_queen_bloodbolt::FilterTargets()</a>, <a class="el" href="../../#l01266">spell_deathbringer_boiling_blood::FilterTargets()</a>, <a class="el" href="../../#l01173">spell_putricide_unbound_plague::FilterTargets()</a>, <a class="el" href="../../#l01300">spell_hodir_periodic_icicle::FilterTargets()</a>, <a class="el" href="../../#l01482">spell_q24545_aod_special::FilterTargets()</a>, <a class="el" href="../../#l00157">spell_talon_king_ikiss_blink::FilterTargets()</a>, <a class="el" href="../../#l00354">spell_lady_vashj_summons::FilterTargets()</a>, <a class="el" href="../../#l00153">spell_morogrim_tidewalker_watery_grave::FilterTargets()</a>, <a class="el" href="../../#l00389">spell_magtheridon_debris_target_selector::FilterTargets()</a>, <a class="el" href="../../#l00260">spell_blade_dance_targeting::FilterTargets()</a>, <a class="el" href="../../#l00923">spell_dru_starfall_dummy::FilterTargets()</a>, <a class="el" href="../../#l00667">spell_gen_select_target_count::FilterTargets()</a>, <a class="el" href="../../#l00868">spell_sindragosa_unchained_magic::FilterTargets()</a>, <a class="el" href="../../#l00192">spell_morogrim_tidewalker_water_globule_new_target::FilterTargets()</a>, <a class="el" href="../../#l00286">spell_tsh_shoot_flame_arrow::FilterTargets()</a>, <a class="el" href="../../#l00542">npc_hyjal_ground_trash::GetNearbyFriendlyTrashCreature()</a>, <a class="el" href="../../#l03427">SmartScript::GetTargets()</a>, <a class="el" href="../../#l01173">npc_echo_of_medivh::HandleCheat()</a>, <a class="el" href="../../#l01082">spell_kaelthas_nether_beam::HandleScriptEffect()</a>, <a class="el" href="../../#l00089">boss_priestess_delrissa::InitializeAI()</a>, <a class="el" href="../../#l00240">npc_obsidian_eradicator::JustEngagedWith()</a>, <a class="el" href="../../#l00364">npc_obsidian_nullifier::JustEngagedWith()</a>, <a class="el" href="../../#l01314">spell_dreamwalker_summon_suppresser_aura::PeriodicTick()</a>, <a class="el" href="../../#l00163">SmartScript::ProcessAction()</a>, <a class="el" href="../../#l00113">RandomResize()</a>, <a class="el" href="../../#l02113">spell_svalna_revive_champion::RemoveAliveTarget()</a>, <a class="el" href="../../#l01264">Spell::SelectImplicitAreaTargets()</a>, <a class="el" href="../../#l01214">Spell::SelectImplicitConeTargets()</a>, <a class="el" href="../../#l02188">spell_igb_explosion::SelectTarget()</a>, <a class="el" href="../../#l00277">UnitAI::SelectTargetList()</a>, <a class="el" href="../../#l00306">PoolGroup&lt; T &gt;::SpawnObject()</a>, <a class="el" href="../../#l00064">boss_fankriss::SummonWorms()</a>, <a class="el" href="../../#l00139">boss_chromaggus::boss_chromaggusAI::UpdateAI()</a>, <a class="el" href="../../#l00129">boss_renataki::boss_renatakiAI::UpdateAI()</a>, <a class="el" href="../../#l00311">boss_blood_queen_lana_thel::boss_blood_queen_lana_thelAI::UpdateAI()</a>, and <a class="el" href="../../#l00394">boss_hodir::boss_hodirAI::UpdateAI()</a>.</p>
-
-</div>
-</div>
-<a id="a4585a27b1f592547062d7bc039cff3b4" name="a4585a27b1f592547062d7bc039cff3b4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4585a27b1f592547062d7bc039cff3b4">&#9670;&#160;</a></span>RandomShuffle()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void Acore::Containers::RandomShuffle </td>
-          <td>(</td>
-          <td class="paramtype">C &amp;&#160;</td>
-          <td class="paramname"><em>container</em></td><td>)</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -477,35 +153,29 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  221</span>    {</div>
-<div class="line"><span class="lineno">  222</span>        std::shuffle(std::begin(container), std::end(container), <a class="code hl_function" href="../../df/d45/a05398.html#a5ff7fcb1f8d34861b0c210eddc450681">RandomEngine::Instance</a>());</div>
-<div class="line"><span class="lineno">  223</span>    }</div>
-<div class="ttc" id="aa05398_html_a5ff7fcb1f8d34861b0c210eddc450681"><div class="ttname"><a href="../../df/d45/a05398.html#a5ff7fcb1f8d34861b0c210eddc450681">RandomEngine::Instance</a></div><div class="ttdeci">static RandomEngine &amp; Instance()</div><div class="ttdef"><b>Definition:</b> Random.cpp:95</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   41</span>    {</div>
+<div class="line"><span class="lineno">   42</span>        convert&lt;sizeof(T)&gt;((<span class="keywordtype">char</span>*)(val));</div>
+<div class="line"><span class="lineno">   43</span>    }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00095">RandomEngine::Instance()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00188">boss_maexxna::boss_maexxnaAI::DoCastWebWrap()</a>, <a class="el" href="../../#l00805">npc_midsummer_ribbon_pole_target::DoSpewLavaChecks()</a>, <a class="el" href="../../#l00089">npc_cameron::MoveTheChildren()</a>, and <a class="el" href="../../#l00129">boss_renataki::boss_renatakiAI::UpdateAI()</a>.</p>
-
 </div>
 </div>
-<a id="a8ca673d18562735d4ed20a11519b3d46" name="a8ca673d18562735d4ed20a11519b3d46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8ca673d18562735d4ed20a11519b3d46">&#9670;&#160;</a></span>SelectRandomContainerElement()</h2>
+<a id="a5628479f846d755da3ff53b0e2a66c26" name="a5628479f846d755da3ff53b0e2a66c26"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5628479f846d755da3ff53b0e2a66c26">&#9670;&#160;</a></span>convert()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;std::size_t T&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto Acore::Containers::SelectRandomContainerElement </td>
+          <td class="memname">void ByteConverter::convert </td>
           <td>(</td>
-          <td class="paramtype">C const &amp;&#160;</td>
-          <td class="paramname"><em>container</em></td><td>)</td>
-          <td> -&gt; typename std::add_const&lt;decltype(*std::begin(container))&gt;::type&amp;
-    </td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
         </tr>
       </table>
   </td>
@@ -514,46 +184,35 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  134</span>    {</div>
-<div class="line"><span class="lineno">  135</span>        <span class="keyword">auto</span> it = std::begin(container);</div>
-<div class="line"><span class="lineno">  136</span>        std::advance(it, <a class="code hl_function" href="../../d4/def/a00359.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(std::size(container)) - 1));</div>
-<div class="line"><span class="lineno">  137</span>        <span class="keywordflow">return</span> *it;</div>
-<div class="line"><span class="lineno">  138</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   32</span>    {</div>
+<div class="line"><span class="lineno">   33</span>        std::swap(*val, *(val + T - 1));</div>
+<div class="line"><span class="lineno">   34</span>        <a class="code hl_function" href="../../d7/d3a/a04705.html#a5628479f846d755da3ff53b0e2a66c26">convert</a> &lt; T - 2 &gt; (val + 1);</div>
+<div class="line"><span class="lineno">   35</span>    }</div>
+<div class="ttc" id="aa04705_html_a5628479f846d755da3ff53b0e2a66c26"><div class="ttname"><a href="../../d7/d3a/a04705.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a></div><div class="ttdeci">void convert(char *val)</div><div class="ttdef"><b>Definition:</b> ByteConverter.h:31</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">urand()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00031">convert()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00091">boss_mor_grayhoof::CastRandomSpell()</a>, <a class="el" href="../../#l00246">lfg::LFGQueue::CheckCompatibility()</a>, <a class="el" href="../../#l01136">spell_dk_corpse_explosion::CheckTargets()</a>, <a class="el" href="../../#l01920">spell_dk_raise_dead::CheckTargets()</a>, <a class="el" href="../../#l00177">npc_forest_frog::DoSpawnRandom()</a>, <a class="el" href="../../#l01878">Spell::EffectEnergize()</a>, <a class="el" href="../../#l00620">boss_lady_deathwhisper::boss_lady_deathwhisperAI::EmpowerCultist()</a>, <a class="el" href="../../#l00068">boss_sulfuron::boss_sulfuronAI::ExecuteEvent()</a>, <a class="el" href="../../#l00414">spell_apothecary_validate_area::FilterTargets()</a>, <a class="el" href="../../#l01926">spell_send_mug_target_picker::FilterTargets()</a>, <a class="el" href="../../#l00477">spell_mistress_kiss_area::FilterTargets()</a>, <a class="el" href="../../#l01266">spell_deathbringer_boiling_blood::FilterTargets()</a>, <a class="el" href="../../#l02415">spell_igb_burning_pitch_selector::FilterTargets()</a>, <a class="el" href="../../#l00519">spell_rotface_mutated_infection::FilterTargets()</a>, <a class="el" href="../../#l01700">spell_frostwarden_handler_order_whelp::FilterTargets()</a>, <a class="el" href="../../#l01272">spell_dreamwalker_summoner::FilterTargets()</a>, <a class="el" href="../../#l01620">spell_pursue::FilterTargets()</a>, <a class="el" href="../../#l00799">spell_ice_spear_target_picker::FilterTargets()</a>, <a class="el" href="../../#l01268">npc_echo_of_medivh::GetPiece()</a>, <a class="el" href="../../#l00199">boss_moroes::GetRandomGuest()</a>, <a class="el" href="../../#l00375">spell_apothecary_lingering_fumes::HandleAfterCast()</a>, <a class="el" href="../../#l01151">spell_corrupted_totems::HandleDummy()</a>, <a class="el" href="../../#l01204">spell_shadowblink::HandleDummy()</a>, <a class="el" href="../../#l01924">spell_item_mingos_fortune_generator::HandleDummy()</a>, <a class="el" href="../../#l00303">spell_rog_killing_spree_aura::HandleEffectPeriodic()</a>, <a class="el" href="../../#l01711">spell_frostwarden_handler_order_whelp::HandleForcedCast()</a>, <a class="el" href="../../#l00513">spell_ragnaros_lava_burst_randomizer::HandleScript()</a>, <a class="el" href="../../#l00349">spell_item_create_heart_candy::HandleScript()</a>, <a class="el" href="../../#l00276">spell_ayamiss_swarmer_teleport_trigger::HandleScript()</a>, <a class="el" href="../../#l00209">spell_tractor_beam_creator::HandleScriptEffect()</a>, <a class="el" href="../../#l00155">misc_commandscript::HandleSkirmishCommand()</a>, <a class="el" href="../../#l00173">boss_grand_warlock_nethekurse::IntroRP()</a>, <a class="el" href="../../#l00125">boss_priestess_delrissa::JustEngagedWith()</a>, <a class="el" href="../../#l00085">boss_fankriss::JustEngagedWith()</a>, <a class="el" href="../../#l00351">boss_jedoga_shadowseeker::MovementInform()</a>, <a class="el" href="../../#l00163">SmartScript::ProcessAction()</a>, <a class="el" href="../../#l04014">SmartScript::ProcessEvent()</a>, <a class="el" href="../../#l01291">LootTemplate::LootGroup::Roll()</a>, <a class="el" href="../../#l00184">boss_razuvious::boss_razuviousAI::ScheduleRP()</a>, <a class="el" href="../../#l17019">Unit::SelectNearbyNoTotemTarget()</a>, <a class="el" href="../../#l16984">Unit::SelectNearbyTarget()</a>, <a class="el" href="../../#l02484">spell_igb_rocket_artillery::SelectRandomTarget()</a>, <a class="el" href="../../#l00233">UnitAI::SelectTarget()</a>, <a class="el" href="../../#l01050">spell_putricide_ooze_channel::SelectTarget()</a>, <a class="el" href="../../#l02695">spell_the_lich_king_valkyr_target_search::SelectTarget()</a>, <a class="el" href="../../#l02835">spell_the_lich_king_vile_spirit_move_target_search::SelectTarget()</a>, <a class="el" href="../../#l00534">npc_minigob_manabonk::SelectTargetInDalaran()</a>, <a class="el" href="../../#l01922">instance_icecrown_citadel::instance_icecrown_citadel_InstanceMapScript::SetPositionTraps()</a>, <a class="el" href="../../#l00459">PoolGroup&lt; T &gt;::SpawnObject()</a>, <a class="el" href="../../#l00140">boss_ouro::Submerge()</a>, <a class="el" href="../../#l00239">boss_elder_nadox::SummonHelpers()</a>, <a class="el" href="../../#l00447">GameObject::Update()</a>, <a class="el" href="../../#l00632">boss_nefarian::UpdateAI()</a>, <a class="el" href="../../#l00260">boss_ragnaros::boss_ragnarosAI::UpdateAI()</a>, <a class="el" href="../../#l00432">boss_jedoga_shadowseeker::UpdateAI()</a>, and <a class="el" href="../../#l01322">npc_captain_arnath::npc_captain_arnathAI::UpdateAI()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00031">convert()</a>.</p>
 
 </div>
 </div>
-<a id="a51f93a1269545c4116969ba141a79738" name="a51f93a1269545c4116969ba141a79738"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a51f93a1269545c4116969ba141a79738">&#9670;&#160;</a></span>SelectRandomContainerElementIf()</h2>
+<a id="aa8017307aa0aa935f062b4f701563d09" name="aa8017307aa0aa935f062b4f701563d09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8017307aa0aa935f062b4f701563d09">&#9670;&#160;</a></span>convert&lt; 0 &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C , class Predicate &gt; </div>
+template&lt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto Acore::Containers::SelectRandomContainerElementIf </td>
+          <td class="memname">void <a class="el" href="../../d7/d3a/a04705.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 0 &gt; </td>
           <td>(</td>
-          <td class="paramtype">C const &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">Predicate &amp;&amp;&#160;</td>
-          <td class="paramname"><em>predicate</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; typename std::add_const&lt;decltype(*std::begin(container))&gt;::type&amp;
-    </td>
         </tr>
       </table>
   </td>
@@ -562,100 +221,27 @@ template&lt;class C , class Predicate &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  147</span>    {</div>
-<div class="line"><span class="lineno">  148</span>        C containerCopy;</div>
-<div class="line"><span class="lineno">  149</span>        std::copy_if(std::begin(container), std::end(container), std::inserter(containerCopy, std::end(containerCopy)), predicate);</div>
-<div class="line"><span class="lineno">  150</span>        <span class="keyword">auto</span> it = std::begin(containerCopy);</div>
-<div class="line"><span class="lineno">  151</span>        std::advance(it, <a class="code hl_function" href="../../d4/def/a00359.html#ab17def34ccbbd868dc87a16bf35acdbd">urand</a>(0, <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>(std::size(containerCopy)) - 1));</div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">return</span> *it;</div>
-<div class="line"><span class="lineno">  153</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">   37</span>{ }</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00044">urand()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00088">boss_laj::ScheduleTasks()</a>.</p>
-
 </div>
 </div>
-<a id="a4e1de71c76e525a6fdf4c76b0d09c94b" name="a4e1de71c76e525a6fdf4c76b0d09c94b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4e1de71c76e525a6fdf4c76b0d09c94b">&#9670;&#160;</a></span>SelectRandomWeightedContainerElement() <span class="overload">[1/2]</span></h2>
+<a id="a3717e304a2b8b074fcd513ca8e0db116" name="a3717e304a2b8b074fcd513ca8e0db116"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3717e304a2b8b074fcd513ca8e0db116">&#9670;&#160;</a></span>convert&lt; 1 &gt;()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class C , class Fn &gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">auto Acore::Containers::SelectRandomWeightedContainerElement </td>
-          <td>(</td>
-          <td class="paramtype">C const &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Fn&#160;</td>
-          <td class="paramname"><em>weightExtractor</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; decltype(std::begin(container))
-    </td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  182</span>    {</div>
-<div class="line"><span class="lineno">  183</span>        std::vector&lt;double&gt; weights;</div>
-<div class="line"><span class="lineno">  184</span>        weights.reserve(std::size(container));</div>
-<div class="line"><span class="lineno">  185</span>        <span class="keywordtype">double</span> weightSum = 0.0;</div>
-<div class="line"><span class="lineno">  186</span> </div>
-<div class="line"><span class="lineno">  187</span>        <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; val : container)</div>
-<div class="line"><span class="lineno">  188</span>        {</div>
-<div class="line"><span class="lineno">  189</span>            <span class="keywordtype">double</span> weight = weightExtractor(val);</div>
-<div class="line"><span class="lineno">  190</span>            weights.push_back(weight);</div>
-<div class="line"><span class="lineno">  191</span>            weightSum += weight;</div>
-<div class="line"><span class="lineno">  192</span>        }</div>
-<div class="line"><span class="lineno">  193</span> </div>
-<div class="line"><span class="lineno">  194</span>        <span class="keywordflow">if</span> (weightSum &lt;= 0.0)</div>
-<div class="line"><span class="lineno">  195</span>        {</div>
-<div class="line"><span class="lineno">  196</span>            weights.assign(std::size(container), 1.0);</div>
-<div class="line"><span class="lineno">  197</span>        }</div>
-<div class="line"><span class="lineno">  198</span> </div>
-<div class="line"><span class="lineno">  199</span>        <span class="keywordflow">return</span> SelectRandomWeightedContainerElement(container, weights);</div>
-<div class="line"><span class="lineno">  200</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00165">SelectRandomWeightedContainerElement()</a>.</p>
-
-</div>
-</div>
-<a id="a220cb6c43559036273f478f15d047eb9" name="a220cb6c43559036273f478f15d047eb9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a220cb6c43559036273f478f15d047eb9">&#9670;&#160;</a></span>SelectRandomWeightedContainerElement() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class C &gt; </div>
+template&lt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto Acore::Containers::SelectRandomWeightedContainerElement </td>
+          <td class="memname">void <a class="el" href="../../d7/d3a/a04705.html#a5628479f846d755da3ff53b0e2a66c26">ByteConverter::convert</a>&lt; 1 &gt; </td>
           <td>(</td>
-          <td class="paramtype">C const &amp;&#160;</td>
-          <td class="paramname"><em>container</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype">std::vector&lt; double &gt;&#160;</td>
-          <td class="paramname"><em>weights</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; decltype(std::begin(container))
-    </td>
         </tr>
       </table>
   </td>
@@ -664,17 +250,8 @@ template&lt;class C &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  166</span>    {</div>
-<div class="line"><span class="lineno">  167</span>        <span class="keyword">auto</span> it = std::begin(container);</div>
-<div class="line"><span class="lineno">  168</span>        std::advance(it, <a class="code hl_function" href="../../d4/def/a00359.html#a3f7e714c8fc3a6f6ccbe91d524a84f23">urandweighted</a>(weights.size(), weights.data()));</div>
-<div class="line"><span class="lineno">  169</span>        <span class="keywordflow">return</span> it;</div>
-<div class="line"><span class="lineno">  170</span>    }</div>
-<div class="ttc" id="aa00359_html_a3f7e714c8fc3a6f6ccbe91d524a84f23"><div class="ttname"><a href="../../d4/def/a00359.html#a3f7e714c8fc3a6f6ccbe91d524a84f23">urandweighted</a></div><div class="ttdeci">uint32 urandweighted(std::size_t count, double const *chances)</div><div class="ttdef"><b>Definition:</b> Random.cpp:89</div></div>
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{ }            <span class="comment">// ignore central byte</span></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00089">urandweighted()</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00901">BattlegroundMgr::GetRandomBG()</a>, <a class="el" href="../../#l00126">CreatureTemplate::GetRandomValidModel()</a>, and <a class="el" href="../../#l00181">SelectRandomWeightedContainerElement()</a>.</p>
-
 </div>
 </div>
 </div><!-- contents -->
@@ -682,8 +259,8 @@ template&lt;class C &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d7/d3a/a04705.html">Containers</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d7/d3a/a04705.html">ByteConverter</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

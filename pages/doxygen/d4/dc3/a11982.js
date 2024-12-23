@@ -1,13 +1,14 @@
 var a11982 =
 [
-    [ "boss_nefarian", "d4/dc3/a11982.html#ac8ea4f24ed97cace4630d4720b1acf47", null ],
-    [ "JustDied", "d4/dc3/a11982.html#a4a0a4cf4ee63ce744ffb580747f992b9", null ],
-    [ "JustEngagedWith", "d4/dc3/a11982.html#a6a547ba5aea4d5af2a621e5d97ceae43", null ],
-    [ "KilledUnit", "d4/dc3/a11982.html#a6fdf265e453deb8f9a4214beacf3dbab", null ],
-    [ "MovementInform", "d4/dc3/a11982.html#a0eea749c0392a7713e372cc1f236cdcd", null ],
-    [ "PathEndReached", "d4/dc3/a11982.html#a45ec4ab3cdf9b4de91a9ae682f3335e8", null ],
-    [ "Reset", "d4/dc3/a11982.html#a5d687fce34b17e22c605c263395e823b", null ],
-    [ "UpdateAI", "d4/dc3/a11982.html#a205c9b1d4116fbd0a1ca972f39094abc", null ],
-    [ "_introDone", "d4/dc3/a11982.html#a5710c721f3a24762b8cc3e79e6a14951", null ],
-    [ "classesPresent", "d4/dc3/a11982.html#acffc9b31a0a50ee5701c272e32c912c6", null ]
+    [ "boss_chromaggusAI", "d4/dc3/a11982.html#a06f811fb8aa0c15e07e8a771ac722056", null ],
+    [ "CanAIAttack", "d4/dc3/a11982.html#a4643974601831ced1f6173965009ad20", null ],
+    [ "Initialize", "d4/dc3/a11982.html#a0697edb4aa9fb60a0db2ccf54c32dc19", null ],
+    [ "JustEngagedWith", "d4/dc3/a11982.html#a66b6f31ebcfdb2fe9adba85311e655bb", null ],
+    [ "PathEndReached", "d4/dc3/a11982.html#a2805052cd90212ecb9b5f313f4ecc384", null ],
+    [ "Reset", "d4/dc3/a11982.html#aaa72a25326e9c4e1936020a1e6e7b87a", null ],
+    [ "SetGUID", "d4/dc3/a11982.html#a9b5889af178418a3750ae84707818cf7", null ],
+    [ "UpdateAI", "d4/dc3/a11982.html#a4a120f99c6586fd06af6699bfe913d24", null ],
+    [ "_breathSpells", "d4/dc3/a11982.html#a10e18592d163d4be586701de47da48c9", null ],
+    [ "_playerGUID", "d4/dc3/a11982.html#a03a7fc87c67b04eb0b1289276023c1b4", null ],
+    [ "Enraged", "d4/dc3/a11982.html#acc8b5cfbae8debb22a0493400ec310c4", null ]
 ];

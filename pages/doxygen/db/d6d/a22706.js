@@ -1,8 +1,7 @@
 var a22706 =
 [
-    [ "Absorb", "db/d6d/a22706.html#a1c054ce067a620e16611cbb9e784cee1", null ],
-    [ "CalculateAmount", "db/d6d/a22706.html#abd828dd3493339db9c0613e960792941", null ],
-    [ "PrepareAuraScript", "db/d6d/a22706.html#a1075139fc82cd8e1b30d4bc0f89fbfe0", null ],
-    [ "Register", "db/d6d/a22706.html#a85840e7d27a7ed256c45de87f4486d45", null ],
-    [ "Update", "db/d6d/a22706.html#afbf28fd4eb66899a424e0b542d561656", null ]
+    [ "HandleOnHit", "db/d6d/a22706.html#a9f368396cef39ba3bd70480f11c44700", null ],
+    [ "PrepareSpellScript", "db/d6d/a22706.html#a3240b42a9122e61b57ea91486cb3c97b", null ],
+    [ "Register", "db/d6d/a22706.html#a99f80adcebdd9726a8df51f99d415651", null ],
+    [ "Validate", "db/d6d/a22706.html#a25e3078f0b2d71ea0e6802aae0a6c7a4", null ]
 ];

@@ -1,5 +1,5 @@
 var a19794 =
 [
-    [ "achievement_shadowdodger", "de/ddd/a19794.html#a8389a4972968fcc6cd7807e96ee5e527", null ],
-    [ "OnCheck", "de/ddd/a19794.html#a3ee0baca0c9163a601cd4bcfa9ebeb04", null ]
+    [ "achievement_freya_getting_back_to_nature", "de/ddd/a19794.html#aa4078b573a9335fc52c9b9609590b12f", null ],
+    [ "OnCheck", "de/ddd/a19794.html#a850a32450379284784f019a5eb5ff0ff", null ]
 ];

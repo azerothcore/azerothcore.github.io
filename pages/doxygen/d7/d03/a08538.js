@@ -1,7 +1,6 @@
 var a08538 =
 [
-    [ "HealthPctOrderPred", "d7/d03/a08538.html#a5c83c0ba35b9febbe6a62dae63995f97", null ],
-    [ "operator()", "d7/d03/a08538.html#a2c7f4043e5268b13bf0d9f46e9709a9b", null ],
-    [ "operator()", "d7/d03/a08538.html#a23f2dc594fd531d02cd6eae0faa7f6b7", null ],
-    [ "_ascending", "d7/d03/a08538.html#a4c34feefafc014b50ba2869a9bdb9959", null ]
+    [ "spellIdImmunityPredicate", "d7/d03/a08538.html#a04893e34d418a0649d51dfa82b559d9c", null ],
+    [ "operator()", "d7/d03/a08538.html#ae97afff7a6b3ea5dca917d3dbb9ef818", null ],
+    [ "_type", "d7/d03/a08538.html#a125dfe727d668b5b9820adf1f7f0e0a8", null ]
 ];

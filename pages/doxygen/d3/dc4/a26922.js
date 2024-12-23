@@ -1,5 +1,6 @@
 var a26922 =
 [
-    [ "go_sacred_fire_of_life", "d3/dc4/a26922.html#a7f14c8397803f8b21e492ec52c6d81e8", null ],
-    [ "OnGossipHello", "d3/dc4/a26922.html#aaa078fffe5570fa532d27d1c4ea831a7", null ]
+    [ "go_l70_etc_musicAI", "d0/dfe/a26926.html", "d0/dfe/a26926" ],
+    [ "go_l70_etc_music", "d3/dc4/a26922.html#a766dccca12fc7959273ba1e3a278564f", null ],
+    [ "GetAI", "d3/dc4/a26922.html#a5231ffc778830f8a49ae85a8c1173deb", null ]
 ];

@@ -1,6 +1,8 @@
 var a12510 =
 [
-    [ "boss_kagani_nightstrike", "d7/df8/a12510.html#aeb4cfab6c4caafcf64d5e54cf481fd6a", null ],
-    [ "JustEngagedWith", "d7/df8/a12510.html#aba5ca4ce6fe6b39bb85aadddbcd9891e", null ],
-    [ "MovementInform", "d7/df8/a12510.html#af1010b7aa7434a92f1168eceda47cc2e", null ]
+    [ "CalcPeriodic", "d7/df8/a12510.html#a493609298c152df8216641ba2e5861cd", null ],
+    [ "PrepareAuraScript", "d7/df8/a12510.html#a30c2bac7e939cf7de2141f6cdfa51619", null ],
+    [ "Register", "d7/df8/a12510.html#a44002db5980dfc1db816cf61fd446491", null ],
+    [ "Update", "d7/df8/a12510.html#a7a1fc11cf4183c7202a929c72035d8e7", null ],
+    [ "Validate", "d7/df8/a12510.html#a060e189aaa4396681d42906b65c9196f", null ]
 ];

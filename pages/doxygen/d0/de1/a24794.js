@@ -1,6 +1,6 @@
 var a24794 =
 [
-    [ "HandleScriptEffect", "d0/de1/a24794.html#a422a77760004d6d6fac6bacdb1d436ff", null ],
-    [ "PrepareSpellScript", "d0/de1/a24794.html#a1d7e2beafb55464f928ea5904441d698", null ],
-    [ "Register", "d0/de1/a24794.html#aeaa8321255f377b85884df25a455554f", null ]
+    [ "CheckRequirement", "d0/de1/a24794.html#a8a1367ad6c51a74e7cefbc2440eab697", null ],
+    [ "PrepareSpellScript", "d0/de1/a24794.html#a859ac50e6774471c232113e5c007f602", null ],
+    [ "Register", "d0/de1/a24794.html#aceafb7d6cfa300011935026f4d7ac491", null ]
 ];

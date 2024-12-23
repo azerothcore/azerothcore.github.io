@@ -1,7 +1,5 @@
 var a18574 =
 [
-    [ "OnRemove", "df/dec/a18574.html#a4e6a66934a01d01c50208459f6771353", null ],
-    [ "PrepareAuraScript", "df/dec/a18574.html#a2320044c6c81a89af0fefd4f90c05bd5", null ],
-    [ "Register", "df/dec/a18574.html#a4890d35f2b0889156a437c95e49f528c", null ],
-    [ "Validate", "df/dec/a18574.html#a1b90f1288b3b45267edd4da2b3418b21", null ]
+    [ "at_frozen_throne_teleport", "df/dec/a18574.html#a8065b9f9b55b267be1757775f84de349", null ],
+    [ "OnTrigger", "df/dec/a18574.html#ae1f9476b7f47320f545e702e9317bd03", null ]
 ];

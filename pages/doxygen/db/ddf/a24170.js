@@ -1,6 +1,6 @@
 var a24170 =
 [
-    [ "HandleProc", "db/ddf/a24170.html#ab00bbdd8580426a621abc11c4308bdc4", null ],
-    [ "PrepareAuraScript", "db/ddf/a24170.html#a2840931b939b95e6a476c07f08ca66b5", null ],
-    [ "Register", "db/ddf/a24170.html#ae769fddc14aed4d1055d2f947d292fcf", null ]
+    [ "FilterTargets", "db/ddf/a24170.html#adab73c94c659d7421c9c6887d956cd83", null ],
+    [ "PrepareSpellScript", "db/ddf/a24170.html#a8cf5e4224f46b6f836d517f90fd135d4", null ],
+    [ "Register", "db/ddf/a24170.html#a3aaf93f3746b36d5bfa4fc475aabe43b", null ]
 ];

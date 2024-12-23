@@ -1,7 +1,6 @@
 var a23298 =
 [
-    [ "HandleOnApply", "d0/d55/a23298.html#a4d14f81325ecd0bde345d60a135ad8ba", null ],
-    [ "HandleOnRemove", "d0/d55/a23298.html#aed5f87523c58d94c8f98b76c06abb140", null ],
-    [ "PrepareAuraScript", "d0/d55/a23298.html#ab32413873bec92540f9e85e8013b7ea2", null ],
-    [ "Register", "d0/d55/a23298.html#a0653d8688f98822580a3243a0d47c17a", null ]
+    [ "HandleHit", "d0/d55/a23298.html#ab948b958955c2413ad6e15dfa09fd3cd", null ],
+    [ "PrepareSpellScript", "d0/d55/a23298.html#a37ff09e6b82d69c85b5bd98e84968569", null ],
+    [ "Register", "d0/d55/a23298.html#acb1b681f587817614c2b3684585369db", null ]
 ];

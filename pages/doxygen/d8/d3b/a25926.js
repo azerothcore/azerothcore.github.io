@@ -1,7 +1,9 @@
 var a25926 =
 [
-    [ "CheckRequirement", "d8/d3b/a25926.html#afc9206b1d92834943c9825dfd97439c9", null ],
-    [ "HandleScriptEffect", "d8/d3b/a25926.html#acef8bf4c93226e1b4c95f8b8cdd80f40", null ],
-    [ "PrepareSpellScript", "d8/d3b/a25926.html#a0223c05b5832c64b248e82eba770f7fa", null ],
-    [ "Register", "d8/d3b/a25926.html#aef93e3c5a60633f69871bbd49d40caf5", null ]
+    [ "CheckProc", "d8/d3b/a25926.html#ac0e2bf5c1a96ce0502561bb6bcb6ad97", null ],
+    [ "HandleDispel", "d8/d3b/a25926.html#a64235032423050de10581165c57f8b0a", null ],
+    [ "HandleProc", "d8/d3b/a25926.html#ab1c1196f003f7ff0bf6f6eae5bd6de9a", null ],
+    [ "PrepareAuraScript", "d8/d3b/a25926.html#af7ba0eb96dca76a288dd034665822069", null ],
+    [ "Register", "d8/d3b/a25926.html#ababc8b42c64740655864d2834a639384", null ],
+    [ "Validate", "d8/d3b/a25926.html#a03ecf2489369cbb7a6dff555db153a96", null ]
 ];

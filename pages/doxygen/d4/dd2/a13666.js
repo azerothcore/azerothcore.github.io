@@ -1,7 +1,6 @@
 var a13666 =
 [
-    [ "HandleScriptEffect", "d4/dd2/a13666.html#ace68732d578fbaeb2b209bfded88853a", null ],
-    [ "PrepareSpellScript", "d4/dd2/a13666.html#a42a69995e8f527a383e96e2ead832f72", null ],
-    [ "Register", "d4/dd2/a13666.html#abb26c89a617bc27f8c2a1cfbb0935234", null ],
-    [ "Validate", "d4/dd2/a13666.html#a7697caf8e5390d290b353fb6a291aa10", null ]
+    [ "boss_hakkarAI", "da/df7/a13670.html", "da/df7/a13670" ],
+    [ "boss_hakkar", "d4/dd2/a13666.html#a834bd1f223154fbf1be94bf43136da28", null ],
+    [ "GetAI", "d4/dd2/a13666.html#aff3a089e30dcddfde4db372104153723", null ]
 ];

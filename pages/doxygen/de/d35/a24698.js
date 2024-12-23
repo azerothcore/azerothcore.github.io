@@ -1,8 +1,7 @@
 var a24698 =
 [
-    [ "OnApply", "de/d35/a24698.html#a6aa83e925a93dc7ff89c0357debc75d1", null ],
-    [ "OnRemove", "de/d35/a24698.html#a3ced5941c25fce087699aa095cd487c9", null ],
-    [ "PrepareAuraScript", "de/d35/a24698.html#a497776c6ffdda8670fa255b76057bf2c", null ],
-    [ "Register", "de/d35/a24698.html#ac05f2898ebbb78bf55d70d8a660fb22d", null ],
-    [ "Validate", "de/d35/a24698.html#a44fc9ff07b9db5b2a1263d244916c79f", null ]
+    [ "HandleScript", "de/d35/a24698.html#a628fbc7ef23ce8f93d132f7bf518d4d8", null ],
+    [ "PrepareSpellScript", "de/d35/a24698.html#a8e5aa0a33907c5216299734a928de2fd", null ],
+    [ "Register", "de/d35/a24698.html#a9e25da03bbbea35f13420c14c6fab0d5", null ],
+    [ "Validate", "de/d35/a24698.html#a30cc03ed0c19074dc1fde4951a061815", null ]
 ];

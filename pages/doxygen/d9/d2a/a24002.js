@@ -1,6 +1,7 @@
 var a24002 =
 [
-    [ "npc_pet_dk_risen_allyAI", "d7/df5/a24006.html", "d7/df5/a24006" ],
-    [ "npc_pet_dk_risen_ally", "d9/d2a/a24002.html#a2f568fd9062b2423edcf0ab4e749efc3", null ],
-    [ "GetAI", "d9/d2a/a24002.html#a7aca5d410a1a28241943914a0d1c71df", null ]
+    [ "HandleSendEvent", "d9/d2a/a24002.html#a8b32db78a3b4d5a01be230968fda3a8d", null ],
+    [ "PrepareSpellScript", "d9/d2a/a24002.html#a0adf10b63735dbdf1cb3d49c73f7da1d", null ],
+    [ "Register", "d9/d2a/a24002.html#ad6aedfed88d4a921122fdc7a8b501f0e", null ],
+    [ "Validate", "d9/d2a/a24002.html#a9b72b16ac81c53aaa7936640e5149e6c", null ]
 ];

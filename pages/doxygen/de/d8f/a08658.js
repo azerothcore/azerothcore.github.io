@@ -1,9 +1,9 @@
 var a08658 =
 [
-    [ "CreatureSearcher", "de/d8f/a08658.html#ac6fc899c41c2a93f530fa53c693f0df8", null ],
-    [ "Visit", "de/d8f/a08658.html#a50630891bfb459c6c526b3e4e7e29136", null ],
-    [ "Visit", "de/d8f/a08658.html#a503aab809be6f5d60c020e89c64dce7b", null ],
-    [ "i_check", "de/d8f/a08658.html#abc72e56d9453d798fcb457aff023d3ac", null ],
-    [ "i_object", "de/d8f/a08658.html#af31c7a1cf3f03a42d7fe66836e306b85", null ],
-    [ "i_phaseMask", "de/d8f/a08658.html#a5fa5777da405c57700a7e1ea7d5f94cf", null ]
+    [ "GameEventAIHookWorker", "de/d8f/a08658.html#ad72640a18d2d32a9201c965089ee49cf", null ],
+    [ "Visit", "de/d8f/a08658.html#a23d979ee43838e7d58e9123e36474a5a", null ],
+    [ "Visit", "de/d8f/a08658.html#a79106ec550d072d690bbf3496d76cb0a", null ],
+    [ "Visit", "de/d8f/a08658.html#a165476edd8b252bbb90b8b78fae963a6", null ],
+    [ "_activate", "de/d8f/a08658.html#a756665eafa08f3c8c51ccef69bdd619f", null ],
+    [ "_eventId", "de/d8f/a08658.html#ab1ee68bb7134e84780772eba2cfac766", null ]
 ];

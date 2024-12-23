@@ -1,8 +1,10 @@
 var a26546 =
 [
-    [ "HandleDummy", "d7/d5b/a26546.html#ad2eec86cff225cc0bd806e31596fb127", null ],
-    [ "PrepareSpellScript", "d7/d5b/a26546.html#a59a04dcfee911c70e13ea8d27b4a49c4", null ],
-    [ "Register", "d7/d5b/a26546.html#a6c72b4c813368774283ae94036a43ee2", null ],
-    [ "SendMiss", "d7/d5b/a26546.html#a7c6d300e60ed492c82d5c017d3e73ed1", null ],
-    [ "Validate", "d7/d5b/a26546.html#a9a5014de08f73ad5dad29354812030ac", null ]
+    [ "CheckProc", "d7/d5b/a26546.html#a257202ac9b80a67ce58d9e3491164d22", null ],
+    [ "HandleProc", "d7/d5b/a26546.html#aa3c74b25fbe63ac77e10260159adb8ca", null ],
+    [ "HandleTick", "d7/d5b/a26546.html#a5e436c530e5ef70bc4de4305676ed196", null ],
+    [ "PrepareAuraScript", "d7/d5b/a26546.html#aef7d1a2bbd59af36cc130f07e1204081", null ],
+    [ "Register", "d7/d5b/a26546.html#a11b0120ea8c8ccf1c96e5d1053d64895", null ],
+    [ "RemoveEffect", "d7/d5b/a26546.html#a333ad80d8478f59713ee049f935d7885", null ],
+    [ "Validate", "d7/d5b/a26546.html#aed3cb37f0230463978b210add84bd31d", null ]
 ];

@@ -1,8 +1,6 @@
 var a16582 =
 [
-    [ "npc_hor_raging_ghoulAI", "d4/d4a/a16582.html#ac4b2b3acf8a7acda73c7158f1565a274", null ],
-    [ "JustDied", "d4/d4a/a16582.html#a70e581c9b3f7d88d497c1540ac9ca04c", null ],
-    [ "Reset", "d4/d4a/a16582.html#aa52576d94e230797209dfc938d62187f", null ],
-    [ "UpdateAI", "d4/d4a/a16582.html#ac7c8571eac32f722a5fb0c28092b7e8f", null ],
-    [ "leaped", "d4/d4a/a16582.html#a12f6e6d5911b2b8b9caa01a9a83570bc", null ]
+    [ "npc_spectral_footmanAI", "d5/dfa/a16586.html", "d5/dfa/a16586" ],
+    [ "npc_spectral_footman", "d4/d4a/a16582.html#a300fb06b896d2d08f9e3671422232ad2", null ],
+    [ "GetAI", "d4/d4a/a16582.html#adbc1b961aba6cefb97dfff3014248735", null ]
 ];

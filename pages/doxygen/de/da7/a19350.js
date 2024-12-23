@@ -1,8 +1,6 @@
 var a19350 =
 [
-    [ "go_celestial_planetarium_accessAI", "de/da7/a19350.html#aca4d0e9babd6eefe84edc281f8a44cf2", null ],
-    [ "GossipHello", "de/da7/a19350.html#af159df46fecf2cd74ac4ec9fa006dc03", null ],
-    [ "UpdateAI", "de/da7/a19350.html#a9b2bfb74a12e3258476387fc78cde574", null ],
-    [ "_locked", "de/da7/a19350.html#a37f83dbbb05e461d613a4c38001f785c", null ],
-    [ "events", "de/da7/a19350.html#aa03b8d270054f2b71c1d625abe322fb8", null ]
+    [ "instance_halls_of_stone_InstanceMapScript", "d1/dcc/a19354.html", "d1/dcc/a19354" ],
+    [ "instance_halls_of_stone", "de/da7/a19350.html#ad0237cfaf2e48036f45181fd7746df2b", null ],
+    [ "GetInstanceScript", "de/da7/a19350.html#a784906c7710a216016101cf7a6a915f3", null ]
 ];

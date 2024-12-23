@@ -1,8 +1,6 @@
 var a14958 =
 [
-    [ "npc_injured_draeneiAI", "d5/dac/a14958.html#a6832ec8b005e75ff66b0fd04e5ff3daa", null ],
-    [ "JustEngagedWith", "d5/dac/a14958.html#adcc5750f0ab037a7ac38b9fa64b75a74", null ],
-    [ "MoveInLineOfSight", "d5/dac/a14958.html#a514556f4a81c6f1f8b7caaa526c08662", null ],
-    [ "Reset", "d5/dac/a14958.html#adcb601f739a91ce71926791885152471", null ],
-    [ "UpdateAI", "d5/dac/a14958.html#af4d723ac0a95f9dad12e82d5bc987f50", null ]
+    [ "HandleDummy", "d5/dac/a14958.html#a09b21b3e5357c49d85ef01d9a5d4694f", null ],
+    [ "PrepareSpellScript", "d5/dac/a14958.html#ac221d3d128265d78acc72d41ebf0fd8a", null ],
+    [ "Register", "d5/dac/a14958.html#a67be525bc07ef7091d9b8148c1a01fb9", null ]
 ];

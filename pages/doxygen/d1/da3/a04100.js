@@ -1,4 +1,4 @@
 var a04100 =
 [
-    [ "WorldPackets::Combat::SetSheathed", "d4/db5/a10270.html", "d4/db5/a10270" ]
+    [ "WorldPackets::Combat::SetSheathed", "df/d9f/a10326.html", "df/d9f/a10326" ]
 ];

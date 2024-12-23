@@ -1,6 +1,9 @@
 var a12982 =
 [
-    [ "npc_demonic_vapor", "d0/d4e/a12982.html#aee2e1b7372b8125b49e8466a2406ff00", null ],
-    [ "Reset", "d0/d4e/a12982.html#a7d2b88ab26904cedaac34f03567806bc", null ],
-    [ "UpdateAI", "d0/d4e/a12982.html#ae80c50c2599e607b54349a87dda5f6f6", null ]
+    [ "boss_brutallus", "d0/d4e/a12982.html#a501c898505eb4265edee1546bc54713e", null ],
+    [ "AttackStart", "d0/d4e/a12982.html#a05edf7010f4e7364399bc81582502219", null ],
+    [ "JustDied", "d0/d4e/a12982.html#a48ae6589613f2ac90a499b9b6ae07d01", null ],
+    [ "JustEngagedWith", "d0/d4e/a12982.html#a04ff0c07c578c3b92cf45d1ed27fb883", null ],
+    [ "KilledUnit", "d0/d4e/a12982.html#a608607d83680da85f91324ce0035804b", null ],
+    [ "Reset", "d0/d4e/a12982.html#a20ad64739072e39e7ff3132c6f637af7", null ]
 ];

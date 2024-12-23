@@ -1,6 +1,7 @@
 var a19714 =
 [
-    [ "boss_freya_healthy_sporeAI", "d2/dbb/a19718.html", "d2/dbb/a19718" ],
-    [ "boss_freya_healthy_spore", "d6/d0d/a19714.html#a16633136393061aa98c7a98f535d421e", null ],
-    [ "GetAI", "d6/d0d/a19714.html#ae76eb3b334f82c536f71fdcfc86e4382", null ]
+    [ "achievement_flame_leviathan_garage", "d6/d0d/a19714.html#a1893b4059d7212d023c45bb828bb1905", null ],
+    [ "OnCheck", "d6/d0d/a19714.html#aa5897eb1fadeda4dda9f2390053d89b6", null ],
+    [ "_entry1", "d6/d0d/a19714.html#af482d6c1b2681b9fec572281620a86b7", null ],
+    [ "_entry2", "d6/d0d/a19714.html#a41e83b47c411dc6a6aff310ae7059f4e", null ]
 ];

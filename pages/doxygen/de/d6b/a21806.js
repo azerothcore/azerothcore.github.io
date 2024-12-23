@@ -1,5 +1,5 @@
 var a21806 =
 [
-    [ "go_brazier", "de/d6b/a21806.html#a432a07256fde679a889de7ba0f64f092", null ],
-    [ "OnGossipHello", "de/d6b/a21806.html#a3e0be690d58be4d7bbbb5b624ac4bd5b", null ]
+    [ "npc_guardian_pavilionAI", "de/d6b/a21806.html#a2c116495e65c7f97063aa7dc6516f48c", null ],
+    [ "MoveInLineOfSight", "de/d6b/a21806.html#aeae26e28be93120062d9f77c069ff32a", null ]
 ];

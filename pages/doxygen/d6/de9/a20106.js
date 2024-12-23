@@ -1,5 +1,6 @@
 var a20106 =
 [
-    [ "go_ulduar_do_not_push_this_button", "d6/de9/a20106.html#aa204af213a643c001161e0c2f173ee6b", null ],
-    [ "OnGossipHello", "d6/de9/a20106.html#ae11efa54b496ab21600a9c62e50b5fbe", null ]
+    [ "npc_ulduar_vx001AI", "d2/d5a/a20110.html", "d2/d5a/a20110" ],
+    [ "npc_ulduar_vx001", "d6/de9/a20106.html#ae8393c02c94a94b0847e0c7837bc5469", null ],
+    [ "GetAI", "d6/de9/a20106.html#acdab817141b851deb09861230323ee58", null ]
 ];

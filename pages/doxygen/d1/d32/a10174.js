@@ -1,9 +1,7 @@
 var a10174 =
 [
-    [ "fX", "d1/d32/a10174.html#a53aeb6e82eea1dc4a4e5d8e99dfd3fc5", null ],
-    [ "fY", "d1/d32/a10174.html#a9b158e247014eec0d35e465ab9469ac7", null ],
-    [ "fZ", "d1/d32/a10174.html#a2e02f9738393aeb8cd62ac26dda8fc10", null ],
-    [ "uiCreatureEntry", "d1/d32/a10174.html#ac31436c40bd0bf375635e2ea604fbf61", null ],
-    [ "uiPointId", "d1/d32/a10174.html#acb4d9697a24d5c29deacdefe8eb0e267", null ],
-    [ "uiWaitTime", "d1/d32/a10174.html#a305620aad71152c1139a88dea05a1887", null ]
+    [ "SpellScriptLoader", "d1/d32/a10174.html#a0ae97b8f3cf24f46b98a121d35bdeadf", null ],
+    [ "GetAuraScript", "d1/d32/a10174.html#a9c60850e39ffe3d151a128b12777859d", null ],
+    [ "GetSpellScript", "d1/d32/a10174.html#a6f3a101a0517ba1440399809cf7f5b5b", null ],
+    [ "IsDatabaseBound", "d1/d32/a10174.html#ae60bf9957b950c7f5c9927f71510dc06", null ]
 ];

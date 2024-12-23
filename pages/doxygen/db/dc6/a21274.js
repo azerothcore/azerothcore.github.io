@@ -1,9 +1,6 @@
 var a21274 =
 [
-    [ "npc_counselor_talbotAI", "db/dc6/a21274.html#acf1865ab4225128b8edbc619f7d8fa93", null ],
-    [ "JustDied", "db/dc6/a21274.html#a4dbb0c9b91be5fa182bcc5c63ac9307b", null ],
-    [ "JustEngagedWith", "db/dc6/a21274.html#acacec95c5e74c4b71cf2345bbae2eacb", null ],
-    [ "Reset", "db/dc6/a21274.html#a03bfaedb136c3e107a4df8e4a1646ae2", null ],
-    [ "UpdateAI", "db/dc6/a21274.html#a7b5c739d7c85d5205a04f3c6adf367ef", null ],
-    [ "_events", "db/dc6/a21274.html#a094ce9839bb51b73e6b5826c24cda3b6", null ]
+    [ "npc_warmage_coldarraAI", "dc/df1/a21278.html", "dc/df1/a21278" ],
+    [ "npc_warmage_coldarra", "db/dc6/a21274.html#a358f8ab26991798ff076ac764cd7abe2", null ],
+    [ "GetAI", "db/dc6/a21274.html#aa29181e0ad61b44eff685267f3231382", null ]
 ];

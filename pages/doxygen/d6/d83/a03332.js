@@ -1,8 +1,8 @@
 var a03332 =
 [
-    [ "FriendInfo", "d3/d58/a08418.html", "d3/d58/a08418" ],
-    [ "PlayerSocial", "d4/dc6/a08422.html", "d4/dc6/a08422" ],
-    [ "SocialMgr", "d3/d29/a08426.html", "d3/d29/a08426" ],
+    [ "FriendInfo", "d4/de6/a08486.html", "d4/de6/a08486" ],
+    [ "PlayerSocial", "de/d75/a08490.html", "de/d75/a08490" ],
+    [ "SocialMgr", "d9/d20/a08494.html", "d9/d20/a08494" ],
     [ "SOCIALMGR_FRIEND_LIMIT", "d6/d83/a03332.html#afd83098f3a1e072e6ae7e54b799c5a49", null ],
     [ "SOCIALMGR_IGNORE_LIMIT", "d6/d83/a03332.html#ad75bdebf3d450d178eb4945e1b484ff3", null ],
     [ "sSocialMgr", "d6/d83/a03332.html#a92fb5a2c05247f56e16516cd911d570c", null ],

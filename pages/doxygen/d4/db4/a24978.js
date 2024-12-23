@@ -1,7 +1,11 @@
 var a24978 =
 [
-    [ "OnRemove", "d4/db4/a24978.html#ab6371347f0dc4ffc8bab6c75ca1cdf59", null ],
-    [ "PrepareAuraScript", "d4/db4/a24978.html#ac2b1a2311f97ab427439b45fb0770063", null ],
-    [ "Register", "d4/db4/a24978.html#a39e4914aa01769e14f61e2369ad8eda5", null ],
-    [ "Validate", "d4/db4/a24978.html#a71e47e70fd18affe1bd563f68fcb2efe", null ]
+    [ "spell_gen_apply_aura_after_expiration", "d4/db4/a24978.html#a391e5089eb034618c5e3edde26685a00", null ],
+    [ "AfterRemove", "d4/db4/a24978.html#afea2221ceeebf90cf352084d8aacf7c9", null ],
+    [ "PrepareAuraScript", "d4/db4/a24978.html#a494123635eda4c43d92a08c9c8cd5627", null ],
+    [ "Register", "d4/db4/a24978.html#a3189ba65a1d9adf252d9f0dfb70abd16", null ],
+    [ "Validate", "d4/db4/a24978.html#ad405128104d8a6528e8db96281ad0f0b", null ],
+    [ "_aura", "d4/db4/a24978.html#a8a79aef777e1397b031149c54ae9d81d", null ],
+    [ "_effect", "d4/db4/a24978.html#aa276a986ba9b67964ddeec56d6455cf9", null ],
+    [ "_spellId", "d4/db4/a24978.html#a330f1311911ba9f3ebd704c7f9a09246", null ]
 ];

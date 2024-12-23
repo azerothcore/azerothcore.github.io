@@ -1,6 +1,7 @@
 var a25534 =
 [
-    [ "CheckProc", "dd/d5e/a25534.html#a1da9fe2fa918a8f92a53de8eee9d1830", null ],
-    [ "PrepareAuraScript", "dd/d5e/a25534.html#a3fa05a39b003805f405d814214f4366e", null ],
-    [ "Register", "dd/d5e/a25534.html#a9b7f633b60dd7798b8f2f85d14c26ca2", null ]
+    [ "HandleDummy", "dd/d5e/a25534.html#addfcb17cbbb56bda88997b34ce3e3ddd", null ],
+    [ "PrepareSpellScript", "dd/d5e/a25534.html#a22614b06c6f1853f02a992dcab027a60", null ],
+    [ "Register", "dd/d5e/a25534.html#a9ad5691f6049078c45052d07513b35a2", null ],
+    [ "Validate", "dd/d5e/a25534.html#a3fab2057be5de9e2f7703b8f43a99ed5", null ]
 ];

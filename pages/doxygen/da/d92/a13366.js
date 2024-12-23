@@ -1,11 +1,7 @@
 var a13366 =
 [
-    [ "npc_highborne_lamenterAI", "da/d92/a13366.html#ad91cd657166a12d3c34adcf7b11d076f", null ],
-    [ "JustEngagedWith", "da/d92/a13366.html#a77a978fdb0ba0de506f66ec0b2906229", null ],
-    [ "Reset", "da/d92/a13366.html#a7cf9338767e8edf0a87a5552703de87a", null ],
-    [ "UpdateAI", "da/d92/a13366.html#a1048c558b825b58dbc7a3d97869a3e88", null ],
-    [ "EventCast", "da/d92/a13366.html#a02ed3216c8b71e3d2be695866dbc0089", null ],
-    [ "EventCastTimer", "da/d92/a13366.html#afc490ae2382fd7097b3877c7f9eadf6b", null ],
-    [ "EventMove", "da/d92/a13366.html#aca22c73db989f0393926067506794e43", null ],
-    [ "EventMoveTimer", "da/d92/a13366.html#a36d1993262eb0a7200e2bec625f5b4d1", null ]
+    [ "pyrewood_ambushAI", "d9/d0d/a13370.html", "d9/d0d/a13370" ],
+    [ "pyrewood_ambush", "da/d92/a13366.html#a07dfe00bcc86320c4968ca10e9480322", null ],
+    [ "GetAI", "da/d92/a13366.html#a4067c8aca15fe1f783eadd277b635fa8", null ],
+    [ "OnQuestAccept", "da/d92/a13366.html#add2804a9a76559dc5f051102f067e0bf", null ]
 ];

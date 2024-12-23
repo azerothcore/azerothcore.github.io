@@ -1,6 +1,7 @@
 var a21402 =
 [
-    [ "CheckCast", "da/dd3/a21402.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
-    [ "PrepareSpellScript", "da/dd3/a21402.html#abff433d61c798d17882292b6b0956a58", null ],
-    [ "Register", "da/dd3/a21402.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
+    [ "npc_cosmetic_toy_plane", "da/dd3/a21402.html#a71b7df4d5f78768d9e47f41ba78b93d2", null ],
+    [ "Reset", "da/dd3/a21402.html#aa66f2e16ce6c4e5dd7399b48bd5bc203", null ],
+    [ "UpdateAI", "da/dd3/a21402.html#a41d62b314510fbd6637d8eddbea16f96", null ],
+    [ "_movementArray", "da/dd3/a21402.html#a5a85278bc14a0e3158dc3fa8abcc8392", null ]
 ];

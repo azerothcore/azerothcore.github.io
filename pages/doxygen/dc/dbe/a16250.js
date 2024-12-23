@@ -1,5 +1,6 @@
 var a16250 =
 [
-    [ "npc_essence_of_twin", "dc/dbe/a16250.html#a019de64e5e01e611acfda5db4c279b19", null ],
-    [ "OnGossipHello", "dc/dbe/a16250.html#a6f37b7f1152098b41b07ddbae3613c63", null ]
+    [ "boss_gormokAI", "d0/d08/a16254.html", "d0/d08/a16254" ],
+    [ "boss_gormok", "dc/dbe/a16250.html#a86ce0681be4370198c44dde5aa98a593", null ],
+    [ "GetAI", "dc/dbe/a16250.html#a45cff2e7ee0525de37382cf09b116a32", null ]
 ];

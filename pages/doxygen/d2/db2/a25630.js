@@ -1,7 +1,7 @@
 var a25630 =
 [
-    [ "HandleKnockBack", "d2/db2/a25630.html#a860fb74000a42a7d6f22d17dde93cdf6", null ],
-    [ "PrepareSpellScript", "d2/db2/a25630.html#ab951d6403188f178f79311cead8a0a8f", null ],
-    [ "Register", "d2/db2/a25630.html#ac62f4fdf003cdd53650fe632b3ed3ef1", null ],
-    [ "Validate", "d2/db2/a25630.html#add1bd8f583772d4dfeb20f01b9fac8ed", null ]
+    [ "CheckCast", "d2/db2/a25630.html#a02134ecbc1b1e0c8b6047ec13ef7e701", null ],
+    [ "HandleEffect", "d2/db2/a25630.html#a9f1be51fb58cde38cd643c6d1a5a6c15", null ],
+    [ "PrepareSpellScript", "d2/db2/a25630.html#aa63cb903e7c6037a6c08381334ccc126", null ],
+    [ "Register", "d2/db2/a25630.html#a670a8dbdadd988fe3220cc01b71114aa", null ]
 ];

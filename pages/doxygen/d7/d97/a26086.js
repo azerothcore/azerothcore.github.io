@@ -1,6 +1,6 @@
 var a26086 =
 [
-    [ "HandleTriggerSpell", "d7/d97/a26086.html#acd2d96959b0d8e9bf9968662218f36a1", null ],
-    [ "PrepareAuraScript", "d7/d97/a26086.html#afea43ae4a9b9e64ed8e85627d5523a1e", null ],
-    [ "Register", "d7/d97/a26086.html#ace951b4fcd48b7d4434a387d666bed9b", null ]
+    [ "HandleEffectApply", "d7/d97/a26086.html#a111ce5c9e70ed563bc7b9c2ec8e79b76", null ],
+    [ "PrepareAuraScript", "d7/d97/a26086.html#a707504eccf42af77f6e6e927d208bc8c", null ],
+    [ "Register", "d7/d97/a26086.html#a7aeaa28997bbe966274a738cf45323ed", null ]
 ];

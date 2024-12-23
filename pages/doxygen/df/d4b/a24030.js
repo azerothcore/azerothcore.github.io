@@ -1,9 +1,10 @@
 var a24030 =
 [
-    [ "npc_pet_gen_soul_trader_beacon", "df/d4b/a24030.html#a58ef19b8c08aee764bdd55e480d9d750", null ],
-    [ "GetOwner", "df/d4b/a24030.html#a72bfd4cf6c734d1f1070a1560131667d", null ],
-    [ "SpellHitTarget", "df/d4b/a24030.html#a6c0d3181b913c5022325f66586f66bfa", null ],
-    [ "UpdateAI", "df/d4b/a24030.html#a18c06958e6b3d4306a6fdb5f9924d7ff", null ],
-    [ "events", "df/d4b/a24030.html#ae0a6d4850a0a0da4bd04227b11bae9e4", null ],
-    [ "ownerGUID", "df/d4b/a24030.html#a3a42e83216c0111a740a0c89e57c6f62", null ]
+    [ "npc_isla_starmaneAI", "df/d4b/a24030.html#a0cb655d324ddde173dcfdee069c0f694", null ],
+    [ "JustDied", "df/d4b/a24030.html#ac7132ac84a64bccbcf8895cbc4a86f9c", null ],
+    [ "JustEngagedWith", "df/d4b/a24030.html#ab40287c6bfc67b09bf7336ea53116cab", null ],
+    [ "JustRespawned", "df/d4b/a24030.html#a69b395a9b9504737109870c5e8db74c8", null ],
+    [ "UpdateEscortAI", "df/d4b/a24030.html#af4b8c80e7443bb671be253238b124910", null ],
+    [ "WaypointReached", "df/d4b/a24030.html#a5d00583afa4e811e4f3cb8400787a990", null ],
+    [ "events", "df/d4b/a24030.html#a53cfabbe7cf85ceb19286d67bb23f2ec", null ]
 ];

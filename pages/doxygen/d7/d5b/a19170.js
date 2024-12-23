@@ -1,6 +1,7 @@
 var a19170 =
 [
-    [ "npc_molten_golemAI", "d0/d2e/a19174.html", "d0/d2e/a19174" ],
-    [ "npc_molten_golem", "d7/d5b/a19170.html#a63e16216a59b50524632b49599bd3bd1", null ],
-    [ "GetAI", "d7/d5b/a19170.html#a22a723039267cb0901b78c6064a88d0c", null ]
+    [ "HandleOnEffectApply", "d7/d5b/a19170.html#a4841f7a44f5df964c4eb9965383fd747", null ],
+    [ "PrepareAuraScript", "d7/d5b/a19170.html#a4cf9cf2aadb43920384ec745f6be484f", null ],
+    [ "Register", "d7/d5b/a19170.html#a68fba646552678744f49d10b59704a35", null ],
+    [ "Validate", "d7/d5b/a19170.html#a01169ee095aa2f0051eac1b253a5daf5", null ]
 ];

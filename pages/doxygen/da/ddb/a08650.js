@@ -1,10 +1,9 @@
 var a08650 =
 [
-    [ "UnitLastSearcher", "da/ddb/a08650.html#a7924240df139cf0814282eaff8a898b6", null ],
-    [ "Visit", "da/ddb/a08650.html#a95a5148e040daf44ed19e3118621a4ca", null ],
-    [ "Visit", "da/ddb/a08650.html#ae9992afc09771d4f1e1517642075f17e", null ],
-    [ "Visit", "da/ddb/a08650.html#aadfcfdd95a9f2b61cb9ff4c7db43a014", null ],
-    [ "i_check", "da/ddb/a08650.html#a6cf23e7ed9198798da03e6ec3526ee97", null ],
-    [ "i_object", "da/ddb/a08650.html#a7bd2407800c461de70b217a4b48f9921", null ],
-    [ "i_phaseMask", "da/ddb/a08650.html#aee39e2b567813e1e7420de07b3fe9b08", null ]
+    [ "VehicleAccessory", "da/ddb/a08650.html#a70576b3cfa29bb6a31fdc61588b6d3c4", null ],
+    [ "AccessoryEntry", "da/ddb/a08650.html#a6e3cd6b20680974235c146d34b16295a", null ],
+    [ "IsMinion", "da/ddb/a08650.html#ace3fd27311370e4db4103f2c3ac70410", null ],
+    [ "SeatId", "da/ddb/a08650.html#a73b54fbbfe8e18f7129acc65dadec447", null ],
+    [ "SummonedType", "da/ddb/a08650.html#afc843c62c580c860471b0e49f5901363", null ],
+    [ "SummonTime", "da/ddb/a08650.html#a13a024b3ceacf38ce4907b079d732420", null ]
 ];

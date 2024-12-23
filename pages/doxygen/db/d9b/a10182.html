@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: WorldPackets::Packet Class Reference</title>
+<title>AzerothCore: TransportScript Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,363 +106,81 @@ $(document).ready(function(){initNavTree('db/d9b/a10182.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
+<a href="#pro-methods">Protected Member Functions</a> &#124;
 <a href="../../dd/dcb/a10179.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">WorldPackets::Packet Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
+  <div class="headertitle"><div class="title">TransportScript Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">Packet.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">TransportScript.h</a>&quot;</code></p>
 <div class="dynheader">
-Inheritance diagram for WorldPackets::Packet:</div>
+Inheritance diagram for TransportScript:</div>
 <div class="dyncontent">
  <div class="center">
-  <img src="../../db/d9b/a10182.png" usemap="#WorldPackets::Packet_map" alt=""/>
-  <map id="WorldPackets::Packet_map" name="WorldPackets::Packet_map">
-<area href="../../dc/d84/a10190.html" alt="WorldPackets::ClientPacket" shape="rect" coords="0,56,372,80"/>
-<area href="../../dd/d91/a10186.html" alt="WorldPackets::ServerPacket" shape="rect" coords="764,56,1136,80"/>
-<area href="../../dd/de9/a10194.html" alt="WorldPackets::Bank::AutoBankItem" shape="rect" coords="382,112,754,136"/>
-<area href="../../d9/dd0/a10198.html" alt="WorldPackets::Bank::AutoStoreBankItem" shape="rect" coords="382,168,754,192"/>
-<area href="../../d4/d86/a10202.html" alt="WorldPackets::Bank::BuyBankSlot" shape="rect" coords="382,224,754,248"/>
-<area href="../../d4/df3/a10234.html" alt="WorldPackets::Character::LogoutCancel" shape="rect" coords="382,280,754,304"/>
-<area href="../../d3/d57/a10222.html" alt="WorldPackets::Character::LogoutRequest" shape="rect" coords="382,336,754,360"/>
-<area href="../../db/d0e/a10246.html" alt="WorldPackets::Character::PlayedTimeClient" shape="rect" coords="382,392,754,416"/>
-<area href="../../de/db2/a10242.html" alt="WorldPackets::Character::PlayerLogout" shape="rect" coords="382,448,754,472"/>
-<area href="../../d9/ddb/a10214.html" alt="WorldPackets::Character::ShowingCloak" shape="rect" coords="382,504,754,528"/>
-<area href="../../d9/d16/a10218.html" alt="WorldPackets::Character::ShowingHelm" shape="rect" coords="382,560,754,584"/>
-<area href="../../d9/dbb/a10258.html" alt="WorldPackets::Chat::EmoteClient" shape="rect" coords="382,616,754,640"/>
-<area href="../../d4/db5/a10270.html" alt="WorldPackets::Combat::SetSheathed" shape="rect" coords="382,672,754,696"/>
-<area href="../../d9/d3c/a10322.html" alt="WorldPackets::Guild::AcceptGuildInvite" shape="rect" coords="382,728,754,752"/>
-<area href="../../d3/da0/a10370.html" alt="WorldPackets::Guild::GuildAddRank" shape="rect" coords="382,784,754,808"/>
-<area href="../../d1/d7c/a10406.html" alt="WorldPackets::Guild::GuildBankActivate" shape="rect" coords="382,840,754,864"/>
-<area href="../../d4/df6/a10410.html" alt="WorldPackets::Guild::GuildBankBuyTab" shape="rect" coords="382,896,754,920"/>
-<area href="../../d5/d43/a10418.html" alt="WorldPackets::Guild::GuildBankDepositMoney" shape="rect" coords="382,952,754,976"/>
-<area href="../../d6/d6e/a10458.html" alt="WorldPackets::Guild::GuildBankLogQuery" shape="rect" coords="382,1008,754,1032"/>
-<area href="../../d5/d45/a10422.html" alt="WorldPackets::Guild::GuildBankQueryTab" shape="rect" coords="382,1064,754,1088"/>
-<area href="../../d7/dff/a10426.html" alt="WorldPackets::Guild::GuildBankRemainingWithdrawMoneyQuery" shape="rect" coords="382,1120,754,1144"/>
-<area href="../../d0/dd2/a10478.html" alt="WorldPackets::Guild::GuildBankSetTabText" shape="rect" coords="382,1176,754,1200"/>
-<area href="../../d9/d15/a10454.html" alt="WorldPackets::Guild::GuildBankSwapItems" shape="rect" coords="382,1232,754,1256"/>
-<area href="../../da/d14/a10470.html" alt="WorldPackets::Guild::GuildBankTextQuery" shape="rect" coords="382,1288,754,1312"/>
-<area href="../../dd/d33/a10414.html" alt="WorldPackets::Guild::GuildBankUpdateTab" shape="rect" coords="382,1344,754,1368"/>
-<area href="../../dd/dd7/a10434.html" alt="WorldPackets::Guild::GuildBankWithdrawMoney" shape="rect" coords="382,1400,754,1424"/>
-<area href="../../da/d94/a10286.html" alt="WorldPackets::Guild::GuildCreate" shape="rect" coords="382,1456,754,1480"/>
-<area href="../../df/d9f/a10326.html" alt="WorldPackets::Guild::GuildDeclineInvitation" shape="rect" coords="382,1512,754,1536"/>
-<area href="../../d7/d85/a10386.html" alt="WorldPackets::Guild::GuildDelete" shape="rect" coords="382,1568,754,1592"/>
-<area href="../../d8/dc3/a10374.html" alt="WorldPackets::Guild::GuildDeleteRank" shape="rect" coords="382,1624,754,1648"/>
-<area href="../../d6/d23/a10390.html" alt="WorldPackets::Guild::GuildDemoteMember" shape="rect" coords="382,1680,754,1704"/>
-<area href="../../df/d9f/a10346.html" alt="WorldPackets::Guild::GuildEventLogQuery" shape="rect" coords="382,1736,754,1760"/>
-<area href="../../d3/d0d/a10290.html" alt="WorldPackets::Guild::GuildGetInfo" shape="rect" coords="382,1792,754,1816"/>
-<area href="../../d5/d5b/a10298.html" alt="WorldPackets::Guild::GuildGetRoster" shape="rect" coords="382,1848,754,1872"/>
-<area href="../../d3/da9/a10330.html" alt="WorldPackets::Guild::GuildInviteByName" shape="rect" coords="382,1904,754,1928"/>
-<area href="../../d8/d99/a10402.html" alt="WorldPackets::Guild::GuildLeave" shape="rect" coords="382,1960,754,1984"/>
-<area href="../../de/da5/a10398.html" alt="WorldPackets::Guild::GuildOfficerRemoveMember" shape="rect" coords="382,2016,754,2040"/>
-<area href="../../d2/d1f/a10354.html" alt="WorldPackets::Guild::GuildPermissionsQuery" shape="rect" coords="382,2072,754,2096"/>
-<area href="../../dc/dc1/a10394.html" alt="WorldPackets::Guild::GuildPromoteMember" shape="rect" coords="382,2128,754,2152"/>
-<area href="../../df/d55/a10482.html" alt="WorldPackets::Guild::GuildSetGuildMaster" shape="rect" coords="382,2184,754,2208"/>
-<area href="../../dc/ddf/a10382.html" alt="WorldPackets::Guild::GuildSetMemberNote" shape="rect" coords="382,2240,754,2264"/>
-<area href="../../db/da6/a10366.html" alt="WorldPackets::Guild::GuildSetRankPermissions" shape="rect" coords="382,2296,754,2320"/>
-<area href="../../d8/d3d/a10378.html" alt="WorldPackets::Guild::GuildUpdateInfoText" shape="rect" coords="382,2352,754,2376"/>
-<area href="../../de/d84/a10314.html" alt="WorldPackets::Guild::GuildUpdateMotdText" shape="rect" coords="382,2408,754,2432"/>
-<area href="../../d1/d6c/a10274.html" alt="WorldPackets::Guild::QueryGuildInfo" shape="rect" coords="382,2464,754,2488"/>
-<area href="../../dd/d95/a10486.html" alt="WorldPackets::Guild::SaveGuildEmblem" shape="rect" coords="382,2520,754,2544"/>
-<area href="../../de/da7/a10494.html" alt="WorldPackets::LFG::LFGJoin" shape="rect" coords="382,2576,754,2600"/>
-<area href="../../d2/d5f/a10498.html" alt="WorldPackets::LFG::LFGLeave" shape="rect" coords="382,2632,754,2656"/>
-<area href="../../d5/dea/a10522.html" alt="WorldPackets::Misc::RandomRollClient" shape="rect" coords="382,2688,754,2712"/>
-<area href="../../d6/d02/a10610.html" alt="WorldPackets::Pet::DismissCritter" shape="rect" coords="382,2744,754,2768"/>
-<area href="../../de/dbd/a10614.html" alt="WorldPackets::Pet::PetAbandon" shape="rect" coords="382,2800,754,2824"/>
-<area href="../../dc/d72/a10622.html" alt="WorldPackets::Pet::PetSpellAutocast" shape="rect" coords="382,2856,754,2880"/>
-<area href="../../da/d7f/a10618.html" alt="WorldPackets::Pet::PetStopAttack" shape="rect" coords="382,2912,754,2936"/>
-<area href="../../db/d64/a10634.html" alt="WorldPackets::Pet::RequestPetInfo" shape="rect" coords="382,2968,754,2992"/>
-<area href="../../d4/dc3/a10638.html" alt="WorldPackets::Totem::TotemDestroyed" shape="rect" coords="382,3024,754,3048"/>
-<area href="../../db/d6a/a10206.html" alt="WorldPackets::Bank::BuyBankSlotResult" shape="rect" coords="1146,112,1518,136"/>
-<area href="../../da/d7f/a10210.html" alt="WorldPackets::Bank::ShowBank" shape="rect" coords="1146,168,1518,192"/>
-<area href="../../d4/dff/a10238.html" alt="WorldPackets::Character::LogoutCancelAck" shape="rect" coords="1146,224,1518,248"/>
-<area href="../../d4/d7b/a10230.html" alt="WorldPackets::Character::LogoutComplete" shape="rect" coords="1146,280,1518,304"/>
-<area href="../../d9/d95/a10226.html" alt="WorldPackets::Character::LogoutResponse" shape="rect" coords="1146,336,1518,360"/>
-<area href="../../d6/d7b/a10250.html" alt="WorldPackets::Character::PlayedTime" shape="rect" coords="1146,392,1518,416"/>
-<area href="../../d0/d6c/a10262.html" alt="WorldPackets::Chat::ChatServerMessage" shape="rect" coords="1146,448,1518,472"/>
-<area href="../../d9/d50/a10254.html" alt="WorldPackets::Chat::Emote" shape="rect" coords="1146,504,1518,528"/>
-<area href="../../de/d4e/a10266.html" alt="WorldPackets::CombatLog::EnvironmentalDamageLog" shape="rect" coords="1146,560,1518,584"/>
-<area href="../../d1/d4e/a10466.html" alt="WorldPackets::Guild::GuildBankLogQueryResults" shape="rect" coords="1146,616,1518,640"/>
-<area href="../../de/d72/a10450.html" alt="WorldPackets::Guild::GuildBankQueryResults" shape="rect" coords="1146,672,1518,696"/>
-<area href="../../d7/d21/a10430.html" alt="WorldPackets::Guild::GuildBankRemainingWithdrawMoney" shape="rect" coords="1146,728,1518,752"/>
-<area href="../../d1/df0/a10474.html" alt="WorldPackets::Guild::GuildBankTextQueryResult" shape="rect" coords="1146,784,1518,808"/>
-<area href="../../dc/d20/a10318.html" alt="WorldPackets::Guild::GuildCommandResult" shape="rect" coords="1146,840,1518,864"/>
-<area href="../../d5/d54/a10338.html" alt="WorldPackets::Guild::GuildEvent" shape="rect" coords="1146,896,1518,920"/>
-<area href="../../db/d4f/a10350.html" alt="WorldPackets::Guild::GuildEventLogQueryResults" shape="rect" coords="1146,952,1518,976"/>
-<area href="../../d0/db2/a10294.html" alt="WorldPackets::Guild::GuildInfoResponse" shape="rect" coords="1146,1008,1518,1032"/>
-<area href="../../d9/d14/a10334.html" alt="WorldPackets::Guild::GuildInvite" shape="rect" coords="1146,1064,1518,1088"/>
-<area href="../../d5/d3b/a10358.html" alt="WorldPackets::Guild::GuildPermissionsQueryResults" shape="rect" coords="1146,1120,1518,1144"/>
-<area href="../../d5/dea/a10310.html" alt="WorldPackets::Guild::GuildRoster" shape="rect" coords="1146,1176,1518,1200"/>
-<area href="../../d6/df4/a10490.html" alt="WorldPackets::Guild::PlayerSaveGuildEmblem" shape="rect" coords="1146,1232,1518,1256"/>
-<area href="../../d4/dc9/a10282.html" alt="WorldPackets::Guild::QueryGuildInfoResponse" shape="rect" coords="1146,1288,1518,1312"/>
-<area href="../../d0/d62/a10546.html" alt="WorldPackets::Misc::CrossedInebriationThreshold" shape="rect" coords="1146,1344,1518,1368"/>
-<area href="../../da/d5d/a10542.html" alt="WorldPackets::Misc::DurabilityDamageDeath" shape="rect" coords="1146,1400,1518,1424"/>
-<area href="../../dc/d06/a10506.html" alt="WorldPackets::Misc::LevelUpInfo" shape="rect" coords="1146,1456,1518,1480"/>
-<area href="../../d3/db2/a10534.html" alt="WorldPackets::Misc::PauseMirrorTimer" shape="rect" coords="1146,1512,1518,1536"/>
-<area href="../../dd/d31/a10510.html" alt="WorldPackets::Misc::PlayMusic" shape="rect" coords="1146,1568,1518,1592"/>
-<area href="../../db/ddb/a10514.html" alt="WorldPackets::Misc::PlayObjectSound" shape="rect" coords="1146,1624,1518,1648"/>
-<area href="../../db/dab/a10518.html" alt="WorldPackets::Misc::Playsound" shape="rect" coords="1146,1680,1518,1704"/>
-<area href="../../d5/d6f/a10526.html" alt="WorldPackets::Misc::RandomRoll" shape="rect" coords="1146,1736,1518,1760"/>
-<area href="../../da/d61/a10530.html" alt="WorldPackets::Misc::StartMirrorTimer" shape="rect" coords="1146,1792,1518,1816"/>
-<area href="../../d5/d4e/a10538.html" alt="WorldPackets::Misc::StopMirrorTimer" shape="rect" coords="1146,1848,1518,1872"/>
-<area href="../../d6/d34/a10550.html" alt="WorldPackets::Misc::UITime" shape="rect" coords="1146,1904,1518,1928"/>
-<area href="../../dc/d63/a10502.html" alt="WorldPackets::Misc::Weather" shape="rect" coords="1146,1960,1518,1984"/>
-<area href="../../da/da2/a10626.html" alt="WorldPackets::Pet::PetLearnedSpell" shape="rect" coords="1146,2016,1518,2040"/>
-<area href="../../d8/d1e/a10630.html" alt="WorldPackets::Pet::PetUnlearnedSpell" shape="rect" coords="1146,2072,1518,2096"/>
-<area href="../../d7/d91/a10642.html" alt="WorldPackets::Totem::TotemCreated" shape="rect" coords="1146,2128,1518,2152"/>
-<area href="../../d6/d19/a10646.html" alt="WorldPackets::WorldState::InitWorldStates" shape="rect" coords="1146,2184,1518,2208"/>
-<area href="../../d9/dbf/a10654.html" alt="WorldPackets::WorldState::UpdateWorldState" shape="rect" coords="1146,2240,1518,2264"/>
+  <img src="../../db/d9b/a10182.png" usemap="#TransportScript_map" alt=""/>
+  <map id="TransportScript_map" name="TransportScript_map">
+<area href="../../d9/d16/a10218.html" alt="ScriptObject" shape="rect" coords="0,0,179,24"/>
+<area href="../../d3/d57/a10222.html" alt="UpdatableScript&lt; Transport &gt;" shape="rect" coords="189,0,368,24"/>
   </map>
 </div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a316af2b7ce1ac7189fb1e57f534bad11"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a316af2b7ce1ac7189fb1e57f534bad11">Packet</a> (<a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;&amp;worldPacket)</td></tr>
-<tr class="separator:a316af2b7ce1ac7189fb1e57f534bad11"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ca1e6377bb2fb10bf042311e72eb5d4"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a2ca1e6377bb2fb10bf042311e72eb5d4">~Packet</a> ()=default</td></tr>
-<tr class="separator:a2ca1e6377bb2fb10bf042311e72eb5d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a00213b64110a99004b3d9a6b38876cd4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a00213b64110a99004b3d9a6b38876cd4">Packet</a> (<a class="el" href="../../db/d9b/a10182.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a00213b64110a99004b3d9a6b38876cd4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6d2afd0d4b0d7daff11868854b7c4715"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../db/d9b/a10182.html">Packet</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a6d2afd0d4b0d7daff11868854b7c4715">operator=</a> (<a class="el" href="../../db/d9b/a10182.html">Packet</a> const &amp;right)=delete</td></tr>
-<tr class="separator:a6d2afd0d4b0d7daff11868854b7c4715"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af7c79156d7b6cfe3142fc530f9ed262a"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#af7c79156d7b6cfe3142fc530f9ed262a">Write</a> ()=0</td></tr>
-<tr class="separator:af7c79156d7b6cfe3142fc530f9ed262a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a94afc4d66c2b5bced3063bab5a666bfd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a94afc4d66c2b5bced3063bab5a666bfd">Read</a> ()=0</td></tr>
-<tr class="separator:a94afc4d66c2b5bced3063bab5a666bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d8649e1b035fe7387dcee3e0b062a5e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> const *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a9d8649e1b035fe7387dcee3e0b062a5e">GetRawPacket</a> () const</td></tr>
-<tr class="separator:a9d8649e1b035fe7387dcee3e0b062a5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a08eb4c40f49c0d4e7f17a6dc1df2fe6a"><td class="memItemLeft" align="right" valign="top">std::size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a08eb4c40f49c0d4e7f17a6dc1df2fe6a">GetSize</a> () const</td></tr>
-<tr class="separator:a08eb4c40f49c0d4e7f17a6dc1df2fe6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a956f0d757e5d974566fa8fac0df731e5"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a956f0d757e5d974566fa8fac0df731e5">IsDatabaseBound</a> () const override</td></tr>
+<tr class="separator:a956f0d757e5d974566fa8fac0df731e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a806f4829b47429900271f6dde7eaa625"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a806f4829b47429900271f6dde7eaa625">OnAddPassenger</a> (<a class="el" href="../../d6/d22/a08506.html">Transport</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *)</td></tr>
+<tr class="separator:a806f4829b47429900271f6dde7eaa625"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5afb1f1dca2264089238ddd68b38a86d"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a5afb1f1dca2264089238ddd68b38a86d">OnAddCreaturePassenger</a> (<a class="el" href="../../d6/d22/a08506.html">Transport</a> *, <a class="el" href="../../d8/d56/a07846.html">Creature</a> *)</td></tr>
+<tr class="separator:a5afb1f1dca2264089238ddd68b38a86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d6a3af4fcde46101b78cfdb787a2248"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a6d6a3af4fcde46101b78cfdb787a2248">OnRemovePassenger</a> (<a class="el" href="../../d6/d22/a08506.html">Transport</a> *, <a class="el" href="../../dc/d06/a08466.html">Player</a> *)</td></tr>
+<tr class="separator:a6d6a3af4fcde46101b78cfdb787a2248"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10334c1929c80fc80c76791cbd52f6dd"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a10334c1929c80fc80c76791cbd52f6dd">OnRelocate</a> (<a class="el" href="../../d6/d22/a08506.html">Transport</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>, float, float, float)</td></tr>
+<tr class="separator:a10334c1929c80fc80c76791cbd52f6dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">IsDatabaseBound</a> () const</td></tr>
+<tr class="separator:a37da453729d5c8fbe2d06f905563f47c inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a2f66339b1cdf1fde795c61cd24c8b0a2">isAfterLoadScript</a> () const</td></tr>
+<tr class="separator:a2f66339b1cdf1fde795c61cd24c8b0a2 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a585e75e34aed7aa32205daad85f8fe08">checkValidity</a> ()</td></tr>
+<tr class="separator:a585e75e34aed7aa32205daad85f8fe08 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top">const std::string &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a79588d839860d2f5caab60c5f1368f10">GetName</a> () const</td></tr>
+<tr class="separator:a79588d839860d2f5caab60c5f1368f10 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a69ee35ec7d54226264efef558022c1c0">GetTotalAvailableHooks</a> ()</td></tr>
+<tr class="separator:a69ee35ec7d54226264efef558022c1c0 inherit pub_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pub_methods_a10222"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_a10222')"><img src="../../closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="../../d3/d57/a10222.html">UpdatableScript&lt; Transport &gt;</a></td></tr>
+<tr class="memitem:abf328325e08aa0d6adf36e6f70b02328 inherit pub_methods_a10222"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d57/a10222.html#abf328325e08aa0d6adf36e6f70b02328">OnUpdate</a> (<a class="el" href="../../d6/d22/a08506.html">Transport</a> *, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>)</td></tr>
+<tr class="separator:abf328325e08aa0d6adf36e6f70b02328 inherit pub_methods_a10222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-attribs" name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:ab85f1c9f20117bc5015180165c7b458a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a></td></tr>
-<tr class="separator:ab85f1c9f20117bc5015180165c7b458a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pro-methods" name="pro-methods"></a>
+Protected Member Functions</h2></td></tr>
+<tr class="memitem:a4b83123b122fa98831d304670a3de50a"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../db/d9b/a10182.html#a4b83123b122fa98831d304670a3de50a">TransportScript</a> (const char *name)</td></tr>
+<tr class="separator:a4b83123b122fa98831d304670a3de50a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a10218"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10218')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d9/d16/a10218.html">ScriptObject</a></td></tr>
+<tr class="memitem:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#ae4ca97cf587379c94354e4889ff8c0c2">ScriptObject</a> (const char *name, <a class="el" href="../../d4/d1e/a00497.html#ad9c79638db63f1dfe2b085743b5cbf7b">uint16</a> totalAvailableHooks=0)</td></tr>
+<tr class="separator:ae4ca97cf587379c94354e4889ff8c0c2 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d9/d16/a10218.html#a80c704c939f54eee6655d68509598c42">~ScriptObject</a> ()=default</td></tr>
+<tr class="separator:a80c704c939f54eee6655d68509598c42 inherit pro_methods_a10218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="inherit_header pro_methods_a10222"><td colspan="2" onclick="javascript:toggleInherit('pro_methods_a10222')"><img src="../../closed.png" alt="-"/>&#160;Protected Member Functions inherited from <a class="el" href="../../d3/d57/a10222.html">UpdatableScript&lt; Transport &gt;</a></td></tr>
+<tr class="memitem:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_a10222"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d57/a10222.html#a2d6cf85d1eb98438b5022804296eff11">UpdatableScript</a> ()=default</td></tr>
+<tr class="separator:a2d6cf85d1eb98438b5022804296eff11 inherit pro_methods_a10222"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a316af2b7ce1ac7189fb1e57f534bad11" name="a316af2b7ce1ac7189fb1e57f534bad11"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a316af2b7ce1ac7189fb1e57f534bad11">&#9670;&#160;</a></span>Packet() <span class="overload">[1/2]</span></h2>
+<a id="a4b83123b122fa98831d304670a3de50a" name="a4b83123b122fa98831d304670a3de50a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b83123b122fa98831d304670a3de50a">&#9670;&#160;</a></span>TransportScript()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">WorldPackets::Packet::Packet </td>
+          <td class="memname">TransportScript::TransportScript </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> &amp;&amp;&#160;</td>
-          <td class="paramname"><em>worldPacket</em></td><td>)</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>name</em></td><td>)</td>
           <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   21</span>                                                    : <a class="code hl_variable" href="../../db/d9b/a10182.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>(std::move(worldPacket))</div>
-<div class="line"><span class="lineno">   22</span>{</div>
-<div class="line"><span class="lineno">   23</span>}</div>
-<div class="ttc" id="aa10182_html_ab85f1c9f20117bc5015180165c7b458a"><div class="ttname"><a href="../../db/d9b/a10182.html#ab85f1c9f20117bc5015180165c7b458a">WorldPackets::Packet::_worldPacket</a></div><div class="ttdeci">WorldPacket _worldPacket</div><div class="ttdef"><b>Definition:</b> Packet.h:42</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a2ca1e6377bb2fb10bf042311e72eb5d4" name="a2ca1e6377bb2fb10bf042311e72eb5d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ca1e6377bb2fb10bf042311e72eb5d4">&#9670;&#160;</a></span>~Packet()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual WorldPackets::Packet::~Packet </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a00213b64110a99004b3d9a6b38876cd4" name="a00213b64110a99004b3d9a6b38876cd4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a00213b64110a99004b3d9a6b38876cd4">&#9670;&#160;</a></span>Packet() <span class="overload">[2/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">WorldPackets::Packet::Packet </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d9b/a10182.html">Packet</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9d8649e1b035fe7387dcee3e0b062a5e" name="a9d8649e1b035fe7387dcee3e0b062a5e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d8649e1b035fe7387dcee3e0b062a5e">&#9670;&#160;</a></span>GetRawPacket()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> const  * WorldPackets::Packet::GetRawPacket </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   38</span>{ <span class="keywordflow">return</span> &amp;<a class="code hl_variable" href="../../db/d9b/a10182.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>; }</div>
-</div><!-- fragment -->
-<p class="reference">Referenced by <a class="el" href="../../#l02823">Guild::_SendBankList()</a>, and <a class="el" href="../../#l03762">Map::SetZoneMusic()</a>.</p>
-
-</div>
-</div>
-<a id="a08eb4c40f49c0d4e7f17a6dc1df2fe6a" name="a08eb4c40f49c0d4e7f17a6dc1df2fe6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08eb4c40f49c0d4e7f17a6dc1df2fe6a">&#9670;&#160;</a></span>GetSize()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::size_t WorldPackets::Packet::GetSize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   39</span>{ <span class="keywordflow">return</span> <a class="code hl_variable" href="../../db/d9b/a10182.html#ab85f1c9f20117bc5015180165c7b458a">_worldPacket</a>.<a class="code hl_function" href="../../da/d35/a28082.html#a0be375370879a95ef6ec68cc8916ab61">size</a>(); }</div>
-<div class="ttc" id="aa28082_html_a0be375370879a95ef6ec68cc8916ab61"><div class="ttname"><a href="../../da/d35/a28082.html#a0be375370879a95ef6ec68cc8916ab61">ByteBuffer::size</a></div><div class="ttdeci">std::size_t size() const</div><div class="ttdef"><b>Definition:</b> ByteBuffer.h:444</div></div>
-</div><!-- fragment -->
-</div>
-</div>
-<a id="a6d2afd0d4b0d7daff11868854b7c4715" name="a6d2afd0d4b0d7daff11868854b7c4715"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6d2afd0d4b0d7daff11868854b7c4715">&#9670;&#160;</a></span>operator=()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../db/d9b/a10182.html">Packet</a> &amp; WorldPackets::Packet::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/d9b/a10182.html">Packet</a> const &amp;&#160;</td>
-          <td class="paramname"><em>right</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a94afc4d66c2b5bced3063bab5a666bfd" name="a94afc4d66c2b5bced3063bab5a666bfd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a94afc4d66c2b5bced3063bab5a666bfd">&#9670;&#160;</a></span>Read()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual void WorldPackets::Packet::Read </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../dd/d91/a10186.html#ae49aa7bce566d9f0ea3c7bbb487a119d">WorldPackets::ServerPacket</a>, <a class="el" href="../../dd/de9/a10194.html#a8651192c6040cdf5d257c134dde1208c">WorldPackets::Bank::AutoBankItem</a>, <a class="el" href="../../d9/dd0/a10198.html#a2a482b716f537866a815085ead9cfd38">WorldPackets::Bank::AutoStoreBankItem</a>, <a class="el" href="../../d4/d86/a10202.html#ac4e35f97fe3ff2b2c18a40b8b2eb59fb">WorldPackets::Bank::BuyBankSlot</a>, <a class="el" href="../../d9/ddb/a10214.html#ad72ae43efc070655aa078d9985369442">WorldPackets::Character::ShowingCloak</a>, <a class="el" href="../../d9/d16/a10218.html#a9e6d525a7104f2a8f81564d3796c6211">WorldPackets::Character::ShowingHelm</a>, <a class="el" href="../../d3/d57/a10222.html#a84701a16603f8b0f1e8dda1020ec1161">WorldPackets::Character::LogoutRequest</a>, <a class="el" href="../../d4/df3/a10234.html#a9ed27bc4472b7e4e225793b4f2e5a34d">WorldPackets::Character::LogoutCancel</a>, <a class="el" href="../../de/db2/a10242.html#accbe1ced6a10ea2fa699df5e74575795">WorldPackets::Character::PlayerLogout</a>, <a class="el" href="../../db/d0e/a10246.html#a0d25fccc9fb4fdaa5ba3bb11851a14f3">WorldPackets::Character::PlayedTimeClient</a>, <a class="el" href="../../d9/dbb/a10258.html#abad5fca865b7b99e595ce95137e8105c">WorldPackets::Chat::EmoteClient</a>, <a class="el" href="../../d4/db5/a10270.html#ae2158689450e3a9207b6992ea5223106">WorldPackets::Combat::SetSheathed</a>, <a class="el" href="../../d1/d6c/a10274.html#a0396a58ca114706f7de91f51c5ab949d">WorldPackets::Guild::QueryGuildInfo</a>, <a class="el" href="../../da/d94/a10286.html#a7d4573196f53d1f068c43b4e7e466fce">WorldPackets::Guild::GuildCreate</a>, <a class="el" href="../../d3/d0d/a10290.html#aa2b107f35fcf348fb7f84c2971c5fa00">WorldPackets::Guild::GuildGetInfo</a>, <a class="el" href="../../d5/d5b/a10298.html#af795ad992ec1b55d741227bd2d4a62d1">WorldPackets::Guild::GuildGetRoster</a>, <a class="el" href="../../de/d84/a10314.html#a55cfd6f4797e61ca01ee7aa5c65d9a69">WorldPackets::Guild::GuildUpdateMotdText</a>, <a class="el" href="../../d9/d3c/a10322.html#a3d39b917ca2650f645ccce12cdc1a1e0">WorldPackets::Guild::AcceptGuildInvite</a>, <a class="el" href="../../df/d9f/a10326.html#ad034438e18a7feddbac376a599c1e01a">WorldPackets::Guild::GuildDeclineInvitation</a>, <a class="el" href="../../d3/da9/a10330.html#a91f3fba33e265cbb119f1d3e69d4a8ca">WorldPackets::Guild::GuildInviteByName</a>, <a class="el" href="../../df/d9f/a10346.html#a48881f116070d5a7c03e7cace86656f6">WorldPackets::Guild::GuildEventLogQuery</a>, <a class="el" href="../../d2/d1f/a10354.html#aec20af8c3c8236627353287fe2eaa0a7">WorldPackets::Guild::GuildPermissionsQuery</a>, <a class="el" href="../../db/da6/a10366.html#a534550862a3c634697e8277f31ad4c25">WorldPackets::Guild::GuildSetRankPermissions</a>, <a class="el" href="../../d3/da0/a10370.html#a23636e4b8bd37ea85a282fb1630a969e">WorldPackets::Guild::GuildAddRank</a>, <a class="el" href="../../d8/dc3/a10374.html#a91a7883299fe09e08c247c96987a8333">WorldPackets::Guild::GuildDeleteRank</a>, <a class="el" href="../../d8/d3d/a10378.html#a7019344fef99c5479602d7bc1176e9ee">WorldPackets::Guild::GuildUpdateInfoText</a>, <a class="el" href="../../dc/ddf/a10382.html#a3d90b6ce26d55a55bac1d953dd39b049">WorldPackets::Guild::GuildSetMemberNote</a>, <a class="el" href="../../d7/d85/a10386.html#ae5ca379b187902323638f4c10be0a4d0">WorldPackets::Guild::GuildDelete</a>, <a class="el" href="../../d6/d23/a10390.html#aca46670c89e3d15df6a3f6694ab3dcb6">WorldPackets::Guild::GuildDemoteMember</a>, <a class="el" href="../../dc/dc1/a10394.html#a3350c1a8c81aa1368a254288849b462b">WorldPackets::Guild::GuildPromoteMember</a>, <a class="el" href="../../de/da5/a10398.html#aa0c3cd629b73cb079cc3cf90bf6f8067">WorldPackets::Guild::GuildOfficerRemoveMember</a>, <a class="el" href="../../d8/d99/a10402.html#a0ea07ca846a92b5357276b5868d98e5f">WorldPackets::Guild::GuildLeave</a>, <a class="el" href="../../d1/d7c/a10406.html#a8dbde75aaa3102024aa0ff3a8f3625da">WorldPackets::Guild::GuildBankActivate</a>, <a class="el" href="../../d4/df6/a10410.html#a502153232a314d099ed43e1101bdfc1f">WorldPackets::Guild::GuildBankBuyTab</a>, <a class="el" href="../../dd/d33/a10414.html#ac261ff0102489efb4d69bd866ffc9283">WorldPackets::Guild::GuildBankUpdateTab</a>, <a class="el" href="../../d5/d43/a10418.html#aa1d4274b057cc4ecec6b078ac4925a94">WorldPackets::Guild::GuildBankDepositMoney</a>, <a class="el" href="../../d5/d45/a10422.html#ab4e17c592b05ce041f5f52f2bc711d41">WorldPackets::Guild::GuildBankQueryTab</a>, <a class="el" href="../../d7/dff/a10426.html#a3e03f6f23a989d6f105c397f8ecfeb87">WorldPackets::Guild::GuildBankRemainingWithdrawMoneyQuery</a>, <a class="el" href="../../dd/dd7/a10434.html#a420aac24befdc5ac26171faa15c3c350">WorldPackets::Guild::GuildBankWithdrawMoney</a>, <a class="el" href="../../d9/d15/a10454.html#a3f64634235beeabb9cee055926e6260a">WorldPackets::Guild::GuildBankSwapItems</a>, <a class="el" href="../../d6/d6e/a10458.html#a5eed269e9285a33ffc61fcfa7d639083">WorldPackets::Guild::GuildBankLogQuery</a>, <a class="el" href="../../da/d14/a10470.html#af20bd5c8e58b891028613625fb14807d">WorldPackets::Guild::GuildBankTextQuery</a>, <a class="el" href="../../d0/dd2/a10478.html#a24f580f6addcd08945c05016b3f0e544">WorldPackets::Guild::GuildBankSetTabText</a>, <a class="el" href="../../df/d55/a10482.html#a94f16e55a840c7cba991a119af5d8263">WorldPackets::Guild::GuildSetGuildMaster</a>, <a class="el" href="../../dd/d95/a10486.html#aeea281ed99165947de4b5d1b4449ea5d">WorldPackets::Guild::SaveGuildEmblem</a>, <a class="el" href="../../de/da7/a10494.html#a5eca5c5a528cf00f1e6aad99ce5386ed">WorldPackets::LFG::LFGJoin</a>, <a class="el" href="../../d2/d5f/a10498.html#abae9c55efce73edf5edf1940cb8b61eb">WorldPackets::LFG::LFGLeave</a>, <a class="el" href="../../d5/dea/a10522.html#ab682763f35a40f776b1742927df0a336">WorldPackets::Misc::RandomRollClient</a>, <a class="el" href="../../d6/d02/a10610.html#a411b65505e8a332ecf9291a670dc38c4">WorldPackets::Pet::DismissCritter</a>, <a class="el" href="../../de/dbd/a10614.html#a58ebb244de4bd65a85f75dcc24250883">WorldPackets::Pet::PetAbandon</a>, <a class="el" href="../../da/d7f/a10618.html#a22dd8d9fcbadbec5ba046812f5cdac51">WorldPackets::Pet::PetStopAttack</a>, <a class="el" href="../../dc/d72/a10622.html#a5c94e7acc04efbb2a50695ed4fdf7036">WorldPackets::Pet::PetSpellAutocast</a>, <a class="el" href="../../db/d64/a10634.html#a5cc9bb57bce7dc7f24243fdc63e17870">WorldPackets::Pet::RequestPetInfo</a>, and <a class="el" href="../../d4/dc3/a10638.html#a0bc6b5a33024d4fd8bc8dd4cfa25d3e2">WorldPackets::Totem::TotemDestroyed</a>.</p>
-
-</div>
-</div>
-<a id="af7c79156d7b6cfe3142fc530f9ed262a" name="af7c79156d7b6cfe3142fc530f9ed262a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af7c79156d7b6cfe3142fc530f9ed262a">&#9670;&#160;</a></span>Write()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">virtual <a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> const  * WorldPackets::Packet::Write </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Implemented in <a class="el" href="../../dc/d84/a10190.html#a16e5b9fa05e35fa1e32e33bef2688487">WorldPackets::ClientPacket</a>, <a class="el" href="../../db/d6a/a10206.html#a55a6609863b0d3ef966f222526268acb">WorldPackets::Bank::BuyBankSlotResult</a>, <a class="el" href="../../da/d7f/a10210.html#a39e1b86a7d4d6163ab504797be1af505">WorldPackets::Bank::ShowBank</a>, <a class="el" href="../../d9/d95/a10226.html#a0b08225b6ac303afd20ec213aafe4bcb">WorldPackets::Character::LogoutResponse</a>, <a class="el" href="../../d4/d7b/a10230.html#a0d958bc07b674ed3339833351fec7d3a">WorldPackets::Character::LogoutComplete</a>, <a class="el" href="../../d4/dff/a10238.html#a12f9e56c2ee59f5a084e8aef3fdfad97">WorldPackets::Character::LogoutCancelAck</a>, <a class="el" href="../../d6/d7b/a10250.html#a147071f2545cd91213d6c92dab7438c7">WorldPackets::Character::PlayedTime</a>, <a class="el" href="../../d9/d50/a10254.html#a3f5532f40b59f47423d2b4e3749da88e">WorldPackets::Chat::Emote</a>, <a class="el" href="../../d0/d6c/a10262.html#af8bad4d39693290674bda2e2ad8685bf">WorldPackets::Chat::ChatServerMessage</a>, <a class="el" href="../../de/d4e/a10266.html#af7d49b8d57100cf2c3048d5415a4edc7">WorldPackets::CombatLog::EnvironmentalDamageLog</a>, <a class="el" href="../../d4/dc9/a10282.html#abda9452eba38e76c460f910eb3aad5fa">WorldPackets::Guild::QueryGuildInfoResponse</a>, <a class="el" href="../../d0/db2/a10294.html#a3222d0018c9593400d3d01258b82371e">WorldPackets::Guild::GuildInfoResponse</a>, <a class="el" href="../../d5/dea/a10310.html#a544a539999827d4eb8923cbbcdf42bac">WorldPackets::Guild::GuildRoster</a>, <a class="el" href="../../dc/d20/a10318.html#a621e211342b3bf9b5de01a9a3b66291b">WorldPackets::Guild::GuildCommandResult</a>, <a class="el" href="../../d9/d14/a10334.html#a4ed1c240a53fa6268eb07b3c77d68757">WorldPackets::Guild::GuildInvite</a>, <a class="el" href="../../d5/d54/a10338.html#a4ae1c0daaec964981ad982b97c1b0408">WorldPackets::Guild::GuildEvent</a>, <a class="el" href="../../db/d4f/a10350.html#aa24738cdd040a883782b50189abdf240">WorldPackets::Guild::GuildEventLogQueryResults</a>, <a class="el" href="../../d5/d3b/a10358.html#a4a5937a8daab44b5000a5308ed0be06a">WorldPackets::Guild::GuildPermissionsQueryResults</a>, <a class="el" href="../../d7/d21/a10430.html#aecc28f8734a66c562c7baa1575b07ff9">WorldPackets::Guild::GuildBankRemainingWithdrawMoney</a>, <a class="el" href="../../de/d72/a10450.html#a4598c0c9d1f94c5aa0671f210e1597d4">WorldPackets::Guild::GuildBankQueryResults</a>, <a class="el" href="../../d1/d4e/a10466.html#aafdb5114c7d0e8a2d18a848f3c94aa38">WorldPackets::Guild::GuildBankLogQueryResults</a>, <a class="el" href="../../d1/df0/a10474.html#acb6b28dcf56b821e3c0d5b58f6baa2dd">WorldPackets::Guild::GuildBankTextQueryResult</a>, <a class="el" href="../../d6/df4/a10490.html#a0427be2f46cba4ff6b2ca072924bca7b">WorldPackets::Guild::PlayerSaveGuildEmblem</a>, <a class="el" href="../../dc/d63/a10502.html#a641c7de3e527dcdff07b3f602880b5c8">WorldPackets::Misc::Weather</a>, <a class="el" href="../../dc/d06/a10506.html#af09dd1c6470516ea9422d22ed22e6d10">WorldPackets::Misc::LevelUpInfo</a>, <a class="el" href="../../dd/d31/a10510.html#ad01a67d76fe9dff269eac9108a27c75a">WorldPackets::Misc::PlayMusic</a>, <a class="el" href="../../db/ddb/a10514.html#a1162715dd557a9f7b7c25a0331bc3b74">WorldPackets::Misc::PlayObjectSound</a>, <a class="el" href="../../db/dab/a10518.html#acb4bdd9a1613a158832115e4c18bfcd9">WorldPackets::Misc::Playsound</a>, <a class="el" href="../../d5/d6f/a10526.html#aab5879874745603dd448a7f5084d60d4">WorldPackets::Misc::RandomRoll</a>, <a class="el" href="../../da/d61/a10530.html#afa6cc6032804e3d8f3f7797b2231847f">WorldPackets::Misc::StartMirrorTimer</a>, <a class="el" href="../../d3/db2/a10534.html#aea61f9e668173b65eac3b9f42ddd68a1">WorldPackets::Misc::PauseMirrorTimer</a>, <a class="el" href="../../d5/d4e/a10538.html#ae99dab4406316eac99a6e0e0146d879e">WorldPackets::Misc::StopMirrorTimer</a>, <a class="el" href="../../da/d5d/a10542.html#a35a93d9abeeb029f3da080487423f495">WorldPackets::Misc::DurabilityDamageDeath</a>, <a class="el" href="../../d0/d62/a10546.html#a127dcfcc7e960d24e56d1b17bf9be992">WorldPackets::Misc::CrossedInebriationThreshold</a>, <a class="el" href="../../d6/d34/a10550.html#ab24cdd76abd5914c3a30ee42c7681855">WorldPackets::Misc::UITime</a>, <a class="el" href="../../da/da2/a10626.html#a6fd7d4bc907b0bb78c438e6a9159dc69">WorldPackets::Pet::PetLearnedSpell</a>, <a class="el" href="../../d8/d1e/a10630.html#a11cf7780eba530026a0898bfafd27109">WorldPackets::Pet::PetUnlearnedSpell</a>, <a class="el" href="../../d7/d91/a10642.html#a554900ae7442f00a63c983ea7ea74510">WorldPackets::Totem::TotemCreated</a>, <a class="el" href="../../d6/d19/a10646.html#ad40588a16c7430a633c0537c82ea3a5b">WorldPackets::WorldState::InitWorldStates</a>, and <a class="el" href="../../d9/dbf/a10654.html#a76a4c5d6a06ce8d86a2d3f04f68e838d">WorldPackets::WorldState::UpdateWorldState</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab85f1c9f20117bc5015180165c7b458a" name="ab85f1c9f20117bc5015180165c7b458a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab85f1c9f20117bc5015180165c7b458a">&#9670;&#160;</a></span>_worldPacket</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> WorldPackets::Packet::_worldPacket</td>
         </tr>
       </table>
   </td>
@@ -471,9 +189,216 @@ Protected Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   74</span>    : <a class="code hl_class" href="../../d9/d16/a10218.html">ScriptObject</a>(name)</div>
+<div class="line"><span class="lineno">   75</span>{</div>
+<div class="line"><span class="lineno">   76</span>    <a class="code hl_function" href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry&lt;TransportScript&gt;::AddScript</a>(<span class="keyword">this</span>);</div>
+<div class="line"><span class="lineno">   77</span>}</div>
+<div class="ttc" id="aa10214_html_a4a25c0e3b90f6af4563baf0e7a1c0622"><div class="ttname"><a href="../../d9/ddb/a10214.html#a4a25c0e3b90f6af4563baf0e7a1c0622">ScriptRegistry::AddScript</a></div><div class="ttdeci">static void AddScript(TScript *const script, std::vector&lt; uint16 &gt; enabledHooks={})</div><div class="ttdef"><b>Definition:</b> ScriptMgr.h:738</div></div>
+<div class="ttc" id="aa10218_html"><div class="ttname"><a href="../../d9/d16/a10218.html">ScriptObject</a></div><div class="ttdef"><b>Definition:</b> ScriptObject.h:43</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00738">ScriptRegistry&lt; TScript &gt;::AddScript()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00020">WorldPackets::Bank::AutoBankItem::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Character::ShowingCloak::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Combat::SetSheathed::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Guild::QueryGuildInfo::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::LFG::LFGJoin::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Pet::DismissCritter::Read()</a>, <a class="el" href="../../#l00020">WorldPackets::Totem::TotemDestroyed::Read()</a>, <a class="el" href="../../#l00071">WorldPackets::Character::LogoutComplete::Write()</a>, <a class="el" href="../../#l00087">WorldPackets::Character::LogoutCancelAck::Write()</a>, <a class="el" href="../../#l00020">WorldPackets::Chat::Emote::Write()</a>, <a class="el" href="../../#l00020">WorldPackets::CombatLog::EnvironmentalDamageLog::Write()</a>, and <a class="el" href="../../#l00165">WorldPackets::Misc::DurabilityDamageDeath::Write()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a956f0d757e5d974566fa8fac0df731e5" name="a956f0d757e5d974566fa8fac0df731e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a956f0d757e5d974566fa8fac0df731e5">&#9670;&#160;</a></span>IsDatabaseBound()</h2>
 
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool TransportScript::IsDatabaseBound </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">override</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="../../d9/d16/a10218.html#a37da453729d5c8fbe2d06f905563f47c">ScriptObject</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">   29</span>{ <span class="keywordflow">return</span> <span class="keyword">true</span>; }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a5afb1f1dca2264089238ddd68b38a86d" name="a5afb1f1dca2264089238ddd68b38a86d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5afb1f1dca2264089238ddd68b38a86d">&#9670;&#160;</a></span>OnAddCreaturePassenger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TransportScript::OnAddCreaturePassenger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d22/a08506.html">Transport</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d8/d56/a07846.html">Creature</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   35</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a806f4829b47429900271f6dde7eaa625" name="a806f4829b47429900271f6dde7eaa625"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a806f4829b47429900271f6dde7eaa625">&#9670;&#160;</a></span>OnAddPassenger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TransportScript::OnAddPassenger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d22/a08506.html">Transport</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   32</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a10334c1929c80fc80c76791cbd52f6dd" name="a10334c1929c80fc80c76791cbd52f6dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10334c1929c80fc80c76791cbd52f6dd">&#9670;&#160;</a></span>OnRelocate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TransportScript::OnRelocate </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d22/a08506.html">Transport</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   41</span>{ }</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="a6d6a3af4fcde46101b78cfdb787a2248" name="a6d6a3af4fcde46101b78cfdb787a2248"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d6a3af4fcde46101b78cfdb787a2248">&#9670;&#160;</a></span>OnRemovePassenger()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual void TransportScript::OnRemovePassenger </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d22/a08506.html">Transport</a> *&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../dc/d06/a08466.html">Player</a> *&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">   38</span>{ }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->
@@ -481,8 +406,8 @@ Protected Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/da9/a04736.html">WorldPackets</a></li><li class="navelem"><a class="el" href="../../db/d9b/a10182.html">Packet</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:30 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../db/d9b/a10182.html">TransportScript</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:35 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

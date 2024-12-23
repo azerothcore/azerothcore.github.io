@@ -1,7 +1,7 @@
 var a21462 =
 [
-    [ "FilterTargets", "d2/d42/a21462.html#af62588a225f0b701a0f9321677ae22b8", null ],
-    [ "HandleScript", "d2/d42/a21462.html#ad68fad08b2613de096e504bb7dea61cd", null ],
-    [ "PrepareSpellScript", "d2/d42/a21462.html#a76ac3fe280585a4e2b2d599b4bcc7846", null ],
-    [ "Register", "d2/d42/a21462.html#a8fdbf1c7ab67c0ef094d738ec9a169d8", null ]
+    [ "CheckRequirement", "d2/d42/a21462.html#a41beb2c890137328734d6adb14e08302", null ],
+    [ "PrepareSpellScript", "d2/d42/a21462.html#aa0b9873dbd8c75a14fa88094d91eeeaa", null ],
+    [ "Register", "d2/d42/a21462.html#aa0fad5e5a68131ebab5717ad0ce69669", null ],
+    [ "SetDest", "d2/d42/a21462.html#a431a556ab73f91ed63f5983e537834a5", null ]
 ];

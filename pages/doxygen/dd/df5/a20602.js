@@ -1,6 +1,6 @@
 var a20602 =
 [
-    [ "OnEffect", "dd/df5/a20602.html#aa24cfd6feec65f466e74c68484815c1e", null ],
-    [ "PrepareSpellScript", "dd/df5/a20602.html#a648fb610fb1914efac7f2cb6e1bb4290", null ],
-    [ "Register", "dd/df5/a20602.html#ac1c0076665edc6a2b3a0228340020a1e", null ]
+    [ "boss_yoggsaron_voiceAI", "d8/dbf/a20606.html", "d8/dbf/a20606" ],
+    [ "boss_yoggsaron_voice", "dd/df5/a20602.html#ae5d10416bb83e57c0e9d3ef5d6f5adc6", null ],
+    [ "GetAI", "dd/df5/a20602.html#a50abcde0313df06a114a2f5f44a1d481", null ]
 ];

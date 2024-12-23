@@ -1,5 +1,6 @@
 var a12486 =
 [
-    [ "at_karazhan_side_entrance", "de/dca/a12486.html#abdaa7339a53941e2e89c4fcd439395fc", null ],
-    [ "_OnTrigger", "de/dca/a12486.html#a80d0018a9442ef7f0834dc329047e135", null ]
+    [ "npc_grandmother", "de/dca/a12486.html#a6cffe8c574859779f6561dde0aef9666", null ],
+    [ "OnGossipHello", "de/dca/a12486.html#ae39335d22b5fd1fc4c0f9d34e8977124", null ],
+    [ "OnGossipSelect", "de/dca/a12486.html#a0e2b684377ed593abfbb49b730cfe9b2", null ]
 ];

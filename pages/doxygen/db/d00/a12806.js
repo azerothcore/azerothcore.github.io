@@ -1,7 +1,16 @@
 var a12806 =
 [
-    [ "HandleEffectApply", "db/d00/a12806.html#a710536e0a3bacf173d037041e755bd82", null ],
-    [ "HandleEffectRemove", "db/d00/a12806.html#a16623b3187e98fc50f5a3b8e0297b0ea", null ],
-    [ "PrepareAuraScript", "db/d00/a12806.html#ab1d5eb39b503f7e08a404cf172b8de96", null ],
-    [ "Register", "db/d00/a12806.html#a9092818bdb15a12163aae633049cb7f6", null ]
+    [ "boss_high_inquisitor_whitemaneAI", "db/d00/a12806.html#a6040dc7c76f412e5ad8c5380ae7c0c45", null ],
+    [ "DamageTaken", "db/d00/a12806.html#a267f6ecde5d915f490adb10f7fbf016f", null ],
+    [ "JustEngagedWith", "db/d00/a12806.html#a10e5697a96064d39caaae0ea2bf3f802", null ],
+    [ "JustReachedHome", "db/d00/a12806.html#aaf19e27d7ae94ebeb27d653c177dedcb", null ],
+    [ "KilledUnit", "db/d00/a12806.html#a7cf5eef4aa4b2a0ed8095befd64e17d0", null ],
+    [ "Reset", "db/d00/a12806.html#abae3b2903800eeb072358f8904dc4f3f", null ],
+    [ "UpdateAI", "db/d00/a12806.html#a047bcf3557ca45eed5aea8614bebe190", null ],
+    [ "canResurrect", "db/d00/a12806.html#a9fc35ca56d2a7f0b1def6bf636dc4399", null ],
+    [ "canResurrectCheck", "db/d00/a12806.html#a12dde2e25f5deeb31bfed3c7db230962", null ],
+    [ "events", "db/d00/a12806.html#aca708990da11da33ce8b97c53c1307e1", null ],
+    [ "Heal_Timer", "db/d00/a12806.html#a0451b9ce74fb96a1a0a6935faf0171d1", null ],
+    [ "instance", "db/d00/a12806.html#aa56d60c038bef7f1b1d42b84edb256bc", null ],
+    [ "Wait_Timer", "db/d00/a12806.html#a5e120b449199bdcb7a31fe51cdb1e62f", null ]
 ];

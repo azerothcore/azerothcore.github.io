@@ -1,13 +1,9 @@
 var a07254 =
 [
-    [ "WhoListCacheMgr", "df/d01/a07254.html#a2190c113c3d38bd316b17a4400c113e6", null ],
-    [ "~WhoListCacheMgr", "df/d01/a07254.html#ae32706d7786014e142dc1cb9ccd29d70", null ],
-    [ "WhoListCacheMgr", "df/d01/a07254.html#a366e452317179d647042c24c56faafa1", null ],
-    [ "WhoListCacheMgr", "df/d01/a07254.html#ae0358ae9260f929410f6518f89135161", null ],
-    [ "GetWhoList", "df/d01/a07254.html#a4dec6544342fdc5052b69dcc61148453", null ],
-    [ "instance", "df/d01/a07254.html#a1e8ce970e3213cd0361af303df98b387", null ],
-    [ "operator=", "df/d01/a07254.html#a80615aa0a66ac29765f27598e605c712", null ],
-    [ "operator=", "df/d01/a07254.html#ab8aff37f9e66aef40ccb794928bc001c", null ],
-    [ "Update", "df/d01/a07254.html#a3db2ef832cf1413fb2e565ca0d922a80", null ],
-    [ "_whoListStorage", "df/d01/a07254.html#a75495cb910c6de65d60a5080248e1e25", null ]
+    [ "entry", "df/d01/a07254.html#a2238cabe763a588a5572611e0aefe6ba", null ],
+    [ "o", "df/d01/a07254.html#a0ebd9ea966eb66cf80b8f3c003db60c0", null ],
+    [ "type", "df/d01/a07254.html#a561ac93f5c1bcc26dacbd0212b602eac", null ],
+    [ "x", "df/d01/a07254.html#a616d422b4e8c99ec3285a87f553d4091", null ],
+    [ "y", "df/d01/a07254.html#a34de8c83a7bc8b33ac0cabdfb1bd3459", null ],
+    [ "z", "df/d01/a07254.html#a78cff0661e6d9440574306ec01389d42", null ]
 ];

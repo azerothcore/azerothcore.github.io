@@ -1,9 +1,6 @@
 var a26414 =
 [
-    [ "CheckCast", "d2/d6f/a26414.html#a441927e0d8d7304030440c19458eb34d", null ],
-    [ "HandleScriptEffect", "d2/d6f/a26414.html#a10e9691aa15869c82fba79072a314d7e", null ],
-    [ "PrepareSpellScript", "d2/d6f/a26414.html#a90b8ae945aeb85ad6e8a120501288979", null ],
-    [ "Register", "d2/d6f/a26414.html#aac95bd6f7409e1ae9d3f9cf0c7212990", null ],
-    [ "Validate", "d2/d6f/a26414.html#a00c67b65bcfdeaf56295da6a64689d58", null ],
-    [ "iTypes", "d2/d6f/a26414.html#ae852b9df34612c074eab23b025c86870", null ]
+    [ "HandleKnockBack", "d2/d6f/a26414.html#abad9f9293260a3e99be98b43aabb321b", null ],
+    [ "PrepareSpellScript", "d2/d6f/a26414.html#a65787b78165631898458264e6ee310f4", null ],
+    [ "Register", "d2/d6f/a26414.html#ade4f3cb676f1cc92b0e75f85367dc3e0", null ]
 ];

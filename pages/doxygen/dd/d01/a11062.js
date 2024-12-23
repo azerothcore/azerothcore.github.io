@@ -1,7 +1,6 @@
 var a11062 =
 [
-    [ "EffectApplyHandler", "dd/d01/a11062.html#a7ab5f0786000c217e2fc71201a8990b6", null ],
-    [ "Call", "dd/d01/a11062.html#a4c02a1b42d7b3a02633dc9600b0e09bb", null ],
-    [ "mode", "dd/d01/a11062.html#ac776375c5a5de321edc572c87e983193", null ],
-    [ "pEffectHandlerScript", "dd/d01/a11062.html#acd715556a7661f688ce0de9afe62250a", null ]
+    [ "HitHandler", "dd/d01/a11062.html#a41c5a6853bf72c113388995dc3ebaba7", null ],
+    [ "Call", "dd/d01/a11062.html#a157baaa3ceba62a9910cba5377bd7699", null ],
+    [ "pHitHandlerScript", "dd/d01/a11062.html#ac24144e49930a01a3049740a4072f626", null ]
 ];

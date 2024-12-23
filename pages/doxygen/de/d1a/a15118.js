@@ -1,6 +1,6 @@
 var a15118 =
 [
-    [ "HandleDummy", "de/d1a/a15118.html#af9c26a7e5f6cba4f1146cb626dbcf8ed", null ],
-    [ "PrepareSpellScript", "de/d1a/a15118.html#adc581ed46587afcc8be3800ae79105f6", null ],
-    [ "Register", "de/d1a/a15118.html#a7d09808ea2fdec450fcd129e996bd245", null ]
+    [ "npc_tiger_matriarch_creditAI", "d9/d1a/a15122.html", "d9/d1a/a15122" ],
+    [ "npc_tiger_matriarch_credit", "de/d1a/a15118.html#a9d76e8e808c828da501551025eecd8ea", null ],
+    [ "GetAI", "de/d1a/a15118.html#ac4966a8ae43688204f97f9a1a7b4542d", null ]
 ];

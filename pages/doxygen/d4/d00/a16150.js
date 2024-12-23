@@ -1,7 +1,6 @@
 var a16150 =
 [
-    [ "HandleDispel", "d4/d00/a16150.html#a7b24f38bbb7813826520f928b22d30aa", null ],
-    [ "PrepareAuraScript", "d4/d00/a16150.html#a0e0424bd590cfc4f85f40728bf6efd22", null ],
-    [ "Register", "d4/d00/a16150.html#a2bf6921550da3c13730fd98bded2c927", null ],
-    [ "Validate", "d4/d00/a16150.html#ad8b0bb389d232c74acf106b711414fa1", null ]
+    [ "npc_toc_warriorAI", "d8/df3/a16154.html", "d8/df3/a16154" ],
+    [ "npc_toc_warrior", "d4/d00/a16150.html#a3e969be07603ef59389106769010660c", null ],
+    [ "GetAI", "d4/d00/a16150.html#a557d9aa512c485e37b4a05b57ab3d1a4", null ]
 ];

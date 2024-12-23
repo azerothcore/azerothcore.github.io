@@ -1,6 +1,6 @@
 var a24186 =
 [
-    [ "HandleEffectApply", "d1/dea/a24186.html#a4bc121ecc9357709ec2f1ea395d0b6b1", null ],
-    [ "PrepareAuraScript", "d1/dea/a24186.html#ac7f16aed55aedba6da0672c3102a5fae", null ],
-    [ "Register", "d1/dea/a24186.html#a83e15d7db1b9aa4ce4fbc8a359795091", null ]
+    [ "PrepareSpellScript", "d1/dea/a24186.html#a2585b06bbebf291d170df58daf6fdd4e", null ],
+    [ "RecalculateDamage", "d1/dea/a24186.html#a1fe9f9d4892b0ca8cb6699b555fb9268", null ],
+    [ "Register", "d1/dea/a24186.html#a834484683d2d782b4f4c027091108172", null ]
 ];

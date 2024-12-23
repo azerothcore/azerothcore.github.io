@@ -1,11 +1,12 @@
 var a10742 =
 [
-    [ "Player", "d8/dc5/a10742.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
-    [ "WorldSession", "d8/dc5/a10742.html#a65b5c30bf4f5f118a199e378d903aaf6", null ],
-    [ "Face", "d8/dc5/a10742.html#a6334464eea38be514f3faa7538b39a5a", null ],
-    [ "FacialHair", "d8/dc5/a10742.html#a44643270b211d275eb94283842791407", null ],
-    [ "Gender", "d8/dc5/a10742.html#a14321ea3595debe2836eceab8a82f944", null ],
-    [ "HairColor", "d8/dc5/a10742.html#aeaa7ce4ecea7f42def63049424a2dd6b", null ],
-    [ "HairStyle", "d8/dc5/a10742.html#ade5b2dff213547ab4d707070f8979085", null ],
-    [ "Skin", "d8/dc5/a10742.html#a2876110e687e7248e8c64fcb3a3a80db", null ]
+    [ "OpcodeTable", "d5/dfd/a04680.html#gacb286fdd22f1781abfb0d820b1f345aa", null ],
+    [ "OpcodeTable", "d5/dfd/a04680.html#ga0d719536cf746ad04a8ecc4fcca4a869", null ],
+    [ "~OpcodeTable", "d5/dfd/a04680.html#gac4e0724e0795156122c4fd8f07ade628", null ],
+    [ "Initialize", "d5/dfd/a04680.html#gac64814869d378e5bb7fa18144693fac1", null ],
+    [ "operator=", "d5/dfd/a04680.html#ga2153d4fe6b752cc2269cbfec7e8c3c84", null ],
+    [ "operator[]", "d5/dfd/a04680.html#gaa2cde2ecf8628ce12487ec9ce8fa37d1", null ],
+    [ "ValidateAndSetClientOpcode", "d5/dfd/a04680.html#ga95313e8e04ed3ab47f7104db9cf1db09", null ],
+    [ "ValidateAndSetServerOpcode", "d5/dfd/a04680.html#ga42b9c6fd72c2f463ab5cb3fb562151b6", null ],
+    [ "_internalTableClient", "d5/dfd/a04680.html#ga8c0d7f9f6248f9652fd8b8021b9a7677", null ]
 ];

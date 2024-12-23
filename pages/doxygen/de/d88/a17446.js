@@ -1,7 +1,6 @@
 var a17446 =
 [
-    [ "HandleSpikes", "de/d88/a17446.html#a012d61aacf79b9b1f5b4b5c5c81b5ed4", null ],
-    [ "PrepareSpellScript", "de/d88/a17446.html#a6ffb6454eb4c58a1b66356814c13b659", null ],
-    [ "Register", "de/d88/a17446.html#a893345cf191d084a0f97a8464b7d381a", null ],
-    [ "Validate", "de/d88/a17446.html#aa6545760706d8695aefd4064c3c71c6b", null ]
+    [ "npc_vengeful_shadeAI", "db/d39/a17450.html", "db/d39/a17450" ],
+    [ "npc_vengeful_shade", "de/d88/a17446.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
+    [ "GetAI", "de/d88/a17446.html#afa2c672015b43d83bd55050ed020f7e5", null ]
 ];

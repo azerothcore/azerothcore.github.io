@@ -1,8 +1,9 @@
 var a13734 =
 [
-    [ "npc_spawn_of_marli", "dd/de1/a13734.html#a1dcd5066de108203903f5767c4b375ea", null ],
-    [ "JustEngagedWith", "dd/de1/a13734.html#a1b8afff5d90df02d16b81785026b2ff0", null ],
-    [ "Reset", "dd/de1/a13734.html#a79ef192d41af75e0dad0494776c75189", null ],
-    [ "UpdateAI", "dd/de1/a13734.html#a1c456e7deb43d2e4dd1abc6f702c3f75", null ],
-    [ "_scheduler", "dd/de1/a13734.html#ae9d30ec62ff25a454824ff4334ad2d99", null ]
+    [ "npc_shade_of_jindo", "dd/de1/a13734.html#a86fa95e806aea21fd6db332ea3f18a02", null ],
+    [ "IsSummonedBy", "dd/de1/a13734.html#aaf4eed2de98601844a32fec159f2f5fc", null ],
+    [ "JustEngagedWith", "dd/de1/a13734.html#a450f887c97cfa3ebce91ebd058ed9849", null ],
+    [ "Reset", "dd/de1/a13734.html#abc18dabb6f4f0b85a3b5b2e6f830804f", null ],
+    [ "UpdateAI", "dd/de1/a13734.html#a1aca8192c0655c0ab359f49448f8fafd", null ],
+    [ "_scheduler", "dd/de1/a13734.html#a1d74d8113f5ef117b2968f8f864fcaf4", null ]
 ];

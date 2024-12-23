@@ -1,7 +1,7 @@
 var a16114 =
 [
-    [ "npc_toc_rogueAI", "d6/d78/a16114.html#a34027e7d10edbfba8e046f4785e37899", null ],
-    [ "myCanCast", "d6/d78/a16114.html#a85ed8e251dd8356e678536f1e3f3c93d", null ],
-    [ "UpdateAI", "d6/d78/a16114.html#a49b0655def227684f07bd60a3c1e0ce1", null ],
-    [ "events", "d6/d78/a16114.html#a1519bebb81b64d57b2b0b34a059b83f8", null ]
+    [ "npc_toc_shadow_priestAI", "d6/d78/a16114.html#af13a18be542fb314c19af52f89d216b8", null ],
+    [ "myCanCast", "d6/d78/a16114.html#a83422ff3e140b57a484d98876a9a8070", null ],
+    [ "UpdateAI", "d6/d78/a16114.html#afc23ba15d3ee925212e77b5211504c2b", null ],
+    [ "events", "d6/d78/a16114.html#a31665a22920b416d7423958a3e2928ec", null ]
 ];

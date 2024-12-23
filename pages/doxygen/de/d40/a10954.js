@@ -1,7 +1,8 @@
 var a10954 =
 [
-    [ "maxvalue", "de/d40/a10954.html#a1dd2289b0d3505cb50e8613595ad8c8e", null ],
-    [ "skill", "de/d40/a10954.html#a8bcbe05ff6a3220f9f05f52b16925f5d", null ],
-    [ "step", "de/d40/a10954.html#a1c882f7d43c65954cb99566225660312", null ],
-    [ "value", "de/d40/a10954.html#a064fece53cdaf07b072510b14200a968", null ]
+    [ "DirectionType", "de/d40/a10954.html#a8491033c0286895c2d4d3280cfd529f0", null ],
+    [ "ObjectType", "de/d40/a10954.html#a20c29be1005aa52993d4ec0a13c36f4d", null ],
+    [ "ReferenceType", "de/d40/a10954.html#a44e310a789c4c5a288f07c9254ad389a", null ],
+    [ "SelectionCategory", "de/d40/a10954.html#a4a42ef329b6cfcfcd7fd4ce59e8f597c", null ],
+    [ "SelectionCheckType", "de/d40/a10954.html#a35c8d221b47de13408a0256598fa9d63", null ]
 ];

@@ -1,6 +1,6 @@
 var a25814 =
 [
-    [ "FilterTargets", "dd/d94/a25814.html#a17626abdbc4066956b76945b11b3f0c6", null ],
-    [ "PrepareSpellScript", "dd/d94/a25814.html#abfeb75060c1f930b33003dd1e458f882", null ],
-    [ "Register", "dd/d94/a25814.html#a8e5146a57f181b17280d198bcd2e216d", null ]
+    [ "CalculateAmount", "dd/d94/a25814.html#a9c4a38bb60cc61156da5bd1b89b3e116", null ],
+    [ "PrepareAuraScript", "dd/d94/a25814.html#a5bd55cb8b992f7ceb52f7193bcdbf210", null ],
+    [ "Register", "dd/d94/a25814.html#a1f717d941f8d100eb73d7e2a3b638bad", null ]
 ];

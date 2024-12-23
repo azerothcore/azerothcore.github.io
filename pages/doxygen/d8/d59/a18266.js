@@ -1,6 +1,7 @@
 var a18266 =
 [
-    [ "npc_captain_arnathAI", "d9/dbe/a18270.html", "d9/dbe/a18270" ],
-    [ "npc_captain_arnath", "d8/d59/a18266.html#ab96afce64a7714ea84bab932f80c9302", null ],
-    [ "GetAI", "d8/d59/a18266.html#a302ec007389e677011334d78f410207b", null ]
+    [ "FrostwingVrykulSearcher", "d8/d59/a18266.html#a10aa54184b42a0538dc4f325204399e9", null ],
+    [ "operator()", "d8/d59/a18266.html#afbf32ce600cee12930fefcf9b5e87f16", null ],
+    [ "_range", "d8/d59/a18266.html#a04b2913aae7fbf6547a960d0876d4d02", null ],
+    [ "_source", "d8/d59/a18266.html#af5d3c93f41698e71c867336d0453d40a", null ]
 ];

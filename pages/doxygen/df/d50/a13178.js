@@ -1,9 +1,8 @@
 var a13178 =
 [
-    [ "npc_professor_phizzlethorpeAI", "df/d50/a13178.html#a92af4732575008c1a4f061cef0f23902", null ],
-    [ "JustEngagedWith", "df/d50/a13178.html#a8864031e3c7a32cde57ca6efbf785d53", null ],
-    [ "JustSummoned", "df/d50/a13178.html#af8e4e706925d8837cacdc0b5a6d1f10d", null ],
-    [ "sQuestAccept", "df/d50/a13178.html#ad4a4bd9af581abe832933da69b18d76f", null ],
-    [ "UpdateAI", "df/d50/a13178.html#a1c62cd07da5f0da91ef572bb00619d26", null ],
-    [ "WaypointReached", "df/d50/a13178.html#a7be58c6ecc4e5ba23ec35cc1864f19e6", null ]
+    [ "HandleApply", "df/d50/a13178.html#a717e3428afd59fa3a5e9916887d88273", null ],
+    [ "HandleRemove", "df/d50/a13178.html#ae389028340dc25ee0260ed3e9f1d5ceb", null ],
+    [ "PrepareAuraScript", "df/d50/a13178.html#a58e6bae0c4c203c704cfa6cfdd6d560f", null ],
+    [ "Register", "df/d50/a13178.html#ac2ba66696c791d47c7c485aec6028f0b", null ],
+    [ "Validate", "df/d50/a13178.html#a393a46618a4e1928b8149e04b4823726", null ]
 ];

@@ -1,6 +1,5 @@
 var a26722 =
 [
-    [ "AreaTrigger_at_area_52_entrance", "db/d9c/a26722.html#a5b7e21903bca1c04bad1394c6965d032", null ],
-    [ "OnTrigger", "db/d9c/a26722.html#a1e537d133ee5e6ad1dbb0c732e23a128", null ],
-    [ "_triggerTimes", "db/d9c/a26722.html#a6c3225f46ea71d06b81b25d5fb6e8f25", null ]
+    [ "achievement_killed_exp_or_honor_target", "db/d9c/a26722.html#aad432878c97af698dd1cc4019d716281", null ],
+    [ "OnCheck", "db/d9c/a26722.html#ace8fc68ebb73e39626797be4caa45a3c", null ]
 ];

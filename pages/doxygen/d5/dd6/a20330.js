@@ -1,5 +1,6 @@
 var a20330 =
 [
-    [ "achievement_thorim_lose_your_illusion", "d5/dd6/a20330.html#a449dda8a7a3f19d0aabaf9ca353d70bb", null ],
-    [ "OnCheck", "d5/dd6/a20330.html#a322df4f30445a84085615925f74a8a6b", null ]
+    [ "boss_thorim_start_npcsAI", "d7/dd1/a20334.html", "d7/dd1/a20334" ],
+    [ "boss_thorim_start_npcs", "d5/dd6/a20330.html#a3aa11a487ae00b2e397fd25ed2e42702", null ],
+    [ "GetAI", "d5/dd6/a20330.html#a6c529b19d071b4966ccc74b44279cb08", null ]
 ];

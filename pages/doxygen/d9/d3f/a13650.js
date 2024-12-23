@@ -1,9 +1,8 @@
 var a13650 =
 [
-    [ "boss_hazzarah", "d9/d3f/a13650.html#a73ba49b91addc9c03e1692587fe66a52", null ],
-    [ "CanAIAttack", "d9/d3f/a13650.html#a9038a5b4276fda8a6865217a7c494eec", null ],
-    [ "JustEngagedWith", "d9/d3f/a13650.html#a18e382c03ff923bb851a9cd8e2541788", null ],
-    [ "JustSummoned", "d9/d3f/a13650.html#a1c3969fbc027f054598ec4123abd6fa4", null ],
-    [ "SummonedCreatureDies", "d9/d3f/a13650.html#aac0c990013edf1968d33aeb59d4f05b0", null ],
-    [ "UpdateAI", "d9/d3f/a13650.html#a61d92f1650a84ed9684d33879e54bd09", null ]
+    [ "FilterTargets", "d9/d3f/a13650.html#a3405b21202d423c649e0b8d341b42d9c", null ],
+    [ "HandleWipeThreat", "d9/d3f/a13650.html#a2bbcce83bffebc509e9ec54778e82639", null ],
+    [ "PrepareSpellScript", "d9/d3f/a13650.html#a59948484b528cab69c695f08b39b886d", null ],
+    [ "Register", "d9/d3f/a13650.html#ac4106a251bd3120e122955edbcdc8e2a", null ],
+    [ "_wipeThreat", "d9/d3f/a13650.html#ab5293e50bd670c0d350f190f1c9892b3", null ]
 ];

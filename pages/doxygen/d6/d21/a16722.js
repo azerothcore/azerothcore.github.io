@@ -1,9 +1,12 @@
 var a16722 =
 [
-    [ "npc_pos_collapsing_icicleAI", "d6/d21/a16722.html#a007e4bad6ef41729d3f7b7ade4285dfe", null ],
-    [ "SpellHitTarget", "d6/d21/a16722.html#aea107ede3b11726b3f7caae590edaf52", null ],
-    [ "UpdateAI", "d6/d21/a16722.html#ade416a422e67ce61e8874320cce7143b", null ],
-    [ "pInstance", "d6/d21/a16722.html#a8c7e2643c2d443b382a60f28ea74266c", null ],
-    [ "timer1", "d6/d21/a16722.html#a5757c27b8c8840cec6ad7282f0cbf51b", null ],
-    [ "timer2", "d6/d21/a16722.html#aee61de504cfb25d9a99651a58ea0b63c", null ]
+    [ "boss_tyrannusAI", "d6/d21/a16722.html#a753de14d2cecaaed2c7b24e09397b008", null ],
+    [ "CanAIAttack", "d6/d21/a16722.html#a0cb60f308637cbd152faf274b3e5f636", null ],
+    [ "DoAction", "d6/d21/a16722.html#ab4d899ab5da283c8d256df8cb0d4e312", null ],
+    [ "JustDied", "d6/d21/a16722.html#a249b7dc28dfc40c2a782ef32b88dbb48", null ],
+    [ "KilledUnit", "d6/d21/a16722.html#abf7c8909143dac641c00cca160bef964", null ],
+    [ "Reset", "d6/d21/a16722.html#aec686cffccd8d95a341e320ffc7d5b7e", null ],
+    [ "UpdateAI", "d6/d21/a16722.html#a4357dc2e9b1d714d780db6ce3f60728b", null ],
+    [ "events", "d6/d21/a16722.html#a2168a2e1b36607b76614bdef54b02bc3", null ],
+    [ "pInstance", "d6/d21/a16722.html#ad4a8282849aaa1ce8b4702b5af55d35b", null ]
 ];

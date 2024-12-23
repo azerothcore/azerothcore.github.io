@@ -1,6 +1,12 @@
 var a21694 =
 [
-    [ "npc_boneguard_footmanAI", "d9/de8/a21698.html", "d9/de8/a21698" ],
-    [ "npc_boneguard_footman", "dc/dd7/a21694.html#aba17f89b9546deff5401ad33224b2b3e", null ],
-    [ "GetAI", "dc/dd7/a21694.html#ab0b28f61e26f701db17a0d19bbde4492", null ]
+    [ "npc_your_inner_turmoilAI", "dc/dd7/a21694.html#a95e8039b174f6db267197e04b6bd2dd2", null ],
+    [ "DamageTaken", "dc/dd7/a21694.html#a0e14a306db46e817e6d8f7a358519f83", null ],
+    [ "JustDied", "dc/dd7/a21694.html#a142359bf1661542d044a7d27b764832b", null ],
+    [ "Reset", "dc/dd7/a21694.html#a4e17e9642ec11712652f41495974b716", null ],
+    [ "setphase", "dc/dd7/a21694.html#a17c00619bcf5818e49f67d4d8b8b35b0", null ],
+    [ "UpdateAI", "dc/dd7/a21694.html#a2a4b20fccb4b5ef0f590f0a7ee92e4d2", null ],
+    [ "health50", "dc/dd7/a21694.html#af5a9e355c2a5a927d38ea22fe96d89f0", null ],
+    [ "phase", "dc/dd7/a21694.html#a60212e1504bcb6f7db05ba5ed09df71f", null ],
+    [ "timer", "dc/dd7/a21694.html#af2c272de51aa15a41af9837f99256a62", null ]
 ];

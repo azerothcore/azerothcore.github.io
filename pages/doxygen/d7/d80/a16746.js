@@ -1,11 +1,15 @@
 var a16746 =
 [
-    [ "npc_pos_leader_secondAI", "d7/d80/a16746.html#a2ded8591da2548921cd016d592d1f1c8", null ],
-    [ "DoAction", "d7/d80/a16746.html#a941d3b42d6a0e58496b724af56fee44a", null ],
-    [ "MovementInform", "d7/d80/a16746.html#a32f4c5c48f1a63ded0ac9b8ee763090b", null ],
-    [ "SpellHitTarget", "d7/d80/a16746.html#ae630b7b225379831d15a11f66507bc6a", null ],
-    [ "UpdateAI", "d7/d80/a16746.html#a640aea9ce4a47dd13d417748e533fc33", null ],
-    [ "barrierGUID", "d7/d80/a16746.html#a452c096475581c12bf2f4ccb12448026", null ],
-    [ "events", "d7/d80/a16746.html#a1e1ab6c1d349a9543815a29ae185feec", null ],
-    [ "pInstance", "d7/d80/a16746.html#aee9dac9efee94db3d84eb9c5fb8c88a2", null ]
+    [ "npc_pos_deathwhisper_necrolyteAI", "d7/d80/a16746.html#ae03f3fef42fcbcecedaf38692d1e9131", null ],
+    [ "DamageTaken", "d7/d80/a16746.html#aad000cc1310f22325a29131fad169cbc", null ],
+    [ "DoAction", "d7/d80/a16746.html#a5d7a324073cfdbd01ae267964959f15b", null ],
+    [ "InitializeAI", "d7/d80/a16746.html#ad84905d1385bce0e431c2baf1158a343", null ],
+    [ "JustEngagedWith", "d7/d80/a16746.html#ae095fa3ceb484cc289a086be8c2f2552", null ],
+    [ "MoveInLineOfSight", "d7/d80/a16746.html#a1d43b002628080d5faf2fd59347a7f79", null ],
+    [ "MovementInform", "d7/d80/a16746.html#a849b06a045de5529706e83b03febe135", null ],
+    [ "Reset", "d7/d80/a16746.html#a0e6b326b3c8102dd711c002537f2c339", null ],
+    [ "UpdateAI", "d7/d80/a16746.html#ade1c91217b6c6e33bfca60a69a51bbc0", null ],
+    [ "events", "d7/d80/a16746.html#a30d65bc3625ed22e11ed7e040451643c", null ],
+    [ "isInvincible", "d7/d80/a16746.html#a0216b301112656fb75907ff1f0d50d0f", null ],
+    [ "pInstance", "d7/d80/a16746.html#afb71e537115d36795c2568360b2d58ce", null ]
 ];

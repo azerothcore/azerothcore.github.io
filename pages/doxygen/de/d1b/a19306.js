@@ -1,6 +1,7 @@
 var a19306 =
 [
-    [ "boss_algalon_the_observerAI", "d0/de0/a19310.html", "d0/de0/a19310" ],
-    [ "boss_algalon_the_observer", "de/d1b/a19306.html#a0691b47a116401da58b246203ecba2cb", null ],
-    [ "GetAI", "de/d1b/a19306.html#a4c30c6ddf8dcbc7c478250846f27a261", null ]
+    [ "creature", "de/d1b/a19306.html#a55a6ee677ab51120867f542e5a5745b0", null ],
+    [ "sound", "de/d1b/a19306.html#a407acf5c908aa44a169adc1e88a70ab4", null ],
+    [ "text", "de/d1b/a19306.html#a9ed157ddf2c274d021820723b1ebe00e", null ],
+    [ "timer", "de/d1b/a19306.html#a198a3a5a4ad037b591fc3b85675bdfe1", null ]
 ];

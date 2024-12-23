@@ -1,10 +1,12 @@
 var a16554 =
 [
-    [ "npc_hor_spiritual_reflectionAI", "de/dec/a16554.html#aac0a916bfa325284b354e7241fe857ab", null ],
-    [ "EnterEvadeMode", "de/dec/a16554.html#a49f1c93206bfff53090c138a3dbf79e5", null ],
-    [ "JustDied", "de/dec/a16554.html#a72073c44f881d4a78552de4119a716d7", null ],
-    [ "JustEngagedWith", "de/dec/a16554.html#ac35e648b93bb39ca831390bf88f6a3e7", null ],
-    [ "Reset", "de/dec/a16554.html#ad1f523fad45c34077e6d6ce7b9a4aefd", null ],
-    [ "UpdateAI", "de/dec/a16554.html#af9613e9309b85317bc6e3a84013dcf89", null ],
-    [ "events", "de/dec/a16554.html#a89a466917aa5634c4c86ecbce21280b7", null ]
+    [ "npc_ghostly_priestAI", "de/dec/a16554.html#abb6815d1395b68654eeb6ab8b4217388", null ],
+    [ "AttackStart", "de/dec/a16554.html#a9719d1ad6e58b727bc1720cb815be3e9", null ],
+    [ "DoAction", "de/dec/a16554.html#a89c991a1d4c07f1229436871f503c949", null ],
+    [ "EnterEvadeMode", "de/dec/a16554.html#ab8fd2df32ef12f5f648b8af9abcc3201", null ],
+    [ "JustDied", "de/dec/a16554.html#a004e8aec05741b9ee36b0695840e6c2a", null ],
+    [ "JustEngagedWith", "de/dec/a16554.html#a780d530e224ca1f72e26db17cd57f44a", null ],
+    [ "Reset", "de/dec/a16554.html#ab8f7559110be76633153842e0714554a", null ],
+    [ "UpdateAI", "de/dec/a16554.html#ab431f451963d0b608f11129934496700", null ],
+    [ "events", "de/dec/a16554.html#a9b49c143b5a29b4f9b4ce34ce0aecca7", null ]
 ];

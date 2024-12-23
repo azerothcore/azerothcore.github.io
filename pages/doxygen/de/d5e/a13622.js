@@ -1,5 +1,6 @@
 var a13622 =
 [
-    [ "at_zulgurub_bridge_speech", "de/d5e/a13622.html#a0ef9d44dc98ddee8fe5133862339808d", null ],
-    [ "_OnTrigger", "de/d5e/a13622.html#a67234a1f4c77888a8535d0ea52e16ba9", null ]
+    [ "npc_eagle_trash_aggro_trigger", "de/d5e/a13622.html#a9d41e8abe764fd0f8cedd888418aafb2", null ],
+    [ "MoveInLineOfSight", "de/d5e/a13622.html#aa8892e7f2bec9f26320cd9749e648ebd", null ],
+    [ "_instance", "de/d5e/a13622.html#a39a222e1eb0a3378c8fcaf1da5629547", null ]
 ];

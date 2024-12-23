@@ -1,6 +1,6 @@
 var a13110 =
 [
-    [ "npc_singularity", "d8/d4f/a13110.html#a4ed61ec65ed94d8d5e42ae7ff9ecd41d", null ],
-    [ "Reset", "d8/d4f/a13110.html#ae81c2e5865beb00df8683fa0fb6e7872", null ],
-    [ "UpdateAI", "d8/d4f/a13110.html#ad019d234ca9ee719612d59e5bb0b53ea", null ]
+    [ "FixOrientation", "d8/d4f/a13110.html#ac4a9654d37a73f9d5ddc73ff90ce145b", null ],
+    [ "Execute", "d8/d4f/a13110.html#a7af72679731c9b86b9ae36d19d1621e5", null ],
+    [ "_owner", "d8/d4f/a13110.html#a5f12db3774bdeef25a300780c00db1fb", null ]
 ];

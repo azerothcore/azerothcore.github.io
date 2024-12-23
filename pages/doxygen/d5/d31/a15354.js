@@ -1,6 +1,12 @@
 var a15354 =
 [
-    [ "npc_rivern_frostwind", "d5/d31/a15354.html#a0675c120fc28b26c7ea3c35f8d3f2a64", null ],
-    [ "OnGossipHello", "d5/d31/a15354.html#a90a6582633336de422c9f98973562b32", null ],
-    [ "OnGossipSelect", "d5/d31/a15354.html#a067ff91179f551633594d488eda269ed", null ]
+    [ "npc_wizzlecrank_shredderAI", "d5/d31/a15354.html#a055c4b426219aa3372a83d2e2021d916", null ],
+    [ "JustSummoned", "d5/d31/a15354.html#a7cad21f0b3286ed75256a49c315069ce", null ],
+    [ "Reset", "d5/d31/a15354.html#a86929e8a2f3433f37e4dda03e3011193", null ],
+    [ "UpdateEscortAI", "d5/d31/a15354.html#acb95eeebd0317f1d95bc48d6b9e7e962", null ],
+    [ "WaypointReached", "d5/d31/a15354.html#a369ae3d62d1289a1c840bdc3184b463d", null ],
+    [ "WaypointStart", "d5/d31/a15354.html#a00857e372e53950338ed71d672edb780", null ],
+    [ "IsPostEvent", "d5/d31/a15354.html#a9207ffdb39627b1262ec209fe41d6d0a", null ],
+    [ "PostEventCount", "d5/d31/a15354.html#aa5284a284c074f32cee85d29aea00f2f", null ],
+    [ "PostEventTimer", "d5/d31/a15354.html#a3c43ede2df7b1ea61b0f1625e2e1461c", null ]
 ];

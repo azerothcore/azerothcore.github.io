@@ -1,7 +1,6 @@
 var a21710 =
 [
-    [ "GetSeatNumber", "d2/d0e/a21710.html#a8e18a10196667fd3dfba58d16fa281b9", null ],
-    [ "HandleDummy", "d2/d0e/a21710.html#ac5945381452559e1d5655f5345bdeff3", null ],
-    [ "PrepareSpellScript", "d2/d0e/a21710.html#aad375c0d3d1f0352cbda6a23cfb61272", null ],
-    [ "Register", "d2/d0e/a21710.html#aad1cb82fdcd170f5a43f5007ebaadf2e", null ]
+    [ "npc_plaguehound_trackerAI", "d2/d0e/a21710.html#a7530f500b42ad9bb38593193d3113da8", null ],
+    [ "Reset", "d2/d0e/a21710.html#a05c351ab3aca0cd18209405075bb0f47", null ],
+    [ "WaypointReached", "d2/d0e/a21710.html#a67c345f49572cde76d9109a1baff6788", null ]
 ];

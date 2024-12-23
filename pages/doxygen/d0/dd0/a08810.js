@@ -1,13 +1,7 @@
 var a08810 =
 [
-    [ "QuestPOI", "d0/dd0/a08810.html#af4ce75549d1fff2042e98683119214a6", null ],
-    [ "QuestPOI", "d0/dd0/a08810.html#a4cf252fabc68cf11df5d44f192955a0b", null ],
-    [ "AreaId", "d0/dd0/a08810.html#ad81f08fa2bc5fd0ccd81d0efc42ce804", null ],
-    [ "FloorId", "d0/dd0/a08810.html#a1af6ed9fdb9ff429e18fb5d98a42ce45", null ],
-    [ "Id", "d0/dd0/a08810.html#aace0de15249c756ba3cbd5763cbb3f98", null ],
-    [ "MapId", "d0/dd0/a08810.html#a851f8e6e62373d2592173534754d757b", null ],
-    [ "ObjectiveIndex", "d0/dd0/a08810.html#ad80f65110beacd44e667008387e6bb70", null ],
-    [ "points", "d0/dd0/a08810.html#aeb505cb061a00ecaa2acc749e391f207", null ],
-    [ "Unk3", "d0/dd0/a08810.html#a1f1d8fa843c856b54ec1ca85b08d78e1", null ],
-    [ "Unk4", "d0/dd0/a08810.html#aa8089160bb8e93ea79df96b956050b70", null ]
+    [ "IsFitToRequirements", "d0/dd0/a08810.html#ac175634ed2eab2911c3749fa208a073a", null ],
+    [ "castFlags", "d0/dd0/a08810.html#a03cd65a460ea252818de9230cb656c1c", null ],
+    [ "spellId", "d0/dd0/a08810.html#a34641755a5267b7a907d320cc5b4ddb4", null ],
+    [ "userType", "d0/dd0/a08810.html#adcf285572403481cb418bddebc5f4bfa", null ]
 ];

@@ -1,7 +1,6 @@
 var a15494 =
 [
-    [ "HandleScript", "d4/dfd/a15494.html#ae9939f2795b8ba428277c7d658af715c", null ],
-    [ "PrepareSpellScript", "d4/dfd/a15494.html#aabe244008103ff317e3fc1e26b04115a", null ],
-    [ "Register", "d4/dfd/a15494.html#a4f492bdd96ef190354f37c95217bb696", null ],
-    [ "Validate", "d4/dfd/a15494.html#a4a3a5e83b66d0ae3f6f95bcead932f55", null ]
+    [ "HandleApply", "d4/dfd/a15494.html#aee4d5908035d06be2f1469a50db02e26", null ],
+    [ "PrepareAuraScript", "d4/dfd/a15494.html#ac8349deb2e9c8861194e80132bd72fc5", null ],
+    [ "Register", "d4/dfd/a15494.html#ac83962bef84b68cef6d7937769730598", null ]
 ];

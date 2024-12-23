@@ -1,6 +1,7 @@
 var a21338 =
 [
-    [ "npc_dalaran_warriorAI", "d5/d6f/a21342.html", "d5/d6f/a21342" ],
-    [ "npc_dalaran_warrior", "de/d15/a21338.html#a13d44b85173232ddedcc35184d50549c", null ],
-    [ "GetAI", "de/d15/a21338.html#a1e84676d2a76bac728a1f23f5f9fc25e", null ]
+    [ "npc_warmage_violetstand", "de/d15/a21338.html#a1f67c9521cc3bd63886a8936b28e6622", null ],
+    [ "Reset", "de/d15/a21338.html#a99015610597f43f184cc686c9fab2fa9", null ],
+    [ "UpdateAI", "de/d15/a21338.html#aa0eac837ab697c3e0cd5ab753f0bd0b4", null ],
+    [ "targetGUID", "de/d15/a21338.html#a46560aa7aa90778967a79c931a81721b", null ]
 ];

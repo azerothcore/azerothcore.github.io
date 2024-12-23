@@ -1,6 +1,6 @@
 var a21526 =
 [
-    [ "npc_mrfloppyAI", "de/dd5/a21530.html", "de/dd5/a21530" ],
-    [ "npc_mrfloppy", "d6/dce/a21526.html#a0515ca75aba9b7f6f5577b53e7520f6e", null ],
-    [ "GetAI", "d6/dce/a21526.html#a88590566309f3fc155eb6dc26055a161", null ]
+    [ "npc_q24545_vegard_dummyAI", "d6/dce/a21526.html#ad354ccbe97b12f8df1186de4bf52bfcc", null ],
+    [ "UpdateAI", "d6/dce/a21526.html#aa31baac9ce3c4c951f93917b88390797", null ],
+    [ "done", "d6/dce/a21526.html#a0208fbae8e6c46d0671107530279c50c", null ]
 ];

@@ -1,12 +1,7 @@
 var a19678 =
 [
-    [ "boss_freya_elder_stonebarkAI", "da/dcc/a19678.html#a492329e296aaf29861d76e12e2b94631", null ],
-    [ "DamageTaken", "da/dcc/a19678.html#af25c675f46f5ca0d0da170f367cc8bdc", null ],
-    [ "JustDied", "da/dcc/a19678.html#a8dcdf4a1c8df10fc8ca419de924fe136", null ],
-    [ "JustEngagedWith", "da/dcc/a19678.html#a77a231b75bbbbb56638e1e5535827150", null ],
-    [ "KilledUnit", "da/dcc/a19678.html#ad1ce26306c2ea2102183b0679d46efd3", null ],
-    [ "Reset", "da/dcc/a19678.html#a0d17571be8905c4c33ed4591e963d680", null ],
-    [ "UpdateAI", "da/dcc/a19678.html#acd21050c265f6703060f95f2e3c725f3", null ],
-    [ "_chargesCount", "da/dcc/a19678.html#a294714a547bbc7a7364c7477bdc0422c", null ],
-    [ "events", "da/dcc/a19678.html#a07bcbf839c3b0b3924ec1915b47af0f2", null ]
+    [ "HandleScript", "da/dcc/a19678.html#a9580f04e1543262026818f0944bb96c3", null ],
+    [ "PrepareSpellScript", "da/dcc/a19678.html#a924ae640d448da777ce3ecb059c1c9b6", null ],
+    [ "Register", "da/dcc/a19678.html#ac05e58e9b5618b1f079bd1c4924a0f9f", null ],
+    [ "Validate", "da/dcc/a19678.html#a8fc8712a76939dea6831a9eb5b95f946", null ]
 ];

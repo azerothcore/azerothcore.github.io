@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AIRegistry Namespace Reference</title>
+<title>AzerothCore: AddonMgr::anonymous_namespace{AddonMgr.cpp} Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,65 +105,65 @@ $(document).ready(function(){initNavTree('d6/d5a/a04720.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
-  <div class="headertitle"><div class="title">AIRegistry Namespace Reference</div></div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
+  <div class="headertitle"><div class="title">AddonMgr::anonymous_namespace{AddonMgr.cpp} Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a9ddfbc9345acf19d3b4bcb7ce7804c94"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04720.html#a9ddfbc9345acf19d3b4bcb7ce7804c94">Initialize</a> ()</td></tr>
-<tr class="separator:a9ddfbc9345acf19d3b4bcb7ce7804c94"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="typedef-members" name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:afa468163a23ed58507a89e5724c06eac"><td class="memItemLeft" align="right" valign="top">typedef std::list&lt; <a class="el" href="../../d9/d69/a05958.html">SavedAddon</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04720.html#afa468163a23ed58507a89e5724c06eac">SavedAddonsList</a></td></tr>
+<tr class="separator:afa468163a23ed58507a89e5724c06eac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a6cd3e278f71724491a7a3b8167eab60e"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d6/d5a/a04720.html#afa468163a23ed58507a89e5724c06eac">SavedAddonsList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04720.html#a6cd3e278f71724491a7a3b8167eab60e">m_knownAddons</a></td></tr>
+<tr class="separator:a6cd3e278f71724491a7a3b8167eab60e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a83195dfb437a3f713fa0ccd6c24477ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d5/d64/a04719.html#a2ea3deb6be3c64b7b58ed27ccf60c779">BannedAddonList</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d6/d5a/a04720.html#a83195dfb437a3f713fa0ccd6c24477ed">m_bannedAddons</a></td></tr>
+<tr class="separator:a83195dfb437a3f713fa0ccd6c24477ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a9ddfbc9345acf19d3b4bcb7ce7804c94" name="a9ddfbc9345acf19d3b4bcb7ce7804c94"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9ddfbc9345acf19d3b4bcb7ce7804c94">&#9670;&#160;</a></span>Initialize()</h2>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="afa468163a23ed58507a89e5724c06eac" name="afa468163a23ed58507a89e5724c06eac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afa468163a23ed58507a89e5724c06eac">&#9670;&#160;</a></span>SavedAddonsList</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void AIRegistry::Initialize </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td class="memname">typedef std::list&lt;<a class="el" href="../../d9/d69/a05958.html">SavedAddon</a>&gt; AddonMgr::anonymous_namespace{AddonMgr.cpp}::SavedAddonsList</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   35</span>    {</div>
-<div class="line"><span class="lineno">   36</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;NullCreatureAI&gt;</a>(<span class="stringliteral">&quot;NullCreatureAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   37</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TriggerAI&gt;</a>(<span class="stringliteral">&quot;TriggerAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   38</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;AggressorAI&gt;</a>(<span class="stringliteral">&quot;AggressorAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   39</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;ReactorAI&gt;</a>(<span class="stringliteral">&quot;ReactorAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   40</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;PassiveAI&gt;</a>(<span class="stringliteral">&quot;PassiveAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   41</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;CritterAI&gt;</a>(<span class="stringliteral">&quot;CritterAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   42</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;GuardAI&gt;</a>(<span class="stringliteral">&quot;GuardAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   43</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;PetAI&gt;</a>(<span class="stringliteral">&quot;PetAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   44</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TotemAI&gt;</a>(<span class="stringliteral">&quot;TotemAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   45</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;CombatAI&gt;</a>(<span class="stringliteral">&quot;CombatAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   46</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;ArcherAI&gt;</a>(<span class="stringliteral">&quot;ArcherAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   47</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;TurretAI&gt;</a>(<span class="stringliteral">&quot;TurretAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   48</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;VehicleAI&gt;</a>(<span class="stringliteral">&quot;VehicleAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   49</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d6/d02/a06082.html">CreatureAIFactory&lt;SmartAI&gt;</a>(<span class="stringliteral">&quot;SmartAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   50</span> </div>
-<div class="line"><span class="lineno">   51</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;NullGameObjectAI&gt;</a>(<span class="stringliteral">&quot;NullGameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   52</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;GameObjectAI&gt;</a>(<span class="stringliteral">&quot;GameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   53</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d7/d79/a06098.html">GameObjectAIFactory&lt;SmartGameObjectAI&gt;</a>(<span class="stringliteral">&quot;SmartGameObjectAI&quot;</span>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   54</span> </div>
-<div class="line"><span class="lineno">   55</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../d3/d01/a09690.html">IdleMovementFactory</a>())-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   56</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../dc/d7c/a09686.html">MovementGeneratorFactory&lt;RandomMovementGenerator&lt;Creature&gt;</a>&gt;(<a class="code hl_enumvalue" href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2">RANDOM_MOTION_TYPE</a>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   57</span>        (<span class="keyword">new</span> <a class="code hl_struct" href="../../dc/d7c/a09686.html">MovementGeneratorFactory&lt;WaypointMovementGenerator&lt;Creature&gt;</a>&gt;(<a class="code hl_enumvalue" href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9">WAYPOINT_MOTION_TYPE</a>))-&gt;RegisterSelf();</div>
-<div class="line"><span class="lineno">   58</span>    }</div>
-<div class="ttc" id="aa03890_html_a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9"><div class="ttname"><a href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9a6158029efb794f0a586a62f35cef5ae9">WAYPOINT_MOTION_TYPE</a></div><div class="ttdeci">@ WAYPOINT_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:41</div></div>
-<div class="ttc" id="aa03890_html_a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2"><div class="ttname"><a href="../../d2/df3/a03890.html#a4f12806b915efea564eae942207002f9aec7cad6c9576df1fca0eb4fa073e5ff2">RANDOM_MOTION_TYPE</a></div><div class="ttdeci">@ RANDOM_MOTION_TYPE</div><div class="ttdef"><b>Definition:</b> MotionMaster.h:40</div></div>
-<div class="ttc" id="aa06082_html"><div class="ttname"><a href="../../d6/d02/a06082.html">CreatureAIFactory</a></div><div class="ttdef"><b>Definition:</b> CreatureAIFactory.h:33</div></div>
-<div class="ttc" id="aa06098_html"><div class="ttname"><a href="../../d7/d79/a06098.html">GameObjectAIFactory</a></div><div class="ttdef"><b>Definition:</b> GameObjectAIFactory.h:33</div></div>
-<div class="ttc" id="aa09686_html"><div class="ttname"><a href="../../dc/d7c/a09686.html">MovementGeneratorFactory</a></div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:87</div></div>
-<div class="ttc" id="aa09690_html"><div class="ttname"><a href="../../d3/d01/a09690.html">IdleMovementFactory</a></div><div class="ttdef"><b>Definition:</b> MovementGenerator.h:97</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00040">RANDOM_MOTION_TYPE</a>, and <a class="el" href="../../#l00041">WAYPOINT_MOTION_TYPE</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l01500">World::SetInitialWorldSettings()</a>.</p>
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="a83195dfb437a3f713fa0ccd6c24477ed" name="a83195dfb437a3f713fa0ccd6c24477ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a83195dfb437a3f713fa0ccd6c24477ed">&#9670;&#160;</a></span>m_bannedAddons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d5/d64/a04719.html#a2ea3deb6be3c64b7b58ed27ccf60c779">BannedAddonList</a> AddonMgr::anonymous_namespace{AddonMgr.cpp}::m_bannedAddons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cd3e278f71724491a7a3b8167eab60e" name="a6cd3e278f71724491a7a3b8167eab60e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cd3e278f71724491a7a3b8167eab60e">&#9670;&#160;</a></span>m_knownAddons</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d6/d5a/a04720.html#afa468163a23ed58507a89e5724c06eac">SavedAddonsList</a> AddonMgr::anonymous_namespace{AddonMgr.cpp}::m_knownAddons</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -172,8 +172,8 @@ Functions</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d6/d5a/a04720.html">AIRegistry</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d5/d64/a04719.html">AddonMgr</a></li><li class="navelem"><a class="el" href="../../d6/d5a/a04720.html">anonymous_namespace{AddonMgr.cpp}</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

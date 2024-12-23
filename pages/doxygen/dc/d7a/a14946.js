@@ -1,6 +1,7 @@
 var a14946 =
 [
-    [ "npc_draenei_survivorAI", "d1/db8/a14950.html", "d1/db8/a14950" ],
-    [ "npc_draenei_survivor", "dc/d7a/a14946.html#a1dca668a7c3f868677a9bf306288430c", null ],
-    [ "GetAI", "dc/d7a/a14946.html#aa8dde30279bb898a4412491faca79267", null ]
+    [ "npc_anubisath_warder", "dc/d7a/a14946.html#aebe14673e5c31000a9626e39d87c6775", null ],
+    [ "JustEngagedWith", "dc/d7a/a14946.html#a579318fa519eb669573b2cea78c2fee3", null ],
+    [ "Reset", "dc/d7a/a14946.html#aea0fac8f1eb28591b141ace55c49beeb", null ],
+    [ "UpdateAI", "dc/d7a/a14946.html#aba428f1f1a016191aa4f168c616c3a29", null ]
 ];

@@ -1,8 +1,7 @@
 var a25086 =
 [
-    [ "HandleFinish", "df/d7b/a25086.html#aac1981a16cbb61bfaf20c865bcfaf6a8", null ],
-    [ "PrepareSpellScript", "df/d7b/a25086.html#a73865997890d4f58cc09d54c2c4e5243", null ],
-    [ "Register", "df/d7b/a25086.html#a106cf5d53956b66f8f548caceda41dc8", null ],
-    [ "SelectTarget", "df/d7b/a25086.html#ab33513df20e942ba354932df5082efa8", null ],
-    [ "_target", "df/d7b/a25086.html#af25d11fc93423ee6e1678ebb5dcf1276", null ]
+    [ "HandleScriptEffect", "df/d7b/a25086.html#ae3c2900d98c2fd51ff0888ea5d1072c4", null ],
+    [ "PrepareSpellScript", "df/d7b/a25086.html#a29ac1789b8023ef3339a7b40ee9c31ab", null ],
+    [ "Register", "df/d7b/a25086.html#a321098d2325bfb9cea674d1137348350", null ],
+    [ "Validate", "df/d7b/a25086.html#aa16a67bf42f51b838d22dcbe4b5b6f7b", null ]
 ];

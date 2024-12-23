@@ -1,7 +1,10 @@
 var a11450 =
 [
-    [ "player_commandscript", "d5/df9/a11450.html#a1565aa67743cfd3e5fe5179b4100bd20", null ],
-    [ "GetCommands", "d5/df9/a11450.html#a0e1e8eec0fe449c95c5cf9dd06a0fced", null ],
-    [ "HandlePlayerLearnCommand", "d5/df9/a11450.html#a6ca511bcecf73049665772cb80dbcf40", null ],
-    [ "HandlePlayerUnLearnCommand", "d5/df9/a11450.html#a22fddb5da1278fe794a78a899c423bfd", null ]
+    [ "item_commandscript", "d5/df9/a11450.html#a22f9cb46f2c3701fc5c9136c87c09435", null ],
+    [ "GetCommands", "d5/df9/a11450.html#aab60aa980ef0f86938cfcb51e7ee20a8", null ],
+    [ "HandleItemMoveCommand", "d5/df9/a11450.html#a6adae7cb08c0e69ac0a20c107f818a57", null ],
+    [ "HandleItemRefundCommand", "d5/df9/a11450.html#af914e33be05148062abd89c754d939c9", null ],
+    [ "HandleItemRestoreCommand", "d5/df9/a11450.html#a84c67a46c513c1aac2b9d2563d693929", null ],
+    [ "HandleItemRestoreListCommand", "d5/df9/a11450.html#a40181310f4187a71a6f5f5f600a8f468", null ],
+    [ "HasItemDeletionConfig", "d5/df9/a11450.html#a28d0b4083bf3352f80b6210f9ac00692", null ]
 ];

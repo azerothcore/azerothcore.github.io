@@ -1,7 +1,8 @@
 var a16570 =
 [
-    [ "npc_hor_leader_secondAI", "de/dc6/a16574.html", "de/dc6/a16574" ],
-    [ "npc_hor_leader_second", "d7/dab/a16570.html#a9fa1f38ab8a0b5d2207857b75e272ee0", null ],
-    [ "GetAI", "d7/dab/a16570.html#af5b97ecca35501a75658919d384a18f7", null ],
-    [ "OnGossipSelect", "d7/dab/a16570.html#a8355f7f2f8e7655c7ebc7145a847ab87", null ]
+    [ "npc_phantom_hallucinationAI", "d7/dab/a16570.html#a7b27d1c859d77220dc1c3c8323e9eef9", null ],
+    [ "EnterEvadeMode", "d7/dab/a16570.html#a7ef7411ea780466d7c4dd185d9444aba", null ],
+    [ "JustDied", "d7/dab/a16570.html#a5a4f05c5930a7e5bd31df2e3131f4cec", null ],
+    [ "UpdateAI", "d7/dab/a16570.html#ad874a741c641dbac6380aa682d582d7c", null ],
+    [ "numOfUpd", "d7/dab/a16570.html#adb78f5dcd272e8223f895079885a5461", null ]
 ];

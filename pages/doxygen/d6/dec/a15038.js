@@ -1,7 +1,6 @@
 var a15038 =
 [
-    [ "npc_tharnarianAI", "db/dbf/a15042.html", "db/dbf/a15042" ],
-    [ "npc_tharnarian", "d6/dec/a15038.html#a39d9d9842a7a42c5381e38d10285aa15", null ],
-    [ "GetAI", "d6/dec/a15038.html#aaff8dad5d2bdb1571ed2e7a14c64899f", null ],
-    [ "OnQuestReward", "d6/dec/a15038.html#aedf88edfd99292a68b8e08f9f05d8f00", null ]
+    [ "npc_stillpine_capitiveAI", "db/dbf/a15042.html", "db/dbf/a15042" ],
+    [ "npc_stillpine_capitive", "d6/dec/a15038.html#a6c9ce06ffe8cafaea2f428ba610d6964", null ],
+    [ "GetAI", "d6/dec/a15038.html#ad1d81ae43d3c417b8817da61afef4e4b", null ]
 ];

@@ -1,7 +1,7 @@
 var a08290 =
 [
-    [ "IsInSpec", "da/da7/a08290.html#a17668f5b6ea479c9e6c0fd2593853a1d", null ],
-    [ "Active", "da/da7/a08290.html#a7ddfb4a1cbd77fe84e49b42b9a28bb90", null ],
-    [ "specMask", "da/da7/a08290.html#af178fb95c99f0c961bf12435fc7a3fd5", null ],
-    [ "State", "da/da7/a08290.html#a54331e3ecac0d39a4fc7a6b8c2c9f532", null ]
+    [ "UsedPos", "da/da7/a08290.html#aef230e392619ad4abc2da649d11b2394", null ],
+    [ "dist", "da/da7/a08290.html#ae73cbe8b0cf3ce714f6654df3a8874de", null ],
+    [ "sign", "da/da7/a08290.html#a2b5f97425309d56482a1f287b6d5be69", null ],
+    [ "size", "da/da7/a08290.html#a4ad5a2df36ae9c1cd9130c5efd27af58", null ]
 ];

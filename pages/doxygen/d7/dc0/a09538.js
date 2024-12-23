@@ -1,6 +1,8 @@
 var a09538 =
 [
-    [ "AllowMount", "d7/dc0/a09538.html#a611108f0c1f623bb0761a174e477df22", null ],
-    [ "Parent", "d7/dc0/a09538.html#a6298c3dd0c8939b1cf228727c363918e", null ],
-    [ "ScriptId", "d7/dc0/a09538.html#ac9cdaf7fc486bc89b5c5d95ac13146da", null ]
+    [ "EllipseBoundary", "d7/dc0/a09538.html#aeb8c822a8c4c745de0c848721a624545", null ],
+    [ "IsWithinBoundaryArea", "d7/dc0/a09538.html#a203ccf7ca23f1d66f834bdadb8b18b31", null ],
+    [ "_center", "d7/dc0/a09538.html#aa84bae8bced77e38fec652e473cf39c7", null ],
+    [ "_radiusYSq", "d7/dc0/a09538.html#ae933c6b1e62967f98c95cfbd4822b818", null ],
+    [ "_scaleXSq", "d7/dc0/a09538.html#ad781cadd6c09e482d3a93ad71440a4c2", null ]
 ];

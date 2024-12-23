@@ -1,6 +1,5 @@
 var a26718 =
 [
-    [ "AreaTrigger_at_brewfest", "d9/d25/a26718.html#ad7e2916aefc6efbfb9f747a75a4a14a3", null ],
-    [ "OnTrigger", "d9/d25/a26718.html#a17e4a8d671136466c7673789e4f69a84", null ],
-    [ "_triggerTimes", "d9/d25/a26718.html#ab763765427796ad17338bcc8d63cf891", null ]
+    [ "achievement_not_even_a_scratch", "d9/d25/a26718.html#a0d025c09d35c3640016ab42e11dd96eb", null ],
+    [ "OnCheck", "d9/d25/a26718.html#a81f6c9bd36e5a3eea3fe0af24c9f1649", null ]
 ];

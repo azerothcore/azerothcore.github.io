@@ -1,8 +1,5 @@
 var a20086 =
 [
-    [ "npc_ulduar_magnetic_coreAI", "df/dc8/a20086.html#a585437dff0c49ac1a6bf7929ab266ff5", null ],
-    [ "SetData", "df/dc8/a20086.html#a27c31856d2bfe3228ae3b0b361064d7a", null ],
-    [ "UpdateAI", "df/dc8/a20086.html#ab9113a021844aa7ea8ac46df9c50b205", null ],
-    [ "despawnTimer", "df/dc8/a20086.html#ad244ccbaeda814b9e56fad93f06f12fe", null ],
-    [ "pInstance", "df/dc8/a20086.html#a3e01c612a689d89bdbe3529c429a413d", null ]
+    [ "achievement_kologarn_with_open_arms", "df/dc8/a20086.html#a94af961be5bbdf7783925148731ce7e4", null ],
+    [ "OnCheck", "df/dc8/a20086.html#a03c1fb5f141a15f8f63e28700b98f9b5", null ]
 ];

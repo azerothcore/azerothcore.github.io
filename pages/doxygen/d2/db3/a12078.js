@@ -1,7 +1,6 @@
 var a12078 =
 [
-    [ "HandleAfterApply", "d2/db3/a12078.html#a8f55616f861cccf7126f7e1a7c88f3c1", null ],
-    [ "HandleAfterRemove", "d2/db3/a12078.html#a7970613f1668294f29f61c1f10a9ba37", null ],
-    [ "PrepareAuraScript", "d2/db3/a12078.html#aea2f52682e723f8dacfffa20cd0f41a5", null ],
-    [ "Register", "d2/db3/a12078.html#ae38b71adaff3b36f5d7b3007e84e620f", null ]
+    [ "boss_razorgoreAI", "dc/d30/a12082.html", "dc/d30/a12082" ],
+    [ "boss_razorgore", "d2/db3/a12078.html#aee534a04797c5938e6da00f2ab119943", null ],
+    [ "GetAI", "d2/db3/a12078.html#a4683a5deefdb9d3219638189e9a99c2a", null ]
 ];

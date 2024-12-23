@@ -1,6 +1,6 @@
 var a12190 =
 [
-    [ "boss_shazzrahAI", "d9/d3d/a12194.html", "d9/d3d/a12194" ],
-    [ "boss_shazzrah", "d3/df8/a12190.html#a99a162d6eac5c9046a27f53ec05af7e4", null ],
-    [ "GetAI", "d3/df8/a12190.html#a8135f6ab246dbce4c2ebebe0e7f137d5", null ]
+    [ "boss_lucifronAI", "d3/df8/a12190.html#ab93792bd7798b9ee9cf869fa20190554", null ],
+    [ "ExecuteEvent", "d3/df8/a12190.html#a0ba286f037c07032488d6763daeaf130", null ],
+    [ "JustEngagedWith", "d3/df8/a12190.html#aba3256ec99e56e3051045391fceedc7f", null ]
 ];

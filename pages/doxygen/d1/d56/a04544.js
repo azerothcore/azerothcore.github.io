@@ -1,6 +1,6 @@
 var a04544 =
 [
-    [ "WorldDatabaseConnection", "de/df7/a05638.html", "de/df7/a05638" ],
+    [ "WorldDatabaseConnection", "d7/d1a/a05634.html", "d7/d1a/a05634" ],
     [ "WorldDatabaseStatements", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32", [
       [ "WORLD_SEL_QUEST_POOLS", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a3118e05fb78f0cbb8246213722964db3", null ],
       [ "WORLD_DEL_CRELINKED_RESPAWN", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32aeadd642135eb3d6d44554c8536ce54b2", null ],
@@ -66,6 +66,7 @@ var a04544 =
       [ "WORLD_INS_CREATURE", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32af16b6229d5c45d966ea14ec34d9ec32f", null ],
       [ "WORLD_DEL_GAME_EVENT_CREATURE", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32aae9eeefe6d0a0ccea0196ca1c8501869", null ],
       [ "WORLD_DEL_GAME_EVENT_MODEL_EQUIP", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a2a26e44cd436a324652ef57a204f7fa7", null ],
+      [ "WORLD_SEL_GAME_EVENT_NPC_VENDOR", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32a407c46bd315d756424f11282a91638de", null ],
       [ "WORLD_INS_GAMEOBJECT", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ab6587a27577a86066682b3f594cbc94e", null ],
       [ "WORLD_SEL_DISABLES", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ae046a5b00bf6fe5e4bcbfeca14b09b3d", null ],
       [ "WORLD_INS_DISABLES", "d1/d56/a04544.html#a736c0fca3c789518de967ddf4d44fc32ac19c77fb22d0e5c47d4de22babfbd986", null ],

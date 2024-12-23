@@ -1,6 +1,7 @@
 var a26106 =
 [
-    [ "PrepareSpellScript", "de/dda/a26106.html#a882d87de64d0e2c64b17c26d9e40d616", null ],
-    [ "Register", "de/dda/a26106.html#ab58938808e460e843e42f2b6fa644e8a", null ],
-    [ "SetDest", "de/dda/a26106.html#ab87932c73a2e53647bda584aeb58f789", null ]
+    [ "HandleDummy", "de/dda/a26106.html#a1abe1e04be6b6c410e0ff273d8aa15c9", null ],
+    [ "Load", "de/dda/a26106.html#a249e9c3c74bcc20ea2c0d5ce63fbd88c", null ],
+    [ "PrepareSpellScript", "de/dda/a26106.html#aeffcc8db6125a35227545911fa03a850", null ],
+    [ "Register", "de/dda/a26106.html#a1de981482ebb05b8507b308dba7a426b", null ]
 ];

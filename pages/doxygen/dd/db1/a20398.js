@@ -1,6 +1,6 @@
 var a20398 =
 [
-    [ "HandleScript", "dd/db1/a20398.html#a8ebd18095bd826d4bf843961e4e8dc81", null ],
-    [ "PrepareSpellScript", "dd/db1/a20398.html#a4fd05478a145157dbd8377532033ab95", null ],
-    [ "Register", "dd/db1/a20398.html#a9b30f89493d5b8c8d1097dde5d017a93", null ]
+    [ "npc_xt002_heartAI", "d6/d33/a20402.html", "d6/d33/a20402" ],
+    [ "npc_xt002_heart", "dd/db1/a20398.html#ab914ce1e945080b873cf6f93e3a6a32c", null ],
+    [ "GetAI", "dd/db1/a20398.html#af59c6623b97d1adff765e8ba4958d482", null ]
 ];

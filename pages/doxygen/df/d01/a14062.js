@@ -1,7 +1,7 @@
 var a14062 =
 [
-    [ "npc_love_in_air_supply_sentry", "df/d01/a14062.html#ab2742c3be0ed661a509b9eb32326bee5", null ],
-    [ "MoveInLineOfSight", "df/d01/a14062.html#a9df110324c74277e07183c7db231bbda", null ],
-    [ "UpdateAI", "df/d01/a14062.html#aaa658222954f96d45b75daf83555f6f8", null ],
-    [ "lock", "df/d01/a14062.html#a59bf67b114014542538165c21aa109a6", null ]
+    [ "HandleEffectApply", "df/d01/a14062.html#a22f3143b10155635194abe22994a397c", null ],
+    [ "HandleEffectRemove", "df/d01/a14062.html#a2ecc50fa3c14918b6eace63eac75eb96", null ],
+    [ "PrepareAuraScript", "df/d01/a14062.html#abb4f53a42e701323b2fc66598ec3503c", null ],
+    [ "Register", "df/d01/a14062.html#ad1ff6d29459d9a38fcdef3f6c7007f6b", null ]
 ];

@@ -1,6 +1,6 @@
 var a15182 =
 [
-    [ "SpellId", "db/d45/a15182.html#a2c430be201c1fd866ee96224f1803a20", null ],
-    [ "Timer1", "db/d45/a15182.html#a9a35c148286e88f48b174be8b74fc5d0", null ],
-    [ "Timer2", "db/d45/a15182.html#a108dee679b1f5d9fb8351f7b4b4f3a56", null ]
+    [ "npc_great_bear_spirit", "db/d45/a15182.html#a141470a3623aa1152d3505661f1532c8", null ],
+    [ "OnGossipHello", "db/d45/a15182.html#a2307b8d56fc117d918adc9814fa86f8f", null ],
+    [ "OnGossipSelect", "db/d45/a15182.html#aae026f4cf8b0de61d36a841dcfdbd92e", null ]
 ];

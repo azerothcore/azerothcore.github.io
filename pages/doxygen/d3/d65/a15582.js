@@ -1,6 +1,6 @@
 var a15582 =
 [
-    [ "HandleScriptEffect", "d3/d65/a15582.html#aaa650972803d14e4d74be977430b04f6", null ],
-    [ "PrepareSpellScript", "d3/d65/a15582.html#a1e166c53e2051f3fae1b085a76a08c3f", null ],
-    [ "Register", "d3/d65/a15582.html#a3405c1b04f2e623662c7acaa6810278c", null ]
+    [ "HandleApplyAura", "d3/d65/a15582.html#aeddfd61eab5aa077ca07a924ec491285", null ],
+    [ "PrepareSpellScript", "d3/d65/a15582.html#ad53341842455d98722c03318dd80fb94", null ],
+    [ "Register", "d3/d65/a15582.html#a10cb03ba6175f48b0ccaf69ec90e8f50", null ]
 ];

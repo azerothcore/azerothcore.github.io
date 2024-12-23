@@ -1,5 +1,8 @@
 var a27718 =
 [
-    [ "Id", "de/dcb/a27718.html#a2c41c957524b31ad9f7fa361ec0e9d01", null ],
-    [ "textid", "de/dcb/a27718.html#a7e50690fa335b759dba5ac265c9a0dd0", null ]
+    [ "ID", "de/dcb/a27718.html#a36958c346c8554d9ab1cfb73ac583818", null ],
+    [ "Model", "de/dcb/a27718.html#a8877a066a16c8c246a2d5a24a3661e56", null ],
+    [ "Origin", "de/dcb/a27718.html#a684c69add50ee545ee606ae456a93336", null ],
+    [ "OriginFacing", "de/dcb/a27718.html#a460723250353c7720cd87677991283cf", null ],
+    [ "SoundID", "de/dcb/a27718.html#aa56be05c7ab4015738e049d75ff365c6", null ]
 ];

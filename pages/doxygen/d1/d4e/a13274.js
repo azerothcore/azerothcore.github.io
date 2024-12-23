@@ -1,6 +1,6 @@
 var a13274 =
 [
-    [ "OnEffect", "d1/d4e/a13274.html#a41903586310ec274dd10537ccb8655f3", null ],
-    [ "PrepareSpellScript", "d1/d4e/a13274.html#a17240b9d80e5f30cd4638e2ec5b92d0b", null ],
-    [ "Register", "d1/d4e/a13274.html#a64ef9effcdeaf13b58aeef889d777f22", null ]
+    [ "npc_augustus_the_touched", "d1/d4e/a13274.html#abc84c884345f44cf780410569cdee10c", null ],
+    [ "OnGossipHello", "d1/d4e/a13274.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
+    [ "OnGossipSelect", "d1/d4e/a13274.html#a992da9b22693c1fac1148b4ba545b819", null ]
 ];

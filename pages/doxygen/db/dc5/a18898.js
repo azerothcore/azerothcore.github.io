@@ -1,12 +1,6 @@
 var a18898 =
 [
-    [ "npc_hover_diskAI", "db/dc5/a18898.html#a1ee618b8e6393437f0e4193fc57725f3", null ],
-    [ "AttackStart", "db/dc5/a18898.html#aec7920845132af74ecf83bbbcf221f06", null ],
-    [ "DoAction", "db/dc5/a18898.html#a802681ba91854eec0a5d9ac1c2df761c", null ],
-    [ "MoveInLineOfSight", "db/dc5/a18898.html#a770bbfc63a3aef7801b6ba9a542c459c", null ],
-    [ "MovementInform", "db/dc5/a18898.html#a97c5039553d267fc3d955cb6e5eafb47", null ],
-    [ "PassengerBoarded", "db/dc5/a18898.html#a130a40916bb42945531b02d2f3385ece", null ],
-    [ "UpdateAI", "db/dc5/a18898.html#a5213e9b9a750e53b83621cd981741773", null ],
-    [ "events", "db/dc5/a18898.html#adeed5599c5416f3a5d171f70b53d0023", null ],
-    [ "pInstance", "db/dc5/a18898.html#a5141cd8297bf3dc67ce9195867a4152c", null ]
+    [ "boss_naxxramas_miscAI", "d3/d13/a18902.html", "d3/d13/a18902" ],
+    [ "boss_naxxramas_misc", "db/dc5/a18898.html#a9cbca6381ba430739918064d5556b8fb", null ],
+    [ "GetAI", "db/dc5/a18898.html#a2972b551be161560b6df00e2105f2ce4", null ]
 ];

@@ -1,13 +1,11 @@
 var a08554 =
 [
-    [ "BuildValuesCachePosPointers", "de/da8/a08554.html#ae84124e042e8ba50d755ccef3c02fdd8", null ],
-    [ "ApplyOffset", "de/da8/a08554.html#a31a13ea07b3eb9e3d045996e8a6074b2", null ],
-    [ "other", "de/da8/a08554.html#ad56ddc5f2d7ea4937b49a61d80b8b138", null ],
-    [ "UnitDynamicFlagsPos", "de/da8/a08554.html#a230385a8646ebce01faaadce648b1a61", null ],
-    [ "UnitFieldAuraStatePos", "de/da8/a08554.html#a69592cf42c5f6663c8ada3468fcbe658", null ],
-    [ "UnitFieldBytes2Pos", "de/da8/a08554.html#aa1df8492f0a3c576b067469ee3552796", null ],
-    [ "UnitFieldDisplayPos", "de/da8/a08554.html#a1058d1650d656498f7dcd5139363a315", null ],
-    [ "UnitFieldFactionTemplatePos", "de/da8/a08554.html#a9b8eae9da685231956dca3e92b845cbb", null ],
-    [ "UnitFieldFlagsPos", "de/da8/a08554.html#a04e607123d1d1dde24611b573d25fedb", null ],
-    [ "UnitNPCFlagsPos", "de/da8/a08554.html#aa9412413e1a867d1f3857d18f4d52906", null ]
+    [ "DispelInfo", "de/da8/a08554.html#ab6e88e6fc168d22a8b31754a9b1bf2e5", null ],
+    [ "GetDispeller", "de/da8/a08554.html#a1c6f02de66ffa847c09d19922b02bc20", null ],
+    [ "GetDispellerSpellId", "de/da8/a08554.html#a0d09f205ff9374fddc694a66ccf0c31d", null ],
+    [ "GetRemovedCharges", "de/da8/a08554.html#a9c0bd34ebe7d0a0839b7bdee31ef3f3d", null ],
+    [ "SetRemovedCharges", "de/da8/a08554.html#a3c249e2b70b9f4d8bb3bd9fed07a1bd7", null ],
+    [ "_chargesRemoved", "de/da8/a08554.html#a5b6105f37470acb57bbda3e14ee664be", null ],
+    [ "_dispellerSpell", "de/da8/a08554.html#a484e6d516c5de30413e97f2c4abb5515", null ],
+    [ "_dispellerUnit", "de/da8/a08554.html#ab14d6e0df8bbb89ef0d3550724209040", null ]
 ];

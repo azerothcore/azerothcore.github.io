@@ -1,6 +1,5 @@
 var a19502 =
 [
-    [ "boss_flame_leviathan_defense_turretAI", "d3/dca/a19506.html", "d3/dca/a19506" ],
-    [ "boss_flame_leviathan_defense_turret", "d4/df9/a19502.html#a939c66ff6c1eb6dfdb3d93b3d0292e40", null ],
-    [ "GetAI", "d4/df9/a19502.html#a1c3726e2b753cda18bd11d8f4ff154db", null ]
+    [ "achievement_cant_do_that_while_stunned", "d4/df9/a19502.html#a4d474b36f61631688ea723d2e4033574", null ],
+    [ "OnCheck", "d4/df9/a19502.html#a0b108bdcab0bc412975e61247f226bf8", null ]
 ];

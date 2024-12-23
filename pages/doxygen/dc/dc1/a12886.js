@@ -1,11 +1,7 @@
 var a12886 =
 [
-    [ "boss_baroness_anastariAI", "dc/dc1/a12886.html#acf180bbe881ba1f6e49c075254759c00", null ],
-    [ "JustDied", "dc/dc1/a12886.html#a1a7bf1e6c39b0b61e95390e7ee1c5e6b", null ],
-    [ "JustEngagedWith", "dc/dc1/a12886.html#a7329455d99045e7002abffe09112a4ea", null ],
-    [ "Reset", "dc/dc1/a12886.html#a80c99c59486d2a7850a3a54ffebe998b", null ],
-    [ "SchedulePossession", "dc/dc1/a12886.html#afbf2d4e9c3e8e50815c398b97afb3970", null ],
-    [ "UpdateAI", "dc/dc1/a12886.html#a962e4e3091d126682825c326af5f6922", null ],
-    [ "_possessedTargetGuid", "dc/dc1/a12886.html#a36e386b847c7032b5ce95a01070518ad", null ],
-    [ "_scheduler", "dc/dc1/a12886.html#aa59518627a5e64e371dbbb45cfced75f", null ]
+    [ "npc_apothecary_genericAI", "dc/dc1/a12886.html#afb2b04b51e28d0795e7781effa68dffd", null ],
+    [ "DoAction", "dc/dc1/a12886.html#a59074beefbd3d80104b64f8ecc2ef8e0", null ],
+    [ "MovementInform", "dc/dc1/a12886.html#a63530bd7c3ebcd66521a268e11bf2f93", null ],
+    [ "_movePos", "dc/dc1/a12886.html#a53d10ab64df212b043cc21e054f6528c", null ]
 ];

@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: AuthHelper Namespace Reference</title>
+<title>AzerothCore: Acore::Time Namespace Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -105,126 +105,735 @@ $(document).ready(function(){initNavTree('d4/d03/a04711.html','../../'); initRes
 
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a> &#124;
-<a href="#var-members">Variables</a>  </div>
-  <div class="headertitle"><div class="title">AuthHelper Namespace Reference</div></div>
+<a href="#func-members">Functions</a>  </div>
+  <div class="headertitle"><div class="title">Acore::Time Namespace Reference</div></div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a96896fc9dad2c304f681a24776f6726b"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a96896fc9dad2c304f681a24776f6726b">IsPreBCAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
-<tr class="separator:a96896fc9dad2c304f681a24776f6726b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4f22daf9d88367d90d92416f470a28c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ad4f22daf9d88367d90d92416f470a28c">IsPostBCAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
-<tr class="separator:ad4f22daf9d88367d90d92416f470a28c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50a906b5a3fdca3508aee0997881a717"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a50a906b5a3fdca3508aee0997881a717">IsAcceptedClientBuild</a> (<a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> build)</td></tr>
-<tr class="separator:a50a906b5a3fdca3508aee0997881a717"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="var-members" name="var-members"></a>
-Variables</h2></td></tr>
-<tr class="memitem:ac023f15b280fc65fdefefb77f2f7be7b"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ac023f15b280fc65fdefefb77f2f7be7b">MAX_PRE_BC_CLIENT_BUILD</a> = 6141</td></tr>
-<tr class="separator:ac023f15b280fc65fdefefb77f2f7be7b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14270e0cda30d83961a8754d470fe8c1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a14270e0cda30d83961a8754d470fe8c1"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a14270e0cda30d83961a8754d470fe8c1">TimeStringTo</a> (std::string_view timeString)</td></tr>
+<tr class="separator:a14270e0cda30d83961a8754d470fe8c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5922471809ac8688a8146982524ce0fc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a5922471809ac8688a8146982524ce0fc"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a5922471809ac8688a8146982524ce0fc">ToTimeString</a> (<a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a> durationTime, <a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a> timeOutput=TimeOutput::Seconds, <a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a> timeFormat=TimeFormat::ShortText)</td></tr>
+<tr class="separator:a5922471809ac8688a8146982524ce0fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9e00ccf9512f0bcdd1289d7e876e9e6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af9e00ccf9512f0bcdd1289d7e876e9e6"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#af9e00ccf9512f0bcdd1289d7e876e9e6">ToTimeString</a> (std::string_view durationTime, <a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a> timeOutput=TimeOutput::Seconds, <a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a> timeFormat=TimeFormat::ShortText)</td></tr>
+<tr class="separator:af9e00ccf9512f0bcdd1289d7e876e9e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457da2bcb5a3b5158a4fee8cbf257e32"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a457da2bcb5a3b5158a4fee8cbf257e32">ToTimeString</a> (<a class="el" href="../../dc/d84/a00338.html#a201a83ed0d59d2baf946daf42dac834f">Microseconds</a> durationTime, <a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a> timeOutput=TimeOutput::Seconds, <a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a> timeFormat=TimeFormat::ShortText)</td></tr>
+<tr class="separator:a457da2bcb5a3b5158a4fee8cbf257e32"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb2429e5a8226c49ea8909ad21d2a36b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#abb2429e5a8226c49ea8909ad21d2a36b">LocalTimeToUTCTime</a> (time_t time)</td></tr>
+<tr class="separator:abb2429e5a8226c49ea8909ad21d2a36b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adcb393a66882383e4038b040ea9fa983"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#adcb393a66882383e4038b040ea9fa983">GetLocalHourTimestamp</a> (time_t time, <a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a> hour, bool onlyAfterTime=true)</td></tr>
+<tr class="separator:adcb393a66882383e4038b040ea9fa983"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6a946894ec0cb9fa9bf76afa8e7fec8"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::tm&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">TimeBreakdown</a> (time_t t=0)</td></tr>
+<tr class="separator:ab6a946894ec0cb9fa9bf76afa8e7fec8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9116e063a085b763f9c19ba37f9a44"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a0f9116e063a085b763f9c19ba37f9a44">TimeToTimestampStr</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s, std::string_view fmt={})</td></tr>
+<tr class="separator:a0f9116e063a085b763f9c19ba37f9a44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7a7a22a2c3d65e66ce24c63b7d5877c1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a7a7a22a2c3d65e66ce24c63b7d5877c1">TimeToHumanReadable</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s, std::string_view fmt={})</td></tr>
+<tr class="separator:a7a7a22a2c3d65e66ce24c63b7d5877c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe6fb6cf9a0829f40c9ba45356eec815"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#afe6fb6cf9a0829f40c9ba45356eec815">GetNextTimeWithDayAndHour</a> (<a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> dayOfWeek, <a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> hour)</td></tr>
+<tr class="separator:afe6fb6cf9a0829f40c9ba45356eec815"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af415b3b5ef693e8bd9a8b7f5088ab704"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> time_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#af415b3b5ef693e8bd9a8b7f5088ab704">GetNextTimeWithMonthAndHour</a> (<a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> month, <a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a> hour)</td></tr>
+<tr class="separator:af415b3b5ef693e8bd9a8b7f5088ab704"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4f3e7cea01806c4633123ba434dc604a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a4f3e7cea01806c4633123ba434dc604a">GetSeconds</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a4f3e7cea01806c4633123ba434dc604a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3ec1cee2adf92f517725493c71bb3291"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a3ec1cee2adf92f517725493c71bb3291">GetMinutes</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a3ec1cee2adf92f517725493c71bb3291"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a644d31badd91d21f970b5369c64a8f56"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a644d31badd91d21f970b5369c64a8f56">GetHours</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a644d31badd91d21f970b5369c64a8f56"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a878fcd6ea240276da886e917b2a187cb"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a878fcd6ea240276da886e917b2a187cb">GetDayInWeek</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a878fcd6ea240276da886e917b2a187cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab62428e79e66b0b1217643f702022113"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#ab62428e79e66b0b1217643f702022113">GetDayInMonth</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:ab62428e79e66b0b1217643f702022113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7af06cf6576e2fff65b7552227589549"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a7af06cf6576e2fff65b7552227589549">GetDayInYear</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a7af06cf6576e2fff65b7552227589549"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a046227c8517de892fe18e61451d37735"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a046227c8517de892fe18e61451d37735">GetMonth</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a046227c8517de892fe18e61451d37735"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b1e67f5fbe66e0e8dd4dd3b1e2c9933"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d4/d03/a04711.html#a2b1e67f5fbe66e0e8dd4dd3b1e2c9933">GetYear</a> (<a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a> time=0s)</td></tr>
+<tr class="separator:a2b1e67f5fbe66e0e8dd4dd3b1e2c9933"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a50a906b5a3fdca3508aee0997881a717" name="a50a906b5a3fdca3508aee0997881a717"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50a906b5a3fdca3508aee0997881a717">&#9670;&#160;</a></span>IsAcceptedClientBuild()</h2>
+<a id="ab62428e79e66b0b1217643f702022113" name="ab62428e79e66b0b1217643f702022113"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab62428e79e66b0b1217643f702022113">&#9670;&#160;</a></span>GetDayInMonth()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuthHelper::IsAcceptedClientBuild </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetDayInMonth </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>build</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   36</span>    {</div>
-<div class="line"><span class="lineno">   37</span>        <span class="keywordflow">return</span> <a class="code hl_define" href="../../d5/d95/a02720.html#a639c880efde6e31a4bf6be6b5bcc3cd3">sRealmList</a>-&gt;GetBuildInfo(build) != <span class="keyword">nullptr</span>;</div>
-<div class="line"><span class="lineno">   38</span>    }</div>
-<div class="ttc" id="aa02720_html_a639c880efde6e31a4bf6be6b5bcc3cd3"><div class="ttname"><a href="../../d5/d95/a02720.html#a639c880efde6e31a4bf6be6b5bcc3cd3">sRealmList</a></div><div class="ttdeci">#define sRealmList</div><div class="ttdef"><b>Definition:</b> RealmList.h:77</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  405</span>{</div>
+<div class="line"><span class="lineno">  406</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  407</span>    {</div>
+<div class="line"><span class="lineno">  408</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  409</span>    }</div>
+<div class="line"><span class="lineno">  410</span> </div>
+<div class="line"><span class="lineno">  411</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_mday;</div>
+<div class="line"><span class="lineno">  412</span>}</div>
+<div class="ttc" id="aa00311_html_ac26feb8a0cb9d57ffe71c1a86ae8108e"><div class="ttname"><a href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a></div><div class="ttdeci">Seconds GetEpochTime()</div><div class="ttdef"><b>Definition:</b> Timer.h:141</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00077">sRealmList</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00317">AuthSession::LogonChallengeCallback()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
 
 </div>
 </div>
-<a id="ad4f22daf9d88367d90d92416f470a28c" name="ad4f22daf9d88367d90d92416f470a28c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad4f22daf9d88367d90d92416f470a28c">&#9670;&#160;</a></span>IsPostBCAcceptedClientBuild()</h2>
+<a id="a878fcd6ea240276da886e917b2a187cb" name="a878fcd6ea240276da886e917b2a187cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a878fcd6ea240276da886e917b2a187cb">&#9670;&#160;</a></span>GetDayInWeek()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuthHelper::IsPostBCAcceptedClientBuild </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetDayInWeek </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>build</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   31</span>    {</div>
-<div class="line"><span class="lineno">   32</span>        <span class="keywordflow">return</span> build &gt; <a class="code hl_variable" href="../../d4/d03/a04711.html#ac023f15b280fc65fdefefb77f2f7be7b">MAX_PRE_BC_CLIENT_BUILD</a> &amp;&amp; <a class="code hl_define" href="../../d5/d95/a02720.html#a639c880efde6e31a4bf6be6b5bcc3cd3">sRealmList</a>-&gt;GetBuildInfo(build);</div>
-<div class="line"><span class="lineno">   33</span>    }</div>
-<div class="ttc" id="aa04711_html_ac023f15b280fc65fdefefb77f2f7be7b"><div class="ttname"><a href="../../d4/d03/a04711.html#ac023f15b280fc65fdefefb77f2f7be7b">AuthHelper::MAX_PRE_BC_CLIENT_BUILD</a></div><div class="ttdeci">static constexpr uint32 MAX_PRE_BC_CLIENT_BUILD</div><div class="ttdef"><b>Definition:</b> AuthCodes.cpp:23</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  395</span>{</div>
+<div class="line"><span class="lineno">  396</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  397</span>    {</div>
+<div class="line"><span class="lineno">  398</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  399</span>    }</div>
+<div class="line"><span class="lineno">  400</span> </div>
+<div class="line"><span class="lineno">  401</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_wday;</div>
+<div class="line"><span class="lineno">  402</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00023">MAX_PRE_BC_CLIENT_BUILD</a>, and <a class="el" href="../../#l00077">sRealmList</a>.</p>
-
-<p class="reference">Referenced by <a class="el" href="../../#l00283">AuthSession::HandleLogonChallenge()</a>, and <a class="el" href="../../#l00620">AuthSession::HandleReconnectChallenge()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
 
 </div>
 </div>
-<a id="a96896fc9dad2c304f681a24776f6726b" name="a96896fc9dad2c304f681a24776f6726b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96896fc9dad2c304f681a24776f6726b">&#9670;&#160;</a></span>IsPreBCAcceptedClientBuild()</h2>
+<a id="a7af06cf6576e2fff65b7552227589549" name="a7af06cf6576e2fff65b7552227589549"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7af06cf6576e2fff65b7552227589549">&#9670;&#160;</a></span>GetDayInYear()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">bool AuthHelper::IsPreBCAcceptedClientBuild </td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetDayInYear </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>build</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   26</span>    {</div>
-<div class="line"><span class="lineno">   27</span>        <span class="keywordflow">return</span> build &lt;= <a class="code hl_variable" href="../../d4/d03/a04711.html#ac023f15b280fc65fdefefb77f2f7be7b">MAX_PRE_BC_CLIENT_BUILD</a> &amp;&amp; <a class="code hl_define" href="../../d5/d95/a02720.html#a639c880efde6e31a4bf6be6b5bcc3cd3">sRealmList</a>-&gt;GetBuildInfo(build);</div>
-<div class="line"><span class="lineno">   28</span>    }</div>
+<div class="fragment"><div class="line"><span class="lineno">  415</span>{</div>
+<div class="line"><span class="lineno">  416</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  417</span>    {</div>
+<div class="line"><span class="lineno">  418</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  419</span>    }</div>
+<div class="line"><span class="lineno">  420</span> </div>
+<div class="line"><span class="lineno">  421</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_yday;</div>
+<div class="line"><span class="lineno">  422</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00023">MAX_PRE_BC_CLIENT_BUILD</a>, and <a class="el" href="../../#l00077">sRealmList</a>.</p>
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
 
-<p class="reference">Referenced by <a class="el" href="../../#l00283">AuthSession::HandleLogonChallenge()</a>, <a class="el" href="../../#l00620">AuthSession::HandleReconnectChallenge()</a>, and <a class="el" href="../../#l00738">AuthSession::RealmListCallback()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l00066">Weather::ReGenerate()</a>.</p>
 
 </div>
 </div>
-<h2 class="groupheader">Variable Documentation</h2>
-<a id="ac023f15b280fc65fdefefb77f2f7be7b" name="ac023f15b280fc65fdefefb77f2f7be7b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac023f15b280fc65fdefefb77f2f7be7b">&#9670;&#160;</a></span>MAX_PRE_BC_CLIENT_BUILD</h2>
+<a id="a644d31badd91d21f970b5369c64a8f56" name="a644d31badd91d21f970b5369c64a8f56"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a644d31badd91d21f970b5369c64a8f56">&#9670;&#160;</a></span>GetHours()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> AuthHelper::MAX_PRE_BC_CLIENT_BUILD = 6141</td>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetHours </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
+          <td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">constexpr</span></span>  </td>
-  </tr>
-</table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  385</span>{</div>
+<div class="line"><span class="lineno">  386</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  387</span>    {</div>
+<div class="line"><span class="lineno">  388</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  389</span>    }</div>
+<div class="line"><span class="lineno">  390</span> </div>
+<div class="line"><span class="lineno">  391</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_hour;</div>
+<div class="line"><span class="lineno">  392</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+</div>
+</div>
+<a id="adcb393a66882383e4038b040ea9fa983" name="adcb393a66882383e4038b040ea9fa983"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adcb393a66882383e4038b040ea9fa983">&#9670;&#160;</a></span>GetLocalHourTimestamp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t Acore::Time::GetLocalHourTimestamp </td>
+          <td>(</td>
+          <td class="paramtype">time_t&#160;</td>
+          <td class="paramname"><em>time</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a15a8d014fadf85c99a2268d8cbd00767">uint8</a>&#160;</td>
+          <td class="paramname"><em>hour</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>onlyAfterTime</em> = <code>true</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  255</span>{</div>
+<div class="line"><span class="lineno">  256</span>    tm timeLocal = <a class="code hl_function" href="../../d4/d03/a04711.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">TimeBreakdown</a>(time);</div>
+<div class="line"><span class="lineno">  257</span>    timeLocal.tm_hour = 0;</div>
+<div class="line"><span class="lineno">  258</span>    timeLocal.tm_min = 0;</div>
+<div class="line"><span class="lineno">  259</span>    timeLocal.tm_sec = 0;</div>
+<div class="line"><span class="lineno">  260</span> </div>
+<div class="line"><span class="lineno">  261</span>    time_t midnightLocal = mktime(&amp;timeLocal);</div>
+<div class="line"><span class="lineno">  262</span>    time_t hourLocal = midnightLocal + hour * <a class="code hl_variable" href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a>;</div>
+<div class="line"><span class="lineno">  263</span> </div>
+<div class="line"><span class="lineno">  264</span>    <span class="keywordflow">if</span> (onlyAfterTime &amp;&amp; hourLocal &lt;= time)</div>
+<div class="line"><span class="lineno">  265</span>    {</div>
+<div class="line"><span class="lineno">  266</span>        hourLocal += <a class="code hl_variable" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a>;</div>
+<div class="line"><span class="lineno">  267</span>    }</div>
+<div class="line"><span class="lineno">  268</span> </div>
+<div class="line"><span class="lineno">  269</span>    <span class="keywordflow">return</span> hourLocal;</div>
+<div class="line"><span class="lineno">  270</span>}</div>
+<div class="ttc" id="aa00017_html_a219e927a5d306db9cd363487d1f94366"><div class="ttname"><a href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a></div><div class="ttdeci">constexpr auto DAY</div><div class="ttdef"><b>Definition:</b> Common.h:49</div></div>
+<div class="ttc" id="aa00017_html_ac78ba8a81d12635c129fe2f92ca46c6f"><div class="ttname"><a href="../../d4/d51/a00017.html#ac78ba8a81d12635c129fe2f92ca46c6f">HOUR</a></div><div class="ttdeci">constexpr auto HOUR</div><div class="ttdef"><b>Definition:</b> Common.h:48</div></div>
+<div class="ttc" id="aa04711_html_ab6a946894ec0cb9fa9bf76afa8e7fec8"><div class="ttname"><a href="../../d4/d03/a04711.html#ab6a946894ec0cb9fa9bf76afa8e7fec8">Acore::Time::TimeBreakdown</a></div><div class="ttdeci">AC_COMMON_API std::tm TimeBreakdown(time_t t=0)</div><div class="ttdef"><b>Definition:</b> Timer.cpp:233</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">DAY</a>, <a class="el" href="../../#l00048">HOUR</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+</div>
+</div>
+<a id="a3ec1cee2adf92f517725493c71bb3291" name="a3ec1cee2adf92f517725493c71bb3291"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3ec1cee2adf92f517725493c71bb3291">&#9670;&#160;</a></span>GetMinutes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetMinutes </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  375</span>{</div>
+<div class="line"><span class="lineno">  376</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  377</span>    {</div>
+<div class="line"><span class="lineno">  378</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  379</span>    }</div>
+<div class="line"><span class="lineno">  380</span> </div>
+<div class="line"><span class="lineno">  381</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_min;</div>
+<div class="line"><span class="lineno">  382</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00531">npc_dark_iron_attack_generator::AllowStart()</a>.</p>
+
+</div>
+</div>
+<a id="a046227c8517de892fe18e61451d37735" name="a046227c8517de892fe18e61451d37735"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a046227c8517de892fe18e61451d37735">&#9670;&#160;</a></span>GetMonth()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetMonth </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  425</span>{</div>
+<div class="line"><span class="lineno">  426</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  427</span>    {</div>
+<div class="line"><span class="lineno">  428</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  429</span>    }</div>
+<div class="line"><span class="lineno">  430</span> </div>
+<div class="line"><span class="lineno">  431</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_mon;</div>
+<div class="line"><span class="lineno">  432</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l15813">Player::_LoadBrewOfTheMonth()</a>.</p>
+
+</div>
+</div>
+<a id="afe6fb6cf9a0829f40c9ba45356eec815" name="afe6fb6cf9a0829f40c9ba45356eec815"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe6fb6cf9a0829f40c9ba45356eec815">&#9670;&#160;</a></span>GetNextTimeWithDayAndHour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t Acore::Time::GetNextTimeWithDayAndHour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a>&#160;</td>
+          <td class="paramname"><em>dayOfWeek</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a>&#160;</td>
+          <td class="paramname"><em>hour</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  303</span>{</div>
+<div class="line"><span class="lineno">  304</span>    <span class="keywordflow">if</span> (hour &lt; 0 || hour &gt; 23)</div>
+<div class="line"><span class="lineno">  305</span>    {</div>
+<div class="line"><span class="lineno">  306</span>        hour = 0;</div>
+<div class="line"><span class="lineno">  307</span>    }</div>
+<div class="line"><span class="lineno">  308</span> </div>
+<div class="line"><span class="lineno">  309</span>    tm localTm = TimeBreakdown();</div>
+<div class="line"><span class="lineno">  310</span>    localTm.tm_hour = hour;</div>
+<div class="line"><span class="lineno">  311</span>    localTm.tm_min = 0;</div>
+<div class="line"><span class="lineno">  312</span>    localTm.tm_sec = 0;</div>
+<div class="line"><span class="lineno">  313</span> </div>
+<div class="line"><span class="lineno">  314</span>    <span class="keywordflow">if</span> (dayOfWeek &lt; 0 || dayOfWeek &gt; 6)</div>
+<div class="line"><span class="lineno">  315</span>    {</div>
+<div class="line"><span class="lineno">  316</span>        dayOfWeek = (localTm.tm_wday + 1) % 7;</div>
+<div class="line"><span class="lineno">  317</span>    }</div>
+<div class="line"><span class="lineno">  318</span> </div>
+<div class="line"><span class="lineno">  319</span>    <a class="code hl_typedef" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> add;</div>
+<div class="line"><span class="lineno">  320</span> </div>
+<div class="line"><span class="lineno">  321</span>    <span class="keywordflow">if</span> (localTm.tm_wday &gt;= dayOfWeek)</div>
+<div class="line"><span class="lineno">  322</span>    {</div>
+<div class="line"><span class="lineno">  323</span>        add = (7 - (localTm.tm_wday - dayOfWeek)) * <a class="code hl_variable" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a>;</div>
+<div class="line"><span class="lineno">  324</span>    }</div>
+<div class="line"><span class="lineno">  325</span>    <span class="keywordflow">else</span></div>
+<div class="line"><span class="lineno">  326</span>    {</div>
+<div class="line"><span class="lineno">  327</span>        add = (dayOfWeek - localTm.tm_wday) * <a class="code hl_variable" href="../../d4/d51/a00017.html#a219e927a5d306db9cd363487d1f94366">DAY</a>;</div>
+<div class="line"><span class="lineno">  328</span>    }</div>
+<div class="line"><span class="lineno">  329</span> </div>
+<div class="line"><span class="lineno">  330</span>    <span class="keywordflow">return</span> mktime(&amp;localTm) + add;</div>
+<div class="line"><span class="lineno">  331</span>}</div>
+<div class="ttc" id="aa00497_html_a22f78cc9780bf32aff91ae17c3101c8d"><div class="ttname"><a href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a></div><div class="ttdeci">std::uint32_t uint32</div><div class="ttdef"><b>Definition:</b> Define.h:107</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00049">DAY</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l03054">World::CalendarDeleteOldEvents()</a>, <a class="el" href="../../#l02940">World::InitCalendarOldEventsDeletionTime()</a>, <a class="el" href="../../#l02907">World::InitDailyQuestResetTime()</a>, <a class="el" href="../../#l02951">World::InitGuildResetTime()</a>, <a class="el" href="../../#l02918">World::InitMonthlyQuestResetTime()</a>, <a class="el" href="../../#l02929">World::InitRandomBGResetTime()</a>, <a class="el" href="../../#l02896">World::InitWeeklyQuestResetTime()</a>, <a class="el" href="../../#l02962">World::ResetDailyQuests()</a>, <a class="el" href="../../#l03063">World::ResetGuildCap()</a>, <a class="el" href="../../#l03039">World::ResetRandomBG()</a>, and <a class="el" href="../../#l02997">World::ResetWeeklyQuests()</a>.</p>
+
+</div>
+</div>
+<a id="af415b3b5ef693e8bd9a8b7f5088ab704" name="af415b3b5ef693e8bd9a8b7f5088ab704"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af415b3b5ef693e8bd9a8b7f5088ab704">&#9670;&#160;</a></span>GetNextTimeWithMonthAndHour()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t Acore::Time::GetNextTimeWithMonthAndHour </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a>&#160;</td>
+          <td class="paramname"><em>month</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a3bb8a71f4ae9af551f71e9eb2c9c3325">int8</a>&#160;</td>
+          <td class="paramname"><em>hour</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  334</span>{</div>
+<div class="line"><span class="lineno">  335</span>    <span class="keywordflow">if</span> (hour &lt; 0 || hour &gt; 23)</div>
+<div class="line"><span class="lineno">  336</span>    {</div>
+<div class="line"><span class="lineno">  337</span>        hour = 0;</div>
+<div class="line"><span class="lineno">  338</span>    }</div>
+<div class="line"><span class="lineno">  339</span> </div>
+<div class="line"><span class="lineno">  340</span>    tm localTm = TimeBreakdown();</div>
+<div class="line"><span class="lineno">  341</span>    localTm.tm_mday = 1;</div>
+<div class="line"><span class="lineno">  342</span>    localTm.tm_hour = hour;</div>
+<div class="line"><span class="lineno">  343</span>    localTm.tm_min = 0;</div>
+<div class="line"><span class="lineno">  344</span>    localTm.tm_sec = 0;</div>
+<div class="line"><span class="lineno">  345</span> </div>
+<div class="line"><span class="lineno">  346</span>    <span class="keywordflow">if</span> (month &lt; 0 || month &gt; 11)</div>
+<div class="line"><span class="lineno">  347</span>    {</div>
+<div class="line"><span class="lineno">  348</span>        month = (localTm.tm_mon + 1) % 12;</div>
+<div class="line"><span class="lineno">  349</span> </div>
+<div class="line"><span class="lineno">  350</span>        <span class="keywordflow">if</span> (!month)</div>
+<div class="line"><span class="lineno">  351</span>        {</div>
+<div class="line"><span class="lineno">  352</span>            localTm.tm_year += 1;</div>
+<div class="line"><span class="lineno">  353</span>        }</div>
+<div class="line"><span class="lineno">  354</span>    }</div>
+<div class="line"><span class="lineno">  355</span>    <span class="keywordflow">else</span> <span class="keywordflow">if</span> (localTm.tm_mon &gt;= month)</div>
+<div class="line"><span class="lineno">  356</span>    {</div>
+<div class="line"><span class="lineno">  357</span>        localTm.tm_year += 1;</div>
+<div class="line"><span class="lineno">  358</span>    }</div>
+<div class="line"><span class="lineno">  359</span> </div>
+<div class="line"><span class="lineno">  360</span>    localTm.tm_mon = month;</div>
+<div class="line"><span class="lineno">  361</span>    <span class="keywordflow">return</span> mktime(&amp;localTm);</div>
+<div class="line"><span class="lineno">  362</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l03013">World::ResetMonthlyQuests()</a>.</p>
+
+</div>
+</div>
+<a id="a4f3e7cea01806c4633123ba434dc604a" name="a4f3e7cea01806c4633123ba434dc604a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4f3e7cea01806c4633123ba434dc604a">&#9670;&#160;</a></span>GetSeconds()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetSeconds </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  365</span>{</div>
+<div class="line"><span class="lineno">  366</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  367</span>    {</div>
+<div class="line"><span class="lineno">  368</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  369</span>    }</div>
+<div class="line"><span class="lineno">  370</span> </div>
+<div class="line"><span class="lineno">  371</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_sec;</div>
+<div class="line"><span class="lineno">  372</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+</div>
+</div>
+<a id="a2b1e67f5fbe66e0e8dd4dd3b1e2c9933" name="a2b1e67f5fbe66e0e8dd4dd3b1e2c9933"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b1e67f5fbe66e0e8dd4dd3b1e2c9933">&#9670;&#160;</a></span>GetYear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::GetYear </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  435</span>{</div>
+<div class="line"><span class="lineno">  436</span>    <span class="keywordflow">if</span> (time == 0s)</div>
+<div class="line"><span class="lineno">  437</span>    {</div>
+<div class="line"><span class="lineno">  438</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>();</div>
+<div class="line"><span class="lineno">  439</span>    }</div>
+<div class="line"><span class="lineno">  440</span> </div>
+<div class="line"><span class="lineno">  441</span>    <span class="keywordflow">return</span> TimeBreakdown(time.count()).tm_year;</div>
+<div class="line"><span class="lineno">  442</span>}</div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00233">TimeBreakdown()</a>.</p>
+
+</div>
+</div>
+<a id="abb2429e5a8226c49ea8909ad21d2a36b" name="abb2429e5a8226c49ea8909ad21d2a36b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb2429e5a8226c49ea8909ad21d2a36b">&#9670;&#160;</a></span>LocalTimeToUTCTime()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">time_t Acore::Time::LocalTimeToUTCTime </td>
+          <td>(</td>
+          <td class="paramtype">time_t&#160;</td>
+          <td class="paramname"><em>time</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  246</span>{</div>
+<div class="line"><span class="lineno">  247</span><span class="preprocessor">#if AC_PLATFORM == AC_PLATFORM_WINDOWS</span></div>
+<div class="line"><span class="lineno">  248</span>    <span class="keywordflow">return</span> time + _timezone;</div>
+<div class="line"><span class="lineno">  249</span><span class="preprocessor">#else</span></div>
+<div class="line"><span class="lineno">  250</span>    <span class="keywordflow">return</span> time + timezone;</div>
+<div class="line"><span class="lineno">  251</span><span class="preprocessor">#endif</span></div>
+<div class="line"><span class="lineno">  252</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="ab6a946894ec0cb9fa9bf76afa8e7fec8" name="ab6a946894ec0cb9fa9bf76afa8e7fec8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6a946894ec0cb9fa9bf76afa8e7fec8">&#9670;&#160;</a></span>TimeBreakdown()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::tm Acore::Time::TimeBreakdown </td>
+          <td>(</td>
+          <td class="paramtype">time_t&#160;</td>
+          <td class="paramname"><em>t</em> = <code>0</code></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  234</span>{</div>
+<div class="line"><span class="lineno">  235</span>    <span class="keywordflow">if</span> (!time)</div>
+<div class="line"><span class="lineno">  236</span>    {</div>
+<div class="line"><span class="lineno">  237</span>        time = <a class="code hl_function" href="../../d1/d5d/a00311.html#ac26feb8a0cb9d57ffe71c1a86ae8108e">GetEpochTime</a>().count();</div>
+<div class="line"><span class="lineno">  238</span>    }</div>
+<div class="line"><span class="lineno">  239</span> </div>
+<div class="line"><span class="lineno">  240</span>    std::tm timeLocal;</div>
+<div class="line"><span class="lineno">  241</span>    <a class="code hl_function" href="../../d1/dc6/a00347.html#a17fdb8f2104b98bad5d9fb343d0a043a">localtime_r</a>(&amp;time, &amp;timeLocal);</div>
+<div class="line"><span class="lineno">  242</span>    <span class="keywordflow">return</span> timeLocal;</div>
+<div class="line"><span class="lineno">  243</span>}</div>
+<div class="ttc" id="aa00347_html_a17fdb8f2104b98bad5d9fb343d0a043a"><div class="ttname"><a href="../../d1/dc6/a00347.html#a17fdb8f2104b98bad5d9fb343d0a043a">localtime_r</a></div><div class="ttdeci">struct tm * localtime_r(time_t const *time, struct tm *result)</div><div class="ttdef"><b>Definition:</b> Timer.cpp:226</div></div>
+</div><!-- fragment -->
+<p class="reference">References <a class="el" href="../../#l00141">GetEpochTime()</a>, and <a class="el" href="../../#l00226">localtime_r()</a>.</p>
+
+<p class="reference">Referenced by <a class="el" href="../../#l00137">ByteBuffer::AppendPackedTime()</a>, <a class="el" href="../../#l00404">GetDayInMonth()</a>, <a class="el" href="../../#l00394">GetDayInWeek()</a>, <a class="el" href="../../#l00414">GetDayInYear()</a>, <a class="el" href="../../#l00384">GetHours()</a>, <a class="el" href="../../#l00254">GetLocalHourTimestamp()</a>, <a class="el" href="../../#l00374">GetMinutes()</a>, <a class="el" href="../../#l00424">GetMonth()</a>, <a class="el" href="../../#l00302">GetNextTimeWithDayAndHour()</a>, <a class="el" href="../../#l00333">GetNextTimeWithMonthAndHour()</a>, <a class="el" href="../../#l00364">GetSeconds()</a>, <a class="el" href="../../#l00434">GetYear()</a>, <a class="el" href="../../#l00505">ban_commandscript::HandleBanListCharacterCommand()</a>, <a class="el" href="../../#l00431">ban_commandscript::HandleBanListHelper()</a>, <a class="el" href="../../#l00588">ban_commandscript::HandleBanListIPCommand()</a>, <a class="el" href="../../#l00057">go_firework_show::InitShow()</a>, <a class="el" href="../../#l00300">AchievementCriteriaData::Meets()</a>, <a class="el" href="../../#l01823">GameEventMgr::SetHolidayEventTime()</a>, <a class="el" href="../../#l01866">go_bells::go_bellsAI::UpdateAI()</a>, and <a class="el" href="../../#l00095">npc_elder_clearwater::npc_elder_clearwaterAI::UpdateAI()</a>.</p>
+
+</div>
+</div>
+<a id="a14270e0cda30d83961a8754d470fe8c1" name="a14270e0cda30d83961a8754d470fe8c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a14270e0cda30d83961a8754d470fe8c1">&#9670;&#160;</a></span>TimeStringTo()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> Acore::Time::TimeStringTo </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>timeString</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l00030">IsPostBCAcceptedClientBuild()</a>, and <a class="el" href="../../#l00025">IsPreBCAcceptedClientBuild()</a>.</p>
+</div>
+</div>
+<a id="a7a7a22a2c3d65e66ce24c63b7d5877c1" name="a7a7a22a2c3d65e66ce24c63b7d5877c1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a7a22a2c3d65e66ce24c63b7d5877c1">&#9670;&#160;</a></span>TimeToHumanReadable()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acore::Time::TimeToHumanReadable </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>fmt</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  288</span>{</div>
+<div class="line"><span class="lineno">  289</span>    std::stringstream ss;</div>
+<div class="line"><span class="lineno">  290</span>    std::string format{ fmt };</div>
+<div class="line"><span class="lineno">  291</span>    time_t t = time.count();</div>
+<div class="line"><span class="lineno">  292</span> </div>
+<div class="line"><span class="lineno">  293</span>    <span class="keywordflow">if</span> (format.empty())</div>
+<div class="line"><span class="lineno">  294</span>    {</div>
+<div class="line"><span class="lineno">  295</span>        format = <span class="stringliteral">&quot;%a %b %d %Y %X&quot;</span>;</div>
+<div class="line"><span class="lineno">  296</span>    }</div>
+<div class="line"><span class="lineno">  297</span> </div>
+<div class="line"><span class="lineno">  298</span>    ss &lt;&lt; std::put_time(std::localtime(&amp;t), format.c_str());</div>
+<div class="line"><span class="lineno">  299</span>    <span class="keywordflow">return</span> ss.str();</div>
+<div class="line"><span class="lineno">  300</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l02625">misc_commandscript::HandleMuteInfoHelper()</a>.</p>
+
+</div>
+</div>
+<a id="a0f9116e063a085b763f9c19ba37f9a44" name="a0f9116e063a085b763f9c19ba37f9a44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9116e063a085b763f9c19ba37f9a44">&#9670;&#160;</a></span>TimeToTimestampStr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acore::Time::TimeToTimestampStr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a3cd82f1c195a0b935b4d66b02a41acd8">Seconds</a>&#160;</td>
+          <td class="paramname"><em>time</em> = <code>0s</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>fmt</em> = <code>{}</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  273</span>{</div>
+<div class="line"><span class="lineno">  274</span>    std::stringstream ss;</div>
+<div class="line"><span class="lineno">  275</span>    std::string format{ fmt };</div>
+<div class="line"><span class="lineno">  276</span>    time_t t = time.count();</div>
+<div class="line"><span class="lineno">  277</span> </div>
+<div class="line"><span class="lineno">  278</span>    <span class="keywordflow">if</span> (format.empty())</div>
+<div class="line"><span class="lineno">  279</span>    {</div>
+<div class="line"><span class="lineno">  280</span>        format = <span class="stringliteral">&quot;%Y-%m-%d %X&quot;</span>;</div>
+<div class="line"><span class="lineno">  281</span>    }</div>
+<div class="line"><span class="lineno">  282</span> </div>
+<div class="line"><span class="lineno">  283</span>    ss &lt;&lt; std::put_time(std::localtime(&amp;t), format.c_str());</div>
+<div class="line"><span class="lineno">  284</span>    <span class="keywordflow">return</span> ss.str();</div>
+<div class="line"><span class="lineno">  285</span>}</div>
+</div><!-- fragment -->
+<p class="reference">Referenced by <a class="el" href="../../#l00277">Log::GetTimestampStr()</a>, <a class="el" href="../../#l00027">LogMessage::getTimeStr()</a>, <a class="el" href="../../#l00176">character_commandscript::HandleCharacterDeletedListHelper()</a>, and <a class="el" href="../../#l00092">event_commandscript::HandleEventInfoCommand()</a>.</p>
+
+</div>
+</div>
+<a id="a457da2bcb5a3b5158a4fee8cbf257e32" name="a457da2bcb5a3b5158a4fee8cbf257e32"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a457da2bcb5a3b5158a4fee8cbf257e32">&#9670;&#160;</a></span>ToTimeString() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string Acore::Time::ToTimeString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../dc/d84/a00338.html#a201a83ed0d59d2baf946daf42dac834f">Microseconds</a>&#160;</td>
+          <td class="paramname"><em>durationTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a>&#160;</td>
+          <td class="paramname"><em>timeOutput</em> = <code>TimeOutput::Seconds</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a>&#160;</td>
+          <td class="paramname"><em>timeFormat</em> = <code>TimeFormat::ShortText</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  221</span>{</div>
+<div class="line"><span class="lineno">  222</span>    <span class="keywordflow">return</span> ToTimeString&lt;Microseconds&gt;(durationTime.count(), timeOutput, timeFormat);</div>
+<div class="line"><span class="lineno">  223</span>}</div>
+</div><!-- fragment -->
+</div>
+</div>
+<a id="af9e00ccf9512f0bcdd1289d7e876e9e6" name="af9e00ccf9512f0bcdd1289d7e876e9e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9e00ccf9512f0bcdd1289d7e876e9e6">&#9670;&#160;</a></span>ToTimeString() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string Acore::Time::ToTimeString </td>
+          <td>(</td>
+          <td class="paramtype">std::string_view&#160;</td>
+          <td class="paramname"><em>durationTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a>&#160;</td>
+          <td class="paramname"><em>timeOutput</em> = <code>TimeOutput::Seconds</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a>&#160;</td>
+          <td class="paramname"><em>timeFormat</em> = <code>TimeFormat::ShortText</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5922471809ac8688a8146982524ce0fc" name="a5922471809ac8688a8146982524ce0fc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5922471809ac8688a8146982524ce0fc">&#9670;&#160;</a></span>ToTimeString() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="../../d4/d1e/a00497.html#aae2dc50bce825b002235487401b252e8">AC_COMMON_API</a> std::string Acore::Time::ToTimeString </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&#160;</td>
+          <td class="paramname"><em>durationTime</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#aea6a25b38e19ecccfdefaf43a55575f3">TimeOutput</a>&#160;</td>
+          <td class="paramname"><em>timeOutput</em> = <code>TimeOutput::Seconds</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="../../d1/d5d/a00311.html#a66f42ce7d50508145628b7347fc8694c">TimeFormat</a>&#160;</td>
+          <td class="paramname"><em>timeFormat</em> = <code>TimeFormat::ShortText</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -233,8 +842,8 @@ Variables</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d4/d03/a04711.html">AuthHelper</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d4/d03/a04711.html">Time</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

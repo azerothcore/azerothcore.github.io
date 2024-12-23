@@ -1,7 +1,6 @@
 var a17522 =
 [
-    [ "HandleExtraEffect", "d2/deb/a17522.html#a8fbfac8e62d2534daf40194f7fe31945", null ],
-    [ "PrepareAuraScript", "d2/deb/a17522.html#a45e83b3bfa344391bb87c8088ae1c6a7", null ],
-    [ "Register", "d2/deb/a17522.html#a5ec23a02a4e617e6db8cf17d2bd36aff", null ],
-    [ "Validate", "d2/deb/a17522.html#a2e7253cfc18b66d663457c2fb7ab3302", null ]
+    [ "UnboundPlagueTargetSelector", "d2/deb/a17522.html#aedde7e013418bf6ff54cf3d3b8a70206", null ],
+    [ "operator()", "d2/deb/a17522.html#ae5fc2623d4eb0b0a82b3eaa464c92458", null ],
+    [ "_source", "d2/deb/a17522.html#a87eb77615e443ccec373d571708a156a", null ]
 ];

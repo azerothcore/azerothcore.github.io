@@ -1,7 +1,7 @@
 var a21610 =
 [
-    [ "HandleDummy", "d3/df0/a21610.html#a98e8a4b7bbe947b00f1bc32632736d59", null ],
-    [ "PrepareSpellScript", "d3/df0/a21610.html#a65b1ddf275eb5ee14ca32a1e25bf6e0e", null ],
-    [ "Register", "d3/df0/a21610.html#acdfa4e1fc8e26a887e80521b1bea5150", null ],
-    [ "Validate", "d3/df0/a21610.html#aeec15705a41ad2ac0e59d90086591d96", null ]
+    [ "npc_tallhorn_stagAI", "d3/df0/a21610.html#a50947c450eece979193b45728e5e1f82", null ],
+    [ "Reset", "d3/df0/a21610.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
+    [ "UpdateAI", "d3/df0/a21610.html#adf60f62fa92238cb315c42e0179c3f17", null ],
+    [ "_phase", "d3/df0/a21610.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
 ];

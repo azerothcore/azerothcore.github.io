@@ -1,10 +1,14 @@
 var a23762 =
 [
-    [ "npc_maxx_a_million_escortAI", "d9/d64/a23762.html#ab827933527ed7b4a04b162034876ced8", null ],
-    [ "JustDied", "d9/d64/a23762.html#a2106ab4d32d0f221f62eeffd93f71380", null ],
-    [ "Reset", "d9/d64/a23762.html#a6b9b2ed76e26f908ff2272ad8744a59e", null ],
-    [ "UpdateAI", "d9/d64/a23762.html#a3b022feb2303875d32ad981e84f66854", null ],
-    [ "WaypointReached", "d9/d64/a23762.html#acd6f45abb93f3f043cd85647405a50f6", null ],
-    [ "bTake", "d9/d64/a23762.html#ac697fc6cbc20c7f316845ed26436049b", null ],
-    [ "uiTakeTimer", "d9/d64/a23762.html#a5d4826dcf893f444a42dedba57460110", null ]
+    [ "npc_maghar_captiveAI", "d9/d64/a23762.html#abab2cfe84f4bb83fea3b35202a957bb5", null ],
+    [ "JustDied", "d9/d64/a23762.html#adbef78d8c908bfbce6ea506c55fb6922", null ],
+    [ "JustEngagedWith", "d9/d64/a23762.html#a2a0ec4a496c7352ba88ceef99eb769e4", null ],
+    [ "JustSummoned", "d9/d64/a23762.html#afe55f91acd8c47a758b8d08bd07d763f", null ],
+    [ "Reset", "d9/d64/a23762.html#abebcdcb102f8d338ae0b792708940cd7", null ],
+    [ "SpellHitTarget", "d9/d64/a23762.html#ab4f4deaae35fdbd602c9925f26e6d0e7", null ],
+    [ "UpdateAI", "d9/d64/a23762.html#a295cbae9196e320fabbb4cfb9dc33150", null ],
+    [ "WaypointReached", "d9/d64/a23762.html#abfbba8942df57e974ab24ad693c16e70", null ],
+    [ "ChainLightningTimer", "d9/d64/a23762.html#aa00a6978074f62d3d8ddead64d3240cf", null ],
+    [ "FrostShockTimer", "d9/d64/a23762.html#a2e4a5ef509e7f7ec33b1e83c90d2c80f", null ],
+    [ "HealTimer", "d9/d64/a23762.html#a31613adba706f3b5f948f2f7c4222038", null ]
 ];

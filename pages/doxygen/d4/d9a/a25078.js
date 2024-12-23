@@ -1,8 +1,7 @@
 var a25078 =
 [
-    [ "OnApply", "d4/d9a/a25078.html#aeec705e572ce6aa870bb5cc048e02e75", null ],
-    [ "OnRemove", "d4/d9a/a25078.html#a38399457b6cb8ebf4c5e457e0590cb1a", null ],
-    [ "PrepareAuraScript", "d4/d9a/a25078.html#a8d0f2113c0212a24e94054f3f1db0ad3", null ],
-    [ "Register", "d4/d9a/a25078.html#a673dc5619a33632ba3d3f1793c5cfdb4", null ],
-    [ "Validate", "d4/d9a/a25078.html#a65722a9826b14dc90cc6df47655d3d6b", null ]
+    [ "HandleScriptEffect", "d4/d9a/a25078.html#ab1d476e7a07da5db80908fb669b6fa6b", null ],
+    [ "PrepareSpellScript", "d4/d9a/a25078.html#acf30d245bab2e7a1ee1121008345e667", null ],
+    [ "Register", "d4/d9a/a25078.html#a303a38a41f3d9be6e3083690b234e51f", null ],
+    [ "Validate", "d4/d9a/a25078.html#a77a3256cdea185ce0ea95d88283c55d7", null ]
 ];

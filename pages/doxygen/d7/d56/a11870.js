@@ -1,5 +1,6 @@
 var a11870 =
 [
-    [ "at_dragonspire_hall", "d7/d56/a11870.html#a6adb22f328a7324b2ecf70204ab26a6d", null ],
-    [ "OnTrigger", "d7/d56/a11870.html#a0433930ec050a9dbeb60e1b1122772e3", null ]
+    [ "boss_solakar_flamewreathAI", "d0/d8d/a11874.html", "d0/d8d/a11874" ],
+    [ "boss_solakar_flamewreath", "d7/d56/a11870.html#a0d5a9f9525303014e72cd98d45bf302f", null ],
+    [ "GetAI", "d7/d56/a11870.html#a0bd7971406392f15f68828ed217f4d06", null ]
 ];

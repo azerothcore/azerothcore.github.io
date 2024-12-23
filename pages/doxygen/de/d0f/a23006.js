@@ -1,8 +1,7 @@
 var a23006 =
 [
-    [ "boss_mekgineer_steamrigger", "de/d0f/a23006.html#a930dcbade7135d0c689bcc0718815547", null ],
-    [ "JustDied", "de/d0f/a23006.html#a79272c233bc0256cca62700fc7a01421", null ],
-    [ "JustEngagedWith", "de/d0f/a23006.html#aa75dea00ffd73b45ba5115ea1e48a006", null ],
-    [ "JustSummoned", "de/d0f/a23006.html#a7a55a9dffaf239e73962356eb0fa88ad", null ],
-    [ "KilledUnit", "de/d0f/a23006.html#a84374438458cb7e034f91d4b65cd22f1", null ]
+    [ "PeriodicTick", "de/d0f/a23006.html#afb5cc6129423cb4f7c3da50977da01f2", null ],
+    [ "PrepareAuraScript", "de/d0f/a23006.html#aea6ca9c5d490f62ae737bfc07751da42", null ],
+    [ "Register", "de/d0f/a23006.html#ad0eb66e0bab8441e1bb3db42967df7ff", null ],
+    [ "Validate", "de/d0f/a23006.html#ae07f6e7de08ada74b4cb9ac890c70c35", null ]
 ];

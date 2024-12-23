@@ -1,6 +1,6 @@
 var a27182 =
 [
-    [ "npc_dancing_flamesAI", "df/d57/a27186.html", "df/d57/a27186" ],
-    [ "npc_dancing_flames", "d3/d1f/a27182.html#adec0401f876ddf159f28fdda8bc4d563", null ],
-    [ "GetAI", "d3/d1f/a27182.html#a1000d0b95dab3a6e73efa0ca088ce4e6", null ]
+    [ "npc_taxi", "d3/d1f/a27182.html#ac67282316d6ded2ff62b8a1800b8fae1", null ],
+    [ "OnGossipHello", "d3/d1f/a27182.html#a1bce89202ea3ed3fcbebd19a305c6a78", null ],
+    [ "OnGossipSelect", "d3/d1f/a27182.html#a5a7443abba8cf98a3073195177981edc", null ]
 ];

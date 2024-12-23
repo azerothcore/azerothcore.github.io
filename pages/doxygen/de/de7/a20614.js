@@ -1,6 +1,6 @@
 var a20614 =
 [
-    [ "CheckCast", "de/de7/a20614.html#a715a58956db4253c8adfed039833debd", null ],
-    [ "PrepareSpellScript", "de/de7/a20614.html#a3b03178d8ab54db36a19ba5a27444917", null ],
-    [ "Register", "de/de7/a20614.html#a6309c53b9e3828e76d34a77a8fe35df1", null ]
+    [ "FilterTargets", "de/de7/a20614.html#adaeee235184ddc36e90e532091183056", null ],
+    [ "PrepareSpellScript", "de/de7/a20614.html#a599f604e872d3a5a4ed2b155caefdc9f", null ],
+    [ "Register", "de/de7/a20614.html#ab79041a2536878498744555475bce5c8", null ]
 ];

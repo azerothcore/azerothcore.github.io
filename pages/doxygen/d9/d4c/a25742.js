@@ -1,6 +1,7 @@
 var a25742 =
 [
-    [ "FilterTargets", "d9/d4c/a25742.html#a9ee58cd4e7a0fa59bfb6ef1270d51f21", null ],
-    [ "PrepareSpellScript", "d9/d4c/a25742.html#a5992d94317d3da7400d5a9ab115e621e", null ],
-    [ "Register", "d9/d4c/a25742.html#a125ce6c8dfdc6419b4409c72f74fcf85", null ]
+    [ "CheckProc", "d9/d4c/a25742.html#a2052750b91de67b330a2ae6a190a5d4e", null ],
+    [ "HandleProc", "d9/d4c/a25742.html#a5b404a07ccb13cabf5fa6ab90db92129", null ],
+    [ "PrepareAuraScript", "d9/d4c/a25742.html#af16eec48ab0f469ca3cefd149bb0d925", null ],
+    [ "Register", "d9/d4c/a25742.html#a4f31c76184e4ae5bc03763e04cdac72e", null ]
 ];

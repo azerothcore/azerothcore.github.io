@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: GameobjectModelData Struct Reference</title>
+<title>AzerothCore: GameObjectModelOwnerBase Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,30 +106,45 @@ $(document).ready(function(){initNavTree('df/d92/a04962.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="../../dd/d63/a04959.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">GameobjectModelData Struct Reference</div></div>
+  <div class="headertitle"><div class="title">GameObjectModelOwnerBase Class Reference<span class="mlabels"><span class="mlabel">abstract</span></span></div></div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &quot;<a class="el" href="../../">GameObjectModel.h</a>&quot;</code></p>
+<div class="dynheader">
+Inheritance diagram for GameObjectModelOwnerBase:</div>
+<div class="dyncontent">
+ <div class="center">
+  <img src="../../df/d92/a04962.png" usemap="#GameObjectModelOwnerBase_map" alt=""/>
+  <map id="GameObjectModelOwnerBase_map" name="GameObjectModelOwnerBase_map">
+<area href="../../df/d00/a07998.html" alt="GameObjectModelOwnerImpl" shape="rect" coords="0,56,182,80"/>
+  </map>
+</div></div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7d259df5a5541f95e0f548674d023fc8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#a7d259df5a5541f95e0f548674d023fc8">GameobjectModelData</a> (char const *name_, <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> nameLength, Vector3 const &amp;lowBound, Vector3 const &amp;highBound, bool isWmo_)</td></tr>
-<tr class="separator:a7d259df5a5541f95e0f548674d023fc8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ab133a32c9eefff0a35acaa4e157a3f05"><td class="memItemLeft" align="right" valign="top">AABox&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#ab133a32c9eefff0a35acaa4e157a3f05">bound</a></td></tr>
-<tr class="separator:ab133a32c9eefff0a35acaa4e157a3f05"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac8a053b6f01a9917ee6b1fc2a738bb4e"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#ac8a053b6f01a9917ee6b1fc2a738bb4e">name</a></td></tr>
-<tr class="separator:ac8a053b6f01a9917ee6b1fc2a738bb4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac51305f0d800ff993e9a9cba2ccb6939"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#ac51305f0d800ff993e9a9cba2ccb6939">isWmo</a></td></tr>
-<tr class="separator:ac51305f0d800ff993e9a9cba2ccb6939"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a307c744710782fcb0d5c287b23c74d69"><td class="memItemLeft" align="right" valign="top">virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#a307c744710782fcb0d5c287b23c74d69">~GameObjectModelOwnerBase</a> ()=default</td></tr>
+<tr class="separator:a307c744710782fcb0d5c287b23c74d69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad824da6970d512c344160714cd7ec434"><td class="memItemLeft" align="right" valign="top">virtual bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#ad824da6970d512c344160714cd7ec434">IsSpawned</a> () const =0</td></tr>
+<tr class="separator:ad824da6970d512c344160714cd7ec434"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3eddc6c841c3644f50cb3300f80cee2"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#ae3eddc6c841c3644f50cb3300f80cee2">GetDisplayId</a> () const =0</td></tr>
+<tr class="separator:ae3eddc6c841c3644f50cb3300f80cee2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b55de1c8de5a50245d7e5a833766d0f"><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#a6b55de1c8de5a50245d7e5a833766d0f">GetPhaseMask</a> () const =0</td></tr>
+<tr class="separator:a6b55de1c8de5a50245d7e5a833766d0f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a82e89b7fac5f46a25519674930294ed8"><td class="memItemLeft" align="right" valign="top">virtual G3D::Vector3&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#a82e89b7fac5f46a25519674930294ed8">GetPosition</a> () const =0</td></tr>
+<tr class="separator:a82e89b7fac5f46a25519674930294ed8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35c11d2346c5156b95558729d84b3fe8"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#a35c11d2346c5156b95558729d84b3fe8">GetOrientation</a> () const =0</td></tr>
+<tr class="separator:a35c11d2346c5156b95558729d84b3fe8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf8e9a74f58ec34bc6f1f8d853100f69"><td class="memItemLeft" align="right" valign="top">virtual float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#abf8e9a74f58ec34bc6f1f8d853100f69">GetScale</a> () const =0</td></tr>
+<tr class="separator:abf8e9a74f58ec34bc6f1f8d853100f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf130fbdfb086a9c6d35d145116357c8"><td class="memItemLeft" align="right" valign="top">virtual void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../df/d92/a04962.html#acf130fbdfb086a9c6d35d145116357c8">DebugVisualizeCorner</a> (G3D::Vector3 const &amp;) const =0</td></tr>
+<tr class="separator:acf130fbdfb086a9c6d35d145116357c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a7d259df5a5541f95e0f548674d023fc8" name="a7d259df5a5541f95e0f548674d023fc8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7d259df5a5541f95e0f548674d023fc8">&#9670;&#160;</a></span>GameobjectModelData()</h2>
+<a id="a307c744710782fcb0d5c287b23c74d69" name="a307c744710782fcb0d5c287b23c74d69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a307c744710782fcb0d5c287b23c74d69">&#9670;&#160;</a></span>~GameObjectModelOwnerBase()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -138,95 +153,209 @@ Public Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameobjectModelData::GameobjectModelData </td>
+          <td class="memname">virtual GameObjectModelOwnerBase::~GameObjectModelOwnerBase </td>
           <td>(</td>
-          <td class="paramtype">char const *&#160;</td>
-          <td class="paramname"><em>name_</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
+          <td class="paramname"></td><td>)</td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a>&#160;</td>
-          <td class="paramname"><em>nameLength</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector3 const &amp;&#160;</td>
-          <td class="paramname"><em>lowBound</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">Vector3 const &amp;&#160;</td>
-          <td class="paramname"><em>highBound</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>isWmo_</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">virtual</span><span class="mlabel">default</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">   34</span>                                                                                                                              :</div>
-<div class="line"><span class="lineno">   35</span>        <a class="code hl_variable" href="../../df/d92/a04962.html#ab133a32c9eefff0a35acaa4e157a3f05">bound</a>(lowBound, highBound), <a class="code hl_variable" href="../../df/d92/a04962.html#ac8a053b6f01a9917ee6b1fc2a738bb4e">name</a>(name_, nameLength), <a class="code hl_variable" href="../../df/d92/a04962.html#ac51305f0d800ff993e9a9cba2ccb6939">isWmo</a>(isWmo_) { }</div>
-<div class="ttc" id="aa04962_html_ab133a32c9eefff0a35acaa4e157a3f05"><div class="ttname"><a href="../../df/d92/a04962.html#ab133a32c9eefff0a35acaa4e157a3f05">GameobjectModelData::bound</a></div><div class="ttdeci">AABox bound</div><div class="ttdef"><b>Definition:</b> GameObjectModel.cpp:37</div></div>
-<div class="ttc" id="aa04962_html_ac51305f0d800ff993e9a9cba2ccb6939"><div class="ttname"><a href="../../df/d92/a04962.html#ac51305f0d800ff993e9a9cba2ccb6939">GameobjectModelData::isWmo</a></div><div class="ttdeci">bool isWmo</div><div class="ttdef"><b>Definition:</b> GameObjectModel.cpp:39</div></div>
-<div class="ttc" id="aa04962_html_ac8a053b6f01a9917ee6b1fc2a738bb4e"><div class="ttname"><a href="../../df/d92/a04962.html#ac8a053b6f01a9917ee6b1fc2a738bb4e">GameobjectModelData::name</a></div><div class="ttdeci">std::string name</div><div class="ttdef"><b>Definition:</b> GameObjectModel.cpp:38</div></div>
-</div><!-- fragment -->
+
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="ab133a32c9eefff0a35acaa4e157a3f05" name="ab133a32c9eefff0a35acaa4e157a3f05"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab133a32c9eefff0a35acaa4e157a3f05">&#9670;&#160;</a></span>bound</h2>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="acf130fbdfb086a9c6d35d145116357c8" name="acf130fbdfb086a9c6d35d145116357c8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf130fbdfb086a9c6d35d145116357c8">&#9670;&#160;</a></span>DebugVisualizeCorner()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">AABox GameobjectModelData::bound</td>
+          <td class="memname">virtual void GameObjectModelOwnerBase::DebugVisualizeCorner </td>
+          <td>(</td>
+          <td class="paramtype">G3D::Vector3 const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#af8553967b9788d69da9fcb8cdb647f9c">GameObjectModelOwnerImpl</a>.</p>
 
 </div>
 </div>
-<a id="ac51305f0d800ff993e9a9cba2ccb6939" name="ac51305f0d800ff993e9a9cba2ccb6939"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac51305f0d800ff993e9a9cba2ccb6939">&#9670;&#160;</a></span>isWmo</h2>
+<a id="ae3eddc6c841c3644f50cb3300f80cee2" name="ae3eddc6c841c3644f50cb3300f80cee2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3eddc6c841c3644f50cb3300f80cee2">&#9670;&#160;</a></span>GetDisplayId()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool GameobjectModelData::isWmo</td>
+          <td class="memname">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameObjectModelOwnerBase::GetDisplayId </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#a4a694456955c19e76d8c84befc02c920">GameObjectModelOwnerImpl</a>.</p>
 
 </div>
 </div>
-<a id="ac8a053b6f01a9917ee6b1fc2a738bb4e" name="ac8a053b6f01a9917ee6b1fc2a738bb4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac8a053b6f01a9917ee6b1fc2a738bb4e">&#9670;&#160;</a></span>name</h2>
+<a id="a35c11d2346c5156b95558729d84b3fe8" name="a35c11d2346c5156b95558729d84b3fe8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35c11d2346c5156b95558729d84b3fe8">&#9670;&#160;</a></span>GetOrientation()</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">std::string GameobjectModelData::name</td>
+          <td class="memname">virtual float GameObjectModelOwnerBase::GetOrientation </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#acb968e3bd921aac111a2e06f2604b040">GameObjectModelOwnerImpl</a>.</p>
+
+</div>
+</div>
+<a id="a6b55de1c8de5a50245d7e5a833766d0f" name="a6b55de1c8de5a50245d7e5a833766d0f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b55de1c8de5a50245d7e5a833766d0f">&#9670;&#160;</a></span>GetPhaseMask()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual <a class="el" href="../../d4/d1e/a00497.html#a22f78cc9780bf32aff91ae17c3101c8d">uint32</a> GameObjectModelOwnerBase::GetPhaseMask </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#ad0b9a01502c49f16a47e35694d3e6c10">GameObjectModelOwnerImpl</a>.</p>
+
+</div>
+</div>
+<a id="a82e89b7fac5f46a25519674930294ed8" name="a82e89b7fac5f46a25519674930294ed8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a82e89b7fac5f46a25519674930294ed8">&#9670;&#160;</a></span>GetPosition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual G3D::Vector3 GameObjectModelOwnerBase::GetPosition </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#a9ba2b29d30b38895effe97637e050988">GameObjectModelOwnerImpl</a>.</p>
+
+</div>
+</div>
+<a id="abf8e9a74f58ec34bc6f1f8d853100f69" name="abf8e9a74f58ec34bc6f1f8d853100f69"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf8e9a74f58ec34bc6f1f8d853100f69">&#9670;&#160;</a></span>GetScale()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual float GameObjectModelOwnerBase::GetScale </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#a3d72c1810a41e2baa7e87ab26f4674f9">GameObjectModelOwnerImpl</a>.</p>
+
+</div>
+</div>
+<a id="ad824da6970d512c344160714cd7ec434" name="ad824da6970d512c344160714cd7ec434"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad824da6970d512c344160714cd7ec434">&#9670;&#160;</a></span>IsSpawned()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual bool GameObjectModelOwnerBase::IsSpawned </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">pure virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implemented in <a class="el" href="../../df/d00/a07998.html#ae47eb25d16de37122042402443db6f3d">GameObjectModelOwnerImpl</a>.</p>
 
 </div>
 </div>
@@ -235,8 +364,8 @@ Public Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../df/d92/a04962.html">GameobjectModelData</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../df/d92/a04962.html">GameObjectModelOwnerBase</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:43 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

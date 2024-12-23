@@ -1,14 +1,8 @@
 var a08550 =
 [
-    [ "SafeUnitPointer", "df/d7b/a08550.html#a05ee5199683b1e68189a7d122bf3f5f4", null ],
-    [ "SafeUnitPointer", "df/d7b/a08550.html#a9ac4023d6ec32f96c757206dd4aa3fd6", null ],
-    [ "~SafeUnitPointer", "df/d7b/a08550.html#ad9c2be82f67eb4e825a9ffd07307983a", null ],
-    [ "Initialize", "df/d7b/a08550.html#a40f6e04585ca487c457d17ce10cc7b8c", null ],
-    [ "operator Unit *", "df/d7b/a08550.html#afee1d290f436472dd719ff83f41721f5", null ],
-    [ "operator->", "df/d7b/a08550.html#af63a04a7c6e6cb3002f5a99f90f70328", null ],
-    [ "operator=", "df/d7b/a08550.html#a44f522d9c22861f853df0286a3764d3e", null ],
-    [ "SetPointedTo", "df/d7b/a08550.html#a6603c67b736224a8e6559340afa8b275", null ],
-    [ "UnitDeleted", "df/d7b/a08550.html#a872b0a86328fb03e5feccdf364ea5cce", null ],
-    [ "defaultValue", "df/d7b/a08550.html#a38dce117cb135c9b84918a9bbc884f28", null ],
-    [ "ptr", "df/d7b/a08550.html#aa8bf5e4728aeb1ca7a8de1a727a84884", null ]
+    [ "DiminishingReturn", "df/d7b/a08550.html#acd4828637710636d0164fced285c854d", null ],
+    [ "DRGroup", "df/d7b/a08550.html#add3ab95d65e283a326e1922129941ae4", null ],
+    [ "hitCount", "df/d7b/a08550.html#a94b1fdc8e8d51b1c6f5e723e697ed323", null ],
+    [ "hitTime", "df/d7b/a08550.html#ae3f5eecc2bc88fe236fe4c7c297b68c5", null ],
+    [ "stack", "df/d7b/a08550.html#aeb40601df7e6507c7fd83e3152541ba5", null ]
 ];

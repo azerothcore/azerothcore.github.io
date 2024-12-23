@@ -1,6 +1,6 @@
 var a22830 =
 [
-    [ "HandleDummy", "d1/d69/a22830.html#a3347413822ce083085bcf1418fbdbae2", null ],
-    [ "PrepareSpellScript", "d1/d69/a22830.html#ad7b15a8c5cf3e2d38a1ce54afb24b3e5", null ],
-    [ "Register", "d1/d69/a22830.html#af0c8bf6a5076a4171a9d70f6872a21d5", null ]
+    [ "OnPeriodic", "d1/d69/a22830.html#a4d3d6350a06b6c7382792670c04e38e1", null ],
+    [ "PrepareAuraScript", "d1/d69/a22830.html#ac9231c238adf7e733d55bc6098daddc0", null ],
+    [ "Register", "d1/d69/a22830.html#aa6aa32b3adc89ac405f071fa9b804778", null ]
 ];

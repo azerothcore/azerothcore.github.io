@@ -1,11 +1,9 @@
 var a22290 =
 [
-    [ "boss_talon_king_ikiss", "db/d97/a22290.html#acf8cbda5f7a33c026bfc0d6e7b31f43c", null ],
-    [ "CanAIAttack", "db/d97/a22290.html#ab4858d845f149b6333941d8f8ab59afb", null ],
-    [ "JustDied", "db/d97/a22290.html#ada1d993842d04453d6afad91e186a3fe", null ],
-    [ "JustEngagedWith", "db/d97/a22290.html#a325312ce6695435fcca701720434c64f", null ],
-    [ "KilledUnit", "db/d97/a22290.html#ae8d94f89a67f3a321c88327c076ddd77", null ],
-    [ "MoveInLineOfSight", "db/d97/a22290.html#ab13808b75b1ca79b856e5b2e64e67d89", null ],
-    [ "Reset", "db/d97/a22290.html#adcb1dca375ec548499da5a7690babc21", null ],
-    [ "_spoken", "db/d97/a22290.html#a3e9e3a8575dbf21262ba2b4226182373", null ]
+    [ "npc_stolen_soul", "db/d97/a22290.html#a84a0bb8320b2332545748e010d855884", null ],
+    [ "DoAction", "db/d97/a22290.html#abcfed6b9b46ce48a15b31d062a1618f4", null ],
+    [ "Reset", "db/d97/a22290.html#a9f18ffbb42c988067b6dfa8355a4aba6", null ],
+    [ "UpdateAI", "db/d97/a22290.html#a7bf369dd943ee36600a364d56b85db5a", null ],
+    [ "_scheduler", "db/d97/a22290.html#ab62526916f0ccd681383d37d19d94ccc", null ],
+    [ "myClass", "db/d97/a22290.html#ab2ad92983075320ce389aa583c341d21", null ]
 ];

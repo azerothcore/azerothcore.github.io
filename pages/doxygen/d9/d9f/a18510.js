@@ -1,9 +1,9 @@
 var a18510 =
 [
-    [ "spell_trigger_spell_from_caster", "d9/d9f/a18510.html#a0dc389ab8bd51fcfd839250a3bbc2dcd", null ],
-    [ "HandleTrigger", "d9/d9f/a18510.html#afc11c9408ea11cb04e476999a9bdf522", null ],
-    [ "PrepareSpellScript", "d9/d9f/a18510.html#a24a9bd70a58f051cd6c4ceaff5d7fffe", null ],
-    [ "Register", "d9/d9f/a18510.html#ae44cc1a87267c1d08603d1aff2384957", null ],
-    [ "Validate", "d9/d9f/a18510.html#a3aace9a309bc848b887b03c949c921bd", null ],
-    [ "_triggerId", "d9/d9f/a18510.html#a29af52a9035f18936515a464889fefe5", null ]
+    [ "npc_icc_severed_essenceAI", "d9/d9f/a18510.html#a76366c33ab9ec7aa291c0df657fbef68", null ],
+    [ "CanAIAttack", "d9/d9f/a18510.html#a2cc2cfc967f9ad966d76571eb0eb630f", null ],
+    [ "DoAction", "d9/d9f/a18510.html#a938af3a7de5b26432e1ad515a326a032", null ],
+    [ "UpdateAI", "d9/d9f/a18510.html#a66e3324baa87ba109dd968a517ee82a5", null ],
+    [ "Class", "d9/d9f/a18510.html#aa627713be3a2ac01336d158d96aaccc7", null ],
+    [ "events", "d9/d9f/a18510.html#a1bab216925c4123d633d9613bb80365c", null ]
 ];

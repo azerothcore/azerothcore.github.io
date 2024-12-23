@@ -1,6 +1,6 @@
 var a17542 =
 [
-    [ "HandlePeriodic", "de/dd5/a17542.html#a9583ccd7b642694a06bde4b88826ec7b", null ],
-    [ "PrepareAuraScript", "de/dd5/a17542.html#a5d855d79247dff6f949a5e099abb9352", null ],
-    [ "Register", "de/dd5/a17542.html#ae797de0ed29b3ca179c07d759b469228", null ]
+    [ "npc_volatile_oozeAI", "d3/d77/a17546.html", "d3/d77/a17546" ],
+    [ "npc_volatile_ooze", "de/dd5/a17542.html#a22847e44812a0b13b92cfcca3a70204e", null ],
+    [ "GetAI", "de/dd5/a17542.html#a66b4918c14d90d5550ddc8dbe90c2e01", null ]
 ];

@@ -1,8 +1,6 @@
 var a25570 =
 [
-    [ "CheckQuest", "d8/d2b/a25570.html#ab7ebff0894832ac009cda89b7c28e252", null ],
-    [ "HandleDummy", "d8/d2b/a25570.html#a365df14504a54e95e7d68d22a284e441", null ],
-    [ "HandleOpenObject", "d8/d2b/a25570.html#a69467afd49dc2429b8ba9640c8af5dfa", null ],
-    [ "PrepareSpellScript", "d8/d2b/a25570.html#a479e313031a2e71473238d8f645bf2d4", null ],
-    [ "Register", "d8/d2b/a25570.html#a70f1a91e611cc2092aad44a909cd53db", null ]
+    [ "PrepareSpellScript", "d8/d2b/a25570.html#a738e105a48f6c603f3d9a690f44b8745", null ],
+    [ "Register", "d8/d2b/a25570.html#a6bc9791d0f08440e19b89daa9b65892c", null ],
+    [ "SetDest", "d8/d2b/a25570.html#a59641895cead08de4a4503262505ee73", null ]
 ];

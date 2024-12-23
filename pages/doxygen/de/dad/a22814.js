@@ -1,14 +1,12 @@
 var a22814 =
 [
-    [ "SpellIds", "de/dad/a22814.html#a2d0e9022edc8a9f6fc0e34330fda114a", [
-      [ "SPELL_SUMMON_WAVE_A_MOB", "de/dad/a22814.html#a2d0e9022edc8a9f6fc0e34330fda114aa19ea6e555692392677c74fccd206380b", null ],
-      [ "SPELL_SUMMON_WAVE_B_MOB", "de/dad/a22814.html#a2d0e9022edc8a9f6fc0e34330fda114aa938130293fb55c96d06462e407a24a89", null ],
-      [ "SPELL_SUMMON_WAVE_C_MOB", "de/dad/a22814.html#a2d0e9022edc8a9f6fc0e34330fda114aadc855654104e4ec0a09540e9b51cb098", null ],
-      [ "SPELL_SUMMON_WAVE_D_MOB", "de/dad/a22814.html#a2d0e9022edc8a9f6fc0e34330fda114aa3bbb32a8c4da3b06e9bf5da83f39970d", null ]
-    ] ],
-    [ "FilterTargets", "de/dad/a22814.html#a2a1a2e5069587f52ae968c84cd702eaf", null ],
-    [ "HandleHit", "de/dad/a22814.html#aa670812f42c3082f42e0f232ee6bee16", null ],
-    [ "PrepareSpellScript", "de/dad/a22814.html#a7fe65229c64c27909868f02439c1ef66", null ],
-    [ "Register", "de/dad/a22814.html#a0a8f29b524391ff257aba5cbdc355115", null ],
-    [ "Validate", "de/dad/a22814.html#ab8bcdcfcad2a9998d95567006817711e", null ]
+    [ "boss_fathomguard_sharkkis", "de/dad/a22814.html#affc3a4422ce62311879bef6df104c9b9", null ],
+    [ "EnterEvadeMode", "de/dad/a22814.html#a344072e382566575168cdcf57d0f6481", null ],
+    [ "JustDied", "de/dad/a22814.html#a1a4fdf91f6d8d0e3e0672e174152a59d", null ],
+    [ "JustEngagedWith", "de/dad/a22814.html#a5724db6f55f1c5ed2e351603a1b26943", null ],
+    [ "JustSummoned", "de/dad/a22814.html#a31098d1e91412b797663fe677114af20", null ],
+    [ "Reset", "de/dad/a22814.html#a5d8b89e2d4a203df5ec574b96df0d489", null ],
+    [ "UpdateAI", "de/dad/a22814.html#ab71689fda10d6d31dd2bfc72026bd755", null ],
+    [ "_instance", "de/dad/a22814.html#ad3dc90987a8b01fcd55799f66d18906c", null ],
+    [ "_summons", "de/dad/a22814.html#a73f887b3f829027fc336a8e4a9c5b963", null ]
 ];

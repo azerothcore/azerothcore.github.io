@@ -1,8 +1,6 @@
 var a12994 =
 [
-    [ "HandleApply", "d5/de1/a12994.html#a2e07ffc92d44757fe2b074244048dbf4", null ],
-    [ "HandleRemove", "d5/de1/a12994.html#ae0d8cb63cf62e5015daa56463524aa27", null ],
-    [ "PrepareAuraScript", "d5/de1/a12994.html#a4a59bd5c9ce7b74d29cdd6132f94c0bf", null ],
-    [ "Register", "d5/de1/a12994.html#a3b91d692ad34b7ce965887590780e146", null ],
-    [ "Validate", "d5/de1/a12994.html#aa3ee5b49e9e1009d5be34214eefd2a6d", null ]
+    [ "HandleActivateObject", "d5/de1/a12994.html#aedcb4513b7c53b9a9e972b9051da0e0f", null ],
+    [ "PrepareSpellScript", "d5/de1/a12994.html#afc844250ea7ba48330edfda305fa856c", null ],
+    [ "Register", "d5/de1/a12994.html#a6d77f6848397724e61c1db7a80de7139", null ]
 ];

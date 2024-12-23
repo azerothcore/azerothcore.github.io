@@ -1,7 +1,8 @@
 var a07902 =
 [
-    [ "entry", "d0/d9f/a07902.html#aabf7002fbd171e7f1832be5f066dbe44", null ],
-    [ "pos", "d0/d9f/a07902.html#aad6aa76796625075e4fcfb7d1a3eb88c", null ],
-    [ "time", "d0/d9f/a07902.html#a8a38eed04cdb2efb89e98f869e0d800d", null ],
-    [ "type", "d0/d9f/a07902.html#a40927a435b557e4c1e5c5eedbb5d5e5b", null ]
+    [ "bounding_radius", "d0/d9f/a07902.html#a9f4a794b06bcbe31fc0a104cc97b91a4", null ],
+    [ "combat_reach", "d0/d9f/a07902.html#ac271edb10093db19e4df1396053f820d", null ],
+    [ "gender", "d0/d9f/a07902.html#aa5c8134851ff4f7ab6ad2af3b6e1dc1e", null ],
+    [ "is_trigger", "d0/d9f/a07902.html#a52dbfa82e1525df681b87ab07ba8ead0", null ],
+    [ "modelid_other_gender", "d0/d9f/a07902.html#a222b3c513a64b385954ea549e67f4255", null ]
 ];

@@ -1,6 +1,6 @@
 var a19674 =
 [
-    [ "boss_freya_elder_stonebarkAI", "da/dcc/a19678.html", "da/dcc/a19678" ],
-    [ "boss_freya_elder_stonebark", "db/d14/a19674.html#a9c90c504d78456580ae657a42fac4075", null ],
-    [ "GetAI", "db/d14/a19674.html#a0b529bb8755c56046c40b620ef4b7448", null ]
+    [ "OnPeriodic", "db/d14/a19674.html#a379c55df994c58932fef7e7a59fd8426", null ],
+    [ "PrepareAuraScript", "db/d14/a19674.html#ab180f54264f0c90376587d1b4c4dfd40", null ],
+    [ "Register", "db/d14/a19674.html#aacfaa385ca4cbe64217ef191a32936e2", null ]
 ];

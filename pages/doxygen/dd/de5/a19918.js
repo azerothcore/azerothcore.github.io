@@ -1,5 +1,6 @@
 var a19918 =
 [
-    [ "achievement_getting_cold_in_here", "dd/de5/a19918.html#a57fe7262a09036ffa88e985cb7e2f123", null ],
-    [ "OnCheck", "dd/de5/a19918.html#aeafd382d378381f754da6ee04d382276", null ]
+    [ "npc_ulduar_hodir_mageAI", "d9/d18/a19922.html", "d9/d18/a19922" ],
+    [ "npc_ulduar_hodir_mage", "dd/de5/a19918.html#afebdd0f99f0c7eaaf0a2d5731335105d", null ],
+    [ "GetAI", "dd/de5/a19918.html#abcbe0337b2a83b6eb0a64f7465d7f79a", null ]
 ];

@@ -1,6 +1,6 @@
 var a20090 =
 [
-    [ "npc_ulduar_bot_summon_triggerAI", "dd/d59/a20094.html", "dd/d59/a20094" ],
-    [ "npc_ulduar_bot_summon_trigger", "da/d77/a20090.html#a7a369b4826c6c2a86704088f5dcf1ce7", null ],
-    [ "GetAI", "da/d77/a20090.html#a0d7f74fc910c5adcaaa46a9d2ea10ea3", null ]
+    [ "boss_mimironAI", "dd/d59/a20094.html", "dd/d59/a20094" ],
+    [ "boss_mimiron", "da/d77/a20090.html#a72904837bd85e9f711fcf3da04c459c3", null ],
+    [ "GetAI", "da/d77/a20090.html#a1d4f38ecee62a2c2a608afc158fad7f2", null ]
 ];

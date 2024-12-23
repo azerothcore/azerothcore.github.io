@@ -1,7 +1,11 @@
 var a15022 =
 [
-    [ "npc_prospector_remtravelAI", "d8/d53/a15026.html", "d8/d53/a15026" ],
-    [ "npc_prospector_remtravel", "dc/df0/a15022.html#aa213161fc60e615682252125f6c58f7f", null ],
-    [ "GetAI", "dc/df0/a15022.html#aa8e1bb551036684b05c1b3bea4c66b1d", null ],
-    [ "OnQuestAccept", "dc/df0/a15022.html#a5e11149b6359927a71c98242d979e65b", null ]
+    [ "npc_magwinAI", "dc/df0/a15022.html#ad4a352dd0c7c6f76e74f110b00ec9053", null ],
+    [ "JustEngagedWith", "dc/df0/a15022.html#aea2ab8bf79d6fcc3d2036d160274fab8", null ],
+    [ "Reset", "dc/df0/a15022.html#a883ef3cd1b097847de148ccb9bd3e903", null ],
+    [ "sQuestAccept", "dc/df0/a15022.html#aafef28bc7879e29d1fa79ec08f58da55", null ],
+    [ "UpdateEscortAI", "dc/df0/a15022.html#a34236331be8842a9e2a98036ea382e18", null ],
+    [ "WaypointReached", "dc/df0/a15022.html#a7278a3cff406af2ecb3d29c7bf90febc", null ],
+    [ "_events", "dc/df0/a15022.html#a32dad2bde92efab7e0f0d16e809df665", null ],
+    [ "_player", "dc/df0/a15022.html#ac3d7059ee67abcafa0586f0bed5df9cc", null ]
 ];

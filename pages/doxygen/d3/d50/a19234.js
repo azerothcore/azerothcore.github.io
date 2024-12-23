@@ -1,6 +1,6 @@
 var a19234 =
 [
-    [ "boss_sjonnir_iron_sludgeAI", "d1/d31/a19238.html", "d1/d31/a19238" ],
-    [ "boss_sjonnir_iron_sludge", "d3/d50/a19234.html#ae1c523266aab3e8e2c337dede7390c7b", null ],
-    [ "GetAI", "d3/d50/a19234.html#a2d077bfeac6479d83240ee00ca5aa0e0", null ]
+    [ "npc_hol_monumentAI", "d1/d31/a19238.html", "d1/d31/a19238" ],
+    [ "npc_hol_monument", "d3/d50/a19234.html#ae70329e600ba869891e04b31d7452fc0", null ],
+    [ "GetAI", "d3/d50/a19234.html#a8e025a4c67d3a04a231f4effe0ef3746", null ]
 ];

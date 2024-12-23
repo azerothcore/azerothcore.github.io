@@ -1,6 +1,7 @@
 var a15330 =
 [
-    [ "npc_cairne_bloodhoofAI", "df/dd9/a15334.html", "df/dd9/a15334" ],
-    [ "npc_cairne_bloodhoof", "d4/d74/a15330.html#a3519d94c5fcdc3d55e31c49c7773e56c", null ],
-    [ "GetAI", "d4/d74/a15330.html#a1c34470c46ae9e98684de0e786be28b7", null ]
+    [ "npc_giltharesAI", "d4/d74/a15330.html#af22e42b2180987febd964784b6d49b5e", null ],
+    [ "JustEngagedWith", "d4/d74/a15330.html#ae9ba65652db3d2d32920d1a98594727a", null ],
+    [ "Reset", "d4/d74/a15330.html#a34d57ef71b60fe71c749f790cecf70b2", null ],
+    [ "WaypointReached", "d4/d74/a15330.html#a9308c73760e50e0f3d04031b508526d1", null ]
 ];

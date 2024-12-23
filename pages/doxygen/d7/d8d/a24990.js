@@ -1,6 +1,7 @@
 var a24990 =
 [
-    [ "CheckCast", "d7/d8d/a24990.html#a712900d0c9e9cc78b5de2886e416f34d", null ],
-    [ "PrepareSpellScript", "d7/d8d/a24990.html#a0bc2de519e0c84688fad609444d28afa", null ],
-    [ "Register", "d7/d8d/a24990.html#a7f438fb8ce7eda520a366437df65c6e8", null ]
+    [ "HandleDummy", "d7/d8d/a24990.html#a704a2f1c36b32809b22bc3edc87b3414", null ],
+    [ "PrepareSpellScript", "d7/d8d/a24990.html#aad01f2888176e8a555fe7acd1bc3fd8b", null ],
+    [ "Register", "d7/d8d/a24990.html#ae12fa2b2f9859b465a64fbec04345c9e", null ],
+    [ "Validate", "d7/d8d/a24990.html#ad4bb369ef46122cd45c38d876884d350", null ]
 ];

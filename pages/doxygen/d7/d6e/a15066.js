@@ -1,6 +1,10 @@
 var a15066 =
 [
-    [ "npc_tiger_matriarch_creditAI", "d7/d6e/a15066.html#a628772971a9c2a190ffe2fae6b0b6865", null ],
-    [ "UpdateAI", "d7/d6e/a15066.html#a0fc7ca1313a21c5f74539ce2dbd7465d", null ],
-    [ "events", "d7/d6e/a15066.html#ae96e0de4a36dde3237520e8a0ddd9f5f", null ]
+    [ "npc_murkdeepAI", "d7/d6e/a15066.html#abe78235ecb94e4735a6f8eaad7fe6adc", null ],
+    [ "JustEngagedWith", "d7/d6e/a15066.html#ad33de7cb0caffcd255db38204ecfbb1c", null ],
+    [ "Reset", "d7/d6e/a15066.html#aa89316a0fe4f99630a4a129aed305e24", null ],
+    [ "UpdateAI", "d7/d6e/a15066.html#aeca85a1324791d18ac825401fb8a31e8", null ],
+    [ "events", "d7/d6e/a15066.html#ae3d344829aeba22ef0c5947863720390", null ],
+    [ "phase", "d7/d6e/a15066.html#a74a3a16cb3f2993aea9c5d6736a6914e", null ],
+    [ "spawnTimer", "d7/d6e/a15066.html#a6b139fb5cc0776103934f14be15c34d1", null ]
 ];

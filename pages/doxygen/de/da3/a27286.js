@@ -1,6 +1,7 @@
 var a27286 =
 [
-    [ "npc_venomhide_hatchlingAI", "de/da3/a27286.html#aa5929973ae39166ef381a3ed3c42a29c", null ],
-    [ "IsSummonedBy", "de/da3/a27286.html#a6e1b76f43217f1eb855b50d58a069518", null ],
-    [ "SpellHit", "de/da3/a27286.html#ac6c255438dc2f6c750ee47b61fbc20a3", null ]
+    [ "npc_steam_tonkAI", "de/da3/a27286.html#a64bc74af412304d50526e5c93e01a333", null ],
+    [ "JustEngagedWith", "de/da3/a27286.html#a95b023adf0a2e62788e0d5646b17b319", null ],
+    [ "OnPossess", "de/da3/a27286.html#a954208c1a9826ae84a7402f59e1d7055", null ],
+    [ "Reset", "de/da3/a27286.html#a5c76625843b30302b2af0a4ae8b85bd2", null ]
 ];

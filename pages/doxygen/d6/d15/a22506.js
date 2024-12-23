@@ -1,7 +1,10 @@
 var a22506 =
 [
-    [ "PrepareAuraScript", "d6/d15/a22506.html#afb2e94c1e67b12b7350d83241b3f2864", null ],
-    [ "Register", "d6/d15/a22506.html#a0a5ac432eca09206ac032317e8aa8cfc", null ],
-    [ "Update", "d6/d15/a22506.html#aa0da369c2047df144c4a9af37a2ea13c", null ],
-    [ "Validate", "d6/d15/a22506.html#a70248cfa468dfb3a97ea7f8b6848bc5f", null ]
+    [ "boss_illidari_council", "d6/d15/a22506.html#a078c36be39b377f6d1cdbf061d70270d", null ],
+    [ "AttackStart", "d6/d15/a22506.html#a260b15ec58164f17543aa044a89875a8", null ],
+    [ "DamageTaken", "d6/d15/a22506.html#af8e88c307efaba392cc2a1d2f3862078", null ],
+    [ "DoAction", "d6/d15/a22506.html#a6c3c57523ed2775ba553af1171b46463", null ],
+    [ "EnterEvadeMode", "d6/d15/a22506.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
+    [ "MoveInLineOfSight", "d6/d15/a22506.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
+    [ "UpdateAI", "d6/d15/a22506.html#a8b30df956aa4ce1727756f1d19e151be", null ]
 ];

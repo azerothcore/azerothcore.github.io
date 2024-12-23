@@ -1,7 +1,7 @@
 var a15094 =
 [
-    [ "HandleDummy", "d3/dd4/a15094.html#a38dafff805471b19ca3cca4ff5273a87", null ],
-    [ "PrepareSpellScript", "d3/dd4/a15094.html#a40db5a46491aa22b5347f99b0251f1b8", null ],
-    [ "Register", "d3/dd4/a15094.html#a2f297ab67d5e2e990658706f7c508bd4", null ],
-    [ "Validate", "d3/dd4/a15094.html#abb7946f53e6271ae69d34caacef61f47", null ]
+    [ "npc_tharnarianAI", "d4/dcc/a15098.html", "d4/dcc/a15098" ],
+    [ "npc_tharnarian", "d3/dd4/a15094.html#a39d9d9842a7a42c5381e38d10285aa15", null ],
+    [ "GetAI", "d3/dd4/a15094.html#aaff8dad5d2bdb1571ed2e7a14c64899f", null ],
+    [ "OnQuestReward", "d3/dd4/a15094.html#aedf88edfd99292a68b8e08f9f05d8f00", null ]
 ];

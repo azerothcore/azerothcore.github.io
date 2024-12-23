@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: Acore::ObjectGUIDCheck Class Reference</title>
+<title>AzerothCore: Acore::NearestHostileUnitInAttackDistanceCheck Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -106,9 +106,10 @@ $(document).ready(function(){initNavTree('d3/d3e/a09162.html','../../'); initRes
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../dc/da4/a09159.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">Acore::ObjectGUIDCheck Class Reference</div></div>
+  <div class="headertitle"><div class="title">Acore::NearestHostileUnitInAttackDistanceCheck Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
@@ -116,22 +117,27 @@ $(document).ready(function(){initNavTree('d3/d3e/a09162.html','../../'); initRes
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4932b3610ddc148ee5a30a6ce91c6f27"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a4932b3610ddc148ee5a30a6ce91c6f27">ObjectGUIDCheck</a> (<a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> GUID, bool equals)</td></tr>
-<tr class="separator:a4932b3610ddc148ee5a30a6ce91c6f27"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f3f6e89a9e621a208cd6795722ae4ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a0f3f6e89a9e621a208cd6795722ae4ef">operator()</a> (<a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *object)</td></tr>
-<tr class="separator:a0f3f6e89a9e621a208cd6795722ae4ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b1d14f1347a3749a91ef6e888ccb23e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a0b1d14f1347a3749a91ef6e888ccb23e">NearestHostileUnitInAttackDistanceCheck</a> (<a class="el" href="../../d8/d56/a07846.html">Creature</a> const *creature, float dist)</td></tr>
+<tr class="separator:a0b1d14f1347a3749a91ef6e888ccb23e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adc28281742cd1f6a49152481b48f944e"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#adc28281742cd1f6a49152481b48f944e">operator()</a> (<a class="el" href="../../d4/d46/a08598.html">Unit</a> *u)</td></tr>
+<tr class="separator:adc28281742cd1f6a49152481b48f944e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a5645c9808db082b0301ec8b2ea93ce7f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a5645c9808db082b0301ec8b2ea93ce7f">NearestHostileUnitInAttackDistanceCheck</a> (<a class="el" href="../../d3/d3e/a09162.html">NearestHostileUnitInAttackDistanceCheck</a> const &amp;)</td></tr>
+<tr class="separator:a5645c9808db082b0301ec8b2ea93ce7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a0e97bfe0e160177549a831df8e9b4555"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a0e97bfe0e160177549a831df8e9b4555">_GUID</a></td></tr>
-<tr class="separator:a0e97bfe0e160177549a831df8e9b4555"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a413d991eeee0294a54f3c803e296c3ac"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a413d991eeee0294a54f3c803e296c3ac">_equals</a></td></tr>
-<tr class="separator:a413d991eeee0294a54f3c803e296c3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a298d2489b9bf30aa510407afca79a374"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d8/d56/a07846.html">Creature</a> const  *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">me</a></td></tr>
+<tr class="separator:a298d2489b9bf30aa510407afca79a374"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab79296a88ed07257edbe3449c2515b40"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40">m_range</a></td></tr>
+<tr class="separator:ab79296a88ed07257edbe3449c2515b40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a4932b3610ddc148ee5a30a6ce91c6f27" name="a4932b3610ddc148ee5a30a6ce91c6f27"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4932b3610ddc148ee5a30a6ce91c6f27">&#9670;&#160;</a></span>ObjectGUIDCheck()</h2>
+<a id="a0b1d14f1347a3749a91ef6e888ccb23e" name="a0b1d14f1347a3749a91ef6e888ccb23e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0b1d14f1347a3749a91ef6e888ccb23e">&#9670;&#160;</a></span>NearestHostileUnitInAttackDistanceCheck() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -140,16 +146,16 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Acore::ObjectGUIDCheck::ObjectGUIDCheck </td>
+          <td class="memname">Acore::NearestHostileUnitInAttackDistanceCheck::NearestHostileUnitInAttackDistanceCheck </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a>&#160;</td>
-          <td class="paramname"><em>GUID</em>, </td>
+          <td class="paramtype"><a class="el" href="../../d8/d56/a07846.html">Creature</a> const *&#160;</td>
+          <td class="paramname"><em>creature</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>equals</em>&#160;</td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>dist</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -159,19 +165,18 @@ Private Attributes</h2></td></tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1615</span>: <a class="code hl_variable" href="../../d3/d3e/a09162.html#a0e97bfe0e160177549a831df8e9b4555">_GUID</a>(GUID), <a class="code hl_variable" href="../../d3/d3e/a09162.html#a413d991eeee0294a54f3c803e296c3ac">_equals</a>(equals) {}</div>
-<div class="ttc" id="aa09162_html_a0e97bfe0e160177549a831df8e9b4555"><div class="ttname"><a href="../../d3/d3e/a09162.html#a0e97bfe0e160177549a831df8e9b4555">Acore::ObjectGUIDCheck::_GUID</a></div><div class="ttdeci">ObjectGuid _GUID</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1622</div></div>
-<div class="ttc" id="aa09162_html_a413d991eeee0294a54f3c803e296c3ac"><div class="ttname"><a href="../../d3/d3e/a09162.html#a413d991eeee0294a54f3c803e296c3ac">Acore::ObjectGUIDCheck::_equals</a></div><div class="ttdeci">bool _equals</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1623</div></div>
+<div class="fragment"><div class="line"><span class="lineno"> 1223</span>: <a class="code hl_variable" href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">me</a>(creature), <a class="code hl_variable" href="../../d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40">m_range</a>(dist) {}</div>
+<div class="ttc" id="aa09162_html_a298d2489b9bf30aa510407afca79a374"><div class="ttname"><a href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">Acore::NearestHostileUnitInAttackDistanceCheck::me</a></div><div class="ttdeci">Creature const  * me</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1236</div></div>
+<div class="ttc" id="aa09162_html_ab79296a88ed07257edbe3449c2515b40"><div class="ttname"><a href="../../d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40">Acore::NearestHostileUnitInAttackDistanceCheck::m_range</a></div><div class="ttdeci">float m_range</div><div class="ttdef"><b>Definition:</b> GridNotifiers.h:1237</div></div>
 </div><!-- fragment -->
 </div>
 </div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="a0f3f6e89a9e621a208cd6795722ae4ef" name="a0f3f6e89a9e621a208cd6795722ae4ef"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f3f6e89a9e621a208cd6795722ae4ef">&#9670;&#160;</a></span>operator()()</h2>
+<a id="a5645c9808db082b0301ec8b2ea93ce7f" name="a5645c9808db082b0301ec8b2ea93ce7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5645c9808db082b0301ec8b2ea93ce7f">&#9670;&#160;</a></span>NearestHostileUnitInAttackDistanceCheck() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -180,10 +185,37 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Acore::ObjectGUIDCheck::operator() </td>
+          <td class="memname">Acore::NearestHostileUnitInAttackDistanceCheck::NearestHostileUnitInAttackDistanceCheck </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="../../db/df3/a08182.html">WorldObject</a> const *&#160;</td>
-          <td class="paramname"><em>object</em></td><td>)</td>
+          <td class="paramtype"><a class="el" href="../../d3/d3e/a09162.html">NearestHostileUnitInAttackDistanceCheck</a> const &amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="adc28281742cd1f6a49152481b48f944e" name="adc28281742cd1f6a49152481b48f944e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adc28281742cd1f6a49152481b48f944e">&#9670;&#160;</a></span>operator()()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Acore::NearestHostileUnitInAttackDistanceCheck::operator() </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d4/d46/a08598.html">Unit</a> *&#160;</td>
+          <td class="paramname"><em>u</em></td><td>)</td>
           <td></td>
         </tr>
       </table>
@@ -193,17 +225,27 @@ Private Attributes</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno"> 1617</span>        {</div>
-<div class="line"><span class="lineno"> 1618</span>            <span class="keywordflow">return</span> (object-&gt;GetGUID() == <a class="code hl_variable" href="../../d3/d3e/a09162.html#a0e97bfe0e160177549a831df8e9b4555">_GUID</a>) == <a class="code hl_variable" href="../../d3/d3e/a09162.html#a413d991eeee0294a54f3c803e296c3ac">_equals</a>;</div>
-<div class="line"><span class="lineno"> 1619</span>        }</div>
+<div class="fragment"><div class="line"><span class="lineno"> 1225</span>        {</div>
+<div class="line"><span class="lineno"> 1226</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">me</a>-&gt;<a class="code hl_function" href="../../de/d0d/a08250.html#ab73407bcdf13a30519a953d24773ed02">IsWithinDistInMap</a>(u, <a class="code hl_variable" href="../../d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40">m_range</a>, <span class="keyword">true</span>, <span class="keyword">false</span>))</div>
+<div class="line"><span class="lineno"> 1227</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1228</span> </div>
+<div class="line"><span class="lineno"> 1229</span>            <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">me</a>-&gt;<a class="code hl_function" href="../../d8/d56/a07846.html#a44d11d16e2cbdb8316790cc8550df75c">CanStartAttack</a>(u))</div>
+<div class="line"><span class="lineno"> 1230</span>                <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
+<div class="line"><span class="lineno"> 1231</span> </div>
+<div class="line"><span class="lineno"> 1232</span>            <a class="code hl_variable" href="../../d3/d3e/a09162.html#ab79296a88ed07257edbe3449c2515b40">m_range</a> = <a class="code hl_variable" href="../../d3/d3e/a09162.html#a298d2489b9bf30aa510407afca79a374">me</a>-&gt;<a class="code hl_function" href="../../de/d0d/a08250.html#acaa0cccbbb9cac74080c8279a571a68c">GetDistance</a>(u);   <span class="comment">// use found unit range as new range limit for next check</span></div>
+<div class="line"><span class="lineno"> 1233</span>            <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
+<div class="line"><span class="lineno"> 1234</span>        }</div>
+<div class="ttc" id="aa07846_html_a44d11d16e2cbdb8316790cc8550df75c"><div class="ttname"><a href="../../d8/d56/a07846.html#a44d11d16e2cbdb8316790cc8550df75c">Creature::CanStartAttack</a></div><div class="ttdeci">bool CanStartAttack(Unit const *u) const</div><div class="ttdef"><b>Definition:</b> Creature.cpp:1908</div></div>
+<div class="ttc" id="aa08250_html_ab73407bcdf13a30519a953d24773ed02"><div class="ttname"><a href="../../de/d0d/a08250.html#ab73407bcdf13a30519a953d24773ed02">WorldObject::IsWithinDistInMap</a></div><div class="ttdeci">bool IsWithinDistInMap(WorldObject const *obj, float dist2compare, bool is3D=true, bool useBoundingRadius=true) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1332</div></div>
+<div class="ttc" id="aa08250_html_acaa0cccbbb9cac74080c8279a571a68c"><div class="ttname"><a href="../../de/d0d/a08250.html#acaa0cccbbb9cac74080c8279a571a68c">WorldObject::GetDistance</a></div><div class="ttdeci">float GetDistance(WorldObject const *obj) const</div><div class="ttdef"><b>Definition:</b> Object.cpp:1256</div></div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l01623">_equals</a>, <a class="el" href="../../#l01622">_GUID</a>, and <a class="el" href="../../#l00112">Object::GetGUID()</a>.</p>
+<p class="reference">References <a class="el" href="../../#l01908">Creature::CanStartAttack()</a>, <a class="el" href="../../#l01256">WorldObject::GetDistance()</a>, <a class="el" href="../../#l01332">WorldObject::IsWithinDistInMap()</a>, <a class="el" href="../../#l01237">m_range</a>, and <a class="el" href="../../#l01236">me</a>.</p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a413d991eeee0294a54f3c803e296c3ac" name="a413d991eeee0294a54f3c803e296c3ac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a413d991eeee0294a54f3c803e296c3ac">&#9670;&#160;</a></span>_equals</h2>
+<a id="ab79296a88ed07257edbe3449c2515b40" name="ab79296a88ed07257edbe3449c2515b40"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab79296a88ed07257edbe3449c2515b40">&#9670;&#160;</a></span>m_range</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -212,7 +254,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">bool Acore::ObjectGUIDCheck::_equals</td>
+          <td class="memname">float Acore::NearestHostileUnitInAttackDistanceCheck::m_range</td>
         </tr>
       </table>
   </td>
@@ -222,12 +264,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l01616">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01224">operator()()</a>.</p>
 
 </div>
 </div>
-<a id="a0e97bfe0e160177549a831df8e9b4555" name="a0e97bfe0e160177549a831df8e9b4555"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e97bfe0e160177549a831df8e9b4555">&#9670;&#160;</a></span>_GUID</h2>
+<a id="a298d2489b9bf30aa510407afca79a374" name="a298d2489b9bf30aa510407afca79a374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a298d2489b9bf30aa510407afca79a374">&#9670;&#160;</a></span>me</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -236,7 +278,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d9/d08/a08198.html">ObjectGuid</a> Acore::ObjectGUIDCheck::_GUID</td>
+          <td class="memname"><a class="el" href="../../d8/d56/a07846.html">Creature</a> const* Acore::NearestHostileUnitInAttackDistanceCheck::me</td>
         </tr>
       </table>
   </td>
@@ -246,7 +288,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p class="reference">Referenced by <a class="el" href="../../#l01616">operator()()</a>.</p>
+<p class="reference">Referenced by <a class="el" href="../../#l01224">operator()()</a>.</p>
 
 </div>
 </div>
@@ -255,8 +297,8 @@ Private Attributes</h2></td></tr>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/d3e/a09162.html">ObjectGUIDCheck</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:44:29 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d8/d20/a04686.html">Acore</a></li><li class="navelem"><a class="el" href="../../d3/d3e/a09162.html">NearestHostileUnitInAttackDistanceCheck</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:40:41 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

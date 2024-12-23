@@ -1,6 +1,6 @@
 var a17390 =
 [
-    [ "npc_vengeful_shadeAI", "db/dd1/a17394.html", "db/dd1/a17394" ],
-    [ "npc_vengeful_shade", "d2/dce/a17390.html#a99c535efd94fbd5bded8fd9555bb6eaf", null ],
-    [ "GetAI", "d2/dce/a17390.html#afa2c672015b43d83bd55050ed020f7e5", null ]
+    [ "IgbArtilleryCheck", "d2/dce/a17390.html#a78b65928551ed799cf3f446f0603c50e", null ],
+    [ "operator()", "d2/dce/a17390.html#ac083bfb9a5fa2b9888c4e31254baada6", null ],
+    [ "_entry", "d2/dce/a17390.html#a98a6a0836414da82c288e372e982f69f", null ]
 ];

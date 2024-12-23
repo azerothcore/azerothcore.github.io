@@ -1,6 +1,7 @@
 var a12906 =
 [
-    [ "instance_sunken_temple_InstanceMapScript", "d2/d3f/a12910.html", "d2/d3f/a12910" ],
-    [ "instance_sunken_temple", "d9/d03/a12906.html#a123b052c1cd1487588c88bf2611bc53b", null ],
-    [ "GetInstanceScript", "d9/d03/a12906.html#a1a783056b681f1f3b90e2e33e6a4a86d", null ]
+    [ "HandleScript", "d9/d03/a12906.html#acbff60b24bd0239880378b48cb97b6a4", null ],
+    [ "PrepareSpellScript", "d9/d03/a12906.html#a2f72b76ced4443a8eb1dfcf7bf6a4ac5", null ],
+    [ "Register", "d9/d03/a12906.html#a132d35555f1d589caa65ecd3728976d5", null ],
+    [ "Validate", "d9/d03/a12906.html#a503ce41357f8195837c9b14f2468fb5b", null ]
 ];

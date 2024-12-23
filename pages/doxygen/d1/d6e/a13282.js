@@ -1,10 +1,11 @@
 var a13282 =
 [
-    [ "npc_grand_magister_rommathAI", "d1/d6e/a13282.html#a5e9404dd8bf4b513e05daac53c076314", null ],
-    [ "DoAction", "d1/d6e/a13282.html#a138bc8cd6f1312d83fefdf5499a479b7", null ],
-    [ "MoveInLineOfSight", "d1/d6e/a13282.html#ad35b64b37915484b133bcd185a832011", null ],
-    [ "UpdateAI", "d1/d6e/a13282.html#ac687bd20f0ae66b21ce52c21561af417", null ],
-    [ "announced", "d1/d6e/a13282.html#a4c9107ef5d4a85d7487ff4cf7bf6464a", null ],
-    [ "events", "d1/d6e/a13282.html#a4c1b6616bc88a9ad5074670843315bc6", null ],
-    [ "playerGUID", "d1/d6e/a13282.html#ad0ac0647feb998e837a44b0a688694e9", null ]
+    [ "npc_supervisor_raelen", "d1/d6e/a13282.html#a2059d41f6df3a44406ab69a0dca501a4", null ],
+    [ "CallPeasent", "d1/d6e/a13282.html#a0b8d661a86ec334adeb502d6936135ee", null ],
+    [ "Reset", "d1/d6e/a13282.html#a656029c56da84d2d3cee7380d6032e3d", null ],
+    [ "SetData", "d1/d6e/a13282.html#ab709a5a975c22556dfe71dce52a3ec2c", null ],
+    [ "UpdateAI", "d1/d6e/a13282.html#a623a95d4f3ca483d1bf3dff5e06c1958", null ],
+    [ "_events", "d1/d6e/a13282.html#a1ed36b07ff83a6a8a202f4a451d90190", null ],
+    [ "_PeasentId", "d1/d6e/a13282.html#ae3e44b8f29f05c771137c5b9afd5da56", null ],
+    [ "peasentGUIDs", "d1/d6e/a13282.html#a6e290a29c8205b22bd668f0516e8904a", null ]
 ];

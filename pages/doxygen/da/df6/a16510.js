@@ -1,6 +1,6 @@
 var a16510 =
 [
-    [ "npc_phantom_hallucinationAI", "dc/d25/a16514.html", "dc/d25/a16514" ],
-    [ "npc_phantom_hallucination", "da/df6/a16510.html#a685889c090152a2562ee9adef7efbf71", null ],
-    [ "GetAI", "da/df6/a16510.html#a771ee338f87ca0a2e9a7d02d1322c5d5", null ]
+    [ "entry", "da/df6/a16510.html#a80e1510436336f4ed17748a06b27178d", null ],
+    [ "pathId", "da/df6/a16510.html#a0b7e499d633e11b314852fb1154ea8e6", null ],
+    [ "startPosition", "da/df6/a16510.html#ac8c0dd74d76778aa2f5948b5c8c5ada4", null ]
 ];

@@ -1,9 +1,10 @@
 var a25778 =
 [
-    [ "CheckCast", "d7/d22/a25778.html#ad7bfc65b26013ad259679ae8b4a5dd9a", null ],
-    [ "HandleTriggerSpellHit", "d7/d22/a25778.html#aca027bb2995456bfcedd33c06966eb88", null ],
-    [ "HandleTriggerSpellLaunch", "d7/d22/a25778.html#aa67bf9f81086a3837037d67306979072", null ],
-    [ "PrepareSpellScript", "d7/d22/a25778.html#a9247b5f3a376bebdcf857565b5049944", null ],
-    [ "Register", "d7/d22/a25778.html#aaf056806d72da6aa2e3e6e70d46d6933", null ],
-    [ "Validate", "d7/d22/a25778.html#a4fc8f6a7ecd041dcfca4fd51d71e725c", null ]
+    [ "Load", "d7/d22/a25778.html#a4330a13b4144aa0a2e299c5cb00b1aea", null ],
+    [ "PrepareAuraScript", "d7/d22/a25778.html#ae04fa1b54e4b0219d1dcdf998e708c29", null ],
+    [ "Register", "d7/d22/a25778.html#a3031d32b7366f7f707cbb69e3cb96fc8", null ],
+    [ "Split", "d7/d22/a25778.html#aa28fe4ba6a8a501318b6d1d49a2fa9b9", null ],
+    [ "groupSize", "d7/d22/a25778.html#aa1e61b128f63c802dc623be551657df1", null ],
+    [ "minHpPct", "d7/d22/a25778.html#a279f1a2b232a7be981e4315c9e8595e4", null ],
+    [ "remainingAmount", "d7/d22/a25778.html#ad00a550f82d6b3ae77c3112c753de60b", null ]
 ];

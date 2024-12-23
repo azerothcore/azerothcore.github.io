@@ -1,6 +1,5 @@
 var a16502 =
 [
-    [ "npc_phantom_mageAI", "db/dce/a16506.html", "db/dce/a16506" ],
-    [ "npc_phantom_mage", "de/dd3/a16502.html#ad57414231c40917bf55d6155fa9c05db", null ],
-    [ "GetAI", "de/dd3/a16502.html#ae2134b8be3052da659390bde7c2aac2e", null ]
+    [ "npc_fos_leader_secondAI", "de/dd3/a16502.html#a25df0b8760e9eb7d330779e10e3ac548", null ],
+    [ "MovementInform", "de/dd3/a16502.html#a9cc0b500f1289dc8b764b3755468e639", null ]
 ];

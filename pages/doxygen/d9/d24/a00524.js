@@ -1,8 +1,8 @@
 var a00524 =
 [
-    [ "map_fileheader", "df/d09/a09506.html", "df/d09/a09506" ],
-    [ "map_heightHeader", "d8/d6d/a09514.html", "d8/d6d/a09514" ],
-    [ "map_liquidHeader", "d4/d61/a09518.html", "d4/d61/a09518" ],
+    [ "map_fileheader", "da/de5/a09574.html", "da/de5/a09574" ],
+    [ "map_heightHeader", "d5/d6e/a09582.html", "d5/d6e/a09582" ],
+    [ "map_liquidHeader", "dc/df3/a09586.html", "dc/df3/a09586" ],
     [ "MAP_HEIGHT_AS_INT16", "d9/d24/a00524.html#aefa74fa33f3eba2d39b407c2fd2e8aba", null ],
     [ "MAP_HEIGHT_AS_INT8", "d9/d24/a00524.html#a15a9245a53c00f1a8a89dd2d798cea9d", null ],
     [ "MAP_HEIGHT_NO_HEIGHT", "d9/d24/a00524.html#aa5c2437972b2be5c5ff23a7ac04e2680", null ],

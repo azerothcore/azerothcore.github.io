@@ -1,11 +1,8 @@
 var a17890 =
 [
-    [ "AddMissingStack", "d5/dc5/a17890.html#ae23dc772e58db8648a7ddbf5255bd917", null ],
-    [ "CheckAura", "d5/dc5/a17890.html#a9d9e5620f61c92d35b08bec100b5a12a", null ],
-    [ "FilterTargets", "d5/dc5/a17890.html#ab6c86c3680823329d5f3aad985aa316a", null ],
-    [ "Load", "d5/dc5/a17890.html#a823e600ee1a350ab60ea69043e4fbef9", null ],
-    [ "PrepareSpellScript", "d5/dc5/a17890.html#aff3b52df65504d7d4928b1ff69c1fa4b", null ],
-    [ "Register", "d5/dc5/a17890.html#af0e6f1fc6687de1abcc1689116150088", null ],
-    [ "_hadInitialAura", "d5/dc5/a17890.html#a1b553c0ad5fc4e86f02829b5284db709", null ],
-    [ "_hadJumpingAura", "d5/dc5/a17890.html#ade3c2e5f78cbfbc34a3cbc8259e241db", null ]
+    [ "NecroticPlagueTargetCheck", "d5/dc5/a17890.html#abf9c21cc0041e5981a91abce8fb0a58f", null ],
+    [ "operator()", "d5/dc5/a17890.html#a801a176e367a9f4446fe080845477654", null ],
+    [ "_notAura1", "d5/dc5/a17890.html#a4f52417f233e1ab06210726670f719f3", null ],
+    [ "_notAura2", "d5/dc5/a17890.html#affa9b300cd7a7469b0bdf2a72d380dd6", null ],
+    [ "_sourceObj", "d5/dc5/a17890.html#a7cf2e485e65f2396cfdbfe8e646e4d53", null ]
 ];

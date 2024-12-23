@@ -1,8 +1,14 @@
 var a24258 =
 [
-    [ "HandleEffectApply", "de/d7b/a24258.html#a88e98bcb11fb16696f789878f79c665c", null ],
-    [ "HandleEffectRemove", "de/d7b/a24258.html#ab2d5f1dccd9bdf9f087ee3203b0d18c2", null ],
-    [ "PrepareAuraScript", "de/d7b/a24258.html#a64f9e0f3d0376342767b912e32642c6c", null ],
-    [ "Register", "de/d7b/a24258.html#a72d6639589588282ea15cfe83c9e9b76", null ],
-    [ "Validate", "de/d7b/a24258.html#ac936c92c3a24fba95505243cd3e79c21", null ]
+    [ "Absorb", "de/d7b/a24258.html#a401274543919a81efea81008f8020ed1", null ],
+    [ "CalculateAmount", "de/d7b/a24258.html#a837b0e3f0135f7b8393f1ee630d90c50", null ],
+    [ "HandleEffectApply", "de/d7b/a24258.html#a0acb2be86ed6da238e8769d4871526d3", null ],
+    [ "HandleEffectRemove", "de/d7b/a24258.html#a2b1e9dbb5d3543acd36f9253f224b9a7", null ],
+    [ "Load", "de/d7b/a24258.html#ab22271735c240c0d375324f54efc8313", null ],
+    [ "PrepareAuraScript", "de/d7b/a24258.html#af040fefa0f25f319f98340b9908bb85e", null ],
+    [ "Register", "de/d7b/a24258.html#af89379413ea3b10477ea267ac8e51004", null ],
+    [ "Trigger", "de/d7b/a24258.html#ae1704ed58255389c7483f75b5f0a227c", null ],
+    [ "Validate", "de/d7b/a24258.html#a58faaf03fc6a0974049da2af0fc70825", null ],
+    [ "absorbPct", "de/d7b/a24258.html#a3a9bd069cf4732f64990277227d71d0d", null ],
+    [ "hpPct", "de/d7b/a24258.html#a83ef3e3f9534366c24311f3281a8d0b8", null ]
 ];

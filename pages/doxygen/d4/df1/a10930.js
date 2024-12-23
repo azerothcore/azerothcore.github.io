@@ -1,5 +1,6 @@
 var a10930 =
 [
-    [ "groupId", "d4/df1/a10930.html#a71a218d1ea3241f0c72205f7e2f34125", null ],
-    [ "specialFlags", "d4/df1/a10930.html#a2232afb6a6b05e5ea33f40992a09621d", null ]
+    [ "WorldObjectSpellConeTargetCheck", "d4/df1/a10930.html#a51fa6de40d065bd7ba52f4dc982f9a5e", null ],
+    [ "operator()", "d4/df1/a10930.html#ac66207a4d1dbc9f59269127ee91f0657", null ],
+    [ "_coneAngle", "d4/df1/a10930.html#a8f946789292320ea8b205dec5d1e1975", null ]
 ];

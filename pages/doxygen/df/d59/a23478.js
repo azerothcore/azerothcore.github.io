@@ -1,6 +1,7 @@
 var a23478 =
 [
-    [ "HandleScriptEffect", "df/d59/a23478.html#acfe80e22e6c78dba50155f7f20c0678b", null ],
-    [ "PrepareSpellScript", "df/d59/a23478.html#a17cb5f874343bd40c6aafaf9d627b047", null ],
-    [ "Register", "df/d59/a23478.html#a4bb5cfd2cc8503b3a840fc68624a33c1", null ]
+    [ "CastQuill", "df/d59/a23478.html#a923234809186bcbdf02457f4be095519", null ],
+    [ "Execute", "df/d59/a23478.html#a26a971a575e4b9503cd1da73d43ebd1e", null ],
+    [ "_caster", "df/d59/a23478.html#af809b9279aff141ce4007c8d1fbcc331", null ],
+    [ "_spellId", "df/d59/a23478.html#ad6f7d8eaf69873b0ba57be4189c145cf", null ]
 ];

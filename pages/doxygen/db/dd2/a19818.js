@@ -1,7 +1,6 @@
 var a19818 =
 [
-    [ "npc_ulduar_icicleAI", "db/dd2/a19818.html#a258376e257fbe3c8a6c70b2585d44df1", null ],
-    [ "UpdateAI", "db/dd2/a19818.html#a0edf734ae2dac7a5378b21b73e3714c8", null ],
-    [ "timer1", "db/dd2/a19818.html#aa912acbe225d9056e44bc22b8d9f7473", null ],
-    [ "timer2", "db/dd2/a19818.html#a82e034fc4ccb8eb92abeb72a222764c7", null ]
+    [ "npc_ulduar_saronite_animusAI", "d9/db3/a19822.html", "d9/db3/a19822" ],
+    [ "npc_ulduar_saronite_animus", "db/dd2/a19818.html#a22d552adc9db3f7d2a533ab7f58a2470", null ],
+    [ "GetAI", "db/dd2/a19818.html#a1fdd851e9d6e399f8f57d063a7dbd6d9", null ]
 ];

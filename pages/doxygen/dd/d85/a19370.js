@@ -1,6 +1,6 @@
 var a19370 =
 [
-    [ "PrepareSpellScript", "dd/d85/a19370.html#af7426e99a49f8618fc38242ded7132f1", null ],
-    [ "RecalculateDamage", "dd/d85/a19370.html#a94e70b20f2139f668227dccb623c1af6", null ],
-    [ "Register", "dd/d85/a19370.html#acd911f78780e052d88f5f47574092d62", null ]
+    [ "npc_brann_bronzebeard_algalonAI", "d5/dfd/a19374.html", "d5/dfd/a19374" ],
+    [ "npc_brann_bronzebeard_algalon", "dd/d85/a19370.html#a2760d42de8f78250ca5862bfcb23ed2e", null ],
+    [ "GetAI", "dd/d85/a19370.html#ad8bc8bde865adcce1e9f6fd6234f1a0a", null ]
 ];

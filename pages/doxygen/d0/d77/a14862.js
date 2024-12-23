@@ -1,6 +1,15 @@
 var a14862 =
 [
-    [ "aqsentinelAI", "d6/db4/a14866.html", "d6/db4/a14866" ],
-    [ "npc_anubisath_sentinel", "d0/d77/a14862.html#ada1ab0d1857fe52020e798d9710a66cb", null ],
-    [ "GetAI", "d0/d77/a14862.html#ae19b8ba3766ede8f715dad5ff8d4b2d2", null ]
+    [ "boss_skeram", "d0/d77/a14862.html#a293710a88c91a181ee1000939386e176", null ],
+    [ "DoTeleport", "d0/d77/a14862.html#a96166ddebd5906868b872c39a6755a70", null ],
+    [ "EnterEvadeMode", "d0/d77/a14862.html#ab050e31d661c8c089d175de231b0eeb2", null ],
+    [ "JustDied", "d0/d77/a14862.html#a6b30a6ca5167aae41ad70bd502265d2b", null ],
+    [ "JustEngagedWith", "d0/d77/a14862.html#a07bba9a1a62ad9ad15b9cd42b5d5b3d3", null ],
+    [ "JustSummoned", "d0/d77/a14862.html#a3e3d74bc646a96e20a88d3541f806c62", null ],
+    [ "KilledUnit", "d0/d77/a14862.html#a185cb6686d37e064278260ebe5fae13a", null ],
+    [ "Reset", "d0/d77/a14862.html#a08c9c2c577ef4b713594ca67f4c87a68", null ],
+    [ "UpdateAI", "d0/d77/a14862.html#aaf29331e0fac71479747d62fd9f1e301", null ],
+    [ "_copiesGUIDs", "d0/d77/a14862.html#a28f1465938dc2141779d5171ea09ecd0", null ],
+    [ "_flag", "d0/d77/a14862.html#a0abcf1e8721aa972be70774d5be7b53b", null ],
+    [ "_hpct", "d0/d77/a14862.html#a5c8760788264a9a04a28c05a0247676c", null ]
 ];

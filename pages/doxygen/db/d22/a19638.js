@@ -1,8 +1,6 @@
 var a19638 =
 [
-    [ "HandleOnEffectApply", "db/d22/a19638.html#a83ff54727e886161c5568a60833932d1", null ],
-    [ "HandleOnEffectRemove", "db/d22/a19638.html#a9e48d1c9dc26f882ee685a2cbf59667e", null ],
-    [ "PrepareAuraScript", "db/d22/a19638.html#a5ec8ffeceae335423dff10f54e096e8a", null ],
-    [ "Register", "db/d22/a19638.html#ae07af138c6f9c565799574b4f8343492", null ],
-    [ "Validate", "db/d22/a19638.html#a3a24a25c9b9b118d20ca2b14fbfc5869", null ]
+    [ "npc_mechanoliftAI", "dc/d2b/a19642.html", "dc/d2b/a19642" ],
+    [ "npc_mechanolift", "db/d22/a19638.html#a7b753a3426213706c899745a6d0d989b", null ],
+    [ "GetAI", "db/d22/a19638.html#a823a929bf65f32cdbe9b56df5d33c66d", null ]
 ];

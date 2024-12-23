@@ -1,6 +1,9 @@
 var a13882 =
 [
-    [ "npc_direbrew_antagonist", "dd/db5/a13882.html#a30fed4e6888d98af576dea8e13c510d3", null ],
-    [ "DoAction", "dd/db5/a13882.html#a924891e5d4e3f30d78186bedf76cf7d1", null ],
-    [ "JustEngagedWith", "dd/db5/a13882.html#aaf54b03d66d726901c289ff28d362787", null ]
+    [ "HandleEffectPeriodic", "dd/db5/a13882.html#a798c8ddfc71e703bfe1e3c1f2d926cef", null ],
+    [ "HandleEffectRemove", "dd/db5/a13882.html#a96ed7366e568b70e82d622586740aa56", null ],
+    [ "Load", "dd/db5/a13882.html#a85cbc44e586330e2adfc0656a428bd7b", null ],
+    [ "PrepareAuraScript", "dd/db5/a13882.html#abd1f851112a50b79e815cdd894275bab", null ],
+    [ "Register", "dd/db5/a13882.html#aa3cd85aed063017c4737e7660fa81f37", null ],
+    [ "questTick", "dd/db5/a13882.html#ae2980e5f4934ce2ba5b755b7d45fab82", null ]
 ];

@@ -1,7 +1,7 @@
 var a24218 =
 [
-    [ "CorpseExplosionCheck", "df/da0/a24218.html#aa8b7957705df1d878f5123ffa31a7fd7", null ],
-    [ "operator()", "df/da0/a24218.html#aeab379880a8d912d6d0f7b41639edbd4", null ],
-    [ "_allowGhoul", "df/da0/a24218.html#abd42a0731af969ceccdfceae722ba276", null ],
-    [ "_casterGUID", "df/da0/a24218.html#a497df87745f452716c652e9b1be6d46f", null ]
+    [ "CheckProc", "df/da0/a24218.html#abd74252153fc4fc9a4e561005ea58b3f", null ],
+    [ "HandleProc", "df/da0/a24218.html#a911b81552e7193dbf1cfc11037b44d84", null ],
+    [ "PrepareAuraScript", "df/da0/a24218.html#ae169eb2c0e194f8f34ee2a0d5fd973d3", null ],
+    [ "Register", "df/da0/a24218.html#a72d89db31c1fbd5c3b49b4c05a2d90f4", null ]
 ];

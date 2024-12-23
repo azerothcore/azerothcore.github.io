@@ -1,4 +1,7 @@
 var a10566 =
 [
-    [ "IllegalHyperlinkException", "df/dd4/a10566.html#a4bcd96d907fb882d147b0e29495f5c1d", null ]
+    [ "PlayMusic", "df/dd4/a10566.html#afee4b7ae9ac5f4f2b7365d3d00e7b581", null ],
+    [ "PlayMusic", "df/dd4/a10566.html#ad3d833f70de5937365c2351aa5206bbf", null ],
+    [ "Write", "df/dd4/a10566.html#ad01a67d76fe9dff269eac9108a27c75a", null ],
+    [ "SoundKitID", "df/dd4/a10566.html#ad2342dd0c1461283c595af29c3bc9fe6", null ]
 ];

@@ -1,9 +1,7 @@
 var a17026 =
 [
-    [ "FilterTargets", "de/d75/a17026.html#a7b490400378893a19cdaf52af25f3a51", null ],
-    [ "HandleScript", "de/d75/a17026.html#acee46fb0af45364478a92db59fcc3f24", null ],
-    [ "Load", "de/d75/a17026.html#a46a43b9a8dec2f61aee3dccad4178a78", null ],
-    [ "PrepareSpellScript", "de/d75/a17026.html#abb8fac43566f92b19e644edc38ab5d73", null ],
-    [ "Register", "de/d75/a17026.html#a1add221102b7067ffc130969f5172eae", null ],
-    [ "Validate", "de/d75/a17026.html#a4d2b60161f5aed31132f0fc554aab7b6", null ]
+    [ "HandleScript", "de/d75/a17026.html#a4b1e392acea30a9259e65a75667704c5", null ],
+    [ "Load", "de/d75/a17026.html#a9af7bb4defb7c590aaff1a709dad4573", null ],
+    [ "PrepareSpellScript", "de/d75/a17026.html#a17301c4ef9623ec04ec3c15dfd4e316f", null ],
+    [ "Register", "de/d75/a17026.html#a77632d11a172e5552c0c49de830a1639", null ]
 ];

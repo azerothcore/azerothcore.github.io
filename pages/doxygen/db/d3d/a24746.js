@@ -1,7 +1,7 @@
 var a24746 =
 [
-    [ "CalculateAmount", "db/d3d/a24746.html#a40ba021accd581745f07f2586545853c", null ],
-    [ "Load", "db/d3d/a24746.html#aa963b658637360305bb5f3d59eb9d061", null ],
-    [ "PrepareAuraScript", "db/d3d/a24746.html#a8fedbff305709145a7c004787ee50402", null ],
-    [ "Register", "db/d3d/a24746.html#ade9b6a408a1d5a83bdadd5bd2b0fbb2a", null ]
+    [ "HandleScript", "db/d3d/a24746.html#a8ec57aed0788f58e2c50fc08793a5749", null ],
+    [ "PrepareSpellScript", "db/d3d/a24746.html#a56c9ab120239252982cab8b96ac8c5fe", null ],
+    [ "Register", "db/d3d/a24746.html#a8c727b2b00858abcce058b16d66ca62a", null ],
+    [ "Validate", "db/d3d/a24746.html#af3ffb9930eaba8703065719bbcf02f56", null ]
 ];

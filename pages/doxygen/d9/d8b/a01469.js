@@ -1,8 +1,8 @@
 var a01469 =
 [
-    [ "FireworkShowGameobject", "da/da0/a13970.html", "da/da0/a13970" ],
-    [ "FireworkShowScheduleEntry", "d0/d0d/a13974.html", "d0/d0d/a13974" ],
-    [ "FireworkShow", "df/d6a/a13978.html", "df/d6a/a13978" ],
+    [ "FireworkShowGameobject", "d0/df0/a14026.html", "d0/df0/a14026" ],
+    [ "FireworkShowScheduleEntry", "d0/df8/a14030.html", "d0/df8/a14030" ],
+    [ "FireworkShow", "d5/dee/a14034.html", "d5/dee/a14034" ],
     [ "eFireworks", "d9/d8b/a01469.html#ad6101dc8b1197f1113132f0abce2b1ef", [
       [ "GO_FIREWORK_SHOW_TYPE_1_RED", "d9/d8b/a01469.html#ad6101dc8b1197f1113132f0abce2b1efafbfc2514c5e6777576f0478c218599b6", null ],
       [ "GO_FIREWORK_SHOW_TYPE_2_RED", "d9/d8b/a01469.html#ad6101dc8b1197f1113132f0abce2b1efab509f3c7c1a228c449d5921991eb24fe", null ],

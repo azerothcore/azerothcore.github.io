@@ -1,20 +1,16 @@
 var a13810 =
 [
-    [ "npc_dark_iron_attack_generator", "db/d93/a13810.html#aef208e008b00af62710c8479bf7b6618", null ],
-    [ "AllowStart", "db/d93/a13810.html#a4c0bdf682ced38cd1555ac6c6dd82361", null ],
-    [ "FinishAttackDueToWin", "db/d93/a13810.html#abe15db24f6cd2c0c4c7fb5572635f09a", null ],
-    [ "FinishEventDueToLoss", "db/d93/a13810.html#ab2dc568f820e3b0b7c863f83e6ca45fc", null ],
-    [ "GetRandomBartender", "db/d93/a13810.html#aefe0e7e40ca5aad089aa27c5151e01fa", null ],
-    [ "JustEngagedWith", "db/d93/a13810.html#a7588ef6382ae081d76423f8233667c5b", null ],
-    [ "MoveInLineOfSight", "db/d93/a13810.html#ae21b69752a1e45eeef318ccf1e5a3b24", null ],
-    [ "PrepareEvent", "db/d93/a13810.html#a4371fcc13d221b843275d1d0e7f896fb", null ],
-    [ "Reset", "db/d93/a13810.html#ab9b3a7d524b8764ef9d00dac3ea75418", null ],
-    [ "SpellHit", "db/d93/a13810.html#a829946c679b3eff97b1eb3ede6cd91d8", null ],
-    [ "UpdateAI", "db/d93/a13810.html#a1038fdc5453c78ebaef26b305be23963", null ],
-    [ "events", "db/d93/a13810.html#a6692f1a74acae5ddebbe8dc8790db07a", null ],
-    [ "guzzlerCounter", "db/d93/a13810.html#a1a5cc21ee54e3d8d7acb1e3235d4e427", null ],
-    [ "kegCounter", "db/d93/a13810.html#a3282d8a556e6e3b84a9597c317722d8e", null ],
-    [ "revelerGUIDs", "db/d93/a13810.html#a873ec2bf87b3d616e60d26aa561258bf", null ],
-    [ "summons", "db/d93/a13810.html#a5ac0502b880031c937f915a7dbca2262", null ],
-    [ "thrown", "db/d93/a13810.html#ac372ce0664ec10b7f60026fa808a74d0", null ]
+    [ "boss_renatakiAI", "db/d93/a13810.html#ac154bfadeb99d67f59e1682de257e8bf", null ],
+    [ "CanAIAttack", "db/d93/a13810.html#af20dc14dc56500e568a3a11bfb34a227", null ],
+    [ "CanAlwaysBeDetectable", "db/d93/a13810.html#af75108eacb982586f43a175beede78ef", null ],
+    [ "CanBeSeen", "db/d93/a13810.html#ac79db0d4488702be0cd12b5e03a9bcb9", null ],
+    [ "CanSeeAlways", "db/d93/a13810.html#a6e4a1e9bec67a1bdac4c9cef3da4b17d", null ],
+    [ "DamageTaken", "db/d93/a13810.html#a62d97adb310b55a2235737b854dc4aca", null ],
+    [ "JustEngagedWith", "db/d93/a13810.html#a72e9a85d2215d3da197d50b6aa0b769e", null ],
+    [ "Reset", "db/d93/a13810.html#ad50d8e24fb4168186497c5cdb5b39a68", null ],
+    [ "UpdateAI", "db/d93/a13810.html#a3a1abaef460d9abe1298080080d74c9d", null ],
+    [ "_dynamicFlags", "db/d93/a13810.html#a502bfa737cf97ae909144278a3e39bd0", null ],
+    [ "_enraged", "db/d93/a13810.html#a71e717a2ea732729762aff7970439f74", null ],
+    [ "_thousandBladesCount", "db/d93/a13810.html#a29dd57c66245f30d12f32d31cc25cd55", null ],
+    [ "_thousandBladesTargets", "db/d93/a13810.html#ab8b2b52a2ef8ea6586381234c9a3e3fc", null ]
 ];

@@ -1,6 +1,7 @@
 var a24986 =
 [
-    [ "HandleScript", "df/d99/a24986.html#a3f63c080d2a74def0920cceaea18e1e2", null ],
-    [ "PrepareSpellScript", "df/d99/a24986.html#a438c4c1763688210384b24305aeebe52", null ],
-    [ "Register", "df/d99/a24986.html#a27b25fbbdd912505738728414b79380c", null ]
+    [ "HandleDamage", "df/d99/a24986.html#a9c9bbe49388cf5d04650572fdf789e5e", null ],
+    [ "PrepareSpellScript", "df/d99/a24986.html#ac89a628f1aba54aa2ade876a4f7911b8", null ],
+    [ "Register", "df/d99/a24986.html#a627bffccdd78c00f0f5a4241f36aeec8", null ],
+    [ "Validate", "df/d99/a24986.html#aed63b40f8e2cc6fd32dd536a2d56c7c3", null ]
 ];

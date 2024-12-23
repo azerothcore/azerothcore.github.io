@@ -1,7 +1,9 @@
 var a26338 =
 [
-    [ "HandleEffectProc", "de/d5d/a26338.html#a7f2ddbf54a4932277ad91eb0036915ab", null ],
-    [ "PrepareAuraScript", "de/d5d/a26338.html#a47d844a9700cd8add793e3f3088d1b82", null ],
-    [ "Register", "de/d5d/a26338.html#ad40dfc164ab98fc9734e1ed15ea14c17", null ],
-    [ "Validate", "de/d5d/a26338.html#a97f5239399e7135b02000722eaf837ad", null ]
+    [ "HandleHeal", "de/d5d/a26338.html#ad2d854d275dc6f8b67b866d864b6febe", null ],
+    [ "Load", "de/d5d/a26338.html#a507a7a4ff11f8bf1157e034d086cd9ad", null ],
+    [ "PrepareSpellScript", "de/d5d/a26338.html#a91eb46af707897f228e5d1bbd199a833", null ],
+    [ "Register", "de/d5d/a26338.html#ae28f1b0c23511153eafc037cae067bc0", null ],
+    [ "firstHeal", "de/d5d/a26338.html#a405326e6e1cd82816aef1712fdf335a0", null ],
+    [ "riptide", "de/d5d/a26338.html#acaec32f6730bc2e04e613aa982d285bf", null ]
 ];

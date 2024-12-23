@@ -1,8 +1,8 @@
 var a00002 =
 [
-    [ "SymbolPair", "d5/d87/a05118.html", "d5/d87/a05118" ],
-    [ "SymbolDetail", "dc/d0c/a05122.html", "dc/d0c/a05122" ],
-    [ "WheatyExceptionReport", "dc/de6/a05126.html", "dc/de6/a05126" ],
+    [ "SymbolPair", "d5/d80/a05114.html", "d5/d80/a05114" ],
+    [ "SymbolDetail", "d5/d87/a05118.html", "d5/d87/a05118" ],
+    [ "WheatyExceptionReport", "dc/d0c/a05122.html", "dc/d0c/a05122" ],
     [ "countof", "d7/d46/a00002.html#a8b8500b4792f1666a4ae9b19ce264875", null ],
     [ "WER_LARGE_BUFFER_SIZE", "d7/d46/a00002.html#a2c952cc0fe3c670bb1d829b51e483755", null ],
     [ "WER_MAX_ARRAY_ELEMENTS_COUNT", "d7/d46/a00002.html#a5ca750f3bbda2b3eab451528de39aa3c", null ],

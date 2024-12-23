@@ -1,9 +1,8 @@
 var a19642 =
 [
-    [ "Absorb", "dc/d2b/a19642.html#a16c2e931950102fc0ae5c88ef14587c1", null ],
-    [ "CalculateAmount", "dc/d2b/a19642.html#a9166627cbaa536405975444c4ef601de", null ],
-    [ "Load", "dc/d2b/a19642.html#abe7c08d2f26cef3603cf1b1f243f9e38", null ],
-    [ "PrepareAuraScript", "dc/d2b/a19642.html#aa5793741c2f8179db68a9fb1222a9085", null ],
-    [ "Register", "dc/d2b/a19642.html#a17fed57aed8953c7a7e401d1ac925e67", null ],
-    [ "_absorbPct", "dc/d2b/a19642.html#ad9e1dcfd8ce7038173ac5b71d448d80a", null ]
+    [ "npc_mechanoliftAI", "dc/d2b/a19642.html#ad772427e03c2bd2c3a51556b6e5968b5", null ],
+    [ "Reset", "dc/d2b/a19642.html#a8198e7db2c6f4f2ceec984cfd53982b1", null ],
+    [ "UpdateAI", "dc/d2b/a19642.html#a3f8634abde6b3aa00acf03c77df433be", null ],
+    [ "_evadeTimer", "dc/d2b/a19642.html#a53da6899ad0dcea569ca29f57e45bf61", null ],
+    [ "_startTimer", "dc/d2b/a19642.html#a9b1587bbadd8f0044e1d404d55b8ba1f", null ]
 ];

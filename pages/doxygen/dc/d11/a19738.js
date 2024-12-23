@@ -1,5 +1,6 @@
 var a19738 =
 [
-    [ "achievement_freya_getting_back_to_nature", "dc/d11/a19738.html#aa4078b573a9335fc52c9b9609590b12f", null ],
-    [ "OnCheck", "dc/d11/a19738.html#a850a32450379284784f019a5eb5ff0ff", null ]
+    [ "boss_freya_elder_brightleafAI", "d7/d87/a19742.html", "d7/d87/a19742" ],
+    [ "boss_freya_elder_brightleaf", "dc/d11/a19738.html#a9b1539b37912ef5ae46d5926bf2e0f40", null ],
+    [ "GetAI", "dc/d11/a19738.html#a3c39424ecf97ced8c2a962baff5ae342", null ]
 ];

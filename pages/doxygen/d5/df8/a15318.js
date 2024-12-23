@@ -1,8 +1,7 @@
 var a15318 =
 [
-    [ "npc_pluckyAI", "d1/d79/a15322.html", "d1/d79/a15322" ],
-    [ "npc_plucky", "d5/df8/a15318.html#a86bb2992b8af5893987145117aaf3608", null ],
-    [ "GetAI", "d5/df8/a15318.html#a51e73f4e1f618aee5a000e31328efefc", null ],
-    [ "OnGossipHello", "d5/df8/a15318.html#a3443f3e8c2b3fcc96955ab2e55e7fd61", null ],
-    [ "OnGossipSelect", "d5/df8/a15318.html#a88fa465246b4c657b921ebdc96f7a112", null ]
+    [ "npc_toogaAI", "d1/d79/a15322.html", "d1/d79/a15322" ],
+    [ "npc_tooga", "d5/df8/a15318.html#a6ea6a9e4dea1ab98475dae13680ceeaf", null ],
+    [ "GetAI", "d5/df8/a15318.html#a7847577589f3bdc1c3ea5ee0f1f9232f", null ],
+    [ "OnQuestAccept", "d5/df8/a15318.html#ac0fdcb3959c239d614b1cc7c66623c5d", null ]
 ];

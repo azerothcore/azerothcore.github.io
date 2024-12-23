@@ -1,6 +1,6 @@
 var a17642 =
 [
-    [ "npc_precious_iccAI", "d6/d87/a17646.html", "d6/d87/a17646" ],
-    [ "npc_precious_icc", "d5/dfa/a17642.html#a463eb0df1edb17e154658dac131f0898", null ],
-    [ "GetAI", "d5/dfa/a17642.html#aa63840c5968a089bff41dcd9c86d5849", null ]
+    [ "boss_rotfaceAI", "d6/d87/a17646.html", "d6/d87/a17646" ],
+    [ "boss_rotface", "d5/dfa/a17642.html#a8896f5ed16c728d72a123b2e92a174fb", null ],
+    [ "GetAI", "d5/dfa/a17642.html#a8a3ff9ef99da7d72ce2f7827bfc2564b", null ]
 ];

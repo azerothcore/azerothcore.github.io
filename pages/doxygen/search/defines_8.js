@@ -13,10 +13,10 @@ var searchData=
   ['hgrid_5fmap_5fsize_10',['HGRID_MAP_SIZE',['../d4/d3e/a00116.html#ac836977c6cb1a34ebc070436978fb2bb',1,'RegularGrid.h']]],
   ['highborne_5floc_5fy_11',['HIGHBORNE_LOC_Y',['../d6/d90/a02492.html#a6e5a65cdc734bb3130c24dfcdc138686',1,'zone_undercity.cpp']]],
   ['highborne_5floc_5fy_5fnew_12',['HIGHBORNE_LOC_Y_NEW',['../d6/d90/a02492.html#a6d98389767ca5b9a427a5d9825f69cd7',1,'zone_undercity.cpp']]],
-  ['hook_5fspell_5fcount_13',['HOOK_SPELL_COUNT',['../d5/dd8/a03083.html#aecb97d532499a4b7bfaccc898401260c',1,'SpellScript.h']]],
-  ['hook_5fspell_5fend_14',['HOOK_SPELL_END',['../d5/dd8/a03083.html#ab24744c26952374d9a93b53f91de4fb7',1,'SpellScript.h']]],
-  ['hook_5fspell_5fhit_5fend_15',['HOOK_SPELL_HIT_END',['../d5/dd8/a03083.html#a9bb1763d44f533712264a39e14b1b11a',1,'SpellScript.h']]],
-  ['hook_5fspell_5fhit_5fstart_16',['HOOK_SPELL_HIT_START',['../d5/dd8/a03083.html#a74c28613619bc48006209c76f168f833',1,'SpellScript.h']]],
-  ['hook_5fspell_5fstart_17',['HOOK_SPELL_START',['../d5/dd8/a03083.html#aa9ce4c0ac71f3efe6030048f5f3ed594',1,'SpellScript.h']]],
+  ['hook_5fspell_5fcount_13',['HOOK_SPELL_COUNT',['../d7/d54/a03089.html#aecb97d532499a4b7bfaccc898401260c',1,'SpellScript.h']]],
+  ['hook_5fspell_5fend_14',['HOOK_SPELL_END',['../d7/d54/a03089.html#ab24744c26952374d9a93b53f91de4fb7',1,'SpellScript.h']]],
+  ['hook_5fspell_5fhit_5fend_15',['HOOK_SPELL_HIT_END',['../d7/d54/a03089.html#a9bb1763d44f533712264a39e14b1b11a',1,'SpellScript.h']]],
+  ['hook_5fspell_5fhit_5fstart_16',['HOOK_SPELL_HIT_START',['../d7/d54/a03089.html#a74c28613619bc48006209c76f168f833',1,'SpellScript.h']]],
+  ['hook_5fspell_5fstart_17',['HOOK_SPELL_START',['../d7/d54/a03089.html#aa9ce4c0ac71f3efe6030048f5f3ed594',1,'SpellScript.h']]],
   ['hyjalscriptname_18',['HyjalScriptName',['../d5/d3e/a01139.html#a63d881c8bbe156c386fd5bc4e9a48e83',1,'hyjal.h']]]
 ];

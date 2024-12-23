@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>AzerothCore: CreatureTextLocalizer&lt; Builder &gt; Class Template Reference</title>
+<title>AzerothCore: AuraScript::CheckProcHandler Class Reference</title>
 <link href="../../tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="../../jquery.js"></script>
 <script type="text/javascript" src="../../dynsections.js"></script>
@@ -108,55 +108,66 @@ $(document).ready(function(){initNavTree('d3/d4b/a11134.html','../../'); initRes
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="../../d8/d26/a11131.html">List of all members</a>  </div>
-  <div class="headertitle"><div class="title">CreatureTextLocalizer&lt; Builder &gt; Class Template Reference</div></div>
+  <div class="headertitle"><div class="title">AuraScript::CheckProcHandler Class Reference</div></div>
 </div><!--header-->
 <div class="contents">
 
-<p><code>#include &quot;<a class="el" href="../../">CreatureTextMgr.h</a>&quot;</code></p>
+<p><code>#include &quot;<a class="el" href="../../">SpellScript.h</a>&quot;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-methods" name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a799f1007b9977224d71da1451c3454e1"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a799f1007b9977224d71da1451c3454e1">CreatureTextLocalizer</a> (Builder const &amp;builder, <a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> msgType)</td></tr>
-<tr class="separator:a799f1007b9977224d71da1451c3454e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a03d45dfd3c6c5f6f4995d5efe238a5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a1a03d45dfd3c6c5f6f4995d5efe238a5">~CreatureTextLocalizer</a> ()</td></tr>
-<tr class="separator:a1a03d45dfd3c6c5f6f4995d5efe238a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab2c364aa9d45ca2267db2641b26821f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#ab2c364aa9d45ca2267db2641b26821f7">operator()</a> (<a class="el" href="../../d9/d86/a08398.html">Player</a> *player)</td></tr>
-<tr class="separator:ab2c364aa9d45ca2267db2641b26821f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b5bfc85cb9a81a64ebd4b769e3d3651"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a1b5bfc85cb9a81a64ebd4b769e3d3651">CheckProcHandler</a> (AuraCheckProcFnType handlerScript)</td></tr>
+<tr class="separator:a1b5bfc85cb9a81a64ebd4b769e3d3651"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a977558dc8838a05259effc268235696a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a977558dc8838a05259effc268235696a">Call</a> (<a class="el" href="../../d6/d53/a11082.html">AuraScript</a> *auraScript, <a class="el" href="../../da/d8a/a08570.html">ProcEventInfo</a> &amp;eventInfo)</td></tr>
+<tr class="separator:a977558dc8838a05259effc268235696a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
-<tr class="memitem:a660b352a1c1855f4b10a8aebef88133f"><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::pair&lt; <a class="el" href="../../d5/d62/a10710.html">WorldPacket</a> *, std::size_t &gt; * &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a></td></tr>
-<tr class="separator:a660b352a1c1855f4b10a8aebef88133f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1d8d97d3e423810d044a8155b182899d"><td class="memItemLeft" align="right" valign="top">Builder const  &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#a1d8d97d3e423810d044a8155b182899d">_builder</a></td></tr>
-<tr class="separator:a1d8d97d3e423810d044a8155b182899d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf9260955b0141e85ff47c66350244e2"><td class="memItemLeft" align="right" valign="top"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#adf9260955b0141e85ff47c66350244e2">_msgType</a></td></tr>
-<tr class="separator:adf9260955b0141e85ff47c66350244e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcb28d1a2f32402511c1e659b2f3b443"><td class="memItemLeft" align="right" valign="top">AuraCheckProcFnType&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="../../d3/d4b/a11134.html#abcb28d1a2f32402511c1e659b2f3b443">_HandlerScript</a></td></tr>
+<tr class="separator:abcb28d1a2f32402511c1e659b2f3b443"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><div class="compoundTemplParams">template&lt;class Builder&gt;<br />
-class CreatureTextLocalizer&lt; Builder &gt;</div></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a799f1007b9977224d71da1451c3454e1" name="a799f1007b9977224d71da1451c3454e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a799f1007b9977224d71da1451c3454e1">&#9670;&#160;</a></span>CreatureTextLocalizer()</h2>
+<div class="textblock"></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a1b5bfc85cb9a81a64ebd4b769e3d3651" name="a1b5bfc85cb9a81a64ebd4b769e3d3651"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1b5bfc85cb9a81a64ebd4b769e3d3651">&#9670;&#160;</a></span>CheckProcHandler()</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;<a class="el" href="../../d3/d4b/a11134.html">::CreatureTextLocalizer</a> </td>
+          <td class="memname">AuraScript::CheckProcHandler::CheckProcHandler </td>
           <td>(</td>
-          <td class="paramtype">Builder const &amp;&#160;</td>
-          <td class="paramname"><em>builder</em>, </td>
+          <td class="paramtype">AuraCheckProcFnType&#160;</td>
+          <td class="paramname"><em>handlerScript</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="fragment"><div class="line"><span class="lineno">  900</span>{</div>
+<div class="line"><span class="lineno">  901</span>    <a class="code hl_variable" href="../../d3/d4b/a11134.html#abcb28d1a2f32402511c1e659b2f3b443">_HandlerScript</a> = handlerScript;</div>
+<div class="line"><span class="lineno">  902</span>}</div>
+<div class="ttc" id="aa11134_html_abcb28d1a2f32402511c1e659b2f3b443"><div class="ttname"><a href="../../d3/d4b/a11134.html#abcb28d1a2f32402511c1e659b2f3b443">AuraScript::CheckProcHandler::_HandlerScript</a></div><div class="ttdeci">AuraCheckProcFnType _HandlerScript</div><div class="ttdef"><b>Definition:</b> SpellScript.h:641</div></div>
+</div><!-- fragment -->
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a977558dc8838a05259effc268235696a" name="a977558dc8838a05259effc268235696a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a977558dc8838a05259effc268235696a">&#9670;&#160;</a></span>Call()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool AuraScript::CheckProcHandler::Call </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="../../d6/d53/a11082.html">AuraScript</a> *&#160;</td>
+          <td class="paramname"><em>auraScript</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a>&#160;</td>
-          <td class="paramname"><em>msgType</em>&#160;</td>
+          <td class="paramtype"><a class="el" href="../../da/d8a/a08570.html">ProcEventInfo</a> &amp;&#160;</td>
+          <td class="paramname"><em>eventInfo</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -164,148 +175,25 @@ template&lt;class Builder &gt; </div>
           <td></td><td></td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  124</span>                                                                   : <a class="code hl_variable" href="../../d3/d4b/a11134.html#a1d8d97d3e423810d044a8155b182899d">_builder</a>(builder), <a class="code hl_variable" href="../../d3/d4b/a11134.html#adf9260955b0141e85ff47c66350244e2">_msgType</a>(msgType)</div>
-<div class="line"><span class="lineno">  125</span>    {</div>
-<div class="line"><span class="lineno">  126</span>        <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>.resize(<a class="code hl_enumvalue" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a>, <span class="keyword">nullptr</span>);</div>
-<div class="line"><span class="lineno">  127</span>    }</div>
-<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332a7f84fea169b93e300da83986234a30d8">TOTAL_LOCALES</a></div><div class="ttdeci">@ TOTAL_LOCALES</div><div class="ttdef"><b>Definition:</b> Common.h:76</div></div>
-<div class="ttc" id="aa11134_html_a1d8d97d3e423810d044a8155b182899d"><div class="ttname"><a href="../../d3/d4b/a11134.html#a1d8d97d3e423810d044a8155b182899d">CreatureTextLocalizer::_builder</a></div><div class="ttdeci">Builder const  &amp; _builder</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:174</div></div>
-<div class="ttc" id="aa11134_html_a660b352a1c1855f4b10a8aebef88133f"><div class="ttname"><a href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">CreatureTextLocalizer::_packetCache</a></div><div class="ttdeci">std::vector&lt; std::pair&lt; WorldPacket *, std::size_t &gt; * &gt; _packetCache</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:173</div></div>
-<div class="ttc" id="aa11134_html_adf9260955b0141e85ff47c66350244e2"><div class="ttname"><a href="../../d3/d4b/a11134.html#adf9260955b0141e85ff47c66350244e2">CreatureTextLocalizer::_msgType</a></div><div class="ttdeci">ChatMsg _msgType</div><div class="ttdef"><b>Definition:</b> CreatureTextMgr.h:175</div></div>
+<div class="fragment"><div class="line"><span class="lineno">  905</span>{</div>
+<div class="line"><span class="lineno">  906</span>    <span class="keywordflow">return</span> (auraScript-&gt;*<a class="code hl_variable" href="../../d3/d4b/a11134.html#abcb28d1a2f32402511c1e659b2f3b443">_HandlerScript</a>)(eventInfo);</div>
+<div class="line"><span class="lineno">  907</span>}</div>
 </div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00173">CreatureTextLocalizer&lt; Builder &gt;::_packetCache</a>, and <a class="el" href="../../#l00076">TOTAL_LOCALES</a>.</p>
-
-</div>
-</div>
-<a id="a1a03d45dfd3c6c5f6f4995d5efe238a5" name="a1a03d45dfd3c6c5f6f4995d5efe238a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a03d45dfd3c6c5f6f4995d5efe238a5">&#9670;&#160;</a></span>~CreatureTextLocalizer()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;::~<a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  130</span>    {</div>
-<div class="line"><span class="lineno">  131</span>        <span class="keywordflow">for</span> (std::size_t i = 0; i &lt; <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>.size(); ++i)</div>
-<div class="line"><span class="lineno">  132</span>        {</div>
-<div class="line"><span class="lineno">  133</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[i])</div>
-<div class="line"><span class="lineno">  134</span>                <span class="keyword">delete</span> <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[i]-&gt;first;</div>
-<div class="line"><span class="lineno">  135</span>            <span class="keyword">delete</span> <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[i];</div>
-<div class="line"><span class="lineno">  136</span>        }</div>
-<div class="line"><span class="lineno">  137</span>    }</div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00173">CreatureTextLocalizer&lt; Builder &gt;::_packetCache</a>.</p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a id="ab2c364aa9d45ca2267db2641b26821f7" name="ab2c364aa9d45ca2267db2641b26821f7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab2c364aa9d45ca2267db2641b26821f7">&#9670;&#160;</a></span>operator()()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">void <a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;::operator() </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="../../d9/d86/a08398.html">Player</a> *&#160;</td>
-          <td class="paramname"><em>player</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<div class="fragment"><div class="line"><span class="lineno">  140</span>    {</div>
-<div class="line"><span class="lineno">  141</span>        <a class="code hl_enumeration" href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a> loc_idx = player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a6ab11ca64cde7c5cde1f53998a6f7253">GetSession</a>()-&gt;<a class="code hl_function" href="../../d1/d5e/a10754.html#a38ff97828c0efe89c092f5772c543564">GetSessionDbLocaleIndex</a>();</div>
-<div class="line"><span class="lineno">  142</span>        <a class="code hl_class" href="../../d5/d62/a10710.html">WorldPacket</a>* messageTemplate;</div>
-<div class="line"><span class="lineno">  143</span>        std::size_t whisperGUIDpos;</div>
-<div class="line"><span class="lineno">  144</span> </div>
-<div class="line"><span class="lineno">  145</span>        <span class="comment">// create if not cached yet</span></div>
-<div class="line"><span class="lineno">  146</span>        <span class="keywordflow">if</span> (!<a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[loc_idx])</div>
-<div class="line"><span class="lineno">  147</span>        {</div>
-<div class="line"><span class="lineno">  148</span>            messageTemplate = <span class="keyword">new</span> <a class="code hl_class" href="../../d5/d62/a10710.html">WorldPacket</a>();</div>
-<div class="line"><span class="lineno">  149</span>            whisperGUIDpos = <a class="code hl_variable" href="../../d3/d4b/a11134.html#a1d8d97d3e423810d044a8155b182899d">_builder</a>(messageTemplate, loc_idx);</div>
-<div class="line"><span class="lineno">  150</span>            <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[loc_idx] = <span class="keyword">new</span> std::pair&lt;WorldPacket*, std::size_t&gt;(messageTemplate, whisperGUIDpos);</div>
-<div class="line"><span class="lineno">  151</span>        }</div>
-<div class="line"><span class="lineno">  152</span>        <span class="keywordflow">else</span></div>
-<div class="line"><span class="lineno">  153</span>        {</div>
-<div class="line"><span class="lineno">  154</span>            messageTemplate = <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[loc_idx]-&gt;first;</div>
-<div class="line"><span class="lineno">  155</span>            whisperGUIDpos = <a class="code hl_variable" href="../../d3/d4b/a11134.html#a660b352a1c1855f4b10a8aebef88133f">_packetCache</a>[loc_idx]-&gt;second;</div>
-<div class="line"><span class="lineno">  156</span>        }</div>
-<div class="line"><span class="lineno">  157</span> </div>
-<div class="line"><span class="lineno">  158</span>        <a class="code hl_class" href="../../d5/d62/a10710.html">WorldPacket</a> data(*messageTemplate);</div>
-<div class="line"><span class="lineno">  159</span>        <span class="keywordflow">switch</span> (<a class="code hl_variable" href="../../d3/d4b/a11134.html#adf9260955b0141e85ff47c66350244e2">_msgType</a>)</div>
-<div class="line"><span class="lineno">  160</span>        {</div>
-<div class="line"><span class="lineno">  161</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a>:</div>
-<div class="line"><span class="lineno">  162</span>            <span class="keywordflow">case</span> <a class="code hl_enumvalue" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a>:</div>
-<div class="line"><span class="lineno">  163</span>                data.put&lt;<a class="code hl_typedef" href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a>&gt;(whisperGUIDpos, player-&gt;<a class="code hl_function" href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">GetGUID</a>().<a class="code hl_function" href="../../d9/d08/a08198.html#a65626f4640cb4f79c66ce9d5dda8ab27">GetRawValue</a>());</div>
-<div class="line"><span class="lineno">  164</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  165</span>            <span class="keywordflow">default</span>:</div>
-<div class="line"><span class="lineno">  166</span>                <span class="keywordflow">break</span>;</div>
-<div class="line"><span class="lineno">  167</span>        }</div>
-<div class="line"><span class="lineno">  168</span> </div>
-<div class="line"><span class="lineno">  169</span>        player-&gt;<a class="code hl_function" href="../../d9/d86/a08398.html#a2ad9b8f6c94365d5afe104567198aba8">SendDirectMessage</a>(&amp;data);</div>
-<div class="line"><span class="lineno">  170</span>    }</div>
-<div class="ttc" id="aa00017_html_a54c9b637be7283ba1a04fb5215594332"><div class="ttname"><a href="../../d4/d51/a00017.html#a54c9b637be7283ba1a04fb5215594332">LocaleConstant</a></div><div class="ttdeci">LocaleConstant</div><div class="ttdef"><b>Definition:</b> Common.h:65</div></div>
-<div class="ttc" id="aa00497_html_ac4dd6ce78ce3b840c53bd4b3c63ed09b"><div class="ttname"><a href="../../d4/d1e/a00497.html#ac4dd6ce78ce3b840c53bd4b3c63ed09b">uint64</a></div><div class="ttdeci">std::uint64_t uint64</div><div class="ttdef"><b>Definition:</b> Define.h:106</div></div>
-<div class="ttc" id="aa02771_html_a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8"><div class="ttname"><a href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a1156d69b4214408b80dc93c321e717d8">CHAT_MSG_MONSTER_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_MONSTER_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3167</div></div>
-<div class="ttc" id="aa02771_html_a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a"><div class="ttname"><a href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16a2aa825e5e35e3e6b5e2b9e1e519f322a">CHAT_MSG_RAID_BOSS_WHISPER</a></div><div class="ttdeci">@ CHAT_MSG_RAID_BOSS_WHISPER</div><div class="ttdef"><b>Definition:</b> SharedDefines.h:3194</div></div>
-<div class="ttc" id="aa08150_html_ad23b997e2442fa6a6228ba73a7ecc138"><div class="ttname"><a href="../../d6/d80/a08150.html#ad23b997e2442fa6a6228ba73a7ecc138">Object::GetGUID</a></div><div class="ttdeci">static ObjectGuid GetGUID(Object const *o)</div><div class="ttdef"><b>Definition:</b> Object.h:112</div></div>
-<div class="ttc" id="aa08198_html_a65626f4640cb4f79c66ce9d5dda8ab27"><div class="ttname"><a href="../../d9/d08/a08198.html#a65626f4640cb4f79c66ce9d5dda8ab27">ObjectGuid::GetRawValue</a></div><div class="ttdeci">uint64 GetRawValue() const</div><div class="ttdef"><b>Definition:</b> ObjectGuid.h:142</div></div>
-<div class="ttc" id="aa08398_html_a2ad9b8f6c94365d5afe104567198aba8"><div class="ttname"><a href="../../d9/d86/a08398.html#a2ad9b8f6c94365d5afe104567198aba8">Player::SendDirectMessage</a></div><div class="ttdeci">void SendDirectMessage(WorldPacket const *data) const</div><div class="ttdef"><b>Definition:</b> Player.cpp:5723</div></div>
-<div class="ttc" id="aa08398_html_a6ab11ca64cde7c5cde1f53998a6f7253"><div class="ttname"><a href="../../d9/d86/a08398.html#a6ab11ca64cde7c5cde1f53998a6f7253">Player::GetSession</a></div><div class="ttdeci">WorldSession * GetSession() const</div><div class="ttdef"><b>Definition:</b> Player.h:1998</div></div>
-<div class="ttc" id="aa10710_html"><div class="ttname"><a href="../../d5/d62/a10710.html">WorldPacket</a></div><div class="ttdef"><b>Definition:</b> WorldPacket.h:26</div></div>
-<div class="ttc" id="aa10754_html_a38ff97828c0efe89c092f5772c543564"><div class="ttname"><a href="../../d1/d5e/a10754.html#a38ff97828c0efe89c092f5772c543564">WorldSession::GetSessionDbLocaleIndex</a></div><div class="ttdeci">LocaleConstant GetSessionDbLocaleIndex() const</div><div class="ttdef"><b>Definition:</b> WorldSession.h:498</div></div>
-</div><!-- fragment -->
-<p class="reference">References <a class="el" href="../../#l00174">CreatureTextLocalizer&lt; Builder &gt;::_builder</a>, <a class="el" href="../../#l00175">CreatureTextLocalizer&lt; Builder &gt;::_msgType</a>, <a class="el" href="../../#l00173">CreatureTextLocalizer&lt; Builder &gt;::_packetCache</a>, <a class="el" href="../../#l03167">CHAT_MSG_MONSTER_WHISPER</a>, <a class="el" href="../../#l03194">CHAT_MSG_RAID_BOSS_WHISPER</a>, <a class="el" href="../../#l00112">Object::GetGUID()</a>, <a class="el" href="../../#l00142">ObjectGuid::GetRawValue()</a>, <a class="el" href="../../#l01998">Player::GetSession()</a>, <a class="el" href="../../#l00498">WorldSession::GetSessionDbLocaleIndex()</a>, <a class="el" href="../../#l00137">ByteBuffer::put()</a>, and <a class="el" href="../../#l05723">Player::SendDirectMessage()</a>.</p>
-
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a1d8d97d3e423810d044a8155b182899d" name="a1d8d97d3e423810d044a8155b182899d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1d8d97d3e423810d044a8155b182899d">&#9670;&#160;</a></span>_builder</h2>
+<a id="abcb28d1a2f32402511c1e659b2f3b443" name="abcb28d1a2f32402511c1e659b2f3b443"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcb28d1a2f32402511c1e659b2f3b443">&#9670;&#160;</a></span>_HandlerScript</h2>
 
 <div class="memitem">
 <div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">Builder const&amp; <a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;::_builder</td>
+          <td class="memname">AuraCheckProcFnType AuraScript::CheckProcHandler::_HandlerScript</td>
         </tr>
       </table>
   </td>
@@ -314,60 +202,6 @@ template&lt;class Builder &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00139">CreatureTextLocalizer&lt; Builder &gt;::operator()()</a>.</p>
-
-</div>
-</div>
-<a id="adf9260955b0141e85ff47c66350244e2" name="adf9260955b0141e85ff47c66350244e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf9260955b0141e85ff47c66350244e2">&#9670;&#160;</a></span>_msgType</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname"><a class="el" href="../../d0/dbd/a02771.html#a249e68b260c9857b5d0d4cf4697fae16">ChatMsg</a> <a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;::_msgType</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00139">CreatureTextLocalizer&lt; Builder &gt;::operator()()</a>.</p>
-
-</div>
-</div>
-<a id="a660b352a1c1855f4b10a8aebef88133f" name="a660b352a1c1855f4b10a8aebef88133f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a660b352a1c1855f4b10a8aebef88133f">&#9670;&#160;</a></span>_packetCache</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class Builder &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">std::vector&lt;std::pair&lt;<a class="el" href="../../d5/d62/a10710.html">WorldPacket</a>*, std::size_t&gt;* &gt; <a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a>&lt; Builder &gt;::_packetCache</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">private</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p class="reference">Referenced by <a class="el" href="../../#l00124">CreatureTextLocalizer&lt; Builder &gt;::CreatureTextLocalizer()</a>, <a class="el" href="../../#l00139">CreatureTextLocalizer&lt; Builder &gt;::operator()()</a>, and <a class="el" href="../../#l00129">CreatureTextLocalizer&lt; Builder &gt;::~CreatureTextLocalizer()</a>.</p>
 
 </div>
 </div>
@@ -376,8 +210,8 @@ template&lt;class Builder &gt; </div>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="navelem"><a class="el" href="../../d3/d4b/a11134.html">CreatureTextLocalizer</a></li>
-    <li class="footer">Generated on Mon Dec 16 2024 20:43:27 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
+    <li class="navelem"><a class="el" href="../../d6/d53/a11082.html">AuraScript</a></li><li class="navelem"><a class="el" href="../../d3/d4b/a11134.html">CheckProcHandler</a></li>
+    <li class="footer">Generated on Mon Dec 23 2024 20:39:23 for AzerothCore by <a href="https://www.doxygen.org/index.html"><img class="footer" src="../../doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.5 </li>
   </ul>
 </div>
 </body>

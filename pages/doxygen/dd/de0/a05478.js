@@ -1,9 +1,9 @@
 var a05478 =
 [
-    [ "TimeTracker", "dd/de0/a05478.html#a2b9f585de223c1051136b10b03a27684", null ],
-    [ "GetExpiry", "dd/de0/a05478.html#acfc0d5503c1f5ec4d0bdc103d70dfbb3", null ],
-    [ "Passed", "dd/de0/a05478.html#a9a13002766153882150b1985a84013ad", null ],
-    [ "Reset", "dd/de0/a05478.html#a798cf19378c4de243fac01d7d51a3572", null ],
-    [ "Update", "dd/de0/a05478.html#a2009e98647f04c20cb3064e1e9e9a611", null ],
-    [ "i_expiryTime", "dd/de0/a05478.html#adf2e301fdefb32008f14ced5f1c37f33", null ]
+    [ "TimeTrackerSmall", "dd/de0/a05478.html#a38a962c928eac8546d1fd37a094077cc", null ],
+    [ "GetExpiry", "dd/de0/a05478.html#a2ebcfabed1bf252b6afb6c3182142c7b", null ],
+    [ "Passed", "dd/de0/a05478.html#af4455d0ebb784497e9fd1a08cc915062", null ],
+    [ "Reset", "dd/de0/a05478.html#ab8a3c45ffe0e83132e708b5e87625c02", null ],
+    [ "Update", "dd/de0/a05478.html#a6c10a37051caf7c16f1aa057bf2bf7da", null ],
+    [ "i_expiryTime", "dd/de0/a05478.html#a332f650bcfc81fb4b0de1b58ff1e0c9b", null ]
 ];

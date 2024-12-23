@@ -1,6 +1,6 @@
 var a13218 =
 [
-    [ "npc_augustus_the_touched", "dd/d70/a13218.html#abc84c884345f44cf780410569cdee10c", null ],
-    [ "OnGossipHello", "dd/d70/a13218.html#a81e0d4f2aaa685cd5231ea430c86e7b4", null ],
-    [ "OnGossipSelect", "dd/d70/a13218.html#a992da9b22693c1fac1148b4ba545b819", null ]
+    [ "HandleSendEvent", "dd/d70/a13218.html#af62c176d53589228d5e0077c9fc268a3", null ],
+    [ "PrepareSpellScript", "dd/d70/a13218.html#acea8e256f267dd496e5f573e982dba5f", null ],
+    [ "Register", "dd/d70/a13218.html#a0827e177a8268994bb4e63f07993a354", null ]
 ];

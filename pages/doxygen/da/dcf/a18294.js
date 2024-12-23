@@ -1,6 +1,6 @@
 var a18294 =
 [
-    [ "npc_captain_rupertAI", "da/dcf/a18294.html#ae91de64c440e71e612f34e37b90076d5", null ],
-    [ "Reset", "da/dcf/a18294.html#a8ebaca725aba2c3aed8856fb23228ae1", null ],
-    [ "UpdateAI", "da/dcf/a18294.html#a2edf4e51c9a5bde61a1875c067e963f2", null ]
+    [ "npc_frost_freeze_trapAI", "d3/d99/a18298.html", "d3/d99/a18298" ],
+    [ "npc_frost_freeze_trap", "da/dcf/a18294.html#ac58ed2598fd4250f220208a91343f9b8", null ],
+    [ "GetAI", "da/dcf/a18294.html#a88ed9aeb0403b3b625c858cd1e44a99f", null ]
 ];

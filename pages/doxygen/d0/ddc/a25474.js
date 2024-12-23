@@ -1,7 +1,6 @@
 var a25474 =
 [
-    [ "HandleEnergize", "d0/ddc/a25474.html#a283e713252166a863aa96530d6e7608b", null ],
-    [ "Load", "d0/ddc/a25474.html#a89847e0e9435a708c5722ff928f7033f", null ],
-    [ "PrepareSpellScript", "d0/ddc/a25474.html#a8847e05e6eeafd801fca5423d0689432", null ],
-    [ "Register", "d0/ddc/a25474.html#ae0778ffd8cf203e22510ee91b0394303", null ]
+    [ "HandleDummy", "d0/ddc/a25474.html#ab146c4026bc8ad129bb3d421891d344b", null ],
+    [ "PrepareSpellScript", "d0/ddc/a25474.html#aa9743f357b9800ab2990fb584011b0a6", null ],
+    [ "Register", "d0/ddc/a25474.html#a3ca7b1dd1187fd39e362b3451b246a4c", null ]
 ];

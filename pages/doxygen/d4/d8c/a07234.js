@@ -1,11 +1,9 @@
 var a07234 =
 [
-    [ "BattlegroundWGScore", "d4/d8c/a07234.html#a43b7933c5e217376e5bb10e9b5bb208b", null ],
-    [ "BuildObjectivesBlock", "d4/d8c/a07234.html#a804e56dbd666336d961cce2b0e4d6452", null ],
-    [ "GetAttr1", "d4/d8c/a07234.html#aab49f39d88989b153f1eb979fbbfaeb3", null ],
-    [ "GetAttr2", "d4/d8c/a07234.html#a191e205e08ef15cc36dabedc32614fd2", null ],
-    [ "UpdateScore", "d4/d8c/a07234.html#aa560d7f5f13dd235d43a9e3571090055", null ],
-    [ "BattlegroundWS", "d4/d8c/a07234.html#a4285b67c5d8593dce759422a4eb78c77", null ],
-    [ "FlagCaptures", "d4/d8c/a07234.html#a23ff00f10d07c1a601e9e1d0eb05b1da", null ],
-    [ "FlagReturns", "d4/d8c/a07234.html#ab400c9fb692ff157eb4809f0536c05f7", null ]
+    [ "BattlegroundEYLosingPointStruct", "d4/d8c/a07234.html#ae3f19e55206e1a8097fe173a8a37aa12", null ],
+    [ "DespawnObjectTypeAlliance", "d4/d8c/a07234.html#a210828d05ea9948484631b7408a3bb4b", null ],
+    [ "DespawnObjectTypeHorde", "d4/d8c/a07234.html#a335205cb71b7055db4c01a5e562001b6", null ],
+    [ "MessageIdAlliance", "d4/d8c/a07234.html#afe89eccc8c21351edb4ce943d937e521", null ],
+    [ "MessageIdHorde", "d4/d8c/a07234.html#a8295974ee1f663dd0d22bcc4f0e0fa92", null ],
+    [ "SpawnNeutralObjectType", "d4/d8c/a07234.html#a57c1a6f485ea6617b5218da411cae38f", null ]
 ];

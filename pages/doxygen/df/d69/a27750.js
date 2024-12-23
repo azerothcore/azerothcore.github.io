@@ -1,4 +1,5 @@
 var a27750 =
 [
-    [ "cost", "df/d69/a27750.html#a624313c8b56b9755593b2f4bacd306d7", null ]
+    [ "BitIndex", "df/d69/a27750.html#a55fdf966aec0ca687cd6074683af6e7f", null ],
+    [ "ItemId", "df/d69/a27750.html#a998c1f6dadb823fbba56bb2154396635", null ]
 ];

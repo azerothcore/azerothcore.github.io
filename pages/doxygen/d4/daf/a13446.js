@@ -1,6 +1,7 @@
 var a13446 =
 [
-    [ "npc_tapoke_slim_jahnAI", "d3/d9e/a13450.html", "d3/d9e/a13450" ],
-    [ "npc_tapoke_slim_jahn", "d4/daf/a13446.html#a61e36b57f8ba78c371d454efb1512579", null ],
-    [ "GetAI", "d4/daf/a13446.html#a397629742eace1b96dfd9d4a2e55cc32", null ]
+    [ "npc_jaina_proudmoore_bfuAI", "d4/daf/a13446.html#ad5ad1d05ef8210409c700e47b5442e24", null ],
+    [ "Reset", "d4/daf/a13446.html#a18de805428ce0954a5fbfffbf5975342", null ],
+    [ "UpdateAI", "d4/daf/a13446.html#a48b191d0812bfe3212511a52ef0df817", null ],
+    [ "_events", "d4/daf/a13446.html#a87e99e0b5fd0a3823b009025019b1fa4", null ]
 ];

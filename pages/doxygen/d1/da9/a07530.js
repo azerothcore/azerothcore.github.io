@@ -1,5 +1,7 @@
 var a07530 =
 [
-    [ "IsColorValid", "d1/da9/a07530.html#a075621e69c80c128ec44cfb4f3ba0cf6", null ],
-    [ "IsTextValid", "d1/da9/a07530.html#a33f6c3e46c24571a8eec083087618fed", null ]
+    [ "value_type", "d1/da9/a07530.html#a7a7bb2f2de595ea6ca37885da6f63b9f", null ],
+    [ "TryConsume", "d1/da9/a07530.html#ad98dd12bf2b9d4c5a3812d91232c4b8e", null ],
+    [ "_storage", "d1/da9/a07530.html#a0480bb23bf5c47ac03935901211952b5", null ],
+    [ "_string", "d1/da9/a07530.html#ae0538263243f423c8f86459300aec8d7", null ]
 ];

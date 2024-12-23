@@ -1,10 +1,10 @@
 var a09418 =
 [
-    [ "iterator", "de/d88/a09418.html#a9fada63aa17222fc5e216f3904affafd", null ],
-    [ "begin", "de/d88/a09418.html#aee3a4701c5bc51f4028fe53f18675989", null ],
-    [ "end", "de/d88/a09418.html#ad61defd77296790a6c5d0a43bacbbe4b", null ],
-    [ "getFirst", "de/d88/a09418.html#ae47bba95a17db31a42231da948245387", null ],
-    [ "getLast", "de/d88/a09418.html#ac03e93ac8ad6fc91ec9d2961b8904217", null ],
-    [ "rbegin", "de/d88/a09418.html#af68f1d93a80e13976798dfed0063a1e4", null ],
-    [ "rend", "de/d88/a09418.html#a92c30fb269bc99820b6964a99ee86d98", null ]
+    [ "const_iterator", "de/d88/a09418.html#ac52d3ebfa7eaeb9d6fd08f0089b13918", null ],
+    [ "StorageType", "de/d88/a09418.html#a6825a379d1af4254b920c14ab0068e7b", null ],
+    [ "BossBoundaryData", "de/d88/a09418.html#a3f80cd89e43eae1a74e2b0a6a674d0cb", null ],
+    [ "~BossBoundaryData", "de/d88/a09418.html#a446a3ec16cdce76058761fce972f1e57", null ],
+    [ "begin", "de/d88/a09418.html#a326930360d22d5fdf9a895991f2c4e49", null ],
+    [ "end", "de/d88/a09418.html#ab3dc9905d861b62c4551f45ee8b08ba5", null ],
+    [ "_data", "de/d88/a09418.html#af60e90664c434a8d36115ca5dec889b5", null ]
 ];

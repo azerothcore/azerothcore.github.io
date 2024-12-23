@@ -1,5 +1,5 @@
 var a14762 =
 [
-    [ "at_cthun_stomach_exit", "d1/d0d/a14762.html#ab37174eff353cdbba1f300464645ac63", null ],
-    [ "OnTrigger", "d1/d0d/a14762.html#ab56dca3fe200dc7822459a22912247bf", null ]
+    [ "boss_kri", "d1/d0d/a14762.html#a0a95f8d2a380ab48ffd5a034e012cc2c", null ],
+    [ "JustEngagedWith", "d1/d0d/a14762.html#ab2169ec49ecbff2ee1460e38bd1a163e", null ]
 ];

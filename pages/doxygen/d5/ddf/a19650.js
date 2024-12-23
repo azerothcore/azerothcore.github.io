@@ -1,6 +1,8 @@
 var a19650 =
 [
-    [ "achievement_flame_leviathan_towers", "d5/ddf/a19650.html#a491d66bdd373b6044e406126719ef910", null ],
-    [ "OnCheck", "d5/ddf/a19650.html#ad6e9dee3f05afaca0a355b714bf75ea6", null ],
-    [ "_towerCount", "d5/ddf/a19650.html#a1099385340b30a1a75655e2e7d2ba3cc", null ]
+    [ "OnApply", "d5/ddf/a19650.html#a3f2ef4882bcd52e091a0bcfabfc352cd", null ],
+    [ "OnRemove", "d5/ddf/a19650.html#ab967233994aa3ff07b272f010b2c1545", null ],
+    [ "PrepareAuraScript", "d5/ddf/a19650.html#a788480ec4aaa57e643f55daca17c6ded", null ],
+    [ "Register", "d5/ddf/a19650.html#a63a3e30704b282a430dcdbb9073a66df", null ],
+    [ "Validate", "d5/ddf/a19650.html#a6ccb698445ce30c5224dcacc3dc8136b", null ]
 ];

@@ -1,10 +1,13 @@
 var a19050 =
 [
-    [ "npc_oculus_drakegiverAI", "db/de9/a19050.html#a4bba380256a0ede70b8d90611249b444", null ],
-    [ "MovementInform", "db/de9/a19050.html#adc86ecd4ed7b4b7b42968a0e09fa29a0", null ],
-    [ "UpdateAI", "db/de9/a19050.html#a652a8c364687d51de62356964f6f33f9", null ],
-    [ "m_pInstance", "db/de9/a19050.html#a04e43a623d16b4cf8d80552d649d90ca", null ],
-    [ "moved", "db/de9/a19050.html#a069e202a84d99cd757862bd1a43b5562", null ],
-    [ "resetPosition", "db/de9/a19050.html#a8ef6c480846d08d8a6225a7124320cbf", null ],
-    [ "timer", "db/de9/a19050.html#a461b45ab959e71699cf1543ecbcbd91f", null ]
+    [ "npc_crystalline_frayer", "db/de9/a19050.html#ade88d8f4d4fd32155b87dfba75084f4c", null ],
+    [ "DamageTaken", "db/de9/a19050.html#a2580575a58353e8cb94561bafd74f502", null ],
+    [ "EnterEvadeMode", "db/de9/a19050.html#a9240adcfe966f11c925db82add432aa5", null ],
+    [ "JustEngagedWith", "db/de9/a19050.html#a91e8c4015b9b238fd2144999bcef9362", null ],
+    [ "Reset", "db/de9/a19050.html#a5baa6491ee0205b2b2e7bc8e6cd9a163", null ],
+    [ "UpdateAI", "db/de9/a19050.html#ab494a601b9a5dc3d4c3c303bc4de3a94", null ],
+    [ "_allowDeath", "db/de9/a19050.html#adc85054030146067d2cff47db2886a07", null ],
+    [ "abilityTimer1", "db/de9/a19050.html#ae4a140cd9fccecea24982d7aa90c6bf0", null ],
+    [ "abilityTimer2", "db/de9/a19050.html#a6d2bf3e1cc05860eb6a7706102438f32", null ],
+    [ "restoreTimer", "db/de9/a19050.html#a5ab2990b41f485417af6272194035fc3", null ]
 ];

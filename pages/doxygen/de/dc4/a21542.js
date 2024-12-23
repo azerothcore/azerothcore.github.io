@@ -1,7 +1,6 @@
 var a21542 =
 [
-    [ "HandleScriptEffect", "de/dc4/a21542.html#ad3f1231ac90b96650b5c8c3403d69195", null ],
-    [ "PrepareSpellScript", "de/dc4/a21542.html#a1fdd85c5833bf6f17395f56e2ea11fed", null ],
-    [ "Register", "de/dc4/a21542.html#a278206630f9f45f2dba50b259a6115c1", null ],
-    [ "Validate", "de/dc4/a21542.html#a8f6332b2d4e7ac7ba6a68331b1d4512f", null ]
+    [ "npc_spiritual_insightAI", "de/dc4/a21542.html#ab173cd8b623fcf8c36406155c91bc4db", null ],
+    [ "GetSpeachId", "de/dc4/a21542.html#ad2dd22651470f47e7a7ba6f687ba54e9", null ],
+    [ "IsSummonedBy", "de/dc4/a21542.html#ab6b39190d1195915ea0b4b191d864da6", null ]
 ];

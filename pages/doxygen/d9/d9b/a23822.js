@@ -1,6 +1,6 @@
 var a23822 =
 [
-    [ "npc_drake_dealer_hurlunk", "d9/d9b/a23822.html#ae6d095365d23c30d5b772b047b459ddb", null ],
-    [ "OnGossipHello", "d9/d9b/a23822.html#ad04b7f906f029d9935e29c585b0de421", null ],
-    [ "OnGossipSelect", "d9/d9b/a23822.html#aa23833dcdefb909899120c25d5376111", null ]
+    [ "CheckCast", "d9/d9b/a23822.html#ae13cc2d3da1c9911c88402d05679d447", null ],
+    [ "PrepareSpellScript", "d9/d9b/a23822.html#afbed81273aa23d355c64579c71e9761d", null ],
+    [ "Register", "d9/d9b/a23822.html#a7157d04dfc534aa3cb88e8dff169c676", null ]
 ];

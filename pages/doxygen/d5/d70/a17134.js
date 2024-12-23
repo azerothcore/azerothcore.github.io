@@ -1,7 +1,6 @@
 var a17134 =
 [
-    [ "HandleScript", "d5/d70/a17134.html#a5fe0b684473bd5dd1ff9b12432ff3de8", null ],
-    [ "Load", "d5/d70/a17134.html#ab1d81386ae3ccd332c01864d7f456017", null ],
-    [ "PrepareSpellScript", "d5/d70/a17134.html#ae3ef753ff4c99aa8bed20ce3369a7e0f", null ],
-    [ "Register", "d5/d70/a17134.html#a7edb44f70501c2e760d29c8f78a4e087", null ]
+    [ "npc_saurfang_eventAI", "d5/dd2/a17138.html", "d5/dd2/a17138" ],
+    [ "npc_saurfang_event", "d5/d70/a17134.html#a3bfce5457466360458498833098d660c", null ],
+    [ "GetAI", "d5/d70/a17134.html#a953842d2fa3380a8331faf3a42cb3177", null ]
 ];

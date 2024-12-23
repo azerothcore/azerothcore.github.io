@@ -1,16 +1,5 @@
 var a28226 =
 [
-    [ "Iterator", "df/d25/a28226.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "Iterator", "df/d25/a28226.html#a682fe042bcd4ceb6c25dd7b4a3acbcc1", null ],
-    [ "operator!=", "df/d25/a28226.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator!=", "df/d25/a28226.html#a7c0a38cbd02823479f349bb109a7ccf8", null ],
-    [ "operator*", "df/d25/a28226.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator*", "df/d25/a28226.html#a7b3de0d9987b834eaf6e909dd22f2528", null ],
-    [ "operator++", "df/d25/a28226.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator++", "df/d25/a28226.html#af7dc5aae457d264ebe4aa42f5b700589", null ],
-    [ "operator->", "df/d25/a28226.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator->", "df/d25/a28226.html#ac57afe01d1ce6c611ca832f10f5d52fd", null ],
-    [ "operator==", "df/d25/a28226.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "operator==", "df/d25/a28226.html#a2d9cf3e798a1fcce3682c186952290df", null ],
-    [ "record", "df/d25/a28226.html#a948512c44e53dfa177b85f82e9fd6160", null ]
+    [ "Deep", "df/d25/a28226.html#a9efcd2f19d9701713666f1ad2285d992", null ],
+    [ "Fishable", "df/d25/a28226.html#a929299daf6bc46aa775b9b0fa055c9e2", null ]
 ];

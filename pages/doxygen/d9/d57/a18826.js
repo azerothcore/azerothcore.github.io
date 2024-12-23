@@ -1,8 +1,6 @@
 var a18826 =
 [
-    [ "npc_teslaAI", "d9/d57/a18826.html#a7281220648af1357b1377d6f7874d663", null ],
-    [ "DamageTaken", "d9/d57/a18826.html#aa3ab570e86261bc3178e17109d76af12", null ],
-    [ "EnterEvadeMode", "d9/d57/a18826.html#acc8115216989b34593a9435eeb051eda", null ],
-    [ "JustEngagedWith", "d9/d57/a18826.html#add93f68bc96b3c93dc0a3271543711e6", null ],
-    [ "UpdateAI", "d9/d57/a18826.html#a962745569b07e368067ee483d2379840", null ]
+    [ "boss_razuviousAI", "de/dd3/a18830.html", "de/dd3/a18830" ],
+    [ "boss_razuvious", "d9/d57/a18826.html#ac1a2942f4a7957c671b075df7bf20215", null ],
+    [ "GetAI", "d9/d57/a18826.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
 ];

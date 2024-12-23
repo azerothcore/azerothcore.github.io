@@ -1,7 +1,7 @@
 var a24926 =
 [
-    [ "ModDest", "d7/df1/a24926.html#afe0fb68de61a657ce6900e71973e4d77", null ],
-    [ "ModifyCookingSkill", "d7/df1/a24926.html#a42dea7b58aed704a6aacd5d0aa0028d4", null ],
-    [ "PrepareSpellScript", "d7/df1/a24926.html#a7b0446133750fce7eda19dbde5abb3b1", null ],
-    [ "Register", "d7/df1/a24926.html#a6919079b43a816eb601a68c51ad39794", null ]
+    [ "CalculateAmount", "d7/df1/a24926.html#a074a7de6cd4d930c1f23f6398c738bad", null ],
+    [ "Load", "d7/df1/a24926.html#a777803a61286e0eba31246d4771630df", null ],
+    [ "PrepareAuraScript", "d7/df1/a24926.html#ab76bc3927d3ce31ae061fe8577ca25f0", null ],
+    [ "Register", "d7/df1/a24926.html#a335e1629b98bfacf6e4e565b94d4991e", null ]
 ];

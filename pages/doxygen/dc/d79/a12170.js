@@ -1,6 +1,6 @@
 var a12170 =
 [
-    [ "HandleHit", "dc/d79/a12170.html#a5245f935c0cafd14e492214a51d85ad3", null ],
-    [ "PrepareSpellScript", "dc/d79/a12170.html#a074b9e23de0a9b24776c7e361791c6ff", null ],
-    [ "Register", "dc/d79/a12170.html#a12f7db2345ce0d19a18791a2e63e7450", null ]
+    [ "boss_golemaggAI", "d2/daf/a12174.html", "d2/daf/a12174" ],
+    [ "boss_golemagg", "dc/d79/a12170.html#a66720a143f8987dfa5d6e2acb7cd73cd", null ],
+    [ "GetAI", "dc/d79/a12170.html#a6899f30975e0984306feabe47bbc8317", null ]
 ];

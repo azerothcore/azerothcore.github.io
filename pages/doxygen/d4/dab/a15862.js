@@ -1,6 +1,6 @@
 var a15862 =
 [
-    [ "boss_paletressAI", "df/de6/a15866.html", "df/de6/a15866" ],
-    [ "boss_paletress", "d4/dab/a15862.html#a04cbd31e71cc349b8c1058780ee6f673", null ],
-    [ "GetAI", "d4/dab/a15862.html#a2c20ff397d115cf0e8a1801184e5a3f9", null ]
+    [ "OnSummon", "d4/dab/a15862.html#ae2766d12fb686356b46126848f356c5a", null ],
+    [ "PrepareSpellScript", "d4/dab/a15862.html#a6b9af3b70d2ce07fe8aee5292367a982", null ],
+    [ "Register", "d4/dab/a15862.html#a717394bfbea621ae637f9e87efddda62", null ]
 ];

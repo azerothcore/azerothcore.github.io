@@ -1,6 +1,5 @@
 var a19978 =
 [
-    [ "boss_kologarn_armsAI", "df/d15/a19982.html", "df/d15/a19982" ],
-    [ "boss_kologarn_arms", "de/d10/a19978.html#ad540d28bb4b8a2be0ca0769f114c3eda", null ],
-    [ "GetAI", "de/d10/a19978.html#a9ffe4db97d937e01c5ab2008a011f67d", null ]
+    [ "achievement_i_could_say_that_this_cache_was_rare", "de/d10/a19978.html#a8ec1949d92f21fe57f967e510453da3e", null ],
+    [ "OnCheck", "de/d10/a19978.html#af68ad314c9b7be57964ca9baa8015bc9", null ]
 ];

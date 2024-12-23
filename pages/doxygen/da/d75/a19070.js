@@ -1,7 +1,6 @@
 var a19070 =
 [
-    [ "Apply", "da/d75/a19070.html#add8e95d38b0c437833c11cded72fe2a7", null ],
-    [ "PrepareAuraScript", "da/d75/a19070.html#ad2112b571d97e537983b4d11207015e6", null ],
-    [ "Register", "da/d75/a19070.html#accf85a0d8b2fad19bb0709013caa9f1b", null ],
-    [ "Validate", "da/d75/a19070.html#a0b89b10ee22d02655ad08a348ab91ecd", null ]
+    [ "boss_eregosAI", "d9/dc5/a19074.html", "d9/dc5/a19074" ],
+    [ "boss_eregos", "da/d75/a19070.html#a105820f29aa1391d77a56e024c4b5637", null ],
+    [ "GetAI", "da/d75/a19070.html#aee43f0dfee70ab9618c560a27504cb02", null ]
 ];

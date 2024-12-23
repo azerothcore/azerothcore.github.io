@@ -1,8 +1,9 @@
 var a11546 =
 [
-    [ "ironhand_guardianAI", "d1/d94/a11546.html#ab109b4ba9d399bd8c7d7dd5c04f2c618", null ],
-    [ "SetData", "d1/d94/a11546.html#ab4e6402951bf45910fb3399ea107b207", null ],
-    [ "UpdateAI", "d1/d94/a11546.html#a095b11f44935c8ddb43a20c095495507", null ],
-    [ "events", "d1/d94/a11546.html#a13ed887285809d2fcad0d23fdf37face", null ],
-    [ "flames_enabled", "d1/d94/a11546.html#ab54e1eac19a8b51e2aa9fe4bc5f08e46", null ]
+    [ "titles_commandscript", "d1/d94/a11546.html#ac088fd907013150a0508b79c99f6c2f3", null ],
+    [ "GetCommands", "d1/d94/a11546.html#af7d00111b3190f8bc9c46cedda3621d6", null ],
+    [ "HandleTitlesAddCommand", "d1/d94/a11546.html#a2a44d6f83bc5617a25a53b18fbd35e32", null ],
+    [ "HandleTitlesCurrentCommand", "d1/d94/a11546.html#a9a9b503e9ee65aa0d92cc7ff2e38a09d", null ],
+    [ "HandleTitlesRemoveCommand", "d1/d94/a11546.html#a2001bcc2eddc5688d57154f9906218e4", null ],
+    [ "HandleTitlesSetMaskCommand", "d1/d94/a11546.html#a9517b10295b856779cdd067234f640c8", null ]
 ];

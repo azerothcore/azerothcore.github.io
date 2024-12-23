@@ -1,5 +1,5 @@
 var a26670 =
 [
-    [ "achievement_flirt_with_disaster_perf_check", "df/d61/a26670.html#a8cb843ed26248ceff594ef552b0ae9ae", null ],
-    [ "OnCheck", "df/d61/a26670.html#a15e620be2f37f930477ba94293dbaf63", null ]
+    [ "achievement_bg_control_all_nodes", "df/d61/a26670.html#afa3c06227adff7a03998ac7c5f8147cf", null ],
+    [ "OnCheck", "df/d61/a26670.html#a69609eb5488519fa5a1f43b13a80e280", null ]
 ];

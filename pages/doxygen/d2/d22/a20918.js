@@ -1,6 +1,7 @@
 var a20918 =
 [
-    [ "npc_frozen_orb_stalkerAI", "d9/d33/a20922.html", "d9/d33/a20922" ],
-    [ "npc_frozen_orb_stalker", "d2/d22/a20918.html#a7f025c829106aa6668427f913d07a722", null ],
-    [ "GetAI", "d2/d22/a20918.html#af33e27138a70286bac561113ed09f350", null ]
+    [ "HandleScript", "d2/d22/a20918.html#a47b991c20c523d151893fefd9d487714", null ],
+    [ "PrepareSpellScript", "d2/d22/a20918.html#ab2db47d0a2694c0734db600e810e190d", null ],
+    [ "Register", "d2/d22/a20918.html#a3c2e7eb24506b43730f2e971fab81c75", null ],
+    [ "Validate", "d2/d22/a20918.html#a89d601f6036fe38238767281f3427e54", null ]
 ];

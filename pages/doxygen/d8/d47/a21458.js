@@ -1,6 +1,6 @@
 var a21458 =
 [
-    [ "GhoulTargetCheck", "d8/d47/a21458.html#acd743b2b1407c5171fbf410a02ff07bf", null ],
-    [ "operator()", "d8/d47/a21458.html#a6722cfe5a1ceecccf2c07924b2975f46", null ],
-    [ "_alive", "d8/d47/a21458.html#ab44092ca1cd6d7c17d7c63e0a8333453", null ]
+    [ "CheckCast", "d8/d47/a21458.html#a9c7e08a8a9b1c1b44ae290818826d43a", null ],
+    [ "PrepareSpellScript", "d8/d47/a21458.html#abff433d61c798d17882292b6b0956a58", null ],
+    [ "Register", "d8/d47/a21458.html#a1034967a4bf633f160cc40ae6e0fc567", null ]
 ];

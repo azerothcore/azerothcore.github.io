@@ -1,6 +1,6 @@
 var a24910 =
 [
-    [ "CheckRequirement", "d0/d15/a24910.html#adb3212ff52b5ad9ae2ce824dd1cf018a", null ],
-    [ "PrepareSpellScript", "d0/d15/a24910.html#aebb88f5ea803a590a099e4e6427d8276", null ],
-    [ "Register", "d0/d15/a24910.html#a18406f867561f9baf5a4cee8ce8ea59a", null ]
+    [ "HandleScript", "d0/d15/a24910.html#a1055ce8e5cbcc9d475bd9dab1f99cf92", null ],
+    [ "PrepareSpellScript", "d0/d15/a24910.html#a460823e5ad006c08d5b6378b7df279f0", null ],
+    [ "Register", "d0/d15/a24910.html#a7099938c5f14238b5afdadb6d040f931", null ]
 ];

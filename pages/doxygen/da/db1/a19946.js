@@ -1,6 +1,6 @@
 var a19946 =
 [
-    [ "boss_ignisAI", "db/dcd/a19950.html", "db/dcd/a19950" ],
-    [ "boss_ignis", "da/db1/a19946.html#a15f42f252e4f9472707d5b81f7fdaece", null ],
-    [ "GetAI", "da/db1/a19946.html#ac11ff148e9cbc985875f859268a3de01", null ]
+    [ "FilterTargets", "da/db1/a19946.html#af15fc44e9bd5251aa70aaaa6657e0c29", null ],
+    [ "PrepareSpellScript", "da/db1/a19946.html#ae0ebd4c2ac0f91da5b2574ee7dac31ec", null ],
+    [ "Register", "da/db1/a19946.html#af6704b0789566b2b385ac573eaa50f06", null ]
 ];

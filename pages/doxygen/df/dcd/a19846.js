@@ -1,6 +1,5 @@
 var a19846 =
 [
-    [ "npc_ulduar_hodir_druidAI", "df/d53/a19850.html", "df/d53/a19850" ],
-    [ "npc_ulduar_hodir_druid", "df/dcd/a19846.html#a07809d61d55756a847467043b0e90989", null ],
-    [ "GetAI", "df/dcd/a19846.html#a4b0503e20bf8caddf0ea544a88124263", null ]
+    [ "achievement_smell_saronite", "df/dcd/a19846.html#a42dce2aefa2561952dcf5289126035a8", null ],
+    [ "OnCheck", "df/dcd/a19846.html#a5180e3e53fa0f4d32d2a305d315bc8b3", null ]
 ];

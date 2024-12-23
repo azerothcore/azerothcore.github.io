@@ -1,7 +1,8 @@
 var a23114 =
 [
-    [ "OnApply", "d7/d8e/a23114.html#a301e47da9be4b4a449701c59c19bc62b", null ],
-    [ "PrepareAuraScript", "d7/d8e/a23114.html#a623bf9442a4a2b046d1d89bc2523eb37", null ],
-    [ "Register", "d7/d8e/a23114.html#aaf38547f7fa233b03429734dbe374f13", null ],
-    [ "Validate", "d7/d8e/a23114.html#ac390e2e24d9a85635ced5eaa343b8e09", null ]
+    [ "boss_the_black_stalker", "d7/d8e/a23114.html#ac33519b374509cefe43b8e97701719ee", null ],
+    [ "JustEngagedWith", "d7/d8e/a23114.html#ad118347103ec463a09492e81dbd61418", null ],
+    [ "JustSummoned", "d7/d8e/a23114.html#a9e0299a99df83abb7de476a765b667b9", null ],
+    [ "SummonedCreatureDies", "d7/d8e/a23114.html#aede25dbe426ec26ccb0509eca0c9c6af", null ],
+    [ "UpdateAI", "d7/d8e/a23114.html#a441d3a7e3d9b98703f5870c4ddb4b88c", null ]
 ];

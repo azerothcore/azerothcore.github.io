@@ -1,7 +1,10 @@
 var a12182 =
 [
-    [ "HandleScript", "db/d2e/a12182.html#ac09c2c6b997c2a5fc0bee0ba0ea185ae", null ],
-    [ "PrepareSpellScript", "db/d2e/a12182.html#ad3c052a9bd00d04c954f85218dcfcb0a", null ],
-    [ "Register", "db/d2e/a12182.html#a8658c2c7e32a66e4a1bcc048406653bb", null ],
-    [ "Validate", "db/d2e/a12182.html#aa03795d909e24dfe2ccd12e431b2575e", null ]
+    [ "npc_core_ragerAI", "db/d2e/a12182.html#a3c5125e0a10043f6181c10ba749fa579", null ],
+    [ "DamageTaken", "db/d2e/a12182.html#a758eb158eb9d232d74514281028efcb3", null ],
+    [ "Reset", "db/d2e/a12182.html#acf83e469d3d8108276227a942fda28b3", null ],
+    [ "UpdateAI", "db/d2e/a12182.html#a2183cf5ab22b737413b86a657fde6d3c", null ],
+    [ "instance", "db/d2e/a12182.html#a7cfddba62f737214b8cfc7fbffa8c2e2", null ],
+    [ "mangleTimer", "db/d2e/a12182.html#a081333b967abb3812b9ddae2f933a324", null ],
+    [ "rangeCheckTimer", "db/d2e/a12182.html#ade427bdd9ec99807b6f190c890136414", null ]
 ];

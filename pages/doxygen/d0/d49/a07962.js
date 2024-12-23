@@ -1,16 +1,12 @@
 var a07962 =
 [
-    [ "WorldLocation", "d0/d49/a07962.html#a424e67f5a820f3396ed6a02c3daa05fb", null ],
-    [ "WorldLocation", "d0/d49/a07962.html#a04d7814f5d846259c5af562ce856f468", null ],
-    [ "GetDebugInfo", "d0/d49/a07962.html#a0b3f13522d288dde484c70cbf8ef5fc5", null ],
-    [ "GetMapId", "d0/d49/a07962.html#a2682e56ae4f0ce4b517a8ba3cd2798b1", null ],
-    [ "GetWorldLocation", "d0/d49/a07962.html#a48cad9058b04a5108c4b99c7fd4d0bfe", null ],
-    [ "GetWorldLocation", "d0/d49/a07962.html#aa2623109f914fd8592f865545696d27b", null ],
-    [ "GetWorldLocation", "d0/d49/a07962.html#a75c59d33f5aac8da8eb9b8c5e2711acf", null ],
-    [ "GetWorldLocation", "d0/d49/a07962.html#aed21eb7d191b1e34ebd1456b427fbb2c", null ],
-    [ "GetWorldLocation", "d0/d49/a07962.html#abb5d3b7c89fa4a39d2486f2f943159e4", null ],
-    [ "SetMapId", "d0/d49/a07962.html#ac425c27c61ecc169fe3df61991011988", null ],
-    [ "WorldRelocate", "d0/d49/a07962.html#a7f014ec2469e93ffca3ec7bbd03b1606", null ],
-    [ "WorldRelocate", "d0/d49/a07962.html#adc762865d564319245ffc3363c080365", null ],
-    [ "m_mapId", "d0/d49/a07962.html#a88161a79f13aa3ab267096cfa8e5d0ed", null ]
+    [ "QuestMenu", "d0/d49/a07962.html#a60ba5b35499c6a9ed510300d3300421e", null ],
+    [ "~QuestMenu", "d0/d49/a07962.html#a14df9b6699c327853121ae032704db8d", null ],
+    [ "AddMenuItem", "d0/d49/a07962.html#ac8735756bbf9f2fa799c505bd740e070", null ],
+    [ "ClearMenu", "d0/d49/a07962.html#ab3d3881aabe000694acab37a3774507e", null ],
+    [ "Empty", "d0/d49/a07962.html#a1a850cb70956f299ea91cb0d732ad202", null ],
+    [ "GetItem", "d0/d49/a07962.html#a08240a8d18dce0cb96db19f54c67dd2c", null ],
+    [ "GetMenuItemCount", "d0/d49/a07962.html#a2338a6fb88c32bfb66fe524a8ffaa0d7", null ],
+    [ "HasItem", "d0/d49/a07962.html#a7fe36e4a4acfc66a00f08034c470b5e3", null ],
+    [ "_questMenuItems", "d0/d49/a07962.html#a49279a3943009f2d1475d792c2c3d21a", null ]
 ];

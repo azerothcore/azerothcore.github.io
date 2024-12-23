@@ -1,5 +1,10 @@
 var a22630 =
 [
-    [ "npc_vengeful_spirit", "db/d16/a22630.html#a06bd2b08a7719ae35dd6ad844ce3b3bd", null ],
-    [ "OnCharmed", "db/d16/a22630.html#a8aec87a3e6a7af96253035dbd9e813ad", null ]
+    [ "CalculateAmount", "db/d16/a22630.html#a19dcb71e46cc6fb08fda251829afae6f", null ],
+    [ "CheckProc", "db/d16/a22630.html#a8c4f5c9f3db8710aafd687a7bf304572", null ],
+    [ "HandleProc", "db/d16/a22630.html#ab5fc5ad25ab1d7451f0b8801894ae400", null ],
+    [ "PrepareAuraScript", "db/d16/a22630.html#a6e066884663276dbba82e46ca5f66e59", null ],
+    [ "Register", "db/d16/a22630.html#ac4154f0746e77229e8d349021d5b9c30", null ],
+    [ "Update", "db/d16/a22630.html#a9f5f3767f52f9755de6592f00f62a3d4", null ],
+    [ "Validate", "db/d16/a22630.html#a4f10d23f63c47b408b70373623b877a8", null ]
 ];

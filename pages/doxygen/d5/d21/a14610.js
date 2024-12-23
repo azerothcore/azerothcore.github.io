@@ -1,9 +1,12 @@
 var a14610 =
 [
-    [ "spell_gen_ayamiss_swarmer_loop", "d5/d21/a14610.html#ad910e172ef6866f102fa3407f676169a", null ],
-    [ "HandleScript", "d5/d21/a14610.html#acd0dffad436cb414deb546b192957783", null ],
-    [ "Load", "d5/d21/a14610.html#aa2b338da6aa545e588be3d3a72b1a747", null ],
-    [ "PrepareSpellScript", "d5/d21/a14610.html#aa64e3d5a98804e2a05d3af1fdc5b2d30", null ],
-    [ "Register", "d5/d21/a14610.html#ae1b7f1ab58bcdc526ff05b9b66b9c9f8", null ],
-    [ "_pathId", "d5/d21/a14610.html#ad179773bdfe73f7926d41d30726f0ac9", null ]
+    [ "instance_razorfen_downs_InstanceMapScript", "d5/d21/a14610.html#a04d36b66a5570d03bb95ef2225a5c902", null ],
+    [ "GetData", "d5/d21/a14610.html#a3d1611870945cd0c8cd7d4e7728cfd84", null ],
+    [ "Initialize", "d5/d21/a14610.html#aed9ab9542badb0296ca0660c39541cb8", null ],
+    [ "OnGameObjectCreate", "d5/d21/a14610.html#a567ac5d9a17514ede5b84c5d78204072", null ],
+    [ "ReadSaveDataMore", "d5/d21/a14610.html#a7d6fefed563b0b9763b9c63136c65952", null ],
+    [ "SetData", "d5/d21/a14610.html#a1dfd39d65b16bb6e1373fe83ba4053c5", null ],
+    [ "WriteSaveDataMore", "d5/d21/a14610.html#ae5cd5cf84e8db976f3006dc52bb5fab4", null ],
+    [ "_firesState", "d5/d21/a14610.html#a74809429d3d2b1db5374dacf34d8a1b7", null ],
+    [ "_gongPhase", "d5/d21/a14610.html#a23485a35f0aa2f2ffad53398882d163a", null ]
 ];

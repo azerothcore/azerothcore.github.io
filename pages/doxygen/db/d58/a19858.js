@@ -1,15 +1,6 @@
 var a19858 =
 [
-    [ "npc_ulduar_hodir_shamanAI", "db/d58/a19858.html#a4f18b06f254b57787b7ab31c9b422402", null ],
-    [ "AttackStart", "db/d58/a19858.html#a022aabbc965872925698bd53fad2f84d", null ],
-    [ "CanAIAttack", "db/d58/a19858.html#a21b3804fe0af15e59e9af30260552666", null ],
-    [ "EnterEvadeMode", "db/d58/a19858.html#af9cfc1dc173e0a4d82f1dbc8eb1cbcba", null ],
-    [ "JustDied", "db/d58/a19858.html#a5c06c412d38203bb10e9951e27d5760a", null ],
-    [ "MoveInLineOfSight", "db/d58/a19858.html#a24d570f1c4a133c4f001032a1c915a27", null ],
-    [ "ScheduleAbilities", "db/d58/a19858.html#ac197b53bc03fd8bdf44b8b2e2a64f568", null ],
-    [ "SpellHit", "db/d58/a19858.html#a3c61b680a0d75a87bfaf4d8ae8072ea9", null ],
-    [ "SpellHitTarget", "db/d58/a19858.html#ae829e62ec342c1e0d12a523506ea6b04", null ],
-    [ "UpdateAI", "db/d58/a19858.html#af961f02169ab700716410e26114fd857", null ],
-    [ "events", "db/d58/a19858.html#ad92f69d2a63313798e16cfbaf55301ca", null ],
-    [ "pInstance", "db/d58/a19858.html#af4f0d720b9d9e4cbe4805cfc0c9a12c8", null ]
+    [ "id", "db/d58/a19858.html#accc6fc59e13a0897ae168fae33ee4c7d", null ],
+    [ "x", "db/d58/a19858.html#afb67a1dce0819e0da0ceb9b303f43eb9", null ],
+    [ "y", "db/d58/a19858.html#aaf4fd9f1d5b020e102c0fec3863f7020", null ]
 ];

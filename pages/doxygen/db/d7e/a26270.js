@@ -1,8 +1,7 @@
 var a26270 =
 [
-    [ "FilterTargets", "db/d7e/a26270.html#a3766e5ed1f75c242f45b24c90eef7e11", null ],
-    [ "HandleDummy", "db/d7e/a26270.html#a2214b10da042a3af2fd3311872cc5286", null ],
-    [ "PrepareSpellScript", "db/d7e/a26270.html#a9959966856601f79a83931a7a7ecff91", null ],
-    [ "Register", "db/d7e/a26270.html#a6ac1d4f1d82aabb39526aca92636a41f", null ],
-    [ "Validate", "db/d7e/a26270.html#a67d4b92cc494b6081247a90e8d4c9628", null ]
+    [ "HandleEffectPeriodic", "db/d7e/a26270.html#abb9ec1dd08954e80cf6dbcacbe44e2ba", null ],
+    [ "PrepareAuraScript", "db/d7e/a26270.html#ae151331af09510cc91b63b65a30bdcbf", null ],
+    [ "Register", "db/d7e/a26270.html#ac2e23fa8c9cfec9b9689512f3363a56e", null ],
+    [ "Validate", "db/d7e/a26270.html#ad5cc7a5aa1164092f267071c82752bb5", null ]
 ];

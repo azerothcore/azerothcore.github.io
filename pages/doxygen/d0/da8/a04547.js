@@ -1,6 +1,6 @@
 var a04547 =
 [
-    [ "CharacterDatabaseConnection", "d6/df7/a05630.html", "d6/df7/a05630" ],
+    [ "CharacterDatabaseConnection", "df/d05/a05626.html", "df/d05/a05626" ],
     [ "CharacterDatabaseStatements", "d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7", [
       [ "CHAR_DEL_QUEST_POOL_SAVE", "d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7a494e95a33cf6fd5a044ae914d78eba5f", null ],
       [ "CHAR_INS_QUEST_POOL_SAVE", "d0/da8/a04547.html#a76116b4fa282d8e35bf8f8e940b5cba7ad81f4bf1ca36a95f1881b582d1a52f08", null ],

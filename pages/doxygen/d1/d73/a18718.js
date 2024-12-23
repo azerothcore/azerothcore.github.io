@@ -1,7 +1,7 @@
 var a18718 =
 [
-    [ "HandleScript", "d1/d73/a18718.html#a66db3976fe6ec7ee8712c5788ce5f3ec", null ],
-    [ "PrepareAuraScript", "d1/d73/a18718.html#aa3053519be0101f55450d76b1291f0f7", null ],
-    [ "Register", "d1/d73/a18718.html#ada596a7f19115c7178fd07fb9e956f58", null ],
-    [ "Validate", "d1/d73/a18718.html#a768dec18bc0e879c457a64135ec27ad9", null ]
+    [ "FilterTargets", "d1/d73/a18718.html#a56ff062a6014099623466145a66284cc", null ],
+    [ "PrepareSpellScript", "d1/d73/a18718.html#aa14623bb948ff457e52979facf74ffab", null ],
+    [ "Register", "d1/d73/a18718.html#a9494bea35088161c9a520395d714fde1", null ],
+    [ "Validate", "d1/d73/a18718.html#a6a02bc1a79a5f4fefe3b1e2900eaf0b4", null ]
 ];

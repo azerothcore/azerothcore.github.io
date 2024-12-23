@@ -1,8 +1,6 @@
 var a19606 =
 [
-    [ "Area", "db/da5/a19606.html#a0b9dc74e944f13e3291184645f432477", [
-      [ "AREA_FORMATION_GROUNDS", "db/da5/a19606.html#a0b9dc74e944f13e3291184645f432477a92a09caedcec4a8b97c3e4601308d450", null ]
-    ] ],
-    [ "FlameLeviathanPursuedTargetSelector", "db/da5/a19606.html#acc855eaab1e9590e1fcfae6ed8d37815", null ],
-    [ "operator()", "db/da5/a19606.html#aaa2a49366fb651f7486b463ce597f364", null ]
+    [ "npc_pool_of_tarAI", "df/dd7/a19610.html", "df/dd7/a19610" ],
+    [ "npc_pool_of_tar", "db/da5/a19606.html#a9c585318b4507babe77b3ba758b06a87", null ],
+    [ "GetAI", "db/da5/a19606.html#ae77bf48a72ce49f821085f32127e91dc", null ]
 ];

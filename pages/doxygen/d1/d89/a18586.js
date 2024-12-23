@@ -1,7 +1,7 @@
 var a18586 =
 [
-    [ "HandleTriggerSpell", "d1/d89/a18586.html#a0e75076c2aed1544c544b976ee9cfbcd", null ],
-    [ "PrepareAuraScript", "d1/d89/a18586.html#a6ce4c5c2b6797b38225ac3348aad5892", null ],
-    [ "Register", "d1/d89/a18586.html#af87272995f6eeb3bc53cf472f5c3e9d3", null ],
-    [ "Validate", "d1/d89/a18586.html#a813bad39641956fff697580f271416d2", null ]
+    [ "DelayedCastMincharEvent", "d1/d89/a18586.html#a76d8a08ca273eec5b2e083d136336a15", null ],
+    [ "Execute", "d1/d89/a18586.html#a12aeff246d07e541ed192974320842cb", null ],
+    [ "_spellId", "d1/d89/a18586.html#af4ea90407b2c8a283f137d213ffe97be", null ],
+    [ "_trigger", "d1/d89/a18586.html#a9f3cd02e77ad35b98a6753b792383548", null ]
 ];

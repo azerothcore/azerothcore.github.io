@@ -1,10 +1,13 @@
 var a20734 =
 [
-    [ "npc_enslaved_proto_drake", "d2/d38/a20734.html#aec835fdc8b1beb270176d5341d26c265", null ],
-    [ "MovementInform", "d2/d38/a20734.html#ad2a25f78a82e0f2cef1e7809cb1d7d89", null ],
-    [ "Reset", "d2/d38/a20734.html#a3c1ea80e356e33c4a4b7ed5d083fc7b5", null ],
-    [ "SetData", "d2/d38/a20734.html#a888219a604e4c95a5a3e442fcf8c1a39", null ],
-    [ "UpdateAI", "d2/d38/a20734.html#a252f84198df610bac44b6bd9cd80602e", null ],
-    [ "_events", "d2/d38/a20734.html#a89b48d6fb010bc9611b625e5f02b94d3", null ],
-    [ "_setData", "d2/d38/a20734.html#adb997badd8831dea7763eaecc93b7773", null ]
+    [ "npc_ulduar_arachnopod_destroyerAI", "d2/d38/a20734.html#a52bbedf267aaa3cea68e8a5960cbc34b", null ],
+    [ "AttackStart", "d2/d38/a20734.html#aed91dafbc50a785875b8b41c5e328d73", null ],
+    [ "DamageTaken", "d2/d38/a20734.html#a4c2ec3cf0c5561b1b9f309bb8f180f8c", null ],
+    [ "EnterEvadeMode", "d2/d38/a20734.html#a671a27f00e279e0a4c0827999ce26d8b", null ],
+    [ "OnCharmed", "d2/d38/a20734.html#ae268a425326efbea1282ce116ff76e3f", null ],
+    [ "PassengerBoarded", "d2/d38/a20734.html#a83409607638100fddd229829ee2bea40", null ],
+    [ "Reset", "d2/d38/a20734.html#a2a7bda0ee585a7aa652081ce7ede3fa6", null ],
+    [ "UpdateAI", "d2/d38/a20734.html#ac10669fddd193d583ecead8ed37879b3", null ],
+    [ "_spawnedMechanic", "d2/d38/a20734.html#a2db3016e32b4e77724fea98d605eaa59", null ],
+    [ "events", "d2/d38/a20734.html#ac61064ee3e22b476a35dce4564f65882", null ]
 ];

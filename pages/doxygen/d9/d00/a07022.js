@@ -1,8 +1,7 @@
 var a07022 =
 [
-    [ "nbTowerCannonBottom", "d9/d00/a07022.html#a06e8dcf63efd928b72f3ec7d433ccb89", null ],
-    [ "nbTurretTop", "d9/d00/a07022.html#a5a728dccad89da190131cd93b62390b7", null ],
-    [ "TowerCannonBottom", "d9/d00/a07022.html#a21fa09356b3349bf45865aa3f0920268", null ],
-    [ "towerEntry", "d9/d00/a07022.html#a37e171a06a6e7bf5c0832417c597c2e1", null ],
-    [ "TurretTop", "d9/d00/a07022.html#a6849ba6967fa275950da9fec16df9bec", null ]
+    [ "AuctionSearchUpdateBid", "d9/d00/a07022.html#ad7ecaf272e5cc8fe61e0b448d05b6d27", null ],
+    [ "auctionId", "d9/d00/a07022.html#a6ebbff1fcebe77ed4735483ad481fd00", null ],
+    [ "bid", "d9/d00/a07022.html#a14b7f79b2aa0b020c8c940d6b01c4efc", null ],
+    [ "bidderGuid", "d9/d00/a07022.html#a843bcff41f694075ea056d9a3c71467f", null ]
 ];

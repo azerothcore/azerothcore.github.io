@@ -1,6 +1,6 @@
 var a11658 =
 [
-    [ "boss_high_interrogator_gerstahnAI", "d3/d90/a11662.html", "d3/d90/a11662" ],
-    [ "boss_high_interrogator_gerstahn", "da/dec/a11658.html#a700eb542c041e9ca540f2676fc42aff9", null ],
-    [ "GetAI", "da/dec/a11658.html#ab4e92847a1ce6bf50f0ae460c1a7108f", null ]
+    [ "boss_anubshiahAI", "d3/d90/a11662.html", "d3/d90/a11662" ],
+    [ "boss_anubshiah", "da/dec/a11658.html#a7176d98f966dac62f7ac1a10d3f2afa1", null ],
+    [ "GetAI", "da/dec/a11658.html#a157420b5f0c4c05e7dc2ee327ef81cb9", null ]
 ];

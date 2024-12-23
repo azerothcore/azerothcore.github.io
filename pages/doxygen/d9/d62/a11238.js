@@ -1,12 +1,13 @@
 var a11238 =
 [
-    [ "WardenMac", "d9/d62/a11238.html#a576c0cf7a819e95c97cc0ac4e5962d6d", null ],
-    [ "~WardenMac", "d9/d62/a11238.html#a5f3832580c73a0af34fa83669a92ceab", null ],
-    [ "GetModuleForClient", "d9/d62/a11238.html#a7a31b72ea7362c70f0fc9ff6e316d80b", null ],
-    [ "HandleData", "d9/d62/a11238.html#a024be47d39641cb0e7654b0e0999e444", null ],
-    [ "HandleHashResult", "d9/d62/a11238.html#a7feb3f82b2e0efd8427d6d8bcabaf17c", null ],
-    [ "Init", "d9/d62/a11238.html#ae329d60e41b9f5af2a2c7e4983936eac", null ],
-    [ "InitializeModule", "d9/d62/a11238.html#a4fceef34e83db1a357d9eadce35efdef", null ],
-    [ "RequestChecks", "d9/d62/a11238.html#a2437a3a5650305b05fc22d312d0006da", null ],
-    [ "RequestHash", "d9/d62/a11238.html#af031f18554c5a96b4eb39371a92b9c51", null ]
+    [ "PlayerDumpWriter", "d9/d62/a11238.html#a060152c060b37c4bf1208a99edc4a840", null ],
+    [ "AppendTable", "d9/d62/a11238.html#a7f285fddf6d33dd1664b5af801f110e9", null ],
+    [ "GetDump", "d9/d62/a11238.html#a17457008e1262c0aed284469e55841c6", null ],
+    [ "PopulateGuids", "d9/d62/a11238.html#aab122c84eefe801ac23211ec5a41e888", null ],
+    [ "WriteDumpToFile", "d9/d62/a11238.html#a81612bfc0d161595f4de1a6133d5c46d", null ],
+    [ "WriteDumpToString", "d9/d62/a11238.html#a43d30815c9b3b2608e0fecad7bba7254", null ],
+    [ "_items", "d9/d62/a11238.html#a5da825b82a09809ded2ce2c88458cc26", null ],
+    [ "_itemSets", "d9/d62/a11238.html#a33ff3a269064d883eff84ec83c394e92", null ],
+    [ "_mails", "d9/d62/a11238.html#a2863e88ee13debe77e4b1d3d0960d18a", null ],
+    [ "_pets", "d9/d62/a11238.html#a33325b0514324020bba98364a7f59de5", null ]
 ];

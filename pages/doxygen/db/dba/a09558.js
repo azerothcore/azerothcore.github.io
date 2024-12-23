@@ -1,14 +1,8 @@
 var a09558 =
 [
-    [ "BattlegroundMap", "db/dba/a09558.html#a3a9af8a69ac8d188d7fb86f2a9dda2c3", null ],
-    [ "~BattlegroundMap", "db/dba/a09558.html#a327d241fd7930e9b3a98ba50014d5131", null ],
-    [ "AddPlayerToMap", "db/dba/a09558.html#a0325279a2affc7b20a415a3b90a32fc0", null ],
-    [ "CannotEnter", "db/dba/a09558.html#a493a1932eee44c346d9cfb7d13789bb6", null ],
-    [ "GetBG", "db/dba/a09558.html#a2fcb965981bb03571f12c11cdbac54a4", null ],
-    [ "InitVisibilityDistance", "db/dba/a09558.html#af2d6847765d10fab527d77b26dd770ad", null ],
-    [ "RemoveAllPlayers", "db/dba/a09558.html#a5093cbf8005d06452eeb202513323c1e", null ],
-    [ "RemovePlayerFromMap", "db/dba/a09558.html#aeddb9dfae8601e95b0a93cefc12c2612", null ],
-    [ "SetBG", "db/dba/a09558.html#aaa9e5f830953b1a37a684ac566e9b768", null ],
-    [ "SetUnload", "db/dba/a09558.html#a4c03b1aa9c4c53697ad6284825a1b9c1", null ],
-    [ "m_bg", "db/dba/a09558.html#aa38fff695728ddedc94dd6eb6bd7bf3b", null ]
+    [ "BoundaryIntersectBoundary", "db/dba/a09558.html#ad92d938418434a1cb6a0eb68c88d281c", null ],
+    [ "~BoundaryIntersectBoundary", "db/dba/a09558.html#ad8bbf96e48d18ef87ac31dea8bcb023b", null ],
+    [ "IsWithinBoundaryArea", "db/dba/a09558.html#a09c8440d1ddb8264bff4065910b7e0a5", null ],
+    [ "_b1", "db/dba/a09558.html#ab0239437fa92e39d144bf3856eb347c7", null ],
+    [ "_b2", "db/dba/a09558.html#a41e100c17db99990981293399660824c", null ]
 ];

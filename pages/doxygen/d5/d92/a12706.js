@@ -1,8 +1,7 @@
 var a12706 =
 [
-    [ "npc_highlord_darion_mograineAI", "de/d2e/a12710.html", "de/d2e/a12710" ],
-    [ "npc_highlord_darion_mograine", "d5/d92/a12706.html#a86680b1a140c706b10fd48befc572286", null ],
-    [ "GetAI", "d5/d92/a12706.html#a350539ed741fa372ffff92ffbc6e6260", null ],
-    [ "OnGossipHello", "d5/d92/a12706.html#a35afc9d80b4570163af9f6013949a70c", null ],
-    [ "OnGossipSelect", "d5/d92/a12706.html#a0539d24556c16a1a72be8258c752f5f5", null ]
+    [ "HandleEffectApply", "d5/d92/a12706.html#a8d52c4ea09e1d58d2dc44ff73d71faf5", null ],
+    [ "PrepareAuraScript", "d5/d92/a12706.html#a9829789fe5544429454e29d228ce0daf", null ],
+    [ "Register", "d5/d92/a12706.html#a7f5a26d10f48d863477ec902e6f5ff1e", null ],
+    [ "Validate", "d5/d92/a12706.html#ae81a441757ab9f10c29a7b313b99cf5f", null ]
 ];

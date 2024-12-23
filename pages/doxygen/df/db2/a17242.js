@@ -1,6 +1,6 @@
 var a17242 =
 [
-    [ "npc_gunship_mageAI", "d6/dfd/a17246.html", "d6/dfd/a17246" ],
-    [ "npc_gunship_mage", "df/db2/a17242.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
-    [ "GetAI", "df/db2/a17242.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
+    [ "npc_high_overlord_saurfang_igbAI", "d6/dfd/a17246.html", "d6/dfd/a17246" ],
+    [ "npc_high_overlord_saurfang_igb", "df/db2/a17242.html#ae68d42f65851a753874705511bb83330", null ],
+    [ "GetAI", "df/db2/a17242.html#a54b6da97a40665232d28a20bac9b7ef3", null ]
 ];

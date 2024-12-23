@@ -1,16 +1,14 @@
 var a09450 =
 [
-    [ "ServerMail", "d6/d23/a09450.html#a50cf3e6929e397a3c1de83b9fcf83416", null ],
-    [ "active", "d6/d23/a09450.html#a24a12fcafd0b0f4a7c0558737d8fd71f", null ],
-    [ "body", "d6/d23/a09450.html#a58d352611dcb35126f6ec93622ddc4b9", null ],
-    [ "id", "d6/d23/a09450.html#a6b47994eff9201a6a75f8c621b64716c", null ],
-    [ "itemA", "d6/d23/a09450.html#a2d5232d5e111f5af7446940f92aaf9df", null ],
-    [ "itemCountA", "d6/d23/a09450.html#abb24673f0b21f715f3e112e232cec35b", null ],
-    [ "itemCountH", "d6/d23/a09450.html#ac9b6e655136616b040788c55d80706da", null ],
-    [ "itemH", "d6/d23/a09450.html#ab7dc4da9b86a39ecb5c28ec071f17112", null ],
-    [ "moneyA", "d6/d23/a09450.html#a6a84ca583beef891422f67bef7919c47", null ],
-    [ "moneyH", "d6/d23/a09450.html#a0e899ce54283bc000cc6afb96e6a3244", null ],
-    [ "reqLevel", "d6/d23/a09450.html#a494ce9c800d1545b023b9ff526f8b994", null ],
-    [ "reqPlayTime", "d6/d23/a09450.html#abfa7c7fe76fd085fc8726dcba600e10e", null ],
-    [ "subject", "d6/d23/a09450.html#a246e499c69c57a436aac4c039ea37d31", null ]
+    [ "LootItemStorage", "d6/d23/a09450.html#aa6ece474f05744f2ce24a9fef42734af", null ],
+    [ "~LootItemStorage", "d6/d23/a09450.html#a36faeed6ef556fd13118c4ad34e38548", null ],
+    [ "AddNewStoredLoot", "d6/d23/a09450.html#a4c463773b50ae1b312865fbf72dfed18", null ],
+    [ "instance", "d6/d23/a09450.html#a58d6dc6afa42364ca1dd6cbdcfb55b2b", null ],
+    [ "LoadStorageFromDB", "d6/d23/a09450.html#a377c75f9d06eb246072b29d19baf2b62", null ],
+    [ "LoadStoredLoot", "d6/d23/a09450.html#ad9804f564302d6ea4db4b84a6cbb093b", null ],
+    [ "RemoveEntryFromDB", "d6/d23/a09450.html#a8ab68725c0525d162d325a2131db4c49", null ],
+    [ "RemoveStoredLoot", "d6/d23/a09450.html#a414dee93f9852a64f01f9d9bf8dc8b40", null ],
+    [ "RemoveStoredLootItem", "d6/d23/a09450.html#a6fd3f2ac820784ba51413b3781df3bcc", null ],
+    [ "RemoveStoredLootMoney", "d6/d23/a09450.html#ab22d267a6701fedf824f801e4b703f70", null ],
+    [ "lootItemStore", "d6/d23/a09450.html#a58ae52b9812e5752ba00d00a58eb56b0", null ]
 ];

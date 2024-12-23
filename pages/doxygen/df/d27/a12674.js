@@ -1,6 +1,7 @@
 var a12674 =
 [
-    [ "npc_scarlet_courierAI", "db/d21/a12678.html", "db/d21/a12678" ],
-    [ "npc_scarlet_courier", "df/d27/a12674.html#ac9bb46ff40bdf5c83d55c14e52243004", null ],
-    [ "GetAI", "df/d27/a12674.html#a4b6b5a14ec6ce13a9ce7089f08bce9f5", null ]
+    [ "npc_unworthy_initiate_anchorAI", "df/d27/a12674.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
+    [ "GetGUID", "df/d27/a12674.html#a83cca82e7d75231a6aa586f67dad766e", null ],
+    [ "SetGUID", "df/d27/a12674.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
+    [ "prisonerGUID", "df/d27/a12674.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
 ];

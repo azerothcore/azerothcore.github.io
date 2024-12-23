@@ -1,6 +1,7 @@
 var a15286 =
 [
-    [ "npc_twiggy_flatheadAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
-    [ "npc_twiggy_flathead", "d4/d30/a15286.html#a36e8ae89c9138e1a88c84ecbfd694963", null ],
-    [ "GetAI", "d4/d30/a15286.html#a48c48994c199502bc3cfb96bf713bc5f", null ]
+    [ "npc_kaya_flathoofAI", "d9/d5a/a15290.html", "d9/d5a/a15290" ],
+    [ "npc_kaya_flathoof", "d4/d30/a15286.html#a588f88b1c00927a4ad6b7cd25fc1b065", null ],
+    [ "GetAI", "d4/d30/a15286.html#ad7cce0c1a30abe5bc0bffa777c40c79a", null ],
+    [ "OnQuestAccept", "d4/d30/a15286.html#acdb20ecb1ffee4417c9b39f3aebb0591", null ]
 ];

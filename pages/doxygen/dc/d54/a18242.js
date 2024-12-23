@@ -1,7 +1,8 @@
 var a18242 =
 [
-    [ "npc_frost_freeze_trapAI", "dc/d54/a18242.html#a95c64fbbc97f55e4d0cd0b239939fdc6", null ],
-    [ "DoAction", "dc/d54/a18242.html#a8dbe0fc5c84f49363254562166c8c0a7", null ],
-    [ "UpdateAI", "dc/d54/a18242.html#ae8efccb090f38968f3c0ca51f022013b", null ],
-    [ "_events", "dc/d54/a18242.html#ae0abd3d7fcb51ac02f8d325efa93b2f2", null ]
+    [ "DecayPeriodicTimer", "dc/d54/a18242.html#a314ac33692cc352c490ec3d87177d67a", null ],
+    [ "Load", "dc/d54/a18242.html#af5a498253c4c382df3b2462a30448a64", null ],
+    [ "PrepareAuraScript", "dc/d54/a18242.html#ac5d4ee199b49e04499997355ac054554", null ],
+    [ "Register", "dc/d54/a18242.html#a1b59480ce384f09cecd47872b39cf3c5", null ],
+    [ "_decayRate", "dc/d54/a18242.html#a20c696ff06f9b48451d9eac43ccf5416", null ]
 ];

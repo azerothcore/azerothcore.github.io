@@ -20,7 +20,7 @@ var searchData=
   ['chatcommands_5fimpl_5fsplit_5fliteral_5fconstrained_17',['CHATCOMMANDS_IMPL_SPLIT_LITERAL_CONSTRAINED',['../d9/d33/a03269.html#ae9ad890da39c16320a177ed5fbdffdf1',1,'ChatCommandTags.h']]],
   ['chatcommands_5fimpl_5fsplit_5fliteral_5fextract_5fchar_18',['CHATCOMMANDS_IMPL_SPLIT_LITERAL_EXTRACT_CHAR',['../d9/d33/a03269.html#a55b2f2ab9e15f11a5b44f6d616f28e8a',1,'ChatCommandTags.h']]],
   ['check_19',['CHECK',['../db/d06/a03866.html#a4005b3acaa5011bfc2cc027562c04dfb',1,'MoveSpline.cpp']]],
-  ['check_5fdist_20',['CHECK_DIST',['../da/d4a/a03107.html#aa16c8b27baa496c2fdf0afffaf4485a0',1,'Spell.cpp']]],
+  ['check_5fdist_20',['CHECK_DIST',['../d0/dcd/a03113.html#aa16c8b27baa496c2fdf0afffaf4485a0',1,'Spell.cpp']]],
   ['chunksize_21',['CHUNKSIZE',['../de/dde/a00587.html#a239bebe1697b474e6f84945e9fb9faee',1,'adt.h']]],
   ['classmask_5fall_5fcreatures_22',['CLASSMASK_ALL_CREATURES',['../d0/dbd/a02771.html#add3308c1afa012ee9d6fa99299a3bcb5',1,'SharedDefines.h']]],
   ['classmask_5fall_5fplayable_23',['CLASSMASK_ALL_PLAYABLE',['../d0/dbd/a02771.html#abf66a284fdfaa1dd8b07dbd234ce2028',1,'SharedDefines.h']]],

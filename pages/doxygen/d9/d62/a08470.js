@@ -1,6 +1,10 @@
 var a08470 =
 [
-    [ "spellIdImmunityPredicate", "d9/d62/a08470.html#a04893e34d418a0649d51dfa82b559d9c", null ],
-    [ "operator()", "d9/d62/a08470.html#ae97afff7a6b3ea5dca917d3dbb9ef818", null ],
-    [ "_type", "d9/d62/a08470.html#a125dfe727d668b5b9820adf1f7f0e0a8", null ]
+    [ "Index", "d9/d62/a08470.html#a28b25d822326a1b7d5ec7f95ce084bac", [
+      [ "REGULAR", "d9/d62/a08470.html#a28b25d822326a1b7d5ec7f95ce084bacaff2524a88b92db0ec25cc1f17b28cf68", null ],
+      [ "ADDON", "d9/d62/a08470.html#a28b25d822326a1b7d5ec7f95ce084baca0d74e752005cb5fe12644048433ea5cb", null ],
+      [ "MAX", "d9/d62/a08470.html#a28b25d822326a1b7d5ec7f95ce084baca6ca77c7f76d3ccd18db1d4c0f4e070a5", null ]
+    ] ],
+    [ "Count", "d9/d62/a08470.html#a0dc1d4dc63d5289fde92bbb2c28a7e2e", null ],
+    [ "Time", "d9/d62/a08470.html#a20b83dcc96256f2ab16326b2b8ec925e", null ]
 ];

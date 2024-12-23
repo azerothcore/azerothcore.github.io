@@ -1,6 +1,6 @@
 var a27046 =
 [
-    [ "trigger_periodicAI", "dc/d8d/a27050.html", "dc/d8d/a27050" ],
-    [ "trigger_periodic", "df/d3f/a27046.html#a3c947c5a3092eecb7288a8a50c76bd14", null ],
-    [ "GetAI", "df/d3f/a27046.html#a179f3aa69fcd0b145f4ede9f830c1f38", null ]
+    [ "go_bellsAI", "dc/d8d/a27050.html", "dc/d8d/a27050" ],
+    [ "go_bells", "df/d3f/a27046.html#a9f40a13aa1aaee28ebd1254d428c0519", null ],
+    [ "GetAI", "df/d3f/a27046.html#a4f1272fb8856310d7924f8e7be1e39f8", null ]
 ];

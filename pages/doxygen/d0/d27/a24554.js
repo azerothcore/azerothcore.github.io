@@ -1,7 +1,13 @@
 var a24554 =
 [
-    [ "HandleEffectRemove", "d0/d27/a24554.html#a3d6b6ae0bde8ae51362c95df82604d68", null ],
-    [ "PrepareAuraScript", "d0/d27/a24554.html#aa07b231cc76afb098ac8bc92eb050c80", null ],
-    [ "Register", "d0/d27/a24554.html#aa381143f36a6443dfb1f0d66ce81c351", null ],
-    [ "AuraEffectHandleModes", "d0/d27/a24554.html#a97370dd3f7c3e58a719090176c397386", null ]
+    [ "CalcPeriodic", "d0/d27/a24554.html#a08dca1818a687bb5862779e261dafb00", null ],
+    [ "CalculateExpertiseAmount", "d0/d27/a24554.html#a44703f4a1c5cfb74083bf74d7b77c23c", null ],
+    [ "CalculateHitAmount", "d0/d27/a24554.html#af6e9dda7381a80d4de93c1a7402a2e2b", null ],
+    [ "CalculateSpellHitAmount", "d0/d27/a24554.html#ab31dfffdf449c1eef74c2bcd43469109", null ],
+    [ "HandleEffectApply", "d0/d27/a24554.html#a6ba389f156263462f5e80e3a9fb6f62e", null ],
+    [ "HandlePeriodic", "d0/d27/a24554.html#ac97a33580dc873af7b580d4fdf7ed9f6", null ],
+    [ "PrepareAuraScript", "d0/d27/a24554.html#ad9aeb68e7d512f55f38f5a64d1d80f7f", null ],
+    [ "Register", "d0/d27/a24554.html#a803e26c6a4c06feedd80a4d94452aca5", null ],
+    [ "cap", "d0/d27/a24554.html#a9c3e35d01ad863d146566efe7cca2637", null ],
+    [ "maxChance", "d0/d27/a24554.html#a34933c7fe8b570214c821347f4ba974b", null ]
 ];

@@ -1,6 +1,5 @@
 var a12698 =
 [
-    [ "HandleScriptEffect", "df/d4c/a12698.html#af265f0bba7028f45763a7f9afea2d051", null ],
-    [ "PrepareSpellScript", "df/d4c/a12698.html#a27518fd5482e65e0324100057e747d68", null ],
-    [ "Register", "df/d4c/a12698.html#a07789d7d092eb1b6633200442466c52b", null ]
+    [ "go_inconspicuous_mine_car", "df/d4c/a12698.html#a34e941a813079b55f66bea15cffe8f42", null ],
+    [ "OnGossipHello", "df/d4c/a12698.html#a256a8f766dd045613c0c7159db9f74e0", null ]
 ];

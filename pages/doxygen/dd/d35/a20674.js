@@ -1,6 +1,6 @@
 var a20674 =
 [
-    [ "npc_ulduar_arachnopod_destroyerAI", "d8/d1e/a20678.html", "d8/d1e/a20678" ],
-    [ "npc_ulduar_arachnopod_destroyer", "dd/d35/a20674.html#aec69c3c143ec27734dd3f2d8db0da9fd", null ],
-    [ "GetAI", "dd/d35/a20674.html#ad667e7bacc181e79cb002181c71aac7c", null ]
+    [ "HandleScript", "dd/d35/a20674.html#ac7fc87a7585c866aa3fa1001c803bb00", null ],
+    [ "PrepareSpellScript", "dd/d35/a20674.html#ab2a4155f6029850c61e84d7c180addae", null ],
+    [ "Register", "dd/d35/a20674.html#a7e03062d9e28ed1917b7aa63d65f22ba", null ]
 ];

@@ -1,7 +1,6 @@
 var a14454 =
 [
-    [ "npc_tarethaAI", "da/db5/a14458.html", "da/db5/a14458" ],
-    [ "npc_taretha", "db/d86/a14454.html#a54379e06518ff972e91e25e295731f5a", null ],
-    [ "GetAI", "db/d86/a14454.html#a5045bb7119b12800ee0053818fcae5fe", null ],
-    [ "OnGossipHello", "db/d86/a14454.html#ac689e97b3fd54e9c9e40ed5b9aeca099", null ]
+    [ "npc_crate_helperAI", "db/d86/a14454.html#ad58a2f3746da7862658fb3b9e1580836", null ],
+    [ "SpellHit", "db/d86/a14454.html#a785bb6fdb254a050a5c5e3e9df49a850", null ],
+    [ "_marked", "db/d86/a14454.html#a0e718e519af661b73ed7bcd87ffbea32", null ]
 ];

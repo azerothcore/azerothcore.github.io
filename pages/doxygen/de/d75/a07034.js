@@ -1,11 +1,15 @@
 var a07034 =
 [
-    [ "WGWorkshop", "de/d75/a07034.html#a2d2d7b24ec77275f24efa54d31e98bbb", null ],
-    [ "GiveControlTo", "de/d75/a07034.html#a6b69312f4ffa562b0e8fdcf5da3568d3", null ],
-    [ "Save", "de/d75/a07034.html#adede1c780178f20dc8339320a021e4b6", null ],
-    [ "UpdateGraveyardAndWorkshop", "de/d75/a07034.html#a2ff11801fb50cd3a463c44fafbddaed4", null ],
-    [ "bf", "de/d75/a07034.html#ae2b7e050289ad5922ddcd73c6da9f5a5", null ],
-    [ "state", "de/d75/a07034.html#a279d47c85843e884edef1f82b9654cd8", null ],
-    [ "teamControl", "de/d75/a07034.html#a196c8d0094a34c18835840e046fd39ef", null ],
-    [ "workshopId", "de/d75/a07034.html#a42d7337c67e4f19886b0ec86f0e60596", null ]
+    [ "AuctionHouseSearcher", "de/d75/a07034.html#adee77153a7b9efeac149e6c951082986", null ],
+    [ "~AuctionHouseSearcher", "de/d75/a07034.html#a84842935539c5ef8b02815cc8697e568", null ],
+    [ "AddAuction", "de/d75/a07034.html#a09e01dd8840a50f6b6dd5f70ad9ec10c", null ],
+    [ "NotifyAllWorkers", "de/d75/a07034.html#a443577cfba0af003e7e0e8834474a6c1", null ],
+    [ "NotifyOneWorker", "de/d75/a07034.html#a1b70b786bf6e57d9d9cae8f34f0d779b", null ],
+    [ "QueueSearchRequest", "de/d75/a07034.html#a53caf3298638d325a8b9e97584296ad3", null ],
+    [ "RemoveAuction", "de/d75/a07034.html#a145da4d009d9814a4e76fae0d02f33e4", null ],
+    [ "Update", "de/d75/a07034.html#ac8c7b88346dc99bed5fe8d0efb28eebb", null ],
+    [ "UpdateBid", "de/d75/a07034.html#a7bb50e3e903c73a83469e7323917d40d", null ],
+    [ "_requestQueue", "de/d75/a07034.html#ac221abeb9a760c90d6110310970e6463", null ],
+    [ "_responseQueue", "de/d75/a07034.html#a772e65025ae498b8837222ae98f49c28", null ],
+    [ "_workerThreads", "de/d75/a07034.html#aa1cedd8cb22b840599b97bf7c7df0949", null ]
 ];

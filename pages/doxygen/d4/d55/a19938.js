@@ -1,6 +1,6 @@
 var a19938 =
 [
-    [ "npc_ulduar_iron_constructAI", "d4/d33/a19942.html", "d4/d33/a19942" ],
-    [ "npc_ulduar_iron_construct", "d4/d55/a19938.html#a56ddf4d4d290dbb15303419c1dab18da", null ],
-    [ "GetAI", "d4/d55/a19938.html#a7d46ba96b6f1968e35721d45c17b1a49", null ]
+    [ "FilterTargets", "d4/d55/a19938.html#a4f77f654ef8bb589fbb81e8cb1ec6ce6", null ],
+    [ "PrepareSpellScript", "d4/d55/a19938.html#a52c6b32ab01a68b258d4fe89730ec32b", null ],
+    [ "Register", "d4/d55/a19938.html#a2e9ee7705a950d6a500ac472ff783b3a", null ]
 ];

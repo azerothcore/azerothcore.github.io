@@ -1,5 +1,6 @@
 var a12094 =
 [
-    [ "npc_garr_fireswornAI", "df/dac/a12094.html#af2454b2ddf93102378ebf9780d260e56", null ],
-    [ "DamageTaken", "df/dac/a12094.html#ae9582b14e82b163ff97b99cb603e0179", null ]
+    [ "boss_vaelAI", "d3/d2d/a12098.html", "d3/d2d/a12098" ],
+    [ "boss_vaelastrasz", "df/dac/a12094.html#a0b51f3b50cde4907bd9064e8bf51c005", null ],
+    [ "GetAI", "df/dac/a12094.html#a42dde198f5fc0ab2e7ca28ac32c42b7e", null ]
 ];

@@ -1,8 +1,8 @@
 var a26450 =
 [
-    [ "HandleDummyTick", "de/df8/a26450.html#ad35d90e5cdd68f4c1d3172a0860274bd", null ],
-    [ "HandleRemove", "de/df8/a26450.html#a92f2bb73ec58832eaada3c7140f7868d", null ],
-    [ "PrepareAuraScript", "de/df8/a26450.html#a06e45d5f63ef1395b5949482e8393098", null ],
-    [ "Register", "de/df8/a26450.html#abf1d49720ae43d4ed2fb1c2920387ace", null ],
-    [ "Validate", "de/df8/a26450.html#a9a2da4d163a96526e14f5de76798a784", null ]
+    [ "CalcPeriodic", "de/df8/a26450.html#a42770d7f7e5bd41cd3f0a283c544c642", null ],
+    [ "CalculateAmount", "de/df8/a26450.html#a525009acb345d6b0a9857c30cfce2230", null ],
+    [ "HandlePeriodic", "de/df8/a26450.html#a4c75f793388b533d00a52ad18f18bc6e", null ],
+    [ "PrepareAuraScript", "de/df8/a26450.html#a5627212e48a3044a9a7480851787a839", null ],
+    [ "Register", "de/df8/a26450.html#a09ea5265d7105a4bd487d383948901a0", null ]
 ];

@@ -1,7 +1,11 @@
 var a15754 =
 [
-    [ "HandlePeriodic", "d2/d8f/a15754.html#ab49a636eaddea5c91f86f21a1d4d182e", null ],
-    [ "PrepareAuraScript", "d2/d8f/a15754.html#a3a9a26b3e0964e08d67a89cd950b5a97", null ],
-    [ "Register", "d2/d8f/a15754.html#aed8d41a9bf289b21caa9e93e66b004d2", null ],
-    [ "Validate", "d2/d8f/a15754.html#a3a428e0e4f63770a35cdf6a6ac85e403", null ]
+    [ "boss_general_zarithrianAI", "d2/d8f/a15754.html#a4168a5883052810d137f59d3b104bc24", null ],
+    [ "CheckEvadeIfOutOfCombatArea", "d2/d8f/a15754.html#a22f6ff041e61c94df73a938162fa26f5", null ],
+    [ "JustDied", "d2/d8f/a15754.html#a49be533142c82a95a136dc2dcbf4843c", null ],
+    [ "JustEngagedWith", "d2/d8f/a15754.html#a9ec34e473b9d478277f472ab3bb7c7ef", null ],
+    [ "JustSummoned", "d2/d8f/a15754.html#acb694d20b35d57a315aa4662562af210", null ],
+    [ "KilledUnit", "d2/d8f/a15754.html#ad385477740b728e63acff7c184df3c09", null ],
+    [ "Reset", "d2/d8f/a15754.html#a3093369d5f3c7e2a1a5828671ac0af0a", null ],
+    [ "UpdateAI", "d2/d8f/a15754.html#a3a7e578d64a760cd38712c725eecc97d", null ]
 ];

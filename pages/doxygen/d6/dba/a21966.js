@@ -1,7 +1,7 @@
 var a21966 =
 [
-    [ "npc_wg_demolisher_engineer", "d6/dba/a21966.html#a722ff6bac34730bfb5f36584d7a62ff8", null ],
-    [ "canBuild", "d6/dba/a21966.html#a5dd51b0d0a05ebfb648faab570e27881", null ],
-    [ "OnGossipHello", "d6/dba/a21966.html#ac3b0bbfd66bb94f29a6d733999b8c6ba", null ],
-    [ "OnGossipSelect", "d6/dba/a21966.html#a3ecf69f45918bef0cb51023327ac9693", null ]
+    [ "HandleDummy", "d6/dba/a21966.html#a68c638c6e056cbadb101ddd025909f54", null ],
+    [ "PrepareSpellScript", "d6/dba/a21966.html#a5a857bace5232d259145a0a095f70eec", null ],
+    [ "Register", "d6/dba/a21966.html#af9c657e1fac6ee630af0bea337fbff62", null ],
+    [ "Validate", "d6/dba/a21966.html#a21e9eaf2eea4b46986b8e8b911bd0508", null ]
 ];

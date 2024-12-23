@@ -1,5 +1,5 @@
 var a26706 =
 [
-    [ "AreaTrigger_at_last_rites", "d5/dc8/a26706.html#a30d1930c76920ab12cf4f9b04fd5f0e4", null ],
-    [ "OnTrigger", "d5/dc8/a26706.html#a48f6e2041cda24812a165fa0fb62f1b6", null ]
+    [ "achievement_bg_av_perfection", "d5/dc8/a26706.html#a8a0ef996bdb1244026268922b301184c", null ],
+    [ "OnCheck", "d5/dc8/a26706.html#a17e700c17b5144b571f2aeed92a77749", null ]
 ];

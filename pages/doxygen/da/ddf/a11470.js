@@ -1,9 +1,12 @@
 var a11470 =
 [
-    [ "send_commandscript", "da/ddf/a11470.html#a3aa5d7cc0b5dcd4875e99dfd6f3dbdde", null ],
-    [ "GetCommands", "da/ddf/a11470.html#a2dc60c8c414c9131b4cda1ff82f7beed", null ],
-    [ "HandleSendItemsCommand", "da/ddf/a11470.html#a7ffcd07e0ad08be2eb8a1ebac0fec717", null ],
-    [ "HandleSendMailCommand", "da/ddf/a11470.html#a5ad6f9387c6fb00bf536629c760ba374", null ],
-    [ "HandleSendMessageCommand", "da/ddf/a11470.html#a91017e6171ac9e4dfff6c2036228de47", null ],
-    [ "HandleSendMoneyCommand", "da/ddf/a11470.html#a26938bb54bb3cb678c49737a92cadb56", null ]
+    [ "message_commandscript", "da/ddf/a11470.html#a2b0b67076e1cb4c51964d13ec4ab9829", null ],
+    [ "GetCommands", "da/ddf/a11470.html#a9fc83cb2d161a4158f98ec0b580bcc32", null ],
+    [ "HandleAnnounceCommand", "da/ddf/a11470.html#a85e2965e4a8fe01ba4a7775a28ef0005", null ],
+    [ "HandleGMAnnounceCommand", "da/ddf/a11470.html#ac927dceadf96feebf4301ea37b5aec1d", null ],
+    [ "HandleGMNameAnnounceCommand", "da/ddf/a11470.html#aa667bd6e81cf7c3dbabfa40d08c45475", null ],
+    [ "HandleGMNotifyCommand", "da/ddf/a11470.html#a0ff57aadce36fddb3c0d36adea8a3e28", null ],
+    [ "HandleNameAnnounceCommand", "da/ddf/a11470.html#a786902b70345712c6dba9f638695dd9e", null ],
+    [ "HandleNotifyCommand", "da/ddf/a11470.html#a0d53b2414931451b30abd2fe5acee1af", null ],
+    [ "HandleWhispersCommand", "da/ddf/a11470.html#a9a02c97677250136f9717968a9f47b73", null ]
 ];

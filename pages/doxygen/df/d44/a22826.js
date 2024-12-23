@@ -1,6 +1,6 @@
 var a22826 =
 [
-    [ "HandleScriptEffect", "df/d44/a22826.html#a18fb2e73a00f1de7c62049eadfcbc658", null ],
-    [ "PrepareSpellScript", "df/d44/a22826.html#ae80b4ca96692035c399d1621b632fe66", null ],
-    [ "Register", "df/d44/a22826.html#ac655157c74104a51f045e114fc63a42d", null ]
+    [ "OnPeriodic", "df/d44/a22826.html#a769d30c78e4feaa9cc0c581af5264c02", null ],
+    [ "PrepareAuraScript", "df/d44/a22826.html#a076e4b548de5cad64b7d81ddd8c5194f", null ],
+    [ "Register", "df/d44/a22826.html#af1c2b7baf0ff7164cafab8f1a53bbb18", null ]
 ];

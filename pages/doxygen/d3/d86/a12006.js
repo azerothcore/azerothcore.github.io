@@ -1,8 +1,7 @@
 var a12006 =
 [
-    [ "FilterTargets", "d3/d86/a12006.html#a03acb7fb2734d9c8e8e623600bc16859", null ],
-    [ "FilterTargetsEff", "d3/d86/a12006.html#a8aeffd2a01c805246c33d22a59274c6f", null ],
-    [ "PrepareSpellScript", "d3/d86/a12006.html#ae00bc9956c9971d62d9185c72d3bd8b5", null ],
-    [ "Register", "d3/d86/a12006.html#aba646a238c3b4b7343f3eec8c6445eb5", null ],
-    [ "targetList", "d3/d86/a12006.html#a874dc7877ecfae332c9f826f01afce0f", null ]
+    [ "boss_ebonrocAI", "d3/d86/a12006.html#a73be20fda4e3f8cb7623796f3c32d741", null ],
+    [ "JustEngagedWith", "d3/d86/a12006.html#a2c74e0030b1093d79245978939043d53", null ],
+    [ "MovementInform", "d3/d86/a12006.html#ac1e16bb5ac18b55fbfb8af5078df270f", null ],
+    [ "UpdateAI", "d3/d86/a12006.html#aa2059c3834fbcfda3c8da5743bd2501f", null ]
 ];

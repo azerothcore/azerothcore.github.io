@@ -1,12 +1,9 @@
 var a12434 =
 [
-    [ "boss_bigbadwolf", "d0/d73/a12434.html#a1e4ad63c96d64f81e8b9ea82f118cdcc", null ],
-    [ "EnterEvadeMode", "d0/d73/a12434.html#a4f2d5307f5d05ed58bfc200f53bf2969", null ],
-    [ "JustDied", "d0/d73/a12434.html#a167083a43e00a60e9c3792cadaf6e80c", null ],
-    [ "JustEngagedWith", "d0/d73/a12434.html#a529fad938a0ef7261f1c2d589b6ff29c", null ],
-    [ "JustReachedHome", "d0/d73/a12434.html#a7755bf925d919c73075a41f8774280c0", null ],
-    [ "KilledUnit", "d0/d73/a12434.html#a8e004a1feac796ed467eba744f211827", null ],
-    [ "UpdateAI", "d0/d73/a12434.html#ab788a0155a3ffe6535d58263eea16dee", null ],
-    [ "_scheduler", "d0/d73/a12434.html#a661d9b619be30764ba5b89d71de870e9", null ],
-    [ "instance", "d0/d73/a12434.html#aed0e9edc52f13b7b0cfa5047849c26a9", null ]
+    [ "FilterTargets", "d0/d73/a12434.html#a88b91e40b330d39bd04a7873128fb858", null ],
+    [ "HandleFinish", "d0/d73/a12434.html#a762ea4cc1cd0a50a65daf22cbbf4ce9c", null ],
+    [ "PrepareSpellScript", "d0/d73/a12434.html#ab4ef82283e4d651d2e5304e49970efa8", null ],
+    [ "Register", "d0/d73/a12434.html#ab2008e585589cbf313170064d37c4aa9", null ],
+    [ "Validate", "d0/d73/a12434.html#af4963be6c544a1706a6dc30dcbf18309", null ],
+    [ "_targets", "d0/d73/a12434.html#a2f75199a90e52cff770f46bce76d5149", null ]
 ];

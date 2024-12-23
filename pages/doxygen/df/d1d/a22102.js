@@ -1,9 +1,9 @@
 var a22102 =
 [
-    [ "npc_crusade_recruitAI", "df/d1d/a22102.html#aa5d5e8cc4fe612fda84d971d9cee987f", null ],
-    [ "Reset", "df/d1d/a22102.html#a183360b99ecbd784b4dabbf5158f59d1", null ],
-    [ "sGossipSelect", "df/d1d/a22102.html#ab7bfdc4cc8c86645174ac154ee5db541", null ],
-    [ "UpdateAI", "df/d1d/a22102.html#a0b4dad62e1adf04013d8fbcefe310400", null ],
-    [ "_events", "df/d1d/a22102.html#a32060a04ba73fbf9ae2df8417e826ce9", null ],
-    [ "_heading", "df/d1d/a22102.html#a6e260a6e085962d54b765bff4cb17963", null ]
+    [ "npc_finklesteinAI", "d8/de8/a22106.html", "d8/de8/a22106" ],
+    [ "npc_finklestein", "df/d1d/a22102.html#aa719b4bb95012c22ef8123e255e32edd", null ],
+    [ "GetAI", "df/d1d/a22102.html#a1f0d91d2a50aca9d0496b6bd03986c8e", null ],
+    [ "OnGossipHello", "df/d1d/a22102.html#ac82d5e5dc2e0539c90dfcfe17430548c", null ],
+    [ "OnGossipSelect", "df/d1d/a22102.html#a7a744207e8f43672f0e6bf2354186ec4", null ],
+    [ "OnQuestAccept", "df/d1d/a22102.html#a94291aa98e35552bc7d722ddf2a83af2", null ]
 ];

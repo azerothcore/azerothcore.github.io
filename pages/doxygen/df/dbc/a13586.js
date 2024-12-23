@@ -1,5 +1,6 @@
 var a13586 =
 [
-    [ "go_gong_of_bethekk", "df/dbc/a13586.html#ae261467be63f1a744eb20f81473c2239", null ],
-    [ "OnGossipHello", "df/dbc/a13586.html#a82072ff8c030aec1a5ed447865680788", null ]
+    [ "instance_zulaman_InstanceMapScript", "db/da1/a13590.html", "db/da1/a13590" ],
+    [ "instance_zulaman", "df/dbc/a13586.html#a5a81dddc07dea599e2a197737206427b", null ],
+    [ "GetInstanceScript", "df/dbc/a13586.html#a2144a517b22c5d6e7f6cc31d344669fc", null ]
 ];

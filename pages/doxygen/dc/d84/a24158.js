@@ -1,6 +1,6 @@
 var a24158 =
 [
-    [ "CheckProc", "dc/d84/a24158.html#a451ceeda18638f88d2e0a24ac445f5e2", null ],
-    [ "PrepareAuraScript", "dc/d84/a24158.html#a0a6d4617ff3351411f4e13f53876db31", null ],
-    [ "Register", "dc/d84/a24158.html#a0e5d974111eeca075f38910223f5eaf4", null ]
+    [ "npc_pet_pri_shadowfiend", "dc/d84/a24158.html#ac35e3bcf59dc2d65a313e315516ea09b", null ],
+    [ "JustDied", "dc/d84/a24158.html#a6d50edf62bf4547117f3f7b5b520f71b", null ],
+    [ "Reset", "dc/d84/a24158.html#aeff1bada59ee80ae0166a82207729bad", null ]
 ];

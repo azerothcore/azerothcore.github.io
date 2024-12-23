@@ -1,7 +1,7 @@
 var a02000 =
 [
-    [ "boss_heigan", "d2/d02/a18690.html", "d2/d02/a18690" ],
-    [ "boss_heigan::boss_heiganAI", "d0/d6c/a18694.html", "d0/d6c/a18694" ],
+    [ "boss_heigan", "dd/d7a/a18746.html", "dd/d7a/a18746" ],
+    [ "boss_heigan::boss_heiganAI", "d0/d14/a18750.html", "d0/d14/a18750" ],
     [ "Events", "da/d51/a02000.html#af60e00b78607064c5be6aa9397ea49c1", [
       [ "EVENT_CHARGE_TARGET", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ae9b5b6a7dd72b493b6874d7408585a02", null ],
       [ "EVENT_CLEAVE", "d8/d5f/a02216.html#af60e00b78607064c5be6aa9397ea49c1ad4266671217cc53e473a6844d92ef36a", null ],

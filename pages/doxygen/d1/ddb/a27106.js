@@ -1,8 +1,8 @@
 var a27106 =
 [
-    [ "npc_nelsonAI", "d8/d98/a27110.html", "d8/d98/a27110" ],
-    [ "npc_nelson", "d1/ddb/a27106.html#ada597926a6db1aa7823ddabc19945b11", null ],
-    [ "GetAI", "d1/ddb/a27106.html#a75fea281fb49249345c48236bf44b1c8", null ],
-    [ "OnGossipHello", "d1/ddb/a27106.html#aa693b365a15d4617f214f9c3c229bf89", null ],
-    [ "OnGossipSelect", "d1/ddb/a27106.html#aff8e412cfcabd7b653cd30d29878be6a", null ]
+    [ "trigger_periodicAI", "d1/ddb/a27106.html#a696d62fed28de9c67827dad111cf320b", null ],
+    [ "UpdateAI", "d1/ddb/a27106.html#aed31d60765eff7dd11790714e28e729e", null ],
+    [ "interval", "d1/ddb/a27106.html#a6e9dd149ce11dcc1c2adf039c73e8023", null ],
+    [ "spell", "d1/ddb/a27106.html#a618b707155edf6d9179bbedc0f0ecf1e", null ],
+    [ "timer", "d1/ddb/a27106.html#ac434f6a60065ae3b1adcb11d58af4299", null ]
 ];

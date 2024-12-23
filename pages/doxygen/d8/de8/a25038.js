@@ -1,9 +1,8 @@
 var a25038 =
 [
-    [ "DoCheckCast", "d8/de8/a25038.html#a09c7bd66988c38cb019656842ed87366", null ],
-    [ "HandleDummy", "d8/de8/a25038.html#a183e2ac37a432ea2902b31e24a474cea", null ],
-    [ "HandleScriptEffect", "d8/de8/a25038.html#a396b1129f15056d0b22c7887f56bea99", null ],
-    [ "PrepareSpellScript", "d8/de8/a25038.html#aad4de93de822a742e02ac8d5d395d482", null ],
-    [ "Register", "d8/de8/a25038.html#a84fc18d6a2d92aefa2cc4d8095780314", null ],
-    [ "Validate", "d8/de8/a25038.html#a2565f0ad3bb988ad37dd6a60f08c995c", null ]
+    [ "OnApply", "d8/de8/a25038.html#acf25199409ab6f991db15a784749aaf1", null ],
+    [ "OnRemove", "d8/de8/a25038.html#a700513c27a2ae22581bbc61c8c4b523a", null ],
+    [ "PrepareAuraScript", "d8/de8/a25038.html#ae6f93ab542d8f05a95745d7b10d1856a", null ],
+    [ "Register", "d8/de8/a25038.html#a9332cb72f66e83f648b4ed02c8c074eb", null ],
+    [ "Validate", "d8/de8/a25038.html#a09017d12ecf0ae0c3091cea17640782c", null ]
 ];

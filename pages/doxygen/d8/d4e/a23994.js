@@ -1,6 +1,7 @@
 var a23994 =
 [
-    [ "npc_pet_dk_ghoulAI", "d6/df3/a23998.html", "d6/df3/a23998" ],
-    [ "npc_pet_dk_ghoul", "d8/d4e/a23994.html#ac8af6ae753151a08e80d434a04ef58db", null ],
-    [ "GetAI", "d8/d4e/a23994.html#a74b068bdccf5d9b25b4ef3bff0a193ef", null ]
+    [ "HandleEffectRemove", "d8/d4e/a23994.html#a317c238b165ad331beb447ea5d0de7e1", null ],
+    [ "PrepareAuraScript", "d8/d4e/a23994.html#a7481f017a1382eb75e0101cb49fb4fcf", null ],
+    [ "Register", "d8/d4e/a23994.html#a13fdde1557249328306a57e159d821a7", null ],
+    [ "Validate", "d8/d4e/a23994.html#a58a383bd4e3062a5c5b1df97192b4b7e", null ]
 ];

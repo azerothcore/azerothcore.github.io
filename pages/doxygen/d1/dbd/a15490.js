@@ -1,19 +1,11 @@
 var a15490 =
 [
-    [ "boss_taldaram", "d1/dbd/a15490.html#a6438d3534aca5e4a92afb3e6c6e24f73", null ],
-    [ "DamageTaken", "d1/dbd/a15490.html#a44d94f39e23720810acb40550f1c178a", null ],
-    [ "DoAction", "d1/dbd/a15490.html#aee1cf0553e8c7ebebea4a83f2d7e6d5d", null ],
-    [ "InitializeAI", "d1/dbd/a15490.html#a3d5b4628d6fb2db91ed073b042eefdc4", null ],
-    [ "JustDied", "d1/dbd/a15490.html#a4b6c0f51fd3a2a8c00ef095eeeea785d", null ],
-    [ "JustEngagedWith", "d1/dbd/a15490.html#a07e1cb5b53906f92a1f485340aa004e5", null ],
-    [ "JustSummoned", "d1/dbd/a15490.html#a5ae9201a71fa665908f924647b262825", null ],
-    [ "KilledUnit", "d1/dbd/a15490.html#a8fe516a08547ec03e8114b07e9c87d1f", null ],
-    [ "MovementInform", "d1/dbd/a15490.html#a17ca98f742a06b1496b2216e984811d8", null ],
-    [ "Reset", "d1/dbd/a15490.html#ae26fec572206d2f1f9acc229ee797496", null ],
-    [ "ScheduleCombatEvents", "d1/dbd/a15490.html#a247e5357fcdf8da8e00bef09f3568ca3", null ],
-    [ "SpellHitTarget", "d1/dbd/a15490.html#a0f228ea10a538a9ecf70b9f54d399150", null ],
-    [ "UpdateAI", "d1/dbd/a15490.html#a8ae18c5fd1c5df67edaf1921b5504ce1", null ],
-    [ "vanishDamage", "d1/dbd/a15490.html#a85d8c95320e6f1f486a39043218f0350", null ],
-    [ "vanishTarget_GUID", "d1/dbd/a15490.html#a211707b3e9476a22be011567882f018a", null ],
-    [ "victimSperePos", "d1/dbd/a15490.html#a06efb376b0d08207a0efce74770f21dc", null ]
+    [ "npc_amanitar_mushrooms", "d1/dbd/a15490.html#ad5603426c71c107ff439cea2efeea3f9", null ],
+    [ "AttackStart", "d1/dbd/a15490.html#a0cc90c924a12a8be32c78e76ca798943", null ],
+    [ "DamageTaken", "d1/dbd/a15490.html#a4c21a448535e1fc0f0116257194b9732", null ],
+    [ "EnterEvadeMode", "d1/dbd/a15490.html#ae17ee367c9d206868c7dfc64d438806a", null ],
+    [ "JustEngagedWith", "d1/dbd/a15490.html#ac50bf479e8c891af432cfccdf9d49c55", null ],
+    [ "Reset", "d1/dbd/a15490.html#ae597d5a64765f5304773f9a38e9c719a", null ],
+    [ "UpdateAI", "d1/dbd/a15490.html#ae71058353be43935aa45eb28eb41170f", null ],
+    [ "events", "d1/dbd/a15490.html#a0be93d15582a5511963721510652e76d", null ]
 ];

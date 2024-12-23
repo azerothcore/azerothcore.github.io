@@ -1,7 +1,7 @@
 var a21554 =
 [
-    [ "npc_tallhorn_stagAI", "d9/da7/a21554.html#a50947c450eece979193b45728e5e1f82", null ],
-    [ "Reset", "d9/da7/a21554.html#a67dce7ad60ddea63fcba5e1e2079fa7c", null ],
-    [ "UpdateAI", "d9/da7/a21554.html#adf60f62fa92238cb315c42e0179c3f17", null ],
-    [ "_phase", "d9/da7/a21554.html#ace2ac6f418876393d2f6d3457b1bc4c0", null ]
+    [ "HandleDummy", "d9/da7/a21554.html#ae180aea347e73fcce44e9ac3ff33d0ce", null ],
+    [ "PrepareSpellScript", "d9/da7/a21554.html#a9d863ad1d44a9d5dc2b212ef0c414626", null ],
+    [ "Register", "d9/da7/a21554.html#a45f80e0436f93a597deb4653852df6a1", null ],
+    [ "Validate", "d9/da7/a21554.html#ad13fdade1fb7455485bfd68687de53c5", null ]
 ];

@@ -1,12 +1,6 @@
 var a13942 =
 [
-    [ "npc_alexstraza_the_lifebinder", "d4/d2c/a13942.html#a7c30258540803bde75843cb070b6a288", null ],
-    [ "MoveInLineOfSight", "d4/d2c/a13942.html#af5960eb1cf63fb0b5b8dc2bfd86b8e47", null ],
-    [ "Reset", "d4/d2c/a13942.html#a8144ed8ada8cd4fb11d74393ed0c525a", null ],
-    [ "SetData", "d4/d2c/a13942.html#aead5ae4ffda9732829e39b8c485a3c3e", null ],
-    [ "UpdateAI", "d4/d2c/a13942.html#ad13b21d571833210b1c069b7ea8bea05", null ],
-    [ "orphanGUID", "d4/d2c/a13942.html#a7c2901f01e4fcafaea9c00ff58dbeaf3", null ],
-    [ "phase", "d4/d2c/a13942.html#a98216e43888854ac93f22169a0e253e5", null ],
-    [ "playerGUID", "d4/d2c/a13942.html#a063fc935bc8f46f5487e9c338e497ec4", null ],
-    [ "timer", "d4/d2c/a13942.html#a41791aaa24102383fe4d3f43c714c3bb", null ]
+    [ "go_direbrew_mole_machineAI", "de/d68/a13946.html", "de/d68/a13946" ],
+    [ "go_direbrew_mole_machine", "d4/d2c/a13942.html#a759d291a5be227d8beae3bbc779e56f4", null ],
+    [ "GetAI", "d4/d2c/a13942.html#a793e5e544664d6c2c3897161c9cccbbb", null ]
 ];

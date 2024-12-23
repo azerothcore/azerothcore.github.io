@@ -1,6 +1,7 @@
 var a21778 =
 [
-    [ "HandleHealPct", "dc/d86/a21778.html#aa297ef88b58849610b1b3bfdb0142eab", null ],
-    [ "PrepareSpellScript", "dc/d86/a21778.html#a902b733a4b106439c49f8c80de8e9bf3", null ],
-    [ "Register", "dc/d86/a21778.html#a52f253d2a3b9b3890020107b7722ad96", null ]
+    [ "HandleDummy", "dc/d86/a21778.html#a85874062bceced2694fff725649df892", null ],
+    [ "PrepareSpellScript", "dc/d86/a21778.html#a47bae4bdc488480f91517465d8e1b784", null ],
+    [ "Register", "dc/d86/a21778.html#a7131340678ca685db98e2087661321a9", null ],
+    [ "Validate", "dc/d86/a21778.html#af1b74ceee10fc48a0b85d4a284103950", null ]
 ];

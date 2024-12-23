@@ -1,6 +1,6 @@
 var a19094 =
 [
-    [ "PrepareSpellScript", "d1/d49/a19094.html#a65c3b2c9a416b7d1bbd3c14057e5f8fc", null ],
-    [ "Register", "d1/d49/a19094.html#ad8470ed0d09c2b7e79fa4ecb1867e9bf", null ],
-    [ "SetDest", "d1/d49/a19094.html#a24341aae14ed77101d4c31f2fbe11463", null ]
+    [ "instance_oculus_InstanceMapScript", "dc/d4b/a19098.html", "dc/d4b/a19098" ],
+    [ "instance_oculus", "d1/d49/a19094.html#a404205ea7106531ea57307c40b9589bb", null ],
+    [ "GetInstanceScript", "d1/d49/a19094.html#ae6d28dfd615e79d4308e4384b7c8857f", null ]
 ];

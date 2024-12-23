@@ -1,12 +1,10 @@
 var a27134 =
 [
-    [ "npc_elder_clearwaterAI", "d5/dd4/a27134.html#a4de89cf4a18918d577be4ac5cc55ba5a", null ],
-    [ "DoAction", "d5/dd4/a27134.html#ac46b0f66be3074f73f5a69cffee6d354", null ],
-    [ "GetData", "d5/dd4/a27134.html#a077c02bf06b16439225a5cf8d83babf2", null ],
-    [ "UpdateAI", "d5/dd4/a27134.html#afbec3c78d34ce4d11a11b56064f343f3", null ],
-    [ "events", "d5/dd4/a27134.html#a267fec22dc3d7272cae74267d0567618", null ],
-    [ "finished", "d5/dd4/a27134.html#af51d6abb8fc8b59d068156a4859a377e", null ],
-    [ "finishWarning", "d5/dd4/a27134.html#a83a2b8e6ceed45d4e6b834e13a4a4cdc", null ],
-    [ "preWarning", "d5/dd4/a27134.html#a64abe15565c7e97a3a0ef195d436fedc", null ],
-    [ "startWarning", "d5/dd4/a27134.html#a01545211dec4338ac44304ebc7f18a97", null ]
+    [ "go_evil_book_for_dummies", "d5/dd4/a27134.html#a69f599910bce0070c6b1af547c459b72", null ],
+    [ "HasLeatherSpecialty", "d5/dd4/a27134.html#a3d755fa8777f33a318ffa6f004aecbed", null ],
+    [ "OnGossipHello", "d5/dd4/a27134.html#aeb29351e2faf135298419488eb16cc7e", null ],
+    [ "OnGossipSelect", "d5/dd4/a27134.html#ac4bc1c682b75c436a4d3fff118a20ca4", null ],
+    [ "SendActionMenu", "d5/dd4/a27134.html#a0aa21b4619ea5cc8229eb56e09d3233d", null ],
+    [ "SendConfirmLearn", "d5/dd4/a27134.html#a11a605c576a3c81b5ed96d413ec20f57", null ],
+    [ "SendConfirmUnlearn", "d5/dd4/a27134.html#af9c10b0423327d8644020e8f5e26a603", null ]
 ];

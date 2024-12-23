@@ -1,6 +1,6 @@
 var a02519 =
 [
-    [ "boss_maiden_of_virtue", "d4/d9f/a12306.html", "d4/d9f/a12306" ],
+    [ "boss_maiden_of_virtue", "db/d6b/a12362.html", "db/d6b/a12362" ],
     [ "Spells", "d9/dce/a02519.html#a5bd342133be8c2137b831460acc9298c", [
       [ "SPELL_OIL_REFINERY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298cae2eb4db3c46b45e80cc2feb9c34f2ada", null ],
       [ "SPELL_QUARRY", "d4/dd0/a03749.html#a5bd342133be8c2137b831460acc9298ca5a0922923b24c4bb6661ad8396a76e01", null ],

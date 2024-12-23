@@ -1,8 +1,6 @@
 var a20474 =
 [
-    [ "boss_yoggsaron_crusher_tentacleAI", "df/df3/a20474.html#a63d63a0b981c278fcfadfdda1feb5a12", null ],
-    [ "DamageTaken", "df/df3/a20474.html#ac2458922b2530929ee1adbcc0da834a0", null ],
-    [ "DoAction", "df/df3/a20474.html#abcc42381f37256e5c5ab2a42f8ef2c29", null ],
-    [ "Reset", "df/df3/a20474.html#af33db4e2ce1bb85e38437db6ca7982f7", null ],
-    [ "UpdateAI", "df/df3/a20474.html#a8329bc78fc037655d48cb9bf0abd8447", null ]
+    [ "x", "df/df3/a20474.html#ae4223168378b602a0a96dbb424a22be4", null ],
+    [ "y", "df/df3/a20474.html#a30f361d8104e4de44541d75945105963", null ],
+    [ "z", "df/df3/a20474.html#ae68a79519c35302b89976ac29bb77e26", null ]
 ];

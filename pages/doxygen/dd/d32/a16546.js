@@ -1,11 +1,11 @@
 var a16546 =
 [
-    [ "boss_frostsworn_generalAI", "dd/d32/a16546.html#afd3e486cd9a0ac18d10675f40f7f6314", null ],
-    [ "EnterEvadeMode", "dd/d32/a16546.html#a4f45facb49cb5c1a8b0565e87dccf50e", null ],
-    [ "JustDied", "dd/d32/a16546.html#ac2653a5664c87045df16f2fdcf850edf", null ],
-    [ "JustEngagedWith", "dd/d32/a16546.html#a64f2b0426491f1471c8cf653e94a2fa2", null ],
-    [ "Reset", "dd/d32/a16546.html#a8333b3f2637f029de4182ca16e2fb634", null ],
-    [ "UpdateAI", "dd/d32/a16546.html#aea65a8fab859db4396690d846d10f5a1", null ],
-    [ "events", "dd/d32/a16546.html#a4e5c714486cdba1fc4a6db609d8b6a97", null ],
-    [ "pInstance", "dd/d32/a16546.html#a01cc3db24e03600501b9980aa966ad7d", null ]
+    [ "npc_hor_leaderAI", "dd/d32/a16546.html#a2072f9facbc476bb97f1a3ca9c24fcb7", null ],
+    [ "DoAction", "dd/d32/a16546.html#a610700732a6cc197a40106adef654a62", null ],
+    [ "Reset", "dd/d32/a16546.html#a40749d0294400e15bc28f6e728c6cb3c", null ],
+    [ "UpdateAI", "dd/d32/a16546.html#acb29a6ddb6d06616e79f7431b66f167a", null ],
+    [ "events", "dd/d32/a16546.html#a94128223bddd84b8a678e49f3189cb75", null ],
+    [ "first", "dd/d32/a16546.html#add878d336fa7e20bee4d05ac0383dd0a", null ],
+    [ "pInstance", "dd/d32/a16546.html#a8dd77a92b151acad640f1272acf0b65f", null ],
+    [ "shortver", "dd/d32/a16546.html#a6e7b5d6f1b73bacb54d9aa1eb21fe6ee", null ]
 ];

@@ -1,10 +1,8 @@
 var a13662 =
 [
-    [ "npc_batrider", "df/dc8/a13662.html#a6304a39ea92d48508a17dc059c47bc1b", null ],
-    [ "DamageTaken", "df/dc8/a13662.html#ad4818b1363082a91223526908c38777c", null ],
-    [ "JustEngagedWith", "df/dc8/a13662.html#a02e950fd30e4a0637d078d49c5c50d48", null ],
-    [ "Reset", "df/dc8/a13662.html#abee249da6f3bb6c2fd859812b02d7b65", null ],
-    [ "UpdateAI", "df/dc8/a13662.html#a828e5ab4b3ff52d7daf9a3a6a5412f52", null ],
-    [ "_mode", "df/dc8/a13662.html#acd53ec78a754219511af1ad2f11422a9", null ],
-    [ "_scheduler", "df/dc8/a13662.html#ad90beb6685c031a8b0ce4ec8ea3daa3f", null ]
+    [ "boss_grilekAI", "df/dc8/a13662.html#aea4d151ce75bf2cdf6d6910c369daf17", null ],
+    [ "JustEngagedWith", "df/dc8/a13662.html#a76d2cddd8ebfc4df400ef43f8c5aa936", null ],
+    [ "Reset", "df/dc8/a13662.html#acd8ce07ab3ef576580df16c0176fcaf3", null ],
+    [ "UpdateAI", "df/dc8/a13662.html#a19438103c9a582a7d36d805c80131e8c", null ],
+    [ "_pursuitTargetGUID", "df/dc8/a13662.html#ad20779cdb8d82ae8a54c12a8d4b0bada", null ]
 ];

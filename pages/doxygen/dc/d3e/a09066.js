@@ -1,7 +1,8 @@
 var a09066 =
 [
-    [ "AnyUnitInObjectRangeCheck", "dc/d3e/a09066.html#ab96cd47c1a4c585e52590b94cf8ff021", null ],
-    [ "operator()", "dc/d3e/a09066.html#a0906cdad65a5b11dc6a8829ace8f135b", null ],
-    [ "i_obj", "dc/d3e/a09066.html#a834214b260576a0fe01908a163428757", null ],
-    [ "i_range", "dc/d3e/a09066.html#acc546656dbe9a405023ba56b028c8420", null ]
+    [ "RespawnDo", "dc/d3e/a09066.html#a79f6424f2849c4c05998fe29a8510aeb", null ],
+    [ "operator()", "dc/d3e/a09066.html#ac15ff63f29e313556b8f66e0cd80514f", null ],
+    [ "operator()", "dc/d3e/a09066.html#a23408bf4da497d1007e4e88e0d9c0e19", null ],
+    [ "operator()", "dc/d3e/a09066.html#a66335f45bb1f3c770887b263e9d84236", null ],
+    [ "operator()", "dc/d3e/a09066.html#a4551ca2e0fdb6540a724c9c2b43484c6", null ]
 ];

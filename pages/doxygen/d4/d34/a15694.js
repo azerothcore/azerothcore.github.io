@@ -1,6 +1,7 @@
 var a15694 =
 [
-    [ "boss_general_zarithrianAI", "d1/dcc/a15698.html", "d1/dcc/a15698" ],
-    [ "boss_general_zarithrian", "d4/d34/a15694.html#a030c53b6ef1d75027ddfd298d49ab330", null ],
-    [ "GetAI", "d4/d34/a15694.html#a22ba4e0769dd9404ae043fb9c16233ff", null ]
+    [ "HandleHit", "d4/d34/a15694.html#abd59d91ab50eb8945a4a00157d9d5564", null ],
+    [ "PrepareSpellScript", "d4/d34/a15694.html#a27549f3cacc1732bbc1e61209e0f4905", null ],
+    [ "Register", "d4/d34/a15694.html#af132eee38064c5123f4e01d52efb9314", null ],
+    [ "Validate", "d4/d34/a15694.html#accad8dfdf29a1475b6f272259f1ed9bf", null ]
 ];

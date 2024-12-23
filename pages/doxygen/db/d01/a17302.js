@@ -1,7 +1,8 @@
 var a17302 =
 [
-    [ "FilterTargets", "db/d01/a17302.html#a32b2fa87fb2eaca3db0801fbfe4b8aaa", null ],
-    [ "Load", "db/d01/a17302.html#a39e8ec4726a1f6c2911c165c7187f291", null ],
-    [ "PrepareSpellScript", "db/d01/a17302.html#a7526a6df4c25136f4be78e753c6abf62", null ],
-    [ "Register", "db/d01/a17302.html#a0d01b8292c1c071a5c828a5a88617bd5", null ]
+    [ "npc_gunship_mageAI", "db/d01/a17302.html#ac79cb67f21820ef88ac9cd671ca9e4c7", null ],
+    [ "AttackStart", "db/d01/a17302.html#a41bd517c360538f568fb56bc9d2f5e55", null ],
+    [ "CanAIAttack", "db/d01/a17302.html#aadcb217a9df96bee02287d75a23e32c2", null ],
+    [ "MovementInform", "db/d01/a17302.html#ac0f233fa5a34cd6e080f44c798b4fc62", null ],
+    [ "UpdateAI", "db/d01/a17302.html#aa767fc4cb2f7eba37fedaec57c4bc175", null ]
 ];

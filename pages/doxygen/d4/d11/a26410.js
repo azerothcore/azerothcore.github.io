@@ -1,7 +1,7 @@
 var a26410 =
 [
-    [ "HandleScriptEffect", "d4/d11/a26410.html#a328c1ba6ccd98e25e477a3f784cb47ff", null ],
-    [ "PrepareSpellScript", "d4/d11/a26410.html#aa211032991d8fd11d574cb364533a515", null ],
-    [ "Register", "d4/d11/a26410.html#a13315f197f2e6975dca00b53cbc599d2", null ],
-    [ "Validate", "d4/d11/a26410.html#a3b752f07631223199ed7ac404ed1afed", null ]
+    [ "AfterRemove", "d4/d11/a26410.html#ad0bad4a07d5a65a7834e7ab46e082b20", null ],
+    [ "PrepareAuraScript", "d4/d11/a26410.html#af338af238305f1872275e1e5e9fdee16", null ],
+    [ "Register", "d4/d11/a26410.html#aa266e794be35b51a399b13ee2d06199d", null ],
+    [ "Validate", "d4/d11/a26410.html#af58098eb7a904e20846cf728f5adc18b", null ]
 ];

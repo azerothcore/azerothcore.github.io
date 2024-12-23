@@ -1,11 +1,9 @@
 var a08458 =
 [
-    [ "UnitActionBarEntry", "dd/da3/a08458.html#a41f9020c4811b14fc543ddece6af86d7", null ],
-    [ "GetAction", "dd/da3/a08458.html#afd77e2f64ec856059759d05ddf77876e", null ],
-    [ "GetType", "dd/da3/a08458.html#a0615e6ad9cf5523d6dc85bd529e65f32", null ],
-    [ "IsActionBarForSpell", "dd/da3/a08458.html#a2af43ec77fcd077b2fe9ca3a6d80123b", null ],
-    [ "SetAction", "dd/da3/a08458.html#aa00953783b0b3de3beb755a054c77730", null ],
-    [ "SetActionAndType", "dd/da3/a08458.html#a110840d38445795957ee0425175b4fb6", null ],
-    [ "SetType", "dd/da3/a08458.html#a38e0dcad391d09e475f90be5a5382f78", null ],
-    [ "packedData", "dd/da3/a08458.html#aa50957a4c707ce3dbdfd62a75e3cb8eb", null ]
+    [ "EntryPointData", "dd/da3/a08458.html#a1852523ba9ca889cdd6731c63de759e2", null ],
+    [ "ClearTaxiPath", "dd/da3/a08458.html#a4aee0d4ef3850fb486987ae6fe78ee91", null ],
+    [ "HasTaxiPath", "dd/da3/a08458.html#afd310b2f367ec7df76f01689ea120e6e", null ],
+    [ "joinPos", "dd/da3/a08458.html#abfdc0ccd945f60e0a3ec37d278c96940", null ],
+    [ "mountSpell", "dd/da3/a08458.html#a06e1cadac24a2ab90e57373692f829dc", null ],
+    [ "taxiPath", "dd/da3/a08458.html#a5af670fa420b250c22e0f3237e753a6f", null ]
 ];

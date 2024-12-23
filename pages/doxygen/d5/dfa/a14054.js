@@ -1,5 +1,6 @@
 var a14054 =
 [
-    [ "go_loosely_turned_soilAI", "d5/dfa/a14054.html#a603641bc52d26521d64afaaeed3abc4d", null ],
-    [ "CanBeSeen", "d5/dfa/a14054.html#a424b51b08d17ceb04b015cd535256889", null ]
+    [ "HandleScript", "d5/dfa/a14054.html#a465272dc4e693ab5ce5abd5a3905283b", null ],
+    [ "PrepareSpellScript", "d5/dfa/a14054.html#a26b296c1c4d9f5193dc3773509267284", null ],
+    [ "Register", "d5/dfa/a14054.html#aad66e4079ea9404b9057546d8959a395", null ]
 ];

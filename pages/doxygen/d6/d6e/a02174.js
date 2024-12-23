@@ -1,13 +1,13 @@
 var a02174 =
 [
-    [ "npc_forest_frog", "d1/d68/a13538.html", "d1/d68/a13538" ],
-    [ "npc_zulaman_hostage", "d0/d46/a13542.html", "d0/d46/a13542" ],
-    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "dd/de2/a13546.html", "dd/de2/a13546" ],
-    [ "npc_harrison_jones", "d1/d8d/a13550.html", "d1/d8d/a13550" ],
-    [ "spell_ritual_of_power", "d3/d18/a13554.html", "d3/d18/a13554" ],
-    [ "npc_amanishi_lookout", "dd/d9c/a13558.html", "dd/d9c/a13558" ],
-    [ "npc_amanishi_tempest", "d5/d41/a13562.html", "d5/d41/a13562" ],
-    [ "npc_eagle_trash_aggro_trigger", "d9/d68/a13566.html", "d9/d68/a13566" ],
+    [ "npc_forest_frog", "dc/de8/a13594.html", "dc/de8/a13594" ],
+    [ "npc_zulaman_hostage", "dd/d76/a13598.html", "dd/d76/a13598" ],
+    [ "npc_zulaman_hostage::npc_zulaman_hostageAI", "d6/d95/a13602.html", "d6/d95/a13602" ],
+    [ "npc_harrison_jones", "dc/de5/a13606.html", "dc/de5/a13606" ],
+    [ "spell_ritual_of_power", "d2/d57/a13610.html", "d2/d57/a13610" ],
+    [ "npc_amanishi_lookout", "dc/d3f/a13614.html", "dc/d3f/a13614" ],
+    [ "npc_amanishi_tempest", "d7/dc0/a13618.html", "d7/dc0/a13618" ],
+    [ "npc_eagle_trash_aggro_trigger", "de/d5e/a13622.html", "de/d5e/a13622" ],
     [ "GOSSIP_HOSTAGE1", "d6/d6e/a02174.html#a7e5907213ed023454f786158e3b1f388", null ],
     [ "Actions", "d6/d6e/a02174.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],

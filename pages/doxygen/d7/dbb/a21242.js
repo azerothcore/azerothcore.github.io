@@ -1,9 +1,6 @@
 var a21242 =
 [
-    [ "npc_bloodmage_laurithAI", "d7/dbb/a21242.html#a75dca4f2e90318f334e7e6385d4f7a6f", null ],
-    [ "Reset", "d7/dbb/a21242.html#afe9b10dfcee3b241a48e6f2e40eec657", null ],
-    [ "SetGUID", "d7/dbb/a21242.html#a50a144cf1545117d79268d3a18a4b4ec", null ],
-    [ "UpdateAI", "d7/dbb/a21242.html#a9752f518441071dd4a60cd63423bf9a3", null ],
-    [ "_events", "d7/dbb/a21242.html#a35facab84094071d952792a4c3e5015d", null ],
-    [ "_playerGUID", "d7/dbb/a21242.html#a6aab8db1d55d4fe3251b544c292711e8", null ]
+    [ "npc_imprisoned_beryl_sorcererAI", "db/da9/a21246.html", "db/da9/a21246" ],
+    [ "npc_imprisoned_beryl_sorcerer", "d7/dbb/a21242.html#a6317eb89406cf6b99f63ecfa7f9999d1", null ],
+    [ "GetAI", "d7/dbb/a21242.html#aedb301f6da8460f3ed1d81d4b5f2f63c", null ]
 ];

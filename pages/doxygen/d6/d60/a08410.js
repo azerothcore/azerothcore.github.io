@@ -1,8 +1,10 @@
 var a08410 =
 [
-    [ "AddFlag", "d6/d60/a08410.html#a1e81343732cd86cdf9974a1d96b73ba7", null ],
-    [ "HasFlag", "d6/d60/a08410.html#aba5227bee5d5e928e0fa171730f57385", null ],
-    [ "IsEnabled", "d6/d60/a08410.html#a115b220747f7b2d687ec81716dbad69f", null ],
-    [ "RemoveFlag", "d6/d60/a08410.html#a4ca3645233a466345d6be217d7a0df2b", null ],
-    [ "value", "d6/d60/a08410.html#a74592e45f8ae4c5f411a982227f809f3", null ]
+    [ "DuelInfo", "d6/d60/a08410.html#a183f336e52fe7cdaa34dbb43991d0c39", null ],
+    [ "Initiator", "d6/d60/a08410.html#ae1a6667f934c88ad8f0b160e6a8b1190", null ],
+    [ "IsMounted", "d6/d60/a08410.html#ad80e3507a7bdfc8f7dbebd07697c464f", null ],
+    [ "Opponent", "d6/d60/a08410.html#a2765770367c839ad28f804e2df3205cb", null ],
+    [ "OutOfBoundsTime", "d6/d60/a08410.html#a8ff9ae1c990674b6ac0cd929f5114f23", null ],
+    [ "StartTime", "d6/d60/a08410.html#a1b8b4c373b2e4243f8e33a391821528f", null ],
+    [ "State", "d6/d60/a08410.html#ae8492a9857d819fcec56a10cfd5051e2", null ]
 ];

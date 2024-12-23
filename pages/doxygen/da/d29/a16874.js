@@ -1,13 +1,7 @@
 var a16874 =
 [
-    [ "boss_slad_ranAI", "da/d29/a16874.html#ad85e2fd51d67739026a96bc757bc7801", null ],
-    [ "GetData", "da/d29/a16874.html#a58e1188a418acdc1f327e7df90c5c122", null ],
-    [ "JustDied", "da/d29/a16874.html#a636ca76497c33a5175986e80bbcda44a", null ],
-    [ "JustEngagedWith", "da/d29/a16874.html#ac30b38805d0421b1be509c7d5609c648", null ],
-    [ "JustSummoned", "da/d29/a16874.html#a08e8d256c0f15011d1aacef8e22d4253", null ],
-    [ "KilledUnit", "da/d29/a16874.html#a4700f8c06e5fa43fc1719c19cfe79b24", null ],
-    [ "Reset", "da/d29/a16874.html#a8759163de40d04d53c5e5ed8d8192aa7", null ],
-    [ "SetData", "da/d29/a16874.html#a3b91eb7c2aa2aeb356c51e81f449b0a5", null ],
-    [ "UpdateAI", "da/d29/a16874.html#a9eeb3281456779edd9570119ba8a2105", null ],
-    [ "_achievement", "da/d29/a16874.html#a3ab4f94e13d414fd6c9eb0ba63941ca9", null ]
+    [ "HandleDummy", "da/d29/a16874.html#a367f4ebd296aa0fd54ff9ef6185a1c92", null ],
+    [ "PrepareSpellScript", "da/d29/a16874.html#ab6e33bf137a54c9cd792aefb0ecd2ef1", null ],
+    [ "Register", "da/d29/a16874.html#a371073fb37337719115242fc8758026f", null ],
+    [ "Validate", "da/d29/a16874.html#ad5df08da54defc89a7a552c39de089c3", null ]
 ];

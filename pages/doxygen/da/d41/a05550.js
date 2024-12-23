@@ -1,7 +1,8 @@
 var a05550 =
 [
-    [ "cmd", "da/d41/a05550.html#a91e8e56c304147b88db250259ff0a87c", null ],
-    [ "error", "da/d41/a05550.html#a0872e20a5adcd52a94036bdc6eddc6e6", null ],
-    [ "M2", "da/d41/a05550.html#a9bb7dca6b62d35ecae97197c4c9693b7", null ],
-    [ "unk2", "da/d41/a05550.html#a47d83719b502236fdad41e2d07b535a0", null ]
+    [ "cmd", "da/d41/a05550.html#a14df856ae931474a7c58d0e35caf6ad0", null ],
+    [ "number_of_keys", "da/d41/a05550.html#aaa44734bb96b91894c038b3f34b4db0d", null ],
+    [ "R1", "da/d41/a05550.html#a054648a96d1c66bae6fdb9a174e7b1e6", null ],
+    [ "R2", "da/d41/a05550.html#a72fa4a4d0b6098fdf8e5c8f9a33f08ad", null ],
+    [ "R3", "da/d41/a05550.html#a819a5ba3a19583fd0cfd0558cf218e54", null ]
 ];

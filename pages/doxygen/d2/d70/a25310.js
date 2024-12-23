@@ -1,6 +1,6 @@
 var a25310 =
 [
-    [ "HandleEffectApply", "d2/d70/a25310.html#a9e8b226f3ebb33c47de584850643994f", null ],
-    [ "PrepareAuraScript", "d2/d70/a25310.html#a30b74d44bb81a04ea1cfe1b6d5f926c7", null ],
-    [ "Register", "d2/d70/a25310.html#a1d3d32c057877b5cf00f5970e583c25e", null ]
+    [ "HandlePeriodicTick", "d2/d70/a25310.html#a058eeb1e0489340763a58d92d4bed832", null ],
+    [ "PrepareAuraScript", "d2/d70/a25310.html#a3d71859b7e7f914a395f131dd4a6b4ab", null ],
+    [ "Register", "d2/d70/a25310.html#ae5a8adc3fe7cc5c5d7dd715449d3442f", null ]
 ];

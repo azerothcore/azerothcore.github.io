@@ -1,8 +1,9 @@
 var a20270 =
 [
-    [ "boss_thorim_pillarAI", "da/d0a/a20270.html#ae00c9e72f14e3f2c94da118a1fe27130", null ],
-    [ "Reset", "da/d0a/a20270.html#ae9043ed9b72cc0eda6fb7c859355da57", null ],
-    [ "SpellHit", "da/d0a/a20270.html#a1cb3ef9fdfc9e375d15e14b9230dd51e", null ],
-    [ "UpdateAI", "da/d0a/a20270.html#afd8e05444eeea620a7ef21e97c345d41", null ],
-    [ "_resetTimer", "da/d0a/a20270.html#a6ef7c9e23280564aec1b82eb670bc4f9", null ]
+    [ "npc_ulduar_dark_rune_sentinelAI", "da/d0a/a20270.html#a533ae31e0507f12f7d94e347b6b7ebf2", null ],
+    [ "CanAIAttack", "da/d0a/a20270.html#a12b2e5c621a8b04a4d80dde706a4bb2b", null ],
+    [ "Reset", "da/d0a/a20270.html#ada2897f48effedd5d5baa5a260497b5a", null ],
+    [ "UpdateAI", "da/d0a/a20270.html#aa9b319928a9b23cf4d47a07c1eaeb0cd", null ],
+    [ "timer1", "da/d0a/a20270.html#a383a2ee113822b7eff52466f0cc0e137", null ],
+    [ "timer2", "da/d0a/a20270.html#ad5c4698c5d12ff42179d62c47d9f7719", null ]
 ];

@@ -1,7 +1,7 @@
 var a22466 =
 [
-    [ "boss_lady_malande", "df/d7a/a22466.html#a8cb693d203463dcba809e7ffc23c6868", null ],
-    [ "AttackStart", "df/d7a/a22466.html#ad5cf6e7b0000c7f96d8606088fb13d31", null ],
-    [ "JustEngagedWith", "df/d7a/a22466.html#af4b5f376e387851e15517de03636acde", null ],
-    [ "UpdateAI", "df/d7a/a22466.html#a6d9d09a49fc87bbbda02387f78bb3739", null ]
+    [ "OnPeriodic", "df/d7a/a22466.html#aa5d2f7530277a6a4d4a85ec5d244b9bc", null ],
+    [ "PrepareAuraScript", "df/d7a/a22466.html#a973ccf17f6499bc84306a18b07fcef7b", null ],
+    [ "Register", "df/d7a/a22466.html#a07b3b1df6626a9fb657270eb1d9f386a", null ],
+    [ "Validate", "df/d7a/a22466.html#a006d67e9e82cce68930b90b00d3555a4", null ]
 ];

@@ -1,6 +1,10 @@
 var a15818 =
 [
-    [ "npc_living_infernoAI", "d3/d5f/a15822.html", "d3/d5f/a15822" ],
-    [ "npc_living_inferno", "db/dd6/a15818.html#a7df2bb522e67b6f1864604c7b0182078", null ],
-    [ "GetAI", "db/dd6/a15818.html#a53f0bbd0a502374664cfa54140f4b8c0", null ]
+    [ "spell_halion_combustion_consumption_aura", "db/dd6/a15818.html#a8b67aee76c7288748757e6bec7f4cb78", null ],
+    [ "AddMarkStack", "db/dd6/a15818.html#a337776c42bd6c42ecdffb508808ed070", null ],
+    [ "OnApply", "db/dd6/a15818.html#afeea3e5026e6d8472440c9cffac9bce9", null ],
+    [ "OnRemove", "db/dd6/a15818.html#a3959dbe8bbdf2d3953daf14072614708", null ],
+    [ "PrepareAuraScript", "db/dd6/a15818.html#a334f2211429dde989b6beb6c10a71464", null ],
+    [ "Register", "db/dd6/a15818.html#affc66a03e9d1eaef30a54b8a044734b8", null ],
+    [ "_markSpell", "db/dd6/a15818.html#a8236d9d50f267a12216d90f8041da439", null ]
 ];

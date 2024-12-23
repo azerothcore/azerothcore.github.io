@@ -1,6 +1,6 @@
 var a20174 =
 [
-    [ "npc_ulduar_harpoonfirestateAI", "dd/dc5/a20178.html", "dd/dc5/a20178" ],
-    [ "npc_ulduar_harpoonfirestate", "d6/dee/a20174.html#a85043e64606ba7c9ce2da7a37bbf0e8e", null ],
-    [ "GetAI", "d6/dee/a20174.html#a8c9e1882c0706cb0b576c24b62215238", null ]
+    [ "npc_ulduar_flames_spreadAI", "dd/dc5/a20178.html", "dd/dc5/a20178" ],
+    [ "npc_ulduar_flames_spread", "d6/dee/a20174.html#aca9713b28d6d0c7b13b85a00c8a53ab0", null ],
+    [ "GetAI", "d6/dee/a20174.html#af492a5bc9304a05f8475a39458c6abdb", null ]
 ];

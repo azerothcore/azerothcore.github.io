@@ -1,8 +1,6 @@
 var a07718 =
 [
-    [ "LfgPlayerRewardData", "de/d40/a07718.html#afe99288f8d7028a5a54317e73e3f2c01", null ],
-    [ "done", "de/d40/a07718.html#a91ba12acf66d631af2de45513f20b702", null ],
-    [ "quest", "de/d40/a07718.html#abd051091fec6835f63bafa98a045142b", null ],
-    [ "rdungeonEntry", "de/d40/a07718.html#a87623ce14ef1d123d226e37e227a566d", null ],
-    [ "sdungeonEntry", "de/d40/a07718.html#abe9c93ab7f3a421dd3c44414a0987277", null ]
+    [ "ConditionSourceInfo", "de/d40/a07718.html#adc6441ec52fab3ab8d2b58a146a3fef3", null ],
+    [ "mConditionTargets", "de/d40/a07718.html#acb67deba44021698a447e8288bca0bd4", null ],
+    [ "mLastFailedCondition", "de/d40/a07718.html#a099d3457a0a15d8feeacc0dc8c32d439", null ]
 ];

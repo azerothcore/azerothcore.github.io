@@ -1,6 +1,15 @@
 var a16738 =
 [
-    [ "npc_pos_freed_slaveAI", "dd/d62/a16738.html#ad5728e427f9f4a65cea13ec2c5a01453", null ],
-    [ "CanAIAttack", "dd/d62/a16738.html#a76818ee5fcfcc5678fa9d0957a424d9b", null ],
-    [ "EnterEvadeMode", "dd/d62/a16738.html#a234135e6bea0d91611fbdbae4dec2ea1", null ]
+    [ "npc_pos_leaderAI", "dd/d62/a16738.html#a21973bccde394785f8619df7cae5270b", null ],
+    [ "AttackStart", "dd/d62/a16738.html#a6dc4161441752b8ea9baab642d6a0684", null ],
+    [ "JustSummoned", "dd/d62/a16738.html#a03bfcd0ea38073ff8481188d1b570553", null ],
+    [ "MoveInLineOfSight", "dd/d62/a16738.html#ad28f607b313f7729649261969912eba5", null ],
+    [ "Reset", "dd/d62/a16738.html#aee23a2835b84ac060a29b41c10116904", null ],
+    [ "SetData", "dd/d62/a16738.html#a2b49d5045e0d1e25e7a05b1e3ce65b4f", null ],
+    [ "SummonedCreatureDespawn", "dd/d62/a16738.html#a9a35459cf7b83c9f0afc557d1b0b40e7", null ],
+    [ "UpdateAI", "dd/d62/a16738.html#a1507ab4bdade501cf92f843cec20842d", null ],
+    [ "counter", "dd/d62/a16738.html#a7012a08c6409a40646dcd91a47eb6886", null ],
+    [ "events", "dd/d62/a16738.html#a7ea570e98c7a70ae604861c2166eb429", null ],
+    [ "pInstance", "dd/d62/a16738.html#a1ba3692738d6bd474d54fe8910a7f316", null ],
+    [ "summons", "dd/d62/a16738.html#a44b5ee694d96644da91167c7d793eeb3", null ]
 ];

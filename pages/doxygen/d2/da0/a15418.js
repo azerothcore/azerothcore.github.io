@@ -1,19 +1,12 @@
 var a15418 =
 [
-    [ "npc_weegli_blastfuseAI", "d2/da0/a15418.html#acde6b3e037d3c297e5d1beccdbe3d03a", null ],
-    [ "AttackStart", "d2/da0/a15418.html#a5e9140b38021ed6a2808e026fd77f8f1", null ],
-    [ "DestroyDoor", "d2/da0/a15418.html#a0cf76693b1af179c9857abdccc6931ee", null ],
-    [ "InitializeAI", "d2/da0/a15418.html#a61490f8c63f8056ac9f145ed8dd789c7", null ],
-    [ "JustReachedHome", "d2/da0/a15418.html#a4a88bc4bff8b5b2f75e3dd0c25927815", null ],
-    [ "MovementInform", "d2/da0/a15418.html#a33470a45eba0cbb62b041010f6aed302", null ],
-    [ "Reset", "d2/da0/a15418.html#abec9f353a1430afae12c21273bf32197", null ],
-    [ "sGossipHello", "d2/da0/a15418.html#a3a8381fa5e5d4daf19f312166247bea5", null ],
-    [ "sGossipSelect", "d2/da0/a15418.html#a0927116dcc55a1107dce7c65d1295e2a", null ],
-    [ "UpdateAI", "d2/da0/a15418.html#a73e482ebbb1566738e6775a574500dc8", null ],
-    [ "Bomb_Timer", "d2/da0/a15418.html#af6f68e291ce7d8cf25105ac64d7eebff", null ],
-    [ "destroyingDoor", "d2/da0/a15418.html#a0c7f207666da8ad74ff9dc64b582a042", null ],
-    [ "instance", "d2/da0/a15418.html#a609616e5136cf11bc16f9bb30ba92879", null ],
-    [ "LandMine_Timer", "d2/da0/a15418.html#ad9bab1d2c7a2baf35f6f7fb2cb4a27c7", null ],
-    [ "outroStage", "d2/da0/a15418.html#a30cdbce7bddb4d1d221925de86329a41", null ],
-    [ "outroTimer", "d2/da0/a15418.html#a08ef419fbef2ec38b7bcd408f135cd29", null ]
+    [ "DialogueHelper", "d2/da0/a15418.html#a3566655e8781bf5f9dff514fcd659421", null ],
+    [ "DialogueUpdate", "d2/da0/a15418.html#aaac3463d91a0cdbe2622b4fd85b34ed0", null ],
+    [ "DoNextDialogueStep", "d2/da0/a15418.html#a6e23a56ba5c5e4d4ab3b4c6be5cb09af", null ],
+    [ "GetSpeakerByEntry", "d2/da0/a15418.html#a50e652ca2cff035d8c79517fdbcfc67a", null ],
+    [ "JustDidDialogueStep", "d2/da0/a15418.html#a79e80634f1780895669f5c810958fd4f", null ],
+    [ "StartNextDialogueText", "d2/da0/a15418.html#ac16b8b9b50e8b35980d21f161bf33340", null ],
+    [ "_actionTimer", "d2/da0/a15418.html#a33b8551c136bcbc896b29d935c155a75", null ],
+    [ "_currentEntry", "d2/da0/a15418.html#a89ca5e8d25372bd8ab32322a0a9999f2", null ],
+    [ "_dialogueArray", "d2/da0/a15418.html#a489b8cd1c75ced0ec8e34b8051899dd7", null ]
 ];

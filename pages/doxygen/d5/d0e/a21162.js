@@ -1,9 +1,9 @@
 var a21162 =
 [
-    [ "npc_lurgglbrAI", "d5/d0e/a21162.html#a9239b85c65f9b405335d432f355637d5", null ],
-    [ "Reset", "d5/d0e/a21162.html#a13b8bd8e7d85c93b0ee88c6e9f6d09ca", null ],
-    [ "UpdateAI", "d5/d0e/a21162.html#aee019df9abe7ca3bf36a6de2321bedec", null ],
-    [ "WaypointReached", "d5/d0e/a21162.html#a09ac2f2f21eefedd0052f727546bafb5", null ],
-    [ "IntroPhase", "d5/d0e/a21162.html#a57e2c42cccf91765365e0b046446637a", null ],
-    [ "IntroTimer", "d5/d0e/a21162.html#ada9762806ae0132e37197e6fb1279866", null ]
+    [ "npc_azure_sorcerorAI", "d5/d0e/a21162.html#a474a7144908d4820341dc56f77436b90", null ],
+    [ "Reset", "d5/d0e/a21162.html#a4c637288f79e1da4bdace6516cd887b1", null ],
+    [ "UpdateAI", "d5/d0e/a21162.html#a928d789e2cbd35b228857a23c4204ea1", null ],
+    [ "uiArcaneStreamTimer", "d5/d0e/a21162.html#ad238fe8fed4dcefd923d901e4f73ed05", null ],
+    [ "uiArcaneStreamTimerStartingValueHolder", "d5/d0e/a21162.html#af044879e8e064e28a491c87d0c6cde74", null ],
+    [ "uiManaDetonationTimer", "d5/d0e/a21162.html#a3ebe4eb452296f3c45db5c1b6cdaa243", null ]
 ];

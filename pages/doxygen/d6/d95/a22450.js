@@ -1,10 +1,7 @@
 var a22450 =
 [
-    [ "boss_illidari_council", "d6/d95/a22450.html#a078c36be39b377f6d1cdbf061d70270d", null ],
-    [ "AttackStart", "d6/d95/a22450.html#a260b15ec58164f17543aa044a89875a8", null ],
-    [ "DamageTaken", "d6/d95/a22450.html#af8e88c307efaba392cc2a1d2f3862078", null ],
-    [ "DoAction", "d6/d95/a22450.html#a6c3c57523ed2775ba553af1171b46463", null ],
-    [ "EnterEvadeMode", "d6/d95/a22450.html#a7dd21784b8f9a0eac17d56215c24028e", null ],
-    [ "MoveInLineOfSight", "d6/d95/a22450.html#a19ed88ab049e1323f529e0880af0a9dd", null ],
-    [ "UpdateAI", "d6/d95/a22450.html#a8b30df956aa4ce1727756f1d19e151be", null ]
+    [ "HandleEffectRemove", "d6/d95/a22450.html#a0d8d042e6e9bf8fd26b6f283f6da6194", null ],
+    [ "PrepareAuraScript", "d6/d95/a22450.html#a84ec7db2aab055bc4328a4d8862bd3f5", null ],
+    [ "Register", "d6/d95/a22450.html#a9ee8e71020c17f593472de5a9c130753", null ],
+    [ "Validate", "d6/d95/a22450.html#a08be3cb2bef2f4697b7e258b231bd35b", null ]
 ];

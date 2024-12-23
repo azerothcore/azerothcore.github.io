@@ -1,14 +1,10 @@
 var a12314 =
 [
-    [ "boss_midnight", "d5/d46/a12314.html#aacf45b21a30d671d5e9720a30336f72c", null ],
-    [ "CanMeleeHit", "d5/d46/a12314.html#ad46a3726f398e5db56612d78d33fb13f", null ],
-    [ "DamageTaken", "d5/d46/a12314.html#a47be6bc98217cf32a54dc522b7983bdb", null ],
-    [ "DoAction", "d5/d46/a12314.html#a6831149d56f432aa3116d4172ef95a18", null ],
-    [ "EnterEvadeMode", "d5/d46/a12314.html#a7ef9e935ac932f5a9e4fd435b8180783", null ],
-    [ "JustEngagedWith", "d5/d46/a12314.html#afbb95384e6c747e73c87c5a5eb40843e", null ],
-    [ "JustSummoned", "d5/d46/a12314.html#a2644deaf0a2970835b0cd508565e7279", null ],
-    [ "KilledUnit", "d5/d46/a12314.html#a14dcbec9dc43cc12a124b6f140e0e8e6", null ],
-    [ "Reset", "d5/d46/a12314.html#a4f9cb414779705c179bc5447975b35e9", null ],
-    [ "UpdateAI", "d5/d46/a12314.html#a17c86571df6263fe1cc3657ca596e3ae", null ],
-    [ "_phase", "d5/d46/a12314.html#ae5f3f452f5141cecab1b99616eb2bf74", null ]
+    [ "instance_deadmines_InstanceMapScript", "d5/d46/a12314.html#afa12491c1b276d0d643822da562320c3", null ],
+    [ "GetSaveData", "d5/d46/a12314.html#a775c7d564b931e157a32b0909efed859", null ],
+    [ "Initialize", "d5/d46/a12314.html#a8b8bca7a1d7880bc53b8002934ceeb7a", null ],
+    [ "Load", "d5/d46/a12314.html#afff7e04cc632e2d4ddb438d03e561560", null ],
+    [ "OnGameObjectCreate", "d5/d46/a12314.html#a095202af8915f8a1d8888c045e18d6c4", null ],
+    [ "SetData", "d5/d46/a12314.html#a8cd5bf5302b1a7221c69dd9fdc9518dc", null ],
+    [ "_encounters", "d5/d46/a12314.html#a01d69e135cbd2dd885dfc84c98ed8be1", null ]
 ];

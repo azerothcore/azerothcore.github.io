@@ -1,7 +1,8 @@
 var a17630 =
 [
-    [ "HandleCast", "d0/db3/a17630.html#aaa3262bc782e342825d4caba2954e95d", null ],
-    [ "PrepareSpellScript", "d0/db3/a17630.html#ae4d1f05b978e2a46d7dc3410def73978", null ],
-    [ "Register", "d0/db3/a17630.html#ac59fb77c6a52d7a603dbb27e933a6814", null ],
-    [ "Validate", "d0/db3/a17630.html#a6ca80316fe7bcbb4ebda095d633bb1bc", null ]
+    [ "HandleScript", "d0/db3/a17630.html#a9f3cef57312626ae1884c36ad4bfdca6", null ],
+    [ "PrepareSpellScript", "d0/db3/a17630.html#a2ba03324afacf8da8e5fe6bc725e4d2f", null ],
+    [ "Register", "d0/db3/a17630.html#a9b0e0427b7f8abbd0e9d556ccc581aeb", null ],
+    [ "SelectTarget", "d0/db3/a17630.html#a36d575c6a63e94905bf435bc9d39e588", null ],
+    [ "Validate", "d0/db3/a17630.html#afc4a6277e3a7419b6a4aaa99f6697b91", null ]
 ];

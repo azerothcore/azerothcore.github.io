@@ -1,20 +1,10 @@
 var a08274 =
 [
-    [ "CinematicMgr", "d8/d43/a08274.html#a95547140d5718eb7fb4a8242a6e6de05", null ],
-    [ "~CinematicMgr", "d8/d43/a08274.html#ac56017a73bed15eadfdb6d17891328ff", null ],
-    [ "BeginCinematic", "d8/d43/a08274.html#a94ef6fc060617708b7bfd3a8c311e519", null ],
-    [ "EndCinematic", "d8/d43/a08274.html#a8a47c7cff4414c6aea3aa31fa483cc60", null ],
-    [ "GetActiveCinematicCamera", "d8/d43/a08274.html#a0535dee9b0ec7aa6176809c6dca16b30", null ],
-    [ "IsOnCinematic", "d8/d43/a08274.html#a904cb7a2db9b9e92e8539b736487ad0e", null ],
-    [ "SetActiveCinematicCamera", "d8/d43/a08274.html#afa5c37702ecdb71e09e552b92fa5ad71", null ],
-    [ "UpdateCinematicLocation", "d8/d43/a08274.html#afdcf4c2361f5ce445b1dfc013cf3348d", null ],
-    [ "Player", "d8/d43/a08274.html#a7f4241aa9ecc051c75f779af132a52ed", null ],
-    [ "m_activeCinematicCameraId", "d8/d43/a08274.html#ab8cd685c623be2b2609a71e8c4ebb740", null ],
-    [ "m_cinematicCamera", "d8/d43/a08274.html#a0c527989b49df340a268b8f69911377c", null ],
-    [ "m_cinematicDiff", "d8/d43/a08274.html#a398e47385916c712677268bed43f7955", null ],
-    [ "m_cinematicLength", "d8/d43/a08274.html#a60c48bec98a06c5cc0e50268df35c9cd", null ],
-    [ "m_CinematicObject", "d8/d43/a08274.html#a969e4ab19088fd45f3ba9483efa2e481", null ],
-    [ "m_lastCinematicCheck", "d8/d43/a08274.html#a50c42e2f39ba97a39ee31043dec17337", null ],
-    [ "m_remoteSightPosition", "d8/d43/a08274.html#ae4f473744f0e3ad43ef51dbf30f62f55", null ],
-    [ "player", "d8/d43/a08274.html#a00099569f6f2b683d4d5640bf971bf2d", null ]
+    [ "ObjectGuidGeneratorBase", "d8/d43/a08274.html#a8af6741cc884915ee86b489fc970fed1", null ],
+    [ "~ObjectGuidGeneratorBase", "d8/d43/a08274.html#aaa4430614e899fb1186f52875cf8d2ea", null ],
+    [ "Generate", "d8/d43/a08274.html#a7a6d9e5a78eef31007a46c10805c3fbe", null ],
+    [ "GetNextAfterMaxUsed", "d8/d43/a08274.html#abf1f20b97af8071459bd850e7106a442", null ],
+    [ "HandleCounterOverflow", "d8/d43/a08274.html#ada7a44ac47b112491c575c38465740fc", null ],
+    [ "Set", "d8/d43/a08274.html#a18b016edddec211c9cc4b0ff8682cb30", null ],
+    [ "_nextGuid", "d8/d43/a08274.html#a4a14102e019aa10f41b050054cacca22", null ]
 ];

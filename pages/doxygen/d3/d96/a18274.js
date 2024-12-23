@@ -1,6 +1,6 @@
 var a18274 =
 [
-    [ "npc_captain_brandonAI", "da/dba/a18278.html", "da/dba/a18278" ],
-    [ "npc_captain_brandon", "d3/d96/a18274.html#ad522dd280882d894b5d32e7c888f2360", null ],
-    [ "GetAI", "d3/d96/a18274.html#a3d77951d8d9dbc14fad2fd52d84118a3", null ]
+    [ "CaptainSurviveTalk", "d3/d96/a18274.html#a43a1b1da17ed41ae765aabc47c858f80", null ],
+    [ "Execute", "d3/d96/a18274.html#a871cf08e8c7fced2971cae8abbc20454", null ],
+    [ "_owner", "d3/d96/a18274.html#ac8de506afb4688560ea637918d07b01e", null ]
 ];

@@ -1,17 +1,15 @@
 var a11590 =
 [
-    [ "boss_ambassador_flamelashAI", "dc/ddc/a11590.html#a33afad6262abe2a0c9224a4b5bb3ce28", null ],
-    [ "DoAction", "dc/ddc/a11590.html#a6466b6b4a275849a813a362ef6b1d518", null ],
-    [ "getValidRandomPosition", "dc/ddc/a11590.html#ae9faa36cdc7a0d6faf0b7d4ec5b380e9", null ],
-    [ "JustDied", "dc/ddc/a11590.html#a2d2a162132b7f4c0a5faf1f86a476002", null ],
-    [ "JustEngagedWith", "dc/ddc/a11590.html#a79138cf6c886c843544b948778f91145", null ],
-    [ "JustSummoned", "dc/ddc/a11590.html#a9ec61ccf9984a9a68091ca9fba7582df", null ],
-    [ "Reset", "dc/ddc/a11590.html#ae2dd71a0edfc489645de130a8b731392", null ],
-    [ "SummonSpirits", "dc/ddc/a11590.html#a6c88f2f38d3072f5192fc0b9bd2c6e04", null ],
-    [ "TurnRunes", "dc/ddc/a11590.html#aefcdf4c5b663671fb96395e280141bbb", null ],
-    [ "UpdateAI", "dc/ddc/a11590.html#a528436b7e4e55910d1eb6e00831e7e41", null ],
-    [ "_events", "dc/ddc/a11590.html#a80aaeb0ce3a5fe101aedbdfc2489bafe", null ],
-    [ "foundValidPosition", "dc/ddc/a11590.html#a4b3a75fa687361efc85ebc0da7bf2b75", null ],
-    [ "summons", "dc/ddc/a11590.html#a6c1a07a1a59b46d65683436f32f76bf9", null ],
-    [ "validPosition", "dc/ddc/a11590.html#af11a0cddced13c34a012c8df964ab68a", null ]
+    [ "boss_vanndarAI", "dc/ddc/a11590.html#ada061b4363340602fd1f4744433d9cf9", null ],
+    [ "AttackStart", "dc/ddc/a11590.html#a76ab9327e04b82b534a9b3ea59b377d1", null ],
+    [ "EnterEvadeMode", "dc/ddc/a11590.html#a9ba6e2620a25728bf30d4d813a82b781", null ],
+    [ "JustEngagedWith", "dc/ddc/a11590.html#abde00baf4099361b8c26e6e0cf6c1517", null ],
+    [ "Reset", "dc/ddc/a11590.html#a1c2fdf4351a43047f02bec1d46423cb8", null ],
+    [ "UpdateAI", "dc/ddc/a11590.html#ab410ed8d64cd91bd6c4b78b2ed678eab", null ],
+    [ "Attacked", "dc/ddc/a11590.html#ac5994c76a9d84cf303021a9298673d68", null ],
+    [ "AvatarTimer", "dc/ddc/a11590.html#a3bed38b10a87baf50e9c9a57229bd464", null ],
+    [ "ResetTimer", "dc/ddc/a11590.html#ae1c4e16cd9ad68e4700d68ed64baa8e2", null ],
+    [ "StormboltTimer", "dc/ddc/a11590.html#a71ef70c1b504be2b00be1a70e85bc18a", null ],
+    [ "ThunderclapTimer", "dc/ddc/a11590.html#a681a103b6cf937dad3fb15e5be358c26", null ],
+    [ "YellTimer", "dc/ddc/a11590.html#a2b8503aaae0fd5e8cd92bb9650ee6ee3", null ]
 ];

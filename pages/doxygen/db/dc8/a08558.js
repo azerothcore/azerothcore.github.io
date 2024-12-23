@@ -1,6 +1,8 @@
 var a08558 =
 [
-    [ "BuildValuesCachedBuffer", "db/dc8/a08558.html#a87a3167ae060c8556700e4a137294053", null ],
-    [ "buffer", "db/dc8/a08558.html#add7150533a48434b0e606add9cff04d2", null ],
-    [ "posPointers", "db/dc8/a08558.html#affa098684782f15383a7df063b178cf1", null ]
+    [ "CleanDamage", "db/dc8/a08558.html#ad25ab816a679e323c07873efbc1c2f20", null ],
+    [ "absorbed_damage", "db/dc8/a08558.html#a7ba8e32e564b43915889a23ecb9d5297", null ],
+    [ "attackType", "db/dc8/a08558.html#ad9b56ae5faabe67a8fdec8cd5a7988b1", null ],
+    [ "hitOutCome", "db/dc8/a08558.html#a040977b1579b62695b4cbcf0c2ffeaa8", null ],
+    [ "mitigated_damage", "db/dc8/a08558.html#a6aeffc94560ac510c0b89e4384a2f41a", null ]
 ];

@@ -1,5 +1,6 @@
 var a23746 =
 [
-    [ "at_commander_dawnforge", "de/d39/a23746.html#a1dfd7eb69ae515a59887c313001e4a4e", null ],
-    [ "OnTrigger", "de/d39/a23746.html#acc78f4f2f9d892c02d62548e93f7f83b", null ]
+    [ "go_beaconAI", "db/d57/a23750.html", "db/d57/a23750" ],
+    [ "go_beacon", "de/d39/a23746.html#ad4224cabdc7210d9a0a46fb1eed1a23b", null ],
+    [ "GetAI", "de/d39/a23746.html#abd168f0c1ac9a64cece280758f3120d4", null ]
 ];

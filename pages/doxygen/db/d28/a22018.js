@@ -1,7 +1,6 @@
 var a22018 =
 [
-    [ "HandleScript", "db/d28/a22018.html#a1811115f1732912bdfaeeb8272db2304", null ],
-    [ "PrepareSpellScript", "db/d28/a22018.html#a50c24464dd88717bf78971d679715d7b", null ],
-    [ "Register", "db/d28/a22018.html#ab48b37db40865d60d7cda3260ec15ba8", null ],
-    [ "Validate", "db/d28/a22018.html#a0f0e4621965ea7ed7a108bca6d232ad0", null ]
+    [ "npc_vehicle_d16_propelled_deliveryAI", "db/d28/a22018.html#afd54b130725aa724b80f150f968ce09d", null ],
+    [ "MovementInform", "db/d28/a22018.html#a37800436af47a8f6fbc6f6eb25eab9f9", null ],
+    [ "PassengerBoarded", "db/d28/a22018.html#a588ed86f5b8316feafd938d85ac65aa0", null ]
 ];

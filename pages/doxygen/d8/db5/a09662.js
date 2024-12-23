@@ -1,10 +1,6 @@
 var a09662 =
 [
-    [ "ChaseRange", "d8/db5/a09662.html#acd43ed01c9e4845d82e4d240b5c35167", null ],
-    [ "ChaseRange", "d8/db5/a09662.html#aaf19c63398d31699ed1703ae1ba5f1b6", null ],
-    [ "ChaseRange", "d8/db5/a09662.html#a397b3789449b1c178f11f64313498c4d", null ],
-    [ "MaxRange", "d8/db5/a09662.html#ae2a846630e79f3a15a5d93b18c68c915", null ],
-    [ "MaxTolerance", "d8/db5/a09662.html#a7909b18028d43c84eca5feee3e41469c", null ],
-    [ "MinRange", "d8/db5/a09662.html#a0e2c69e20d6a38d056505c3b5b0d9fd6", null ],
-    [ "MinTolerance", "d8/db5/a09662.html#a7b640ecfc0e80921ab36c2c33f0b10fd", null ]
+    [ "SplineRawInitializer", "d8/db5/a09662.html#a2aba4b3ca8e2312cc9e910ef4b3a5a26", null ],
+    [ "operator()", "d8/db5/a09662.html#a878f8d8b2bc4b7c0e5c92d3055a437af", null ],
+    [ "_points", "d8/db5/a09662.html#a3cea33c8d33407f7d2d8ea96a85a58c5", null ]
 ];

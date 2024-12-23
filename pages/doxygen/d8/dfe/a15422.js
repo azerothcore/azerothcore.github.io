@@ -1,6 +1,7 @@
 var a15422 =
 [
-    [ "npc_shadowpriest_sezzizAI", "d2/d2b/a15426.html", "d2/d2b/a15426" ],
-    [ "npc_shadowpriest_sezziz", "d8/dfe/a15422.html#a1be46acc9d8f1405f925f7b7f87592ea", null ],
-    [ "GetAI", "d8/dfe/a15422.html#a1513b766f18dbc290b6682582fd33b1d", null ]
+    [ "npc_ranshallaAI", "d2/d2b/a15426.html", "d2/d2b/a15426" ],
+    [ "npc_ranshalla", "d8/dfe/a15422.html#a0b9848c68cf955d24024071ae9beb8e5", null ],
+    [ "GetAI", "d8/dfe/a15422.html#a1a81651366cc05d3ad6e9929160fe059", null ],
+    [ "OnQuestAccept", "d8/dfe/a15422.html#a4ed77a4c0a48dc4922fa5ebb71949e28", null ]
 ];

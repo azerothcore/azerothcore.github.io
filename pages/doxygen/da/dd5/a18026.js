@@ -1,7 +1,8 @@
 var a18026 =
 [
-    [ "OnPeriodic", "da/dd5/a18026.html#adfbfcf4ad8671ca4eaa439705f7b6c2a", null ],
-    [ "PrepareAuraScript", "da/dd5/a18026.html#a5bb82c03f7c34e6febd3fe8aa57d4723", null ],
-    [ "Register", "da/dd5/a18026.html#a0fc7ca43a0d82058fc04277742231388", null ],
-    [ "Validate", "da/dd5/a18026.html#ae52c7c189a45a0bb5f3a627f502e3730", null ]
+    [ "Load", "da/dd5/a18026.html#add67e02f44e3658bff98faf7a9466ba3", null ],
+    [ "OnPeriodic", "da/dd5/a18026.html#a3e523e0bb23e4aba279ba6704206bfc4", null ],
+    [ "PrepareAuraScript", "da/dd5/a18026.html#a399fc30c23c03d3c4964ec23faed7c18", null ],
+    [ "Register", "da/dd5/a18026.html#a4ee6fe23e45481eea16f77d8de72742e", null ],
+    [ "_is25Man", "da/dd5/a18026.html#ab7776e2d8eff0de1176d5d5efa853c6d", null ]
 ];

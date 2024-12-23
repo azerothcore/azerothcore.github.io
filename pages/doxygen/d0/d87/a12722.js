@@ -1,6 +1,7 @@
 var a12722 =
 [
-    [ "npc_valkyr_battle_maidenAI", "d2/d34/a12726.html", "d2/d34/a12726" ],
-    [ "npc_valkyr_battle_maiden", "d0/d87/a12722.html#a4316dd483b262e637ea39ba9e972744b", null ],
-    [ "GetAI", "d0/d87/a12722.html#ab067ea6f5f92039d471708039089e79c", null ]
+    [ "npc_koltira_deathweaverAI", "d2/d34/a12726.html", "d2/d34/a12726" ],
+    [ "npc_koltira_deathweaver", "d0/d87/a12722.html#a5e9fdbc8dc70ce3480906b86aed381a3", null ],
+    [ "GetAI", "d0/d87/a12722.html#afddc561b88679f3dd6ca8b374807b0f0", null ],
+    [ "OnQuestAccept", "d0/d87/a12722.html#a745d0d384c465b26716429df48885d02", null ]
 ];

@@ -1,8 +1,9 @@
 var a07834 =
 [
-    [ "bounding_radius", "d4/d8e/a07834.html#a9f4a794b06bcbe31fc0a104cc97b91a4", null ],
-    [ "combat_reach", "d4/d8e/a07834.html#ac271edb10093db19e4df1396053f820d", null ],
-    [ "gender", "d4/d8e/a07834.html#aa5c8134851ff4f7ab6ad2af3b6e1dc1e", null ],
-    [ "is_trigger", "d4/d8e/a07834.html#a52dbfa82e1525df681b87ab07ba8ead0", null ],
-    [ "modelid_other_gender", "d4/d8e/a07834.html#a222b3c513a64b385954ea549e67f4255", null ]
+    [ "LFGPlayerScript", "d4/d8e/a07834.html#ad27ca48d9e573ad0ba155a3f7eb1ae88", null ],
+    [ "OnBindToInstance", "d4/d8e/a07834.html#a12958084d0e4a4908ee899036a5e0f8e", null ],
+    [ "OnLevelChanged", "d4/d8e/a07834.html#a4ec12e956164a0e71122f1d5ed52afe6", null ],
+    [ "OnLogin", "d4/d8e/a07834.html#aa5568ad54c5834dbdc4ffb54196092e6", null ],
+    [ "OnLogout", "d4/d8e/a07834.html#a56a595f37a27a9872c8f13f2a30fd9a6", null ],
+    [ "OnMapChanged", "d4/d8e/a07834.html#a9311b2e84c4056a2659643ec715aeeb7", null ]
 ];

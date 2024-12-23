@@ -1,7 +1,9 @@
 var a12270 =
 [
-    [ "npc_kernobeeAI", "d5/d3c/a12274.html", "d5/d3c/a12274" ],
-    [ "npc_kernobee", "dd/dec/a12270.html#a325aa3f9962cb99b4af362a23c1b16d8", null ],
-    [ "GetAI", "dd/dec/a12270.html#a13da5b7e79ada7c5a88e84ca551ce8eb", null ],
-    [ "OnQuestAccept", "dd/dec/a12270.html#aa830285cf19211b8233620257735ab62", null ]
+    [ "npc_flamewaker_priestAI", "dd/dec/a12270.html#aa0508dda5bc365896128f088b6de30f4", null ],
+    [ "JustDied", "dd/dec/a12270.html#ad1f51c4589abe6ef5bcf513d70e34a4c", null ],
+    [ "JustEngagedWith", "dd/dec/a12270.html#a15fefb756ad1ae20257d4ed9cb1d3eca", null ],
+    [ "Reset", "dd/dec/a12270.html#a3c3629a6c6987e861e40a893363d2508", null ],
+    [ "UpdateAI", "dd/dec/a12270.html#a28c0ed65521f3d2150874ddc1b913933", null ],
+    [ "events", "dd/dec/a12270.html#a7d769cc852a69fdf719cb7958c3d890c", null ]
 ];

@@ -1,6 +1,6 @@
 var a19086 =
 [
-    [ "HandleDamageCalc", "d7/d07/a19086.html#a71b88fbad5acbba47028dd1ff82b4836", null ],
-    [ "PrepareSpellScript", "d7/d07/a19086.html#a754da297cd5801616e24bf2d802d0b38", null ],
-    [ "Register", "d7/d07/a19086.html#a231f29ea69a354ddb2963cb4ef9a3f4e", null ]
+    [ "boss_varosAI", "dc/da4/a19090.html", "dc/da4/a19090" ],
+    [ "boss_varos", "d7/d07/a19086.html#a4fdb9de9ee7a3a50ac0972fd6eb8d39c", null ],
+    [ "GetAI", "d7/d07/a19086.html#a36733c4eb6179e43d61a1c37480666ea", null ]
 ];

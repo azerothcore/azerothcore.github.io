@@ -1,6 +1,5 @@
 var a09414 =
 [
-    [ "LootValidatorRef", "d8/d10/a09414.html#acce3ced73583bf8dbf04232cddd6ebd8", null ],
-    [ "sourceObjectDestroyLink", "d8/d10/a09414.html#a8833022cf1acf786c06f1580fbe11c24", null ],
-    [ "targetObjectDestroyLink", "d8/d10/a09414.html#a93baac45dcb801215c28ac0dba097eba", null ]
+    [ "bossId", "d8/d10/a09414.html#af9fc7d02d16d4fb3547273428553cf05", null ],
+    [ "boundary", "d8/d10/a09414.html#a7b474c6b9225102ba08864256d07d9e6", null ]
 ];

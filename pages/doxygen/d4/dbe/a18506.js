@@ -1,5 +1,6 @@
 var a18506 =
 [
-    [ "at_icc_spire_frostwyrm", "d4/dbe/a18506.html#ac3da2c0bc3e8b1c31832fcbb4e8ceae8", null ],
-    [ "_OnTrigger", "d4/dbe/a18506.html#a67e320fb8ada7cb2c87f5944395fa174", null ]
+    [ "npc_icc_severed_essenceAI", "d9/d9f/a18510.html", "d9/d9f/a18510" ],
+    [ "npc_icc_severed_essence", "d4/dbe/a18506.html#ace5b55755ef1dff3bd08a67fe2f64f94", null ],
+    [ "GetAI", "d4/dbe/a18506.html#a74b8dbb95f3dc31b514a2d7ac1f18190", null ]
 ];

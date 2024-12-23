@@ -1,6 +1,11 @@
 var a23942 =
 [
-    [ "HandleSendEvent", "d6/dfe/a23942.html#a698e367b59ce770a9b4d9fe6890edf46", null ],
-    [ "PrepareSpellScript", "d6/dfe/a23942.html#aed8815b1d068ba04f12c7714a64af769", null ],
-    [ "Register", "d6/dfe/a23942.html#aa55fa06e76b1f34e319e16984405ed20", null ]
+    [ "npc_shadowmoon_tuber_nodeAI", "d6/dfe/a23942.html#af24a8d5ead256d158c86379e032aa889", null ],
+    [ "Reset", "d6/dfe/a23942.html#a9bcbd0b0b6b12058a8356ce274b6a597", null ],
+    [ "SetData", "d6/dfe/a23942.html#aca6ad097bd7b8e5f1a0cde6bdebb23ad", null ],
+    [ "SpellHit", "d6/dfe/a23942.html#a14523a24042d23efbafc7924f394dd04", null ],
+    [ "UpdateAI", "d6/dfe/a23942.html#ae5cd38aa2a9cc1727141298323639660", null ],
+    [ "resetTimer", "d6/dfe/a23942.html#a0d2649de651279fa6bbe3ae2f18571bb", null ],
+    [ "tapped", "d6/dfe/a23942.html#af6412de701f14a7eb325e1aaf33f28cc", null ],
+    [ "tuberGUID", "d6/dfe/a23942.html#a2deaa1aeed26b862e93055d90c9139d6", null ]
 ];

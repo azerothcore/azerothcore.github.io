@@ -1,8 +1,8 @@
 var a26294 =
 [
-    [ "Apply", "d6/d8b/a26294.html#ac3145df90b6b179fece1c76da114e395", null ],
-    [ "HandleEffectPeriodic", "d6/d8b/a26294.html#a480dd240981f91666e25ea2f1f73e4d7", null ],
-    [ "PrepareAuraScript", "d6/d8b/a26294.html#aa911ba0b5a13a933bf50a072799a040f", null ],
-    [ "Register", "d6/d8b/a26294.html#ae0dff9b5002d3d3361d794a75645057f", null ],
-    [ "Validate", "d6/d8b/a26294.html#ad81184b508474a89fbafc63594ef0ab1", null ]
+    [ "HandleRootRemove", "d6/d8b/a26294.html#a9678ce2254825b67eb7a16312e960ba9", null ],
+    [ "HandleSnareRemove", "d6/d8b/a26294.html#a6a0716f500b3926e66c62a038a1e03d3", null ],
+    [ "PrepareSpellScript", "d6/d8b/a26294.html#ab9dc5e2516e269b968cb995040bc00a0", null ],
+    [ "Register", "d6/d8b/a26294.html#a119675dccea898932ca090577022b6ba", null ],
+    [ "Validate", "d6/d8b/a26294.html#a1a90cf531ba1131952161ff9d10b2cb7", null ]
 ];

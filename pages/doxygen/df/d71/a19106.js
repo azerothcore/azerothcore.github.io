@@ -1,8 +1,10 @@
 var a19106 =
 [
-    [ "HandleEffectPeriodic", "df/d71/a19106.html#abb453e3d38677be7082f2cd4e43134cc", null ],
-    [ "HandleOnEffectApply", "df/d71/a19106.html#a3ec47d5d9fdbdcfe671e02c3b0f55980", null ],
-    [ "PrepareAuraScript", "df/d71/a19106.html#ac00c6d9b1cccb38b5d87b3139295614c", null ],
-    [ "Register", "df/d71/a19106.html#ae4de4f0f2f4dc4ac98706ddd898df7c5", null ],
-    [ "Validate", "df/d71/a19106.html#a09481646f8ec90b0135d93d83cc18929", null ]
+    [ "npc_oculus_drakegiverAI", "df/d71/a19106.html#a4bba380256a0ede70b8d90611249b444", null ],
+    [ "MovementInform", "df/d71/a19106.html#adc86ecd4ed7b4b7b42968a0e09fa29a0", null ],
+    [ "UpdateAI", "df/d71/a19106.html#a652a8c364687d51de62356964f6f33f9", null ],
+    [ "m_pInstance", "df/d71/a19106.html#a04e43a623d16b4cf8d80552d649d90ca", null ],
+    [ "moved", "df/d71/a19106.html#a069e202a84d99cd757862bd1a43b5562", null ],
+    [ "resetPosition", "df/d71/a19106.html#a8ef6c480846d08d8a6225a7124320cbf", null ],
+    [ "timer", "df/d71/a19106.html#a461b45ab959e71699cf1543ecbcbd91f", null ]
 ];

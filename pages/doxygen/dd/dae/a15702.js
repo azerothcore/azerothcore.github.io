@@ -1,6 +1,6 @@
 var a15702 =
 [
-    [ "npc_onyx_flamecallerAI", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
-    [ "npc_onyx_flamecaller", "dd/dae/a15702.html#af27af3cb3bbaba0801481ba77a94f9c6", null ],
-    [ "GetAI", "dd/dae/a15702.html#a712284f1997635aaf7ecd7ca0a263c05", null ]
+    [ "instance_obsidian_sanctum_InstanceMapScript", "d1/dc1/a15706.html", "d1/dc1/a15706" ],
+    [ "instance_obsidian_sanctum", "dd/dae/a15702.html#a6cf2121c4167156f5748c144372b3c0b", null ],
+    [ "GetInstanceScript", "dd/dae/a15702.html#a67acb36f65c1bc3d6eca59bf71a5c220", null ]
 ];

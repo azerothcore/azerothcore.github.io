@@ -1,5 +1,6 @@
 var a27306 =
 [
-    [ "ServerMailReward", "dc/d9c/a27306.html#aba48b4c171e8e8a40fca2d3bed6b7f63", null ],
-    [ "OnLogin", "dc/d9c/a27306.html#a8ab4fb6042c3f32ca327cf965330afd2", null ]
+    [ "npc_locksmith", "dc/d9c/a27306.html#af959a6395ebc33109405f18f262e4ecb", null ],
+    [ "OnGossipHello", "dc/d9c/a27306.html#aec977cf39f11a7bc2f13c2bde8e97351", null ],
+    [ "OnGossipSelect", "dc/d9c/a27306.html#a62ec02e226255ff1f81895391a6494b8", null ]
 ];

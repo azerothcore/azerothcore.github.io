@@ -1,7 +1,6 @@
 var a27218 =
 [
-    [ "npc_guardianAI", "d9/d09/a27218.html#acc5d29a79e57fc023369c0dcd4b0d2a3", null ],
-    [ "JustEngagedWith", "d9/d09/a27218.html#a50257f80245bc59437e53083badcb056", null ],
-    [ "Reset", "d9/d09/a27218.html#a217df9bae079f56ffd70d27958fb2756", null ],
-    [ "UpdateAI", "d9/d09/a27218.html#ab42c39f088ef819a5ffb5f9f4ba2c3a3", null ]
+    [ "spawnedCreatureEntry", "d9/d09/a27218.html#a32b390dfff99d5fd3c49359779718af4", null ],
+    [ "spawnType", "d9/d09/a27218.html#a056dabf4092da4ef3155a661607ca772", null ],
+    [ "thisCreatureEntry", "d9/d09/a27218.html#a97d3cd7c2751fe85d9724ff1f808ba98", null ]
 ];

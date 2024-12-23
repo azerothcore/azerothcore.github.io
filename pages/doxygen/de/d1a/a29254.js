@@ -1,5 +1,8 @@
 var a29254 =
 [
-    [ "item_generic_limit_chance_above_60", "de/d1a/a29254.html#abc18809810f0a7668020d01c482be84b", null ],
-    [ "OnCastItemCombatSpell", "de/d1a/a29254.html#aa34809cfd53edb6a77d3fa415a079d72", null ]
+    [ "_ACORE_DB_IMPORT_CONFIG", "de/d1a/a29254.html#a97392c73658eeeb49d256527b19ad90f", null ],
+    [ "GetConsoleArguments", "de/d1a/a29254.html#a6f250d3a28ed2192d175846c6ce5795b", null ],
+    [ "main", "de/d1a/a29254.html#a3c04138a5bfe5d72780bb7e82a18e627", null ],
+    [ "StartDB", "de/d1a/a29254.html#a1551df43a48f1dbf64dbec1e47b07eea", null ],
+    [ "StopDB", "de/d1a/a29254.html#a927af1587546ee7503a3b9a18f6439c0", null ]
 ];

@@ -1,6 +1,6 @@
 var a15794 =
 [
-    [ "HandlePeriodic", "d6/d09/a15794.html#a7753587518171689f86f3f76269c1b8a", null ],
-    [ "PrepareAuraScript", "d6/d09/a15794.html#aa73351e7200bee94b0068fb8dabfada5", null ],
-    [ "Register", "d6/d09/a15794.html#ab126fe8d4387609e8834898c3b3a67ea", null ]
+    [ "npc_orb_carrierAI", "d3/d8a/a15798.html", "d3/d8a/a15798" ],
+    [ "npc_orb_carrier", "d6/d09/a15794.html#a69fdd8cb2f0cdf7cf6cf0bdabbc0cd03", null ],
+    [ "GetAI", "d6/d09/a15794.html#ab5b7bbffc43b840c686dc889805ea401", null ]
 ];

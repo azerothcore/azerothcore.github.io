@@ -1,6 +1,6 @@
 var a17842 =
 [
-    [ "boss_the_lich_kingAI", "d5/dca/a17846.html", "d5/dca/a17846" ],
-    [ "boss_the_lich_king", "d3/d6c/a17842.html#a10e2789a98a85907d24eabae6d7655f4", null ],
-    [ "GetAI", "d3/d6c/a17842.html#ab12d8cdfdb1c5428423f6db9dda6c97e", null ]
+    [ "HandleScript", "d3/d6c/a17842.html#a038a827f7fe179ff56ab581efdf08790", null ],
+    [ "PrepareSpellScript", "d3/d6c/a17842.html#a9ffd37bb54ce5e4a73d7d93eaddda2dd", null ],
+    [ "Register", "d3/d6c/a17842.html#a6018f3a74a1b61042bb0ff6c02b76611", null ]
 ];

@@ -1,6 +1,7 @@
 var a26102 =
 [
-    [ "CheckRequirement", "d2/d57/a26102.html#a4ad49f2f781d1c6b27dd04f46203c6d4", null ],
-    [ "PrepareSpellScript", "d2/d57/a26102.html#a4263eebcb64f00152a4b64dafef20510", null ],
-    [ "Register", "d2/d57/a26102.html#a8b825a97f50abb0231036a3ff651531d", null ]
+    [ "HandleDummy", "d2/d57/a26102.html#aef93741620dcf29179502f88891ad0b5", null ],
+    [ "Load", "d2/d57/a26102.html#ab8e5dcd009cca538c9921dcb9c5fe109", null ],
+    [ "PrepareSpellScript", "d2/d57/a26102.html#ac92fd133395705e4cb3730bc96e1f787", null ],
+    [ "Register", "d2/d57/a26102.html#a69336bea35240c0014693ae167d4124b", null ]
 ];

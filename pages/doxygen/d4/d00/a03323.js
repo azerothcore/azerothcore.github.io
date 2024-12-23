@@ -72,7 +72,6 @@ var a03323 =
       [ "WS_DAILY_CALENDAR_DELETION_OLD_EVENTS_TIME", "d2/db6/a04681.html#gga0deead4ad87fa303c91e30781af1cd93acd2bc0620e575fa7094a43d45a7cc708", null ]
     ] ],
     [ "WorldTimers", "d2/db6/a04681.html#ga4dcd824b4592ac27595e16471efe0520", [
-      [ "WUPDATE_AUCTIONS", "d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520ad4d5ef315ed70163b8c1603bbd422dcf", null ],
       [ "WUPDATE_WEATHERS", "d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520abb4b6bdb4b5ae3799d4f0ca456733cce", null ],
       [ "WUPDATE_UPTIME", "d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520aa7880547231a7f7d8798a527cf0aad9c", null ],
       [ "WUPDATE_CORPSES", "d2/db6/a04681.html#gga4dcd824b4592ac27595e16471efe0520a333f639c939c9e723150abb74ebcd206", null ],

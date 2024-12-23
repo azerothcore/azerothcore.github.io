@@ -1,7 +1,6 @@
 var a14406 =
 [
-    [ "npc_cos_chromie_middle", "db/d30/a14406.html#a1bb7229781c122d362e781d2737d0fd3", null ],
-    [ "OnGossipHello", "db/d30/a14406.html#a105b62bd24fe3912c0f66c234a6dc670", null ],
-    [ "OnGossipSelect", "db/d30/a14406.html#a37ebdd257ef22554c81cf3c062856141", null ],
-    [ "OnQuestAccept", "db/d30/a14406.html#a6af52ce23a90e7d8418e2c414c9c0fd4", null ]
+    [ "boss_infinite_corruptorAI", "d9/d76/a14410.html", "d9/d76/a14410" ],
+    [ "boss_infinite_corruptor", "db/d30/a14406.html#a78a939073ab44b818cefdb25419f92be", null ],
+    [ "GetAI", "db/d30/a14406.html#ab6eaf2f9d1928817e45b092a3a87bda4", null ]
 ];

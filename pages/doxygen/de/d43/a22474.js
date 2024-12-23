@@ -1,6 +1,7 @@
 var a22474 =
 [
-    [ "CalculateAmount", "de/d43/a22474.html#aeeabfef0accc4e0d1f78f7422dc30a99", null ],
-    [ "PrepareAuraScript", "de/d43/a22474.html#a5cf70fe73d01e08e78a2d00e5bc95e8e", null ],
-    [ "Register", "de/d43/a22474.html#a0d2e97463f268892965e307628aaa931", null ]
+    [ "HandleOnEffectApply", "de/d43/a22474.html#a01d6ca6f8ec21ad42445b5e581c0f79b", null ],
+    [ "HandleOnEffectRemove", "de/d43/a22474.html#a59952b33d7c4705a6bfe7f3443bbf005", null ],
+    [ "PrepareAuraScript", "de/d43/a22474.html#a45df29f911b1232e306e04a182648904", null ],
+    [ "Register", "de/d43/a22474.html#a71fbf189fc116eb7d14944ff4060a9a9", null ]
 ];

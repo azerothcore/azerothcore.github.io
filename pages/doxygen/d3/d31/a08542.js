@@ -1,8 +1,9 @@
 var a08542 =
 [
-    [ "RedirectSpellEvent", "d3/d31/a08542.html#a77d243d64c2fc651d71c42e10a315161", null ],
-    [ "Execute", "d3/d31/a08542.html#a34ae2bc23904558bd5f5b99e8f1c5fdc", null ],
-    [ "_auraEffect", "d3/d31/a08542.html#a010f14a7d389b4e9ae9896061fa18a65", null ],
-    [ "_auraOwnerGUID", "d3/d31/a08542.html#a1b3fb598748362379fef15b3172d8e2b", null ],
-    [ "_self", "d3/d31/a08542.html#aecfa190843c1493b47652ccdac7ae9c3", null ]
+    [ "ProcTriggeredData", "d3/d31/a08542.html#a37c5cbfd0b916b950a0e638223394de4", null ],
+    [ "operator==", "d3/d31/a08542.html#a787760cbd8a6ee5192975bc514886159", null ],
+    [ "aura", "d3/d31/a08542.html#a5138144d49900690bb15a5f66b763eac", null ],
+    [ "effMask", "d3/d31/a08542.html#a1c2bfb3e0016ba823e12b3defe373790", null ],
+    [ "spellProcEvent", "d3/d31/a08542.html#ac6e491a7ef478d271d3c74d7b9df577e", null ],
+    [ "triggerSpelId", "d3/d31/a08542.html#abfd99a1e3beb871a3cbf83d7578ec98a", null ]
 ];

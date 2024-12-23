@@ -1,8 +1,7 @@
 var a24470 =
 [
-    [ "HandleSchoolDMG", "dd/d90/a24470.html#ab273304fdbeea8768622c3e6b222aaf2", null ],
-    [ "HandleScriptEffect", "dd/d90/a24470.html#a06f9cf29387b49f3e5950661173c77eb", null ],
-    [ "PrepareSpellScript", "dd/d90/a24470.html#ac1a2b89eda37ed4e6c5946a93e7a58a2", null ],
-    [ "Register", "dd/d90/a24470.html#a9bdbf7578509976d482a26869e9068aa", null ],
-    [ "Validate", "dd/d90/a24470.html#a20a7b3a25711a90ab5f0e14991112ea0", null ]
+    [ "FilterTargets", "dd/d90/a24470.html#af6daf7022fc4cd18909056089c249c8a", null ],
+    [ "HandleDummy", "dd/d90/a24470.html#ab8f8fec8c95f471a04d642fa0dcbe3e6", null ],
+    [ "PrepareSpellScript", "dd/d90/a24470.html#a3ec1d43d3eb6ecca128ddda3c0f81efc", null ],
+    [ "Register", "dd/d90/a24470.html#ae662a050ce4cac47b6bd0d0b0c5b1e16", null ]
 ];

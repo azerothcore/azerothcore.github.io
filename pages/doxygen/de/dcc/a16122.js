@@ -1,7 +1,8 @@
 var a16122 =
 [
-    [ "npc_toc_enh_shamanAI", "de/dcc/a16122.html#ae1ef5395722e42660c1856d6faf52cbb", null ],
-    [ "myCanCast", "de/dcc/a16122.html#a8a38da4063a22361b25835a67f14ff52", null ],
-    [ "UpdateAI", "de/dcc/a16122.html#a4aa59b136b97859d15b39fd2fbbdf53d", null ],
-    [ "events", "de/dcc/a16122.html#adec973540bf3b046f54547fb845c06b1", null ]
+    [ "npc_toc_warlockAI", "de/dcc/a16122.html#a4c4c2f502f00ca48bb7419434d88ea3a", null ],
+    [ "JustSummoned", "de/dcc/a16122.html#a203ef748afaa400aa1f8365b5d7bf6b1", null ],
+    [ "myCanCast", "de/dcc/a16122.html#a62b2df362bc07aa4a9c14cbc63a10e05", null ],
+    [ "UpdateAI", "de/dcc/a16122.html#a554849d02d923439bd810b7d8c242afa", null ],
+    [ "events", "de/dcc/a16122.html#a3b84c70d246bbf5b70ab4dec06c647b3", null ]
 ];

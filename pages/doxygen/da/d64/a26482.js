@@ -1,6 +1,6 @@
 var a26482 =
 [
-    [ "CalculateAmount", "da/d64/a26482.html#aa27de1a2fc517a4b796a10e780239880", null ],
-    [ "PrepareAuraScript", "da/d64/a26482.html#a72e68ff46f2049809f3e3b2c1814bd87", null ],
-    [ "Register", "da/d64/a26482.html#a5ee969ad0916a9337849c75c18f13c29", null ]
+    [ "FilterTargets", "da/d64/a26482.html#a2bcc808d5869442e4c2e78be2d2a16af", null ],
+    [ "PrepareSpellScript", "da/d64/a26482.html#a51d7035477ba4e3994ef3161edc4cc69", null ],
+    [ "Register", "da/d64/a26482.html#adcc2ed25659208d0eeaec6d9673df3c6", null ]
 ];

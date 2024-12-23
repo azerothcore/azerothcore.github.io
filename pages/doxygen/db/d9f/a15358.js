@@ -1,6 +1,7 @@
 var a15358 =
 [
-    [ "SayerEntry", "db/d9f/a15358.html#a3f9e374ec2a49823d942c29572ac2fa0", null ],
-    [ "SayTimer", "db/d9f/a15358.html#a942073f24fd12da712184243d9f098f2", null ],
-    [ "TextEntry", "db/d9f/a15358.html#a360822e4c069be6019c0a465cb2499cf", null ]
+    [ "npc_lakota_windsongAI", "d7/dd7/a15362.html", "d7/dd7/a15362" ],
+    [ "npc_lakota_windsong", "db/d9f/a15358.html#a08a585ac36189ec23354c7acb26d223d", null ],
+    [ "GetAI", "db/d9f/a15358.html#af2f27ed2c4bd7298a9478495d2d7ca65", null ],
+    [ "OnQuestAccept", "db/d9f/a15358.html#a47ccf0b8bef84724f7aa7e2ad564dfe6", null ]
 ];

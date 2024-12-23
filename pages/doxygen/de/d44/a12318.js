@@ -1,8 +1,6 @@
 var a12318 =
 [
-    [ "HandleEffectRemove", "de/d44/a12318.html#a5e5a218cb491b830ec8d50609a3d54ae", null ],
-    [ "if", "de/d44/a12318.html#a8596fc98402bf952484c9567f61c7820", null ],
-    [ "PrepareAuraScript", "de/d44/a12318.html#a4055f781a914de631187b00ba7aefeef", null ],
-    [ "Register", "de/d44/a12318.html#aefb4bbae43558abde871548088784613", null ],
-    [ "AuraEffectHandleModes", "de/d44/a12318.html#a7d419ba41e68b70740a867a2265824bd", null ]
+    [ "instance_gnomeregan_InstanceMapScript", "db/de2/a12322.html", "db/de2/a12322" ],
+    [ "instance_gnomeregan", "de/d44/a12318.html#a3fca2b3399f41e88c0c30ae05763a09c", null ],
+    [ "GetInstanceScript", "de/d44/a12318.html#ad2130ba5eb3cd37cd2cc464a62381eda", null ]
 ];

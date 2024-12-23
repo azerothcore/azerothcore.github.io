@@ -1,6 +1,5 @@
 var a26754 =
 [
-    [ "npc_spirit_shadeAI", "d5/daa/a26758.html", "d5/daa/a26758" ],
-    [ "npc_spirit_shade", "d3/d7b/a26754.html#a891ede5651789274496d6426daf9937d", null ],
-    [ "GetAI", "d3/d7b/a26754.html#a166f6a9abf7c0e33374c2f998c0524c3", null ]
+    [ "AreaTrigger_at_stormwright_shelf", "d3/d7b/a26754.html#a97cdf51a8992b3d9edc138351770fd75", null ],
+    [ "OnTrigger", "d3/d7b/a26754.html#ab635f9328b35f3570211cf6ffc60a4c6", null ]
 ];

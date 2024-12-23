@@ -1,7 +1,6 @@
 var a09386 =
 [
-    [ "LootGroupInvalidSelector", "d1/d24/a09386.html#abea815e8ee0d31cc64b3fd7f46033cca", null ],
-    [ "operator()", "d1/d24/a09386.html#a2ea426fdeced03324c4a63184c2c1fc4", null ],
-    [ "_loot", "d1/d24/a09386.html#a67b9d223426512af79bbf5b035c18a6d", null ],
-    [ "_lootMode", "d1/d24/a09386.html#a10e307846a0731aa812388c29c0d4bc8", null ]
+    [ "NpcTextLocale", "d1/d24/a09386.html#af1ddddeff75a1a51c51ebb1fec3f4f05", null ],
+    [ "Text_0", "d1/d24/a09386.html#adf17307b9d00e0b63b9c2827fca96320", null ],
+    [ "Text_1", "d1/d24/a09386.html#a40f69a13a202c350fdce2177288727e9", null ]
 ];

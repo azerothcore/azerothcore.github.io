@@ -1,6 +1,7 @@
 var a18770 =
 [
-    [ "boss_razuviousAI", "d9/db8/a18774.html", "d9/db8/a18774" ],
-    [ "boss_razuvious", "db/dc3/a18770.html#ac1a2942f4a7957c671b075df7bf20215", null ],
-    [ "GetAI", "db/dc3/a18770.html#a350a7cf0c3e21e29c3c28155d63dcb87", null ]
+    [ "FilterTargets", "db/dc3/a18770.html#af92aec0df6c962a10ccbebb366081cfd", null ],
+    [ "PrepareSpellScript", "db/dc3/a18770.html#ad7ccb2b2024887ec0a9802454a8bfaec", null ],
+    [ "Register", "db/dc3/a18770.html#af59416debfc7685bec92541a00e1dafe", null ],
+    [ "Validate", "db/dc3/a18770.html#abbe7ae557fb510457504f72adfa0aedc", null ]
 ];

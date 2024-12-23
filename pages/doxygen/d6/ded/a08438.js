@@ -1,13 +1,7 @@
 var a08438 =
 [
-    [ "PassengerSet", "d6/ded/a08438.html#aa6421ebd51e84c819604e18e93729d27", null ],
-    [ "Transport", "d6/ded/a08438.html#a36928c178aa490c02aa25b4b12e2bf63", null ],
-    [ "AddPassenger", "d6/ded/a08438.html#ac5c328f816b0358a68265322219357c1", null ],
-    [ "CalculatePassengerOffset", "d6/ded/a08438.html#a327d37eef797c4197b8bba503bd8a3f8", null ],
-    [ "CalculatePassengerPosition", "d6/ded/a08438.html#ae4e716194ce5e9c466a8fe5c53ee0980", null ],
-    [ "GetPassengers", "d6/ded/a08438.html#a3f70c977ba2450d4244e54e4260f6ea1", null ],
-    [ "GetPathProgress", "d6/ded/a08438.html#a4ecab9f8617918aea3a26cc0feb9c021", null ],
-    [ "RemovePassenger", "d6/ded/a08438.html#a1d70745a16a1cbf3307a25ff4a53c75d", null ],
-    [ "SetPathProgress", "d6/ded/a08438.html#acb68e75a78fa196a4b514abd24c0e322", null ],
-    [ "_passengers", "d6/ded/a08438.html#adc2089495aadaab23414ecae3b2df180", null ]
+    [ "ItemPosCount", "d6/ded/a08438.html#a43458da1fc31d827b6de726754f7901e", null ],
+    [ "isContainedIn", "d6/ded/a08438.html#a6977c544a2d39ca5872b75f27517974f", null ],
+    [ "count", "d6/ded/a08438.html#a4e09f94aa0808f76b2d5ff23691abb27", null ],
+    [ "pos", "d6/ded/a08438.html#ad8954f1a6323316510cfe0f332ee495f", null ]
 ];

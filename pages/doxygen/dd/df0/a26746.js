@@ -1,6 +1,5 @@
 var a26746 =
 [
-    [ "boss_lethonAI", "d9/d0a/a26750.html", "d9/d0a/a26750" ],
-    [ "boss_lethon", "dd/df0/a26746.html#a5d758979b061646830373de64b2b3af4", null ],
-    [ "GetAI", "dd/df0/a26746.html#a493baf37aac400635dd0409e79375a1c", null ]
+    [ "AreaTrigger_at_coilfang_waterfall", "dd/df0/a26746.html#aa2e9a01adad7e195860bbc6c55131024", null ],
+    [ "OnTrigger", "dd/df0/a26746.html#aea1c4b45ae855d0cda81dbad102b8104", null ]
 ];

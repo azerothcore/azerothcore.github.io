@@ -1,10 +1,8 @@
 var a09114 =
 [
-    [ "AnyPlayerInObjectRangeCheck", "d4/d6b/a09114.html#ae636bd72045687920ec1d460508bc74b", null ],
-    [ "operator()", "d4/d6b/a09114.html#ac1eda8f85259230fb382a3b6e58b6798", null ],
-    [ "operator()", "d4/d6b/a09114.html#a70c477213c8b271d3402857edd87ef8b", null ],
-    [ "_disallowGM", "d4/d6b/a09114.html#a9c43efd575de2edfdaa0b84def91c727", null ],
-    [ "_obj", "d4/d6b/a09114.html#a07a346225f675433792d2298673acd1f", null ],
-    [ "_range", "d4/d6b/a09114.html#ae372500b3a21cb65a11045dcc6f094a8", null ],
-    [ "_reqAlive", "d4/d6b/a09114.html#af1e397c5033711e65d9ac5b35311e893", null ]
+    [ "NearestAttackableNoTotemUnitInObjectRangeCheck", "d4/d6b/a09114.html#a1f0bf90a7b9c57d05c54e3db6827aec1", null ],
+    [ "operator()", "d4/d6b/a09114.html#a08f8e473914c8a7bddbf26568294c18b", null ],
+    [ "i_obj", "d4/d6b/a09114.html#a949ff3bcc3530206d83512d293647a2b", null ],
+    [ "i_owner", "d4/d6b/a09114.html#a64f58427bbab3276bdc53450b33eca12", null ],
+    [ "i_range", "d4/d6b/a09114.html#af52388830cec17e32b1d368739b4555a", null ]
 ];

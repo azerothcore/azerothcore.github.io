@@ -1,8 +1,8 @@
 var a02507 =
 [
-    [ "boss_attumen", "d0/db0/a12310.html", "d0/db0/a12310" ],
-    [ "boss_midnight", "d5/d46/a12314.html", "d5/d46/a12314" ],
-    [ "spell_midnight_fixate", "de/d44/a12318.html", "de/d44/a12318" ],
+    [ "boss_attumen", "d0/de8/a12366.html", "d0/de8/a12366" ],
+    [ "boss_midnight", "d7/da2/a12370.html", "d7/da2/a12370" ],
+    [ "spell_midnight_fixate", "db/da1/a12374.html", "db/da1/a12374" ],
     [ "Actions", "de/dbd/a02507.html#a250372292659bed7ae290d8621f88ccf", [
       [ "ACTION_GUNSHIP_READY", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfaae8bb35d65ee37e4d232e2a67aeca581", null ],
       [ "ACTION_TELEPORT_PLAYER_TO_TRANSPORT", "d4/dd0/a03749.html#a250372292659bed7ae290d8621f88ccfa6b86b0986a459bb245b3a3cd8b75040c", null ],

@@ -1,6 +1,6 @@
 var a04232 =
 [
-    [ "PlayerScript", "d9/d77/a10110.html", "d9/d77/a10110" ],
+    [ "PlayerScript", "d0/d2b/a10166.html", "d0/d2b/a10166" ],
     [ "PlayerHook", "d4/d4b/a04232.html#a7d525e751616f7554a64c9ae6e12a357", [
       [ "PLAYERHOOK_ON_PLAYER_JUST_DIED", "d4/d4b/a04232.html#a7d525e751616f7554a64c9ae6e12a357a5b36d5121754e80347cec73da33b380e", null ],
       [ "PLAYERHOOK_ON_CALCULATE_TALENTS_POINTS", "d4/d4b/a04232.html#a7d525e751616f7554a64c9ae6e12a357aff039f45bb556c0812237f31d398672f", null ],

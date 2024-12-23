@@ -1,7 +1,7 @@
 var a12618 =
 [
-    [ "npc_unworthy_initiate_anchorAI", "d3/d70/a12618.html#a2d1a90c4f3c5047a41c7e9f80db13a99", null ],
-    [ "GetGUID", "d3/d70/a12618.html#a83cca82e7d75231a6aa586f67dad766e", null ],
-    [ "SetGUID", "d3/d70/a12618.html#a3d2ccbeeddc28002a4eb2392a62ba031", null ],
-    [ "prisonerGUID", "d3/d70/a12618.html#a38a3e7e7207bb6d809d03c90e67f7742", null ]
+    [ "HandleScriptEffect", "d3/d70/a12618.html#a1b196f3817c16fac48392981b58c1a05", null ],
+    [ "PrepareSpellScript", "d3/d70/a12618.html#ad44566ff9a44057679e7ce8e1959776d", null ],
+    [ "Register", "d3/d70/a12618.html#aef3bfdaff9f0b5080d83805a1a962a79", null ],
+    [ "Validate", "d3/d70/a12618.html#a70a1f0d2666921ccbad62c1fd06fe4b6", null ]
 ];

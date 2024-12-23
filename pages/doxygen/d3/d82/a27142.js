@@ -1,7 +1,11 @@
 var a27142 =
 [
-    [ "npc_riggle_bassbaitAI", "d3/d82/a27142.html#ad7a1a7a6f4c4ebb7ab93878ebb3a9a5b", null ],
-    [ "CheckTournamentState", "d3/d82/a27142.html#aa7b4393b93be92fbb595648cede832be", null ],
-    [ "UpdateAI", "d3/d82/a27142.html#ad0fca96e2c770ef179d98dcdd9aaca6e", null ],
-    [ "m_uiTimer", "d3/d82/a27142.html#aec45a971a5b7aa574e905e9a2338fe90", null ]
+    [ "npc_artoriusAI", "d3/d82/a27142.html#a71056d1f537671a9f790ebbc1c2baf9c", null ],
+    [ "DamageTaken", "d3/d82/a27142.html#acaa6f32e1cfba98ec4dd06245a41d321", null ],
+    [ "DoAction", "d3/d82/a27142.html#abbfc9ee752d97f1694dbd739719843c2", null ],
+    [ "JustEngagedWith", "d3/d82/a27142.html#ab5760ad8dc87f7ccbea615ff2eb809c8", null ],
+    [ "Reset", "d3/d82/a27142.html#a862cc52a9251e2dfe486f1152dae9500", null ],
+    [ "SpellHit", "d3/d82/a27142.html#ac6ce7235c4399a5a8f2e771f5cd652ba", null ],
+    [ "UpdateAI", "d3/d82/a27142.html#afdd2821ce916b65ed33fe7ab75ef56a5", null ],
+    [ "events", "d3/d82/a27142.html#a6c8adf35504caf0cfea9a353833d4c4e", null ]
 ];

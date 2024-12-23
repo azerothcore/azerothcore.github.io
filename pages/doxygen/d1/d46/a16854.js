@@ -1,6 +1,6 @@
 var a16854 =
 [
-    [ "boss_moorabiAI", "d6/dee/a16858.html", "d6/dee/a16858" ],
-    [ "boss_moorabi", "d1/d46/a16854.html#a94e14b2a9b06143985f785e781d1c302", null ],
-    [ "GetAI", "d1/d46/a16854.html#ae90c7dd46fb1335a525c3c3e27040420", null ]
+    [ "boss_drakkari_elementalAI", "d6/dee/a16858.html", "d6/dee/a16858" ],
+    [ "boss_drakkari_elemental", "d1/d46/a16854.html#a143dd5d52ea7bb3c3c1d96da45af81ee", null ],
+    [ "GetAI", "d1/d46/a16854.html#aab2f9c71ddb77164bd644d18b9e88313", null ]
 ];

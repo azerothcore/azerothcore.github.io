@@ -1,7 +1,7 @@
 var a15798 =
 [
-    [ "TwilightCutterSelector", "d3/d8a/a15798.html#accea6e932c44d083fbb4dc41c5102b3d", null ],
-    [ "operator()", "d3/d8a/a15798.html#a6374425df156bdf202d53a2c73ef784c", null ],
-    [ "_caster", "d3/d8a/a15798.html#a784c95ef6472e711f4200f194222d179", null ],
-    [ "_cutterCaster", "d3/d8a/a15798.html#a7f713777a36a8d127c2865e4610b1288", null ]
+    [ "npc_orb_carrierAI", "d3/d8a/a15798.html#a2011c247d2157f5f2a06db6e149743e0", null ],
+    [ "DoAction", "d3/d8a/a15798.html#a501d0bdb9d77be1229dadf60d5f8af8c", null ],
+    [ "TriggerCutter", "d3/d8a/a15798.html#a6b6b127db878ca3b79ac8d7aeff4156e", null ],
+    [ "UpdateAI", "d3/d8a/a15798.html#a99a08390fcf2b0a058aee161932392d0", null ]
 ];

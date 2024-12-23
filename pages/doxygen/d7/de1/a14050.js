@@ -1,7 +1,9 @@
 var a14050 =
 [
-    [ "go_loosely_turned_soilAI", "d5/dfa/a14054.html", "d5/dfa/a14054" ],
-    [ "go_loosely_turned_soil", "d7/de1/a14050.html#a3b4d51e2b3a604e030962127269236f1", null ],
-    [ "GetAI", "d7/de1/a14050.html#acead5810a848f8837fa65af1f2ac00bd", null ],
-    [ "OnQuestReward", "d7/de1/a14050.html#a1ac57b34c5b3e21c033330eaeefaa6a8", null ]
+    [ "spell_hallows_end_put_costume", "d7/de1/a14050.html#ac1fcd0a32142744f353cdc01bce740e3", null ],
+    [ "HandleScript", "d7/de1/a14050.html#ac4be92e73c08c06c1c9954547bfe8013", null ],
+    [ "PrepareSpellScript", "d7/de1/a14050.html#ac0e4692be1527f052a23ed52af32d042", null ],
+    [ "Register", "d7/de1/a14050.html#ac38299892d02c497e3bbae3c73a095ab", null ],
+    [ "_femaleSpell", "d7/de1/a14050.html#a5ccb30abd83ed1d0be104bffc91deca2", null ],
+    [ "_maleSpell", "d7/de1/a14050.html#af9b285133389942bea6738e518d34e48", null ]
 ];
