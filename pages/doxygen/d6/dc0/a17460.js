@@ -1,6 +1,0 @@
-var a17460 =
-[
-    [ "npc_gunship_mageAI", "dd/d82/a17464.html", "dd/d82/a17464" ],
-    [ "npc_gunship_mage", "d6/dc0/a17460.html#a52c7a072bd1426a1c22da84aa0640bca", null ],
-    [ "GetAI", "d6/dc0/a17460.html#a9a0bc091a6cf8bbc7d17cf3d3172e6ff", null ]
-];

@@ -1,6 +1,0 @@
-var a13322 =
-[
-    [ "npc_bh_thalorien_dawnseekerAI", "dd/d3d/a13326.html", "dd/d3d/a13326" ],
-    [ "npc_bh_thalorien_dawnseeker", "d5/dac/a13322.html#a1fbee838cbbf1ada476f3dd7a82fc6e6", null ],
-    [ "GetAI", "d5/dac/a13322.html#ac5d551d5d4d05ee1006d074908599a3a", null ]
-];

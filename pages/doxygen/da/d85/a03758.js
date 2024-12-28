@@ -1,4 +1,0 @@
-var a03758 =
-[
-    [ "NGrid< N, ACTIVE_OBJECT, WORLD_OBJECT_TYPES, GRID_OBJECT_TYPES >", "d6/d78/a08838.html", "d6/d78/a08838" ]
-];

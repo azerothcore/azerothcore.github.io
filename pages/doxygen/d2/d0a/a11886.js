@@ -1,6 +1,0 @@
-var a11886 =
-[
-    [ "boss_thebeastAI", "dc/d03/a11890.html", "dc/d03/a11890" ],
-    [ "boss_the_beast", "d2/d0a/a11886.html#a131344b5fada63f4a8f0b3692ecba9eb", null ],
-    [ "GetAI", "d2/d0a/a11886.html#a0b40497c665c571247cb8ad8b85ac63f", null ]
-];
