@@ -1,5 +1,0 @@
-var searchIndex = {};
-
-
-
-initSearch(searchIndex);
