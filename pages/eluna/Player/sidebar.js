@@ -20,7 +20,6 @@ document.write(`
   <a id="Player:CanUninviteFromGroup" class="fn" href="../Player/CanUninviteFromGroup.html">CanUninviteFromGroup</a>
   <a id="Player:CanUseItem" class="fn" href="../Player/CanUseItem.html">CanUseItem</a>
   <a id="Player:ClearComboPoints" class="fn" href="../Player/ClearComboPoints.html">ClearComboPoints</a>
-  <a id="Player:ClearHonorInfo" class="fn" href="../Player/ClearHonorInfo.html">ClearHonorInfo</a>
   <a id="Player:CompleteQuest" class="fn" href="../Player/CompleteQuest.html">CompleteQuest</a>
   <a id="Player:DurabilityLoss" class="fn" href="../Player/DurabilityLoss.html">DurabilityLoss</a>
   <a id="Player:DurabilityLossAll" class="fn" href="../Player/DurabilityLossAll.html">DurabilityLossAll</a>
@@ -64,9 +63,7 @@ document.write(`
   <a id="Player:GetGuildName" class="fn" href="../Player/GetGuildName.html">GetGuildName</a>
   <a id="Player:GetGuildRank" class="fn" href="../Player/GetGuildRank.html">GetGuildRank</a>
   <a id="Player:GetHealthBonusFromStamina" class="fn" href="../Player/GetHealthBonusFromStamina.html">GetHealthBonusFromStamina</a>
-  <a id="Player:GetHonorLastWeekStandingPos" class="fn" href="../Player/GetHonorLastWeekStandingPos.html">GetHonorLastWeekStandingPos</a>
   <a id="Player:GetHonorPoints" class="fn" href="../Player/GetHonorPoints.html">GetHonorPoints</a>
-  <a id="Player:GetHonorStoredKills" class="fn" href="../Player/GetHonorStoredKills.html">GetHonorStoredKills</a>
   <a id="Player:GetInGameTime" class="fn" href="../Player/GetInGameTime.html">GetInGameTime</a>
   <a id="Player:GetItemByEntry" class="fn" href="../Player/GetItemByEntry.html">GetItemByEntry</a>
   <a id="Player:GetItemByGUID" class="fn" href="../Player/GetItemByGUID.html">GetItemByGUID</a>
@@ -90,7 +87,6 @@ document.write(`
   <a id="Player:GetQuestLevel" class="fn" href="../Player/GetQuestLevel.html">GetQuestLevel</a>
   <a id="Player:GetQuestRewardStatus" class="fn" href="../Player/GetQuestRewardStatus.html">GetQuestRewardStatus</a>
   <a id="Player:GetQuestStatus" class="fn" href="../Player/GetQuestStatus.html">GetQuestStatus</a>
-  <a id="Player:GetRankPoints" class="fn" href="../Player/GetRankPoints.html">GetRankPoints</a>
   <a id="Player:GetReputation" class="fn" href="../Player/GetReputation.html">GetReputation</a>
   <a id="Player:GetReputationRank" class="fn" href="../Player/GetReputationRank.html">GetReputationRank</a>
   <a id="Player:GetReqKillOrCastCurrentCount" class="fn" href="../Player/GetReqKillOrCastCurrentCount.html">GetReqKillOrCastCurrentCount</a>
@@ -181,7 +177,6 @@ document.write(`
   <a id="Player:RemovedInsignia" class="fn" href="../Player/RemovedInsignia.html">RemovedInsignia</a>
   <a id="Player:ResetAchievements" class="fn" href="../Player/ResetAchievements.html">ResetAchievements</a>
   <a id="Player:ResetAllCooldowns" class="fn" href="../Player/ResetAllCooldowns.html">ResetAllCooldowns</a>
-  <a id="Player:ResetHonor" class="fn" href="../Player/ResetHonor.html">ResetHonor</a>
   <a id="Player:ResetPetTalents" class="fn" href="../Player/ResetPetTalents.html">ResetPetTalents</a>
   <a id="Player:ResetSpellCooldown" class="fn" href="../Player/ResetSpellCooldown.html">ResetSpellCooldown</a>
   <a id="Player:ResetTalents" class="fn" href="../Player/ResetTalents.html">ResetTalents</a>
@@ -217,7 +212,6 @@ document.write(`
   <a id="Player:SetBindPoint" class="fn" href="../Player/SetBindPoint.html">SetBindPoint</a>
   <a id="Player:SetCoinage" class="fn" href="../Player/SetCoinage.html">SetCoinage</a>
   <a id="Player:SetDrunkValue" class="fn" href="../Player/SetDrunkValue.html">SetDrunkValue</a>
-  <a id="Player:SetFFA" class="fn" href="../Player/SetFFA.html">SetFFA</a>
   <a id="Player:SetFactionForRace" class="fn" href="../Player/SetFactionForRace.html">SetFactionForRace</a>
   <a id="Player:SetFreeTalentPoints" class="fn" href="../Player/SetFreeTalentPoints.html">SetFreeTalentPoints</a>
   <a id="Player:SetGMChat" class="fn" href="../Player/SetGMChat.html">SetGMChat</a>
@@ -226,15 +220,12 @@ document.write(`
   <a id="Player:SetGender" class="fn" href="../Player/SetGender.html">SetGender</a>
   <a id="Player:SetGlyph" class="fn" href="../Player/SetGlyph.html">SetGlyph</a>
   <a id="Player:SetGuildRank" class="fn" href="../Player/SetGuildRank.html">SetGuildRank</a>
-  <a id="Player:SetHonorLastWeekStandingPos" class="fn" href="../Player/SetHonorLastWeekStandingPos.html">SetHonorLastWeekStandingPos</a>
   <a id="Player:SetHonorPoints" class="fn" href="../Player/SetHonorPoints.html">SetHonorPoints</a>
-  <a id="Player:SetHonorStoredKills" class="fn" href="../Player/SetHonorStoredKills.html">SetHonorStoredKills</a>
   <a id="Player:SetKnownTitle" class="fn" href="../Player/SetKnownTitle.html">SetKnownTitle</a>
   <a id="Player:SetLifetimeKills" class="fn" href="../Player/SetLifetimeKills.html">SetLifetimeKills</a>
   <a id="Player:SetPlayerLock" class="fn" href="../Player/SetPlayerLock.html">SetPlayerLock</a>
   <a id="Player:SetPvPDeath" class="fn" href="../Player/SetPvPDeath.html">SetPvPDeath</a>
   <a id="Player:SetQuestStatus" class="fn" href="../Player/SetQuestStatus.html">SetQuestStatus</a>
-  <a id="Player:SetRankPoints" class="fn" href="../Player/SetRankPoints.html">SetRankPoints</a>
   <a id="Player:SetReputation" class="fn" href="../Player/SetReputation.html">SetReputation</a>
   <a id="Player:SetRestBonus" class="fn" href="../Player/SetRestBonus.html">SetRestBonus</a>
   <a id="Player:SetSheath" class="fn" href="../Player/SetSheath.html">SetSheath</a>
@@ -252,7 +243,6 @@ document.write(`
   <a id="Player:UnbindAllInstances" class="fn" href="../Player/UnbindAllInstances.html">UnbindAllInstances</a>
   <a id="Player:UnbindInstance" class="fn" href="../Player/UnbindInstance.html">UnbindInstance</a>
   <a id="Player:UnsetKnownTitle" class="fn" href="../Player/UnsetKnownTitle.html">UnsetKnownTitle</a>
-  <a id="Player:UpdateHonor" class="fn" href="../Player/UpdateHonor.html">UpdateHonor</a>
   <a id="Player:UpdatePlayerSetting" class="fn" href="../Player/UpdatePlayerSetting.html">UpdatePlayerSetting</a>
   <a id="Player:Whisper" class="fn" href="../Player/Whisper.html">Whisper</a>
   <a id="Player:Yell" class="fn" href="../Player/Yell.html">Yell</a>

@@ -1,7 +1,6 @@
 document.write(`
   <a id="BattleGround:GetAlivePlayersCountByTeam" class="fn" href="../BattleGround/GetAlivePlayersCountByTeam.html">GetAlivePlayersCountByTeam</a>
   <a id="BattleGround:GetBonusHonorFromKillCount" class="fn" href="../BattleGround/GetBonusHonorFromKillCount.html">GetBonusHonorFromKillCount</a>
-  <a id="BattleGround:GetBracketId" class="fn" href="../BattleGround/GetBracketId.html">GetBracketId</a>
   <a id="BattleGround:GetEndTime" class="fn" href="../BattleGround/GetEndTime.html">GetEndTime</a>
   <a id="BattleGround:GetFreeSlotsForTeam" class="fn" href="../BattleGround/GetFreeSlotsForTeam.html">GetFreeSlotsForTeam</a>
   <a id="BattleGround:GetInstanceId" class="fn" href="../BattleGround/GetInstanceId.html">GetInstanceId</a>
