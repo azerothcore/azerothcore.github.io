@@ -17,7 +17,6 @@ document.write(`
   <a id="Creature:GetAITargets" class="fn" href="../Creature/GetAITargets.html">GetAITargets</a>
   <a id="Creature:GetAITargetsCount" class="fn" href="../Creature/GetAITargetsCount.html">GetAITargetsCount</a>
   <a id="Creature:GetAggroRange" class="fn" href="../Creature/GetAggroRange.html">GetAggroRange</a>
-  <a id="Creature:GetAttackDistance" class="fn" href="../Creature/GetAttackDistance.html">GetAttackDistance</a>
   <a id="Creature:GetCorpseDelay" class="fn" href="../Creature/GetCorpseDelay.html">GetCorpseDelay</a>
   <a id="Creature:GetCreatureFamily" class="fn" href="../Creature/GetCreatureFamily.html">GetCreatureFamily</a>
   <a id="Creature:GetCreatureSpellCooldownDelay" class="fn" href="../Creature/GetCreatureSpellCooldownDelay.html">GetCreatureSpellCooldownDelay</a>
