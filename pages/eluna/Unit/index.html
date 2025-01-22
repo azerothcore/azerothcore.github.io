@@ -1,0 +1,1524 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="API documentation for the Unit class in the Eluna engine.">
+    <meta name="keywords" content="eluna, lua, lua engine, azerothcore, script, scripting, doc, docs, documentation">
+
+    <title>Unit - Eluna API</title>
+
+    <link rel="stylesheet" type="text/css" href="../static/main.css">
+    <link rel="stylesheet" type="text/css" href="../static/dark.css">
+
+    <link rel="shortcut icon" href="../static/favicon.ico">
+
+</head>
+<body class="rustdoc">
+<!--[if lte IE 8]>
+    <div class="warning">
+        This old browser is unsupported and will most likely display funky
+        things.
+    </div>
+    <![endif]-->
+
+<section class="sidebar">
+    <a href='../index.html'><img src='../static/eluna-logo.png' alt='Eluna Logo' width='100'></a>
+    <div class="block">
+        
+
+    </div>
+</section>
+
+<nav class="sub">
+    <form class="search-form js-only">
+        <div class="search-container">
+            <input class="search-input" name="search"
+                   autocomplete="off"
+                   placeholder="Click or press 'S' to search, '?' for more options..."
+                   type="search">
+        </div>
+    </form>
+</nav>
+
+<section id='main' class="content mod">
+    <h1 class='fqn'>
+        Class <a class="mod" href="">Unit</a>
+        <span class='out-of-band'>
+            <span id='render-detail'>
+                <a id="collapse-all" href="#">[-]</a>
+                <a id="expand-all" href="#">[+]</a>
+            </span>
+        </span>
+    </h1>
+
+    
+    <p>Inherits all methods from: <a class="mod" href="../Object/index.html">Object</a>, <a class="mod" href="../WorldObject/index.html">WorldObject</a></p>
+
+    <h2 id='methods' class='section-header'><a href="#methods">Methods</a></h2>
+    <table>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='AddAura.html'>AddAura</a>
+            </td>
+            <td class='docblock short'>
+                <p>Adds the <a class="mod" href="../Aura/index.html">Aura</a> of the given spell entry on the given target from the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='AddThreat.html'>AddThreat</a>
+            </td>
+            <td class='docblock short'>
+                <p>Adds threat to the <a class="mod" href="../Unit/index.html">Unit</a> from the victim.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='AddUnitState.html'>AddUnitState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Adds the given unit state for the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='Attack.html'>Attack</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> tries to attack a given target</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='AttackStop.html'>AttackStop</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> stops attacking its target</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CastCustomSpell.html'>CastCustomSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Casts the <a class="mod" href="../Spell/index.html">Spell</a> at target <a class="mod" href="../Unit/index.html">Unit</a> with custom basepoints or casters.
+See also <a class="fn" href="../Unit/CastSpell.html">Unit:CastSpell</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CastSpell.html'>CastSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> cast the spell on the target.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CastSpellAoF.html'>CastSpellAoF</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> cast the spell to the given coordinates, used for area effect spells.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ClearInCombat.html'>ClearInCombat</a>
+            </td>
+            <td class='docblock short'>
+                <p>Clears the <a class="mod" href="../Unit/index.html">Unit</a>'s combat</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ClearThreatList.html'>ClearThreatList</a>
+            </td>
+            <td class='docblock short'>
+                <p>Clears the <a class="mod" href="../Unit/index.html">Unit</a>'s threat list.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ClearUnitState.html'>ClearUnitState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes the given unit state from the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CountPctFromCurHealth.html'>CountPctFromCurHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns calculated percentage from Health</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='CountPctFromMaxHealth.html'>CountPctFromMaxHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns calculated percentage from Max Health</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='DeMorph.html'>DeMorph</a>
+            </td>
+            <td class='docblock short'>
+                <p>Unmorphs the <a class="mod" href="../Unit/index.html">Unit</a> setting it's display ID back to the native display ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='DealDamage.html'>DealDamage</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> damage the target <a class="mod" href="../Unit/index.html">Unit</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='DealHeal.html'>DealHeal</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> heal the target <a class="mod" href="../Unit/index.html">Unit</a> with given spell</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='Dismount.html'>Dismount</a>
+            </td>
+            <td class='docblock short'>
+                <p>Dismounts the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='EmoteState.html'>EmoteState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> perform the given emote continuously.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetAttackers.html'>GetAttackers</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s attackers.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetAura.html'>GetAura</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Aura/index.html">Aura</a> of the given spell entry on the <a class="mod" href="../Unit/index.html">Unit</a> or nil.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetBaseSpellPower.html'>GetBaseSpellPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s base spell power</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCharmGUID.html'>GetCharmGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the GUID of the <a class="mod" href="../Unit/index.html">Unit</a>'s charmed entity.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCharmerGUID.html'>GetCharmerGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s charmer's GUID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetClass.html'>GetClass</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s class ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetClassAsString.html'>GetClassAsString</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s class' name in given or default locale or nil.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetClassMask.html'>GetClassMask</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the class mask</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetControllerGUID.html'>GetControllerGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the GUID of the <a class="mod" href="../Unit/index.html">Unit</a>'s charmer or owner.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetControllerGUIDS.html'>GetControllerGUIDS</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the GUID of the <a class="mod" href="../Unit/index.html">Unit</a>'s charmer or owner or its own GUID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCreatorGUID.html'>GetCreatorGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s creator's GUID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCreatureType.html'>GetCreatureType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s creature type ID (enumerated in CreatureType.dbc).</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCritterGUID.html'>GetCritterGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the Critter Guid</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetCurrentSpell.html'>GetCurrentSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the currently casted <a class="mod" href="../Spell/index.html">Spell</a> of given type or nil.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetDisplayId.html'>GetDisplayId</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s current display ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetFaction.html'>GetFaction</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s faction ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetFriendlyUnitsInRange.html'>GetFriendlyUnitsInRange</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns a table containing friendly <a class="mod" href="../Unit/index.html">Unit</a>'s within given range of the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetGender.html'>GetGender</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s gender.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetHealth.html'>GetHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s health amount.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetHealthPct.html'>GetHealthPct</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s health percent.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetLevel.html'>GetLevel</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s level.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetMaxHealth.html'>GetMaxHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s max health.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetMaxPower.html'>GetMaxPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s max power amount for given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetMountId.html'>GetMountId</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s mount's modelID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetMovementType.html'>GetMovementType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the current movement type for this <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetNativeDisplayId.html'>GetNativeDisplayId</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s native/original display ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetOwner.html'>GetOwner</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s owner.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetOwnerGUID.html'>GetOwnerGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s owner's GUID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetPetGUID.html'>GetPetGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the GUID of the <a class="mod" href="../Unit/index.html">Unit</a>'s pet.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetPower.html'>GetPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s power amount for given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetPowerPct.html'>GetPowerPct</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s power percent for given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetPowerType.html'>GetPowerType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s current power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetRace.html'>GetRace</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s race ID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetRaceAsString.html'>GetRaceAsString</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s race's name in given or default locale or nil.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetRaceMask.html'>GetRaceMask</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the race mask</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetSpeed.html'>GetSpeed</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s speed of given [UnitMoveType].</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetSpeedRate.html'>GetSpeedRate</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s speed rate of given [UnitMoveType].</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetStandState.html'>GetStandState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s current stand state.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetStat.html'>GetStat</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <a class="mod" href="../Unit/index.html">Unit</a>'s specified stat</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetThreatList.html'>GetThreatList</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s threat list.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetUnfriendlyUnitsInRange.html'>GetUnfriendlyUnitsInRange</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns a table containing unfriendly <a class="mod" href="../Unit/index.html">Unit</a>'s within given range of the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Experimental' title='Undocumented'></a>
+                <a class='fn' href='GetVehicle.html'>GetVehicle</a>
+            </td>
+            <td class='docblock short'>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetVehicleKit.html'>GetVehicleKit</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns <a class="mod" href="../Unit/index.html">Unit</a>'s <a class="mod" href="../Vehicle/index.html">Vehicle</a> methods</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='GetVictim.html'>GetVictim</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns the <a class="mod" href="../Unit/index.html">Unit</a>'s current victim target or nil.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HandleStatModifier.html'>HandleStatModifier</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> modifies a specific stat</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HasAura.html'>HasAura</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> has an aura from the given spell entry.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HasUnitState.html'>HasUnitState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> has the given unit state.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HealthAbovePct.html'>HealthAbovePct</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a>'s health is above the given percentage.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='HealthBelowPct.html'>HealthBelowPct</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a>'s health is below the given percentage.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='InterruptSpell.html'>InterruptSpell</a>
+            </td>
+            <td class='docblock short'>
+                <p>Interrupts <a class="mod" href="../Unit/index.html">Unit</a>'s spell state, casting, etc.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsAlive.html'>IsAlive</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is alive.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsArmorer.html'>IsArmorer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is an armorer and can repair equipment.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsAttackingPlayer.html'>IsAttackingPlayer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is attacking a player.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsAuctioneer.html'>IsAuctioneer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> an auctioneer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsBanker.html'>IsBanker</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a banker.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsBattleMaster.html'>IsBattleMaster</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a battle master.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsCasting.html'>IsCasting</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is casting a spell</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsCharmed.html'>IsCharmed</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a charmed.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsDead.html'>IsDead</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is dead.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsDying.html'>IsDying</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is dying.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsFullHealth.html'>IsFullHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> has full health.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsGossip.html'>IsGossip</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is able to show a gossip window.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsGuildMaster.html'>IsGuildMaster</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> a guild master.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsInAccessiblePlaceFor.html'>IsInAccessiblePlaceFor</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is in an accessible place for the given <a class="mod" href="../Creature/index.html">Creature</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsInCombat.html'>IsInCombat</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is in combat.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsInWater.html'>IsInWater</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is in water.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsInnkeeper.html'>IsInnkeeper</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> an innkeeper.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsMounted.html'>IsMounted</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is mounted.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsOnVehicle.html'>IsOnVehicle</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is on a <a class="mod" href="../Vehicle/index.html">Vehicle</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsPvPFlagged.html'>IsPvPFlagged</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> flagged for PvP.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsQuestGiver.html'>IsQuestGiver</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a quest giver.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsRooted.html'>IsRooted</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is rooted.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsServiceProvider.html'>IsServiceProvider</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> provides services like vendor, training and auction.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsSpiritGuide.html'>IsSpiritGuide</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a spirit guide.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsSpiritHealer.html'>IsSpiritHealer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a spirit healer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsSpiritService.html'>IsSpiritService</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a spirit guide or spirit healer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsStandState.html'>IsStandState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is standing.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsStopped.html'>IsStopped</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is not moving.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsTabardDesigner.html'>IsTabardDesigner</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a tabard designer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsTaxi.html'>IsTaxi</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a taxi master.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsTrainer.html'>IsTrainer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> a trainer.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsUnderWater.html'>IsUnderWater</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is under water.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='IsVendor.html'>IsVendor</a>
+            </td>
+            <td class='docblock short'>
+                <p>Returns true if the <a class="mod" href="../Unit/index.html">Unit</a> is a vendor.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='Kill.html'>Kill</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> kill the target <a class="mod" href="../Unit/index.html">Unit</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ModifyPower.html'>ModifyPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>modifies the <a class="mod" href="../Unit/index.html">Unit</a>'s power amount for the given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='ModifyThreatPct.html'>ModifyThreatPct</a>
+            </td>
+            <td class='docblock short'>
+                <p>Modifies threat in pct to the <a class="mod" href="../Unit/index.html">Unit</a> from the victim</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='Mount.html'>Mount</a>
+            </td>
+            <td class='docblock short'>
+                <p>Mounts the <a class="mod" href="../Unit/index.html">Unit</a> on the given displayID/modelID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveChase.html'>MoveChase</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will chase the target</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveClear.html'>MoveClear</a>
+            </td>
+            <td class='docblock short'>
+                <p>Clears the <a class="mod" href="../Unit/index.html">Unit</a>'s movement</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveConfused.html'>MoveConfused</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will move confused</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveExpire.html'>MoveExpire</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a>'s movement expires and clears movement</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveFleeing.html'>MoveFleeing</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will flee</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveFollow.html'>MoveFollow</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will follow the target</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveHome.html'>MoveHome</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will move to its set home location</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveIdle.html'>MoveIdle</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will be idle</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveJump.html'>MoveJump</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> jump to the coordinates</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveRandom.html'>MoveRandom</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will move at random</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveStop.html'>MoveStop</a>
+            </td>
+            <td class='docblock short'>
+                <p>Stops the <a class="mod" href="../Unit/index.html">Unit</a>'s movement</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='MoveTo.html'>MoveTo</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will move to the coordinates</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='NearTeleport.html'>NearTeleport</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> teleport to given coordinates within same map.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='PerformEmote.html'>PerformEmote</a>
+            </td>
+            <td class='docblock short'>
+                <p>Makes the <a class="mod" href="../Unit/index.html">Unit</a> perform the given emote.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='RemoveAllAuras.html'>RemoveAllAuras</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes all <a class="mod" href="../Aura/index.html">Aura</a>'s from the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='RemoveArenaAuras.html'>RemoveArenaAuras</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes all positive visible <a class="mod" href="../Aura/index.html">Aura</a>'s from the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='RemoveAura.html'>RemoveAura</a>
+            </td>
+            <td class='docblock short'>
+                <p>Removes <a class="mod" href="../Aura/index.html">Aura</a> of the given spell entry from the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SendChatMessageToPlayer.html'>SendChatMessageToPlayer</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sends chat message to <a class="mod" href="../Player/index.html">Player</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SendUnitEmote.html'>SendUnitEmote</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will emote the message</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SendUnitSay.html'>SendUnitSay</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will say the message</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SendUnitWhisper.html'>SendUnitWhisper</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will whisper the message to a <a class="mod" href="../Player/index.html">Player</a></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SendUnitYell.html'>SendUnitYell</a>
+            </td>
+            <td class='docblock short'>
+                <p>The <a class="mod" href="../Unit/index.html">Unit</a> will yell the message</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetConfused.html'>SetConfused</a>
+            </td>
+            <td class='docblock short'>
+                <p>Confuses the <a class="mod" href="../Unit/index.html">Unit</a>, if 'false' specified, the <a class="mod" href="../Unit/index.html">Unit</a> is no longer confused.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetCreatorGUID.html'>SetCreatorGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets creator GUID</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Experimental' title='Undocumented'></a>
+                <a class='fn' href='SetCritterGUID.html'>SetCritterGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p></p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetDisplayId.html'>SetDisplayId</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s modelID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetFFA.html'>SetFFA</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s FFA flag on or off.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetFacing.html'>SetFacing</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s facing/orientation.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetFacingToObject.html'>SetFacingToObject</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a> to face the given <a class="mod" href="../WorldObject/index.html">WorldObject</a>'s direction.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetFaction.html'>SetFaction</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s faction.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetFeared.html'>SetFeared</a>
+            </td>
+            <td class='docblock short'>
+                <p>Fears the <a class="mod" href="../Unit/index.html">Unit</a>, if 'false' specified, the <a class="mod" href="../Unit/index.html">Unit</a> is no longer feared.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetHealth.html'>SetHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s health.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetImmuneTo.html'>SetImmuneTo</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets a mechanic immunity for the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetInCombatWith.html'>SetInCombatWith</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a> in combat with the <code>enemy</code> <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetLevel.html'>SetLevel</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s level.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetMaxHealth.html'>SetMaxHealth</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s max health.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetMaxPower.html'>SetMaxPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s max power amount for the given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetName.html'>SetName</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s name internally.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetNativeDisplayId.html'>SetNativeDisplayId</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s native/default modelID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetOwnerGUID.html'>SetOwnerGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s owner GUID to given GUID.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetPetGUID.html'>SetPetGUID</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets pet GUID</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetPower.html'>SetPower</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s power amount for the given power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetPowerType.html'>SetPowerType</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s power type.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetPvP.html'>SetPvP</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s PvP on or off.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetRooted.html'>SetRooted</a>
+            </td>
+            <td class='docblock short'>
+                <p>Roots the <a class="mod" href="../Unit/index.html">Unit</a> to the ground, if 'false' specified, unroots the <a class="mod" href="../Unit/index.html">Unit</a>.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetSanctuary.html'>SetSanctuary</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s sanctuary flag on or off.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetSheath.html'>SetSheath</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s sheath state.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetSpeed.html'>SetSpeed</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s speed of given [UnitMoveType] to given speed.
+If forced, packets sent to clients forcing the visual change.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetSpeedRate.html'>SetSpeedRate</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s speed rate of given [UnitMoveType] to given rate.
+If forced, packets sent to clients forcing the visual change.</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetStandState.html'>SetStandState</a>
+            </td>
+            <td class='docblock short'>
+                <p>Sets the <a class="mod" href="../Unit/index.html">Unit</a>'s stand state</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='SetWaterWalk.html'>SetWaterWalk</a>
+            </td>
+            <td class='docblock short'>
+                <p>Toggles (Sets) <a class="mod" href="../Unit/index.html">Unit</a>'s water walking</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a class='stability Stable' title='Documented'></a>
+                <a class='fn' href='StopSpellCast.html'>StopSpellCast</a>
+            </td>
+            <td class='docblock short'>
+                <p>Stops the <a class="mod" href="../Unit/index.html">Unit</a>'s current spell cast</p>
+            </td>
+        </tr>
+    </table>
+
+</section>
+
+<section id='search' class="content hidden"></section>
+
+<section class="footer"></section>
+
+<div id="help" class="hidden">
+    <div class="shortcuts">
+        <h1>Keyboard shortcuts</h1>
+        <dl>
+            <dt>?</dt>
+            <dd>Show this help dialog</dd>
+            <dt>S</dt>
+            <dd>Focus the search field</dd>
+            <dt>&larrb;</dt>
+            <dd>Move up in search results</dd>
+            <dt>&rarrb;</dt>
+            <dd>Move down in search results</dd>
+            <dt>&#9166;</dt>
+            <dd>Go to active search result</dd>
+        </dl>
+    </div>
+    <div class="infos">
+        <h1>Search tricks</h1>
+        <p>
+            Prefix searches with a type followed by a colon (e.g.
+            <code>fn:</code>) to restrict the search to a given type.
+        </p>
+        <p>
+            Accepted types are: <code>fn</code>, <code>mod</code>,
+            <code>struct</code> (or <code>str</code>), <code>enum</code>,
+            <code>trait</code>, <code>typedef</code> (or
+            <code>tdef</code>).
+        </p>
+    </div>
+</div>
+
+<script>
+    window.rootPath = "../";
+</script>
+<script src="../static/jquery.js"></script>
+<script src="../static/main.js"></script>
+<script async src="../search-index.js"></script>
+<center>Generated on <script src="../date.js"></script></center>
+<center>&copy;2016 - Eluna Lua Engine</center>
+</body>
+</html>
