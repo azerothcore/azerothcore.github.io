@@ -1,0 +1,1 @@
+document.write("25/01/2025");
