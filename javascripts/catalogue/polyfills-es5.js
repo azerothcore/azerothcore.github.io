@@ -466,7 +466,7 @@
     /***/
     function _(module, exports, __webpack_require__) {
       __webpack_require__(
-      /*! /Users/4009093/projects/WoW/git-catalogue/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
+      /*! /home/runner/work/azerothcore.github.io/azerothcore.github.io/git-catalogue/node_modules/@angular-devkit/build-angular/src/webpack/es5-polyfills.js */
       "voQr");
 
       __webpack_require__(
@@ -474,7 +474,7 @@
       "R0gw");
 
       module.exports = __webpack_require__(
-      /*! /Users/4009093/projects/WoW/git-catalogue/src/polyfills.ts */
+      /*! /home/runner/work/azerothcore.github.io/azerothcore.github.io/git-catalogue/src/polyfills.ts */
       "hN/g");
       /***/
     },

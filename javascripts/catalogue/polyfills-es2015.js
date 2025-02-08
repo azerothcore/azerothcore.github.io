@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/4009093/projects/WoW/git-catalogue/src/polyfills.ts */"hN/g");
+module.exports = __webpack_require__(/*! /home/runner/work/azerothcore.github.io/azerothcore.github.io/git-catalogue/src/polyfills.ts */"hN/g");
 
 
 /***/ }),
