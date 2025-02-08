@@ -1,0 +1,38 @@
+name: Update Git-Catalogue
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Use Node.js 20.14.0
+        uses: actions/setup-node@v1
+        with:
+          node-version: "20.14.0"
+
+      - name: Build 🔨
+        run: |
+          git clone https://github.com/azerothcore/git-catalogue
+          cd git-catalogue
+          export NODE_OPTIONS=--openssl-legacy-provider
+          npm install
+          npm run build
+          mv dist/git-catalogue/*.js ../javascripts/catalogue/
+          mv dist/git-catalogue/styles.css ../stylesheets/catalogue_style.css
+          cd ..
+          rm -rf git-catalogue
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: test
