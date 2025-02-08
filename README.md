@@ -32,7 +32,4 @@ jekyll serve
 
 ### How to update the catalogue
 
-- Clone the repository azerothcore/git-catalogue repository
-- run `npm install` and `npm run build`
-- take from `dist/build/` the `*.js` files and move them into `javascripts/catalogue/`
-- take from `dist/build/` the `style.css` file and move it into `stylesheets/catalogue_style.css`
+Go to "Actions" -> "Update Git-Catalogue" (or simply go [here](https://github.com/azerothcore/azerothcore.github.io/actions/workflows/update-catalogue.yml)) and run the workflow.
