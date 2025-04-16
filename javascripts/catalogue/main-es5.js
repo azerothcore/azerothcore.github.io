@@ -366,6 +366,7 @@
           this.location = location;
           this.page = 0;
           this.faSearch = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_1__["faSearch"];
+          window.parent.document.title = 'GitCatalogue';
         }
 
         _createClass(HomeComponent, [{
@@ -2119,7 +2120,7 @@
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](65, 30, data_r1.repo.updated_at));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](65, 30, data_r1.repo.pushed_at));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
@@ -2141,7 +2142,9 @@
         this.faCodeBranch = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faCodeBranch"];
         this.faClock = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faClock"];
         this.faBalanceScale = _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faBalanceScale"];
-        this.data$ = route.data.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["pluck"])('data'));
+        this.data$ = route.data.pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["pluck"])('data')).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_3__["tap"])(function (data) {
+          window.parent.document.title = data.repo.name;
+        }));
       };
 
       RepoDetailsComponent.ɵfac = function RepoDetailsComponent_Factory(t) {
