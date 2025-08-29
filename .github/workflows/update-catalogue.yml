@@ -73,7 +73,7 @@ jobs:
           mv dist/git-catalogue/*.js ../javascripts/catalogue/
 
           # Copy CSS into the expected filename (accept hashed output)
-          cp dist/git-catalogue/styles*.css ../stylesheets/catalogue_style.css
+          cp $(ls dist/git-catalogue/styles*.css | head -n 1) ../stylesheets/catalogue_style.css
 
           # Copy Angular assets so /assets/config.json is served by Pages
           mkdir -p ../assets
