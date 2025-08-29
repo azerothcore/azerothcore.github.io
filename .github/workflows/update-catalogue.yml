@@ -25,10 +25,60 @@ jobs:
           git clone https://github.com/azerothcore/git-catalogue
           cd git-catalogue
           export NODE_OPTIONS=--openssl-legacy-provider
-          npm install
+          npm ci --no-audit --no-fund
+
+          # Inject AzerothCore production config used by the Angular app at runtime
+          mkdir -p src/assets
+          cat > src/assets/config.json << 'JSON'
+          {
+            "perPage": 100,
+            "pageSize": 8,
+            "usePreGeneratedFile": true,
+            "preGeneratedFileUrl": "/data/catalogue.json",
+            "globalSearch": true,
+            "tabs": {
+              "All Modules": {
+                "topic": "azerothcore-module",
+                "org": "azerothcore",
+                "path": "/module"
+              },
+              "Premium Modules": {
+                "topic": "azerothcore-module+ac-premium",
+                "org": "azerothcore",
+                "path": "/module+premium"
+              },
+              "Tools": {
+                "topic": "azerothcore-tools",
+                "org": "azerothcore",
+                "path": "/tools"
+              },
+              "Lua scripts": {
+                "topic": "azerothcore-lua",
+                "org": "azerothcore",
+                "path": "/lua"
+              },
+              "SQL": {
+                "topic": "azerothcore-sql",
+                "org": "azerothcore",
+                "path": "/sql"
+              }
+            }
+          }
+          JSON
+
           npm run build
+
+          # Copy JS bundles used by the site layout
+          mkdir -p ../javascripts/catalogue
           mv dist/git-catalogue/*.js ../javascripts/catalogue/
-          mv dist/git-catalogue/styles.css ../stylesheets/catalogue_style.css
+
+          # Copy CSS into the expected filename (accept hashed output)
+          cp $(ls dist/git-catalogue/styles*.css | head -n 1) ../stylesheets/catalogue_style.css
+
+          # Copy Angular assets so /assets/config.json is served by Pages
+          mkdir -p ../assets
+          rsync -a dist/git-catalogue/assets/ ../assets/
+
           cd ..
           rm -rf git-catalogue
 
