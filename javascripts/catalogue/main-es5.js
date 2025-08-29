@@ -569,13 +569,9 @@
       /* harmony import */
 
 
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-      /*! angular2-moment */
-      "5eXZ");
-      /* harmony import */
-
-
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(angular2_moment__WEBPACK_IMPORTED_MODULE_3__);
+      var ngx_moment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ngx-moment */
+      "QUrN");
 
       var RepoComponent = function RepoComponent() {
         _classCallCheck(this, RepoComponent);
@@ -669,7 +665,7 @@
           }
         },
         directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FaIconComponent"]],
-        pipes: [angular2_moment__WEBPACK_IMPORTED_MODULE_3__["TimeAgoPipe"]],
+        pipes: [ngx_moment__WEBPACK_IMPORTED_MODULE_3__["TimeAgoPipe"]],
         styles: [".logo-small[_ngcontent-%COMP%] {\n  height: 80px;\n  width: 80px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3JlcG8uY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFBO0VBQ0EsV0FBQTtBQUNGIiwiZmlsZSI6InJlcG8uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIubG9nby1zbWFsbCB7XG4gIGhlaWdodDogODBweDtcbiAgd2lkdGg6IDgwcHg7XG59XG4iXX0= */"]
       });
 
@@ -730,7 +726,9 @@
 
 
       var environment = {
-        production: false
+        production: false,
+        usePreGeneratedFile: false // Set to true to use pre-generated file instead of GitHub API
+
       };
       /*
        * For easier debugging in development mode, you can import the following file
@@ -1354,13 +1352,9 @@
       /* harmony import */
 
 
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
-      /*! angular2-moment */
-      "5eXZ");
-      /* harmony import */
-
-
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(angular2_moment__WEBPACK_IMPORTED_MODULE_5__);
+      var ngx_moment__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
+      /*! ngx-moment */
+      "QUrN");
       /* harmony import */
 
 
@@ -1447,13 +1441,13 @@
         bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
       });
       AppModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjector"]({
-        imports: [[_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"].forRoot()]]
+        imports: [[_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"].forRoot()]]
       });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsetNgModuleScope"](AppModule, {
           declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _repo_repo_component__WEBPACK_IMPORTED_MODULE_4__["RepoComponent"], _repo_details_repo_details_component__WEBPACK_IMPORTED_MODULE_11__["RepoDetailsComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"], _howto_howto_component__WEBPACK_IMPORTED_MODULE_14__["HowtoComponent"], _catalogue_catalogue_component__WEBPACK_IMPORTED_MODULE_16__["CatalogueComponent"], _pipes_emoji_fixup_pipe__WEBPACK_IMPORTED_MODULE_17__["EmojiFixupPipe"]],
-          imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"]]
+          imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"]]
         });
       })();
 
@@ -1462,7 +1456,7 @@
           type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
           args: [{
             declarations: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"], _repo_repo_component__WEBPACK_IMPORTED_MODULE_4__["RepoComponent"], _repo_details_repo_details_component__WEBPACK_IMPORTED_MODULE_11__["RepoDetailsComponent"], _home_home_component__WEBPACK_IMPORTED_MODULE_13__["HomeComponent"], _howto_howto_component__WEBPACK_IMPORTED_MODULE_14__["HowtoComponent"], _catalogue_catalogue_component__WEBPACK_IMPORTED_MODULE_16__["CatalogueComponent"], _pipes_emoji_fixup_pipe__WEBPACK_IMPORTED_MODULE_17__["EmojiFixupPipe"]],
-            imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"].forRoot()],
+            imports: [_angular_forms__WEBPACK_IMPORTED_MODULE_10__["FormsModule"], _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"], _app_routing_module__WEBPACK_IMPORTED_MODULE_12__["AppRoutingModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_2__["FontAwesomeModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_5__["MomentModule"], _angular_common_http__WEBPACK_IMPORTED_MODULE_6__["HttpClientModule"], _angular_platform_browser_animations__WEBPACK_IMPORTED_MODULE_7__["BrowserAnimationsModule"], _angular_material_paginator__WEBPACK_IMPORTED_MODULE_8__["MatPaginatorModule"], _angular_material_tabs__WEBPACK_IMPORTED_MODULE_9__["MatTabsModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_15__["MarkdownModule"].forRoot()],
             bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
           }]
         }], null, null);
@@ -1511,43 +1505,82 @@
       /* harmony import */
 
 
-      var _angular_common_http__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      var _environments_environment__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+      /*! ../../../environments/environment */
+      "AytR");
+      /* harmony import */
+
+
+      var _angular_common_http__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
       /*! @angular/common/http */
       "tk/3");
       /* harmony import */
 
 
-      var _angular_router__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      var _angular_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(
       /*! @angular/router */
       "tyNb");
 
       var CatalogueService = /*#__PURE__*/function () {
         function CatalogueService(http, route) {
-          var _this3 = this;
-
           _classCallCheck(this, CatalogueService);
 
           this.http = http;
           this.route = route;
           this.items$ = {};
-          this.configURL = 'assets/default.json';
-          this.http.get(this.configURL).subscribe(function (config) {
-            _this3.CONF = config;
-
-            for (var _i2 = 0, _Object$keys = Object.keys(_this3.CONF.tabs); _i2 < _Object$keys.length; _i2++) {
-              var k = _Object$keys[_i2];
-              _this3.items$[k] = _this3.getLocalItems(_this3.CONF.tabs[k]);
-            }
-          });
+          this.configURLs = ['assets/config.json', 'assets/config.default.json'];
+          this.loadConfiguration();
         }
 
         _createClass(CatalogueService, [{
+          key: "loadConfiguration",
+          value: function loadConfiguration() {
+            this.tryLoadConfig(0);
+          }
+        }, {
+          key: "tryLoadConfig",
+          value: function tryLoadConfig(index) {
+            var _this3 = this;
+
+            if (index >= this.configURLs.length) {
+              console.error('No configuration file found');
+              return;
+            }
+
+            var configURL = this.configURLs[index];
+            this.http.get(configURL).subscribe({
+              next: function next(config) {
+                _this3.CONF = config; // Override with environment setting if available
+
+                if (_environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].usePreGeneratedFile !== undefined) {
+                  _this3.CONF.usePreGeneratedFile = _environments_environment__WEBPACK_IMPORTED_MODULE_3__["environment"].usePreGeneratedFile;
+                }
+
+                console.log("Loaded configuration from ".concat(configURL)); // Initialize items after config is loaded
+
+                for (var _i2 = 0, _Object$keys = Object.keys(_this3.CONF.tabs); _i2 < _Object$keys.length; _i2++) {
+                  var k = _Object$keys[_i2];
+                  _this3.items$[k] = _this3.getLocalItems(_this3.CONF.tabs[k]);
+                }
+              },
+              error: function error(_error) {
+                if (_error.status === 404) {
+                  console.log("Configuration file ".concat(configURL, " not found, trying next..."));
+
+                  _this3.tryLoadConfig(index + 1);
+                } else {
+                  console.error("Error loading configuration from ".concat(configURL, ":"), _error);
+                }
+              }
+            });
+          }
+        }, {
           key: "getLocalItems",
           value: function getLocalItems(tab) {
-            var _this4 = this;
+            var _a;
 
             var _tab$org = tab.org,
-                org = _tab$org === void 0 ? '' : _tab$org,
+                org = _tab$org === void 0 ? 'default-org' : _tab$org,
                 _tab$topic = tab.topic,
                 topic = _tab$topic === void 0 ? '' : _tab$topic;
             var key = "".concat(org, "-").concat(topic);
@@ -1555,15 +1588,56 @@
 
             if (item && !this.expireMinutes(30, JSON.parse(item).timeDate)) {
               return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(JSON.parse(item).value);
-            }
+            } // Check if we should use pre-generated file
 
-            var topicFilter = topic ? "+topic:".concat(topic) : '';
-            var orgFilter = org ? "org:".concat(org, "+") : '';
+
+            if ((_a = this.CONF) === null || _a === void 0 ? void 0 : _a.usePreGeneratedFile) {
+              return this.getItemsFromPreGeneratedFile(org, topic, key);
+            } // Use original API method
+
+
+            return this.getItemsFromAPI(org, topic, key);
+          }
+        }, {
+          key: "getItemsFromPreGeneratedFile",
+          value: function getItemsFromPreGeneratedFile(org, topic, key) {
+            var _this4 = this;
+
+            var fileUrl = this.CONF.preGeneratedFileUrl || 'data/catalogue.json';
+            return this.http.get(fileUrl).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["map"])(function (data) {
+              // Navigate the JSON structure: organizations -> org -> topic
+              if (data.organizations && data.organizations[org] && data.organizations[org][topic]) {
+                return data.organizations[org][topic];
+              }
+
+              return [];
+            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["tap"])(function (repos) {
+              return _this4.cacheRepos(key, repos);
+            }), Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function (error) {
+              console.warn('Failed to fetch from pre-generated file, falling back to API', error);
+              return _this4.getItemsFromAPI(org, topic, key);
+            }));
+          }
+        }, {
+          key: "getItemsFromAPI",
+          value: function getItemsFromAPI(org, topic, key) {
+            var _this5 = this;
+
+            var _a, _b;
+
+            var topicFilter = topic ? "+topic:".concat(topic) : ''; // Check if this tab should use global search
+
+            var tab = Object.values(this.CONF.tabs).find(function (t) {
+              return t.org === org && t.topic === topic;
+            });
+            var useGlobalSearch = (_b = (_a = tab === null || tab === void 0 ? void 0 : tab.globalSearch) !== null && _a !== void 0 ? _a : this.CONF.globalSearch) !== null && _b !== void 0 ? _b : false; // Only include org filter if not using global search
+
+            var orgFilter = useGlobalSearch ? '' : org ? "org:".concat(org, "+") : '';
             var perPage = this.CONF.perPage;
             var totalSize = null;
 
             var getPage = function getPage(page) {
-              return _this4.http.get("https://api.github.com/search/repositories?page=".concat(page, "&per_page=").concat(_this4.CONF.perPage, "&q=").concat(orgFilter, "fork:true").concat(topicFilter, "+sort:stars"));
+              return _this5.http.get("https://api.github.com/search/repositories?page=".concat(page, "&per_page=").concat(_this5.CONF.perPage, "&q=").concat(orgFilter, "fork:true").concat(topicFilter, "+sort:stars"));
             };
 
             var pages$ = new rxjs__WEBPACK_IMPORTED_MODULE_1__["Observable"](function (observer) {
@@ -1591,6 +1665,14 @@
               return acc.concat(val);
             }, []));
             return this.cacheable(pages$, key);
+          }
+        }, {
+          key: "cacheRepos",
+          value: function cacheRepos(key, repos) {
+            localStorage.setItem(key, JSON.stringify({
+              timeDate: new Date().getTime(),
+              value: repos
+            }));
           }
         }, {
           key: "cacheable",
@@ -1634,17 +1716,67 @@
         }, {
           key: "getRawReadme",
           value: function getRawReadme(repo, defaultBranch) {
-            var _this5 = this;
+            var _this6 = this;
 
             return this.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/README.md?time=").concat(Date.now()), {
               responseType: 'text'
             }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function () {
-              return _this5.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/.github/README.md?time=").concat(Date.now()), {
+              return _this6.http.get("https://raw.githubusercontent.com/".concat(repo, "/").concat(defaultBranch, "/.github/README.md?time=").concat(Date.now()), {
                 responseType: 'text'
               }).pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_2__["catchError"])(function () {
                 return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])('No README found');
               }));
             }));
+          } // New methods for managing data source mode
+
+        }, {
+          key: "toggleDataSource",
+          value: function toggleDataSource() {
+            if (this.CONF) {
+              this.CONF.usePreGeneratedFile = !this.CONF.usePreGeneratedFile;
+              this.clearCache();
+              this.refreshItems();
+            }
+          }
+        }, {
+          key: "setDataSource",
+          value: function setDataSource(usePreGeneratedFile) {
+            if (this.CONF) {
+              this.CONF.usePreGeneratedFile = usePreGeneratedFile;
+              this.clearCache();
+              this.refreshItems();
+            }
+          }
+        }, {
+          key: "isUsingPreGeneratedFile",
+          value: function isUsingPreGeneratedFile() {
+            var _a;
+
+            return ((_a = this.CONF) === null || _a === void 0 ? void 0 : _a.usePreGeneratedFile) || false;
+          }
+        }, {
+          key: "clearCache",
+          value: function clearCache() {
+            for (var _i3 = 0, _Object$keys2 = Object.keys(this.CONF.tabs); _i3 < _Object$keys2.length; _i3++) {
+              var tabKey = _Object$keys2[_i3];
+              var tab = this.CONF.tabs[tabKey];
+              var _tab$org2 = tab.org,
+                  org = _tab$org2 === void 0 ? 'default-org' : _tab$org2,
+                  _tab$topic2 = tab.topic,
+                  topic = _tab$topic2 === void 0 ? '' : _tab$topic2;
+              var key = "".concat(org, "-").concat(topic);
+              localStorage.removeItem(key);
+            }
+
+            ;
+          }
+        }, {
+          key: "refreshItems",
+          value: function refreshItems() {
+            for (var _i4 = 0, _Object$keys3 = Object.keys(this.CONF.tabs); _i4 < _Object$keys3.length; _i4++) {
+              var k = _Object$keys3[_i4];
+              this.items$[k] = this.getLocalItems(this.CONF.tabs[k]);
+            }
           }
         }, {
           key: "confTabsKeys",
@@ -1676,7 +1808,7 @@
       }();
 
       CatalogueService.ɵfac = function CatalogueService_Factory(t) {
-        return new (t || CatalogueService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]));
+        return new (t || CatalogueService)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]), _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵinject"](_angular_router__WEBPACK_IMPORTED_MODULE_5__["ActivatedRoute"]));
       };
 
       CatalogueService.ɵprov = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineInjectable"]({
@@ -1693,9 +1825,9 @@
           }]
         }], function () {
           return [{
-            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_3__["HttpClient"]
+            type: _angular_common_http__WEBPACK_IMPORTED_MODULE_4__["HttpClient"]
           }, {
-            type: _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"]
+            type: _angular_router__WEBPACK_IMPORTED_MODULE_5__["ActivatedRoute"]
           }];
         }, null);
       })();
@@ -1779,13 +1911,9 @@
       /* harmony import */
 
 
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
-      /*! angular2-moment */
-      "5eXZ");
-      /* harmony import */
-
-
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(angular2_moment__WEBPACK_IMPORTED_MODULE_9__);
+      var ngx_moment__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(
+      /*! ngx-moment */
+      "QUrN");
 
       function RepoDetailsComponent_div_3_li_66_Template(rf, ctx) {
         if (rf & 1) {
@@ -2184,7 +2312,7 @@
           }
         },
         directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_5__["FaIconComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_6__["NgIf"], ngx_markdown__WEBPACK_IMPORTED_MODULE_7__["MarkdownComponent"]],
-        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["AsyncPipe"], _pipes_emoji_fixup_pipe__WEBPACK_IMPORTED_MODULE_8__["EmojiFixupPipe"], angular2_moment__WEBPACK_IMPORTED_MODULE_9__["TimeAgoPipe"]],
+        pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_6__["AsyncPipe"], _pipes_emoji_fixup_pipe__WEBPACK_IMPORTED_MODULE_8__["EmojiFixupPipe"], ngx_moment__WEBPACK_IMPORTED_MODULE_9__["TimeAgoPipe"]],
         styles: [".logo[_ngcontent-%COMP%] {\n  width: 80px;\n  height: 80px;\n}\n\n#about[_ngcontent-%COMP%] {\n  background-color: #fff;\n  border: solid 2px #888;\n  padding: 25px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uLy4uLy4uL3JlcG8tZGV0YWlscy5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0FBQ0Y7O0FBRUE7RUFDRSxzQkFBQTtFQUNBLHNCQUFBO0VBQ0EsYUFBQTtBQUNGIiwiZmlsZSI6InJlcG8tZGV0YWlscy5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5sb2dvIHtcbiAgd2lkdGg6IDgwcHg7XG4gIGhlaWdodDogODBweDtcbn1cblxuI2Fib3V0IHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgYm9yZGVyOiBzb2xpZCAycHggIzg4ODtcbiAgcGFkZGluZzogMjVweDtcbn1cbiJdfQ== */"]
       });
 
@@ -2256,17 +2384,45 @@
       /*! @angular/common */
       "ofXK");
 
-      function HowtoComponent_li_10_Template(rf, ctx) {
+      function HowtoComponent_div_29_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "li");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 40);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "strong");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 41);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 25);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h6", 42);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](3);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p", 43);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "strong");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](7, "Required topic:");
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "code", 44);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "small", 31);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
@@ -2274,13 +2430,17 @@
         if (rf & 2) {
           var tab_r1 = ctx.$implicit;
 
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](4);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](tab_r1.key);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](5);
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](tab_r1.value.topic);
+
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("", tab_r1.key, ":");
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
-
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"](" ", tab_r1.value.topic, " ");
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Organization: ", tab_r1.value.org || "default-org", "");
         }
       }
 
@@ -2298,9 +2458,9 @@
       HowtoComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({
         type: HowtoComponent,
         selectors: [["app-howto"]],
-        decls: 73,
+        decls: 181,
         vars: 4,
-        consts: [["href", "#/home"], [3, "icon"], [1, "mt-3"], [4, "ngFor", "ngForOf"]],
+        consts: [["href", "#/home"], [3, "icon"], [1, "mt-3"], [1, "alert", "alert-success"], [1, "fas", "fa-info-circle"], [1, "fas", "fa-tags"], [1, "alert", "alert-info"], ["href", "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/classifying-your-repository-with-topics", "target", "_blank", 1, "btn", "btn-sm", "btn-outline-primary"], [1, "fas", "fa-external-link-alt"], [1, "row"], ["class", "col-md-6", 4, "ngFor", "ngForOf"], [1, "alert", "alert-primary"], [1, "fas", "fa-globe"], [1, "mb-0"], [1, "fas", "fa-file-alt"], [1, "list-group", "mb-3"], [1, "list-group-item"], [1, "text-muted", "d-block"], [1, "fas", "fa-star"], ["id", "enhancementAccordion", 1, "accordion"], [1, "card"], ["id", "readmeHeading", 1, "card-header"], ["type", "button", "data-toggle", "collapse", "data-target", "#readmeCollapse", 1, "btn", "btn-link"], [1, "fas", "fa-book"], ["id", "readmeCollapse", "data-parent", "#enhancementAccordion", 1, "collapse"], [1, "card-body"], ["href", "https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-readmes", "target", "_blank", 1, "btn", "btn-sm", "btn-outline-primary"], ["id", "iconHeading", 1, "card-header"], ["type", "button", "data-toggle", "collapse", "data-target", "#iconCollapse", 1, "btn", "btn-link", "collapsed"], [1, "fas", "fa-image"], ["id", "iconCollapse", "data-parent", "#enhancementAccordion", 1, "collapse"], [1, "text-muted"], ["id", "bestPracticesHeading", 1, "card-header"], ["type", "button", "data-toggle", "collapse", "data-target", "#bestPracticesCollapse", 1, "btn", "btn-link", "collapsed"], [1, "fas", "fa-check-circle"], ["id", "bestPracticesCollapse", "data-parent", "#enhancementAccordion", 1, "collapse"], [1, "fas", "fa-rocket"], [1, "alert", "alert-warning"], [1, "fas", "fa-clock"], [1, "fas", "fa-question-circle"], [1, "col-md-6"], [1, "card", "mb-3"], [1, "card-title"], [1, "card-text"], [1, "bg-light", "p-1", "rounded"]],
         template: function HowtoComponent_Template(rf, ctx) {
           if (rf & 1) {
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);
@@ -2313,123 +2473,65 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](3, "h2", 2);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "How to add an item in the catalogue");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](4, "How to add your repository to the catalogue");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "p");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](5, "div", 3);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](6, "In order to add your repository in the catalogue, you need to add the github topic related to each tab.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "h5");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](7, "i", 4);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "h4");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, "Tabs & topics");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](8, " Quick Start");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "ul");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](9, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](10, HowtoComponent_li_10_Template, 4, 2, "li", 3);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](10, "To add your repository to this catalogue, you need to ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](11, "keyvalue");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](11, "strong");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "h4");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Add these information in your project README");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](12, "add specific GitHub topics");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](15, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](17, "Name:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](18, " \xA0 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "name of your script.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, " to your repository. These topics act as tags that help organize repositories into different categories.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "h4");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](15, "i", 5);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "Author:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](24, " \xA0 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](26, "username of the original author (in case it's forked into an organization).");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](16, " Step 1: Add GitHub Topics to Your Repository");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 6);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "b");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "strong");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](29, "Repository:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, " \xA0 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "link to the GitHub repository.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](20, "What are GitHub topics?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Download:");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, " Topics are labels that help categorize your repository. You can add them in your repository settings on GitHub.");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, " \xA0 ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "i");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "a", 7);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "link to download the sources as .zip (take it from GitHub).");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "i", 8);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "b");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "License:");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, " \xA0 ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "i");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "license used to release the code.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, " Learn how to add topics to your repository ");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
@@ -2437,85 +2539,477 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "h4");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "h5");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Description");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "p");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Give a complete description of what does the script and how it does it.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](27, "Available Categories & Required Topics:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "h4");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 9);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Optional / Recommended");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](29, HowtoComponent_div_29_Template, 12, 3, "div", 10);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "ul");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Add a ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "code");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "README.md");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipe"](30, "keyvalue");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](56, " in the root folder with a complete description of your script. It will be shown in the details page of the catalogue. ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 11);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "h5");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](33, "i", 12);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](34, " Global Repository Discovery");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "p");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Add an ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](36, "This catalogue searches ");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "code");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "strong");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, "icon.png");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, " in the root folder. It will be shown in the script list and details page of the catalogue.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "globally across all of GitHub");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "Use the ");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "code");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "db_assembler");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](39, " for repositories with the required topics. This means:");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " to include your SQL patches.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "ul", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](42, "Your repository can be in ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "any GitHub organization or personal account");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "Follow best practices from the skeleton (.gitattributes, .gitkeep etc...)");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "You don't need to be part of any specific GitHub organization");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "li");
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](70, " Give the user the biggest amount of options for configuration possible. It reduces the need to modify the code because \"something doesn't work as I would like to\". ");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](48, "Simply adding the correct topic is enough to get your repository included");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "The catalogue refreshes automatically every 30 minutes");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](71, "li");
-
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, "Use the GNU Affero General Public License v3.0.");
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "i", 14);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](53, " Step 2: Prepare Your Repository");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "h5");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](55, "Required Information (add to your README.md):");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "ul", 15);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "li", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "Name:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](60, " Clear name of your module/script/tool ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "small", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Example: \"Player Statistics Module\"");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "li", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](65, "Description:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](66, " Brief description that will appear in the catalogue ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](67, "small", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](68, "This should be in your repository's description field on GitHub");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "li", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Author:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](72, " Your username or the original author if this is a fork ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](73, "small", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](74, "Important for proper attribution");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](75, "li", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](77, "Installation Instructions:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](78, " How to install and configure your module ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "small", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](80, "Make it easy for users to get started");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "li", 16);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](83, "License:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, " The license under which you're releasing your code ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "small", 17);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](86, "Recommended: GNU Affero General Public License v3.0");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](88, "i", 18);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](89, " Step 3: Enhance Your Repository (Recommended)");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](90, "div", 19);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "div", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](92, "div", 21);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](93, "h2", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](94, "button", 22);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](95, "i", 23);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](96, " Complete README.md ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](97, "div", 24);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](98, "div", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](99, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](100, "A comprehensive README.md file will be displayed on your module's detail page. Include:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](101, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](102, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](103, "Detailed description of features");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](104, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](105, "Screenshots or examples");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](106, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](107, "Installation and configuration steps");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](108, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](109, "Requirements and compatibility");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](110, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](111, "Troubleshooting section");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](112, "a", 26);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](113, "i", 8);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](114, " GitHub README Guide ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](115, "div", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](116, "div", 27);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](117, "h2", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](118, "button", 28);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](119, "i", 29);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](120, " Custom Icon ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](121, "div", 30);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](122, "div", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](123, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](124, "Add an ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](125, "code");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](126, "icon.png");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](127, " file in your repository root to customize your module's appearance.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](128, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](129, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](130, "Recommended size: 64x64 pixels or larger");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](131, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](132, "Format: PNG with transparent background");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](133, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](134, "Keep it simple and recognizable");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](135, "small", 31);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](136, "If no icon is provided, the repository owner's avatar will be used.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](137, "div", 20);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](138, "div", 32);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](139, "h2", 13);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](140, "button", 33);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](141, "i", 34);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](142, " Best Practices ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](143, "div", 35);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](144, "div", 25);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](145, "ul");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](146, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](147, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](148, "Configuration options:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](149, " Provide extensive configuration to avoid code modifications");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](150, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](151, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](152, "Database patches:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](153, " Use db_assembler for SQL patches if applicable");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](154, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](155, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](156, "Code quality:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](157, " Follow standard coding best practices");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](158, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](159, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](160, "Documentation:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](161, " Include inline comments and documentation");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](162, "li");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](163, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](164, "Version control:");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](165, " Use proper .gitattributes and .gitignore files");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](166, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](167, "i", 36);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](168, " Step 4: Submit Your Repository");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](169, "div", 37);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](170, "h5");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](171, "i", 38);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](172, " Processing Time");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](173, "p");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](174, "After adding the required topics to your repository, it may take up to ");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](175, "strong");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](176, "30 minutes");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](177, " for your repository to appear in the catalogue, as the data is updated periodically.");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](178, "h4");
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](179, "i", 39);
+
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](180, " Need Help?");
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
           }
@@ -2525,9 +3019,9 @@
 
             _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("icon", ctx.faCaretLeft);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](9);
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](28);
 
-            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](11, 2, ctx.catalogueService.CONF == null ? null : ctx.catalogueService.CONF.tabs));
+            _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind1"](30, 2, ctx.catalogueService.CONF == null ? null : ctx.catalogueService.CONF.tabs));
           }
         },
         directives: [_fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FaIconComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_4__["NgForOf"]],
@@ -2598,13 +3092,9 @@
       /* harmony import */
 
 
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
-      /*! angular2-moment */
-      "5eXZ");
-      /* harmony import */
-
-
-      var angular2_moment__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(angular2_moment__WEBPACK_IMPORTED_MODULE_4__);
+      var ngx_moment__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+      /*! ngx-moment */
+      "QUrN");
       /* harmony import */
 
 
@@ -2671,12 +3161,12 @@
       AppRoutingModule.ɵinj = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineInjector"]({
         imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, {
           useHash: true
-        }), _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"].forRoot()], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
+        }), _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"].forRoot()], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
       });
 
       (function () {
         (typeof ngJitMode === "undefined" || ngJitMode) && _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵsetNgModuleScope"](AppRoutingModule, {
-          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"], _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"]],
+          imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"], _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"]],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
         });
       })();
@@ -2687,7 +3177,7 @@
           args: [{
             imports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"].forRoot(routes, {
               useHash: true
-            }), _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], angular2_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"].forRoot()],
+            }), _angular_common__WEBPACK_IMPORTED_MODULE_0__["CommonModule"], ngx_moment__WEBPACK_IMPORTED_MODULE_4__["MomentModule"], _fortawesome_angular_fontawesome__WEBPACK_IMPORTED_MODULE_3__["FontAwesomeModule"], ngx_markdown__WEBPACK_IMPORTED_MODULE_5__["MarkdownModule"].forRoot()],
             exports: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterModule"]]
           }]
         }], null, null);
