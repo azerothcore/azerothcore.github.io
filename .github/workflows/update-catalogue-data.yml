@@ -21,6 +21,9 @@ on:
 jobs:
   update-catalogue:
     runs-on: ubuntu-latest
+    concurrency:
+      group: catalogue-update
+      cancel-in-progress: true
     steps:
       - name: Checkout azerothcore.github.io
         uses: actions/checkout@v4
