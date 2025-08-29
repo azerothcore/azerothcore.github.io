@@ -76,6 +76,19 @@ jobs:
             echo "✅ Catalogue file generated successfully"
             echo "File size: $(du -h data/catalogue.json | cut -f1)"
             echo "Total repositories: ${{ steps.fetch-repos.outputs.total-repos }}"
+            
+            # Validate JSON structure and content
+            if ! jq empty data/catalogue.json; then
+              echo "❌ Generated JSON is invalid"
+              exit 1
+            fi
+            
+            # Check if we have any repositories
+            repo_count=$(jq '[.organizations[] | to_entries[] | .value | length] | add' data/catalogue.json)
+            if [ "$repo_count" -eq 0 ]; then
+              echo "⚠️  Warning: No repositories found in catalogue"
+              echo "This might indicate a configuration issue or lack of repositories with the specified topics"
+            fi
           else
             echo "❌ Catalogue file was not generated"
             exit 1
