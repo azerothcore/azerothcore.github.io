@@ -66,14 +66,23 @@ jobs:
           }
           JSON
 
-          npm run build
+          # Build production bundles (ensures correct environment and hashing)
+          npm run build -- --configuration=production
 
-          # Copy JS bundles used by the site layout
+          # Copy and rename hashed JS bundles to fixed names expected by the layout
           mkdir -p ../javascripts/catalogue
-          mv dist/git-catalogue/*.js ../javascripts/catalogue/
+          cp "$(ls dist/git-catalogue/runtime-es2015*.js | head -n1)" ../javascripts/catalogue/runtime-es2015.js
+          cp "$(ls dist/git-catalogue/runtime-es5*.js | head -n1)" ../javascripts/catalogue/runtime-es5.js
+          cp "$(ls dist/git-catalogue/polyfills-es2015*.js | head -n1)" ../javascripts/catalogue/polyfills-es2015.js
+          cp "$(ls dist/git-catalogue/polyfills-es5*.js | head -n1)" ../javascripts/catalogue/polyfills-es5.js
+          cp "$(ls dist/git-catalogue/vendor-es2015*.js | head -n1)" ../javascripts/catalogue/vendor-es2015.js || true
+          cp "$(ls dist/git-catalogue/vendor-es5*.js | head -n1)" ../javascripts/catalogue/vendor-es5.js || true
+          cp "$(ls dist/git-catalogue/scripts*.js | head -n1)" ../javascripts/catalogue/scripts.js || true
+          cp "$(ls dist/git-catalogue/main-es2015*.js | head -n1)" ../javascripts/catalogue/main-es2015.js
+          cp "$(ls dist/git-catalogue/main-es5*.js | head -n1)" ../javascripts/catalogue/main-es5.js
 
-          # Copy CSS into the expected filename (accept hashed output)
-          cp $(ls dist/git-catalogue/styles*.css | head -n 1) ../stylesheets/catalogue_style.css
+          # Copy CSS into the expected filename
+          cp "$(ls dist/git-catalogue/styles*.css | head -n1)" ../stylesheets/catalogue_style.css
 
           # Copy Angular assets so /assets/config.json is served by Pages
           mkdir -p ../assets
