@@ -26,6 +26,9 @@ permissions:
 jobs:
   update-catalogue:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     concurrency:
       group: catalogue-update
       cancel-in-progress: true
