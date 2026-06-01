@@ -56,6 +56,33 @@ layout: default
   nomodule
   defer
 ></script>
+<script>
+  (function () {
+    document.addEventListener("click", function (event) {
+      var link =
+        event.target.closest && event.target.closest('a[href="#/home"]');
+      var returnHash = "";
+
+      try {
+        returnHash = sessionStorage.getItem(
+          "azerothcore.catalogue.returnHash"
+        );
+      } catch (error) {}
+
+      if (
+        !link ||
+        window.location.hash.indexOf("#/details/") !== 0 ||
+        !returnHash ||
+        returnHash.indexOf("#/details/") === 0
+      ) {
+        return;
+      }
+
+      event.preventDefault();
+      window.location.hash = returnHash;
+    });
+  })();
+</script>
 
 <div class="header">
   <div class="container">
