@@ -29,6 +29,7 @@
 }
 
 #main-navbar .navbar-brand {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.55rem;
@@ -40,10 +41,76 @@
   letter-spacing: -0.01em;
 }
 
+#main-navbar .navbar-brand::after {
+  position: absolute;
+  right: 0;
+  bottom: -5px;
+  left: 0;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #c22b2b;
+  content: '';
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
 #main-navbar .navbar-brand img {
   width: 26px;
   height: 26px;
   max-width: none;
+  transform-origin: center;
+  animation: brand-mark-in 0.55s cubic-bezier(0.22, 0.61, 0.36, 1) 0.1s backwards;
+  transition: transform 0.35s cubic-bezier(0.22, 0.61, 0.36, 1), filter 0.35s ease;
+}
+
+#main-navbar .navbar-brand span {
+  animation: brand-word-in 0.55s ease 0.16s backwards;
+  transition: letter-spacing 0.35s ease;
+}
+
+#main-navbar.navbar-position-scroll .navbar-brand img {
+  transform: scale(0.92);
+}
+
+#main-navbar .navbar-brand:hover img,
+#main-navbar .navbar-brand:focus-visible img {
+  transform: translateY(-1px) scale(1.07);
+  filter: drop-shadow(0 3px 8px rgba(194, 43, 43, 0.45));
+}
+
+#main-navbar .navbar-brand:hover span,
+#main-navbar .navbar-brand:focus-visible span {
+  letter-spacing: 0.005em;
+}
+
+#main-navbar .navbar-brand:hover::after,
+#main-navbar .navbar-brand:focus-visible::after {
+  transform: scaleX(1);
+}
+
+@keyframes brand-mark-in {
+  from {
+    opacity: 0;
+    transform: scale(0.82);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes brand-word-in {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 #main-navbar #navbar {
@@ -242,6 +309,13 @@
   #main-navbar,
   #main-navbar #navbar .navbar-nav > li > .nav-link,
   #main-navbar .btn-social {
+    transition: none;
+  }
+
+  #main-navbar .navbar-brand img,
+  #main-navbar .navbar-brand span,
+  #main-navbar .navbar-brand::after {
+    animation: none;
     transition: none;
   }
 }
