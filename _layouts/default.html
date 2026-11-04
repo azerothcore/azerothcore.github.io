@@ -32,6 +32,7 @@
 
     <link href="{{ '/stylesheets/style.css' | relative_url }}" rel="stylesheet">
     <link href="{{ '/stylesheets/chat.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ '/stylesheets/navbar.css' | relative_url }}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -45,97 +46,139 @@
     <nav class="navbar navbar-dark fixed-top navbar-expand-lg" id="main-navbar">
       <div class="container">
         <a class="navbar-brand" href="{{ '/' | relative_url }}">
-          <img src="{{ '/images/logo-small.png' | relative_url }}" alt="AzerothCore logo small"> AzerothCore
+          <img src="{{ '/images/logo-small.png' | relative_url }}" alt="AzerothCore logo" />
+          <span>AzerothCore</span>
         </a>
-        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbar"
+          aria-controls="navbar"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
           <span class="navbar-toggler-icon"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
         </button>
         <div id="navbar" class="collapse navbar-collapse">
-          <ul class="navbar-nav mr-auto  mt-2 mt-lg-0">
+          <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://github.com/AzerothCore/"><i class="fab fa-github"></i> Repositories</a>
+              <a class="nav-link" href="https://github.com/AzerothCore/">Repositories</a>
             </li>
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-users"></i> Community<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <!-- <li>
-                  <a href="https://azerothcore-azerothcore-wotlk.getbadges.io/activity"><i class="fas fa-trophy" aria-hidden="true"></i> Get Badges </a>
-                </li> -->
-                <li class="dropdown-item">
-                  <a class="nav-link" href="https://github.com/azerothcore/azerothcore-wotlk/discussions"><i class="fas fa-newspaper"></i> Forum</a>
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="community-menu"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Community</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="community-menu">
+                <li>
+                  <a class="dropdown-item" href="https://github.com/azerothcore/azerothcore-wotlk/discussions"
+                    ><i class="fas fa-newspaper"></i>Forum</a
+                  >
                 </li>
-                <li class="dropdown-item">
-                  <a class="nav-link" href="https://github.com/azerothcore/azerothcore-wotlk/discussions?discussions_q=category%3A%22News+%26+Blog%22" target="_blank"><i class="fas fa-rss"></i> Blog</a>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://github.com/azerothcore/azerothcore-wotlk/discussions?discussions_q=category%3A%22News+%26+Blog%22"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fas fa-rss"></i>Blog</a
+                  >
                 </li>
-                <li class="dropdown-item">
-                  <a class="nav-link" href="https://stackoverflow.com/questions/tagged/azerothcore?sort=newest" target="_blank"><i class="fab fa-stack-overflow"></i> StackOverflow</a>
+                <li>
+                  <a
+                    class="dropdown-item"
+                    href="https://stackoverflow.com/questions/tagged/azerothcore?sort=newest"
+                    target="_blank"
+                    rel="noopener"
+                    ><i class="fab fa-stack-overflow"></i>StackOverflow</a
+                  >
                 </li>
-                <li class="dropdown-item">
-                  <a class="nav-link" class="nav-link" href="https://discord.gg/gkt4y2x" target="_blank"><i class="fas fa-comments"></i> Chat</a>
+                <li>
+                  <a class="dropdown-item" href="https://discord.gg/gkt4y2x" target="_blank" rel="noopener"
+                    ><i class="fas fa-comments"></i>Chat</a
+                  >
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/catalogue.html"><i class="fas fa-cloud-download-alt"></i> Catalogue</a>
+              <a
+                class="nav-link{% if page.url == '/catalogue.html' %} active{% endif %}"
+                {% if page.url == '/catalogue.html' %}aria-current="page"{% endif %}
+                href="/catalogue.html"
+                >Catalogue</a
+              >
             </li>
-            <!--<li class="nav-item">
-              <a href="http://azerothcore.altervista.org/forum/viewforum.php?f=12"><i class="fas fa-cloud-download"></i> Resources</a>
-            </li> -->
             <li class="nav-item dropdown">
-              <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-info-circle"></i> Documentation<span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li class="dropdown-item">
-                  <a class="nav-link" href="/wiki/"><i class="fab fa-wikipedia-w"></i> Wiki</a>
+              <a
+                class="nav-link dropdown-toggle{% if page.url contains '/wiki/' or page.url contains '/doxygen/' or page.url contains '/eluna/' %} active{% endif %}"
+                href="#"
+                id="documentation-menu"
+                data-toggle="dropdown"
+                role="button"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >Documentation</a
+              >
+              <ul class="dropdown-menu" aria-labelledby="documentation-menu">
+                <li>
+                  <a class="dropdown-item" href="/wiki/"><i class="fab fa-wikipedia-w"></i>Wiki</a>
                 </li>
-                <li class="dropdown-item">
-                  <a class="nav-link" href="{{ '/doxygen/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> Doxygen Documentation</a>
+                <li>
+                  <a class="dropdown-item" href="{{ '/doxygen/' | relative_url }}"><i class="fas fa-book"></i>Doxygen Documentation</a>
                 </li>
-                <li class="dropdown-item">
-                  <a class="nav-link" href="{{ '/eluna/' | relative_url }}"><i class="fas fa-book" aria-hidden="true"></i> Eluna Engine Documentation</a>
+                <li>
+                  <a class="dropdown-item" href="{{ '/eluna/' | relative_url }}"><i class="fas fa-book"></i>Eluna Engine Documentation</a>
                 </li>
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ '/testimonials' | relative_url }}"><i class="fas fa-thumbs-up" aria-hidden="true"></i> Testimonials</a>
+              <a
+                class="nav-link{% if page.url == '/testimonials' or page.url == '/testimonials.html' %} active{% endif %}"
+                href="{{ '/testimonials' | relative_url }}"
+                >Testimonials</a
+              >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=L69ANPSR8BJDU"><i class="fas fa-heart" aria-hidden="true"></i></i> Donation</a>
+              <a class="nav-link" href="https://www.paypal.com/donate/?hosted_button_id=L69ANPSR8BJDU">Donation</a>
             </li>
-            <!--
-            <li class="nav-item">
-              <a href="{{ '/demo' | relative_url }}"><i class="fas fa-play" aria-hidden="true"></i> Demo</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><i class="fas fa-bug"></i><span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="https://github.com/azerothcore/azerothcore-wotlk/issues">issues 3.3.5a</a></li>
-                <li><a href="https://github.com/azerothcore/azerothcore-classic/issues">issues 1.12.1</a></li>
-              </ul>
-            </li>
-            -->
           </ul>
-          <ul class="nav navbar-nav navbar-right visible-lg">
+          <ul class="navbar-nav navbar-right socials">
             <li>
-              <div class="btn-container-lg socials">
-                <a class="btn btn-social" href="https://www.facebook.com/AzerothCore/" target="_blank">
-                  <i class="fab fa-facebook-f"></i>
-                </a>
-                <a class="btn btn-social" href="https://twitter.com/azeroth_core" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
-                <a class="btn btn-social" href="https://www.linkedin.com/company/azerothcore" target="_blank">
-                  <i class="fab fa-linkedin"></i>
-                </a>
-              </div>
+              <a
+                class="btn-social"
+                href="https://www.facebook.com/AzerothCore/"
+                target="_blank"
+                rel="noopener"
+                aria-label="Facebook"
+              >
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a class="btn-social" href="https://twitter.com/azeroth_core" target="_blank" rel="noopener" aria-label="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a
+                class="btn-social"
+                href="https://www.linkedin.com/company/azerothcore"
+                target="_blank"
+                rel="noopener"
+                aria-label="LinkedIn"
+              >
+                <i class="fab fa-linkedin"></i>
+              </a>
             </li>
           </ul>
-
-        </div><!--/.nav-collapse -->
+        </div>
       </div>
     </nav>
 

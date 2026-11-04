@@ -1,0 +1,245 @@
+/* AzerothCore navbar refresh: same dark palette, calmer spacing and clearer states. */
+
+#main-navbar {
+  min-height: 64px;
+  padding: 0;
+  border: 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(26, 9, 9, 0.78);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  transition: background-color 0.25s ease, border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+#main-navbar.navbar-position-top {
+  background-color: rgba(26, 9, 9, 0.78);
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+#main-navbar.navbar-position-scroll {
+  background-color: #1a0909;
+  border-bottom-color: rgba(255, 255, 255, 0.12);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+}
+
+#main-navbar .container {
+  display: flex;
+  align-items: center;
+  min-height: 64px;
+}
+
+#main-navbar .navbar-brand {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-right: 2.25rem;
+  padding: 0;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+#main-navbar .navbar-brand img {
+  width: 26px;
+  height: 26px;
+  max-width: none;
+}
+
+#main-navbar #navbar {
+  align-items: center;
+}
+
+#main-navbar #navbar .navbar-nav {
+  align-items: center;
+  gap: 0.1rem;
+}
+
+#main-navbar #navbar .navbar-nav > li > .nav-link {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.5rem 0.8rem;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 0.84rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  transition: color 0.2s ease, background-color 0.2s ease;
+}
+
+#main-navbar #navbar .navbar-nav > li > .nav-link:hover,
+#main-navbar #navbar .navbar-nav > li > .nav-link:focus {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0.06);
+}
+
+#main-navbar #navbar .navbar-nav > li > .nav-link.active {
+  color: #fff;
+}
+
+#main-navbar #navbar .navbar-nav > li > .nav-link.active::after {
+  position: absolute;
+  right: 0.8rem;
+  bottom: 0.1rem;
+  left: 0.8rem;
+  height: 2px;
+  border-radius: 2px;
+  background-color: #c22b2b;
+  content: '';
+}
+
+#main-navbar #navbar .navbar-nav > li > .nav-link:focus-visible {
+  outline: 2px solid rgba(194, 43, 43, 0.7);
+  outline-offset: 2px;
+}
+
+#main-navbar .dropdown-toggle::after {
+  margin-left: 0.1rem;
+  vertical-align: 0.15em;
+}
+
+#main-navbar .dropdown-menu {
+  min-width: 210px;
+  margin-top: 0.55rem;
+  padding: 0.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  background-color: #1b0909 !important;
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  color: #fff;
+}
+
+#main-navbar .dropdown-menu .dropdown-item {
+  display: block;
+  padding: 0.55rem 0.7rem;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.82);
+  font-size: 0.84rem;
+  font-weight: 500;
+}
+
+#main-navbar .dropdown-menu .dropdown-item:hover,
+#main-navbar .dropdown-menu .dropdown-item:focus {
+  background-color: rgba(194, 43, 43, 0.16);
+  color: #fff;
+}
+
+#main-navbar .dropdown-menu .dropdown-item i {
+  width: 1.15rem;
+  margin-right: 0.45rem;
+  text-align: center;
+  opacity: 0.7;
+}
+
+#main-navbar .navbar-right .socials,
+#main-navbar .socials {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.35rem;
+  width: auto;
+  margin-left: 1rem;
+  margin-bottom: 0;
+}
+
+#main-navbar #navbar li.nav-item {
+  width: auto;
+}
+
+#main-navbar .dropdown-menu .dropdown-item svg {
+  width: 1rem;
+  margin-right: 0.5rem;
+  vertical-align: -0.05em;
+  opacity: 0.7;
+}
+
+#main-navbar .btn-social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 8px;
+  background-color: transparent !important;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 0.8rem;
+  transition: color 0.2s ease, background-color 0.2s ease, border-color 0.2s ease;
+}
+
+#main-navbar .btn-social:hover,
+#main-navbar .btn-social:focus {
+  border-color: rgba(255, 255, 255, 0.28);
+  background-color: rgba(255, 255, 255, 0.08) !important;
+  color: #fff;
+}
+
+#main-navbar .navbar-toggler {
+  padding: 0.4rem 0.55rem;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 8px;
+}
+
+#main-navbar .navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+#main-navbar .navbar-toggler:focus-visible {
+  box-shadow: 0 0 0 3px rgba(194, 43, 43, 0.35);
+}
+
+@media (max-width: 991.98px) {
+  #main-navbar {
+    background-color: #1a0909;
+  }
+
+  #main-navbar .navbar-collapse {
+    margin-top: 0.5rem;
+    margin-bottom: 0.65rem;
+    padding: 0.55rem;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    background-color: #1b0909;
+  }
+
+  #main-navbar #navbar .navbar-nav {
+    align-items: stretch;
+    gap: 0.1rem;
+  }
+
+  #main-navbar #navbar .navbar-nav > li > .nav-link {
+    padding: 0.7rem 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  #main-navbar #navbar .navbar-nav > li > .nav-link.active::after {
+    right: auto;
+    bottom: 0.35rem;
+    left: 0.75rem;
+    width: 18px;
+  }
+
+  #main-navbar .dropdown-menu {
+    margin-top: 0.15rem;
+    border-color: rgba(255, 255, 255, 0.06);
+    box-shadow: none;
+  }
+
+  #main-navbar .navbar-right .socials,
+  #main-navbar .socials {
+    margin: 0.65rem 0 0.15rem;
+    padding-left: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  #main-navbar,
+  #main-navbar #navbar .navbar-nav > li > .nav-link,
+  #main-navbar .btn-social {
+    transition: none;
+  }
+}
