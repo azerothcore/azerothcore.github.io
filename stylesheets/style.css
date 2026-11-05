@@ -203,18 +203,33 @@
   color: #fff;
 }
 
-.footer a[href*="paypal"] {
+.footer a.footer-donate {
   position: relative;
   display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   justify-self: end;
   overflow: hidden;
+  padding: 0.6rem 1.2rem;
+  border: 0;
   border-bottom: 0;
-  border-radius: 8px;
+  border-radius: 999px;
+  background: linear-gradient(180deg, #ffd35c 0%, #ffc439 100%);
+  color: #1c1414 !important;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
   animation: donate-glow 3.2s ease-in-out infinite;
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
 }
 
-.footer a[href*="paypal"]::after {
+.footer a.footer-donate i {
+  font-size: 0.95rem;
+}
+
+.footer a.footer-donate::after {
   content: "";
   position: absolute;
   inset: 0;
@@ -226,16 +241,11 @@
   mix-blend-mode: screen;
 }
 
-.footer a[href*="paypal"]:hover {
-  transform: scale(1.06);
-}
-
-.footer a[href*="paypal"] img {
-  display: block;
-  width: auto;
-  height: 30px;
-  border-radius: 8px;
-  opacity: 0.95;
+.footer a.footer-donate:hover {
+  border-bottom: 0;
+  color: #1c1414 !important;
+  transform: translateY(-1px) scale(1.04);
+  filter: brightness(1.05);
 }
 
 @keyframes donate-glow {
@@ -279,18 +289,18 @@
     justify-items: center;
   }
 
-  .footer a[href*="paypal"] {
+  .footer a.footer-donate {
     justify-self: center;
   }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .footer a[href*="paypal"],
-  .footer a[href*="paypal"]::after {
+  .footer a.footer-donate,
+  .footer a.footer-donate::after {
     animation: none;
   }
 
-  .footer a[href*="paypal"]:hover {
+  .footer a.footer-donate:hover {
     transform: none;
   }
 }
