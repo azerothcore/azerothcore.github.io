@@ -1,15 +1,53 @@
 .chat_box{
 	position:fixed;
 	right:20px;
-	bottom:0px;
+	bottom:0;
 	width:350px;
-}
-.chat_body{
-	height:505px;
-	padding:5px 0px;
+	z-index:1050;
 }
 
-.chat_head,.msg_head{
+.chat_head{
+	display:block;
+	width:100%;
+	padding:15px;
+	border:0;
+	border-radius:5px 5px 0 0;
+	background:#738BD7;
+	color:white;
+	font-family:inherit;
+	font-size:1rem;
+	font-weight:bold;
+	text-align:left;
+	cursor:pointer;
+}
+
+.chat_head:hover{
+	background:#738BD7;
+}
+
+.chat_head:focus-visible{
+	outline:2px solid white;
+	outline-offset:-2px;
+}
+
+.chat_head .fa-discord{
+	display:none;
+}
+
+.chat_body{
+	height:505px;
+	padding:5px 0;
+	overflow:hidden;
+}
+
+.chat_body iframe{
+	display:block;
+	width:100%;
+	height:500px;
+	border:0;
+}
+
+.msg_head{
 	background:#738BD7;
 	color:white;
 	padding:15px;
@@ -118,4 +156,53 @@
 	border-color: transparent transparent transparent #EEF2E7;
 	right:-20px;
 	top:7px;
+}
+
+@media (max-width: 575.98px){
+	.chat_box{
+		right:12px;
+		bottom:max(12px, env(safe-area-inset-bottom));
+		width:auto;
+	}
+
+	.chat_head{
+		display:flex;
+		align-items:center;
+		justify-content:center;
+		width:52px !important;
+		height:52px !important;
+		padding:0 !important;
+		border-radius:50%;
+		font-size:1.1rem;
+	}
+
+	.chat_head .fa-discord{
+		display:inline-block;
+	}
+
+	.chat_head-label{
+		display:none !important;
+	}
+
+	.chat_box.is-open{
+		width:calc(100vw - 24px);
+	}
+
+	.chat_box.is-open .chat_body{
+		position:absolute;
+		right:0;
+		bottom:calc(100% + 10px);
+		display:block;
+		width:calc(100vw - 24px);
+		height:auto;
+		padding:0;
+		overflow:hidden;
+		border-radius:12px;
+		box-shadow:0 24px 60px rgba(0,0,0,.35);
+	}
+
+	.chat_box.is-open .chat_body iframe{
+		height:55vh;
+		min-height:320px;
+	}
 }
