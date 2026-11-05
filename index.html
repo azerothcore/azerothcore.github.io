@@ -15,7 +15,7 @@ layout: default
           height="48"
         />
         <p class="home-kicker"><span class="home-dot"></span> Open source · GPLv2 · Production-ready</p>
-        <h1 class="home-title">Run your own<br class="d-none d-md-block" /> World of Warcraft server.</h1>
+        <h1 class="home-title">Run your own<br class="d-none d-md-block" /> MMO server.</h1>
         <p class="home-subtitle">
           AzerothCore is a complete, modular and community-driven MMORPG server. Proven in production, built in the open
           and ready for your own realm.
@@ -153,22 +153,17 @@ layout: default
         </p>
 
         <div class="home-actions">
-          <a class="btn home-btn home-btn--primary" href="https://discord.gg/gkt4y2x">
-            Join Discord <i class="fas fa-comments" aria-hidden="true"></i>
-          </a>
           <a class="btn home-btn home-btn--ghost" href="https://www.azerothcore.org/wiki/">Explore the wiki</a>
         </div>
 
-        <div class="home-discord">
-          <iframe
-            src="https://discordapp.com/widget?id=217589275766685707&amp;theme=dark"
-            width="100%"
-            height="360"
-            allowtransparency="true"
-            frameborder="0"
-            title="AzerothCore Discord"
-          ></iframe>
-        </div>
+        <a class="home-discord-card" href="https://discord.gg/gkt4y2x">
+          <span class="home-discord-icon"><i class="fab fa-discord" aria-hidden="true"></i></span>
+          <span class="home-discord-copy">
+            <strong>AzerothCore on Discord</strong>
+            <span>Support, development and server showcases.</span>
+          </span>
+          <i class="fas fa-arrow-right home-discord-arrow" aria-hidden="true"></i>
+        </a>
       </div>
 
       <div class="col-lg-7">
@@ -213,13 +208,10 @@ layout: default
     if (!section || !('IntersectionObserver' in window)) return;
     if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
 
-    section.classList.add('is-pending');
-
     var observer = new IntersectionObserver(
       function (entries) {
         entries.forEach(function (entry) {
           if (!entry.isIntersecting) return;
-          section.classList.remove('is-pending');
           section.classList.add('is-revealed');
           observer.disconnect();
         });

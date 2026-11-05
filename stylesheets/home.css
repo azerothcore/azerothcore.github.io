@@ -289,10 +289,6 @@
   border-bottom: 1px solid #e7ded7;
 }
 
-.home-why.is-pending .home-why-item {
-  opacity: 0;
-}
-
 .home-why.is-revealed .home-why-item {
   animation: why-enter 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) both;
 }
@@ -364,17 +360,59 @@
   color: rgba(255, 255, 255, 0.68);
 }
 
-.home-discord {
-  max-width: 380px;
-  margin-top: 1.8rem;
-  overflow: hidden;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+.home-discord-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  max-width: 420px;
+  margin-top: 1.6rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
   border-radius: 14px;
-  background-color: #0e0505;
+  background-color: rgba(255, 255, 255, 0.04);
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
 }
 
-.home-discord iframe {
-  display: block;
+.home-discord-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.home-discord-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #5865f2;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.home-discord-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.home-discord-copy strong {
+  color: #fff;
+  font-size: 0.92rem;
+}
+
+.home-discord-copy span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+}
+
+.home-discord-arrow {
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.85rem;
 }
 
 .home-commits {
