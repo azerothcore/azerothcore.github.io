@@ -1,0 +1,632 @@
+/* Home redesign: same AzerothCore palette, calmer typography and clearer hierarchy. */
+
+.home-hero {
+  position: relative;
+  overflow: hidden;
+  padding: 150px 0 90px;
+  background-image: linear-gradient(180deg, rgba(18, 4, 4, 0.86) 0%, rgba(18, 4, 4, 0.95) 100%),
+    url('../images/background.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.home-particles {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.85;
+  pointer-events: none;
+}
+
+.home-hero .container {
+  position: relative;
+  z-index: 1;
+}
+
+.home-hero-logo {
+  display: block;
+  width: 72px;
+  height: auto;
+  margin-bottom: 1.4rem;
+  filter: drop-shadow(0 10px 24px rgba(0, 0, 0, 0.35));
+  animation: hero-logo-in 0.7s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+@keyframes hero-logo-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px) scale(0.92);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.home-kicker {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 1.1rem;
+  color: rgba(255, 255, 255, 0.66);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.home-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #e03131;
+  box-shadow: 0 0 0 4px rgba(224, 49, 49, 0.16);
+}
+
+.home-title {
+  margin: 0 0 1.1rem;
+  color: #fff;
+  font-size: clamp(2.2rem, 4.5vw, 3.6rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.06;
+}
+
+.home-subtitle {
+  max-width: 34rem;
+  margin: 0 0 1.8rem;
+  color: rgba(255, 255, 255, 0.72);
+  font-size: 1.05rem;
+  line-height: 1.65;
+}
+
+.home-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-bottom: 1.6rem;
+}
+
+.home-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  padding: 0.8rem 1.35rem;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.home-btn:hover {
+  transform: translateY(-1px);
+}
+
+.home-btn--primary {
+  background-color: #c20b0b;
+  color: #fff;
+}
+
+.home-btn--primary:hover,
+.home-btn--primary:focus {
+  background-color: #a50909;
+  color: #fff;
+}
+
+.home-btn--ghost {
+  border-color: rgba(255, 255, 255, 0.24);
+  background-color: transparent;
+  color: #fff;
+}
+
+.home-btn--ghost:hover,
+.home-btn--ghost:focus {
+  border-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.home-badges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-badges img {
+  display: block;
+  height: 20px;
+  opacity: 0.9;
+  transition: opacity 0.2s ease;
+}
+
+.home-badges a:hover img {
+  opacity: 1;
+}
+
+.home-terminal {
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 16px;
+  background-color: #0e0505;
+  box-shadow: 0 30px 70px rgba(0, 0, 0, 0.45);
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.home-terminal-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.7rem 0.9rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  background-color: rgba(255, 255, 255, 0.02);
+}
+
+.home-terminal-dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #4a2d2d;
+}
+
+.home-terminal-dot:first-child {
+  background-color: #c20b0b;
+}
+
+.home-terminal-label {
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.45);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.home-terminal-body {
+  margin: 0;
+  padding: 1.2rem 1.1rem;
+  overflow-x: hidden;
+  color: #f1e6e6;
+  font-size: 0.7rem;
+  line-height: 1.8;
+  white-space: pre-wrap;
+  overflow-wrap: break-word;
+}
+
+.home-prompt {
+  color: #ff6b6b;
+}
+
+.home-terminal-foot {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  padding: 0.75rem 1.1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.72rem;
+}
+
+.home-section {
+  padding: 5rem 0;
+}
+
+.home-why {
+  background-color: #faf8f6;
+}
+
+.home-why-intro {
+  position: sticky;
+  top: 96px;
+}
+
+.home-why-intro h2 {
+  margin: 0 0 1rem;
+  color: #1c1414;
+  font-size: clamp(1.9rem, 3.4vw, 2.8rem);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 1.1;
+}
+
+.home-why-intro .home-section-sub {
+  margin-top: 0;
+  max-width: 20rem;
+}
+
+.home-kicker--dark {
+  color: #8a7f7f;
+}
+
+.home-section h2 {
+  margin: 0 0 0.8rem;
+  color: #1c1414;
+  font-size: clamp(1.7rem, 3vw, 2.4rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+.home-section-sub {
+  margin: 0;
+  color: #6b6161;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.home-text-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin-top: 1.5rem;
+  color: #c20b0b;
+  font-size: 0.9rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: color 0.2s ease, gap 0.2s ease;
+}
+
+.home-text-link:hover {
+  gap: 0.65rem;
+  color: #a50909;
+}
+
+.home-why-list {
+  margin: 0;
+  padding: 0;
+  border-top: 1px solid #e7ded7;
+  list-style: none;
+}
+
+.home-why-item {
+  display: grid;
+  grid-template-columns: 3.5rem minmax(0, 1fr);
+  gap: 1rem;
+  padding: 1.55rem 0;
+  border-bottom: 1px solid #e7ded7;
+}
+
+.home-why.is-revealed .home-why-item {
+  animation: why-enter 0.5s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(1) {
+  animation-delay: 0.05s;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(2) {
+  animation-delay: 0.13s;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(3) {
+  animation-delay: 0.21s;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(4) {
+  animation-delay: 0.29s;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(5) {
+  animation-delay: 0.37s;
+}
+
+.home-why.is-revealed .home-why-item:nth-child(6) {
+  animation-delay: 0.45s;
+}
+
+.home-why-index {
+  padding-top: 0.2rem;
+  color: #c20b0b;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+}
+
+.home-why-body h3 {
+  margin: 0 0 0.35rem;
+  color: #1c1414;
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+.home-why-body p {
+  max-width: 40rem;
+  margin: 0;
+  color: #6b6161;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.home-community {
+  background-color: #150606;
+  color: #fff;
+}
+
+.home-community .home-kicker {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.home-community h2 {
+  color: #fff;
+}
+
+.home-section-sub--light {
+  max-width: 30rem;
+  margin-bottom: 1.7rem;
+  color: rgba(255, 255, 255, 0.68);
+}
+
+.home-discord-card {
+  display: flex;
+  align-items: center;
+  gap: 0.9rem;
+  max-width: 420px;
+  margin-top: 1.6rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
+  background-color: rgba(255, 255, 255, 0.04);
+  text-decoration: none !important;
+  transition: background-color 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+}
+
+.home-discord-card:hover {
+  transform: translateY(-1px);
+  border-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.home-discord-icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: #5865f2;
+  color: #fff;
+  font-size: 1.1rem;
+}
+
+.home-discord-copy {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+}
+
+.home-discord-copy strong {
+  color: #fff;
+  font-size: 0.92rem;
+}
+
+.home-discord-copy span {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 0.8rem;
+}
+
+.home-discord-arrow {
+  margin-left: auto;
+  color: rgba(255, 255, 255, 0.55);
+  font-size: 0.85rem;
+}
+
+.home-commits {
+  padding: 1.4rem 1.5rem;
+  border-radius: 16px;
+  background-color: #fff;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.3);
+  color: #1c1414;
+}
+
+.home-commits-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.4rem;
+  padding-bottom: 0.9rem;
+  border-bottom: 1px solid #eee6e0;
+}
+
+.home-commits-head h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.home-commits-head a {
+  color: #c20b0b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-commits-head a:hover {
+  color: #a50909;
+}
+
+.home-commits-list ul.github-commits-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.home-commits-list li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.65rem 0;
+  border-bottom: 1px solid #f1eae5;
+  color: #6b6161;
+  font-size: 0.82rem;
+  animation: commit-enter 0.45s cubic-bezier(0.22, 0.61, 0.36, 1) both;
+}
+
+.home-commits-list li:nth-child(1) {
+  animation-delay: 0.04s;
+}
+
+.home-commits-list li:nth-child(2) {
+  animation-delay: 0.09s;
+}
+
+.home-commits-list li:nth-child(3) {
+  animation-delay: 0.14s;
+}
+
+.home-commits-list li:nth-child(4) {
+  animation-delay: 0.19s;
+}
+
+.home-commits-list li:nth-child(5) {
+  animation-delay: 0.24s;
+}
+
+.home-commits-list li:nth-child(6) {
+  animation-delay: 0.29s;
+}
+
+.home-commits-list li:nth-child(7) {
+  animation-delay: 0.34s;
+}
+
+.home-commits-list li:nth-child(8) {
+  animation-delay: 0.39s;
+}
+
+.home-commits-list li:nth-child(9) {
+  animation-delay: 0.44s;
+}
+
+.home-commits-list li:nth-child(10) {
+  animation-delay: 0.49s;
+}
+
+.home-commits-list li:last-child {
+  border-bottom: 0;
+}
+
+.home-commits-list .github-avatar {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+}
+
+.home-commits-list .github-user {
+  color: #1c1414;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.home-commits-list .github-commit {
+  color: #3a3030;
+  text-decoration: none;
+}
+
+.home-commits-list .github-commit:hover {
+  color: #c20b0b;
+}
+
+@keyframes why-enter {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes commit-enter {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 991.98px) {
+  .home-hero {
+    padding: 120px 0 70px;
+  }
+
+  .home-terminal {
+    margin-top: 2.2rem;
+  }
+
+  .home-section {
+    padding: 3.5rem 0;
+  }
+
+  .home-why-intro {
+    position: static;
+    margin-bottom: 2rem;
+  }
+
+  .home-commits {
+    margin-top: 2rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .home-hero {
+    padding-top: 105px;
+  }
+
+  .home-subtitle {
+    font-size: 0.98rem;
+  }
+
+  .home-btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .home-why-item {
+    grid-template-columns: 2.4rem minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .home-hero-logo {
+    width: 60px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .home-btn,
+  .home-text-link,
+  .home-badges img {
+    transition: none;
+  }
+
+  .home-commits-list li {
+    animation: none;
+  }
+
+  .home-why .home-why-item {
+    opacity: 1;
+    animation: none;
+  }
+
+  .home-hero-logo {
+    animation: none;
+  }
+}
+

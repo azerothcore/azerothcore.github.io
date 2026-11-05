@@ -2,108 +2,341 @@
 layout: default
 ---
 
-    <div class="header">
-      <div class="container">
-        <img class="logo" src="images/logo.png" alt="AzerothCore logo">
-        <h1>AzerothCore</h1>
-        <p class="lead">Complete Open Source and Modular solution for MMO</p>
+<section class="home-hero">
+  <canvas class="home-particles" aria-hidden="true"></canvas>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-7">
+        <img
+          class="home-hero-logo"
+          src="{{ '/images/logo.png' | relative_url }}"
+          alt="AzerothCore"
+          width="72"
+          height="48"
+        />
+        <h1 class="home-title">AzerothCore</h1>
+        <p class="home-subtitle">Complete Open Source and Modular solution for MMO</p>
 
-        <a href="https://www.azerothcore.org/wiki/getting-started">
-          <button class="btn btn-lg btn-danger btn-getting-started">Getting Started <i class="fas fa-hand-holding-heart" aria-hidden="true"></i></button>
-        </a>
-
-        <a href="http://www.azerothcore.org/wiki/Installation">
-          <button class="btn btn-lg btn-danger btn-installation">Installation instructions <i class="fas fa-angle-right" aria-hidden="true"></i></button>
-        </a>
-
-        <div class="github-buttons">
-          <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml"><img alt="Github CI Core Status" src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml/badge.svg?branch=master"></a>
-          <a href="https://github.com/azerothcore/azerothcore-wotlk/"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/azerothcore/azerothcore-wotlk"></a>
-          <a href="https://github.com/azerothcore/azerothcore-wotlk/fork"><img alt="GitHub Repo forks" src="https://img.shields.io/github/forks/azerothcore/azerothcore-wotlk"></a>
-          <a href="https://github.com/azerothcore/azerothcore-wotlk/"><img alt="GitHub watchers" src="https://img.shields.io/github/watchers/azerothcore/azerothcore-wotlk"></a>
+        <div class="home-actions">
+          <a class="btn home-btn home-btn--primary" href="https://www.azerothcore.org/wiki/getting-started">
+            Getting Started <i class="fas fa-hand-holding-heart" aria-hidden="true"></i>
+          </a>
+          <a class="btn home-btn home-btn--ghost" href="http://www.azerothcore.org/wiki/Installation">
+            Installation instructions <i class="fas fa-angle-right" aria-hidden="true"></i>
+          </a>
         </div>
-      </div><!-- /.container -->
-    </div>
 
-    <div class="features">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fas fa-cubes"></i> Solid base</h3>
+        <ul class="home-badges" aria-label="Project status">
+          <li>
+            <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml">
+              <img
+                alt="Core build status"
+                src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml/badge.svg?branch=master"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/azerothcore/azerothcore-wotlk/">
+              <img alt="GitHub stars" src="https://img.shields.io/github/stars/azerothcore/azerothcore-wotlk" />
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/azerothcore/azerothcore-wotlk/fork">
+              <img alt="GitHub forks" src="https://img.shields.io/github/forks/azerothcore/azerothcore-wotlk" />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">
+              <img alt="License: GPLv2" src="https://img.shields.io/badge/license-GPLv2-c20b0b" />
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="col-lg-5">
+        <div class="home-terminal" aria-label="Quick start commands">
+          <div class="home-terminal-bar">
+            <span class="home-terminal-dot"></span>
+            <span class="home-terminal-dot"></span>
+            <span class="home-terminal-dot"></span>
+            <span class="home-terminal-label">quick start</span>
+          </div>
+          <pre class="home-terminal-body"><code><span class="home-prompt">$</span> git clone https://github.com/<wbr>azerothcore/<wbr>azerothcore-wotlk.git
+<span class="home-prompt">$</span> cd azerothcore-wotlk
+<span class="home-prompt">$</span> ./acore.sh docker build</code></pre>
+          <div class="home-terminal-foot">
+            <span><i class="fab fa-linux" aria-hidden="true"></i> Linux</span>
+            <span><i class="fab fa-windows" aria-hidden="true"></i> Windows</span>
+            <span><i class="fab fa-apple" aria-hidden="true"></i> macOS</span>
+            <span><i class="fab fa-docker" aria-hidden="true"></i> Docker</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="home-section home-why" id="why">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4">
+        <div class="home-why-intro">
+          <h2>Features</h2>
+          <p class="home-section-sub">
+            AzerothCore is a complete Open Source and Modular solution for MMO development.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-lg-8">
+        <ol class="home-why-list">
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">01</span>
+            <div class="home-why-body">
+              <h3>Solid base</h3>
               <p>
-                AzerothCore has a strong and solid base, coming from years of development: it is based on MaNGOS, TrinityCore and SunwellCore.<br>
-                We're improving this reliability with continuous development and strict rules to get code merged into the master branch.
+                AzerothCore has a strong and solid base, coming from years of development: it is based on MaNGOS,
+                TrinityCore and SunwellCore. We're improving this reliability with continuous development and strict rules
+                to get code merged into the master branch.
               </p>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fas fa-gamepad"></i> Stability</h3>
-              <p>We ensure all changes pass the CIs before merging into the master branch. We are committed to delivering high-quality, authentic game content. To achieve this, we maintain strict standards for all fixes and contributions.</p>
-              <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml"><img alt="Github CI Core Status" src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/core-build-nopch.yml/badge.svg?branch=master"></a>
-              <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/windows_build.yml"><img alt="Github CI Windows Status" src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/windows_build.yml/badge.svg"></a>
-              <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/macos_build.yml"><img alt="Github CI Mac Status" src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/macos_build.yml/badge.svg"></a>
-              <a href="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/docker_build.yml"><img alt="Github CI Docker Status" src="https://github.com/azerothcore/azerothcore-wotlk/actions/workflows/docker_build.yml/badge.svg"></a>
+          </li>
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">02</span>
+            <div class="home-why-body">
+              <h3>Stability</h3>
+              <p>
+                We ensure all changes pass the CIs before merging into the master branch. We are committed to delivering
+                high-quality, authentic game content. To achieve this, we maintain strict standards for all fixes and
+                contributions.
+              </p>
             </div>
-          </div>
-          <div class="clearfix hidden-lg"></div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fab fa-github"></i> Open Source</h3>
-              <p>AzerothCore is an open-source software released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPLv2 license</a> and built on the principles of software freedom.</p>
+          </li>
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">03</span>
+            <div class="home-why-body">
+              <h3>Open Source</h3>
+              <p>
+                AzerothCore is an open-source software released under the
+                <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html">GNU GPLv2 license</a> and built on the
+                principles of software freedom.
+              </p>
             </div>
-          </div>
-          <div class="clearfix visible-lg"></div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fas fa-check-circle" aria-hidden="true"></i> Production-ready</h3>
-              <p>AzerothCore is production ready and actively used by many players worldwide. Its stability and reliability come from real use in live environments and continuous community contributions.</p>
+          </li>
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">04</span>
+            <div class="home-why-body">
+              <h3>Production-ready</h3>
+              <p>
+                AzerothCore is production ready and actively used by many players worldwide. Its stability and reliability
+                come from real use in live environments and continuous community contributions.
+              </p>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fas fa-users"></i> Community driven</h3>
-              <p>AzerothCore has an active community of developers, contributors, and users who collaborate, share knowledge, and provide support through forums, Discord channels, and other communication platforms. If you want to <a href="http://www.azerothcore.org/wiki/Contribute">contribute</a>, we'd love it!</p>
+          </li>
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">05</span>
+            <div class="home-why-body">
+              <h3>Community driven</h3>
+              <p>
+                AzerothCore has an active community of developers, contributors, and users who collaborate, share
+                knowledge, and provide support through forums, Discord channels, and other communication platforms. If you
+                want to <a href="https://www.azerothcore.org/wiki/Contribute">contribute</a>, we'd love it!
+              </p>
             </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <h3><i class="fas fa-cogs"></i> Customization</h3>
-              <p>AzerothCore is designed to be highly modular, allowing developers to extend and customize the game to suit their preferences or create unique gameplay experiences. This flexibility enables the addition of custom features, content, and modifications. <a href="http://www.azerothcore.org/wiki/The-Modular-Structure">Read More...</a></p>
+          </li>
+          <li class="home-why-item">
+            <span class="home-why-index" aria-hidden="true">06</span>
+            <div class="home-why-body">
+              <h3>Customization</h3>
+              <p>
+                AzerothCore is designed to be highly modular, allowing developers to extend and customize the game to suit
+                their preferences or create unique gameplay experiences. This flexibility enables the addition of custom
+                features, content, and modifications.
+                <a href="https://www.azerothcore.org/wiki/the-modular-structure">Read More...</a>
+              </p>
             </div>
-          </div>
-        </div>
-
-        <br>
-        <hr>
-        <div class="row text-center">
-          <div class="col-lg-4 col-sm-6">
-            <h2>Join Discord!</h2>
-            <iframe src="https://discordapp.com/widget?id=217589275766685707&amp;theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
-          </div>
-          <div class="col-lg-8 col-sm-6">
-            <h2>Latest GitHub commits</h2>
-            <div id="commits" class="text-left"></div>
-            <p class="text-right"><a class="btn btn-default" href="https://github.com/azerothcore/azerothcore-wotlk/commits/master" role="button"> <i class="fab fa-github"></i> &nbsp;View details &raquo;</a></p>
-          </div>
-        </div>
-
-      </div><!-- /.container -->
+          </li>
+        </ol>
+      </div>
     </div>
+  </div>
+</section>
 
-    <script src="{{ '/javascripts/githubinfowidget.js' | relative_url }}"></script>
-    <script>
-      $(function() {
-        $('#commits').githubInfoWidget(
-          { user: 'azerothcore', repo: 'azerothcore-wotlk', branch: 'master', last: 10, limitMessageTo: 60 });
+<section class="home-section home-community">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-lg-5">
+        <h2>Join Discord!</h2>
 
-        $('.chat_head').click(function(){
-          $('.chat_body').slideToggle('slow');
+        <a class="home-discord-card" href="https://discord.gg/gkt4y2x">
+          <span class="home-discord-icon"><i class="fab fa-discord" aria-hidden="true"></i></span>
+          <span class="home-discord-copy">
+            <strong>AzerothCore on Discord</strong>
+            <span>Support, development and server showcases.</span>
+          </span>
+          <i class="fas fa-arrow-right home-discord-arrow" aria-hidden="true"></i>
+        </a>
+      </div>
+
+      <div class="col-lg-7">
+        <div class="home-commits">
+          <div class="home-commits-head">
+            <h3>Latest GitHub commits</h3>
+            <a href="https://github.com/azerothcore/azerothcore-wotlk/commits/master">
+              View details » <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+            </a>
+          </div>
+          <div id="commits" class="home-commits-list"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="{{ '/javascripts/githubinfowidget.js' | relative_url }}"></script>
+<script>
+  $(function () {
+    $('#commits').githubInfoWidget({
+      user: 'azerothcore',
+      repo: 'azerothcore-wotlk',
+      branch: 'master',
+      last: 10,
+      limitMessageTo: 60,
+    });
+
+    $('.chat_head').click(function () {
+      $('.chat_body').slideToggle('slow');
+    });
+
+    $('.close').click(function () {
+      $('.msg_box').hide();
+    });
+  });
+</script>
+
+<script>
+  (function () {
+    var section = document.getElementById('why');
+    if (!section || !('IntersectionObserver' in window)) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var observer = new IntersectionObserver(
+      function (entries) {
+        entries.forEach(function (entry) {
+          if (!entry.isIntersecting) return;
+          section.classList.add('is-revealed');
+          observer.disconnect();
         });
-        
-        $('.close').click(function(){
-          $('.msg_box').hide();
+      },
+      { threshold: 0, rootMargin: '0px 0px -40% 0px' }
+    );
+
+    observer.observe(section);
+  })();
+</script>
+
+<script>
+  (function () {
+    var hero = document.querySelector('.home-hero');
+    var canvas = hero && hero.querySelector('.home-particles');
+    if (!hero || !canvas || !canvas.getContext) return;
+    if (window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    var ctx = canvas.getContext('2d');
+    var dpr = Math.min(window.devicePixelRatio || 1, 2);
+    var width = 0;
+    var height = 0;
+    var particles = [];
+    var frame = null;
+    var running = false;
+
+    function seed() {
+      var count = Math.round(Math.min(80, Math.max(30, width / 18)));
+      particles = [];
+
+      for (var i = 0; i < count; i += 1) {
+        particles.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          r: Math.random() * 1.5 + 0.6,
+          vx: (Math.random() - 0.5) * 0.16,
+          vy: -(Math.random() * 0.32 + 0.08),
+          alpha: Math.random() * 0.32 + 0.1,
+          red: Math.random() < 0.35,
+          phase: Math.random() * Math.PI * 2,
         });
-      });
-    </script>
+      }
+    }
+
+    function resize() {
+      width = hero.clientWidth;
+      height = hero.clientHeight;
+      canvas.width = Math.floor(width * dpr);
+      canvas.height = Math.floor(height * dpr);
+      canvas.style.width = width + 'px';
+      canvas.style.height = height + 'px';
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      seed();
+    }
+
+    function draw(time) {
+      ctx.clearRect(0, 0, width, height);
+
+      for (var i = 0; i < particles.length; i += 1) {
+        var p = particles[i];
+        p.x += p.vx + Math.sin(time / 3200 + p.phase) * 0.05;
+        p.y += p.vy;
+
+        if (p.y < -8) {
+          p.y = height + 8;
+          p.x = Math.random() * width;
+        }
+
+        if (p.x < -8) {
+          p.x = width + 8;
+        } else if (p.x > width + 8) {
+          p.x = -8;
+        }
+
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
+        ctx.fillStyle = p.red ? 'rgba(224, 49, 49, ' + p.alpha + ')' : 'rgba(255, 255, 255, ' + p.alpha + ')';
+        ctx.fill();
+      }
+
+      frame = window.requestAnimationFrame(draw);
+    }
+
+    function start() {
+      if (running) return;
+      running = true;
+      frame = window.requestAnimationFrame(draw);
+    }
+
+    function stop() {
+      running = false;
+      if (frame) window.cancelAnimationFrame(frame);
+      frame = null;
+    }
+
+    resize();
+    window.addEventListener('resize', resize);
+
+    if ('IntersectionObserver' in window) {
+      new IntersectionObserver(
+        function (entries) {
+          if (entries[0].isIntersecting) start();
+          else stop();
+        },
+        { threshold: 0 }
+      ).observe(hero);
+    } else {
+      start();
+    }
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stop();
+      else start();
+    });
+  })();
+</script>
