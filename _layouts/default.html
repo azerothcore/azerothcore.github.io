@@ -207,15 +207,60 @@
           Website <a href="https://github.com/azerothcore/azerothcore.github.io/graphs/contributors">Contributors</a>
         </p>
       </div>
-      <div class="chat_box">
-        <div class="chat_head">Join Discord!</div>
-        <div class="chat_body" style="display: none;">
-          <iframe src="https://discordapp.com/widget?id=217589275766685707&theme=dark" width="350" height="500" allowtransparency="true" frameborder="0"></iframe>
+      <div class="chat_box" id="discord-widget">
+        <button class="chat_head" type="button" aria-expanded="false" aria-controls="discord-widget-panel">
+          <i class="fab fa-discord" aria-hidden="true"></i>
+          <span class="chat_head-label">Join Discord!</span>
+        </button>
+        <div class="chat_body" id="discord-widget-panel" hidden>
+          <button class="chat_close" type="button" aria-label="Close Discord widget">
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
+          <iframe
+            src="https://discordapp.com/widget?id=217589275766685707&theme=dark"
+            width="350"
+            height="500"
+            loading="lazy"
+            allowtransparency="true"
+            frameborder="0"
+            title="AzerothCore Discord"
+          ></iframe>
         </div>
       </div>
     </div><!-- /.container -->
 
     <script src="{{ '/javascripts/main.js' | relative_url }}"></script>
+
+    <script>
+      (function () {
+        var widget = document.getElementById('discord-widget');
+        if (!widget) return;
+
+        var head = widget.querySelector('.chat_head');
+        var panel = widget.querySelector('.chat_body');
+        var close = widget.querySelector('.chat_close');
+
+        function setOpen(open) {
+          widget.classList.toggle('is-open', open);
+          head.setAttribute('aria-expanded', String(open));
+          panel.hidden = !open;
+        }
+
+        head.addEventListener('click', function () {
+          setOpen(!widget.classList.contains('is-open'));
+        });
+
+        if (close) {
+          close.addEventListener('click', function () {
+            setOpen(false);
+          });
+        }
+
+        document.addEventListener('keydown', function (event) {
+          if (event.key === 'Escape' && widget.classList.contains('is-open')) setOpen(false);
+        });
+      })();
+    </script>
 
     <!--<script>
       ((window.gitter = {}).chat = {}).options = {
