@@ -210,6 +210,9 @@
           <span class="chat_head-label">Join Discord!</span>
         </button>
         <div class="chat_body" id="discord-widget-panel" hidden>
+          <button class="chat_close" type="button" aria-label="Close Discord widget">
+            <i class="fas fa-times" aria-hidden="true"></i>
+          </button>
           <iframe
             src="https://discordapp.com/widget?id=217589275766685707&theme=dark"
             width="350"
@@ -232,6 +235,7 @@
 
         var head = widget.querySelector('.chat_head');
         var panel = widget.querySelector('.chat_body');
+        var close = widget.querySelector('.chat_close');
 
         function setOpen(open) {
           widget.classList.toggle('is-open', open);
@@ -242,6 +246,12 @@
         head.addEventListener('click', function () {
           setOpen(!widget.classList.contains('is-open'));
         });
+
+        if (close) {
+          close.addEventListener('click', function () {
+            setOpen(false);
+          });
+        }
 
         document.addEventListener('keydown', function (event) {
           if (event.key === 'Escape' && widget.classList.contains('is-open')) setOpen(false);
